@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>¿Cuánta Energía Necesitamos? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="¿Cuánta Energía Necesitamos?" />
+<meta name="twitter:title" content="¿Cuánta Energía Necesitamos?"/>
+
+<meta property="og:description" content="Los investigadores han calculado los niveles mínimos de energía necesarios para vivir una vida decente, pero ¿qué pasa con los niveles máximos?" />
+
+<meta name="twitter:description" content="Los investigadores han calculado los niveles mínimos de energía necesarios para vivir una vida decente, pero ¿qué pasa con los niveles máximos?"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/es/2018/01/how-much-energy-do-we-need/" />
+
+
+
+<meta property="og:image" itemprop="image" content="/es/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png" />
+<meta property="og:image:secure_url" content="/es/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/es/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-01-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-11-22T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy demand" />
+
+</head>
+<body id="cu%C3%A1nta-energ%C3%ADa-necesitamos">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" es/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				¿Cuánta Energía Necesitamos?</h1>
+
+				<p class="summary">
+					Los investigadores han calculado los niveles mínimos de energía necesarios para vivir una vida decente, pero ¿qué pasa con los niveles máximos?
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">24 de enero de 2018</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="/es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="/es/translators/aliana-bertolo/">Aliana Bertolo</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="/2018/01/how-much-energy-do-we-need/">en</a>
+						
+							<a href="/fr/2018/01/how-much-energy-do-we-need/">fr</a>
+						
+							<a href="/de/2018/01/how-much-energy-do-we-need/">de</a>
+						
+							<a href="/nl/2018/01/how-much-energy-do-we-need/">nl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png" alt='Image: Azuri Technologies' data-original="/es/2018/01/how-much-energy-do-we-need/images/azuri-technologies_hu4f587cb64147cc7f4b45355def212c1f_163655_800x800_fit_q90_h2_box.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Azuri Technologies</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>A causa de que la energía impulsa tanto el desarrollo humano como el deterioro ambiental, las políticas que fomentan la reducción de la demanda de energía pueden ir en contra de las políticas para aliviar la pobreza, y viceversa. Lograr ambos objetivos solo puede suceder si el uso de la energía se distribuyera más equitativamente entre las sociedades.</p>
+<p>Sin embargo, si bien se reconoce ampliamente que parte de la población mundial vive en “pobreza energética”, se presta poca atención a la condición opuesta: el “exceso de energía” o “decadencia de la energía”. Los investigadores han calculado los niveles mínimos de energía necesarios para vivir una vida decente, pero ¿qué pasa con los niveles máximos?</p>
+<h2 id="uso-de-energía-per-cápita">Uso de energía per cápita</h2>
+<p>La humanidad necesita reducir radicalmente su uso de energía si queremos evitar el emperamiento del cambio climático, el agotamiento de los recursos no renovables y la destrucción del medio ambiente natural del que depende nuestra supervivencia. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Los objetivos de reducción de emisiones de carbono y uso de energía generalmente se enmarcan en términos de reducciones porcentuales nacionales e internacionales, pero el uso de energía per cápita varía enormemente entre países y dentro de ellos, sin importar cómo estos datos se calculen. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Si dividimos el consumo total de energía primaria de un país por su población, vemos que el norteamericano promedio usa más del doble de la energía del europeo promedio (6.881 kgep frente a 3.207 kgep, es decir, <em>kg de equivalente de petróleo</em>). Dentro de Europa, el noruego promedio (5,818 kgep) usa casi tres veces más energía que el griego promedio (2,182 kgep). Este último consume de tres a cinco veces más energía que el angoleño promedio (545 kgep), camboyano (417 kgep) o nicaragüense (609 kgep), que usa entre dos y tres veces la energía del promedio de Bangladesh (222 kgep). <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Estas cifras incluyen no solo la energía utilizada directamente en los hogares, sino también la energía utilizada en el transporte, la fabricación, la producción de energía y otros sectores. Este cálculo tiene más sentido que el cálculo aislado por hogar, porque las personas consumen mucha más energía fuera de sus hogares, como por ejemplo, a través de los productos que compran. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/average-energy-use-per-capita-per-year-2014-worldwide_dithered.png" alt='Gráfica: Uso promedio de energía per cápita por año en Kg equivalente de petróleo.' data-original="/es/2018/01/how-much-energy-do-we-need/images/average-energy-use-per-capita-per-year-2014-worldwide_hu6c68963a64d01ac29088706a1cfb9d3a_423781_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/average-energy-use-per-capita-per-year-2014-worldwide_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Gráfica: Uso promedio de energía per cápita por año en Kg equivalente de petróleo.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El cálculo ‘basado en la producción’ no es perfecto, porque los países con alto consumo de energía per cápita a menudo importan una gran cantidad de productos manufacturados de países con un menor consumo de energía per cápita. La energía utilizada en la producción de estos bienes se atribuye a los países exportadores, lo que significa que el uso de energía per cápita en los países más “desarrollados” es una subestimación.</p>
+<p>Conocer la distribución del uso de energía dentro de los países requiere datos con mayor resolución espacial. Por ejemplo, un análisis de las variaciones en el consumo de energía en los hogares (electricidad y gas) y el uso de energía en el transporte privado en el Reino Unido muestra que el uso promedio de energía per cápita puede variar cinco veces según el área. <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Teniendo en cuenta las diferencias entre países y dentro de ellos, así como la subcontratación de fabricación (un cálculo basado en el consumo), los usuarios de energía más altos del mundo contribuyen con 1,000 veces más emisiones de carbono que los usuarios de energía más bajos. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>La desigualdad no solo concierne a la cantidad de energía, sino también a su calidad. Personas en países industrializados tienen acceso a un suministro de electricidad y gas confiable, limpio y (al parecer) interminable. Por otro lado, dos de cada cinco personas en todo el mundo (3 mil millones de personas) dependen de la madera, el carbón o estiércol para cocinar sus alimentos, y 1.500 millones de ellos no tienen luz eléctrica. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>Estos combustibles causan contaminación del aire interior y pueden requerir mucho tiempo y mano de obra para conseguirse. Si los combustibles modernos están disponibles en estos países, a menudo son caros y / o menos confiables.</p>
+<h2 id="más-allá-de-la-pobreza-energética-decadencia-de-la-energía">Más allá de la pobreza energética: decadencia de la energía</h2>
+<p>Actualmente se reconoce que estos 3 mil millones de personas de países en desarrollo viven en “pobreza energética”. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> En 2011, las Naciones Unidas y el Banco Mundial lanzaron la iniciativa: Sustainable energy for all (<em>Energía Sostenible para Todos</em>) (SE4ALL), que apunta a “garantizar el acceso universal a los servicios energéticos modernos” para 2030. La pobreza energética también ha llamado la atención en los países desarrollados, donde esta se centra principalmente en la calefacción inadecuada de los espacios.</p>
+<p>Un estudio de 2015 encontró que hasta 54 millones de europeos no pueden calefaccionar adecuadamente sus hogares en invierno. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> La Comisión Europea lanzó el Observatorio de la Pobreza Energética en 2017, que realizará investigaciones y proporcionará directrices a los gobiernos nacionales para establecer medidas con el objetivo de abordar la pobreza energética. <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<blockquote>
+<p>Llevar al resto del mundo al nivel de vida y al consumo de energía de los países ricos no es compatible con los problemas ambientales que enfrentamos.</p>
+</blockquote>
+<p>Si bien se reconoce que una parte de la población mundial no está utilizando suficiente energía, no existe la misma discusión sobre las personas que consumen demasiada energía. <sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Sin embargo, para resolver la tensión entre la reducción de la demanda de energía y la pobreza energética es necesario que quienes usan “demasiado” reduzcan su consumo de energía.</p>
+<p>Llevar al resto del mundo al nivel de vida y al consumo de energía de los países ricos -el objetivo implícito del “desarrollo humano” – resolvería el problema de la desigualdad, pero no es compatible con los problemas ambientales que enfrentamos.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/the-panos-network_dithered.png" alt='Imagen: The Panos Network.' data-original="/es/2018/01/how-much-energy-do-we-need/images/the-panos-network_hu4efbaf7785fdc5f38746db0329f7675f_20646_800x800_fit_q90_h2_box.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/the-panos-network_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: The Panos Network.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Según las cifras proporcionadas anteriormente, si cada ser humano en la Tierra utilizara tanta energía como el promedio de Europa occidental o América del Norte, el uso total de energía en el mundo y las emisiones de carbono serían por lo menos de dos a cuatro veces mayores que en la actualidad. Esto es una subestimación, porque para lograr los mismos niveles de vida, los países en desarrollo primero necesitarían construir una infraestructura (caminos, redes eléctricas, etcétera), lo que también requieriría mucha energía. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>En consecuencia, aunque se ha trabajado mucho en torno a la pobreza energética, existe un debate paralelo sobre la “decadencia de la energía” o el “exceso de energía”. <sup id="fnref3:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> La búsqueda de la ‘suficiencia energética’ -un nivel de uso de energía que sea justo y sostenible- debe incluir no solo los mínimos (suficientes para un propósito necesario) sino también los máximos (demasiado para la seguridad y el bienestar, a corto o largo plazo). <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> De lo contrario, estaríamos hipotecando la salud de las generaciones futuras para obtener las ganancias del desarrollo en el presente. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<h2 id="cálculo-de-mínimos-y-máximos">Cálculo de mínimos y máximos</h2>
+<p>¿Cómo definir la decadencia de energía? ¿Cuánto es ‘demasiado’ cuando se habla de consumo de energía? En gran medida, podemos basarnos en décadas de investigación sobre la pobreza energética, que ha medido los componentes de un nivel de vida mínimo aceptable. <sup id="fnref1:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> Por ejemplo, el Millenium Project (Proyecto Milenio) del Programa de Desarrollo de la ONU establece un nivel mínimo de 500 kg por persona por año, una cantidad de energía casi cuatro veces inferior al promedio mundial. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<p>Algunos investigadores han abordado la decadencia de energía de una manera similar, calculando un nivel de vida máximo aceptable. Por ejemplo, <em>Swiss Federal Institute of Technology</em> (Instituto Federal de Tecnología de Suiza) propuso la <em>Sociedad de 2.000 vatios</em>, que implica un consumo de energía per cápita mundial de 1.500 kgoe por año, mientras que la propuesta de <em>Contracción y Convergencia</em> del <em>Instituto Global de Comunicaciones</em> limita el uso de energía a 1.255 kgep por persona y año. <sup id="fnref1:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref1:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> Estos niveles de consumo de energía per cápita corresponden hoy a una reducción del 20-35% por debajo del promedio mundial actual.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/average-energy-use-per-capita-per-year-including-sufficiency-scenarios_dithered.png" alt='Gráfica: Uso de energía per cápita por año en Kgep. Datos del Banco Mundial, 2000.' data-original="/es/2018/01/how-much-energy-do-we-need/images/_hufb52aac7765c9afbf4f7a7fdbf16f36a_174503_d60a137477a0fa105ec7bac5f022818e.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/average-energy-use-per-capita-per-year-including-sufficiency-scenarios_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Gráfica: Uso de energía per cápita por año en Kgep. Datos del Banco Mundial, 2000.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Debido a que la investigación de la pobreza energética solo investiga los mínimos y no los máximos de uso de energía, los niveles mínimos de energía se calculan de abajo hacia arriba. Los investigadores investigan cuánta energía se requiere para vivir una vida decente, en base a un conjunto de bienes y servicios que se consideran esenciales. Por otro lado, los niveles máximos de energía, por encima de los cuales el consumo de energía se considera excesivo e insostenible, se calculan de arriba hacia abajo.</p>
+<p>Los investigadores determinan un nivel “seguro” de consumo de energía global basado en algún indicador de la capacidad de carga del planeta, como por ejemplo un nivel de emisiones de carbono que se cree mantiene el calentamiento global dentro de ciertos límites, y lo divide por la población mundial. Entre el límite superior establecido por la capacidad de carga del planeta, y el límite inferior establecido por niveles decentes de bienestar para todos, se encuentra una zona donde el uso de energía es considerado sostenible, situada en algún lugar entre la pobreza energética y la decadencia energética. <sup id="fnref2:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>Estos límites no solo implican que los ricos en energía deban reducir su uso de energía, sino también que los pobres en energía no aumenten demasiado su consumo. Sin embargo, no hay garantía de que los niveles máximos sean de hecho más altos que los niveles mínimos.</p>
+<blockquote>
+<p>Entre el límite superior establecido por la capacidad de carga del planeta, y el límite inferior establecido por niveles decentes de bienestar para todos, se encuentra una zona de uso sostenible de la energía.</p>
+</blockquote>
+<p>Queda por ver si cuando se calcula un nivel mínimo de consumo de energía de abajo hacia arriba, se puede mantener sin destruir el medio ambiente. Por otro lado, si se calcula un nivel máximo de consumo de energía per cápita de arriba hacia abajo, queda por ver si este nivel “seguro” de consumo de energía es suficiente para llevar una vida decente. Si el ‘piso’ es más alto que el ‘techo’, la conclusión sería que el bienestar sostenible para todos es simplemente imposible.</p>
+<p>Para empeorar las cosas, definir niveles mínimos y máximos está plagado de dificultades. Por un lado, la capacidad de carga del planeta no está definida. Al calcular de arriba hacia abajo, no hay acuerdo si esta se trata de una concentración segura de carbono en la atmósfera, las reservas de combustibles fósiles restantes, las mediciones del daño ecológico o el impacto de energía renovable, avances en la eficiencia energética y crecimiento de la población. Por otro lado, para aquellos que adoptan un enfoque ascendente, definir lo que constituye una vida “decente” está sujeto a debate.</p>
+<h2 id="necesidades-y-deseos">Necesidades y deseos</h2>
+<p>Los niveles mínimos y máximos de consumo de energía mencionados anteriormente se suponen universales: todos los ciudadanos del mundo tienen derecho a la misma cantidad de energía. Sin embargo, aunque distribuir el uso de la energía de manera equitativa para la población mundial puede parecer justo, de hecho es lo contrario.</p>
+<p>La cantidad de energía que las personas “necesitan” no depende solo de ellos. También depende del clima (las personas que viven en climas fríos necesitarán más energía para calefacción que las que viven en climas cálidos), la cultura (el uso de aire acondicionado en los EE. UU. frente a la siesta en el sur de Europa) y la infraestructura (ciudades que carecen de transporte público e instalaciones de ciclismo obligan a las personas usar más automóviles).</p>
+<p>Las diferencias en eficiencia energética también pueden tener un impacto significativo en la “necesidad” de energía. Por ejemplo, una estufa tradicional de tres piedras es menos eficiente que una cocina de gas moderna, lo que significa que el uso de esta último requiere menos energía para cocinar una comida similar.</p>
+<p>No solo los electrodomésticos determinan cuánta energía se necesita, sino también la infraestructura: si la producción y transmisión de electricidad tienen una eficiencia relativamente baja, las personas necesitan de más energía primaria, incluso si usan la misma cantidad de electricidad en el hogar.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/off-grid-electric_dithered.png" alt='Imagen: Off-Grid Electric' data-original="/es/2018/01/how-much-energy-do-we-need/images/off-grid-electric_hu18b9f11ae7c93d8bbd43832287d69d26_630360_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/off-grid-electric_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: <a href="http://offgrid-electric.com/#home" target="_blank" >Off-Grid Electric</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Para tener en cuenta todas estas diferencias, la mayoría de los investigadores abordan el diagnóstico de la pobreza energética centrándose en los “servicios de energía” y no en un nivel particular de consumo de energía. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Las personas no demandan energía ni combustible en sí mismas; lo que necesitan son los servicios que la energía brinda. Por ejemplo, cuando se trata de iluminación, las personas no necesitan una determinada cantidad de energía, sino un nivel adecuado de luz según lo que estén haciendo.</p>
+<p>Un ejemplo de este enfoque basado en servicios es el indicador Acceso de energía total (TEA) de la ONG Practical Action, lanzado en 2010. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> La TEA mide hogares en países en desarrollo contra estándares de servicios mínimos prescritos para iluminación, cocina y calentamiento de agua, calefacción de espacios, refrigeración de alimentos y espacio, y servicios de información y comunicación. Por ejemplo, el nivel mínimo para la iluminación en los hogares es de 300 lúmenes, y Practical Action proporciona estándares similares para otros servicios de energía, no solo en los hogares, sino también en entornos de trabajo y edificios comunitarios.</p>
+<blockquote>
+<p>Las necesidades son universales, objetivas, no sustituibles, intergeneracionales y saciables. Los deseos son subjetivos, evolucionan a lo largo del tiempo, son individuales, sustituibles e insaciables.</p>
+</blockquote>
+<p>Algunos indicadores de pobreza energética van un paso más allá. No especifican los servicios de energía, sino las necesidades o capacidades humanas básicas (teóricamente). De este modo, las necesidades o capacidades básicas se consideran universales, pero los medios para lograrlas dependen del ámbito geográfico y cultural. <sup id="fnref2:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref2:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>El enfoque de estos indicadores basados en las necesidades está en la medición de las condiciones del bienestar humano, más que en la especificación de los requisitos para lograr estos resultados. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> Ejemplos de las necesidades básicas humanas son agua limpia y nutrición, refugio, confort térmico, un entorno no amenazante, relaciones interpersonales significativas, educación y atención médica.</p>
+<p>Las necesidades básicas se consideran universales, objetivas, no sustituibles (por ejemplo, la ingesta insuficiente de alimentos no se puede resolver aumentando el espacio de la vivienda, o viceversa), intergeneracionales (las necesidades básicas de las generaciones futuras serán las mismas que las generaciones actuales), y saciable (se puede saciar la necesidad de ingerir agua, calorías o tener un espacio para vivienda, las cuales son consideradas necesidades básicas).</p>
+<p>Esto significa que los umbrales pueden concebirse donde se evitan daños graves. Las “necesidades” pueden distinguirse de los “deseos”, ya que estos últimos son subjetivos, evolucionan a lo largo del tiempo, son individuales, sustituibles e insaciables. Centrarse en las necesidades básicas de esta manera hace posible distinguir entre “necesidades” y “lujos”, y argumentar que las necesidades humanas, presentes y futuras, prevalecen sobre los “deseos” presentes y futuros. <sup id="fnref3:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref3:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<h2 id="diferencias-a-través-del-tiempo-aumento-de-la-dependencia-a-la-energía">Diferencias a través del tiempo: aumento de la dependencia a la energía</h2>
+<p>Centrarse en los servicios de energía o las necesidades básicas puede ayudar a determinar los niveles máximos de uso de energía. En lugar de definir los niveles mínimos de servicio de energía (como 300 lúmenes de luz por hogar), podríamos definir niveles máximos de servicios de energía (digamos 2,000 lúmenes de luz por hogar). Estos niveles de servicio de energía podrían combinarse para calcular los niveles máximos de uso de energía per cápita u hogar.</p>
+<p>Sin embargo, estos solo serían válidos en contextos geográficos y culturales específicos, como países, ciudades o vecindarios, y no serían de aplicación universal. Del mismo modo, podríamos definir las necesidades básicas y luego calcular la energía que se requiere para satisfacerlas en un contexto específico.</p>
+<p>Sin embargo, el enfoque en los servicios de energía o las necesidades básicas también revela un problema fundamental. Si los bienes y servicios necesarios para una vida decente y libre de pobreza no se consideran aplicables universalmente, sino que se relacionan con los estándares y costumbres prevalecientes de una sociedad en particular, resulta claro que dichos estándares evolucionan con el tiempo así como lo hace la tecnología y los modos de vida consuetudinarios. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>Los cambios a lo largo del tiempo, especialmente desde el siglo XX, revelan una escalada en las convenciones y normas que resultan en un mayor consumo de energía. Los “satisfactores de la necesidad” se han vuelto cada vez más intensivos en energía, lo que ha hecho que satisfacer las necesidades básicas sea tan problemático como satisfacer los “deseos”.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/average-energy-use-per-capita-historical_dithered.png" alt='Gráfico: Consumo promedio de energía per cápita por año (Kg de equivalente de petroleo)' data-original="/es/2018/01/how-much-energy-do-we-need/images/average-energy-use-per-capita-historical_hu6c68963a64d01ac29088706a1cfb9d3a_515317_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/average-energy-use-per-capita-historical_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Gráfico: Consumo promedio de energía per cápita por año (Kg de equivalente de petroleo)</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Investigación sobre la pobreza energética en los países industriales muestra que el nivel mínimo de energía requerido para satisfacer las necesidades básicas está en constante aumento. <sup id="fnref2:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> Lo que es suficiente hoy no es necesariamente suficiente mañana. Por ejemplo, varios productos de consumo que no existían en la década de 1980, como teléfonos móviles, computadoras personales y acceso al Internet, fueron vistos como necesidades absolutas por el 40-41% del público del Reino Unido en 2012. <sup id="fnref1:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<blockquote>
+<p>Actualmente en el mundo industrial, incluso los “pobres en energía” viven por encima de la capacidad de carga del planeta.</p>
+</blockquote>
+<p>Otras tecnologías, que ahora se consideran requisitos mínimos han pasado por una evolución similar. Por ejemplo, la calefacción central y las duchas diarias con agua caliente tienen solo unas pocas décadas de antigüedad, pero ahora la mayoría de las personas en los países industrializados consideran que estas tecnologías son una necesidad esencial. <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> De hecho, actualmente en el mundo industrial, incluso los “pobres en energía” viven por encima de la capacidad de carga del planeta.</p>
+<p>Por ejemplo, si toda la población del Reino Unido viviera de acuerdo con el presupuesto de energía mínimo que se ha determinado las emisiones per cápita (basadas en el consumo) solo disminuirían de 11.8 a 7.3 toneladas por persona, mientras que el objetivo del Programa de las Naciones Unidas para el Desarrollo de limitar el aumento en la temperatura mundial promedio es menos de dos toneladas de carbono por persona por año. <sup id="fnref4:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> En resumen, el mínimo es tres veces más alto que el máximo.</p>
+<h2 id="desafiando-las-necesidades-y-los-deseos">Desafiando las necesidades y los deseos</h2>
+<p>“Al equiparar lo que se ‘requiere’ con lo que es ‘normal&rsquo;”, escriben investigadores de pobreza energética del Reino Unido, “apoyamos activamente las crecientes expectativas de necesidad, lo que va en contra de objetivos como la reducción de la demanda energética … Para lograr la reducción de la demanda no se necesitan seguir las normas fijas, sino desafiarlas&quot;. <sup id="fnref3:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> En otras palabras, solo podemos resolver la pobreza energética y la decadencia de la energía si logramos desacoplar la satisfacción de la necesidad humana de los” satisfactores de la necesidad que usan la energía de forma intensiva. <sup id="fnref1:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup></p>
+<p>Una forma de hacerlo es aumentando la eficiencia energética. En Basic need and much more with one kilowatt per capita (Necesidades básicas y mucho más con un kilovatio per cápita, 1985) los investigadores argumentan que la cantidad de energía necesaria para evitar la pobreza energética disminuirá gracias a las continuas mejoras en la eficiencia energética: de 750 kgoe per capita por año en 1985 a solo 570 kgoe en 2030. <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup></p>
+<p>En realidad, esto no es lo que está sucediendo, porque las ganancias en eficiencia energética son <a href="/es/2018/01/bedazzled-by-energy-efficiency/" >continuamente igualadas por formas de vida que consumen más energía</a>.</p>
+<p>Sin embargo, si esta tendencia pudiera detenerse o incluso revertirse, los avances en eficiencia energética nos permitirían vivir vidas cada vez más bajas en el consumo de energía. Por ejemplo, para producir los 300 lúmenes que Practical Action considera el nivel mínimo de iluminación, una luz LED requiere seis veces menos electricidad que una bombilla incandescente.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2018/01/how-much-energy-do-we-need/images/dithers/chinese-family_dithered.png" alt='Imagen: Huang Qinjun.' data-original="/es/2018/01/how-much-energy-do-we-need/images/chinese-family_hud160c38e776999f05d5f48f5d40afdb2_181168_800x800_fit_q90_h2_box.webp" data-dither="/es/2018/01/how-much-energy-do-we-need/images/dithers/chinese-family_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: Huang Qinjun.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Más importante aún, las necesidades básicas se pueden satisfacer mediante diferentes medios, y la necesidad relativa de algunos servicios de energía podría y debería cuestionarse. Este enfoque puede etiquetarse como “suficiencia”.</p>
+<p>Se podrían reducir los servicios energéticos (televisores más pequeños, coches más ligeros y menos rápidos, o menos tiempo de uso de la televisión y conducir automóviles) o reemplazarlos por otros menos intensivos en energía (usar una bicicleta en lugar de un automóvil, comprar más alimentos frescos en lugar de congelados, jugar juegos de mesa en lugar de mirar la televisión).</p>
+<p>La sustitución también puede involucrar servicios comunitarios. En principio, la prestación de servicios públicos podría generar economías de escala y reducir la energía necesaria para proporcionar muchos servicios domésticos: transporte público, baños públicos, cocinas comunitarias, lavanderías, bibliotecas, cibercafés, cabinas telefónicas públicas y servicios de entrega a domicilio son algunos ejemplos. <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup></p>
+<p>Combinando la suficiencia con medidas de eficiencia, investigadores alemanes calcularon que el uso de electricidad típico de un hogar de dos personas podría reducirse en un 75%, sin revertir a cambios de estilo de vida drásticos, como lavar la ropa a mano o <a href="http://www.humanpowerplant.be/human_power_plant/human-powered-student-building-plans.html" target="_blank" >generar energía con máquinas de ejercicios</a>. <sup id="fnref1:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup></p>
+<p>Aunque esto solo se refiere a una parte de la demanda total de energía, la reducción del uso de electricidad en el hogar también conduce a reducciones en el uso de energía para los procesos de producción y transporte.</p>
+<p>Si suponemos que son posibles reducciones similares en otros dominios, entonces los hogares alemanes aquí considerados aquí podrían abastecerse con aproximadamente 800 kGO per cápita por año, cuatro veces por debajo del uso de energía promedio por cabeza en Europa.</p>
+<p>Esto sugiere que una vida moderna es compatible con una demanda de energía mucho menor, al menos cuando suponemos que una reducción del 75% en el uso de energía sería suficiente para mantenernos dentro de la capacidad de carga del planeta.</p>
+<p>Este artículo fue escrito originalmente para <a href="http://www.demand.ac.uk/" target="_blank" >The DEMAND Center</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Sólo fomentando fuentes de energía renovables no puede llevar a la reducción de las emisiones de carbono por dos razones. En primer lugar, la demanda de energía aumenta más rápido que la aportación de las energías renovables, lo que significa que las plantas de energía solar y eólica no están reemplazando a los combustibles fósiles, sino que están acomodando una parte de una creciente demanda de energía. En segundo lugar, los sistemas de energía renovable dependen en gran medida de los combustibles fósiles para su fabricación, especialmente cuando contamos con una infraestructura que pretende hacer coincidir la oferta de energía con la demanda de energía en todo momento. La eficiencia energética tampoco nos está llevando a ninguna parte, porque los avances en tecnologías más eficientes a menudo resultan en productos y servicios nuevos o más intensivos en el uso de energía, y porque la eficiencia energética hace que las prácticas insostenibles no sean negociables.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Chatterton, Tim, et al. “Energy justice? A spatial analysis of variations in household direct energy consumption in the UK.” eceee, 2015. <a href="http://eprints.uwe.ac.uk/28337/1/Chatterton%20Barnes%20Yeboah%20Anable%202015%20Energy%20Justice%20-%20ECEEE%20Conference%20Paper.pdf" target="_blank" >http://eprints.uwe.ac.uk/28337/1/Chatterton%20Barnes%20Yeboah%20Anable%202015%20Energy%20Justice%20-%20ECEEE%20Conference%20Paper.pdf</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Energy use (kilogram of oil equivalent per capita), 1960-2014. World Bank. <a href="http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE?locations=BD-GR-NL&amp;year_low_desc=true" target="_blank" >http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE?locations=BD-GR-NL&year_low_desc=true</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Consumption of energy, Eurostat, 2017. <a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Consumption_of_energy" target="_blank" >http://ec.europa.eu/eurostat/statistics-explained/index.php/Consumption_of_energy</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Piketty, Thomas. “Carbon and inequality: from Kyoto to Paris.” Trends in the Global Inequality of Carbon Emissions (1998-2013) and Prospects for An Equitable Adaptation Fund. Paris: Paris School of Economics (2015). <a href="http://www.ledevoir.com/documents/pdf/chancelpiketty2015.pdf" target="_blank" >http://www.ledevoir.com/documents/pdf/chancelpiketty2015.pdf</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Poor people’s energy outlook 2010, Practical Action. <a href="https://policy.practicalaction.org/policy-themes/energy/poor-peoples-energy-outlook/poor-peoples-energy-outlook-2010" target="_blank" >https://policy.practicalaction.org/policy-themes/energy/poor-peoples-energy-outlook/poor-peoples-energy-outlook-2010</a>. Para versiones posteriores vea: <a href="https://policy.practicalaction.org/policy-themes/energy/poor-peoples-energy-outlook" target="_blank" >https://policy.practicalaction.org/policy-themes/energy/poor-peoples-energy-outlook</a>.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Sustainable Energy For All, United Nations &amp; World Bank. <a href="http://www.se4all.org/" target="_blank" >http://www.se4all.org/</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Thomson, Harriet, Stefan Bouzarovski, and Carolyn Snell. “Rethinking the measurement of energy poverty in Europe: A critical analysis of indicators and data.” Indoor and Built Environment (2017): 1420326X17699260. <a href="http://journals.sagepub.com/doi/full/10.1177/1420326X17699260" target="_blank" >http://journals.sagepub.com/doi/full/10.1177/1420326X17699260</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Team, Authoring, and Claire Baffert. “Energy poverty and vulnerable consumers in the energy sector across the EU: analysis of policies and measures.” Policy 2 (2015). <a href="https://ec.europa.eu/energy/en/news/energy-poverty-may-affect-nearly-11-eu-population" target="_blank" >https://ec.europa.eu/energy/en/news/energy-poverty-may-affect-nearly-11-eu-population</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Steinberger, Julia K., and J. Timmons Roberts. “From constraint to sufficiency: The decoupling of energy and carbon from human needs, 1975–2005.” Ecological Economics 70.2 (2010): 425-433. <a href="http://julias.promessage.com/Projects/Articles/EE_SteinbergerRoberts_2010_DecouplingEnergyCarbonHumanNeeds_v2.pdf" target="_blank" >http://julias.promessage.com/Projects/Articles/EE_SteinbergerRoberts_2010_DecouplingEnergyCarbonHumanNeeds_v2.pdf</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Walker, Gordon, Neil Simcock, and Rosie Day. “Necessary energy uses and a minimum standard of living in the United Kingdom: energy justice or escalating expectations?.” Energy Research &amp; Social Science 18 (2016): 129-138. <a href="http://www.sciencedirect.com/science/article/pii/S2214629616300184" target="_blank" >http://www.sciencedirect.com/science/article/pii/S2214629616300184</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Lamb, William F., and Narasimha D. Rao. “Human development in a climate-constrained world: what the past says about the future.” Global Environmental Change 33 (2015): 14-22. <a href="http://decentlivingenergy.org/publications/Lamb-Rao-HDinClimConstrainedWorld.pdf" target="_blank" >http://decentlivingenergy.org/publications/Lamb-Rao-HDinClimConstrainedWorld.pdf</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Darby, Sarah. “Enough is as good as a feast–sufficiency as policy.” Proceedings, European Council for an Energy-Efficient Economy. La Colle sur Loup, 2007. <a href="https://pdfs.semanticscholar.org/8e68/c68ace130104ef6fc0f736339ff34b253509.pdf" target="_blank" >https://pdfs.semanticscholar.org/8e68/c68ace130104ef6fc0f736339ff34b253509.pdf</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Gough, Ian. “Heat, Greed and Human Need.” Books (2017). <a href="http://www.e-elgar.com/shop/heat-greed-and-human-need" target="_blank" >http://www.e-elgar.com/shop/heat-greed-and-human-need</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Energy for a sustainable future, Report and Recommendations, The Secretary-General’s Advisory Group on Energy and Climate Change (AGECC), 28 April 2010, New York. <a href="http://www.un.org/millenniumgoals/pdf/AGECCsummaryreport[1].pdf" target="_blank" >http://www.un.org/millenniumgoals/pdf/AGECCsummaryreport[1].pdf</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Bretschger, Lucas, Roger Ramer, and Florentine Schwark. 2000 Watt Society?.” <a href="https://www.mtec.ethz.ch/content/dam/ethz/special-interest/mtec/cer-eth/resource-econ-dam/documents/people/lbretschger/Brochure_2kW.pdf" target="_blank" >https://www.mtec.ethz.ch/content/dam/ethz/special-interest/mtec/cer-eth/resource-econ-dam/documents/people/lbretschger/Brochure_2kW.pdf</a>&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Day, Rosie, Gordon Walker, and Neil Simcock. “Conceptualising energy use and energy poverty using a capabilities framework.” Energy Policy 93 (2016): 255-264. <a href="http://www.sciencedirect.com/science/article/pii/S0301421516301227" target="_blank" >http://www.sciencedirect.com/science/article/pii/S0301421516301227</a>&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Total Energy Access, Practical Action. <a href="https://policy.practicalaction.org/policy-themes/energy/total-energy-access" target="_blank" >https://policy.practicalaction.org/policy-themes/energy/total-energy-access</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Rao, Narasimha D., and Jihoon Min. “Decent living standards: material prerequisites for human wellbeing.” Social Indicators Research (2017): 1-20. <a href="https://link.springer.com/article/10.1007/s11205-017-1650-0" target="_blank" >https://link.springer.com/article/10.1007/s11205-017-1650-0</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Mack, Joanna, et al. “Attitudes to necessities in the PSE 2012 survey: are minimum standards becoming less generous?.” PSE-UK Working Paper Analysis Series 4 (2013).http://poverty.ac.uk/sites/default/files/attachments/PSE%20wp%20analysis%20No.%204%20-%20Attitudes%20to%20necessities%20in%20the%202012%20survey%20(Mack,%20Lansley,%20Nandy,%20Patazis)%20Oct_2013.pdf&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Mattioli, Giulio. “Transport needs in a climate-constrained world. A novel framework to reconcile social and environmental sustainability in transport.” Energy Research &amp; Social Science 18 (2016): 118-128. <a href="http://www.sciencedirect.com/science/article/pii/S2214629616300536" target="_blank" >http://www.sciencedirect.com/science/article/pii/S2214629616300536</a>&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Hand, Martin, Elizabeth Shove, and Dale Southerton. “Explaining showering: A discussion of the material, conventional, and temporal dimensions of practice.” Sociological Research Online 10.2 (2005). <a href="http://www.socresonline.org.uk/10/2/hand.html" target="_blank" >http://www.socresonline.org.uk/10/2/hand.html</a>&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Goldemberg, Jose, et al. “Basic needs and much more with one kilowatt per capita.” Ambio (1985): 190-200. <a href="https://www.jstor.org/stable/4313148?seq=1#page_scan_tab_contents" target="_blank" >https://www.jstor.org/stable/4313148?seq=1#page_scan_tab_contents</a>&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>Thomas, Stefan, et al. Energy sufficiency policy: an evolution of energy efficiency policy or radically new approaches?. Wuppertal Institut für Klima, Umwelt, Energie, 2015. <a href="https://epub.wupperinst.org/frontdoor/deliver/index/docId/5922/file/5922_Thomas.pdf" target="_blank" >https://epub.wupperinst.org/frontdoor/deliver/index/docId/5922/file/5922_Thomas.pdf</a>&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>Brischke, Lars-Arvid, et al. Energy sufficiency in private households enabled by adequate appliances. Wuppertal Institut für Klima, Umwelt, Energie, 2015. <a href="https://epub.wupperinst.org/frontdoor/deliver/index/docId/5932/file/5932_Brischke.pdf" target="_blank" >https://epub.wupperinst.org/frontdoor/deliver/index/docId/5932/file/5932_Brischke.pdf</a>&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="/es/tags/energy-demand/" class="">Energy demand</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="/es/2018/11/how-circular-is-the-circular-economy/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2018/11/how-circular-is-the-circular-economy/images/dithers/circular-economy-2_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Qué tan circular es la economía circular?</h3>
+		<p class="index-summary">Mientras sigamos acumulando materias primas, cerrar el ciclo de vida de los materiales seguirá siendo una ilusión, incluso con aquellos materiales que, en principio, son reciclables.</p>
+		<time class="published">3 de noviembre de 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="/es/2018/01/bedazzled-by-energy-efficiency/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Deslumbrados por la Eficiencia Energética</h3>
+		<p class="index-summary">Centrarse en la eficiencia energética significaría hacer que las formas de vida actuales sean no-negociables.</p>
+		<time class="published">9 de enero de 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="/es/2009/11/how-not-to-resolve-the-energy-crisis/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2009/11/how-not-to-resolve-the-energy-crisis/images/dithers/Illustration-Milo-solar-beach_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Cómo (no) resolver la crisis energética?</h3>
+		<p class="index-summary">Las fuentes de energías renovables no pueden sustituir las plantas de carbón, petróleo o gas, ya que sólo satisfacen (parte de) la creciente demanda.</p>
+		<time class="published">18 de noviembre de 2009</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Como diseñar un mercante a vela para el siglo 21?</h3>
+		<p class="index-summary">Es sorprendentemente difícil construir un mercante a vela neutro en emisiones de carbono; especialmente en estos tiempos porque nuestros estándares de seguridad, salud, higiene, confort y comodidad han cambiado profundamente desde la Era de los Grandes Veleros</p>
+		<time class="published">11 de mayo de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="es/about">
+  Acerca de
+</a>
+    <a href="es/power">
+  Power
+</a>
+    <a href="es/about/team">
+  Colophon
+</a>
+    <a href="es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

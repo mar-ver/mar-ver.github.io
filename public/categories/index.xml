@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE English</title>
+    <link>/categories/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Low-tech Solutions</title>
+      <link>/low-tech-solutions/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/low-tech-solutions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-tech Problems</title>
+      <link>/high-tech-problems/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/high-tech-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obsolete Technology</title>
+      <link>/obsolete-technology/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/obsolete-technology/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

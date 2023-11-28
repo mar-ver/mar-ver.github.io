@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Power from the Tap: Water Motors | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Power from the Tap: Water Motors" />
+<meta name="twitter:title" content="Power from the Tap: Water Motors"/>
+
+<meta property="og:description" content="In the nineteenth century, miniature water turbines were connected to the tap and could power any machine that is now driven by electricity" />
+
+<meta name="twitter:description" content="In the nineteenth century, miniature water turbines were connected to the tap and could power any machine that is now driven by electricity"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2013/09/power-from-the-tap-water-motors/" />
+
+
+
+<meta property="og:image" itemprop="image" content="/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" />
+<meta property="og:image:secure_url" content="/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2013-09-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-09-09T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Water Power" />
+<meta property="article:tag" content="Water Under Pressure" />
+<meta property="article:tag" content="Power Transmission" />
+
+</head>
+<body id="power-from-the-tap-water-motors">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" /about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  obsolete-technology '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Power from the Tap: Water Motors</h1>
+
+				<p class="summary">
+					In the nineteenth century, miniature water turbines were connected to the tap and could power any machine that is now driven by electricity
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">September 9, 2013</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="/fr/2013/09/power-from-the-tap-water-motors/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" alt='A late nineteenth-century water motor with one side of the casing removed. Image: Old Pelton.' data-original="/2013/09/power-from-the-tap-water-motors/images/PELTON-water-motor_huf522a834553c44ee0fe46644cb3ea927_122686_800x800_fit_q90_h2_box.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A late nineteenth-century water motor with one side of the casing removed. Image: <a href="http://www.oldpelton.net/" target="_blank" >Old Pelton</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Few people in the western world realize that they have an extra power source available in their household, workshop or factory: tap water.</p>
+<p>Just before the arrival of electricity at the end of the nineteenth century, water motors were widely used in Europe and America.</p>
+<p>These miniature water turbines were connected to the tap and could power any machine that is now driven by electricity.</p>
+<h2 id="power-from-the-tap">Power from the tap</h2>
+<p>Water has been the main inanimate source of mechanical power from antiquity right up to the beginning of the twentieth century. Although most water wheels were located at the banks of the river (<a href="/2010/11/boat-mills-water-powered-floating-factories/" >or in the river itself</a>), some were set up at considerable distances from a water source. This was made possible by the introduction of hydraulic power transmission—the process by which water from a stream is led through artificial watercourses to water wheels built on the land.</p>
+<p>To support hydraulic power transmission, man-made channels (&ldquo;power canals&rdquo; or &ldquo;aqueducts&rdquo;) could be dug into the earth or carved out of the rocks (&ldquo;ditches&rdquo;). They could also be elevated structures whose walls were raised above the surrounding terrain (&ldquo;flumes&rdquo;). Water reservoirs formed by dams could be integrated into these power transmission networks, regulating water flow, providing power storage for times when water was running low, and increasing the &ldquo;head&rdquo; or fall of water for a vertical overshot water wheel. The use of power canals increased throughout the medieval period and became widespread during the 1500s.</p>
+<p>In the mid-nineteenth century, many European and American cities introduced a more sophisticated water distribution system: the public water supply. Although this introduction was an answer to health concerns (it had become clear that <a href="/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/" >reoccurring epidemics were the consequence of drinking contaminated water</a>), it became quickly obvious that the potable water sent through the pipelines of the public water supply could also provide motive power.</p>
+<p>Waterwheels were still the most important source of mechanical power in the early days of public water mains. Most European and American cities had running water before they had electricity, so there was a market for a compact power source that could be used in the city, as an alternative to steam engines (which were too expensive, too dangerous and too unpractical to operate on a small-scale) or <a href="/2010/12/hand-powered-drilling-tools-and-machines/" >hand</a>
+and <a href="/2011/05/the-short-history-of-early-pedal-powered-machines/" >foot powered machines</a>.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-1_dithered.png" alt='' data-original="/2013/09/power-from-the-tap-water-motors/images/water-motor-1_hucff64ca684cde85d5433a27b47314969_94502_800x800_fit_q90_h2_box.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-1_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-2_dithered.png" alt='Late nineteenth-century water motors. Images: Smokstack and Old Pelton.' data-original="/2013/09/power-from-the-tap-water-motors/images/water-motor-2_hu8addfdb757d4b7d4c7c65b35674e550f_208786_800x800_fit_q90_h2_box.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Late nineteenth-century water motors. Images: <a href="http://www.smokstak.com/forum/showthread.php?t=19878" target="_blank" >Smokstack</a> and <a href="http://www.oldpelton.net/" target="_blank" >Old Pelton</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The town mains were no different from the hydraulic power transmission systems built in earlier times. In public water supply systems, traditional reliance on geological features as a head for the hydropower cycle is replaced by the use of a water tower. Water is pumped into an elevated reservoir, which could be on a hill or on top of a specially built water tower (a combination of both is also possible).</p>
+<p>The height differential between the water level in the reservoir and the water level in the mains determines the pressure of the water. For every 10.20 cm of elevation, a water column produces 0.145 psi (pounds per square inch) of pressure. To produce 70 psi of pressure at street level, a water tower must be 50 m tall.</p>
+<blockquote>
+<p>It became quickly obvious that the potable water sent through the pipelines of the public water supply could also provide motive power.</p>
+</blockquote>
+<p>In the town mains, the role of the aqueducts or power canals is taken over by a much more intricate network of pipelines. This prevents debris from entering the water and makes uphill water transport easier. Water piping technology was used in some ancient civilizations, but the nineteenth-century systems introduced some lasting innovations.</p>
+<p>First of all, thanks to the screw type tap (which was patented in 1845), the water supply could be easily regulated. Second, the water could be further distributed inside individual buildings, often reaching multiple rooms at several floors. At any of these spots, all you had to do to receive motive power from the town mains was to connect a small water turbine to the tap. This is exactly what happened.</p>
+<h2 id="water-powered-household-devices">Water Powered Household Devices</h2>
+<p>In Europe, small motors using the public water supply appeared in the 1840s. In the US, they came into extensive use in the 1870s and 1880s. A water motor consisted of a small water turbine that was suspended in a metal casing. The diameter of the turbine runner could be anywhere between from 20 to 90 cm.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/ad-motor_dithered.png" alt='A 1906 advertisement for a typical American water motor.' data-original="/2013/09/power-from-the-tap-water-motors/images/ad-motor_hu88228410eb6d71fc4a5bd3e769885927_1376630_800x800_fit_q90_h2_box_3.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/ad-motor_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A 1906 advertisement for a typical American water motor.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/hydraulic-dynamo_dithered.png" alt='A hydraulic dynamo. Image: The Museum of Retrotechnology.' data-original="/2013/09/power-from-the-tap-water-motors/images/hydraulic-dynamo_hu5874948622651d99ddba1adf315c07b8_214720_800x800_fit_q90_h2_box_3.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/hydraulic-dynamo_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A hydraulic dynamo. Image: <a href="http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/watermotor/watermotor.htm" target="_blank" >The Museum of Retrotechnology</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The smallest water motors were used to run sewing machines, jigsaws, fans, and other similarly mechanized items. The somewhat larger water motors were recommended for operating coffee grinders, ice cream freezers, jeweler&rsquo;s and locksmith&rsquo;s lathes, grindstones, church organs, or drug and paint mills. The largest water motors were used to run elevators or circular saws. In <a href="http://www.notechmagazine.com/2013/09/water-powered-washing-machine.html" target="_blank" >water powered washing machines</a>, the water that was needed to wash the clothes was capable of providing power to the machine simultaneously.</p>
+<p>Water motors operated machinery by means of a mechanical power transmission, similar to old-fashioned wind, water, and <a href="/2011/05/the-short-history-of-early-pedal-powered-machines/" >pedal powered machines from that era</a>. The shaft of the water turbine was either equipped with a belt pulley to which different machines could be attached, or it drove one machine directly.</p>
+<p>At the end of the nineteenth century, water motors were also used to power electrical devices, especially radios and light bulbs. In this case, the water motor drove a dynamo that produced electricity on the spot. Compact units consisting of a small water turbine directly coupled to a dynamo were commercially available.</p>
+<h2 id="output-and-efficiency-of-a-water-motor">Output and Efficiency of a Water Motor</h2>
+<p>Most water turbines derived pressure by extracting energy from the impulse of moving water as opposed to generating energy via weight, as was the case with most water wheels and some other water turbines. A major innovation was the <a href="http://en.wikipedia.org/wiki/Pelton_wheel" target="_blank" >Pelton wheel</a>, which was invented in 1878.</p>
+<p>This water turbine consists of a series of cups fastened at equal intervals around the periphery of a circular disc (the &ldquo;runner&rdquo;). The water enters the casing through an inlet pipe, where it is forced through a nozzle which reduces its volume and increases its velocity, after which it is directed to the cups. By changing the nozzle which influences this fluxuation in pressure, the power obtained from a wheel could vary. The exhaust water is dropped out of the bottom of the casing, or led away by an outlet pipe.</p>
+<blockquote>
+<p>The efficiency of a Pelton wheel is not dependent on its size, which makes it especially attractive for smaller powers.</p>
+</blockquote>
+<p>The Pelton turbine is especially well suited for use in combination with the town mains, due to the fact that it requires a high head and a low water flow. A Pelton wheel is up to 90% efficient, which is comparable to the efficiency of a large, modern electric motor. Unlike steam engines, electric motors, and most other water turbines, which become less efficient as they become smaller, the efficiency of a Pelton wheel is not dependent on its size, which makes it especially attractive for smaller powers.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-sewing-machine_dithered.png" alt='A water-powered sewing machine. Image: Knight&amp;rsquo;s American Dictionary (1881).' data-original="/2013/09/power-from-the-tap-water-motors/images/water-powered-sewing-machine_hu487c8adef31914a820b9217f6cab7e3d_37853_800x800_fit_q90_h2_box_1.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-sewing-machine_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A water-powered sewing machine. Image: Knight&rsquo;s American Dictionary (1881).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Water turbines (such as the Pelton wheel) are much more compact than water wheels, which makes that a small motor can deliver more energy than one would suspect. The maximum power output of a water motor is determined by two factors. The first is the prevailing water pressure and the second is the water flow rate, which is defined by the pipe diameter and the velocity of the water. The latter factor is rather fixed for narrow pipes, because at velocities above 8 km/h friction becomes problematic.</p>
+<p>Water pressure in the town mains is typically between 40 and 70 psi (2.75 to 4.8 bar), and was closer to 70 psi in the nineteenth century. With a water pressure of 70 psi and a pipe diameter of 1.25 cm (a typical size for individual branch lines running to the taps), the maximum power output of a water motor is 0.33 horse power (or 243 watts of mechanical power). Even after you take into account the efficiency loss in the motor, this is quite a lot of power: Two to three times as much as a human operating a pedal powered machine can sustain for an hour or longer.</p>
+<h2 id="water-use">Water Use</h2>
+<p>Water motors supplied a need almost entirely unmatched by other new motors from that time, and they exploited a source of energy readily available from centralized systems already built in most urban areas. However, at least in the United States, their succes was short-lived. When electric motors and gasoline engines became available, the water motor lost its attraction. In 1900, the amount of water motors in the US (an estimated 30,000 motors aggregating 26,000 horse power) was about one-fifth of the amount of gasoline engines and one-tenth of the amount of electric motors. Source: Hunter 1991.</p>
+<blockquote>
+<p>At the end of the nineteenth century, water motors were also used to power electrical devices, especially radios and light bulbs</p>
+</blockquote>
+<p>The main drawback of water motors was their very high use of potable water. Using a 1.25 cm diameter pipe and a pressure of 70 psi, a water motor consumed 30 litres of water per minute for a power output of 243
+watts. This means that it took 7,440 litres of water to produce 1 kWh of mechanical energy. To give an idea: People today in the west consume less than 500 liters of potable water per day, and they consume at least 5 kWh of electric energy per day.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-1_dithered.png" alt='' data-original="/2013/09/power-from-the-tap-water-motors/images/water-powered-fan-1_hu3209e44ada2d28c43f293f2617ff9883_75117_800x800_fit_q90_h2_box.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-1_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-2_dithered.png" alt='A water powered fan. Found at Smokstak.' data-original="/2013/09/power-from-the-tap-water-motors/images/water-powered-fan-2_hu491bbb24e9420467c51d95f65fd2e512_67783_800x800_fit_q90_h2_box.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A water powered fan. Found at <a href="http://www.smokstak.com/forum/showthread.php?t=27871" target="_blank" >Smokstak</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>If the water pressure dropped below 70 psi, a water motor&rsquo;s power output decreased with it, while potable water consumption remained the same. The minimum pressure in the public water supply was (and still is) 20 psi (1.4 bar). Below that value, there is a risk of contamination because polluted water could enter the mains through leaks in the pipes.</p>
+<p>If you were unlucky and you got a water pressure of just 20 psi, motor output would have been limited to a much less impressive 0.09 hp (67 watt). You could have chosen to restore the power output by increasing the pipe diameter, but that would have further increased the consumption of potable water.</p>
+<p>There are many reasons why the water pressure in the town mains could be lower than 70 psi: adoption of a lower water pressure by a company, leaks in the pipelines, structural location of consumer residences in relation to the water tower, or use of a water motor on a higher floor. Water pressure drops by 10 psi per mile of pipeline. Water pressure is generally higher when it enters the house than when it comes out of the tap: It will decrease with every bend in the pipelines, and about 5 psi of pressure is lost each time you go up one floor.</p>
+<h2 id="irregular-water-pressure">Irregular Water Pressure</h2>
+<p>Water consumption was further increased by the irregularity of the water pressure. The use of a water tower is advantageous from an energy efficiency viewpoint, because you can create water pressure with low capacity pumps. The pumps only have to meet average demand. A higher than average demand (for instance, when everybody takes a shower in morning) can be dealt with by a decreasing water level in the tower. The reservoir will be filled again when demand is lower than average (mostly at night).</p>
+<p>On the other hand, if you choose to create water pressure by pumping water <em>directly</em> into the mains (a modern approach that is gaining popularity), you need high capacity pumps that can meet peak demand, and they will be running inefficiently most of the time.</p>
+<blockquote>
+<p>While the use of water motors in the US came to an end early in the twentieth century, the Europeans took hydraulic power transmission one step further</p>
+</blockquote>
+<p>Irregular water pressure is not a problem for the distribution of potable water, but it is very disadvantageous for the use of water motors. If the water level in the tower decreases, so will the water pressure in the pipes. To insure enough motor output in the event of lower water pressures, water motors had to be larger and use larger diameter pipes than strictly necessary, further increasing the use of water, and wasting energy. Irregular water pressures lower the energetic efficiency of a water motor because it achieves its highest efficiency only when it is optimally adjusted to the prevailing water pressure.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-egg-beater_dithered.png" alt='A water-powered egg-beater. Images: Smokstak.' data-original="/2013/09/power-from-the-tap-water-motors/images/water-powered-egg-beater_hu1019b597f25545c8e5188505560b8999_99658_800x800_fit_q90_h2_box.webp" data-dither="/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-egg-beater_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A water-powered egg-beater. Images: <a href="http://www.smokstak.com/forum/showthread.php?t=114931" target="_blank" >Smokstak</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="in-search-of-a-better-solution-the-hydraulic-accumulator">In Search of a Better Solution: the Hydraulic Accumulator</h2>
+<p>As we have mentioned before, the maximum power output by a water motor is determined by two factors: Water pressure and water flow. Increasing the pipe diameter (and thus the flow rate and water use) is only one way to increase the power capacity of a water motor. The other way is to increase the water pressure, which yields much more interesting results. For example, we could produce much more energy with much less water.</p>
+<p>With a water pressure of 700 psi (48 bar), which equates to ten times the pressure in the public mains, a water motor connected to a 1.25 cm pipe could produce a power output of 3.3 horse power (or 2,500 watts of mechanical energy). That&rsquo;s ten times more power for the same 30 litres of water per minute (or ten times less water use for the same power). To create a water pressure of 700 psi, it would be mandatory to build a water tower of almost 500 meters tall. Unfortunately, this is not practical to build.</p>
+<p>While the use of water motors in the US came to an end early in the twentieth century, the Europeans found a solution for the high water use of water motors and took hydraulic power transmission one step further. Firstly, they set up special power networks which distributed water under pressure for motive power purposes only. This eliminated the need to use potable water. Secondly, Europe switched to a much higher (and regular) water pressure, which was made possible by <a href="/2016/03/power-water-networks/" >the invention of the hydraulic accumulator</a>.</p>
+<p>Read part two: <a href="/2016/03/power-water-networks/" >Power Water Networks</a>.</p>
+<h2 id="sources">Sources:</h2>
+<ul>
+<li><em>A History of Industrial Power in the U.S., 1780-1930: Vol 3: The Transmission of Power</em>, Louis C. Hunter and Lynwood Bryant (1991)</li>
+<li>&ldquo;<a href="http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/watermotor/watermotor.htm" target="_blank" >Water Motors</a>&rdquo;, The Museum of Retrotechnology</li>
+<li>&ldquo;<a href="http://www.oldpelton.net/" target="_blank" >Old Pelton</a>&rdquo;, website.</li>
+<li><a href="http://ijecs.in/ijecsissue/wp-content/uploads/2013/03/416-432ijecs.pdf" target="_blank" >Efficiency Improvement of Pelton Wheel and Cross Flow Turbines in  Micro Hydro Power Plants: Case  Study</a>.</li>
+<li><a href="http://physics.kenyon.edu/EarlyApparatus/Fluids/Water_Wheel/Water_Wheel.html" target="_blank" >Water Wheel Model: Water Motor</a>.</li>
+</ul>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Ruben</h5>
+	<p>This is fascinating.</p>
+<p>My first question was on the cost of municipal water versus electricity. But before I even had time to crunch a number, I realized that though I live in a rainforest, we have four-month droughts in the summer that result in water restrictions. Too many people using too little resource&hellip;</p>
+<p>And then I realized that using the highly-filtered and chlorinated municipal water to run motors would be a travesty&ndash;maybe even worse than using it flush toilets.</p>
+<p>So, it seems, in our current reality, that the best use of this technology you covered in your article on direct drive water power a little while ago. Of course, should our current reality change&hellip;</p>
+<p>I am looking forward to the next article.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Berkana</h5>
+	<p>There&rsquo;s a typo in one of the highlighted quotes.</p>
+<p>In the highlighted quote that says &ldquo;At the end of the nineteenth century, water motors were also used to power electrical devices, especially radio&rsquo;s and light bulbs&rdquo;, there is an incorrectly applied apostrophe in &ldquo;radio&rsquo;s&rdquo;.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>@ Ben</p>
+<p>That&rsquo;s still in the making. Should be published before summer starts.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Lisa Will</h5>
+	<p>Interesting article. I live in a tropical location too. Even so, we don&rsquo;t have that much water to &ldquo;waste&rdquo; especially in urban areas where we start to face insufficient clean water.</p>
+<p>Having said that, your earlier article piqued my interest but again, only in areas where there is large water head. Many of these are waterfalls, already where hydro electric is harvested or tourist spots. So again, little potential.</p>
+
+</div>
+
+<div class="comment">
+	<h5>SteveR</h5>
+	<p>This seems to have been more of a power distribution method rather than a power generation method. The question not covered, is how does the water get pumped into the water tower in the first place? Surely some energy must have been used to put it there.</p>
+<p>So, if this was the case, then the public use of water motors merely took the energy from the public water utility, which presumably they paid for with their taxes - but I can see the value if the public water arrived before public electric was available.</p>
+<p>And as a practical matter today, this is still possible if you are near a water source or you can redirect a water source, Rather than have the pelton drive (or other appropriate water generator) an electrical generator, the power may be used directly instead.</p>
+<p>The Hancock Shaker village in Hancock, MA, USA has such an example. The power was (is still) used to drive overhead shafts and power woodworking and metal working machines.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jan@Bytesmiths.com</h5>
+	<p>As SteveR noted, using electric pumps to raise water, only to run things with that water&rsquo;s potential energy is a net loss.</p>
+<p>However, I think the small homestead or ecovillage could make use if this technology as a side-effect of their potable water use. What sort of mechanical power use is synchronous with potable water use? The very simplest might be a LED light over the kitchen sink that automagically comes on whenever you run water.</p>
+<p>On a larger scale, how do they power all those automatic fixtures in public washrooms? I always assumed someone had to go change batteries in those things, but perhaps they&rsquo;re using rechargeables and water turbines.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Matthias</h5>
+	<p>@ StevenR</p>
+<p>There are many ways to pump the water but steam power was widely used. Small steam engines are inefficient and a source of danger. They need a long time to heat up until they can deliver power. In a workshop or household most machines run only a few minutes every day. So steam power was not an option. Using water for power transmission allowed to have a few high power steam powerplants which where more efficient run continuously.</p>
+<p>One point we should forget is that water is still the only efficient and economical way to store a large amount off electrical energy. Most electricity is produced by steam turbines (coal or nuclear). They run continuously but demand is not, the surplus energy during low demand time is used to pump water to a higher reservoir. With renewable energy this even becomes more important. And since there is not enough height difference in many places pressure pipes and hydraulic accumulators could become important again.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mark McClure</h5>
+	<p>Hi, very interesting article.</p>
+<p>Not to nitpick, but just to make an excellent article just a tiny bit better, there&rsquo;s another typo - &ldquo;insure&rdquo; should be &ldquo;ensure.&rdquo;</p>
+<p>Really appreciate your thought and hard work on this website.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Ed Smith </h5>
+	<p>Given a fairly rural plot of land with a reasonable sized hill one could easily store solar or wind power by pumping water, potable or not, from a high storage tank to a low storage tank. Pumped hydro generation is done somewhere in North America on an industrial scale but what I described is strictly single home use.</p>
+<p>Without large storage ponds I don&rsquo;t imagine that you could store more than an average day worth of average electrical consumption.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Gidon Gerber</h5>
+	<p>Whereas &ldquo;it took 7,440 litres of water to produce 1 kWh of mechanical energy&rdquo;, it takes 1 kWh of energy input to deliver 700 litres of tap water. So, 10.6 kWh of energy input would be needed for an output of 1 kWh.</p>
+<p>Source: Water UK sustainability report, cited in European Parliament Library infographic libraryeuroparl.wordpress.com/2012/11/14/visualising-energy-in-everyday-items/</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mick</h5>
+	<p>I think this is fascinating, and workable as a PART of a localized energy system.</p>
+<p>I think the key to making this idea feasible is multiple reservoirs within the home, plus an external reservoir that could be pressurized, thus massively improving efficiency. For example;</p>
+<ol>
+<li>
+<p>local water supply fills a converted propane tank.</p>
+</li>
+<li>
+<p>tank is highly pressurized by a small compressor running off solar power, accumulating pressure over time.</p>
+</li>
+<li>
+<p>Pressurized water runs through pelton wheel connected to a generator IN THE ATTIC.</p>
+</li>
+<li>
+<p>water accumulates in a second reservoir in the attic (or at attic height) as it leaves the pelton wheel. This reservoir has a float that engages the pelton wheel when the reservoir gets low.</p>
+</li>
+<li>
+<p>within the house, each water using device has its own reservoir that feeds from the attic reservoir. the size of these reservoirs makes up for the slower speed of water entering the house through the pelton wheel as opposed to the standard way.</p>
+</li>
+</ol>
+<p>SO, when water is used, the decrease in water in the attic reservoir triggers the system, which produces electricity while refilling the reservoir. excess electricity goes to batteries, for use when the system isn&rsquo;t running. while the system is at rest, the solar pressure pump is still running on the exterior tank pressurizing the system for maximum efficiency.</p>
+<p>as a part of a larger system using batteries, solar, etc., I think this could be helpful and cost effective as it could be built and maintained out of basically available local parts.</p>
+<p>i would think one difficulty would be creating a broad but shallow attic reservoir that could be supported without major home modifications.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mike Nomad</h5>
+	<p>While it would indeed be inappropriate to use tap/potable water, there are various steps along the back side of the loop: Reclamation/Moving of Grey Water. Hard to tell if there would be a net gain even there, but, since processing is going to happen any way&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>guest</h5>
+	<p>In reference to an earlier comment, Dominion power operates a pumped storage facility in southern Virginia (USA).</p>
+<p><a href="https://www.dom.com/about/stations/hydro/bath-county-pumped-storage-station.jsp" target="_blank" >https://www.dom.com/about/stations/hydro/bath-county-pumped-storage-station.jsp</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>ike</h5>
+	<p>@jan, there are showerheads and faucets that harness electricity to power a digital thermometer and either a red or blue LED depending on the temperature of the water.</p>
+<p>@Matthias, hydrolic ram pumps are a technology that was used then and still is used today&hellip;. they don&rsquo;t produce any rotational movement, only recipicating, so they wouldn&rsquo;t be suited for use as a motor themselves.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Doug</h5>
+	<p>LOL fun stuff,but&hellip; I&rsquo;m not connected to a water grid, so it would be more efficient to use electrical power directly. The cost of any devices used to recover the flea power available from the normal household use of water would be better put towards PV &amp; both methods would require the home be set up to use alternate electrical power. I&rsquo;m in a position where I could recycle grey water, but that would entail additional plumbing and would use electrical power to to provide pressure. I have devised how I could use a water tower in freezing wether, but when all things are consider it makes more sense to keep it all below the frost line and use the electrical power todirectly to pressurize the gray water plumbing that fill the toilet tanks or operate devices as these. Respectfully this is an example how the false sense of abundance in the past got us into the shortages we have today. And we are still at giving what may be a false sense of abundance.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Ben</h5>
+	<p>Wonderful. It&rsquo;s eagerly anticipated I can tell you.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Slowburn</h5>
+	<p>Using windpumps to fill a water tower and then using water motors to provide the power when we wish to use it is certainly cleaner than using electrical batteries.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mauricio</h5>
+	<p>I cant still find the second part.</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>@ Mauricio: it will be published later this month.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Leilehua</h5>
+	<p>I&rsquo;ve been trying to find a small hydro motor that I can power with running water. I live on a hill. It would not be a problem to set up catchment at the top of the hill, use gravity feed to power the motor, and use solar to pump the water back up to the catchment. Then I would use solar power in the daytime, and Hydro power at night.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Monty</h5>
+	<p>As mentioned by a previous poster, using mains water pressure to power a device is prohibited in the UK, as far as I know.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Sacha</h5>
+	<p>Surely it could be feasible to use a water-powered pumping device such as a hydraulic ram or a spiral water wheel pump continuously to pump water into a header tank, which could then be used to run a turbine? This would obviously necessitate a water course with a certain flow nearby, but would obviate the need for a naturally occurring header pressure.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="/tags/water-power/" class="">Water Power</a></span> 
+		        
+		           <span><a href="/tags/water-under-pressure/" class="">Water Under Pressure</a></span> 
+		        
+		           <span><a href="/tags/power-transmission/" class="">Power Transmission</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="/2016/03/power-water-networks/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2016/03/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Power Water Networks</h3>
+		<p class="index-summary">Hydraulic power transmission is very efficient compared to electricity when it is used to operate powerful but infrequently used machines.</p>
+		<time class="published">March 30, 2016</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="/2013/03/the-mechanical-transmission-of-power-3-endless-rope-drives/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2013/03/the-mechanical-transmission-of-power-3-endless-rope-drives/images/dithers/schaffhausen-transmission_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">The Mechanical Transmission of Power (3): Endless Rope Drives</h3>
+		<p class="index-summary">The trend towards small-scale, decentralised power production means that rope transmission might have a place in our energy system again</p>
+		<time class="published">March 2, 2013</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="/2013/01/the-mechanical-transmission-of-power-1-stangenkunst/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2013/01/the-mechanical-transmission-of-power-1-stangenkunst/images/dithers/stangenkunst-1763_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">The Mechanical Transmission of Power (1): Stangenkunst</h3>
+		<p class="index-summary">Long-distance power transmission predates the invention of electricity by almost four centuries.</p>
+		<time class="published">January 23, 2013</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/2019/10/mist-showers-sustainable-decadence/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-hack-kit_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Mist Showers: Sustainable Decadence?</h3>
+		<p class="index-summary">The water and energy use of the mist shower is so low that the bathroom could be taken off-grid and off-pipe even in an urban context.</p>
+		<time class="published">October 17, 2019</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="about">
+  About
+</a>
+    <a href="power">
+  Power
+</a>
+    <a href="about/team">
+  Colophon
+</a>
+    <a href="donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

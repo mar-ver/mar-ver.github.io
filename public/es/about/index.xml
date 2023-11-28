@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Español</title>
+    <link>/es/about/</link>
+    <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>es</language><atom:link href="/es/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Low-tech Magazine?</title>
+      <link>/es/about/what-is-low-tech-magazine/</link>
+      
+      <enclosure url="/es/about/what-is-low-tech-magazine/images/dithers/low-tech-hearing-aid_dithered.png" type="image/png" length="59896" ></enclosure>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/about/what-is-low-tech-magazine/</guid>
+      <description>&lt;p&gt;Technology has become the idol of our society, but technological progress is—more often than not—aimed at solving problems caused by earlier technical inventions. There is a lot of potential in past and often forgotten knowledge and technologies when it comes to designing a sustainable society. Interesting possibilities arise when we combine old technology with new knowledge and new materials, or when we apply old concepts and traditional knowledge to modern technology.&lt;/p&gt;
+&lt;p&gt;Low-tech Magazine was founded in November 2007. Since 2018, the magazine also runs on a solar powered server. The website is also available in Spanish, French, Dutch, German, and Polish. Since 2019, LTM also appears in print. Low-tech Magazine publishes at most 12 well-researched stories per year. Sister blog No Tech Magazine brings more regular updates.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Acerca de</title>
+      <link>/es/about/the-solar-website/</link>
+      
+      <enclosure url="/es/about/the-solar-website/images/dithers/serverandbattery003_dithered.png" type="image/png" length="32507" ></enclosure>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/about/the-solar-website/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/about/the-solar-website/images/dithers/serverandbattery003_dithered.png&#34; alt=&#39;Foto: Detalle del servidor de energía solar.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Foto: Detalle del servidor de energía solar. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Primer prototipo del servidor de energía solar que opera el nuevo sitio web. El controlador de carga solar (a la derecha) alimenta el servidor (a la izquierda) a través de un cable USB.&lt;/p&gt;
+&lt;p&gt;Low-tech magazine (La revista de Baja Tecnología) nació en 2007, y desde entonces ha sufrido pocos cambios. Dado a que queríamos rediseñar el sitio web hace ya mucho tiempo, y debido a que tratamos de practicar lo que predicamos, decidimos construir una versión de baja tecnología, autohospedada y que aproveche de la energía solar. El nuevo blog esta diseñado para reducir radicalmente el uso de energía asociado con el acceso a nuestro contenido.&lt;/p&gt;
+&lt;h2 id=&#34;por-qué-una-página-web-de-baja-tecnología&#34;&gt;¿Por qué́ una página web de baja tecnología?&lt;/h2&gt;
+&lt;p&gt;Se nos dijo que el Internet &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;“desmaterializaría” la sociedad y disminuiría el uso de energía&lt;/a&gt;. Contrariamente, este se ha convertido en &lt;a href=&#34;/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;un gran consumidor con niveles en rápido crecimiento&lt;/a&gt;. Según las últimas estimaciones, toda la red ya consume el 10% de
+la producción mundial de electricidad, y el tráfico de datos se duplica aproximadamente cada dos años.&lt;/p&gt;
+&lt;p&gt;Para aliviar estos altos niveles de consumo, se ha propuesto usar energías renovables
+como un medio para reducir las emisiones provocadas por accionar los centros de
+datos. Por ejemplo, el &lt;a href=&#34;http://www.greenpeace.org/usa/global-warming/click-clean/&#34;&gt;informe anual ClickClean&lt;/a&gt; de Greenpeace clasifica las principales
+compañías de Internet según su uso de energías renovables.&lt;/p&gt;
+&lt;p&gt;Sin embargo, ejecutar centros de datos usando fuentes de energía renovables no es al día de hoy suficiente para suministrar su creciente consumo de energía. Para empezar el Internet ya utiliza tres veces más energía de la que pueden proporcionar todas las fuentes de energía eólica y solar del mundo. Además, &lt;a href=&#34;/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la fabricación y el mantenimiento regular de las plantas de energía renovable también requieren de energía&lt;/a&gt; lo quesignifica que si el tráfico de datos sigue en crecimiento, también seguirá en crecimiento el uso de combustibles fósiles.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ejecutar centros de datos usando fuentes de energía renovables no es al día de
+hoy suficiente para abordar su creciente consumo de energía.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finalmente, la energía solar y eólica no están siempre disponibles, lo que significa que un Internet que funcione con fuentes de energía renovables requeriría una
+infraestructura para el almacenamiento y/o transmisión de energía, lo que &lt;a href=&#34;/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependería del uso de combustibles fósiles para su fabricación y reemplazo&lt;/a&gt;. Impulsar sitios web que usan energías renovables no es una mala idea, sin embargo, también se debería abordar la tendencia del permanente crecimiento del uso de energía.&lt;/p&gt;
+&lt;h2 id=&#34;sitios-web--pesados&#34;&gt;Sitios web &amp;quot; Pesados&amp;quot;&lt;/h2&gt;
+&lt;p&gt;Para empezar, el contenido publicado en Internet es cada vez más intensivo en el uso de recursos. Esto tiene mucho que ver con la creciente importancia del video, pero también se puede observar esta tendencia entre los sitios web.
+En junio del 2018 el &lt;a href=&#34;https://httparchive.org/reports/page-weight&#34;&gt;tamaño de una página web promedio&lt;/a&gt; aumentó de 0.45 megabytes (MB) a 1.7 megabytes (MB). Para los sitios web móviles, el “peso de una página”
+promedio se multiplicó por diez, desde 0,15 MB en 2011 a 1.6 MB en 2018. Usando
+diferentes métodos de medición, otras fuentes informan tamaños de página promedio de hasta 2.9 MB en 2018.&lt;/p&gt;
+&lt;p&gt;El crecimiento en el tráfico de datos &lt;a href=&#34;https://www.researchgate.net/publication/224224694/download&#34;&gt;supera los avances en la eficiencia energética&lt;/a&gt; (la energía requerida para transferir 1 megabyte de datos en el Internet), lo que
+resulta en un mayor uso de energía. Los sitios web “más pesados” o “más grandes” no
+solo aumentan el uso de energía en la red, sino que también acortan la vida útil de las
+computadoras: los sitios web más grandes requieren de computadoras más poderosas
+para acceder a ellas. Esto significa que se deben fabricar más computadoras, lo cual es
+&lt;a href=&#34;/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;un proceso que consume mucha energía&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estar siempre en línea no combina bien con el uso de fuentes de energía
+renovables como la energía eólica y solar, ya que estas no siempre están
+disponibles.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Una segunda razón que ocasiona el aumento del consumo de energía del Internet es el hecho de que pasamos cada vez más tiempo en línea. Antes de la llegada de los dispositivos informáticos portátiles y el acceso a la red inalámbrica, solo estábamos conectados a la red cuando teníamos acceso a una computadora de escritorio en la
+oficina, en el hogar o en la biblioteca. Ahora vivimos un mundo en el que, sin importar
+donde estemos, estamos siempre –en línea-, incluso a veces, a través de más de un dispositivo simultáneamente.&lt;/p&gt;
+&lt;p&gt;El estar siempre en linea en la red viene acompañado por un modelo de cloud
+computing (modelo de computación en nube), el cual permite dispositivos de usuarios
+cada vez más eficientes a expensas de un mayor uso de energía. Cada vez más
+actividades que podrían suceder perfectamente fuera de línea, como por ejemplo
+escribir un documento, rellenar una hoja de cálculo, o almacenar datos, requieren
+ahora de un acceso continuo a la red. Esto no se acopla bien con las fuentes de
+energía renovables, como la energía eólica y solar, dado a que estas no siempre están
+disponibles.&lt;/p&gt;
+&lt;h2 id=&#34;diseño-web-de-baja-tecnología&#34;&gt;Diseño web de baja tecnología&lt;/h2&gt;
+&lt;p&gt;Nuestro nuevo diseño web aborda estos dos problemas. Gracias a un diseño web de
+baja tecnología, logramos reducir por un factor de 5 el tamaño promedio de las páginas
+del blog, comparado con el diseño anterior, haciendo al mismo tiempo que el sitio sea
+visualmente más atractivo (y compatible con dispositivos móviles). En segundo lugar,
+nuestro nuevo sitio web funciona al 100% con energía solar, no solo teóricamente, el
+sitio web tiene su propio almacenamiento de energía y se desconectará durante
+periodos prologados de tiempo nublado.
+El internet no es un ser autónomo. Su creciente uso de energía es la &lt;a href=&#34;http://tonsky.me/blog/disenchantment/&#34;&gt;consecuencia de decisiones reales&lt;/a&gt; tomadas por desarrolladores de software, diseñadores de web, departamentos de marketing, editores y usuarios de Internet. Con un sitio web ligero, fuera de la red, accionado por energía solar, queremos mostrar que se pueden tomar otras decisiones.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Con 36 de aproximadamente 100 artículos en línea, el peso promedio de las
+páginas en nuestro nuevo diseño web es aproximadamente cinco veces inferior
+al del diseño anterior.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para empezar, el nuevo diseño del sitio web revierte la tendencia de continuar creando páginas cada vez más grandes y pesadas. Con 36 de aproximadamente 100 artículos en línea, el peso promedio de las páginas en el nuevo sitio web es de 0.77 MB, aproximadamente 5 veces más bajo que el diseño anterior, y menos de la mitad del tamaño promedio de las páginas de los 500,000 blogs más populares de Junio del 2018.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/about/the-solar-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/about/the-solar-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png&#34; alt=&#39;Photo: Prueba de velocidad de la página web antigua y la nueva. El tamaño de página ha disminuido más de 6 veces, la cantidad de solicitudes ha disminuido 5 veces, y la velocidad de descarga se ha multiplicado por 10. Tenga en cuenta que no diseñamos el sitio web para adquirir más velocidad, sino para disminuir el uso de energía. Sería aún más rápido si el servidor se ubicara en un centro de datos y/o en una ubicación más central en la infraestructura de Internet. Fuente: Pingdom.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Photo: Prueba de velocidad de la página web antigua y la nueva. El tamaño de página ha disminuido más de 6 veces, la cantidad de solicitudes ha disminuido 5 veces, y la velocidad de descarga se ha multiplicado por 10. Tenga en cuenta que no diseñamos el sitio web para adquirir más velocidad, sino para disminuir el uso de energía. Sería aún más rápido si el servidor se ubicara en un centro de datos y/o en una ubicación más central en la infraestructura de Internet. Fuente: Pingdom. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A continuación podrán leer sobre algunas de la decisiones de diseño que tomamos
+para reducir el consumo de energía. Puede encontrar aquí más información técnica: un articulo sobre &lt;a href=&#34;https://github.com/lowtechmag/solar/wiki/Solar-Web-Design&#34;&gt;el diseno grafico&lt;/a&gt; y uno sobre &lt;a href=&#34;https://homebrewserver.club/low-tech-website-howto.html#software&#34;&gt;la configuracion del servidor&lt;/a&gt;. También hemos publicado &lt;a href=&#34;https://github.com/lowtechmag/solar&#34;&gt;el código fuente para el diseño de nuestro sitio web&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sitio-estático&#34;&gt;Sitio estático&lt;/h2&gt;
+&lt;p&gt;Una de las elecciones fundamentales que hicimos fue construir un sitio web estático.
+Hoy en día la mayoría de sitios web utilizan lenguajes de programación en el servidor
+que generan el sitio web sobre la marcha consultando una base de datos. Esto significa
+que cada vez que alguien visita una página web, esta se genera a pedido.&lt;/p&gt;
+&lt;p&gt;Por otro lado, un sitio web estático &lt;a href=&#34;https://varia.zone/en/what-a-website-can-be.html&#34;&gt;se genera una vez y existe como un simple conjunto de documentos guardados en el disco duro del servidor&lt;/a&gt;. Un sitio web estático siempre
+está ahí, no solo cuando alguien visita la página, por lo tanto, este se basa en el
+almacenamiento de archivos, mientras que los sitios web dinámicos dependen de
+cómputos recurrentes. Por consiguiente, los sitios web estáticos requieren menos
+poder de procesamiento y, por lo tanto, menos energía.&lt;/p&gt;
+&lt;p&gt;La elección de un sitio estático permite la posibilidad de servir el sitio de manera
+económica desde nuestra oficina central en Barcelona. Hacer lo mismo con un sitio
+web apoyado en una base de datos sería casi imposible, ya que requeriría demasiada
+energía. También sería un gran riesgo para la seguridad. Aunque un servidor web conun sitio estático puede ser pirateado, hay significativamente menos rutas de ataque y el
+daño se repara más fácilmente.&lt;/p&gt;
+&lt;h2 id=&#34;imágenes-interpoladas&#34;&gt;Imágenes Interpoladas&lt;/h2&gt;
+&lt;p&gt;El principal desafío fue reducir el tamaño de la página sin hacer que el sitio web sea
+menos atractivo. Debido a que las imágenes ocupan la mayor parte del ancho de
+banda, sería fácil obtener tamaños de página mucho más pequeños y un menor
+consumo de energía al eliminar las imágenes, reducir su número o hacerlas mucho
+más pequeñas. Sin embargo, los elementos visuales son una parte importante del
+atractivo de la Revista de Baja Tecnología, y el sitio web no sería el mismo sin ellos.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Al interpolar las imágenes, podemos hacer que estas sean diez veces menos
+intensivas en el uso de recursos. Aún cuando se muestren de un tamaño mucho
+mayor que en el sitio web anterior.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En su lugar, optamos por aplicar una técnica obsoleta de compresión de imagen
+llamada Interpolado (dithering en inglés). El número de colores en una imagen,
+combinado con su formato de archivo y resolución, contribuye a su tamaño. Por lo
+tanto, en lugar de utilizar imágenes de alta resolución a todo color, optamos por
+convertir todas las imágenes a blanco y negro, con cuatro niveles de gris.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/about/the-solar-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png&#34; alt=&#39;Photo: Una imagen interpolada de nuestro servidor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Photo: Una imagen interpolada de nuestro servidor. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Estas imágenes en blanco y negro después se colorean de acuerdo con la categoría a
+la que pertenecen, dependiendo de su contenido. Esta manipulación se realiza usando
+las capacidades de manipulación de imágenes nativas del navegador. Comprimidas a
+través de esta interpolación, las imágenes que aparecen en los artículos agregan
+mucho menos carga al contenido: en comparación con el sitio web anterior, las
+imágenes son aproximadamente diez veces menos intensivas en el uso de recursos.&lt;/p&gt;
+&lt;h2 id=&#34;tipo-de-letra-predeterminado--sin-logotipo&#34;&gt;Tipo de letra predeterminado / Sin logotipo&lt;/h2&gt;
+&lt;p&gt;Todos los recursos cargados en el servidor, incluidos los tipos de letra y los logotipos,
+son una solicitud adicional al servidor, que requiere de un espacio de almacenamiento
+y uso de energía. Por lo tanto, nuestro nuevo sitio web no carga un tipo de letra
+personalizado y elimina la declaración de la familia de fuentes, lo que significa que los
+visitantes verán el tipo de letra predeterminado para su navegador.&lt;/p&gt;
+&lt;p&gt;Usamos un enfoque similar para el logotipo. De hecho, la revista de Baja tecnología
+nunca tuvo un logotipo real, solo una imagen de una lanza sostenida como un arma de
+baja tecnología contra las afirmaciones prevalecientes de alta tecnología.&lt;/p&gt;
+&lt;p&gt;En lugar de un diseño personalizado de logotipo, que requeriría la producción y
+distribución de tipos de letra e imágenes personalizadas, la nueva identidad de la
+revista de Baja Tecnología consiste en un solo movimiento tipográfico: usar la flecha
+orientada hacia la izquierda en lugar del guión en el nombre: LOW ← TECH
+MAGAZINE.&lt;/p&gt;
+&lt;h2 id=&#34;sin-seguimiento-de-terceros-sin-servicios-de-publicidad-sin-cookies&#34;&gt;Sin seguimiento de terceros, sin servicios de publicidad, sin cookies&lt;/h2&gt;
+&lt;p&gt;Softwares de análisis web, como Google Analytics, registra lo que sucede en un sitio
+web, por ejemplo, qué páginas son las más vistas, de dónde provienen los visitantes,
+etc. Estos servicios son populares porque pocas personas auto- hospedan su propio
+sitio web. Sin embargo, el intercambio de estos datos entre el servidor y la
+computadora del administrador del sitio web (webmaster) genera un tráfico de datos
+adicional y, por lo tanto, un uso de energía agregado.&lt;/p&gt;
+&lt;p&gt;Con un servidor auto-hospedado, podemos hacer y ver estas mediciones en la misma
+máquina: cada servidor web genera registros de lo que sucede en la computadora.
+Estos registros (anónimos) solo los vemos nosotros y no se utilizan para perfilar a los
+visitantes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Con un servidor auto-hospedado, no hay necesidad de seguimiento de terceros ni de la
+utilización de cookies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La revista Low-tech ha estado publicando anuncios de Google Adsense desde el
+comienzo de 2007. Aunque estos son un recurso financiero importante para mantener
+el blog, tienen dos desventajas importantes. La primera es el uso de energía: los
+servicios de publicidad aumentan el tráfico de datos y, por lo tanto, el uso de energía.&lt;/p&gt;
+&lt;p&gt;En segundo lugar, Google recopila información de los visitantes del blog, lo que nos
+obliga a elaborar extensas declaraciones de privacidad y advertencias de cookies, que
+también consumen datos y molestan a los visitantes. Por lo tanto, reemplazamos
+Adsense por otras opciones de financiamiento (lea más abajo). No utilizamos cookies
+en absoluto.&lt;/p&gt;
+&lt;h2 id=&#34;con-qué-frecuencia-el-sitio-web-estará-fuera-de-línea&#34;&gt;¿Con qué frecuencia el sitio web estará fuera de línea?&lt;/h2&gt;
+&lt;p&gt;Muchas compañias anfitrionas de sitios web afirman que sus servidores funcionan con
+energía renovable. Sin embargo, incluso cuando realmente generan energía solar en el
+sitio, y no simplemente &amp;ldquo;compensan&amp;rdquo; el uso de energía de combustibles fósiles
+plantando árboles o similares, sus sitios web siempre están en línea.&lt;/p&gt;
+&lt;p&gt;Esto significa que o bien tienen un sistema de almacenamiento de batería gigante en el
+sitio (lo que hace que su sistema de energía sea insostenible), o que dependen de la
+red eléctrica cuando hay una escasez de energía solar (lo que significa que realmente
+no funcionan con 100 % energía solar).&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/about/the-solar-website/images/dithers/sps_panel_dithered.png&#34; alt=&#39;Foto: El panel solar fotovoltaico de 50W. Encima hay un panel de 10W que alimenta un sistema de&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Foto: El panel solar fotovoltaico de 50W. Encima hay un panel de 10W que alimenta un sistema de 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;iluminación.&lt;/p&gt;
+&lt;p&gt;En contraste, este sitio web funciona con un sistema de energía solar fuera de la red
+con su propio sistema de almacenamiento de energía, y se desconectará durante
+períodos más largos de tiempo nublado. Una fiabilidad inferior al 100% es esencial para
+la sostenibilidad de un sistema solar fuera de la red, porque por encima de un cierto
+umbral, la energía del combustible fósil utilizada para producir y reemplazar las baterías
+es más alta que la energía del combustible fósil ahorrada por los paneles solares.&lt;/p&gt;
+&lt;p&gt;La frecuencia con la que el sitio web estará fuera de línea queda aún por verse. El
+servidor web ahora funciona con un panel solar nuevo de 50 Wp y una batería de
+plomo de 12V 7Ah de dos años. Debido a que el panel solar está sombreado durante la
+mañana, recibe luz solar directa de 4 a 6 horas por día solamente. En condiciones
+óptimas, el panel solar genera 6 horas x 50 vatios = 300 Wh de electricidad.&lt;/p&gt;
+&lt;p&gt;El servidor web utiliza entre 1 y 2,5 vatios de potencia (dependiendo del número de
+visitantes), lo que significa que requiere entre 24 Wh y 60 Wh de electricidad por día.
+En condiciones óptimas, deberíamos tener suficiente energía para mantener el servidor
+web funcionando las 24 horas del día. El exceso de producción de energía se puede
+utilizar para aplicaciones domésticas.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Esperamos mantener el sitio web en línea durante uno o dos días de mal tiempo,
+después de lo cual quedará fuera de línea.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sin embargo, durante los días nublados, especialmente en invierno, la producción
+diaria de energía podría ser tan baja como 4 horas x 10 vatios = 40 vatios-hora por día,
+mientras que el servidor requiere entre 24 y 60 Wh por día. El almacenamiento de la
+batería es de aproximadamente 40 Wh, teniendo en cuenta el 30% de la carga y el
+33% de profundidad-o-descarga (el controlador de carga solar apaga el sistema cuando
+el voltaje de la batería cae a 12V).&lt;/p&gt;
+&lt;p&gt;En consecuencia, el servidor con energía solar permanecerá en línea durante uno o
+dos días de mal tiempo, pero no por más tiempo. Sin embargo, estas son estimaciones,
+y podemos agregar una segunda batería de 7 Ah durante el otoño si es necesario.
+Nuestro objetivo es un &amp;ldquo;tiempo de actividad&amp;rdquo; del 90%, lo que significaría que el sitio web
+estaría fuera de línea durante un promedio de 35 días por año.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/about/the-solar-website/images/dithers/sps_bats_dithered.png&#34; alt=&#39;Foto: Primer prototipo con batería de plomo-ácido (12V 7Ah) a la izquierda, y batería Li- Po UPS (3,7V 6600mA) a la derecha. La batería de plomo-ácido proporciona la mayor parte del almacenamiento de energía, mientras que la batería Li-Po permite que el servidor se apague sin ocasionar daños en el hardware (esta será reemplazada por una batería Li-Po mucho más pequeña).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Foto: Primer prototipo con batería de plomo-ácido (12V 7Ah) a la izquierda, y batería Li- Po UPS (3,7V 6600mA) a la derecha. La batería de plomo-ácido proporciona la mayor parte del almacenamiento de energía, mientras que la batería Li-Po permite que el servidor se apague sin ocasionar daños en el hardware (esta será reemplazada por una batería Li-Po mucho más pequeña). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;cuándo-es-el-mejor-momento-para-visitar&#34;&gt;¿Cuándo es el mejor momento para visitar?&lt;/h2&gt;
+&lt;p&gt;La accesibilidad de este sitio web depende del clima en Barcelona, España, donde se
+encuentra el servidor web solar. Para ayudar a los visitantes a &amp;ldquo;planificar&amp;rdquo; sus visitas a
+la revista de Baja Tecnología les proporcionamos varias pistas.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para ayudar a los visitantes a &amp;ldquo;planificar&amp;rdquo; sus visitas a
+la revista de Baja Tecnología les proporcionamos varias pistas.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Un medidor de batería proporciona información crucial porque puede decirle al visitante
+que el blog está a punto de caerse o que es &amp;ldquo;seguro&amp;rdquo; continuar con la lectura. El diseño
+presenta un color de fondo que indica la capacidad de la batería cargada con energía
+solar que alimenta el servidor del sitio web. Una altura decreciente indica que ha
+oscurecido o que el tiempo es malo.&lt;/p&gt;
+&lt;p&gt;Además del nivel de la batería, más información sobre el servidor del sitio web es
+visible mediante el panel de estadísticas. Este incluye información contextual de la
+ubicación del servidor: hora, condiciones actuales del cielo, previsiones futuras y la
+duración desde la última vez que el servidor se cerró debido a una alimentación
+insuficiente.&lt;/p&gt;
+&lt;h2 id=&#34;hardware-y-software&#34;&gt;Hardware y software&lt;/h2&gt;
+&lt;p&gt;Escribimos un artículo con información técnica más detallada: [Cómo construir un sitio web de baja tecnología: software y hardware](https:// homebrewserver.club/low-tech-website-howto.html).&lt;/p&gt;
+&lt;p&gt;SERVIDOR: Este sitio web corre en una computadora &lt;a href=&#34;https://homebrewserver.club/low-tech-website-howto.html#server&#34;&gt;Olimex A20&lt;/a&gt;. Tiene 2 Ghz de potencia de procesamiento, 1 GB de RAM y 16 GB de almacenamiento. El servidor consume 1 - 2.5 vatios de potencia.&lt;/p&gt;
+&lt;p&gt;SOFTWARE DEL SERVIDOR: El servidor web ejecuta Armbian Stretch, este es un
+sistema operativo Debian construido alrededor del kernel SUNXI. Pueden encontrardocumentación [técnica para configurar el servidor web aquí](https://
+homebrewserver.club/low-tech-website-howto.html#configuring-the- webserver).&lt;/p&gt;
+&lt;p&gt;SOFTWARE DE DISEÑO: El sitio web está construido con [Pelican](https://
+blog.getpelican.com/), un generador de sitios web estáticos. Hemos puesto &lt;a href=&#34;https://github.com/lowtechmag/solar&#34;&gt;a disposición el código para poder desarrollar el sitio web solar usando Pelican&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;CONEXIÓN A INTERNET. El servidor está conectado a una conexión de internet de
+fibra de 100 MBps. [Así es como configuramos el enrutador](https://
+homebrewserver.club/low-tech-website-howto.html#network) Por ahora, el enrutador funciona gracias a la red eléctrica y requiere 10 vatios de potencia. Estamos investigando cómo reemplazarlo por uno más eficiente que también pueda funcionar con energía solar.&lt;/p&gt;
+&lt;p&gt;SISTEMA PV SOLAR. El servidor funciona con un panel solar de 50 Wp y una batería
+de plomo de 12V 7Ah. Sin embargo, todavía estamos reduciendo el tamaño del sistema
+y estamos experimentando con diferentes configuraciones. La instalación fotovoltaica
+está gestionada por un controlador de carga solar de 20A.
+¿Qué pasará con el sitio web antiguo?
+La revista Solar de Baja Tecnología es un trabajo en proceso. Por el momento, la
+revista de Baja Tecnología alimentada por red eléctrica permanecerá en línea. Se
+alentará a los lectores a visitar el sitio web solar si este está disponible. Lo que pasará
+en el futuro aún no está claro. Hay varias posibilidades, pero mucho dependerá de la
+experiencia con el servidor alimentado por energía solar.&lt;/p&gt;
+&lt;p&gt;Hasta que decidamos cómo integrar el antiguo y el nuevo sitio web, solo será posible
+hacer y leer comentarios en la revista de baja tecnología antigua, que aún se encuentra
+en TyePad. Si desea enviar un comentario relacionado con el servidor alimentado por
+energía solar, puede hacerlo enviando un correo electrónico a solar (arroba)
+lowtechmagazine (punto) com. Su comentario será publicado al final de este artículo.&lt;/p&gt;
+&lt;h2 id=&#34;puedo-ayudar&#34;&gt;¿Puedo ayudar?&lt;/h2&gt;
+&lt;p&gt;Sí, puedes.&lt;/p&gt;
+&lt;p&gt;Por un lado estamos buscando ideas u comentarios para mejorar aún más el sitio web
+y reducir su uso de energía. Documentaremos el proyecto extensivamente para que
+otras también puedan crear sitios web de baja tecnología. Para hacer un comentario
+envíe un correo electrónico a &lt;a href=&#34;mailto:solar@lowtechmagazine.com&#34;&gt;solar@lowtechmagazine.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Por otro lado, esperamos el apoyo a este proyecto a través de una contribución
+financiera. Los servicios de publicidad, que han mantenido la revista Low-tech desde su
+inicio en 2007, no son compatibles con nuestro ligero diseño de web. Por lo tanto,
+estamos buscando otras formas de financiar el sitio web:&lt;/p&gt;
+&lt;p&gt;Pronto ofreceremos &lt;a href=&#34;/2019/03/low-tech-magazine-the-printed-website.html&#34;&gt;copias impresas a pedido del blog&lt;/a&gt;. Estas publicaciones le
+permitirán leer la revista Low-tech en papel, en la playa, al sol, o cuando y donde
+quiera.&lt;/p&gt;
+&lt;p&gt;Puede ayudarnos a través de &lt;a href=&#34;https://www.paypal.me/lowtechmagazine&#34;&gt;PayPal&lt;/a&gt;, &lt;a href=&#34;https://www.patreon.com/lowtechmagazine&#34;&gt;Patreon&lt;/a&gt; y &lt;a href=&#34;https://liberapay.com/lowtechmagazine/&#34;&gt;LiberaPay&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.krisdedecker.org&#34;&gt;Kris De Decker&lt;/a&gt;, &lt;a href=&#34;https://roelof.info&#34;&gt;Roel Roscam Abbing&lt;/a&gt;, y &lt;a href=&#34;http://motsuka.com&#34;&gt;Marie Otsuka&lt;/a&gt; construyeron el servidor
+alimentado por energía solar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Offline Reading</title>
+      <link>/es/offline-reading/</link>
+      
+      <enclosure url="/es/offline-reading/images/dithers/all-four-books_dithered.png" type="image/png" length="17252" ></enclosure>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/offline-reading/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/es/offline-reading/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Low-tech Magazine: The Printed Website. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The printed archives of Low-tech Magazine now amount to four volumes with a total of 2,398 pages and 709 images. They can be ordered &lt;a href=&#34;https://www.lulu.com/search?contributor=Kris+De+Decker&amp;amp;page=1&amp;amp;pageSize=10&amp;amp;adult_audience_rating=00&amp;amp;sortBy=PUBLICATION_DATE_ASC&#34;&gt;in our Lulu bookstore&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;why-paper&#34;&gt;Why Paper?&lt;/h2&gt;
+&lt;p&gt;The books are based on the same electronic documents that make up the solar powered website — all articles were converted to Markdown, a lightweight markup language based on plain text files. However, we partly rewrote some articles, updated the references, and added more images.&lt;/p&gt;
+&lt;p&gt;The books can be read with no access to a computer, a power supply, or the internet. A printed website also serves to preserve the content of Low-tech Magazine in the longer run. Websites don’t live forever, and the internet should not be taken for granted.&lt;/p&gt;
+&lt;h2 id=&#34;low-tech-magazine-volume-one-2007-2012&#34;&gt;Low-tech Magazine Volume One (2007-2012)&lt;/h2&gt;
+&lt;p&gt;Low-tech Magazine Volume I contains 32 articles published between 2007 and 2012. The book has 618 pages and 268 images. &lt;a href=&#34;http://www.lulu.com/shop/kris-de-decker/low-tech-magazine-2007-2012/paperback/product-24347567.html&#34;&gt;Find it in our Lulu bookstore&lt;/a&gt;. Contents table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to downsize a transport network: the Chinese wheelbarrow&lt;/li&gt;
+&lt;li&gt;Medieval smokestacks: fossil fuels in pre-industrial times&lt;/li&gt;
+&lt;li&gt;The bright future of solar powered factories&lt;/li&gt;
+&lt;li&gt;Pedal powered farms and factories: the forgotten future of the stationary bicycle&lt;/li&gt;
+&lt;li&gt;Bike powered electricity generators are not sustainable&lt;/li&gt;
+&lt;li&gt;The short history of early pedal powered machines&lt;/li&gt;
+&lt;li&gt;Insulation: first the body, then the home&lt;/li&gt;
+&lt;li&gt;Aerial ropeways: automatic cargo transport for a bargain&lt;/li&gt;
+&lt;li&gt;Hand powered drilling tools and machines&lt;/li&gt;
+&lt;li&gt;Boat mills: water powered, floating factories&lt;/li&gt;
+&lt;li&gt;Recycling animal and human dung is the key to sustainable farming&lt;/li&gt;
+&lt;li&gt;The status quo of electric cars: better batteries, same range&lt;/li&gt;
+&lt;li&gt;The sky is the limit: human powered cranes and lifting devices&lt;/li&gt;
+&lt;li&gt;Wood gas vehicles: firewood in the fuel tank&lt;/li&gt;
+&lt;li&gt;Gas bag vehicles&lt;/li&gt;
+&lt;li&gt;Trolley canal boats&lt;/li&gt;
+&lt;li&gt;How (not) to resolve the energy crisis&lt;/li&gt;
+&lt;li&gt;Hoffmann kilns&lt;/li&gt;
+&lt;li&gt;Wind powered factories: history (and future) of industrial windmills&lt;/li&gt;
+&lt;li&gt;Water powered cable trains&lt;/li&gt;
+&lt;li&gt;Get wired (again): Trolleybuses and Trolleytrucks&lt;/li&gt;
+&lt;li&gt;Electric road trains in Germany, 1901 – 1950&lt;/li&gt;
+&lt;li&gt;The monster footprint of digital technology&lt;/li&gt;
+&lt;li&gt;Cargo ships, then and now&lt;/li&gt;
+&lt;li&gt;Moonlight towers: light pollution in the 1800s&lt;/li&gt;
+&lt;li&gt;Tiles as a substitute for steel: the art of the timbrel vault&lt;/li&gt;
+&lt;li&gt;A steam powered submarine: the Ictíneo&lt;/li&gt;
+&lt;li&gt;The Citroen 2CV: cleantech from the 1940s&lt;/li&gt;
+&lt;li&gt;Life without airplanes: from London to New York in 3 days and 12 hours&lt;/li&gt;
+&lt;li&gt;Satellite navigation in the 18th century&lt;/li&gt;
+&lt;li&gt;Email in the 18th century: the optical telegraph&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;low-tech-magazine-volume-two-2012-2018&#34;&gt;Low-tech Magazine Volume Two (2012-2018)&lt;/h2&gt;
+&lt;p&gt;Low-tech Magazine Volume II contains 36 articles published between 2012 and 2018. It has 704 pages and 257 images. We published a second edition of this volume in 2021. &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2012-2018-second-edition/paperback/product-zvz55m.html&#34;&gt;Find it in the Lulu bookstore&lt;/a&gt;. Contents table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to Build a Low-tech Website?&lt;/li&gt;
+&lt;li&gt;We Can’t Do It Ourselves&lt;/li&gt;
+&lt;li&gt;Ditch the Batteries: Off-grid Compressed Air Energy Storage&lt;/li&gt;
+&lt;li&gt;History and Future of the Compressed Air Economy&lt;/li&gt;
+&lt;li&gt;How Much Energy Do We Need?&lt;/li&gt;
+&lt;li&gt;Bedazzled by Energy Efficiency&lt;/li&gt;
+&lt;li&gt;How to Run the Economy on the Weather&lt;/li&gt;
+&lt;li&gt;How (Not) to Run a Modern Society on Solar and Wind Power Alone&lt;/li&gt;
+&lt;li&gt;Could We Run Modern Society on Human Power Alone?&lt;/li&gt;
+&lt;li&gt;Heat Storage Hypocausts: Air Heating in the Middle Ages&lt;/li&gt;
+&lt;li&gt;Why the Office Needs a Typewriter Revolution&lt;/li&gt;
+&lt;li&gt;The Curse of the Modern Office&lt;/li&gt;
+&lt;li&gt;How to Get Your Apartment Off the Grid&lt;/li&gt;
+&lt;li&gt;Slow Electricity: The Return of DC Power?&lt;/li&gt;
+&lt;li&gt;Power Water Networks&lt;/li&gt;
+&lt;li&gt;Fruit Walls: Urban Farming in the 1600s&lt;/li&gt;
+&lt;li&gt;Reinventing the Greenhouse&lt;/li&gt;
+&lt;li&gt;How to Build a Low-tech Internet&lt;/li&gt;
+&lt;li&gt;The 4G Mobile Internet that’s Already There&lt;/li&gt;
+&lt;li&gt;Why We Need a Speed Limit for the Internet&lt;/li&gt;
+&lt;li&gt;How Sustainable is Stored Sunlight?&lt;/li&gt;
+&lt;li&gt;How Sustainable is PV Solar Power?&lt;/li&gt;
+&lt;li&gt;Restoring the Old Way of Warming: Heating People, not Places&lt;/li&gt;
+&lt;li&gt;The Revenge of the Circulating Fan&lt;/li&gt;
+&lt;li&gt;If We Insulate Our Houses, Why Not Our Cooking Pots?&lt;/li&gt;
+&lt;li&gt;Well-Tended Fires Outperform Modern Cooking Stoves&lt;/li&gt;
+&lt;li&gt;Modular Cargo Cycles&lt;/li&gt;
+&lt;li&gt;High Speed Trains are Killing the European Railway Network&lt;/li&gt;
+&lt;li&gt;Power from the Tap: Water Motors&lt;/li&gt;
+&lt;li&gt;Back to Basics: Direct Hydropower&lt;/li&gt;
+&lt;li&gt;The Mechanical Transmission of Power (3): Endless Rope Drives&lt;/li&gt;
+&lt;li&gt;The Mechanical Transmission of Power (2): Jerker Line Systems&lt;/li&gt;
+&lt;li&gt;The Mechanical Transmission of Power (1): Stangenkunst&lt;/li&gt;
+&lt;li&gt;How to make everything ourselves: open modular hardware&lt;/li&gt;
+&lt;li&gt;Electric velomobiles: as fast and comfortable as automobiles, but 80 times more efficient&lt;/li&gt;
+&lt;li&gt;Cargo cyclists replace truck drivers on European city streets&lt;/li&gt;
+&lt;li&gt;The solar envelope: how to heat and cool cities without fossil fuel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;low-tech-magazine-volume-three-2018-2021&#34;&gt;Low-tech Magazine Volume Three (2018-2021)&lt;/h2&gt;
+&lt;p&gt;Low-tech Magazine Volume III contains 18 articles published between 2018 and 2021. It has 368 pages and 183 images. &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2018-2021/paperback/product-q7r49d.html&#34;&gt;Find it in the Lulu bookstore&lt;/a&gt;. Contents table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How Circular is the Circular Economy?&lt;/li&gt;
+&lt;li&gt;Keeping Some of the Lights On: Redefining Energy Security&lt;/li&gt;
+&lt;li&gt;Heat your House with a Mechanical Windmill&lt;/li&gt;
+&lt;li&gt;Reinventing the Small Wind Turbine&lt;/li&gt;
+&lt;li&gt;How to Make Wind Power Sustainable Again&lt;/li&gt;
+&lt;li&gt;Mist Showers: Sustainable Decadence?&lt;/li&gt;
+&lt;li&gt;Too Much Combustion, Too Little Fire&lt;/li&gt;
+&lt;li&gt;How Sustainable is a Solar Powered Website?&lt;/li&gt;
+&lt;li&gt;Fruit Trenches: Cultivating Subtropical Plants in Freezing Temperatures&lt;/li&gt;
+&lt;li&gt;Thermoelectric Stoves: Ditch the Solar Panels?&lt;/li&gt;
+&lt;li&gt;How to Make Biomass Energy Sustainable Again&lt;/li&gt;
+&lt;li&gt;How and Why I Stopped Buying New Laptops&lt;/li&gt;
+&lt;li&gt;Vertical Farming Does not Save Space&lt;/li&gt;
+&lt;li&gt;How Sustainable is High-tech Health Care?&lt;/li&gt;
+&lt;li&gt;Urban Fish Ponds: Low-tech Sewage Treatment for Towns and Cities&lt;/li&gt;
+&lt;li&gt;How to Design a Sailing Ship for the 21st Century?&lt;/li&gt;
+&lt;li&gt;How to Build a Low-tech Solar Panel?&lt;/li&gt;
+&lt;li&gt;Fascine Mattresses: Basketry Gone Wild&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;low-tech-magazine-the-comments-2008-2021&#34;&gt;Low-tech Magazine: The Comments (2008-2021)&lt;/h2&gt;
+&lt;p&gt;Low-tech Magazine: The Comments collects almost 3,000 comments on roughly 100 articles that we published between 2008 and 2021. The articles are in the three other books we have made so far. The book has 688 pages and no images. &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-the-comments-2008-2021/paperback/product-9457rd.html&#34;&gt;Find it in the Lulu bookstore&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Over the years, readers have often stated that the comments on the website are (at least) as interesting as the articles themselves. We agree. Low-tech Magazine would not have been even half what it is now without the comments. You can even take this literally, because the comments take more space than the articles. This is one of the thickest books we have published so far, despite the extra small font we use.&lt;/p&gt;
+&lt;h2 id=&#34;print-on-demand&#34;&gt;Print on Demand&lt;/h2&gt;
+&lt;p&gt;Printing is done on demand, meaning that there are no unsold copies and no large upfront investment costs. Our book distributor Lulu.com works with printers all over the world, so that most copies are produced locally and travel relatively short distances.&lt;/p&gt;
+&lt;p&gt;It takes a bit longer to receive the book, and because each copy goes straight from printer to client, there is no way for us to control the print quality. Quality is good is most cases, but if you receive a copy that is badly printed, you should notify Lulu to get a replacement. It’s a very smooth process and there’s no need to return the damaged copy. If things don&amp;rsquo;t work out, please contact us at solar [at] lowtechmagazine [dot] com.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

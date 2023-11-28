@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Italiano</title>
+    <link>/it/</link>
+    <description>Questo e un sito a energia solare, il che vuol dire che a volte va offline.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>/it/posts/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/it/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/it/about/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/it/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archivio</title>
+      <link>/it/archives/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/it/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>La vengeance de la bouillotte | LOW←TECH MAGAZINE</title>
+	
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="La vengeance de la bouillotte" />
+<meta name="twitter:title" content="La vengeance de la bouillotte"/>
+
+<meta property="og:description" content="Imaginez un chauffage personnel portable qui fonctionnerait aussi bien à l&rsquo;intérieur qu&rsquo;à l&rsquo;extérieur, qui nécessiterait peu d&rsquo;énergie et qui serait indépendant de toute infrastructure. Il existe - et a des centaines d&rsquo;années." />
+
+<meta name="twitter:description" content="Imaginez un chauffage personnel portable qui fonctionnerait aussi bien à l&rsquo;intérieur qu&rsquo;à l&rsquo;extérieur, qui nécessiterait peu d&rsquo;énergie et qui serait indépendant de toute infrastructure. Il existe - et a des centaines d&rsquo;années."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/fr/2022/01/the-revenge-of-the-hot-water-bottle/" />
+
+
+
+<meta property="og:image" itemprop="image" content="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" />
+<meta property="og:image:secure_url" content="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-12-02T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy Demand" />
+<meta property="article:tag" content="Off-the-grid" />
+<meta property="article:tag" content="Heating and Cooling" />
+
+</head>
+<body id="la-vengeance-de-la-bouillotte">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" fr/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  obsolete-technology '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				La vengeance de la bouillotte</h1>
+
+				<p class="summary">
+					Imaginez un chauffage personnel portable qui fonctionnerait aussi bien à l&rsquo;intérieur qu&rsquo;à l&rsquo;extérieur, qui nécessiterait peu d&rsquo;énergie et qui serait indépendant de toute infrastructure. Il existe - et a des centaines d&rsquo;années.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">20 janvier 2022</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="/fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="/fr/translators/nan-van-gyseghem/">Nan Van Gyseghem</a></span>
+						
+							<span class="author"><a href="/fr/translators/l%C3%A9a-talec-bernard/">Léa Talec-Bernard</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="/2022/01/the-revenge-of-the-hot-water-bottle/">en</a>
+						
+							<a href="/de/2022/01/the-revenge-of-the-hot-water-bottle/">de</a>
+						
+							<a href="/nl/2022/01/the-revenge-of-the-hot-water-bottle/">nl</a>
+						
+							<a href="/es/2023/11/the-revenge-of-the-hot-water-bottle/">es</a>
+						
+							<a href="/it/2022/01/the-revenge-of-the-hot-water-bottle/">it</a>
+						
+							<a href="/pl/2022/01/the-revenge-of-the-hot-water-bottle/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" alt='Grâce aux bouillottes, nous pourrions économiser beaucoup d’énergie et d’argent sans avoir à sacrifier notre confort thermique. Elles marchent aussi bien à l&amp;rsquo;intérieur qu&amp;rsquo;à l&amp;rsquo;extérieur. Illustration : Marie Verdeil.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/hot-water-bottles-bar-terrace_hu25c8cb9b925f33b48d215400da92af9a_756341_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Grâce aux bouillottes, nous pourrions économiser beaucoup d’énergie et d’argent sans avoir à sacrifier notre confort thermique. Elles marchent aussi bien à l&rsquo;intérieur qu&rsquo;à l&rsquo;extérieur. Illustration : Marie Verdeil.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Une bouillotte est un récipient refermable rempli d&rsquo;eau chaude, souvent couvert par une housse en tissu, qui se place contre une partie du corps pour rester au chaud. La bouillotte est encore, aujourd’hui, un objet d&rsquo;usage courant dans plusieurs coins du monde comme au Royaume-Uni et au Japon. Mais on l’oublie bien souvent dans la majorité du monde industrialisé. Si elle est bien connue, elle est plus souvent associée au soulagement de douleurs qu’au confort thermique, on l’associe également aux personnes les plus pauvres et les plus âgés.</p>
+<p>Pourtant, j’ai envoyé une douzaine de bouillottes à mes amis et ma famille comme cadeau de Noël et leurs réactions étaient presque unanimement positives. Les gens sont plutôt surpris qu&rsquo;un objet si modeste puisse apporter autant de confort. N’ayant ni le temps, ni le budget d&rsquo;envoyer des bouillottes à tout le monde, j&rsquo;ai décidé d’écrire cet article. Il se base principalement sur ma propre expérience – j&rsquo;ai utilisé des bouillottes pendant des années et elles sont la seule source de chaleur dans mon appartement.</p>
+<h2 id="lhistoire-de-la-bouillotte">L&rsquo;histoire de la bouillotte</h2>
+<p>En 1903, l&rsquo;inventeur croate Eduard Penkala dépose le brevet de la bouillotte en caoutchouc qu&rsquo;il nomme alors le « Termofor ». Mais elle n’est pas apparue du jour au lendemain. L&rsquo;histoire de la bouillotte, bien que celle-ci ait eu d’autres apparences, commence bien plus tôt.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png" alt='Bouillotte en caoutchouc, fabriquée en Allemagne (1925-35). Source : Museum Rotterdam.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/warmwaterzak_hu457cdc9b700b5a56ed76013f663faef6_3221478_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Bouillotte en caoutchouc, fabriquée en Allemagne (1925-35). Source : <a href="https://museumrotterdam.nl/collectie/item/76113-A-B" target="_blank" >Museum Rotterdam</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les premières « bouillottes » n’étaient autres que des êtres humains et des animaux. Dans les temps anciens, les gens se réchauffaient en se serrant les uns contre les autres. Par exemple, il était courant que tous les membres d’une famille, et même les invités, dorment ensemble dans le même lit. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Les gens profitaient également de leurs animaux pour se réchauffer – des « bouillottes » vivantes à fourrure.</p>
+<p>Ils se blottissaient contre des vaches et cochons, qui partageaient l&rsquo;espace de vie ou restaient dans l&rsquo;écurie en dessous. Au 18ème siècle, les femmes riches achetaient des « chiens à mains » spécialement élevés – des caniches toys – pour se réchauffer les genoux et mains. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Les chauffages personnels prenaient également la forme d’objets – des pierres, briques, pommes de terre – réchauffés au feu de bois, enveloppés dans du papier ou du tissu, et placés sur les genoux, dans les poches, ou bien dans le lit.</p>
+<p>Dès les années 1 500, les gens commencent à utiliser toutes sortes de récipients portables remplis de braises chaudes, avec lesquels ils réchauffaient leurs pieds, leurs mains et leurs lits. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> La plupart de ces récipients étaient faite en métal, en cuivre ou en laiton, puis placée dans des boîtes en bois ou céramique pour ne pas se brûler. Au fil du temps, les braises chaudes se sont vues remplacées par de l&rsquo;eau chaude, plus propres et moins dangereuse.</p>
+<p>Au départ, ces premières « vraies » bouillottes étaient fabriquées dans des matériaux solides comme le ver, le métal ou le grès. Ce n’est qu&rsquo;à partir de l&rsquo;invention du caoutchouc vulcanisé au 19ème siècle que les bouillottes plus légères et flexibles voient le jour. Des amis Espagnols m&rsquo;ont parlé de bouillottes fabriquées à partir de peaux d&rsquo;animaux bien que je n&rsquo;aie pu vérifier cette information. Ça ne serait pas étonnant, étant donné que, partout dans le monde, on utilisait des « outres » pour transporter des liquides.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png" alt='Exemple d&amp;rsquo;une bouillotte couramment utilisée dans les foyers au 20ème siècle avant l&amp;rsquo;arrivée des bouillottes en caoutchouc (Années 1940, Melbourne, Australie). Source : Victorian Collections. https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/VictorianCollections-large_hu8e4e49dade54edfe4362f89d2f6fc064_228471_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Exemple d&rsquo;une bouillotte couramment utilisée dans les foyers au 20ème siècle avant l&rsquo;arrivée des bouillottes en caoutchouc (Années 1940, Melbourne, Australie). Source : Victorian Collections. <a href="https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799" target="_blank" >https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png" alt='Fabriqué par Kenworty Son and Company à Southport, en Angleterre, ce modèle ovale est incurvé et adapté à la forme du corps. Source : Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/gf42542b.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/Copper-foment-can-England-1880-1930_hu852bfe47392b5330fd0c9d45ec378719_672340_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Fabriqué par Kenworty Son and Company à Southport, en Angleterre, ce modèle ovale est incurvé et adapté à la forme du corps. Source : Science Museum, London. (CC BY 4.0). <a href="https://wellcomecollection.org/works/gf42542b" target="_blank" >https://wellcomecollection.org/works/gf42542b</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png" alt='Bouillotte hexagonale, Autriche, 1791-1798. Cette bouillotte est faite en étain et est ornée d’une gravure représentant une forêt. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/b452vwjm.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/Hexagonal-hot-water-bottle-Austria-1791-1798_huf32799fc098052931a1de7d941d1e956_787315_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Bouillotte hexagonale, Autriche, 1791-1798. Cette bouillotte est faite en étain et est ornée d’une gravure représentant une forêt.  Source : Science Museum, Londres. (CC BY 4.0). <a href="https://wellcomecollection.org/works/b452vwjm" target="_blank" >https://wellcomecollection.org/works/b452vwjm</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png" alt='Ce chauffe-pied (fabriqué en 1927) était utilisé pour réchauffer et réconforter les patients qui séjournaient à l’hôpital. Fabriquée en fer et en étain, on la remplissait d&amp;rsquo;eau chaude avant de la refermer à l’aide d’un bouchon. Fabriquée à : Glasgow, Écosse, Royaume-Uni. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/mfjujndv' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/foot-warmer-Lister-Ward_hu7bf30ba2caff2ec62a1abed8da5401ce_649512_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ce chauffe-pied (fabriqué en 1927) était utilisé pour réchauffer et réconforter les patients qui séjournaient à l’hôpital. Fabriquée en fer et en étain, on la remplissait d&rsquo;eau chaude avant de la refermer à l’aide d’un bouchon. Fabriquée à : Glasgow, Écosse, Royaume-Uni. Source : Science Museum, Londres. (CC BY 4.0). <a href="https://wellcomecollection.org/works/mfjujndv" target="_blank" >https://wellcomecollection.org/works/mfjujndv</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png" alt='Chauffe-pied Français, date inconnue. Source : Musée Départemental Albert Demard' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/M0354_930804-004_1_hud3f70d368b6b2fe784879746f2a7432b_53111_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Chauffe-pied Français, date inconnue. Source : Musée Départemental Albert Demard</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="bouillottes-contemporaines">Bouillottes contemporaines</h2>
+<p>La bouillotte classique trouvable en magasin aujourd&rsquo;hui est faite en caoutchouc ou en PVC. Ce dernier a quelques avantages, il est moins cher et peut être transparent. Malheureusement, le PVC, contrairement au caoutchouc, contient des produits chimiques (qui donnent sa souplesse au plastique). Une troisième option, plus difficile à trouver : les bouillottes en plastique dur sans assouplissants chimiques.</p>
+<p>La bouillotte Japonaise à forme distincte – le « yutampo » – est, aujourd’hui, généralement faite à partir de ce plastique. On retrouve des traces de son utilisation datant du 15ème siècle à l’époque où elle était fabriquée en métal ou en grès. Bien évidemment, toutes sortes de récipients peuvent être utilisés comme bouillotte. J&rsquo;ai déjà utilisé des bouillottes en métal et même en plastique – j’en reparle dans le reste de l’article.</p>
+<blockquote>
+<p>Malgré sa mauvaise image, la bouillotte connaît, ces derniers temps, d&rsquo;intéressantes innovations.</p>
+</blockquote>
+<p>La bouillotte typique a une forme rectangulaire et peut contenir jusqu&rsquo;à deux litres d&rsquo;eau. Pourtant, malgré sa mauvaise image, la bouillotte connaît, ces derniers temps, d&rsquo;intéressantes innovations. L’une des premières avancées est l’apparition d’une bouillotte rectangulaire plus petite, pouvant contenir de 0,2 à 0,8 litres d&rsquo;eau. Vu leur taille, elles étaient plutôt destinées aux enfants, mais elles pouvaient tout aussi bien servir aux adultes qui les glissaient dans leurs poches ou à l&rsquo;intérieur de leurs vêtements.</p>
+<p>Aujourd&rsquo;hui, il existe aussi des bouillottes plus grandes, qui peuvent contenir jusqu&rsquo;à 3 litres d&rsquo;eau, voire plus. Finalement, la bouillote qui a connu le plus de succès est celle en forme de saucisse : une bouillotte de 80 cm de longueur. On peut l&rsquo;attacher autour de sa taille ou la serrer contre soi dans le canapé ou au lit. Elle peut aussi d&rsquo;être partagée et sa forme la rend extrêmement confortable. Elle peut contenir jusqu&rsquo;à deux litres d&rsquo;eau.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png" alt='Bouillotte en caoutchouc et en PVC. Image par Marie Verdeil.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/waterbottle002_hudc141f527bbcc112947dccfd636cb151_880157_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Bouillotte en caoutchouc et en PVC. Image par Marie Verdeil.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png" alt='Bouillotte en caoutchouc. Image par Marie Verdeil.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/waterbottle005_hub8897f5e33de44884895add439e9ca35_1627290_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Bouillotte en caoutchouc. Image par Marie Verdeil.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png" alt='Une bouillotte japonaise, ou « yutampo », fabriquée en plastique dur. Source : All About Japan. https://allabout-japan.com/en/article/6244/' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/yutampo2_hude881a885685ce7df4c1df06475fc1fc_787478_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Une bouillotte japonaise, ou « yutampo », fabriquée en plastique dur. Source : All About Japan. <a href="https://allabout-japan.com/en/article/6244/" target="_blank" >https://allabout-japan.com/en/article/6244/</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png" alt='On trouve encore des yutampo Japonais en métal. Source : Maruka.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/maruka-yutampo_hu0098a0d8a61b702d0b36227ad2946e53_95108_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>On trouve encore des yutampo Japonais en métal. Source : Maruka.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="comment-utiliser-une-bouillotte">Comment utiliser une bouillotte ?</h2>
+<p>Ceux qui connaissent les bouillottes, pensent souvent tout de suite à les utiliser au lit. Pourtant, elles peuvent vous garder chaud toute la journée, n&rsquo;importe où, comme dans le canapé, à votre bureau ou, encore mieux, à table.</p>
+<p>J&rsquo;utilise une, deux voire trois bouillottes à la fois, selon la température qu’il fait. Je les mets sur les genoux, dans le bas du dos et/ou sous les pieds. Même si la bouillotte ne réchauffe que ces parties du corps directement, sa chaleur se repend partout dans le corps grâce à la circulation sanguine.</p>
+<p>On peut utiliser sa bouillotte sous une couverture pour plus de confort. Si je mets une couverture sur mes genoux quand je suis à mon bureau, la bouillote reste chaude encore plus longtemps.</p>
+<p>Encore mieux : les couvertures avec un trou au milieu pour y mettre sa tête – les ponchos en fait – ou celles à manches. Si elles sont assez grandes, elles peuvent s’utiliser comme des tentes et garder le corps entier dans ce microclimat créé par les bouillottes. Draper une source de chaleur de vêtements amples était, auparavant, une stratégie de confort assez commune.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png" alt='Une couverture retient la chaleur des bouillottes. Illustration par Marie Verdeil.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/hot-water-bottles-kotatsu-grey-background_hu2a3f373005f1ecb83372f3676d369c3c_415384_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Une couverture retient la chaleur des bouillottes. Illustration par Marie Verdeil.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Il est même possible d&rsquo;aller un peu plus loin en mettant une grande couverture sur la table avec ses jambes en dessous. Ces techniques pour se réchauffer ont été utilisées dans plusieurs parties du monde, généralement avec du charbon chaud comme source de chaleur, comme par exemple le « kotatsu » Japonais, le « korsi » du Moyen-Orient ou encore le « brasero de picón ».</p>
+<p>Les deux premières sont plutôt utilisées au sol – on est assis par terre – tandis que la dernière est adaptée à la hauteur de chaise habituelle utilisée en Occident. C&rsquo;est facile à mettre en place – et quelques bouillottes font une source de chaleur idéale.</p>
+<h2 id="bouillottes-en-extérieur">Bouillottes en extérieur</h2>
+<p>Les techniques décrites ci-dessus ne fonctionne qu’en restant sur place pendant leur utilisation. Le besoin de source de chaleur externe diminue quand on est actif car le corps produit lui-même de la chaleur.</p>
+<p>Malgré tout, les bouillottes peuvent aussi tenir chaud en déplacement. Elles peuvent être portées sous les vêtements ou même dans des sac (à dos) spécialement conçu pour. Un petit sac à dos contenant une bouillotte – entre les omoplates – fonctionne très bien aussi assis sur une chaise.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png" alt='Les bouillottes peuvent fournir du confort thermique même avec les fenêtres ouvertes. Illustration par Marie Verdeil.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/hot-water-bottles-school_hue7d6d51572bc5a789630e7821a829769_516848_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Les bouillottes peuvent fournir du confort thermique même avec les fenêtres ouvertes. Illustration par Marie Verdeil.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les bouillottes marchent aussi bien en extérieur – à condition que le corps soit protégé des intempéries – qu&rsquo;en intérieur avec les fenêtres ouvertes. Les chauffages modernes fournissent du confort thermique en réchauffant l&rsquo;air d’une pièce, une approche qui, bien évidemment, ne marche pas trop en extérieur ou dans les intérieurs trop aérés. Les bouillottes réchauffent les gens grâce au contact physique direct (une méthode de transfert de chaleur qu’on appelle la conduction). <a href="/fr/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/" >Elles réchauffent les gens, non les espaces.</a>.</p>
+<p>Ce qui fait des bouillottes une alternative pratique et durable pour se réchauffer sur les terrasses de bars et dans les restaurants. L&rsquo;investissement est minimal : quelques bouillottes et une bouilloire – l&rsquo;eau se réutilise à l&rsquo;infini. Sinon, les gens pourraient apporter leurs propres bouillottes et les remplir en terrasse.</p>
+<blockquote>
+<p>Les bouillottes sont une alternative pratique et durable pour se réchauffer sur les terrasses de bars et dans les restaurants.</p>
+</blockquote>
+<p>On peut même aller plus loin et envisager une infrastructure publique permettant de remplir sa bouillotte, pas seulement dans des bars mais à plusieurs endroits comme dans des écoles, des bureaux, et des endroits publics. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Les gens pourraient se rassembler autour de fontaines à eau chaude, comme ils le font déjà autour de fontaines à eau froide.</p>
+<p>Historiquement, les bouillottes – et ses prédécesseurs à base de charbon – étaient utilisés en dehors des foyers. Elles étaient couramment utilisées dans les trains et les bus, tout comme dans les églises, qui n&rsquo;avaient pas de chauffages. Des petites bouillottes avec des cordons de transport et des housses en tissu se glissaient dans les gants en fourrure ou les poches. Aujourd&rsquo;hui, on pourrait aussi garder de l&rsquo;eau chaude dans un thermos pour ensuite la verser dans une bouillotte.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png" alt='&amp;quot;Queens Muff Warmer&amp;quot;. Source : Antiques Atlas. https://www.antiques-atlas.com.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/Stoneware_Queens_Muff_Warmer_H_as151a1645z_hua83be342955231f1d044f334d6e6a215_60307_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>&quot;Queens Muff Warmer&quot;. Source : Antiques Atlas. <a href="https://www.antiques-atlas.com" target="_blank" >https://www.antiques-atlas.com</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png" alt='Bouillotte rectangulaire incurvée, France, 1751-1810. Des oiseaux et des plantes sont gravés sur cette bouillotte. Sa forme permet d’épouser parfaitement le corps. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/g5ufhayn.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/Curved-rectangular-hot-water-bottle-France-1751-1810_hu341e9be5855e6d93023464a997f094e9_727101_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Bouillotte rectangulaire incurvée, France, 1751-1810. Des oiseaux et des plantes sont gravés sur cette bouillotte. Sa forme permet d’épouser parfaitement le corps. Source : Science Museum, Londres. (CC BY 4.0). <a href="https://wellcomecollection.org/works/g5ufhayn" target="_blank" >https://wellcomecollection.org/works/g5ufhayn</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="combien-économise-t-on-avec-les-bouillottes">Combien économise-t-on avec les bouillottes ?</h2>
+<p>Comme on peut s&rsquo;y attendre, il y a très peu – voir pas – de recherche académique sur le potentiel des bouillottes et l&rsquo;énergie que l&rsquo;on peut économiser grâce à elles. Récemment, les scientifiques travaillent plus sur les dispositifs personnels plus sophistiqués comme les bureaux et chaises chauffés électriquement, les résistances chauffantes ou encore les oreillers chauffants à batterie. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>Ces alternatives semblent inutilement complexes quand on les compare avec les bouillottes. Il y a plusieurs manières de réchauffer l&rsquo;eau de façon high-tech comme low-tech, et les récipients peuvent être fabriqués dans des matériaux locaux.</p>
+<p>Néanmoins, ces études montrent que les sources de chaleur personnelles avec des effets similaires de ceux de la bouillotte pourraient permettre d’économiser beaucoup d&rsquo;énergie tout en gardant et souvent en améliorant le confort thermique. Par exemple, une étude a révélé que baisser la température dans un bureau de 20,5°C à 18,8°C et donner à des salariés une chaise chauffante pour compenser la perte de confort, augmentait le confort thermique et diminuait l&rsquo;usage de l’énergie de 35 %.</p>
+<p>Peu de méthodes de rénovations des locaux permettraient d&rsquo;économiser autant pour un si petit investissement. Pourtant, dans cette expérience, peu de température était perdue. Si les appareils chauffants personnels étaient <a href="/fr/2011/02/insulation-first-the-body-then-the-home/" >utilisés avec des vêtements bien isolants</a> et/ou des couvertures, les économies d&rsquo;énergie pourraient devenir encore plus marquantes.</p>
+<p>Une autre manière d&rsquo;examiner les économies d&rsquo;énergie potentielles de la bouillotte est de calculer l’électricité utilisée pour la chauffer et de comparer ces résultats avec ceux d&rsquo;un chauffage central. Vu que les bouillottes en caoutchouc ou en PVC ne peuvent être remplies que deux tiers pour rester sans danger et confortable, j’imagine un modèle plus grand – 3 litres – qui peut contenir 2 litres en pratique.</p>
+<p>Cela fait en sorte que les calculs fonctionnent aussi pour les récipients que l’on peut remplir complètement, comme le yutampo Japonais. Il nous faut 4 200 joules pour augmenter la température d'1 litre d'1 degré Celsius, ce qui veut dire que réchauffer 2 litres d&rsquo;eau de 10°C à 60°C exige 420 kilojoules ou bien 116,7 watt par heure.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png" alt='Publicité pour les bouillottes « Cosimax » de Westbrook &amp;amp; Thompson Ltd&amp;rsquo;s, faites en caoutchouc Dunlop. 1938. Science Museum / Science &amp;amp; Society Picture Library. Source : https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/sleep-well_hua46d6d9d8bdde185bf55a91619e7b0e2_501796_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Publicité pour les bouillottes « Cosimax » de Westbrook &amp; Thompson Ltd&rsquo;s, faites en caoutchouc Dunlop. 1938. Science Museum / Science &amp; Society Picture Library. Source : <a href="https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938" target="_blank" >https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En comparaison, l&rsquo;énergie utilisée pour se chauffer au gaz dans une maison moyenne en Belgique – qui a un climat modéré – est de 20 000 kWh par an. Si on suppose que le chauffage moyen Belge n&rsquo;est utilisé que pendant six mois par an, l&rsquo;énergie utilisée quotidiennement est de 109,6 kWh par jour. On pourrait réchauffer à peu près 900 bouillottes par jour – assez pour garder tout le quartier au chaud.</p>
+<p>Imaginons que quatre foyers utilisent chacun deux bouillottes simultanément et les réchauffent toutes les deux heures dans la journée (16 heures). La somme d&rsquo;énergie sera alors en dessous de 4 kWh, soit quasiment 30 fois moins que le chauffage utilisé par une maison Belge moyenne.</p>
+<p>Je ne dis pas tout ça pour qu&rsquo;on se mette à remplacer tous les chauffages par des bouillottes. Les hivers plutôt courts et doux ici à Barcelone me permettent d&rsquo;utiliser uniquement des bouillottes pour me chauffer, vu que les températures baissent rarement en dessous des 12°C dans mon appartement.</p>
+<p>Dans les climats moins favorables, on peut utiliser des bouillottes en plus d’un chauffage central. Les bouillottes créent des îlots de confort thermique pour les activités demandant peu d’effort physique pendant que le reste de l&rsquo;espace reste assez confortable pour y circuler ou y faire des activités plus physiques.</p>
+<h2 id="sécurité">Sécurité</h2>
+<p>L&rsquo;eau chaude est moins dangereuse que le charbon chaud, mais n’est pas sans-risque et les bouillottes devraient toujours être utilisées avec précaution. Les instructions exigent de ne pas utiliser de l&rsquo;eau bouillante, ce qui est déjà un conseil judicieux, mais l&rsquo;eau chaude n’a pas besoin d’être bouillante pour être dangereuse. L&rsquo;eau à plus de 60°C peut ébouillanter et engendrer des blessures très sérieuses.</p>
+<p>C&rsquo;est pour cette raison que l’on conseille d&rsquo;utiliser l&rsquo;eau du robinet, ou toute autre source d&rsquo;eau chaude de moins de 60°C. Cette température est suffisamment haute pour vous garder au chaud et le seul avantage d&rsquo;utiliser de l&rsquo;eau plus chaude est qu&rsquo;il faut la réchauffer moins souvent.</p>
+<p>L&rsquo;eau trop chaude peut ébouillanter de plusieurs façons. Premièrement, on peut se renverser de l&rsquo;eau sur les mains en remplissant sa bouillotte. Ensuite, une bouillotte en caoutchouc ou en plastique peut fuir par le bouchon ou par la couture.</p>
+<p>Dernièrement – et c’est le pire scénario – la bouillotte peut éclater et répandre deux litres d&rsquo;eau chaude sur la personne qui l’utilise. Ces accidents sont rares car les bouillottes modernes sont faites selon des standards de qualité. Pourtant, ils arrivent, la plupart du temps parce que la bouillotte est complètement usée.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png" alt='La bouillotte Jayne Mansfield est sortie en 1957. La personnage Mansfield – dans une pose pin-up avec ses mains derrière son cou en bikini noir – est faite en plastique rose « rougissant » avec un bouchon en forme de chapeau et mesure près de 50 cm des pieds à la tête. Source : https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/jayne-mansfield-hot-water-bottle-ad-1_hu2456aa98999b28cb10708217d1bd2580_308761_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>La bouillotte Jayne Mansfield est sortie en 1957. La personnage Mansfield – dans une pose pin-up avec ses mains derrière son cou en bikini noir – est faite en plastique rose « rougissant » avec un bouchon en forme de chapeau et mesure près de 50 cm des pieds à la tête. Source : <a href="https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/" target="_blank" >https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Pour utiliser les bouillottes en caoutchouc ou le PVC en toute sécurité à des températures plus élevées, il est important d’y faire attention et de les remplacer après quelques années d&rsquo;utilisation. Si l’on tient vraiment à utiliser de l’eau plus chaude, la bouillotte en métal – dans une housse pour empêcher de se brûler – reste l&rsquo;option la moins dangereuse.</p>
+<p>Toutefois, si l’on utilise de l&rsquo;eau en dessous de 60°C, la pire chose qui puisse arriver c’est de devenir tout mouillé. Si l’on utilise une bouillotte PET, il est important de ne surtout pas dépasser la température maximale, car elles peuvent fondre exposées à des températures trop élevées. De plus, la bouillotte devrait être jetée après, comme que les températures trop hautes peuvent faire ressortir des produits chimiques dans l&rsquo;eau.</p>
+<h2 id="utilisation-deau--infrastructure">Utilisation d&rsquo;eau &amp; infrastructure</h2>
+<p>Les bouillottes nécessitent également une source d&rsquo;eau. On peut réutiliser la même eau des milliers de fois, limitant ainsi l&rsquo;utilisation d&rsquo;eau à quelques litres pour toute la longueur de vie de la bouillotte. Cependant, ce n&rsquo;est pas toujours la solution la plus pratique. Dans les maisons modernes, l&rsquo;eau chaude peut provenir d&rsquo;une bouilloire électrique, d’une casserole ou encore du robinet d&rsquo;eau chaude.</p>
+<p>Même si l&rsquo;eau chaude du robinet est la source la moins dangereuse pour une bouillotte, une fois que l&rsquo;eau a refroidi, il n&rsquo;y a aucun moyen de faire repasser l&rsquo;eau par les tuyaux pour la réchauffer. De plus, l&rsquo;eau du robinet met un peu de temps à se réchauffer, donc on va consommer plus de deux litres.</p>
+<blockquote>
+<p>Même réduire la fréquence de ses douches permet d’économiser facilement l&rsquo;eau et l&rsquo;énergie nécessaire pour garder une bouillotte constamment chaude.</p>
+</blockquote>
+<p>Utiliser une bouilloire électrique – ou une casserole – permet de réutiliser l&rsquo;eau plusieurs fois, mais cela présente également quelques inconvénients. Tout d&rsquo;abord, si jamais on ne peut pas programmer la température de l&rsquo;eau d’une bouilloire, on doit la garder bien à l’œil pour faire en sorte que l&rsquo;eau ne chauffe pas trop. Je résous ce problème en mettant un thermomètre digital dans la bouilloire en chauffant l&rsquo;eau.</p>
+<p>En plus, si l’on utilise une bouilloire pour chauffer l’eau d&rsquo;une bouillotte en caoutchouc, celle-ci ne peut plus être utilisé pour chauffer de l&rsquo;eau pour la consommation humaine car elle aura un goût mauvais. Il faudra donc utiliser une bouilloire différente pour l&rsquo;eau des bouillottes, ou bien réchauffer l&rsquo;eau dans la seule bouilloire de la maison puis la verser dans l’évier une fois refroidie.</p>
+<p>Même si l&rsquo;on ne peut pas réutiliser l’eau pour notre propre usage, on peut, par exemple, arroser ses plantes avec, le gaspillage reste donc assez limité. La <a href="/fr/2019/10/mist-showers-sustainable-decadence/" >douche moyenne</a> peut remplir jusqu&rsquo;à 37 bouillottes. De même, une douche moyenne correspond à la quantité d&rsquo;énergie nécessaire pour réchauffer 17 bouillottes (qui ont de l&rsquo;eau plus chaude que celle de la douche). Par conséquent, même de fait de réduire la fréquence de ses douches permet d’économiser facilement l&rsquo;eau et l&rsquo;énergie nécessaire pour garder une bouillotte constamment chaude.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png" alt='Bouillotte en grès (1901-1910). Source : Auckland War Memorial Museum' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/stone-bottle_hucabc9db75317f58891bf733ec3db290c_2643024_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Bouillotte en grès (1901-1910). Source : Auckland War Memorial Museum</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png" alt='Les Japonais offraient un petit pot rond en grès – un « te-aburi » – rempli de charbon chaud à leurs invités. Des chauffe-mains en cuivre ou bronze de quelques centimètres de diamètre, souvent perforés et avec des poignées de transport, appelés « shou lu » étaient utilisés en Chine. Image dans le domaine public. En savoir plus : https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/.' data-original="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/te-aburi_hu21950b91d8952bdb00480c9cd42cfa70_237157_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Les Japonais offraient un petit pot rond en grès – un « te-aburi » – rempli de charbon chaud à leurs invités. Des chauffe-mains en cuivre ou bronze de quelques centimètres de diamètre, souvent perforés et avec des poignées de transport, appelés « shou lu » étaient utilisés en Chine. Image dans le domaine public. En savoir plus : <a href="https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/" target="_blank" >https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="bouillottes-froides">Bouillottes froides</h2>
+<p>On peut aussi utiliser les bouillottes pour se rafraîchir. Dans ce cas-là, on les remplit d&rsquo;eau froide avant de les mettre au congélateur. Rafraîchir les gens et beaucoup plus efficace que de rafraîchir des pièces entières. Je n&rsquo;ai pas de climatisation et je suis complètement dépendant de mes <a href="/fr/2014/09/the-revenge-of-the-circulating-fan/" >ventilateurs</a> et de bouillottes froides en été, quand les températures dépassent les 30°C. J&rsquo;utilise les « bouillottes froides » de la même façon que les bouillottes chaudes – au lit, sous mes pieds ou bien contre mon dos.</p>
+<p>Pour me rafraîchir, j&rsquo;utilise les bouillotte PET en plastique et des récipients en métal, mais pas les bouillottes en caoutchouc car elles durcissent et deviennent fragile. Il faut bien faire attention à ne pas remplir la bouillotte complètement – le volume de l’eau augmente une fois congelée – et de mettre la bouillotte dans une housse protectrice pour empêcher de se geler la peau. Il faut également garder à l’esprit que de la condensation se forme sur la bouillotte à mesure que la glace fond et qu’elle peut mouiller les vêtements – même si cela permet de se rafraîchir encore plus. Comme les bouillottes chaudes, les bouillottes froides fonctionnent aussi bien en extérieur qu&rsquo;en intérieur.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Cette coutume avait des règles strictes. Par exemple, les hommes invités dormaient d&rsquo;un côté du lit, tandis que les femmes de la famille dormaient de l&rsquo;autre côté. Source : Ekirch, A. Roger. At day&rsquo;s close: night in times past. WW Norton &amp; Company, 2006.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.encompassingdesigns.com/blog/hot-water-bottlesa-thing-of-the-past" target="_blank" >https://www.encompassingdesigns.com/blog/hot-water-bottlesa-thing-of-the-past</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>La « casserole chauffante » ou le « chauffe-lit » était un récipient en métal rempli de charbon chaud avec une longue poignée. On la glissait entre les couvertures du lit pour ensuite la passer partout dans le lit pour bien en réchauffer chaque recoin avant d’y rentrer. Une autre solution pour réchauffer le lit : le « lit chariot », une extension ou une étagère en bois conçue pour tenir un pot rempli de charbon chaud, qui était glissée sous le lit avec un couvercle en métal. Contrairement à la casserole chauffante, le lit chariot apporte de la chaleur toute la nuit. Voir : <a href="http://www.oldandinteresting.com/warming-the-bed.aspx" target="_blank" >http://www.oldandinteresting.com/warming-the-bed.aspx</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Quelques villes avaient des systèmes publics pour fournir de l&rsquo;eau chaude. Par exemple, pendant la première moitié du 20ème siècle, la ville de Rotterdam avait plusieurs centaines de « distillateurs d&rsquo;eau » ou les gens venaient remplir leurs seaux d&rsquo;eau chaude pour l’utiliser à la maison. Depuis très longtemps, il est coutume, en Chine, de fournir de l&rsquo;eau chaude aux citoyens partout où ils vont – surtout pour boire. À partir des années 1830, les magasins à eau chaude – connus sous le nom de « laohuzao » ou « poêle tigre » – apparaissent dans les grandes villes tout au long de la rivière Yangtze. Aujourd&rsquo;hui, en Chine, quasiment chaque bâtiment public, entreprise et bureau d&rsquo;administration dans les écoles a une fontaine à eau chaude – même les TGV. En savoir plus : <a href="https://www.sixthtone.com/news/1000919/the-history-behind-chinas-obsession-with-hot-water" target="_blank" >https://www.sixthtone.com/news/1000919/the-history-behind-chinas-obsession-with-hot-water</a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Verhaart, Jacob, Michal Veselý, et Wim Zeiler. « Personal heating: effectiveness and energy use. » Building Research &amp; Information 43.3 (2015) : 346-354. <a href="https://www.tandfonline.com/doi/abs/10.1080/09613218.2015.1001606" target="_blank" >https://www.tandfonline.com/doi/abs/10.1080/09613218.2015.1001606</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Deng, Qihong, et al. « Human thermal sensation and comfort in a non-uniform environment with personalized heating. » Science of the total environment 578 (2017): 242-248.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Mishra, A. K., M. G. L. C. Loomans, and Jan LM Hensen. « Thermal comfort of heterogeneous and dynamic indoor conditions—An overview. » Building and Environment 109 (2016): 82-100. <a href="https://www.sciencedirect.com/science/article/pii/S0360132316303560" target="_blank" >https://www.sciencedirect.com/science/article/pii/S0360132316303560</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="/fr/tags/energy-demand/" class="">Energy demand</a></span> 
+		        
+		           <span><a href="/fr/tags/off-the-grid/" class="">Off-the-grid</a></span> 
+		        
+		           <span><a href="/fr/tags/heating-and-cooling/" class="">Heating and cooling</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/fr/2022/03/how-to-build-a-practical-household-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Construire un vélo générateur pour la chaleur et l&#39;électricité</h3>
+		<p class="index-summary">Un vélo générateur vous maintient au chaud et constitue la solution de secours idéale pour un système solaire autonome. Dans cet article, nous décrivons comment construire et utiliser une centrale électrique pratique, abordable et fiable pour un usage domestique.</p>
+		<time class="published">6 mars 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/fr/2021/12/the-printed-website-volume-iii-and-more/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Le site imprimé : premier volume en français</h3>
+		<p class="index-summary">Lisez Low-tech Magazine sans avoir besoin d’un ordinateur, d’internet ou d’une alimentation électrique – ou quand le site internet solaire est hors service à cause d’une mauvaise météo.</p>
+		<time class="published">2 décembre 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/fr/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment concevoir un voilier pour le 21e siècle?</h3>
+		<p class="index-summary">Il est étonnamment difficile de construire un voilier à impact carbone neutre. C’est d’autant plus le cas aujourd’hui que nos normes de sécurité, de santé, d’hygiène, de confort et de commodités ont profondément changé depuis l’âge de la voile.</p>
+		<time class="published">11 mai 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/fr/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/images/dithers/lighter_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Garder certaines lumières allumées: redéfinir la sécurité énergétique</h3>
+		<p class="index-summary">Pour améliorer la sécurité énergétique, nous devons rendre les infrastructures moins fiables.</p>
+		<time class="published">9 décembre 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="fr/about">
+  À propos
+</a>
+    <a href="fr/power">
+  Power
+</a>
+    <a href="fr/about/team">
+  Colophon
+</a>
+    <a href="fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

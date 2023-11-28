@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE English</title>
+    <link>/tags/cooking-and-food-preservation/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cooking-and-food-preservation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Direct Solar Power: Off-Grid Without Batteries</title>
+      <link>/2023/08/direct-solar-power-off-grid-without-batteries/</link>
+      
+      <enclosure url="/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/2023/08/direct-solar-power-off-grid-without-batteries/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Image: a laptop running on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: a laptop running on direct solar power. Photo: Marie Verdeil. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Conventional solar installations do not question our dependence on fossil fuels and the energy-guzzling lifestyle that results. Both rooftop solar panels and large-scale solar farms provide us with all the power we want, even when the sun is not shining. That is because these systems use the central power grid, which largely runs on fossil fuels, as a kind of battery to cope with power shortages.&lt;/p&gt;
+&lt;p&gt;Although grid-connected solar panels can reduce the fossil fuel consumption of thermal power plants, these savings are at least partly offset by the additional fossil fuels required to build and maintain what is essentially a &lt;a href=&#34;https://solar.lowtechmagazine.com/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dual energy infrastructure&lt;/a&gt;. Combining solar and wind power can further increase the share of renewable energy in the power grid, but this requires further infrastructure development. Apart from energy, this also demands a lot of money and time.&lt;/p&gt;
+&lt;p&gt;Replacing fossil-fuel-fired power plants with energy storage, so that surplus electricity generated on sunny days can be stored for when there is no or insufficient sun, encounters the same problem. Energy storage, whether integrated into a power grid or located at individual households (off-grid systems), is very expensive and &lt;a href=&#34;https://solar.lowtechmagazine.com/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;carbon-intensive to build and maintain&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;autonomous-solar-installation&#34;&gt;Autonomous solar installation&lt;/h2&gt;
+&lt;p&gt;The production of solar panels obviously &lt;a href=&#34;https://solar.lowtechmagazine.com/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;costs money and energy&lt;/a&gt;. However, the financial and energy costs of the associated back-up infrastructure are many times higher. For grid-connected solar installations, these costs are very difficult to calculate precisely, but for autonomous solar installations (without grid connection and with their own energy storage) it is a lot easier. As an example, I will therefore take the small autonomous solar installation that powers my living room in Barcelona.&lt;/p&gt;
+&lt;p&gt;This system consists of two 50W solar panels on the balcony, a 100 Ah lead-acid battery and a 10A charge controller. The energy generated is used for lighting, the music system, and charging laptops and other electronic devices, among other things. The initial financial investment was 340 euros: 120 euros for the solar panels, 170 euros for the battery and 50 euros for the charge controller.&lt;/p&gt;
+&lt;p&gt;But while the solar panels should last 30 years and the charge controller about 10 years, I have to replace the lead battery on average every three to five years. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Over a 30-year lifespan, the costs then amount to €120 for the solar panels, €150 for the charge controllers and – in the best case scenario – €1,020 for the batteries. The batteries (and associated charge controllers) therefore account for about 90% of the total lifetime costs.&lt;/p&gt;
+&lt;p&gt;Energy storage also dominates the plant&amp;rsquo;s &amp;ldquo;embedded&amp;rdquo; energy (and resulting carbon emissions). Producing my lead-acid battery took 1,200 megajoules (MJ) of energy. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Over a 30-year lifetime (six batteries at best), that equates to 7,200 MJ. The three charge controllers add another 360 MJ over a 30-year lifetime, bringing the total energy consumption for the battery system to 7,560 MJ. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; In contrast, the production of the solar panels costs only 2,275 MJ out of a total of 9,835 MJ. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Conclusion: more than 75% of total fossil energy consumption is due to energy storage.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Image: To the right on the balcony are the two 50W solar panels that power my flat&amp;amp;rsquo;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: To the right on the balcony are the two 50W solar panels that power my flat&#39;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Other types of batteries would not significantly change this conclusion. For a comparable off-grid system with lithium-ion batteries, energy storage would account for about 95% of the total lifetime cost (which is almost double that of a system with lead-acid batteries). Assuming an optimistic lifetime (10 years) and including charge controllers, lithium energy storage accounts for some 70% of the energy invested in a solar grid system. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; For nickel-iron batteries, energy storage would account for 85% of the total lifetime cost (there are no energy cost data). &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The scale and location of the solar installation also make no difference. A larger system needs more solar panels, but also larger batteries and more expensive and powerful charge controllers. The ratios remain the same. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; The only factor that may give the solar panels a slightly larger share of the total cost is the structures on which they are mounted. I don&amp;rsquo;t take this into account because I built them myself from waste wood. However, if the solar panels are mounted on a roof, a DIY solution is less obvious. But even in that case, the cost of energy storage remains by far the biggest consideration.&lt;/p&gt;
+&lt;h2 id=&#34;direct-solar-energy-much-cheaper-and-more-sustainable&#34;&gt;Direct solar energy: much cheaper and more sustainable&lt;/h2&gt;
+&lt;p&gt;Unlike fossil fuels, the sun and wind are not available on demand. The problem with our approach to renewable energy is that we &lt;a href=&#34;https://solar.lowtechmagazine.com/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/&#34;&gt;insist that power should always be infinitely available&lt;/a&gt;, regardless of the weather, seasons or time of day. Matching energy demand to supply – &lt;a href=&#34;https://solar.lowtechmagazine.com/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;as was done in the past&lt;/a&gt; – would lead to dramatic reductions in the cost and use of fossil fuels.&lt;/p&gt;
+&lt;p&gt;For example, if I omitted the battery storage of my solar installation, my system would become about 10 times cheaper: 120 euros instead of 1,290 euros over a 30-year lifetime. Alternatively, I could spend 1,290 euros on solar panels alone, which would give me a solar system of 1,075 watts. That&amp;rsquo;s ten times the capacity of the setup with batteries, more than what would fit on the balcony.&lt;/p&gt;
+&lt;p&gt;Without the battery and charge controller, the energy cost of the installation also drops from 9,835 MJ to 2,275 MJ. In other words, I could generate at least four times as much solar energy with the same investment in fossil fuels.&lt;/p&gt;
+&lt;h2 id=&#34;how-can-direct-solar-power-be-practical&#34;&gt;How can direct solar power be practical?&lt;/h2&gt;
+&lt;p&gt;All well and good, but the sun does not shine after sunset and the amount of solar energy varies throughout the day and year. So how then can using solar panels without batteries (or other back-up infrastructure in the case of grid-connected installations) be practical?&lt;/p&gt;
+&lt;p&gt;To answer that question, we look at a pioneer of &amp;ldquo;direct solar power&amp;rdquo;: the &lt;em&gt;Living Energy Farm&lt;/em&gt;. This environmental education community in the US state of Virginia is completely &amp;ldquo;off-the-grid&amp;rdquo; thanks to solar power, but only 10% of the solar power generated passes through a (nickel-iron) battery. However, the solar panels provide power for several homes, a communal kitchen, a metal workshop, and a farm. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Image: direct solar power at the Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: direct solar power at the Living Energy Farm. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The solar installation has been in operation since 2011 and consists of separate systems with a total peak power of 1,400 watts. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; In comparison, the average peak power of a residential solar installation in the UK and the US – for one household – is 4,000 watts and 6,500 watts, respectively. As in my flat, the Living Energy Farm uses energy sparingly, but the fact that hardly any batteries are used has other reasons.&lt;/p&gt;
+&lt;h2 id=&#34;some-appliances-are-only-used-during-the-day&#34;&gt;Some appliances are only used during the day&lt;/h2&gt;
+&lt;p&gt;A first reason is obvious: some electrical appliances and machines are only used during the day. This is true, for example, of all machines in the metal workshop, including a band saw, compressor, grinder, circular saw, lathe, milling machine and drilling machine. It also applies to agricultural machinery such as a grain mill and a deep well pump. Linked directly to solar panels, these machines offer all the capabilities of modern grid-powered technology, with the exception that they can only be used during the day. &lt;sup id=&#34;fnref1:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;On a much smaller scale, I have used direct solar power for a soldering iron, glue gun and irrigation pump (for the balcony) at home. Other examples of appliances and machines that could be used only during the day include hoovers, sewing machines, washing machines, game consoles, laser cutters and 3D printers. It is not so difficult to imagine a modern society where activities such as vacuuming and DIY chores only take place during the day. It is certainly not a return to the Middle Ages.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Image: Soldering with direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Soldering with direct solar power. Photo: Marie Verdeil. [Watch the video](https://www.youtube.com/watch?v=qozZCJU4IOc). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Moreover, not all electrical appliances require constant attention. Washing machines or dishwashers that trigger automatically when the sun shines are often cited example applications of a &amp;ldquo;smart&amp;rdquo; power grid. But that approach relies on an extensive infrastructure of electricity transmission, communication networks, and electronics-packed appliances.&lt;/p&gt;
+&lt;p&gt;In contrast, in a decentralised direct solar approach, the intelligence is provided by the sun and the rotation of the planet. A direct solar-powered washing machine or dishwasher can be fully charged and switched on in the evening. The machine then starts up &amp;ldquo;automatically&amp;rdquo; in the morning. You can even use timers (electronic or mechanical) to run different appliances one after the other.&lt;/p&gt;
+&lt;p&gt;Whether clouds pose an additional limit to a direct solar installation, and to what extent, depends on the size of the solar panels. Doubling the area of solar panels guarantees sufficient solar power during moderate cloud cover, while the installation remains much cheaper and more sustainable than a system with batteries or other backup infrastructure.&lt;/p&gt;
+&lt;p&gt;An even larger area of solar panels could provide sufficient energy even during heavy cloud cover, but increasing the size of the system tenfold brings the cost back to the level of an autonomous system with batteries. Quadrupling the area makes the system equally dependent on fossil fuels again.&lt;/p&gt;
+&lt;h2 id=&#34;many-appliances-already-have-batteries&#34;&gt;Many appliances already have batteries&lt;/h2&gt;
+&lt;p&gt;Direct solar power does not rule out the use of electrical appliances after sunset either. As mentioned, the Living Energy Farm has a modest battery system, providing power for lights, fans, and electronic devices after sunset, among other things.  &lt;sup id=&#34;fnref2:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; In addition, many modern appliances already have built-in energy storage. This is the case for all kinds of electric vehicles, for most electronic gadgets, and for older electrical appliances with AA batteries.&lt;/p&gt;
+&lt;p&gt;Consequently, these types of devices can be charged with direct solar energy during the day and then used for several hours after sunset thanks to the built-in battery. Combined with a lithium-ion power bank, a direct solar panel can also make it possible to charge USB devices after sunset. This strategy can even work for lighting, as there are many battery-powered lamps that you can use as modern torches, hung in different parts of rooms and buildings.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Image: A mobile phone on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A mobile phone on direct solar power. Photo: Marie Verdeil. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Of course, outsourcing chemical energy storage to the device is not the most sustainable option. The production of lithium-ion batteries requires fossil fuels, and (unlike lead-acid batteries) they are not recycled. The best solution, of course, is to reduce the use of electrical devices. But charging them with direct solar energy is a lot more sustainable and efficient than via other batteries or a fossil-fueled electricity grid. If we use high-tech devices, then preferably in the smartest way possible.&lt;/p&gt;
+&lt;h2 id=&#34;non-electric-energy-storage&#34;&gt;Non-electric energy storage&lt;/h2&gt;
+&lt;p&gt;A third reason why direct solar power is more practical than it initially seems is that some electrical appliances can be used after sunset thanks to thermal energy storage. This is much cheaper and more sustainable than electrical energy storage. Thermal energy storage is already fairly well established for space and water heating systems, which store solar-heated water in an insulated boiler or (for space heating only) in the building envelope. It is no surprise that the Living Energy Farm has such systems, and solar thermal energy also provides hot water in my flat.&lt;/p&gt;
+&lt;p&gt;However, the same approach also works for two important household appliances that need to work after sunset and also consume a lot of electricity: the fridge and the cooker. Instead of storing electricity from a solar panel in a battery to then power a fridge or cooker after sunset, these appliances on the Living Energy Farm use thermal insulation. This keeps the heat inside (in the case of the cooker) or outside (in the case of the fridge) when there is no power supply. The thermal insulation also ensures very high energy efficiency, which means that each of these appliances can already operate on a solar panel of just 100-200 watts.&lt;/p&gt;
+&lt;h2 id=&#34;a-direct-solar-powered-fridge&#34;&gt;A direct solar-powered fridge&lt;/h2&gt;
+&lt;p&gt;It is perfectly possible to connect a conventional fridge or freezer directly to a solar panel, but such an appliance would heat up very quickly at night. Even refrigerators with the most energy-efficient labels have a relatively limited insulation thickness (usually 2.5 cm). However, if that insulation thickness is increased to about 12.5 cm, the energy consumption of a refrigerator drops by a factor of four. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; The passive cooling capacity of a refrigerator can be further increased by adding thermal mass in the form of a water tank inside the appliance. During the day, the solar panel cools the water or converts it to ice. At night, this cold water or ice slows down the heating of the refrigerator. &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A direct solar-powered fridge also opens at the top, not at the front. Cold air is heavy, and so much less energy is lost that way when someone opens the door. All these design choices add up to spectacular energy efficiency. A study of direct solar refrigerators in very sunny regions (Texas and New Mexico, USA) showed that they maintained their cooling capacity for 6 or 7 days without power supply. The units operated year-round with solar panels of only 80W to 120W. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; The Living Energy Farm powers its solar refrigerator with a 200W panel. &lt;sup id=&#34;fnref3:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Unlike solar heating, solar cooling is optimally tuned to seasonal variations in solar radiation. Cooling requires more energy in summer, when there is more solar energy. The aforementioned refrigerator in New Mexico recorded electricity consumption of 406 watt-hours per day in summer and only 230 watt-hours in winter. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; Moreover, the technology can be used throughout the cold chain, of which the household refrigerator is only a small (but essential) part. Another application is air cooling, although this is less well researched and more challenging. &lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-direct-solar-electric-cooker&#34;&gt;A direct solar electric cooker&lt;/h2&gt;
+&lt;p&gt;In principle, a conventional cooker can also be connected directly to a solar panel, but as with a conventional fridge, it is not very practical. You can only cook during the day, and you have to install a lot of solar panels. A single hot plate needs 1,000 watts of electrical power. A solar electric cooker solves these problems by packing the cooktop with thermal insulation. The technology is basically a combination of an electric cooktop and a &lt;a href=&#34;https://solar.lowtechmagazine.com/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;haybox&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Thanks to thermal insulation, an electric solar cooker slowly accumulates heat during the day, which can then be used for cooking after sunset. In this way, a much lower power supply can be sufficient to achieve high temperatures. Think of it as &amp;ldquo;charging&amp;rdquo; your cooker, not with electricity but with heat.&lt;/p&gt;
+&lt;p&gt;Researchers at US California Polytechnic State University (Cal Poly) built the first solar electric cooker in 2015. Their 12-volt device, which has since been further developed, needs only a 100W solar panel to work. It boils a litre of water in an hour. With a full day of sunlight, it can cook almost 5 kg of beans, rice, stew or potatoes. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Cooking after sunset is possible by using a cooking pot with a much thicker bottom (5-10 kg). Cal Poly&amp;rsquo;s research team managed to bring the temperature of that solid heat storage to 250°C in five hours with a 100W solar panel. They were then able to boil a litre of water in three seconds after sunset. In another test, they stir-fried 1 kg of vegetables in two minutes. The ideal configuration consists of two cooking pots: one with and one without heat storage. Thus, an electric solar cooker can cook both slowly and quickly, depending on the time of day and the dish. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;thermal-or-electric&#34;&gt;Thermal or electric?&lt;/h2&gt;
+&lt;p&gt;Like solar water and space heating systems, cooking and cooling can work both with and without electricity – with PV panels on the one hand and solar thermal collectors on the other. But while solar space and water heating are more cost- and energy-efficient without electricity, for solar cooling and solar cooking it is just the opposite.&lt;/p&gt;
+&lt;p&gt;Space and water heating require relatively small temperature differences, which can be provided by low-cost solar thermal collectors made of glass plates and water pipes. In contrast, cooling and cooking require larger temperature differences, which require more sophisticated (vacuum tube or parabolic) solar collectors – and these are more expensive than PV panels. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The only exception is a simple solar cooker – an insulated box with a glass top – but it cannot achieve such high temperatures. Moreover, an electric solar cooker has some additional advantages. With a non-electric appliance, you have to cook outside, which is less practical but also less efficient, especially in winter: a thermal solar cooker will lose more heat to the environment. An electric solar cooker is also more energy-efficient because it is insulated on all sides. It also works better in cloudy weather and can be used after sunset. At the Living Energy Farm, the parabolic solar cooker is only used in optimal conditions – at full sun and high outdoor temperatures.&lt;/p&gt;
+&lt;h2 id=&#34;what-are-the-technical-challenges&#34;&gt;What are the technical challenges?&lt;/h2&gt;
+&lt;p&gt;Although the Living Energy Farm is putting all these applications of direct solar energy into practice, there are some technical challenges for those who want to follow suit. Almost all our modern technology is designed to operate with a stable and uninterrupted power supply. It doesn&amp;rsquo;t have to be that way, but for now, direct solar power usually requires some tinkering. A direct solar system is much easier to build than an autonomous system with batteries, but it often requires modifications on the appliance side.&lt;/p&gt;
+&lt;p&gt;Some devices can be connected directly to a solar panel: it is enough to connect the positive and negative contacts of the solar panel and the device. For example, machines with a DC motor tolerate large fluctuations in the power supply. The metal workshop and agricultural machinery at the Living Energy Farm work this way. If clouds block the sun, the combined electrical load can become greater than the power supply from the solar panels, but this does not stop the machines. All the engines will slow down because they share the available energy, but they all continue to do useful work. &lt;sup id=&#34;fnref4:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The same applies to all appliances that work on the basis of resistive heating elements, such as kettles, hotplates or electric heating systems. They work regardless of power or voltage, just slower or faster. A direct solar-powered fridge preferably operates on a variable DC compressor, which can adjust its speed according to the varying solar power production. &lt;sup id=&#34;fnref5:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Many other devices need a specific and stable voltage input, which usually does not match what the solar panel produces. This can be solved by placing a DC-DC converter (a &amp;ldquo;buck&amp;rdquo; or &amp;ldquo;boost&amp;rdquo; converter) between the solar panel and the device. This is a small electronic module that converts the fluctuating voltage of a solar panel into a constant output voltage for a low-voltage device (5V, 12V or higher). &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Image: Experiments with direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Experiments with direct solar power. Photo: Marie Verdeil. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you use an inverter in addition to this, even mains appliances can operate directly on a solar panel. &lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; DC-DC converters are essential for all appliances that contain electronic components. This is the case for many appliances today, including those, such as washing machines or coffee machines, that until recently operated without electronics. That often gives you two options to run such appliances on direct solar power. You can either fit a DC-DC converter or modify the appliance by bypassing the electronics.&lt;/p&gt;
+&lt;h2 id=&#34;diy-manuals--commercial-devices&#34;&gt;DIY manuals &amp;amp; commercial devices&lt;/h2&gt;
+&lt;p&gt;Most direct solar power applications &lt;a href=&#34;https://solar.lowtechmagazine.com/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;operate at low voltage&lt;/a&gt;, so you can safely do it yourself. Low-tech Magazine will soon publish a manual on this. However, the Living Energy Farm uses direct current with higher voltages for a number of applications. Examples are the machine tools in the metal workshop (90V) and a number of powerful electric solar cookers (48V, 180V). It is not a good idea to build these systems yourself unless you have the help of a qualified electrician, as these voltages can lead to fatal accidents.&lt;/p&gt;
+&lt;p&gt;Those wishing to build their own (low-voltage) electric solar cookers will find comprehensive manuals at both Living Energy Farm and Cal Poly. &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt; The devices can be made with simple materials. The insulation material should be fireproof. Example materials are rock wool, fibreglass, natural wool or clay.goed&lt;/p&gt;
+&lt;p&gt;Different technologies can be used for heating elements, but embedding nichrome wires in cement is the simplest option. These wires can be taken from a variety of appliances such as toasters, ovens and hotplates. In principle, the heating wires can be attached directly to the cooking pot, but it is more practical to make a heated &amp;ldquo;nest&amp;rdquo; in which a pot can be placed.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Image: Inspired by Cal Poly&amp;amp;rsquo;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they offer for sale through their website. The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Inspired by Cal Poly&#39;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they [offer for sale through their website](https://livingenergylights.com/product/roxy-solar-electric-oven/). The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&amp;amp;rsquo;s solar refrigerator for sale online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&#39;s solar refrigerator [for sale online](https://livingenergylights.com/product/sunstar-direct-drive-8-cuft-chest-style-refrigerator-freezer/). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;does-direct-solar-power-waste-energy&#34;&gt;Does direct solar power waste energy?&lt;/h2&gt;
+&lt;p&gt;The sustainability of a solar installation depends not only on the energy required to produce and maintain the infrastructure, but also on the energy produced by the solar panels during their lifetime. Some people will argue that direct use of solar power is inferior to conventional grid-connected or battery-powered solar installations in this respect.&lt;/p&gt;
+&lt;p&gt;After all, the hoover, washing machine and power drill are not used every day, and if no electrical appliance is connected then a solar panel will not produce power either. Consequently, the amount of electricity produced by the panel will decrease over its lifetime, while the energy needed to manufacture the panel remains the same. This makes the power from a direct solar panel more carbon-intensive.&lt;/p&gt;
+&lt;p&gt;However, because energy storage in batteries (or the grid-connected alternative) accounts for such a large proportion of the total energy invested, a standalone solar panel can waste quite a lot of energy before it becomes less sustainable than its counterpart with battery storage or grid connection.&lt;/p&gt;
+&lt;p&gt;Moreover, direct use of solar power avoids the charging and discharging losses caused by batteries, or the energy losses in the transmission infrastructure for grid-connected systems. Both have to be offset by additional solar panels. Furthermore, solar panels connected to batteries or the grid also waste power – a consequence of the large difference in energy production between summer and winter.&lt;/p&gt;
+&lt;h2 id=&#34;maximising-direct-solar-power-with-collective-services&#34;&gt;Maximising direct solar power with collective services&lt;/h2&gt;
+&lt;p&gt;Nevertheless, it is important to maximise the energy production of a direct solar panel. In that context, it is useful to return for a moment to the original example system located on my balcony. Direct solar power could be a nice addition to this system, especially for the fridge and cooker. It was because of these appliances that I &lt;a href=&#34;https://solar.lowtechmagazine.com/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;concluded in 2016 that it was impossible to completely disconnect my flat from the grid&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, the Living Energy Farm shows that it could be done: there is room for a further 200 watts of solar panels (4 x 50W) on the balcony, enough to power both a thermally insulated fridge and hob. Additional battery capacity would not be needed.&lt;/p&gt;
+&lt;p&gt;For other appliances, however, direct solar power is of little use in my case. It would not be very efficient to install an extra solar panel for the washing machine or the power drill, as they are only used occasionally. This seems to play into the hands of a &amp;ldquo;smart&amp;rdquo; electricity grid, because that way many households can use the same solar power – there is always someone who needs to wash clothes or drill a hole.&lt;/p&gt;
+&lt;p&gt;However, such a smart grid does require a lot of infrastructure, even if direct solar power were to be used at that scale. It may not require batteries or fossil fuels as backup, but it does require transmission and communication infrastructure.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Image: A record player on direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A record player on direct solar power. Photo: Marie Verdeil. [Watch the video](https://www.youtube.com/watch?v=_LjSigJv0-0). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The Living Energy Farm demonstrates an alternative solution: the communal organisation of household tasks and work. Instead of a communal power grid distributing energy to many indidvidual households, we can set up collective services with decentralised energy production.&lt;/p&gt;
+&lt;p&gt;In the Living Energy Farm communal workshop, direct solar power can be used much more efficiently than in an individual workshop that is only used occasionally. A collective laundry in each street would also use direct solar power much more efficiently. Moreover, we save a lot of energy on building appliances this way, and gain a lot of space.&lt;/p&gt;
+&lt;h2 id=&#34;direct-wind-power&#34;&gt;Direct wind power?&lt;/h2&gt;
+&lt;p&gt;This strategy becomes even more important if we choose not direct solar power but direct wind power – or a combination of both. The Living Energy Farm is located in a sunny region, but the same approach could also work in windy places.&lt;/p&gt;
+&lt;p&gt;However, there is an important difference between solar power and wind power. The efficiency of a solar panel does not depend on its size, which makes solar power ideal for decentralised energy production. In contrast, the efficiency of a wind turbine &lt;a href=&#34;https://solar.lowtechmagazine.com/2009/04/small-windmills-put-to-the-test/&#34;&gt;increases more than proportionally as the rotor diameter increases&lt;/a&gt;. Much better than one wind turbine per household, therefore, is a &lt;a href=&#34;https://solar.lowtechmagazine.com/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;somewhat larger wind turbine&lt;/a&gt; for a community of households, e.g. for powering a collective laundry or workshop.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The service life of lead-acid batteries depends on many factors. If they are discharged too deeply or are not fully charged regularly, the service life can be shorter than three years. On the other hand, a lead-acid battery that is hardly used or not discharged at all can last much longer than five years. However, the academic literature states a life expectancy of three to five years and this has also been my experience with the batteries I have used since 2016. See, for example, &amp;ldquo;Optimal Sizing and Life Cycle Assessment of Residential Photovoltaic Energy Systems With Battery Storage&amp;rdquo;, A. Celik, in &amp;ldquo;Progress in Photovoltaics: Research and Applications&amp;rdquo;, 2008. &amp;amp; &amp;ldquo;Energy pay-back time of photovoltaic energy systems: present status and prospects&amp;rdquo;, E.A. Alsema, in &amp;ldquo;Proceedings of the 2nd World Conference and Exhibition on photovoltaics solar energy conversion&amp;rdquo;, July 1998.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Manufacturing a lead-acid battery (based on largely recycled materials) takes about 1 MJ of energy per watt-hour of storage capacity. My 100 amp-hour battery equates to a storage capacity of 1,200 watt-hours, and so the embedded energy equals 1,200 MJ. Over a 30-year lifespan, I need six of these batteries at best, so 7,200 MJ in total. Source: &amp;ldquo;Energy Analysis of Batteries in Photovoltaic systems. Part one (Performance and energy requirements)&amp;rdquo; and &amp;ldquo;Part two (Energy Return Factors and Overall Battery Efficiencies)&amp;rdquo; (PDF). Energy Conversion and Management 46, 2005.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Not much research has been done on the embedded energy of charge controllers. The most relevant data I found is a value of 1 MJ per watt maximum power: Kim, Bunthern, et al. &amp;ldquo;Life cycle assessment for a solar energy system based on reuse components for developing countries.&amp;rdquo; Journal of cleaner production 208 (2019): 1459-1468. For a capacity of 120W (my charge controller has a maximum capacity of 10A x 12V = 120W), this amounts to 120 MJ. For the estimated lifetime, I found values of 7 and 12.5 years: same reference as above, as well as: Kim, Bunthern, et al. &amp;ldquo;Second life of power supply unit as charge controller in PV system and environmental benefit assessment.&amp;rdquo; IECON 2016-42nd Annual Conference of the IEEE Industrial Electronics Society. IEEE, 2016. I therefore made the calculation on an estimated lifetime of 10 years.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Nawaz, I., and G. N. Tiwari. &amp;ldquo;Embodied energy analysis of photovoltaic (PV) system based on macro-and micro-level.&amp;rdquo; Energy Policy 34.17 (2006): 3144-3152. According to this widely quoted source, it takes 3,500 MJ to produce 1 m2 of solar panel. My two solar panels together measure 0.65 m2, representing a total energy cost of 2,275 MJ. A more recent literature review puts the energy cost for producing different types of solar panels at between 1,034 and 5,150 MJ/m2. The most recent studies of silicon solar panels in this review put the energy cost at around 1,000 MJ/m2, much lower than the figure I am using. See: Ludin, Norasikin Ahmad, et al. &amp;ldquo;Prospects of life cycle assessment of renewable energy from solar photovoltaic technologies: A review.&amp;rdquo; Renewable and Sustainable Energy Reviews 96 (2018): 11-28.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Lithium-ion batteries are a lot more expensive than lead-acid batteries, but unlike lead-acid batteries, they can be discharged deeper (up to 15% of their total capacity) and have a longer lifespan (7 to 10 years). Consequently, fewer and smaller batteries are needed. Taking these factors into account, the lifetime cost of the battery is €750, compared with €1,020 for lead-acid batteries. On the other hand, lithium-ion batteries require a more sophisticated and more expensive charge controller: a 10A charge controller costs between 200 and 600 euros, depending on the quality. Assuming a price of 400 euros for the charge controller and a 10-year lifetime for both the battery and the charge controller, battery storage accounts for 95% of the total lifetime cost (a total of 2,070 euros, much more than the total cost for the system with lead-acid batteries). Sources: &lt;a href=&#34;https://www.lithiumion-batteries.com/products/product/12v-50ah-lithium-ion-battery&#34;&gt;https://www.lithiumion-batteries.com/products/product/12v-50ah-lithium-ion-battery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.lithiumion-batteries.com/products/12v-lithium-ion-battery-chargers/&#34;&gt;https://www.lithiumion-batteries.com/products/12v-lithium-ion-battery-chargers/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Although the production of a lithium-ion battery costs more energy than the production of a lead-acid battery (1.4-1.9 MJ/Wh versus 1 MJ/Wh), this is offset by a longer lifespan and greater discharge capacity. The energy cost of lithium-ion batteries over a 30-year lifetime is then about 3,000 MJ, significantly less than a comparable lead-acid battery system. In contrast, the charge controller contains more complex electronics. Unfortunately, no data is available for the energy cost of such a charge controller. So there is no alternative but to estimate the energy cost based on the financial cost, which is four to twelve times more expensive than a charge controller for a lead-acid battery. Assuming a four times higher cost, the embedded energy of the charge controller increases to 480 MJ, or 1,440 MJ over a 30-year period. The total energy cost for the system is then 6,685 MJ, less than a comparable system with lead-acid batteries. Of this, almost 70% is attributable to battery storage.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;Nickel-iron batteries are even bigger and heavier than lead-acid batteries and they need regular maintenance. But they can be fully discharged and have a very long service life (20 years). Moreover, they can be used with the same charge controllers as lead-acid batteries. The lifetime cost over 30 years for the battery is €750, cheaper than the six lead-acid batteries of similar capacity. The total lifetime cost for a nickel-iron battery system with 100W solar panels is €1,020, of which 85% goes to energy storage. Unfortunately, nickel-iron batteries are hard to find, especially the smaller models. Sources: &lt;a href=&#34;https://beyondoilsolar.com/product/nickel-iron-battery-industrial-series/&#34;&gt;https://beyondoilsolar.com/product/nickel-iron-battery-industrial-series/&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://beyondoilsolar.com/product-category/batteries/nickel-iron/&#34;&gt;https://beyondoilsolar.com/product-category/batteries/nickel-iron/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;Actually, the price of solar panels in a somewhat larger solar installation would be proportionally even smaller. This is because solar panels with small sizes (such as 50W) are proportionally more expensive per watt of peak capacity than solar panels with more conventional sizes (from 250W onwards). More or less the same applies to the energy cost.&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://livingenergyfarm.org&#34;&gt;https://livingenergyfarm.org&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;Alexis Zeigler, founder of the Living Energy Farm, wrote a book about the project, which is available in full online: &lt;a href=&#34;https://conev.org/empoweringcommunities14.pdf&#34;&gt;Empowering Communities. A Practical Guide to Energy Self Sufficiency and Stopping Climate Change&lt;/a&gt;. It can also be &lt;a href=&#34;https://conev.org/&#34;&gt;ordered in hard copy&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref4:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref5:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref6:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;Since direct solar power does not require a charge controller for each separate system, splitting up a solar system does not involve any additional costs or energy consumption.&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;Research shows that doubling the insulation thickness from 2.5 cm (standard insulation) to 5 cm reduces the annual electricity consumption of a refrigerator (50 litre capacity) from 250 to 125 kilowatt hours. &lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; With an insulation thickness of 10 to 12.5 cm, electricity consumption halves again to around 60 kilowatt hours per year. Even thicker insulation brings a smaller reduction in electricity consumption and is no longer attractive because thicker insulation also increases the cost and size of the refrigerator. The study concerns a solar-powered AC fridge that operates thanks to an inverter and a battery, which is less energy-efficient than a direct solar-powered fridge.&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;Gupta, B. L., Mayank Bhatnagar, and Jyotirmay Mathur. &amp;ldquo;Optimum sizing of PV panel, battery capacity and insulation thickness for a photovoltaic operated domestic refrigerator.&amp;rdquo; Sustainable Energy Technologies and Assessments 7 (2014): 55-67.&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;This thermal mass can literally be a container of water placed inside the fridge. or some water bottles for drinking. But the water can also be stored in reservoirs along the side of the appliance, behind an inner lining that keeps them in place and hides them from view. Water has a higher heat storage density than air, keeping the temperature stable for longer.&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;Ewert, M., et al. &amp;ldquo;Photovoltaic direct drive, battery-free solar refrigerator field test results.&amp;rdquo; Proceedings of the solar conference. American solar energy society; American institute of architects, 2002.&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;This advantage only applies if the fridge is set up in an unheated room. The modern habit of placing a fridge in a heated kitchen when the outside temperature in winter is equal or lower than that in the fridge is obviously absurdly wasteful. But neither is this advantage valid in tropical countries, where temperatures are high all year round.&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;The use of direct solar power for space cooling has not been analysed as thoroughly as for domestic refrigerators. See: Luerssen, Christoph, et al. &amp;ldquo;Life cycle cost analysis (LCCA) of PV-powered cooling systems with thermal energy and battery storage for off-grid applications.&amp;rdquo; Applied energy 273 (2020): 115145. Moreover, it is unlikely to achieve equally large energy savings. A refrigerator is always insulated, but in the case of an air-cooled room or building, this is not necessarily the case. Moreover, a refrigerator is set up in a room where there is a stable temperature. A building is subject to greater temperature fluctuations and can also be heated by direct solar radiation. So direct solar air cooling is a lot more complicated. See: Qi, Ronghui, Lin Lu, and Yu Huang. &amp;ldquo;Parameter analysis and optimisation of the energy and economic performance of solar-assisted liquid desiccant cooling system under different climate conditions.&amp;rdquo; Energy conversion and management 106 (2015): 1387-1395.&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://sharedcurriculum.peteschwartz.net/solar-electric-cooking/&#34;&gt;Solar Electric Cooking&lt;/a&gt;, Pete Schwartz, Cal Poly Physics. See also &lt;a href=&#34;http://sharedcurriculum.peteschwartz.net/wp-content/uploads/sites/3/2022/11/New-ISEC-Design-Ideas.pdf&#34;&gt;this PowerPoint&lt;/a&gt; by the same author.&amp;#160;&lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:19&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1747&amp;amp;context=mesp&#34;&gt;Insulated Solar Electric Cooker with Solid Thermal Storage&lt;/a&gt;, Andrew McCombs et al., 2022. See also &lt;a href=&#34;https://www.youtube.com/watch?v=FKIH7HDK6Dw&#34;&gt;this video&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:20&#34;&gt;
+&lt;p&gt;See: Ferreira, Carlos Infante, and Dong-Seon Kim. &amp;ldquo;Techno-economic review of solar cooling technologies based on location-specific data.&amp;rdquo; International Journal of Refrigeration 39 (2014): 23-37. ///// Riffat, James, et al. &amp;ldquo;Development and testing of a PCM enhanced domestic refrigerator with use of miniature DC compressor for weak/off grid locations.&amp;rdquo; International Journal of Green Energy 19.10 (2022): 1118-1131. ///// Du, Wenping, et al. &amp;ldquo;Dynamic energy efficiency characteristics analysis of a distributed solar photovoltaic direct-drive solar cold storage.&amp;rdquo; Building and Environment 206 (2021): 108324. ///// Alsagri, Ali Sulaiman. &amp;ldquo;Photovoltaic and photovoltaic thermal technologies for refrigeration purposes: an overview.&amp;rdquo; Arabian journal for science and engineering 47.7 (2022): 7911-7944.&amp;#160;&lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:21&#34;&gt;
+&lt;p&gt;For lack of research, whether the same applies to embedded energy consumption is not clear.&amp;#160;&lt;a href=&#34;#fnref:21&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:22&#34;&gt;
+&lt;p&gt;In both cases, however, it is necessary to bypass the device&amp;rsquo;s switch, because DC electricity produces more heat than AC electricity. Instead, a suitable external switch can help, but in doing so you bypass the device&amp;rsquo;s safety mechanism, which is obviously a risk. &lt;sup id=&#34;fnref6:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; Again, this does not have to be the case: it is technically possible to make devices suitable for direct solar power.&amp;#160;&lt;a href=&#34;#fnref:22&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:23&#34;&gt;
+&lt;p&gt;A fixed-speed compressor can only use 50% of the solar power produced in a useful way, while a variable-speed compressor uses about 75% in a useful way. &lt;sup id=&#34;fnref1:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; A capacitor is needed to provide the compressor with an energy boost during the start-up phase.&amp;#160;&lt;a href=&#34;#fnref:23&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:24&#34;&gt;
+&lt;p&gt;Instead of a DC-DC converter, you can also install a small &amp;ldquo;buffer battery&amp;rdquo; and a charge controller. Like a DC-DC converter, the charge controller will ensure a stable output voltage. In addition, the small battery can provide limited energy storage that can be useful to handle short spikes in power consumption. For example, some devices have a current spike when charging. The disadvantage of a buffer battery is that the cost and embedded energy increase, and additional components can fail. A capacitor is an alternative technology to absorb power peaks.&amp;#160;&lt;a href=&#34;#fnref:24&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:25&#34;&gt;
+&lt;p&gt;However, using low-voltage direct current devices is a lot more energy-efficient because solar panels also produce low-voltage direct current: &lt;a href=&#34;https://solar.lowtechmagazine.com/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;https://solar.lowtechmagazine.com/2016/04/slow-electricity-the-return-of-dc-power/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:25&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:26&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://conev.org/ISECmanual14.pdf&#34;&gt;Insulated Solar Cooker Construction Manual&lt;/a&gt;, Living Energy Farm. &lt;a href=&#34;http://sharedcurriculum.peteschwartz.net/isecooker-construction/&#34;&gt;Insulated solar electric cooker manual&lt;/a&gt;, Pete Schwartz, Cal Poly Physics. &lt;a href=&#34;https://livingenergylights.com/wp-content/uploads/2022/08/roxy-installation-instructions.pdf&#34;&gt;Roxy Oven Manual&lt;/a&gt;, Living Energy Farm. &lt;a href=&#34;https://www.youtube.com/watch?v=SIDG8fTvf-I&#34;&gt;Video presentation manual solar electric cookers&lt;/a&gt;, Alexis Zeigler, Living Energy Farm. &lt;a href=&#34;https://www.youtube.com/watch?v=uzZPstX1CbQ&#34;&gt;Video manual for making heating wires&lt;/a&gt;. Thermal heat storage: &lt;a href=&#34;https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1747&amp;amp;context=mesp&#34;&gt;Insulated Solar Electric Cooker with Solid Thermal Storage&lt;/a&gt;, Andrew McCombs et al., 2022. Also see &lt;a href=&#34;https://www.youtube.com/watch?v=FKIH7HDK6Dw&#34;&gt;this video&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:26&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thermoelectric Stoves: Ditch the Solar Panels?</title>
+      <link>/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
+      
+      <enclosure url="/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
+      <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the &lt;a href=&#34;/2019/12/too-much-combustion-too-little-fire/&#34;&gt;2,000 year old windmill is the predecessor of today’s wind turbines&lt;/a&gt;, the fireplace and the wood stove are the even older predecessors of today’s solar panels. Like solar panels, trees and other plants convert sunlight into a useful source of energy for humans. Throughout history, the burning of wood and other biomass provided households with thermal energy, which was used for cooking, heating, washing, and lighting.&lt;/p&gt;
+&lt;p&gt;Photosynthesis also underpinned all historical sources of mechanical power: it provided fuel for both human and animal power, as well as the building materials for water mills and windmills. Neither the old-fashioned windmill nor the old-fashioned wood stove produced electricity, but both can easily be adapted to do so. It suffices to connect an electric generator to a windmill, and to connect a thermoelectric generator to a wood stove.&lt;/p&gt;
+&lt;h2 id=&#34;thermoelectric-generator&#34;&gt;Thermoelectric Generator&lt;/h2&gt;
+&lt;p&gt;Thermoelectric generators (or &amp;ldquo;TEGS&amp;rdquo;) are very similar to “photoelectric” generators – which we now call “photovoltaic” generators or solar PV cells. A photovoltaic generator converts light directly into electricity, and a thermoelectric generator converts heat directly into electricity. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A thermoelectric generator consists of a number of ingot-shaped semiconductor elements which are connected in series with metal strips and sandwiched between two electrically insulating but thermally conducting ceramic plates to form a very compact module. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; They are commercially available from manufacturers such as Hi-Z, Tellurex, Thermalforce and Thermomanic.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;A thermoelectric module. Image: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A thermoelectric module. Image: Gerardtv (CC BY-SA 3.0) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;A thermoelectric module. Image used with permission, Applied Thermoelectric Solutions LLC, How Thermoelectric Generators Work.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A thermoelectric module. Image used with permission, Applied Thermoelectric Solutions LLC, [How Thermoelectric Generators Work](https://thermoelectricsolutions.com/how-thermoelectric-generators-work/). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Stick a thermoelectric module to the surface of a wood stove, and it will produce electricity whenever the stove is used for cooking, space heating, or water heating. In the experiments and prototypes that are described in more detail below, the power output per module varies between 3 and 19 watts.&lt;/p&gt;
+&lt;p&gt;As with solar panels, modules can be connected together in parallel and series to obtain any voltage and power output that one needs – at least as long as there is stove surface left. As with solar panels, the electric current that is produced by the thermoelectric module(s) is regulated by a charge controller and stored into a battery, so that power is also available when the stove is not in use. A thermoelectric stove is usually combined with &lt;a href=&#34;/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;low voltage, direct current appliances&lt;/a&gt;, which avoids the conversion losses of using an inverter.&lt;/p&gt;
+&lt;p&gt;Thermoelectric stoves could be applied in many parts of the world. Most research is aimed at the global South, where close to 3,000 million people (40% of the global population) rely on burning biomass for cooking and domestic water heating. Some of these households also use the stove or fireplace for lighting (1,300 million people have no access to electricity) and for space heating during part of the year. However, there’s also research aimed at households in industrial societies, where biomass stoves and burners have increased in popularity, especially outside of cities.&lt;/p&gt;
+&lt;h2 id=&#34;100-efficient&#34;&gt;100% Efficient&lt;/h2&gt;
+&lt;p&gt;Ever since the thermoelectric effect was first described by Thomas Seebeck in 1821, thermoelectric generators have been infamous for their low efficiency in converting heat into electricity. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Today, the electrical efficiency of thermoelectric modules is only around 5-6%, roughly three times lower than that of the most commonly used solar PV panels. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;However, in combination with a stove, the electrical efficiency of a thermoelectric module doesn’t matter that much. If a module is only 5% efficient in converting heat into electricity, the other 95% comes out as heat again. If the stove is used for space heating, this heat cannot be considered an energy loss, because it still contributes to its original purpose. Total system efficiency (heat + electricity) is close to 100% – no energy is lost. With appropriate stove design, the heat from electricity conversion can also be re-used for cooking or domestic water heating.&lt;/p&gt;
+&lt;h2 id=&#34;more-reliable-than-solar-panels&#34;&gt;More Reliable than Solar Panels&lt;/h2&gt;
+&lt;p&gt;Thermoelectric modules share many of the benefits of solar panels: they are modular, they require little maintenance, they don’t have moving parts, they operate silently, and they have a long life expectancy. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; However, thermoelectric modules also offer interesting advantages compared to solar PV panels, provided that there’s a regularly used (non-electric) heat source in the household.&lt;/p&gt;
+&lt;p&gt;Although thermoelectric modules are roughly three times less efficient than solar PV panels, thermoelectric stoves provide a more reliable electricity supply because their power production is less dependent on the weather, the seasons, and the time of the day. In jargon, thermoelectric stoves have a higher “net capacity factor” than solar PV panels.&lt;/p&gt;
+&lt;p&gt;Even if a stove is only used for cooking and hot water production, these daily household activities still guarantee a reliable power output, no matter the climate. Furthermore, the power production of a thermoelectric stove matches very well with the power demand of householders: the times when the stove is used, are commonly also the times when most electricity is used. Solar panels, on the other hand, produce little or no electricity when household demand peaks.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Image: A Soviet thermo-electric generator based on a kerosene lamp, powering a radio, 1959. Source: The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A Soviet thermo-electric generator based on a kerosene lamp, powering a radio, 1959. Source: [The Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm).  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Note that these advantages disappear when thermoelectric generators are powered by direct solar energy. Solar thermoelectric generators (or “STEGS”), in which thermoelectric modules are heated by concentrated sunlight, don’t compensate for the low efficiency of their modules due to higher reliability because they are just as dependent on the weather as solar PV panels are. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;less-energy-storage&#34;&gt;Less Energy Storage&lt;/h2&gt;
+&lt;p&gt;Because of its higher reliability, there’s no need to oversize the power generation and storage capacity of a thermoelectric system to compensate for nights, dark seasons or bad weather days, as is the case with a solar PV installation. Battery capacity only needs to be large enough to store electricity for use in between two firings of the stove, and there’s no need to add extra modules to compensate for periods of low power production.&lt;/p&gt;
+&lt;p&gt;Solar panels and thermoelectric stoves can also be combined, resulting in a reliable off-grid system with little need for energy storage. Such a hybrid system combines well with a stove that is only used for space heating. The thermoelectric modules produce most of the power in winter, while the solar panels take over in summer.&lt;/p&gt;
+&lt;h2 id=&#34;cheaper-to-install-easier-to-recycle&#34;&gt;Cheaper to Install, Easier to Recycle&lt;/h2&gt;
+&lt;p&gt;A second advantage is that thermoelectric modules are easier to install than solar panels. There’s no need to build a structure on the roof and an electric link to the outside world, because the whole power plant is indoors. This also prevents theft of the power source, a significant problem with solar panels in some regions.&lt;/p&gt;
+&lt;p&gt;All these factors make that power from a thermoelectric stove can be cheaper and more sustainable compared to power from solar PV panels. Less energy, materials and money are needed to manufacture batteries, modules, and support structures.&lt;/p&gt;
+&lt;p&gt;In terms of sustainability, there’s another advantage: unlike solar PV panels, thermoelectric modules are relatively easy to recycle. Although silicon solar cells themselves are perfectly recyclable, they are encapsulated in a plastic layer (usually “EVA” or ethylene/vinyl acetate polymer), which is critical to the long-term performance of the modules. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Removing this layer without destroying the silicon cells is technically possible, but so complex that it makes recycling unattractive from both a financial and energetic viewpoint. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; On the other hand, thermoelectric modules do not contain any plastic at all. &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cooling-the-modules&#34;&gt;Cooling the Modules&lt;/h2&gt;
+&lt;p&gt;The electrical efficiency of a thermoelectric generator doesn&amp;rsquo;t only depend on the module itself. It’s also, in large part, influenced by the temperature difference between the cold and the hot side of the module. A thermoelectric module operating at half the temperature difference will only generate one quarter of the power. Consequently, improving the thermal management of a thermoelectric generator is a major focus in the design of thermoelectric stoves, as it allows to produce more power with less modules.&lt;/p&gt;
+&lt;p&gt;On the one hand, this involves locating the hottest spot(s) on a stove and fixing the modules there – provided that they can take the heat. Most stoves have surface temperatures from 100 to 300 degrees Celsius, while the hot side of bismuth telluride modules (the most affordable and efficient ones) withstands continuous temperatures of 150 to 350 degrees, depending on the model.&lt;/p&gt;
+&lt;p&gt;On the other hand, thermal management comes down to lowering the temperature of the cold side as much as possible, which can be done in four ways: air-cooled and water-cooled forced convection, which involves electric fans and pumps, and air-cooled and water-cooled natural convection, which involves the use of passive heat sinks that do not have a parasitic load on the system.&lt;/p&gt;
+&lt;p&gt;Active cooling usually has higher efficiency, even when the extra use of a fan or a pump is taken into account. However, passive systems are cheaper, operate silently, and are more reliable than active systems. In particular, the breakdown of a fan can be problematic, as it can lead to module failure due to overheating. &lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;thermoelectric-stoves-with-heat-sinks&#34;&gt;Thermoelectric Stoves with Heat Sinks&lt;/h2&gt;
+&lt;p&gt;The first thermoelectric biomass stoves were built in the early 2000s, although the Soviets pioneered a similar concept in the 1950s with mostly electric radios powered by kerosene lamps. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; In 2004, a team of Lebanese researchers retrofitted a typical cast-iron wood stove from local rural areas with a single 56 x 56 mm thermoelectric module they had made themselves. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; The stove, which is used for cooking and baking as well as for space and water heating, is rather small (52 x 44 x 29 cm) and weighs 40 kg.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Image: The cast-iron stove used in the experiments. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The cast-iron stove used in the experiments. [^18] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The researchers screwed a 1 cm thick smooth aluminium plate to the hottest spot of the stove surface, fixed the module there, and attached a very large (180 x 136 x 125 mm) aluminium finned heat sink to its cold side. At a burning rate of 2.5 kg soft pine wood per hour, their experiments showed an average power output of 4.2 watts. Operating the wood stove for 10 hours per day (excluding the warm-up phase) thus supplies a rural Lebanese household with 42 watt-hours of electricity, &lt;a href=&#34;/2018/01/how-much-energy-do-we-need/&#34;&gt;enough to cover basic needs&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Image: TEG installation details and location on stove. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: TEG installation details and location on stove. [^18] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;More modules and heat sinks can be added to increase power output, but of course the stove surface is limited, and as more modules are added they will be located in areas with a lower surface temperature, decreasing their efficiency. Another way to increase power production is to use an even larger heat sink, and/or a more expensive heat sink made from materials with higher thermal conductivity.&lt;/p&gt;
+&lt;h2 id=&#34;thermoelectric-stoves-with-fans&#34;&gt;Thermoelectric Stoves with Fans&lt;/h2&gt;
+&lt;p&gt;Most thermoelectric stoves that have been built to date use electric fans to cool the module, in combination with a much smaller heat sink. Although the fan can break and is a parasitic load on the system, it can simultaneously increase the efficiency of the stove by blowing hot air into the combustion chamber &amp;ndash; slashing firewood consumption and air pollution roughly by half. Furthermore, fan-powered stoves avoid the building of a chimney and can rely on a horizontal exhaust pipe instead. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt; Consequently, self-powered, fan-cooled stoves make it possible to reduce firewood consumption and indoor air pollution in rural regions of the global South where people neither have access to electricity, nor the means to make a chimney through the roof.&lt;/p&gt;
+&lt;p&gt;A study of a forced-draft thermoelectric cookstove with one module showed a 4.5 watt power output, of which 1 watt is required to operate the fan. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; The net power production (3.5 watts) is lower compared to that of the stove with only a heat sink (4.2 watts), but the fan-cooled stove uses only half as much firewood: it generates 3.5 watts net electricity at a burning rate of 1 kg of firewood per hour, while the passively cooled stove requires 2.5 kg of firewood to produce 4.2 watts.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Image: TEG-powered forced draft cooking stove. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: TEG-powered forced draft cooking stove. [^20]  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;An 80-days field test of a similar portable thermoelectric cookstove design in Malawi showed that the technology was highly valued by the users, with the stoves producing more electricity than was needed. Over the entire period, power production amounted to between 250 and 700 watt-hours of electricity, while electricity use was between 100 and 250 watt-hours. &lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Some fan-cooled thermoelectric cooking stoves are commercially available, often designed with backpackers in mind. Examples are the stoves from BioLite, Termomanic and Termefor, which advertise power outputs between 3 and 10 watts, depending on the design and the number of modules. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;thermoelectric-stoves-with-water-tanks&#34;&gt;Thermoelectric Stoves with Water Tanks&lt;/h2&gt;
+&lt;p&gt;The most efficient thermoelectric stoves are those in which the cold side of the module(s) is cooled by direct contact with a water reservoir. Water has lower thermal resistance than air, and thus cools more effectively. Furthermore, its temperature cannot surpass 100 degrees Celsius, which makes module failure due to overheating less likely.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Image: the principle of thermoelectric stove with passive water cooling. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: the principle of thermoelectric stove with passive water cooling. [^17] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;When thermoelectric modules are water-cooled, the waste heat from their electricity conversion does not contribute to space heating, but to domestic water heating. Water-cooled thermoelectric stoves can be active (using a pump) or passive (no moving parts). &lt;sup id=&#34;fnref2:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Most thermoelectric stoves with passive water cooling are small and only used for heating relatively small amounts of water. In fact, rather than the stove, it is most often a cooking pot that is equipped with thermoelectric modules. For example, the PowerPot is a commercially available backpacking type cooking pot with a thermoelectric module attached to the base, which can be directly placed on the top of a stove and advertises a power generation of 5-10 watts.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Image: multifunctional wood stove with passive water cooling. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: multifunctional wood stove with passive water cooling. [^22] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A much larger and more versatile thermoelectric stove with passive water cooling was designed by French researchers, based on a large, multifunctional mud wood stove design from Morocco. &lt;sup id=&#34;fnref1:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; They installed eight thermoelectric modules at the bottom of a built-in 30L water storage tank, which not only serves as the heat sink for the cold side of the generator, but also as the domestic hot water supply for the household. Furthermore, the stove is equipped with a self-powered electric fan and has a double combustion chamber to increase combustion efficiency.&lt;/p&gt;
+&lt;p&gt;Tests of a prototype generated 28 watts of power using two modules, while burning 1.5 kg of wood for cooking and/or heating. The fan used 15W, meaning that 13W of power remains for other uses. The stove also provided 60 litres of hot water per hour. Depending on the duration of two cooking sessions, between 35 and 55 watt-hour electricity was stored in a battery in a day. Note that here the researchers take into account the losses of the charge controller, the 6V battery, and the fan.&lt;/p&gt;
+&lt;h2 id=&#34;thermoelectric-stoves-with-pumps&#34;&gt;Thermoelectric Stoves with Pumps&lt;/h2&gt;
+&lt;p&gt;Passive water cooling has a downside. As the temperature of the water in the tank increases, the difference between the cold and the hot side of the module will decrease, and so will the electrical efficiency. There either needs to be sufficient time between two firings of a stove to let the water cool down again, or the warm water should regularly be used and replaced by cold water. A pump makes this task more convenient.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Image: Prototype of a thermoelectric stove with water-cooled modules. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Prototype of a thermoelectric stove with water-cooled modules. [^26] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A 2015 prototype, in which a wood stove used for cooking and space and water heating was equipped with 21 thermoelectric modules cooled by a pumped water system, showed a power production from 25W (burning 1 kg of pine wood per hour) over 70W (4 kg wood/hour) to 166W (9 kg wood/hour). &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt; The power output per module is as high as 7.9 watts, almost double the power output per module of the stove with natural air cooling. The pump uses 5W and the stove also has a fan to increase combustion efficiency, which consumes 1W. &lt;sup id=&#34;fnref:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;thermoelectric-gas-boilers&#34;&gt;Thermoelectric Gas Boilers?&lt;/h2&gt;
+&lt;p&gt;Thermoelectric generators with forced water cooling better fit the energy infrastructure in industrial societies, especially in households with central heating systems. More modules could be added, resulting in a power production that matches a relatively high energy lifestyle. However, there&amp;rsquo;s some caveats. First, central heating systems are only used for space and water heating, not for cooking, which makes their power production less reliable throughout the year. Second, only some central heating systems operate on biomass or wood pellet burners, while many more run on gas, oil or electricity.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototype of a thermoelectric wood-pellet burner. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Prototype of a thermoelectric wood-pellet burner. [^30]  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Obviously, when the heat source is electric, it makes no sense to stick a thermoelectric module to it. A thermoelectric system is incompatible with the vision of a high-tech sustainable building where heating is done with an electric heat pump, cooking happens on an electric cooking stove, and hot water is produced by an electric boiler.&lt;/p&gt;
+&lt;p&gt;However, when the energy source is gas or oil, a thermoelectric boiler is as much of a low carbon solution as a grid-connected solar PV system on the roof. &lt;sup id=&#34;fnref:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt; A thermoelectric heating system doesn’t make a household independent of fossil fuels, but neither does a grid-connected solar PV installation. It relies on the (largely fossil fuel powered) power grid to solve energy shortages and excesses, and it usually counts on a fossil fuel powered central heating system for space and water heating.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Image: A 1 kW thermoelectric generator with forced-water cooling for low temperature geothermal resources. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A 1 kW thermoelectric generator with forced-water cooling for low temperature geothermal resources. [^31] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A thermoelectric heating system that runs on fossil fuels also compares favourably to a large cogeneration power plant, which captures the waste heat of its electricity production and distributes it to individual households for space and water heating. In a thermoelectric heating system, heat and power are produced and consumed on-site. Unlike a central cogeneration power plant, there&amp;rsquo;s no need for an infrastructure to distribute heat and electricity. This saves resources and avoids energy losses during transportation, which amount to between 10 and 20% for heat distribution and between 3 and 10% (or much more in some regions) for power distribution.&lt;/p&gt;
+&lt;p&gt;A cogeneration power plant is more energy efficient (25-40%) in turning heat into electricity, meaning that in comparison a thermoelectric heating system supplies a larger share of heat and a smaller share of electricity. This is far from problematic, though, because even in Europe 80% of average household energy use goes to space and water heating.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;In both cases, the workings can be reversed. If one runs an electric current through a thermoelectric module, it can act as a heater or a cooler. If one runs an electric current through a photovoltaic device, it will produce light – that’s the principle of a LED.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Rowe, David Michael, ed. CRC handbook of thermoelectrics. CRC press, 2018.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Thermoelectric generators, The Museum of Retrotechnology, accessed May 2020. &lt;a href=&#34;http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm&#34;&gt;http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Polozine, Alexandre, Susanna Sirotinskaya, and Lírio Schaeffer. &amp;ldquo;History of development of thermoelectric materials for electric power generation and criteria of their quality.&amp;rdquo; Materials Research 17.5 (2014): 1260-1267.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Goupil, Christophe, ed. Continuum theory and modeling of thermoelectric elements. John Wiley &amp;amp; Sons, 2015.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Joffe, Abram F. &amp;ldquo;The revival of thermoelectricity.&amp;rdquo; Scientific American 199.5 (1958): 31-37.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;The Stirling engine, another predecessor of the solar PV panel that converts heat into electricity, lacks many of these advantages.&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;Kraemer, Daniel, et al. &amp;ldquo;Concentrating solar thermoelectric generators with a peak efficiency of 7.4%.&amp;rdquo; Nature Energy 1.11 (2016): 1-8.&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;Amatya, R., and R. J. Ram. &amp;ldquo;Solar thermoelectric generator for micropower applications.&amp;rdquo; Journal of electronic materials 39.9 (2010): 1735-1740.&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;Gayathri, Ms D. Binu Ms R., Mr Vijay Anand Ms R. Lavanya, and Ms R. Kanmani. &amp;ldquo;Thermoelectric Power Generation Using Solar Energy.&amp;rdquo; International Journal for Scientific Research &amp;amp; Development, Vol. 5, Issue 03, 2017.&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;Jiang, Shan, et al. &amp;ldquo;Encapsulation of PV modules using ethylene vinyl acetate copolymer as the encapsulant.&amp;rdquo; Macromolecular Reaction Engineering 9.5 (2015): 522-529.&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;Xu, Yan, et al. &amp;ldquo;Global status of recycling waste solar panels: A review.&amp;rdquo; Waste Management 75 (2018): 450-458.&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;Sica, Daniela, et al. &amp;ldquo;Management of end-of-life photovoltaic panels as a step towards a circular economy.&amp;rdquo; Renewable and Sustainable Energy Reviews 82 (2018): 2934-2945.&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;Bahrami, Amin, Gabi Schierning, and Kornelius Nielsch. &amp;ldquo;Waste Recycling in Thermoelectric Materials.&amp;rdquo; Advanced Energy Materials (2020).&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;Balva, Maxime, et al. &amp;ldquo;Dismantling and chemical characterization of spent Peltier thermoelectric devices for antimony, bismuth and tellurium recovery.&amp;rdquo; Environmental technology 38.7 (2017): 791-797.&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;In terms of weight, a thermoelectric module of 5 grams consists of alumina for the ceramic plates (44%); copper for the electric contacts (28%); tellurium (10%), bismuth (6%) and antimony (2%) for the thermoelectric legs; and small amounts of tin (for soldering), selenium (for “doping” the bismuth telluride) and silicone paste (the only polymer in the module, used for gluing everything together). In thermoelectric modules, the concentration of the scarce elements antimony, tellurium and bismuth is much higher compared to their traditional resources, which makes recycling attractive. &lt;sup id=&#34;fnref1:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;Gao, H. B., et al. &amp;ldquo;Development of stove-powered thermoelectric generators: A review.&amp;rdquo; Applied Thermal Engineering 96 (2016): 297-310.&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34;&gt;
+&lt;p&gt;Nuwayhid, Rida Y., Alan Shihadeh, and Nesreen Ghaddar. &amp;ldquo;Development and testing of a domestic woodstove thermoelectric generator with natural convection cooling.&amp;rdquo; Energy conversion and management 46.9-10 (2005): 1631-1643.&amp;#160;&lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:19&#34;&gt;
+&lt;p&gt;Champier, Daniel, et al. &amp;ldquo;Study of a TE (thermoelectric) generator incorporated in a multifunction wood stove.&amp;rdquo; Energy 36.3 (2011): 1518-1526.&amp;#160;&lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:20&#34;&gt;
+&lt;p&gt;Raman, Perumal, Narasimhan K. Ram, and Ruchi Gupta. &amp;ldquo;Development, design and performance analysis of a forced draft clean combustion cookstove powered by a thermo electric generator with multi-utility options.&amp;rdquo; Energy 69 (2014): 813-825.&amp;#160;&lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:21&#34;&gt;
+&lt;p&gt;O&amp;rsquo;Shaughnessy, S. M., et al. &amp;ldquo;Field trial testing of an electricity-producing portable biomass cooking stove in rural Malawi.&amp;rdquo; Energy for Sustainable development 20 (2014): 1-10.&amp;#160;&lt;a href=&#34;#fnref:21&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:22&#34;&gt;
+&lt;p&gt;Champier, Daniel, et al. &amp;ldquo;Thermoelectric power generation from biomass cook stoves.&amp;rdquo; Energy 35.2 (2010): 935-942.&amp;#160;&lt;a href=&#34;#fnref:22&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:23&#34;&gt;
+&lt;p&gt;Champier, Daniel, et al. &amp;ldquo;Prototype combined heater/thermoelectric power generator for remote applications.&amp;rdquo; Journal of electronic materials 42.7 (2013): 1888-1899. &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-02014177/document&#34;&gt;https://hal.archives-ouvertes.fr/hal-02014177/document&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:23&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:24&#34;&gt;
+&lt;p&gt;Champier, Daniel. &amp;ldquo;Thermoelectric generators: A review of applications.&amp;rdquo; Energy Conversion and Management 140 (2017): 167-181. &lt;a href=&#34;http://www.soliftec.com/ThermGen20170.pdf&#34;&gt;http://www.soliftec.com/ThermGen20170.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:24&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:25&#34;&gt;
+&lt;p&gt;Favarel, Camille, et al. &amp;ldquo;Thermoelectricity-A Promising Complementarity with Efficient Stoves in Off-grid-areas.&amp;rdquo; Journal of Sustainable Development of Energy, Water and Environment Systems 3.3 (2015): 256-268.&amp;#160;&lt;a href=&#34;#fnref:25&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:26&#34;&gt;
+&lt;p&gt;Goudarzi, A. M., et al. &amp;ldquo;Integration of thermoelectric generators and wood stove to produce heat, hot water, and electrical power.&amp;rdquo; Journal of electronic materials 42.7 (2013): 2127-2133.&amp;#160;&lt;a href=&#34;#fnref:26&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:27&#34;&gt;
+&lt;p&gt;The researchers also suggest a way to eliminate the pump: a water tank can be placed at a height of 1 m to provide the water, gravity will work as a pump to flow water into the cooling system, and the hot water produced by the cooling system can be stored in an insulated tank.&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:28&#34;&gt;
+&lt;p&gt;Another prototype generated an average output of 27W with just two modules, more than enough to power the pump (8W). Net power production is 9.5 watts per module. Montecucco, Andrea, Jonathan Siviter, and Andrew R. Knox. &amp;ldquo;A combined heat and power system for solid-fuel stoves using thermoelectric generators.&amp;rdquo; Energy Procedia 75 (2015): 597-602.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:29&#34;&gt;
+&lt;p&gt;In fact, the earliest experiments with thermoelectric heating systems date from the late 1990s and were aimed at the development of self-powered gas boilers. Central heating systems typically consume 250-400W of power for operating their electrical components: fans, blowers, pumps and control panels. By adding thermoelectric modules, the system maintains its ability to heat a home in the event of a prolonged electric outage. In combination with grid-connected solar PV panels, this only works while the sun shines. Allen, D. T., and W. Ch Mallon. &amp;ldquo;Further development of&amp;rdquo; self-powered boilers&amp;quot;.&amp;quot; Eighteenth International Conference on Thermoelectrics. Proceedings, ICT&#39;99 (Cat. No. 99TH8407). IEEE, 1999. Allen, Daniel T., and Jerzy Wonsowski. &amp;ldquo;Thermoelectric self-powered hydronic heating demonstration.&amp;rdquo; XVI ICT&#39;97. Proceedings ICT&#39;97. 16th International Conference on Thermoelectrics (Cat. No. 97TH8291). IEEE, 1997.&amp;#160;&lt;a href=&#34;#fnref:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Too Much Combustion, Too Little Fire</title>
+      <link>/2019/12/too-much-combustion-too-little-fire/</link>
+      
+      <enclosure url="/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" type="image/png" length="20315" ></enclosure>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/12/too-much-combustion-too-little-fire/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The fire – which we have used in our homes for over 400,000 years – remains the most versatile and sustainable household technology that humanity has ever known. The fire alone provided what we now get through a combination of modern appliances such as the oven and cooking hob, heating system, lights, refrigerator, freezer, hot water boiler, tumble dryer, and television. Unlike these newer technologies, the fire had no need for a central infrastructure to make it work, and it could be built locally from readily available materials.&lt;/p&gt;
+&lt;h2 id=&#34;from-open-hearth-to-power-plant&#34;&gt;From Open Hearth to Power Plant&lt;/h2&gt;
+&lt;p&gt;The habitual use of fire dates back at least 300,000 to 400,000 years. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Until the twentieth century, the biomass-fuelled fire was the only energy using “appliance” in the household – whether people were living in a cave, a temporary hut, or a permanent building. The earliest shelters were often erected with the express purpose of keeping fire alive, protecting it from wind and rain.&lt;/p&gt;
+&lt;p&gt;For most of history, the fire appeared in the form of an open hearth, which was built on an earthen floor in the middle of a shelter. The smoke of the fire escaped through a hole in the roof. Beginning in the fourteenth century in Europe, the open hearth was gradually replaced by a fireplace connected to a chimney, most often built against a wall. In colder regions (such as Scandinavia), people built more energy efficient &lt;a href=&#34;/2008/12/sunbathing-in-the-living-room-oven-stoves-and-heat-walls/&#34;&gt;tile stoves&lt;/a&gt;, while in milder climates (such as those around the Mediterranean), people continued to use braziers – portable metal baskets in which charcoal was burnt. In the 18th and 19th centuries, fireplaces were starting to be replaced by metal stoves.&lt;/p&gt;
+&lt;p&gt;The fire remained central in the household until the 20th century, when it was replaced by a wide range of appliances, plugged into central infrastructures. Today, in industrial societies, even metal stoves have become rare in households. Open burning has been all but banned, especially in cities. New buildings no longer have fireplaces, chimneys, or a hole in the roof.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The fire remained central in the household until the 20th century, when it was replaced by a wide range of appliances, plugged into central infrastructures.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“Paradoxically”, writes Luis Fernández-Galiano in &lt;em&gt;Fire and Memory: On Architecture and Energy&lt;/em&gt;, “the dwellings that began as places to promote the fire, today shun open burning”. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; In &lt;em&gt;Fire: A Brief History&lt;/em&gt;, Stephen J. Pyne observes that: “Urban residents can pass years without seeing a fire. It appears mostly by accident or arson, and almost always as a danger”. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;However, the fire has far from disappeared. Thousands of individual fires in households have been replaced by a few giant fires in central power plants. And the fire also burns elsewhere. “In our economy of abundance”, writes Stephen J. Pyne, “fire is at the heart of the magic – in factories, automobiles, homes and power plants&amp;hellip; Modern cities remain fire-driven ecosystems&amp;hellip; Shut down combustion and you shut down the city. But open flame itself has vanished. Like a black hole in space, fire has shaped everything around it without itself being visible.”&lt;/p&gt;
+&lt;p&gt;Industrialisation has only altered, not abolished burning. Most importantly, fire started using another energy source: fossil fuels instead of biomass. Until the twentieth century, almost all human-made fires were the product of renewable energy sources: wood, grass, dung – &lt;a href=&#34;/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/&#34;&gt;peat and some early uses of coal being the exceptions&lt;/a&gt;. Today in industrial societies, almost all fire “at the heart of the magic” burns on gas, coal or oil.&lt;/p&gt;
+&lt;h2 id=&#34;fire-vs-electricity&#34;&gt;Fire vs. Electricity&lt;/h2&gt;
+&lt;p&gt;Globally, a few billion people still live in households built around an old-fashioned fire, often in the form of an open hearth. Some people in the Western world consider this a backward and primitive practice that needs to be abolished – even though it is based on the use of renewable energy sources.&lt;/p&gt;
+&lt;p&gt;For example, in 2011, the UN and the World Bank launched the &lt;em&gt;Sustainable Energy for All&lt;/em&gt; initiative, aiming to “ensure universal access to modern energy services” by 2030. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; The concept of “modern energy services” is vague, but it essentially refers to the use of electricity and gas – and thus, in practice, the use of fossil fuels.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Urbanites see fire as a technology for which other, more advanced technologies can substitute”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Initiatives like this imply that “modern energy services” are “better” than the traditional open hearth or fireplace. “Urbanites see fire as a technology for which other, more advanced technologies can substitute”, writes Stephen J. Pyne. “If fire is a device, they want an improved flame- and smoke-free upgrade”.&lt;/p&gt;
+&lt;p&gt;Examples of such flame- and smoke-free upgrades are today’s solar PV panels and wind turbines, which are supposed to end our dependence on fossil fuelled fires to produce “modern energy services”. However, how do open hearths and “modern energy services” – including those based on renewable energy sources – actually compare in terms of efficiency, sustainability, health and safety? What are we really saying when we argue that electricity or gas are “better” than a traditional fire?&lt;/p&gt;
+&lt;h2 id=&#34;the-versatility-of-a-fire&#34;&gt;The Versatility of a Fire&lt;/h2&gt;
+&lt;p&gt;One reason why people in industrial societies regard open fire as inefficient and unsustainable is because they simply don’t know how their ancestors actually used it. If these days a fire is considered to be inefficient, it’s because we only measure the efficiency of one of its functions, usually space heating. However, our ancestors did not only use the fire to warm themselves. They also used it for cooking, illumination, food preservation, hot water production, clothes drying, and protection from predators and insects, among other things.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2019/12/too-much-combustion-too-little-fire/images/dithers/hairdryer_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Fire is extremely versatile: it’s hard to say which of its functions were most valued by our ancestors. Therefore, if we measure the energy use of a household fire and compare it to modern technology, we should not compare it to the energy use of a heating system or a cooking stove alone, but to the energy use of the entire household.&lt;/p&gt;
+&lt;h2 id=&#34;cooking-with-fire&#34;&gt;Cooking With Fire&lt;/h2&gt;
+&lt;p&gt;As a cooking device alone, the fire can accommodate a wide variety of cooking methods and replace a surprisingly large number of modern kitchen appliances. The fire not only functioned as a cooking stove, but also as an oven. For roasting and grilling, food was held on a turning spit and cooked by direct exposure to the fire. Baking happened in a clay container (a “Dutch oven”) which was put in the ashes of the fire. Alternatively, a separate bake oven was built into the jamb or the rear of the fireplace, or as a freestanding structure outside the house. Boiling and frying happened in a pot that was hanging above the fire. &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The functions of many smaller electrical kitchen appliances were also enabled by the fire. For example, you may think that people started eating toast when the electric toaster appeared in the twentieth century, but before that time they simply held a “toasting fork” into the fire. Likewise, quickly preparing warm drinks did not begin with the invention of the electric immersion heater: earlier on, people immersed a red-hot iron tool in a cup, producing hot beverages in a matter of seconds. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a cooking device alone, the fire can accommodate a wide variety of cooking methods and replace a surprisingly large number of modern kitchen appliances.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The fire also substituted for today’s refrigerator and freezer. In &lt;em&gt;The Food Axis: Cooking, eating, and the architecture of American houses&lt;/em&gt;, Elizabeth Collins Cromley describes how meat and fish were suspended for several weeks in the smoke of a fire to preserve them for longer. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; At the simplest level, our ancestors hung their cuts of meat or fish in the kitchen chimney or – if there was no chimney – high above the hearth, suspended from the ceiling. Smoking fish and meat could also happen in a chimney smoke chamber, which was either an adjunct to the kitchen fireplace, or a chamber built off the chimney in the basement or attic. The smokehouse could also be a separate building.&lt;/p&gt;
+&lt;p&gt;Several other food preservation methods were dependent on fire. Fruits, vegetables and herbs were dried by fire if the local climate wasn’t sunny enough. Sugaring fruits and making butter and cheese all depended on heat from a fire. Salt, essential for food preservation, was kept in a box hung against the fireplace to keep it dry. &lt;sup id=&#34;fnref2:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;distributing-heat-and-light&#34;&gt;Distributing Heat and Light&lt;/h2&gt;
+&lt;p&gt;A fire not only produces heat and smoke – it also produces light. As a light source, fire was just as versatile as electric lighting is today. The light of a fire resided not only in the hearth or the fireplace, but also in torches, rushlights, and later candles and oil lamps. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; Heat from a fire could also be spread all over the household. Although the kitchen was usually the only space in the house that was heated, embers from the fire could be put into portable heating devices, &lt;a href=&#34;/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;such as foot stoves and bed warmers&lt;/a&gt;. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The fire was also used to heat water for cleaning and washing, a practice that continued when cast-iron wood-stoves appeared – many of these had hot water tanks. Furthermore, the fire took care of drying clothes, substituting for today’s tumble dryer. And people didn’t just start ironing their clothes when the electric iron came along. Since the middle ages, our ancestors used plain metal irons that were heated by a fire or on a stove, or a “box iron”, which held glowing charcoal inside – some of these had a small chimney to keep smokey smells away from the clothes. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;People didn&amp;rsquo;t just start ironing their clothes when the electric iron came along. Since the middle ages, our ancestors used plain metal irons that were heated by a fire or on a stove.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There was also the function of the fire as a focal point of communication and socialisation. For thousands of years, the hearth was the “ancient focus of conversation and the crackling soul of the house”. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Televisions and mobile phones have taken over these roles, although it is doubtful whether they hold the same appeal for people as a fire does. A host of electronic consumer products that imitate the effects of a fire – electric candles and fireplaces, led-bulbs with flickering flame effects, video’s of crackling fires – seem to indicate that humans miss open fire.&lt;/p&gt;
+&lt;h2 id=&#34;sustainability-and-efficiency&#34;&gt;Sustainability and Efficiency&lt;/h2&gt;
+&lt;p&gt;In a household built around a fire, the making of hot beverages and toast, the drying of clothes, or the illumination of the space does not raise the energy use of the fire: it simply makes more efficient use of the fire that is already there for other purposes – like space heating. To achieve the same result today, we have to turn on a several appliances, and all of them require extra energy use: the heating system, the immersion heater, the electric toaster, the tumble dryer, and the lights.&lt;/p&gt;
+&lt;p&gt;Furthermore, we should also take into account the mining and the energy use required to replace one fire with dozens of factory-made appliances, which all need to be distributed to individual consumers. Finally, we should take into account the energy and materials that are required to build and maintain the infrastructures that these appliances depend on to operate, like the power grid, gas infrastructure, or the cold chain. In contrast, an open hearth can be built locally with readily available materials, and it operates independently of centralised infrastructures.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;/2019/12/too-much-combustion-too-little-fire/images/dithers/plancha_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Today’s renewable power plants, such as solar PV panels or wind turbines, don’t properly address the energy question: they also need to be manufactured, transported, maintained and discarded of, and they imply that we can keep designing, producing and discarding an increasing range of electric household appliances in order to satisfy our needs. Neither would biomass electricity make this system sustainable: although it eliminates the use of fossil fuels, a great deal of energy is lost in the process of converting biomass to electricity, and we still need factories to manufacture the electric appliances and the infrastructures.&lt;/p&gt;
+&lt;h2 id=&#34;energy-use-compared-ancient-vs-modern-households&#34;&gt;Energy Use Compared: Ancient vs. Modern Households&lt;/h2&gt;
+&lt;p&gt;If we look at the energy use in European households today, we see that on average 64% of all energy goes to space heating, 15% to water heating, 14% to lights and appliances, 5% to cooking and 1% to other services (including cooling). &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Most of these services can be supplied by fire. So, how does the energy use of a traditional household with open hearth compare to the energy use of a modern household built around appliances and infrastructures?&lt;/p&gt;
+&lt;p&gt;Obviously, the energy use of modern houses is better documented than that of buildings and shelters from times gone by. However, there is research documenting the energy use of households that still rely on a traditional fire.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If we measure the energy use of a household fire and compare it to modern technology, we should compare it to the energy use of the entire household.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A 2002 investigation of firewood consumption in traditional houses in Nepal measures the annual firewood consumption per household to be between 6 and 33 m3, which corresponds to between 35 and 165 Gigajoule (GJ) of energy. &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; This seems quite a lot in comparison to the total energy use in contemporary households, which is around 75 GJ per year in Germany and around 105 GJ in Canada.&lt;/p&gt;
+&lt;p&gt;However, the average Nepalese household participating in the research consisted of 5 to 12 people, while households in modern societies have shrunk to little more than two people. In the Nepalese households under study, energy use was between 2 and 33 GJ per capita, while another, more recent research paper on firewood consumption for heating, cooking and lighting in Nepal calculates a per capita use of roughly 2.5 to 10 GJ of energy per person per year. &lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; In comparison, total household energy consumption per capita is around 30 to 40 GJ in countries like the Netherlands, Germany and Canada.&lt;/p&gt;
+&lt;h2 id=&#34;10-billion-people-around-the-hearth&#34;&gt;10 Billion People Around the Hearth&lt;/h2&gt;
+&lt;p&gt;Even without taking into account the extra resources needed to build the appliances and the infrastructures, energy use in the pre-industrial household seems to have been significantly lower than it is today. In fact, a quick calculation reveals that – at least in theory – 10 billion people using an open hearth as their only energy source would be a perfectly sustainable practice.&lt;/p&gt;
+&lt;p&gt;Assuming an average firewood consumption of 6 m3 per capita, we would need 60 billion cubic metres of wood annually. One cubic metre of wood requires an annual yield of 0.2 ha of coppice, so we need 12 billion ha or 120 million square kilometers of forest if we want to avoid deforestation. That’s three times as much as we have today, and about 80% of the total land area of our planet (150 million square kilometers).&lt;/p&gt;
+&lt;p&gt;Because we don’t need extra space for factories and roads to make and distribute consumer goods, we actually could go back to the open hearth without destroying our environment. The same cannot be said of 10 billion people going forward using fossil fuels and modern infrastructures.&lt;/p&gt;
+&lt;h2 id=&#34;health-vs-sustainability&#34;&gt;Health vs. Sustainability&lt;/h2&gt;
+&lt;p&gt;If not for their sustainability or efficiency, then why do we consider “modern energy services” superior to a traditional fire? The suppression of open fire in modern cities is supported by two extra arguments: fire is unhealthy (it produces air pollution), and it is dangerous (it carries the risk of an uncontrollable fire). These risks are real, but how does the fire compare to “modern energy services” in terms of health and safety?&lt;/p&gt;
+&lt;p&gt;There is no doubt that the replacement of the household fire by modern infrastructures has advanced air quality, health and safety in cities. However, this may only be a temporary gain: modern infrastructures are at least as hazardous to safety and health because of their dependence on fossil fuels.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How does the fire compare to “modern energy services” in terms of health and safety?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For example, the heat waves and forest fires which are ravaging Australia while I write this, are killing people and destroying properties, and they are producing thick smoke that continues to blanket some of the largest cities. These fires are not caused by people using open hearths. These fires are the consequence of climate change, which is mainly caused by people’s use of industrial infrastructures – powered by fossil fuels.&lt;/p&gt;
+&lt;p&gt;The heavy dependence on central infrastructures for so many vital needs is another health and safety risk: cut the power supply to a large city and almost everything stops working &amp;ndash; including the sewer network, the food storage, and the burglar alarms.&lt;/p&gt;
+&lt;p&gt;Our troubled view of the old-fashioned fire is partly rooted in the conflation of two distinct concepts: “health” and “sustainability”. Indeed, something can be healthy, safe and sustainable at the same time, like walking – lest there is no sidewalk. But something can also be healthy and safe but not very sustainable (like a refrigerator, because it depends on an energy-intensive cold chain), and something can be sustainable but not very healthy or safe (like a smokeroom for meat and fish in the basement).&lt;/p&gt;
+&lt;p&gt;Health and longevity are things that we, as individuals, &amp;ldquo;need&amp;rdquo;, want, desire, or feel entitled to. Just like we feel entitled to certain levels of comfort, convenience, speed or cleanliness. On the other hand, defining sustainability requires us to question what levels of human comfort, convenience, cleanliness, speed, safety and health our environment can support before it collapses. We can choose safety and health over sustainability when they are in conflict with each other, but only at the expense of the safety and health of younger and future generations.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Roebroeks, Wil, and Paola Villa. &amp;ldquo;On the earliest evidence for habitual use of fire in Europe.&amp;rdquo;. Proceedings of the National Academy of Sciences 108.13 (2011): 5209-5214.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Berna, Francesco, et al. &amp;ldquo;Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave, Northern Cape province, South Africa.&amp;rdquo; Proceedings of the National Academy of Sciences 109.20 (2012): E1215-E1220.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Fernández, Guillén, and Luis Fernández-Galiano. Fire and memory: on architecture and energy. Mit Press, 2000.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Pyne, Stephen J. Fire: a brief history. University of Washington Press, 2019.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.seforall.org&#34;&gt;https://www.seforall.org&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Collins Cromley, Elizabeth. The food axis: cooking, eating, and the architecture of American houses. University of Virginia Press, 2010.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;Unlike today’s gas or electric stoves and ovens, a fire has no buttons to control its temperature. For boiling and simmering, this was solved by hanging the pots on a crane, which could be raised or lowered. In ovens, cooks decided to bake pies or bread first while the oven is the hottest, then, successively as the oven cools down, gingerbread, custards, then grains could be put in to dry. [6]&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;Marcoux, Paula. Cooking with fire: From roasting on a spit to baking in a tannur, rediscovered techniques and recipes that capture the flavors of wood-fired cooking. Storey Publishing, 2014.&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;Hough, Walter. Fire as an agent in human culture. No. 139. Govt. print. Off., 1926.&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;The energy source for these distributed fires were wood, resin, wax, fat, grease or oil. Needs for special concentration and position of the source of illumination stimulated the invention of holders, brackets, and stands. [9]&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;Heating people, not spaces: restoring the old way of warming, Kris De Decker, Low-tech Magazine, 2016.&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;History of ironing, Old &amp;amp; Interesting, retrieved December 26, 2019.&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;Energy consumption and use by households, Eurostat, 2019.&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;Rijal, H. B., and H. Yoshida. &amp;ldquo;Investigation and evaluation of firewood consumption in traditional houses in Nepal.&amp;rdquo; Proceedings: Indoor Air (2002): 1000-1005.&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;The energy content of 1 m3 of wood also depends on the type of wood and how it is stacked. I’ve compared apples to apples when it was possible, but this was not always the case so the result is only a rough estimate.&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;The annual firewood usage in 18th century Austria (Carinthia) was limited to 35 m3 per household. Source: Peter, Sieferle Rolf. The subterranean forest. Cambridge: The White Horse Press, 2001.&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;Rijal, Hom Bahadur. &amp;ldquo;Firewood Consumption in Nepal.&amp;rdquo; Sustainable Houses and Living in the Hot-Humid Climates of Asia. Springer, Singapore, 2018. 335-344.&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34;&gt;
+&lt;p&gt;The results are 0.5 to 2 m3 of firewoord per person per year, which I have converted to 2.5 to 10 GJ of energy per person per year.&amp;#160;&lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

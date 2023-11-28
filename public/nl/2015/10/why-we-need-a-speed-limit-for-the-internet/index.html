@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Een snelheidslimiet voor het internet? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Een snelheidslimiet voor het internet?" />
+<meta name="twitter:title" content="Een snelheidslimiet voor het internet?"/>
+
+<meta property="og:description" content="Aangezien energie-efficiëntie op zichzelf geen zoden aan de dijk zet, kan de stijgende trend alleen maar worden gestopt als de vraag naar digitale communicatie wordt teruggeschroefd." />
+
+<meta name="twitter:description" content="Aangezien energie-efficiëntie op zichzelf geen zoden aan de dijk zet, kan de stijgende trend alleen maar worden gestopt als de vraag naar digitale communicatie wordt teruggeschroefd."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/" />
+
+
+
+<meta property="og:image" itemprop="image" content="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" />
+<meta property="og:image:secure_url" content="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-10-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-10-19T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="ICT" />
+
+</head>
+<body id="een-snelheidslimiet-voor-het-internet">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Een snelheidslimiet voor het internet?</h1>
+
+				<p class="summary">
+					Aangezien energie-efficiëntie op zichzelf geen zoden aan de dijk zet, kan de stijgende trend alleen maar worden gestopt als de vraag naar digitale communicatie wordt teruggeschroefd.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">19 oktober 2015</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="/nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="/2015/10/why-we-need-a-speed-limit-for-the-internet/">en</a>
+						
+							<a href="/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" alt='Koppel met smartphones. Afbeelding: Matthew G. CC.' data-original="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/speed-limit-internet_hu3d03a01dcc18bc5be0e67db3d8d209a6_77093_800x800_fit_q90_h2_box.webp" data-dither="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Koppel met smartphones. Afbeelding: <a href="https://www.flickr.com/photos/streetmatt/15851429459/in/photolist-q9JHHV-bbhfj6-rdPrYE-6WpyLA-o1mSAi-cpUaqS-qMF7Tg-9ZQbb7-a39Vsb-6YkxLV-fo9Ypi-oTnmy1-rLqXQN-qR4WTF-brYcsr-bqwSte-bovvp6-nQb1F3-sgeU47-q8kWtT-o2KH4K-egpyFd-nxnfi7-jEGTiA-oUqbHS-o3nsh1-7ucC4b-ocdn19-bjVuP8-aZWVDe-aEnBFo-ag9bN2-abXLNk-xxQdLQ-o7cdiK-ykyzCN-xFa6v3-yBdNK5-ykzQsy-ykyzAd-ykzQjN-xFinza-yBdNp5-yCbzgx-yBdNiU-ykzQ85-ykyzh7-yBdNas-cGWeGY-n3vF2V" target="_blank" >Matthew G</a>. CC.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De vooruitgang in energie-efficiëntie heeft op het internet een averechts effect: hoe efficiënter het netwerk wordt, hoe groter het totale energieverbruik. Smartphones zijn daar het nieuwste voorbeeld van. Hoewel de toestellen zelf erg weinig elektriciteit gebruiken, drijven ze het energieverbruik op in de datacenters en de netwerkinfrastructuur. Ze stimuleren ons om veel vaker online te zijn en ze maken gebruik van energie-intensieve, draadloze verbindingen.</p>
+<p>Het energieverbruik van het internet neemt stilaan zorgwekkende proporties aan. Aangezien energie-efficiëntie op zichzelf geen zoden aan de dijk zet, kan de stijgende trend alleen maar worden gestopt als de vraag naar digitale communicatie wordt teruggeschroefd. Die strategie passen we ook elders toe, bijvoorbeeld door mensen aan te zetten om minder vlees te eten, de auto te laten staan, of de thermostaat lager te draaien. Voor het internet ligt deze aanpak nog gevoeliger, al is het maar omdat weinig mensen een link leggen tussen data en energie.</p>
+<p>Hoeveel energie verbruikt het internet? Het is een eenvoudige vraag, maar gezien de complexiteit en snelle evolutie van het netwerk weet eigenlijk niemand het antwoord. Schattingen voor het totale elektriciteitsverbruik van het internet variëren van 600 tot 2.500 terawatt-uur (TWh), wat overeenkomt met ongeveer 2,5 tot 10% van de globale elektriciteitsconsumptie in 2013. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Als we naar het energieverbruik per bit kijken (de &ldquo;energie-intensiteit&rdquo; van het internet), dan lopen de schattingen uiteein van 0,00064 tot 136 kilowatt-uur (kWh) voor het downloaden van 1 gigabyte (1GB). Dat is een verschil van vier groottordes.  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Een eerste reden voor het grote verschil tussen deze resultaten is dat veel wetenschappers slechts een deel onderzoeken van de infrastructuur die we het internet noemen. De jongste jaren ligt de klemtoon op het energieverbruik in de datacenters, waar de computers (&ldquo;servers&rdquo;) staan die alle informatie herbergen die op het internet te vinden is. Maar in verhouding wordt er veel meer energie verbruikt door de apparatuur van de eindgebruikers (de &ldquo;clients&rdquo; zoals laptops, desktops en smartphones), de netwerk infrastructuur (die het transport van data verzorgt tussen clients en servers) en het productieproces van zowel de servers, de netwerkapparatuur en de apparaten van de eindgebruikers. [Noot 1]</p>
+<p>Een tweede factor die de grote verschillen verklaart, is timing. Omdat het internet zo snel groeit en evolueert, zijn de resultaten van onderzoek zeer tijdsgebonden. Langs de ene kant worden alle betrokken apparaten steeds energiezuiniger. Langs de andere worden er steeds nieuwe apparaten geïntroduceerd, ontstaan er nieuwe gebruikersgewoonten, en verdubbelt het dataverkeer op internet elke twee jaar. Deze trends wegen zwaarder door dan de vooruitgang in energie-efficiëntie. Met andere woorden: hoewel het energieverbruik per gedownloade bit blijft dalen, neemt het totale energieverbruik alleen maar toe.</p>
+<p>Rekening houdend met deze factoren selecteerden we een studie die alle elementen van de infrastructuur onderzoekt en relatief recent is. Dit onderzoek <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> concludeert dat het internet 1.815 TWh elektriciteit verbruikte in 2012. Dat komt overeen met 8% van de globale elektriciteitsproductie in hetzelfde jaar (22.740 TWh). <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Als we het internet (uit 2012) zouden willen doen werken met pedaalaangedreven machines, die elk 70 watt elektriciteit kunnen produceren, dan zijn er 8,2 miljard mensen nodig die in drie shiften elke dag van het jaar acht uur trappen. Zonne-energie dan maar? Dat kan in principe, maar 1.815 TWh komt wel overeen met drie keer de globale elektriciteitsproductie van alle windturbines en zonnepanelen in 2012. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<h2 id="meer-energie-per-gebruiker">Meer energie per gebruiker</h2>
+<p>Interessanter dan deze &ndash; intussen al verouderde &ndash; cijfers, zijn de mechanismen die het stijgende energieverbruik van het internet veroorzaken. Volgens de eerder aangehaalde studie zal het energieverbruik tegen 2017 toenemen tot 2.547 TWh (het verwachte groeiscenario) of 3.422 TWh (het slechtst denkbare scenario). Dat laatste cijfer komt neer op een verdubbeling van het energieverbruik op 5 jaar tijd. Merk op dat de vooruitgang in energie-efficiëntie al in deze cijfers vervat zit. Zonder vooruitgang in energie-efficiëntie zou het energieverbruik van het internet ongeveer elke twee jaar verdubbelen, in tandem met de toename van het dataverkeer.</p>
+<p>Het meest opmerkelijke aan het stijgende energieverbruik van het internet is dat dit niet zozeer wordt veroorzaakt door een toenemend aantal internetgebruikers, maar door een groeiend energieverbruik per internetgebruiker. Het online dataverkeer stijgt ongeveer zeven keer sneller dan het aantal internetgebruikers (45% versus 6-7% per jaar). <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Daar zijn twee redenen voor. De eerste is het toenemende gebruik van laptops, smartphones en draadloos internet. De tweede reden is de alsmaar stijgende &ldquo;bitsnelheid&rdquo; van de geraadpleegde content, voornamelijk ten gevolge van digitale televisie en het streamen van video.</p>
+<h2 id="steeds-meer-apparaten">Steeds meer apparaten</h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/more-and-more-electronic-devices_dithered.png" alt='Er duiken steeds meer apparaten op, die niet zelden tegelijkertijd worden gebruikt. Foto: miniyo73.' data-original="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/more-and-more-electronic-devices_hu445c86f511df1c93606fef8e089d9e3d_187095_800x800_fit_q90_h2_box.webp" data-dither="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/more-and-more-electronic-devices_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Er duiken steeds meer apparaten op, die niet zelden tegelijkertijd worden gebruikt. Foto: <a href="https://www.flickr.com/photos/miniyo73/8371683905/in/photolist-dKM4XF-aGSRsr-pwsJsG-aGSRaM-5seCHN-wCVXFc-z3FzK6-pSRMiv-qBeo56-pMcwE9-8pJWJV-dMrBxA-BLL8N-8kLCKi-r2tiqT-ycFU7S-9mg3Zz-g4ZN6D-rgjf2s-fw3WLc-cEpcUY-aoCJ5H-oEG1vb-2U2bT-penr48-dgagZ1-dMm3VD-9sVnJf-7XHVjx-goVRFZ-v58Cqf-v58BZq-v58Fyh-vmH4Up-vmH4pg-vn3Xrv-upSDuR-vmH3kT-v58yTW-vn3VJn-vn3Vna-vn42C6-v58Esb-v5gd3v-v58DrJ-rcd1ps-pFbREV-t55HMh-bJSXb4-8S4Xsi" target="_blank" >miniyo73</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Laten we eerst naar de opgang van mobiele computers kijken. De jongste jaren zien we dat desktops steeds vaker plaats ruimen voor compactere, draagbare apparaten: eerst de laptop, dan de tablet en de smartphone. In rijke landen bezit inmiddels 84% van de bevolking zo&rsquo;n &ldquo;slimme&rdquo; telefoon. <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup><sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Smartphones verbruiken veel minder elektriciteit dan desktops en laptops, niet alleen tijdens het gebruik maar ook tijdens de productie, wat hen een aura van duurzaamheid heeft gegeven. Helaas hebben ze andere gevolgen die dit effect volledig teniet doen.</p>
+<blockquote>
+<p>Smartphones verbruiken zelf weinig elektriciteit, maar ze drijven het energieverbruik op in datacenters en de netwerkinfrastructuur</p>
+</blockquote>
+<p>Ten eerste verplaatsen smartphones een groot gedeelte van het rekenwerk (en dus het energieverbruik) van het apparaat van de eindgebruiker naar het datacenter. De snelle adoptie van slimme telefoons gaat samen met een al even snelle opgang van in de &ldquo;cloud&rdquo; gebaseerde computerdiensten. Het is precies omdat smartphones een groot deel van de rekenkracht en geheugencapaciteit &ldquo;uitbesteden&rdquo; aan datacenters, dat ze zelf zo weinig energie verbruiken. Maar daar staat natuurlijk een hoger energieverbruik tegenover in het datacenter zelf. Bovendien moet al die data ook heen en weer worden verstuurd tussen datacenter en eindapparaat, waardoor ook het energieverbruik in het netwerk toeneemt.</p>
+<h2 id="draadloos-internet">Draadloos internet</h2>
+<p>Cloud-computing kan de energie-efficiëntie van bepaalde computertaken verhogen en dus het totale energieverbruik verlagen, omdat servers in datacenters meestal efficiënter worden beheerd dan computers thuis en op kantoor. Dit voordeel gaat echter niet op voor smartphones die draadloos contact maken met het internet via een 3G of 4G cellulair netwerk. Het energieverbruik van de netwerkinfrastructuur is in hoge mate afhankelijk van de manier waarop contact wordt gelegd met het netwerk &ndash; de zogenaamde &ldquo;last mile&rdquo; of &ldquo;laatste kilometer&rdquo; die de gebruiker verbindt met de backbone (zeg maar de snelweg) van het internet.</p>
+<p>Een vaste verbinding (ADSL, kabel) is de meeste energie-efficiënte manier om contact te maken met het internet. Draadloze toegang via WiFi verhoogt het energieverbruik, maar slechts in beperkte mate. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Wordt er echter toegang gemaakt via een cellulair netwerk, dan loopt het energieverbruik snel op. Verbinding maken via een 3G verbinding vraagt 15 keer meer energie dan WiFi, terwijl een verbinding via het snellere 4G maar liefst 23 keer meer energie vraagt. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>Alles bij elkaar is draadloze gegevensoverdracht via een 4G netwerk goed voor 90% van het totale energieverbruik van een typische toepassing van een smartphone. Het energieverbruik in het datacenter vraagt 9% van het energieverbruik, terwijl het energieverbruik van de smartphone zelf verwaarloosbaar is. Als alle gebruikers wereldwijd toegang tot het netwerk zouden maken via 4G, dan zou het energieverbruik van de netwerkinfrastructuur (dus exclusief de andere componenten) meer dan verdubbelen, ervan uitgaande dat het dataverkeer onveranderd blijft. [4]</p>
+<blockquote>
+<p>Verbinding maken via een 3G verbinding vraagt 15 keer meer energie dan WiFi, terwijl een verbinding via het snellere 4G liefst 23 keer meer energie vraagt.</p>
+</blockquote>
+<p>Terwijl de meeste desktop computers meestal met het internet verbonden zijn door middel van een vaste verbinding, zijn laptops meestal en smartphones en tablets per definitie draadloos verbonden, ofwel via WiFi ofwel via een cellulair netwerk. Tot nu toe is de toename van het mobiele dataverkeer enigszins beperkt door het gebruik van gratis WiFi-verbindingen: gebruikers limiteren hun gebruik van 3G omdat het duur is en minder kwaliteit biedt.</p>
+<p>Met de opmars van 4G internettoegang verdwijnt alvast het snelheidsvoordeel van WiFi: 4G presteert minstens even goed als WiFi. <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> De meeste telecomoperatoren zijn volop bezig met het uitrollen van 4G netwerken. Bijvoorbeeld in Nederland stonden er eind juli 10.874 antennes van de vierde generatie, bijna een verdubbeling op een jaar tijd.</p>
+<p>Tot slot leidt de cominatie van draagbare computerapparatuur en draadloze internettoegang er toe dat we meer en meer tijd online spenderen, naast het meer conventionele computergebruik. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Die trend kwam op gang met de laptop. Een aantal jaren geleden werd voorspeld dat laptops het energieverbruik van het internet zouden verlagen, maar het omgekeerde gebeurde omdat mensen het gebruiksgemak en de draagbaarheid van de laptop aanwenden om vaker en op meer plaatsen in hun woning online te zijn. Het is pas met de komst van de laptop dat de computer zijn intrede deed in de huiskamer. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<h2 id="zendmast">Zendmast</h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/cell-tower_dithered.png" alt='Mobiel internet kost meer energie. Foto: jerry0984. CC.' data-original="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/cell-tower_huf373bdcf4dd6b2908e00119441a952ae_372748_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/cell-tower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Mobiel internet kost meer energie. Foto: <a href="https://www.flickr.com/photos/jerry0984/17037780397/in/photolist-rXz5wr-bK1ZH-q9b8hG-4a1m7o-bmLht9-beKeK6-aAQAMj-kWGfhg-7qCeXo-n1NG1g-pLd7WV-8S5wot-q9C9YP-qXHvAf-qRoTqh-8S5nrp-qzHwsC-qYVC5m-agsbX6-7NwPMX-6u1P3v-e3iFBK-goWtF5-cJKtaN-e3s7TC-7Shmsg-k2quYu-9R6a93-7zfToi-njpDbE-ak7nkz-oyGD-8CBHzu-dMpFMo-5wd8xw-8u2MTD-8aP6nN-k2qv1J-2ZeCgo-nybnwL-kapoM-9HKqYL-oQyrYT-6eG5eq-tqD6Rp-ge9RN8-4btraU-4K5amk-7UWR1g-k2oJGe" target="_blank" >jerry0984</a>. CC.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Smartphones zijn de volgende stap in deze evolutie. Ze maken het mogelijk om altijd en overal online te zijn, niet alleen thuis of op kantoor. <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref2:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Bijgevolg gebruiken we onze meer energie-efficiënte apparaten gedurende langere periodes en sturen we meer bits over het netwerk. Het resultaat is meer energieverbruik, door de smartphone zelf maar vooral in de datacenters en op het netwerk. Lang niet elke smartphone vervangt dus een laptop: de apparaten zijn complementair en worden niet zelden tegelijk gebruikt.</p>
+<h2 id="online-video">Online video</h2>
+<p>Een tweede belangrijke reden voor het stijgende energieverbruik per internetgebruiker is de toenemende bitsnelheid van online media. Het internet begon als een tekstmedium, maar beelden, muziek en video zijn net zo belangrijk geworden. Het downloaden van tekstpagina&rsquo;s vraagt erg weinig energie. Om een voorbeeld te geven: alle tekst op deze blog (zo&rsquo;n 400 artikels) past in een bestand van ongeveer 10 megabyte (MB), terwijl één enkele foto in hoge resolutie al gauw tussen de 3 en 6 MB data vereist.</p>
+<p>Een YouTube-video van 8 minuten in standaard kwaliteit komt aan 30 MB, ongeveer drie keer zoveel als alle woorden op deze blog. Omdat energieverbruik gelijk opgaat met dataverkeer, is het dus van groot belang wat we precies doen online. En de trend is duidelijk: we gebruiken het internet steeds vaker voor het raadplegen van inhoud met een hoge bitsnelheid: muziek en &ndash; vooral &ndash; video.</p>
+<p>In 2012 was video goed voor 57% van al het dataverkeer op het internet (exclusief het &ldquo;illegaal&rdquo; downloaden via P2P-netwerken). In 2017 zou dat 69% zijn. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> In termen van energieverbruik is elke video die &ldquo;viraal&rdquo; gaat op YouTube als een eskadron vliegtuigen dat opstijgt. Maar het zijn niet alleen de YouTube-video&rsquo;s van katten en andere beestjes die energiecentrales doen draaien. Een steeds groter deel van het videoverkeer is te wijten aan de opmars van digitale televisie en films-op-aanvraag. Meer dan 80% van de huishoudens met een televisie ontvangt nu een digitaal signaal, ofwel via een digitale televisie ofwel via een set-top box. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Vaak heeft de televisiekijker niet veel keuze: analoge televisie-uitzendingen werden in heel veel landen opgedoekt. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<blockquote>
+<p>Online kost het bekijken van een video veel meer energie dan het lezen van tekst of het bekijken van afbeeldingen</p>
+</blockquote>
+<p>Als video en draadloos internet de twee belangrijkste redenen zijn voor het stijgende energieverbruik van internet, dan is het bekijken van video over een draadloze internetverbinding uiteraard de grootste boosdoener. En precies dat deel van het dataverkeer neemt het snelste toe. Volgens de laatste Visual Networking Index van Cisco zal mobiel videoverkeer tussen 2014 en 2019 met 1300% groeien, tot 72% van het totale mobiele dataverkeer. <sup id="fnref1:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<p>Het effect van het streamen van video (en muziek) gaat verder dan alleen maar een groei van het dataverkeer. Energieverbruik wordt ook sterk beïnvloed door de aard van de aangeboden service. Voor toepassingen zoals e-mail, het bekijken van webpagina&rsquo;s of het downloaden van video of audio zijn beperkte vertragingen geen probleem. Maar voor tijdsgevoelige toepassingen zoals videoconferencing, internettelefonie of het streamen van video of audio kunnen zelfs kleine vertragingen niet getolereerd worden. Dat vraagt een performanter netwerk en dus meer energieverbruik.</p>
+<h2 id="spaart-het-internet-energie">Spaart het internet energie?</h2>
+<p>Het toenemende energieverbruik van het internet wordt vaak goedgepraat met het argument dat het netwerk meer energie bespaart dan het verbruikt. Dit wordt toegeschreven aan substitutie-effecten waarbij online diensten meer energie-intensieve activiteiten vervangen. Voorbeelden zijn videoconferencing, dat wordt verondersteld een alternatief te zijn voor het reizen met de auto of het vliegtuig, of het downloaden of streamen van digitale media, dat wordt verondersteld een alternatief te zijn voor het produceren en transporteren van DVD&rsquo;s, CD&rsquo;s, boeken, magazines of kranten.</p>
+<p>Een paar voorbeelden. Een studie uit 2011 concludeerde dat &ldquo;als we één op vier vliegreizen vervangen door videconferencing, we evenveel energie zouden besparen als het internet nu verbruikt&rdquo;, terwijl een onderzoek uit 2014 tot het besluit kwam dat &ldquo;videoconferencing maximaal 7% van de energie verbruikt die nodig is voor een online verplaatsing&rdquo;. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> Wat betreft digitale media stelde een studie uit 2014 dat het vervangen van alle DVD&rsquo;s door online streaming in de Verenigde staten evenveel energie zou besparen als het primaire energieverbruik van bijna 200.000 Amerikaanse huishoudens. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/mobile-phone-use-on-trains_dithered.png" alt='We spenderen steeds meer tijd online. Foto: Gongashan.' data-original="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/mobile-phone-use-on-trains_hu21dba4bf01fe6f4bbce2b38d757c9905_412987_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/mobile-phone-use-on-trains_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>We spenderen steeds meer tijd online. Foto: <a href="https://www.flickr.com/photos/yanncb92/15185388700/in/photolist-p8T61y-q7hS9G-mQCsaE-podeEo-sBQZQR-njrXmR-qBzgVc-7Dg1rL-D3NJb-ohRqn5-7ELfHp-b2NN32-aGSV1n-sBDC4d-fHr5pX-eghTGo-dgah17-rBuFur-Fmu8N-6prZBn-dKM4XF-aGSRsr-pwsJsG-aGSRaM-5seCHN-wCVXFc-z3FzK6-pSRMiv-qBeo56-pMcwE9-8pJWJV-dMrBxA-BLL8N-8kLCKi-r2tiqT-ycFU7S-9mg3Zz-g4ZN6D-rgjf2s-fw3WLc-cEpcUY-aoCJ5H-oEG1vb-2U2bT-penr48-dgagZ1-dMm3VD-9sVnJf-7XHVjx-goVRFZ" target="_blank" >Gongashan</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Er zijn een aantal fundamentele problemen met dit soort beweringen. Ten eerste worden de resultaten natuurlijk in zeer hoge mate beïnvloed door de manier waarop je het energieverbruik van het internet berekent. Zoals we bij het begin van dit artikel hebben gezien, verschillen de schattingen voor de energie-intensiteit van het internet met een factor van meer dan 20.000. De onderzoekers die deze vaststelling maakten, stellen dat het met zulke enorme verschillen &ldquo;onmogelijk is om uit te maken of videoconferenties en digitale media wel of niet duurzamer zijn, en in welke mate, dan de offline alternatieven&rdquo;. <sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<blockquote>
+<p>Het vergelijken van offline en online activiteiten is op zoveel subjectieve veronderstellingen gebaseerd dat eender welke conclusie kan worden gestaafd</p>
+</blockquote>
+<p>Onderzoekers moeten ook een hele reeks bijkomende veronderstellingen maken. Als videoconferenties worden vergeleken met een vliegreis, wat is dan de afstand die het vliegtuig aflegt? Is het vliegtuig vol of niet? Wanneer werd het gebouwd? En hoe lang duurt de videoconferentie? Gebeurt ze over een draadloos of een niet-draadloos netwerk? Wordt er gebruik gemaakt van een laptop of een gesofistikeerd telepresentatie-systeem? Als we het hebben over het streamen van muziek, wordt er dan één keer of twintig keer naar hetzelfde album geluisterd? Als je een CD koopt, ga je dan naar de winkel met de auto of met de fiets? Hoe lang is die trip? Koop je alleen de CD of koop je ook andere spullen onderweg?</p>
+<p>Elk van deze vragen kan op zo&rsquo;n manier worden beantwoord dat je als onderzoeker in feite kan besluiten wat je maar wil. Daarom is het beter om te focussen op de mechanismen die de relatieve energie-efficiëntie van offline en online activiteiten bevorderen of beperken, wat wetenschappers een &ldquo;gevoeligheidsanalyse&rdquo; noemen. Het moet gezegd worden dat de meeste onderzoekers wel degelijk zo&rsquo;n analyse uitvoeren, maar de resultaten daarvan halen meestal niet de inleiding van een wetenschappelijk artikel, laat staan het bijhorende persbericht.</p>
+<h2 id="tijd-en-afstand">Tijd en afstand</h2>
+<p>Een belangrijk verschil tussen online en offline diensten is de rol van tijd. Online neemt het energieverbruik lineair toe met de tijdsduur van de activiteit. Als je dezelfde film twee keer streamt, dan verdubbelt het energieverbruik. Maar als je een film op DVD twee keer bekijkt, dan verdubbelt alleen het energieverbruik van het televisiescherm en de DVD-speler. De energie die nodig was voor de productie en het transport van de DVD blijft gelijk. Als je op een digitale nieuwssite twee artikels leest in plaats van één, dan verbruik je meer elektriciteit. Maar als je een krant koopt, dan is het energieverbruik onafhankelijk van het aantal artikels dat je leest. Een krant kan zelfs door meerdere mensen worden gelezen zodat het energieverbruik per persoon daalt.</p>
+<p>Naast tijd is er de factor van afstand. Offline neemt het energieverbruik toe met de afstand, omdat het transport van personen of spullen in de meeste gevallen het grootste deel uitmaakt van het totale offline energieverbruik. Hoe verder je moet reizen om iemand te ontmoeten, of om een krant te kopen, hoe meer energie er wordt verbruikt. Dat is niet zo met online activiteiten, waar de afstand niet of nauwelijks effect heeft op het energieverbruik. Het gevolg is dat zowel offline als online activiteiten de meest efficiënte optie kunnen zijn, afhankelijk van de omstandigheden.</p>
+<p>Brengen we al deze factoren in rekening, dan komen er veel genuanceerder conclusies naar voren. Zoals: het lezen van een digitale krant op een desktop PC verbruikt meer energie dan het lezen van een papieren krant van zodra de leesduur langer is dan een uur en een kwartier, in de veronderstelling dat de krant door één persoon wordt gelezen. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> Of, in de eerder aangehaalde studie over videoconferencing: het reduceren van de reisafstand van 5.000 naar 333 km leidt ertoe dat het reizen in fysieke vorm energie-efficienter wordt dan videoconferenties als een telepresentatie-systeem wordt gebruikt. Hetzelfde geldt wanneer de online conferentie geen 5 maar 75 uur duurt: in dat geval is het efficiënter om 5.000 km te vliegen. <sup id="fnref1:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup></p>
+<h2 id="paradox-van-energie-efficiëntie">Paradox van Energie-efficiëntie</h2>
+<p>Het voordeel van videoconferenties lijkt behoorlijk overtuigend, want vergaderingen van 75 uur zijn weinig gebruikelijk. Maar we hebben het nog niet gehad over het grootste probleem met studies die een voordeel opeisen voor online diensten: ze houden geen rekening met zogenaamde rebound-effecten.</p>
+<p>Niet elke videoconferentie is een substituut voor een fysieke verplaatsing. Een videoconferentie kan ook een telefoongesprek of een e-mail vervangen, en in dat geval gaat het energieverbruik omhoog. Hetzelfde geldt voor online media: niet elke gestreamde film is een substituut voor een DVD. Het gemak van streaming en videocommunicatie in combinatie met de opkomst van draagbare apparaten en draadloos internet leidt tot meer tijd online &ndash; ten nadele van andere activiteiten zoals lezen, de omgeving observeren, of een conversatie voeren.</p>
+<blockquote>
+<p>De vooruitgang in energie-efficiëntie is de drijvende kracht achter het groeiende energieverbruik van het internet</p>
+</blockquote>
+<p>Het energieverbruik per bit informatie die over het internet wordt verstuurd, neemt continu af. Daarom wordt er vaak beweerd dat online activiteiten steeds efficiënter zullen worden. Maar zoals we hebben gezien, neemt tegelijk de bitsnelheid van digitale inhoud toe. Dat komt door het groeiende belang van video in het totale dataverkeer, maar ook omdat de bitsnelheid van de video&rsquo;s zelf blijft stijgen. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Een film op Blu-Ray disk haalt tussen de 25 en 50 GB, vijf tot tien keer meer dan een film op DVD. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> Naarmate internetverbindingen sneller worden, zal het mogelijk worden om dat soort hoogkwalitatieve films te streamen.</p>
+<p>Een sneller en efficiënter internet leidt dus niet tot een lager energieverbruik maar tot films met een hogere kwaliteit &ndash; net zoals de vooruitgang in energie-efficiënte televisies ons geen zuiniger maar grotere televisies bracht. Hetzelfde geldt voor videoconferencing: naarmate de bitsnelheid van de software toeneemt, verkleint ook het voordeel met offline ontmoetingen. <sup id="fnref2:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/vargas-smartphones_dithered.png" alt='Smartphones. Foto: Esther Vargas.' data-original="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/vargas-smartphones_hu8ebed61323a582abd748181847daa687_32223_800x800_fit_q90_h2_box.webp" data-dither="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/vargas-smartphones_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Smartphones. Foto: <a href="https://www.flickr.com/photos/esthervargasc/9657863733/in/photolist-fHr5pX-eghTGo-dgah17-rBuFur-Fmu8N-6prZBn-dKM4XF-aGSRsr-pwsJsG-aGSRaM-5seCHN-wCVXFc-z3FzK6-pSRMiv-qBeo56-pMcwE9-8pJWJV-dMrBxA-BLL8N-8kLCKi-r2tiqT-ycFU7S-9mg3Zz-g4ZN6D-rgjf2s-fw3WLc-cEpcUY-aoCJ5H-oEG1vb-2U2bT-penr48-dgagZ1-dMm3VD-9sVnJf-7XHVjx-goVRFZ-v58Cqf-v58BZq-v58Fyh-vmH4Up-vmH4pg-vn3Xrv-upSDuR-vmH3kT-v58yTW-vn3VJn-vn3Vna-vn42C6-v58Esb-v5gd3v" target="_blank" >Esther Vargas</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De paradox van energie-efficiëntie wordt vaak gepresenteerd als een controversiële stelling. Maar in het geval van computertechnologie is het in ieder geval een ijzeren wet. De paradox manifesteert zich ondubbelzinnig in het feit dat het energieverbruik per bit getransporteerde informatie afneemt terwijl het totale energieverbruik van het internet toeneemt.</p>
+<p>Het effect is al even ondubbelzinnig vast te stellen in de evolutie van microprocessoren. Het elektriciteitsverbruik van de productie van een microchip daalde van 0,028 kWh per MHz in 1995 tot 0,001 kWh per MHz in 2006. <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> Deze fors toegenomen energie-efficiëntie werd echter niet omgezet in zuiniger computers, maar in snellere computers &ndash; dit is de zogenaamde Wet van Moore, die stelt dat de rekenkracht van computers om de twee jaar verdubbelt.</p>
+<p>Kortom, terwijl energie-efficiëntie vrijwel unaniem wordt voorgesteld als een oplossing voor het groeiend energieverbruik van digitale technologie, is het in werkelijkheid de drijvende kracht achter dat toenemende energieverbruik. Toen computers nog waren gebaseerd op vacuümbuizen in plaats van transistoren op een chip (&ldquo;microchips&rdquo; of &ldquo;geïntegreerde circuits&rdquo;), kon een enkele machine 140.000 watt verbruiken. <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup></p>
+<p>De computers van vandaag zijn minstens duizend keer efficiënter, en precies daarom staan ze nu op ieders bureau en zitten ze in ieders broekzak of handtas. Zonder de vooruitgang in energie-efficiëntie hadden de personal computer, de laptop en de smartphone nooit bestaan. Maar het gecombineerde energieverbruik van al die energie-efficiëntere apparaten is natuurlijk vele malen hoger dan het energieverbruik van alle computers met vacuümbuizen. <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<h2 id="sufficiëntie">Sufficiëntie</h2>
+<p>Samenvattend beïnvloedt het internet het energieverbruik op drie niveau&rsquo;s. Het primaire niveau is de directe impact ten gevolge van de productie en het gebruik van alle apparaten die samen de internet-infrastructuur uitmaken. Op een tweede niveau zijn er de indirecte effecten, veroorzaakt door het potentieel van internet om activiteiten te veranderen, zoals media-consumptie of fysieke reizen. Zoals we hebben gezien, kan dat leiden tot een hoger of lager energieverbruik van deze activiteiten.</p>
+<p>Op een derde niveau beïnvloedt het internet consumptiepatronen, brengt het technologische en sociale veranderingen met zich mee, en draagt het bij tot de economische groei, wat op zijn beurt extra energieverbruik introduceert. <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup><sup id="fnref1:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> De hoogste niveau&rsquo;s zijn belangrijker dan de directe impact, maar er wordt nauwelijks aandacht aan besteed. <sup id="fnref2:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<p>Dat het internet in bepaalde gevallen energie kan besparen, valt niet te ontkennen. Het staat echter als een paal boven water dat het algemene effect een steeds hoger energieverbruik is. <sup id="fnref1:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> Als we niets doen, zal deze trend zich onverminderd verder zetten. Er staat geen enkele rem op de bitsnelheid van digitale data. In de coulissen wordt al aan 3D-films gewerkt, met databestanden van 150 GB, en aan holografische films, met databestanden van 1.000 GB. <sup id="fnref1:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<p>Er staat ook geen rem op de bitsnelheid van internetverbindingen. Er wordt al volop gesleuteld aan 5G draadloos internet, dat nog sneller is dan 4G internet maar ook meer energie verbruikt. Er staat evenmin een rem op het aantal internetverbindingen. Het zogenaamde &ldquo;internet of things&rdquo; voorziet dat straks alle apparaten met het internet zullen communiceren. <sup id="fnref3:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref2:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> En laat ons daarbij niet vergeten dat momenteel slechts 40% van de wereldbevolking toegang heeft tot internet. <sup id="fnref2:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<blockquote>
+<p>Er staat geen enkele rem op het stijgende energieverbruik van het internet, terwijl dat bij de meeste andere technologie wel het geval is</p>
+</blockquote>
+<p>Kortom, er zijn geen grenzen aan de groei wanneer het om internet gaat, tenzij dan de beschikbare energiereserves. Dat maakt het internet vrij uniek. Bijvoorbeeld in het geval van auto&rsquo;s zijn er extra beperkingen die verhinderen dat het energieverbruik kan blijven stijgen. Nog grotere auto&rsquo;s zijn simpelweg niet praktisch, omdat we dan de volledige weg-en parkeerinfrastructuur zouden moeten aanpassen. Nog snellere auto&rsquo;s hebben evenmin zin, want we hebben maximum snelheden ingevoerd uit veiligheidsoverwegingen.</p>
+<p>Het resultaat is dat het energieverbruik van auto&rsquo;s (per persoon) min of meer is gestabiliseerd. Het energieverbruik daalt niet, want de vooruitgang in energie-efficiëntie wordt omgezet in extra luxe, zoals airco. Maar het stijgt ook niet, omwille van praktische beperkingen.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/smartphones-on-train_dithered.png" alt='Zuinig reizen met de trein &amp;ndash; maar intussen draait de internet-infrastructuur op volle toeren. Foto: Nicolas Nova.' data-original="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/smartphones-on-train_hu3d03a01dcc18bc5be0e67db3d8d209a6_66878_800x800_fit_q90_h2_box.webp" data-dither="/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/smartphones-on-train_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zuinig reizen met de trein &ndash; maar intussen draait de internet-infrastructuur op volle toeren.  Foto: <a href="https://www.flickr.com/photos/nnova/15143063700/in/photolist-p59agb-dwF3pv-2GGGE-poW7dg-oJC1hX-pp28nG-bDsVHf-9mj8t1-a8wg5A-pFuTHh-rS3yE3-fEhJrB-abN4Q4-pFqB2x-gWt4A5-9U9Jnb-oJC3q4-s9zN1B-rS3xK7-eBtcSf-rS4VFG-poyfHB-uUeoFj-fvT5P7-fcEmHq-9piapU-oSrEyH-9bnK7g-idmyD4-byfGwH-efwgCH-dehe2h-eoxTxF-poW9ii-rG5gcX-qKaKcC-aeuiYT-pekyub-oWTfdz-fRVSdK-wzEoqy-7WHVGZ-dzjVLJ-kDk4xo-oTn4h7-egeb1W-drPu59-ktjEnW-jRwutZ-a9LP1n" target="_blank" >Nicolas Nova</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Je zou kunnen stellen dat auto&rsquo;s een status van &ldquo;sufficiëntie&rdquo; hebben bereikt. Een sufficiënt systeem kan alleen maar de output verder verhogen door het verbeteren van de energie-efficiëntie. <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> Alle toeters en bellen die nu aan auto&rsquo;s worden toegevoegd, zijn louter het gevolg van de vooruitgang in energie-efficiëntie.</p>
+<p>Een gelijkaardig effect treedt op met smartphones, tenminste wat betreft het elektriciteitsverbruik van het apparaat zelf. Het energieverbruik van een smartphone wordt beperkt door de de batterij. Die moet compact blijven en het apparaat lang genoeg doen werken tussen de herlaadbeurten door. Het gevolg is dat het energieverbruik per apparaat min of meer stabiel is. De prestaties van smartphones nemen toe binnen de grenzen van de vooruitgang in energie-efficiëntie (en in mindere mate door de vooruitgang van de batterijen zelf). <sup id="fnref1:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup></p>
+<h2 id="snelheidslimiet-voor-internet">Snelheidslimiet voor internet?</h2>
+<p>Energie-efficiëntie kan dus een oplossing zijn als ze wordt gecombineerd met sufficiëntie. Zoals we hebben gezien, bevindt het internet zich niet in een staat van sufficiëntie. Ondanks de spectaculaire toename in energie-efficiëntie, blijft het energieverbruik van het netwerk fors stijgen. Online zijn snelheid en omvang niet onpraktisch of gevaarlijk. Batterijen beperken het energieverbruik van mobiele computers maar niet van alle andere apparatuur.</p>
+<p>Het energieverbruik van internet kan alleen maar stoppen met groeien als de energiebronnen opraken of &ndash; wellicht verstandiger &ndash; als we een zelfgekozen limiet introduceren. Deze strategie passen we ook elders toe. We proberen mensen aan te bewegen om minder met de auto te reizen, we stimuleren het gebruik van de fiets, en we zetten mensen aan om dichter bij hun werk te gaan wonen. We voeren campagnes om de thermostaat lager te zetten en zich beter te kleden.</p>
+<p>Het terugschroeven van de vraag naar internet ligt zo mogelijk nog gevoeliger dan het terugschroeven van de vraag naar transport of verwarming. Bovendien is het niet eenvoudig te realiseren. Want wat gaan we begrenzen? Stellen we downloadlimieten in voor internetgebruikers? Beperken we het aantal e-mails dat iemand mag versturen? Maken we van het internet opnieuw een tekstmedium, zonder video&rsquo;s? Of stellen we een snelheidslimiet in voor internetverbingen, analoog aan de snelheidslimieten voor auto&rsquo;s?</p>
+<blockquote>
+<p>Een limiet instellen betekent niet dat technologische vooruitgang en nieuwe toepassingen onmogelijk worden</p>
+</blockquote>
+<p>Deze praktische uitdagingen nemen niet weg dat het terugschroeven van de datavraag de enige manier is om het groeiende energieverbruik van internet een halt toe te roepen. Hoe we dat precies zouden organiseren, is voer voor een ander artikel. Wel is het belangrijk alvast op te merken dat het introduceren van een limiet helemaal niet impliceert dat technologische vooruitgang en nieuwe applicaties onmogelijk worden. De voortdurende vooruitgang in energie-efficiëntie zal steeds opnieuw ruimte bieden voor nieuwe ontwikkelingen en een vlotter internet. Het enige verschil is dat het energieverbruik een rol zal spelen in de beoordeling van de levensvatbaarheid van een toepassing, net zoals dat nu het geval is met auto&rsquo;s en mobiele apparaten.</p>
+<p>Het opleggen van een limiet zou ook betekenen dat een deel van de online activiteiten opnieuw naar de offline wereld verhuist. Er zijn bijvoorbeeld makkelijk veel energiezuiniger alternatieven te bedenken voor het streamen van video of muziek, zoals bibliotheken met uitgebreide collecties CD&rsquo;s en DVD&rsquo;s. Samen met maatregelen die auto&rsquo;s uit de steden en dorpskernen weren, zodat mensen met het openbaar vervoer of de fiets naar de bibliotheek gaan, levert dat een zuinige en handige service op.</p>
+<p>Of mensen bereid zijn het eindeloze streamen van muziek of video op te geven, is momenteel weinig waarschijnlijk. In onze maatschappij wordt het in vraag stellen van technologische &ldquo;vooruitgang&rdquo; als heiligschennis beschouwd. Ook al betekent het in dit voorbeeld &ndash; CD&rsquo;s en DVD&rsquo;s uitlenen via de bibliotheek &ndash; dat we maar een paar jaar in de tijd zouden teruggaan. Maar die houding kan snel veranderen als de toevoer van fossiele brandstoffen minder vanzelfsprekend zou worden als vandaag.</p>
+<p>In volgende artikels onderzoeken we de lowtech informatienetwerken die worden ontwikkeld in ontwikkelingslanden, waar sufficiëntie door een gebrekkige energie-infrastructuur in de samenleving zit ingebakken. We kijken ook naar het delen van WiFi-routers in steden en het opzetten van gemeenschapsnetwerken in rijkere landen. Dit soort netwerken biedt een democratischer en veel energiezuiniger alternatief voor digitale communicatie in ruil voor een aangepast gebruik van het internet.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Toon</h5>
+	<p>Zeer relevant en volledig artikel, maar net daarom een kleine correctie bij de stelling dat twee online artikels lezen dubbel zoveel energie zou verbruiken als één online artikel lezen. Zolang het op dezelfde website is, klopt dat in de meeste gevallen niet. Reeds gedownloade bestanden die niet specifiek zijn voor het artikel (stylesheet, logo&rsquo;s, sommige andere afbeeldingen, javascript, etc) worden meestal lokaal opgeslagen en niet nog eens opgevraagd via het netwerk. Het tweede en volgende artikel zal dus minder energie vergen. Het energieverbruik zal tussen het tweede en derde artikel wel nog amper verschillen.</p>
+<p>Wat me ook opvalt is dat nergens de enorme kost van online advertenties wordt vermeld, op vlak van data- (en dus energie-)verbruik. Het probleem is dermate dat veel gewone gebruikers last hebben van tragere en slecht presterende sites, leeglopende batterijen, etc. en dus adblockers installeren. Enkele maanden geleden bleek dat een pagina op The Verge maar liefst 8MB zwaar is, wat hallucinant is.</p>
+<p>Hoe dat energieverbruik naar beneden kan, dat zal wellicht enkel lukken door het duurder te maken en -net als vervuiling- de kost bij de juiste partij(en) te leggen zodat de juiste feedbackeffecten ontstaan om het terug te dringen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>joris</h5>
+	<p>Zoals steeds een zeer interessant artikel, maar pas op met , en . in de duizendtallen. Dat scheelt een factor 3. (quote: &ldquo;Dit onderzoek [4] concludeert dat het internet 1,815 TWh elektriciteit verbruikte in 2012. Dat komt overeen met 8% van de globale elektriciteitsproductie in hetzelfde jaar (22.740 TWh)&ldquo;end quote).</p>
+
+</div>
+
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>@ Marco</p>
+<p>Als jij over een energiebron beschikt die oneindig beschikbaar is, geen vervuiling oplevert, geen oorlogen aan de gang houdt en geen broeikasgassen produceert, dan mag je het zeggen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>tibi</h5>
+	<p>2 dingen:</p>
+<ol>
+<li>
+<p>als internet een dienst vervangt die meer energie kostte dan is er ondanks een stijging bij internet een netto daling van de totale energie verbruik.</p>
+</li>
+<li>
+<p>in wezen is er geen energie te kort op aarde. er is alleen een verkeerde manier van deze te genereren/opvangen.</p>
+</li>
+</ol>
+<p>ik heb in mijn woning zonnepanelen gebruikt ipv glasplaten, golfplaten en andere platen. hierdoor produceer ik meer energie dan ik kan gebruiken.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nico</h5>
+	<p>Interresant artikel. Een over het hoofd geziene factor van digitalisering: Voor de aanmaak van offline media zoals kranten en optische dragers (DVD, bluray,..) zal men steeds te veel exemplaren produceren en er is ook de afvalverwerking na gebruik.</p>
+<p>Bij een reis worden ook meer resources aangesproken dan bvb alleen het vliegtuig: transport naar het vliegtuig, verwarming van de gebouwen die het transport voorzien, voorzieningen voor verblijf (hotel), reiziger is een prooi voor de reclame-industrie (gulzige reclamepanelen), &hellip; .</p>
+<p>Zoals Toon reeds heeft gereageerd kan netwerkverkeer worden vermeden door lokaal te bufferen, dit kan ook met Video On Demand, maar ik weet niet of dit ook effectief wordt toegepast.</p>
+<p>Wat me wel opvalt is dat veel digitale decoders &ldquo;voor het gemak&rdquo; niet worden uitgeschakeld en constant streamen. Veel mensen van de oudere generatie hebben te weinig kennis over de digitale wereld en zijn al blij dat ze TV kunnen kijken.</p>
+<p>Het internet wordt steeds meer gebruikt om alles van de gebruikers te loggen. Wat voor energieprijskaartje zou daaraan vasthangen?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jan</h5>
+	<p>Dank je voor dit interessante artikel.</p>
+<p>Hoe pakken we dit aan? Zoals je zelf aangeeft is er nu geen draagvlak voor een snelheidslimiet. Ik denk dat we in de richting moeten kijken van een correctere (veel hogere) energiekost, met 4 belangrijke elementen:</p>
+<p>a/ prioriteit: afbouw van &ldquo;vuile subsidies&rdquo;, subsidies voor fossiele brandstoffen. Het IMF geeft een cijfer van 1900 miljard dollar/jaar globaal.</p>
+<p>b/ correcte internalisering van externe kosten: in de eerste plaats een stabiele en hoge prijs voor CO2 (ter vervanging van het falende ETS systeem in de EU), maar ook voor kernenergie (de huidige ruime vrijstelling van juridische aansprakelijkheid bij een kernongeval etc)</p>
+<p>c/ als de vorige zaken toegepast worden, zullen energieprijzen aanzienlijk stijgen en zijn ook minder subsidies nodig voor hernieuwbare energie (die op zich ook de elektriciteitsprijzen op de markt doen dalen). De afbouw van subsidies voor hernieuwbare energie doet dus de elektriciteitsprijzen stijgen.</p>
+<p>d/ door hogere energieprijzen sluiten de minst economische (en veelal de meest vervuilende) fossiele centrales en worden er vooral geen nieuwe gebouwd (te hoge kapitaalskost) waardoor het huidige overaanbod op de Europese elektriciteitsmarkten afneemt en de prijzen verder stijgen.</p>
+<p>Dit geeft dan aanzienlijk hogere elektriciteitsprijzen. Om een idee te geven: de gemiddelde prijzen op de day-ahead markt in de EU variëren vandaag tussen 30€/MWh (Duitsland)- 43€/MWh (B) en 55€/MWh (UK). Deze prijzen zijn onhoudbaar laag, in het bijzonder in Duitsland, waar de prijzen gedrukt worden door een overaanbod tgv de lage marginale kost van vnl bruinkool (marginale kost slechts ca 18€/MWh) gecombineerd met de sterke groei van hernieuwbare energie. Een correcte prijs voor elektriciteit ligt ruw geschat dubbel zo hoog dan de prijzen vandaag.</p>
+<p>Als Google het dubbele moet betalen voor zijn elektriciteit zal het nog meer in hernieuwbare energie investeren (wegens competitief). Providers zullen hogere kosten aanrekenen, en misschien meer flexibele contracten aanbieden (gebaseerd op volume) ipv &ldquo;onbeperkt surfen&rdquo;. Ik beweer niet dat dit alles zal oplossen, maar het zou al een belangrijk verschil maken. Dan valt nog te bekijken hoe elastisch de vraag is. Het is best mogelijk dat heel wat mensen bereid zijn om (veel) meer te betalen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>sietz leeflang</h5>
+	<p>&lsquo;Een snelheidslimiet voor internet&rsquo; is een nieuw voorbeeld van een artikel waardoor lowtechmagazine zich kwalitatief zo sterk onderscheidt van het gros der media als het gaat over techniek en onze omgang er mee.</p>
+<p>Het is een magistraal artikel, maar zal dat niet in de ogen zijn van de meeste vooral jongere internetgebruikers. Het onderwerp dat Kris dit keer behandelt ligt nog behoorlijk gevoelig. Het betreft een nieuw verworven &lsquo;gemakzone&rsquo; van ons moderne leven die net als ons energieverbruik almaar groter wordt, aangewakkerd door kapitaal en commercie en mogelijk gemaakt door vervormd economisch denken.</p>
+<p>Het is voorspelbaar dat veel mensen kritische beschouwingen over de grenzen van toelaatbaarheid van ons hedendaagse op consumptie gerichte handelen liever mijden. Dit geldt blijkbaar zelfs ook voor de lezers van lowtechmagazine: er zijn opvallend weinig reacties nu Kris het veel geprezen internet op de korrel neemt.</p>
+<p>Het is juist de kwaliteit van lowtechmagazine om zo nuchter mogelijk de grenzen van de ons opgelegde en zich steeds sneller voltrekkende technische ontwikkelingen te verkennen. Het zal velen van ons niet ontgaan, dat die grenzen op diverse gebieden nu beangstigend snel naderbij komen.</p>
+<p>De crisis waarin de financiële sector ons de afgelopen jaren heeft gedompeld dwingt zelfs de conservatiefste neoliberalen tot bezinning. Het zelfde valt te zeggen over de enorm toegenomen macht van het multinationale bedrijfsleven dat regeringen steeds verder in het nauw brengt maar nu eindelijk tegenkrachten op continentale schaal mobiliseert.</p>
+<p>Wat niet meer te keren lijkt zijn de zich steeds heviger manifesterende klimaatsveranderingen. Maar dit geldt gelukkig niet voor de toegenomen macht van de multinationals, want dan hebben we het over mensenwerk en daar laat zich nu zowaar een andere natuurwet gelden die gaat over schaal-en beheersbaarheidsgrootte.</p>
+<p>Kris noemt terecht ook de auto-industrie en bijna gelijktijdig dezer dagen bewijst wereldproducent Volkswagen hoe desastreus voor een megabedrijf een te laat ontdekte beleidsfout kan zijn. Tegen een andere grens liep dezer dagen wereldbedrijf Shell aan: de fossiele brandstoffen raken op, te beginnen in arctica maar weldra ook elders.</p>
+<p>Dat mag voor ons een reden zijn voor optimisme: alternatieven zullen ook hier uitkomst bieden en lowtech magazine zal ons er over berichten!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mathias</h5>
+	<p>Je zou een snelheidsbegrenzing kunnen invoeren in de vorm van een belasting/taks. Gewoon op de factuur net zoals de huidige taksen op elektriciteit, water, gas,&hellip;</p>
+<p>Mogelijk kan dit ook een aanzet geven tot wat meer creativiteit op het gebied van programmeren en komen ze tot nieuwe innovaties.</p>
+<p>Nu is de hardware zoals ramgeheugen en processoren in feite te goedkoop en is het eenvoudiger om wat meer power bij te steken dan om wat beter na te denken over de software.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Koen Vandewalle</h5>
+	<p>Hier in mijn huis zit het jonge volkje, tussen 5 en 15 jaar, hele godganse dagen filmpjes te bekijken en videoconferencing te doen met al diegene die ze zopas heel de dag op school gezien hebben.</p>
+<p>Dat heeft zowel voordelen als nadelen: de jongste (5 jaar) kan al héél vlot lezen, en begint nu ook Engels te leren. De oudste vergeet soms haar huiswerk te maken wegens te druk.</p>
+<p>Overigens zijn ze zonder enige uitzondering allemaal complete computer-analfabeten. Ik wil zeggen: ze hebben geen flauw benul van wat ze van elektronica, software en data gebruiken, laat staan van welke energie-impact hun gedrag heeft. Mocht ik ooit in een opvoedkundige waan verkeren en hen dit artikel doorsturen via hun Facebook, dan vrees ik dat ze het na één minuut wegklikken wegens &ldquo;geen filmpjes, en saaie grijze letters&rdquo;.</p>
+<p>Dus ook hier zal vooral de onwetendheid en ongeïnteresseerdheid van het grote publiek de dooddoener zijn, welke onwetendheid magistraal ge-exploiteerd wordt en zal blijven worden.</p>
+<p>De enige die volgens mij kan ingrijpen is de overheid, die verkwisting van voorzieningen aan banden moet leggen.</p>
+<p>Ik wil niet terug naar de jaren 80 en 90, met 5 nederlandstalige tv-zenders, 5 radiozenders, en één weekblad (voor de tv-programma&rsquo;s) en 3 bib-boeken als enige informatiebron.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Renaat</h5>
+	<p>&ldquo;Ik wil niet terug naar de jaren 80 en 90, met 5 nederlandstalige tv-zenders, 5 radiozenders, en één weekblad (voor de tv-programma&rsquo;s) en 3 bib-boeken als enige informatiebron.&rdquo;</p>
+<p>In veel gevallen merk ik bij reacties op zo&rsquo;n artikels het gebruik van valse dilemma&rsquo;s. Het is volgens mij vaak geen kwestie van kiezen tussen enkele decennia terug gaan in de tijd of op de huidige manier verder doen.</p>
+<p>Maar een nog belangrijkere vraag is of de mensheid zoveel gelukkiger is geworden van het (over)aanbod van informatie. Was men minder gelukkig toen er slechts 5 Nederlandse tv-zenders en radiozenders waren?</p>
+<p>Hoewel er op het www bijzonder veel interessante informatie te vinden is (zoals deze blog) maakt meer informatie niet noodzakelijk gelukkiger en verdrinkt deze waardevolle informatie vaak in een zee van (vaak moeilijk te negeren) onzin. De kwantiteit is nog veel sterker toegenomen dan de beschikbaarheid van kwaliteit. Het kan zelf bijzonder moeilijk zijn om tussen al de rommel wat kwaliteit te vinden.</p>
+<p>Dat is geen pleidooi voor het afschaffen van het internet, maar 90% van wat er op het www staat zou van mijn onmiddellijk de vuilbak in mogen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Marco</h5>
+	<p>Kan de auteur wellicht eerst eens uitleggen wat het probleem precies is? Als ik het artikel heel kort samenvat is dit wat er staat: &ldquo;internet verbruikt steeds meer energie, dat moeten we tegehouden!&rdquo;</p>
+<p>Maar: wat is eigenlijk het probleem? Waarom mag het internet geen energie verbruiken? Bij alles wat we als mensheid doen wordt energie verbruikt. Nogal wiedes dat óók het internet energie verbruikt.</p>
+<p>Deze vraag wordt totaal niet beantwoord, en zolang deze vraag niet beantwoord wordt is dit hele artikel eigenlijk zinloos.</p>
+<p>Daarom vind ik het helaas een matig artikel. Het slaat nergens op nu.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Zie onder andere: &ldquo;<a href="https://www.tech-pundit.com/wp-content/uploads/2013/07/Cloud_Begins_With_Coal.pdf" target="_blank" >The cloud begins with coal: big data, big networks, big infrastructure, and big power</a>&rdquo; (PDF), Mark P. Mills, National Mining Association / American Coalition for Clean Coal Electricity, augustus 2013&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>&ldquo;<a href="https://eprints.lancs.ac.uk/id/eprint/72677/4/paper277.pdf" target="_blank" >Demand in my pocket: mobile devices and the data connectivity marshalled in support of everyday practice</a>&rdquo; (PDF), Caolynne Lord, Lancaster University, april 2015&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>&ldquo;<a href="http://publicationslist.org/data/lorenz.hilty/ref-229/2014_Coroama_Schien_Preist_Hilty_Energy_Intensity_Internet_Home_Access.pdf" target="_blank" >The energy intensity of the internet: home and access networks</a>&rdquo; (PDF), Vlad Coroama, 2014&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>&ldquo;<a href="http://vmserver14.nuigalway.ie/xmlui/handle/10379/3563" target="_blank" >Emerging trends in electricity consumption for consumer ICT</a>&rdquo;, Peter Corcoran, 2013&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>&ldquo;<a href="https://www.iea.org/publications/freepublications/publication/Electricitytrends.pdf" target="_blank" >Electricity Information</a>&rdquo;, IEA Statistics, 2015&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>&ldquo;<a href="http://www.energies-renouvelables.org/observ-er/html/inventaire/Eng/conclusion.asp" target="_blank" >Worldwide electricity production from renewable sources</a>&rdquo;, geraadpleegd op 16/9/2015.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>&ldquo;<a href="https://www.itu.int/en/ITU-D/Statistics/Documents/publications/mis2014/MIS2014_without_Annex_4.pdf" target="_blank" >Measuring the Information Society Report 2014</a>&rdquo; (PDF), International Telecommunication Union (ITU), 2014.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>&ldquo;<a href="https://www.energystar.gov/index.cfm?c=small_network_equipment.pr_crit_small_network_equipment" target="_blank" >Small network equipment key product criteria</a>&rdquo;, Energy Star, geraadpleegd op 14/9/2015.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>&ldquo;<a href="http://www.cs.columbia.edu/~lierranli/coms6998-7Spring2014/papers/rrclte_mobisys2012.pdf" target="_blank" >A close examination of performance and power characteristics of 4G LTE networks</a>&rdquo; (PDF), Junxian Huang, June 2012. Zie ook [4] en &ldquo;<a href="http://ciir-publications.cs.umass.edu/getpdf.php?id=904" target="_blank" >Energy consumption in mobile phones: a measurement study and implications for network applications</a>&rdquo; (PDF), Niranjan Balasubramanian, 2009&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>&ldquo;<a href="https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white_paper_c11-520862.html" target="_blank" >Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2014-2019</a>&rdquo;, CISCO, februari 2015.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>&ldquo;<a href="http://epubs.surrey.ac.uk/769626/" target="_blank" >Are we sitting comfortably? Domestic imaginaries, laptop practices, and energy use</a>&rdquo;. Justin Spinney, 2012&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>&ldquo;Cisco Visual Networking Index 2012-2017&rdquo;, Cisco, 2013&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>&ldquo;<a href="https://www.itu.int/en/ITU-D/Statistics/Documents/publications/mis2013/MIS2013_without_Annex_4.pdf" target="_blank" >Measuring the information society Report 2013</a>&rdquo;, International Telecommunication Union (ITU), 2013.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>&ldquo;<a href="https://www.itu.int/net/pressoffice/press_releases/2015/25.aspx#.Vgg04ZfCc8J" target="_blank" >Deadline reached for switchover from analogue to digital TV for 119 countries in Europe, Africa, Middle East and Central Asia</a>&rdquo;, International Telecommunication Union (ITU), June 2015&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>&ldquo;<a href="http://www1.icsi.berkeley.edu/~barath/papers/emergy-hotnets11.pdf" target="_blank" >The energy and emergy of the internet</a>&rdquo; (PDF), Barath Raghavan, November 2011&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>&ldquo;<a href="https://www.sciencedirect.com/science/article/pii/S0140366414000620" target="_blank" >Comparison of the energy, carbon and time costs of videoconferencing and in-person meetings</a>&rdquo;, Dennis Ong, 2014&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>&ldquo;<a href="http://iopscience.iop.org/article/10.1088/1748-9326/9/5/054007;jsessionid=715911A0C3BE2A2EAC4DE63F2ABF6E64.c1" target="_blank" >The energy and greenhouse-gas implications of internet video streaming in the united states</a>&rdquo;, 2014&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>&ldquo;<a href="http://www.lowtechmagazine.com/2008/01/information-dam.html" target="_blank" >Information Damages the Environment</a>&rdquo;, Low-tech Magazine, januari 2008&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>&ldquo;<a href="http://none.cs.umass.edu/papers/pdf/green07q-seetharam.pdf?_ga=2.126270541.1318211255.1619602158-1712530857.1615736110" target="_blank" >Shipping to streaming: is this shift green?</a>&rdquo;, Anand Seetharam, 2010&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>&ldquo;<a href="https://www.nature.com/nature/journal/v479/n7373/full/nature10682.html" target="_blank" >Environmental effects of informantion and communications technologies</a>&rdquo;, Eric Williams, Nature, 17 november 2011&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>&ldquo;<a href="http://ethw.org/Main_Page" target="_blank" >IEEE Global History Network</a>&rdquo;&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>&ldquo;Informatie: een energievreter in opkomst&rdquo;, Kris De Decker, in &ldquo;Energie in 20130, Maatschappelijke keuzes van nu, Jurgen Ganzevles, Rathenau Instituut, 2011.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>&ldquo;<a href="https://www.amazon.de/gp/product/3837019705/" target="_blank" >Information Technology and Sustainability: essays on the relationship between ICT and sustainable development</a>&rdquo;, Lorenz M. Hilty, 2008&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>&ldquo;<a href="http://publicationslist.org/data/lorenz.hilty/ref-263/2015_Hilty_Limits.pdf" target="_blank" >Computing efficiency, sufficiency, and self-suffiency: a model for sustainability?</a>&rdquo; (PDF), Lorenz Hilty, LIMITS 2015 conference, 2015&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="/nl/tags/ict/" class="">ICT</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/images/dithers/LTM-boek-nederlandstalig_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine op papier, in het Nederlands</h3>
+		<p class="index-summary">De 18 nieuwste artikels van Lowtech Magazine zijn nu verkrijgbaar in boekvorm – het eerste volume in een reeks.</p>
+		<time class="published">2 december 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="/nl/2020/12/how-and-why-i-stopped-buying-new-laptops/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Waarom ik geen nieuwe laptops meer koop</h3>
+		<p class="index-summary">Als freelance journalist heb ik altijd geloofd dat ik regelmatig een nieuwe laptop moet kopen. Maar oudere machines bieden meer kwaliteit voor veel minder geld.</p>
+		<time class="published">20 december 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="/nl/2020/11/lowtech-magazine-is-verhuisd/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2020/11/lowtech-magazine-is-verhuisd/images/dithers/system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine is verhuisd</h3>
+		<p class="index-summary">Dit is de nieuwe website van Lowtech Magazine. De &ldquo;oude&rdquo; website &ndash; <a href="https://www.lowtechmagazine.be" target="_blank" >www.lowtechmagazine.be</a> &ndash; blijft als archief bestaan maar wordt niet langer geactualiseerd.</p>
+		<time class="published">13 november 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/nl/2018/09/how-to-build-a-low-tech-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Hoe maak je een lowtech website?</h3>
+		<p class="index-summary">Het nieuwe Lowtech Magazine draait op 100% zonne-energie en gaat off-line bij aanhoudend slecht weer.</p>
+		<time class="published">24 september 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="nl/about">
+  Over ons
+</a>
+    <a href="nl/power">
+  Power
+</a>
+    <a href="nl/about/team">
+  Colophon
+</a>
+    <a href="nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

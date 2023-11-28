@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Neuerstellung der solarbetriebenen Website | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Neuerstellung der solarbetriebenen Website" />
+<meta name="twitter:title" content="Neuerstellung der solarbetriebenen Website"/>
+
+<meta property="og:description" content="Du blickst auf eine vollständig neu entwickelte Version der solarbetriebenen Website, die es möglich macht, die Dithering-Kompression auszuschalten und die Originalbilder anzuschauen." />
+
+<meta name="twitter:description" content="Du blickst auf eine vollständig neu entwickelte Version der solarbetriebenen Website, die es möglich macht, die Dithering-Kompression auszuschalten und die Originalbilder anzuschauen."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/de/2023/06/rebuilding-a-solar-powered-website/" />
+
+
+
+<meta property="og:image" itemprop="image" content="/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" />
+<meta property="og:image:secure_url" content="/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-13T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+<meta property="article:author" content="Marie Otsuka" />
+<meta name="citation_author" content="Marie Otsuka">
+
+<meta property="article:author" content="Roel Roscam Abbing" />
+<meta name="citation_author" content="Roel Roscam Abbing">
+
+<meta property="article:author" content="Marie Verdeil" />
+<meta name="citation_author" content="Marie Verdeil">
+
+
+<meta property="article:tag" content="ICT" />
+
+</head>
+<body id="neuerstellung-der-solarbetriebenen-website">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="de/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="de/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="de/power">Diese Website ist solarbetrieben und geht daher manchmal offline.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" de/about/ " data-nav="about" >
+                <span>Über</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" de/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Lösungen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" de/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-Tech Probleme</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" de/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergessene Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" de/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lesen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" de/archives/ " data-nav="archive" >
+                <span>Archiv</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" de/donate/ " data-nav="donate" >
+                <span>Spenden</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Neuerstellung der solarbetriebenen Website</h1>
+
+				<p class="summary">
+					Du blickst auf eine vollständig neu entwickelte Version der solarbetriebenen Website, die es möglich macht, die Dithering-Kompression auszuschalten und die Originalbilder anzuschauen.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">13. Juni 2023</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Von</span>
+							
+									<span class="author"><a href="/de/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+									<span class="author"><a href="/de/authors/marie-otsuka/"> Marie Otsuka</a></span>
+							
+									<span class="author"><a href="/de/authors/roel-roscam-abbing/"> Roel Roscam Abbing</a></span>
+							
+									<span class="author"><a href="/de/authors/marie-verdeil/">Marie Verdeil</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Übersetzt von</span>
+						
+							<span class="author"><a href="/de/translators/erhard-maria-klein/">Erhard Maria Klein</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Übersetzungen</span>
+						
+							<a href="/2023/06/rebuilding-a-solar-powered-website/">en</a>
+						
+							<a href="/fr/2023/06/rebuilding-a-solar-powered-website/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" alt='Ein Screenshot der Markdown-Datei von dieser Seite.' data-original="/de/2023/06/rebuilding-a-solar-powered-website/images/solar-hugo-screenshot_hu8c340b07e6b745bcd1d3b59be3f17d61_660221_800x800_fit_q90_h2_box_3.webp" data-dither="/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ein Screenshot der Markdown-Datei von dieser Seite.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In den letzten Monaten haben wir daran gearbeitet, die solarbetriebene Website von einem statischen Website-Generator (Pelican) auf einen anderen (Hugo) umzustellen. Viele Leser werden die Änderungen nicht sofort bemerken, da wir keine größeren Anpassungen am Design vorgenommen haben. Dennoch hat uns die neue Plattform ermöglicht, auf Grundlage des Feedbacks, das wir im Laufe der Jahre erhalten haben, einige Probleme anzugehen.</p>
+<p>Die neue Solar-Website wurde von <a href="https://motsuka.com" target="_blank" >Marie Otsuka</a> und <a href="https://roelof.info" target="_blank" >Roel Roscam Abbing</a> entworfen, den gleichen Personen, die auch hinter dem ersten Solar-Design standen. <a href="https://verdeil.net" target="_blank" >Marie Verdeil</a> unterstützte den gesamten Prozess und koordinierte die Migration der Website.</p>
+<h2 id="umstellung-auf-eine-neue-plattform">Umstellung auf eine neue Plattform</h2>
+<p>Die ursprüngliche Solar-Website, <a href="/de/2018/09/how-to-build-a-low-tech-website/" >die 2018 veröffentlicht wurde</a>, lief auf einem statischen Website-Generator namens <a href="https://getpelican.com" target="_blank" >Pelican</a>. Obwohl dies eine gute Wahl für relativ kleine Websites ist, ist die solarbetriebene Version von Low-tech Magazine im Laufe der Zeit erheblich gewachsen. Anfangs enthielt die Website nur eine Auswahl englischsprachiger  Artikel. Im Laufe der Zeit wurde sie jedoch erweitert, um nicht nur mehr englischsprachige Artikel, sondern auch Übersetzungen in fünf weiteren Sprachen einzubeziehen. Das Veröffentlichen von Artikeln und das Einpflegen von Änderungen auf einer so großen Website wurde zunehmend zu einem umständlichen Prozess. Zum Beispiel dauerte es mehr als eine Stunde, um die Website bei Änderungen neu zu generieren, selbst wenn wir nur einen Kommentar hinzugefügt hatten.</p>
+<p><a href="https://gohugo.io" target="_blank" >Hugo</a> ist ein statischer Website-Generator, der in einer schnelleren Programmiersprache geschrieben ist. In Pelican kamen viele der Funktionen, die wir für die Website benötigten (wie die Unterstützung von mehreren Sprachvarianten und Bildkompression) aus Plugins unterschiedlicher Qualität. Dabei sind wir im Laufe der Zeit an Grenzen gestoßen. Bei Hugo sind diese Anforderungen bereits als Grundfunktionen abgedeckt. Durch den Wechsel zu Hugo konnten wir die Generierungszeit auf dem Server von über einer Stunde auf etwa zwölf Minuten reduzieren. Auf einem modernen Laptop liegt der Unterschied zwischen mehreren Minuten und mehreren Sekunden.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Abgesehen von schnelleren Website-Builds ermöglicht Hugo eine bessere Organisation der Inhalte und ist flexibler bei der Erzeugung von Übersichtseiten. Dies ermöglichte uns zum Beispiel, Seiten zu erstellen, auf denen die verschiedenen <a href="/de/contributors/" >Mitwirkenden und Übersetzer*innen</a> des Magazins hervorgehoben werden. Die Migration aller Inhalte von Pelican nach Hugo war jedoch ziemlich zeitaufwändig. Dies lag an subtilen Unterschieden im Format der Metadaten sowie an unserer Implementierung, die eigene Shortcodes erfordert, um Bilder, Bildunterschriften und Links anzeigen zu können. Wir haben die Mehrheit der Artikel von einer Plattform auf die andere mit einem eigenen Skript konvertiert, aber es dauerte weitere zwei Monate, um Fehler bei der automatischen Migration zu erkennen und manuell zu beheben.</p>
+<h2 id="designänderungen">Designänderungen</h2>
+<h3 id="batterieanzeige">Batterieanzeige</h3>
+<p>Der Relaunch ermöglichte es uns, zwei Designprobleme anzugehen, die in den letzten Jahren regelmäßig im Feedback aufgetaucht sind. Das erste betrifft die Batterieanzeige, die den Ladezustand unseres autarken Webservers durchscheinen lässt. Einige Leute fanden, dass sie den Lesevorgang störte, besonders wenn sie sich auf halber Höhe befand. Die Batterieanzeige bleibt ein grundlegender Bestandteil unseres Designs und macht die materielle Infrastruktur sichtbar, die die Website trägt. Allerdings befindet sie sich nun oben im Dokument und bewegt sich nicht mehr mit, während man in einem Artikel nach unten scrollt. So wird die Lesbarkeit des Textes nicht mehr beeinträchtigt.</p>
+<h3 id="bilder">Bilder</h3>
+<p>Die zweite und größte Designverbesserung betrifft die Bilder. Die Bildkompression mit Dithering funktioniert für viele Bilder gut und macht Schwarz-Weiß-Bilder sogar interessanter. Allerdings werden manche Bilder dadurch schwer zu erkennen. Dies gilt insbesondere für Grafiken, die unleserlich werden können, wenn sie nicht schon mit Dithering im Hinterkopf entworfen wurden. Bei einigen anderen Bildern gehen Informationen durch den Dithering-Prozess verloren – beispielsweise wenn Farben verwendet werden, um etwas auszudrücken.</p>
+<p>Das neue Design ermöglicht es Besucher*innen, die Dithering-Kompression für einzelne Bilder auszuschalten und das Originalfoto oder die Originalillustration anzuzeigen. Die Originalbilder, die wir zeigen, sind konventionell komprimiert und etwas größer als die Bilder mit Dithering. Das Anzeigen der Originalbilder erhöht also die Belastung unseres Servers. Es bleibt abzuwarten, wie sich dies auf den Energieverbrauch und die Verfügbarkeit der Solar-Website auswirken wird.</p>
+<p>Außerdem gehen die Bilder nicht mehr über die gesamten Bildschirmbreite, was sinnvoller ist, wenn die Website auf einem großen PC-Monitor betrachtet wird.</p>
+<h2 id="quellcode">Quellcode</h2>
+<p>Wie beim ursprünglichen Pelican-Theme geben wir das <a href="https://github.com/lowtechmag/solar_v2" target="_blank" >Hugo-Theme als Open-Source-Software</a> frei. Das ursprüngliche Solar-Web-Theme und die Plugins bleiben verfügbar, werden aber nicht mehr aktualisiert und gepflegt.</p>
+<h2 id="low-tech-magazine-auf-1-website-betreiben">Low-tech Magazine auf 1 Website betreiben</h2>
+<p>Diese umfangreiche Neugestaltung ist der vorletzte Schritt hin zum Betrieb von Low-tech Magazine auf nur einer einzigen (solarbetriebenen) Website. Seit dem Start der solarbetriebenen Website im Jahr 2018 ist die alte (englischsprachige) Website <a href="https://www.lowtechmagazine.com" target="_blank" >online und auf dem neuesten Stand</a> geblieben. Dies ist aus mehreren Gründen problematisch.</p>
+<p>Erstens widerspricht es unserem Ziel, den ökologischen Fußabdruck der Publikation zu verringern, wenn wir zwei ähnliche Websites betreiben. Zumal die ursprüngliche Website – eine dynamische Website, die auf der Blogging-Plattform <em>TypePad</em> gehostet wird – nicht gerade leichtgewichtig ist. Eine zweite Website, die mit Netzstrom betrieben wird, passt außerdem nicht zu der Idee, offline zu gehen, wenn das Wetter schlecht ist. Die alte Website bleibt unabhängig vom Wetter online. Zweitens erfordert die Aktualisierung von zwei Websites viel zusätzliche Arbeit, die besser dem Schreiben und Recherchieren gewidmet wäre. Das Layout für jeden Artikel muss zweimal auf verschiedenen Plattformen erstellt werden. Kommentare und Änderungen an den Artikeln müssen ebenfalls auf beiden Plattformen aktualisiert werden.</p>
+<p>Die höhere Qualität der Bilder war einer der Hauptgründe, um die alte Website weiter zu pflegen. Jetzt, da die Originalbilder auf der solarbetriebenen Website angezeigt werden können, aktualisieren wir die alte Website nicht mehr. Ab sofort erscheinen neue Inhalte (einschließlich Kommentare zu älteren Artikeln) nur noch auf der solarbetriebenen Website. Die <em>TypePad</em> Website bleibt noch bis zum Sommer online. Dann planen wir, den Teil des Archivs, der bisher noch nicht in statische Webseiten konvertiert wurde, ebenfalls zu verschieben. Es handelt sich größtenteils um Artikel und Seiten aus den Anfangstagen.</p>
+<p>Für die meisten Sprachen wurde der Wechsel zur solarbetriebenen Website bereits abgeschlossen und die betreffenden Bereiche wurden geschlossen. Die einzige Ausnahme bildet die ursprüngliche niederländischsprachige Website, die nicht mehr aktualisiert wird, aber online bleibt (ebenfalls gehostet auf <em>TypePad</em>), um den Zugriff auf ältere Artikel zu ermöglichen. Aufgrund der großen Anzahl von Originalartikeln auf dieser Website wird sie als letzte der ursprünglichen Websites verschwinden – wenn überhaupt. Sie hat immer noch <a href="https://www.lowtechmagazine.be" target="_blank" >das ursprüngliche Design von 2007</a>.</p>
+<h2 id="benutzerfreundlichkeit">Benutzerfreundlichkeit</h2>
+<p>Das neue Solar-Design bringt den Lesern von Low-tech Magazine nur Vorteile. Allerdings fällt die Bilanz auf der Herausgeberseite weniger erfreulich aus. Eine verbesserte Benutzerfreundlichkeit für die Besucher*innen geht teilweise zu Lasten der Benutzerfreundlichkeit für den Autor. Die von Hugo verwendeten Shortcodes sind <a href="https://github.com/lowtechmag/solar_v2#image-shortcodes" target="_blank" >deutlich umständlicher</a> als die Syntax, die von Pelican verwendet wird, und das erhöht den Zeitaufwand für das Layouten eines Artikels. Dies macht zum Teil den Zeitgewinn zunichte, der durch das Wegfallen der Aktualisierung der zweiten Website entsteht.</p>
+<p>Statische Websites sind viel energieeffizienter als dynamische Websites. Dennoch haben statische Website-Generatoren noch einen langen Weg vor sich, was die Benutzerfreundlichkeit betrifft, bevor sie mainstreamtauglich werden und mit Tools wie WordPress konkurrieren können. In den fünf Jahren zwischen unserer ersten Veröffentlichung und dieser Version ist überraschenderweise keine robuste und benutzerfreundliche Anwendung für statische Website-Generatoren erschienen, die unseren aktuellen Workflow ersetzen könnte. Es gibt zwar mehrere Projekte, aber diese sind alle von proprietären Cloud-Services abhängig. Es gibt bei statischen Website-Generatoren immer noch viel Raum für Fortschritte bei der Entwicklung benutzerfreundlicher grafischer Benutzeroberflächen.</p>
+<p>In den kommenden Monaten werden wir versuchen, noch Dinge auf der Herausgeberseite zu verbessern, und wie immer freuen wir uns über Euer Feedback und Eure Vorschläge. Bitte teilt uns auch Fehler oder Inkonsistenzen mit, die uns bei der Migration entgangen sind. Vielen Dank an alle, die dieses Projekt im Laufe der Jahre unterstützt haben.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Erhalten Sie unseren Newsletter</a>.</li>
+        <li> Unterstützen Sie das Low-tech Magazine mit <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> oder <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="de/offline-reading/">Kaufen Sie die gedruckte Webseite</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Um den Unterschied zu verstehen, haben wir sowohl die Hugo- als auch die Pelican-Seitengeneratoren in einem Experiment getestet. Der Pelican-Build basiert auf dem <a href="https://github.com/lowtechmag/solar" target="_blank" >Solar-Theme</a> und den <a href="https://github.com/lowtechmag/solar-plugins" target="_blank" >Plugins</a>. Der Hugo-Build basiert auf dem <a href="https://github.com/lowtechmag/solar_v2" target="_blank" >Solar_v2-Theme</a> sowie Skripten zur Dithering- und Dateigrößenberechnung, wie sie im <a href="https://github.com/lowtechmag/solar_v2/blob/main/utils/build_site.sh" target="_blank" >Build-Skript</a> definiert sind. Beide Websites enthalten 447 Artikel in verschiedenen Sprachen und mehr als 1500 Bilder. Die Ergebnisse des Experiments sind in der folgenden Tabelle sichtbar. Die ersten beiden Zeilen zeigen, wie lange es dauert, die Website initial zu generieren. Beim ersten Ausführen müssen alle Ressourcen generiert und Bilder komprimiert werden, was länger dauert als spätere Ausführungen, bei denen die Ressourcen zwischengespeichert sind. Die letzten beiden Zeilen zeigen die Generierungszeiten, wenn die Ressourcen bereits zwischengespeichert sind. Die angezeigten Zeiten sind der Durchschnittswert von drei Durchläufen auf dem Solar-Server (ein A20-Prozessor mit zwei 1-GHz-Kernen und 1 GB RAM) und einem modernen Laptop (ein Intel i7-8650U-Prozessor mit vier Kernen mit 1,9 GHz und 32 GB RAM). Das Generieren der Hugo-Site auf dem Solar-Server ohne zwischengespeicherte Ressourcen ist nicht möglich, da der Prozess entweder den Speicher übersteigt oder das Timeout-Limit von Hugo überschreitet. In diesem Fall muss der Befehl mehrmals hintereinander ausgeführt werden. Obwohl es so aussieht, als ob Hugo auf dem Laptop langsamer ist als Pelican, lässt sich das wahrscheinlich damit erklären, dass die Hugo-Site <em>sowohl</em> eine Dithering-Logik als auch eine andere Kompressionslogik für die Bilder verwendet. Bei Pelican werden Bilder nur gedithert und Originale nicht erneut komprimiert.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Hugo</strong></th>
+<th><strong>Pelican</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Solar Server (erster Durchlauf)</td>
+<td>-</td>
+<td>100 Minuten, 47 Sekunden</td>
+</tr>
+<tr>
+<td>Moderner Laptop (erster Durchlauf)</td>
+<td>13 Minuten, 31 Sekunden</td>
+<td>12 Minuten, 53 Sekunden</td>
+</tr>
+<tr>
+<td>Solar Server (zwischengespeichert)</td>
+<td>11 Minuten, 57 Sekunden</td>
+<td>68 Minuten, 47 Sekunden</td>
+</tr>
+<tr>
+<td>Moderner Laptop (zwischengespeichert)</td>
+<td>46 Sekunden</td>
+<td>04 Minuten, 57 Sekunden</td>
+</tr>
+</tbody>
+</table>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="/de/tags/ict/" class="">ICT</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="/de/2020/12/how-and-why-i-stopped-buying-new-laptops/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/de/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie und warum ich keine neuen Laptops mehr kaufe</h3>
+		<p class="index-summary">Als unabhängiger Journalist – oder als Büroangestellter, wenn Sie so wollen – war ich immer überzeugt, dass ich einen ordentlichen Computer brauche und dass ich für Qualität bezahlen muss.</p>
+		<time class="published">20. Dezember 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/de/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/de/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie nachhaltig ist eine solarbetriebene Website?</h3>
+		<p class="index-summary">Wir stellen die Energie- und Verfügbarkeitsdaten unserer Website dar, berechnen die Graue Energie unserer Konfiguration, betrachten das optimale Gleichgewicht zwischen Nachhaltigkeit und Verfügbarkeit, und umreißen mögliche Verbesserungen.</p>
+		<time class="published">28. Januar 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/de/2018/09/how-to-build-a-low-tech-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie baut man eine Low-tech Website?</h3>
+		<p class="index-summary">Unser neuer Blog ist so konzipiert, dass der Energieverbrauch für den Zugriff auf unsere Inhalte radikal reduziert wird.</p>
+		<time class="published">24. September 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/de/2015/10/how-to-build-a-low-tech-internet/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/de/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie man ein Lowtech-Internet baut</h3>
+		<p class="index-summary">Wenn wir auch in Situationen mit eingeschränkter Energieversorgung funktionierendes Internet  gewährleisten wollen, können wir wichtige Erkenntnisse von alternativen Netzwerktechnologien lernen.</p>
+		<time class="published">26. Oktober 2015</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Seitengröße: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="de/about">
+  Über
+</a>
+    <a href="de/power">
+  Power
+</a>
+    <a href="de/about/team">
+  Colophon
+</a>
+    <a href="de/donate">
+  Spenden
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

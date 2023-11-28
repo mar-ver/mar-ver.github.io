@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cómo (no) Manejar una Sociedad solo con Energía Renovable | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Cómo (no) Manejar una Sociedad solo con Energía Renovable" />
+<meta name="twitter:title" content="Cómo (no) Manejar una Sociedad solo con Energía Renovable"/>
+
+<meta property="og:description" content="Tratar de equilibrar la oferta a la demanda en todo momento hace que la producción de energía renovable sea una tarea compleja, lenta, costosa e insostenible." />
+
+<meta name="twitter:description" content="Tratar de equilibrar la oferta a la demanda en todo momento hace que la producción de energía renovable sea una tarea compleja, lenta, costosa e insostenible."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" />
+
+
+
+<meta property="og:image" itemprop="image" content="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" />
+<meta property="og:image:secure_url" content="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-09-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-04-30T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Renewable Energy" />
+<meta property="article:tag" content="Wind power" />
+<meta property="article:tag" content="Solar power" />
+<meta property="article:tag" content="Energy Storage" />
+<meta property="article:tag" content="Power transmission" />
+
+</head>
+<body id="c%C3%B3mo-no-manejar-una-sociedad-solo-con-energ%C3%ADa-renovable">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" es/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Cómo (no) Manejar una Sociedad solo con Energía Renovable</h1>
+
+				<p class="summary">
+					Tratar de equilibrar la oferta a la demanda en todo momento hace que la producción de energía renovable sea una tarea compleja, lenta, costosa e insostenible.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">13 de septiembre de 2017</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="/es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="/es/translators/aliana-bertolo/">Aliana Bertolo</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">en</a>
+						
+							<a href="/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">fr</a>
+						
+							<a href="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">nl</a>
+						
+							<a href="/pl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" alt='Imagen: Eye of the wind' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/sailboat2_hu2cf95e4b3442dd5b2dfb53fcade20252_219922_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: <a href="https://www.eyeofthewind.net/en/" target="_blank" >Eye of the wind</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si bien el potencial de la energía eólica y solar es más que suficiente para abastecer la demanda de electricidad de las sociedades industriales, estos recursos solo están disponibles de manera intermitente. Para garantizar que el suministro siempre satisfaga la demanda, una red eléctrica renovable necesita una generación de energía y una capacidad de transmisión de gran tamaño; hasta diez veces la demanda máxima. También requiere una capacidad de equilibrio de las centrales de combustibles fósiles, o su equivalente en almacenamiento de energía.</p>
+<p>En consecuencia, tratar de equilibrar la oferta a la demanda en todo momento hace que la producción de energía renovable sea una tarea compleja, lenta, costosa e insostenible. Sin embargo, una red eléctrica renovable podría ser mucho más ventajosa si ajustaramos la demanda de energía al suministro variable de energía solar y eólica. Usar energía eólica y solar solo cuando están disponibles es un concepto tradicional que la tecnología moderna puede mejorar significativamente.</p>
+<h2 id="energía-100-renovable">Energía 100% renovable</h2>
+<p>En general, se cree que, en el futuro, la producción de energía renovable permitirá que las sociedades modernas se independicen de los combustibles fósiles, con la energía eólica y solar brindando el mayor potencial. Un hecho frecuentemente mencionado es que hay más que suficiente energía eólica y solar disponible para satisfacer las necesidades energéticas de la civilización moderna.</p>
+<p>Por ejemplo, en Europa, se estima que el potencial práctico de la energía eólica para la producción de electricidad en tierra y fuera de ella es de al menos 30,000 TWh por año, lo que significa diez veces la demanda anual de electricidad. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> En los EE. UU., el potencial de energía solar técnica se estima en 400,000 TWh, 100 veces la demanda anual de electricidad. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Tales declaraciones, aunque son teóricamente correctas, son muy problemáticas en la práctica. Esto se debe a que se basan en promedios anuales de producción de energía renovable y no abordan el carácter altamente variable e incierto de la energía eólica y solar.</p>
+<blockquote>
+<p>Los promedios anuales de la producción de energía renovable no abordan el carácter altamente variable e incierto de la energía eólica y solar</p>
+</blockquote>
+<p>La demanda y el suministro de electricidad deben coincidir en todo momento, lo que es relativamente fácil de lograr con plantas de energía que se pueden encender y apagar a voluntad. Sin embargo, la producción de energía proveniente de turbinas eólicas y paneles solares depende totalmente de los “caprichos” del clima.</p>
+<p>Por lo tanto, para averiguar si podemos dirigir una sociedad moderna con energía solar y eólica, y cómo podemos hacerlo, necesitamos comparar la demanda de electricidad sincronizada en el tiempo con la disponibilidad de energía solar o eólica sincronizada en el tiempo. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Al hacerlo, se hace evidente que el suministro se correlaciona mal con la demanda.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/intermittency-solar-wind-compared-with-energy-demand_dithered.png" alt='Arriba: Gráfico que visualiza 30 días de datos superpuestos: En rojo se indica la demanda de energía, en azul los datos de producción de energía eólica y en amarillo los datos de producción de energía solar. Los valores promedio están indicados mediante líneas negritas negras. Datos obtenidos de Bonneville Power Administration, Abril de 2010. Fuente: [^21]' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/intermittency-solar-wind-compared-with-energy-demand_hu84cb7289ec12832343e4b3da6094e694_350378_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/intermittency-solar-wind-compared-with-energy-demand_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Arriba: Gráfico que visualiza 30 días de datos superpuestos: En rojo se indica la demanda de energía, en azul los datos de producción de energía eólica y en amarillo los datos de producción de energía solar. Los valores promedio están indicados mediante líneas negritas negras. Datos obtenidos de Bonneville Power Administration, Abril de 2010. Fuente: [^21]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="la-intermitencia-de-la-energía-solar">La intermitencia de la energía solar</h2>
+<p>La energía solar se caracteriza por variaciones predecibles e impredecibles. Existe un patrón diurno y estacional predecible, en el que la producción máxima ocurre en la mitad del día y en el verano, dependiendo del movimiento aparente del sol en el cielo. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>Cuando el sol está más bajo en el horizonte, sus rayos tienen que viajar a través de una masa de aire mayor, lo que reduce su fuerza porque los rayos son absorbidos por partículas en la atmósfera. Los rayos del sol también se extienden sobre una superficie horizontal más grande, disminuyendo la transferencia de energía por unidad de superficie horizontal.</p>
+<p>Cuando el sol está a 60 ° sobre el horizonte, la intensidad de los rayos del sol cuando estos alcanzan una superficie horizontal sigue siendo el 87% de su máximo. Sin embargo, en ángulos más bajos, la intensidad del sol disminuye rápidamente. En un ángulo solar de 15 °, la radiación que golpea una superficie horizontal es solo del 25% de su máximo.</p>
+<p>En una escala estacional, el ángulo de elevación solar también se correlaciona con el número de horas de luz natural, lo que reduce la cantidad de energía solar recibida a lo largo del día en épocas del año cuando el sol está más bajo en el cielo. Y, por supuesto, no hay energía solar disponible por la noche.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/average-cloud-cover_dithered.png" alt='Imagen: Promedio de cobertura de nubes 2002 – 2015. Fuente: NASA' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/average-cloud-cover_hu7b6d4123576688ec4e582b4902ea86d1_2084757_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/average-cloud-cover_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: Promedio de cobertura de nubes 2002 – 2015. Fuente: <a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=85843&amp;amp;eocn=image&amp;amp;eoci=related_image" target="_blank" >NASA</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Del mismo modo, la presencia de nubes añade variaciones impredecibles al suministro de energía solar. Las nubes dispersan y absorben la radiación solar, reduciendo la cantidad de insolación que llega al suelo. La producción solar es aproximadamente el 80% de su máximo con una capa de nubes ligera, pero solo el 15% de su máximo en un día nublado intenso. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<p>Debido a la falta de inercia térmica o mecánica en los sistemas solares fotovoltaicos (PV), los cambios debidos a las nubes pueden ser dramáticos. Por ejemplo, bajo la cobertura nubosa fluctuante, la producción de plantas de energía fotovoltaica de multi-megavatios en el sudoeste de EE. UU. tuvo variaciones de aproximadamente 50% en un lapso de tiempo de 30 a 90 segundos y alrededor del 70% en un lapso de tiempo de 5 a 10 minutos. <sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<blockquote>
+<p>En Londres, un panel solar produce 65 veces menos energía en un intenso día nublado en diciembre a las 10:00 que en un día soleado de junio al mediodía</p>
+</blockquote>
+<p>La combinación de estas variaciones predecibles e impredecibles en la energía solar deja en claro que la producción de energía de una planta de energía solar puede variar enormemente a lo largo del tiempo. En Phoenix, Arizona, el lugar más soleado de los EE. UU., un panel solar produce en promedio 2.7 veces menos energía en diciembre que en junio. Si comparamos un día soleado de junio al mediodía con un día de nublado intenso a las 10:00 en diciembre, la diferencia en la producción solar es casi veinte veces mayor en el día soleado. <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>En Londres, Reino Unido, siendo esta una ubicación moderadamente adecuada para la energía solar, un panel solar produce un promedio de 10 veces menos energía en diciembre que en junio. Comparando un día soleado en junio al mediodía con un día nublado intenso en diciembre a las 10:00 la producción solar difiere por un factor de 65. <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h2 id="la-intermitencia-de-la-energía-eólica">La intermitencia de la energía eólica</h2>
+<p>En comparación con la energía solar, la variabilidad del viento es aún más volátil. Por un lado, la energía eólica se puede obtener tanto de día como de noche, mientras que, por otro lado, es menos predecible y menos confiable que la energía solar. Durante el día, siempre hay una cantidad mínima de energía solar disponible, pero este no es el caso con el viento, que puede estar ausente o demasiado débil durante días o incluso semanas a la vez. También puede haber demasiado viento y las turbinas eólicas deben cerrarse del todo para evitar daños.</p>
+<p>En promedio durante todo el año, y dependiendo de la ubicación, los parques eólicos modernos producen de 10 a 45% de su potencia máxima, aproximadamente el doble de la capacidad anual de una instalación solar fotovoltaica promedio (5-30%). <sup id="fnref2:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> En la práctica, sin embargo, las turbinas de viento pueden operar entre el 0 y 100% de su potencia máxima en cualquier momento.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/solar-wind_dithered.png" alt='Producción de energía eólica por hora en 29 días diferentes de abril del 2005 en una planta eólica en California. Fuente: [^6]' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/solar-wind_hu615f08db2d0c448b64238e2736a93a08_127853_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/solar-wind_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Producción de energía eólica por hora en 29 días diferentes de abril del 2005 en una planta eólica en California. Fuente: [^6]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Para muchos lugares, solo se dispone de datos de velocidad del viento promedio. Sin embargo, la gráfica anterior muestra la producción de energía eólica por día y por hora en 29 días diferentes en un parque eólico en California. En cualquier hora del día y en cualquier día del mes, la producción de energía eólica puede variar entre cero y 600 megavatios, siendo esta la producción máxima de energía del parque eólico. <sup id="fnref3:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>Incluso los cambios relativamente pequeños en la velocidad del viento tienen un gran efecto en la producción de energía eólica: si la velocidad del viento disminuye a la mitad, la producción de energía disminuye por un factor de ocho. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> Los recursos eólicos también varían a lo largo de los años. Alemania, los Países Bajos y Dinamarca muestran una variabilidad interanual de la velocidad del viento de hasta el 30%. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Las diferencias anuales en energía solar también pueden ser significativas. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<h2 id="cómo-equilibrar-el-suministro-de-energía-con-la-demanda">¿Cómo equilibrar el suministro de energía con la demanda?</h2>
+<p>Hasta cierto punto, la energía eólica y solar pueden compensarse entre sí. Por ejemplo, el viento suele ser dos veces más fuerte durante los meses de invierno, cuando hay menos sol. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> Sin embargo, esto se refiere a valores promedio. En cualquier momento del año, la energía eólica y solar pueden ser débiles o ausentarse simultáneamente, dejándonos con poca o ninguna electricidad en absoluto.</p>
+<p>La demanda de electricidad también varía a lo largo del día y las estaciones, pero estos cambios son más predecibles y mucho menos extremos. Hay picos en la demanda en la mañana y en la noche, y el punto más bajo de consumo ocurre durante la madrugada. Sin embargo, incluso por la noche, el uso de electricidad sigue siendo cercano al 60% del máximo.</p>
+<blockquote>
+<p>En cualquier momento del año, la energía eólica y solar pueden ser débiles o ausentarse simultáneamente, dejándonos con poca o ninguna electricidad en absoluto.</p>
+</blockquote>
+<p>En consecuencia, si la capacidad de energía renovable se calcula en base a los promedios anuales de la producción de energía solar y eólica y en sintonía con la demanda de energía promedio, habría una gran escasez de electricidad la mayor parte del tiempo. Para garantizar que el suministro de electricidad siempre satisfaga la demanda de electricidad, es necesario tomar medidas adicionales.</p>
+<p>En primer lugar, podríamos contar con una infraestructura de respaldo de producción de energía eléctrica a partir de combustibles fósiles para suministrar electricidad cuando no haya suficiente energía renovable disponible. En segundo lugar, podríamos sobredimensionar la capacidad de generación renovable, ajustándola al peor de los escenarios. En tercer lugar, podríamos conectar fuentes de energía renovables geográficamente dispersas para amortizar las variaciones en la producción de energía. En cuarto lugar, podríamos almacenar el excedente de electricidad para usar en momentos en que los recursos solares y/o eólicos sean bajos o estén ausentes.</p>
+<p>Como veremos, todas estas estrategias son contraproducentes a una escala lo suficientemente grande, incluso cuando se combinan. Si la energía utilizada para construir y mantener la infraestructura adicional se contabilizara en un análisis del ciclo de vida de una red de energía renovable, sería tan intensiva en emisiones de CO2 como la red eléctrica actual.</p>
+<h2 id="estrategia-1-plantas-de-energía-de-respaldo">Estrategia 1: plantas de energía de respaldo</h2>
+<p>Hasta ahora, la parte relativamente pequeña de las fuentes de energía renovables agregadas a la red eléctrica se ha equilibrado con formas de electricidad despachables, principalmente centrales eléctricas de gas. Aunque este enfoque “soluciona” por completo el problema de la intermitencia, resulta en una paradoja ya que el objetivo de cambiar a energías renovables es independizarse de los combustibles fósiles, incluido el gas. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<p>Europa tiene los planes más ambiciosos con respecto a las energías renovables, y es donde se centran la mayoría de las investigaciones científicas. Para una red eléctrica basada 100% de energía solar y eólica, sin almacenamiento de energía y asumiendo la interconexión a nivel europeo únicamente, la capacidad de equilibrio de las centrales eléctricas de combustibles fósiles debe ser tan grande como la demanda pico de electricidad. <sup id="fnref1:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> En otras palabras, habría tantas plantas de energía no renovables como las que hay hoy en día.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/every-power-plant-in-usa_dithered.png" alt='Gráfico indicando la posición y tipo de plantas de energía en los Estados Unidos. Gráfico de The Washington Post.' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/every-power-plant-in-usa_huda387a0509c5aeb2b4e2d115017e2793_344457_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/every-power-plant-in-usa_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Gráfico indicando la posición y tipo de plantas de energía en los Estados Unidos. Gráfico de <a href="https://www.washingtonpost.com/graphics/national/power-plants/?utm_term=.5a41d6c60a94" target="_blank" >The Washington Post</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Tal infraestructura híbrida reduciría el uso de combustibles fósiles para la generación de electricidad, porque la energía renovable podría reemplazarlos si hay suficiente sol o viento disponible. Sin embargo, sería necesario invertir mucha energía y materiales en lo que esencialmente sería una infraestructura doble. La energía que se ahorra en combustible se gasta en la fabricación, instalación e interconexión de millones de paneles solares y turbinas eólicas.</p>
+<p>Aunque el equilibrio de fuentes de energía renovables con fuentes de energía no-renovables es ampliamente considerado como un arreglo temporal que no es adecuado para grandes cantidades de energía renovable, la mayoría de las otras estrategias tecnológicas (descritas a continuación) solo pueden reducir parcialmente la necesidad de equilibrar la capacidad.</p>
+<h2 id="estrategia-2-sobredimensionar-la-producción-de-energías-renovables">Estrategia 2: sobredimensionar la producción de energías renovables</h2>
+<p>Otra forma de evitar la escasez de energía sería instalar más paneles solares y turbinas eólicas. Si la capacidad de energía solar se adapta a la demanda incluso durante los días de invierno más cortos y más oscuros, y la capacidad de la energía eólica se corresponde con las velocidades más bajas del viento, el riesgo de escasez de electricidad podría reducirse significativamente. Sin embargo, la desventaja más obvia de este enfoque es un exceso de oferta de energía renovable durante la mayor parte del año.</p>
+<p>Durante los períodos de exceso de oferta, la energía producida por los paneles solares y las turbinas eólicas se reduce para evitar una sobrecarga en la red. De manera problemática, esta restricción tiene un efecto perjudicial en la sostenibilidad de una red eléctrica renovable. Esta reduce la electricidad que produce un panel solar o una turbina eólica durante su vida útil, mientras que la energía requerida para fabricar, instalar, conectar y mantener sigue siendo la misma. En consecuencia, el coeficiente de capacidad y la energía devuelta por la energía invertida en turbinas eólicas y paneles solares disminuyen. <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<blockquote>
+<p>La instalación de más paneles solares y turbinas eólicas reduce el riesgo de escasez eléctrica, pero produce un exceso en el suministro de electricidad durante la mayor parte del año.</p>
+</blockquote>
+<p>Mientras la energía eólica y solar constituyan un mayor porcentaje de la producción total de energía, las tasas de restricción aumentarían de forma espectacular, porque la dependencia de la sobreproducción a la producción de energía renovables es exponencial. Científicos calcularon que para una red europea compuesta de 60% de energía solar y eólica se requeriría de una capacidad de generación que duplicaría la carga máxima, lo que generaría 300 TWh de exceso de electricidad cada año (aproximadamente el 10% del consumo de electricidad anual en Europa).</p>
+<p>En el caso de una red con un 80% de energías renovables, la capacidad de generación debe ser seis veces mayor que la carga máxima, mientras que el exceso de electricidad equivaldría al 60% del consumo anual de electricidad de la UE. Por último, en una red con producción de energía 100% renovable, la capacidad de generación tendría que ser diez veces mayor que la carga máxima, y el exceso de electricidad superaría el consumo anual de electricidad de la UE. <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup></p>
+<p>Esto significa que se deberían fabricar hasta diez veces más paneles solares y turbinas eólicas. La energía que se necesita para crear esta infraestructura haría que el cambio a la energía renovable sea contraproducente, porque los tiempos de amortización de energía de los paneles solares y las turbinas de viento se multiplicarían por seis o diez veces.</p>
+<p>Para los paneles solares, la recuperación de la energía solo se produciría entre 12 y 24 años en una red eléctrica con 80% de renovables, y entre 20 y 40 años en una red eléctrica con 100% de energía renovable. Debido a que la esperanza de vida de un panel solar es de aproximadamente 30 años, un panel solar nunca podría producir la energía que se necesitó para fabricarlo. Las turbinas eólicas seguirían siendo productores netos de energía porque tienen tiempos de recuperación de energía más cortos, pero su ventaja en comparación con los combustibles fósiles disminuiría. <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup></p>
+<h2 id="estrategia-3-supergrids">Estrategia 3: Supergrids</h2>
+<p>La variabilidad de la energía solar y eólica también se podría reducir interconectando las plantas de energía renovable en una región geográfica más amplia. Por ejemplo, la electricidad puede sobreproducirse donde sopla el viento, pero esta sobreproducción se transmitiría para satisfacer la demanda en lugares en calma. <sup id="fnref1:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<p>La interconexión también permitiría la combinación de tecnologías que utilizan diferentes recursos de energía variable, como la energía de las olas y la energía mareomotriz <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Además, la conexión de redes eléctricas en grandes áreas geográficas permite un aprovechamiento más amplio de las plantas de energía de combustibles fósiles como respaldo.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/wind-map-europe_dithered.png" alt='Mapa del viento en Europa, 2 de septiembre de 2017, 23h48. Fuente: Windy.' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/wind-map-europe_hu87b5ec8d527511e6b1ad7c359ad62ac9_521872_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/wind-map-europe_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Mapa del viento en Europa, 2 de septiembre de 2017, 23h48. Fuente: <a href="https://www.windy.com/" target="_blank" >Windy</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si bien los sistemas de energía de hoy en día en Europa y EE. UU. se extienden sobre un área bastante grande, estas redes no son lo suficientemente fuertes como para permitir la interconexión de fuentes de energía renovables. Esto se puede resolver superponiendo una poderosa red de corriente continua de alta tensión (HVDC). Tales superredes son el núcleo de muchos planes ambiciosos para la producción de energía 100% renovable, especialmente en Europa. <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> El problema con esta estrategia es que la capacidad de transmisión debe ser construida, en distancias muy largas. <sup id="fnref2:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<p>Para una red europea donde el 60% proviene de energías renovables (una combinación óptima de energía eólica y solar), la capacidad de la red tendría que aumentar al menos siete veces. Si los países europeos no tuvieran en cuenta las preocupaciones sobre la seguridad del suministro y la capacidad de equilibrio de energías de respaldo se distribuyera de forma óptima en todo el continente, la extensión de capacidad de red necesarias pueden limitarse a casi el triple de la red de alta tensión existente en Europa. Para una red eléctrica europea donde el 100% proviene de energías renovables, la capacidad de la red tendría que ser hasta doce veces mayor de lo que es hoy en día. <sup id="fnref1:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup></p>
+<blockquote>
+<p>Incluso en el Reino Unido, que posee una de las mejores fuentes de energía renovable del mundo se generaría una escasez de electricidad durante 65 días por año, aún combinándose la energía eólica, solar, de olas y mareomotriz.</p>
+</blockquote>
+<p>Los problemas con tales extensiones de red son 3. En primer lugar, la construcción de infraestructura, como las torres de transmisión y sus cimientos, líneas eléctricas, subestaciones, etc., requiere una cantidad significativa de energía y otros recursos. Esto deberá tenerse en cuenta al realizarse un análisis del ciclo de vida de una red eléctrica renovable. Al igual que con la generación de energía renovable sobredimensionada, la mayor parte de la infraestructura de transmisión sobredimensionada no se utilizará la mayor parte del tiempo, lo que reducirá sustancialmente el factor de capacidad de transmisión.</p>
+<p>En segundo lugar, una superred implica pérdidas de transmisión, lo que significa que se necesitarán instalar más turbinas eólicas y paneles solares para compensar esta pérdida. En tercer lugar, la aceptación y el proceso de construcción de nuevas líneas de transmisión pueden demorar hasta diez años. <sup id="fnref1:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref1:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> Esto no es solo una molestia burocrática: las líneas de transmisión tienen un gran impacto en el suelo y el paisaje, y a menudo se enfrentan a la oposición local, lo que las convierte en uno de los principales obstáculos para el crecimiento de la producción de energía renovable.</p>
+<p>Incluso con una superred, los días de baja ganancia energética siguen siendo una posibilidad en áreas tan grandes como Europa. Con una red donde el 100% proviene de fuentes de energías renovables y 12 veces la capacidad actual de la red, la capacidad de equilibrio de las centrales de combustibles fósiles de reserva se puede reducir al 15% del consumo total de electricidad anual. Este es el máximo beneficio posible de transmisión para Europa. <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup></p>
+<p>Incluso en el Reino Unido, que posee una de las mejores fuentes de energía renovable del mundo se generaría una escasez de electricidad el 18% del tiempo ( aproximadamente 65 días por año), aún combinándose la energía eólica, solar, de olas y mareomotriz. <sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
+<h2 id="estrategia-4-almacenamiento-de-energía">Estrategia 4: Almacenamiento de energía</h2>
+<p>La estrategia final para hacer coincidir la oferta con la demanda de energía es almacenar un exceso de oferta de electricidad para que este pueda ser usado cuando no hay suficiente energía renovable disponible. El almacenamiento de energía evita la restricción y es la única estrategia del lado de la oferta que puede hacer que la capacidad de equilibrio de las plantas de combustibles fósiles sea redundante, al menos en teoría. En la práctica, hay varios problemas relacionados al almacenamiento de energías renovables.</p>
+<p>En primer lugar, si bien no es necesario construir y mantener una infraestructura de respaldo de energía no renovables, esta ventaja se ve negada por la necesidad de construir y mantener una infraestructura de almacenamiento de energía. Segundo, todas las tecnologías de almacenamiento tienen pérdidas por carga y descarga, lo que resulta en la necesidad de instalar paneles solares y turbinas eólicas adicionales para compensar esta pérdida.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/live-windmap-usa_dithered.png" alt='Mapa con transmisión en vivo de los vientos en Estados Unidos.' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/live-windmap-usa_huddea4236b394fc9d9da3f804626e1c48_188386_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/live-windmap-usa_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Mapa con transmisión <a href="http://hint.fm/wind/" target="_blank" >en vivo de los vientos en Estados Unidos</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La energía requerida para construir y mantener infraestructuras de almacenamiento y adicionales plantas de energía renovables deben tenerse en cuenta al realizar un análisis del ciclo de vida de una red eléctrica renovable. De hecho, se ha demostrado que es más eficiente energéticamente restringir la energía renovable de las turbinas eólicas que almacenarla, porque la energía necesaria para el almacenamiento y su uso (lo que implica pérdidas de carga y descarga) supera la energía que se pierde a través restricción. [^ 23]</p>
+<blockquote>
+<p>Si contaramos con autos eléctricos para almacenar el excedente de energía renovable, sus baterías necesitarían ser 60 veces más grandes de lo que son hoy en día.</p>
+</blockquote>
+<p>Para una red eléctrica europea con plantas de energía 100% renovables (670 GW de potencia eólica y 810 GW de capacidad de energía solar) y sin capacidad de equilibrado, la capacidad de almacenamiento de energía debe ser 1,5 veces la carga mensual promedio y equivale a 400 TWh, sin incluir las pérdidas por carga y descarga. <sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup> <sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup> <sup id="fnref:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup></p>
+<p>Para dar una idea de lo que esto significa: la estimación más optimista del potencial total Europeo para el almacenamiento de energía hidroeléctrica es de 80 TWh <sup id="fnref:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup>, mientras que la conversión de los 250 millones de automóviles de pasajeros en Europa a unidades eléctricas con una batería de 30 kWh daría un almacenamiento total de energía de 7.5 TWh. En otras palabras, si contaramos con autos eléctricos para almacenar el excedente de energía renovable, sus baterías necesitarían ser 60 veces más grandes de lo que son hoy en día (y eso sin tener en cuenta el hecho de que los autos eléctricos aumentarán sustancialmente el consumo de energía).</p>
+<p>Teniendo en cuenta una eficiencia de carga y descarga del 85%, la fabricación de 460 TWh de baterías de iones de litio requeriría de 644 millones de Terajulios de energía primaria, que es igual al total del uso de energía primaria anual en Europa multiplicado por 15. <sup id="fnref:36"><a href="#fn:36" class="footnote-ref" role="doc-noteref">36</a></sup> Sería necesario invertir esta cantidad de energía cada 20 años como mínimo, ya que esa es la esperanza de vida más optimista de las baterías de iones de litio. Existen muchas otras tecnologías para almacenar el exceso de electricidad de las plantas de energía renovables, pero todas tienen desventajas únicas que las hacen poco atractivas cuando aplicadas a gran escala. <sup id="fnref:37"><a href="#fn:37" class="footnote-ref" role="doc-noteref">37</a></sup> <sup id="fnref:38"><a href="#fn:38" class="footnote-ref" role="doc-noteref">38</a></sup></p>
+<h2 id="equilibrando-la-oferta-a-la-demanda--sobreconstrucción-de-la-infraestructura">Equilibrando la oferta a la demanda = Sobreconstrucción de la infraestructura</h2>
+<p>En conclusión, calcular sólo los tiempos de amortización de energía de paneles solares individuales o turbinas de viento sobreestima en gran medida la sostenibilidad de una red eléctrica renovable. Si queremos equilibrar el suministro de energía a la demanda en todo momento, también debemos tener en cuenta el consumo de energía usado para la construcción extra de plantas de generación de energía y la capacidad de transmisión, y el uso de energía para construir la capacidad de generación de respaldo y/o el almacenamiento de energía. La necesidad de sobre-construir el sistema también aumenta los costos y el tiempo requerido para cambiar a las energías renovables.</p>
+<blockquote>
+<p>Calcular sólo los tiempos de amortización de energía de paneles solares individuales o turbinas de viento sobreestima en gran medida la sostenibilidad de una red eléctrica renovable.</p>
+</blockquote>
+<p>La combinación de diferentes estrategias es un enfoque más sinérgico que mejora la sostenibilidad de una red de energía renovable, pero estas ventajas no son lo suficientemente grandes como para proporcionar una solución. <sup id="fnref1:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup> <sup id="fnref:39"><a href="#fn:39" class="footnote-ref" role="doc-noteref">39</a></sup> <sup id="fnref:40"><a href="#fn:40" class="footnote-ref" role="doc-noteref">40</a></sup></p>
+<p>La construcción de paneles solares, turbinas eólicas, líneas de transmisión, capacidad de equilibrio y almacenamiento de energía usando energías renovables en lugar de combustibles fósiles tampoco soluciona el problema, porque también supone una sobre-construcción de la infraestructura: tendríamos que construir una infraestructura extra de energías renovables para construir la infraestructura de energía renovable.</p>
+<h2 id="ajustando-la-demanda-a-la-oferta">Ajustando la demanda a la oferta</h2>
+<p>Sin embargo, esto no significa que una red de energía renovable sostenible sea imposible. Existe una quinta estrategia, que en lugar de hacer coincidir la oferta con la demanda, busca hacer coincidir la demanda con la oferta. En este escenario, la energía renovable se usaría solo cuando esta esté disponible.</p>
+<p>Si pudiéramos lograr ajustar toda la demanda de energía a los recursos variables de energía solar y eólica, no habría necesidad de ampliar la red, equilibrar la capacidad o sobre-construir plantas de energía renovable. Del mismo modo, toda la energía producida por los paneles solares y las turbinas eólicas se utilizaría, sin pérdidas de transmisión y sin necesidad de restringir o almacenar de energía.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/windmill-belgium_dithered.png" alt='Molino de viento en Moulbaix, Bélgica, siglo XVII / XVIII. Imagen: Jean-Pol GrandMont.' data-original="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/windmill-belgium_huaef38e408641e83bc6e8e0b438467064_92679_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/windmill-belgium_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Molino de viento en Moulbaix, Bélgica, siglo XVII / XVIII. Imagen: <a href="https://commons.wikimedia.org/wiki/File:Moulbaix_MV1aJPG.jpg" target="_blank" >Jean-Pol GrandMont</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Por supuesto, ajustar la demanda de energía a la oferta de energía en todo momento es imposible, porque no todas las actividades que usan energía se pueden posponer. Sin embargo, el ajuste de la demanda de energía al suministro debería ser una prioridad, mientras que las otras estrategias podrían tomar un rol de apoyo. Si renunciamos a la necesidad de igualar la demanda de energía las 24 horas del día, los 365 días del año, una red de energía renovable podría construirse mucho más rápido y a un costo menor, haciendo el proceso más sostenible.</p>
+<blockquote>
+<p>Si pudiéramos lograr ajustar toda la demanda de energía a los recursos variables de energía solar y eólica, no habría necesidad de almacenamiento de energía, extensiones de red, capacidad de equilibrio o sobre-construcción de plantas de energía renovable.</p>
+</blockquote>
+<p>Con respecto a esta estrategia, incluso pequeños compromisos producirían resultados muy beneficiosos. Por ejemplo, si el Reino Unido aceptara una escasez de electricidad durante 65 días al año, podría sustentarse energéticamente por una red eléctrica 100% renovable (solar, eólica, de olas y mareomotriz) sin la necesidad de almacenamiento de energía, una capacidad de respaldo de energía producida a base de combustibles fósiles, o una gran sobre-construcción de generadores de energía. <sup id="fnref1:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup></p>
+<p>Hoy en día, el debate de la gestión de demanda de energía por lo general se limita a los denominados dispositivos domésticos “inteligentes”, como lavadoras o lavavajillas que se activan automáticamente cuando hay abundante suministro de energía renovable. Sin embargo, estas ideas solo están acaparando una pequeñísima parte de lo que es posible.</p>
+<p>Antes de la Revolución Industrial, tanto la industria como el transporte dependían en gran medida de fuentes de energía renovables intermitentes. La variabilidad en el suministro se resolvió casi en su totalidad ajustando la demanda de energía. Por ejemplo, los molinos de viento y los veleros solo funcionaban cuando soplaba el viento. <a href="/es/2017/09/how-to-run-the-economy-on-the-weather/" >En el próximo artículo, abordaré cómo este enfoque histórico podría aplicarse con éxito a la industria moderna y al transporte de carga</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Swart, R. J., et al. Europe’s onshore and offshore wind energy potential, an assessment of environmental and economic constraints. No. 6/2009. European Environment Agency, 2009.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Lopez, Anthony, et al. US renewable energy technical potentials: a GIS-based analysis. NREL, 2012. See also Here’s how much of the world would need to be covered in solar panels to power Earth, Business Insider, October 2015.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Hart, Elaine K., Eric D. Stoutenburg, and Mark Z. Jacobson. “The potential of intermittent renewables to meet electric power demand: current methods and emerging analytical techniques.” Proceedings of the IEEE 100.2 (2012): 322-334.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Ambec, Stefan, and Claude Crampes. Electricity production with intermittent sources of energy. No. 10.07. 313. LERNA, University of Toulouse, 2010.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Mulder, F. M. “Implications of diurnal and seasonal variations in renewable energy generation for large scale energy storage.” Journal of Renewable and Sustainable Energy 6.3 (2014): 033105.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>INITIATIVE, MIT ENERGY. “Managing large-scale penetration of intermittent renewables.” (2012).&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Richard Perez, Mathieu David, Thomas E. Hoff, Mohammad Jamaly, Sergey Kivalov, Jan Kleissl, Philippe Lauret and Marc Perez (2016), “Spatial and temporal variability of solar energy“, Foundations and Trends in Renewable Energy: Vol. 1: No. 1, pp 1-44. <a href="http://dx.doi.org/10.1561/2700000006" target="_blank" >http://dx.doi.org/10.1561/2700000006</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Sun Angle and Insolation. FTExploring.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Sun position calculator, Sun Earth Tools.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Burgess, Paul. ” Variation in light intensity at different latitudes and seasons effects of cloud cover, and the amounts of direct and diffused light.” Forres, UK: Continuous Cover Forestry Group. Available online at http://www. ccfg. org. uk/conferences/downloads/P_Burgess. pdf. 2009.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>La producción solar puede incrementarse, especialmente in invierno, inclinando los panes solares para que formen un ángulo de 90 grados con los rayos solares. Sin embargo, esta estrategia solo aborda la propagación de la radiación solar pero no tiene ningun efecto sobre la pérdida de energía debido a la mayor masa de aire, ni a la cantidad de horas de luz diurna. Además, inclinar los paneles siempre es un compromiso, un panel que esté idealmente inclinador para el sol de invierno será menos eficiente en el sol de verano y viceversa.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Schaber, Katrin, Florian Steinke, and Thomas Hamacher. “Transmission grid extensions for the integration of variable renewable energies in europe: who benefits where?.” Energy Policy 43 (2012): 123-135.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>German offshore wind capacity factors, Energy Numbers, July 2017&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>What are the capacity factors of America’s wind farms? Carbon Counter, 24 July 2015.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Sorensen, Bent. Renewable Energy: physics, engineering, environmental impacts, economics &amp; planning; Fourth Edition. Elsevier Ltd, 2010.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Jerez, S., et al. “The Impact of the North Atlantic Oscillation on Renewable Energy Resources in Southwestern Europe.” Journal of applied meteorology and climatology 52.10 (2013): 2204-2225.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Eerme, Kalju. “Interannual and intraseasonal variations of the available solar radiation.” Solar Radiation. InTech, 2012.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Archer, Cristina L., and Mark Z. Jacobson. “Geographical and seasonal variability of the global practical wind resources.” Applied Geography 45 (2013): 119-130.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Rugolo, Jason, and Michael J. Aziz. “Electricity storage for intermittent renewable sources.” Energy &amp; Environmental Science 5.5 (2012): 7151-7160.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Inlcuso con los porcentajes actuales relativamente bajos de energías renovables, la restricción ya ocurre. Esta es causada por la congestión de la transmisiñon, la disponibilidad insuficiente de transmisión o los niveles operativos mínimos en los generadores térmicos (las plantas de carbón y de energía atómica están diseñadas para operar continuamente). Referirse a: “Wind and solar curtailment”, Debra Lew et al., National Renewable Energy Laboratory, 2013. Por ejemplo, en China, ahora el principal productor de energía eólica del mundo, casi una quinta parte de la energía eólica se reduce. Referirse a: Chinese wind earnings under pressure with fifth of farms idle, Sue-Lin Wong &amp; Charlie Zhu, Reuters, May 17, 2015.&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Barnhart, Charles J., et al. “The energetic implications of curtailing versus storing solar- and wind-generated electricity.” Energy &amp; Environmental Science 6.10 (2013): 2804-2810.&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Schaber, Katrin, et al. “Parametric study of variable renewable energy integration in europe: advantages and costs of transmission grid extensions.” Energy Policy 42 (2012): 498-508.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Schaber, Katrin, Florian Steinke, and Thomas Hamacher. “Managing temporary oversupply from renewables efficiently: electricity storage versus energy sector coupling in Germany.” International Energy Workshop, Paris. 2013.&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>Cables subterráneos puede superar en parte este problema, pero estos son aproximadamente 6 veces más costosos que las líneas aéreas.&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>Szarka, Joseph, et al., eds. Learning from wind power: governance, societal and policy perspectives on sustainable energy. Palgrave Macmillan, 2012.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p>Rodriguez, Rolando A., et al. “Transmission needs across a fully renewable european storage system.” Renewable Energy 63 (2014): 467-476.&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p>Además, en primer lugar, se requiere una nueva capacidad de transmisión para conectar las plantas de energía renovable al resto de la red: las granjas solares y eólicas deben ubicarse junto con el recurso en sí, y con frecuencia estas ubicaciones están lejos del lugar donde la energía será usada.&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28">
+<p>Becker, Sarah, et al. “Transmission grid extensions during the build-up of a fully renewable pan-European electricity supply.” Energy 64 (2014): 404-418.&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29">
+<p>Zero Carbon britain: Rethinking the Future, Paul Allen et al., Centre for Alternative Technology, 2013&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30">
+<p>La energía de las olas a menudo se correlaciona con la energía eólica: si no hay viento, generalmente no hay olas.&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31">
+<p>Contruir superred aún más grandes para aprovechar regiones geográficas aún más amplias, o incluso todo el planeta, podría hacer que la necesidad de equilibrar la capacidad sea en gran parte redundante. Sin embargo, esto solo podría hacerse a costos muy altos y con mayores pérdidas de transmisión. Los costos de transmisión aumentan más rápido que un aumento lineal con respecto a la distancia recorrida, ya que también la cantidad de potencia máxima que se va a transportar crecerá con la superficie conectada. <sup id="fnref1:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Tambíen abundan los obstáculos prácticos. Por ejemplo, las superredes asumen la paz y buena compresión entre y dentro de países, así como también intereses iguales, mientras que en realidad algunos se benefician mucho más que otros de la inteconexión.  <sup id="fnref1:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup>&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32">
+<p>Heide, Dominik, et al. “Seasonal optimal mix of wind and solar power in a future, highly renewable Europe.” Renewable Energy 35.11 (2010): 2483-2489.&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33">
+<p>Rasmussen, Morten Grud, Gorm Bruun Andresen, and Martin Greiner. “Storage and balancing synergies in a fully or highly renewable pan-european system.” Energy Policy 51 (2012): 642-651.&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:34">
+<p>Weitemeyer, Stefan, et al. “Integration of renewable energy sources in future power systems: the role of storage.” Renewable Energy 75 (2015): 14-20.&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:35">
+<p>Assessment of the European potential for pumped hydropower energy storage, Marcos Gimeno-Gutiérrez et al., European Commission, 2013&#160;<a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:36">
+<p>The calculation is based on the data in this article: How sustainable is stored sunlight? Kris De Decker, Low-tech Magazine, 2015.&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:37">
+<p>Evans, Annette, Vladimir Strezov, and Tim J. Evans. “Assessment of utility energy storage options for increased renewable energy penetration.” Renewable and Sustainable Energy Reviews 16.6 (2012): 4141-4147.&#160;<a href="#fnref:37" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:38">
+<p>Zakeri, Behnam, and Sanna Syri. “Electrical energy storage systems: A comparative life cycle cost analysis.” Renewable and Sustainable Energy Reviews 42 (2015): 569-596.&#160;<a href="#fnref:38" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:39">
+<p>Steinke, Florian, Philipp Wolfrum, and Clemens Hoffmann. “Grid vs. storage in a 100% renewable Europe.” Renewable Energy 50 (2013): 826-832.&#160;<a href="#fnref:39" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:40">
+<p>Heide, Dominik, et al. “Reduced storage and balancing needs in a fully renewable European power system with excess wind and solar power generation.” Renewable Energy 36.9 (2011): 2515-2523.&#160;<a href="#fnref:40" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="/es/tags/renewable-energy/" class="">Renewable energy</a></span> 
+		        
+		           <span><a href="/es/tags/wind-power/" class="">Wind power</a></span> 
+		        
+		           <span><a href="/es/tags/solar-power/" class="">solar power</a></span> 
+		        
+		           <span><a href="/es/tags/energy-storage/" class="">energy storage</a></span> 
+		        
+		           <span><a href="/es/tags/power-transmission/" class="">power transmission</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Como diseñar un mercante a vela para el siglo 21?</h3>
+		<p class="index-summary">Es sorprendentemente difícil construir un mercante a vela neutro en emisiones de carbono; especialmente en estos tiempos porque nuestros estándares de seguridad, salud, higiene, confort y comodidad han cambiado profundamente desde la Era de los Grandes Veleros</p>
+		<time class="published">11 de mayo de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="/es/2020/09/how-to-make-biomass-energy-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2020/09/how-to-make-biomass-energy-sustainable-again/images/dithers/pollards-germany_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Como hacer nuevamente sostenible la energía de biomasa</h3>
+		<p class="index-summary">Desde el neolítico hasta principios del siglo veinte, los árboles recepados, la poda de copas y los setos nos han proporcionado materiales, comida y energía sostenible.</p>
+		<time class="published">20 de septiembre de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Cocinas termoeléctricas: es hora de descartar los paneles solares?</h3>
+		<p class="index-summary">Cocinas a leña, equipadas con generadores termoeléctricos, pueden producir electricidad en forma más sustentable, confiable y menos costosa, que usando paneles fotovoltaicos.</p>
+		<time class="published">26 de mayo de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="/es/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Qué tan sostenible es un sitio web operado con energía solar?</h3>
+		<p class="index-summary">En este artículo, presentaremos los datos relacionados al consumo de energía y tiempo de actividad, y calcularemos la energía interna de nuestra configuracion. En base a estos resultados, consideraremos el equilibrio óptimo entre la sostenibilidad y el tiempo de actividad del servidor, y delinearemos las posibles mejoras.</p>
+		<time class="published">28 de enero de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="es/about">
+  Acerca de
+</a>
+    <a href="es/power">
+  Power
+</a>
+    <a href="es/about/team">
+  Colophon
+</a>
+    <a href="es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

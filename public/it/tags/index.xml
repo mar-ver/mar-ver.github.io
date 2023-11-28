@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Italiano</title>
+    <link>/it/tags/</link>
+    <description>Questo e un sito a energia solare, il che vuol dire che a volte va offline.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cooking and Food Preservation</title>
+      <link>/it/tags/cooking-and-food-preservation/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/it/tags/cooking-and-food-preservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>/it/tags/diy/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/it/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy Security</title>
+      <link>/it/tags/energy-security/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/it/tags/energy-security/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
