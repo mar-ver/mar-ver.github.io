@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Elektryczne welomobile: Szybkie i wygodne jak samochody, lecz 80 razy bardziej wydajne cz. 1 | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Elektryczne welomobile: Szybkie i wygodne jak samochody, lecz 80 razy bardziej wydajne cz. 1" />
+<meta name="twitter:title" content="Elektryczne welomobile: Szybkie i wygodne jak samochody, lecz 80 razy bardziej wydajne cz. 1"/>
+
+<meta property="og:description" content="Żeby naładować baterie tylu welomobili, ilu jest ludzi na świecie, wystarczy moc 25% obecnie działających turbin wiatrowych." />
+
+<meta name="twitter:description" content="Żeby naładować baterie tylu welomobili, ilu jest ludzi na świecie, wystarczy moc 25% obecnie działających turbin wiatrowych."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2012-10-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-10-24T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="transportation" />
+<meta property="article:tag" content="human power" />
+<meta property="article:tag" content="bicycles" />
+
+</head>
+<body id="elektryczne-welomobile-szybkie-i-wygodne-jak-samochody-lecz-80-razy-bardziej-wydajne-cz.-1">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/pl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/pl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/pl/power">Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/about/ " data-nav="about" >
+                <span>O nas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Proste technologie, proste rozwiązania</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemy zaawansowanych technologii</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Zapomniane technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Czytanie offline</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/archives/ " data-nav="archive" >
+                <span>Archiwum</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/pl/solar/donate/ " data-nav="donate" >
+                <span>Wspomóż nas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Elektryczne welomobile: Szybkie i wygodne jak samochody, lecz 80 razy bardziej wydajne cz. 1</h1>
+
+				<p class="summary">
+					Żeby naładować baterie tylu welomobili, ilu jest ludzi na świecie, wystarczy moc 25% obecnie działających turbin wiatrowych.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">24 października 2012</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/pl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Przekład</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/pl/translators/micha%C5%82-kolbusz/">Michał Kolbusz</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/es/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/">es</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile_dithered.png" alt='Elektryczny welomobil. Wszystkie zdjęcia: Fietser.be.' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/electric-velomobile_hua26eb14c49e339d077898ca3a7e869f7_165005_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Elektryczny welomobil. Wszystkie zdjęcia: <a href="https://sites.google.com/site/mobilitylabbe/Home" target="_blank" >Fietser.be</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Zarówno welomobil, jak i rower elektryczny, zwiększa zasięg rowerzysty - ten pierwszy poprawia aerodynamikę i ergonomię jazdy, zaś drugi wspomaga siłę nóg napędem elektrycznym zasilanym z baterii.</p>
+<p>Elektryczny welomobil łączy cechy obu pojazdów. Maksymalizuje zasięg osiągany przez kolarza do tego stopnia, że jest w stanie zastąpić większość, jak nie wszystkie, podróże samochodem osobowym.</p>
+<p>Elektryczne welomobile osiągają prędkość i poziom komfortu porównywalny do samochodów elektrycznych (w warunkach miejskich, przyp. tłum.), jednocześnie będąc od nich 80 razy bardziej wydajnymi. Zaledwie ćwierć, z obecnie pracujących turbin wiatrowych, wygenerowałoby wystarczającą ilość energii do zasilenia tylu welomobili, ilu jest ludzi na świecie.</p>
+<p>Mało kto uważa rower za przydatny środek transportu na dystansach większych niż 5 kilometrów. Na przykład, w USA 85% podróży rowerem wynosi mniej niż 5 km. Nawet w Holandii, najbardziej przyjaznym rowerom kraju w świecie zachodnim, 77% podróży rowerem jest krótszych niż 5 kilometrów, a tylko 1% jest dłuższych niż 15 kilometrów. Dla porównania, średnia długość jazdy samochodem wynosi 15,5 kilometra w USA i 16,5 kilometra w Holandii, ze średnim dystansem dojazdu do pracy wynoszącym 19,5 km w USA i 22 km w Holandii (Źródła:
+<a href="http://blog.bikeleague.org/blog/2010/01/national-household-travel-survey-short-trips-analysis/" target="_blank" >1</a>, <a href="http://www.cbs.nl/nl-NL/menu/themas/verkeer-vervoer/publicaties/artikelen/archief/2008/2008-2539-wm.htm" target="_blank" >2</a>, <a href="http://nhts.ornl.gov/2009/pub/stt.pdf" target="_blank" >3</a>, <a href="http://nhts.ornl.gov/2009/pub/stt.pdf" target="_blank" >4</a>, <a href="http://www.cvs-congres.nl/cvspdfdocs/cvs10_027.pdf" target="_blank" >5</a>).</p>
+<p>To jasne, że rower tak łatwo nie zastąpi samochodu. W zależności od sprawności fizycznej, rowerzysta osiąga prędkość
+podróżną na poziomie od 10 do 26 km/godz., co oznacza że dojazd do pracy, w te i z powrotem, zająłby co najmniej 2 do 4 godzin dziennie. Silny przedni wiatr wydłuży ten czas jeszcze bardziej, a jeśli rowerzysta się śpieszy, albo na  jego drodze pojawią się podjazdy, to przyjedzie do pracy zlany potem. Kiedy pada deszcz, przyjedzie przemoczony, a kiedy jest zimno to z zgrabiałymi od chłodu stopami i dłońmi. Dłuższa jazda na rowerze nie jest obojętna dla ciała:
+nadgarstki, plecy, ramiona, kark i krocze cierpią, w szczególności kiedy wybierzemy sportowy rower.</p>
+<p>Rowery ze wspomaganiem elektrycznym rozwiązują niektóre, ale nie wszystkie, z tych problemów. Silnik elektryczny pozwala dotrzeć do celu szybciej i mniejszym wysiłkiem, ale nie chroni kolarza przed niepogodą. Dłuższe podróże wciąż będą powodować dyskomfort. Co więcej, zasięg większości rowerów elektrycznych (ok. 25 kilometrów) dorównuje długości średniej drogi do pracy tylko w jedną stronę, co oznacza że nie zastąpi wszystkich podróży.</p>
+<h2 id="zalety-welomobilu-ze-wspomaganiem-elektrycznym">Zalety Welomobilu Ze Wspomaganiem Elektrycznym</h2>
+<p>Welomobil - <a href="https://lowtechmag.gitlab.io/solar/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/" >poziomy trójkołowiec z aerodynamicznym nadwoziem</a> - na dłuższych dystansach może stać się ciekawą alternatywą dla roweru. Nadwozie chroni kierowcę i bagaż przed warunkami atmosferycznymi, a wygodna, półleżąca pozycja pozwala pokonywać dłuższe dystanse nie odczuwając dyskomfortu. Co więcej, welomobil (nawet bez elektrycznego napędu) jest od roweru elektrycznego znacznie szybszy.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-2_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/electric-velomobile-2_hu0d5a8121346cd8391a5ed6bfdcbf0bb1_36301_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Do prędkości 10 km/godz. opór toczenia jest tym, z czym rowerzysta musi się przede wszystkim mierzyć. Powyżej tej  prędkości, coraz większą rolę zaczyna odgrywać opór powietrza i powyżej 25 km/godz. staje się czynnikiem dominującym. Dzieje się tak dlatego, że opór toczenie rośnie liniowo ze wzrostem prędkości, za to opór powietrza rośnie z kwadratem prędkości. Ponieważ welomobil jest dużo bardziej aerodynamiczny niż kolarz na rowerze - współczynnik oporu aerodynamicznego cX jest 30 razy niższy - wkładając ten sam wysiłek, może uzyskać wyższą
+prędkość.</p>
+<blockquote>
+<p>Po zaopatrzeniu w pomocniczy silnik elektryczny, słabe strony welomobilu - wolne przyśpieszenie i trudności na podjazdach - znikają.</p>
+</blockquote>
+<p>Wadą welomobili jest ich wyższa waga, w porównaniu z rowerami, przez co wolniej przyśpieszają i trudniej podjeżdżają na wzniesienia (w pozycji półleżącej kierowca nie może pedałować na stojąco, przez co, na podjazdach nie może użyć dodatkowej siły, przyp. tłum.). Przyśpieszenie jest odwrotnie proporcjonalne do masy pojazdu, więc rozpędzenie welomobilu wymaga, mniej więcej, dwukrotnie więcej energii niż roweru elektrycznego (w zależności oczywiście od wagi kolarza i pojazdu).</p>
+<p>Po zaopatrzeniu w pomocniczy silnik elektryczny, słabe strony welomobilu - wolne przyśpieszenie i trudność na  podjazdach - znikają. Jednocześnie, wspomaganie elektryczne zwiększa zasięg pojazdu, bardziej niż w przypadku roweru elektrycznego, dzięki wybitnym właściwością aerodynamicznym</p>
+<h2 id="jazda-testowa-ferrari">Jazda Testowa Ferrari</h2>
+<p>W kwietniu 2012 roku, odbyłem jazdę testową elektrycznym welomobilem <a href="https://sites.google.com/site/mobilitylabbe/blog/e-wawabio-electrichybrid" target="_blank" >eWAW</a> sprzedawanym przez <a href="https://sites.google.com/site/mobilitylabbe/Home" target="_blank" >Fietser.be</a>, po mieście Ghent i wzdłuż ścieżki holowniczej nad rzeką Schelde. Towarzyszył mi w welomobilu bez wspomagania Brecht Vandeputte - siła napędowa belgijskiej wytwórni.</p>
+<p><a href="https://sites.google.com/site/mobilitylabbe/Home/waw/what-is-the-WAW/berichtzondertitel-1" target="_blank" >Welomobil WAW</a>
+(bez wspomagania elektrycznego) został stworzony do wygrywania wyścigów pojazdów napędzanych siłą ludzkich mięśni. Później, przystosowano go do codziennego użytku, dzięki m. in. nieprzebijalnej tylnej oponie, otwartym nadkolom poprawiającym promień skrętu, regulowanemu siedzeniu i bardziej wytrzymałemu nadwoziu (z klatką bezpieczeństwa i z rollbarem otoczonym aramidowymi strefami zgniotu). WAW jest znany na świecie, przynajmniej wśród welomobilistów, jako jeden z najszybszych modeli na rynku - niektórzy nazywają go &ldquo;Ferrari wśród welomobili&rdquo;.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-WAW_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/electric-velomobile-WAW_hu288362a81dd49a0a87ad93e6b942a877_30948_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-WAW_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>WAW wyróżnia się spośród konkurencji niską masą (28 kg w porównaniu do 34 kg w najbardziej popularnych  holenderskich welomobilach <a href="http://en.velomobiel.nl/quest/" target="_blank" >Quest</a> i <a href="http://alleweder.jp-web.de/index.php?page=introduction&amp;lang=en" target="_blank" >Alleweder</a>) i niskim środkiem ciężkości (prześwit wynosi jedynie 9 cm, a wysokość tylko 90 cm). W połączeniu z twardym zawieszeniem, szerokim rozstawem kół i precyzyjnym sterowaniem (dwa drążki kierownicze zamiast jednego), uzyskujemy wybitne osiągi i świetne prowadzenie nawet w ostrych zakrętach. Oczywiście, WAW ma swoje wady, których można się spodziewać po prawdziwie sportowym wozie - wykończenie wnętrza jest spartańskie, a jadąc po kostce brukowej tłucze się niemiłosiernie. Te cechy sprawiają, że na złych drogach, inne welomobile z miększym zawieszeniem będą lepszym wyborem.</p>
+<blockquote>
+<p>250 Watów mocy elektrycznego wspomagania daje, kolarzowi o przeciętnej sprawności, moc na poziomie najlepszych sportowców.</p>
+</blockquote>
+<p>eWAW, którym jeździłem miał wszystko co standardowy WAW, plus silnik elektryczny o mocy 250 Wattów i zaskakująco mały akumulator o pojemności 288 Wh, który pozwalał na jazdę wspomaganą od ok. 60 do 130 km. Akumulator i silnik zwiększyły wagę pojazdu o jedyne 5 kg, dobijając do wagi 33 kg. Jest to porównywalne z wagą welomobili bez wspomagania, jednak zauważalnie mniej od modeli elektrycznych. Allewader, z silnikiem elektrycznym i akumulatorem, waży 45 kg, tyle samo co hybrydowy e-Sunrider.</p>
+<h2 id="pedałując-50-kmgodz">Pedałując 50 km/godz</h2>
+<p>Jak szybki jest WAW? O ile szybszy jest eWAW? Po pierwsze, eWAW jest biomechanicznym pojazdem hybrydowym, w którym napęd biologiczny - powszechnie zwany &ldquo;kierowcą&rdquo; - nie jest w zestawie. Ponieważ to kierowca generuje większość mocy pojazdu, prędkość jaką może osiągnąć będzie zależała on jego lub jej sprawności. Niech najlepszym przykładem tego będzie moja jazda próbna. W czasie około półtorej godziny, Brecht i ja, zdołaliśmy utrzymać średnią prędkość na poziomie 40 km/godz. Ja prowadziłem eWAW, mając silnik elektryczny do pomocy, a WAW Brechta nie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-3_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/electric-velomobile-3_huf71a65dd75510d8f8e4a0a768fbcd3f9_24248_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-3_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>W literaturze poświęconej kolarstwu możemy spotkać się z podziałem kolarzy na trzy kategorie. Pierwsza to ludzi o  przeciętnej sprawności fizycznej, druga to ludzie wysportowani, a trzecia to najwyższej klasy sportowcy. Kolarz  o przeciętnej sprawności jest w stanie pedałować ze stałą mocą 100-150 Wattów przez jedną godzinę. Kierując eWAW, przekładałoby się to na prędkość 35-40 km/godz. w idealnych warunkach drogowych - na otwartym torze wyścigowym w całkowicie zamkniętym pojeździe. Wysportowani ludzie mogą osiągnąć moc 200 Wattów w czasie jednej godziny, co przełoży się na prędkość 45-50 km/godz. w tych samych warunkach.</p>
+<p>250 Watów mocy elektrycznego wspomagania daje kolarzowi o przeciętnej sprawności (takiemu jak ja),moc na poziomie najlepszych sportowców (100W + 250W = 350W).</p>
+<h2 id="maksymalizacja-zasięgu-i-wydajności">Maksymalizacja Zasięgu i Wydajności</h2>
+<p>Jestem maniakiem prędkości, więc kiedy tylko znalazłem odpowiedni, pusty kawałek jezdni, pierwsze co zrobiłem było  odkręcenie manetki wspomagania do oporu i pedałowanie jak szalony. Jeśli miałbym do dyspozycji 350 Wattów mocy, tak sobie kalkulowałem, to mógłbym osiągnąć 70, a nawet 80 km/godz.! Jednak, co wywoływało moją frustrację, nie mogłem przekroczyć prędkości 50 km/godz. - po prostu brakowało mi przełożeń do osiągnięcia wyższych prędkości.</p>
+<p>Dlaczego tak się stało? Dlatego, że eWAW został zoptymalizowany pod kątem maksymalnej wydajności. Silnik elektryczny jest przeznaczony jedynie do pomocy podczas przyśpieszania (i podczas podjazdów). Kiedy welomobilista osiągnie prędkość podróżną, mniej więcej 40-50 km/godz., przechodzi na niewspomagane pedałowanie.</p>
+<blockquote>
+<p>Decyzja o pracy wspomaganie elektrycznego jedynie podczas przyśpieszania ma sens. Dzięki temu, zasięg, tak kolarza jak i baterii, ogromnie się wydłuża.</p>
+</blockquote>
+<p>Jazda w eWAW nie zwiększy prędkości podróżnej ani maksymalnej, w porównaniu do niewspomaganego WAW, jednak zwiększy prędkość średnią, ponieważ wspomaga przyśpieszanie. Jest to inne podejście niż w rowerze elektrycznym, który daje ciągłe wspomaganie pedałowania po osiągnięciu prędkości podróżnej. Pod względem sprawności, rozwiązanie zastosowane w eWAW przynosi więcej korzyści.</p>
+<p>Rowerzysta zużywa mniej energii przyśpieszając niż welomobilista (z powodu niższej wagi roweru), lecz  potrzebuje więcej energii, aby utrzymać prędkość (z powodu gorszej aerodynamiki). Jadąc opływowym welomobilem zużywamy mniej energii, aby utrzymać stałą prędkość, w porównaniu z rowerzystą.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-4_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/electric-velomobile-4_hubf632fe54b6abf481df60f419adf4359_413060_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-4_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Mądrym wyborem, w przypadku welomobili, jest włączanie wspomagania jedynie podczas przyśpieszania, z tego powodu, że ten pojazd nie wymaga wiele energii (w przeciwieństwie do roweru) do utrzymania stałej prędkości. Dzięki temu, zasięg napędu, zarówno kierowcy jak i baterii, znacznie się wydłuża (szczytowy wysiłek fizyczny znacząco obniża wytrzymałość, kiedy pedałowanie stałym tempem może trwać godzinami). Kierowca zapewnia takie samo wsparcie bateriom, jak one jemu. Kiedy silnik wyłącza się, osiągając prędkość podróżną, zasięg akumulatorów znacząco wzrasta.</p>
+<p>Kierowca eWAW ma możliwość włączyć wspomaganie, jadąc z prędkością podróżną, za pomocą manetki przyśpieszenia. Ja, właśnie w ten sposób kierowałem eWAW, przez co baterie starczyły na &ldquo;zaledwie&rdquo; 60 kilometrów - ale przynajmniej mogłem nadążyć za Brechtem.</p>
+<h2 id="80-razy-bardziej-wydajny-od-samochodu-elektrycznego">80 Razy Bardziej Wydajny Od Samochodu Elektrycznego</h2>
+<p>Montowanie silnika elektrycznego w welomobilu jest kontrowersyjne pośród welomobilistów, tak samo, jak napęd  elektryczny jest pogardzany przez rowerowych purystów. Jednakże, jeśli porównamy welomobil z samochodem elektrycznym, ciągle postrzeganym jako przyszłość zrównoważonego transportu, ten drugi odpada w przedbiegach. <a href="http://www.notechmagazine.com/2012/10/life-cycle-analysis-of-electric-cars.html" target="_blank" >Welomobil jest, tak naprawdę wszystkim, czym samochód elektryczny chciałby być, lecz nie może</a> - zrównoważoną alternatywą dla samochodów z silnikami spalinowymi. Prawie niemożliwe jest stworzenie silnikowego pojazdu, który byłby sprawniejszy energetycznie od eWAW.</p>
+<blockquote>
+<p>Jeśli 300 milionów Amerykanów, zamieniła by swoje samochody na welomobile, to prąd elektryczny z tylko 25% obecnie działających turbin wiatrowych wystarczyłby żeby je zasilić.</p>
+</blockquote>
+<p>Na poparcie tego, można przeprowadzić prostą kalkulację. Wyobraźmy sobie taki scenariusz. Każdy z 300 milionów  Amerykanów zamienia swój samochód na welomobil i jedzie do pracy tego samego dnia. Aby naładować 300 milionów baterii welomobili, o pojemność 288 Wh, potrzeba 86.4 GWh prądu. Odpowiada to mocy 25% obecnie pracujących turbin wiatrowych w USA (przeciętnego dnia w okresie od lipca 2011 do czerwca 2012 roku, <a href="http://www.eia.gov/electricity/monthly/pdf/epm.pdf" target="_blank" >źródło:</a>). Innymi słowy: moglibyśmy przejść na w pełni zasilany ze źródeł odnawialnych transport indywidualny wykorzystując jedynie już działające turbiny.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/waw22_dithered.png" alt='Autor zdjęcia: Bill Bates' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/waw22_hue3c7984e41bacf97805a5aad42d5ce74_140995_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/waw22_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Autor zdjęcia: <a href="http://www.flickr.com/wmbates/sets" target="_blank" >Bill Bates</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>A teraz, wyobraźmy sobie, że każdy z 300 milionów Amerykanów wsiada do elektrycznego Nissana Leaf i jedzie do pracy tego samo dnia. Żeby naładować każdą z 300 milionów baterii o pojemności 24 kWh potrzeba 7 200 GWh elektryczności. To 20 razy więcej niż są w stanie dostarczyć wszystkie, obecnie pracujące turbiny wiatrowe w USA oraz 80 razy więcej niż potrzebowałby welomobile. Mówiąc krótko; pierwszy scenariusz jest realistyczny, drugi nie.</p>
+<p>Nawet, jeśli w całości zapełnimy samochody elektryczne pasażerami (przyjmijmy liczbę 4 pasażerów i kierowcę), to  różnica w sprawności energetycznej pozostanie znaczna. 60 milionów elektrycznych samochodów, będzie potrzebowało 16,6 razy więcej energii, niż 300 milionów eWAW&rsquo;ów. Co więcej, właściciel może łatwo sam naładować swój welomobil. Panel solarny o mocy ok. 60 Wattów (o powierzchni nie przekraczającej 1 m²) wytwarza wystarczająca ilość energii, żeby naładować baterie, nawet podczas krótkich zimowych dni.</p>
+<p>Europie wystarczyłaby nawet mniejsza część obecnie pracujących turbin wiatrowych niż Stanom Zjednoczonym, żeby  zaopatrzyć każdego Europejczyka w elektryczny welomobil. Oczywiście, należy pamiętać, że napęd biomechaniczny, czyli kierowca, musi być czymś zasilany. Jednak mając na uwadze, że na Zachodzie ludzie jedzą za dużo i jeżdżą samochodami na siłownie żeby zrzucić zbędny tłuszcz, możemy spokojnie pominąć tę kwestię.</p>
+<h2 id="a-niby-gdzie-ja-tym-dojadę">&ldquo;A Niby, Gdzie Ja Tym Dojadę?</h2>
+<p>Od razu, rzuca się w oczy wielka różnica w sprawności energetycznej, pomiędzy elektrycznym welomobilem, a samochodem elektrycznym, w szczególności, że oba pojazdy mają podobny zasięg. W zależności od tego, jak często używamy wspomagania, możemy przejechać w eWAW między 60 a 130 kilometrów. Nissan Leaf osiąga, <a href="https://lowtechmag.gitlab.io/solar/2010/05/the-status-quo-of-electric-cars-better-batteries-same-range/" >w najlepszym wypadku, zasięg 160 km</a>, ale tylko wtedy, kiedy jedziemy wolno i spokojnie i kiedy nie używamy klimatyzacji, ogrzewania i wyłączymy wszystkie pokładowe gadżety.</p>
+<blockquote>
+<p>Dodając jedynie 6 kilogramów dodatkowych baterii, zwiększamy zasięg welomobilu do 450 km</p>
+</blockquote>
+<p>Welomobil nie potrzebuje systemu ogrzewania, nawet w zimie, ponieważ ręce i stopy kierowcy są chronione przez nadwozie, a kierowca wykonuje wysiłek fizyczny (<a href="https://lowtechmag.gitlab.io/solar/2011/02/insulation-first-the-body-then-the-home/" >aktywność fizyczna jest najważniejszym czynnikiem w utrzymaniu komfortu termicznego</a>). Potrzeba chłodzenia latem, obniży zasięg welomobilu - kierowca będzie częściej włączał silnik elektryczny, aby móc ochłonąć.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-5_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/electric-velomobile-5_hu6e388cb91158e5169159ffd4bfd6e185_33576_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/electric-velomobile-5_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Co ciekawe, jeśli zajdzie taka potrzeba, dużo łatwiej jest zwiększyć zasięg welomobilu niż samochodu elektrycznego.  eWAW można doposażyć w jedną, lub dwie, dodatkowe baterie, zwiększające zasięg pojazdu do 180 km (przy ciągłym użyciu wspomagania), lub do 450 km (jeśli silnik będzie załączany jedynie podczas przyśpieszania). Dwie dodatkowe baterie ważą jedynie 6 kg i zajmują na tyle mało miejsce, że pozostaje jeszcze sporo przestrzeni na bagaż. Jeśli przyjmiemy, że kierowca waży 70 kg, to dodając 6 kg, zwiększymy całkowitą masę pojazdu z kierowcą z 103 kg do 109 kg - wzrost masy o 6%. Zwiększenie zasięgu samochodu elektrycznego nie jest już takie proste. W Nissanie Leaf musielibyśmy zastąpić dodatkowymi bateriami cały bagażnik i tylne siedzenia, a auto przybrałoby na wadzę z 1 582 kg do 2 022 kg (wliczając kierowcę o wadze 70 kg) - byłby to przyrost masy o 30%.</p>
+<p>Innym sposobem, na zwiększenie zasięgu pojazdów elektrycznych, jest wymiana baterii na stacji, lub szybkie ich ładowanie. Obie opcje są dostępne, zarówno dla welomobili jak i samochodów elektrycznych, jednak budowa, wymaganej dla samochodów elektrycznych, infrastruktury ładowania to duże wyzwanie. W przypadku elektrycznych welomobili, postawienie odpowiednich stacji wydaje się znacznie prostsze. Akumulator w eWAW ma 80 razy mniejszą pojemność niż akumulatory Nissana Leaf, co sprawia, że <a href="https://lowtechmag.gitlab.io/solar/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/" >szybkie ładowanie</a> jest realne. Waży 73 razy mniej (6 kg w porównaniu z 438 kg), dzięki czemu zamiana baterii, może być prostą, wykonywaną ręcznie czynnością, nie wymagającą żadnej zaawansowanej technologii (w przeciwieństwie do potrzeby szybkiej zamiany, ważącej ponad 400 kg baterii).</p>
+<p>Mamy równie zrównoważone środki transportu dla tych, którzy chcą szybko przemieszczać się na długich dystansach (kolej i <a href="https://lowtechmag.gitlab.io/solar/2009/07/get-wired-again-trolleybuses-and-trolleytrucks/" >trolejbusy)</a>. Welomobil jest dla tych, którzy wola indywidualny środek transportu, albo bardziej aktywny styl życia.</p>
+<blockquote>
+<p>Pojemność dróg można zwiększyć, co najmniej czterokrotnie, jeśli przestawimy się z samochodów na welomobile</p>
+</blockquote>
+<p>Jeśli baterie w welomobilu wyczerpią się, kierowca wciąż może wrócić do domu - będzie po prostu pedałował. Samochód elektryczny nie ma takiej możliwości, ponieważ jest na to za ciężki. Nissan Leaf waży tyle co 46 eWAW&rsquo;ów. Przeważająca większość energii samochodu elektrycznego (tak samo jak w samochodzie z silnikiem  spalinowym) nie idzie na przemieszczanie kierowcy, tylko samochodu - Nissan Leaf waży 21 razy więcej niż przeciętny człowiek. eWAW ta relacja jest odwrotna - kierowca waży dwa, trzy razy więcej niż pojazd.</p>
+<h2 id="płynny-i-szybki-ruch-uliczny">Płynny i Szybki Ruch Uliczny</h2>
+<p>Dzięki eWAW, jazda na dłuższych dystansach może być szybka i wygodna. Jadąc z prędkością podróżną 50 km/godz., średni dojazd do pracy w USA (19,5 km) zająłby 23,4 minuty. To bardzo dobry rezultat, biorąc pod uwagę, że średni czas dojazdu do pracy samochodem w USA zajmuje 22,8 minut ([rok 2009, źródło:] (<a href="http://nhts.ornl.gov/2009/pub/stt.pdf%29%29" target="_blank" >http://nhts.ornl.gov/2009/pub/stt.pdf))</a>. W Holandii, gdzie ruch na drogach jest większy, elektryczny welomobil ma potencjał wyprzedzić samochód. Welomobil mógłby przejechać średni dystans dojazdu do pracy (22 km) w 26,4 minuty, co samochodem zajmuje średnio 28 minut (<a href="http://www.cvs-congres.nl/cvspdfdocs/cvs10_027.pdf" target="_blank" >źródło</a>).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/velomobile-1_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/velomobile-1_hu32350440f19af33527417dd897bf3f43_27463_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient/images/dithers/velomobile-1_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Oczywiście to, że welomobilem można jechać z prędkością 50 km/godz., nie oznacza, że taka będzie średnia prędkość
+podczas całej podróży. Jeśli samochody byłyby w stanie utrzymać swoją maksymalną prędkość podróżną, zostawiałyby welomobile daleko w tyle. W rzeczywistości tak nie jest, z powodu ograniczeń prędkości, świateł i korków.</p>
+<p>Welomobile spotykają na swojej drodze te same przeszkody, jednak mają one znaczącą przewagę nad samochodami, z tego powodu, że zajmują znacznie mniej przestrzeni (jeden samochód zajmuje tyle miejsca, co cztery welomobile). Płynny i szybki ruch uliczny jest bardziej realny jeśli drogami będą jeździć pojazdy na pedały zamiast samochodów. Pojemność dróg można zwiększyć, co najmniej czterokrotnie, jeśli przestawimy się z samochodów na welomobile. Co więcej, prędkość podróżna welomobilu nie przekracza większości ograniczeń prędkości.</p>
+<h2 id="odpicuj-swój-welomobil">Odpicuj Swój Welomobil</h2>
+<p>Welomobil można wyposażyć w mocniejszy silnik i wyższe przełożenia, pozwalające podróżować z wyższą prędkością. W ten sposób, pojazd straci na sprawności i zasięgu, ale skoro i eWAW, jest 80 razy bardziej wydajny energetycznie od samochodu elektrycznego, to mamy całkiem duże pole do popisu na &ldquo;przypakowanie&rdquo; welomobilu. O tych możliwościach, i o prawnych przeszkodach stojących na drodze welomobili, porozmawiamy w drugiej części artykułu.</p>
+<p>Kontynuuj czytanie: 1 / <a href="https://lowtechmag.gitlab.io/solar/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient-part-two/" >2</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Zapisz się do naszego newslettera</a>.</li>
+        <li> Wesprzyj Low-tech Magazine przez <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> lub <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/pl/offline-reading/">Czytaj Low-tech Magazine off-line</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/transportation/" class="">Transportation</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/human-power/" class="">human power</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/bicycles/" class="">Bicycles</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/pl/2011/12/how-to-downsize-a-transport-network-the-chinese-wheelbarrow/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2011/12/how-to-downsize-a-transport-network-the-chinese-wheelbarrow/images/dithers/chinese-wheelbarrow_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Chińska taczka z żaglem: sieć transportowa w ludzkiej skali</h3>
+		<p class="index-summary">Jak na tak przeciętny pojazd, zwykła taczka może pochwalić się zaskakująco ekscytującą historią.</p>
+		<time class="published">29 grudnia 2011</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/pl/2014/05/modular-cargo-cycles/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2014/05/modular-cargo-cycles/images/dithers/XYZ-cargo-Trike_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Modułowe rowery transportowe</h3>
+		<p class="index-summary">Każdy sam może tanio zbudować modułowy rower cargo i łatwo dopasować go do swoich potrzeb.</p>
+		<time class="published">5 maja 2014</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/pl/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/images/dithers/Cargo-Cycle-Electric-Assist-Germany_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Rowery transportowe zastępują ciężarówki na ulicach Europejskich miast</h3>
+		<p class="index-summary">Rower dostawczy jest w mieście co najmniej tak samo szybki jak furgonetka, a na pewno znacznie tańszy w eksploatacji.</p>
+		<time class="published">24 września 2012</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Jak zbudować generator rowerowy z panelem sterowania</h3>
+		<p class="index-summary">Zbudowaliśmy generator prądu napędzany pedałami, wyposażony we własny panel sterowania, służący nam jednocześnie jako domowe źródło energii i przyrząd do ćwiczeń. Można go zintegrować z systemem fotowoltaicznym. Poniżej zamieszczamy szczegółową instrukcję, dzięki której zbudujecie swój własny generator przy pomocy standardowych ręcznych narzędzi i minimum umiejętności technicznych.</p>
+		<time class="published">6 marca 2022</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Rozmiar strony: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/pl/about">
+  O nas
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/pl/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/pl/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/pl/donate">
+  Wspomóż nas
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

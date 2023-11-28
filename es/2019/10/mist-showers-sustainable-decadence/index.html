@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ducha de niebla: decadencia sostenible | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Ducha de niebla: decadencia sostenible" />
+<meta name="twitter:title" content="Ducha de niebla: decadencia sostenible"/>
+
+<meta property="og:description" content="Si cambiamos a duchas de niebla, la infraestructura que hizo posible la ducha moderna se podría reducir y simplificar." />
+
+<meta name="twitter:description" content="Si cambiamos a duchas de niebla, la infraestructura que hizo posible la ducha moderna se podría reducir y simplificar."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-hack-kit_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-hack-kit_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-hack-kit_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-10-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-23T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Off-the-grid" />
+
+</head>
+<body id="ducha-de-niebla-decadencia-sostenible">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Ducha de niebla: decadencia sostenible</h1>
+
+				<p class="summary">
+					Si cambiamos a duchas de niebla, la infraestructura que hizo posible la ducha moderna se podría reducir y simplificar.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">17 de octubre de 2019</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/es/translators/aliana-bertolo/">Aliana Bertolo</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2019/10/mist-showers-sustainable-decadence/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2019/10/mist-showers-sustainable-decadence/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/de/2019/10/mist-showers-sustainable-decadence/">de</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2019/10/mist-showers-sustainable-decadence/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pt/2019/10/mist-showers-sustainable-decadence/">pt</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pl/2019/10/mist-showers-sustainable-decadence/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-hack-kit_dithered.png" alt='Image: Mist Shower Hack Kit. Jonas Görgen.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/mist-shower-hack-kit_hu351c1c4959764df8b2b854a181073c5c_144807_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-hack-kit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Mist Shower Hack Kit. Jonas Görgen.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La ducha diaria sería difícil de mantener en un mundo sin combustibles fósiles. La ducha de niebla, una tecnología satisfactoria pero olvidada que utiliza muy poca agua y energía, podría ser una solución. El diseñador Jonas Görgen desarrolló un kit de bricolaje para convertir casi cualquier ducha en una ducha de niebla y me envió uno para probar.</p>
+<h2 id="la-huella-de-carbono-de-la-ducha-diaria">La huella de carbono de la ducha diaria</h2>
+<p>La ducha no recibe mucha atención en el contexto del cambio climático. Sin embargo, al igual que los aviones, los automóviles y los sistemas de calefacción, se ha convertido en una forma muy derrochadora e intensiva en el uso de energía, todo para satisfacer una necesidad básica: lavar el cuerpo. Cada día, muchos de nosotros vierte aproximadamente 70 litros de agua caliente sobre nuestros cuerpos para “limpiarnos”.</p>
+<p>Esta práctica requiere el uso de dos recursos escasos: agua y energía. Se presta más atención al alto consumo de agua de las duchas, pero el uso de energía es igual de problemático. La producción de agua caliente representa el segundo uso más significativo de energía en muchos hogares (después de la calefacción), y gran parte de esta se usa para ducharse. El tratamiento y la distribución del agua también hace uso de mucha energía.</p>
+<p>En contraste con la energía utilizada para la calefacción de espacios, que ha disminuido durante las últimas décadas, la energía utilizada para el agua caliente en los hogares ha estado en constante crecimiento. Una de las razones es que las personas se duchan más tiempo y con mayor frecuencia, y usan cabezales de ducha cada vez más potentes. Por ejemplo, en los Países Bajos de 1992 a 2016, la frecuencia de la ducha aumentó de 0,69 a 0,72 duchas por día, la duración de la ducha aumentó
+de 8,2 a 8,9 minutos y el flujo de agua promedio aumentó de 7,5 a 8,6
+litros por minuto. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<blockquote>
+<p>En muchas sociedades industriales ahora es común ducharse al menos una vez al día.</p>
+</blockquote>
+<p>En total, una persona holandesa promedio usó en 2016 50.2 litros de agua por día para ducharse, en comparación a &ldquo;solo&rdquo; 39.5 litros de agua por día en 1992. Este es un cálculo conservador ya que estos datos no incluyen las duchas tomadas fuera de la casa, por ejemplo aquellas tomadas en el gimnasio La investigación muestra que en muchas sociedades industriales, y especialmente entre las personas más jóvenes, ahora es común ducharse al menos una vez al día. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/original-shower_dithered.png" alt='Foto: La ducha artificial original. Verter un balde de agua sobre el cuerpo (u otra persona). Imagen: Daniel Julie (CC-BY-2.0).' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/original-shower_hu31b896b79fbdd229670445aefb928592_328129_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/original-shower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: La ducha artificial original. Verter un balde de agua sobre el cuerpo (u otra persona). Imagen: Daniel Julie (CC-BY-2.0).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Tomando a los holandeses como ejemplo, veamos el uso de energía y las emisiones de carbono de una ducha diaria caliente. Calentar 76.5 litros de agua (8.9 minutos x 8.6 litros por minuto) de 18 a 38 grados Celsius requiere 2.1 kilovatios-hora (kWh) de energía. Dependiendo de la fuente de energía (gas, electricidad), la intensidad de carbono de la red eléctrica (EE. UU. / UE) o la eficiencia de la caldera de gas (nueva / antigua), las emisiones de CO2 resultantes de una ducha promedio ascienden a 0.462 -
+0.921 kg. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Si comparamos esto con las emisiones de carbono de un automóvil relativamente eficiente en combustible (130 gCO2 / km), las emisiones de una ducha típica equivalen a 3.5 - 7 km de conducción, y este resultado ignora el costo de energía debido al tratamiento de agua y su distribución.</p>
+<blockquote>
+<p>Las emisiones de una ducha típica equivalen a 3.5 - 7 km de conducción</p>
+</blockquote>
+<p>En principio, la energía necesaria para una ducha podría ser generada mediante fuentes de energía renovables. Sin embargo, si ocho mil millones de personas se ducharan diariamente, el uso total de energía por año sería de 6,132 teravatios-hora (TWh). Esto es ocho veces la energía
+producida por las turbinas eólicas en todo el mundo en 2017 (745 TWh). Actualmente, todas las turbinas eólicas en el mundo podrían proporcionar a solo mil millones de personas una ducha diaria &ldquo;sostenible&rdquo;. Además, el uso de fuentes de energía renovables no reduce el consumo de agua de la ducha diaria. Para ser claros, las energías renovables son parte de la solución (calderas solares, biomasa, <a href="https://www.lowtechmagazine.com/2019/02/heat-your-house-with-car-tyres-and-earth-with-a-mechanical-windmill.html" target="_blank" >molinos de viento que generan calor</a>), pero también se debe considerar y repensar la demanda del lavado en un mundo post-carbono.</p>
+<h2 id="duchas-más-poderosas">Duchas más poderosas</h2>
+<p>Desde principios de la década de los 90, los cabezales de ducha de bajo flujo han proporcionado una forma de ducharse más eficiente con respecto al consumo de agua y energía. Estos cabezales de ducha usan entre cuatro y nueve litros de agua por minuto, aproximadamente la mitad del caudal de una ducha normal (diez a quince litros por minuto). Casi la mitad de todos los hogares holandeses tenían un cabezal de ducha de bajo flujo instalado en 2016, pero como hemos visto, la tasa de flujo promedio de las duchas desde la década de 1990 ha aumentado, no disminuido. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/rain-shower_dithered.png" alt='FOTO.Ducha efecto lluvia. Imagen: soak.com.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/rain-shower_hubde00b515ea5eb9f3b91ab563b6565b8_530016_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/rain-shower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>FOTO.Ducha efecto lluvia. Imagen: soak.com.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Esto se debe a que muchas duchas holandesas se han actualizado a duchas de efecto lluvia, que tienen un flujo de agua de aproximadamente 25 litros por minuto, el doble que un cabezal de ducha normal, y tres veces más de lo que usa un cabezal de ducha de bajo flujo. Una ducha de efecto lluvia de 8.9 minutos requiere 222 litros de agua y 6.3 kilovatioshora de energía para calentarla. La huella de carbono corresponde a 14.3-21.3 km de conducción.</p>
+<h2 id="la-vida-antes-de-las-duchas">La vida antes de las duchas</h2>
+<p>Podría sorprender a algunos de los lectores más jóvenes, pero hace solo cincuenta años la mayoría de las personas en las sociedades industriales no se duchaban en absoluto. Las unidades de ducha montadas en la pared, instaladas sobre la bañera, se generalizaron solo en la década de 1970, y las cabinas de ducha se convirtieron en un elemento habitual en las casas nuevas solo desde las décadas de 1980 y 1990. <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Antes de la llegada de la ducha, las personas tomaban uno (o algunos) baño (s) por semana, y el los días intermedios se lavaban en el fregadero con una pequeña toalla.</p>
+<blockquote>
+<p>El uso semanal de agua y energía de una ducha diaria supera el uso de agua y energía de 3 baños en bañera.</p>
+</blockquote>
+<p>La ducha a menudo se presenta como una opción más sostenible que la bañera, porque se dice que esta última usa más agua. Sin embargo, el uso semanal de agua y energía de una ducha diaria supera rápidamente el uso de agua y energía de hasta 3 baños en bañera semanales. <sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> El baño de esponja ahorra aún más agua y energía: aproximadamente dos litros de agua son suficientes para limpiarse, y el agua podría incluso estar fría
+porque no todo el cuerpo se moja al mismo tiempo.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/Carl_Larsson_Summer_Morning_1908_dithered.png" alt='Foto. Tomando un baño de esponja. Summer Morning, una pintura de Carl Larsson, 1908.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/Carl_Larsson_Summer_Morning_1908_hua002c00d43f0c7f0e8df3d2b882ff615_156000_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/Carl_Larsson_Summer_Morning_1908_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto. Tomando un baño de esponja. Summer Morning, una pintura de Carl Larsson, 1908.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Las organizaciones ambientales, las compañías de agua y los municipios alientan a las personales residentes en sociedades industriales a tomar duchas más cortas, usar duchas de bajo flujo e instalar calderas de agua eficientes. También hay factores que influyen en el uso de energía y / o agua que estas instituciones no se atreven a cuestionar como frecuencia de la ducha, la temperatura del agua (&ldquo;tomar duchas frías&rdquo;) o el acto de ducharse; nunca se sugiere que un baño de esponja pueda ser suficiente. Claramente, la ducha caliente diaria se considera hoy no como un lujo sino como una necesidad básica.</p>
+<h2 id="por-qué-nos-duchamos">¿Por qué nos duchamos?</h2>
+<p>Sin embargo, ducharse no solo lava el cuerpo. Una ducha que se centra por completo en la limpieza del cuerpo (la llamada ducha Navy o Sea shower) requiere de muy poco tiempo, energía y agua. Una ducha Navy consiste en una ducha de 30 segundos para mojarse, enjabonar el cuerpo mientras el agua está apagada, y se completa con otra ducha de 30
+segundos para enjuagarse.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/showers-soldiers_dithered.png" alt='Foto: Hasta la década de los 70, las duchas solo se usaban en barracas o prisiones para lavar a multitud de personas en poco tiempo. [2] Imagen: La douche au Régiment, una pintura de Eugène Chaperon, 1887.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/showers-soldiers_hu8b12e954d0448af8a0b2e2ce44b520d1_627905_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/showers-soldiers_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Hasta la década de los 70, las duchas solo se usaban en barracas o prisiones para lavar a multitud de personas en poco tiempo. [2] Imagen: La douche au Régiment, una pintura de Eugène Chaperon, 1887.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Suponiendo un flujo de agua promedio, una ducha Navy (caliente) usa solo 8.3 litros de agua y 0.2 kilovatios-hora de energía. Un baño de esponja diario tendría incluso un menor consumo de agua y energía. Una ducha caliente de nueve minutos por día no es una necesidad básica: es un placer. Desde la década de 1990, la ducha diaria ha sido retratada en anuncios como un medio de relajación, alivio del estrés y placer sensual. <sup id="fnref3:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref2:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<h2 id="duchas-de-niebla">Duchas de niebla</h2>
+<p>El uso de la ducha para relajación parece ser incompatible con una reducción drástica de su uso de agua y energía. Sin embargo, hay una tecnología que podría combinar las dos cosas: la ducha de niebla. Una ducha de niebla atomiza el agua en gotas muy finas (menos de 10
+micras), lo cual reduce en gran medida el flujo de agua. Buckminster Fuller inventó la primera en 1936 como parte de su baño Dymaxion (la llamó una &ldquo;pistola de niebla&rdquo;). La idea fue retomada en la década de 1970,
+cuando se realizaron varios ensayos y experimentos lavando manos y cuerpo con agua atomizada.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mini-mister_dithered.png" alt='Izquierda: Ducha de niebla desarrollada por la NASA. Derecha: Ducha de niebla desarrollada por el Grupo de Vivienda Mínima de Canadá (Canadian Minimun Housing Group). Ambas son de la década de 1970.[^7]' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/mini-mister_hu5241c6ab314b6958397f80ee173fddf2_360777_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mini-mister_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Izquierda: Ducha de niebla desarrollada por la NASA. Derecha: Ducha de niebla desarrollada por el Grupo de Vivienda Mínima de Canadá (Canadian Minimun Housing Group). Ambas son de la década de 1970.[^7]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La NASA desarrolló una ducha de niebla con una boquilla móvil de mano que incorporaba una válvula de agua controlada con el pulgar conectada a una manguera flexible. El uso promedio de agua para una ducha de nueve minutos se midió en 2.2 litros, lo que corresponde a un flujo de agua de tan solo 0.24 litros por minuto. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> El Grupo de Vivienda Mínima de Canadá desarrolló y probó varias duchas de niebla y obtuvo un caudal de 0,33 litros de agua por minuto. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> En ambos casos, los análisis bacterianos en la piel mostraron que las duchas de niebla limpian el  cuerpo tan bien como una ducha &ldquo;normal&rdquo; de la misma duración, usando 30 a 40 veces menos agua.</p>
+<blockquote>
+<p>Jonas Görgen desarrolló un kit que convierte casi cualquier ducha en una ducha de niebla.</p>
+</blockquote>
+<p>Jonas Görgen, un joven diseñador que se graduó de la Academia de Diseño de Eindhoven en 2019, quedó fascinado por la historia de las duchas de niebla y decidió construir una él mismo. En comparación con las duchas de niebla anteriores, Görgen ha mejorado el concepto de dos maneras importantes. Primero, desarrolló un kit que puede convertir casi cualquier ducha en una ducha de niebla con muy poco esfuerzo. En segundo lugar, a diferencia de los experimentos anteriores, su ducha de niebla usa de tres a seis boquillas, en lugar de solo una. Esto convierte una ducha de niebla funcional pero muy básica (usando solo una boquilla), en una experiencia agradable que se siente tan cómoda y estimulante como una ducha &ldquo;normal&rdquo;.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/jonas-mist-shower_dithered.png" alt='Foto:Una ducha de niebla de 6 boquillas en el baño del diseñador Jonas Görgen. Imagen: Jonas Görgen.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/jonas-mist-shower_hu2608e1f83d45e5de3bca75ccfd3f6707_122959_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/jonas-mist-shower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto:Una ducha de niebla de 6 boquillas en el baño del diseñador Jonas Görgen. Imagen: Jonas Görgen.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El kit que me envió Jonas contiene seis boquillas, algunos conectores y divisores, algunos tubos de plástico flexibles (&ldquo;liberad para cortar a cualquier longitud&rdquo;) y algunas piezas de alambre de cobre (&ldquo;para fijar y conectar las boquillas en las posiciones correctas&rdquo; ) Instalé una ducha de niebla de cinco boquillas en menos de veinte minutos, y aunque el resultado no ganará un premio de belleza en diseño (de hecho, Jonas construyó una ducha de niebla más hermosa para su proyecto de graduación), como una ducha de bricolaje es simplemente brillante.</p>
+<blockquote>
+<p>Con cinco boquillas, medí un flujo de agua de dos litros por minuto, que es cinco veces menos que mi cabeza de ducha ahora obsoleta</p>
+</blockquote>
+<p>En mi configuración, cuatro de las boquillas son fijas (una dirigida a la cabeza, una dirigida a la espalda y dos a las caderas), mientras que una es flexible y puede apuntar donde se necesite, como en los experimentos de la NASA. El uso de más de una boquilla aumenta el flujo de agua, pero el ahorro de agua sigue siendo significativo.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/nozzles-mist-shower_dithered.png" alt='Foto: Detalle de mi ducha de niebla de cinco boquillas.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/nozzles-mist-shower_hu05fe63387ebe683e859f0d50ba83bde1_659737_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/nozzles-mist-shower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Detalle de mi ducha de niebla de cinco boquillas.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Para cinco boquillas, medí un flujo de agua de dos litros por minuto, que es cinco veces menos que mi cabeza de ducha ahora obsoleta (diez litros por minuto) y 12.5 menos que el flujo de agua de una ducha de efecto lluvia. Es inusual obtener ahorros tan grandes con tan poco esfuerzo. Jonas escribe acerca de su ducha que &ldquo;no todo es un compromiso a la comodidad, como a veces se sugiere en los documentos de investigación  de la década de 1970&rdquo; y estoy totalmente de acuerdo. La diferencia se debe claramente al hecho de que las primeras lluvias solo usaban una boquilla.</p>
+<h2 id="ahorro-de-energía-de-una-ducha-de-niebla">Ahorro de energía de una ducha de niebla</h2>
+<p>El ahorro de energía de una ducha de niebla es menor que su ahorro de agua. Eso se debe a que una ducha de niebla requiere que el agua se encuentre a una temperatura mayor. El aumento de la superficie del agua disminuye el uso del agua, pero también hace que el calor se disipe más rápidamente en el aire. Incluso si el agua que sale del grifo está a temperatura máxima (generalmente 60 grados centígrados, demasiado caliente para tocarla), cuando se rocía con una boquilla, pierde rápidamente su temperatura cuanta más distancia haya del cuerpo a la abertura. El truco consiste en colocar las boquillas de tal manera que rodeen el cuerpo de cerca. Hice esto con los cables de hierro y un poco de cinta adhesiva, pero hay formas más elegantes de lograrlo.</p>
+<blockquote>
+<p>El ahorro de energía de una ducha de niebla es menor que el ahorro de agua.</p>
+</blockquote>
+<p>Encontré que el agua a una temperatura de aproximadamente 50 grados Celsius es suficiente para obtener comodidad térmica, pero una ducha de niebla en invierno puede requerir una temperatura más alta, así que supongamos un valor de 60 grados para calcular el uso de energía de mi ducha de niebla de 5 boquillas. Con un caudal de dos litros por minuto, una ducha de 8,9 minutos consume 17,8 litros de agua. Calentar ese volumen de agua de 18 grados a 60 grados requiere 1.04 kWh. Eso es la mitad del uso de energía de la ducha promedio en los Países Bajos (2.1
+kWh), y seis veces menor que el uso de energía de una ducha de efecto lluvia (6.3 kWh).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-detail_dithered.png" alt='FOTO. Detalle de la ducha de niebla de bricolaje de Jonas Görgen.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/mist-shower-detail_hu4345b1c3d015d1563aa60e021138d923_324366_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-detail_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>FOTO. Detalle de la ducha de niebla de bricolaje de Jonas Görgen.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El uso de energía de una ducha de niebla podría reducirse aún más si esta se efectúa en una cabina cerrada. Esto aumenta el confort térmico con temperaturas de agua más bajas. Otro truco para aumentar el confort  térmico en invierno es abrir un poco las boquillas para que disminuya la superficie del agua. Esto aumenta el uso de agua pero disminuye la pérdida de calor. Es responsabilidad del individuo encontrar el equilibrio entre el ahorro de energía o agua, según las circunstancias locales.</p>
+<p>Un argumento que a menudo se escucha contra los cabezales de ducha que ahorran agua es que las personas compensan los flujos de agua más
+bajos tomando duchas más largas. Se podría hacer un argumento similar contra las duchas de niebla, porque el uso de la niebla aumenta el tiempo necesario para enjuagar el cuerpo con agua jabonosa. Sin embargo, una llovizna de 8,9 minutos ofrece mucho tiempo para deshacerse del jabón y el champú. Los sujetos de prueba en los experimentos de la NASA lograron lavar y enjuagar en 9 minutos, usando solo una boquilla en una manguera flexible. Lavar el cabello largo es más problemático, pero también en este caso el problema puede abordarse abriendo las boquillas un poco más, aumentando de esta forma el flujo de agua.</p>
+<h2 id="cuántas-boquillas-podemos-pagar">¿Cuántas boquillas podemos pagar?</h2>
+<p>La ducha de niebla de cinco boquillas ofrece importantes ahorros de agua y energía en comparación con una ducha &ldquo;normal&rdquo; y lo hace sin sacrificios a la comodidad. Sin embargo, ¿es lo suficientemente sostenible? Si ocho mil millones de personas usaran una ducha de niebla de cinco boquillas, todas las turbinas eólicas del mundo solo podrían proporcionar la energía
+necesaria para que dos mil millones de personas tomaran una ducha caliente diaria. Y, en comparación con una ducha Navy de un minuto, que se centra por completo en la eficiencia, no en la comodidad, el uso de energía es cinco veces mayor y el uso de agua es el doble. Entonces, veamos qué sucede cuando disminuimos el número de boquillas, aún
+asumiendo la frecuencia y duración promedio de la ducha.</p>
+<blockquote>
+<p>Tres boquillas, con un caudal de aproximadamente un litro de agua por minuto, son las mínimas necesarias para proporcionar la comodidad de una ducha de agua caliente.</p>
+</blockquote>
+<p>Encontré que tres boquillas, con un caudal de aproximadamente un litro de agua por minuto, son las mínimas necesarias para proporcionar la comodidad de una ducha de agua caliente. Esto reduciría el consumo de agua de una ducha de niebla de 8.9 minutos a 8.9 litros, lo que corresponde con el uso de agua de una ducha Navy de un minuto. El uso de energía se reduciría a 0,52 kWh, dos o tres veces mayor que el de una ducha de la Marina. Esto proporcionaría a cuatro mil millones de personas una ducha caliente diaria con energía eólica, lo que significa que si reducimos a la mitad la duración de la ducha (de 8,9 a 4,5 minutos) o si  nos duchamos con menos frecuencia (una vez cada dos días), la población
+mundial podría limpiarse y mimarse usando solo energía eólica.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/nozzle_dithered.png" alt='Foto: Una de las boquillas en mi ducha de niebla.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/nozzle_hu8ba11934174c94b58489d3dec86eb351_652204_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/nozzle_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Una de las boquillas en mi ducha de niebla.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si renunciamos a la comodidad y simplemente nos limpiamos con la menor cantidad de energía y agua posible, podríamos ducharnos con una sola boquilla, como en los años setenta. Usando solo una boquilla, medí el flujo de agua en 0.3 litros por minuto, lo que significa que una ducha de niebla de 8.9 minutos necesitaría de solo 2.67 litros de agua y 0.156
+kilovatios-hora de energía. El uso de recursos de una ducha de niebla corresponde al de un baño de esponja, y es significativamente menor que el de una ducha Navy de un minuto. Todas las turbinas eólicas en el mundo podrían proporcionar aproximadamente 15 mil millones de personas con una ducha de niebla caliente diaria de 8.9 minutos.</p>
+<blockquote>
+<p>Si se usaran más de quince boquillas, el uso de energía de una ducha de niebla seria mayor que el de una ducha convencional</p>
+</blockquote>
+<p>Por el contrario, el uso de agua y, especialmente, de energía de una ducha de niebla aumenta rápidamente a medida que se agregan más boquillas. Con veinte boquillas, el uso de agua todavía está por debajo del promedio de la ducha normal (6-7 litros frente a 8.3 litros por minuto), pero el uso de energía ya es mayor: 3.1 kWh en comparación con 2.1 kWh. Con diez boquillas, (como aquellas de la <a href="https://nebia.com" target="_blank" >Nebia Spa Shower</a> disponible en el mercado) el uso del agua sigue siendo muy bajo, tan solo 3 litros por minuto, pero el uso de energía es solo 25% menor en comparación con una ducha normal (1.45 vs. 2.1 kWh). Las duchas de niebla no son productos de baja energía por definición. Depende de cómo los usemos.</p>
+<h2 id="desconección-de-la-tubería">Desconección de la tubería</h2>
+<p>Nos encontramos con un problema cuando operamos duchas de niebla con una o tres boquillas: las calderas de agua modernas no se activan con un caudal inferior a 1 litro de agua por minuto, lo que significa que solo sale de ellas niebla fría. Este no es un problema fundamental: ya que desde una perspectiva técnica es posible hacer que calderas de agua calienten pequeñas cantidades de agua, lo cual nos lleva a otra ventaja potencial de la ducha de niebla: su efecto en el baño.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-travel_dithered.png" alt='Foto: Me gustó tanto la ducha de niebla que viajo con ella.' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/mist-shower-travel_hud41f27aac96828667efa6edc883a10bf_719086_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/mist-shower-travel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Me gustó tanto la ducha de niebla que viajo con ella.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La ducha moderna no es un dispositivo independiente. Está conectado a varias redes de infraestructura, como el suministro de agua, la red de alcantarillado y la red eléctrica o infraestructura de gas. Por el contrario, aunque una ducha de niebla podría conectarse a las mismas  infraestructuras, también podría funcionar sin ellas, reduciendo aún más
+el uso de los recursos.</p>
+<blockquote>
+<p>Las calderas de agua modernas no se activan con un caudal inferior a 1
+litro de agua por minuto, lo que significa que solo sale niebla fría</p>
+</blockquote>
+<p>En primer lugar, cambiar a una ducha de niebla permitiría el uso de calderas de agua mucho más pequeñas y menos potentes, que podrían funcionar con sistemas solares o eólicos locales que son más pequeños y más baratos que los necesarios para las calderas de agua convencionales. Con una ducha de niebla mínima, incluso se podría cuestionar la necesidad de una caldera de agua. La cantidad de agua es tan pequeña
+(2,67 litros) que podría calentarse al fuego, como en los viejos tiempos.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/1970s-portable-shower_dithered.png" alt='Foto: Una ducha de niebla portátil de la década de 1970, presurizada con un inflador de bicicleta. [^7]' data-original="https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/images/1970s-portable-shower_huac9ba6605a28df92a1e25ef0b35c02a5_70790_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/es/2019/10/mist-showers-sustainable-decadence/images/dithers/1970s-portable-shower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Una ducha de niebla portátil de la década de 1970, presurizada con un inflador de bicicleta. [^7]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En segundo lugar,es necesario conectar una ducha convencional al desagüe debido a su alto consumo de agua. La ducha de niebla descarga mucha menos agua, lo que hace posible desconectar la ducha de la tubería
+y tratar el agua in-situ, por ejemplo, usándola para descargar el inodoro, regar las plantas o limpiar el pavimento. Finalmente en tercer lugar, tampoco es estrictamente necesario un suministro de agua en el baño: un pequeño recipiente podría llenarse en otro lugar y llevarse al baño para usarse durante la ducha.</p>
+<p>Los experimentos canadienses en la década de 1970 dieron como resultado una ducha de niebla portátil. El agua se almacenó en un depósito de lavado de ventanas de Volkswagen conectado a un inflador de bicicleta para presurizar el agua. Los 2,5 litros de agua se presurizaron con aproximadamente veinte golpes del inflador de bicicleta. <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> En resumen, si cambiamos a duchas de niebla, la infraestructura que hizo posible la ducha moderna se podría reducir y simplificar, hasta el punto de que el baño se puede desconectar de la red y de la tubería incluso en un contexto urbano, trayendo nuevas reducciones en el uso de agua y energía. El mismo enfoque podría aplicarse al lavado de manos y lavado de platos.</p>
+<p>La ducha de niebla de <a href="http://oddemulsion.com/" target="_blank" >Jonas Görgen</a> aún no está a la venta, pero puedes <a href="https://forms.gle/n5W2bn8EbFurgXQg7" target="_blank" >hacerle notar su interés</a>. Una ducha de niebla se exhibe en <a href="https://www.ddw.nl/" target="_blank" >Dutch Design Week Eindhoven</a>, del 19 al 27 de octubre de 2019.</p>
+<p>Tenga en cuenta que todas las duchas conllevan un riesgo de legionella. Las gotas de agua más pequeñas de una ducha de niebla permanecen en el aire durante más tiempo, lo que aumenta el riesgo de inhalación. Por lo tanto, es importante <a href="http://www.hse.gov.uk/healthservices/legionella.htm" target="_blank" >tomar precauciones elementales</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>van Thiel, Lisanne. &ldquo;<a href="https://www.vewin.nl/SiteCollectionDocuments/Publicaties/Cijfers/Watergebruik-Thuis-2016.pdf" target="_blank" >Watergebruik thuis 2013</a>.&rdquo; TNS NIPO, Amsterdam (2014).&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Shove, E. A. <a href="https://www.bloomsbury.com/uk/comfort-cleanliness-and-convenience-9781859736302/" target="_blank" >Comfort, Cleanliness and Convenience: the Social Organization of Normality</a>. Berg, 2003.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Hitchings, Russell, Alison Browne, and Tullia Jack. &ldquo;<a href="https://www.tandfonline.com/doi/abs/10.1080/09669582.2017.1360316?journalCode=rsus20" target="_blank" >Should there be more showers at the summer music festival? Studying the contextual dependence of resource consuming conventions and lessons for sustainable tourism</a>.&rdquo; Journal of Sustainable Tourism26.3 (2018): 496-514.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Hand, Martin, Elizabeth Shove, and Dale Southerton. &ldquo;<a href="http://www.socresonline.org.uk/10/2/hand/hand.pdf" target="_blank" >Explaining showering: A discussion of the material, conventional, and temporal dimensions of practice</a>.&rdquo; Sociological Research Online10.2 (2005): 1-13.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>If electricity is used, the resulting CO2-emissions of a shower are 0.621 kg in Europe and 0.921 kg in the US. [Overview of electricity production and use in Europe. European Environmental Agency, created 2017, updated 2019] [Assessing the evolution of power sector carbon intensity in the United States, Greg Schivley et al, 2018.] If gas is used, the emissions of a shower amount to between 0.462 kg (for new gas boilers) and 0.714 kg (for older boilers). [Carbon footprint of heat generation, houses of parliament.]&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://arc.aiaa.org/doi/abs/10.2514/3.61735?journalCode=jsr" target="_blank" >Space Shower Habitability Technology</a>, Arthur Rosener, 1972.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://www.mcgill.ca/mchg/files/mchg/mistexperience.pdf" target="_blank" >Water conservation and the mist experience</a>, 1978.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/es/tags/off-the-grid/" class="">off-the-grid</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Como diseñar un mercante a vela para el siglo 21?</h3>
+		<p class="index-summary">Es sorprendentemente difícil construir un mercante a vela neutro en emisiones de carbono; especialmente en estos tiempos porque nuestros estándares de seguridad, salud, higiene, confort y comodidad han cambiado profundamente desde la Era de los Grandes Veleros</p>
+		<time class="published">11 de mayo de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2020/09/how-to-make-biomass-energy-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2020/09/how-to-make-biomass-energy-sustainable-again/images/dithers/pollards-germany_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Como hacer nuevamente sostenible la energía de biomasa</h3>
+		<p class="index-summary">Desde el neolítico hasta principios del siglo veinte, los árboles recepados, la poda de copas y los setos nos han proporcionado materiales, comida y energía sostenible.</p>
+		<time class="published">20 de septiembre de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Cocinas termoeléctricas: es hora de descartar los paneles solares?</h3>
+		<p class="index-summary">Cocinas a leña, equipadas con generadores termoeléctricos, pueden producir electricidad en forma más sustentable, confiable y menos costosa, que usando paneles fotovoltaicos.</p>
+		<time class="published">26 de mayo de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Qué tan sostenible es un sitio web operado con energía solar?</h3>
+		<p class="index-summary">En este artículo, presentaremos los datos relacionados al consumo de energía y tiempo de actividad, y calcularemos la energía interna de nuestra configuracion. En base a estos resultados, consideraremos el equilibrio óptimo entre la sostenibilidad y el tiempo de actividad del servidor, y delinearemos las posibles mejoras.</p>
+		<time class="published">28 de enero de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/es/about">
+  Acerca de
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/es/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/es/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

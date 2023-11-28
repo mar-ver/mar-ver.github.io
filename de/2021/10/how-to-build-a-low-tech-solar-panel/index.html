@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wie baut man ein Solarpanel mit geringem technischen Aufwand? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Wie baut man ein Solarpanel mit geringem technischen Aufwand?" />
+<meta name="twitter:title" content="Wie baut man ein Solarpanel mit geringem technischen Aufwand?"/>
+
+<meta property="og:description" content="George Cove, ein vergessener Pionier der Solartechnik, hat vermutlich ein sehr effizientes photovoltaisches Panel entwickelt, 40 Jahre bevor Ingenieure aus den Bell Laboratories Silizium-Zellen erfunden haben. Falls sein Design funktioniert, könnte es zu weniger komplexen und nachhaltigeren Solar-Paneln führen." />
+
+<meta name="twitter:description" content="George Cove, ein vergessener Pionier der Solartechnik, hat vermutlich ein sehr effizientes photovoltaisches Panel entwickelt, 40 Jahre bevor Ingenieure aus den Bell Laboratories Silizium-Zellen erfunden haben. Falls sein Design funktioniert, könnte es zu weniger komplexen und nachhaltigeren Solar-Paneln führen."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-07T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="solar power" />
+<meta property="article:tag" content="renewable energy" />
+<meta property="article:tag" content="off-the-grid" />
+
+</head>
+<body id="wie-baut-man-ein-solarpanel-mit-geringem-technischen-aufwand">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/de/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/de/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/de/power">Diese Website ist solarbetrieben und geht daher manchmal offline.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/about/ " data-nav="about" >
+                <span>Über</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Lösungen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-Tech Probleme</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergessene Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lesen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/archives/ " data-nav="archive" >
+                <span>Archiv</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/donate/ " data-nav="donate" >
+                <span>Spenden</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Wie baut man ein Solarpanel mit geringem technischen Aufwand?</h1>
+
+				<p class="summary">
+					George Cove, ein vergessener Pionier der Solartechnik, hat vermutlich ein sehr effizientes photovoltaisches Panel entwickelt, 40 Jahre bevor Ingenieure aus den Bell Laboratories Silizium-Zellen erfunden haben. Falls sein Design funktioniert, könnte es zu weniger komplexen und nachhaltigeren Solar-Paneln führen.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">5. Oktober 2021</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Von</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/de/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Übersetzt von</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/de/translators/pascal-vollmer/">Pascal Vollmer</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Übersetzungen</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2021/10/how-to-build-a-low-tech-solar-panel/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pl/2021/10/how-to-build-a-low-tech-solar-panel/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" alt='George Cove steht neben seiner dritten Solar-Panel-Anordnung. Quelle: &amp;quot;Generating electricity by the sun&amp;rsquo;s rays&amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/COVE-1910_hu66d7529f618be70bdb1f1edc6419fe35_532704_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>George Cove steht neben seiner dritten Solar-Panel-Anordnung. Quelle: &quot;Generating electricity by the sun&rsquo;s rays&quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="effizienter-aber-weniger-nachhaltig">Effizienter aber weniger nachhaltig</h2>
+<p>Seit Bell Labs in den 1950er Jahren das erste praktische Photovoltaik-Panel vorstellte, konzentrierte sich die technische Entwicklung darauf, den Wirkungsgrads von Solarzellen zu erhöhen und die Kosten zu senken. Nach diesen Maßstäben haben die Forscher große Fortschritte gemacht. Der Wirkungsgrad von Solarzellen stieg von weniger als 5 % in den 1950er Jahren auf heute über 20 %, während die Kosten von 30 Dollar pro “Watt Peak” (Nennleistung unter Standard-Testbedingungen) im Jahr 1980 auf weniger als 0,2 Dollar pro Watt Peak im Jahr 2020 sanken. Niedrigere Kosten - zu denen höhere Wirkungsgrade beitragen - werden als besonders wichtig angesehen, da sie es den PV-Paneelen ermöglichen, auf dem Markt mit der aus fossilen Brennstoffen erzeugten Elektrizität zu konkurrieren.</p>
+<p>Im Hinblick auf die Nachhaltigkeit wurden jedoch nur geringe Fortschritte erzielt. Der größte Mangel besteht darin, dass Solarmodule seit den 1950er Jahren für das Recycling ungeeignet sind. Das führt zu Abfall, der auf den Mülldeponien landet. Die Abfallmenge wird in den kommenden Jahren noch erheblich zunehmen. Solarmodule werden erst nach mindestens 25 bis 30 Jahren entsorgt, und die meisten wurden erst in den letzten Jahren installiert. Forscher gehen davon aus, dass bis 2050 fast 80 Millionen Tonnen Solarmodule das Ende ihrer Lebensdauer erreichen. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Das ist eine erhebliche Verschwendung von Ressourcen und eine Gefahr für die Umwelt - ausrangierte PV-Solarmodule enthalten giftige Elemente und stellen eine Brandgefahr dar.</p>
+<blockquote>
+<p>Der Bedarf an kapitalintensiver Technologie sowie lange Lieferwege verhindern, dass Solarmodule durch weniger wohlhabende Gesellschaften oder Heimwerkergemeinschaften lokal produziert werden.</p>
+</blockquote>
+<p>Die Herstellung von PV-Solarmodulen ist ebenso problematisch. Sie produziert giftige Abfälle und erfordert eine globale Lieferkette mit dem Abbau von Materialien, kapitalintensiven Fabriken, komplexen Maschinen und einem ständigen Input an fossilen Brennstoffen. In Lebenszyklusanalysen von Solarmodulen berechnen Wissenschaftler <a href="https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/" >wie viel Energie und Materialien für den Bau eines Solarmoduls benötigt werden</a>. Sie ignorieren jedoch den enormen Energie- und Materialaufwand, der für den Aufbau und die Instandhaltung der PV-Lieferkette selbst erforderlich ist. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Folglich geben diese Studien keinen Aufschluss über die tatsächlichen Kosten von Solarmodulen etwa in Bezug auf die Abhängigkeit von fossilen Brennstoffen, Emissionen oder andere Umweltbelastungen. Darüber hinaus verhindern der Bedarf an kapitalintensiver Technologie und die langen Lieferwege die lokale Produktion von Solarmodulen durch weniger wohlhabende Gesellschaften oder Heimwerkergemeinschaften.</p>
+<h2 id="inspiration-in-der-geschichte-finden">Inspiration in der Geschichte finden</h2>
+<p>Sind PV-Solarmodule von Natur aus nicht nachhaltig, nicht recycelbar und abhängig von Hochtechnologie und kapitalintensiven Herstellungsverfahren? Oder ist es möglich, sie mit lokalen, recycelbaren und weniger energieintensiven Materialien und Produktionsmethoden herzustellen? Mit anderen Worten: Können wir Low-Tech-Solarzellen bauen? Und wenn ja, was würde das für die Kosten und die Effizienz bedeuten?</p>
+<p>Bevor wir versuchen, diese Frage zu beantworten, ist es wichtig festzustellen, dass die beste Low-Tech-Alternative zu einem High-Tech-Solarpanel oft nicht ein Low-Tech-Solarpanel ist, sondern die direkte Nutzung der Sonnenenergie. Das heißt: die Nutzung der Sonnenenergie ohne sie vorher in Strom umzuwandeln. So sind zum Beispiel eine Wäscheleine und ein solarthermischer Warmwasserboiler viel effizienter, nachhaltiger und wirtschaftlicher als ein elektrischer Wäschetrockner und ein mit Solarmodulen betriebener Warmwasserboiler. Die direkte Nutzung von Solarenergie kann mit lokalen Materialien, relativ einfachen Fertigungstechnologien und kurzen Lieferwegen erfolgen.</p>
+<p>In diesem Artikel nehme ich die Frage jedoch wörtlich: Können wir Low-Tech-Photovoltaikanlagen bauen, die Sonnenlicht in Strom umwandeln? In einem früheren Artikel haben wir gesehen, dass <a href="https://lowtechmag.gitlab.io/solar/de/2019/06/how-to-make-wind-power-sustainable-again/" >die Geschichte Inspiration für den Bau nachhaltigerer Windturbinen bietet</a>. Kann uns die Geschichte auch dazu inspirieren, nachhaltigere Solarzellen zu bauen?</p>
+<h2 id="die-frühgeschichte-der-solarzelle">Die Frühgeschichte der Solarzelle</h2>
+<p>Das 1954 von den Bell Labs vorgestellte PV-Panel entstand nicht aus dem Nichts. Die Silizium-Solarzelle hatte ihre Wurzeln in weniger komplexen Systemen, die Strom entweder aus Licht oder aus Wärme erzeugen konnten.</p>
+<p>Thomas Seebeck stellte 1821 fest, dass in einem Stromkreis aus zwei ungleichen Metallen, deren Verbindungsstellen unterschiedliche Temperaturen haben, ein elektrischer Strom  fließt. Dieser &ldquo;thermoelektrische Effekt&rdquo; bildete die Grundlage für den &ldquo;thermoelektrischen Generator&rdquo;, der Wärme (z. B. <a href="https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/" >von einem Holzofen</a>) direkt in Elektrizität wandelt. Im Jahr 1839 entdeckte Antoine Becquerel, dass auch Licht in Elektrizität umgewandelt werden kann, und in den 1870er Jahren wiesen mehrere Wissenschaftler diesen Effekt in Festkörpern nach, vor allem in Selen. Dieser &ldquo;photoelektrische Effekt&rdquo; bildete die Grundlage für den &ldquo;photoelektrischen Generator&rdquo;, den wir heute als &ldquo;photovoltaischen&rdquo; Generator oder PV-Solarzelle bezeichnen. Im Jahr 1883 konstruierte Charles Fritts das erste jemals hergestellte photovoltaische Modul, bei dem er Selen auf eine dünne Goldschicht aufbrachte. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup><sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>Von damals bis in die 1950er Jahre waren die praktischen Einsatzmöglichkeiten von thermoelektrischen und photoelektrischen Systemen begrenzt. Erfinder bauten zahlreiche experimentelle thermoelektrische Generatoren, die in der Regel mit einer Gasflamme betrieben wurden, deren Wirkungsgrad jedoch nicht über 1 % lag. Auch das Solarpanel von Charles Fritts und die danach hergestellten Selen-Solarzellen erreichten nur einen Wirkungsgrad von 1-2 % bei der Umwandlung von Sonnenlicht in Strom. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> Kurz gesagt, die Zeit vor den 1950er Jahren scheint nicht viel Inspiration für den Bau nachhaltigerer PV-Solarzellen zu bieten.</p>
+<h2 id="ein-vergessener-pionier-der-solarenergie">Ein vergessener Pionier der Solarenergie</h2>
+<p>Die Frühgeschichte des Solarpanels könnte jedoch unvollständig sein. Im Jahr 2019 erhielt ich eine E-Mail von Philip Pesavento, einem Leser des Low-tech Magazine:</p>
+<p>&ldquo;Ich beschäftige mich seit Anfang der 1990er Jahre mit einem frühen Pionier der Solarzellentechnologie aus der Vorkriegszeit. Ich werde zu alt, um mich weiter damit zu beschäftigen, und obwohl es ein oder zwei wissenschaftliche Artikel über Herrn Cove gab, haben sie seine Leistungen völlig außer Acht gelassen. Ich füge eine PDF-Version einer Präsentation bei, die ich 2015 erstellt und noch nie jemandem vorgestellt habe. Wenn Sie daran interessiert sind, selbst einen Artikel zu schreiben, kann ich Ihnen einen USB-Stick mit dem gesamten Hintergrundmaterial schicken, das ich gesammelt habe.&rdquo;</p>
+<p>Wenn die historische Darstellung und die Hypothesen von Philip Pesavento richtig sind, wollte George Cove einen thermoelektrischen Generator bauen, hat aber versehentlich einen photovoltaischen Generator - eine PV-Solarzelle - hergestellt. Obwohl dies in den frühen 1900er Jahren geschah, erreichte Cove eine vergleichbare Leistung und Effizienz wie die Wissenschaftler der Bell Labs 1954. Sein Entwurf war auch wesentlich leistungsfähiger als die Selen-Solarzellen, die zwischen den 1880er und 1940er Jahren gebaut wurden. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> Philip Pesavento dazu:</p>
+<p>“Es wäre ziemlich spannend zu beweisen, dass relativ hocheffiziente Solarzellen 40 Jahre vor der Entwicklung von Siliziumzellen erfunden wurden. Noch wichtiger ist, dass, wenn sich herausstellt, dass es bereits vor dem Ersten Weltkrieg Solarzellen und -paneele gab, dies auch einige Vorteile in Bezug auf die Billigkeit der Rohstoffe, die geringe graue Energie für die Umwandlung der Erze in metallische Werkstoffe, den Wirkungsgrad der fertigen  Solarzellen und die einfache Herstellung mit sich bringen könnte.” (Graue Energie: Energie für Herstellung, Transport, Lagerung, Verkauf und Entsorgung.)</p>
+<p>Mit anderen Worten: Wenn Philip Pesaventos historische Darstellung und seine Hypothesen richtig sind, könnte es möglich sein, Low-Tech-Solarzellen zu bauen.</p>
+<h2 id="der-solar-electric-generator-von-george-cove">Der “Solar Electric Generator” von George Cove</h2>
+<p>George Cove präsentierte seinen ersten &ldquo;Solargenerator&rdquo; 1905 im Metropole Building in Halifax, Nova Scotia, Kanada. Abgesehen von einem Bild gibt es keine Daten über diese Anlage. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Seine Leistung und Effizienz waren jedoch so bemerkenswert, dass amerikanische Investoren einen Experten nach Halifax schickten. Auf der Grundlage der Untersuchung der Maschine durch diesen Experten holten sie Cove in die USA (nach Sommerville, Massachusetts), um die Entwicklung seines Geräts fortzusetzen.</p>
+<p>Cove stellte dort 1909 seinen zweiten Solargenerator vor. Diese 1,5 m2 große Platte konnte 45 Watt Leistung erzeugen und hatte einen Wirkungsgrad von 2,75 % bei der Umwandlung von Sonnenenergie in Strom. Mitte 1909 war Cove nach New York City umgezogen, wo er seinen dritten Prototyp vorstellte, eine Solaranlage, die aus vier Solarzellen mit je 60 Watt Spitzenleistung bestand und insgesamt fünf Blei-Säure-Batterien auflud. Die Gesamtoberfläche betrug 4,5 m2, die maximale Leistung 240 Watt, und der Wirkungsgrad stieg auf 5 % - ähnlich wie bei dem ersten von Bell Labs vorgestellten Solarpanel. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup></p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png" alt='Oben: George Coves erstes Solarpanel, 1905 der Öffentlichkeit vorgestellt. Quelle: Technical World Magazine 11, nr.4, June 1909.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/cove-technical-world-magazine-1909_hu62dd745d2c417ff4c2ea3d6151e51f44_531156_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Oben: George Coves erstes Solarpanel, 1905 der Öffentlichkeit vorgestellt. Quelle: Technical World Magazine 11, nr.4, June 1909.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png" alt='Oben: Coves zweites Solarpanel; ein Modul fehlt. Quelle: Technical World Magazine 11, nr.4, June 1909.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/cove-one-section-missing_hub0c4c1d51810b87dac67d99d097d8564_357863_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Oben: Coves zweites Solarpanel; ein Modul fehlt. Quelle: Technical World Magazine 11, nr.4, June 1909.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png" alt='Oben: George Coves drittes Solarpanel. Quelle: &amp;quot;Harnessing sunlight&amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/Cove-solar-panel-1909_hu86541aa3e79647685c9e156c346563a6_525725_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Oben: George Coves drittes Solarpanel. Quelle: &quot;Harnessing sunlight&quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png" alt='Oben: George Coves drittes Solarpanel. Die Paneele sind nun in einem definierten Winkel geneigt und liegen nicht mehr waagrecht. Quelle: Literary Digest 1909, pp. 1153.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/COVE-THIRD-PANEL_hud01c150ee9abc158ff22439b319ff31d_425392_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Oben: George Coves drittes Solarpanel. Die Paneele sind nun in einem definierten Winkel geneigt und liegen nicht mehr waagrecht. Quelle: Literary Digest 1909, pp. 1153.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png" alt='Oben: Ein Modul aus Coves drittem Solarpanel. Die Glasabdeckung ist abgenommen. Quelle: &amp;quot;Harnessing sunlight&amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/cove-panel-close-up_hu121447a1bc4bfd8d19cd938ee0392839_758462_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Oben: Ein Modul aus Coves drittem Solarpanel. Die Glasabdeckung ist abgenommen. Quelle: &quot;Harnessing sunlight&quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Obwohl George Cove in den meisten historischen Berichten über Solarenergie nicht vorkommt, beeindruckte sein solarer Stromgenerator einige populäre technische Medien der  damaligen Zeit. So schrieb das Technical World Magazine 1909, dass &ldquo;eine solche Maschine billig und unzerstörbar wie ein Küchenherd ist. Selbst in ihrem derzeitigen, etwas groben und experimentellen Zustand speichert sie bei zwei Tagen Sonne genügend elektrische Energie, um ein normales Haus eine Woche lang zu beleuchten. Der Erfinder hat dies nun schon seit Monaten in seinem Betrieb bewiesen&rdquo;. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<h2 id="metallstopfen-in-asphalt-gesetzt">Metallstopfen in Asphalt gesetzt</h2>
+<p>Wie ist es George Cove gelungen, ein Solarpanel zu bauen, das seiner Zeit 40 Jahre voraus war? Laut Philip Pesavento, der einen Ausbildung in Halbleitertechnik hat, wollte Cove einen besseren thermoelektrischen Generator (TEG) bauen. Er setzte seinen Generator der Wärme eines Holzofens und direkter Sonnenenergie aus - Edward Weston hatte 1888 den ersten experimentellen thermoelektrischen Solargenerator (oder STEG) gebaut. Die Absichten von Cove werden auch aus der Beschreibung seines Geräts deutlich:</p>
+<p>&ldquo;Der Rahmen enthält eine Reihe von Scheiben aus violettem Glas, hinter denen, gehalten von einer Asphaltmischung, viele kleine Metallstopfen angebracht sind. Ein Ende der Stopfen ist immer dem Sonnenlicht ausgesetzt, während das andere Ende kühl und geschützt ist.&rdquo;</p>
+<p>Eine möglichst große Temperaturdifferenz zu erzeugen ist <a href="https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/" >der Schlüssel zur thermoelektrischen Stromerzeugung</a>, daher ist Cove’s Entwurf sinnvoll. Das Problem besteht darin, dass sein Generator bei der Messung der Leistungsabgabe nicht auf Wärme reagierte, wie es bei einem thermoelektrischen Generator der Fall sein sollte. Zunächst stellt Cove fest, dass seine Erfindung sowohl Wärme als auch Licht zur Stromerzeugung nutzt, wenn sie der Sonnenenergie ausgesetzt ist:</p>
+<p>“Der Hauptbestandteil meiner Erfindung ist die besondere Zusammensetzung der Metallstopfen, auf die die Sonne so einwirkt, dass der Strom nicht nur durch die Wärmestrahlung, sondern auch durch die Sonnenstrahlen erzeugt wird”.</p>
+<p>Nach weiteren Experimenten sowohl mit dem Holzofen als auch mit Sonnenenergie stellt Cove jedoch fest:</p>
+<p>&ldquo;Wenn die Maschine verschiedenen künstlichen Wärmequellen ausgesetzt wird, gibt sie keinerlei Strom ab. Außer den Wärmestrahlen der Sonne (kurzwelliges Infrarot) sind vielleicht die violetten oder ultravioletten Strahlen aktiv, um den elektrischen Strom zu erzeugen&rdquo;.</p>
+<p>Die Primärzelle des PV-Panels von Cove war ein drei Zoll langer Stecker oder Stab aus einer metallischen Zusammensetzung, einer Legierung aus mehreren gängigen Metallen. Das 1,5 m2 große Paneel hatte 976 Stäbe, während die 4,5 m2 große Anlage 4 x 1804 Stäbe hatte. Dass die Stäbe auf der einen Seite kühl und auf der anderen heiß waren - getrennt durch eine Asphaltschicht -, spielte keine Rolle. Entscheidend war, dass Cove unwissentlich einen Metall-Halbleiter-Kontakt hergestellt hatte.</p>
+<h2 id="die-bandlücke-bei-halbleitern">Die Bandlücke bei Halbleitern</h2>
+<p>George Cove verstand nicht wie sein Solargenerator funktionierte, und auch sonst niemand zu jener Zeit. Erst mit Einsteins Arbeit über den photoelektrischen Effekt (1905) und späteren Arbeiten in der Quantenmechanik (ab den 1930er Jahren) wurde das Konzept einer <em>Halbleiterbandlücke</em> erkannt. Die Elektronen umkreisen den Kern eines Atoms in verschiedenen &ldquo;Zuständen&rdquo; und halten sich in Bereichen auf, die man &ldquo;Bänder&rdquo; nennt. Bei gleichbleibenden Bedingungen bleiben die Elektronen in diesen Bändern. Zwischen diesen Bändern liegen &ldquo;Bandlücken&rdquo; - Bereiche, in denen sich kein Elektron aufhalten kann.</p>
+<blockquote>
+<p>George Cove verstand nicht, wie sein Solargenerator funktionierte, und auch sonst niemand zu jener Zeit.</p>
+</blockquote>
+<p>Leiter haben keine Bandlücken, so dass Elektronen durch sie hindurchfließen. Aus diesem Grund leitet beispielsweise ein Kupferdraht Strom. In Isolatoren (wie Holz, Glas, Kunststoff oder Keramik) gibt es eine sehr große Bandlücke, die den Stromfluss blockiert. Bei Halbleitern schließlich ist die Bandlücke relativ schmal. Deshalb können sie als Isolator oder als Leiter wirken. Halbleiter können zu Leitern werden, wenn sie ein &ldquo;Photon&rdquo; (ein Elementarteilchen des Lichts) mit einem Energiepotenzial absorbieren, das gleich oder größer ist als die Bandlücke des Halbleitermaterials. <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<p>Das Verständnis von Halbleitern führte in den 1950er Jahren zur Geburt der modernen Solarzelle. Es verbesserte auch die Leistung thermoelektrischer Generatoren - wenn auch aus anderen Gründen. Thermoelektrische Generatoren nutzen den Vorteil der Halbleiter-Bandlücke nicht aus. Halbleiter haben jedoch höhere Thermospannungen und geringere Wärmeleitfähigkeiten als Metalle und Metalllegierungen ohne Bandlücke, was thermoelektrische Generatoren effizienter macht.</p>
+<h2 id="der-schottky-kontakt">Der Schottky-Kontakt</h2>
+<p>Um einen photovoltaischen Effekt zu erzielen, muss eine Inhomogenität im System vorhanden sein. In den 1950er Jahren gelang den Wissenschaftlern der Bell Labs die Herstellung einer Inhomogenität mit dem so genannten p-n-Übergang, der eine Grenze zwischen einem positiv geladenen und einem negativ geladenen Halbleiter bildet. P-Typ-Halbleiter haben Elektronenlücken, so genannte &ldquo;Löcher&rdquo; (die Elektronen anziehen), während N-Typ-Halbleiter zusätzliche Elektronen haben. An der Grenzfläche zwischen beiden entsteht ein elektrisches Potenzial.</p>
+<p>Es ist jedoch auch möglich, eine PV-Zelle aus einem so genannten Schottky-Übergang herzustellen, der einen Halbleiter mit einem Metall verbindet. In diesem Fall fungiert das Metall als n-Typ-Halbleiter. Philip Pesavento:</p>
+<p>&ldquo;Meine Hypothese ist, dass George Cove auf eine photovoltaische Zelle mit Schottky-Kontakt gestoßen ist, Jahrzehnte bevor sie von Walter Schottky beschrieben wurde. <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> Es  besteht die Möglichkeit, dass eine solche Zelle sowohl (vorwiegend) photovoltaische als auch thermoelektrische Effekte hervorruft. Der Stecker war eine Legierung aus Zink und Antimon, von der wir heute wissen, dass sie ein Halbleiter ist. Er wurde abwechselnd mit Neusilber (einer Nickel-, Kupfer- und Zinklegierung) und Kupfer an den gegenüberliegenden Enden bedeckt. So entstand ein ohmscher Kontakt bzw. ein Schottky-Kontakt. Das ergibt ein photovoltaisches Bauteil.</p>
+<h2 id="eine-zufällige-entdeckung">Eine zufällige Entdeckung</h2>
+<p>Laut Philip Pesavento begann George Cove wahrscheinlich mit Neusilber als negativem Material an beiden Enden der Stecker und einer Antimon-Zink-Legierung (ZnSb) als positivem Material. Dies waren die besten verfügbaren thermoelektrischen Materialien zu dieser Zeit:</p>
+<p>&ldquo;Wahrscheinlich ging ihm das Neusilber aus und er ersetzte es durch Kupfer, um eine Reihe von Steckern fertigzustellen. Die Thermospannung von Kupfer und Neusilber unterscheidet sich nur wenig. Beim Testen stellte Cove dann fest, dass diese Stecker (mit einer Neusilberkappe an einem Ende und einer Kupferkappe am anderen Ende) eine viel höhere Spannung lieferten: Hunderte von mV gegenüber den üblichen einigen 10 mV für einen thermoelektrischen Generator.&rdquo;</p>
+<p>Was war geschehen? Durch die Verwendung von Kupfer hatte Cove unwissentlich einen Schottky-Übergang gebaut. Dadurch verwandelte sich sein thermoelektrischer Generator in einen &ldquo;thermophotovoltaischen Generator&rdquo;. Eine solche Anordnung funktioniert genauso wie eine photovoltaische Solarzelle, nur mit einer anderen Wellenlänge. Das Sonnenspektrum umfasst einen Bereich von etwa 0,5 bis 2,9 Elektronenvolt (eV), von Infrarot bis Ultraviolett. Ein Halbleiter mit einer Bandlücke zwischen 1 und 1,7 eV wandelt sichtbares Licht effizient in Elektrizität um (ein photovoltaischer Generator), während ein Halbleiter mit einer Bandlücke zwischen 0,4 und 0,7 eV kurzwellige infrarote Sonnenenergie effizient in Elektrizität umwandelt (ein thermophotovoltaischer Generator).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png" alt='Oben: Diese Zeichnung aus Coves Patent von 1906 zeigt die Antimon-Zink-Legierung “b”; die Kappe aus Neusilber (ohmscher Leiter) “c”; und die Kappe aus Kupfer oder Zinn (Schottky-Übergang) “f”. Überall werden Pressverbindungen verwendet, da Lötverbindungen den Wirkungsgrad verringern.' data-original="https://lowtechmag.gitlab.io/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/Cove-plugs_hu83782f6afb8598d1cab815d318e15d11_73613_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/de/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Oben: Diese Zeichnung aus <a href="https://patentimages.storage.googleapis.com/bc/bb/50/6683e8b44edd4c/US824684.pdf" target="_blank" >Coves Patent von 1906</a> zeigt die Antimon-Zink-Legierung “b”; die Kappe aus Neusilber (ohmscher Leiter) “c”; und die Kappe aus Kupfer oder Zinn (Schottky-Übergang) “f”. Überall werden Pressverbindungen verwendet, da Lötverbindungen den Wirkungsgrad verringern.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Heute wissen wir, dass ZnSb - das negative Material in Coves Steckern - ein Halbleiter mit einer Bandlücke von 0,5 eV ist. Das erklärt weitgehend, warum der Erfinder zunächst feststellte, dass sein Solargenerator sowohl Wärme als auch Licht in Strom umwandelt. Ein thermophotovoltaischer Generator deckt nicht nur den infraroten Teil des Sonnenspektrums ab - er passt auch zum direkten Spektrum einer brennenden Flamme oder einer rotglühenden Oberfläche, die durch brennendes Holz oder Erdgas erhitzt wird. Er wandelt auch den unteren Teil des sichtbaren Spektrums in Strom um, wenn auch sehr ineffizient.</p>
+<p>Laut Philip Pesavento gelang es Cove dann, die Zusammensetzung der Legierung bis auf Zn4Sb3 zu verfeinern - eine Zink-Antimon-Legierung mit einem Verhältnis von 4 Teilen Zink zu 6 Teilen Antimon. Wie wir heute wissen, ist dies ebenfalls ein Halbleiter. Allerdings hat diese Legierung eine Bandlücke von 1,2 eV - sehr nahe an der Bandlücke von Silizium (1,1 eV). Folglich wurde aus dem thermophotovoltaischen Generator ein rein photovoltaischer Generator:</p>
+<p>&ldquo;In seinem Enthusiasmus hat Cove wahrscheinlich eine größere Anzahl von Steckern hergestellt und bei einer Charge irgendwie die Proportionen &ldquo;falsch&rdquo; bemessen. Er hat dann eine noch größere Spannung gemessen. Schließlich untersuchte er sorgfältig die Zink-Antimon-Legierungen und stellte fest, dass die Zinklegierung mit einem Anteil von 40-42 % die höchste Spannung ergab (im Vergleich zu 35 % Zink in ZnSb). Nachdem er - zufällig - Zn4Sb3 entdeckt hatte, führte die höhere Bandlücke dieses Halbleiters dazu, dass er nicht mehr funktionierte, wenn er der Hitze eines Holzofens ausgesetzt war. Er funktionierte jedoch umso besser, wenn er der Sonnenenergie ausgesetzt war, da er nun einen viel größeren Teil des sichtbaren Spektrums des Sonnenlichts effizient in Strom umwandelte.</p>
+<p>Mit Hilfe von Farbglasfiltern stellte George Cove fest, dass der größte Teil der Reaktion auf das violette Ende des Spektrums entfiel und nur wenig auf die so genannten Wärmestrahlen. Seine früheren PV-Stecker hatten gleich gut auf Wärmestrahlen und violette Strahlen reagiert, während die älteren thermoelektrischen Generatoren (Neusilber an beiden Seiten) überhaupt nicht auf die violetten Strahlen reagierten.</p>
+<h2 id="zurück-zur-schottky-solarzelle">Zurück zur Schottky Solarzelle?</h2>
+<p>Solarzellen mit Schottky-Übergang haben bei Forschern und Unternehmen nur wenig Aufmerksamkeit erregt - nur wenige Entwürfe für Solarzellen verwenden Metalle im aktiven Bereich, außer für Kontakte. <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> Philip Pesavento ist jedoch der Ansicht, dass es sich lohnen würde, auch Schottky-Solarzellen nach dem Entwurf von Cove herzustellen:</p>
+<p>&ldquo;Wenn nachgewiesen werden kann, dass Zn4Sb3 (Bandlücke 1,2 eV) in einer photovoltaischen Zelle verwendet werden kann, besteht eine gute Chance, dass eine solche Solarzellenkonstruktion nachhaltig ist. Sie wäre ein guter Kandidat für einen hohen Erntefaktor (Energy Returned on Energy Invested - EROI) und hätte eine akzeptabel lange Lebensdauer mit einem Energieüberschuss von mehreren Jahrzehnten. Es ist erstaunlich, dass alle dieses Material und seine Anwendung in Photovoltaikzellen übersehen zu haben scheinen und dass keine Entwicklung stattgefunden hat - selbst nachdem Forscher es Anfang bis Mitte der 1980er Jahre kurz als mögliche Option erkannt hatten. Insofern passt es in die Kategorie einer verfrühten Entdeckung, was auch bedeuten sollte, dass es in der heutigen Zeit sehr schnell entwickelt werden könnte.&rdquo;</p>
+<p>Abgesehen von der Photovoltaik sieht Philip Pesavento ein Potenzial in der Thermophotovoltaik für Holzöfen, in der Solarthermie oder in Tandemanwendungen mit zwei Anschlüssen, bei denen ZnSb anstelle von Zn4Sb3 verwendet wird. Wenn sich die Plug-Type-Solarzellen als wirksam erweisen, könnten seiner Meinung nach auch Solarkollektoren mit Linienkonzentratoren - wie Parabolrinnen oder Compound Parabolic-Konzentratoren - zu deutlich geringeren Kosten gebaut werden.</p>
+<h2 id="low-tech-herstellung">Low-tech-Herstellung</h2>
+<p>Der Hauptvorteil des Designs von Cove liegt in der einfachen Herstellung. In den 1970er und 1980er Jahren untersuchten Wissenschaftler Zn4Sb3 für den Einsatz in der Photovoltaik und kamen zum Schluss, dass die &ldquo;offensichtlichen Vorteile des Materials in der offensichtlichen Einfachheit und der relativ niedrigen Temperatur des Herstellungsverfahrens liegen.&rdquo; <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> Der Schmelzpunkt von Zn4Sb3 liegt bei 570 Grad Celsius, während er bei Silizium 1.400 Grad beträgt.</p>
+<p>In den 1970er Jahren untersuchten Forscher Metall-Halbleiter-Solarzellen auf der Grundlage anderer Halbleitertypen als Zn4Sb3. Auch hier war ihre Motivation das einfache und kostengünstige Herstellungsverfahren im Vergleich zu den Silizium-Solarzellen mit p-n-Übergang der damaligen Zeit. <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> Schottky-Zellen erfordern keinen Hochtemperatur-Phosphor-Diffusionsschritt, durch den die n-Schicht des p-n-Übergangs in Silizium heute üblicherweise erzeugt wird. Allein dadurch wird der Energieaufwand für die Herstellung von Solarzellen um 35 % reduziert. <sup id="fnref1:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<p>In den 1980er Jahren erzielten die Forscher wichtige Fortschritte bei den p-n-Übergängen aus Silizium, und das Interesse an alternativen Lösungen ließ nach. In den letzten Jahren ist dieses Interesse jedoch wieder erwacht. So kommen beispielsweise Forschungen zu Graphen/Silizium-Schottky-Solarzellen zu dem Schluss, dass &ldquo;die einfache und kostengünstige Herstellung der Geräte, die keine hohen Temperaturen erfordert, einer der Vorteile ist.&rdquo; <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> In anderen neueren Studien kommen die Wissenschaftler zu dem Schluss, dass &ldquo;Selen-Bauelemente vom Schottky-Typ &hellip; extrem einfach und kostengünstig herzustellen sind&rdquo;. <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup><sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup><sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup><sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup></p>
+<h2 id="einfachere-wiederverwertung">Einfachere Wiederverwertung</h2>
+<p>Ein weiterer Vorteil von Schottky-Solarzellen könnte das einfachere Recycling sein. Siliziummodule sind zwischen zwei laminierten Verkapselungsschichten eingebettet (in der Regel EVA, ein Ethylen-Vinylacetat-Copolymer). Diese Schichten sind entscheidend für die Lebensdauer der Module. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Um das Silizium - den wertvollsten Bestandteil eines Solarmoduls - zu recyceln, müssen diese Schichten abgetrennt werden, aber wenn man sie verbrennt werden die Module ebenfalls zerstört. Siliziumzellen können nur durch eine Kombination aus thermischen, chemischen und metallurgischen Schritten recycelt werden. Das ist ein teurer Prozess mit Auswirkungen auf die Umwelt. Es gibt zwar Angaben, wonach etwa 10 % der Solarmodule &ldquo;recycelt&rdquo; werden, doch handelt es sich dabei eher um ein &ldquo;Downcycling&rdquo;. Die Module werden zerkleinert, und das dabei entstehende Material wird als Füllstoff in der Asphalt- und Zementindustrie verwendet.</p>
+<p>Die von George Cove gebauten Solarzellen waren dagegen vollständig recycelbar. Sie benötigten keine Schutzschicht und enthielten nicht einmal Lötzinn. Philip Pesavento:</p>
+<p>&ldquo;Wenn man die Zellen genau so bauen würde wie Cove, indem man die Kappen einpresst  und sie dann mit Draht umwickelt, um sie dicht zu halten, wären sie auch einfacher zu recyceln, da es sich um einen rein mechanischen Vorgang handelt, bei dem keine Chemikalien eingesetzt werden müssen. Es wäre zwar arbeitsintensiv, sie zusammenzusetzen und wieder zu zerlegen, aber es könnte auch automatisiert werden.”</p>
+<p>Pesavento glaubt, dass es auch möglich ist, flache Solarzellen aus dem Cove-Material herzustellen. Ob diese jedoch eine Schutzschicht benötigen, die das Recycling behindert, bleibt abzuwarten. In den 1970er Jahren benötigten Schottky-Solarzellen aus anderen Materialien, um eine Lebensdauer von über 20 Jahren zu erreichen, nicht immer eine Schutzschicht. <sup id="fnref1:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup></p>
+<h2 id="effizienz">Effizienz</h2>
+<p>Wenn wir mehr Low-Tech-Solarzellen bauen könnten, wie effizient könnten wir sie dann machen? Laut Philip Pesavento sind Schottky-Zellen bei gleichem Material etwas weniger effizient als p-n-Übergänge, da p-n-Übergänge eine höhere Spannung erzeugen - sie erhalten mehr Energie aus den Photonen, die sie absorbieren.</p>
+<p>&ldquo;Wenn jedes Quäntchen Effizienz zählt, macht man das. Wenn es darum geht, die Herstellung von Solarzellen mit manuellen oder handwerklichen Methoden zu erleichtern, wäre die Schottky-Diode die logischere Wahl.&rdquo;</p>
+<p>Andererseits könnte es möglich sein, Schottky-Zellen dünner als Silizium-Solarzellen zu bauen - und das würde ihre Effizienz erhöhen. Philip Pesavento:</p>
+<p>&ldquo;Ich habe die spezifischen Zahlen für die Parameter - Ladungsträgergeschwindigkeit, Rekombinationslebensdauer, Absorptionskoeffizient - nicht gefunden, um dies eindeutig sagen zu können. Aber die Tatsache, dass Cove so lange, dünne Zellen hergestellt und so hohe Wirkungsgrade erzielt hat, ist ein gutes Zeichen dafür, dass sich dünnere Zellen herstellen lassen.</p>
+<p>Jüngste Forschungsarbeiten zu Schottky-Zellen aus anderen Materialien scheinen dies zu bestätigen. So konnte bei jüngsten Experimenten mit Schottky-Selen-Zellen die Schichtdicke auf nur 100 µm reduziert werden, während sie bei Siliziumzellen zwischen 200 und 500 µm beträgt. <sup id="fnref1:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup> Die Wissenschaftler erreichten auch einen experimentellen Wirkungsgrad von 17 % für eine Graphen/Silizium-Schottky-Zelle, der zehn Jahre zuvor noch bei 1,5 % lag. <sup id="fnref1:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<p>Wir können auch die derzeitige Besessenheit von höheren Wirkungsgraden in Frage stellen. Viele werden argumentieren, dass wir mehr Solarmodule benötigen würden, um die gleiche Leistung zu erzielen, wenn die Low-Tech-Solarmodule weniger effizient sind. Folglich würden die durch Low-Tech-Produktionsmethoden eingesparten Ressourcen durch die zusätzlichen Ressourcen für den Bau von mehr Solarzellen kompensiert. Die Effizienz ist jedoch nur dann entscheidend, wenn wir den <a href="https://lowtechmag.gitlab.io/solar/de/2018/01/bedazzled-by-energy-efficiency/" >Energiebedarf als gegeben ansehen</a>. Ein Rückgang der Effizienz kann ebenso gut durch eine Senkung der Energienachfrage kompensiert werden, insbesondere wenn dies zu mehr Nachhaltigkeit und einem geringeren Ressourcenverbrauch in der gesamten Lieferkette führt. <a href="https://lowtechmag.gitlab.io/solar/de/2019/06/how-to-make-wind-power-sustainable-again/" >Wie bei den Windturbinen</a> kann der Verzicht auf ein gewisses Maß an Effizienz einen großen Gewinn an Nachhaltigkeit bedeuten.</p>
+<h2 id="was-geschah-mit-george-cove">Was geschah mit George Cove?</h2>
+<p>Wenn das Solarpanel von Cove so revolutionär war, warum wurde es dann vergessen? Zu dieser Frage liest sich das Forschungsmaterial von Philip Pesavento wie ein Kriminalroman. Cove’s Versuch, sein Solarenergiegerät zu produzieren und zu vermarkten, scheiterte auf mysteriöse Weise.</p>
+<p>Der Erfinder ließ sich mit einem Aktienmanipulator ein, Elmer Burlingame, der in den Jahren 1909 und 1910 Aktien von Unternehmen ausgab, die ihm nicht gehörten, darunter auch die von Cove gegründete Sun Electric Generator Company. Im Oktober 1909 wurde Cove angeblich entführt und es wurde ihm mit dem Tod gedroht, falls er die Entwicklung seiner Solarerfindung nicht einstellen würde. Die Polizei hielt die Entführung von Cove jedoch für einen Scherz. Im Jahr 1911 wurden sowohl Cove als auch Burlingame wegen Aktienbetrugs verhaftet und</p>
+<p>Erfindungen arbeitete, hatte keine davon etwas mit Solarenergie zu tun. <sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup></p>
+<blockquote>
+<p>Im Oktober 1909 wurde Cove angeblich entführt und es wurde ihm mit dem Tod gedroht, falls er die Entwicklung seiner Solarerfindung nicht einstellen würde.</p>
+</blockquote>
+<p>War George Cove ein Scharlatan? War er das Opfer eines solchen? Oder wurde sein Ruf zerstört, weil der Solarstromgenerator die Interessen anderer Unternehmen bedrohte? Es gibt viele historische Beispiele für die Unterdrückung technologischer Innovationen durch große US-Konzerne. George Cove war im gleichen Zeitraum wie die Edison Electric Illuminating Company of New York tätig, deren skrupellose Praktiken gegen Konkurrenten gut dokumentiert sind. Wenn Cove’s Solarstromgenerator funktioniert hätte, hätte das die wachsende Nachfrage nach Edisons Kohle- und Ölkraftwerken verringern können. [Zuvor, in den 1880er Jahren, hatte Edison das Unternehmen gekauft, das den damals besten thermoelektrischen Generator herstellte - Clamonds&rsquo;s Improved Thermopile - und anschließend die Entwicklung der Maschinen eingestellt. <sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup></p>
+<h2 id="noch-mehr-rätsel">Noch mehr Rätsel</h2>
+<p>Es ist zwar verlockend, George Cove als Opfer zu sehen, aber wir können nur spekulieren. Philip Pesaventos Archivmaterial enthält weitere Rätsel, wie etwa <a href="https://patentimages.storage.googleapis.com/bc/bb/50/6683e8b44edd4c/US824684.pdf" target="_blank" >Cove’s Patent</a> - 1905 beantragt, 1906 erteilt. In seinem Patent beschreibt der Erfinder die Herstellung seiner Zn4Sb3-Stecker im Detail, was Pesavento half, die Leistung und den Wirkungsgrad der Solarzellen zu berechnen. Allerdings beschreibt Cove diese Stecker für die Umwandlung von Wärme aus einem Holzofen in Elektrizität, was mit seiner Materialwahl nicht vereinbar ist. Damit der Ofengenerator funktioniert, benötigt er ZnSb-Stecker mit einer Bandlücke von 0,5 eV. Philip Pesavento:</p>
+<p>&ldquo;War dies eine Irreführung seitens Cove, um zu verhindern, dass Leute sein Herdpatent kopieren und es zum Laufen bringen? Ich weiß es nicht.&rdquo;</p>
+<p>Noch überraschender ist, dass ein Bild, das Cove neben einem seiner Solarmodule zeigt, auch in John Perlins 2013 erschienenem historischen Überblick über die Solarenergie <em>Let It Shine: The 6,000-Year Story of Solar Energy</em> zu finden ist. Das Solarpanel auf dem Bild wird jedoch Charles Fritts zugeschrieben, dem Erfinder der Selen-Solarzelle. Außerdem ist George Cove selbst nicht mehr auf dem Bild zu sehen. Auszüge aus dem Buch sowie das Foto sind auf mehreren Websites erschienen (<a href="https://www.smithsonianmag.com/sponsored/brief-history-solar-panels-180972006/%29" target="_blank" >https://www.smithsonianmag.com/sponsored/brief-history-solar-panels-180972006/)</a>. Philip Pesavento war nicht überrascht, als ich mich wieder meldete:</p>
+<p>&ldquo;Ich habe diese Entdeckung vor einigen Jahren gemacht. Ich vermute, dass jemand dringend ein Bild der Fritts&rsquo;schen Solarpaneele brauchte, dieses Bild fand und dann George Cove mit einer Fotobearbeitung daraus entfernte. Schließlich ist Cove völlig unbekannt, und wenn er überhaupt Einigen bekannt ist, soll er einen thermoelektrischen Solargenerator erfunden haben, keine PV-Solarzellen. Wenn man sich die beiden Fotos genau ansieht, erkennt man, dass der obere Teil des rechten Säulengangs hinter ihm ausgeschnitten und an die Stelle geklebt wurde, an der Cove gestanden hatte, und dass die Perspektive nicht ganz stimmt.&rdquo;</p>
+<p>Update: <a href="https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/?utm_source=twitter" target="_blank" >Bellingcat hat das Geheimnis des Bildes gelüftet</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Erhalten Sie unseren Newsletter</a>.</li>
+        <li> Unterstützen Sie das Low-tech Magazine mit <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> oder <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/de/offline-reading/">Kaufen Sie die gedruckte Webseite</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Weckend, Stephanie, Andreas Wade, and Garvin A. Heath. <a href="https://www.osti.gov/biblio/1561525" target="_blank" >End of life management: solar photovoltaic panels</a>. No. NREL/TP-6A20-73852. National Renewable Energy Lab.(NREL), Golden, CO (United States), 2016.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Xu, Yan, et al. &ldquo;<a href="https://www.sciencedirect.com/science/article/abs/pii/S0956053X18300576" target="_blank" >Global status of recycling waste solar panels: A review</a>.&rdquo; Waste Management 75 (2018): 450-458.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Sica, Daniela, et al. &ldquo;<a href="https://www.researchgate.net/profile/Stefania-Supino/publication/320886399_Management_of_end-of-life_photovoltaic_panels_as_a_step_towards_a_circular_economy/links/5a7823a445851541ce5aa795/Management-of-end-of-life-photovoltaic-panels-as-a-step-towards-a-circular-economy.pdf" target="_blank" >Management of end-of-life photovoltaic panels as a step towards a circular economy</a>.&rdquo; Renewable and Sustainable Energy Reviews 82 (2018): 2934-2945.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Hornborg, Alf, Gustav Cederlöf, and Andreas Roos. &ldquo;<a href="https://journals.sagepub.com/doi/abs/10.1177/2514848619863607" target="_blank" >Has Cuba exposed the myth of “free” solar power? Energy, space, and justice</a>.&rdquo; Environment and planning E: Nature and space 2.4 (2019): 989-1008.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Cederlof, Gustav, and Alf Hornborg. &ldquo;<a href="https://kclpure.kcl.ac.uk/portal/files/149206991/jpe_2303_cederl_f.pdf" target="_blank" >System boundaries as epistemological and ethnographic problems: Assessing energy technology and socio-environmental impact</a>.&rdquo; Journal of Political Ecology 28.1 (2021): 111-123.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Bartie, N. J., et al. &ldquo;<a href="https://www.sciencedirect.com/science/article/pii/S0921344921001233" target="_blank" >The resources, exergetic and environmental footprint of the silicon photovoltaic circular economy: Assessment and opportunities</a>.&rdquo; Resources, Conservation and Recycling 169 (2021): 105516.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Powell, Douglas M., et al. &ldquo;<a href="https://pubs.rsc.org/en/content/articlehtml/2015/ee/c5ee01509j" target="_blank" >The capital intensity of photovoltaics manufacturing: barrier to scale and opportunity for innovation</a>.&rdquo; Energy &amp; Environmental Science 8.12 (2015): 3395-3408.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Dehghani, Ehsan, et al. &ldquo;<a href="https://www.sciencedirect.com/science/article/abs/pii/S0959652620314815" target="_blank" >An environmentally conscious photovoltaic supply chain network design under correlated uncertainty: A case study in Iran</a>.&rdquo; Journal of Cleaner Production 262 (2020): 121434.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Carvalho, Maria, Antoine Dechezleprêtre, and Matthieu Glachant. <a href="https://books.google.es/books?hl=nl&amp;lr=&amp;id=nSSjDwAAQBAJ&amp;oi=fnd&amp;pg=PA2&amp;dq=Understanding&#43;the&#43;dynamics&#43;of&#43;global&#43;value&#43;chains&#43;for&#43;solar&#43;PV&#43;technologies&amp;ots=m9f3jNSAKZ&amp;sig=NCENGV7AU5d7ze6hIcuOflQ0NOY&amp;redir_esc=y#v=onepage&amp;q=Understanding%20the%20dynamics%20of%20global%20value%20chains%20for%20solar%20PV%20technologies&amp;f=false" target="_blank" >Understanding the dynamics of global value chains for solar photovoltaic technologies</a>. Vol. 40. WIPO, 2017.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Dehghani, Ehsan, et al. &ldquo;<a href="https://www.sciencedirect.com/science/article/abs/pii/S0098135418300371" target="_blank" >Resilient solar photovoltaic supply chain network design under business-as-usual and hazard uncertainties</a>.&rdquo; Computers &amp; Chemical Engineering 111 (2018): 288-310.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Kumar, Abhishek, et al. &ldquo;<a href="https://pdf.sciencedirectassets.com/277910/1-s2.0-S1876610217X00283/1-s2.0-S1876610217345034/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD2rJs2Bwk%2Fptc6KvDsPMRxHpxwVvjh3m7PUOeECB3hcAIhALITZLCugdjA5IONheCiCTlC23iXPIdeJko%2B3G%2FwiYrZKoMECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDU5MDAzNTQ2ODY1Igxk03OGC9nabg9m8Kwq1wMkzNTJ4CEjog7CoWj3BdQfjRXemLdOutFwe3fid5pPMUyvPnd8mxd%2BuUdZOmNZxssbSVUVNdzf1IHRZxmJoHOSYVuwWYGBGnRaT7PaAlxDYY%2B24JLe1QcQgzasQ%2BczCtae8HvyMeiB5z1b%2FhnjMS1a1y9aJyQ%2Bx3yph%2Bj7zMZBU2EXKxXgoWwJJuemWdVCVbGJUZ0flrPPQks7li%2BHKSjXyUvfCwBEuHIRWhyAvbt86ALM%2BPTNEo0PMr4soHrOfNv9jUEIv5NTcYlMTY2A7YJ1qBJ0Y3CM3eRJyJI23rOhjcikeYZvtHml4HL%2FEWtvooLt%2Fj6hMbaUINLIdQ7hKrnkGt2OivN3R3YhGDzWr8Aiwdh%2BBPNbTQySk4GpmYwnruAlqL1y%2Bezw020bdDTIJS2Ta8DCPG1lQK1Tu%2F27b97wysh1ugVVEZRD4xHcd57vtLWAFufpezWn7luph6LHt%2BUHNjghfW2MnCSIyP79U9za%2BUerYgwsXJ3k5VFp8sAI2AcFdjhv3cZbG2bpsKsFQD9TvLyaX2eZUMZonoUFOpOaWUTkBZUd6Zn8U1fKUlC%2BLbZnQ4SH%2FCA%2BgksCykp0Dx7iKNBJPeeXAPNrY3e8%2BWbMsLBnJo65i4Ew4p%2BWiAY6pAFhGtfsqohtlYtjMt3%2FZnUcPLcOuiHX%2BYDywhj8v7wNlKQjPiBQz%2F024BPocmpVBeSZtyvOvdeu93QQtouGw1yYv2%2BvNf7Z5QS4%2Bdsgr5HGT1D%2FrKPnW8KHA0o5uAIFk8kHpXRLoA912cc%2FE16aHHstZ2Xka7awVt5aXPZn5yyvGF9pzPcGn3bChYypHLvb46hrc0pnpLgxi3hGWGzPVv5pAxhTKA%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20210731T184754Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYYAJ65I2D%2F20210731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=2e952c3a77a9afb90f3e362d31625284a6fd702880d3c6653435014c17f8ddef&amp;hash=973b80c57ae0465b941da461d3b2dde574bbe6dd043d7bb273882030797a29ba&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S1876610217345034&amp;tid=spdf-72bd8135-bf33-4ca4-a599-40b4efd00a0e&amp;sid=c54258cc123e984af63a5c853f4a5e874174gxrqb&amp;type=client" target="_blank" >Economic viability analysis of silicon solar cell manufacturing: Al-BSF versus PERC</a>.&rdquo; Energy Procedia 130 (2017): 43-49.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Fritts, Charles E. &ldquo;<a href="https://www.ajsonline.org/content/s3-26/156/465.short" target="_blank" >On a new form of selenium cell, and some electrical discoveries made by its use</a>.&rdquo; American Journal of Science 3.156 (1883): 465-472.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p><a href="https://doi.org/10.1038/007303e0" target="_blank" >Effect of Light on Selenium During the Passage of An Electric Current</a>*. Nature 7, 303 (1873).&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Green, Martin A. &ldquo;<a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/pip.612" target="_blank" >Silicon photovoltaic modules: a brief history of the first 50 years</a>.&rdquo; Progress in Photovoltaics: Research and applications 13.5 (2005): 447-455.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Perlin, John. Let it shine: the 6,000-year story of solar energy. New World Library, 2013.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p><a href="https://archive.org/details/seleniumcells00bensrich" target="_blank" >Selenium Cells</a>, Thomas William Benson, 1919.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Extrapolating from the performance of the next panel, we can guess that this one had a power output of about 25W and just under 3% efficiency.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Cove claimed to have built an even larger panel of 9 m2, but no image has survived. It was said to have had a power output of 768 watt at 8% efficiency assuming 100 W/ft2 solar insolation. This array consisted of 8 panels with a total of 14,432 plugs.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Winthrop Packard, Technical World Magazine 11, nr.4, June 1909.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Why don’t we use conductors for solar panels? When light hits a conductor surface it mostly reflects, and little or no energy is absorbed. Furthermore, in conductors, the free electrons move randomly, there is no flow of current, no directional capacity.&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Cove was not the first, though. Charles Fritts’ solar cell was also based on a Schottky junction.&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Byrnes, Steve. &ldquo;<a href="http://sjbyrnes.com/NSE290-FinalPaper.pdf" target="_blank" >Schottky junction solar cells</a>.&rdquo; (2008).&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Tapiero, M., et al. &ldquo;Preparation and characterization of Zn4Sb4.&rdquo; Solar Energy Materials 12.4 (1985): 257-274. <a href="https://www.sciencedirect.com/science/article/abs/pii/0165163385900516" target="_blank" >https://www.sciencedirect.com/science/article/abs/pii/0165163385900516</a>. See also: Mozharivskyj, Yurij, et al. &ldquo;A promising thermoelectric material: Zn4Sb3 or Zn6-δSb5. Its composition, structure, stability, and polymorphs. Structure and stability of Zn1-δSb.&rdquo; Chemistry of Materials 16.8 (2004): 1580-1589. <a href="https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1787&amp;context=chem_pubs" target="_blank" >https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1787&context=chem_pubs</a>&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>Rothwarf, A., and K. W. Böer. &ldquo;<a href="https://www.sciencedirect.com/science/article/abs/pii/0079678675900072" target="_blank" >Direct conversion of solar energy through photovoltaic cells</a>.&rdquo; Progress in Solid State Chemistry 10 (1975): 71-102..&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>Anderson, W. A., A. E. Delahoy, and R. A. Milano. &ldquo;<a href="https://aip.scitation.org/doi/abs/10.1063/1.1663886" target="_blank" >An 8% efficient layered Schottky‐barrier solar cell</a>.&rdquo; Journal of Applied Physics 45.9 (1974): 3913-3915.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p>Yavuz, Serdar. <a href="https://escholarship.org/content/qt6k73b3ps/qt6k73b3ps.pdf" target="_blank" >Graphene/Silicon Schottky Junction Based Solar Cells</a>. University of California, San Diego, 2018.&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p>Todorov, Teodor K., et al. &ldquo;<a href="https://www.nature.com/articles/s41467-017-00582-9" target="_blank" >Ultrathin high band gap solar cells with improved efficiencies from the world’s oldest photovoltaic material</a>.&rdquo; Nature communications 8.1 (2017): 1-8.&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28">
+<p>Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of <a href="https://lowtechmag.gitlab.io/solar/2011/07/the-bright-future-of-solar-thermal-powered-factories/" >solar thermal technologies</a>, which means that in principle these processes could be run by direct use of solar energy.&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29">
+<p>Hadar, Ido, et al. &ldquo;<a href="https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/aenm.201802766" target="_blank" >Modern processing and insights on selenium solar cells: the world&rsquo;s first photovoltaic device</a>.&rdquo; Advanced Energy Materials 9.16 (2019): 1802766.&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30">
+<p>Ferhati, H., F. Djeffal, and D. Arar. &ldquo;<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925346718306463" target="_blank" >Above 14% efficiency earth-abundant selenium solar cells by introducing gold nanoparticles and Titanium sub-layer</a>.&rdquo; Optical Materials 86 (2018): 24-31.&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31">
+<p>Zhu, Menghua, Guangda Niu, and Jiang Tang. &ldquo;<a href="https://pubs.rsc.org/en/content/articlelanding/2019/tc/c8tc05873c/unauth" target="_blank" >Elemental Se: fundamentals and its optoelectronic applications</a>.&rdquo; Journal of Materials Chemistry C 7.8 (2019): 2199-2206.&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32">
+<p>More details in “<a href="https://journals.lib.unb.ca/index.php/MCR/article/view/17744/22231" target="_blank" >George Cove’s solar energy device</a>”, Dennis Bartels, 1997.&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33">
+<p>Polozine, Alexandre, Susanna Sirotinskaya, and Lírio Schaeffer. &ldquo;<a href="https://www.scielo.br/j/mr/a/6pQV5d6yY7dQfJj4pWNdyTv/abstract/?lang=en&amp;format=html" target="_blank" >History of development of thermoelectric materials for electric power generation and criteria of their quality</a>.&rdquo; Materials Research 17 (2014): 1260-1267.&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/de/tags/solar-power/" class="">Solar Power</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/de/tags/renewable-energy/" class="">Renewable Energy</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/de/tags/off-the-grid/" class="">Off-the-grid</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Fruchtgräben: Anbau von subtropischen Pflanzen bei Minusgraden</h3>
+		<p class="index-summary">In der ersten Hälfte des zwanzigsten Jahrhunderts bauten sowjetische Zitrologen (sub)tropische Pflanzen in Regionen mit bis zu -30 °C kalten Wintern an – im Freien, ohne Nutzung von Glas oder fossilen Brennstoffen.</p>
+		<time class="published">16. April 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2023/07/human-powered-air-compressor-and-energy-storage-system/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-1_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Mit Muskelkraft betriebenes Luftkompressor— und Energiespeichersystem</h3>
+		<p class="index-summary">Andy Lagzdins hat einen pedalbetriebenen Luftkompressor gebaut und dokumentiert, mit dem er die Maschinen in seiner Motorradwerkstatt betreibt.</p>
+		<time class="published">9. Juli 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2023/06/rebuilding-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Neuerstellung der solarbetriebenen Website</h3>
+		<p class="index-summary">Du blickst auf eine vollständig neu entwickelte Version der solarbetriebenen Website, die es möglich macht, die Dithering-Kompression auszuschalten und die Originalbilder anzuschauen.</p>
+		<time class="published">13. Juni 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2022/01/the-revenge-of-the-hot-water-bottle/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Die Wiederentdeckung der Wärmflasche</h3>
+		<p class="index-summary">Stellen Sie sich ein persönliches Heizsystem vor, das sowohl drinnen als auch draußen funktioniert, überallhin mitgenommen werden kann, wenig Energie benötigt und unabhängig von jeglicher Infrastruktur ist. Es gibt es, und es ist Hunderte Jahre alt.</p>
+		<time class="published">20. Januar 2022</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Seitengröße: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/de/about">
+  Über
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/de/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/de/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/de/donate">
+  Spenden
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

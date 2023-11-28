@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Plastic afval in de brandstoftank? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Plastic afval in de brandstoftank?" />
+<meta name="twitter:title" content="Plastic afval in de brandstoftank?"/>
+
+<meta property="og:description" content="We produceren genoeg plastic afval om minstens 10% van het gemotoriseerde wegverkeer van brandstof te voorzien. De Nederlandse ontwerper Gijs Schalkx greep deze kans en rijdt nu met zijn auto op het plastic afval dat hij verzamelt." />
+
+<meta name="twitter:description" content="We produceren genoeg plastic afval om minstens 10% van het gemotoriseerde wegverkeer van brandstof te voorzien. De Nederlandse ontwerper Gijs Schalkx greep deze kans en rijdt nu met zijn auto op het plastic afval dat hij verzamelt."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-11-19T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Transportation" />
+<meta property="article:tag" content="Cars" />
+<meta property="article:tag" content="Electric Cars" />
+<meta property="article:tag" content="Fossil Fuels" />
+<meta property="article:tag" content="Materials" />
+<meta property="article:tag" content="Waste and Recycling" />
+
+</head>
+<body id="plastic-afval-in-de-brandstoftank">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/nl/solar/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Plastic afval in de brandstoftank?</h1>
+
+				<p class="summary">
+					We produceren genoeg plastic afval om minstens 10% van het gemotoriseerde wegverkeer van brandstof te voorzien. De Nederlandse ontwerper Gijs Schalkx greep deze kans en rijdt nu met zijn auto op het plastic afval dat hij verzamelt.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">19 november 2023</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2023/11/plastic-waste-in-the-fuel-tank/">en</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png" alt='Afbeelding: Deze auto rijdt op plastic. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/intro-plastic-waste-in-fuel-tank-gijs-schalkx_hu06191b7e796bad2965ef09f34e15812c_1140364_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Deze auto rijdt op plastic. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="van-houtgas-tot-plastic-afval">Van houtgas tot plastic afval</h2>
+<p>Tijdens de Tweede Wereldoorlog werden <a href="https://solar.lowtechmagazine.com/nl/2010/01/wood-gas-vehicles-firewood-in-the-fuel-tank/" target="_blank" >veel gemotoriseerde voertuigen op het Europese vasteland omgebouwd om op brandhout te rijden</a>. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Dat gebeurde als gevolg van de rantsoenering van fossiele brandstoffen. Voertuigen op houtgas waren een niet zo elegant alternatief voor hun neefjes op benzine, maar hun actieradius was vergelijkbaar met de elektrische voertuigen van vandaag. Alleen al in Duitsland reden tegen het einde van de Tweede Wereldoorlog ongeveer 500.000 auto&rsquo;s, bussen en vrachtwagens op houtgas. Een nog omslachtiger alternatief was het <a href="https://solar.lowtechmagazine.com/2011/11/gas-bag-vehicles/" target="_blank" >gaszakvoertuig</a>. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Tegenwoordig is er veel minder brandhout beschikbaar dan in de jaren 1940, vooral in geïndustrialiseerde gebieden. Dus wat zou de oplossing zijn voor de onderbreking van benzine of elektriciteit in de Derde Wereldoorlog? De Nederlandse ontwerper <a href="https://gijsschalkx.nl" target="_blank" >Gijs Schalkx</a> vond een andere brandstofvoorraad, die overvloedig aanwezig is: plastic afval. De productie van plastic begon pas in de jaren 1950, na de Tweede Wereldoorlog. Sindsdien is plastic een steeds populairder materiaal geworden, met een wereldwijde jaarlijkse productie van 460 miljoen ton in 2019 - twee keer zoveel als in 2000 en acht keer zoveel als in 1976. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/burning.gijs-schalkx_dithered.png" alt='Afbeelding: dieselproductie op het dak. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/burning.gijs-schalkx_hu305706311ef1f1fe727cb1bd1c99654e_1165707_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/burning.gijs-schalkx_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: dieselproductie op het dak. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Plastic wordt gemaakt van fossiele brandstoffen, en het proces kan worden omgedraaid. Gijs Schalkx heeft een afgedankte Volvo 240 omgebouwd om op diesel te rijden die hij maakt van het plastic afval dat hij verzamelt. Een &ldquo;de-raffinaderij&rdquo; zet plastic afval weer om in brandstof en staat op de bagagedrager van de auto. Het voertuig is daarmee onafhankelijk van de infrastructuur voor fossiele brandstoffen. Het plastic afval wordt in een ketel verhit tot ongeveer 700 graden Celsius, waarna het verdampt. Het gas koelt vervolgens af en condenseert op een uur tijd tot brandstof. Gijs verzamelt die in plastic flessen - zelf de grondstof voor de diesel die ze bevatten. De brandstof lijkt op Coca-Cola - een van de grootste producenten van plastic afval.</p>
+<h2 id="hoe-ver-kunnen-we-rijden-op-plastic-afval">Hoe ver kunnen we rijden op plastic afval?</h2>
+<p>Brandstof maken kan terwijl de auto rijdt, maar Gijs heeft de twee activiteiten om veiligheidsredenen gescheiden gehouden. Met een snelheid van 80 km/u rijdt zijn Volvo 240 een afstand van 7 kilometer per kilogram plastic (wat overeenkomt met 14 kg plastic per 100 gereden km). Dat is inclusief de brandstof die wordt gebruikt om het plastic afval op het dak op te warmen (1 kg plastic levert 0,5 liter diesel op), zodat het brandstofverbruik op 7.14 liter per 100 km uitkomt. Plastic afval is een nogal volumineus materiaal, en er zijn meerdere vuilniszakken vol plastic afval nodig om één liter brandstof te maken. Schalkx is van plan om een kleine shredder te gebruiken om het volume van het plastic afval dat hij verzamelt te verminderen, maar voorlopig vertrouwt hij op een voorraad afgedankt plastic granulaat van een buurman, bestaande uit PET en HDPE.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/gijs-schalkx-on-roof-volvo_dithered.png" alt='Afbeelding: Gijs Schalkx stopt plastic afval in de stookketel. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/gijs-schalkx-on-roof-volvo_huc4b1d83a4d52ec062737bbf4c6431a2f_3587120_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/gijs-schalkx-on-roof-volvo_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Gijs Schalkx stopt plastic afval in de stookketel. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Hoe ver zouden we kunnen rijden als we al het plastic afval zouden omzetten in brandstof? Nederland produceerde in 2017 ruwweg 1.650 kiloton plastic afval (1.650.000.000 kg), genoeg om 11,55 miljard km (11.550.000.000 km) te rijden. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Dat komt overeen met ongeveer 1/10e van de kilometers afgelegd door alle Nederlandse personenauto’s in 2021 (114,3 miljard km). <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Op kleinere schaal rijdt het gemiddelde personenvoertuig in Nederland 12.000 km per jaar, waarvoor elke bestuurder en zijn of haar passagiers 1.714 kg plastic zouden moeten inzamelen. Langs de andere kant zou zelfs de huidige hoeveelheid plastic afval per hoofd van de bevolking in Nederland (97 kg) genoeg zijn om 679 kilometer te rijden - misschien voldoende voor degenen die hun auto verstandig gebruiken. De hoeveelheid plastic afval groeit sneller dan het aantal auto&rsquo;s, zodat we in de toekomst steeds langere afstanden zouden kunnen rijden. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<h2 id="hoe-duurzaam-is-rijden-op-plastic-afval">Hoe duurzaam is rijden op plastic afval?</h2>
+<p>Een voertuig op plastic afval laten rijden heeft voordelen. Zo kunnen medici bijvoorbeeld ambulances besturen zonder regelmatige brandstoftoevoer in een oorlogsgebied. Maar hoe presteert een voertuig dat op plastic afval rijdt in tijden van vrede? Plastic afval is immers een enorm probleem en de auto van Gijs Schalkx maakt er komaf mee. Aangezien wereldwijd minder dan 10% van het plastic afval wordt gerecycled, zou het dan zinvol zijn om mensen aan te moedigen hun voertuigen om te bouwen om op dieselolie van plastic afval te rijden? Het zou zeker een betaalbaarder alternatief zijn voor elektrische auto&rsquo;s, maar hoe zit het met de koolstofuitstoot?</p>
+<p>Aan de ene kant is de koolstofuitstoot van de Volvo 240 bijna nul: Gijs vond de meeste onderdelen - inclusief de auto zelf - op de vuilnisbelt, andere op de tweedehandsmarkt. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> Daarentegen voegt de productie van nieuwe voertuigen - vooral elektrische - een aanzienlijke koolstofuitstoot toe voordat ze hun eerste kilometer afleggen. Conventionele auto’s hebben ook een uitgebreide infrastructuur nodig voor de productie en distributie van brandstof en elektriciteit, waarvan de bouw en het onderhoud nog meer uitstoot toevoegt. Bij de Volvo ligt de brandstofinfrastructuur op het dak, gebouwd van schroot.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/gijs-schalkx-volvo-smiles_dithered.png" alt='Afbeelding: Gijs Schalkx in zijn auto. Het ontwerp is een knipoog naar de houtgasauto&amp;rsquo;s van andere Nederlanders, Dutch John en Joost Conijn. Foto: Frank Hanswijk.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/gijs-schalkx-volvo-smiles_huea807448511a1512fa85c2551cece071_32286649_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/gijs-schalkx-volvo-smiles_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Gijs Schalkx in zijn auto. Het ontwerp is een knipoog naar de houtgasauto&rsquo;s van andere Nederlanders, Dutch John en Joost Conijn. Foto: Frank Hanswijk.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/dashboard-volvo-frank-hanswijk_dithered.png" alt='Afbeelding: Het interieur van de auto. Foto: Frank Hanswijk.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dashboard-volvo-frank-hanswijk_hu9573b2acb170644b61b4423d0a474861_19607833_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/dashboard-volvo-frank-hanswijk_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Het interieur van de auto. Foto: Frank Hanswijk.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Aan de andere kant is de CO2-uitstoot van de brandstofproductie en -verbranding niet lovenswaardig. Ten eerste is er de verbranding van plastic op het dak van de auto. Om 1 liter diesel te maken, moet 1 kg plastic worden verbrand, wat resulteert in 2-2,7 kg koolstofuitstoot. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Ten tweede is er de verbranding van de diesel tijdens het rijden, die 2,7 kg kooldioxide per liter uitstoot. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> Samen wordt dat 4,7 tot 5,4 kg CO2 per liter. Bij een brandstofverbruik van 7,4 liter per 100 km stoot de Volvo dus 33,6 tot 38,6 kg broeikasgassen per 100 km uit.</p>
+<p>Daarentegen bedraagt de uitstoot van de gemiddelde auto op fossiele brandstoffen in Europa 25,8 kg CO2/100 km, inclusief de productie van ruwe olie, de raffinage van brandstof en de productie van het voertuig. <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> De uitstoot van een kleine elektrische auto zoals de Nissan Leaf bedraagt 10,9 kg CO2/100 km in Europa, inclusief de uitstoot van fossiele brandstoffen om elektriciteit te produceren. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> De Volvo stoot dus 1,5 keer meer CO2 uit dan de gemiddelde auto op fossiele brandstoffen in Europa, en 3 tot 4 keer meer dan een kleine elektrische auto. Het verschil zal iets kleiner zijn, omdat de gegevens voor de andere auto&rsquo;s niet de uitstoot voor de bouw van de olie- en energie-infrastructuur bevatten. Het is echter onwaarschijnlijk dat dit de balans zal doen doorslaan.</p>
+<p>Er zijn verschillende redenen voor de hoge koolstofuitstoot. Ten eerste is de productie van brandstof door het verbranden van plastic op het dak vier keer koolstofintensiever dan de productie van brandstof uit ruwe olie in een raffinaderij. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> Ten tweede dateert de Volvo uit 1980, toen auto&rsquo;s een hoger brandstofverbruik hadden. Gijs Schalkx: &ldquo;Hypothetisch gezien zou je een nieuwere auto kunnen ombouwen om op plastic afval te rijden en een veel lagere koolstofuitstoot hebben. Ook de raffinaderij is een van de eerste in zijn soort en kan door echte ingenieurs nog efficiënter worden gemaakt. Olieraffinaderijen worden al meer dan 100 jaar ontwikkeld. Nieuwere auto&rsquo;s hebben echter een elektronische motorsturing die het gebruik van alternatieve brandstoffen verhindert.&rdquo;</p>
+<h2 id="externaliseren-van-vervuiling">Externaliseren van vervuiling</h2>
+<p>Koolstofuitstoot is niet de enige zorg. Door de chemicaliën die aan plastic worden toegevoegd, verspreidt de verbranding ervan toxische stoffen in lucht, water en bodem. Kortom, niemand die bij zijn volle verstand is zal het gebruik van plastic afval als brandstof aanmoedigen. Het is echter leerzaam om de motieven achter deze unanieme conclusie te onderzoeken. Veel van het plastic afval dat de Volvo 240 verbrandt, verbrandt sowieso. Niet in auto&rsquo;s maar in verbrandingsovens. Dat geldt voor 44% van het plastic afval in Europa. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Uit die plastic verbranding wordt elektriciteit geproduceerd, die vervolgens elektrische auto&rsquo;s kan opladen. Hoe is dat duurzamer dan plastic verbranden op het dak van je auto?</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/derefinery-gijs-schalkx-portrait_dithered.png" alt='Afbeelding: Het verbranden van plastic. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/derefinery-gijs-schalkx-portrait_hue6cd04f040145444761e6d248faf1834_824597_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/derefinery-gijs-schalkx-portrait_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Het verbranden van plastic. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De koolstofuitstoot is hetzelfde. De luchtvervuiling ook, hoewel het makkelijker is om een rookgasreiniger op honderden verbrandingsovens te plaatsen dan op miljoenen auto&rsquo;s. Het belangrijkste verschil is dat het verbranden van plastic afval in verbrandingsovens velen van ons in staat stelt om de neveneffecten van autorijden te <em>externaliseren</em>. Een verbrandingsoven staat meestal in een arme buurt, waar hij kanker en andere gezondheidsproblemen veroorzaakt, ondanks de rookgasreiniging. Ondertussen produceert hij elektriciteit voor elektrische auto&rsquo;s die rondrijden in de milieuzones van welgestelde buurten.</p>
+<h2 id="internaliseren-van-vervuiling">Internaliseren van vervuiling</h2>
+<p>Schalkx&rsquo; Volvo daarentegen <em>internaliseert</em> alle neveneffecten van autorijden. De Volvo is geen plezier om in te rijden, althans niet regelmatig. Hij is vies. Het interieur stinkt naar plastic, wat niet gezond kan zijn - Gijs houdt de ramen van de auto altijd open, ongeacht het weer. Bovendien moet hij veel tijd besteden aan het verzamelen van plastic en het maken van brandstof, en al deze nadelen doen hem twee keer nadenken voordat hij achter het stuur kruipt. Het is onwaarschijnlijk dat Schalkx 12.000 km per jaar zal rijden, en dus zal hij uiteindelijk minder vervuilen dan de bestuurders van duurzaam ogender auto&rsquo;s die geen van deze problemen kennen.</p>
+<p>Op de een of andere manier hebben de Nederlandse autoriteiten, die niet bekend staan om hun toegeeflijkheid, de auto na inspectie officieel goedgekeurd. Schalkx rijdt belastingvrij en mag - dankzij het feit dat zijn auto een oldtimer is - milieuzones in, waar hij naast de nieuwste elektrische SUV parkeert. Rechtvaardigheid is de wereld nog niet uit.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/trunk-volvo-240_dithered.png" alt='Afbeelding: Plastic flessen met brandstof. Foto: Kris De Decker.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/trunk-volvo-240_hu5ed352e39b447e15039b34065d59ca47_687230_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/trunk-volvo-240_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Plastic flessen met brandstof. Foto: Kris De Decker.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/plastic-fuel-gijs-schalkx_dithered.png" alt='Afbeelding: Een deel van de raffinaderij op het dak, waarop de luchtblazer voor de oliebrander te zien is. Deze is gemaakt van een oude kachelventilator van de Volvo. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/plastic-fuel-gijs-schalkx_hua10ee4f0ab8ba94510e2eeb3828d4b45_1034221_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/plastic-fuel-gijs-schalkx_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Een deel van de raffinaderij op het dak, waarop de luchtblazer voor de oliebrander te zien is. Deze is gemaakt van een oude kachelventilator van de Volvo. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/stookketel_dithered.png" alt='Afbeelding: Een deel van de raffinaderij op het dak, waarop de oliebrander in Ursutz-stijl te zien is die de raffinaderij heet stookt. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/stookketel_hud2de9b4153aacddf999025a071dc6d0e_1112003_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/stookketel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Een deel van de raffinaderij op het dak, waarop de oliebrander in Ursutz-stijl te zien is die de raffinaderij heet stookt. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/recycled-steel_dithered.png" alt='Afbeelding: Gijs Schalkx repareerde de auto met schrootstaal. Foto: Gijs Schalkx.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/recycled-steel_huf80d0a48c6a074c1781ae7fd453305ca_1039649_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/recycled-steel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Gijs Schalkx repareerde de auto met schrootstaal. Foto: Gijs Schalkx.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/door-interior_dithered.png" alt='Afbeelding: Gijs Schalkx heeft de auto gestript tot de essentie. Foto: Kris De Decker.' data-original="https://lowtechmag.gitlab.io/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/door-interior_huda28968321aa02147d19746477d336d6_661442_800x800_fit_q90_h2_box.webp" data-dither="/solar/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/door-interior_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: Gijs Schalkx heeft de auto gestript tot de essentie. Foto: Kris De Decker.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>Ik heb een aantal aanpassingen in de tekst gemaakt. De CO2-uitstoot van de Volvo is slechts de helft van wat het artikel oorspronkelijk beweerde. Ik had per ongeluk de uitstoot van het brandstofverbruik dubbel geteld.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Houtgasauto&rsquo;s: Brandhout in de brandstoftank, Kris De Decker, Low-tech Magazine, 2010. <a href="https://solar.lowtechmagazine.com/2010/01/wood-gas-vehicles-firewood-in-the-fuel-tank/" target="_blank" >https://solar.lowtechmagazine.com/2010/01/wood-gas-vehicles-firewood-in-the-fuel-tank/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Gas Bag Vehicles, Kris De Decker, Low-tech Magazine, 2011. <a href="https://solar.lowtechmagazine.com/2011/11/gas-bag-vehicles/" target="_blank" >https://solar.lowtechmagazine.com/2011/11/gas-bag-vehicles/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.statista.com/statistics/282732/global-production-of-plastics-since-1950/" target="_blank" >https://www.statista.com/statistics/282732/global-production-of-plastics-since-1950/</a> &#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm" target="_blank" >https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://ce.nl/publicaties/plasticgebruik-en-verwerking-van-plastic-afval-in-nederland/" target="_blank" >https://ce.nl/publicaties/plasticgebruik-en-verwerking-van-plastic-afval-in-nederland/</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://www.cbs.nl/nl-nl/visualisaties/verkeer-en-vervoer/verkeer/verkeersprestaties-personenautos#:~:text=Van%20de%20114%2C3%20miljard,overige%20kilometers%20werden%20zakelijk%20gereden" target="_blank" >https://www.cbs.nl/nl-nl/visualisaties/verkeer-en-vervoer/verkeer/verkeersprestaties-personenautos#:~:text=Van%20de%20114%2C3%20miljard,overige%20kilometers%20werden%20zakelijk%20gereden</a>.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>De kunststofindustrie verbruikt nu 14% van de totale olieproductie, tegenover slechts 4% in 2012. Tegen 2050 zal het aandeel van de kunststofindustrie naar verwachting 20% van de olieproductie bedragen. Bronnen: <a href="https://e360.yale.edu/features/the-plastics-pipeline-a-surge-of-new-production-is-on-the-way" target="_blank" >https://e360.yale.edu/features/the-plastics-pipeline-a-surge-of-new-production-is-on-the-way</a> &amp; <a href="https://www.reuters.com/business/environment/big-oils-plastic-boom-threatens-uns-historic-pollution-pact-2022-03-04/" target="_blank" >https://www.reuters.com/business/environment/big-oils-plastic-boom-threatens-uns-historic-pollution-pact-2022-03-04/</a> &amp; <a href="https://oilprice.com/Energy/Energy-General/How-Much-Crude-Oil-Does-Plastic-Production-Really-Consume.html" target="_blank" >https://oilprice.com/Energy/Energy-General/How-Much-Crude-Oil-Does-Plastic-Production-Really-Consume.html</a> See also <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Nieuwe onderdelen in de auto zijn brandstofslangen, koelvloeistofslangen, verf, banden, remleidingen en remblokken. De meeste hiervan waren nodig om door de inspectie te komen.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Rubio-Domingo, Gabriela, et al. &ldquo;Making Plastics Emissions Transparent.&rdquo; COMET. Last modified February 2022. https://ccsi. columbia. edu/sites/default/files/content/COMET-making-plastics-emissions-transparent. Pdf (2022). <a href="https://ccsi.columbia.edu/sites/default/files/content/COMET-making-plastics-emissions-transparent.pdf" target="_blank" >https://ccsi.columbia.edu/sites/default/files/content/COMET-making-plastics-emissions-transparent.pdf</a>.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p><a href="https://iopscience.iop.org/article/10.1088/1742-6596/2307/1/012025/pdf" target="_blank" >https://iopscience.iop.org/article/10.1088/1742-6596/2307/1/012025/pdf</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p><a href="https://www.carbonbrief.org/factcheck-how-electric-vehicles-help-to-tackle-climate-change/" target="_blank" >https://www.carbonbrief.org/factcheck-how-electric-vehicles-help-to-tackle-climate-change/</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC85326" target="_blank" >https://publications.jrc.ec.europa.eu/repository/handle/JRC85326</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p><a href="https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm#:~:text=Another%2019%25%20is%20incinerated%2C%2050,environments%2C%20especially%20in%20poorer%20countries" target="_blank" >https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm#:~:text=Another%2019%25%20is%20incinerated%2C%2050,environments%2C%20especially%20in%20poorer%20countries</a>.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/transportation/" class="">Transportation</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/cars/" class="">Cars</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/electric-cars/" class="">Electric Cars</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/fossil-fuels/" class="">Fossil Fuels</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/materials/" class="">Materials</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/waste-and-recycling/" class="">Waste and Recycling</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/nl/tags/circular-economy/" class="">Circular Economy</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/nl/2010/01/wood-gas-vehicles-firewood-in-the-fuel-tank/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/nl/2010/01/wood-gas-vehicles-firewood-in-the-fuel-tank/images/dithers/dutch-john-woodgas-car_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Houtgasauto’s: brandhout in de brandstoftank</h3>
+		<p class="index-summary">Tijdens de Tweede Wereldoorlog werd vrijwel het volledige wagenpark in Europa omgebouwd om op brandhout te kunnen rijden.</p>
+		<time class="published">18 januari 2010</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://lowtechmag.gitlab.io/solar/nl/2023/02/can-we-make-bicycles-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/nl/2023/02/can-we-make-bicycles-sustainable-again/images/dithers/immagenwebblancoynegro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Kunnen we de fiets weer duurzaam maken?</h3>
+		<p class="index-summary">Fietsen is duurzaam, maar de fiets wordt steeds schadelijker voor het milieu. Het energieverbruik tijdens de productie gaat omhoog, terwijl de levensduur afneemt.</p>
+		<time class="published">28 februari 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/images/dithers/LTM-boek-nederlandstalig_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine op papier, in het Nederlands</h3>
+		<p class="index-summary">De 18 nieuwste artikels van Lowtech Magazine zijn nu verkrijgbaar in boekvorm – het eerste volume in een reeks.</p>
+		<time class="published">2 december 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/nl/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/nl/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Hoe ontwerp je een zeilschip voor de 21ste eeuw?</h3>
+		<p class="index-summary">Het is verrassend moeilijk om een klimaatneutraal zeilschip te bouwen. Dat is zeker zo in onze tijd, omdat onze eisen op het vlak van veiligheid, gezondheid, hygiëne, comfort en gemak veel hoger liggen dan honderd jaar geleden.</p>
+		<time class="published">11 mei 2021</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/nl/about">
+  Over ons
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/nl/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/nl/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Reinventing the Greenhouse | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Reinventing the Greenhouse" />
+<meta name="twitter:title" content="Reinventing the Greenhouse"/>
+
+<meta property="og:description" content="Contrary to its fully glazed counterpart, a passive solar greenhouse is designed to retain as much warmth as possible." />
+
+<meta name="twitter:description" content="Contrary to its fully glazed counterpart, a passive solar greenhouse is designed to retain as much warmth as possible."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-12-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-12-24T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Food and Farming" />
+<meta property="article:tag" content="Solar Power" />
+
+</head>
+<body id="reinventing-the-greenhouse">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" /solar/about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Reinventing the Greenhouse</h1>
+
+				<p class="summary">
+					Contrary to its fully glazed counterpart, a passive solar greenhouse is designed to retain as much warmth as possible.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">December 24, 2015</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2015/12/reinventing-the-greenhouse/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2015/12/reinventing-the-greenhouse/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/">es</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pl/2015/12/reinventing-the-greenhouse/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" alt='A Chinese greenhouse. Picture: Chris Buhler, Indoor Garden HQ' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/chinese-greenhouse_hu6c82d5d860597dfb8a32bff4acbae57c_564134_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A Chinese greenhouse. Picture: <a href="http://indoorgardenhq.com/2014/07/09/23/passive-solar-greenhouses-chinese-design/" target="_blank" >Chris Buhler, Indoor Garden HQ</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The modern glass greenhouse requires massive inputs of energy to grow crops out of season. That&rsquo;s because each square metre of glass, even if it&rsquo;s triple glazed, loses ten times as much heat as a wall.</p>
+<p>However, growing fruits and vegetables out of season can also happen in a sustainable way, using the energy from the sun. Contrary to its fully glazed counterpart, a passive solar greenhouse is designed to retain as much warmth as possible.</p>
+<p>Research shows that it&rsquo;s possible to grow warmth-loving crops all year round with solar energy alone, even if it&rsquo;s freezing outside. The solar greenhouse is especially successful in China, where many thousands of these structures have been built during the last decades.</p>
+<p>The quest to produce warm-loving crops in temperate regions initially didn&rsquo;t involve any glass at all. In Northwestern Europe, Mediterranean crops were planted close to specially built &ldquo;fruit walls&rdquo; with high thermal mass, creating <a href="https://lowtechmag.gitlab.io/solar/2015/12/fruit-walls-urban-farming-in-the-1600s/" >a microclimate that could be 8 to 12°C (14 to 22°F) warmer than an unaltered climate</a>.</p>
+<p>Later, greenhouses built against these fruit walls further improved yields from solar energy alone. It was only at the very end of the nineteenth century that the greenhouse turned into a fully glazed and artificially heated building where heat is lost almost instantaneously &ndash; the complete opposite of the technology it evolved from.</p>
+<p>During the oil crises of the 1970s, there was a renewed interest in the passive solar greenhouse. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> However, the attention quickly faded when energy prices came down again, and the all-glass greenhouse remained the horticultural workhorse of the Northwestern world. The Chinese, on the other hand, built 800,000 hectare of passive solar greenhouses during the last three decades &ndash; that&rsquo;s 80 times the surface area of the largest glasshouse industry in the world, that of the Netherlands.</p>
+<h2 id="the-chinese-solar-greenhouse">The Chinese Solar Greenhouse</h2>
+<p>The Chinese passive solar greenhouse has three walls of brick or clay. Only the southern side of the building consists of transparant material (usually plastic foil) through which the sun can shine. During the day the greenhouse captures heat from the sun in the thermal mass of the walls, which is released at night.</p>
+<p>At sunset, an insulating sheet &ndash; made of straw, pressed grass or canvas &ndash; is rolled out over the plastic, increasing the isolating capacity of the structure. The walls also block the cold, northern winds, which would otherwise speed up the heat loss of the greenhouse.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouses_dithered.png" alt='Chinese greenhouses. Picture: HortTechnology (archived website).' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/chinese-greenhouses_hu2c7dfa121fe0df6e9a21691a81910469_47868_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouses_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Chinese greenhouses. Picture: <a href="https://web.archive.org/web/20160601085700/http://horttech.ashspublications.org/content/20/3/626.full" target="_blank" >HortTechnology</a> (archived website).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Being the opposite of the energy-intensive glass greenhouse, the Chinese passive solar greenhouse is heated all-year round with solar energy alone, even when the outdoor temperature drops below freezing point. The indoor temperature of the structure can be up to 25°C (45°F) higher than the outdoor temperature.</p>
+<p>The incentive policy of the Chinese government has made the solar greenhouse a cornerstone of food production in central and northern China. One fifth of the total area of greenhouses in China is now a solar greenhouse. By 2020, they are expected to take up at least 1.5 million hectares. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h2 id="improving-the-chinese-solar-greenhouse">Improving the Chinese Solar Greenhouse</h2>
+<p>The first Chinese-style greenhouse was built in 1978. However, the technology only took off during the 1980s, following the arrival of transparent plastic foil. Not only is foil cheaper than glass, it is also lighter and doesn’t require a strong carrying capacity, which makes the construction of the structure much cheaper. Since then, the design has continuously been improved upon. The structure became deeper and taller, allowing sunlight to be distributed better and ensuring that temperature fluctuations are decreased.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/different-types-chinese-greenhouses_dithered.png" alt='A: The original design from the 1980s with a glass canopy. B: An improved design from the mid-1980s, with plastic foil, a night curtain, and better insulated walls. This design is the most widespread. C: An improved design from 1995. The walls are thinner because they are insulated with modern materials. Automatic handling of the night curtain. D: The most recent design from 2007, which has a double roof for extra insulation.' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/different-types-chinese-greenhouses_hueaa0a8d1f19cc541b50a8f940ee6f539_272016_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/different-types-chinese-greenhouses_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A: The original design from the 1980s with a glass canopy. B: An improved design from the mid-1980s, with plastic foil, a night curtain, and better insulated walls. This design is the most widespread. C: An improved design from 1995. The walls are thinner because they are insulated with modern materials. Automatic handling of the night curtain. D: The most recent design from 2007, which has a double roof for extra insulation.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In addition, cultivators are increasingly opting for modern insulation materials instead of using rammed earth or air cavities for the insulation of the walls, which saves space and/or improves the heat absorption characteristics of the structure. Synthetic insulation blankets, which are better suited for dealing with moisture, are also seeing increased use. The old-fashioned straw mats become heavier and insulate less when they become wet.</p>
+<p>In some of the more recent greenhouses, the insulation blankets are rolled up and down automatically, and more sophisticated ventilation systems are used. Some greenhouses have a double roof or reflecting insulation installed. In addition, the plastic foil used for the greenhouses — obviously the least sustainable component of the system — is continuously being improved, resulting in a longer lifespan.</p>
+<h2 id="performance-of-the-chinese-solar-greenhouse">Performance of the Chinese Solar Greenhouse</h2>
+<p>The performance of the Chinese greenhouse depends on its design, the latitude, and the local climate. A recent study observed three types of greenhouses in Shenyang, the capital of the Liaoning province. The city is at 41.8°N and is one of the most northern areas where the Chinese-style greenhouse is built (between latitudes 32°N and 43°N).</p>
+<p>The research was conducted from the beginning of November to the end of March, the period during which the outside temperature drops below freezing. The average temperature in the coldest month is between -15°C and -18°C (5 to -0.4°F). <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/unfinished-greenhouse_dithered.png" alt='Air cavities in a ruined solar greenhouse. Picture: Chris Buhler, Indoor Garden HQ' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/unfinished-greenhouse_hu613e77fae459b1f1f99cdf59129bdbb8_318809_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/unfinished-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Air cavities in a ruined solar greenhouse. Picture: <a href="http://indoorgardenhq.com/2014/07/09/23/passive-solar-greenhouses-chinese-design/" target="_blank" >Chris Buhler, Indoor Garden HQ</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>he three greenhouses studied all have the same shape and dimensions (60 x 12.6 x 5.5 m), but the walls, the plastic foil, and the transparent layer vary. The simplest construction has walls of rammed earth and an inside layer of brick to increase the structures’ stability. The covering is a thin plastic film that is covered at night with a straw blanket.</p>
+<p>The two other greenhouses have a northern wall of brick with extruded polystyrene foam as insulating material, whereby the width of the wall can be cut in half. They are also covered with a thicker PVC plastic foil. The best greenhouse adds to this a reflective coating on the insulation blanket, further reducing heat loss at night.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/solar-greenhouse-insulating-sheet_dithered.png" alt='A Chinese greenhouse. Picture: Chris Buhler, Indoor Garden HQ' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/solar-greenhouse-insulating-sheet_hud02c4c2fb6c080979483c19fa4a11649_256710_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/solar-greenhouse-insulating-sheet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A Chinese greenhouse. Picture: <a href="http://indoorgardenhq.com/2014/07/09/23/passive-solar-greenhouses-chinese-design" target="_blank" >Chris Buhler, Indoor Garden HQ</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/night-curtain-solar-greenhouse_dithered.png" alt='The night curtain of a solar greenhouse: Energy Farms' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/night-curtain-solar-greenhouse_huf2e845b7da7e742a30ddb2a760fcbf3b_471513_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/night-curtain-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>The night curtain of a solar greenhouse: <a href="https://energyfarms.wordpress.com/2010/04/05/solar-greenhouses-chinese-style" target="_blank" >Energy Farms</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In the simplest greenhouse the temperatures dropped below the freezing point from early December until mid-January. Without extra heating, this greenhouse cannot grow any produce at this latitude. Only the most sophisticated greenhouse – with its reflecting insulation layer – succeeded in keeping the inside temperature above freezing at all times, using only solar energy.</p>
+<p>What’s more, the temperature stayed above 10°C most of the time, which is the minimum temperature for the cultivation of warm season plants, like tomatoes and cucumbers. Of course, passive solar greenhouses in more southern locations would require less sophisticated insulation techniques to be operated without additional heating.</p>
+<h2 id="solar-greenhouses-in-northern-climates">Solar Greenhouses in Northern Climates</h2>
+<p>If we go further north, similar solar passive greenhouses would require extra heating during the coldest months of the year, no matter how well they are insulated. Note that the farther north the greenhouse is located, the greater its slope will be. The slope of the roof is angled to be perpendicular to the sun&rsquo;s rays when it&rsquo;s lowest on the horizon.</p>
+<p>In 2005, a Chinese-style greenhouse was tested in Manitoba, Canada, at a latitude of 50°N. A greenhouse that is 30 x 7 meters with a well-insulated northern wall (3.6 RSI glass fibre) and an insulation blanket (1.2 RSI cotton) was observed from January to April. During the coldest month (February) the outside temperature varied between +4.5°C and -29°C (40 to -20°F). While the interior temperature was on average 18°C (32.4°F) higher than the exterior, it turned out to be impossible to cultivate plants without extra heating during the winter. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/cucumbers-solar-greenhouse_dithered.png" alt='Cucumbers in a Chinese solar greenhouse. Picture: Energy Farms.' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/cucumbers-solar-greenhouse_hu7539a9e897ac6488ec5148cd4f5385db_538774_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/cucumbers-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Cucumbers in a Chinese solar greenhouse. Picture: <a href="https://energyfarms.wordpress.com/2010/04/05/solar-greenhouses-chinese-style/" target="_blank" >Energy Farms</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/strawberries-solar-greenhouse_dithered.png" alt='Strawberries in a Chinese solar greenhouse. Picture: wikipedia commons.' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/strawberries-solar-greenhouse_hufe6ff316e67b84a77d83b442de346f85_84550_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/strawberries-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Strawberries in a Chinese solar greenhouse. Picture: wikipedia commons.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Nevertheless, energy savings can be huge in comparison to a glass greenhouse. To keep the temperature above ten degrees at all times, the heating system of the Canadian structure must deliver a maximum of 17 W/m2, or 3.6 kW for the building. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> In comparison, a glass greenhouse of equal proportions at the same interior and exterior temperatures would require a maximum capacity of 125 to 155 kW.</p>
+<p>Note that these results can&rsquo;t be applied to all locations at 50°N. The Canadian research shows that solar output has a greater impact on the inside temperature of the structure than does the outside temperature. The correlation between inside temperature and sunlight is almost four times greater than the correlation between inside temperature and outside temperature. <sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> For example, while Brussels lies at the same latitude as Manitoba, the latter has on average 1.5 times more sun.</p>
+<p>Thermal capacity can be further improved by placing black painted water storage tanks against the north wall inside the structure. These capture extra solar energy during the day and release it during the night. A different method to improve the heat retention of a greenhouse is by earth berming the north, east and west walls. Yet another solution to improve insulation is the underground or &ldquo;pit greenhouse&rdquo;. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> However, this greenhouse receives less sunlight and is prone to flooding.</p>
+<h2 id="more-space-needed">More Space Needed</h2>
+<p>The passive greenhouse could save a lot of energy, but a price would have to be paid: the profits generated by the Chinese greenhouse are two to three times lower per square meter than those of its fully glazed counterpart. In the more efficient Chinese greenhouses, an average 30 kg of tomatoes and 30 kg of cucumbers can be grown per square meter (numbers from 2005), while the average production in a glass greenhouses is about 60 kg of tomatoes and 100 kg cucumbers (numbers from 2003). <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-solar-greenhouse_dithered.png" alt='A Chinese solar greenhouse. Picture: Energy Farms' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/chinese-solar-greenhouse_hu6cca9e5b0b0f265c93e6371fdd3e1cdd_175713_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/chinese-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A Chinese solar greenhouse. Picture: <a href="https://energyfarms.wordpress.com/2010/04/05/solar-greenhouses-chinese-style/" target="_blank" >Energy Farms</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>A passive greenhouse industry would thus take up two to three times as much space to produce the same amount of food. This could be viewed as a problem, but of course what really eats space in agriculture is meat production. A more diverse and attractive supply of vegetables and fruits could make it more viable to reduce meat consumption, so land use shouldn&rsquo;t be a problem.</p>
+<h2 id="compost-heated-greenhouses">Compost Heated Greenhouses</h2>
+<p>Another issue with a solar powered greenhouse is the lack of a CO2-source. In modern greenhouses, operators aim to have a CO2-level at least three times the level outdoors to increase crop yield. This CO2 is produced as a byproduct of the fossil fuel based heating systems inside the greenhouses. However, when no fossil fuels are used, another source of CO2 has to be found. This is not only an issue for solar greenhouses. It&rsquo;s also one of the main reasons why geothermal energy and electric heat pumps are not advancing in the modern glasshouse industry.</p>
+<p>In Chinese solar greenhouses, this issue is sometimes solved by the combined raising of produce and animals. Pigs, chickens, and fish all produce CO2 that can be absorbed by the plants, while the plants produce oxygen (and green waste) for the animals. The animals and their manure also contribute to the heating of the structure. Research of such integrated greenhouse systems has shown that the combined production of vegetables, meat, milk, and eggs raises yields quite substantially. [^5]</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/dithers/compost-heated-greenhouse_dithered.png" alt='Detail of a compost-heated greenhouse: Source: Pelaf' data-original="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/images/compost-heated-greenhouse_hu97284bca17b107fc1e9e8bedfef8c874_594762_800x800_fit_q90_h2_box.webp" data-dither="/solar/2015/12/reinventing-the-greenhouse/images/dithers/compost-heated-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Detail of a compost-heated greenhouse: Source: <a href="http://pelaf.com/compost-heating/" target="_blank" >Pelaf</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Justin Walker, an American now living in Siberia, is building an integrated system using horses, goats and sheep in a monastery in Siberia. Considering the harsh climate, the structure is partly built below-ground, while its protruding parts are earth-bermed. Above the barn area is a hayloft that provides further winter insulation as well as ventilation in the summer when it is empty. His compost heat recovery system produces hot water that is piped through radiant floor heating zones in the floor of the greenhouse. The CO2 is supplied by the animals. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>Heating and CO2-production can also be done without housing animals in the greenhouse. Their manure suffices. As we have seen in the previous article, the use of horse manure for heating small-scale greenhouses dates back several centuries in Europe, and in China it was practised already 2.000 years ago. Since the 1980s, several compost heated greenhouse have been built in the USA. These have shown that a greenhouse can be entirely heated by compost if it is well-insulated, and that the method drastically enriches the CO2-levels in the soil and in the greenhouse air. To add to this, the compost also serves to increase soil fertility. <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Karyn Schoem</h5>
+	<p>Thanks so much for this! Great research, visuals!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nils Hjelte</h5>
+	<p>Thank you</p>
+
+</div>
+
+<div class="comment">
+	<h5>Yekutiel</h5>
+	<p>As usual, you have posted another important and thought provoking article of extraordinary high quality. Kudos to you!</p>
+<p>Have you considered crowdfunding this website via, say, Kickstarter.com or Patreon.com so that you would have time to write more frequently? Also, have you considered focusing on obtaining guest posts on this website? In other words, instead of focusing on writing, if you were to focus on editing you might be able to leverage your talent for ferreting out valuable solutions to provide more extraordinarily high quality content for this website.</p>
+<p>In addition, I hope you might consider a follow-on piece about rammed earth dwellings. They are like kissing cousins of the Chinese greenhouses discussed in this article. You might think of a rammed earth dwelling as being very something similar to the Chinese greenhouses. Except instead of being designed for plants to live in, rammed earth dwellings are designed for people to live in.</p>
+<p>Here are a couple of links on the subject:</p>
+<p>Builder Sylvia Cook Sharing Insights on building with Rammed Earth</p>
+<p><a href="https://www.youtube.com/watch?v=02sr4vyHGC4" target="_blank" >https://www.youtube.com/watch?v=02sr4vyHGC4</a></p>
+<p>In rural Ontario, a high-tech home built of low-tech dirt</p>
+<p><a href="http://www.theglobeandmail.com/life/home-and-garden/architecture/in-rural-ontario-a-high-tech-home-built-of-low-tech-dirt/article546271/" target="_blank" >http://www.theglobeandmail.com/life/home-and-garden/architecture/in-rural-ontario-a-high-tech-home-built-of-low-tech-dirt/article546271/</a></p>
+<p>If you want some more links to rammed earth articles and videos please let me know by responding to this comment.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Sherwood Botsford</h5>
+	<p>Heating with compost/manure</p>
+<p>Some care has to be taken to keep the C:N ratio over 30. If there is too much N, then the decomposition releases ammonia, which as a gas is tough on the plants, as well as your sinuses.</p>
+<p>That said: For the amount of CO2 needed, a rather small gas flame would suffice. While not completely solar, this would still be a large step forward.</p>
+<p>In addition, this would be a viable backup for compost heating. If no natural gas line is available, propane is a somewhat more expensive, but more portable alternative.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Teng Yang</h5>
+	<p>Interesting article! I always wondered how modern greenhouses got their start.</p>
+<p>Question, would putting large space blankets over the greenhouse at night, much in the way the Chinese used straw mats, help to retain the heat better at night in an all-glass greenhouse?</p>
+<p>To borrow again from the Chinese design, would adding a second glass structure just slightly above the greenhouse to help trap the heat better, especially if combined with the space blanket design?</p>
+<p>I suppose it would take up more space and require more resources such as more glass, but would it be cost-effective enough in reducing the need to heat the greenhouse?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Ting Henson</h5>
+	<p>In cold but sunny climates like the Manitoba test, would a beer / pop can furnace be sensible. coupled with a small solar powered / switched circulating fan and using raised beds to increase the solar mass.</p>
+<p>Just a thought.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Lance</h5>
+	<p>hemp works great&hellip;</p>
+<p><a href="http://www.hemp-technologies.com/resources/Thermal-Mass.pdf" target="_blank" >http://www.hemp-technologies.com/resources/Thermal-Mass.pdf</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Bo Robert Atkinson</h5>
+	<p>Thanks and here is my concept-</p>
+<p><a href="http://harmoniouspalette.com/EyelidGreenhouse/EyelidGreenhouse.html" target="_blank" >http://harmoniouspalette.com/EyelidGreenhouse/EyelidGreenhouse.html</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Vivi</h5>
+	<p>This principle of rolling blinds can be used to conserve living space heating and cooling, too. But remember that it is important to install the blinds on the outside of the window, especially to keep out the heat in the summer.</p>
+<p>Where I come from, many houses have rolling blinds made of wood, metal or plastic, about a handspan outside the actual window, so they are flush with the wall. More expensive setups are even automatic and timed or they have sunlight sensors and go down when the sun sets and up when it rises.</p>
+<p>These blinds don&rsquo;t just help keep the house pleasantly cool in summer (nobody here uses air conditioning), and discourage break-ins (the timed blinds are mainly to make it look like someone&rsquo;s still in the house when you&rsquo;re on vacation; and it&rsquo;s just not that easy to open a window from the outside if there&rsquo;s a sheet of metal or heavy wood infront of it), but put down on winter nights, they help a lot to keep heating costs down, even if the windows are already double- or tripple-glazed. Indoor shades or even thick black-out curtains dont help nearly as much.</p>
+<p>Also, is there a particular reason (other than price at large scale) why the Chinese aren&rsquo;t using bubblewrap foil or similar instead of plain single-layer PVC? Is it a light refraction issue or something like that? Or would it get too hot in the summer? &lsquo;Cause I&rsquo;ve taped a double layer of simple packaging bubblewrap into some attic windows that don&rsquo;t have outside blinds and which tended to condense air moisture on the inside when it&rsquo;s freezing outside, despite being double-glazed.</p>
+<p>The bubblewrap stopped that, helped the room retain heat better at night (when the central heating is switching itself off because the rest of the house doesn&rsquo;t lose much heat), and it doesn&rsquo;t significantly darken the room, so I just leave it on all year now. (The brown roof tiles and wooden construction of the roof mean I always had to keep the windows open 24/7 in the summer anyway, to keep the room below 35°C most of the time.</p>
+<p>Wood framing and a foot of fiberglass insulation can just never be as good as proper brick walls, which together with the aformentioned heavy blinds, keep the rest of the house below 25°C.)</p>
+<p>I mean, even if bubblewrap really is too costly for large commercial operations, for small homesteading greenhouses, a transparent insulating blanket that you can just leave on all winter instead of having to roll it up and down every day - even when it&rsquo;s wet, covered in snow, or frozen to the main plastic sheet with a layer of ice - sounds more practical.</p>
+<p>The little free-standing, unheated garden greenhouses that I see in alotment gardens sometimes are also made of some sort of double-layered transparent plastic with an air space between (hard plastic panes, not foil), instead of more expensive and fragile glass. (These greenhouses are mainly used to give cucumbers and such the few extra degrees they need to grow in our lattitude, even in summer, and to keep tomatoes from dying of brown rot for another few weeks after the rains start in early September. They&rsquo;re not meant to actually grow anything wildly out of season, and they&rsquo;re not frost-free.)</p>
+<p>Though after a couple of years, they take on a green sheen - I assume there&rsquo;s algae growing between the two layers - and that reduces the light that reaches the inside. So that&rsquo;s not ideal either. Well, maybe if you take the extra time and a tube of window putty / bathroom silicone sealant to make these prefabricated plastic panes properly watertight from the start. Still, plastic foil, and even bubble wrap, is a lot cheaper.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Erik Andrus</h5>
+	<p>Very cool concept, I have been thinking along similar lines for a greenhouse on my farm. I have to take issue with one minor point made, though:</p>
+<p>&ldquo;A passive greenhouse industry would thus take up two to three times as much space to produce the same amount of food. This could be viewed as a problem, but of course what really eats space in agriculture is meat production. A more diverse and attractive supply of vegetables and fruits could make it more viable to reduce meat consumption, so land use shouldn&rsquo;t be a problem.&rdquo;</p>
+<p>This isn&rsquo;t really how land use decisions are made in agriculture. It is much more related to supply and demand, and whether investments in infrastructure can be justified with a rapid payoff. For instance, if a conventional greenhouse pays for itself more quickly, almost all growers will have to go that route just to survive economically, pay taxes and loans and so on. I agree it would be good for a sustainable society to have a wider variety of fruits and vegetables grown with a low energy cost, but most farmers have to take their cues from their markets, rather than the other way around.</p>
+<p>For instance I&rsquo;d like to put in a large greenhouse along these lines to grow rice seedlings in spring and other stuff the rest of the year. But the building materials are expensive, and the food competition for anything I might produce for market, shipped from thousands of miles away to my local grocery store remains cheap. Once food in general becomes more expensive we&rsquo;ll likely see a lot more of this kind of creativity on small farms.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Andre</h5>
+	<p>Hello. Thank you for the great article. Is composting not a viable option for CO2 production (and heating) inside a greenhouse?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Evan</h5>
+	<p>I know I&rsquo;m late to the party here, but what accounts for the production drop off in passively heated greenhouses compared to full glass? Is it less sunlight?</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>@ Evan,</p>
+<p>Yes, it&rsquo;s less sunlight</p>
+<p>@ Andre</p>
+<p>Yes, you can: the last part of the article is devoted to compost heating.</p>
+
+</div>
+
+<div class="comment">
+	<h5>filip</h5>
+	<p><a href="https://www.youtube.com/watch?v=pvPVsMGlVVI" target="_blank" >https://www.youtube.com/watch?v=pvPVsMGlVVI</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>J in China</h5>
+	<p>@ Evan @ Andre,</p>
+<p>I think it&rsquo;s worth pointing out here that the reason the light is reduced in this kind of greenhouse is that there are opaque walls on the north and half walls on the east and west sides of the structure, reducing the light in the early morning and late afternoons, as well as severely restricting the light in the height of the summer. Basically these greenhouses are only productive in the wintertime. A solution to this would be to build permanent walls to only half their height and using removable pieces for the top halves, allowing you to remove the obstruction when the sun is in the north. I&rsquo;ve been talking to a couple farmers here in China about exactly that this winter (I live an hour south of Shenyang, the city mentioned in the story) and I think large papercrete blocks could be a good compromise between mobility and insulative properties.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Craig</h5>
+	<p>I read &ldquo;CO2-source&rdquo; + &ldquo;Thermal capacity can be further improved by placing black painted water storage tanks&rdquo;</p>
+<p>&hellip;and I immediately think of brewing and aquaculture. I&rsquo;d rather share an enclosed space with these than with a dung heap.</p>
+<ol>
+<li>
+<p>grow carob on more marginal (rocky / hilly / dry) land, and ferment the pods (which store and transport well) in the greenhouses. Do distillation through winter, when the waste heat would benefit the greenhouse.</p>
+</li>
+<li>
+<p>raise fish / snails / crayfish, such as the common yabby (Cherax destructor), which eat algae and dead plant remains. This would turn some of your cucumber and tomato leaves back into CO2 + tasty flesh.</p>
+</li>
+</ol>
+
+</div>
+
+<div class="comment">
+	<h5>Jose</h5>
+	<p>Well, I don&rsquo;t know a thing about agriculture&hellip; But, what about using fluorescent/UV lamps?</p>
+<p>I remember watching a video that showed how a solar water heater worker even in cold climates. Could you use hot water to heat the soil and, with that, the whole greenhouse?</p>
+<p>Aquaponics sounds like a better idea, though&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>Leonard </h5>
+	<p>What about to use biochar for heating the soil and to increase heating of bricks?</p>
+
+</div>
+
+<div class="comment">
+	<h5>thomas</h5>
+	<p>Just found this from 1818 garden magazin <a href="https://flic.kr/p/HrPmow" target="_blank" >https://flic.kr/p/HrPmow</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Ben</h5>
+	<p>No tech reader 18 <a href="http://www.notechmagazine.com/2018/03/no-tech-reader-18.html" target="_blank" >http://www.notechmagazine.com/2018/03/no-tech-reader-18.html</a> has a link about the great nutrient collapse <a href="https://www.politico.com/agenda/story/2017/09/13/food-nutrients-carbon-dioxide-000511" target="_blank" >https://www.politico.com/agenda/story/2017/09/13/food-nutrients-carbon-dioxide-000511</a>.</p>
+<p>this article makes reference to increasing the co2 level without mentioning that may be a bad thing.</p>
+<p>Maybe an addendum is called for to point out that increasing co2 in your greenhouse may not be best?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Tom</h5>
+	<p><a href="https://en.wikipedia.org/wiki/Eliot_Coleman" target="_blank" >https://en.wikipedia.org/wiki/Eliot_Coleman</a> has researched and written books about passive solar greenhouses. <a href="https://en.wikipedia.org/wiki/French_intensive_gardening" target="_blank" >https://en.wikipedia.org/wiki/French_intensive_gardening</a> and <a href="https://www.chelseagreen.com/2012/history-of-winter-gardening-the-17th-century-french-garden-system" target="_blank" >https://www.chelseagreen.com/2012/history-of-winter-gardening-the-17th-century-french-garden-system</a> before that used compost, glass enclosures and insulation to extend the season.</p>
+<p>The Chinese greenhouses are in line with what works for farmers, not just armchair gardners.</p>
+<p>I like the idea of including animals in the mix. Chickens can help with pests as well as provide manure and disposing of some plant waste.</p>
+<p>One issue with stand alone, static enclosures is the build up of salts and pests in the soils. Periodically exposing everything by removing the covering or moving the structure alleviates this. Perhaps some kind of movable thermal mass with movable insulated structure for the back wall could facilitate that.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rob</h5>
+	<p>Tom, I like the movable idea, or possibly better yet, space permitting, build the same thermal mass structure side by side and move the &ldquo;glazing&rdquo; structure every couple of years? Heck you could even leave in the &ldquo;ribs&rdquo; of the greenhouse and just change the glazing&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>Matt in Oklahoma </h5>
+	<p>Very good article</p>
+
+</div>
+
+<div class="comment">
+	<h5>Dave Bross</h5>
+	<p>here&rsquo;s a good one, with tech specs and some how-to:</p>
+<p><a href="https://www.onecommunityglobal.org/wp-content/uploads/2018/06/Citrus-In-The-Snow_v.6.5-Climate-Battery.pdf" target="_blank" >https://www.onecommunityglobal.org/wp-content/uploads/2018/06/Citrus-In-The-Snow_v.6.5-Climate-Battery.pdf</a></p>
+<p>there are also videos on Youtube of people touring this. Search under citrus in the snow.</p>
+
+</div>
+
+<div class="comment">
+	<h5>LazyReader</h5>
+	<p>Geothermal heating allows very little energy use, just a heat pump. The most northerly greenhouses, dig a hole 3-6 meters down, its got a temp of 10-13° C.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Sanya</h5>
+	<p>I live on 60 ° N (Stockholm / Sweden) = not enough sun okt-feb. Do I then really need to consider the southern part being perpendicular to the sun&rsquo;s rays when it&rsquo;s lowest on the horizon. That is 8 ° lunchtime in dec &hellip; That would be an angle of 82 ° right? I might instead build from which the angle of the sun is at lunchtime in okt, since the veggies can&rsquo;t photosynthesize after that?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Aubrey Zhang</h5>
+	<p>This Chinese style passive solar greenhouse can be improved further by incorporating a double layer structure that to be filled not with air but soap liquid bubbles. We have demonstrated that its performance can be boosted to a much higher level that is simply amazing. See here for more info: pyrapod.com/problems-with-traditional-greenhouses-how-to-retrofit-with-solaroof - I made a video showing all the results. As for the north wall, the infrared imaging shows that it does not need to be opaque and built with fixed thermal mass. The geo thermal effect is more prominent in the ground rather than in the north wall. Replacing the opage north wall with transparent double layer cavity and filling the cavity with soap liquid bubbles is the best way to increase solar thermal energy intake without sacrificing the light intake.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jason in Canada</h5>
+	<p>I read this low tech magazine article a while back and today I saw a video showing a person from Alberta, Canada using a Chinese solar greenhouse. I thought it might be of interest for people to see a Canadian example in 2021.</p>
+<p>Growing year round in a passive solar greenhouse without heating
+<a href="https://youtu.be/F2Pg3gY7wQ4" target="_blank" >https://youtu.be/F2Pg3gY7wQ4</a></p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>See for example <a href="https://ia800306.us.archive.org/30/items/fe_The_Solar_Greenhouse_Book/The_Solar_Greenhouse_Book.pdf" target="_blank" >The Solar Greenhouse Book</a>, published by Rodale Press in 1978&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Energy performance optimization of typical chinese solar greenhouses by means of dynamic simulation, Alessandro Deiana et al., International conference of agricultural engineering, 2014, Zurich.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Winter performance of a solar energy greenhouse in southern Manitoba, Canadian Biosystems Engineering. 2006.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>The Earth Sheltered Solar Greenhouse Book, Mike Oehler, 2007&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>The solar greenhouse: state of the art in energy saving and sustainable energy supply. G. Bot et al., 2005&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Structure, function, application, and ecological benefit of a single-slope, energy-efficient solar greenhouse in China. HortTechnology, June 2010 Integrated energy self-served animal and plant complementary ecosystem in China, in &ldquo;Integrated energy systems in China &ndash; the cold northwestern region experience&rdquo;, FAO, 1994&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>The Compost-Powered Water Heater: How to heat your greenhouse, pool, or buildings with only compost, Gaelan Brown, 2014&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/food-and-farming/" class="">Food and Farming</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/solar-power/" class="">Solar Power</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/images/dithers/all-four-books_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">The Printed Website: Volume III &amp; The Comments</h3>
+		<p class="index-summary">The printed archives of Low-tech Magazine now amount to four volumes with a total of 2,398 pages and 709 images.</p>
+		<time class="published">December 2, 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/2020/09/how-to-make-biomass-energy-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2020/09/how-to-make-biomass-energy-sustainable-again/images/dithers/pollards-germany_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Make Biomass Energy Sustainable Again</h3>
+		<p class="index-summary">From the Neolithic to the beginning of the twentieth century, coppiced woodlands, pollarded trees, and hedgerows provided people with a sustainable supply of energy, materials, and food.</p>
+		<time class="published">September 20, 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Fruit Trenches: Cultivating Subtropical Plants in Freezing Temperatures</h3>
+		<p class="index-summary">During the first half of the twentieth century, Soviet citrologists grew (sub)tropical plants in temperatures as low as minus 30 degrees Celsius – outdoors, and without the use of glass or any fossil fuel-powered assistance.</p>
+		<time class="published">April 16, 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/2015/12/fruit-walls-urban-farming-in-the-1600s/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-montreuil_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Fruit Walls: Urban Farming in the 1600s</h3>
+		<p class="index-summary">From the sixteenth to the twentieth century, urban farmers grew Mediterranean fruits and vegetables as far north as England and the Netherlands, using only renewable energy.</p>
+		<time class="published">December 24, 2015</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/about">
+  About
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

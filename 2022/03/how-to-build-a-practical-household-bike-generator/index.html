@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>How to Build a Practical Household Bike Generator | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="How to Build a Practical Household Bike Generator" />
+<meta name="twitter:title" content="How to Build a Practical Household Bike Generator"/>
+
+<meta property="og:description" content="We built a pedal-powered generator and controller, which is practical to use as an energy source and exercise machine in a household &ndash; and which you can integrate into a solar PV system. We provide detailed plans to build your own, using basic skills and common hand tools." />
+
+<meta name="twitter:description" content="We built a pedal-powered generator and controller, which is practical to use as an energy source and exercise machine in a household &ndash; and which you can integrate into a solar PV system. We provide detailed plans to build your own, using basic skills and common hand tools."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-06T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+<meta property="article:author" content=" Marie Verdeil" />
+<meta name="citation_author" content=" Marie Verdeil">
+
+
+<meta property="article:tag" content="DIY" />
+<meta property="article:tag" content="Off-The-Grid" />
+<meta property="article:tag" content="Bike Generators" />
+<meta property="article:tag" content="Human Power" />
+<meta property="article:tag" content="Electricity" />
+
+</head>
+<body id="how-to-build-a-practical-household-bike-generator">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" /solar/about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /solar/donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				How to Build a Practical Household Bike Generator</h1>
+
+				<p class="summary">
+					We built a pedal-powered generator and controller, which is practical to use as an energy source and exercise machine in a household &ndash; and which you can integrate into a solar PV system. We provide detailed plans to build your own, using basic skills and common hand tools.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">March 6, 2022</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/authors/marie-verdeil/">Marie Verdeil</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2022/03/how-to-build-a-practical-household-bike-generator/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" alt='Image: the bike generator in the living room.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-generator-living-room_hua151ed88e97bac72456216f5d8d8f983_8753548_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: the bike generator in the living room.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="article">Article</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#bikegenerator">The bike generator</a>
+<ul>
+<li><a href="#flywheel">The flywheel</a></li>
+<li><a href="#maxpower">Maximum power production</a></li>
+</ul>
+</li>
+<li><a href="#art">The art of pedal power: what are the challenges?</a>
+<ul>
+<li><a href="#volt">Matching the voltage</a></li>
+<li><a href="#current">Matching the current</a></li>
+<li><a href="#batteries">Charging batteries</a></li>
+</ul>
+</li>
+<li><a href="#dashboard">The dashboard: how to address these challenges?</a>
+<ul>
+<li><a href="#matching-voltage">Matching the voltage: buck and boost converters</a></li>
+<li><a href="#matching-current">Matching the current: switchable circuits and dimmers</a></li>
+</ul>
+</li>
+<li><a href="#experiments">How to use the bike: experiments</a>
+<ul>
+<li><a href="#power-tools">Corded power tools</a></li>
+<li><a href="#kettle">Electric kettle</a></li>
+<li><a href="#peltier">Peltier refrigerator</a></li>
+</ul>
+</li>
+<li><a href="#alternative">Alternative configurations: Bike generator with a work table</a></li>
+<li><a href="#hybrid">Hybrid human/solar power system</a></li>
+</ul>
+<h2 id="manual">Manual</h2>
+<ul>
+<li><a href="#manual-bike">The Bike Generator</a>
+<ul>
+<li><a href="#type">What type of generator do you need?</a></li>
+<li><a href="#gearratio">How to calculate the gear ratio and spindle size?</a></li>
+<li><a href="#spindle">What type of spindle do you need, and where to find it?</a></li>
+<li><a href="#fix">How to fix the spindle to the generator?</a></li>
+<li><a href="#friction">How to fix the friction drive to the bike?</a></li>
+</ul>
+</li>
+<li><a href="#manual-dashboard">The Control Panel</a>
+<ul>
+<li><a href="#buckboost">Buck and boost converters, dimmer</a></li>
+<li><a href="#wind">Wind charge controller (for charging lead-acid batteries)</a></li>
+<li><a href="#wires">Wires, connectors, diodes, fuses, on-off buttons</a></li>
+<li><a href="#instruments">Dashboard instruments</a></li>
+<li><a href="#panel">Dashboard panel and fixation</a></li>
+</ul>
+</li>
+<li><a href="#wire">The Wiring</a>
+<ul>
+<li><a href="#complete">Complete control panel</a></li>
+<li><a href="#5V">5V circuit</a></li>
+<li><a href="#12V">12V circuit </a></li>
+<li><a href="#14V">14.4V circuit</a></li>
+<li><a href="#220V">220V circuit</a></li>
+</ul>
+</li>
+<li><a href="#components">Components + Costs + Tools</a></li>
+<li><a href="#first">The First Prototype</a></li>
+</ul>
+<h2 id="span-idintroductionintroductionspan"><span id="introduction">Introduction</span></h2>
+<h3 id="summary">Summary</h3>
+<p>Many people have built pedal power generators and published the manuals online and in books. However, when we set out to make a pedal power generator ourselves, we found that these manuals are incomplete when making the bike generator practical to use. The focus is on building the power source itself, with comparatively little attention to what happens with the power that comes out of it.</p>
+<p>To try and make human power production more useful, we built not just a pedal power generator but also a control panel in the form of a &ldquo;dashboard&rdquo; attached to the handlebars. The dashboard allows powering or charging a wide diversity of devices – no matter what voltage they run on. Furthermore, multiple devices can be powered simultaneously, allowing the cyclist to adjust the resistance on the pedals for an optimal workout.</p>
+<p>We also tried to improve the bike generator itself. Although there are good manuals available, we wanted a power source that is easy to build (no welding or complex tools required), comfortable to pedal, as compact as possible, and not an eyesore. The bike generator is set up in a small living room and used regularly. We found the solution in a vintage exercise bike with a flywheel, an approach we have not seen before.</p>
+<h3 id="trial-and-error">Trial and Error</h3>
+<p>The bike generator and dashboard were designed and made in collaboration with <a href="https://verdeil.net" target="_blank" >Marie Verdeil</a> as part of her internship at Low-tech Magazine. We could not find the technical information we were looking for, so we followed a trial-and-error approach. That was time-consuming and costly, but we gained insight and learned lessons. We made lots of mistakes that you can avoid.</p>
+<p>We are not engineers, and we welcome technical feedback concerning further improvements. Based on that feedback and more experiments with the bike generator – which is now in use for one month – we will update and expand the manual. Our design can be adjusted and adapted to your needs. We <a href="https://lowtechmag.gitlab.io/solar/donate/" >appreciate a donation</a> if you find our work interesting. Your support makes it possible to finance further experiments and building projects that we have in mind. Marie Verdeil will continue working with Low-tech Magazine when she finishes her studies at the Design Academy Eindhoven later this year.</p>
+<p>Newcomers to this website may want to read some earlier articles that this bike generator project is building further upon: <a href="https://solar.lowtechmagazine.com/2011/05/the-short-history-of-early-pedal-powered-machines/" target="_blank" >The short history of pedal powered machines</a> (2011), <a href="https://solar.lowtechmagazine.com/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" target="_blank" >Pedal powered farms and factories: the forgotten future of the stationary bicycle</a> (2011), <a href="https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/" target="_blank" >Bike generators are not sustainable</a> (2011), <a href="https://solar.lowtechmagazine.com/2016/05/how-to-get-your-apartment-off-the-grid/" target="_blank" >How to go off-grid in your apartment</a> (2016), <a href="https://solar.lowtechmagazine.com/2016/04/slow-electricity-the-return-of-dc-power/" target="_blank" >Slow electricity: the return of DC Power?</a> (2016), <a href="https://solar.lowtechmagazine.com/2017/05/could-we-run-modern-society-on-human-power-alone/" target="_blank" >Could we run modern society on human power alone?</a> (2017), and <a href="https://solar.lowtechmagazine.com/2018/01/how-much-energy-do-we-need/" target="_blank" >How much energy do we need?</a>(2018).</p>
+<h2 id="span-idbikegeneratorthe-bike-generatorspan"><span id="bikegenerator">The Bike Generator</span></h2>
+<p>There are many ways to build a bicycle generator, and each has its advantages and disadvantages. We based our pedal power plant on a vintage exercise bicycle from the 1950s. Our bike was made by Spanish brand BH but similar vintage models can be found anywhere in the industrialised world.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" alt='Image: The exercise bike dating from the 1950s. It has a heavy flywheel in front.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/vintage-exercise-bike_hub7ef30f5906dbe7549bb0246debf0f0e_1066410_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The exercise bike dating from the 1950s. It has a heavy flywheel in front.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idflywheelthe-flywheelspan"><span id="flywheel">The Flywheel</span></h3>
+<p>Our approach has several advantages. The first and most important is that old exercise bikes have a large flywheel in front. Bike generators without flywheels – which are the majority these days – are likely to end up gathering dust in the garage because they are tiring and uncomfortable to pedal.</p>
+<p>A flywheel is essential because pedalling a stationary bicycle is a different experience from riding a bike on the road. The power that our feet put on the pedals peaks every 180 degrees of crank rotation. On the road, this has little effect because of the inertia of the cyclist.</p>
+<p>In contrast, on a stationary bike, this uneven power output results in jerky motion and additional stress on parts. The flywheel solves this by its large mass and rotational speed. It evens out the difference between power peaks and makes for comfortable pedalling. The rider tires less quickly and can generate more energy. A flywheel also produces a more steady voltage.</p>
+<p>Our approach also makes it possible to build a pedal power generator with simple tools and basic skills. There is no need to cut or weld metal – the bike remains like it is. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Neither is there a need to build a support structure – the bicycle already has one. We only had to add a so-called friction drive – a small roller attached to the generator shaft and pressed against the flywheel.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" alt='Image: The friction drive – a small roller attached to the generator shaft and pressed against the flywheel.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive_hu3ec74efee421ff40a16679f4ab76938c_9095067_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The friction drive – a small roller attached to the generator shaft and pressed against the flywheel.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Our method also results in a very compact bike generator. It is just over 1m long. Finally, and although this is a matter of personal taste, it results in a bike generator that is beautiful to behold. The bicycle was bought from someone in a neighbouring village who had it standing in the living room as a decoration.</p>
+<p>As a disadvantage, one could mention that a friction drive is less energy efficient than a gear or belt drive. However, the higher efficiency of the flywheel compensates for that. Only a combination of flywheel and gear or belt drive would do better – but that would be more difficult to build. Another disadvantage is that our machine has no switchable gears – more on that later.</p>
+<h3 id="span-idmaxpowermaximum-power-productionspan"><span id="maxpower">Maximum Power Production</span></h3>
+<p>The power output (W) of a bike generator corresponds to the voltage (V) multiplied by the current (A). We obtained roughly 100 watts (12V, 8-9A) of power during a short and heavy workout. During a moderate effort – which we can sustain for a longer time – power production is between 45 and 75 watts. The power output not only depends on the bike but also on the person who operates it. Athletes could produce more power, while couch potatoes would (initially!) generate less. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>We measured the power output right after the generator. However, you need to put more power on the pedals to obtain that power output. To start with, no generator is 100% efficient. Our generator achieves its maximum efficiency (75-78%) at a power output of more than 6A (72W). Efficiency decreases when you produce less power: it drops to 60% at 3A and less than 45% at 2A. Second, there are energy losses in the drive train between the pedals and the generator. We cannot measure these, but according to the data we found, a friction drive introduces on average 15% of extra energy losses.</p>
+<p>Taking into account efficiency losses in both generator and friction drive, you need to put at least 150 watts on the pedals to obtain a power output of 100 watts. There are additional energy losses in the bicycle drive train. In theory, bicycle gears have low energy losses, at most a few percent. In practice, however, these energy losses can be high. We proved this unintentionally. Power production <em>doubled</em> after we thoroughly cleaned and oiled the bicycle train. We made the mistake of cleaning the bike only at the very end. That forced adjustments to the control panel to manage the higher currents that suddenly came through it.</p>
+<h2 id="span-idartthe-art-of-pedal-power-what-are-the-challengesspan"><span id="art">The Art of Pedal Power: What Are the Challenges?</span></h2>
+<p>As a power cyclist, you have to match the voltage (V) and the current (A) of the device you are powering or charging. However, this is easier said than done. Electric devices run on different voltages and they have very different power demands. The voltage refers to how <em>fast</em> you pedal and the current to how <em>hard</em> you pedal.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" alt='Image: the bike generator in operation.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/kris-reading_hu9810db53e73169e75e83abc846de27ad_9179067_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: the bike generator in operation.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idvolt1-matching-the-voltagespan"><span id="volt">1. Matching the voltage</span></h3>
+<p>A bike generator produces <a href="https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/" >low voltage DC power</a>, similar to a solar PV system (12/24V). The voltage output depends on how fast the bike generator spins. The pedalling rate and the gear ratio determine the generator speed. The manual explains in detail <a href="#gearratio" >how to set up the correct gear ratio</a>. In short, you need to measure the outer diameter of three parts (pedal sprocket, flywheel sprocket, flywheel) and use those data to calculate the correct spindle size for the intended voltage output.</p>
+<p>Once you have set the gear ratio, you could produce a lower or a higher voltage by pedalling slower or faster, respectively. That makes it possible to power devices on different voltages. However, assuming your generator provides 12V at average pedalling speed, you would have to pedal in extreme slow motion to produce 5V, and it will be hard to keep your feet at the pedals to provide 24V. Gears would make it easier to vary the voltage output, but our bike has none.</p>
+<p>Running an appliance straight from the generator can be a practical solution if it needs roughly 12V. The flywheel helps to maintain a relatively steady voltage output. However, electronic devices and batteries require a precise voltage. Otherwise, they may not work or get damaged. Furthermore, running an appliance straight from the generator prevents you from powering or charging several devices with different voltages simultaneously – which is a solution to the next problem.</p>
+<h3 id="span-idcurrent2-matching-the-currentspan"><span id="current">2. Matching the current</span></h3>
+<p>Electric and electronic devices can have very different power demands – even if they work on the same voltage. Unfortunately, it’s much harder to adjust the current than the voltage. How hard you have to pedal depends entirely on the device you are powering. In some cases, this results in an optimal resistance. More often, the resistance at the pedals is either too low or too high.</p>
+<p>At one extreme, resistance on the pedals is almost zero when charging a smartphone or a relatively small lead-acid battery. At the other extreme, resistance on the pedals is too high when powering a kettle or a refrigerator. Some devices have varying current demands. For example, the printer demands between 25 and 70 watts of power, depending on what it’s doing exactly. There are peaks in power demand following startup and between pages, and printing images requires more effort than printing text.</p>
+<h3 id="span-idbatteries3-charging-batteriesspan"><span id="batteries">3. Charging batteries</span></h3>
+<p>Off-grid solar PV systems often charge lead-acid batteries. Human power does not depend on the weather and the time of day, but it can be practical to store human energy in a battery for future use.</p>
+<p>Based on 100 watts of power production, it’s easy to make overly optimistic calculations about the time you need to charge a battery. For example, if it takes 100 watt-hours to charge a battery, you can do that in one hour. Right? Wrong. Even if you could sustain a power output of 100 watts for an hour, the battery limits how much power you can put into it. It’s not possible to do a short workout to charge the battery faster than it allows you to.</p>
+<p>Lead-acid batteries charge between 10 and 25% of their maximum capacity – and we obtained 10% for all batteries tested. For large batteries, this is not a problem. Charging one lead-acid car battery (roughly 60-80Ah) requires you to get 85-115 watts out of the generator, which is a heavy workout. A full charge (12V to 13V) will take five hours, not including charge &amp; discharge losses.</p>
+<p>However, for smaller lead-acid batteries, the low power demand is problematic. There is little or no resistance on the pedals (so no real workout), it is very inefficient (the generator has high energy losses), and still, it takes as much time as charging a much larger battery. For example, recharging a 12V battery with a storage capacity of 14Ah (similar to the one powering the <a href="https://solar.lowtechmagazine.com/about/the-solar-website/" target="_blank" >solar-powered website</a>) requires only 1.4A. That is not much of a workout (20W).</p>
+<p>The same problem occurs with USB devices. The most cited use of a pedal power generator is charging a smartphone. However, recharging a smartphone requires very little power (5-10W) compared to what the bike can produce. (Some newer models allow faster charging). You may think charging a 10Wh phone battery would take only 6 minutes at a maximum power output of 100W, but it takes just as long as when you plug it into a wall socket. A much smaller hand-powered charger would be sufficient to charge a smartphone, but then you don’t have your hands free.</p>
+<h2 id="span-iddashboardthe-dashboard-how-to-address-these-challengesspan"><span id="dashboard">The Dashboard: How to Address These Challenges?</span></h2>
+<p>To overcome all these problems, we built a control panel that distributes the power from the bike generator into switchable circuits with different voltages for the operation of various devices. You can use these circuits separately or in combination, which allows you to adjust the resistance at the pedals precisely for the optimal workout. You can also control some devices directly by lowering their power demand.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" alt='Image: The control panel.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-bike-generator-2_hu051b2e7764484691f49a62df736d12b6_8569486_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The control panel.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" alt='Image: The control panel seen from the side.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-from-side_hu50bb6155fde0d03c6b14eecc77d30b91_8076997_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The control panel seen from the side.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idmatching-voltage1-matching-the-voltage-buck-and-boost-convertersspan"><span id="matching-voltage">1. Matching the voltage: Buck and boost converters</span></h3>
+<p>There is no need to pedal faster or slower to match the voltage of different devices. Instead, you can use buck converters and boost converters - electronic modules that convert a fluctuating voltage input into a steady voltage output.</p>
+<p>Buck converters have a higher input voltage than the output voltage (they step down the voltage), while boost converters have a higher output voltage than input voltage (they step up the voltage). You can adjust the output voltage by turning a tiny screw on the module. There’s <a href="#buckboost" >more information on buck and boost converters in the manual</a>.</p>
+<h3 id="span-idmatching-current2-matching-the-current-switchable-circuits--dimmersspan"><span id="matching-current">2. Matching the current: Switchable circuits &amp; dimmers</span></h3>
+<p>You can build one electric circuit using only one buck or boost converter. You can then adjust the voltage by turning the tiny screw every time you power a device that requires a different voltage. However, building multiple switchable circuits with different voltages brings advantages. Not only can you easily switch between different types of appliances without the need for a screwdriver, but you can also adjust the resistance at the pedals by running several circuits simultaneously.</p>
+<p>The control panel includes:</p>
+<ul>
+<li>Two circuits for powering or charging USB devices (5V)</li>
+<li>Three circuits for powering 12V appliances</li>
+<li>One circuit for charging lead-acid batteries (14.4V)</li>
+<li>One circuit for powering mains appliances (220V here in the EU)</li>
+<li>One unregulated circuit where the voltage output matches the voltage input</li>
+</ul>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" alt='Image: The front of the control panel.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/frontpanel_huec524283f2343e76e2933209e9bc8823_1132870_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The front of the control panel.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" alt='Image: The back of the control panel.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-dashboard_hu641036afdadacc6db07c71af0ba108d2_5638971_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The back of the control panel.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>If there is insufficient power demand, you can increase the resistance on the pedals by switching on more circuits. That will also increase the efficiency of the generator. To address the low power demand of batteries, you can keep the 5V and 14.4V circuits always open. That introduces a basic electric load of roughly 20W (two to five USB devices and a 14Ah lead-acid battery). For a heavier workout, increase the load by opening other circuits and powering more devices. This approach does not shorten the time it takes to charge batteries. However, it makes your effort more worthwhile.</p>
+<p>A dashboard with nothing but 5V USB circuits is another option. More so, you use the control panel in that way with small changes. You can hook up a handful of devices to a single USB output, with a maximum power use of 10 watts (5V/2A). Our dashboard has two 5V circuits – one serves primarily for dashboard lighting, but you can add a USB distributor hub to it for another 10W of devices.</p>
+<p>You can add six additional USB power outputs by plugging USB connectors into the three 12V outputs, at least when you add three female 12V connectors. That brings total power demand to 80 watts &ndash; enough to recharge 10 to 15 smartphones simultaneously. There’s no shortage of USB devices these days: phones, tablets, ebooks, power banks, bicycle lights, cameras, wireless headphones, AA battery chargers, and so on.</p>
+<h3 id="dimmer">Dimmer</h3>
+<p>If there is too much power demand, you can switch off one or more circuits. For some more powerful 12V devices, the dashboard also allows you to lower the current and thus the resistance on the pedals directly by using a variable resistor or potentiometer (better known as a dimmer).</p>
+<p>When you &ldquo;dim&rdquo; appliances like the electric kettle or the Peltier refrigerator, they work just as well, only slower. Without a potentiometer, only athletes could power these devices (100-120W). If you plan to charge large lead-acid batteries, you can also add a dimmer to the 14.4V circuit. However, dimming does not work for all devices. A laptop, for example, will shut down if it does not receive the power it needs.</p>
+<p>By switching between and combining different circuits - and by finetuning the current on the 12V circuit - you can adjust the resistance at the pedals as precisely as on an exercise bike. That optimizes endurance but also power production.</p>
+<h2 id="span-idexperimentshow-to-use-the-bike-experimentsspan"><span id="experiments">How to Use the Bike: Experiments</span></h2>
+<p>A bike generator is best suited for powering electric devices directly –  without storing the energy into a battery first. That avoids charge and discharge losses (up to 30% in lead-acid batteries) and reduces the complexity and the costs of setting up a practical human power plant. For this purpose, the control panel has several 12V circuits and a 220V circuit.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" alt='Image: Some of the appliances that we tested: air compressor, lights, Peltier refrigerator, dot-matrixprinter, electric kettle, soldering iron.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/mosaic-bike-2_hud4574ca36f662aeff7f266c84d8b8f35_390686_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Some of the appliances that we tested: air compressor, lights, Peltier refrigerator, dot-matrixprinter, electric kettle, soldering iron.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Among the 12V devices that we powered directly are an experimental Peltier refrigerator, a water kettle, laptops – powered by a 12V adapter, and without battery or with the battery at 100% –  lights, a soldering iron, a power drill, and a sander. Many more 12V devices exist, mainly aimed at truck drivers and car drivers, sailors, caravan dwellers (and <a href="https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/" >low-tech tinkerers who wire their apartment as if it was a sailboat</a>).</p>
+<p>These are all the devices we have powered or charged so far:</p>
+<ul>
+<li>All types of USB devices (5V)</li>
+<li>Lead-acid batteries of different sizes (14.4V)</li>
+<li>Peltier refrigerator (12V)</li>
+<li>Electric kettle (12V)</li>
+<li>Soldering iron (12V) (<a href="https://www.youtube.com/watch?v=0NC-nvrPbjQ" target="_blank" >video</a>)</li>
+<li>Corded power drill (12V)</li>
+<li>Corded sanding machine (12V)</li>
+<li>Air compressor (12V)</li>
+<li>Electric guitar and pedals (220V) (<a href="https://www.youtube.com/watch?v=_T0gMLLmPPw" target="_blank" >video</a>)</li>
+<li>Cigarette lighter (12V) (<a href="https://www.youtube.com/watch?v=wk4ceygoDHE" target="_blank" >video</a>)</li>
+<li>Model railway (12V)</li>
+<li>Sewing machine (220V)</li>
+<li>Dot-matrix printer (220V) (<a href="https://www.youtube.com/watch?v=0ogjj242HuY" target="_blank" >video</a>)</li>
+<li>Stereo amplifier + cd-player (220V)</li>
+<li>Record player (12V) (<a href="https://www.youtube.com/watch?v=Co3TJE3LLIc" target="_blank" >video</a>)</li>
+<li>Laptops (12V, 220V)</li>
+<li>Lighting (220V) (<a href="https://www.youtube.com/watch?v=P9mof0rHKlY" target="_blank" >video</a>)</li>
+<li>Lighting (12V) (<a href="https://www.youtube.com/watch?v=9Z3sipjwl_s" target="_blank" >video</a>)</li>
+<li>Video projector (12V) (<a href="https://www.youtube.com/watch?v=aAnHKPmKK9o" target="_blank" >video</a>)</li>
+<li>Fans (5V, 12V, 220V)</li>
+</ul>
+<p>Powering the lights is often more practical with a battery because that allows you to enjoy lighting without having to pedal at the same time. However, it’s perfectly doable to read a book on the bike while providing the lights in real-time, especially in winter – it takes little effort, it’s healthier than sitting still, and it keeps you warm. Other appliances that are well suited for &ldquo;direct drive&rdquo; human power production are power tools and heating and cooling devices.</p>
+<h3 id="span-idpower-tools1-corded-power-toolsspan"><span id="power-tools">1. Corded Power Tools</span></h3>
+<p>Although 12V power tools are widely used, they are almost always powered by lithium-ion batteries. You could recharge these batteries with human power. However, that will take a long time, is not much of a workout, and introduces significant energy losses. Therefore, it makes sense to convert these devices into corded power tools. In this way, you only need to produce power when you need it, with much higher efficiency. Furthermore, there is no more need to wait for batteries to charge – the tool is always ready to use.</p>
+<p>Converting a battery-powered tool to a corded tool can be pretty straightforward. After removing the battery, locate the positive and the negative contacts and solder two wires to them. Note that you only get one chance to decide which one is positive or negative. For the power drill, this was very easy to figure out. For the sander, we asked advice because the wiring is more complicated. 12V power tools with missing or dead batteries usually sell cheap on the second-hand market.</p>
+<p>A corded power drill is perhaps the most versatile tool. You can use it with a whisk (to beat eggs), a stiff brush (to remove paint or clean objects), a grinding wheel (to sharpen knives), or a polishing wheel (to make chrome or other metals and materials shine). Precision tools for jewelry or model making also combine well with direct pedal power. We are still in the early testing phase for converting and using corded 12V power tools.</p>
+<h3 id="hand-vs-foot-powered-tools">Hand vs. Foot-powered Tools</h3>
+<p>Compared to <a href="https://lowtechmag.gitlab.io/solar/2010/12/hand-powered-drilling-tools-and-machines/" >human-powered mechanical hand tools</a>, human-powered electric equipment is less energy efficient. Going electric introduces extra energy losses – in the generator, the buck converter, the wires, and the drive train. However, this is more than compensated for by a more energy-efficient use of the human power source. Our legs are roughly four times stronger than our arms.</p>
+<p>Going electric is also more ergonomic because it spares hand joints and muscles. Fixing dozens of screws by hand may be more sustainable than using a power drill, but it can ruin your wrist. A bike generator thus allows you to work faster and more ergonomically without relying on an external energy source.</p>
+<p>Mechanical hand tools keep some advantages: they are silent, more portable, and less energy-intensive to manufacture. A third option combines these advantages: <a href="https://lowtechmag.gitlab.io/solar/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" >pedal-powered mechanical equipment</a>. However, it&rsquo;s challenging to build a compact stationary bicycle that can power many different tools. We designed the bike generator to be as compact and multifunctional as possible.</p>
+<p>Power tools can have high power demands, but this should not stop you. The sander only needs 30 watts at most, but our power drill can demand up to 20A of current – which is too high for the bicycle generator and control panel (12V×20A=240W). However, the machine will rarely require that power unless you use it to drill through hard materials.</p>
+<p>The power demand of a power tool will increase whenever the torque increases, so you feel when the drill bit has gone through the material or when the screw has been fixed or loosened. You can handle the tool as precisely with your feet as you can with your hands.</p>
+<h3 id="span-idkettle2-electric-kettlespan"><span id="kettle">2. Electric Kettle</span></h3>
+<p>Electric heating and cooling are energy-intensive. Alternatives, such as <a href="https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/" >direct solar heat</a>, are more sustainable. However, heating and cooling can easily be included in your exercise routine and provide results.</p>
+<p>We apply this principle with an electric kettle and an experimental Peltier refrigerator. Both appliances are very well insulated. Consequently, converting human power into heat or cold becomes another (very cheap and sustainable) form of energy storage – without all the drawbacks of batteries.</p>
+<p>Electric kettles that run on grid power are often very powerful and boil water in a matter of minutes or even seconds. Boiling water using a bicycle generator will take a lot more time, but it’s perfectly possible. We acquired a commercial 12V electric kettle with a vacuum insulated reservoir of one litre. During a test, boiling water for one cup of tea took slightly more than one hour at an average power production of 60W.</p>
+<p>The electric kettle can also prepare <a href="https://lowtechmag.gitlab.io/solar/2022/01/the-revenge-of-the-hot-water-bottle/" >hot water bottles for thermal comfort</a>. That requires more water than a cup of tea, but with a lower temperature of around 60 degrees celsius. During a test, heating one litre of water for a (small) hot water bottle took 1 hour and 30 minutes at an average power production of 60 watts.</p>
+<p>Following this effort, the last thing you need is a hot water bottle. Stronger still, during that effort, you are a space heater with an output of several hundreds of watts, and you may be able to increase the air temperature in a small room. However, the vacuum insulated kettle can be put into a <a href="https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/" >fireless cooker</a> and used hours later when you are inactive and need warmth.</p>
+<h3 id="span-idpeltier3-peltier-refrigeratorspan"><span id="peltier">3. Peltier Refrigerator</span></h3>
+<p>Commercial 12V refrigerators are expensive. After researching <a href="https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/" >thermoelectric generators</a> (TEGs), the idea of a Peltier refrigerator was born. A Peltier refrigerator is essentially a well-insulated fireless cooker with a TEG mounted on top. If power is applied, the module will get hot on one side and cold on the other, cooling the box interior. TEG cooling is not particularly efficient. However, it&rsquo;s silent, works without problematic cooling gases, and is the easiest way to make a refrigerator yourself.</p>
+<p>The TEG refrigerator is an early prototype, which needs further testing and improvements. Powering one TEG at full power requires roughly 60 watts (12V×5A), measured right after the generator. That is a good workout, and the dimmer allows to lower the resistance at the pedals precisely. However, it quickly became apparent that one TEG is not enough for the size of the cooling space. We will add a second one for a heavier workout (60-100 watts).</p>
+<h3 id="mains-appliances-220v">Mains Appliances (220V)</h3>
+<p>Our dashboard also includes a 220V circuit. That makes it compatible with grid-powered devices (110V in the US, 240V in the UK). The 220V circuit requires an inverter. The inverter is too large to include in the dashboard, so we placed it in a box on the luggage rack that we built in front.</p>
+<p>A 220V socket is not necessary. Many 220V appliances have 12V (or 24V) alternatives which are <a href="https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/" >more energy efficient for decentralised power production</a>. However, we included a 220V circuit for powering devices that have not (yet) been replaced by or converted to low voltage alternatives: the dot-matrix printer, the sewing machine, the stereo system, and the router.</p>
+<p>The dot-matrix printer and the sewing machine are challenging to operate because of their rapidly changing power demand. For example, to avoid the voltage dropping below 12V at high power peaks while printing, you need to pedal very fast (around 20V) to provide sufficient inertia to the flywheel. A supercapacitor may be able to solve this &ndash; this is something we will try in the coming months. A foot-powered mechanical sewing machine and printer would be much more energy-efficient &ndash; but much less space-efficient.</p>
+<h2 id="span-idalternativealternative-configurations-bike-generator-with-a-work-deskspan"><span id="alternative">Alternative configurations: Bike generator with a work desk</span></h2>
+<p>The control panel is designed to power a wide diversity of devices, but you can follow a similar approach with different results. For example, if you only want to charge lead-acid batteries, one 14.4V circuit is enough. You can use a buck and boost converter to create any voltage you need, for example, to build a 3V, 6V, 9V, or 24V circuit.</p>
+<p>However, if you mainly want to run 24V appliances, it’s a better idea to adjust the gear ratio. Same if you only want to charge 14.4V lead-acid batteries on a 12V system: <a href="#gearratio" >adjust the gear ratio</a> to generate 16-17V (to compensate for energy losses in the buck converter).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" alt='Image: The 220V power output.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/220V_huba785fe85721bd533f5c59cc205c952c_9473002_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The 220V power output.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" alt='Image: The luggage rack and the power outlets (unregulated, 3x12V, 14.4V, 5V USB).' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Power-outlets_hubdf8c85dd05098d29f32e8071cc285d8_7921124_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The luggage rack and the power outlets (unregulated, 3x12V, 14.4V, 5V USB).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" alt='Image: Inside the box: the inverter, the wind charge controller, the lead-acid battery.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/in-the-box_huffa61bb428ff90b663af7e57f117b152_8863091_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Inside the box: the inverter, the wind charge controller, the lead-acid battery.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Our choice to have a large dashboard on the handlebars has advantages and disadvantages. To have the control panel on the bike itself makes it easy to read and manipulate. It also makes the bike generator portable. If the neighbour needs emergency power, you pick up the bike, and you are there in a minute. On the downside, having the dashboard on the bike adds vibrations, which increase noise and energy losses. It also makes it necessary to adjust the voltage output from the buck and boost converters from time to time.</p>
+<p>Most importantly, having such a large control panel on the bike prevents you from placing a large desk on top of the handlebars instead. That could be useful to operate power tools or a laptop while simultaneously providing power. Our present set-up is not ideal for using power tools. It requires two people - one to cycle and one to operate the power tool. Likewise, you can power another person’s laptop, but you can’t power yours while using it.</p>
+<p>We plan to build a bike generator with a smaller dashboard &ndash; one 12V circuit and two USB ports &ndash; and a large workspace on the handlebars. Such a bike generator harks back to <a href="https://lowtechmag.gitlab.io/solar/2011/05/the-short-history-of-early-pedal-powered-machines/" >similar (mechanical) bicycle machines from the early twentieth century</a>. Another option is to screw the control panel to the wall or put it on a shelf &ndash; and place the bike generator next to it. The inverter, lead-acid battery, and wind charge controller – now on the &ldquo;luggage rack&rdquo; – can also move away from the bike.</p>
+<h2 id="span-idhybridhybrid-solarhuman-power-systemspan"><span id="hybrid">Hybrid Solar/Human Power System</span></h2>
+<p>Some of you may think that our bike generator is more of a gimmick than a practical power source for the household. In part, this is true. Our human power plant is the perfect exercise machine – power production is motivating. It is also practical in emergencies, especially if enough people power is available – it can produce up to 2.4 kWh per day. However, it won’t provide enough energy daily – not even for a low-tech household. In practice, there are not enough people willing to cycle.</p>
+<p>On the other hand, a bike generator is an excellent addition to an off-the-grid solar PV system, at least in a low-energy household. The power output of the bicycle generator does not depend on the weather, the seasons, or the time of day. Human power can provide extra energy during bad weather, which reduces the need for expensive and unsustainable batteries. That is especially useful in winter, when the solar PV system produces much less power, and when the effort required to operate the bike also keeps you warm. There is enough solar power in summer &ndash; when it’s often too hot to use a stationary bicycle.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" alt='Image: The bike generator stands right next to the solar PV systems. The ultimate plan is to integrate both power systems.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-in-front-of-solar-systems_hud7b73f4d2530e134314689a8ba969b15_9870932_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The bike generator stands right next to the solar PV systems. The ultimate plan is to integrate both power systems.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>With a power production of 50-100 watts, the bike generator is more powerful than the two solar panels that are standing on the balcony next to it: the 50 watts solar panel that is powering the lights in the living room and the 30 watts solar panel that runs the <a href="https://solar.lowtechmagazine.com/about/the-solar-website/" target="_blank" >solar-powered website</a>. The solar panels rarely – if ever – reach their maximum power production, and during bad weather, they produce much less power than the bike generator. With dark clouds overhead, energy production almost drops to zero, and if this lasts for two days, the lights and the website go down. One or two hours per day on the bike generator could fix this. Alternatively, pedal power could operate power tools or other devices without draining the energy storage from the solar PV system.</p>
+<p>It&rsquo;s also possible to use the dashboard with a solar panel instead of a bike generator. It suffices to replace the <a href="#wind" >wind charge controller</a> with a solar charge controller. You can then use solar energy to power devices directly &ndash; without necessarily using a solar charge controller and battery. Replace the wind charge controller with a hybrid solar/wind charge controller, and you can use both energy sources to charge batteries and power devices directly. Solar and human power can also be combined, increasing the power output.</p>
+<p>Combining solar and human power should make it possible to take further steps <a href="https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/" >towards an off-grid urban household</a>. The plan is to add another 50W solar panel, take more devices off the grid (most notably the refrigerator) and keep the battery storage as it is.</p>
+<h2 id="span-idmanual-bikemanual-the-bike-generatorspan"><span id="manual-bike">Manual: The Bike Generator</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" alt='Image: The friction drive.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive-intro_hu9e496e5745f1e77f4a1cc8531beb04df_9289577_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The friction drive.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idtypewhat-type-of-generator-do-you-needspan"><span id="type">What type of generator do you need?</span></h3>
+<p>To convert the mechanical energy of the flywheel into electricity, you need a 12V/24V permanent magnet DC generator with a maximum power output of about 150-250 watts. Not any generator will do. You need one that runs at a relatively low speed (&lt;5000 no-load rpm) to obtain 12 or 24V with a practical gear ratio (see further). Many generators need to run at higher speeds to generate 12V or 24V, and you won’t be able to produce more than a few volts at an average pedalling rate.</p>
+<p>Be sure to get a brushed DC motor. Brushless DC motors won’t work because they need a very high rotation speed. Note that a generator is a motor working in reverse. When searching online, &ldquo;DC motor&rdquo; will give you more results than &ldquo;DC generator&rdquo;. Car alternators also work, and many pedal power plants use them because they are cheap and easy to obtain. However, they are very inefficient and require a 9V battery to start.</p>
+<p>You can scavenge DC generators from discarded electric scooters or bicycles, but we bought a brand new one: the <a href="https://www.ampflow.com/motors/pancake/" target="_blank" >Ampflow Pancake Motor P40-250</a>. It has a no-load RPM of 1700 at 12V and a maximum power output of 250 watts. You can tighten it securely to a metal or wooden surface, which saves a lot of trouble.</p>
+<h3 id="span-idgearratiohow-to-calculate-the-gear-ratio-and-spindle-sizespan"><span id="gearratio">How to calculate the gear ratio and spindle size?</span></h3>
+<p>The voltage created by the generator is directly proportional to the rotating speed of the generator (the RPM or &ldquo;rounds per minute&rdquo;). However, the rotating speed of the generator is not a given. It depends on how fast you pedal (the RPM of the pedals). It also depends on the gear ratio between the pedals and the generator. The average RPM of the pedals on a stationary bike – a comfortable pedalling rate that you can sustain for a long time – is roughly 60 RPM. It can be calculated precisely by a tachometer or using low-tech tricks. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>Our bike generator uses a friction drive. It consists of a small wheel (the spindle) attached to the generator shaft that will spin in contact with the flywheel. Calculating the gear ratio involves measuring the outer diameter of four parts: the pedal sprocket, the flywheel sprocket, the flywheel, and the spindle. The first three are known, while the latter was for us to figure out. The spindle size you need depends on the specifications of your generator and on the exact voltage that you would like to produce. Figuring this out can be mind-boggling unless someone provides you with the right formula (thank you, Gabriel Verdeil!).</p>
+<p>First, you need to find the &ldquo;no-load RPM&rdquo; of your generator. This information should be provided by the manufacturer. Our generator has a no-load RPM of 3400 at 24V. This ratio is proportional &ndash; you can calculate the required no-load RPM for any voltage you want. For example, at 12V it’s 1700 RPM (3400/24×12), and at 16V it’s 2267 RPM (3400/24×16). Next, measure the outer diameter of the pedal sprocket, the flywheel sprocket, and the flywheel. Whether you use mm, cm, or any other unit doesn’t matter but be consistent. Now you have all the data you need to calculate the spindle size. Below is the formula, followed by the calculation for our specific case (assuming 60 RPM at the pedals):</p>
+<p>Spindle diameter = (PS×W×RPM pedals)/(WS×RPM generator)</p>
+<ul>
+<li>PS = pedal sprocket diameter</li>
+<li>W = flywheel diameter</li>
+<li>RPM pedals = how fast you pedal</li>
+<li>WS = flywheel sprocket diameter</li>
+<li>RPM generator = the no-load RPM of the generator</li>
+</ul>
+<p>Spindle diameter for our configuration (in mm) to produce different voltages:</p>
+<ul>
+<li>12V = (190×525×60)/(60×1700) = 58.68mm spindle diameter.</li>
+<li>13V = (190×525×60)/(60×1842) = 54.15 mm spindle diameter.</li>
+<li>14V = (190×525×60)/(60×1983) = 50.30 mm spindle diameter.</li>
+<li>15V = (190×525×60)/(60×2125) = 46.94 mm spindle diameter.</li>
+<li>16V = (190×525×60)/(60×2267) = 44.00 mm spindle diameter.</li>
+<li>17V = (190×525×60)/(60×2408) = 41.42 mm spindle diameter.</li>
+<li>24V = (190×525×60)/(60×3400) = 29.34 mm spindle diameter.</li>
+</ul>
+<p>The exact voltage you need – and thus the exact spindle size – depends on what exactly you want to do with the bike. We address this in detail in the <a href="#manual-dashboard" >manual for the control panel</a>. Imagine you want to charge lead-acid batteries (which require 14.4V). You use a buck converter (which steps down the input voltage), so you will need to produce close to 17V to make up for the losses in the voltage conversion. That results in a spindle diameter of 41.42mm. This configuration shows in the illustration below.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/gear-ratio-bike-generator_huc5de8cdb99726582daa1f4bfebee7118_100511_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>You can use the formula in different ways. You can use it to calculate the minimum RPM at the pedals for a given spindle; to calculate the generator RPM based on a given RPM at the pedals and spindle size; and to calculate the voltage that will be produced by a given configuration. Find the formulas below, followed by an example based on the configuration illustrated above:</p>
+<p>Calculate the minimum RPM at the pedals for a given spindle size (S):</p>
+<ul>
+<li>RPM generator/[(PS×W)/(FS×S] * 2260/[(190×525)/(60×41)] = 55.81 RPM at the pedals.</li>
+</ul>
+<p>Calculate the generator RPM for a given spindle size and RPM at the pedals:</p>
+<ul>
+<li>(PS/FS)×(W/S)×RPM at the pedals * (190/60)×(525/41)×55 = 40.61 (gear ratio)×56 = 2274 RPM</li>
+</ul>
+<p>Calculate the voltage for a given RPM at the generator:</p>
+<ul>
+<li>Generator RPM×No load RPM ratio * 2274×(3400/24) = 16.1V</li>
+</ul>
+<h3 id="span-idspindlewhat-type-of-spindle-do-you-needspan"><span id="spindle">What type of spindle do you need?</span></h3>
+<p>Figuring out the spindle size is only half of the work. It can be challenging to find a spindle with the correct diameter, made from the required materials, and compatible with the generator shaft. We tried a dozen spindles until we got the right one. A flywheel has a hard surface and requires a soft spindle made of rubber or polyurethane. We found that a solid metal and rubber buffer allowed optimal friction with our flywheel. We took it to a metal workshop where they drilled a 10 mm hole into the piece.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" alt='Image: A sample of our test spindles.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/spindles-sample_huca133ef5d176c62e1845c444b919545d_10055859_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: A sample of our test spindles.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Other options are small solid polyurethane wheels and rubber suspensions. Skate wheels have a larger inside diameter which is not ideal for an 8-10mm shaft. Be careful to choose a material that can handle friction: some plastic tends to heat up and melt. Keep in mind: this is a trial and error process. You won’t get this right from the first time. Another route you could take is to design a custom lathed piece, as is described in <a href="https://www.re-innovation.co.uk/docs/no-welding-pedal-generator-stand/" target="_blank" >magnificientrevolution.org’s tutorial</a>. A universal mounting hub can help attach wheels featuring bolt holes, such as robot wheels.</p>
+<p>Buying a DC generator with a pre-installed spindle seems the easiest solution. For example, Pedal Power Generator offers a <a href="https://www.amazon.com/Bicycle-Generator-Dynamo-rubber-polyeurethane/dp/B07939RBJR/ref=sr_1_8?keywords=Pedal&#43;Power&#43;Generator&amp;qid=1645908023&amp;sr=8-8" target="_blank" >360W generator with a spindle size of 37.5 mm</a>. However, you can’t choose a spindle with a different diameter. That means you cannot control the output voltage unless you replace the sprockets in the bicycle drive train. In our case, a 37.5mm spindle would produce 18V, which is too much.</p>
+<h3 id="span-idfixhow-to-fix-the-spindle-to-the-generatorspan"><span id="fix">How to fix the spindle to the generator?</span></h3>
+<p>The generator comes with an integrated sprocket or pulley drive. You need to remove it to attach the spindle. A nylon lock nut with a reverse tread holds the sprocket or pulley drive. You need to unscrew it to the right. You probably need a clamp to manage this.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" alt='Image: The generator with a threaded shaft arbor.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-with-shaft-arbor_hu8c82aba41c37bc89aa723bc9a7c99f93_5884136_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The generator with a threaded shaft arbor.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" alt='Image: The generator with the 41mm spindle.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Generator_hu1c209f670074bde2d7ffd6920a62cf8f_4847784_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The generator with the 41mm spindle.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Our generator features an 8 mm shaft, while our spindle fits on a 10 mm shaft. Therefore, we use a two-part spindle featuring a &ldquo;shaft arbor&rdquo; and a wheel. To properly attach the spindle, you can take advantage of the D-cut on the shaft (a &ldquo;round shaft with drive flat&rdquo;). Our first try was a threaded fixation, but that did not work. Because of the reversed thread, it will come loose when the generator starts spinning.</p>
+<p>We found that a threaded shaft arbor with set screws was the most versatile solution to test different wheels. We fixed the shaft arbor with grub screws placed on the flat section of the shaft. It’s an M10 threaded rod. You can secure a wheel on it with a couple of washers and a nut. A Bore Rigid Coupling could also serve as a small spindle. You can also use it to attach the generator’s shaft to another axle with a wheel. However, we found this was not ideal for our setup because the set screws stick out of the coupling, damaging the flywheel.</p>
+<h3 id="span-idfrictionhow-to-fix-the-friction-drive-to-the-bikespan"><span id="friction">How to fix the friction drive to the bike?</span></h3>
+<p>We screwed the generator to a wooden board and then pressed it against the flywheel using a wood support structure. The board is attached to the bike with a strong door hinge. That allows adapting the angle at which the spindle is in contact with the flywheel. The stand is resting on a cork wedge that buffers the vibrations. See our <a href="l#first" >first prototype</a> for another method.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" alt='Image: The friction drive.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-stand_huaf3e3e7405ffea21b40a640792a09b03_7918251_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: The friction drive.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-idmanual-dashboardmanual-the-control-panelspan"><span id="manual-dashboard">Manual: The Control Panel</span></h2>
+<h3 id="span-idbuckboostbuck-and-boost-converters-dimmersspan"><span id="buckboost">Buck and boost converters, dimmers</span></h3>
+<p>Buck converters and boost converters are electronic modules that convert a fluctuating voltage input into a steady voltage output. Buck converters have a higher input voltage than the output voltage (they step down the voltage), while boost converters have a higher output voltage than input voltage (they step up the voltage).</p>
+<p>You can adjust the output voltage by turning a tiny screw on the module. Some buck and boost converters come with a small digital screen that shows the output voltage. If this is not the case, you can use a multimeter to adjust the voltage output.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Dashboard-white-background_hucbbb3cc5bd1350ad71ef884b55de2001_5891939_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Note that you need either a buck or a boost converter. Do NOT use a buck/boost converter. This is a sort of micro bench supply that requires the output voltage to be adjusted every time the system is powered up. This is unpractical and risks damage to your appliances. In contrast, a buck or boost converter remembers the output voltage whenever you start it up.</p>
+<p>Also, do NOT buy a voltage regulator. This device allows you to regulate the output voltage but only in relation to the input voltage. If the voltage input changes, so will the voltage output. You want a buck or boost converter, in which the voltage input can fluctuate but the voltage output is stable.</p>
+<p>Finally, you should check the maximum current rating before buying a buck or boost converter. Some only take 2A, which is not powerful enough for a bike generator. You need at least one that can take 5A and preferably one that can take 10A or 15A, depending on your power output.</p>
+<h3 id="buck-or-boost-converter">Buck or boost converter?</h3>
+<p>Whether you opt for a buck or a boost converter depends on the voltage produced by the generator &ndash; and by the voltage of the device(s) you want to power or charge. If the bike generator puts out 12V and you want to charge 5V USB devices, you need to step down the volume and thus use a buck converter. These small modules with a USB connector convert a fluctuating voltage input into a steady 5V voltage output. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>If you want to power 12V devices or recharge lead-acid batteries (14.4V), both a buck and a boost converter could work. If you opt for a buck converter, the bike generator needs to have a voltage output that is slightly above 12V or 14.4V (13-14V and 16-17V, respectively). This higher input voltage is necessary to compensate for energy losses in the power conversion. If you use a boost converter, the voltage output of the generator needs to stay below 12V or 14.4V.</p>
+<p>A buck converter will never exceed the chosen voltage output, no matter how many volts the generator produces. In contrast, a boost converter guarantees you a minimum voltage output, but it does not set a maximum output voltage. If you pedal too fast, the voltage output may exceed the set voltage output and damage the appliance or battery you are powering or recharging.</p>
+<p>For our first dashboard prototype, we used only buck converters. We used a boost converter to charge lead-acid batteries for the next version. The generator needs to produce 16-17V to obtain a voltage output of 14.4V with a buck converter. That is fine if you only want to charge lead-acid batteries because you can then adjust the gear ratio to produce 16-17V at a comfortable pedalling speed. However, if you optimize the gear ratio for lower voltages, you have to pedal very fast whenever you include the charging of batteries in your workout.</p>
+<h3 id="span-idwindwind-charge-controllerspan"><span id="wind">Wind charge controller</span></h3>
+<p>The bike generator needs to supply 14.4V to charge lead-acid batteries &ndash; the maximum voltage that a lead-acid battery needs. In principle, all you need is a buck or boost converter, but there’s one caveat: you may overcharge the battery, which can lead to an explosion.</p>
+<p>You can avoid this risk in a low-tech way – by keeping an eye on the amperemeter. Once the current drops to 3% of the rated storage capacity of the battery (in Ah), the battery is fully recharged &ndash; and you should stop pedalling. Because you are the power source and thus certainly present and awake, this approach is less risky than charging a lead-acid battery from a DC power supply or a solar panel without a charge controller.</p>
+<p>However, it’s a good idea to add more security. A solar charge controller provides this security in a solar PV system. It cuts the power input whenever the voltage rises above 14.4V. However, a solar charge controller does not work when coupled to a bike generator. Instead, you need a wind charge controller, which operates the other way around.</p>
+<p>Instead of cutting the load to zero, a wind charge controller suddenly increases it and &ldquo;brakes&rdquo;. If you use a buck converter, the wind charge controller will rarely activate the break because the buck converter will limit the voltage output to 14.4V. It will only brake when you threaten to overcharge the battery. If you use a boost converter, the wind charge controller will brake whenever you accidentally exceed a voltage output of 14.4V.</p>
+<p>Wind charge controllers have three green wires to connect to the power source. You can take any two of these three wires and connect them to the plus and the minus of the power input – it doesn’t matter which goes where.</p>
+<p>Most wind charge controllers commercially available are way too powerful for a pedal power generator, so get the smallest one you can find. We sent two charge controllers back to the manufacturer. One wind charge controller with a screen came without a manual, and nobody could figure out how it works. The only hybrid wind/solar controller that we tried, for now, was dangerous. The solar panel overcharged the battery. It also maintained the electric brake for half an hour whenever we crossed the threshold, thus blocking human power production.</p>
+<h3 id="span-idwireswires-connectors-diodes-fuses-onoff-switchesspan"><span id="wires">Wires, Connectors, Diodes, Fuses, On/Off Switches</span></h3>
+<p>You need wires, connectors, diodes, fuses, and on-off buttons to connect everything. All these parts can confuse you, so here’s what you need to know.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-panel-portrait_hucaad8f3d22e464c9df29c35e0be377c7_1130855_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="wires">Wires</h3>
+<p>The control panel includes roughly ten meters of electric cable. However, the main thing to worry about is not the length but the thickness of the cable. Opt for too thin wires, and your dashboard may catch fire during a heavy workout. Making the right choice can be confusing because there are <a href="https://www.powerstream.com/Wire_Size.htm" target="_blank" >several</a> <a href="https://www.lapptannehill.com/resources/technical-information/metric-to-awg-conversion-chart" target="_blank" >standards</a>. We wired the dashboard with a 20AWG 0.52mm2 cable, which takes 11A. A better option would have been an 18AWG 0.82mm2 cable, which takes 16A. Take care when stripping the wires: if you cut too deep the cable can take less current.</p>
+<h3 id="connectors">Connectors</h3>
+<p>Wires can be connected using very different methods. We choose lever connectors &ndash; bulky and expensive but handy. They help to connect wires securely without soldering or screws. These connectors come with two to ten pins. Wiring the dashboard can become disorderly. Make sure you don&rsquo;t cut the cables too short.</p>
+<h3 id="fuses">Fuses</h3>
+<p>You can build a bike generator and controller without fuses, but it’s not a good idea. A fuse will break the electric circuit when you exceed a current threshold, preventing fire and damage to components. We placed a 12A fuse at the entrance of the dashboard (our max power production is 8-9A). We also added fuses to most of the devices we power.</p>
+<h3 id="on-off-switches">On-off switches</h3>
+<p>Switchable circuits require on-off buttons. Our dashboard has nine of them. We wanted switches that light up when active because that quickly shows which electric circuits are in operation when starting the pedal power generator. However, lights make wiring the on-off switches more complex.</p>
+<p>We bought switches with the wires already attached because we preferred not to solder the connections. However, we had to solder them anyways because the thick wires took too much space. On-off buttons without lights and with prefixed thinner wires simplify this part.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" alt='Image: How to wire the on-off switches.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-on-off-switch2_hu619c03e126fba9507b966073be9e16b5_65316_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: How to wire the on-off switches.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="schottky-diode">Schottky Diode</h3>
+<p>A Schottky diode ensures that the current can only flow in one direction through a cable. This tiny part is essential when there are batteries attached to your system. Without a diode, the battery could power the generator (and turn the pedals) instead of the other way around. We put a Schottky diode right after the generator to prevent this. It needs to be rated for the correct amperage: above your expected power production. Our maximum power production is 8-9A, the Schottky diode takes 10A.</p>
+<h3 id="span-idinstrumentsdashboard-instrumentsspan"><span id="instruments">Dashboard Instruments</span></h3>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/volt-amperemeter_hu1e86e61be491b0df2ca60ffa10f9f4de_698109_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The control panel includes several displays that show the voltage and current in different electric circuits. The analog volt- and amp meter on top is the most important one. It shows how much power the generator is producing (V×A=W). The voltmeter tells you how fast you are pedaling, the amp meter how hard you are pedaling.</p>
+<p>Analog V&amp;A meters are most precise in the middle of their range, so we choose a voltmeter that goes up to 30V and an amp meter that goes to 15A. A digital V&amp;A meter is more compact, but analog meters display variations better. Above the meter, there is a USB circuit to plug in a small LED light. That allows you to keep an eye on the V&amp;A meter when dark. It’s also handy to quickly check if the system is working.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" alt='Image: How to wire the analog voltmeter and ammeter.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-analog-meters-cut_hu405eae204eb6ddec60df2b312b082316_66220_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: How to wire the analog voltmeter and ammeter.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Below the V&amp;A meter are three voltage meters for every buck and boost converter. These show the voltage output for each of the circuits. The voltage output should be 12.0V for the 12V and 220V electric circuits and 14.4V for the 14.4V circuit. The first two may fall below that value if you don’t pedal fast enough, while the last one may go above that value if you pedal too quickly &ndash; the <a href="#wind" >wind charge controller</a> will also make this clear to you. There is also a voltage and current meter on the 5V circuit. That helps to maximize power production by adding as many USB devices as possible (up to 2A).</p>
+<p>Two more instruments are not on the dashboard itself: the voltage meter of the lead-acid battery and the temperature meters of the electric kettle and the Peltier refrigerator. None of these are essential. However, they can motivate the power cyclist. On the road, your efforts result in distance covered. Stationary cycling can be boring &ndash; you are not going anywhere. The instruments help you to set goals. For example: let’s get the refrigerator temperature down by 2 degrees C before you take a shower.</p>
+<h3 id="span-idpaneldashboard-panel-and-fixationspan"><span id="panel">Dashboard Panel and Fixation</span></h3>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/Mounting-dashboard_hubfa70d8aeeb22f421858d71599f56632_7142505_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/files-dashboard_huf93f83d2c400b77c0c116b412670d2e2_129099_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>We attached the control panel to the handlebars and added a luggage rack in front that holds extra parts such as an inverter, a wind charge controller, and a lead-acid battery. On top of the box are the power outputs for each circuit and a USB distribution hub. The box has an open lid and holes for the dashboard’s cables to pass through (they first go inside the handlebar).</p>
+<p>We used a laser cutter at a maker space (MADE Barcelona) to produce the panel. All components are fitted in or sandwiched between two layers of 4mm MDF. You can easily remove the front panel if something needs to be changed or repaired. A transparent acrylic plate protects the buck and boost converters. You can take it off to adjust the output voltage. We attached the dashboard to the bike handle with rubber pipe clamps, M8 cap nuts, and bolts.</p>
+<h2 id="span-idwirehow-to-wire-the-dashboardspan"><span id="wire">How to Wire the Dashboard?</span></h2>
+<h2 id="span-idcompletecomplete-control-panelspan"><span id="complete">Complete Control Panel:</span></h2>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" alt='1: Schottky diode. 2: Fuse. 3: Cables. 4: Analog ammeter and voltmeter. 5: On/Off switches. 6: Wire connectors. 7:  USB Led Light.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/complete-control-panel-wiring_hua1f4cb4ff362fa373b937a3848d11ac3_139695_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>1: Schottky diode. 2: Fuse. 3: Cables. 4: Analog ammeter and voltmeter. 5: On/Off switches. 6: Wire connectors. 7:  USB Led Light.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id5v5v-circuitspan"><span id="5V">5V circuit:</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" alt='8: USB Buck converter. 9: USB Voltmeter &amp;amp; Ammeter. 10: USB Multi-plug and cable.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/5V-circuit_huc74a9f1c787e7220b71fa87af438b65f_68716_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>8: USB Buck converter. 9: USB Voltmeter &amp; Ammeter. 10: USB Multi-plug and cable.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id12v12v-circuitspan"><span id="12V">12V circuit:</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" alt='11: Buck Converter. 12: Dimmer.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/12V-circuit_hu6e5db91cac5c2888a25f5c3504861b2d_89048_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>11: Buck Converter. 12: Dimmer.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id14v144v-circuitspan"><span id="14V">14.4V circuit:</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" alt='13: Boost converter. 14: Wind turbine charge controller. 15: Lead-acid battery. 16: Battery electronic voltmeter.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/14-4V-circuit_hu78fcebec2bac6900d83161eac12ff0fe_70584_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>13: Boost converter. 14: Wind turbine charge controller. 15: Lead-acid battery. 16: Battery electronic voltmeter.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id220v220v-circuitspan"><span id="220V">220V circuit:</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" alt='17: Buck Converter. 18: Inverter.' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/220V-circuit_huc0b410a99a5e57be74574773ceb9a357_68558_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>17: Buck Converter. 18: Inverter.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-idcomponentsmanual-components-listspan"><span id="components">Manual: Components List</span></h2>
+<h3 id="generator">Generator</h3>
+<ol>
+<li>Motor (x1). <a href="https://www.ampflow.com/motors/pancake/" target="_blank" >Ampflow P40 - 250W Pancake DC Brushed Motor 24-12V</a>. 1. Shaft arbor (x1). Threaded Shaft Arbor conversion from 8mm to M10</li>
+<li>Wheel (x1).</li>
+</ol>
+<h3 id="dashboard">Dashboard</h3>
+<ol>
+<li>Schottky diode (x1). BOJACK Diode Schottky 10SQ045 (10A 45V)</li>
+<li>Fuse (x1).</li>
+<li>Analog ammeter (x1). Analog Ammeter DH-670 0-5A Class 2.0 &amp; Analog voltmeter (x1) — Analog Voltmeter DH-670 DC 0-30V Class 2.0</li>
+<li>On/Off LED Switch (x8) — KR1-5 Series Rocker ON/OFF Switch 12V 20A 3 pins with LED 1. Wire Connector (≈16 of different formats)</li>
+<li>5V USB Led Light. Any USB flexible arm LED light will do.</li>
+<li>5V Buck converter (x2). Buck Converter MH KC24 DC-DC 24-12V Charging Step Down to 5V USB with Fast Charging Protocol.</li>
+<li>5V USB Voltmeter &amp; Ammeter.</li>
+<li>5V USB Multi-plug.</li>
+<li>12 V 5A Buck Converter (x2). Buck Converter DC-DC Adjustable 12-24-36V 5A</li>
+<li>Dimmer &amp; 12V DC Socket (x1). RUIZHI DC 12V waterproof Female Car Cigarette Lighter Socket.</li>
+<li>Boost Converter (x1).</li>
+<li>Wind turbine charge controller (x1) — Asixx Waterproof Wind Charge Controller 24-12V 300/600W.</li>
+<li>Battery Electronic Voltmeter.</li>
+<li>12V 15A Buck Converter — Buck Converter 200W 15A DC 3-60V to 1-36V step-down adjustable voltage regulator synchronous rectifier module.</li>
+<li>Inverter (x1) — 300W or less Inverter DC 12V to AC 220-240V</li>
+<li>Cable (+10m). 0.52mm2 10M conductor parallel silicon wires 20AWG 11A (10M of each)</li>
+</ol>
+<h3 id="hardware">Hardware</h3>
+<ul>
+<li>M3 Bolts. They fit with the electronic components to secure them to the dashboard.</li>
+<li>M6 Bolts. To attach the motor to the wooden board.</li>
+<li>M8 Bolts. To attach the two parts of the dashboard.</li>
+<li>Big door hinge. To attach the motor at an angle.</li>
+<li>Metal mounting brackets (all sizes and shapes). To strengthen the structure.</li>
+<li>Rubber metal clamps. To attach the dashboard to the bike handle.</li>
+<li>Wood glue, screws (all sizes), bolts, washers and nuts (normal, lock, rounded, wing-shaped), wooden cleats and boards, black acrylic paint, etc.</li>
+</ul>
+<h2 id="the-costs">The Costs</h2>
+<p>We only include the components we effectively used:</p>
+<h3 id="generator-1">Generator</h3>
+<ul>
+<li>Vintage exercise bike (second hand): 60 euro</li>
+<li>Generator: 60 euro</li>
+<li>Arbor shaft: 10 euro</li>
+<li>Spindle: 3 euro</li>
+<li><strong>Total: 133 euro</strong></li>
+</ul>
+<h3 id="dashboard-all-circuits">Dashboard (all circuits)</h3>
+<ul>
+<li>Wires: 17 euro</li>
+<li>Connectors: 25 euro</li>
+<li>Analog volt meter: 9 euro</li>
+<li>Analog ampmeter: 9 euro</li>
+<li>On-off buttons: 20 euro</li>
+<li>Diode: 1 euro</li>
+<li>Fuse: 1 euro</li>
+<li><strong>Total: 82 euro</strong></li>
+</ul>
+<h3 id="5v-circuit">5V circuit</h3>
+<ul>
+<li>5V USB buck converter (2x): 8 euro</li>
+<li>5V USB V&amp;A meter: 8.50 euro</li>
+<li>USB distribution hub: 30 euro</li>
+<li><strong>Total: 46.5 euro</strong></li>
+</ul>
+<h3 id="12v-circuit">12V circuit</h3>
+<ul>
+<li>12V 5A buck converter (2x): 24 euro</li>
+<li>12V 5A boost converter: 8 euro</li>
+<li>12V 15A buck converter: 25 euro (extra circuit we added later)</li>
+<li>Dimmer: 7.50 euro</li>
+<li><strong>Total: 64.5 euro</strong></li>
+</ul>
+<h3 id="144v-circuit">14.4V circuit</h3>
+<ul>
+<li>Inverter: 50 euro</li>
+<li>Battery (14Ah): 31 euro</li>
+<li>Wind charge controller: 34 euro</li>
+<li><strong>Total: 115 euro</strong></li>
+</ul>
+<h3 id="hardware-1">Hardware</h3>
+<ul>
+<li>To fix the dashboard and the generator: +/-30 euro</li>
+</ul>
+<h3 id="total-cost">Total cost</h3>
+<ul>
+<li><strong>Grand total: 471 euro</strong></li>
+</ul>
+<h2 id="max-amperage-of-all-components-circuit-limitation">Max amperage of all components (circuit limitation):</h2>
+<p>All components used must sustain the power that goes through it. The voltage is usually not a problem, but you have to watch the amperage. Power production was limited to 60 watts (12V, 5A) &ndash; but that was before we thoroughly cleaned and oiled the bike drive train. After cleaning, we discovered the bike could produce almost double that power (12V, 8-9A). That required us to make some updates.</p>
+<p>Components get more expensive as their maximum rated amperage increases. For the 12V, 220V, and 14.4V, we stuck to a limit of 5A. Although the bike generator can produce more power, we usually combine several circuits &ndash; each limited to 5A. We added an extra 12V circuit with a 15A buck converter and thicker wires to run a more powerful appliance. This circuit bypasses the dashboard entirely. We plan to move this to the unregulated electric circuit on the dashboard (and upgrade the wiring).</p>
+<ul>
+<li>Cables: 11A, 18A for the extra circuit</li>
+<li>USB buck converters: 2A</li>
+<li>2x Buck converters: 5A</li>
+<li>1x Buck converter: 15A</li>
+<li>Boost converter: 5A</li>
+<li>On-off switches: 20A</li>
+<li>Diode: 10A</li>
+<li>Fuse: 12A</li>
+<li>Connectors: 20A</li>
+</ul>
+<h2 id="tools-you-need">Tools you need</h2>
+<ul>
+<li>Wire cutter</li>
+<li>Tiny screwdriver (to adjust voltage output on buck and boost converters)</li>
+<li>Calculator, multimeter, tachometer</li>
+<li>Soldering iron. We soldered the on/off switches and the two USB buck converters. However, this can be avoided. Switches can be bought prewired and there are alternative options for the USB converters.</li>
+<li>Wood saw: to make the luggage rack</li>
+<li>Metal saw: to cut custom threaded rods</li>
+<li>Drill: to mount the luggage rack and the dashboard</li>
+<li>Wrench socket set: very handy when working on a bike.</li>
+</ul>
+<h2 id="span-idfirstthe-first-prototypespan"><span id="first">The First Prototype</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-dashboard_hu2940fba321a97760085266dcfa30a422_730992_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-first-control-panel_huc0084d98f1c91d1858e6c98e75871749_8504293_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-on-board_hu5fe3dca8efc3a096e1a2baa79f30aef5_10426413_800x800_fit_q90_h2_box.webp" data-dither="/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The control panel can take different forms and use other tools and materials. We built a proof of concept with scrap wood and Meccano then strapped it to the handlebars with iron wire and some wooden blocks.</p>
+<p>Initially, we screwed the generator on a large wooden board and put the bike on top. We made holes in the board for the four legs so that the bike was always right where it had to be. This set-up worked and was handy to try out different spindle sizes, but it takes much more floor space than our final configuration.</p>
+<p>Special thanks to Adriana Parra, Eris Belil, Gabriel Verdeil, and Manvel Arzumanyan.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>paul</h5>
+	<p>Interesting proof of concept. I&rsquo;d like to see this with a belt or chain direct drive (Priority Bikes makes belt drive bikes, as did IKEA at one time, and direct drive bike trainers are growing in popularity) for greater efficiency as you mention at the beginning.</p>
+
+</div>
+
+<div class="comment">
+	<h5>John A Saavedra</h5>
+	<p>Cool! Thanks!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Tony</h5>
+	<p>From that other linked article (&ldquo;Bike generators are not sustainable&rdquo;), I got the impression this was thought to be a project not worth doing. Did I read it wrong, or has technology changed sufficiently in the last decade to make it worth doing?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Hemon from Motueka, New Zealand</h5>
+	<p>Nice article thanks for putting the time into researching this. I know it may be counter to your original aims (of making this setup cheap and easy to build), however using an older discarded e-bike would have a brushless electric motor of the right size and kv (speed to voltage) ratings already. If then you spend some time finding a motor controller that was able to do variable regenerative braking (I think the BionX controllers did something like this), this would more easily act as a variable load to the user, and would be very efficient as it would also be able to interface directly with a LiIon battery, which most e-bikes are based on these days.</p>
+<p>A drawback to this is the expense and more technologically complex. However the other benefit is that you can use a standard bike and make a frame for it in-side to elevate the rear wheel, so you can still use the bike for transportation and exercise, and energy generation (into the battery) at the same time - increasing its utilisation. The drawback here is that it may not fit nicely in the lounge and may be dirtier, and less practical to have inside.</p>
+<p>I think the main aim of a project like this is to manage generation and storage energy efficiencies because of the nature of the limited input power source, ie. the user. Putting more effort into making efficiency gains could dramatically improve the power and energy outputs, enabling the bike to do more with less input effort. The PbA (lead acid) battery that you are using will likely only be at best 60-80% efficient, and the friction drive is great at sucking up energy too. However, it is a great effort and I look forward to your future articles!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Stefan</h5>
+	<p>what fun! a thought&hellip;rather than have it below could you hinge the generator/alternator so its weight presses it down onto the flywheel? possibly assisted by a door or gate closing spring?</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>@ Mike S</p>
+<p>Thanks for your advice. Our spindle is indeed wearing out pretty quickly, because the material is too soft. But if we take power directly from the chain, as you suggest, how do we achieve the gear ratio that we need? Also, if we remove the wheel, where do we get the inertia we need?</p>
+<p>@ Rudi</p>
+<p>Thanks. We did not test the efficiency of the buck and boost converters, but it&rsquo;s something to consider.</p>
+<p>Concerning the charging of lead-acid batteries. Indeed the idea is to rely on the wind charge controller, and let it adjust the voltage as required. Otherwise we would need to fine tune the voltage constantly.</p>
+<p>We don&rsquo;t need to switch all the switches on just to get 5V output, so I guess our diagram is a bit confusing.</p>
+<p>Schottky diode: I think you are right and we may just leave it out. We were probably a bit too careful here, the wind charge controller should take care of that.</p>
+<p>@ Mathew</p>
+<p>I have no idea what is inside the flywheel that makes it so heavy. Sand or water seem unlikely. Could it be concrete? Although it looks like a normal tire from a distance, it surely is not when you take a closer look. It has a very hard surface.</p>
+<p>A direct chain drive is surely more efficient, but in that case how do we get sufficient gear ratio and inertia (see also my reply to Mike)?</p>
+<p>@ Jonathan</p>
+<p>Great advice on the cycling shoes and pedals! That is something we may try out. The aerodynamic wheel cover is also worth a try.</p>
+<p>@ Stefan</p>
+<p>Pressing the generator down onto the flywheel: I don&rsquo;t think that would make any difference, and it would be more complicated to build well. The arrangement we have now very easy to make and works very good.</p>
+<p>&ndash;</p>
+<p>Finally, more comments at hackernews: <a href="https://news.ycombinator.com/item?id=30589638" target="_blank" >https://news.ycombinator.com/item?id=30589638</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Quincy</h5>
+	<p>Howdy,</p>
+<p>In the diagram labeled “Complete Control Panel”, I believe labels 3 and 4 are switched.</p>
+<p>Thank you very much for another excellent essay, and for exhibiting the true nature of what it means to be human: to share in the experience!</p>
+<p>Warmly,</p>
+<p>Quincy</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mike S.</h5>
+	<p>Greetings!</p>
+<p>I&rsquo;ve been pedaling my bike for thousands of miles with a generator attached. After much research, I&rsquo;ve learned a few things that could improve your stationary setup.</p>
+<p>Imagine yourself with a budget for power losses. Every loss, measured in Watts, is power that your legs must produce, but you do not get to consume as useful electricity.</p>
+<p>By way of mechanical losses, you should consider putting an old cog on your generator shaft, and taking power from the chain instead of the tire. Your current setup will require you to replace the tire every few hundred kilowatt-hours of production! By taking power from the chain, the wear is minimal, and you can power greater loads without slippage. You could also remove the wheel (and its aerodynamic losses) entirely.</p>
+<p>Since you&rsquo;re using a brushed DC generator, the brushes &ldquo;cost&rdquo; power in commutation loss as well as friction loss. You would experience greater efficiency with an AC generator (or &ldquo;alternator&rdquo;). While automotive alternators are better suited to larger loads, they are often available for free, and would make an interesting experiment.</p>
+<p>A &ldquo;gotcha&rdquo; of using an AC generator, however, is that an inductive load (like a motor) must be balanced with capacitors for good efficiency. Such a balancing circuit has been designed long ago, and goes under the name &ldquo;forumslader&rdquo; (En: Forum Charger) since the design is available for free on a German cycling forum.</p>
+<p>I look forward to seeing your future work!</p>
+<ul>
+<li>Mike S., USA</li>
+</ul>
+
+</div>
+
+<div class="comment">
+	<h5>JohnD</h5>
+	<p>Very nice! And LOL to the dot matrix printer : )</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rudi</h5>
+	<p>Hi</p>
+<p>I&rsquo;m a fan of the magazine, discovered it from the solar powered website article, and have been reading it since.</p>
+<p>I do software engineering as my job, but I do have a degree in electronics engineering, so I have some insights that might help.</p>
+<p>Buck and boost converters:</p>
+<p>You mention in the article to go for either buck or boost, but not a buck/boost as it does not keep the output voltage after power cycle. There&rsquo;s nothing inherent in a buck converter that it would remember the output voltage, and nothing inherent in a buck/boost converter that it would forget it. Maybe most commercial devices operate that way for some reason, but you could definitely have a buck or boost converter that doesn&rsquo;t remember the voltage after a power cycle, or a buck/boost converter that does.</p>
+<p>I also saw something mentioned in the parts list, but not in the article. One of the buck converters are listed as synchronous, but the rest don&rsquo;t specify. I would definitely suggest using only synchronous switching converters, it takes the efficiency from ~80% to ~90%. Synchronous converters use two switches (usually MOSFETs or something similar), while a basic converter uses a Schottky diode and a switch, and there&rsquo;s a significant power loss through the Schottky diode. They will be more expensive though, due to the additional switch and complexity.</p>
+<p>Charging lead acid batteries:</p>
+<p>This is a bit more complicated than what was mentioned in the article. There are two ways to charge a lead acid, float charge, where you&rsquo;re charging at ~13.5V over a long period of time, and a fast charge, which is a 3-stage charge of constant current, constant voltage, and float. I think the article kind of describes a fast charge, but it&rsquo;s not doing the constant current part of it (stopping when the current drops low enough). But relying on the wind charge controller should solve the battery charging, but I&rsquo;m not very familiar with them.</p>
+<p>Schottky diode:</p>
+<p>It&rsquo;s correct that you&rsquo;ll need one to avoid voltage feeding back to the motor, but I&rsquo;m not 100% sure that its placement is best. By placing it after the generator, you&rsquo;re sacrificing efficiency. You only really need it for charging the battery, so perhaps better to connect it to the battery so you only have the power loss when charging it, and not when powering the other devices. But in that case, I would expect the wind charge controller to handle that, but I&rsquo;m not too familiar with them so I can&rsquo;t say for sure.</p>
+<p>Complete control panel wiring diagram:</p>
+<p>It looks to me that all the switches in this diagram are wired in series. That seems a bit odd to me, you wouldn&rsquo;t want to have to switch all the switches on just to get 5V output. It would probably be better to have these in parallel.</p>
+<p>Thank you for researching, building, and writing up this guide. I find it very insightful. The use of an old exercise bicycle is very clever, and the insight of just how much power it uses to make a cup of tea is very well illustrated in having to cycle for an hour to heat the water. I never knew about the 12V appliances before, but they make a lot of sense. I used to run the router on a UPS, which is a lead acid battery with an inverter, to be able to have internet during power outages. I&rsquo;ve recently switched to a li-ion based UPS, that instead has a 12V output to directly power the router, and it&rsquo;s a lot smaller, quieter, and more efficient (and hence cooler), because it doesn&rsquo;t need to go from 12V battery to 220V AC, back to 12V for the router. I&rsquo;m not sure if you have similar products locally, but they do take 12-25V solar input, so they could be a smaller and cheaper alternative to a lead acid battery + wind charge controller: <a href="https://sinetechstore.co.za/shop/solar-kits/backup-power-kits/ratel-430s-micro-dc-ups/" target="_blank" >https://sinetechstore.co.za/shop/solar-kits/backup-power-kits/ratel-430s-micro-dc-ups/</a> .</p>
+<p>Regards,</p>
+<p>Rudi</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mathew</h5>
+	<p>Kris,</p>
+<p>The idea is to replace the flywheel’s hub with one that has sprockets on both sides. You would drive the sprocket on one side of the flywheel (set to a good drive ratio) and pull power from the sprocket on the other side (set to a good generation ratio). These sort of double-sided bicycle wheel hubs are sold as “flip flops.”</p>
+<p>Of course, swapping the flywheel’s hub requires either disassembling the existing flywheel or building a new one. It sounds like the heavy, solid tire used for mass may not be removable, and so building up a new flywheel may be required.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Joseph Shupac</h5>
+	<p>Very cool you built this!</p>
+<p>I was inspired by past articles you wrote on this topic to try to come up with an idea for a low-tech bicycle that would generate and retain heat (if not from a pedal powered pump, then at least body heat), to allow people to exercise and socialize outside in cold (covid-era) weather.</p>
+<p>I wrote a short article about it, maybe you&rsquo;ll like it:</p>
+<p>[https://future-economics.com/2022/03/10/the-warmly-behatted-bike-in-a-box-for-winter-outdoors/](<a href="https://future-economics.com/2022/03/10/the-warmly-behatted-bike-in-a-box-for-winter-outdoors/" target="_blank" >https://future-economics.com/2022/03/10/the-warmly-behatted-bike-in-a-box-for-winter-outdoors/</a></p>
+<p>)</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jonathan</h5>
+	<p>I&rsquo;m glad to see a comprehensive look into building a bike generator alongside its power management system.</p>
+<p>I have a few suggestions to make on the bike side of things. These have a range of feasibility and potential gains, so I will try to order them by decreasing utility.</p>
+<ol>
+<li>
+<p>I had the same thought as Mathew regarding a flip flop hub. It could be an elegant, out-of-the-box solution to connecting two chains to the flywheel, directly driving the DC generator. Depending on the hub, it might even be easy to change the included sprockets, if other gear ratios are desired. This would also not be subject to wearing down the tire and slipping off the generator, two issues Mike S. pointed out. These can be bought as a standalone component or as part of a pre-built wheel.</p>
+</li>
+<li>
+<p>Cycling shoes and pedals. Stiff-soled cycling shoes transfer more power from a rider&rsquo;s legs into the pedals of a bike over any other kind of footwear. Using them in conjunction with clipless pedals (which you counter-intuitively clip into) allows a rider to effortlessly maintain their foothold on a bike. Clipless pedals also help a rider maintain a better form while pedalling and crucially, allow for a rider to pedal on the upstroke, not just on the downstroke. Caged pedals are a simpler and cheaper way to accomplish the last two benefits and can work with any (or no) shoes, but have a less secure footing and don&rsquo;t have the greater power transfer that cycling shoes offer.</p>
+</li>
+</ol>
+<p>I would like to emphasise how this reduces fatigue. Even if other benefits didn&rsquo;t matter, I can personally attest to how freeing this change is. Without cages or clipless pedals, the rider needs to always apply a little bit of downward force on the upstroke in order to keep the foot on the pedal. In other words, the rider must always be pedalling against themselves in order to keep their feet in place.</p>
+<ol start="3">
+<li>
+<p>I had something here about the seat height before reading the footnotes. Definitely a comfort &amp; fatigue improvement once that part arrives.</p>
+</li>
+<li>
+<p>This exercise bike is nearing 70 year old, it might be time for a tune-up! As demonstrated with the chain, cleaning load-bearing components could further reduce losses and improve power output of this system. A local bike shop could assess the condition of the bottom bracket, wheel hubs, sprockets (a dirty chain can grind down the teeth), and chain (even with it clean now).</p>
+</li>
+<li>
+<p>Swapping to bladed spokes. This has contested value on a bike in the &ldquo;real world&rdquo; where cross-winds are unpredictable. However, in a controlled indoor environment, the aerodynamic gains in the wheel are consistent and guaranteed, albeit minimal at low RPM. A more effective approach would be to use an aerodynamic wheel cover to entirely encase the rim as is done in velodrome racing.</p>
+</li>
+</ol>
+<p>Unfortunately, as with electronic components, performance is correlated to cost. I hope some of these ideas may be helpful as this project progresses.</p>
+<p>Jonathan</p>
+
+</div>
+
+<div class="comment">
+	<h5>P</h5>
+	<p>Hello</p>
+<p>Congratulations, I love this project.</p>
+<p>Just one thing,I think inertia would be interesting, here you are an example for an increased inertia pedal machine</p>
+<p><a href="http://www.mayapedal.org/nut_sheller.pdf" target="_blank" >http://www.mayapedal.org/nut_sheller.pdf</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Miquel</h5>
+	<p>Dear Kris De Decker and Marie Verdeil,</p>
+<p>Thank you for your research and divulgation.</p>
+<p>In your post you talk about the advantages of a flywheel to provide inertia that will give comfort for the rider and constant speed to the generator. Completely agree but I haven&rsquo;t seen any mention about the importance of the freewheel sprocket as a necessary complement to achieve this comfort and speed smoothness. Some stationary bikes* use a flywheel as a surface to apply friction and a rubber belt for a silent transmission but they don&rsquo;t have a freewheel sprocket. In consequence, when the rider tries to stop pedalling, the flywheel tries to keep spinning and comfort and efficiency disappears. I suppose your BH stationary bike is equipped with a freewheel sprocket but I think the design I mention can be quite common in the second hand market and probably it would be helpful to provide this detail in the post to avoid some frustrating outcomes.</p>
+<p>Regards,</p>
+<p>Miquel</p>
+<p>As you can see in the provided images</p>
+<p>PS 1: the images of the stationary bike are from a similar model to this one: <a href="https://es.wallapop.com/item/bicicleta-estatica-antigua-727668727" target="_blank" >https://es.wallapop.com/item/bicicleta-estatica-antigua-727668727</a></p>
+<p>PS 2: another model than probably have the same design without freewheel sprocket: <a href="https://es.wallapop.com/item/bicicleta-estatica-708590359" target="_blank" >https://es.wallapop.com/item/bicicleta-estatica-708590359</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Tim</h5>
+	<p>Hi, Kris. I’m glad to see you warming up to pedal generators. How you source your build materials makes the difference between being sustainable or not.</p>
+<p>As you probably know, eliminating the friction drive is the single largest improvement you can make for energy and material efficiency. I’ve built several of these over the years (all from stuff laying around the house), and by far the most efficient one is my latest. It’s actually just an eBike on a trainer stand, but it is a rare one in that it uses a 36-volt hub motor with regenerative braking (regenerative braking is what enables its use as a generator).</p>
+<p>I removed the 36-volt battery and connected the bike’s battery terminals to a 12-volt capacitor, which then feeds my GoalZero Sherpa 100AC. A little bit of searching to find the right gear, but once I do, I can rather easily generate around 40 Watts at 15 volts. My older builds all used some form of friction drive (either wheel-to-wheel or belt), and the best any of them could do was 30 Watts output while working me harder than my latest build does.</p>
+<p>Each iteration of friction drive I used had either a belt or tire that would wear. The generators I used also had brushes that would wear out over time. My latest generator has none of that, as it uses a 3-phase AC motor. I don’t need a rectifier, as the bike’s controller passively rectifies the 3-phase motor output to DC.</p>
+<p>The GoalZero pack allows me to store 100 Wh, and it can power AC loads up to 100 Watts, USB-A loads, and USB-C loads, including my laptop. A 10-minute ride this morning was enough to charge up my iPhone for the day. Since the chain directly turns the motor/generator, there is no friction drive to wear out or rob power. A combination of the rear wheel and the capacitor smooth the power delivery, allowing the Sherpa’s MPPT input to accurately track the power curve. Pre-existing bicycle maintenance infrastructure will keep the generator going for years to come.</p>
+<p>Tim</p>
+
+</div>
+
+<div class="comment">
+	<h5>rob a</h5>
+	<p>Been really excited about this post and doing more research to try to build one myself. Came across Robert Murray-Smith&rsquo;s video series on youtube. Have you watched any of his videos? Shows how to make a quick easy flywheel, also DIY Kinetic Energy Recovery System and more.</p>
+<p>Think you will like them if you haven&rsquo;t seen them already.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Solrac Z</h5>
+	<p>Excellent article and effort. I have built a bicycle generator that uses my existing bike mounted in a basic bike trainer. I removed the tire from the rear rim used a belt around the rim to turn the generator spindle. I get to use my existing bike with its gears and familiar comfort, I can add weights to the spokes to create a flywheel effect and smooth out the pedal strokes, and with a few minutes effort, can be riding my bike outside.</p>
+<p>The most major difference in my generator system is that I used a 15v ultracapacitor to &ldquo;digest&rdquo; and regurgitate all of the power that I generate. No need for a regulator as the ultracapacitor takes in unregulated power and discharges it as needed to the powered appliances. The ultracapacitor acts as a sort of &ldquo;bottomless battery&rdquo; that spits out power as needed. I am not doing a very good job of explaining how it works, but it takes all of the finicky regulators out of the equation. Here&rsquo;s a link to David Butcher&rsquo;s youTube walk through of his power board:</p>
+<p><a href="https://www.youtube.com/watch?v=UIxJzprAtc8" target="_blank" >https://www.youtube.com/watch?v=UIxJzprAtc8</a></p>
+<p>I have found this system to be far easier to build and understand than using boost and buck items.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Cavan Mejias </h5>
+	<p>Thanks for the inspiring write-up, I think you guys have taken care of the 99% perspiration for the rest of us.</p>
+<p>This YouTube video <a href="https://youtu.be/BQt35C5dSCA?t=190" target="_blank" >https://youtu.be/BQt35C5dSCA?t=190</a> goes over pedal power and invites viewers to take a look at your stationary bike generator.</p>
+<p>Keep up the good work and best regards.</p>
+
+</div>
+
+<div class="comment">
+	<h5>J. R. &#39;Bob&#39; Dobbs</h5>
+	<p>Hi Kris,</p>
+<p>Really enjoy your magazine; I think of it as a spiritual successor to the sustainability journal &ldquo;Whole Earth Catalog&rdquo; published in the 1970s.</p>
+<p>Do you have a tips/submission address for article ideas? I&rsquo;ve just seen an article on low-tech heat storage at <a href="https://www.abc.net.au/news/science/2022-07-19/sand-battery-debuts-in-finland-world-first-heat-thermal-storage/101235514" target="_blank" >https://www.abc.net.au/news/science/2022-07-19/sand-battery-debuts-in-finland-world-first-heat-thermal-storage/101235514</a> that looks interesting, particularly if it would be practical at the scale of a typical household or farmstead.</p>
+
+</div>
+
+<div class="comment">
+	<h5>stawy</h5>
+	<p>Good idea.
+Role division:</p>
+<ul>
+<li>wife - bicycle and power generator</li>
+<li>me - reading a book
+:)</li>
+</ul>
+
+</div>
+
+<div class="comment">
+	<h5>Dan S.</h5>
+	<p>In a first place, please excuse the potential english errors that may occure, I am not a native english speaker.
+Now, because you are measuring the output parameters, maybe you could make an estimation about how much energy (Watts-hour, or hundreds of Wh) could produce a mature man in a day (I dont know, maybe 2 to 3 hours of pedaling the bike discontinuously in my case&hellip;). There is already more then 6 months since I&rsquo;m thiking to build something similar, beginning with the generator (the neodymium N50&hellip;N55 magnets are still pretty expensive), but I don&rsquo;t know exacly how much power a man can provide through the pedals. I know a proffesional bicicle racer can provide about 400W of power for long term (hours), but a average person I think is far away from this value. Anyway, the output power I would like to store it into a powerbank with lithium accumulator cells. Do you think a 200W generator would be to much&hellip;? Should I limit to 100W generator? I mean, the output power could be electronicaly adjusted at will (I could build some electronic controllers for this purpose), but I would like to have some kind of starting point, or „landmark” from someone with experience in this field.
+At the same time I want to loose some weight, in fact I must to do that (I&rsquo;ve already riched about 220 lbs. from 165, since I got sick).
+Thank you very much for your time.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>One exception, though. We had to remove the friction roller and screw that adjusts the resistance on the pedals of the exercise bicycle. We cut this part with a small metal saw.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>It’s important that your saddle is at the correct height to maximize power production. The saddle on our bike is too low. We need to find a longer seat post.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>The resistance on the pedals depends on the device that you are powering. If you are charging a smartphone, then you will only be able to produce a few watts – as much as the smartphone needs. Therefore, to find out the maximum power output of a bike generator you need an appliance or multimeter that is more powerful than yourself. We did the test with an electric air compressor.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>To calculate the RPM at the pedals cycle for 15 seconds and count the number of complete pedal turns (the left or right pedal takes a complete turn). Multiply this number by four.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>There are many other types of USB connectors but those require a steady 12V input.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/diy/" class="">DIY</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/off-the-grid/" class="">Off-The-Grid</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/bike-generators/" class="">Bike Generators</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/human-power/" class="">Human Power</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/tags/electricity/" class="">Electricity</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-1_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Human Powered Air Compressor and Energy Storage System</h3>
+		<p class="index-summary">Andy Lagzdins built and documented a pedal-powered air compressor to run the power tools in his motorcycle workshop.</p>
+		<time class="published">July 9, 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Build a Low-tech Solar Panel?</h3>
+		<p class="index-summary">George Cove, a forgotten solar power pioneer, may have built a highly efficient photovoltaic panel 40 years before Bell Labs engineers invented silicon cells. If proven to work, his design could lead to less complex and more sustainable solar panels.</p>
+		<time class="published">October 5, 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Too Much Combustion, Too Little Fire</h3>
+		<p class="index-summary">The fire – which we have used in our homes for over 400,000 years – remains the most versatile and sustainable household technology that humanity has ever known.</p>
+		<time class="published">December 29, 2019</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/images/dithers/solar-panels-window-sills_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Get Your Apartment Off the Grid</h3>
+		<p class="index-summary">Solar panels on window sills and balconies can supply more power than you would think.</p>
+		<time class="published">May 17, 2016</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/about">
+  About
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

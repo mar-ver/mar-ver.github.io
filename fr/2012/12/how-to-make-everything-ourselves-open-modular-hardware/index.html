@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tout faire soi-même : Open Modular Hardware | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Tout faire soi-même : Open Modular Hardware" />
+<meta name="twitter:title" content="Tout faire soi-même : Open Modular Hardware"/>
+
+<meta property="og:description" content="Un système modulaire réunit les avantages de la normalisation (les pièces peuvent être produites en grande quantité et à faible coût) et ceux de la personnalisation (une grande diversité d&rsquo;objets uniques peut être fabriquée avec relativement peu de pièces)." />
+
+<meta name="twitter:description" content="Un système modulaire réunit les avantages de la normalisation (les pièces peuvent être produites en grande quantité et à faible coût) et ceux de la personnalisation (une grande diversité d&rsquo;objets uniques peut être fabriquée avec relativement peu de pièces)."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2012-12-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-12-15T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="stuff" />
+
+</head>
+<body id="tout-faire-soi-m%C3%AAme-open-modular-hardware">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Tout faire soi-même : Open Modular Hardware</h1>
+
+				<p class="summary">
+					Un système modulaire réunit les avantages de la normalisation (les pièces peuvent être produites en grande quantité et à faible coût) et ceux de la personnalisation (une grande diversité d&rsquo;objets uniques peut être fabriquée avec relativement peu de pièces).
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">15 décembre 2012</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/fr/translators/alexandre-descamps/">Alexandre Descamps</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">es</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-source-consumer-goods_hu1b88eb80d8dcf9268948df85b93d4011_88451_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Revenir à <a href="https://lowtechmag.gitlab.io/solar/fr/2012/02/the-art-of-producing-sustainable-consumer-goods-basketry/" >l&rsquo;artisanat traditionnel</a> est une bonne façon de combattre la société de gaspillage. Dans cet article, nous aborderons une autre possibilité : la conception de produits de consommation modulaires, dont les pièces et les composants pourraient être réutilisés dans la construction d’autres produits.</p>
+<p>Des initiatives comme OpenStructures, Grid Beam et Contraptor combinent la modularité de LEGO, Meccano et Erector avec le pouvoir collaboratif de succès numériques comme Wikipédia, Linux ou WordPress.</p>
+<p>Une économie fondée sur le concept de recyclage apporterait non seulement des avantages importants en termes de durabilité, mais permettrait également aux consommateurs de faire des économies, d&rsquo;accélérer l&rsquo;innovation et de retirer la fabrication des mains des multinationales.</p>
+<h2 id="produits-modulaires">Produits modulaires</h2>
+<p>Un système modulaire réunit les avantages de la standardisation (les pièces peuvent être produites en grande quantité et à faible coût) et ceux de la personnalisation (une grande diversité d&rsquo;objets uniques peut être fabriquée avec relativement peu de pièces).</p>
+<p>La modularité s’applique à la fabrication de nombreux produits (comme les vélos et les ordinateurs) et de systèmes (comme les trains et la logistique), mais les meilleurs exemples de systèmes modulaires sont les jouets : <a href="http://en.wikipedia.org/wiki/Lego" target="_blank" >LEGO</a>, <a href="http://en.wikipedia.org/wiki/Meccano" target="_blank" >Meccano</a> et <a href="http://en.wikipedia.org/wiki/Erector_Set" target="_blank" >Erector</a> (qui est maintenant la marque Meccano aux États-Unis).</p>
+<p>Les jouets LEGO, Meccano et Erector sont composés de blocs de construction basiques relativement peu nombreux, qui peuvent être utilisés pour construire divers objets. Les pièces peuvent ensuite être désassemblées et réutilisées pour construire complètement autre chose. Outre les blocs de construction basiques, ces fabricants ont produit de nombreux blocs de construction plus spécifiques, moins polyvalents, mais qui augmentent davantage les possibilités de personnalisation.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/lego-modular_hua562ae4c7678dc0b4f5bb21732a1a08f_30704_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Tous les blocs de construction d&rsquo;un jeu de LEGO, de Meccano ou d&rsquo;Erector s&rsquo;assemblent parce qu&rsquo;ils sont conçus selon un ensemble de règles spécifiques. Les trous (Meccano et Erector) ou les goujons (LEGO) ont un diamètre précis et sont espacés à des distances bien précises. En outre, les dimensions des blocs de construction sont précisément adaptées les unes aux autres.</p>
+<p>Le succès intemporel des entreprises LEGO, Meccano et Erector (qui sont apparus sur le marché respectivement en 1947, 1902 et 1911) repose sur l’immuabilité de ces règles. Tous les nouveaux blocs de bâtiments qui ont été ajoutés au fil du temps sont compatibles avec ceux déjà existants. Aujourd&rsquo;hui, les enfants peuvent enrichir leur collection avec celle de leurs parents ou grands-parents, et ces vieux blocs valent autant en occasion que neufs.</p>
+<h2 id="grid-beam-bit-beam-open-beam-maker-beam-et-contraptor">Grid Beam, Bit Beam, Open Beam, Maker Beam et Contraptor</h2>
+<p>Le même principe pourrait être appliqué aux objets du quotidien, des cafetières aux meubles, en passant par les gadgets, les voitures et les systèmes d&rsquo;énergie renouvelable. Il suffit d&rsquo;une standardisation de la conception. Les règles de conception peuvent être très simples, comme le prouve <a href="http://www.gridbeam.com/" target="_blank" >Grid Beam</a>. Mis au point en 1976, ce système de construction modulaire se base sur des poutres à la géométrie simple et au schéma de trous répétitif. Les poutres peuvent être en bois, en aluminium, en acier ou en tout autre matériau.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-high-sleeper_hud53190fd14432ebf742a4bdbc72515f2_89298_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Malgré la simplicité de la conception, une grande variété d&rsquo;objets peut être construite. Grid Beam a été utilisé pour fabriquer toutes sortes de meubles, de serres, de constructions d&rsquo;ateliers et de processus industriels, de moulins à vent, de brouettes, de machines agricoles, de véhicules, de hangars et de bâtiments (un livre sur le système a été publié en 2009 et peut être consulté <a href="http://www.gridbeam.com/a-revolution-in-diy-engineering/" target="_blank" >en ligne</a>). Grid Beam s&rsquo;inspire d&rsquo;un système imaginé par Ken Isaacs dans les années 1950,
+<a href="http://www.publiccollectors.org/CompletePublications.htm" target="_blank" >Living Structures</a>, qui utilisait des poutres similaires, mais ne contenait que quelques trous.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-wheelbarrow_hu64cd348ca776440ad69e2b9d49d1f9a9_249186_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ces dernières années, plusieurs systèmes utilisant un ensemble de règles très similaires, basées sur un motif de trous répétitif sont apparus. <a href="http://bitbeam.org/" target="_blank" >Bit Beam</a> est en fait une version réduite de Grid. Beam, qui vise à construire de plus petites structures en balsa, comme un support d&rsquo;ordinateur portable ou un prototype d&rsquo;appareil. <a href="http://www.contraptor.org/" target="_blank" >Contraptor</a> utilise une approche similaire, mais vise à fournir des cadres métalliques structurels pour les imprimantes 3D, les fraiseuses ou la robotique. <a href="http://openbeamusa.com/" target="_blank" >OpenBeam</a> et <a href="https://www.sparkfun.com/products/10540?" target="_blank" >MakerBeam</a> sont également des systèmes de construction modulaire basés sur des règles très simples. Ceux-là ne se basent pas sur des paternes à trou, mais utilisent des profilés en aluminium à rainure en T. <a href="http://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform" target="_blank" >Makeblock</a> combine les deux approches et comprend des modules électroniques.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/bitbeam_hub636c7881bdddfd75c778e2d57951183_250194_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La plupart de ces systèmes de construction se limitent à la conception de charpentes. Basé sur un ensemble de règles plus sophistiqué, il existe cependant un système qui offre beaucoup plus de possibilités : <a href="http://www.openstructures.net/" target="_blank" >OpenStructures</a>. Le projet a été lancé à Bruxelles en 2007. Contrairement à tous les projets ci-dessus, OpenStructures est encore en phase expérimentale. Toutefois, elle est suffisamment intéressante pour être examinée plus en détail, car elle illustre parfaitement la direction que pourraient prendre les systèmes de construction modulaire à l&rsquo;avenir.</p>
+<h2 id="openstructures">OpenStructures</h2>
+<p>La règle primordiale des OpenStructures est partagée avec Grid Beam et d&rsquo;autres systèmes similaires : toutes les pièces sont reliées entre elles de manière à pouvoir être facilement démontées, en utilisant des boulons et des vis plutôt que des clous ou de la colle. Cependant, le « langage » de conception d&rsquo;OpenStructures est différent : il est basé sur l&rsquo;<a href="http://openstructures.net/pages/9" target="_blank" >OS Grid</a>, qui est construit autour d&rsquo;un carré de 4x4 cm et est évolutif. Les carrés peuvent être subdivisés ou assemblés pour former des carrés plus grands, sans perdre leur inter-compatibilité. L&rsquo;illustration ci-dessous montre neuf carrés complets de chaque 4x4 cm assemblés.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-structures_hu4cc227e7cebdea43cdb565c68285669b_148042_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les bords des carrés marquent les lignes de coupe (qui définissent les dimensions des pièces carrées), les diagonales déterminent les points d&rsquo;assemblage, et les cercles définissent les diamètres communs. Comme c&rsquo;est le cas pour LEGO, toute pièce modulaire doit respecter au moins une de ces conditions pour être compatible avec les autres pièces. Soit les dimensions doivent correspondre aux lignes horizontales et verticales, soit les points d&rsquo;assemblage doivent être espacés selon la grille, soit les diamètres doivent être similaires. Vous trouverez ci-dessous une pièce qui remplit deux des trois conditions.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-structures2_hu2f6282f86fb2a16cf4b089cc98c9b021_61264_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si cet ensemble de règles est plus sophistiqué que celui du système Grid Beam, il n&rsquo;est pas pour autant compliqué. Néanmoins, elle permet de concevoir une variété beaucoup plus grande d&rsquo;objets, et pas seulement des cadres carrés ou rectangulaires. En cinq ans, OpenStructures a produit des objets allant des appareils ménagers aux vélos cargo, en passant par les valises et les meubles.</p>
+<h2 id="open-vs-systèmes-modulaires-fermés">Open VS Systèmes modulaires fermés</h2>
+<p>Malgré ces similitudes, il existe une différence fondamentale entre les systèmes de construction modulaire tels que OpenStructures, Grid Beam et Contraptor, et les jouets modulaires tels que LEGO, Meccano et Erector. Le premier groupe est constitué de systèmes modulaires « ouverts », dans lesquels chacun est libre de concevoir et de produire des pièces, tandis que le second est constitué de systèmes modulaires « fermés », où toutes les pièces sont conçues et produites par un seul fabricant. Les systèmes modulaires fermés produisent des pièces uniformes. Par exemple, tous les blocs de construction LEGO sont en plastique. LEGO ne produit pas de blocs de construction en bois, en aluminium, en verre ou en céramique. La gamme de couleurs est également limitée. Et parce que LEGO est un système exclusif, personne d&rsquo;autre n&rsquo;est autorisé à produire des pièces LEGO.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/os_hu8cf9e5b4ed44642ef8063e282f465fb2_42051_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Il existe des systèmes de construction modulaire qui fonctionnent selon les mêmes principes, comme les <a href="http://www.8020.net/" target="_blank" >profils en T</a> réalisés par 80/20 inc. Toutefois, dans les systèmes de construction modulaire que nous avons présentés ci-dessus, chacun est autorisé à concevoir et à produire des pièces, tant que ces pièces sont compatibles avec l&rsquo;ensemble des règles de base. On retrouve la même approche avec les logiciels ouverts, comme Linux (un système d&rsquo;exploitation), OpenOffice (logiciel de bureautique) ou WordPress (plateforme de blogs). Le code informatique de ces systèmes est écrit par un grand nombre de personnes, qui font toutes partie d&rsquo;un ensemble plus vaste. Comme tous les participants s&rsquo;en tiennent à un ensemble de règles de base, un grand nombre de personnes peuvent, indépendamment les unes des autres, ajouter des pièces qui sont inter-compatibles.</p>
+<blockquote>
+<p>Les produits de consommation basés sur un système modulaire ouvert peuvent favoriser l&rsquo;innovation rapide, sans l&rsquo;inconvénient du gaspillage d&rsquo;énergie et de matériaux.</p>
+</blockquote>
+<p>Un système modulaire ouvert présente de nombreux avantages par rapport à un système modulaire fermé.
+Puisque n&rsquo;importe qui peut concevoir des pièces dans un système ouvert, celui-ci génère une diversité beaucoup plus grande de pièces : elles peuvent être fabriquées dans des couleurs et des matériaux différents, et aucun des producteurs ne peut fixer un prix fixe pour tous les consommateurs. Et comme de nombreux concepteurs examinent, adaptent et améliorent constamment le travail des autres, l&rsquo;innovation est accélérée. Tous les systèmes logiciels ouverts décrits ci-dessus sont sans doute meilleurs que leurs homologues fermés et certains d&rsquo;entre eux ont connu un plus grand succès. Un système modulaire fermé n&rsquo;a qu&rsquo;un seul avantage : celui qui détient les droits d&rsquo;auteur gagne beaucoup d&rsquo;argent.</p>
+<h2 id="biens-de-consommation-durables">Biens de consommation durables</h2>
+<p>Les systèmes de construction modulaire encouragent la réutilisation des pièces physiques et constituent donc une alternative durable à notre système actuel de production d&rsquo;articles de consommation. La plupart des produits que nous achetons finissent dans des décharges ou des incinérateurs au bout de quelques années, tout au plus. En effet, la majorité des fabricants encouragent les consommateurs à remplacer leurs produits le plus rapidement possible, soit en concevant des objets qui tombent facilement en panne, soit en introduisant de nouvelles générations de produits qui rendent la génération précédente obsolète. Cette approche ne génère pas seulement un énorme tas de déchets, elle gaspille une quantité tout aussi importante d&rsquo;énergie et de matières premières.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/part-os-grid_hud88e065dd63f80a59b4801747f2bbcf2_48934_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les produits de consommation basés sur un système modulaire ouvert peuvent favoriser une innovation rapide, sans l&rsquo;inconvénient du gaspillage d&rsquo;énergie et de matériaux. Les pièces d&rsquo;une génération de produits obsolètes peuvent être utilisées pour concevoir la génération suivante, ou quelque chose de complètement différent. En outre, les objets modulaires se réparent facilement.</p>
+<p>Les systèmes de construction modulaire ouverts pourraient accélérer considérablement la diffusion des technologies de bas niveau, telles que les <a href="https://lowtechmag.gitlab.io/solar/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" >machines à pédales</a>, <a href="https://lowtechmag.gitlab.io/solar/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/" >solar thermal collectors</a>, <a href="https://lowtechmag.gitlab.io/solar/fr/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/" >velomobiles</a> or <a href="https://lowtechmag.gitlab.io/solar/fr/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/" >cargo cycles</a>. La construction d&rsquo;une éolienne ou d&rsquo;un vélo cargo est beaucoup plus rapide avec des pièces modulaires qu&rsquo;à travers des travaux de menuiserie ou de soudure. De plus, elles ne nécessitent pas d&rsquo;outils coûteux ou de compétences particulières. Les erreurs peuvent être facilement corrigées, il suffit de dévisser les boulons et de recommencer. Il serait également intéressant de voir comment des pièces modulaires s’emboîtent à un projet de matériel ouvert tel que la <a href="http://www.notechmagazine.com/2011/05/how-to-build-your-own-industrial-civilization.html" target="_blank" >construction d&rsquo;un village Set</a>, qui génère de nombreuses conceptions intéressantes, mais fait un usage limité de la modularité.</p>
+<h2 id="trafic-à-paris">Trafic à Paris</h2>
+<p>« Alors qu&rsquo;eBay assure une circulation des objets, et que le « cradle-to-cradle » assure une circulation des matériaux, les systèmes de construction modulaire assurent une circulation des pièces et des composants », explique Thomas Lommée, le créateur d&rsquo;OpenStructures. « Nous voulons créer des puzzles plutôt que des objets inchangeables. Le système devrait générer des objets dont on ne sait plus très bien qui les a conçus. Un objet évolue au fur et à mesure qu&rsquo;il est pris en main par d&rsquo;autres concepteurs. »</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/kitchen-appliances-open-structures_huf37750ac26d52c053151b5ce453160a8_15860_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les appareils de cuisine conçus dans le cadre du projet en sont de bons exemples. Quelques pièces initialement destinées à un moulin à café ont été assemblées avec de nouvelles pièces par un autre concepteur pour construire une cafetière. Cet appareil a ensuite été développé en un dispositif de purification d’eau par un troisième concepteur. La bouteille en plastique a été remplacée par une bouteille en verre découpé contenant un filtre en argile. Thomas Lommée : « En ajoutant ou en supprimant des composants, ou en les utilisant de manière différente, on obtient une famille d&rsquo;objets. »</p>
+<h2 id="vélo-cargo">Vélo cargo</h2>
+<p>Un autre prototype issu du projet est un vélo cargo. L&rsquo;arrière est un cadre scié d&rsquo;un vélo standard, dont l&rsquo;extrémité est compatible avec l’OS Grid. Cela signifie que l&rsquo;avant du vélo peut être construit de manière modulaire. Jo Van Bostraeten, le concepteur, a profité de cette occasion pour concevoir à la fois un vélo et un tricycle cargo (ce dernier transporte une imprimante 3D), et cela ne s&rsquo;arrête pas là.
+En collaboration avec Thomas Lommée, il a également construit un bloc moteur modulaire. L&rsquo;unité se compose d&rsquo;un moteur électrique et de roues, sur lesquels on peut placer une unité similaire qui contient une batterie. Comme les unités sont compatibles avec l&rsquo;OS Grid, elles peuvent être couplées à l&rsquo;avant du cycle de chargement, ce qui permet d&rsquo;obtenir un véhicule cargo motorisé entièrement modulaire.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/cargo-cycle_hub9115c709d9403464b3c09c7d9e4bbc2_38789_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La dernière « famille » d&rsquo;objets issue du projet est destinée aux enfants. Il est intéressant de noter que cette collection est née d&rsquo;un élément du cycle du fret : le conteneur. Il est construit à partir de pièces modulaires qui peuvent être boulonnées ensemble et peuvent donc être combinées de différentes manières. Quelques concepteurs ont commencé à utiliser ces pièces, créant ainsi (entre autres) une luge, un siège, une pelleteuse et une balançoire. Lorsque l&rsquo;enfant devient adolescent, les pièces peuvent être utilisées pour fabriquer une valise, une boîte à outils, ou encore des éléments d’un vélo cargo qui pourrait <a href="https://lowtechmag.gitlab.io/solar/fr/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/" >lui faire gagner de l&rsquo;argent de poche</a>.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-source-objects_hu3457ef88b94c35ef9bb0740be1c2af90_40018_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Plus intéressant que les objets eux-mêmes, c&rsquo;est leur système d&rsquo;assistance aux utilisateurs. Grid Beam est manifestement un produit de l&rsquo;ère pré-internet. Ceux qui veulent copier un modèle sont encouragés à regarder une photo de la création de quelqu&rsquo;un d&rsquo;autre et à « compter les trous ». OpenStructures, en revanche, s&rsquo;appuie fortement sur le centre d’aide aux utilisateurs en ligne. La réutilisation des pièces est facilitée par une base de données en ligne qui peut être utilisée de trois manières.</p>
+<h2 id="une-base-de-données-modulaire">Une base de données modulaire</h2>
+<p>Tout d&rsquo;abord, vous pouvez demander un aperçu de <a href="http://openstructures.net/pages/14/structures" target="_blank" >tous les objets</a> qui ont été conçus sur la base de la grille OS. La page web de chaque objet vous montre ensuite les pièces et les composants dont il est constitué. Ensuite, vous pouvez demander un aperçu de <a href="http://openstructures.net/pages/44/parts" target="_blank" >toutes les pièces</a> qui ont été conçues sur la base de la grille OS. La page web de chacune d&rsquo;entre elles vous indique les composants et les objets avec lesquels elles peuvent être utilisées. Enfin, vous pouvez demander un aperçu de <a href="http://openstructures.net/pages/11/components" target="_blank" >tous les composants</a>. La page web de chaque composant vous montre ses parties et les objets avec lesquels il peut être utilisé.</p>
+<blockquote>
+<p>La construction modulaire ouverte ne signifie pas que tout le monde doit fabriquer ses propres produits de consommation</p>
+</blockquote>
+<p>La page web de chaque pièce, composant et objet donne également des informations supplémentaires : dimensions, matériaux, nom du concepteur, licence et informations relatives à la commande. De plus, toutes les pièces et tous les composants ont un numéro de série. Cela signifie qu&rsquo;après le démontage d&rsquo;un objet modulaire, le numéro de série de chaque pièce et composant peut être saisi dans la base de données pour voir ce qui peut encore être fabriqué avec cet objet. Les pièces manquantes peuvent être obtenues via la base de données : soit en les commandant en ligne, soit en trouvant l&rsquo;adresse d&rsquo;un magasin où elles sont vendues, soit en téléchargeant le dessin numérique et en les fabriquant.</p>
+<h2 id="nest-pas-concepteur-qui-veut">N’est pas concepteur qui veut</h2>
+<p>La construction modulaire ouverte ne signifie pas que chacun doit fabriquer ses propres produits de consommation. Un objet comme une cafetière ou un établi peut être obtenu d’au moins trois façons. Tout d&rsquo;abord, le consommateur peut télécharger la conception numérique, puis assembler l&rsquo;objet avec des pièces qu&rsquo;il achète, réutilise ou fabrique à l&rsquo;aide d&rsquo;une imprimante 3D ou d&rsquo;une découpeuse laser, que ce soit chez lui ou dans un fab lab ou un tech shop. Cela peut également se faire de manière plus artisanale, comme dans le cas de Grid Beam : le consommateur achète des poutres en bois ou en métal et <a href="https://lowtechmag.gitlab.io/solar/fr/2010/12/hand-powered-drilling-tools-and-machines/" >perce les trous lui-même</a>.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/modular-parts-water-boiler_hu86e611147d68ef430c9d5a052f4148f7_37362_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Une deuxième option est qu&rsquo;une entreprise achète la licence du dessin (si elle n&rsquo;est pas libre) et la transforme en un kit de construction, comparable à un kit de LEGO, Meccano ou Erector. Dans ce cas, le consommateur ne doit pas chercher les pièces lui-même, mais il monte quand même le produit tout seul, tout comme il monterait un meuble chez IKEA. De même, une entreprise pourrait proposer un kit de construction plus général, qui peut être utilisé pour fabriquer ce que l&rsquo;on veut, comme une boîte de briques LEGO de base. Bit Beam, Contraptor, Open Beam, Maker Beam et, <a href="http://news.cnet.com/8301-32973_3-57440288-296/after-more-than-30-years-grid-beam-modular-construction-system-comes-to-market/" target="_blank" >récemment</a>, Grid Beam offre chacune de ces options.</p>
+<p>La troisième possibilité est qu&rsquo;un fabricant mette l&rsquo;objet sur le marché comme un produit fini et assemblé. La cafetière ou l&rsquo;établi seraient alors vendus et achetés comme n&rsquo;importe quel autre produit aujourd&rsquo;hui, mais ils pourraient être démontés après usage, et leurs pièces pourraient être réutilisées pour d&rsquo;autres objets.</p>
+<h2 id="modèle-économique--qui-produit-les-pièces-">Modèle économique : qui produit les pièces ?</h2>
+<p>Si le processus de conception d&rsquo;OpenStructures et d&rsquo;autres systèmes de construction modulaire ouverts est identique à celui de produits numériques tels que Wikipédia, Linux ou WordPress, il existe cependant une différence fondamentale. Le code informatique et le texte numérique n’engendrent aucun coût matériel. Ce n&rsquo;est pas le cas des objets. Cela rend le matériel modulaire ouvert moins facile, mais cela crée aussi des opportunités économiques. Il est difficile de gagner de l&rsquo;argent avec des logiciels libres ou du code. Toutefois, dans le cas d&rsquo;un système modulaire ouvert pour les objets, quelqu&rsquo;un doit fournir les matériaux.</p>
+<p>Il est également important que les pièces soient produites par le plus grand nombre de fabricants possible, afin qu&rsquo;elles soient disponibles dans le monde entier. Dans le cas contraire, les frais d&rsquo;expédition peuvent être si élevés qu&rsquo;un objet modulaire devient trop cher.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/modular-toaster_hu40408455b1a5602562641e945ef6f0f2_39023_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Il existe de nombreuses possibilités de gagner de l&rsquo;argent avec un modèle de construction modulaire ouvert. Un fabricant peut choisir de produire une pièce qui pourrait être une opportunité économique. Un autre peut choisir de vendre un kit de construction ou un produit fini d&rsquo;un modèle qu&rsquo;il pense pouvoir vendre. Un concepteur peut se faire de l’argent en mettant en ligne un dessin téléchargeable gratuitement pour un usage personnel, mais pas pour un usage commercial. Un fabricant qui souhaite commercialiser ce modèle peut alors acheter la licence auprès du concepteur.</p>
+<p>Les artisans peuvent se concentrer sur la conception de pièces exclusives, fabriquées à la main dans des matériaux spéciaux, qui sont compatibles avec des articles populaires produits en série. D&rsquo;autres peuvent créer un Fab lab ou un tech shop, où les gens peuvent construire leurs propres objets modulaires moyennant un abonnement mensuel. En bref, un système de construction modulaire ouvert offre des opportunités économiques pour tout le monde.</p>
+<h2 id="économie-collaborative">Économie collaborative</h2>
+<p>« Nous n&rsquo;avons pas l&rsquo;ambition de construire une usine gigantesque qui produirait toutes les pièces possibles et inimaginables », note M. Lommée. « OpenStructures ne doit pas devenir un IKEA modulaire. Notre but est de créer un système économique collectif, dans lequel un producteur bénéficie de la production d&rsquo;un autre producteur. Car les pièces fabriquées par l&rsquo;un peuvent être utilisées par l’autre. Ce que nous aimerions voir, ce sont des rues pleines de petites boutiques, où chacun génère sa propre petite partie d&rsquo;un système plus vaste. Une économie collaborative, où les petits producteurs indépendants ont leur place. Pas un seul grand constructeur à la tête de toutes les constructions. La dimension sociale est très importante. »</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/contraptor-parts_hufba305b15e7b5f3e90fa0198e4269957_182856_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>« Si IKEA veut vendre un produit qui est compatible avec notre système, ça me convient. Mais le système ne peut fonctionner que s&rsquo;il reste ouvert. Plus il s’étend, plus il est facile pour une petite entreprise ou un artisan d&rsquo;en faire partie. L&rsquo;ambition est de lancer un puzzle universel et collaboratif qui permette au plus grand nombre possible de personnes (de l&rsquo;artisan à la multinationale), de concevoir, construire et échanger la plus large gamme possible de pièces et de composants modulaires. »</p>
+<h2 id="organiser-la-réutilisation">Organiser la réutilisation</h2>
+<p>En dehors d&rsquo;un langage de conception (la grille OS) et d&rsquo;une base de données en ligne, OpenStructures a également mis en place un prototype d&rsquo;entrepôt à Bruxelles. Ce type d&rsquo;endroit devrait devenir la plaque tournante de l&rsquo;organisation de la réutilisation des pièces et des composants. Pensez à un laboratoire de fabrication ou à un atelier technologique, mais combiné au stockage de pièces modulaires. Si un produit modulaire n&rsquo;est plus nécessaire et que le propriétaire n&rsquo;a pas envie d&rsquo;utiliser les pièces pour construire quelque chose de nouveau, il l&rsquo;apporte à l&rsquo;un de ces endroits, où il est démonté et ses pièces sont stockées.</p>
+<blockquote>
+<p>Un système de construction modulaire ouvert offre des opportunités économiques pour tout le monde</p>
+</blockquote>
+<p>D&rsquo;autres personnes pourraient venir à cet endroit pour acheter des pièces ou les utiliser sur place pour construire quelque chose de nouveau. Comme le dit M. Lommée : « Tout le monde ne doit pas fabriquer ses propres produits, mais après sa vie utile, un produit modulaire se retrouve toujours entre les mains d&rsquo;un groupe de personnes qui aime fabriquer des choses. »</p>
+<h2 id="compatibilité-entre-les-systèmes-modulaires-ouverts">Compatibilité entre les systèmes modulaires ouverts</h2>
+<p>Bien qu&rsquo;il soit encore en phase expérimentale, OpenStructures est de loin le système modulaire ouvert le plus ambitieux et le plus complet conçu à ce jour. Cependant, comme il s&rsquo;agit d&rsquo;un projet européen, il suit le système métrique international. Alors que Grid Beam, beaucoup plus ancien, suit le système impérial. Ces systèmes ne sont pas compatibles. Avec l&rsquo;apparition de plus en plus de systèmes modulaires ouverts, ne serait-il pas important d&rsquo;assurer leur inter-compatibilité ?</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/makeblock_hu2dcba25b4205bd36a8943162945796fc_84187_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>M. Lommée pense que non : « La plupart de ces systèmes ont des buts différents. Par exemple, Contraptor vise la précision, car les pièces sont utilisées pour construire des robots et d&rsquo;autres machines sophistiquées. L&rsquo;esthétique n&rsquo;est manifestement pas leur but premier. Je suis concepteur, donc ce qui m&rsquo;intéresse surtout, c&rsquo;est de savoir si un système modulaire peut générer, ou non, de beaux objets et des choses que vous voudriez mettre chez vous. Il y a aussi <a href="http://www.wikispeed.com/" target="_blank" >Wikispeed</a>, par exemple, qui se concentre sur le développement d&rsquo;une voiture modulaire. <a href="http://www.arduino.cc/" target="_blank" >Arduino</a> est destiné à l&rsquo;électronique. Je ne pense pas que tous ces systèmes modulaires doivent être compatibles entre eux, car les applications sont très différentes. »</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/openbeam_hu5438825b9b6d1014226d20d231e650c2_70811_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Il explique ensuite pourquoi il a choisi le système métrique. « J&rsquo;ai beaucoup douté à ce sujet. Mais finalement, j&rsquo;ai décidé que le système métrique était plus facile à utiliser. Et je pense que le monde est assez grand pour deux systèmes : il suffit de regarder la variété des normes énergétiques qui sont utilisées. Quelqu&rsquo;un a développé une <a href="http://www.contraptor.org/forum/t273404/contraptor-openstructures" target="_blank" >version européenne de Contraptor</a>, basée sur le système métrique et compatible avec la grille OS. Et il est toujours possible de concevoir un couplage entre deux systèmes, afin qu&rsquo;ils puissent être utilisés ensemble. D&rsquo;autre part, nous vivons dans un monde en réseau où tout est connecté et copié. Cela signifie souvent que lorsque les normes sont en concurrence, une seule survit. Et ce n&rsquo;est pas nécessairement la meilleure situation. Je croise les doigts. »</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/fr/tags/stuff/" class="">Stuff</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2016/11/why-the-office-needs-a-typewriter-revolution/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2016/11/why-the-office-needs-a-typewriter-revolution/images/dithers/olivetti-mechanical-typewriter_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Pourquoi la révolution des machines à écrire est-elle nécessaire dans les bureaux?</h3>
+		<p class="index-summary">Pouvons-nous entièrement repenser le matériel de bureau en combinant les meilleurs outils mécaniques et numériques ?</p>
+		<time class="published">22 novembre 2016</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2014/05/modular-cargo-cycles/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2014/05/modular-cargo-cycles/images/dithers/XYZ-cargo-Trike_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Des Cycles Utilitaires Modulaires</h3>
+		<p class="index-summary">Parce que leur design est ouvert et modulaire, les cycles XYZ son encore moins chers à construire soi-même, et faciles à personnaliser.</p>
+		<time class="published">5 mai 2014</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2023/11/le-site-web-imprim%C3%A9-deux-nouveaux-volumes/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2023/11/le-site-web-imprim%C3%A9-deux-nouveaux-volumes/images/dithers/fr-coverthumbnailsmall-try-fr3_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Le site web imprimé : deux nouveaux volumes</h3>
+		<p class="index-summary">Nous avons lancé deux autres publications contenant les articles du &ldquo;Low-tech Magazine&rdquo;, couvrant la période de 2007 à 2018.</p>
+		<time class="published">21 novembre 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2023/11/bike-generator-at-paris-exhibition/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2023/11/bike-generator-at-paris-exhibition/images/dithers/bike-generator-pavillon-arsenaL_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Essayez nos vélos générateurs à Paris, Barcelone et Rotterdam !</h3>
+		<p class="index-summary">Low-tech Magazine a construit un vélo générateur pour une exposition sur l&rsquo;énergie au Pavillon d&rsquo;Arsenal à Paris, désormais ouverte au public. Nos deux autres vélos peuvent être vus et essayés à Barcelone et à Rotterdam.</p>
+		<time class="published">20 novembre 2023</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/fr/about">
+  À propos
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

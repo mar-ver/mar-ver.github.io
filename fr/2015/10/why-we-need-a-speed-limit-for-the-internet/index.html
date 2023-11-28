@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pourquoi nous devons limiter la vitesse d’Internet | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Pourquoi nous devons limiter la vitesse d’Internet" />
+<meta name="twitter:title" content="Pourquoi nous devons limiter la vitesse d’Internet"/>
+
+<meta property="og:description" content="La consommation d’énergie d’Internet n’est limitée que par l’énergie disponible, à moins que l’on impose nous-mêmes des limites." />
+
+<meta name="twitter:description" content="La consommation d’énergie d’Internet n’est limitée que par l’énergie disponible, à moins que l’on impose nous-mêmes des limites."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-10-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-10-19T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="ICT" />
+
+</head>
+<body id="pourquoi-nous-devons-limiter-la-vitesse-dinternet">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Pourquoi nous devons limiter la vitesse d’Internet</h1>
+
+				<p class="summary">
+					La consommation d’énergie d’Internet n’est limitée que par l’énergie disponible, à moins que l’on impose nous-mêmes des limites.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">19 octobre 2015</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/fr/translators/martin-boissel/">Martin Boissel</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2015/10/why-we-need-a-speed-limit-for-the-internet/">nl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" alt='Always online. Image: Matthew G. CC.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/speed-limit-internet_hu3d03a01dcc18bc5be0e67db3d8d209a6_77093_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/speed-limit-internet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Always online. Image: <a href="https://www.flickr.com/photos/streetmatt/15851429459/in/photolist-q9JHHV-bbhfj6-rdPrYE-6WpyLA-o1mSAi-cpUaqS-qMF7Tg-9ZQbb7-a39Vsb-6YkxLV-fo9Ypi-oTnmy1-rLqXQN-qR4WTF-brYcsr-bqwSte-bovvp6-nQb1F3-sgeU47-q8kWtT-o2KH4K-egpyFd-nxnfi7-jEGTiA-oUqbHS-o3nsh1-7ucC4b-ocdn19-bjVuP8-aZWVDe-aEnBFo-ag9bN2-abXLNk-xxQdLQ-o7cdiK-ykyzCN-xFa6v3-yBdNK5-ykzQsy-ykyzAd-ykzQjN-xFinza-yBdNp5-yCbzgx-yBdNiU-ykzQ85-ykyzh7-yBdNas-cGWeGY-n3vF2V" target="_blank" >Matthew G</a>. CC.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En termes d’économie d’énergie, les progrès réalisés au niveau des infrastructures et des appareils utilisés pour naviguer sur Internet offrent une image de durabilité à beaucoup d’activités en ligne comparées à leur contrepartie hors ligne.</p>
+<p>Pour ce qui est d’Internet en lui-même, cependant, une meilleure efficacité énergétique a l’effet inverse : plus le réseau optimise sa consommation d’énergie, plus l’énergie totale utilisée augmente. La seule façon de freiner cette augmentation serait de limiter notre consommation du numérique.</p>
+<p>Limiter la demande est une stratégie que nous utilisons déjà. Encourager les populations à manger moins de viande ou à baisser le thermostat de leur chauffage en sont des exemples. Dans le domaine de l’internet néanmoins, cette stratégie reste controversée, en partie en raison du fait que peu de gens comprennent le lien entre données et énergie.</p>
+<h2 id="quelle-est-la-quantité-dénergie-consommée-par-internet-">Quelle est la quantité d’énergie consommée par Internet ?</h2>
+<p>Quelle est la quantité d’énergie consommée par Internet ? En raison de la complexité du réseau et de sa constante évolution, personne ne le sait vraiment. Les estimations de la quantité totale d’électricité consommée par Internet varient d’un ordre de grandeur selon les sources. Cette différence peut s’expliquer dans un premier temps par le fait que beaucoup de chercheurs ne s’intéressent qu’à une seule partie de l’infrastructure qui constitue Internet.</p>
+<p>En effet, au cours de ces dernières années, ceux-ci se sont principalement penchés sur la consommation d’énergie des data centers, lieu abritant les ordinateurs (serveurs) chargés de stocker toute l’information disponible en ligne. Cependant, en comparaison, les appareils des utilisateurs (ordinateurs et smartphones), les infrastructures du réseau (qui transmettent l’information entre les serveurs et les utilisateurs) et la <a href="https://lowtechmag.gitlab.io/solar/fr/2009/06/the-monster-footprint-of-digital-technology/" >fabrication des serveurs, appareils utilisateurs et réseau consomment, pris ensemble, plus d’énergie</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Une autre explication à cette différence est le temps. Internet évolue si vite que les résultats concernant sa consommation d’énergie ne sont valables que pour l’année à l’étude. Enfin, comme c’est le cas pour toute étude scientifique, les modèles, méthodes et hypothèses utilisés pour les calculs varient d’un chercheur à l’autre et sont parfois biaisés par des croyances ou des conflits d’intérêts. Par exemple, il ne serait pas surprenant qu’une étude sur la consommation d’énergie d’Internet réalisée par le American Coalition for Clean Coal Electricity (groupe d’influence pour l’utilisation du charbon comme source d’énergie) trouve un chiffre beaucoup plus important qu’une entité appartenant au domaine de l’information et des communications. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<h2 id="huit-milliards-de-pédaleurs-pour-alimenter-internet">Huit milliards de pédaleurs pour alimenter Internet</h2>
+<p>En gardant ces informations à l’esprit, nous avons sélectionné le rapport qui semble être le plus à jour, complet et honnête concernant l’impact environnemental d’Internet. Celui-ci conclut que le réseau de communication global a consommé 1 815 TWh d’électricité en 2012, <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> ce qui représente 8 % de la production totale d’énergie pour cette même année (22 740 TWh). <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>Si nous essayions de fournir cette même quantité d’énergie avec des <a href="https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/" >générateurs à pédales</a>, chacun produisant 70 watt, il faudrait que 8,2 milliards de personnes, réparties en trois équipes, pédalent huit heures par jour chaque jour de l’année. (L’électricité consommée par les appareils utilisateurs est incluse dans ces calculs. Les pédaleurs pourraient donc utiliser leurs smartphones et ordinateurs portables pendant qu’ils pédalent). L’énergie solaire et éolienne n’est pas vraiment une option non plus. Il faudrait en effet multiplier par trois la quantité d’énergie fournie par tous les panneaux solaires et les éoliennes du monde pour produire les 1 815 TWh consommés en 2012.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/can-internet-run-on-renewable-energy_dithered.png" alt='L’Internet d’aujourd’hui ne peut pas être alimenté par les énergies renouvelables. Image : Wikipedia Commons.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/can-internet-run-on-renewable-energy_hu67ff70c1e30570a531cd2084fea8f990_29133_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/can-internet-run-on-renewable-energy_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>L’Internet d’aujourd’hui ne peut pas être alimenté par les énergies renouvelables. Image : <a href="https://commons.wikimedia.org/wiki/Category:Wind_turbines_in_Germany#/media/File:20090109_xl_wiki_m_podszun-D50-0280.JPG" target="_blank" >Wikipedia Commons</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les chercheurs de ce rapport estiment que d’ici 2017, la consommation d’énergie d’Internet aura atteint entre 2 547 TWh (chiffres attendus) et 3 422 TWh (pire scénario envisagé). Si le pire scénario devient réalité, alors cette consommation aura presque doublé en l’espace de 5 ans. Il est à noter que l’amélioration future de l’efficacité énergétique est déjà prise en compte dans ces résultats. Dans le cas où celle-ci ne se produirait pas, la consommation d’énergie doublerait tous les deux ans, tout comme le trafic Internet.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<h2 id="augmentation-de-la-consommation-dénergie-par-utilisateur">Augmentation de la consommation d’énergie par utilisateur</h2>
+<p>Contrairement à ce que l’on pourrait imaginer, l’augmentation de la consommation énergétique du numérique n’est pas tellement due au nombre croissant d’utilisateurs, mais plutôt à la consommation d’énergie par utilisateur qui ne cesse de croître. En effet, l’activité sur le réseau grimpe beaucoup plus vite que le nombre d’utilisateurs (45 % contre 6-7 % chaque année).<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> Il y a deux raisons à cela : une évolution vers des systèmes portables avec accès Internet sans fil et une augmentation de la vitesse de transfert des données, principalement causée par le développement de la télé via Internet et du streaming de vidéos.</p>
+<blockquote>
+<p>Contrairement à ce que l’on pourrait imaginer, l’augmentation de la consommation énergétique du numérique n’est pas tellement due au nombre croissant d’utilisateurs, mais plutôt à la consommation par utilisateur qui ne cesse de croître.</p>
+</blockquote>
+<p>Ces dernières années, l’ordinateur fixe a laissé place à l’ordinateur portable, la tablette et au smartphone , ce dernier a déjà conquis 84 % de la population des pays riches et semble en bonne voix pour conquérir le reste très prochainement. <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Ces appareils portables consomment moins d’électricité qu’un ordinateur fixe, tant pendant l’utilisation que la fabrication et jouissent donc d’une bonne image, respectueuse de l’environnement. Cependant, ils présentent des inconvénients qui contrebalancent largement cet avantage.</p>
+<p>Pour commencer, les smartphones transfèrent une grande partie de leur centre de calculs (très gourmand en énergie) de l’appareil vers les data centers. En effet, l’utilisation des smartphones s’est accompagnée d’un essor rapide des services de cloud pour que les utilisateurs puissent pallier aux limitations en mémoire et en puissance des téléphones. <sup id="fnref2:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Ainsi, pour chaque requête, les données doivent d’abord être envoyées de l’appareil de l’utilisateur au data center pour être traitées et renvoyées vers l’appareil pour afficher le résultat. En conséquence, l’énergie utilisée par le réseau augmente également.</p>
+<h2 id="internet-sans-fil-haut-débit">Internet sans fil haut débit</h2>
+<p>Le transfert des opérations de l’appareil de l’utilisateur au data center peut s’avérer efficace pour réduire la consommation totale d’énergie, car les serveurs de ces data centers sont mieux optimisés que les appareils des utilisateurs. Néanmoins, cet avantage n’est plus valable pour les smartphones qui se connectent à Internet via la 3G ou la 4G. La consommation d’énergie du réseau dépend en effet, en grande partie, de la technologie utilisée pour le dernier maillon de la chaîne, c’est-à-dire la connexion de l’utilisateur au réseau.</p>
+<p>Une connexion câblée (ADSL, câble coaxial, fibre) reste la méthode la plus optimale pour l’économie d’énergie. Le Wi-Fi en consomme un peu plus, mais cette augmentation reste négligeable. L’utilisation des réseaux mobiles, par contre, fait exploser la facture énergétique. La 3G par exemple utilise 15 fois plus d’énergie que le Wi-Fi et la 4G, 23 fois plus. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref3:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Alors que les ordinateurs fixes utilisaient une connexion câblée, les ordinateurs portables, tablettes et smartphones utilisent systématiquement une connexion sans fil, via le Wi-Fi ou un réseau mobile.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/cell-tower_dithered.png" alt='La 3G consomme 15 fois plus d’énergie que le Wi-Fi et la 4G en consomme 23 fois plus. Image : jerry0984. CC.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/cell-tower_huf373bdcf4dd6b2908e00119441a952ae_372748_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/cell-tower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>La 3G consomme 15 fois plus d’énergie que le Wi-Fi et la 4G en consomme 23 fois plus. Image : <a href="https://www.flickr.com/photos/jerry0984/17037780397/in/photolist-rXz5wr-bK1ZH-q9b8hG-4a1m7o-bmLht9-beKeK6-aAQAMj-kWGfhg-7qCeXo-n1NG1g-pLd7WV-8S5wot-q9C9YP-qXHvAf-qRoTqh-8S5nrp-qzHwsC-qYVC5m-agsbX6-7NwPMX-6u1P3v-e3iFBK-goWtF5-cJKtaN-e3s7TC-7Shmsg-k2quYu-9R6a93-7zfToi-njpDbE-ak7nkz-oyGD-8CBHzu-dMpFMo-5wd8xw-8u2MTD-8aP6nN-k2qv1J-2ZeCgo-nybnwL-kapoM-9HKqYL-oQyrYT-6eG5eq-tqD6Rp-ge9RN8-4btraU-4K5amk-7UWR1g-k2oJGe" target="_blank" >jerry0984</a>. CC.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Le Wi-Fi semble modérer l’utilisation des données mobiles. Plus chère et moins performante, les utilisateurs restreignent leur accès à la 3G. <sup id="fnref4:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> À la place, ils préfèrent se connecter aux points d’accès Wi-Fi, dont le nombre a considérablement augmenté. Néanmoins, avec les progrès de la 4G, qui devient au moins aussi rapide que le Wi-Fi, l’avantage de ce dernier disparaît. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> De nombreux opérateurs de réseau déploient dès lors leurs équipements 4G à grande échelle. Le nombre global de connexions à la 4G a déjà plus que doublé en un an, passant de 200 millions à la fin 2013 à 490 millions à la fin 2014. D’après les estimations, il pourrait même atteindre 875 millions à la fin de l’année 2015. <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup><sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<h2 id="encore-plus-de-temps-en-ligne">Encore plus de temps en ligne</h2>
+<p>L’essor des appareils portables et d’Internet sans fil a une autre conséquence : nous passons plus de temps en ligne. <sup id="fnref2:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Et contrairement ce qu’on pourrait croire, cette tendance n’est pas apparue avec le smartphone. L’ordinateur portable avait déjà favorisé ce phénomène. Alors que ce dernier était censé réduire la consommation d’énergie d’Internet, c’est l’inverse qui s’est produit. Sa portabilité et son côté pratique ont en effet incité les utilisateurs à se connecter beaucoup plus souvent. « Le premier ordinateur à entrer dans le salon a été un ordinateur portable. » <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<p>L’évolution logique de cette tendance est le smartphone. Il permet de se connecter depuis n’importe quel endroit et s’utilise simultanément avec d’autres appareils plus conventionnels. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> Par exemple, les études ont démontré que le smartphone est très souvent utilisé pour remplir les temps morts, court laps de temps qui n’est dédié à aucune activité spécifique ou qui est perçu comme une perte de temps : attente, trajets, ennui, pause café ou encore « activité sociale pas assez stimulante ». De plus, le smartphone est devenu un incontournable du rituel du matin et du soir. C’est souvent la première chose que l’on consulte en se réveillant et la dernière avant de se coucher. <sup id="fnref1:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup></p>
+<blockquote>
+<p>À mesure que nos appareils deviennent moins gourmands en énergie, nous allongeons notre temps d’utilisation pour envoyer toujours plus de données via Internet.</p>
+</blockquote>
+<p>Cela étant dit, il convient de rappeler que tous les smartphones ne sont pas des substituts aux ordinateurs fixes et portables. Tous ces appareils ont un usage complémentaire et ils sont même souvent utilisés simultanément. Grâce aux smartphones et à Internet sans fil, nous pouvons donc maintenant nous connecter partout à n’importe quel moment et à mesure que nos appareils deviennent moins gourmands en énergie, nous allongeons notre temps d’utilisation pour envoyer toujours plus de données via Internet. <sup id="fnref2:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup><sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>En fin de compte, nous consommons donc plus d’énergie, en raison de nos appareils, mais surtout des data centers et du réseau. Rappelons pour terminer <em>qu’appeler</em> quelqu’un avait un smartphone nécessite plus d’énergie qu’avec un téléphone traditionnel.</p>
+<h2 id="des-débits-toujours-plus-élevés--vidéo-et-musique">Des débits toujours plus élevés : vidéo et musique</h2>
+<p>Un deuxième facteur à prendre en compte pour expliquer la hausse d’énergie consommée par utilisateur est l’augmentation du débit binaire. Au début, Internet servait à envoyer du texte, mais aujourd’hui, les images, la musique et les vidéos sont devenues tout aussi importantes. Le téléchargement d’un texte requiert très peu d’énergie. Pour donner un ordre d’idée, la totalité du texte de ce blog, environ 100 articles, ne pèse pas plus de 9 mégaoctets (Mo). À titre comparatif, une seule image haute résolution atteint facilement les 3 Mo, et le poids d’une vidéo Youtube de 8 minutes en qualité standard grimpe à 30 Mo, soit trois fois le poids de tous les mots de ce blog.</p>
+<p>Chaque bit de données demande de l’énergie. Notre comportement en ligne n’est donc pas à négliger. Il se trouve justement que nos activités sur Internet requièrent un débit binaire toujours plus élevé.C’est typiquement le cas des vidéos. En 2012, le téléchargement de vidéos représentait 57 % du trafic Internet global (sans compter les vidéos échangées par peer-to-peer). Ce pourcentage pourrait atteindre 69 % en 2017. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/smartphones-on-train_dithered.png" alt='Les trains consomment peu. On ne peut pas en dire autant des téléphones. Image : Nicolas Nova.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/smartphones-on-train_hu3d03a01dcc18bc5be0e67db3d8d209a6_66878_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/smartphones-on-train_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Les trains consomment peu. On ne peut pas en dire autant des téléphones. Image : <a href="https://www.flickr.com/photos/nnova/15143063700/in/photolist-p59agb-dwF3pv-2GGGE-poW7dg-oJC1hX-pp28nG-bDsVHf-9mj8t1-a8wg5A-pFuTHh-rS3yE3-fEhJrB-abN4Q4-pFqB2x-gWt4A5-9U9Jnb-oJC3q4-s9zN1B-rS3xK7-eBtcSf-rS4VFG-poyfHB-uUeoFj-fvT5P7-fcEmHq-9piapU-oSrEyH-9bnK7g-idmyD4-byfGwH-efwgCH-dehe2h-eoxTxF-poW9ii-rG5gcX-qKaKcC-aeuiYT-pekyub-oWTfdz-fRVSdK-wzEoqy-7WHVGZ-dzjVLJ-kDk4xo-oTn4h7-egeb1W-drPu59-ktjEnW-jRwutZ-a9LP1n" target="_blank" >Nicolas Nova</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si le sans-fil et la vidéo sont les principales causes de l’augmentation de la consommation d’énergie d’Internet, alors il n’est pas étonnant que le streaming vidéo sans fil constitue la pire combinaison possible. Malheureusement, c’est précisément ce comportement qui se développe le plus vite. D’après le dernier « Cisco Visual Networking Index », la part du trafic mobile destiné à la vidéo comptera pour 72 % du trafic de données mobiles en 2019: <sup id="fnref3:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>« Lorsque les capacités des appareils sont combinées avec un haut débit, l’adoption à grande échelle des applications vidéos s’en trouve facilitée, ce qui contribue alors à augmenter le trafic de données sur le réseau. Ainsi, augmenter la vitesse de connexion des réseaux mobiles revient à augmenter la quantité de données disponible par unité de temps. La haute définition deviendra de plus en plus commune et la proportion du streaming, par opposition aux supports traditionnels, va probablement augmenter. L’évolution vers la vidéo à la demande affectera les réseaux mobiles tout autant que les réseaux fixes. »</p>
+<p>La consommation d’énergie n’est pas seulement influencée par le débit de données, mais également par le type de service utilisé. Par exemple, pour vérifier ses e-mails, naviguer sur le web ou télécharger audios et vidéos, un certain délai est acceptable. Pour les services en temps réel tels que la vidéoconférence ou le streaming audio et vidéo, en revanche, aucun délai n’est permis. Et pour cela, il faut un réseau très performant, et donc plus d’énergie.</p>
+<h2 id="internet-économise-t-il-de-lénergie-">Internet économise-t-il de l’énergie ?</h2>
+<p>Si Internet consomme de plus en plus d’énergie, un contre-argument affirme qu’il en économise plus qu’il n’en consomme. Cette affirmation naît de l’idée que les services en ligne remplacent certaines activités très gourmandes en énergie. <sup id="fnref1:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> La vidéoconférence, par exemple, limiterait les voyages en avion ou en voiture tandis que le téléchargement et le streaming remplaceraient DVD, CD, livres, magasines et journaux, qui n’auraient donc plus besoin d’être fabriqués et exportés.</p>
+<p>Voici quelques exemples sur le sujet. Une étude datant de 2011 affirme que « en remplaçant un trajet par avion sur quatre par de la vidéoconférence, nous pourrions économiser autant d’énergie que ce que consomme tout l’Internet ». Une autre étude de 2014 affirme quant à elle que « la vidéoconférence consomme tout au plus 7 % de l’énergie totale nécessaire à une réunion en présentiel. ». <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup><sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> En ce qui concerne le contenu numérique, une troisième étude, datant de 2014, estime que si l’on basculait tout le contenu des DVD des E.U. sur une plateforme de streaming, on économiserait la même quantité d’énergie primaire nécessaire aux besoins annuels en électricité de 200 000 foyers étasuniens. <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> Enfin, une étude de 2010 affirme que le streaming consomme 30 à 78 % de l’énergie utilisée pour la location de DVD (le DVD doit être envoyé par courrier au client qui doit ensuite le retourner après visionnage). <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<blockquote>
+<p>Puisque les chiffres concernant l’énergie consommée par Internet varient de quatre ordres de grandeur, il est facile de les tourner à son avantage.</p>
+</blockquote>
+<p>Ces différentes affirmations posent cependant quelques problèmes fondamentaux. Tout d’abord, les résultats sont grandement influencés par la méthode de calcul utilisée. Par exemple, si nous examinons la consommation d’énergie par bit de données transportées (« l’intensité énergétique » d’Internet), les résultats varient de 0,00064 à 136 kilowatts par heure par gigaoctet (kWh/Go), soit une différence de quatre ordres de grandeur. <sup id="fnref2:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref3:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> Les chercheurs à l’origine de cette observation concluent que « les questions de savoir s’il est préférable de télécharger un film plutôt que d’en acheter le DVD ou plus raisonnable d’organiser une réunion en distanciel plutôt qu’en présentiel ne peuvent être résolues avec des estimations aussi divergentes qui impactent considérablement les résultats. » <sup id="fnref3:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>En plus de cela, les chercheurs doivent également faire de nombreuses suppositions qui peuvent toutes influencer grandement les résultats. Si l’on compare la vidéoconférence à un voyage en avion par exemple, quelle est la distance parcourue ? L’avion est-il rempli ? De quelle année date cet avion ? De la même façon, combien de temps dure la vidéoconférence ? La connexion utilisée pour cette celle-ci est-elle câblée ou sans fil ? Utilise-t-on un ordinateur portable ou un système de vidéoconférence dernier cri ? Lorsque l’on écoute de la musique en streaming, écoute-t-on la chanson une fois ou vingt fois ? Si l’on achète un DVD, comment se rend-on au magasin, en voiture ou à vélo ? Le magasin est-il loin ? Achète-t-on seulement le DVD ou en profite-t-on pour faire d’autres achats ?</p>
+<h2 id="durée-et-distance">Durée et distance</h2>
+<p>Nous pouvons manier les réponses à ces questions de sorte à obtenir précisément le résultat que nous souhaitons. C’est pourquoi il est plus intéressant de se concentrer sur les mécanismes qui participent à l’efficacité énergétique des services en ligne ou hors ligne.C’est ce que les scientifiques appellent « l’analyse de sensibilité ». Il est vrai que la plupart des chercheurs effectuent cette analyse, mais les résultats qui en découlent ne sont généralement pas présentés dans l’introduction de l’article et encore moins dans le communiqué de presse qui l’accompagne.</p>
+<p>Une différence importante à prendre en compte lorsque l’on compare les activités en ligne ou non est la durée. En ligne, l’énergie consommée augmente avec la durée de l’activité. Si nous lisons deux articles au lieu d’un sur le site d’un journal numérique, nous consommons plus d’énergie. À l’inverse, si nous achetons un journal, la quantité d’énergie utilisée est indépendante du nombre d’articles lus. Ce journal pourrait aussi être lu par deux personnes, divisant ainsi le coût énergétique par deux.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/high-end-telepresence-system_dithered.png" alt='Système de vidéoconférence dernier cri. Image : Wikipedia Commons. Courtesy of Tandberg Cooperation.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/high-end-telepresence-system_hu183ac2cdd419c2b84f1731befb026973_998143_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/high-end-telepresence-system_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Système de vidéoconférence dernier cri. Image : <a href="https://en.wikipedia.org/wiki/Videoconferencing#/media/File:Tandberg_Image_Gallery_-_telepresence-t3-side-view-hires.jpg" target="_blank" >Wikipedia Commons</a>. Courtesy of Tandberg Cooperation.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Après la durée, l’autre facteur important est la distance. Pour les activités « hors ligne », l’énergie consommée augmente non plus avec la durée, mais avec la distance, le transport des personnes et des produits représentant la plus grande dépense d’énergie. La distance n’a que très peu d’influence sur l’énergie consommée par les activités en ligne.</p>
+<p>Une analyse de sensibilité génère des résultats très différents de ceux qui sont généralement présentés. En voici quelques exemples : écouter un album en streaming 27 fois peut consommer plus d’énergie que produire et transporter le CD du même album <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> ; lire un journal en ligne sur un PC fixe consomme plus d’énergie que lire un journal papier à partir du moment où le temps de lecture dépasse une heure et quart, et qu’il n’est lu que par une seule personne <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> ; se rendre à une réunion en personne lorsque la distance à parcourir se situe entre 5 000 et 333 km consomme moins d’énergie qu’une vidéoconférence utilisant un système de téléconférence dernier cri. De la même manière, si la conférence ne dure pas 5 heures mais 75 heures, alors parcourir 5 000 km permet d’économiser de l’énergie. <sup id="fnref1:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<h2 id="leffet-rebond">L’effet rebond</h2>
+<p>L’avantage de la vidéoconférence en matière d’économie d’énergie semble plutôt convaincant, car les réunions de 75 heures restent rares. Cependant, les études qui défendent l’efficacité énergétique des services en ligne oublient souvent de prendre en compte un problème important : l’effet rebond. L’effet rebond, c’est lorsque les progrès de la technologie en termes d’efficacité énergétique sont contrebalancés par des facteurs systématiques ou par le comportement des utilisateurs. Par exemple, il est rare que les nouvelles technologies remplacent purement et simplement les technologies préexistantes. Elles s’utilisent plutôt simultanément, ce qui annule les économies d’énergie attendues. <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup></p>
+<p>La vidéoconférence n’est pas toujours un substitut à un déplacement physique. Parfois, elle remplace un appel téléphonique ou un e-mail et dans ces cas-là, l’énergie consommée ne diminue pas : elle augmente. <sup id="fnref2:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> De la même manière, le streaming vidéo ou audio ne remplace pas toujours le DVD ou le CD. Le côté pratique du streaming et des appareils portables connectés encouragent la consommation de vidéo et de musique, <sup id="fnref1:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> au détriment d’autres activités telles que lire, explorer son environnement ou converser.</p>
+<blockquote>
+<p>Parfois, la vidéoconférence remplace un appel téléphonique ou un e-mail et dans ces cas-là, l’énergie consommée ne diminue pas : elle augmente.</p>
+</blockquote>
+<p>Puisque le réseau Internet devient chaque année plus efficace dans son utilisation de l’énergie - l’énergie consommée par bit de données transportées diminue constamment, on lit souvent que les activités en ligne vont elles aussi suivre la même évolution avec le temps, comparées aux activités « hors ligne ». <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Cependant, comme nous l’avons vu, le débit binaire augmente lui aussi.</p>
+<p>Cela n’est pas seulement dû à la popularité croissante des applications vidéos, mais aussi au débit binaire plus élevé des vidéos. Ainsi, les futures améliorations du réseau nous apporteront vidéos et vidéoconférences de meilleure qualité, mais pas d’économie d’énergie. D’après plusieurs études, le débit binaire augmente plus vite que les progrès en matière d’économie d’énergie : les économies des activités en ligne tendent donc à diminuer. <sup id="fnref3:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup><sup id="fnref2:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup><sup id="fnref1:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<h2 id="lefficacité-entraîne-la-consommation-dénergie">L’efficacité entraîne la consommation d’énergie</h2>
+<p>L’existence de l’effet rebond est vivement discutée. Dans le monde de l’informatique et d’Internet cependant, cet effet est bien démontré. Le fait que l’intensité énergétique d’Internet (énergie consommée par unité d’information envoyée) diminue tandis que la consommation totale augmente en est une preuve irréfutable.</p>
+<p>On peut également observer cet effet dans l’évolution des microprocesseurs. Grâce à l’amélioration des procédés de fabrication, la quantité d’électricité nécessaire à la fabrication d’un microprocesseur est passée de 0,028 kWh en 1995 à 0,001 kWh par MHz en 2006. <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> Cependant, cela ne s’est pas traduit par une réduction similaire en termes de consommation d’énergie par les microprocesseurs. Ils sont devenus plus rapides et plus performants, ce qui a annulé les gains par MHz. Cet effet rebond a même pris le nom de « loi de Moore », loi qui conduit le progrès en informatique. <sup id="fnref1:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup><sup id="fnref1:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/more-and-more-electronic-devices_dithered.png" alt='Alors que l’efficacité énergétique est perçue comme solution universelle à l’augmentation de la consommation d’énergie d’Internet, elle en est en réalité la cause. Image : miniyo73.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/more-and-more-electronic-devices_hu445c86f511df1c93606fef8e089d9e3d_187095_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/more-and-more-electronic-devices_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Alors que l’efficacité énergétique est perçue comme solution universelle à l’augmentation de la consommation d’énergie d’Internet, elle en est en réalité la <em>cause</em>. Image : <a href="https://www.flickr.com/photos/miniyo73/8371683905/in/photolist-dKM4XF-aGSRsr-pwsJsG-aGSRaM-5seCHN-wCVXFc-z3FzK6-pSRMiv-qBeo56-pMcwE9-8pJWJV-dMrBxA-BLL8N-8kLCKi-r2tiqT-ycFU7S-9mg3Zz-g4ZN6D-rgjf2s-fw3WLc-cEpcUY-aoCJ5H-oEG1vb-2U2bT-penr48-dgagZ1-dMm3VD-9sVnJf-7XHVjx-goVRFZ-v58Cqf-v58BZq-v58Fyh-vmH4Up-vmH4pg-vn3Xrv-upSDuR-vmH3kT-v58yTW-vn3VJn-vn3Vna-vn42C6-v58Esb-v5gd3v-v58DrJ-rcd1ps-pFbREV-t55HMh-bJSXb4-8S4Xsi" target="_blank" >miniyo73</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En d’autres termes, alors que l’efficacité énergétique est perçue comme la solution universelle à l’augmentation de la consommation d’énergie d’Internet, elle en est en réalité la <em>cause</em>. Quand les ordinateurs utilisaient encore des tubes à vide, avant les transistors dans une puce, l’énergie utilisée par la machine pouvait atteindre 140 kilowatts. Les ordinateurs modernes sont au moins mille fois plus économes en énergie, mais c’est précisément pour cette raison qu’on les retrouve aujourd’hui sur tous les bureaux et dans toutes les poches. En attendant, l’énergie totale consommée par ces appareils plus économes dépasse de plusieurs ordres de grandeur celle consommée par tous les ordinateurs à tubes à vide.</p>
+<h2 id="suffisance">Suffisance</h2>
+<p>En conclusion, nous voyons qu’Internet affecte la consommation d’énergie à trois niveaux. Au premier niveau, ce sont les impacts directs de la fabrication, du fonctionnement et du déploiement de tous les appareils qui permettent à Internet de fonctionner : les appareils des utilisateurs, les data centers, le réseau et les manufactures. Au second niveau, on trouve les effets indirects induits par Internet et sa capacité à changer la façon de faire une activité, tels que la consommation de média ou les déplacements physiques, qui augmentent ou diminuent la consommation d’énergie. Enfin au troisième niveau, Internet transforme les comportements de consommation, apporte des changements technologiques et sociétaux et contribue à la croissance économique. <sup id="fnref2:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup><sup id="fnref2:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> Ces deux derniers niveaux jouent un rôle beaucoup plus important que les effets directs, bien qu’ils reçoivent très peu d’attention: <sup id="fnref3:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<p>« Internet entraîne une mondialisation progressive de l’économie, intensifiant ainsi la circulation des biens et marchandises&hellip; Cette mondialisation des marchés et des formes de production décentralisées, que l’on doit au développement des réseaux de communication, nous éloigne clairement de la durabilité&hellip; Enfin, plus l’information afflue dans nos sociétés, plus les innovations apparaissent vite, entraînant alors un remplacement accéléré de l’ancien par le nouveau : matériel informatique, logiciels, produits techniques, savoir-faire ou connaissance. » <sup id="fnref3:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup></p>
+<p>On ne peut nier le fait que, dans certains cas, Internet permet d’économiser de l’énergie. Cependant, dans l’immense majorité des cas, ce que l’on observe est une hausse de la consommation. Cette tendance ne faiblira pas, sauf si nous agissons. Il n’y a pour l’heure aucune restriction du débit binaire. Le Blu-ray propose une expérience visuelle inégalable, avec des films pesant entre 25 Go et 50 Go, c’est-à-dire cinq à dix fois plus qu’une vidéo HD. Maintenant que les gens regardent des films 3D à la maison, nous pouvons imaginer que les films du futur pèseront environ 150 Go. Ce chiffre pourrait même tendre vers 1 000 Go pour les films holographiques. <sup id="fnref2:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<p>Il n’existe pas non plus de restriction du débit des connexions Internet sans fil. Les ingénieurs s’attellent déjà au lancement de la 5G, plus rapide que la 4G, mais aussi plus gourmande en énergie. Il n’y a même pas de restriction pour le nombre de connexions Internet. Le concept de « l’Internet des objets » prévoit que dans le futur, tous les objets seront connectés à Internet et cette tendance a déjà débuté. <sup id="fnref5:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref4:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> N’oublions pas non plus que pour le moment, seulement 40 % de la population mondiale a accès à Internet.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/mobile-phone-use-on-trains_dithered.png" alt='Rien ne limite la croissance d’Internet, sauf ses besoins en énergie. Image : Gongashan.' data-original="https://lowtechmag.gitlab.io/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/mobile-phone-use-on-trains_hu21dba4bf01fe6f4bbce2b38d757c9905_412987_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/images/dithers/mobile-phone-use-on-trains_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Rien ne limite la croissance d’Internet, sauf ses besoins en énergie. Image : <a href="https://www.flickr.com/photos/yanncb92/15185388700/in/photolist-p8T61y-q7hS9G-mQCsaE-podeEo-sBQZQR-njrXmR-qBzgVc-7Dg1rL-D3NJb-ohRqn5-7ELfHp-b2NN32-aGSV1n-sBDC4d-fHr5pX-eghTGo-dgah17-rBuFur-Fmu8N-6prZBn-dKM4XF-aGSRsr-pwsJsG-aGSRaM-5seCHN-wCVXFc-z3FzK6-pSRMiv-qBeo56-pMcwE9-8pJWJV-dMrBxA-BLL8N-8kLCKi-r2tiqT-ycFU7S-9mg3Zz-g4ZN6D-rgjf2s-fw3WLc-cEpcUY-aoCJ5H-oEG1vb-2U2bT-penr48-dgagZ1-dMm3VD-9sVnJf-7XHVjx-goVRFZ" target="_blank" >Gongashan</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Pour faire court, rien ne limite la croissance d’Internet, sauf ses besoins en énergie. Cette particularité en fait un objet tout à fait unique. Par exemple, même si l’effet rebond est <a href="https://lowtechmag.gitlab.io/solar/fr/2008/06/the-citroen-2cv-cleantech-from-the-1940s/" >facilement observable pour les voitures</a>, il existe des contraintes qui empêchent leur consommation d’énergie de croître indéfiniment. En effet, on ne peut pas augmenter la taille et le poids des voitures à l’infini, car il faudrait alors adapter nos routes et nos parkings. On ne peut pas non plus augmenter indéfiniment leur vitesse, car il existe des limites de vitesse maximale, nécessaires à la sécurité routière. Ainsi donc, la quantité d’énergie consommée par les voitures s’est plus ou moins stabilisée. Nous pourrions dire que les voitures ont atteint un niveau de « suffisance » :</p>
+<p>« Un système qui puise son énergie dans son environnement peut augmenter sa consommation chaque fois que cela est possible, ou il peut la limiter. Dans ce dernier cas, on dit que le système a atteint un état de suffisance&hellip; Le seul moyen d’améliorer les résultats est alors d’améliorer l’efficacité de son fonctionnement interne. » <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup></p>
+<p>Nous avons pu améliorer les performances de nos voitures uniquement en améliorant l’efficacité énergétique des moteurs à combustion. Le même phénomène s’observe pour les appareils informatiques mobiles, qui ont atteint l’état de suffisance en termes de consommation d’énergie, au moins au niveau de l’appareil en lui-même. <sup id="fnref1:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> Pour les smartphones, par exemple, la consommation se trouve limitée par les contraintes de batterie : densité énergétique, poids idéal et durée de vie nécessaire. Il en résulte que la consommation d’énergie par appareil est plus ou moins stable. Les performances des smartphones n’ont donc été améliorées que dans la limite des progrès informatiques (et dans une certaine mesure, des progrès en termes de densité énergétique des batteries). <sup id="fnref2:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup></p>
+<h2 id="une-vitesse-limite-pour-internet">Une vitesse limite pour Internet</h2>
+<p>Contrairement aux voitures et aux smartphones, Internet n’est pas du tout suffisant. Sur Internet, la taille et la vitesse n’ont ni impact sur la sécurité ni contrainte pratique. Les batteries limitent certes la consommation d’énergie des appareils informatiques mobiles, mais pas celle de tous les autres composants du réseau. En conséquence, la consommation d’énergie d’Internet n’est limitée que par l’énergie disponible, à moins que l’on impose nous-mêmes des limites, comme celles qui existent pour les voitures et les smartphones. Cela peut paraître étrange, mais c’est pourtant une stratégie que l’on applique déjà sans problème pour contrôler la température (<a href="https://lowtechmag.gitlab.io/solar/fr/2011/02/insulation-first-the-body-then-the-home/" >baisser le thermostat, mieux se couvrir</a> ou se déplacer (<a href="https://lowtechmag.gitlab.io/solar/fr/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/" >préférer le vélo à la voiture</a>).</p>
+<p>Nous pourrions limiter la demande pour les données de bien des manières, plus ou moins faciles à mettre en place. Nous pourrions par exemple bannir les vidéos et revenir à un Internet de textes et d’images modestes. Nous pourrions également limiter la vitesse des connexions Internet sans fil ou bien prévoir un certain budget à Internet. Une autre possibilité serait d’accroître les prix de l’énergie : cela affecterait aussi bien les activités hors ligne qu’en ligne et harmoniserait donc les règles du jeu pour tous. Cette dernière stratégie est plus judicieuse, car elle laisse le marché décider quelles applications et quels appareils perdureront ou non.</p>
+<blockquote>
+<p>Mettre en place des restrictions n’arrêterait pas le progrès technologique. Les avancées en termes d’efficacité énergétique continueront de favoriser l’apparition de nouveaux appareils et de nouvelles applications.</p>
+</blockquote>
+<p>Même si ces solutions semblent peu attrayantes, il faut comprendre que mettre en place des restrictions n’arrêtera pas le progrès technologique. Les avancées en termes d’efficacité énergétique continueront de favoriser l’apparition de nouveaux appareils et de nouvelles applications. Cependant, les innovations seraient limitées par l’efficacité énergétique, comme c’est déjà le cas pour les voitures et les appareils informatiques mobiles. En d’autres termes, l’efficacité énergétique peut être une part importante de la solution si nous la combinons avec la suffisance.</p>
+<p>Limiter la demande ferait également rebasculer certaines activités du monde virtuel vers le monde physique — le streaming vidéo en tête. Il est facile d’imaginer des alternatives hors ligne qui offrent des avantages similaires pour moins d’énergie. Une bibliothèque publique avec une large collection de DVD en est un exemple. Ce service, combiné à des mesures de limitation de la circulation routière, incitant ainsi la population à prendre le vélo ou les transports en commun, serait à la fois pratique et efficace. Plutôt que de remplacer les déplacements physiques par des services en ligne, nous devrions restaurer les infrastructures de transport.</p>
+<p>Dans nos prochains articles, nous nous intéresserons aux réseaux low-tech qui sont actuellement développés dans les pays pauvres. Là-bas, la « suffisance » est déjà enracinée dans la société, en particulier parce que les infrastructures sont inexistantes ou peu fiables et parce que le pouvoir d’achat est très limité. Nous discuterons également des réseaux associatifs qui ont émergé dans des régions reculées des pays riches et des réseaux partagés qui se développent dans les villes. Ces réseaux alternatifs offrent de nouvelles possibilités plus économes pour communiquer et ouvrent la voie à un nouvel usage d’Internet.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Même les études les plus complètes concernant la consommation d’énergie d’Internet ne prennent pas en compte tous les composants de son infrastructure. Par exemple, elles ignorent systématiquement l’énergie nécessaire au fonctionnement des centrales électriques qui alimentent justement Internet. Et pourtant, si l’on alimente un data center ou une station de base de téléphonie mobile à l’énergie solaire,il paraît évident de prendre en compte <a href="https://lowtechmag.gitlab.io/solar/fr/2015/04/how-sustainable-is-pv-solar-power/" >l’énergie utilisée pour la fabrication des panneaux solaires</a>. Il en va de même pour les <a href="https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/" >batteries</a> qui emmagasinent l’énergie solaire pour une utilisation pendant la nuit ou un jour de pluie.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>&ldquo;<a href="http://www.tech-pundit.com/wp-content/uploads/2013/07/Cloud_Begins_With_Coal.pdf" target="_blank" >The cloud begins with coal: big data, big networks, big infrastructure, and big power&rdquo;</a>(PDF), Mark P. Mills, National Mining Association / American Coalition for Clean Coal Electricity, augustus 2013&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>&ldquo;<a href="http://smarter2030.gesi.org/downloads/Full_report.pdf" target="_blank" >SMARTer2030—ICT Solutions for 21st Century Challenges</a>&rdquo;
+(PDF), Global e-Sustainability Initiative, 2015&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>&ldquo;<a href="http://vmserver14.nuigalway.ie/xmlui/handle/10379/3563" target="_blank" >Emerging trends in electricity consumption for consumer ICT</a>&rdquo;, Peter Corcoran, 2013&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref7:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref8:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>&ldquo;<a href="http://www.iea.org/publications/freepublications/publication/Electricitytrends.pdf" target="_blank" >Key Electricity Trends</a>&rdquo; (PDF), IEA Statistics, 2015&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Sur le nombre total de TWh consommés, 852 Twh ont été utilisés par les appareils utilisateur, 352 par les réseaux, 281 par les data centers et 330 par l’étape de fabrication.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Les chercheurs proposent également le « scénario le plus optimiste » qui affirme que la hausse de la consommation d’énergie est limitée. Cependant, ce scénario n’est déjà plus compatible avec la réalité. Il présuppose une croissance lente du trafic de données et de la TV numérique, mais c’est bien l’opposé que l’on observe, comme le montre le « Cisco Visual Networking Index » [11]. De plus, ce scénario prévoit une amélioration de l’efficacité de 5 % d’une année sur l’autre pour la plupart des appareils et une amélioration de 15 % annuelle en ce qui concerne le réseau central. Ces chiffres sont bien plus élevées que ceux des années précédentes et ont peu de chance de devenir réalité. Le scénario le plus probable suppose que le trafic du sans-fil atteindra 9 % de la consommation totale d’électricité du réseau et que la TV numérique se stabilisera à 2,1 milliards d’unités. Dans ce même scénario, les progrès de l’efficacité énergétique des appareils sont limités à 2 % par année et ceux du réseau central à 10 %. Le pire scénario, quant à lui, estime que le trafic du sans-fil atteindra 15 % de la consommation totale d’électricité, que la TV numérique continuera de croître et que les progrès en termes d’efficacité énergétique seront limités à 1,5 % pour les appareils et à 5 % pour le réseau central <sup id="fnref6:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>&ldquo;<a href="https://www.itu.int/en/ITU-D/Statistics/Documents/publications/mis2014/MIS2014_without_Annex_4.pdf" target="_blank" >Measuring the Information Society Report 2014</a>&rdquo; (PDF), International Telecommunication Union (ITU), 2014&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>&ldquo;<a href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white_paper_c11-520862.html" target="_blank" >Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2014-2019</a>&rdquo;, CISCO, 2015.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>&ldquo;<a href="http://www.cs.columbia.edu/%7Elierranli/coms6998-7Spring2014/papers/rrclte_mobisys2012.pdf" target="_blank" >A close examination of performance and power characteristics of 4G LTE networks</a>&rdquo; (PDF), Junxian Huang, June 2012.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>&ldquo;<a href="http://ciir-publications.cs.umass.edu/getpdf.php?id=904" target="_blank" >Energy consumption in mobile phones: a measurement study and implications for network applications</a>&rdquo; (PDF), Niranjan Balasubramanian, 2009&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>&ldquo;<a href="http://publicationslist.org/data/lorenz.hilty/ref-229/2014_Coroama_Schien_Preist_Hilty_Energy_Intensity_Internet_Home_Access.pdf" target="_blank" >The energy intensity of the internet: home and access networks</a>&rdquo; (PDF), Vlad Coroama, 2014&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>&ldquo;<a href="http://www.gsma.com/newsroom/press-release/4g-networks-to-cover-more-third-of-global-pop-this-year/" target="_blank" >4G networks to cover more than a third of the global population this year, according to new GSMA intellligence data</a>&rdquo;,
+GSMA Intelligence, 2015&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Le constructeur de matériel informatique, Cisco, note dans son rapport de 2015 que « au fur et à mesure que les capacités des réseaux mobiles s’améliorent et que le nombre d’utilisateurs d’appareils multiples augmente, les opérateurs vont probablement proposer des offres Internet mobile avec des prix et des vitesses semblables à une connexion fixe ».<sup id="fnref5:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Si cela se produit, et que la majorité des internautes se connectent alors quotidiennement à Internet via la 4G, le réseau verra sa consommation d’énergie plus que doubler, en supposant que le trafic des données reste inchangé. <sup id="fnref7:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Du point de vue énergétique, cela s’explique par le fait que l’accès au réseau constitue le point le plus lucratif pour tous les fournisseurs Internet. Le réseau central de la fibre optique reste l’option la plus économe en énergie. <sup id="fnref8:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>&ldquo;<a href="http://epubs.surrey.ac.uk/769626/" target="_blank" >Are we sitting comfortably? Domestic imaginaries, laptop practices, and energy use</a>&rdquo;. Justin Spinney, 2012&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>&ldquo;<a href="http://eprints.lancs.ac.uk/72677/4/paper277.pdf" target="_blank" >Demand in my pocket: mobile devices and the data connectivity marshalled in support of everyday practice</a>&rdquo; (PDF), Carolynne Lord et al., Lancaster University, april 2015&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>&ldquo;<a href="http://adrianclear.com/holistic_home_it.pdf" target="_blank" >Towards a holistic view of the energy and environmental impacts of domestic media and IT</a>&rdquo;, Oliver Bates et al., 2014&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>&ldquo;Cisco Visual Networking Index 2012-2017&rdquo;, Cisco, 2013&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>&ldquo;<a href="http://www1.icsi.berkeley.edu/%7Ebarath/papers/emergy-hotnets11.pdf" target="_blank" >The energy and emergy of the internet</a>&rdquo; (PDF), Barath Raghavan and Justin Ma, 2011&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>&ldquo;<a href="http://www.sciencedirect.com/science/article/pii/S0140366414000620" target="_blank" >Comparison of the energy, carbon and time costs of videoconferencing and in-person meetings</a>&rdquo;, Dennis Ong, 2014&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>&ldquo;<a href="http://iopscience.iop.org/article/10.1088/1748-9326/9/5/054007;jsessionid=715911A0C3BE2A2EAC4DE63F2ABF6E64.c1" target="_blank" >The energy and greenhouse-gas implications of internet video streaming in the united states</a>&rdquo;, 2014&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>&ldquo;<a href="http://none.cs.umass.edu/papers/pdf/green07q-seetharam.pdf" target="_blank" >Shipping to streaming: is this shift green?</a>&rdquo;, Anand Seetharam, 2010&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>&ldquo;<a href="http://www.completemusicupdate.com/article/musictank-report-focuses-on-environmental-impact-of-streaming-platforms/" target="_blank" >MusicTank report focuses on environmental impact of streaming platforms</a>&rdquo;, CMU, 2012&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>&ldquo;<a href="http://www.csc.kth.se/sustain/publications/reportfiles/sus_2007_1_moberg_et_al_report_updated.pdf" target="_blank" >Screening environmental life cycle assessment of printed, web based and tablet e-paper newspaper</a>&rdquo;, Second Edition, Asa Moberg et al, 2009&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>&ldquo;<a href="http://www.amazon.de/gp/product/3837019705/" target="_blank" >Information Technology and Sustainability: essays on the relationship between ICT and sustainable development</a>&rdquo;, Lorenz M. Hilty, 2008&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p>&ldquo;<a href="http://www.nature.com/nature/journal/v479/n7373/full/nature10682.html" target="_blank" >Environmental effects of informantion and communications technologies</a>&rdquo;, Eric Williams, Nature, 2011&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p>&ldquo;<a href="http://publicationslist.org/data/lorenz.hilty/ref-263/2015_Hilty_Limits.pdf" target="_blank" >Computing Efficiency, Sufficiency, and Self-Sufficiency: A Model for Sustainability</a>?&rdquo; (PDF), Lorenz M. Hilty, 2015&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/fr/tags/ict/" class="">ICT</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Le site imprimé : premier volume en français</h3>
+		<p class="index-summary">Lisez Low-tech Magazine sans avoir besoin d’un ordinateur, d’internet ou d’une alimentation électrique – ou quand le site internet solaire est hors service à cause d’une mauvaise météo.</p>
+		<time class="published">2 décembre 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2020/12/how-and-why-i-stopped-buying-new-laptops/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment et pourquoi j&#39;ai arrêté d&#39;acheter de nouveaux ordinateurs portables</h3>
+		<p class="index-summary">En tant que journaliste indépendant – ou employé de bureau si vous préférez – j&rsquo;ai toujours considéré avoir besoin d&rsquo;un ordinateur décent et que la qualité se payait.</p>
+		<time class="published">20 décembre 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Un site Web à énergie solaire est-il durable?</h3>
+		<p class="index-summary">Nous présentons les données d&rsquo;énergie et de durée de disponibilité de notre site Web, les calculs d&rsquo;énergie grise de notre installation, l&rsquo;équilibre optimal entre soutenabilité et disponibilité du serveur, avant de décrire les améliorations possibles.</p>
+		<time class="published">28 janvier 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2018/09/how-to-build-a-low-tech-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment créer un site web basse technologie</h3>
+		<p class="index-summary">Le nouveau blog est conçu pour réduire radicalement la consommation d’énergie associée à l’accès à notre contenu.</p>
+		<time class="published">24 septembre 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/fr/about">
+  À propos
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

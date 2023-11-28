@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE English</title>
+    <link>https://lowtechmag.gitlab.io/solar/tags/cranes-and-lifting-devices/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/cranes-and-lifting-devices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Water Networks</title>
+      <link>https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/</link>
+      
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/</guid>
+      <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Image: A hydraulic accumulator. Picture: Les Chatfield&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A hydraulic accumulator. Picture: [Les Chatfield](https://www.flickr.com/photos/61132483@N00/7184633723) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;During the second half of the nineteenth century, water motors were widely used in Europe and America. These small water turbines were connected to the tap and could power any machine that is now driven by electricity. As we have seen in a &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2013/09/power-from-the-tap-water-motors/&#34;&gt;previous article&lt;/a&gt;, operating motors with tap water was not very sustainable. Because of the low and irregular water pressure of the town mains, these motors used unacceptably high amounts of drinking water.&lt;/p&gt;
+&lt;p&gt;While the use of water motors in the US came to an end early in the twentieth century, the Europeans found a solution for the high water use of water motors and took hydraulic power transmission one step further. They set up special &amp;ldquo;power water&amp;rdquo; networks, which distributed water under pressure for motive power purposes only, and switched to a much higher and more regular water pressure, made possible by the invention of the hydraulic accumulator.&lt;/p&gt;
+&lt;p&gt;Almost all these power water networks remained in service until the 1960s and 1970s. Hydraulic power transmission is very efficient compared to electricity when it is used to operate powerful but infrequently used machines, which can be distributed over a geographical area the size of a city.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The use of water is a curiously neglected subject in the literature of engineering. As a romantic or popular facet of engineering, hydraulic power has never caught the public eye like the steam engine, the locomotive or even the internal combustion engine.&amp;rdquo; Ian McNeil, &lt;em&gt;Hydraulic Power&lt;/em&gt;, 1972&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The theoretical basis for hydraulic power transmission was laid in 1647 by French whizz-kid Blaise Pascal. By means of experiments, he discovered that water — unlike air — is virtually incompressible and transmits pressure equally in all directions.&lt;/p&gt;
+&lt;p&gt;The implications of the &amp;ldquo;hydrostatic paradox&amp;rdquo; were demonstrated in Pascal&amp;rsquo;s &amp;ldquo;machine for multiplying forces&amp;rdquo;, illustrated below. It consists of two upright cylinders, connected together by a pipe. The whole system is filled with water and sealed water-tight. One cylinder contains a small diameter plunger, while the other cylinder contains a plunger that has a cross-sectional area 100 times larger.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine for multiplying forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Machine for multiplying forces. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pascal demonstrated that if a weight is placed on top of the small piston, it will be able to raise a weight placed on top of the larger piston that is 100 times heavier. Pascal&amp;rsquo;s machine thus allowed forces to be multiplied — in the example above, the ratio of force output to force input is 100 to 1. In other words, you can produce an output force of 100 kg for an input force of only 1 kg.&lt;/p&gt;
+&lt;h2 id=&#34;a-machine-for-multiplying-forces&#34;&gt;A Machine for Multiplying Forces&lt;/h2&gt;
+&lt;p&gt;Force multiplication was anything but new in the 1600s. More simple devices such as pulleys, gear trains, capstans, winches and treadwheels — all variations on the 7,000 year old lever — could also derive a high output force output from a small input force. For example, the Romans built cranes with a &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/&#34;&gt;mechanical advantage of up to 70 to one&lt;/a&gt;, meaning that one man exerting a force of only 25 kg could raise a weight of 1.75 tonnes.&lt;/p&gt;
+&lt;p&gt;However, the hydraulic version of the lever has one outstanding advantage over earlier mechanisms: the friction loss is very small and independent of the mechanical advantage. Therefore, the possible multiplication ratio is almost infintely greater and both pistons may be a considerable distance apart — up to about 25 km, as we shall see.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In hydraulics, friction loss is independent of the mechanical advantage, therefore the possibile force multiplication ratio is almost infinite&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Increasing force multiplication could be done by either extending the proportion between the diameter of both plungers, or by applying greater power to the smaller piston. In common with the earlier mechanisms, what is gained in mechanical advantage is lost in velocity ratio.&lt;/p&gt;
+&lt;p&gt;If a small hydraulic force is converted into a larger force, its speed of operation will be reduced in exactly the inverse proportion, because the distance traversed increases in the same proportion as the force. For example, a person pressing down the small piston 10 centimetres would move the other piston up only 1/100th of that distance.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Illustration: Pascal&amp;amp;rsquo;s Barrel experiment. Source unknown.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: Pascal&#39;s Barrel experiment. Source unknown. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Consequently, in a closed system, the heavier weight could be lifted only over a very limited distance, depending on the length of the plunger. However, this limit is removed when more water is added to the system and the smaller piston, instead of coming down just once, makes a number of strokes — in other words, when it functions as a pump. In this case, the larger piston will keep rising.&lt;/p&gt;
+&lt;h2 id=&#34;the-hydraulic-press&#34;&gt;The Hydraulic Press&lt;/h2&gt;
+&lt;p&gt;Pascal could only prove his point indirectly, as the available materials at the time were not strong enough to withstand the pressure. It would take another century and a half before hydraulic force multiplication was put into practice. Its first use was not a lifting device, but rather the opposite: the hydraulic press, which generates a compressive force.&lt;/p&gt;
+&lt;p&gt;The conventional screw press of the time, little developed since the Romans had used it for pressing olives and grapes, required a great effort to operate, had large frictional energy loss (+80%), and could not have exerted more than 25 tonnes load. (The screw, which converts rotational motion into linear motion, is basically an inclined plane wrapped around a cylinder).&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;Left: The screw press. Picture credit: Bruce K. Satterfield Right: The hydraulic press.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Left: The screw press. Picture credit: [Bruce K. Satterfield](http://emp.byui.edu/SATTERFIELDB/Olive%20Tree/olive%20tree%20horticulture.htm) Right: The hydraulic press. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The hydraulic press was invented in 1796 by English locksmith and carpenter Joseph Bramah. It was entirely based on the theoretical work of Pascal. Bramah&amp;rsquo;s hydraulic press, which was driven by a hand-operated pump, brought a large increase in the load that could be exerted by a human.&lt;/p&gt;
+&lt;p&gt;With the available materials at the time, Bramah achieved an overall ratio of 1,000 to 1, which means that an effective load of 60 tonnes on the lifting piston could be balanced by a mere 60 kg on the pump handle. The efficiency of the hydraulic press was over 90%.&lt;/p&gt;
+&lt;h2 id=&#34;harbours-and-dockyards&#34;&gt;Harbours and Dockyards&lt;/h2&gt;
+&lt;p&gt;In spite of its eminent suitability for crane operation, hydraulics made little progress in this field during the first half of the nineteenth century. This was largely due to the problem of reliably and efficiently translating the linear motion of a ram to rotary motion of the crane barrel or drum. During the first half of the nineteenth century, cargo handling in harbours, dockyards and railway yards was still done by means of &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/&#34;&gt;human powered cranes&lt;/a&gt;, but the need for taller and stronger cranes was great.&lt;/p&gt;
+&lt;p&gt;Starting in the 1830s, iron began to be used as a material for ship building, with a parallel growth in the dimensions of ships. Conventional lifting systems were no longer adequate. In most countries, the solution was found in the steam powered crane, which appeared in the 1850s. However, in harbours and dockyards in Britain, a worthy alternative appeared: the water powered crane.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During the first half of the nineteenth century, cargo handling in harbours, dockyards and railway yards was still done by means of human powered cranes&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;British engineer William Armstrong started designing and operating powerful hydraulic cranes in the 1840s. Being fully aware that hydraulics was best adapted for giving a slow, steady motion, Armstrong deviced a method of lifting the load at one stroke of a ram or piston, multiplying the motion sufficiently by means of pulleys.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Image: hydraulic crane&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: hydraulic crane 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;However, his efforts were complicated by the low and irregular pressure of the town mains, which was the power source for these machines. The maximum power output of a water powered machine is determined by water pressure and water flow. In the town mains, water pressure was (and often still is) supplied by a water tower. Because the practical height of a water tower is limited, so is the water pressure. A 50 m (165 ft.) tall water tower can produce a water pressure of 70 pound-per-square-inch (psi).&lt;/p&gt;
+&lt;p&gt;Consequently, the only way to further increase the power output of a crane running on water from the town mains is to increase the water flow. However, this raises potable water consumption and increases the size and costs of pipes, valves, cylinders, and other parts of the system. Moreover, if there is a higher than average demand for potable water from other users, the water level in a water tower will fall, and so will the water pressure and the power output of the machine.&lt;/p&gt;
+&lt;h2 id=&#34;the-hydraulic-accumulator&#34;&gt;The Hydraulic Accumulator&lt;/h2&gt;
+&lt;p&gt;In 1851, Armstrong came up with an alternative solution that solved these issues: the hydraulic accumulator. Although much more compact than a water tower, it could produce a regular water pressure of 700 psi or higher — at least 10 times the water pressure in the town mains. This allowed to produce an order of magnitude more power without raising water consumption or increasing the size of system components.&lt;/p&gt;
+&lt;p&gt;Armstrong&amp;rsquo;s hydraulic accumulator was a contraption in which a ram or piston exerted pressure on the water in a vertical cylinder. The piston was loaded by dead weight ballast, which generally took on the form of a cylindrical ballast container surrounding the central cylinder (image below, on the left). The container was filled with crushed rock, scrap iron or other ballast material.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Left: Hydarulic Accumulator in Bristol Harbour. Wikipedia Commons. Right: Hydraulic Accumulator, Walsh Bay, Sydney. Source: NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Left: Hydarulic Accumulator in Bristol Harbour. Wikipedia Commons. Right: Hydraulic Accumulator, Walsh Bay, Sydney. Source: [NSW HSC Online](http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;For a water pressure of 700 psi the ballast was about 100 tonnes, acting on a ram of about 45 cm in diameter with a vertical stroke of 6 to 7 meters. Another type of accumulator utilised a rectangular platen to support a brickwork ballast (image above, on the right) or steel slabs. Hydraulic accumulators could be set up outdoors, or housed in a purpose designed building.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In comparison with a water tower, a hydraulic accumulator could deliver ten times more power, and maintain an even pressure all over the network&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The workings of the hydraulic accumulator are somewhat similar to those of a water tower. The central cylinder has a water inlet and outlet at the bottom. Water from the docks could be pumped in through the inlet by a steam powered pump, raising the piston, while it could be pushed out through the outlet into the mains for distribution, lowering the piston.&lt;/p&gt;
+&lt;p&gt;Energy was stored by upward movement of the ram and recovered upon its descent. The pumping rate of the steam engine was regulated in function of the water level in the accumulator, either automatically via mechanical linkages or via the aid of a human being.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Fielding and Platt hydraulic accumulator&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Fielding and Platt hydraulic accumulator 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Contrary to a water tower, however, the accumulator could maintain an even pressure all over the system regardless of the volume of water in the cylinder, because it&amp;rsquo;s the weight of the ballast and not the weight of the water that creates the pressure — in other words, the hydraulic accumulator gives pressure by load instead of by elevation.&lt;/p&gt;
+&lt;p&gt;With a charging/discharging efficiency above 98%, and no self-discharge, the hydraulic accumulator was an extremely energy efficient device.&lt;/p&gt;
+&lt;h2 id=&#34;water-powered-factory-machinery&#34;&gt;Water Powered Factory Machinery&lt;/h2&gt;
+&lt;p&gt;The introduction of the hydraulic accumulator had two important effects. First, it greatly expanded the range of hydraulically operated machines. The water motors connected to the town mains were &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2013/09/power-from-the-tap-water-motors/&#34;&gt;household devices and workshop tools&lt;/a&gt;. But Armstrong and other engineers adapted high pressure water to a variety of industrial applications that required great power such as forging, punching, stamping, flanging, shearing and riveting (the predecessor of welding).&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Hydraulically powered riveting machine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hydraulically powered riveting machine. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In harbours, high pressure water not only operated cranes and hoisting machines handling cargo on docks and in warehouses, but also lock gates, swing bridges, boat lifts, and graving docks. At railway yards, hydraulic power transmission was used for freight handling and for moving railway cars (using hydraulic capstans), as well as for operating turntables, elevators and traversing mechanisms. All these applications of hydraulic power would have been impossible with the low and irregular pressure prevailing on the town mains.&lt;/p&gt;
+&lt;p&gt;To give an idea of the importance of hydraulic power, it suffices to look once more at the evolution of lifting devices. In 1586, a 344 ton obelisk was moved between squares in Rome. Domenic Fontana, master builder of the Vatican, raised the obelisk with the help of 40 capstans worked by 400 men and 75 horses. In 1878, John Dixon raised another obelisk — Cleopatra&amp;rsquo;s needle, weighing 209 tons — using four hydraulic lifting jacks, worked by four men.&lt;/p&gt;
+&lt;h2 id=&#34;power-water-networks&#34;&gt;Power Water Networks&lt;/h2&gt;
+&lt;p&gt;Secondly, the hydraulic accumulator made it possible to transmit power efficiently over large distances. For a 30 cm diameter pipeline, the pressure drop in water distribution amounts to about 10 psi per mile, a figure that is independent of water pressure. Thus, if you transmit water with a pressure of 70 psi over a distance of 7 miles (12 km), all energy is lost. But if you transmit water over the same distance with a pressure of 700 psi, a water pressure of 630 psi remains, which comes down to a transmission efficiency of 90%.&lt;/p&gt;
+&lt;p&gt;The high transmission efficiency of high-pressure water led to the construction of at least a dozen public power water networks with accumulator storage, half of them in Britain, in which centrally located steam engines pumped water into hydraulic accumulators that distributed high pressure water over a large geographical area. One or more accumulators would be installed at each hydraulic power station and others could be sited at strategic points along the supply main as sub-stations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The idea of a truly hydraulic power network — analogous to the electric grid that came a bit later — was already outlined in a 1812 patent by Joseph Bramah, the inventor of the hydraulic press.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From the 1870s to the 1890s, hydraulic power networks were established in the leading industrial cities of Britain: Kingston upon Hull, London, Liverpool, Birmingham, Grimsby, Manchester and Glasgow. Dock and railway companies pioneered the technology, and remained the most important users for decades.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations of a hydraulic accumulator, a hydraulic crane, and a hydraulic lift.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustrations of a hydraulic accumulator, a hydraulic crane, and a hydraulic lift. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;However, power water was also running manufacturing processes in factories, operating elevators in public, private and commercial buildings, and activating household devices and workshop tools. Anybody who was lucky enough to have a mains running through the street could connect to the public network. Power water consumption was metered, as it happens today with potable water and electricity.&lt;/p&gt;
+&lt;p&gt;The idea of a truly hydraulic power network — analogous to the electric grid that came a bit later — was already outlined in a 1812 patent by Joseph Bramah, the inventor of the hydraulic press. But Bramah, who also conceived the hydraulic accumulator and the hydraulic crane, was ahead of his time. It took another sixty years before his ideas were brought into practice by Armstrong and his contemporaries.&lt;/p&gt;
+&lt;h2 id=&#34;london-hydraulic-power-company&#34;&gt;London Hydraulic Power Company&lt;/h2&gt;
+&lt;p&gt;The most extensive hydraulic power network was built in London, operated by the &amp;ldquo;London Hydraulic Company&amp;rdquo;. At the company&amp;rsquo;s peak in 1917, five interconnected central power stations pumped high pressure water in about a dozen hydraulic accumulators and almost 300 km of supply mains, powering more than 8,000 machines and serving most of the city. In London theatres and other cultural buildings, power water was moving floors, organ consoles, fire curtains and stages. Water under pressure worked water pumps and lifted the bascules of the Tower Bridge.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration: layout of London Hydraulic Power Co. mains and pumping stations, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: layout of London Hydraulic Power Co. mains and pumping stations, 1895. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Fire hydrants were also advantageously served by the high pressure system and several hundreds of them were connected to the London Hydraulic Power Company&amp;rsquo;s mains. These fire-fighting systems increased the pressure of the domestic water mains by injecting a small amount of high pressure water in them, using a jet pump. By itself, water at high pressure from the hydraulic power mains could not be supplied in adequate quantity to have an effect on a large fire, while the domestic supply mains had enough quantity but not enough pressure to reach the top floors of buildings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In London, five interconnected central power stations pumped high pressure water in a dozen hydraulic accumulators and almost 300 km of supply mains, powering more than 8,000 machines and serving most of the city.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Another remarkable application of high pressure water in London was the &lt;em&gt;Silent Dustman&lt;/em&gt;, a water powered vacuum cleaning system that came on the market in 1910. Several large hotels were completely &amp;ldquo;wired&amp;rdquo; for this system: water from the town mains was used in a jet pump to produce a vacuum in a pipe to which the system was to be fitted. Along these pipes were a number of nozzles to which flexible hoses could be fixed. Thus the dirt from the sweepers was drawn into the hydraulic pipe and carried away into the drains. The system, which operated silently and efficiently, remained in operation until 1937.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;One of the London power stations. Note the tower on the right, which houses the hydraulic accumulators.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ One of the London power stations. Note the tower on the right, which houses the hydraulic accumulators. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In London, however, hydraulic power does not seem to have made a great impact on the domestic scene. In &lt;em&gt;The Hydraulic Age&lt;/em&gt; (1980), B. Pugh notes that this was &amp;ldquo;possibly due to the fact that in its day domestic labour was cheap and in plentiful supply. Had present-day conditions operated then possibly the story would have been different since the potentialities of hydraulic power were not less than those of electricity today.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Most public power water networks supplied water under a pressure of 700 to 800 psi (48 to 55 bar), with the exception of Manchester and Glasgow, where water was pressurized to 1120 psi. In these cities, there was a heavy demand for power for hydraulic presses used for baling, an application that required a higher pressure.&lt;/p&gt;
+&lt;h2 id=&#34;power-networks-outside-britain&#34;&gt;Power Networks Outside Britain&lt;/h2&gt;
+&lt;p&gt;The British power systems inspired similar networks elsewhere: Antwerp in Belgium, Buenos Aires in Argentina, and Melbourne and Sydney in Australia. While the Australian systems were reminiscent of those in Britain (with 80 km of mains, the one in Melbourne was the second largest ever built), the Argentinian system was used to pump sewage, and the network in Antwerp was aimed at the combined production of mechanical power and electricity. The latter was an attempt to overcome the very high transmission losses of electricity at the time.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;quot;Zuiderpershuis&amp;amp;quot;: a former hydraulic pumping plant in Antwerp. The towers housed the hydraulic accumulators.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ \&#34;Zuiderpershuis\&#34;: a former hydraulic pumping plant in Antwerp. The towers housed the hydraulic accumulators. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In &lt;em&gt;The Hydraulic Age&lt;/em&gt;, B. Pugh writes that:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;For power transmission, the early electric stations were faced with the same difficulties as the hydraulic power stations, their voltage being analogous to working pressure, and voltage drop due to mains resistance analogous to pressure drop due to pipe friction. The early electric public power stations were direct or continuous current stations, the voltage of generation essentially being only slightly higher (by the voltage drop in the cables) than at the consumer&amp;rsquo;s premises which for safety reasons had to be less than 250 volts. Due to voltage limitation, the area of supply as well as the amount of power that could be transmitted was limited.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The network in Antwerp was aimed at the combined production of mechanical power and electricity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since 1865, Antwerp had been using a high pressure hydraulic network for powering cranes, bridges and sluices in the harbour. To this was added a second network in 1893, which distributed high pressure water to electric substations scattered across the city (twelve according to the plan, but only three were built). There, water turbines generated electricity which was distributed in a radius of 500 m via underground electric conduits — this was about the distance at which low voltage could be distributed efficiently.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Hydraulic cranes in Antwerp harbour. Picture by Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hydraulic cranes in Antwerp harbour. Picture by Low-tech Magazine. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The Antwerp system, which was used for operating street lighting, thus did on a large scale what water motors connected to dynamos did on a small scale with water from the town mains (see the &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2013/09/power-from-the-tap-water-motors/&#34;&gt;previous article&lt;/a&gt;. About 66% of the hydraulic energy was converted to electricity. At its peak, the network reached a length of 23 km with an output of 1200 hp. There were also a number of places in London where consumers ran small electric generators from the hydraulic supply.&lt;/p&gt;
+&lt;h2 id=&#34;power-water-versus-electricity&#34;&gt;Power Water Versus Electricity&lt;/h2&gt;
+&lt;p&gt;The breakthrough in high voltage electric transmission at the turn of the century made systems like those in Antwerp immediately obsolete. The electricity generating part of the network disappeared in 1900. Producing water under pressure in order to produce electricity involves a fourfold energy conversion, which is needlessly wasteful if you can just produce electricity and transport it efficiently.&lt;/p&gt;
+&lt;p&gt;The expansion of efficient electrical transmission also stopped the construction of other large-scale power water networks before the century was over. &amp;ldquo;Had these systems been started some years earlier, they might have become vastly more popular&amp;rdquo;, writes Ian McNeil in &lt;em&gt;Hydraulic Power&lt;/em&gt; (1972). &amp;ldquo;A few years later, and they would probably never have been built at all.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;However, almost all public power water systems that were built between the 1870s and 1890s remained in service until the 1960s and 1970s, eventually using electric motors instead of steam engines for pumping. The power water network operated by the London Hydraulic Company, the last to survive, worked until 1977. Most of the public power water networks kept growing during the first decades of the twentieth century, reaching their heydays at the end of the 1920s. The fatal decline came only when factories started leaving the cities in the 1960s and 1970s.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If electricity is the most efficient and practical way of transmitting and distributing power, then why did almost all power water networks remain in service for almost a century?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This raises two questions. First, why didn&amp;rsquo;t power water become the universal method of power distribution that Joseph Bramah and William Armstrong had envisioned? And second, if electricity is the most efficient and practical way of transmitting and distributing power, then why did almost all power water networks remain in service for almost a century?&lt;/p&gt;
+&lt;h2 id=&#34;advantages-of-electric-power&#34;&gt;Advantages of Electric Power&lt;/h2&gt;
+&lt;p&gt;As a power transmission technology, power water has three important disadvantages in comparison to electricity. First of all, electricity can be transported efficiently over much longer distances. Hydraulic power transmission was (and still is) at least as efficient as electric power transmission up to distances of 15 to 25 km. Beyond those distances, however, electric transmission is a clear winner.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Greenland dock hydraulic lock gates in London, built in the 1880s. Picture credit: Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Greenland dock hydraulic lock gates in London, built in the 1880s. Picture credit: [Chris Allen](http://www.geograph.org.uk/photo/2569524) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A second shortcoming of hydraulic transmission is that a complex distribution network introduces additional energy loss. Every curve or bend in the mains increases friction losses. The more intricate the network, the less efficient it becomes. Electric transmission doesn&amp;rsquo;t have this problem, at least not in a significant way. The friction losses in the water mains limit the amount of machines that can be attached to a power water network, while electricity can be subdivided almost infinitely.&lt;/p&gt;
+&lt;p&gt;The third limitation of power water is the limited capacity of a hydraulic transmission line. Water under pressure can only be moved through thin pipes at walking speeds in order to avoid excessive friction losses. At higher speeds, the loss of friction increases as the square of the velocity and efficiency goes down fast, even over relatively short distances. This limits the flow rate and thus the power that could be delivered by a hydraulic transmission line.&lt;/p&gt;
+&lt;p&gt;Using a 10 to 12 cm diameter pipe — a common size in most high pressure system at the time — a hydraulic transmission line could produce a maximum continuous power of 115 to 205 horse power (85 to 150 kW). High voltage electric transmission lines of similar size can carry an amount of power that was orders of magnitude greater than that.&lt;/p&gt;
+&lt;h2 id=&#34;advantages-of-power-water&#34;&gt;Advantages of Power Water&lt;/h2&gt;
+&lt;p&gt;However, none of these disadvantages mattered for the power water networks that we have discussed. These were all decentralized systems, with machines no more than 15-25 km away from the power source. Secondly, because the hydraulically operated machinery in harbours, railway yards, factories and buildings was characterized by slow motion and infrequent use, the slow transmission speed of power water presented no obstacle.&lt;/p&gt;
+&lt;p&gt;With the exception of the short-lived electricity generating system in Antwerp, none of the Armstrong-type power water networks supplied power to a large amount of continuously operating machines. (But note the &lt;a href=&#34;http://www.lowtechmagazine.com/power-water-networks-in-switzerland.html&#34;&gt;medium pressure power water networks in Switzerland&lt;/a&gt;. Lastly, because a power water network operated relatively few (but very powerful) machines, friction loss through bends and curves in the network was limited.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Hydraulic pump, accumulator and press. Source: Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, December 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hydraulic pump, accumulator and press. Source: Portefeuille économique des machines, de l&#39;outillage et du matériel, December 1864, [Bibliothèque nationale de France](http://gallica.bnf.fr/ark:/12148/bpt6k5539152w/f79.pleinepage.langFR) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The limitations of hydraulic transmission were very well understood at the end of the nineteenth century. However, engineers also grasped the unique benefits of the technology, which still hold today. For example, Robert Zahner, an advocate of yet another alternative to electricity, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;compressed air&lt;/a&gt;, wrote in &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890) that:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The practical incompressibility of water renders the hydraulic method unfit for transmitting regularly a constant amount of power. It can be used to advantage only where motive power is to be accumulated and applied at intervals, such as raising weights, operating punches, compressive forging and other work of intermittent character, requiring a great force through a small distance.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Hydraulic transmission is &amp;ldquo;admirably adapted for use with heavy machinery and equipment in operations requiring marked concentration of power, reciprocating straight-line motion, and intermittent action&amp;rdquo;, wrote Louis Hunter in &lt;em&gt;The Transmission of Power&lt;/em&gt; (1991). The main excellence of the hydraulic accumulator is that it allows to operate machines that require much more power than the energy source can supply — Pascal&amp;rsquo;s &amp;ldquo;force multiplication&amp;rdquo;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The limitations of hydraulic transmission were very well understood at the end of the nineteenth century. However, engineers also grasped the unique benefits of the technology, which still hold today.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When high force or torque are needed, hydraulic power systems are a much more compact and energy efficient solution than mechanical or electric drives. Both electric motors and combustion engines often need mechanical power transmission (gears, chains, belts) to convert their high rotational speed to a slower speed with higher torque.&lt;/p&gt;
+&lt;p&gt;Likewise, hydraulic power systems easily produce linear motion using hydraulic cylinders, while electric power requires costly linear motors or mechanical power transmissions such as rack-and-pinion assemblies. Hydraulic and electric power are complementary in this sense: one of the limitations of power water transmission was the relative difficulty of converting linear motion to rotary motion.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Illustration: hydraulic lift&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: hydraulic lift 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pelton wheels were the most obvious choice, but their high rotational speed involved the use of gearing for the operation of slow speed machinery. A number of hydraulic engines of the ram type was available to supply rotative power involving variable or slow speed operation, but these engines had few advantages compared to electric or mechanical drives.&lt;/p&gt;
+&lt;p&gt;A third important advantage of hydraulics is that the power is always readily available in the pipes and in the accumulator, but when there is no demand there is no waste. When none of the machines in a power water network was in operation, the hydraulic accumulators kept the lines pressurized without using any energy. This advantage is especially relevant when machines are used intermittently.&lt;/p&gt;
+&lt;h2 id=&#34;hydraulics-today&#34;&gt;Hydraulics Today&lt;/h2&gt;
+&lt;p&gt;Hydraulic power is still in use today, especially in heavy industrial equipment that requires a slow but powerful linear motion, and in mobile construction machinery such as excavators. However, the raised-weight hydraulic accumulator and the power water networks have disappeared.&lt;/p&gt;
+&lt;p&gt;The pressurized fluid is no longer water but oil, mixed with additives. (Vegetable oil had been used as a hydraulic medium in the 19th century). Unlike water, oil doesn&amp;rsquo;t freeze and is not corrosive. However, it makes hydraulic power more expensive and it obviously doesn&amp;rsquo;t permit the exhaust fluid to end up in the sewer network, the docks or the sea.&lt;/p&gt;
+&lt;p&gt;Partly as a consequence of the use of oil, there evolved the self-contained hydraulic power pack consisting of pump, hydraulic accumulator, and return flow systems, ready to be coupled to an electric motor or a diesel engine. The hydraulic accumulators in these systems are much smaller, they use a gas to compress the fluid, and they do not maintain a steady pressure.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Today&amp;amp;rsquo;s hydraulic accumulators (usually compressed gas types) have little in common with the raised-weight accumulators in power water networks. Picture: HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Today&#39;s hydraulic accumulators (usually compressed gas types) have little in common with the raised-weight accumulators in power water networks. Picture: [HYD](http://www.hyd.com/tejas/products/products_frame.htm). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;While the practical benefits of hydraulics remain — a large amount of power can be transferred and controlled precisely using very compact components — the modern approach erases an important efficiency advantage specific to the more centralized power water networks of the nineteenth and twentieth century. In a city-wide power water network, a comparably small central power source — a handful of hydraulic accumulators — could operate a large number of very powerful machines. The pumping engines didn&amp;rsquo;t have to be dimensioned for peak loads.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A great advantage of power water networks was that comparatively little power capacity was required to operate a large number of powerful machines over a wide area.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B. Pugh laments this evolution in &lt;em&gt;The Hydraulic Age&lt;/em&gt; (1980):&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;One century ago, only a few very large machines — swing bridges and an occasional hydraulic press — had their own individual pumping equipment. More recently, this trend spread throughout hydraulically operated machinery of all types and sizes, and is accepted practice today. With unit hydraulic power packs each piece of equipment will be driven by its own motor and will have its own instrumentation, filters, etcetera, which will call for periodic inspection and maintenance.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The motor will run continuously while the unit is in use regardless of the load on the pump it drives. In the case of a number of such units not all will be working to capacity all the time. Appreciable economy could be effected by having a central pumping plant to supply a number of units and due to the diversification of the load the maximum load at any one time will be less than the sum of the individual maximum loads.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;An advantage of a large station over a number of smaller ones lies in the ability to meet diversity of demand. A number of small, independent power stations must each have sufficient capacity to meet the peak demand of its own area of supply and the peaks will not occur at the same time. A large station, embracing the total area of a number of small stations, will need only to meet the maximum simultaneous demand and this will normally be less than the sum total of the local peaks.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;alternatives-to-electricity&#34;&gt;Alternatives to Electricity&lt;/h2&gt;
+&lt;p&gt;Just like mechanical power transmission technologies — such as &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2013/02/the-mechanical-transmission-of-power-2-jerker-line-systems/&#34;&gt;jerker line systems&lt;/a&gt; and &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2013/03/the-mechanical-transmission-of-power-3-endless-rope-drives/&#34;&gt;endless rope drives&lt;/a&gt; — power water networks have disappeared largely because electric transmission has superior efficiency over long distances. However, in a more decentralized energy system based on renewable energy, all these forgotten alternatives for electricity deserve to be reconsidered for specific purposes. Raised-weight hydraulic accumulators could be solar, wind or even pedal powered.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Picture: J.W. Gibson&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Picture: J.W. Gibson 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Around 1900, the superiority of electricity for transmitting power over very long distances was not disputed. For moderate distances, however, quite a few authors doubted its usefulness. For example, R. Kennedy wrote in &lt;em&gt;Modern Engines and Power Generators&lt;/em&gt; (1905):&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Electricity offers paramount advantages for power transmission to a distance in most cases. Electrical engineers, however, claim far too much for it. They are apt to forget other means for transmitting power, which means have paramount advantages over electricity in a good many cases.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;W.C. Unwin, the author of the most complete nineteenth-century book on power transmission (&lt;em&gt;On the Development and Transmission of Power from Central Stations&lt;/em&gt;), expressed a similar concern in 1894:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Granting that electrical distribution will play an important part before long in the development of systems of power distribution, there is a popular tendency at the moment to regard too exclusively electrical methods, and to overlook other means of power distribution which have been usefully applied in the past, and will, in suitable conditions, be still employed in the future&amp;hellip; For transmission to moderate distances there is a choice of several means of transmission, and electrical distribution has not in such cases and up to the present established any universal superiority.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;In the next installment of our power transmission series, we will discuss &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;compressed air&lt;/a&gt;, which is probably the most usable alternative for electricity.&lt;/p&gt;
+&lt;p&gt;This article is dedicated to Charles Steele. RIP.&lt;/p&gt;
+&lt;h2 id=&#34;sources-in-order-of-importance&#34;&gt;Sources (in order of importance):&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0852984472/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0852984472&amp;amp;linkCode=as2&amp;amp;tag=lowtemagaz-20&amp;amp;linkId=Z6GMW7UXFV442C3K&#34;&gt;The Hydraulic Age&lt;/a&gt;, B. Pugh, 1980&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0582127971/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0582127971&amp;amp;linkCode=as2&amp;amp;tag=lowtemagaz-20&amp;amp;linkId=WSOKMM4EJWWMVVZ5&#34;&gt;Hydraulic Power (Industrial Archaeology)&lt;/a&gt;, Ian McNeil, 1972&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/ondevelopmentan03unwigoog&#34;&gt;On the Development and Transmission of Power from Central Stations&lt;/a&gt;, W.C. Unwin, 1894. Also &lt;a href=&#34;https://archive.org/details/ondevelopmentan01unwigoog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/hydraulicmachin01blaigoog&#34;&gt;Hydraulic Machinery, with an introduction to hydraulics&lt;/a&gt;, R.G. Blaine, 1897&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0262081989/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0262081989&amp;amp;linkCode=as2&amp;amp;tag=lowtemagaz-20&amp;amp;linkId=4ZCQHKC2QAUALVOZ&#34;&gt;A History of Industrial Power in the U.S., 1780-1930: Vol 3: The Transmission of Power&lt;/a&gt;, Louis C. Hunter and Lynwood Bryant (1991)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/modernenginespow01kennrich&#34;&gt;Modern Engines and Power Generators; a Practical Work on Prime Movers and the Transmission of Power, Steam, Electric, Water and Hot Air — Volume One&lt;/a&gt;, R. Kennedy, 1905&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/modernenginespow06kennrich&#34;&gt;Modern Engines and Power Generators; a Practical Work on Prime Movers and the Transmission of Power, Steam, Electric, Water and Hot Air — Volume Six&lt;/a&gt;, R. Kennedy, 1905&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/powerpowertransm00kerrrich&#34;&gt;Power and Power Transmission&lt;/a&gt;, E.W. Kerr, 1908&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ipenz.org.nz/heritage/conference/papers/Gibson_J.pdf&#34;&gt;Remnants of Early Hydraulic Power Systems&lt;/a&gt; (PDF), J.W. Gibson, 3rd Australasian Engineering Heritage Conference 2009&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.ca/books?id=LcvvKPq45uEC&amp;amp;printsec=frontcover&amp;amp;hl=es#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;L&amp;rsquo;eau à Genève et dans la région Rhône-Alpes: XIXe-XXe siècles&lt;/a&gt;, Serge Paquier, 2007&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.es/books?id=m7Pp5AoyQtoC&amp;amp;printsec=frontcover&amp;amp;hl=nl#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;L&amp;rsquo;eau des villes: Aux sources des empires municipaux&lt;/a&gt;, Géraldine Pflieger, 2009&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://dbhsarl.eu/fichiers/exposition.pdf&#34;&gt;Revue technique de l&amp;rsquo;Exposition universelle de 1889, Section II, récepteurs hydrauliques&lt;/a&gt; (PDF), 1893&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cnum.cnam.fr/DET/8XAE353.9.html&#34;&gt;Revue technique de l&amp;rsquo;Exposition universelle de 1889, Volume 9. Septième partie. Mécanique générale. Machins outils. Hydraulique générale. Travail du bois. Travail des métaux. Machineries industrielles&lt;/a&gt;, 1893&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;usine des forces motrices de la Coulouvrenière à 100 ans: 1886-1986, Services industriels, 1986&lt;/p&gt;
+&lt;p&gt;Waterdruk in Antwerpen. Een stroom van elektriciteit&amp;quot;, Dirk De Vleesschauwer and Noël Kerckhaert, 1993&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tenboome.be/tenboome/paginas/jaarboek%201993-1994/kroniek_stroomverdeling_van_antwerpen_tot_de_Rupelstreek.htm&#34;&gt;Kroniek van de stroomverdeling van Antwerpen-stad tot de Rupelstreek tot de Eerste Wereldoorlog&lt;/a&gt;, Geschiedkundige Studiegroep Ten Boome. (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.watererfgoed.be/Docs/Boekje%20OMD.pdf&#34;&gt;Het Zuiderpershuis, een monument. Brochure bij de tentoonstelling n.a.v. Open Monumentendag 2010&lt;/a&gt; (PDF), Steunpunt Industrieel en Wetenschappelijk Erfgoed, 2010.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/centrifugalpump00innegoog&#34;&gt;The Centrifugal Pump, Turbines, and Water Motors, Including the Theory and Practice of Hydraulics&lt;/a&gt;, Charles Herbert Innes, 1898&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.es/books?id=fvrV9GabWD8C&amp;amp;pg=PA152&amp;amp;lpg=PA152&amp;amp;dq=%22silent+dustman%22&amp;amp;source=bl&amp;amp;ots=Ioi1Mou1Em&amp;amp;sig=SBqxZBf6MgB2XXLFOF3IiP0DR00&amp;amp;hl=nl&amp;amp;sa=X&amp;amp;ei=oGUCUvHOEaLN7Aai74DoBA&amp;amp;ved=0CDcQ6AEwAQ#v=onepage&amp;amp;q=%22silent%20dustman%22&amp;amp;f=false&#34;&gt;Metropolitan Works: Collected Papers on London History&lt;/a&gt;, Ralph Turvey, date unknown.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.vauxhallcivicsociety.org.uk/history/hydraulic-power-company/&#34;&gt;Hydraulic Power Company&lt;/a&gt;, The Vauxhall Society, 2012 (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gracesguide.co.uk/London_Hydraulic_Power_Co%22&#34;&gt;London Hydraulic Power Co&lt;/a&gt;, Grace&amp;rsquo;s Guide, date unknown (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm&#34;&gt;Hydraulic Power&lt;/a&gt;, NSW HSC Online (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/transmissionpow00zahngoog&#34;&gt;The Transmission of Power by Compressed Air&lt;/a&gt;, Robert Zahner, 1890&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.douglas-self.com/MUSEUM/POWER/waterengine/waterengine.htm&#34;&gt;Water Engines&lt;/a&gt;, The Museum of Retrotechnology, 2011 (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0953021912?ie=UTF8&amp;amp;tag=lowtemagaz-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0953021912&#34;&gt;The History of Cranes (The Classic Construction Series)&lt;/a&gt;, Oliver Bachmann,1997.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://books.google.co.uk/books?id=DRkFAAAAQAAJ&amp;amp;pg=PA530#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;On the employment of a column of water as a motive power for propelling machinery&lt;/a&gt;, William Armstrong, 1840&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Sky is the Limit: Human-Powered Cranes and Lifting Devices</title>
+      <link>https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/</link>
+      
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/human-powered-cranes-1_dithered.png" type="image/png" length="92376" ></enclosure>
+      <pubDate>Thu, 25 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/human-powered-cranes-1_dithered.png&#34; alt=&#39;Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;From the earliest civilisations right up to the start of the Industrial Revolution, humans used sheer muscle power, organisation skills and ingenious mechanics to lift weights that would be impossible to handle by most power cranes in operation today.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The most powerful hand crane in history multiplied the force of its operator 632 times&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The most common tower crane used in construction today has a lifting capacity of some 12 to 20 tonnes. For quite a few construction projects in ancient history, this type of crane would be completely inadequate.&lt;/p&gt;
+&lt;p&gt;The majority of stones that make up the almost 140 discovered Egyptian pyramids have a weight of &amp;ldquo;only&amp;rdquo; 2 to 3 tonnes each, but all of these structures (built between 2750 and 1500 BC) also hold stone blocks weighing 50 tonnes, sometimes more. The temple of Amon-Ra at Karnak contains a labyrinth of 134 columns, standing 23 metres (75 feet) tall and supporting crossbeams weighing 60 to 70 tonnes each.&lt;/p&gt;
+&lt;p&gt;The 18 capital blocks of Trajan&amp;rsquo;s column in Rome weigh more than 53 tonnes and they were lifted to a height of 34 metres (111 feet). The Roman Jupiter temple in Baalbek contains stone blocks weighing over 100 tonnes, raised to a height of 19 metres (62 feet). Today, to lift a weight of 50 to 100
+tonnes to these heights, you need a crane like &lt;a href=&#34;http://www.liebherr.com/cc/en/products_cc.asp?menuID=106087%2112534-0&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Occasionally, our forebears lifted even heavier stones. The gravestone of Theoderic the Great in Ravenna (around 520 AD) is a 275 tonne stone block that was lifted to a height of 10 metres. The temple dedicated to Pharaoh Khafre in Egypt is made up of monolithic blocks weighing up to 425 tonnes.&lt;/p&gt;
+&lt;p&gt;The largest Egyptian obelisk weighed more than 500 tons and stands more than 30 metres tall, while the largest obelisk in the Kingdom of Axum in Ethiopia (4th century AD), raised up to a similar height, weighed 520 tonnes. The Colossi of Memnon, two statues of 700 tonnes each, were erected to a height of 18 metres and the walls in the Roman Baalbek temple complex (1st century BC) contain almost 30 monoliths weighing 300 to 750 tons each. Only the most powerful contemporary cranes could handle stones of this weight.&lt;/p&gt;
+&lt;p&gt;Raising construction materials to impressive heights seemed to be no problem either. The Alexandria lighthouse (3rd century BC) stood more than 76 metres (250 feet) tall. The Egyptian pyramids rise up to 147 metres. During the Middle Ages some 80 large cathedrals and around 500 large churches were built with a height of up to 160 metres - out of reach for all but the most recent top model crawler cranes.&lt;/p&gt;
+&lt;h2 id=&#34;human-lifting-power&#34;&gt;Human lifting power&lt;/h2&gt;
+&lt;p&gt;Considering the type of cranes that would be needed today, one wonders how our forebears were able to lift such impressive weights without the help of sophisticated machinery. The fact is, they &lt;em&gt;had&lt;/em&gt; advanced machinery at their disposal. The only difference with contemporary cranes is that these machines were powered by humans instead of fossil fuels.&lt;/p&gt;
+&lt;p&gt;Basically, there is no limit to the weight that humans can lift by sheer muscle power. Nor is there a limit to the height to which this weight can be lifted. The only advantage that fossil fuelled powered cranes have brought us, is a higher lifting &lt;em&gt;speed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Of course, this does not mean that one man can lift anything to any height, or that we can lift anything to any height if we just bring enough people together. But, starting more than 5,000 years ago, engineers designed a collection of machines that greatly enhanced the lifting power of an individual or a group of people.&lt;/p&gt;
+&lt;p&gt;Lifting devices were mainly used for construction projects, but (later) also for the loading and unloading of goods, for hoisting sails on ships, and for mining purposes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The only advantage that fossil fuel powered cranes have brought us, is a higher lifting speed&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Initially, the lifting speed of lifting machines was extremely low, while the amount of man power required to operate them remained very high. Towards the end of the nineteenth century, however, just before steam power took over, human powered lifting devices became so elaborate that one man could lift a 15 tonne truck in no time, using only one hand.&lt;/p&gt;
+&lt;h2 id=&#34;mechanical-advantage&#34;&gt;Mechanical advantage&lt;/h2&gt;
+&lt;p&gt;Any lifting device has a certain mechanical advantage (MA), the factor by which it multiplies the input force into an output force. A lower input force must always be applied over a greater distance than the greater output force travels, and the ratio of the distances is the velocity ratio (VR).&lt;/p&gt;
+&lt;p&gt;In theory, the mechanical advantage (MA) = the velocity ratio (VR), so that in a machine with a mechanical advantage of 2 to 1, the input force is half the output force but must be exerted over twice the distance. In practice, friction always reduces the ideal mechanical advantage of a machine.&lt;/p&gt;
+&lt;h2 id=&#34;ramps--levers&#34;&gt;Ramps &amp;amp; levers&lt;/h2&gt;
+&lt;p&gt;Although some think that the Egyptians had &lt;a href=&#34;http://www.cheops-pyramide.ch/khufu-pyramid/pyramid-theories.html&#34;&gt;more sophisticated lifting machinery&lt;/a&gt; at their disposal, most historians agree that the Egyptians made use of only the most simple lifting devices: inclined planes (ramps and &lt;a href=&#34;http://www.diracdelta.co.uk/science/source/l/e/lever/source.html&#34;&gt;levers&lt;/a&gt; (the principle of a seesaw or teeter-totter). Ramps were (probably) also used to raise obelisks.&lt;/p&gt;
+&lt;p&gt;By moving an object up a ramp rather than completely vertical, the amount of force required is reduced at the expense of increasing the distance it must travel. The mechanical advantage of an inclined plane equals the length divided by the height of the slope. The mechanical advantage of a lever is the distance between the fulcrum and the point where the force is applied, divided by the distance between the fulcrum and the weight to be lifted.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/levers_dithered.png&#34; alt=&#39;Image: A lever.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A lever. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/ramps-1_dithered.png&#34; alt=&#39;Image: A ramp&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A ramp 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/ramps-2_dithered.png&#34; alt=&#39;Image: A ramp&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A ramp 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;While the methods of the Egyptians offered a considerable mechanical advantage over simply pulling up the load vertically by means of a rope, the required man power remained very high: not only to tow or flip over the stones (it must have taken around 50 men to tow a 2.5 tonne stone block), but also to build and later remove the enormous earthen ramps.&lt;/p&gt;
+&lt;p&gt;Historians estimate that the workforce to build a pyramid consisted of 20,000 to 50,000 men, sometimes more. While a structure like that could be built today in a few years time with power cranes and a small workforce, most pyramids took decades to complete.&lt;/p&gt;
+&lt;h2 id=&#34;birth-of-the-crane-the-pulley&#34;&gt;Birth of the crane: the pulley&lt;/h2&gt;
+&lt;p&gt;The first cranes appear in Greece from about the late 6th or early 5th century BC. The Romans, more eager to build large monuments, adopted the technology and developed it further. The earliest cranes consisted of a rope passed over a pulley. Before it found an application in the lifting of objects, the single pulley was used from the 8th or 9th century BC onwards for drawing water from wells (the &lt;a href=&#34;http://www.australiancrane.com.au/crane_history1.htm&#34;&gt;shaduf&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;A single pulley offers no mechanical advantage in itself, but it changes the direction of pull: it is easier to pull down instead of haul up. Pushing vertically upwards with one hand generates about 150 Newton, while pushing vertically downwards with one hand generates about 250
+Newton (&lt;a href=&#34;http://www.swan.ac.uk/grst/Specific%20subjects/Mechanics/Mechanics.htm&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/pulleys_dithered.png&#34; alt=&#39;Different types of pulleys. From 507 mechanical movements, Henry T. Brown, 1908.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Different types of pulleys. From 507 mechanical movements, Henry T. Brown, 1908. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Gradually, the mechanical advantage of cranes was increased with additional technology. A major improvement from the 4th century BC and still in use today, is the compound pulley: a combination of single pulleys in a block. The mechanical advantage equals the amount of pulleys used.&lt;/p&gt;
+&lt;p&gt;A crane with a triple pulley (a &amp;ldquo;Trispastos&amp;rdquo;) has two pulleys attached to the crane and a free pulley suspended from them. It offers a mechanical advantage of 3 to 1. A crane with five pulleys in a similar arrangement (dubbed a &amp;ldquo;Pentaspostos&amp;rdquo;) offers a mechanical advantage of 5
+to 1.&lt;/p&gt;
+&lt;p&gt;Using a compound pulley a man can lift more than he is otherwise able to. If a single man pulling a rope can exert a force of 50 kg, he can raise (or lower) 150 kg using a Trispastos and 250 kg using a Pentaspostos. The same goes for the rope. A rope with a tensile strength of 50 kilograms can be used to lift (or lower) 150 kilograms if 3 pulleys are used, and 250 kilograms if 5 pulleys are used.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A crane with five pulleys allows you to lift five times more than you are otherwise able to - but the rope has to be pulled over five times the distance&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The downside of the compound pulley is, again, distance and thus lifting speed. Lifting a load 3 metres using a Trispastos will require pulling the rope for 9 metres, lifting a load 3 metres using a Pentaspastos will require pulling the rope for 15 metres.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/cranes-human-powered_dithered.png&#34; alt=&#39;Images: John Spirko.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Images: John Spirko. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In theory, any number of pulleys can be used, but because of friction ancient systems were limited to five pulleys. If more lifting power was needed, rather than increasing the number of pulleys within each block, the Romans used two or more 3- or 5- pulley sets, with different gangs working each (a &amp;ldquo;Polyspastos&amp;rdquo;). Of course, every rope could also be pulled by several men at once. The power loss due to friction for Roman (and medieval) cranes is estimated to be 20 percent at most (&lt;a href=&#34;http://www.jstor.org/pss/3106635&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;winches-and-capstans&#34;&gt;Winches and capstans&lt;/h2&gt;
+&lt;p&gt;Another improvement was the introduction of the windlass (or winch) and the capstan, which both substitute for the pulling of the rope. They were invented around the same time as the compound pulley. The only difference between the winch and the capstan is that the former has a horizontal axle and the latter has a vertical one.&lt;/p&gt;
+&lt;p&gt;Both use handspikes or levers inserted into slots on a drum to gain a mechanical advantage in circular rotation, given by the radius of the handspike to the radius of the drum or axle. The mechanical advantage of a winch is the radius of the axle to the radius of the handspikes.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/winch-powered-crane_dithered.png&#34; alt=&#39;Image: A winch powered crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A winch powered crane. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/capstan_dithered.png&#34; alt=&#39;Image: A capstan.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A capstan. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Therefore, an axle of 5 centimetres (2 inches) with handspikes 30 centimetres (1 ft) long has a mechanical advantage of 6 to 1. A man operating the winch can thus lift 6 times more than he would when just pulling a rope. However, to wind up 1 metre of rope the handspikes would need to be turned 6 metres.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The treadwheel crane remained in use until the end of the 1800s&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Combined with the compound pulley, winches or capstans already offer impressive performance. One man operating a Pentaspostos and exerting a force of 25 or 50 kilograms at the winch described above can lift a load of 750 to 1500 kilograms (25 or 50 kg x 6 x 5 = 750 or 1500 kg), while the Egyptians needed 30 to 60 men to haul up a 1500 kilogram stone block up a ramp.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/human-powered-cranes-drawing_dithered.png&#34; alt=&#39;Image: Cranes with pulleys.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Cranes with pulleys. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Just like ropes, winches and capstans can be operated by multiple people (winches by two people, capstans by many more). Capstans can also be operated by draft animals. Four men operating a capstan with a similar mechanical advantage as the winch described above, each exerting 25 to 50 kg of power, can lift - ignoring friction - 3 to 6 tonnes (100 or 200 kg x 6 x 5 = 3000 or 6000 kg). However, in both examples, for every metre the load is raised, they will have to pull in 30 metres of rope.&lt;/p&gt;
+&lt;h2 id=&#34;treadwheels&#34;&gt;Treadwheels&lt;/h2&gt;
+&lt;p&gt;An even more powerful lifting aid than the winch or capstan was the treadwheel. It was first mentioned in 230 BC and it remained a very important element of cranes up until the second half of the 19th century. Treadwheels, which usually had a diameter of 4 to 5 metres, have a greater mechanical advantage than winches or capstans, because of the larger radius of the wheel compared to the radius of the axle.&lt;/p&gt;
+&lt;p&gt;Moreover, the power generated by a person&amp;rsquo;s arm and shoulder is replaced by the greater power of a person walking (not running) within the wheel. A treadwheel with a wheel radius of 7 feet (213 cm) and a drum radius of 0.5 feet (15 cm) has a mechanical advantage of 14 to one. This concerns a treadwheel with a diameter of 456 centimetres: 2 x 213 cm radius of the wheel + 2 x 15 cm radius of the drum (diameter = 2 x radius). (&lt;a href=&#34;http://www.jstor.org/pss/3106635&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/treadwheel_dithered.png&#34; alt=&#39;Image: A threadwheel. Picture credit&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A threadwheel. [Picture credit](http://fotoalbum.seniorennet.be/viennes/reisfotos) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;With a mechanical advantage of 14 to one, one man in a treadwheel operating a Pentaspastos and exerting a force of 50 kilograms could thus lift a load of 3500 kilogram or 3.5 tonnes. That&amp;rsquo;s about 70 times more than he could lift with a simple pulley.&lt;/p&gt;
+&lt;p&gt;Some cranes (especially the harbour cranes from the middle ages and onwards) were equipped with two treadwheels attached to the same axle, bringing the total lifting power of a human powered crane to some 7,000 kilograms or 7 tonnes.&lt;/p&gt;
+&lt;p&gt;Because many treadwheels were also wide enough for two people walking side by side, a crane with two treadwheels could be powered by 4 people, which brings the maximum lifting power at 14
+tonnes - comparable to that of a common modern tower crane. Even taking into account a loss of 20 percent due to friction, this is still 11.2 tonnes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A large treadwheel gives a mechanical advantage of 14 to 1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Of course, a mechanical advantage of 14 to 1 also meant that the men had to walk 140 metres inside the wheel to lift a load to a height of 10 metres. If they walk 5 kilometres per hour, the load would be lifted at a speed of 0.35 km/h or almost 6 metres per minute (the velocity of the wheel divided by the velocity of the load = radius of the wheel divided by the radius of the drum).(&lt;a href=&#34;http://www.jstor.org/pss/3106635&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;lifting-towers&#34;&gt;Lifting towers&lt;/h2&gt;
+&lt;p&gt;While the lifting capacity of a ancient treadwheel crane is impressive, attentive readers will have noticed that Roman buildings contained stone blocks that were considerably heavier than that.&lt;/p&gt;
+&lt;p&gt;The Romans also shipped a few dozens of obelisks from Egypt and re-erected them in their cities - the heaviest of these weighing more than 500 tonnes. How did they manage this with 6 or 12 ton cranes? Basically, in the same way that we handle very heavy loads, by combining multiple lifting devices.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/lifting-tower-one_dithered.png&#34; alt=&#39;Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/lifting-tower-two_dithered.png&#34; alt=&#39;Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;One method was to build a gigantic lifting tower powered by multiple capstans on the ground. Although the mechanical advantage of a capstan is considerably lower than that of a treadwheel, they could be powered by much more people and so less machines would be needed.&lt;/p&gt;
+&lt;p&gt;Moreover, they allowed for the auxiliary power of draft animals.The method of lifting towers is briefly mentioned by some Roman authors, but detailed information about it comes from an engineer who lived 1000 years later: Domenic Fontana, master builder of the Vatican.&lt;/p&gt;
+&lt;p&gt;In 1586, Pope Sixtus V decided that the 344 ton obelisk at the Circus Maximus had to move to the square in front of the newly built Saint Peter&amp;rsquo;s Basilica. A mere 256 metres further, but nevertheless the huge stone had to be lowered, transported, and erected again.&lt;/p&gt;
+&lt;p&gt;Fontana documented the undertaking extensively in his 1589 book &amp;ldquo;The movement of the Vatican obelisk&amp;rdquo;. By then, lifting materials, devices and methods had hardly changed since Roman times, so we can assume that the Romans raised the same stone in a similar manner.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/lifting-tower-3_dithered.png&#34; alt=&#39;Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Erecting an obelisk using a lifting tower powered by multiple capstans on the ground. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The job was done using a wooden construction 27.3 metres tall, ropes up to 220 metres long, 40 capstans, 800 men and 140 horses (when lowering the obelisk the workforce consisted of 907 men and 75 horses).&lt;/p&gt;
+&lt;p&gt;While the whole undertaking took more than a year - including the transport of the obelisk (on rollers) and the assembly of the tower, the capstans and other lifting machinery - the stone was erected in just 13 hours and 52 minutes. As a result of this successful operation, many more obelisks were moved around Rome, one of these weighing 510 tonnes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The obelisk was raised using a wooden lifting tower 27.3 metres tall, ropes up to 220 metres long, 40 capstans, 800 men and 140 horses&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The spectators watching the event were ordered not to speak or make any noise under the penalty of death, and police were used to enforce the orders. Silence was crucial in maintaining communication between those monitoring the ropes and pulleys at the top of the tower and those on the ground operating the capstans. The signal to bein turning was given by a trumpet; the signal to stop was given by a bell. (&lt;a href=&#34;http://www.ajaonline.org/archive/103.3/lancaster_lynne.html&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;the-reinvention-of-cranes-in-the-middle-ages&#34;&gt;The reinvention of Cranes in the Middle Ages&lt;/h2&gt;
+&lt;p&gt;Following the decline of the Western Roman Empire, the use of elaborate cranes in Europe largely disappeared for more than 800 years. Cranes operated by winches are again recorded from the late 12th century onwards, large treadwheel cranes only reappear in the 13th (France) and 14th (England) centuries - a bit later than &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;windmills and waterwheels&lt;/a&gt;. Compared to Roman times, very little technical information was written down during the Middle Ages. Most of our historical knowledge comes from paintings and from illustrations in manuscripts.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/babel-detail_dithered.png&#34; alt=&#39;Image: A fragment of &amp;amp;ldquo;The Tower of Babel&amp;amp;rdquo; by Pieter Brueghel the Elder (1563).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A fragment of &#34;The Tower of Babel&#34; by Pieter Brueghel the Elder (1563). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Luckily, a few treadwheel cranes have been preserved, all of them in the attics of churches and cathedrals. Large cranes were an absolute necessity in the building of the gothic churches in the late Middle Ages, buildings that were much higher than even the tallest Roman monuments. Furthermore, the working area on these sites was rather limited compared to Roman conditions, and both factors led to a different use of cranes.&lt;/p&gt;
+&lt;h2 id=&#34;gothic-churches-and-cathedrals&#34;&gt;Gothic churches and cathedrals&lt;/h2&gt;
+&lt;p&gt;Most probably, cranes were installed inside the building, initially on the ground, and moved upwards (and also sidewards) as the construction work proceeded, being dismantled and reassembled multiple times. When the church was finished, some of these cranes were left above the vaulting and below the roof where they might come in handy for repairs.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/crane-in-gothic-cathedral_dithered.png&#34; alt=&#39;Image: Human powered cranes can still be found in the attics of some medieval cathedrals. Image from Historia koparek i pogłębiarek do początku XX wieku, Alfred Tadeusz Wislicki, 1995.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Human powered cranes can still be found in the attics of some medieval cathedrals. Image from Historia koparek i pogłębiarek do początku XX wieku, Alfred Tadeusz Wislicki, 1995. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;One of these treadwheel cranes, in Britain&amp;rsquo;s Canterbury Cathedral, was used for a renovation project in the 1970s. It dates from the late 15th century, could accommodate one to two labourers and has a diameter of 4.6 metres.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/treadwheel-2_dithered.png&#34; alt=&#39;A threadwheel crane in Britain&amp;amp;rsquo;s Canterbury Cathedral, used for a renovation project in the 1970s (source)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A threadwheel crane in Britain&#39;s Canterbury Cathedral, used for a renovation project in the 1970s ([source](http://www.jstor.org/pss/3106635)) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Medieval illustrators sometimes depicted cranes mounted on the outside of the walls, but this was done probably because it made better paintings - the walls of gothic churches and cathedrals were generally too thin to support a heavy crane and its load.&lt;/p&gt;
+&lt;p&gt;Another well described medieval lifting device is the large treadwheel slewing crane that stood on top of the 157 metre high Cologne Cathedral in Germany for almost 450 years. It was erected in 1400 and dismantled only in 1842. The crane housed two treadwheels, was 15.7 metres high and had a 15.4 metre long jib which could traverse the entire working area - basically functioning like a modern tower crane.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/crane-cologne-cathedral_dithered.png&#34; alt=&#39;Image: Human powered crane on top of the Cologne cathedral, in use from 1400 tot 1842. Rheinisches Bildarchiv Köln.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Human powered crane on top of the Cologne cathedral, in use from 1400 tot 1842. Rheinisches Bildarchiv Köln. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;harbour-cranes&#34;&gt;Harbour cranes&lt;/h2&gt;
+&lt;p&gt;A new development in the Middle Ages was the stationary harbour crane, powered by treadwheels. It was not used by the Greeks or the Romans, possibly because they had a large enough reservoir of slave labour at their disposal. The Roman standard shipping container, the amphora, was rather small and could easily and rapidly be loaded and unloaded using a human conveyor belt and a ramp (&lt;a href=&#34;http://www.pubs-newcomen.com/cgi-bin/somww.cgi?search=heavy+goods+handling+prior+to+the+nineteenth+century&amp;amp;Submit=Submit&amp;amp;type=A&amp;amp;session=505916A&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/harbour-crane_dithered.png&#34; alt=&#39;Image: A harbour crane on a historical map. (source)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A harbour crane on a historical map. ([source](http://www.arneym.nl/verkeer/00000098bf0933a06/index.html)) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Harbour cranes first appeared in Flanders, Holland and Germany in the 13th century, and in England in the 14th century. They were more powerful than cranes used in construction, and equipped with not one but two treadwheels having a larger diameter of up to 6.5 metres.&lt;/p&gt;
+&lt;p&gt;These more potent &amp;ldquo;engines&amp;rdquo; were not so much aimed at heavier loads but rather at higher lifting (and lowering) speeds. In loading and unloading goods, speed was more important than in construction, where the tempo was dictated by the slow progress of the masons and carpenters.&lt;/p&gt;
+&lt;h2 id=&#34;built-by-millwrights&#34;&gt;Built by millwrights&lt;/h2&gt;
+&lt;p&gt;Dockside treadwheel cranes were frequently capped by a wooden roof to protect the mechanics and the workers from the rain. These permanent structures had much in common with windmills, and they were most probably built by the same craftsmen.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/harbour-crane-2_dithered.png&#34; alt=&#39;Image: Harbour crane with two treadwheels in Bruges, Belgium. It concerns a replica, built in 1765 and demolished in 1886.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Harbour crane with two treadwheels in Bruges, Belgium. It concerns a replica, built in 1765 and demolished in 1886. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Analogous to &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;post windmills and tower windmills&lt;/a&gt;, there were post cranes and tower cranes: the former were wooden structures which pivoted on a central vertical axle, the latter (mostly built in Germany) were masonry towers with only the cap and the jib arm rotating.&lt;/p&gt;
+&lt;p&gt;Harbour cranes were not adopted in Southern Europe and their total number in the whole of medieval Europe was rather limited compared to the number of windmills: about one hundred large harbour cranes have been discovered (&lt;a href=&#34;http://www.pubs-newcomen.com/cgi-bin/somww.cgi?search=heavy+goods+handling+prior+to+the+nineteenth+century&amp;amp;Submit=Submit&amp;amp;type=A&amp;amp;session=505916A&#34;&gt;source&lt;/a&gt;). Around &lt;a href=&#34;http://en.wikipedia.org/wiki/List_of_historical_harbour_cranes&#34;&gt;a dozen of them are still standing&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/harbour-crane-bruges_dithered.png&#34; alt=&#39;Image: Harbour crane in Bruges (1500s). It shows a detail from a painting.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Harbour crane in Bruges (1500s). It shows a detail from a [painting](http://upload.wikimedia.org/wikipedia/commons/8/80/Pieter_Pourbus_Portret1.jpg). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The most powerful harbour cranes had two treadwheels, each walked by 3 to 4 men&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The most powerful treadwheel harbour cranes were built in the London docklands in the 1850s, having two treadwheels of up to 3 metres wide, each walked by 3 to 4 men (&lt;a href=&#34;http://www.archive.org/details/londonlabourand01mayhgoog&#34;&gt;source&lt;/a&gt;). These are not to be confused with the &lt;a href=&#34;http://www.notechmagazine.com/2010/03/prison-treadwheels.html&#34;&gt;even wider treadwheels used in 19th century prisons&lt;/a&gt;, where the men walked on the outside of the wheel.&lt;/p&gt;
+&lt;h2 id=&#34;more-flexible-cranes&#34;&gt;More flexible cranes&lt;/h2&gt;
+&lt;p&gt;Today&amp;rsquo;s cranes can turn their jib 360 degrees (slewing) and move the load horizontally along the jib. Initially, most cranes used in medieval construction work were only capable of a vertical lift. The load could only be manipulated laterally by the crane master on the ground, using a small rope attached to the load. Dockside cranes introduced the slewing crane, of which the first evidence appears in the 14th century. Slewing became a common feature of construction cranes in the 1600s, which shortened work cycles considerably.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/slewing-crane_dithered.png&#34; alt=&#39;Image: A slewing crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A slewing crane. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The first crane that allowed a horizontal movement of the load appeared in a 1550 book of Georgius Agricola, but a real-world version was only launched in 1666 by Frenchman Claude Perrault. A trolley was moved along the whole length of the jib by means of a complicated rope system in which two ropes were wound and unwound via a spindle attached to the trolley.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s not forget that Greek and Roman cranes were capable of very limited horizontal movement, too, by lowering or raising the masts a bit. Moreover, the Greeks already designed a kind of slewing crane, which was a lifting device as described earlier but resting only on one mast, directed and kept in balance by extra men on the ground holding ropes. Safety mechanisms (to prevent plummeting loads and sudden reverse rotation of the treadwheel or capstan) were introduced only in the late eighteenth century.&lt;/p&gt;
+&lt;h2 id=&#34;iron-cranes&#34;&gt;Iron cranes&lt;/h2&gt;
+&lt;p&gt;In the 19th century, three important innovations appeared. The first one was the use of iron instead of wood structures and gearings, which made cranes stronger and more efficient. The first cast iron crane was constructed in 1834. That same year, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/06/lost-knowledge-ropes-and-knots/&#34;&gt;the wire rope was invented, a much stronger alternative to the natural fibre rope or the metal chain&lt;/a&gt;. Finally, in 1851, the third game-changing innovation appeared: the steam-powered crane. With the arrival of steam power, any load could be lifted at any speed, as long as the engine was powerful enough.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/iron-crane_dithered.png&#34; alt=&#39;Image: A manually operated crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A manually operated crane. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Wire rope was soon in widespread use, but the other two innovations only caught on slowly. Wood, sometimes combined with iron, continued to be the material of choice for many cranes well into the twentieth century, especially in regions where timber was plentiful. And while more and more steam cranes appeared in the second half of the nineteenth century, hand-powered cranes kept being sold and used in large amounts. A book on crane technology, published in 1904, still devoted half of its pages to manually operated cranes. Bicycle cranes were sold, too.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/modern-human-powered-crane_dithered.png&#34; alt=&#39;Image: A pedal powered crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A pedal powered crane. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Logically, it was also this era that produced the most powerful muscle powered cranes ever designed: those composed of iron structures and gearworks, using wire ropes, but not yet powered by steam. One peculiar example of this intermediate technology is shown above: a 1843 hand driven gantry crane for transferring carriages. Equally interesting, though made entirely of wood, are the early 1900&amp;rsquo;s treadwheel cranes in the Netherlands, used to haul up boats over land.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/boat-crane-human-powered_dithered.png&#34; alt=&#39;Image: Treadwheel crane to haul up boats on land, the Netherlands, 1900.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Treadwheel crane to haul up boats on land, the Netherlands, 1900. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A book on crane technology, published in 1904, still devoted half of its pages to manually operated cranes&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The best example, however, are the dockside cranes of William Fairbairn, patented in 1850. Fairbairn riveted together two iron plates, creating an arch-shaped jib that was far more stable and practical than the previous straight wooden or iron jibs. Fairbairn steam cranes became very well known and some of them have been preserved.&lt;/p&gt;
+&lt;h2 id=&#34;most-powerful-hand-crane-ever&#34;&gt;Most powerful hand crane ever&lt;/h2&gt;
+&lt;p&gt;Much less known, however, is that for a short time these powerful cranes were sold as hand powered machines. Because Fairbairn described these cranes in detail in the 1860 edition of his book &amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/usefulinformati09fairgoog&#34;&gt;Useful information for engineers&lt;/a&gt;&amp;rdquo;,
+we know exactly what the - impressive - mechanical advantage of their gearings was.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/images/dithers/fairbairn-crane_dithered.png&#34; alt=&#39;Image: A Fairbairn crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A Fairbairn crane. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The first hand-driven Fairbairn harbour cranes were intended to lift weights of up to 12 tons to a height of 30 feet (9 metres) above the ground, and to sweep this load round over a circle 65 feet (20 metres) in diameter. Next, a 60 ton crane was built for the new docks at Keyham, which could lift loads five times heavier up to heights of 60 feet (18 metres) and over a circle 104 feet (32 metres) in diameter. It is this &amp;ldquo;colossal crane&amp;rdquo;, probably the most powerful hand driven crane ever built, that is described in detail by Fairbairn:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The chain passes round 4 pulleys, two moveable and two fixed, in the end of the jib. It is then conducted down in the interior of the jib over three rollers to the barrel, which is also in the tube near the ground. On each side of the crane a strong cast iron frame is fixed for receiving the axles of the spur wheels and pinions.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Four men, each working a winch of 18 inches radius, act by two 6 inch pinions upon a wheel 5 feet 3.75 inches diameter, this in turn moves the spur wheel, 6 feet 8 inches diameter, by means of an 8 inch pinion, and on the axle of the former the chain barrel, 2 feet in diameter, is fixed.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Hence the advantage gained by the gearing will be W/P = 18 x 63.75 x 80 / 6 x 8 x 12 = 158 or taking the number of cogs in each wheel W/P = 18 x 95 x 100 / 12 x 9 x 10 = 158 and as this result is quadrupled by the fixed and moveable pulleys, the power of the men applied to the handles is multiplied 632 times by the gearing and blocks. Two men are sufficient to move round the crane with 60 tonnes suspended from the extreme point of the jib.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;A mechanical advantage of 632 to 1 means that each of the four men had to apply a force of only 23.7 kilograms in order to lift a weight of 60 tonnes - and this while operating a winch instead of a more efficient treadwheel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We prefer lifting things with power machinery and we run (not walk) on a treadmill in the gym to keep in shape&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href=&#34;http://gcaptain.com/maritime/blog/first-lift-worlds-largest-crane-in-action/&#34;&gt;most powerful crane in the world today&lt;/a&gt; (since September 2009) has a lifting capacity of 20,000 tonnes. If it would be equipped with a gear system offering the same mechanical advantage as that of the above described Fairbairn crane, a weight of 20,000 tonnes could be lifted by 1,265 men each exerting 25 kilograms of power.&lt;/p&gt;
+&lt;p&gt;This is comparable to the workforce that was required to lift the 340 tonne obelisk in the 16th century. And of course, there is no doubt that we could further improve upon the 19th century gearwork and make the mechanical advantage even higher.&lt;/p&gt;
+&lt;p&gt;We could lift anything without fossil fuels. Nevertheless, apart from their use by some hardcore ecological architects, human powered cranes have completely disappeared, even for the lightest of loads. We prefer lifting things with power machinery and we run (not walk) on a treadmill in the gym to keep in shape.&lt;/p&gt;
+&lt;h2 id=&#34;sources-in-order-of-importance&#34;&gt;Sources (in order of importance)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/gp/product/0953021912?ie=UTF8&amp;amp;tag=lowtemagaz-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0953021912&#34;&gt;The History of Cranes (The Classic Construction     Series)&lt;/a&gt;&lt;img src=&#34;http://www.assoc-amazon.com/e/ir?t=lowtemagaz-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0953021912&#34; alt=&#34;&#34;&gt;&amp;rdquo;, Oliver Bachmann (1997). This book gives a detailed     overview of lifting devices from the earliest times to the end of     the 20th century. It also showed me the way to many great pictures.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/gp/product/0199734852?ie=UTF8&amp;amp;tag=lowtemagaz-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0199734852&#34;&gt;The Oxford Handbook of Engineering and Technology in the Classical     World&lt;/a&gt;&lt;img src=&#34;http://www.assoc-amazon.com/e/ir?t=lowtemagaz-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0199734852&#34; alt=&#34;&#34;&gt;&amp;rdquo;, John Peter Oleson (2008). Here I found most of the     information on the mechanical advantage of lifting devices.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.jstor.org/pss/3106635&#34;&gt;Medieval treadwheels: artists&amp;rsquo; views of building     construction&lt;/a&gt;&amp;rdquo;, Andrea L. Matthies     (1992). This study gives an informed look at medieval treadwheel     cranes, inluding how to calculate the mechanical advantage of a     treadwheel.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/usefulinformati09fairgoog&#34;&gt;Useful information for     engineers&lt;/a&gt;&amp;rdquo;,
+William Fairbairn (1860, first edition - all later editions do not     contain the chapter on hand powered cranes). This book gave proof of     the impressive performance of late hand powered cranes.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/constructioncra00markgoog&#34;&gt;The construction of cranes and other lifting     machinery&lt;/a&gt;&amp;rdquo;,
+Edward Charles Robert Marks, (1904). Detailed information on late     hand powered cranes.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://juanadolfogoldin.googlepages.com/trajano_lancaster.pdf&#34;&gt;Building Trajan&amp;rsquo;s
+column&lt;/a&gt;&amp;rdquo;,
+(.pdf), American Journal of Archeology, Lynne Lancaster (1999).     Roman lifting techniques &amp;amp; the use of lifting towers.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.pubs-newcomen.com/cgi-bin/somww.cgi?search=heavy+goods+handling+prior+to+the+nineteenth+century&amp;amp;Submit=Submit&amp;amp;type=A&amp;amp;session=505916A&#34;&gt;Heavy goods handling prior to the nineteenth     century&lt;/a&gt;&amp;rdquo;,
+F.R. Forbes Taylor (1963). An overpriced research paper compared to     that of Andrea L. Matthies, but it gives some interesting additional     information on harbour cranes. Also names an estimation for the     amount of medieval dockside cranes in Europe.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Crane_%28machine%29&#34;&gt;Crane&lt;/a&gt;&amp;rdquo;,
+Wikipedia. General introduction, based on two authoritative German     books. See also: &lt;a href=&#34;http://en.wikipedia.org/wiki/List_of_historical_harbour_cranes&#34;&gt;list of harbour     cranes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://pagesperso-orange.fr/claude.philip/documents/index.htm&#34;&gt;Claude     Philip&lt;/a&gt;&amp;rdquo;,
+illustrations of ancient cranes&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.sil.si.edu/DigitalCollections/HST/Besson/besson.htm&#34;&gt;Theatrum instrumentorum et     machinarum&lt;/a&gt;&amp;rdquo;,
+Jacobi Bessoni (1582). Ancient and medieval crane types.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/gp/product/0486264122?ie=UTF8&amp;amp;tag=lowtemagaz-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0486264122&#34;&gt;Engineering in History (Dover Books on     Engineering)&lt;/a&gt;&lt;img src=&#34;http://www.assoc-amazon.com/e/ir?t=lowtemagaz-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0486264122&#34; alt=&#34;&#34;&gt;&amp;rdquo;, Richard Shelton Kirby (1990). Extra information on     ancient Roman and Egyptian lifting devices.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.jstor.org/pss/630416&#34;&gt;Lifting in early Greek     architecture&lt;/a&gt;&amp;rdquo;, The journal of     Hellenic studies, JJ Coulton (1974).&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/rudimentarytrea01glyngoog&#34;&gt;Rudimentary treatise on the construction of cranes and     machinery&lt;/a&gt;&amp;rdquo;, Joseph Glynn (1849)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wind Powered Factories: History (and Future) of Industrial Windmills</title>
+      <link>https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/</link>
+      
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Wilnd-mill-1_dithered.png" type="image/png" length="34271" ></enclosure>
+      <pubDate>Thu, 08 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Wilnd-mill-1_dithered.png&#34; alt=&#39;Image: A Dutch saw mill. Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A Dutch saw mill. Wikipedia Commons. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In the 1930s and 1940s, decades after steam engines had made wind power obsolete, Dutch researchers obstinately kept improving the – already very sophisticated – traditional windmill. The results were spectacular, and there is no doubt that today an army of ecogeeks could improve them even further. Would it make sense to revive the industrial windmill and again convert kinetic energy directly into mechanical energy?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Netherlands had 5 times more windmills in 1850 than it has wind turbines today&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;More than 900 years ago, medieval Europe became the first large civilisation not to be run by human muscle power. Thousands and thousands of windmills and waterwheels, backed up by animal power, transformed industry and society radically.&lt;/p&gt;
+&lt;p&gt;It was an industrial revolution entirely powered by renewable energy – something that we can (and do) only dream of today. Wind and water powered mills were in essence the first real factories in human history. They consisted of a building, a power source, machinery and employees, and out of them came a product.&lt;/p&gt;
+&lt;p&gt;Windmills and waterwheels were not new technologies – both machines appeared already in Antiquity and the ones used in the early Middle Ages were technically no different from those. However, ancient civilisations like the Greeks and the Romans hardly used them, possibly because of religious reasons and because of a large enough reservoir of human slave labour.&lt;/p&gt;
+&lt;h2 id=&#34;water-versus-wind&#34;&gt;Water versus wind&lt;/h2&gt;
+&lt;p&gt;Water powered mills were – overall – more important and numerous than windmills. This is logical since they are a simpler and more reliable technology; the flow of a river might change according to the seasons, but generally a river always contains water. Moreover, by making use of canals and sluice gates the flow of water could be precisely controlled to provide the speed or load required by the gearwork inside the factory.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Technical-drawing-industrial-sawing-windmill_dithered.png&#34; alt=&#39;Image: Technical drawing of an industrial sawing mill. From &amp;amp;quot;Molenbouw: het staande werk van de bovenkruiers&amp;amp;quot;, Anton Sipman, 1975.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Technical drawing of an industrial sawing mill. From \&#34;Molenbouw: het staande werk van de bovenkruiers\&#34;, Anton Sipman, 1975. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The wind, on the other hand, does not always blow. When it does, wind velocity and direction can change at any moment and windmills had no efficient method to control the strength of the wind – at least not in early medieval times. Water powered mills appeared in Europe in large amounts from the end of the 11th century onwards and only 200 years later almost all available energy in rivers and streams was put to use.&lt;/p&gt;
+&lt;p&gt;However, not all regions were suited for watermills. The reasons could be that they did not have sufficient water resources (like Spain), that they were too flat and their rivers did not have enough flow (like the Netherlands and the downlands of England) or that rivers generally froze during winter (like in Scandinavia, Russia and parts of Germany). In these countries, windmills appeared in the 13th century, possibly earlier, and spread fast. Later, also regions that had abundant water resources constructed windmills, to relieve the pressure on rivers and streams.&lt;/p&gt;
+&lt;h2 id=&#34;how-many-windmills&#34;&gt;How many windmills?&lt;/h2&gt;
+&lt;p&gt;The amount of windmills in early medieval times remains unknown, because the few inventories that could be studied do not distinguish between water and wind powered mills. For instance, we know that there were between 10,000 and 12,000 mills in the UK in 1300, but we do not know how many of them were wind powered (it must have been a minority).&lt;/p&gt;
+&lt;p&gt;All we have are data on individual windmills, which start to appear at the end of the 1200s. Only in the 1700s and 1800s, when windmill technology really caught on, more accurate inventories appear.&lt;/p&gt;
+&lt;p&gt;In 1750, there were 6,000 to 8,000 windmills in the Netherlands, in 1850 there were 9,000 of them. For comparison, this is almost 5 times as much as there are wind turbines in the Netherlands today (1,974 turbines as of September 2009). In the UK there were 5,000 to 10,000 windmills in 1820. France had 8,700
+windmills (and 37,000 watermills) in 1847.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The total amount of wind powered mills in Europe was estimated to be around 200,000 (at its peak), compared to some 500,000 waterwheels.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Germany had 18,242 windmills in 1895 (compared to around 18,000 wind turbines today) and Finland had 20,000 windmills in 1900. Portugal, Spain, several Mediterranean islands and many Eastern European and Scandinavian countries had many windmills, too.&lt;/p&gt;
+&lt;p&gt;The total amount of wind powered mills in Europe was estimated to be around 200,000 (at its peak), compared to some 500,000 waterwheels. Windmills were built in the countryside and in cities, and even on the walls of castles and fortifications in order to catch more wind. Initially, the only applications of windmills were the grinding of grain and (to a lesser extent) the pumping of water and the draining of lowland areas (for which they were connected to a waterwheel working in reverse – the &lt;a href=&#34;http://www.nt.ntnu.no/users/haugwarb/DropBox/The%20Dutch%20Windmill%20Stokhuyzen%201962_files/wm7.gif&#34;&gt;scoopwheel&lt;/a&gt; - or to an &lt;a href=&#34;http://www.nt.ntnu.no/users/haugwarb/DropBox/The%20Dutch%20Windmill%20Stokhuyzen%201962_files/wm11.gif&#34;&gt;Archimedean screw&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Bread and oats were the staple diet of the Middle Ages (meat, fish and vegetables were only available to the rich) and all that grain had to be crushed or ground. It took one person with a hand mill two hours a day to grind enough flour for an average family. Corn windmills were also used to make Dutch gin and other liquors.&lt;/p&gt;
+&lt;p&gt;The grinding of grain remained the most important use of windmills - as late as 1900, the entire wheat harvest of Northern Europe was ground by windmills in the Netherlands, Denmark and Germany. However, around 1600
+many new applications of windmills appeared.&lt;/p&gt;
+&lt;h2 id=&#34;new-applications&#34;&gt;New applications&lt;/h2&gt;
+&lt;p&gt;Windmills were used for hulling barley and rice, grinding malt, pressing olives to olive oil, and pressing coleseed, linseed, rapeseed and hempseed for cooking and lighting. There were also cocoa mills, mustard mills and pepper mills (also used for other spices), even tobacco mills and snuff mills.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Sawmill-Eenhoorn-Penterbak_dithered.png&#34; alt=&#39;Image: The Dutch sawmill &amp;amp;quot;De Eenhoorn&amp;amp;quot;. Source: Penterbak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The Dutch sawmill \&#34;De Eenhoorn\&#34;. Source: Penterbak. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Besides food production, two other major applications of windmill technology were the production of paper (using ropes and sails from ships as a raw material) and the sawing of wood. Windmills were also crushing chalk (to make cement), grinding mortar, draining mines, ventilating mineshafts (and even a prison), polishing glass and making gunpowder.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Around 1600, many new industrial applications of windmills appeared: saw mills, paper mills, mustard mills, tobacco mills, &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Textiles were another industry in which wind power came to the rescue:
+windmills were crushing seeds from flax (to make linen), preparing hemp fibres (to produce ropes and sailcloth), fulling cloth (to create soft wool), making paint and tanning and dying animal skins.&lt;/p&gt;
+&lt;h2 id=&#34;the-zaan-district&#34;&gt;The Zaan district&lt;/h2&gt;
+&lt;p&gt;One of the most spectacular developments of industrial wind power technology occurred in the Zaan district, a region situated just above Amsterdam in the Netherlands. Although the area is surrounded by water, the potential of water power was limited because the land is as flat as it can be and so the flow of the rivers is low. The wind, on the other hand, is strong. Many of the applications of windmills described above appeared first (and sometimes only) in the Zaan district.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/windmills-zaan-district_dithered.png&#34; alt=&#39;Image: A map of the Zaan district north of Amsterdam.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A map of the Zaan district north of Amsterdam. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It is said that the region was the world’s first industrialized area. From 1600 to 1750, when the Netherlands became an important economical power, around 1,000 windmills were built and operated here. Mills were given names, just like ships.&lt;/p&gt;
+&lt;p&gt;A vital element of  the wind powered industry in the Zaan district was the saw mill.  Wood was required to construct houses, sluices, ships and of course more windmills. Hand sawing was a very laborious task and windmills greatly reduced the time needed for the process. With hand sawing, 60 beams or trunks would take 120 working days, with wind power this only took 4 to 5 days (see picture further below, more &lt;a href=&#34;http://penterbak.nl/eenhoornzagen.html&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The first sawmill (&amp;ldquo;Het juffertje&amp;rdquo; or &amp;ldquo;The missy&amp;rdquo;) was built in the town of Zaandam by Cornelis Corneliszoon in 1596. By 1630, there were 83
+sawmills north of Amsterdam, of which 53 were located in the Zaan district. The peak was reached in 1731 when there were 450 sawmills in the Netherlands, 256 of them in the Zaan district. Eventually even the crane of these mills, to haul up the timber, was driven by the sails.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Sawing-mill-Penterbak_dithered.png&#34; alt=&#39;Image: The interior of a wind-powered saw mill. Source: Penterbak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The interior of a wind-powered saw mill. Source: Penterbak. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/windmill-De-Schoolmeester-interior-CCW-Jans-Molen-database_dithered.png&#34; alt=&#39;Image: The interior of a wind-powered paper mill. Source: Penterbak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The interior of a wind-powered paper mill. Source: Penterbak. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Another early industrial application of wind power in the Zaan district was the production of paper – this was, after all, the era in which the printing press appeared. The first papermaking windmill (&amp;ldquo;De Gans&amp;rdquo; or &amp;ldquo;The Goose&amp;rdquo;) dates from 1605 and by 1740 there were 40 of them. In the middle of the 17th century, the Dutch paper mill was substantially improved, which enabled it to make whiter paper and make it faster.&lt;/p&gt;
+&lt;p&gt;One remaining example is “De Schoolmeester” (&amp;ldquo;The Teacher&amp;rdquo;), built in 1692 (see the introductory picture and the interior below). Wind powered paper mills were rare in other countries, but water powered versions already appeared in the 11th century and became quite common – in England there were 417 of them in 1800.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In saw mills, even the crane to haul up the timber was driven by the sails&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Other remarkable windmills in the Zaan district were snuff and tobacco mills (38 in 1795), oil mills (140 in 1731), barley hulling mills (65 in 1731), dyestuff mills (21 in 1731) and hemp mills (20 in 1731). The Dutch also built hundreds of windmills in the West Indies for crushing sugar cane. Relatively few of the 1,000 surviving windmills in the Netherlands are industrial windmills - drainage and corn mills remained economically viable much longer.&lt;/p&gt;
+&lt;h2 id=&#34;backup-power-animals&#34;&gt;Backup power: animals&lt;/h2&gt;
+&lt;p&gt;In many other European countries, similar functions were mainly performed by watermills. However, not all activities powered by waterwheels could be powered by sails. The fickleness of the wind made windmills unsuited for processes that required a very steady and reliable power output, like metal making, spinning, tool-sharpening or extracting minerals from mines.&lt;/p&gt;
+&lt;p&gt;In countries where the potential of water power was insufficient, some of these activities were powered by animals, mainly horses. Horses were also used as a backup power in long periods of calm, in order to guarantee delivery. For instance, in the Netherlands in 1850, there were 1,800 windmills for the grinding of corn, but also 1,300 horsemills for the grinding of buckwheat – a grain that required a more steady power source for grinding.&lt;/p&gt;
+&lt;h2 id=&#34;post-mills-and-tower-mills&#34;&gt;Post mills and tower mills&lt;/h2&gt;
+&lt;p&gt;Early medieval windmills were simple machines, derived from waterwheels. During the following centuries, however, windmills became a very sophisticated technology. Windmills are much more complicated machines than waterwheels because wind velocity and speed change continually. Earlier windmills in Iran and Afghanistan were of the &lt;a href=&#34;http://www.youtube.com/watch?v=lhjww8FBsZk&#34;&gt;horizontal (vertical-axis) type&lt;/a&gt;, and thus did not have to adapt to changes in wind direction. But these machines, which were much less efficient, were never used in Europe.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Drawing-post-mill_dithered.png&#34; alt=&#39;Image: Drawing of a post mill.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Drawing of a post mill. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Initially, medieval millwrights solved the problem of varying wind direction by positioning the whole mill on a central spindle so that it could be turned to face the wind. This was the so-called “post mill”. Around the 1400s, a second type of windmill appeared, in which only the cap and sails rotated and the body of the mill remained stationary. This was the so-called “tower mill”, which was later perfected by the Dutch.&lt;/p&gt;
+&lt;p&gt;Tower mills were also the dominant type around the Mediterranean, but these were less efficient machines with very different sails. Because it was stationary, the main body of a tower mill could be constructed from stone or brick, and thus they were more sturdily built. Both types continued to be in use, but many post mills were replaced by tower mills from the 1600s to the 1800s.&lt;/p&gt;
+&lt;h2 id=&#34;turning-the-sails-into-the-wind&#34;&gt;Turning the sails into the wind&lt;/h2&gt;
+&lt;p&gt;These days, wind turbines are turned into the wind automatically by means of electronic equipment. When the wind becomes too strong, the electronics turn the blades out of the wind so they are not blown to smithereens. Medieval millwrights had no &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;microchips&lt;/a&gt;
+and so they had to find another solution.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Windmill-Oudkerk-Donald-Vandenbulcke_dithered.png&#34; alt=&#39;Image: The tailpole at the back of a windmill.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The tailpole at the back of a windmill.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;For many centuries, windmills were turned into the wind by mere muscle power. This was done by lifting a large tailpole at the back of the mill (hooked up to the tail ladder in the case of a post mill), moving it to the required position, and fixing it again at one of the twelve anchor posts sunk into the ground in a circle around the mill.&lt;/p&gt;
+&lt;p&gt;This was not an easy task, because the body of a post mill had to be turned with the weight of all the machinery inside. Some mills were equipped with a winch at the end of the tailpole, riding on a circular track, which made the task a bit easier.&lt;/p&gt;
+&lt;p&gt;The cap of tower mills was turned in a similar fashion, by means of a much longer tailpole - reaching to the ground or to the terrace in the case of a tower mill with a stage (&lt;a href=&#34;http://nl.wikipedia.org/wiki/Bestand:Molen_De_Hoop_Appel_kruilier.jpg&#34;&gt;here&lt;/a&gt;). Vent holes were drilled in the sides of the body of the mill – when the wind started blowing through one of these holes, the miller knew that wind direction had changed.&lt;/p&gt;
+&lt;h2 id=&#34;adjusting-the-sails-a-daunting-task&#34;&gt;Adjusting the sails: a daunting task&lt;/h2&gt;
+&lt;p&gt;Adapting to variations in wind velocity was even more challenging. The factory machinery inside the mill required a rather precise operating speed. For instance, corn mills worked best at 50 to 60 sail revolutions per minute. Once surpassing 80 sail revolutions per minute the grain would burn. Another risk was that when sails started turning too fast, the windmill could be destroyed.&lt;/p&gt;
+&lt;p&gt;Again, for centuries, the miller had to do this by hand. Basically, there were two ways to adjust to changing wind speeds. Minor differences in wind velocity could be absorbed inside the mill, by increasing or decreasing the load. For instance, in a corn mill, adapting to a higher wind speed could be done by widening the gap between the milling stones and adding more grain. Because the load is increased, the amount of revolutions of the sails remains more or less the same in spite of the higher wind speed.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Miller-climbes-the-sails-dagboek-van-een-molenaar_dithered.png&#34; alt=&#39;Image: A miller climbs the sails. Source: Dagboek van een molenaar.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A miller climbs the sails. Source: Dagboek van een molenaar. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;When the changes in wind speed became too large, however, the miller had no choice but to get out of the mill and adjust the sails. Traditional windmills were not equipped with blades, but with sails – mostly a wooden framework covered with canvas (in colder climates the canvas was generally replaced by slats of wood, which were easier to handle in freezing conditions).&lt;/p&gt;
+&lt;p&gt;Reefing two or even four sails, or reducing sail area were very effective methods to adjust to higher wind speeds, but these must have been daunting tasks in high winds.&lt;/p&gt;
+&lt;p&gt;At least two sails had to be brought within a vertical position and stopped so that the miller, climbing the sail, could take off the cloth. If the brake failed while the miller was in the sail, he would be in for a spectacular ride. Tying and reefing all four sails was also a standard procedure at the beginning and end of each working day.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During the second half of the eighteenth century, several complex but effective techniques were developed that made it possible for a traditional windmill to be left mostly unattended&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;During the second half of the eighteenth century, several complex but effective techniques were developed that made it possible for a traditional wind mill to be left mostly unattended, at least when it concerned changes in wind speed and direction.&lt;/p&gt;
+&lt;p&gt;In 1745, the English blacksmith Edmund Lee invented the &amp;ldquo;self-regulating wind machine&amp;rdquo; or &amp;ldquo;winding&amp;rdquo;, a device that automatically adapted the positioning of the windmill to the direction of the wind. It consisted of a fantail (two fantails for larger windmills) and a gearwork (illustration below).&lt;/p&gt;
+&lt;p&gt;A fantail can be described as an auxiliary windmill that is mounted behind the main sails, at a right angle to them. If the direction of the wind changes, it hits the fantail, turning the mill until the main sails are again perpendicular to the wind.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/wingding-fantail-mechanism-illustration-Beebe_Windmill_Isometric_of_Machinery_Long_Island_NY_dithered.png&#34; alt=&#39;Image: A fantail. Source: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A fantail. Source: Wikipedia Commons. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Fantail-windmill_dithered.png&#34; alt=&#39;Image: A fantail. Source: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A fantail. Source: Wikipedia Commons. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The fantail is geared down to a travelling wheel in the cap of the tower (in case of a tower mill, above) or around the building (in case of a post mill, see &lt;a href=&#34;http://www.geograph.org.uk/photo/149649&#34;&gt;picture&lt;/a&gt;). Fantails were later used for wind-powered water pumps in the US, but because these machines were much lighter there was no need for a gearwork to turn them.&lt;/p&gt;
+&lt;p&gt;The winding not only made the handling of the mill much easier, it also augmented the power output. A substantial amount of power can get lost because of slight variations in the wind direction, but the miller did not always have the time (or the will) to turn the windmill following every minor change.&lt;/p&gt;
+&lt;h2 id=&#34;automatic-control-spring-and-patent-sails&#34;&gt;Automatic control: spring and patent sails&lt;/h2&gt;
+&lt;p&gt;Around the same time as the fantail and winding were invented, mechanisms started to appear that were aimed at automatically adapting the sails to varying wind speeds. This led to the development of the so-called “spring-sail” in 1772, invented by Scottish millwright Andrew Meikle. On a spring sail, the sailcloth is replaced by dozens of shutters like those of a Venetian blind. Each shutter is controlled by a spring.&lt;/p&gt;
+&lt;p&gt;As the wind increases, it overcomes the force of the spring and the shutter will open, letting the wind through and slowing down the sails. The stronger the wind, the more the shutters will open. When the wind speed decreases, the shutters will be closed by the spring, again forming one uninterrupted surface. All of this results in having sails with a similar rotation speed at any wind velocity.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Drawing-patent-sails-William-Cubitt_dithered.png&#34; alt=&#39;Image: Patent sails.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Patent sails. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Spring-sails-polish-windmills_dithered.png&#34; alt=&#39;Image: Spring sails.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Spring sails. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Roller-reefing-sails-detail_dithered.png&#34; alt=&#39;Image: Roller reefing sails.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Roller reefing sails. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The problem with spring-sails is that the tensions of the springs (which are all connected to each other by means of a long pole) have to be adjusted beforehand depending on the expected wind speed and the power needed. Once set, it is impossible to make adjustments while the sails are turning.&lt;/p&gt;
+&lt;p&gt;This was solved in 1789 by Stephen Hooper, who introduced blinds that could be adjusted with a manual chain from the ground without stopping the mill (&amp;ldquo;roller reefing sails&amp;rdquo;). However, the system was too complicated.  The final improvement to self-reefing sails came in 1807 when William Cubit attached counterweights to the adjustment chain of spring sails, making the control of the sails fully automatic without the complexity of the roller reefing method – these were called “&lt;a href=&#34;http://www.shipleywindmill.org.uk/images/jc162.jpg&#34;&gt;patent sails&lt;/a&gt;”.&lt;/p&gt;
+&lt;h2 id=&#34;berton-sails&#34;&gt;Berton sails&lt;/h2&gt;
+&lt;p&gt;The only problem left was that patent sails had a lower efficiency than normal sails, and as a result it was common to combine two patent sails with two normal sails as a compromise between handling and efficiency.&lt;/p&gt;
+&lt;p&gt;In 1848, the Frenchman Berton replaced the many small shutters by fewer longitudinal shutters operating according to the same principle, an intriguing method that gave a sturdier construction and a better aerodynamic performance (&amp;quot;&lt;a href=&#34;http://www.moulins-a-vent.net/Moulins/cercles.htm&#34;&gt;Berton Sails&lt;/a&gt;&amp;quot;, see picture below).&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Berton-sails_dithered.png&#34; alt=&#39;Image: Berton sails.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Berton sails. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Moreover, the system could be adjusted by the miller from inside the cap of the mill. In 1860, Catchpole introduced air brakes, which were a very effective means to automatically slowing down the sails in a gale. Inside the mill, an automatic centrifugal governor replaced the manual adapting of the distance between the milling stones.&lt;/p&gt;
+&lt;p&gt;Of course, self-reefing sails and other automatic systems did not solve the problem of windless days - that is why the miller worked day and night when there was a good breeze. Millers were even exempt from Sunday&amp;rsquo;s rest.&lt;/p&gt;
+&lt;p&gt;As was the case with the fantail, self-reefing sails did not only improve the handling of the windmill, but also the power output. Because there was no longer a need for the miller to stand on the ground to fix or unfurl the sails, the wind shaft could be installed much higher so that the mill could benefit from higher wind speeds (the Dutch had solved this issue before by constructing tower mills where the sails could be reefed from a stage at a higher level).&lt;/p&gt;
+&lt;h2 id=&#34;power-output-of-a-windmill&#34;&gt;Power output of a windmill&lt;/h2&gt;
+&lt;p&gt;Another important improvement was the introduction of cast iron for the manufacture of the gearwork. This happened in 1755, only ten years after the introduction of the winding, by John Smeaton. For centuries, all gears inside the mill were made of wood. This resulted in serious energy losses.&lt;/p&gt;
+&lt;p&gt;Measurements performed by the Dutch in the 1930s, on a drainage windmill constructed in 1648, showed that the mill generated around 40 horsepower at the windshaft but only 15.6 horsepower at the machines – an efficiency of only 39 percent. Almost two thirds of the generated power was lost in the transmission. Drainage mills had a slightly higher efficiency of around 50 percent.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Windmills with wood gearings had an efficiency of only 39 percent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The use of cast-iron (and later iron) did not only improve the efficiency of the gearwork, but also allowed for the construction of larger windmills. The use of wood limited the diameter of the sails to around 30 meters – already common in the 1600s.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Wooden-gearwork-windmill_dithered.png&#34; alt=&#39;Image: The wooden gearwork of a windmill.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The wooden gearwork of a windmill. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The maximum length of a stock (more than twice the length of one sail) was around 30 metres (100 feet) because there were no larger trunks available. Only in the second half of the nineteenth century iron stocks came to be used for the sails and for the windshaft.&lt;/p&gt;
+&lt;h2 id=&#34;innovations-came-too-late&#34;&gt;Innovations came too late&lt;/h2&gt;
+&lt;p&gt;Unfortunately, the many important improvements of windmill technology came too late. Already at the end of the 1700s, around the same time that these innovations appeared, the first corn mill switched from wind power to steam power – and to the black smoke that came with it.&lt;/p&gt;
+&lt;p&gt;Around 1850, steam powered mills became more common and the importance of windmills started to decline. To make things worse, fantails, self-reefing sails and iron stiffening were slow to catch on - in many countries and regions they were never even used.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Murphy-mill-San-Francisco_dithered.png&#34; alt=&#39;Image: The Murphy mill in San Francisco.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The Murphy mill in San Francisco.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Berton sails were only applied in France, patent sails were mainly used in England. Although iron stocks allowed for the construction of larger sails, that never happened. The highest tower mill ever constructed was made entirely out of wood. It was standing in the Netherlands and was constructed in 1899 (&amp;ldquo;De Hoop&amp;rdquo; or &amp;ldquo;The Hope&amp;rdquo; in Prinsenhagen, now the city of Breda). It stood 38 metres (125 ft) tall, with sails around 27
+metres (88.5 ft) in diameter. The cap and sails were removed in 1929 but the tower is still there.&lt;/p&gt;
+&lt;h2 id=&#34;largest-windmill-ever-built&#34;&gt;Largest windmill ever built&lt;/h2&gt;
+&lt;p&gt;The two Dutch windmills with the largest sail diameter are standing in the &lt;a href=&#34;http://www.windmillworld.com/world/california.htm&#34;&gt;Golden Gate Park in San Francisco&lt;/a&gt;, built between 1903 and 1905. The largest one, the &amp;ldquo;Murphy Windmill&amp;rdquo;, stands 29
+metres (95 ft) tall with sails 35 metres (114 ft) across. The stocks were cut from one single log - the US had larger trees. But its gearwork is made entirely of cast iron and that shows: the mill pumped up to 150,000 litres (40,000 gallons) of water per day to irrigate the park. The Murphy Mill was replaced by an electrical engine some years later and fell into disrepair.&lt;/p&gt;
+&lt;p&gt;The decline of the windmill was slow, especially in the Netherlands -
+the Dutch even preferred windmills with &lt;a href=&#34;http://www.notechmagazine.com/2009/04/hybrid-windmill.html&#34;&gt;auxiliary steam engines&lt;/a&gt; over fully steam powered mills. More than 6 million wind powered waterpumps (with annular sails) would be built in the United States between the 1850s and the 1930s, but elsewhere few windmills were erected after 1900. The attention shifted to wind turbines generating electricity, and that has remained so ever since.&lt;/p&gt;
+&lt;h2 id=&#34;impressive-improvements-in-the-1920s-and-1930s&#34;&gt;Impressive improvements in the 1920s and 1930s&lt;/h2&gt;
+&lt;p&gt;In the 1920s and 1930s, however, when windmills had stopped working almost everywhere in Europe, the Dutch started a research program that led to the final development of the classical windmill. In 1923, the “Dutch Windmill Society” was founded, with the mission to improve the performance of windmills generating mechanical energy. Among the members were famous millwright builders like the Dekker Brothers. The results were spectacular.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The maximum power output of a windmill was doubled from 50 to 100
+horsepower at the end of the 1920s&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Through the application of aeronautical principles and the use of sheet metal (basically equipping traditional windmills with sails somewhat similar to the blades of modern wind turbines) the maximum power output of a windmill was doubled from 50 to 100 horsepower at the end of the 1920s.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Dekkerwiek-wikipedia-commons_dithered.png&#34; alt=&#39;Image: A &amp;amp;quot;dekkerized&amp;amp;quot; sail.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A \&#34;dekkerized\&#34; sail.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;More than 70 windmills were equipped with the new &amp;ldquo;Dekkerized sails&amp;rdquo; during the following decade. Moreover, improvements in the gearwork slashed energy losses and allowed for windmills to generate much more power at lower wind speeds.&lt;/p&gt;
+&lt;h2 id=&#34;doubling-energy-output&#34;&gt;Doubling energy output&lt;/h2&gt;
+&lt;p&gt;Tests conducted in 1939 by the “Prinsenmolen Committee” showed that an improved windmill would start to turn with a wind speed of 3.5 to 4 m/s
+(7.75 to 9 mph) compared to 5 to 6 m/s (11 to 13.5 mph) for the old design. At 5.5 m/s (12.5 mph) their power was found to be equal to that of a normal mill at 8 m/s (18 mph).&lt;/p&gt;
+&lt;p&gt;This meant that while a traditional windmill could be worked for around 2,671 hours per year in the Netherlands, the new streamlined design could be operated for 4,442 hours per year – more or less doubling the annual energy output.&lt;/p&gt;
+&lt;p&gt;The improved windmill had two advantages; a greater output at a given wind speed, and longer working hours by utilizing lighter winds. The gain was especially found in lower wind speeds, because with stronger winds the sails of the improved windmill had to be reefed sooner.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/windmill-bilau-system-Harmannus-Noot_dithered.png&#34; alt=&#39;Image: an improved windmill.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: an improved windmill. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Windmill-aerodynamic-wings_dithered.png&#34; alt=&#39;Image: an improved windmill.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: an improved windmill. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;More improvements during the 1930s by Chris van Bussel, Kurt Bilau, G.J. Ten Have, Van Riet, P.L. Fauël, Sabinin and Yurieff led to a windmill, installed in 1940 and demolished in 1960, with up to two and a half times the power output of windmills with traditional sails: 125
+horsepower.&lt;/p&gt;
+&lt;p&gt;Next, the Second World War stopped further investigations and after the war, like the rest of the world, the Dutch shifted their attention to the generation of electricity.&lt;/p&gt;
+&lt;h2 id=&#34;revert-to-traditional-windmills&#34;&gt;Revert to traditional windmills?&lt;/h2&gt;
+&lt;p&gt;Today, windmills and waterwheels that convert kinetic energy directly into mechanical energy are considered obsolete, and while some have survived, few of them have any commercial function in developed countries. Wind turbines now turn renewable energy into electricity, which might later be converted back to mechanical energy.&lt;/p&gt;
+&lt;p&gt;Of course it is impossible to operate a flat screen television or a laptop with mechanical energy, but many other processes could in principle still be driven in that old-fashioned way. Grain still has to be ground, wood still has to be sawn, seeds still have to be pressed, but now we use electricity to drive machines that perform the same processes. This electricity can be generated by means of modern wind turbines, or other renewable energy sources, and that is the future that everybody has in mind.&lt;/p&gt;
+&lt;h2 id=&#34;embodied-energy&#34;&gt;Embodied energy&lt;/h2&gt;
+&lt;p&gt;However, there are some reasons that might make it interesting to revert to a direct conversion from kinetic to mechanical energy. For one thing, it is more efficient because the intermediate step of generating electricity &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/05/bike-powered-electricity-generators-are-not-sustainable/&#34;&gt;causes conversion losses&lt;/a&gt;. This means that we have to build less renewable energy plants to get the same work done. Planting a few million high-tech wind turbines, covering deserts with &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/03/the-ugly-side-of-solar-panels/&#34;&gt;solar plants&lt;/a&gt; and developing a smart grid all sound attractive, but the most important question is whether there are enough material, energy and financial resources available to make those dreams ever come true.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Traditional windmills could be improved substantially with today’s
+knowledge and materials&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Available data on the reserves of exotic resources required for many eco-technologies &lt;a href=&#34;http://www.notechmagazine.com/resources/&#34;&gt;look grim&lt;/a&gt;, and some time ago it was heard that China (the main producer of important ecotech metals) plans to &lt;a href=&#34;http://www.energybulletin.net/50020&#34;&gt;restrict&lt;/a&gt; the export of those metals. Windmills that convert kinetic energy directly to mechanical work could be operated without exotic materials.&lt;/p&gt;
+&lt;h2 id=&#34;high-tech-traditional-windmills&#34;&gt;High-tech traditional windmills&lt;/h2&gt;
+&lt;p&gt;On a more positive note, traditional windmills could be improved substantially with today’s knowledge and fairly common materials. The gearings and sails could be made of steel or aluminum, which would seriously improve efficiency and also make windmills fireproof. Being made entirely or in large part of wood, many windmills were destroyed by fire. Of course, also the factory machinery inside the mill could be made much more efficient now.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/images/dithers/Windmolen-Noletmolen-Robert-Van-t-Geloof_dithered.png&#34; alt=&#39;Image: The Noletmolen, built in 2005.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The Noletmolen, built in 2005. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Windmills could be built much larger and thus more powerful. To give an indication; in 2005, the Dutch built another traditional windmill, that generates electricity - the &amp;ldquo;&lt;a href=&#34;http://www.molendatabase.nl/nederland/molen.php?nummer=1280&#34;&gt;Noletmolen&lt;/a&gt;&amp;rdquo;
+in Schiedam. It stands almost 42 metres tall with sails 30 metres across, slightly less than the Murphy Mill in San Francisco.&lt;/p&gt;
+&lt;p&gt;It was built for promotional purposes by a distillery (the town hosts 5 more historical mills built to produce Dutch gin). Although the mill is not really a &amp;ldquo;mill&amp;rdquo;, it is built according to a traditional design, but using high-tech materials and sails (picture above). The result is a power output of more than 200 horsepower at the windshaft. Take that, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/04/small-windmills-put-to-the-test/&#34;&gt;Energy Ball&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;ecotech-treatment&#34;&gt;Ecotech treatment&lt;/h2&gt;
+&lt;p&gt;Backup power for a traditional windmill could be delivered by an electrical motor instead of horses (or we could just work when the wind blows). There is no doubt that now, 70 years later, an army of ecotech geeks could still seriously improve the Dutch experiments from the 1930s. The results might not look as romantic as a traditional windmill, but very useful.&lt;/p&gt;
+&lt;p&gt;Of course, this is not a plea to eliminate electricity-generating wind turbines or even the electricity infrastructure altogether. But, some things might be more efficiently done with direct conversion of kinetic energy to mechanical energy.&lt;/p&gt;
+&lt;h2 id=&#34;sources-in-order-of-importance&#34;&gt;Sources (in order of importance)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/dp/052156686X/?tag=lowtemagaz-20&#34;&gt;Power from Wind: A History of Windmill     Technology&lt;/a&gt;&amp;rdquo;, Richard L. Hills, 1994.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Molens&amp;rdquo;, Frederick Stokhuyzen, 1962 (English summary     &lt;a href=&#34;http://www.nt.ntnu.no/users/haugwarb/DropBox/The%20Dutch%20Windmill%20Stokhuyzen%201962.htm&#34;&gt;here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Research inspired by the Dutch windmills: An account of an     extensive programme of research and     development&amp;rdquo;, The Prinsenmolen Committee, 1966&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Histoire générale des techniques&amp;rdquo;, Maurice Dumas, 1964&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.molendatabase.nl&#34;&gt;Molendatabase&lt;/a&gt;&amp;rdquo; – pictures and     descriptions (in Dutch) of windmills in the Netherlands.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/naturalsourcesp00ballgoog&#34;&gt;Natural sources of     power&lt;/a&gt;&amp;rdquo;,
+Robert Steele Ball (1908)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.dbnl.org/tekst/lint011gesc01_01/lint011gesc01_01_0003.htm&#34;&gt;Geschiedenis van de techniek in Nederland, de wording van een     moderne samenleving     1800-1890&lt;/a&gt;&amp;rdquo;,
+H.W. Lintsen, 1992&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://nl.wikipedia.org/wiki/Gevlucht&#34;&gt;Gevlucht&lt;/a&gt;&amp;rdquo;, Wikipedia Dutch&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;History of technology&amp;rdquo;, &amp;ldquo;Energy conversion&amp;rdquo; and &amp;ldquo;Windmills&amp;rdquo;,
+&lt;a href=&#34;http://www.britannica.com/&#34;&gt;Encyclopedia Britannica&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/dp//0415147921/?tag=lowtemagaz-20&#34;&gt;An Encyclopedia of the History of Technology (Routledge Companion     Encyclopaedias)&lt;/a&gt;&amp;rdquo;, Ian McNeil, 1990&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/dp/9004146490/?tag=lowtemagaz-20&#34;&gt;Wind, Water, Work: Ancient And Medieval Milling Technology     (Technology and Change in     History)&lt;/a&gt;&amp;rdquo;, Adam Lucas, 2005&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/dp/0849325099/?tag=lowtemagaz-20&#34;&gt;Handbook of Fluid     Dynamics&lt;/a&gt;&amp;rdquo;, Richard W. Johnson, 1998&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/windmillasaprim00wolfgoog&#34;&gt;The windmill as prime     mover&lt;/a&gt;&amp;rdquo;,
+Alfred R. Wolff, 1885&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.archive.org/details/anexperimentale00smeagoog&#34;&gt;An experimental enquiry concerning the natural powers of water and     wind to turn     mills&lt;/a&gt;&amp;rdquo;,
+John Smeaton, 1760&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Groot Volkomen Moolenboek&amp;rdquo;, 1734&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.penterbak.nl/&#34;&gt;Penterbak&lt;/a&gt;&amp;rdquo; - pictures&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.industriemolens.nl/&#34;&gt;Industriemolens&lt;/a&gt;&amp;rdquo; - pictures of     industrial windmills in the Netherlands -   &amp;ldquo;&lt;a href=&#34;http://theweald.org/bk.asp?BookId=wind900&amp;amp;xid=A&amp;amp;xnm=1&#34;&gt;Windmills in     Sussex&lt;/a&gt;&amp;rdquo;,
+Peter Hemming, 1936&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://ia311321.us.archive.org/2/items/WindmillsInHolland/WIH2.pdf&#34;&gt;Windmills in     Holland&lt;/a&gt;&amp;rdquo;, K.     Boonenburg, 1951 (pdf)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Windmill_sail&#34;&gt;Windmill sail&lt;/a&gt;&amp;rdquo;,
+Wikipedia English&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.scielo.org.ve/scielo.php?pid=S0378-18442005000600004&amp;amp;script=sci_arttext&#34;&gt;Origen y expansion de los molinos de viento en     Espana&lt;/a&gt;”,
+José Ignacio Rojas Sola y Juan Manual Amezcua Ogayar, Interciencia,     Vol.30, 2005&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.lse.ac.uk/collections/economicHistory/Epstein%20Memorial%20Conference/PAPER-Langdon.pdf&#34;&gt;The windmill: a medieval steam     engine?&lt;/a&gt;&amp;rdquo;,
+John Langdon (pdf) -   &amp;ldquo;&lt;a href=&#34;http://www.amazon.com/dp/0521296811/?tag=lowtemagaz-20&#34;&gt;The Evolution of Technology (Cambridge Studies in the History of     Science&lt;/a&gt;&amp;rdquo;,
+George Basalla, 1989&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Windkraftanlagen: grundlagen, technik, einsatz,     wirtschaftlichkeit&amp;rdquo;, Eric Hau, 2003&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.erih.net/welcome.html&#34;&gt;European Route of Industrial     Heritages&lt;/a&gt;&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Les soins de santé high-tech sont-ils écologiquement durables ? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Les soins de santé high-tech sont-ils écologiquement durables ?" />
+<meta name="twitter:title" content="Les soins de santé high-tech sont-ils écologiquement durables ?"/>
+
+<meta property="og:description" content="Peut-on rendre les soins de santé modernes carboneutres tout en maintenant les niveaux de soins, de soulagement de la douleur et de longévité au niveau d’aujourd’hui, que nous considérons comme des acquis ?" />
+
+<meta name="twitter:description" content="Peut-on rendre les soins de santé modernes carboneutres tout en maintenant les niveaux de soins, de soulagement de la douleur et de longévité au niveau d’aujourd’hui, que nous considérons comme des acquis ?"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-18T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy Demand" />
+
+</head>
+<body id="les-soins-de-sant%C3%A9-high-tech-sont-ils-%C3%A9cologiquement-durables">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/fr/solar/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Les soins de santé high-tech sont-ils écologiquement durables ?</h1>
+
+				<p class="summary">
+					Peut-on rendre les soins de santé modernes carboneutres tout en maintenant les niveaux de soins, de soulagement de la douleur et de longévité au niveau d’aujourd’hui, que nous considérons comme des acquis ?
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">18 février 2021</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/fr/translators/maxime-pinsard/">Maxime Pinsard</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2021/02/how-sustainable-is-high-tech-health-care/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2021/02/how-sustainable-is-high-tech-health-care/">nl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" alt='Le chirurgien, un tableau de David Teniers, années 1670.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/the-surgeon_hu7f84c852cd2818486870615a2cb3ee70_238940_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Le chirurgien, un tableau de David Teniers, années 1670.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="lempreinte-environnementale-du-secteur-de-la-santé">L&rsquo;empreinte environnementale du secteur de la santé</h2>
+<p>Les soins de santé sont l&rsquo;un des secteurs économiques les plus importants dans les pays riches, mais leur empreinte environnementale a été peu documenté et est souvent négligée. La plupart des recherches sur les soins de santé durables datent de moins de cinq ans. Une publication de 2019 a calculé que le secteur représente de 2 à 10 % des empreintes carbone nationales dans tous les pays de l&rsquo;OCDE, en Chine et en Inde, en moyenne 5,5 % dans l&rsquo;ensemble. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Ces données concernent l’année 2014, époque à laquelle les soins de santé de ces 36 pays réunis étaient alors responsables de 1,6 Gt d’émissions de gaz à effet de serre. Cela correspond à 4,4 % des émissions totales mondiales cette année-là (35,7 Gt) – soit presque le double de l’aviation. Les États-Unis ont le système de soins de santé le plus carboné, représentant jusqu’à 10 % des émissions nationales. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Il produit également 9 % de la pollution atmosphérique nationale, 12 % des pluies acides et 10 % de la formation de
+smog au niveau national.</p>
+<p>L’empreinte environnementale du secteur de la santé ne cesse d’augmenter. Par exemple, aux États-Unis, les émissions de gaz à effet de serre de ce secteur ont augmenté de 30 % entre 2003 et 2013. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Cette augmentation des émissions va de pair avec une augmentation des dépenses – en fait, les émissions sont souvent calculées en fonction des dépenses. Aux États-Unis, les dépenses nationales de santé en pourcentage du produit intérieur brut (PIB) sont passées de 3 % en 1930, à 5 % en 1960, 10 % en 1983, 15 % en 2002 et 17,7 % en 2019. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Dans l’UE, les dépenses de santé par habitant ont plus que doublé entre 2000 et 2018 et les dépenses totales représentent désormais 9,9 % du PIB. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<blockquote>
+<p>Si le monde entier devait copier le système de santé américain, l&rsquo;empreinte carbone mondiale de ce secteur atteindrait environ 16 GtCO2e, soit près de la moitié du total des émissions mondiales en 2014.</p>
+</blockquote>
+<p>Les 36 pays dont les systèmes de soins sont responsables des 4,4 % des émissions mondiales ne comptent que 54 % de la population mondiale. Les 46 % des gens restants produisent peu ou pas d’émissions liées aux soins de santé car ils n’y ont pas accès. Si nous devions étendre à l’échelle mondiale le système de soins de santé de l’OCDE, la Chine et l’Inde réunis, les émissions doubleraient pour atteindre environ 8 % du total mondial. En outre, il existe de très grandes différences entre ces 36 pays. Si le monde entier devait copier le système de santé américain, l&rsquo;empreinte carbone mondiale de ce secteur atteindrait environ 16 GtCO2e, soit près de la moitié du total des émissions mondiales en 2014.</p>
+<h2 id="eclairages-intenses-équipements-médicaux-puissants">Eclairages intenses, équipements médicaux puissants</h2>
+<p>Pourquoi les soins de santé modernes sont-ils si gourmands en ressources ? <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Tout d’abord, les hôpitaux modernes sont de gros consommateurs d’énergie, principalement en raison des consommations électriques importantes des appareils médicaux, de l’éclairage, de la ventilation et de la climatisation. <sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup><sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> Dans les salles d’opération, la forte consommation d’énergie
+est principalement due à l’utilisation de projecteurs d’éclairage intenses et à un traitement de l’air de ventilation pour le rendre ultra propre. Dans les unités de soins intensifs et les services d’imagerie médicale, les équipements médicaux dominent la consommation électrique. <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/operating-room_dithered.png" alt='Salle d&amp;rsquo;opération à la pointe de la technologie. iStock.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/operating-room_huf0e28cf846c6f167096c88f974a5e3d3_1731236_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/operating-room_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Salle d&rsquo;opération à la pointe de la technologie. iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/MRI-scanner-3T_dithered.png" alt='Un scanner IRM à Taipei, Taiwan (2006). Image: Kasuga Huang (CC BY-SA 3.0).' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/MRI-scanner-3T_huf9e3d860c26df325d30108cef7b03427_195573_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/MRI-scanner-3T_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un scanner IRM à Taipei, Taiwan (2006). Image: Kasuga Huang (CC BY-SA 3.0).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Comme tant d’autres secteurs de la société moderne, les soins de santé en sont venus à dépendre de toutes sortes de machines et d’appareils. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Certains de ces équipements médicaux consomment beaucoup d’électricité. Par exemple, un scanner IRM (Imagerie à Résonnance Magnétique), l’une
+des technologies d’imagerie médicale les plus avancées, peut consommer autant d’électricité que plus de 70 ménages européens moyens. Une étude réalisée en 2020 a calculé que les technologies d’imagerie médicale de pointe (scanners IRM et CT) étaient responsables de 0,77 % des émissions mondiales de carbone en 2016. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>La consommation d’énergie des petits équipements médicaux est peu étudiée, mais un inventaire de deux hôpitaux américains a montré qu’ils comptaient respectivement 14 648 et 7 372 appareils consommateurs d’énergie, dont des pompes à perfusion consommant à elles seules plus d’électricité qu’un scanner IRM. <sup id="fnref1:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> La forte densité d’équipements médicaux augmente également la consommation d’électricité de la climatisation dans les hôpitaux. <sup id="fnref2:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h2 id="utilisation-des-ressources-le-long-de-la-chaîne-dapprovisionnement">Utilisation des ressources le long de la chaîne d&rsquo;approvisionnement</h2>
+<p>Une quantité encore plus importante d’énergie – environ 60 % du total – est utilisée indirectement le long de la chaîne d’approvisionnement. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref3:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref1:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> Cela concerne l’achat d’équipements médicaux, de produits pharmaceutiques et d’autres produits liés au soin.</p>
+<p>Tout d’abord, des dispositifs médicaux utilisés, en nombre toujours plus grand dans les hôpitaux, doivent être fabriqué et mis sur le marché. Cela nécessite des activités telles que l’extraction de ressources, la construction et le fonctionnement de laboratoires de recherche mais aussi d’usines et de véhicules de transport. Cette « énergie grise » (intrinsèque) de la chaîne d’approvisionnement en équipements médicaux a été très peu étudiée. Des résultats de recherche montrent que la fabrication d’un scanner IRM nécessite plus de la moitié des combustibles fossiles utilisés pour la production d’un avion de ligne et que cette énergie grise représente un tiers de la consommation
+totale d’énergie de l’appareil. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup></p>
+<p>Les soins de santé modernes sont également très dépendants des produits pharmaceutiques, représentant entre 10 et 25 % des émissions totales des soins de santé, selon le pays. <sup id="fnref1:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Une étude de 2019 a révélé que l’industrie pharmaceutique mondiale produisait plus de gaz à effet de serre que
+l’industrie automobile : 52 MtCO2 contre 46 MtCO2. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> Cependant, il n’existe pratiquement aucune donnée sur l’empreinte environnementale de produits pharmaceutiques spécifiques, car les entreprises gardent leurs secrets, empêchant les scientifiques de réaliser des analyses de cycle de vie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/pharma-lab_dithered.png" alt='Laboratoire de fabrication pharmaceutique. Source: iStock.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/pharma-lab_hud7157c85aacb3958788c28117ade2f62_1321010_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/pharma-lab_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Laboratoire de fabrication pharmaceutique. Source: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/gloves-production_dithered.png" alt='Chaîne de production de gants en caoutchouc. Source: iStock.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/gloves-production_hube76377ea6bf020044a17244d5f19d1f_2121038_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/gloves-production_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Chaîne de production de gants en caoutchouc. Source: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/mask-production_dithered.png" alt='Chaîne de production de masques faciaux. Source: iStock.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/mask-production_hu3dd7e78b0d2fc61458222eedaf80dcd2_1587190_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/mask-production_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Chaîne de production de masques faciaux. Source: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les produits jetables à usage unique sont une autre source de consommation d’énergie et de pollution dans le secteur de la santé. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup><sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup><sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup><sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup><sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup><sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> Ces produits sont portés par le personnel médical et les patients (masques, gants, couvre-chaussures, chapeaux, draps, blouses). Les serviettes, les lavabos, les emballages plastiques stériles et les ustensiles tels que les seringues, les manches et les lames de laryngoscopes, les circuits respiratoires d’anesthésie et même les instruments chirurgicaux sont également fournis à usage unique. Ils sont distribués aux hôpitaux dans ce que l’on appelle des emballages personnalisés, qui sont des ensembles de produits stériles préemballés pour toute procédure médicale spécifique imaginable. En principe, dès qu’un emballage est ouvert, tous les articles sont jetés, même s’ils n’ont pas été utilisés.</p>
+<p>Lorsque ces pratiques sont remises en question, c’est souvent pour les déchets hospitaliers qu’elles génèrent – un patient moyen dans un hôpital produisant au moins 10 kg de déchets par jour. <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> Cependant, l’empreinte environnementale augmente considérablement si l’on tient également compte de l’énergie grise et des déchets de la chaîne d’approvisionnement pour la fabrication de ces produits jetables. Une étude sur la chirurgie de la cataracte au Royaume-Uni – la cataracte étant la principale cause de cécité dans le monde – montre que la fabrication de matériaux jetables représente plus de
+la moitié de l’empreinte carbone totale de la procédure. <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<h2 id="anesthésiques-et-vaccins">Anesthésiques et vaccins</h2>
+<p>Enfin, certains médicaments spécialisés sont également source d’émissions. Les anesthésiques par inhalation, qui endorment le système nerveux central et constituent la pierre angulaire de la chirurgie, sont de puissants gaz à effet de serre qui s’évaporent dans l’atmosphère après avoir été inhalés par le patient (évacués à l’extérieur par les systèmes de ventilation énergivores des salles d’opération modernes). <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> Maintenir un adulte de 70 kg en état d’anesthésie pendant une heure produit de 25 kg (avec l’isoflurane) à 60 kg (avec le desflurane) d’équivalents CO2, ce qui correspond aux émissions d’une voiture européenne moyenne (121 gCO2/km) pendant 200 à 500 km (ou à conduire pendant environ 4 heures). <sup id="fnref2:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<p>Les inhalateurs à dose pressurisée, qui sont utilisés pour traiter l’asthme et les maladies pulmonaires obstructives chroniques, libèrent également de puissants gaz à effet de serre. Dans le monde, environ 800 millions d’inhalateurs à dose pressurisée sont fabriqués chaque année, avec une empreinte carbone totale correspondant aux émissions annuelles de plus de 12 millions de voitures. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup><sup id="fnref1:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> Les vaccins sont un autre élément-clé des soins de santé modernes. Ils génèrent des émissions de carbone non seulement à travers leur développement et leur production, mais aussi de par leur distribution gourmande en ressources qui implique une chaîne du froid spécifique (dont
+l’empreinte environnementale n’est que peu quantifiée, je n’ai pu trouver aucune source en traitant).</p>
+<h2 id="empreinte-carbone-des-procédures-médicales">Empreinte carbone des procédures médicales</h2>
+<p>Les services de soins de santé impliquent d’habitude toutes les sources d’émissions que l’on a mentionnées : dispositifs médicaux, produits pharmaceutiques et matériaux jetables. Lorsque les émissions dans les hôpitaux et le long de la chaîne d’approvisionnement sont combinées, il devient possible de calculer l’empreinte environnementale des procédures médicales en tant que tel.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cardiac-surgery_dithered.png" alt='Salle d&amp;rsquo;opération en chirurgie cardiaque, 2020. Source: iStock.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/cardiac-surgery_hue5eb979a8d63e9eacee154ec171e9a06_1948462_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cardiac-surgery_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Salle d&rsquo;opération en chirurgie cardiaque, 2020. Source: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Par exemple, des études au Royaume-Uni sur la chirurgie de la cataracte et celle de contrôle du reflux gastro-œsophagien ont estimé une empreinte carbone de 182 kg et 1 tonne d’émissions, respectivement, ce qui correspond à 1 517 km et 8 333 km en voiture. <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup><sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> La dialyse rénale, un traitement visant à remplacer la fonction rénale, produit de 1,8 à 7,2 tonnes d’émissions par patient et par an, ce qui correspond aux émissions de 15 000 à 60 000 km en voiture. <sup id="fnref1:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup><sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup></p>
+<h2 id="les-limites-du-bas-carbone-et-de-lefficacité-énergétique">Les limites du bas carbone et de l’efficacité énergétique</h2>
+<p>Bien que les données sur leur empreinte environnementale soient encore incomplètes, il semble assez clair que les soins de santé modernes ne sont pas compatibles avec une transition vers une société à faibles émissions de carbone. Toute la question est de savoir s’il est possible d’y remédier sans
+diminuer les niveaux de soins, de soulagement de la douleur et de longévité auxquels les habitants des pays riches se sont habitués.</p>
+<p>De nombreux efforts et études sur la durabilité des soins de santé visent à réduire la consommation d’énergie et les émissions sans affecter la qualité des traitements médicaux, souvent de manière explicite. Par exemple, les auteurs d’une étude réalisée en 2020 sur le système de santé autrichien écrivaient qu’il est « crucial de comprendre comment le secteur des soins de santé peut réduire ses émissions sans nuire à la qualité de ses services ». <sup id="fnref2:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Ailleurs, des chercheurs écrivent que « toute solution qui réduirait les impacts environnementaux tout en réduisant les performances ne pourrait être déployée ». <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
+<p>Par conséquent, de nombreux chercheurs ont tendance à se concentrer sur l’amélioration de l’efficacité carbone et énergétique. Ces stratégies visent à fournir les mêmes « performances » ou la même « qualité de service » mais avec moins d’énergie (grâce à des équipements moins énergivores) ou avec moins d’émissions de GES (grâce à plus d’énergies de sources renouvelables). <sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup></p>
+<blockquote>
+<p>La qualité des traitements médicaux ne cesse de s&rsquo;améliorer, entraînant une consommation d&rsquo;énergie toujours plus élevée qui annule les gains en carbone et en énergie obtenus via l’efficacité.</p>
+</blockquote>
+<p>Le problème est que la qualité des traitements médicaux ne cesse de s’améliorer, entraînant une consommation d’énergie toujours plus élevée qui annule les économies résultant de progrès de l’efficacité énergétique et de la décarbonation. Par exemple, en 2012, des chercheurs ont calculé que les scanners IRM pouvaient être rendus 10 à 20 % plus efficaces sur le plan énergétique grâce à des changements relativement simples dans leur conception et leur fonctionnement. <sup id="fnref1:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup> Certains des changements qu’ils ont proposés sont désormais utilisés, mais la consommation d’énergie des scanners IRM n’a pas diminué, bien au contraire.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/medical-scientist_dithered.png" alt='Scientifique travaillant sur la guérison des tumeurs cérébrales dans un centre de Recherche. Source: iStock.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/medical-scientist_hu85089eeb0610300b72563c70cb32b8b2_2027703_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/medical-scientist_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Scientifique travaillant sur la guérison des tumeurs cérébrales dans un centre de Recherche. Source: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Une première raison est que les scanners IRM sont désormais dotés d’une intensité de champ plus élevée (ce qui permet d’obtenir des images diagnostiques plus précises) et de trous de forage plus larges (ce qui améliore le confort du patient et permet de scanner des patients obèses ou à forte musculature). Ces innovations ont amélioré la qualité des soins, mais au prix d’une consommation d’énergie plus élevée. Dans l’étude de 2012, la consommation moyenne d’énergie par scan avant les améliorations de l’efficacité énergétique était de 15 kWh. Une étude de 2020 a mesuré une consommation d’énergie de 17 kWh et 23,6 kWh par balayage pour des scanners IRM avec un champ de 1,5 et 3 Teslas respectivement. <sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup></p>
+<p>De plus, les scanners IRM dotés de meilleures capacités de diagnostic augmentent également la consommation d’énergie de manière inattendue, car les équipements médicaux, les produits pharmaceutiques et les traitements s’entre-définissent et se modifient mutuellement. <sup id="fnref:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup> Par exemple, les médecins avaient l’habitude de diagnostiquer un patient avec un examen physique et en lui posant des questions mais n’utilisaient des équipements médicaux que pour confirmer leur diagnostic, si nécessaire. Aujourd’hui, les diagnostics sont effectués en amont via des machines et déterminent le processus de décision, ce qui entraîne une augmentation du nombre de tests et de l’énergie consommée. L’introduction de nouveaux produits pharmaceutiques peut également favoriser des pratiques de diagnostic de plus en plus énergivores. Par exemple, certains médicaments contre le cancer sont désormais conçus pour traiter un sous-type de tumeur très spécifique, ce qui nécessite une
+imagerie médicale de plus en plus précise pour identifier ce sous-type. <sup id="fnref1:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup></p>
+<p>L’introduction de davantage d’énergie de sources renouvelables pourrait potentiellement réduire les émissions des soins de santé sur place et tout au long de la chaîne d’approvisionnement, mais comme la consommation d’énergie des traitements médicaux continue d’augmenter, ce résultat est peu probable. En outre, un calcul rapide montre que, même sans croissance supplémentaire de la consommation d’énergie, un système de santé américain neutre en carbone absorberait la totalité de la production américaine
+d’énergie renouvelable – soleil, vent, hydroélectricité, bois, géothermie, biocarburants et déchets. <sup id="fnref:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup> Le défi est à peine moins important dans les autres pays riches. Enfin, une énergie renouvelable ne résoudrait pas tous les dommages environnementaux du secteur des soins de santé et n’éliminerait
+même pas toutes ses émissions carbone.</p>
+<h2 id="des-soins-de-santé-suffisants-">Des soins de santé suffisants ?</h2>
+<p>Pour réduire l’empreinte environnementale des soins de santé modernes, nous devons remettre en question la tendance à recourir à toujours plus de technologies et services énergivores. Il en va de même dans d’autres domaines de la vie courante. <sup id="fnref1:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup></p>
+<p>Cependant, même si pour certains les modes de vie frugaux et passés ont du charme voire de réels avantages (ex : niveau confort ou commodité), peu seraient tentés d’appliquer ces principes à la santé et à la longévité. Après tout, l’équivalent en matière de santé de voyager plus lentement ou de porter
+un pull supplémentaire chez soi peut être de vivre moins longtemps, de souffrir davantage, ou d’être moins mobile les vieux jours venus. Par exemple, si nous arrêtions d’utiliser les scanners IRM ou si nous n’utilisions que ceux dont l’intensité de champ est de 1,5 Tesla, la précision moindre du diagnostic ferait que certains cancers ne seraient pas détectés, ce qui entraînerait une baisse du taux de survie au cancer et de l’espérance de vie moyenne. Du moins, c’est ce qu’il semble.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/barber-surgeon_dithered.png" alt='Chirurgien-barbier extrayant une dent, un tableau d&amp;rsquo;Adriaen van Ostade, 1630.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/barber-surgeon_hu4266a8a6313a066f8924c3a335af8e66_590160_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/barber-surgeon_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Chirurgien-barbier extrayant une dent, un tableau d&rsquo;Adriaen van Ostade, 1630.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si l’on considère les soins de santé dans un contexte historique, il semble évident qu’il existe un lien puissant entre l’utilisation de technologies médicales énergivores d’une part, et la santé et la longévité d’une population d’autre part. Même en remontant moins d’un siècle en arrière, on constate
+que les résultats en matière de santé et les taux de survie pour toutes sortes de maladies étaient beaucoup plus faibles et l’espérance de vie moyenne mondiale dans n’importe quel pays riche en 1950 plus basse comparée à aujourd’hui (72,6 ans).</p>
+<p>Les hôpitaux remontent à l’Antiquité, mais ils ne faisaient alors qu’accueillir les personnes ayant viré folles ou attendant la mort. Au Moyen Âge, la chirurgie se pratiquait chez les barbiers, où les « barbiers-chirurgiens » pratiquaient des saignées, des extractions de dents et des amputations, en plus des coupes de cheveux et des rasages habituels. Ils préparaient leurs propres anesthésiques à base d’herbes et d’alcool, qui pouvaient être tout aussi mortels que le traitement lui-même. <sup id="fnref:36"><a href="#fn:36" class="footnote-ref" role="doc-noteref">36</a></sup> Un regard sur les pays « en développement » d’aujourd’hui semble également suggérer un lien clair entre les émissions des soins de santé, qui sont très modestes, et l’espérance de vie, qui peut être de 20 à 30 ans inférieure à celle des pays riches. <sup id="fnref:37"><a href="#fn:37" class="footnote-ref" role="doc-noteref">37</a></sup><sup id="fnref:38"><a href="#fn:38" class="footnote-ref" role="doc-noteref">38</a></sup><sup id="fnref:39"><a href="#fn:39" class="footnote-ref" role="doc-noteref">39</a></sup><sup id="fnref:40"><a href="#fn:40" class="footnote-ref" role="doc-noteref">40</a></sup><sup id="fnref:41"><a href="#fn:41" class="footnote-ref" role="doc-noteref">41</a></sup></p>
+<p>Cependant, si l’on creuse un peu plus, le lien entre la consommation d’énergie et la longévité n’est pas aussi immédiat qu’il n’y paraît. C’est ce que montre l’exemple des États-Unis, qui possèdent le système de soins le plus coûteux et le moins durable du monde, mais qui se classent derrière la plupart des pays européens pour l’indice d’accès et de qualité des soins de santé (qui mesure les taux de décès de 32 causes pouvant être évités par des soins efficaces). Les citoyens américains ont également une espérance de vie inférieure à celle des citoyens européens. Il est donc clair que d’autres facteurs entrent également en jeu.</p>
+<h2 id="la-résistance-aux-maladies">La résistance aux maladies</h2>
+<p>Pour commencer, la qualité d’un système de soins de santé n’est pas le seul déterminant de la santé et de la longévité. C’est là que l’Histoire a une leçon importante à nous donner. Les connaissances médicales remontant à l’Antiquité considéraient la santé de manière plus holistique et mettaient l’accent sur le développement de la résistance inhérente du corps aux maladies. Hippocrate, par exemple, souvent considéré comme le père de la médecine occidentale, prescrivait une mise au régime, la gymnastique, l’exercice, les massages, l’hydrothérapie et les bains de mer. <sup id="fnref:42"><a href="#fn:42" class="footnote-ref" role="doc-noteref">42</a></sup></p>
+<p>On pourrait arguer que nos ancêtres n’avaient pas d’autre choix que de se concentrer sur la prévention des maladies, car ils disposaient de peu de traitements. Cependant, la sagesse de leur approche est plus actuelle que jamais. Aujourd’hui, dans les sociétés à revenus élevés, de nombreux patients ont besoin d’un traitement médical en raison de ce que l’on appelle les maladies liées au mode de vie – celles causées par une alimentation pauvre ou excessive, un manque d’activité physique, le stress ou la toxicomanie. Les risques typiques pour la santé sont les maladies cardiovasculaires, le diabète de type 2, la dépression, l’obésité, certains types de cancers et une plus grande vulnérabilité aux maladies infectieuses. La société industrielle nous a fournis des traitements médicaux efficaces, mais elle nous rend aussi malades.</p>
+<p>Cela signifie que la santé et la longévité peuvent être promues par d’autres moyens qu’un système de soins de santé de plus en plus gourmand en ressources. En agissant sur les déterminants plus généraux de la santé et de la longévité, nous pourrions passer d’une médecine curative à une médecine
+préventive. <sup id="fnref3:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:43"><a href="#fn:43" class="footnote-ref" role="doc-noteref">43</a></sup> La médecine préventive ne se résume pas à des incitations gouvernementales à ne pas fumer (pour ensuite encaisser l’argent des taxes sur les ventes de cigarettes). Elle concerne plutôt des changements systémiques qui vont au-delà du seul changement de comportement.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cars-health_dithered.png" alt='Heure de pointe à São Paulo, Brésil, 2005. Domaine publique.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/cars-health_hub4743fca9fb4e497d49402ce72230b3a_130896_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cars-health_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Heure de pointe à São Paulo, Brésil, 2005. Domaine publique.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Par exemple, une réduction significative de l’utilisation des voitures dans nos sociétés apporterait un nombre étonnamment élevé d’avantages pour la santé, qui réduiraient le besoin de traitements médicaux énergivores. Cela réduirait les dommages causés par les accidents de la route ainsi que par la pollution atmosphérique et sonore. Les gens seraient plus actifs physiquement (ce qui préviendrait de nombreuses maladies liées aux modes de vie trop sédentaires) et cela libérerait beaucoup d’espaces publics où les gens pourraient se réunir, où les enfants pourraient jouer et où les arbres pourraient (re)pousser (autant de facteurs importants pour la santé mentale d’une population). La réduction
+des émissions de gaz à effet de serre produite par une moindre utilisation de la voiture contrebalancerait facilement les émissions du système de santé.</p>
+<p>Passer à un système de production alimentaire plus sain, s’attaquer aux dommages environnementaux causés par l’industrie du plastique, réduire la pauvreté et les inégalités sociales, introduire des horaires de travail plus courts et des emplois plus valorisants sont d’autres exemples de médecine
+préventive. Nous n’avons pas atteint aujourd’hui une espérance de vie plus élevée uniquement grâce à de meilleurs systèmes de santé. Nous l’avons également obtenue grâce à l’amélioration de l’éducation, de l’hygiène, des règles de sécurité civile et routière, des systèmes de protection sociale, de la
+lutte contre la criminalité et d’un approvisionnement alimentaire plus fiable. La faible espérance de vie moyenne dans les pays pauvres est en partie due à ces facteurs.</p>
+<p>La médecine préventive permettrait également de réduire les dommages causés à la santé par les traitements médicaux eux-mêmes. Il s’agit des dégâts sanitaires résultant des erreurs médicales ou des effets secondaires des produits pharmaceutiques et, plus indirectement, de la pollution générée
+par le secteur des soins médicaux. Par exemple, la pollution atmosphérique générée par les services de santé contribue à la prévalence de l’asthme, qui augmente à son tour la demande de soins. Le changement climatique et les autres atteintes à l’environnement menacent les jeunes générations et
+les générations futures d’un impact encore plus important sur la santé, par exemple en raison de mauvaises récoltes, de la propagation de maladies, de phénomènes météorologiques extrêmes et de catastrophes naturelles. <sup id="fnref:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup></p>
+<h2 id="la-loi-des-rendements-décroissants">La loi des rendements décroissants</h2>
+<p>Ensuite, dans un système de santé, les pratiques médicales qui consomment le plus d’énergie n’entraînent pas nécessairement une amélioration proportionnelle des résultats en matière de santé. Comme tant d’autres secteurs de la société industrielle, le système de soins curatifs est vulnérable à la loi des rendements décroissants : il faut de plus en plus d’énergie pour obtenir des
+améliorations sanitaires de moins en moins significatives. <sup id="fnref1:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> À l’inverse, signifie qu’une baisse relativement faible de la qualité ou des caractéristiques des traitements médicaux pourrait entraîner des réductions relativement importantes de l’utilisation des ressources et des émissions de GES.</p>
+<p>La prévention des infections est un bon exemple. Le développement de l’anesthésie générale dans les années 1840 a rendu la chirurgie possible, mais, à l’époque, plus de 90% des plaies chirurgicales s’infectaient, entraînant souvent la mort. <sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref2:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> La première diminution importante des taux d’infection suivit l’apparition des pratiques antiseptiques (1880-1900) et la deuxième suivit l’introduction des antibiotiques (1945-1970). En 1985, le taux d’infection global était tombé à environ 5 %. Depuis lors, beaucoup de ressources ont été investies pour obtenir des gains progressifs vers une stérilité à 100 %, principalement en remplaçant les fournitures réutilisables par leur version
+jetable à usage unique. <sup id="fnref1:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/reuse-surgical-instruments_dithered.png" alt='Une infirmière de bloc d&amp;rsquo;opératoire prépare les instruments pour une chirurgie à l&amp;rsquo;hôpital 3rd Station, Corée. 1951. Source: US National Library of Medicine.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/reuse-surgical-instruments_hu5426b3fd6613f17ea5d37bc35e1031fc_932595_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/reuse-surgical-instruments_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Une infirmière de bloc d&rsquo;opératoire prépare les instruments pour une chirurgie à l&rsquo;hôpital 3rd Station, Corée. 1951. Source: US National Library of Medicine.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si elles sont correctement décontaminées, les fournitures réutilisables ne présentent pas de risques accrus d’infection, mais une contamination croisée entre patients peut parfois se produire par erreur. Néanmoins, certains scientifiques plaident pour un retour aux produits réutilisables, dont l’empreinte
+environnementale est bien moindre dans la plupart des cas. Par exemple, l’utilisation de manches de laryngoscope réutilisables produit 16 à 25 fois moins de gaz à effet de serre que les manches jetables à usage unique. <sup id="fnref:45"><a href="#fn:45" class="footnote-ref" role="doc-noteref">45</a></sup> Les chercheurs admettent que leur approche peut augmenter le nombre de
+décès dus aux infections chirurgicales, mais que la production de fournitures à usage unique est encore plus dommageable sanitairement.</p>
+<blockquote>
+<p>Des comparaisons de plusieurs chirurgies de la cataracte ont montré que le même traitement ne produit en Inde que 5 % des émissions et 6 % des déchets solides produits au Royaume-Uni.</p>
+</blockquote>
+<p>Lorsqu’il s’agit de maximiser les rendements, les pays moins développés peuvent nous donner quelques leçons. Des comparaisons entre la chirurgie de la cataracte au Royaume-Uni et en Inde ont montré que le même traitement (phacoémulsifiassions) dans les cliniques indiennes Aravind Eye est beaucoup
+moins cher et ne produit que 5 % des émissions et 6 % des déchets solides produits au Royaume-Uni. Cela s’explique principalement par le fait que les chirurgiens indiens réutilisent un maximum de fournitures, de dispositifs et de médicaments sur un maximum de patients. <sup id="fnref2:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup><sup id="fnref:46"><a href="#fn:46" class="footnote-ref" role="doc-noteref">46</a></sup><sup id="fnref:47"><a href="#fn:47" class="footnote-ref" role="doc-noteref">47</a></sup><sup id="fnref:48"><a href="#fn:48" class="footnote-ref" role="doc-noteref">48</a></sup><sup id="fnref:49"><a href="#fn:49" class="footnote-ref" role="doc-noteref">49</a></sup> De plus, ils utilisent des fournitures, des implants et des médicaments fabriqués localement et
+appliquent un système à deux lits dans lequel un patient est opéré pendant qu’un autre est positionné et préparé dans le lit voisin.</p>
+<p>Bien que ces pratiques bafouent les réglementations en matière de contrôle des infections des pays à hauts revenus, la chirurgie de la cataracte en Inde donne des résultats similaires, voire meilleurs et ne provoque pas plus d’infections qu’au Royaume-Uni ou aux États-Unis. Par conséquent, il se pourrait bien que la loi des rendements décroissants ait atteint sa limite ultime, au sens qu’une pratique médicale coûteuse et non viable ne semble pas apporter le moindre avantage pour la santé. Les cliniques ophtalmologiques indiennes démontrent qu’un modèle de soins efficace est possible sans fournitures et ressources non durables et coûteuses. L’innovation médicale est possible sans nouvelles technologies.</p>
+<h2 id="guidée-par-le-profit">Guidée par le profit</h2>
+<p>La loi des rendements décroissants et l’accentuation de la médecine curative s’expliquent par le fait que l’innovation médicale est essentiellement motivée par le profit. <sup id="fnref:50"><a href="#fn:50" class="footnote-ref" role="doc-noteref">50</a></sup><sup id="fnref:51"><a href="#fn:51" class="footnote-ref" role="doc-noteref">51</a></sup> Les entreprises privées qui développent et vendent des équipements médicaux, des produits pharmaceutiques et d’autres produits de soins n’auraient rien à gagner si la demande de nouvelles technologies et de nouveaux produits curatifs diminuait, ou si les technologies médicales étaient jugées en fonction de leur utilisation de ressources. L’industrie médicale veut – logiquement – augmenter les ventes de ses produits et dispose d’énormes budgets de marketing et d’un pouvoir de lobbying pour le faire.<sup id="fnref:52"><a href="#fn:52" class="footnote-ref" role="doc-noteref">52</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/healthcare-1910s_dithered.png" alt='Hôpital militaire King George, salle de traitement électrique et de radiographie. 1915. Source: US National Library of Medicine.' data-original="https://lowtechmag.gitlab.io/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/healthcare-1910s_hu7c95c707655e1ff6dbd5cf614147a41c_931512_800x800_fit_q90_h2_box.webp" data-dither="/solar/fr/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/healthcare-1910s_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Hôpital militaire King George, salle de traitement électrique et de radiographie. 1915. Source: US National Library of Medicine.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>L’Organisation Mondiale de la Santé (OMS) estime que 20 à 40 % des dépenses de santé sont gaspillées et elle affirme que « le rapport coût-efficacité, le besoin réel et l’utilité probable de nombreuses technologies innovantes sont discutables ». De plus en plus de publications universitaires montrent à quel point les patients des pays riches sont « surdosés, surtraités et surdiagnostiqués ». <sup id="fnref1:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup><sup id="fnref1:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>Rien de tout cela n’est inévitable. Un système de soins de santé moderne pourrait également fonctionner dans un autre contexte économique. Par exemple, certains ont suggéré le développement en « open source » d’équipements médicaux et de produits pharmaceutiques, permettant ainsi aux technologies de la santé de devenir un bien commun (NDT : « open source » dans le sens où les technologies des équipements et produits médicaux seraient en libre accès, sans couvert de confidentialité, libre à la redistribution et à la copie). Réorienter la charge fiscale pesant sur le travail vers les ressources
+peut aussi faire partie de la solution. Dans les pays riches, les équipements médicaux, produits pharmaceutiques et produits jetables servent en partie à réduire le coût de la main-d’œuvre humaine dans le domaine de la santé.</p>
+<h2 id="âge-et-durabilité">Âge et durabilité</h2>
+<p>Sur la base des données fragmentaires dont on dispose, il semble probable que l’utilisation des ressources des systèmes de soins modernes pourrait être réduite de manière significative, sans pour autant nous ramener aux barbiers-chirurgiens du Moyen-Âge. Un système de santé davantage axé sur
+la médecine préventive et fonctionnant en dehors de la logique du marché pourrait réduire les émissions sans avoir d’impact négatif sur le bien-être, et pourrait même l’améliorer.</p>
+<blockquote>
+<p>Comme les traitements médicaux sont de plus en plus gourmands en ressources, il est de plus en plus probable que les dommages causés à la santé publique par un traitement surpassent le gain individuel qu’en retire le patient, surtout à un âge avancé.</p>
+</blockquote>
+<p>Par ailleurs, la loi des rendements décroissants met en évidence des possibilités de réduction de l’empreinte environnementale des services de soins. Par exemple, si leur empreinte environnementale était réduite de moitié, il serait très peu probable que l’espérance de vie diminue proportionnellement. Près de la moitié des dépenses de santé au cours d’une vie – et donc de
+la consommation d’énergie et des émissions – sont engagées pendant la vieillesse (+65 ans). Pour les personnes âgées de 85 ans et plus, plus d’un tiers des dépenses de toute une vie s’accumuleront pendant les années restantes. <sup id="fnref:53"><a href="#fn:53" class="footnote-ref" role="doc-noteref">53</a></sup></p>
+<p>Plaider pour un raccourcissement de l’espérance de vie moyenne, même s’il s’agit d’une diminution très modeste, parait problématique. Cependant, éviter le sujet l’est tout autant. En raison de l’énorme empreinte écologique des systèmes de soins modernes (qui ne cesse de croître), la santé et la
+longévité d’aujourd’hui se font, du moins en partie, au détriment de celles des générations plus jeunes et futures, qui n’ont pas voix au chapitre dans ce débat. <sup id="fnref2:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup></p>
+<p>Si nous guérissons une personne aujourd’hui, au prix de rendre d’autres personnes malades demain, les soins de santé deviennent contre-productifs. La santé n’est pas seulement un bien privé, mais aussi un bien public, et comme les traitements médicaux sont de plus en plus gourmands en ressources, il est
+de plus en plus probable que les dommages causés à la santé publique par un traitement en particulier surpassent le gain individuel qu’en tire le patient, surtout à un âge avancé.</p>
+<p>Merci à Elizabeth Shove</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Pichler, Peter-Paul, et al. &ldquo;International comparison of health care carbon footprints.&rdquo; Environmental Research Letters 14.6 (2019): 064004. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ab19e1/pdf" target="_blank" >https://iopscience.iop.org/article/10.1088/1748-9326/ab19e1/pdf</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Des estimations nationales des émissions de gaz à effet de serre du secteur de la santé ont été réalisées pour le Royaume-Uni (2009), les États-Unis (2009 et 2016), la Suède (2017), l&rsquo;Australie (2018), le Canada (2018), la Chine (2019) et le Japon (2020) ) et l&rsquo;Autriche (2020). Pour un aperçu, voir [15]. Cependant, comme chaque étude a sa propre méthodologie, les résultats ne sont pas parfaitement comparables. C’est pourquoi je cite cette source, car elle donne des estimations comparables.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Eckelman, Matthew J., and Jodi Sherman. &ldquo;Environmental impacts of the US health care system and effects on public health.&rdquo; PloS one 11.6 (2016): e0157014. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157014" target="_blank" >https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157014</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>US National Health Expenditure Data. Centers for Medicare &amp; Medicaid Services. <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical" target="_blank" >https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Tainter, Joseph. The collapse of complex societies. Cambridge university press, 1988. Page 102 &amp; 103.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Current healthcare expenditure, 2012-2017, Eurostat. Current health expenditure per capita (current US$) - European Union, World Bank. Current health expenditure per capita, PPP (current international $) - European Union, World Bank. Health spending, OECD.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Dans ce qui suit j&rsquo;ignore l&rsquo;utilisation des ressources et les émissions causées par le transport vers et depuis les établissements de soins, ainsi que l&rsquo;utilisation des ressources et les émissions causées par la construction des établissements de santé eux-mêmes.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Des recherches menées dans différents pays ont montré une consommation d&rsquo;électricité de 130 à 280 kilowattheures par mètre carré et par an, ce qui représente environ 50% de la consommation énergétique totale du bâtiment sur place. [11-12] À titre de comparaison, la consommation résidentielle d&rsquo;électricité dans les ménages européens est en moyenne de 70 kWh / m2 / an et la demande totale d&rsquo;énergie est dominée par le chauffage (et non par l&rsquo;électricité). Selon une étude de 2016, pour laquelle des scientifiques ont collecté des données de puissance sur une période de 18 mois dans un hôpital allemand, les blocs opératoires sont ceux qui consomment le plus d&rsquo;électricité (438 kWh / m2 / an), suivis des unités de soins intensifs (135 kWh / m2 / an). [9]&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Christiansen, Nils, Martin Kaltschmitt, and Frank Dzukowski. &ldquo;Electrical energy consumption and utilization time analysis of hospital departments and large scale medical equipment.&rdquo; Energy and Buildings 131 (2016): 172-183.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Wu, Rui. &ldquo;The carbon footprint of the Chinese health-care system: an environmentally extended input–output and structural path analysis study.&rdquo; The Lancet Planetary Health 3.10 (2019): e413-e419. <a href="https://www.sciencedirect.com/science/article/pii/S2542519619301925" target="_blank" >https://www.sciencedirect.com/science/article/pii/S2542519619301925</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Bawaneh, Khaled, et al. &ldquo;Energy consumption analysis and characterization of healthcare facilities in the United States.&rdquo; Energies 12.19 (2019): 3775. <a href="https://www.mdpi.com/1996-1073/12/19/3775/pdf" target="_blank" >https://www.mdpi.com/1996-1073/12/19/3775/pdf</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Rohde, Tarald, and Robert Martinez. &ldquo;Equipment and energy usage in a large teaching hospital in Norway.&rdquo; Journal of healthcare engineering 6 (2015). <a href="http://downloads.hindawi.com/journals/jhe/2015/231507.pdf" target="_blank" >http://downloads.hindawi.com/journals/jhe/2015/231507.pdf</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Black, Douglas R., et al. &ldquo;Evaluation of miscellaneous and electronic device energy use in hospitals.&rdquo; World Review of Science, Technology and Sustainable Development 10.1-2-3 (2013): 113-128. <a href="https://www.osti.gov/servlets/purl/1172701" target="_blank" >https://www.osti.gov/servlets/purl/1172701</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Picano, Eugenio. &ldquo;Environmental sustainability of medical imaging.&rdquo; Acta Cardiologica (2020): 1-5. <a href="https://www.tandfonline.com/doi/abs/10.1080/00015385.2020.1815985" target="_blank" >https://www.tandfonline.com/doi/abs/10.1080/00015385.2020.1815985</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Sherman, Jodi D., et al. &ldquo;The Green Print: Advancement of Environmental Sustainability in Healthcare.&rdquo; Resources, Conservation and Recycling 161 (2020): 104882. <a href="https://www.researchgate.net/profile/Brett_Duane/publication/343137350_The_Green_Print_Advancement_of_Environmental_Sustainability_in_Healthcare/links/5f216962299bf134048f8960/The-Green-Print-Advancement-of-Environmental-Sustainability-in-Healthcare.pdf" target="_blank" >https://www.researchgate.net/profile/Brett_Duane/publication/343137350_The_Green_Print_Advancement_of_Environmental_Sustainability_in_Healthcare/links/5f216962299bf134048f8960/The-Green-Print-Advancement-of-Environmental-Sustainability-in-Healthcare.pdf</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Martin, Marisa, et al. &ldquo;Environmental impacts of abdominal imaging: a pilot investigation.&rdquo; Journal of the American College of Radiology 15.10 (2018): 1385-1393. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1546144018308639" target="_blank" >https://www.sciencedirect.com/science/article/abs/pii/S1546144018308639</a>. The researchers write that “when production and use phases are combined, the total energy consumption of MRI (&gt;309 MJ/examination, abdominal scan, 1.5 Tesla) is comparable with cooling a three-bedroom house with central air-conditioning for a day”.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Weisz, Ulli, et al. &ldquo;Carbon emission trends and sustainability options in Austrian health care.&rdquo; Resources, Conservation and Recycling 160 (2020): 104862.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Belkhir, Lotfi, and Ahmed Elmeligi. &ldquo;Carbon footprint of the global pharmaceutical industry and relative impact of its major players.&rdquo; Journal of Cleaner Production 214 (2019): 185-194. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0959652618336084" target="_blank" >https://www.sciencedirect.com/science/article/abs/pii/S0959652618336084</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Laufman, Harold, Luther Riley, and Barry Badner. &ldquo;Use of disposable products in surgical practice.&rdquo; Archives of Surgery 111.1 (1976): 20-26. <a href="https://jamanetwork.com/journals/jamasurgery/article-abstract/581229" target="_blank" >https://jamanetwork.com/journals/jamasurgery/article-abstract/581229</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Gilden, Daniel J., K. N. Scissors, and J. B. Reuler. &ldquo;Disposable products in the hospital waste stream.&rdquo; Western journal of medicine 156.3 (1992): 269. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1003232/pdf/westjmed00091-0045.pdf" target="_blank" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1003232/pdf/westjmed00091-0045.pdf</a>&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Sherman, Jodi D., and Harriet W. Hopf. &ldquo;Balancing infection control and environmental protection as a matter of patient safety: the case of laryngoscope handles.&rdquo; Anesthesia &amp; Analgesia 127.2 (2018): 576-579. <a href="https://www.researchgate.net/profile/Jodi_Sherman/publication/322407715_Balancing_Infection_Control_and_Environmental_Protection_as_a_Matter_of_Patient_Safety_The_Case_of_Laryngoscope_Handles/links/5a82ba12a6fdcc6f3eadcfab/Balancing-Infection-Control-and-Environmental-Protection-as-a-Matter-of-Patient-Safety-The-Case-of-Laryngoscope-Handles.pdf" target="_blank" >https://www.researchgate.net/profile/Jodi_Sherman/publication/322407715_Balancing_Infection_Control_and_Environmental_Protection_as_a_Matter_of_Patient_Safety_The_Case_of_Laryngoscope_Handles/links/5a82ba12a6fdcc6f3eadcfab/Balancing-Infection-Control-and-Environmental-Protection-as-a-Matter-of-Patient-Safety-The-Case-of-Laryngoscope-Handles.pdf</a>&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Thiel, Cassandra Lee, et al. &ldquo;Life cycle assessment of medical procedures: Vaginal and cesarean section births.&rdquo; 2012 IEEE International Symposium on Sustainable Systems and Technology (ISSST). IEEE, 2012.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Campion, Nicole, et al. &ldquo;Sustainable healthcare and environmental life-cycle impacts of disposable supplies: a focus on disposable custom packs.&rdquo; Journal of Cleaner Production 94 (2015): 46-55.&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>“Reusables, Disposables each play a role in preventing cross-contamination”, Elizabeth Srejic, Infection Control Today, April 2016&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>Sustainability roadmap for hospitals, American Association of Hospitals. <a href="http://www.sustainabilityroadmap.org/topics/waste.shtml#.YCsEOXyYXWc" target="_blank" >http://www.sustainabilityroadmap.org/topics/waste.shtml#.YCsEOXyYXWc</a>.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p>Thiel, Cassandra L., et al. &ldquo;Cataract surgery and environmental sustainability: waste and lifecycle assessment of phacoemulsification at a private healthcare facility.&rdquo; Journal of Cataract &amp; Refractive Surgery 43.11 (2017): 1391-1398. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5728421/" target="_blank" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5728421/</a>&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p>Vollmer, Martin K., et al. &ldquo;Modern inhalation anesthetics: potent greenhouse gases in the global atmosphere.&rdquo; Geophysical Research Letters 42.5 (2015): 1606-1611. <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL062785" target="_blank" >https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL062785</a>&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28">
+<p>Salas, Renee N., et al. &ldquo;A pathway to net zero emissions for healthcare.&rdquo; bmj 371 (2020).&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29">
+<p>Brown, Lawrence H., et al. &ldquo;Estimating the life cycle greenhouse gas emissions of Australian ambulance services.&rdquo; Journal of Cleaner Production 37 (2012): 135-141.&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30">
+<p>Connor, A., R. Lillywhite, and M. W. Cooke. &ldquo;The carbon footprint of a renal service in the United Kingdom.&rdquo; QJM: An International Journal of Medicine 103.12 (2010): 965-975. <a href="https://academic.oup.com/qjmed/article/103/12/965/1584174" target="_blank" >https://academic.oup.com/qjmed/article/103/12/965/1584174</a>&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31">
+<p>Herrmann, C., and A. Rock. &ldquo;Magnetic resonance equipment (MRI)–Study on the potential for environmental improvement by the aspect of energy efficiency.&rdquo; PE INTERNATIONAL AG, Report (2012).&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32">
+<p>Shove, Elizabeth. &ldquo;What is wrong with energy efficiency?.&rdquo; Building Research &amp; Information 46.7 (2018): 779-789. <a href="https://www.tandfonline.com/doi/pdf/10.1080/09613218.2017.1361746" target="_blank" >https://www.tandfonline.com/doi/pdf/10.1080/09613218.2017.1361746</a>&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33">
+<p>Heye, Tobias, et al. &ldquo;The energy consumption of radiology: energy-and cost-saving opportunities for CT and MRI operation.&rdquo; Radiology 295.3 (2020): 593-605. <a href="https://pubmed.ncbi.nlm.nih.gov/32208096/" target="_blank" >https://pubmed.ncbi.nlm.nih.gov/32208096/</a>&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:34">
+<p>Blue, Stanley. &ldquo;Reducing demand for energy in hospitals: opportunities for and limits to temporal coordination.&rdquo; Demanding Energy. Palgrave Macmillan, Cham, 2018. 313-337.&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:35">
+<p><a href="https://www.eia.gov/tools/faqs/faq.php?id=92&amp;t=4" target="_blank" >https://www.eia.gov/tools/faqs/faq.php?id=92&t=4</a>&#160;<a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:36">
+<p>Duffin, Jacalyn. History of medicine: a scandalously short introduction. University of Toronto Press, 2010.&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:37">
+<p>WHO compendium of innovative health technologies for low-resource settings, WHO; 2016-17. WHO, 2018. <a href="https://www.who.int/medical_devices/publications/compendium_2016_2017/en/" target="_blank" >https://www.who.int/medical_devices/publications/compendium_2016_2017/en/</a>&#160;<a href="#fnref:37" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:38">
+<p>Medical devices: managing the mismatch: an outcome of the priority medical devices project: methodology briefing paper, WHO, 2010. <a href="https://apps.who.int/iris/handle/10665/70491" target="_blank" >https://apps.who.int/iris/handle/10665/70491</a>&#160;<a href="#fnref:38" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:39">
+<p>Global Atlas of Medical Devices, WHO, 2017. <a href="https://www.who.int/medical_devices/publications/global_atlas_meddev2017/en/" target="_blank" >https://www.who.int/medical_devices/publications/global_atlas_meddev2017/en/</a>&#160;<a href="#fnref:39" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:40">
+<p>Page, Brandi R., et al. &ldquo;Cobalt, linac, or other: what is the best solution for radiation therapy in developing countries?.&rdquo; International Journal of Radiation Oncology* Biology* Physics89.3 (2014): 476-480.&#160;<a href="#fnref:40" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:41">
+<p>Dans une enquête menée auprès de chirurgiens dans 30 pays africains, 48% ont signalé des pannes de courant au moins une fois par semaine, 29% avaient fonctionné en utilisant uniquement des lumières de téléphone portable et 19% avaient connu des résultats chirurgicaux médiocres suite de cela. [28]&#160;<a href="#fnref:41" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:42">
+<p>Parker, Steve. Medicine: The Definitive Illustrated History. DK Publishing, 2016.&#160;<a href="#fnref:42" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:43">
+<p>Hall, Peter A., and Michèle Lamont, eds. Successful societies: How institutions and culture affect health. Cambridge University Press, 2009.&#160;<a href="#fnref:43" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:44">
+<p>Borowy, Iris, and Jean-Louis Aillon. &ldquo;Sustainable health and degrowth: Health, health care and society beyond the growth paradigm.&rdquo; Social Theory &amp; Health 15.3 (2017): 346-368.&#160;<a href="#fnref:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:45">
+<p>Sherman, Jodi D., and Harriet W. Hopf. &ldquo;Balancing infection control and environmental protection as a matter of patient safety: the case of laryngoscope handles.&rdquo; Anesthesia &amp; Analgesia 127.2 (2018): 576-579.&#160;<a href="#fnref:45" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:46">
+<p>Steyn, A., et al. &ldquo;Frugal innovation for global surgery: leveraging lessons from low-and middle-income countries to optimise resource use and promote value-based care.&rdquo; The Bulletin of the Royal College of Surgeons of England 102.5 (2020): 198-200. <a href="https://publishing.rcseng.ac.uk/doi/pdf/10.1308/rcsbull.2020.150" target="_blank" >https://publishing.rcseng.ac.uk/doi/pdf/10.1308/rcsbull.2020.150</a>&#160;<a href="#fnref:46" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:47">
+<p>Haripriya, Aravind, David F. Chang, and Ravilla D. Ravindran. &ldquo;Endophthalmitis reduction with intracameral moxifloxacin in eyes with and without surgical complications: Results from 2 million consecutive cataract surgeries.&rdquo; Journal of Cataract &amp; Refractive Surgery 45.9 (2019): 1226-1233. <a href="https://www.aurolab.com/images/JCRS%202%20million.pdf" target="_blank" >https://www.aurolab.com/images/JCRS%202%20million.pdf</a>&#160;<a href="#fnref:47" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:48">
+<p>Venkatesh, Rengaraj, et al. &ldquo;Carbon footprint and cost–effectiveness of cataract surgery.&rdquo; Current opinion in ophthalmology 27.1 (2016): 82-88.&#160;<a href="#fnref:48" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:49">
+<p>Thiel, Cassandra L., et al. &ldquo;Utilizing off-the-shelf LCA methods to develop a ‘triple bottom line’auditing tool for global cataract surgical services.&rdquo; Resources, Conservation and Recycling 158 (2020): 104805.&#160;<a href="#fnref:49" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:50">
+<p>Relman, Arnold S. &ldquo;The new medical-industrial complex.&rdquo; New England Journal of Medicine 303.17 (1980): 963-970. <a href="https://www.nejm.org/doi/full/10.1056/NEJM198010233031703" target="_blank" >https://www.nejm.org/doi/full/10.1056/NEJM198010233031703</a>&#160;<a href="#fnref:50" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:51">
+<p>Smith, Richard. &ldquo;Limits to medicine. Medical nemesis: the expropriation of health.&rdquo; Journal of Epidemiology &amp; Community Health 57.12 (2003): 928-928. <a href="https://jech.bmj.com/content/57/12/928" target="_blank" >https://jech.bmj.com/content/57/12/928</a>&#160;<a href="#fnref:51" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:52">
+<p>Dans le domaine des soins de santé, il existe une ligne mince entre le marketing et la corruption, en particulier lorsque le public cible est le personnel médical qui peut tirer profit de l&rsquo;utilisation ou de la prescription d&rsquo;un dispositif médical ou d&rsquo;un médicament, ou lorsque les régulateurs sont incités à faciliter des pratiques qui augmentent les profits. Transparancy International classe l’achat de médicaments et d’équipements médicaux au quatrième rang sur une liste de sept processus à haut risque de corruption et qualifie le problème de « généralisé dans tous les pays ». [37]&#160;<a href="#fnref:52" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:53">
+<p>Alemayehu, Berhanu, and Kenneth E. Warner. &ldquo;The lifetime distribution of health care costs.&rdquo; Health services research 39.3 (2004): 627-642. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361028/" target="_blank" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361028/</a>&#160;<a href="#fnref:53" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/fr/tags/energy-demand/" class="">Energy demand</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Construire un vélo générateur pour la chaleur et l&#39;électricité</h3>
+		<p class="index-summary">Un vélo générateur vous maintient au chaud et constitue la solution de secours idéale pour un système solaire autonome. Dans cet article, nous décrivons comment construire et utiliser une centrale électrique pratique, abordable et fiable pour un usage domestique.</p>
+		<time class="published">6 mars 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">La vengeance de la bouillotte</h3>
+		<p class="index-summary">Imaginez un chauffage personnel portable qui fonctionnerait aussi bien à l&rsquo;intérieur qu&rsquo;à l&rsquo;extérieur, qui nécessiterait peu d&rsquo;énergie et qui serait indépendant de toute infrastructure. Il existe - et a des centaines d&rsquo;années.</p>
+		<time class="published">20 janvier 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment concevoir un voilier pour le 21e siècle?</h3>
+		<p class="index-summary">Il est étonnamment difficile de construire un voilier à impact carbone neutre. C’est d’autant plus le cas aujourd’hui que nos normes de sécurité, de santé, d’hygiène, de confort et de commodités ont profondément changé depuis l’âge de la voile.</p>
+		<time class="published">11 mai 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/fr/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/fr/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/images/dithers/lighter_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Garder certaines lumières allumées: redéfinir la sécurité énergétique</h3>
+		<p class="index-summary">Pour améliorer la sécurité énergétique, nous devons rendre les infrastructures moins fiables.</p>
+		<time class="published">9 décembre 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/fr/about">
+  À propos
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

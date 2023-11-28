@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE English</title>
+    <link>https://lowtechmag.gitlab.io/solar/tags/compressed-air/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/compressed-air/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Human Powered Air Compressor and Energy Storage System</title>
+      <link>https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/</link>
+      
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-1_dithered.png" type="image/png" length="55525" ></enclosure>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-1_dithered.png&#34; alt=&#39;Image: Human powered air compressor and energy storage system. Photo by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Human powered air compressor and energy storage system. Photo by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;When I look around my motorcycle shop, pneumatic tools are everywhere. From handheld tools such as impact guns, sanders, shears, saws and grinders to large equipment including a sandblast cabinet and tire machine; air is a vital part of taking on a wide variety of tasks.&lt;/p&gt;
+&lt;p&gt;The air compressor I’ve used since the 1990’s uses a 220V, 7hp electric motor to turn a two stage air pump at 800 rpm, which fills the 80 gallon tank to 150 psi in about five minutes. It has been a very reliable machine, to the point where I hardly ever think about it. Only when there is a power outage do I realize how much I rely on a ready supply of compressed air.&lt;/p&gt;
+&lt;p&gt;In a rapidly changing world where inexpensive and reliable energy going forward is no longer a given, I set out to build a system to fill my air tanks without the use of electricity or fuel. My design would be free of electronics of any type, and with minimal maintenance the components should last a lifetime. I wanted to use as many second hand parts as possible, in an effort to reduce costs and inspire recycling and repurposing.&lt;/p&gt;
+&lt;h2 id=&#34;components&#34;&gt;Components&lt;/h2&gt;
+&lt;p&gt;The first order of business was to find an air tank. I found an 80 gallon Ingersoll Rand air compressor that was manufactured in 1952. I removed the air pump and electric motor. The original air pump was replaced with a new Speedaire unit that is rated for 115 psi and normally requires a ½hp  motor to run it. The pump is mounted onto the top of the air tank with a steel plate that bolts on to the original motor plate.&lt;/p&gt;
+&lt;p&gt;In the location of the electric motor, I installed a solid steel shaft on self centering pillow block bearings. This shaft holds three 20kg compressor pulleys used as flywheels to smooth out the operation. These pulleys have a 1 ⅜” bore and are 16” in diameter. A single 4L series v-belt connects the flywheel shaft to the air pump.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-6_dithered.png&#34; alt=&#39;Image: Compressor and compressor pulleys used as flywheels. Photo by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Compressor and compressor pulleys used as flywheels. Photo by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-7_dithered.png&#34; alt=&#39;Image: Solid steel shaft with three compressor pulleys used as flywheels. Photo by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Solid steel shaft with three compressor pulleys used as flywheels. Photo by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Next on the agenda was finding a human power source to spin the flywheels. I found a 1970’s Schwinn exercise bike that was very well constructed from almost all steel components. I stripped it down to the bare essentials, and installed a Sturmey Archer eight speed internally geared bicycle hub in place of the original spoked wheel. This hub has a ratio range from 1:1 to 3.25:1, and the gear changes are done using a selector switch on the handlebars.&lt;/p&gt;
+&lt;p&gt;To handle the force of hard pedaling, the crank assembly was replaced with tubular Cr-Mo alloy crank arms, sealed bearings, and platform pedals from a BMX racing bicycle. The handlebars and stem were replaced with Cr-Mo components to minimize flex during hard use, and the highest strength 1/8” bicycle chains are used for reliability.&lt;/p&gt;
+&lt;p&gt;At this point the bicycle and air tank were aligned to one another, and mounted on 6”x6” treated wood frames in the correct position. The bicycle output sprocket is connected by another chain to a similar sprocket on the end of the flywheel shaft, and the drive system is now complete.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-4_dithered.png&#34; alt=&#39;Image: A 1970’s Schwinn exercise bike. The crank assembly was replaced with tubular Cr-Mo alloy crank arms, sealed bearings, and platform pedals from a BMX racing bicycle. Photo by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A 1970’s Schwinn exercise bike. The crank assembly was replaced with tubular Cr-Mo alloy crank arms, sealed bearings, and platform pedals from a BMX racing bicycle. Photo by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-5_dithered.png&#34; alt=&#39;Image: Sturmey Archer eight speed internally geared bicycle hub. Photo by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Sturmey Archer eight speed internally geared bicycle hub. Photo by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;To manage the air flow, I incorporated a two stage system. A 10 gallon tank and the 80 gallon tank are valved separately so I can fill each one independently, both together, or transfer air from one tank to the other. Gauges on each tank used to monitor pressures. When the large tank is initially filled, I take it up to 50 psi by feeding it directly from the air pump. At that point, I start filling the small tank by itself up to 100 psi and then dumping it into the large tank.&lt;/p&gt;
+&lt;h2 id=&#34;eight-speed-transmission&#34;&gt;Eight speed transmission&lt;/h2&gt;
+&lt;p&gt;The eight speed transmission helps considerably during the filling process. When the tank pressure is low, the bicycle can be pedaled in the higher gears. When the pressure gets in the 70-100 psi range the lower gears are used to overcome the resistance of the air pump.&lt;/p&gt;
+&lt;p&gt;The process of filling the empty tanks to 100 psi takes 5-10 pedaling sessions per day for roughly a week. When I am busy at the shop, getting on the bike for a little while is actually a nice way to clear my head and in cold weather it warms me up and gets my blood flowing. I can put the bike in low gear and pedal while using my phone or listening to music.&lt;/p&gt;
+&lt;p&gt;Having to pedal to create the compressed air really makes me concentrate on not wasting air when using tools. It is also crucial to make sure there are no leaks by sealing all the fittings properly.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-3_dithered.png&#34; alt=&#39;Image: Compressed air power tools. Image by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Compressed air power tools. Image by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The parts of this machine that are most susceptible to wear are the air pump seals, the drive belt and chains, the sprockets, and the single rubber hose. I keep spares of these items on hand to ensure trouble free operation for years to come. Any maintenance or repair work can be accomplished with basic hand tools, and all the parts are serviceable and rebuildable.&lt;/p&gt;
+&lt;p&gt;An additional benefit of using compressed air for energy is the low cost of air tools. The current trend is pushing toward more battery powered equipment, so people are selling off their “outdated” pneumatic tools. There are many used air compressors for sale that have faulty motors or pumps, and are therefore quite inexpensive. There is a good supply of used stationary bicycles; most likely due to people buying them with the intention of starting a workout schedule but not following through with the plans. The next modification will be to add another 80 gallon tank to increase the storage capacity.&lt;/p&gt;
+&lt;p&gt;To sum it up, the bicycle powered air compressor’s main benefits are: no external power is needed, it can be operated in remote areas at any time, it is constructed of mostly recycled components that are easily rebuildable, and it does not cost anything to run. The additional side benefits are numerous, and more and more positive effects are still unfolding as I use this machine. At the core of the results are a healthy body from pedaling and a healthy mind from thinking outside the box.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-2_dithered.png&#34; alt=&#39;Image: Human powered air compressor and energy storage system. Illustration by Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Human powered air compressor and energy storage system. Illustration by Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;specifications&#34;&gt;Specifications:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Main Air Tank: 80 gallon Horizontal, Ingersoll Rand&lt;/li&gt;
+&lt;li&gt;Fill tank: 10 gallon, 125psi, SnapOn&lt;/li&gt;
+&lt;li&gt;Air Pump: Single Stage, 1hp Max, 115psi, Speedaire 40KH94&lt;/li&gt;
+&lt;li&gt;Stationary Bike: Schwinn Exerciser&lt;/li&gt;
+&lt;li&gt;Transmission: 8spd Internal Gear Hub, Sturmey Archer S80 XRK8&lt;/li&gt;
+&lt;li&gt;Flywheels: Cast Iron, 16” diameter, 1 ⅜” bore&lt;/li&gt;
+&lt;li&gt;Bearings: P207 sealed, self centering, solid foot&lt;/li&gt;
+&lt;li&gt;Belt: 4L Series V-belt&lt;/li&gt;
+&lt;li&gt;Chains: 1/2x1/8 KMC Z1EHX Wide&lt;/li&gt;
+&lt;li&gt;Valves: ½” NPT ball valves, brass&lt;/li&gt;
+&lt;li&gt;Air Filter: K&amp;amp;N pod, cloth and steel mesh&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ditch the Batteries: Off-Grid Compressed Air Energy Storage</title>
+      <link>https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
+      
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;Small-scale compressed air energy storage. Image in the public domain.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Small-scale compressed air energy storage. Image in the public domain. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Going off-grid? Think twice before you invest in a battery system. Compressed air energy storage is the sustainable and resilient alternative to batteries, with much longer life expectancy, lower life cycle costs, technical simplicity, and low maintenance. Designing a compressed air energy storage system that combines high efficiency with small storage size is not self-explanatory, but a growing number of researchers show that it can be done.&lt;/p&gt;
+&lt;p&gt;Compressed Air Energy Storage (CAES) is usually regarded as a form of large-scale energy storage, comparable to a pumped hydropower plant. Such a CAES plant compresses air and stores it in an underground cavern, recovering the energy by expanding (or decompressing) the air through a turbine, which runs a generator.&lt;/p&gt;
+&lt;p&gt;Unfortunately, large-scale CAES plants are very energy inefficient. Compressing and decompressing air introduces energy losses, resulting in an electric-to-electric efficiency of only 40-52%, compared to 70-85% for pumped hydropower plants, and 70-90% for chemical batteries.&lt;/p&gt;
+&lt;p&gt;The low efficiency is mainly since air heats up during compression. This waste heat, which holds a large share of the energy input, is dumped into the atmosphere. A related problem is that air cools down when it is decompressed, lowering electricity production and possibly freezing the water vapour in the air. To avoid this, large-scale CAES plants heat the air prior to expansion using natural gas fuel, which further deteriorates the system efficiency and makes renewable energy storage dependent on fossil fuels.&lt;/p&gt;
+&lt;h2 id=&#34;why-small-scale-caes&#34;&gt;Why Small-scale CAES?&lt;/h2&gt;
+&lt;p&gt;In the previous article, we outlined several ideas — &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspired by historical systems&lt;/a&gt; — that could improve the efficiency of large-scale CAES plants. In this article, we focus on the small but growing number of engineers and researchers who think that the future is not in large-scale compressed air energy storage, but rather in small-scale or micro systems, using man-made, aboveground storage vessels instead of underground reservoirs. Such systems could be off-the-grid or grid-connected, either operating by themselves or alongside a battery system.&lt;/p&gt;
+&lt;p&gt;The main reason to investigate decentralised compressed air energy storage is the simple fact that such a system could be installed anywhere, just like chemical batteries. Large-scale CAES, on the other hand, is dependent on a suitable underground geology. Although there are more potential sites for large-scale CAES plants than for large-scale pumped hydropower plants, finding appropriate storage caverns is not as easy as was previously assumed.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Experimental set-up of small-scale compressed air energy storage system. Source: [^27]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Experimental set-up of small-scale compressed air energy storage system. Source: [^27] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Compared to chemical batteries, micro-CAES systems have some interesting advantages. Most importantly, a distributed network of compressed air energy storage systems would be much more sustainable and environmentally friendly. Over their lifetimes, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;chemical batteries store only two to ten times the energy needed to manufacture them&lt;/a&gt;. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Small-scale CAES systems do much better than that, mainly because of their much longer lifespan.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Compared to chemical batteries, a distributed network of compressed air energy storage systems would be much more sustainable and environmentally friendly&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Furthermore, they do not require rare or toxic materials, and the hardware is easily recyclable. In addition, decentralised compressed air energy storage doesn’t need high-tech production lines and can be manufactured, installed and maintained by local business, unlike an energy storage system based on chemical batteries. Finally, micro-CAES has no self-discharge, is tolerant of a wider range of environments, and promises to be cheaper than chemical batteries. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Although the initial investment cost is estimated to be higher than that of a battery system (around $10,000 for a typical residential set-up), and although above-ground storage increases the costs in comparison to underground storage (the storage vessel is good for roughly half of the investment cost), a compressed air energy storage system offers an almost infinite number of charge and discharge cycles. Batteries, on the other hand, need to be replaced every few years, which makes them more expensive in the long run. &lt;sup id=&#34;fnref1:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;challenge-limiting-storage-size&#34;&gt;Challenge: Limiting Storage Size&lt;/h2&gt;
+&lt;p&gt;However, decentralised CAES also faces important challenges. The first is the system efficiency, which is a problem in large- and small-scale systems alike, and the second is the size of the storage vessel, which is especially problematic for small-scale CAES systems.&lt;/p&gt;
+&lt;p&gt;Both issues make small-scale CAES systems unpractical. Sufficient space for a large storage vessel is not always available, while a low storage efficiency requires a larger solar PV or wind power plant to make up for that loss, raising the costs and lowering the sustainability of the system.&lt;/p&gt;
+&lt;p&gt;To make matters worse, system efficiency and storage size are inversely related: improving one factor is often at the expense of the other. Increasing the air pressure minimizes the storage size but decreases the system efficiency, while using a lower pressure makes the system more energy efficient but results in a larger storage size. Some examples help illustrate the problem.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Compressed air energy storage tanks. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Compressed air energy storage tanks. [Source](http://www.screwtypeaircompressors.com/sale-8108163-vertical-compressed-air-tank-natural-gas-tank-2000l-air-receiver-tank.html). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A simulation for a stand-alone CAES aimed at unpowered rural areas, and which is connected to a solar PV system and used for lighting only, operates at a relatively low air pressure of 8 bar and obtains a round-trip efficiency of 60% &amp;ndash; comparable to the efficiency of lead-acid batteries. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;However, to store 360 Wh of potential electrical energy, the system requires a storage reservoir of 18 m3, the size of a small room measuring 3x3x2 metres. The authors note that “although the tank size appears very large, it still makes sense for applications in rural areas”.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;System efficiency and storage size are inversely related: improving one factor is often at the expense of the other.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Such a system may indeed be beneficial in this context, especially because it has a much longer lifespan than chemical batteries. However, a similar configuration in an urban context with high energy use is obviously problematic. In another study, it was calculated that it would take a 65 m3 air storage tank to store 3 kWh of energy. This corresponds to a 13 metre long pressure vessel with a diameter of 2.5 metres, shown below. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Furthermore, average household electricity use per day in industrialised countries is much higher still. For example, in the UK it’s slightly below 13 kWh per day, in the US and Canada it’s more than 30 kWh. In the latter case, ten such air pressure tanks would be required to store one day of electricity use.&lt;/p&gt;
+&lt;p&gt;Small-scale CAES systems with high pressures give the opposite results. For example, a configuration modelled for a typical household electrical use in Europe (6,400 kWh per year) operates at a pressure of 200 bar (almost 4 times higher than the pressure in large-scale CAES plants) and achieves a storage volume of only 0.55 m3, which is comparable to batteries. However, the electric-to-electric efficiency of this set-up is only 11-17%, depending on the size of the solar PV system. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;two-strategies-to-make-micro-caes-work&#34;&gt;Two Strategies to Make Micro CAES work&lt;/h2&gt;
+&lt;p&gt;These examples seem to suggest that compressed air energy storage makes no sense as a small-scale energy storage system, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/01/how-much-energy-do-we-need/&#34;&gt;even with a reduction in energy demand&lt;/a&gt;. However, perhaps surprisingly to many, this is not the case.&lt;/p&gt;
+&lt;p&gt;Small-scale CAES systems cannot follow the same approach as large-scale CAES systems, which increase storage capacity and overall efficiency by using multi-stage compression with intercooling and multi-stage expansion with reheating. This method involves additional components and increases the complexity and cost, which is impractical for small-scale systems.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The same goes for “adiabatic” processes (AA-CAES), which aim to use the heat of compression to reheat the expanding air, and which are the main research focus for large-scale CAES. For a micro-CAES system, it’s very important to simplify the structure as much as possible. &lt;sup id=&#34;fnref2:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;This leaves us with two low-tech strategies that can be followed to achieve similar storage capacity and energy efficiency as lead-acid batteries. First, we can design low pressure systems which minimize the temperature differences during compression and expansion. Second, we can design high pressure systems in which the heat and cold from compression and expansion are used for household applications.&lt;/p&gt;
+&lt;h2 id=&#34;small-scale-high-pressure&#34;&gt;Small-scale, High Pressure&lt;/h2&gt;
+&lt;p&gt;Small-scale compressed air energy storage systems with high air pressures turn the inefficiency of compression and expansion into an advantage. While large-scale AA-CAES aims to recover the heat of compression with the aim of maximizing electricity production, these small-scale systems take advantage of the temperature differences to allow trigeneration of electrical, heating and cooling power. The dissipated heat of compression is used for residential heating and hot water production, while the cold expanding air is used for space cooling and refrigeration. Chemical batteries can’t do this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Small-scale, high pressure systems use the dissipated heat of compression for residential heating and hot water production, while the cold expanding air is used for space cooling and refrigeration.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In these systems, the electric-to-electric efficiency is very low. However, there are now several efficiencies to define, because the system also supplies heat and cold. &lt;sup id=&#34;fnref1:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Furthermore, this approach can make several electrical appliances unnecessary, such as the refrigerator, the air-conditioning, and the electric boiler for space and water heating. Since the use of these appliances is often responsible for roughly half of the electricity use in an average household, a small-scale CAES system with high pressure has lower electricity demand overall.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;A typical air compressor. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A typical air compressor. [Source](https://www.thomasnet.com/articles/machinery-tools-supplies/Air-Compressors). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;High pressure systems easily solve the issue of storage size. As we have seen, a higher air pressure can greatly reduce the size of a compressed air storage vessel, but only at the expense of increased waste heat. In a small-scale system that takes advantage of temperature differences to provide heating and cooling, this is advantageous. Therefore, high pressure systems are ideal for small-scale residential buildings, where storage space is limited and where there is a large demand for heat and cold as well as electricity. The only disadvantages are that high pressure systems require stronger and more expensive storage tanks, and that extra space is required for heat exchangers.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Experimental set-up of a micro CAES system. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Experimental set-up of a micro CAES system. Source: [^30] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Several research groups have designed, modeled and built small-scale combined heat-and-power CAES units which provide heating and cooling as well as electricity. The high pressure system with a storage volume of only 0.55 m3 that we mentioned earlier, is an example of this type of system. &lt;sup id=&#34;fnref1:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; As noted, its electrical efficiency is only 11-17%, but the system also produces sufficient heat to produce 270 litres of hot water per day. If this thermal source of energy is also taken into account, the “exergetic” efficiency of the whole system is close to 70%. Similar &amp;ldquo;exergy&amp;rdquo; efficiencies can be found in other studies, with systems operating at pressures between 50 and 200 bar. &lt;sup id=&#34;fnref1:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Heat and cold from compression and expansion can be distributed to heating or cooling devices by means of water or air. The setup of an air cycle heating and cooling system is very similar to a CAES system, except for the storage vessel. Air cycle heating and cooling has many advantages, including high reliability, ease of maintenance, and the use of a natural refrigerant, which is environmentally benign. &lt;sup id=&#34;fnref2:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;small-scale-low-pressure&#34;&gt;Small-scale, Low Pressure&lt;/h2&gt;
+&lt;p&gt;The second strategy to achieve higher efficiencies and lower storage volumes is exactly the opposite from the first. Instead of compressing air to a high pressure and taking advantage of the heat and cold from compression and expansion, a second class of small-scale CAES systems is based on low pressures and “near-isothermal” compression and expansion.&lt;/p&gt;
+&lt;p&gt;Below air pressures of roughly 10 bar, the compression and expansion of air exhibit insignificant temperature changes (“near-isothermal”), and the efficiency of the energy storage system can be close to 100%. There is no waste heat and consequently there is no need to reheat the air upon expansion.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Isothermal compression requires the least amount of energy to compress a given amount of air to a given pressure. However, reaching an isothermal process is far from reality. To start with, it only works with small and/or slowly cycling compressors and expanders. Unfortunately, typical industrial compressors are not made for maximum efficiency but for maximum power and thus work under fast-cycling, non-isothermal conditions. The same goes for most industrial expanders. &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Below air pressures of 10 bar, compression and expansion of air exhibit insignificant temperature changes and the efficiency can be close to 100%.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The use of industrial compressors and expanders explains in large part why the low pressure CAES systems mentioned at the beginning of this article have such large storage vessels. Both systems are based on devices which are operated outside of their optimal or rated conditions. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; Because inefficiencies multiply during energy conversions, even relatively small differences in the efficiency of compressors and expanders can have large effects. For example, a variation in device efficiency from 60% to 80% results in a system efficiency from 36% to 64%, respectively.&lt;/p&gt;
+&lt;h2 id=&#34;new-types-of-compressors-and-expanders&#34;&gt;New Types of Compressors and Expanders&lt;/h2&gt;
+&lt;p&gt;Because the performance of a compressor and an expander significantly impact the overall efficiency of a small-scale CAES system, several researchers have built their own compressors and expanders, which are especially aimed at energy storage. For example, one team designed, built and examined a single-stage, low power isothermal compressor that uses a liquid piston. &lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; It operates at a very low compression rate (between 10-60 rpm), which correspond to the output of solar PV panels, and limits temperature fluctuation during compression and expansion to 2 degrees Celsius.&lt;/p&gt;
+&lt;p&gt;The low-cost device has minimum moving parts and obtains efficiencies of 60-70% at 3 to 7 bar pressure. &lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; This is a very high efficiency for such a simple device, considering that a sophisticated three-stage centrifugal compressor, used in large-scale CAES systems or in industrial settings, is roughly 70% efficient. Furthermore, the researchers state that the efficiency is limited by the off-the-shelf motor that they use to power their compressor. Indeed, another research team achieved 83% efficiency. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;A scroll compressor. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A scroll compressor. Source: [^30] 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Another novelty is the use of scroll compressors, which are the types of compressors that are now used in refrigerators, air-conditioning systems, and heat pumps. Both fluid piston and scroll compressors have a high area-to-volume ratio, which minimizes heat production, and can easily handle two-phase flow, which means that they can also be used as expanders. They are also lighter and less noisy than typical reciprocating compressors. &lt;sup id=&#34;fnref1:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;varying-air-pressure&#34;&gt;Varying Air Pressure&lt;/h2&gt;
+&lt;p&gt;Although compressors and expanders are the most important determinants of system efficiency in small-scale CAES systems, they are not the only ones. For example, in every compressed air energy storage system, additional efficiency loss is caused by the fact that during expansion the storage reservoir is depleted and therefore the pressure drops. Meanwhile, the input pressure for the expander is required to vary only in a minimal range to assure high efficiency.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;Image: air pressure meter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: air pressure meter. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This is usually solved in two ways, although neither is really satisfactory. First, air can be stored in a tank with surplus pressure, after which it is throttled down to the required expander input pressure. However, this method — which is used in large-scale CAES — requires additional energy use and thus introduces inefficiency. Second, the expander can operate at variable conditions, but in this case efficiency will drop along with the pressure while the storage is emptied.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During expansion the storage reservoir is depleted and therefore the pressure drops.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With these problems in mind, a team of researchers combined a small-scale CAES with a small-scale pumped hydropower plant, resulting in a system that maintains a steady pressure during the complete discharge of the storage reservoir. It consists of two compressed air tanks that are connected by a pipe attached to their lower portions: each of these have separate spaces for air (below) and water storage (above). The configuration maintains a head of water by means of a pump, which consumes 15% of the generated power. However, in spite of this extra energy use, the researchers managed to increase both the efficiency and the energy density of the system. &lt;sup id=&#34;fnref3:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;off-the-grid-power-storage&#34;&gt;Off-the-Grid Power Storage&lt;/h2&gt;
+&lt;p&gt;To give an idea of what a combination of the right components can achieve, let’s have a look at a last research project. &lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt; It concerns a system that is based on a highly efficient, custom-made compressor/expander, which is directly coupled to a DC motor/generator. Apart from its efficient components, this CAES project also introduces an innovative system configuration. It doesn’t use one large air storage tank, but several smaller ones, which are interconnected and computer-controlled.&lt;/p&gt;
+&lt;p&gt;The setup consists of the compression/expansion unit coupled to three small (7L) cylinders, previously used as air extinguishers, and operates at low pressure (max 5 bar). The storage vessels are connected via PVC pipework and brass fittings. To control the air-flow, three computer-controlled air valves are installed at the inlet of each cylinder. The system can be extended by adding more pressure vessels. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;Small-scale CAES with modular storage tanks. Image by Abdul Hai Al-Alami.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Small-scale CAES with modular storage tanks. Image by Abdul Hai Al-Alami. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A modular configuration results in a higher system efficiency and energy density for mainly two reasons. First, it helps more effective heat transfer to take place, because every air tank acts as an additional heat exchanger. Second, it allows better control over the discharge rate of the storage reservoir. The cylinders can be discharged either in unison to satisfy a demand for high power density (more power at the cost of a shorter discharge time), or they can be discharged sequentially to satisfy a demand for high energy density (longer discharge time at the cost of maximum power).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By discharging modular storage cylinders sequentially, the discharge time can be greatly increased, making the system comparable to lead-acid batteries in terms of energy density.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;By discharging the cylinders sequentially, the discharge time can be greatly increased, making the system comparable to lead-acid batteries in terms of energy density. Based on their experimental set-up, the researchers calculated the efficiencies for different starting pressures and numbers of cylinders. They found that 57 interconnected cylinders of 10 litre each, operating at 5 bar, could fulfill the job of four 24V batteries for 20 consecutive hours, all while having a surprisingly small footprint of just 0.6 m3.&lt;/p&gt;
+&lt;p&gt;Interestingly, the storage capacity is 410 Wh, which is comparable to the 360 Wh rural system noted earlier, which requires an 18 m3 storage vessel — that’s thirty times larger than the modular storage system.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Computer-controlled air valves. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Computer-controlled air valves. [Source](http://www.jaksa.si/compressed-air-solenoid-valves.html). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The electric-to-electric efficiency for the 3-cylinder set-up reached a peak of 85% at 3 bar pressure, while the estimated efficiency for the 57-cylinder set-up is 75%. These are values comparable to lithium-ion batteries, but adding more storage vessels or operating at higher pressures introduces larger losses due to compression, heat, friction and fittings. &lt;sup id=&#34;fnref2:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Nevertheless, when I e-mailed Abdul Alami, the main author of the study, thinking that the results sounded too good to be true, he told me that the figures were actually overly conservative: “We stuck to low pressures to achieve near-isothermal compression and to ensure safe operation. Operating at pressures higher than 10 bar would create serious thermal losses, but a pressure of 7-8 bar may be beneficial in terms of energy and power density, though maybe not in terms of efficiency.”&lt;/p&gt;
+&lt;h2 id=&#34;build-it-yourself&#34;&gt;Build it Yourself?&lt;/h2&gt;
+&lt;p&gt;In conclusion, small-scale compressed air energy storage could be a promising alternative to batteries, but the research is still in its early stages — the first study on small-scale CAES was published in 2010 — and new ideas will continue to shed light on how best to develop the technology. At the moment, there are no commercial products available, and setting up your own system can be quite intimidating if you are new to pneumatics. Simply getting hold of the right components and fittings is a headache, as these come in a bewildering variety and are only sold to industries.&lt;/p&gt;
+&lt;p&gt;However, if you’re patient and not too unhandy, and if you are determined to use a more sustainable energy storage system, it is perfectly possible to build your own CAES system. As the examples in this article have shown, it’s just a bit harder to build a good one.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s more ideas for small-scale CAES systems in the previous article: &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;History and Future of the Compressed Air Economy&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Luo, Xing, et al. &amp;ldquo;Overview of current development in electrical energy storage technologies and the application potential in power system operation.&amp;rdquo; Applied Energy 137 (2015): 511-536. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0306261914010290&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0306261914010290&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Laijun, C. H. E. N., et al. &amp;ldquo;Review and prospect of compressed air energy storage system.&amp;rdquo; Journal of Modern Power Systems and Clean Energy 4.4 (2016): 529-541. &lt;a href=&#34;https://link.springer.com/article/10.1007/s40565-016-0240-5&#34;&gt;https://link.springer.com/article/10.1007/s40565-016-0240-5&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;There is increasing competition for potential CAES geologic units, as many are also well suited to the storage of natural gas or sequestered carbon. Furthermore, cavern storage imposes harsh requirements on the geographical conditions. For example, the originally planned Iowa CAES project in the US was terminated due to its porous sandstone condition. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Barnhart, Charles J., and Sally M. Benson. &amp;ldquo;On the importance of reducing the energetic and material demands of electrical energy storage.&amp;rdquo; Energy &amp;amp; Environmental Science 6.4 (2013): 1083-1092. &lt;a href=&#34;https://gcep.stanford.edu/pdfs/EES_reducingdemandsonenergystorage.pdf&#34;&gt;https://gcep.stanford.edu/pdfs/EES_reducingdemandsonenergystorage.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Petrov, Miroslav P., Reza Arghandeh, and Robert Broadwater. &amp;ldquo;Concept and application of distributed compressed air energy storage systems integrated in utility networks.&amp;rdquo; ASME 2013 Power Conference. American Society of Mechanical Engineers, 2013. &lt;a href=&#34;http://eddism.com/wp-content/uploads/2014/10/Paper-EDD-Concept-and-Application-of-Distributed-Compressed-Air-Energy-Storage-Systems-Integrated-in-Utility-Networks-July-2013.pdf&#34;&gt;http://eddism.com/wp-content/uploads/2014/10/Paper-EDD-Concept-and-Application-of-Distributed-Compressed-Air-Energy-Storage-Systems-Integrated-in-Utility-Networks-July-2013.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Tallini, Alessandro, Andrea Vallati, and Luca Cedola. &amp;ldquo;Applications of micro-CAES systems: energy and economic analysis.&amp;rdquo; Energy Procedia 82 (2015): 797-804.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;Setiawan, A., et al. &amp;ldquo;Sizing compressed-air energy storage tanks for solar home systems.&amp;rdquo; Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA), 2015 IEEE International Conference on. IEEE, 2015. &lt;a href=&#34;https://www.researchgate.net/profile/Ardyono_Priyadi/publication/274898992_Sizing_Compressed-Air_Energy_Storage_Tanks_for_Solar_Home_Systems/links/5670e2c408ae2b1f87acf927.pdf&#34;&gt;https://www.researchgate.net/profile/Ardyono_Priyadi/publication/274898992_Sizing_Compressed-Air_Energy_Storage_Tanks_for_Solar_Home_Systems/links/5670e2c408ae2b1f87acf927.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;Herriman, Kayne. &amp;ldquo;Small compressed air energy storage systems.&amp;rdquo; (2013). &lt;a href=&#34;https://eprints.usq.edu.au/24651/1/Herriman_2013.pdf&#34;&gt;https://eprints.usq.edu.au/24651/1/Herriman_2013.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;Manfrida, Giampaolo, and Riccardo Secchi. &amp;ldquo;Performance prediction of a small-size adiabatic compressed air energy storage system.&amp;rdquo; International Journal of Thermodynamics 18.2 (2015): 111-119. &lt;a href=&#34;http://dergipark.ulakbim.gov.tr/eoguijt/article/download/5000071710/5000113411&#34;&gt;http://dergipark.ulakbim.gov.tr/eoguijt/article/download/5000071710/5000113411&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;Kim, Y. M., and Daniel Favrat. &amp;ldquo;Energy and exergy analysis of a micro-compressed air energy storage and air cycle heating and cooling system.&amp;rdquo; Energy 35.1 (2010): 213-220.&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;Kim, Young Min. &amp;ldquo;Novel concepts of compressed air energy storage and thermo-electric energy storage.&amp;rdquo; (2012). &lt;a href=&#34;https://infoscience.epfl.ch/record/181540/files/EPFL_TH5525.pdf&#34;&gt;https://infoscience.epfl.ch/record/181540/files/EPFL_TH5525.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;Minutillo, M., A. Lubrano Lavadera, and E. Jannelli. &amp;ldquo;Assessment of design and operating parameters for a small compressed air energy storage system integrated with a stand-alone renewable power plant.&amp;rdquo; Journal of Energy Storage 4 (2015): 135-144. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2352152X15300207&#34;&gt;https://www.sciencedirect.com/science/article/pii/S2352152X15300207&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;Villela, Dominique, et al. &amp;ldquo;Compressed-air energy storage systems for stand-alone off-grid photovoltaic modules.&amp;rdquo; Photovoltaic Specialists Conference (PVSC), 2010 35th IEEE. IEEE, 2010. &lt;a href=&#34;https://pdfs.semanticscholar.org/9f1d/4273f8deb4a0a18c86eb4056e2fd378f8f3f.pdf&#34;&gt;https://pdfs.semanticscholar.org/9f1d/4273f8deb4a0a18c86eb4056e2fd378f8f3f.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;Prinsen, Thomas H. Design and analysis of a solar-powered compressed air energy storage system. Naval Postgraduate School Monterey United States, 2016. &lt;a href=&#34;https://scholar.google.com/scholar?cluster=5783353621699682542&amp;amp;hl=nl&amp;amp;as_sdt=2005&amp;amp;sciodt=0,5&#34;&gt;https://scholar.google.com/scholar?cluster=5783353621699682542&amp;amp;hl=nl&amp;amp;as_sdt=2005&amp;amp;sciodt=0,5&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;The small-scale system aimed at urban environments, which has a storage reservoir of 18 metres long, is based on a compressor that “had been in service for 30 years on building sites to run various air tools and had little maintenance done”. &lt;sup id=&#34;fnref1:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; This is detrimental to system efficiency, because a compressor that is not maintained well easily wastes as much as 30% of its potential output through air leaks, increased friction, or dirty air filters. This small-scale system also used a highly inefficient expander. All together, this explains why it combines a very large storage volume with a very low electric-to-electric efficiency (less than 5%).&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;Van de Ven, James D., and Perry Y. Li. &amp;ldquo;Liquid piston gas compression.&amp;rdquo; Applied Energy 86.10 (2009): 2183-2191. &lt;a href=&#34;https://experts.umn.edu/en/publications/liquid-piston-gas-compression&#34;&gt;https://experts.umn.edu/en/publications/liquid-piston-gas-compression&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;Alami, Abdul Hai, et al. &amp;ldquo;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.&amp;rdquo; Renewable Energy 106 (2017): 201-211.&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34;&gt;
+&lt;p&gt;Abdul Alami, e-mail conversation.&amp;#160;&lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>History and Future of the Compressed Air Economy</title>
+      <link>https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/</link>
+      
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;Hiscox straight line air compressor&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hiscox straight line air compressor 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Compressed air energy storage (CAES) is considered to be an important component of a renewable power grid, because it could store surplus power from wind turbines and solar panels on a large scale. However, in its present form, the technology suffers from large energy losses and depends on natural gas to operate.&lt;/p&gt;
+&lt;p&gt;A look at the 4,000 year long history of compressed air makes clear that this is not unavoidable. Although our ancestors were dependent on less energy efficient technology, they used compressed air in more intelligent configurations that had fewer energy conversion losses and were independent of fossil fuels.&lt;/p&gt;
+&lt;p&gt;These historical systems hold the key to the design of a low-tech, low-cost, robust, sustainable and relatively energy efficient energy storage medium. The compressed air economy could be the practical and realistic alternative to the hydrogen or all-electric utopias.&lt;/p&gt;
+&lt;h2 id=&#34;the-promise-of-compressed-air&#34;&gt;The Promise of Compressed Air&lt;/h2&gt;
+&lt;p&gt;While the potential of wind and solar energy is more than sufficient to supply the electricity demand of industrial societies, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;these resources are only available intermittently&lt;/a&gt; – is one way to deal with the variability and uncertainty of renewable power, but it has its limits. Therefore, a renewable power grid needs at least some energy storage, and the same goes for an off-the-grid system based on solar or wind power.&lt;/p&gt;
+&lt;p&gt;Today, more than 99% of worldwide electrical storage capacity consists of pumped hydropower energy storage plants, where surplus electrical energy from solar or wind power plants is stored for later use by pumping water from a lower to a higher reservoir. Pumped hydropower energy storage is pretty efficient and low-tech, but it requires a suitable geography for two large water bodies, separated vertically, and one or two dams. It also floods large areas of land. Most suitable sites are already in use, which means that there is little potential for further growth. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;That’s why many people are seeing a promising alternative in Compressed Air Energy Storage (CAES), another form of mechanical energy storage. In these systems, electricity is used to compress air, which is stored in an underground cavern. To make use of the stored energy, the air is decompressed and converted back to electricity.&lt;/p&gt;
+&lt;p&gt;Although CAES also requires favourable geography to provide the underground air storage caverns, it is believed that there are many more suitable sites worldwide than for pumped hydropower energy storage. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If the energy stored over the lifetime of a storage device is compared to the amount of primary energy required to build the device, CAES is vastly superior to electrochemical batteries&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Importantly, CAES is the most sustainable energy storage around. Unlike pumped hydropower energy storage, compressed air energy storage presents no environmental issues caused by the flooding of land and the damming of rivers.&lt;/p&gt;
+&lt;p&gt;Furthermore, if the energy stored over the lifetime of a storage device is compared to the amount of primary energy required to build the device, CAES surpasses pumped hydropower energy storage and is vastly superior to electrochemical batteries, which require 10 to 100 times more embodied energy for a given storage capacity. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;This is a crucial advantage, because high energy use for the production of the energy storage can &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;greatly decrease the sustainability of a renewable power grid&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem-with-compressed-air&#34;&gt;The Problem with Compressed Air&lt;/h2&gt;
+&lt;p&gt;In spite of these advantages, there are currently only two large-scale CAES plants in operation worldwide: one in Germany, built in 1979, and one in the USA, built in 1991. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; This limited uptake is mainly attributed to the fact that more than half of the energy is lost when charging and discharging a compressed air “battery”.&lt;/p&gt;
+&lt;p&gt;While pumped hydropower storage has a charge/discharge efficiency of 70-85%, and chemical batteries reach 65-90%, the CAES plants in operation in Germany and the US have an electric-to-electric efficiency of only 40-42% and 51-54%, respectively. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The low energy conversion efficiency is mainly due to the fact that air increases in temperature when being compressed to high pressures (both CAES plants operate at 50-70 bar, which is 10 to 20 times the air pressure in a bicycle tyre). Because the energy density of air decreases with rising temperature, both CAES plants remove the heat prior to storage and dump it into the atmosphere. This implies a significant source of energy loss. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;Vintage three-stage compressor&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Vintage three-stage compressor 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Furthermore, when air is decompressed from a high pressure, the temperature decreases to such an extent that the water vapour in the air can freeze, thereby damaging the valves and the expander of the storage system. To prevent this, and to increase power output, both CAES plants heat the air in combusters using natural gas fuel prior to expansion. Obviously, this further decreases the energy efficiency of the overall process, rendering the present CAES systems entirely dependent on fossil fuels for their operation. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A conversion efficiency of 40-50% means that &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;wind or solar power generation capacity must be doubled to make up for that loss&lt;/a&gt;. Consequently, we need more energy, more materials, and more space for the same energy output. The environmental friendliness of CAES is thus at least partly negated by its low efficiency.&lt;/p&gt;
+&lt;p&gt;Moreover, CAES&amp;rsquo;s low energy conversion efficiency is inherently linked to its low energy density, which means it relies on very large storage reservoirs. In principle, the energy density of compressed air can be greatly improved by using higher air pressures, but as the air pressure increases, more energy is turned into waste heat and the efficiency of the whole process further deteriorates. Consequently, a CAES system – in its current configuration – is always a compromise between efficiency and energy density.&lt;/p&gt;
+&lt;h2 id=&#34;4000-years-of-history&#34;&gt;4,000 Years of History&lt;/h2&gt;
+&lt;p&gt;The very low energy efficiency of today’s compressed air energy storage systems is remarkable in a historical context. The use of compressed air dates back more than 4,000 years and has always been an important driver of technological progress. Although these historical applications were not aimed at energy storage, they offer inspiration to improve both the energy efficiency and energy density of today’s CAES systems.&lt;/p&gt;
+&lt;p&gt;The earliest and arguably most important use of compressed air throughout history has been fueling the fire. This happened in the kitchen and in all heat-based production processes, but it was especially important in metal making processes. An unaided charcoal fire could reach 900°C, but a powerful forced air supply could raise its temperature to nearly 2000°C. &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;The earliest use of compressed air in history has been fueling the fire.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ The earliest use of compressed air in history has been fueling the fire. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Although there were important regional differences, the history of metal smelting shows an evolution from metals with relatively low melting points, such as tin (230°C), to metals with higher melting points, first copper (1050°C) and then iron (1500°C).&lt;/p&gt;
+&lt;p&gt;This progress was in part driven by the improvements in air compressor technology, which evolved from air treading bags, wooden cylinders and pistons, and various forms of bellows, all human powered, to much larger and more powerful accordion bellows made of wood and bull hides, which were double-acting and operated by water power. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Progress in metal smelting was in large part driven by improvements in air compressor technology&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Starting in the 1860s and continuing into the 1900s, compressed air (or “pneumatics”) was at the centre of another technological revolution. This time, pneumatics established itself as the most versatile and widely used power transmission technology before the introduction of electricity. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Because electric power was still distributed &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/&#34;&gt;at low voltages&lt;/a&gt; (“hydraulics”) had better transmission efficiencies over longer distances. However, compressed air has a very practical advantage over water under pressure: air is available anywhere and its exhaust poses no problems, while hydraulic systems require a sufficient water supply as well as a means to drain the fluid after use.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As a power transmission technology, compressed air was first applied in tunneling and mining. It provided an answer to the pressing need for a mechanical rock drill in the building of canals and railways, where tunnel construction formed a major bottleneck. Under severe hard-rock conditions, tunnel advance with hand drilling – using a pickaxe and explosives – was measured in inches per day, and tunnels of as little as half a mile in length could take years to complete. &lt;sup id=&#34;fnref1:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In the new configuration, steam engines above-ground produced compressed air that was piped into the shafts or tunnels. The breakthrough of compressed air power transmission and pneumatic drilling tools happened with the digging of the 13.7 km long Mont Cenis tunnel in the Alps, which was completed in just 14 years (1857-1871). The technology quickly spread to the mining industry, especially in the US, where compressed air not only powered rock drills but also other machinery, such as hauling, pumping and stamping machines. &lt;sup id=&#34;fnref2:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-paris-compressed-air-network&#34;&gt;The Paris Compressed Air Network&lt;/h2&gt;
+&lt;p&gt;With its effectiveness demonstrated so dramatically in power drilling, compressed air was adapted to a widening range of industrial operations: hammering, riveting, painting and spraying, pressure handling of fluids in processing, and a host of other uses. In the US, pneumatics came to be widely introduced as an auxiliary power system in manufacturing from the 1880s. The Census of 1900 referred to the widespread introduction of small pneumatic tools as possibly “the most important single tool development of the decade”. &lt;sup id=&#34;fnref3:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Around the same time in Europe, the French took pneumatic power transmission one step further by setting up a city-wide power distribution network in Paris. It would remain in use for more than 100 years (from 1881 to 1994), distributing compressed air at a relatively low pressure of 5-6 bar over a network of (eventually) more than 900 km of mains, serving more than 10,000 customers. &lt;sup id=&#34;fnref4:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;Distribution room for the pneumatic clock network in Paris.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Distribution room for the pneumatic clock network in Paris. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The Paris compressed air network started as a system designed exclusively for regulating clocks by impulses of compressed air sent through subterranean pipes. By 1889, the network in Paris was regulating 8,000 clocks through 65 km of mains. The clock regulating service was retired in 1927, after it became clear that electricity was better suited for the job. However, by that time, the compressed air network in Paris had proved highly successful in small industrial and service establishments. &lt;sup id=&#34;fnref5:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The French set up a city-wide power distribution network in Paris, which served more than 10,000 customers and remained in use for 100 years&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Already in 1892, F.E. Idell wrote that “among the smaller industrial purposes for which the air motors are used in Paris, I find the driving of lathes for metal and wood, of circular saws, drills, polishing machines, and many others. They are also used in the workshops of carpenters, joiners and cabinet-makers, of smiths, of umbrella makers, of collar-makers, of bookbinders, and naturally in a great many places where sewing machines are used, both by dressmakers, tailors, and shoemakers, from the smallest to the largest scale.” &lt;sup id=&#34;fnref3:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Power station of the compressed air network in Paris. Source: Tom Bates, The Manufacturer and Builder, 1889. Image found online at the Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Power station of the compressed air network in Paris. Source: Tom Bates, The Manufacturer and Builder, 1889.
+Image found online at the [Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Over the years, the share of commercial and domestic use of compressed air decreased, as electricity became more important. However, industrial consumption of compressed air kept growing, and many large factories in Paris – from car producers to glass manufacturers – were connected to the unique power distribution network until the very end. Dentists became new users during the 1970s and 1980s. &lt;sup id=&#34;fnref6:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref4:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;first-lesson-avoid-energy-conversions&#34;&gt;First Lesson: Avoid Energy Conversions&lt;/h2&gt;
+&lt;p&gt;What can be learned from comparing historical and current technologies based on compressed air? A first and crucial difference is the number of energy conversions involved. In historical systems, mechanical energy (for example, from a waterwheel or a steam engine) was directly converted to compressed air (using an air compressor), and then – most often – converted back to mechanical energy (for example, moving a pneumatic hammer). Consequently, there were only two sources of energy conversion loss: in the air compressor, and in the air expander.&lt;/p&gt;
+&lt;p&gt;Compressed air is still vital to the productivity of many industries and services around the globe, being used in thousands of applications – from food packaging and metal smelting to the manufacturing of microchips and plastics. However, compressed air is now produced by air compressors that run on electricity. This introduces two additional sources of energy loss: the electric generator (which converts mechanical energy from an energy source into electricity) and the electric motor (which converts electric energy back into mechanical energy to run the air compressor).&lt;/p&gt;
+&lt;p&gt;As a result, today’s industrial use of compressed air is very wasteful: assuming each converter is 75% efficient, and assuming no other energy losses, only 30% of the energy input is converted into useful output. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;In Paris, compressed air was piped through the sewer system.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ In Paris, compressed air was piped through the sewer system. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The overall system efficiency of the two existing CAES plants is even worse than that: not only is there the extra conversion step at the beginning of the chain (the energy loss in the windmill generator and in the electric motor running the compressor), but also at the end of the chain. This contrasts with industrial applications, where the end product is compressed air &amp;ndash; a CAES plant converts the compressed air back into electricity.&lt;/p&gt;
+&lt;p&gt;When the efficiency of a CAES plant is said to be 40-50%, this only refers to the losses in the air compressor and the air expander (electric-to-electric efficiency). However, if we include the conversions to and from electricity, the overall system efficiency decreases to less than 20%, again assuming that each converter has an efficiency of 75%.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;Image: Stone dressing using pneumatic hammers.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Stone dressing using pneumatic hammers. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, imagine that a factory uses electricity from a CAES plant to power its industrial air compressors – a perfectly possible scenario. We then get the following energy conversion chain: mechanical energy is converted into electricity, electricity is converted into compressed air, compressed air is converted into electricity, electricity is converted into compressed air, and compressed air is converted in mechanical energy. That’s not two, or four, but six sources of energy conversion losses. Assuming each converter is 75% efficient, overall system efficiency now drops below 10%.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If we would connect a CAES plant directly to a factory that uses pneumatic tools, by piping compressed air from one to the other, there would be no need to convert compressed air into electricity and back.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;On the other hand, if we would connect a CAES plant directly to a factory that uses pneumatic tools, by piping compressed air from one to the other, we would suffer just four sources of energy loss (generator, motor, compressor, expander). In the CAES plant, there is no longer a need to convert the stored compressed air back to electricity, while in the factory there is no need to compress the air a second time, using electricity. CAES and a factory could be up to 25 km apart &amp;ndash; the distance up to which compressed air can be distributed efficiently.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Map via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Map via [Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The obvious next step is to compress the air in a CAES plant using a direct mechanical link between the wind mill and the air compressor, thus skipping the conversion from direct mechanical energy to electricity and back. Such an approach – which has been demonstrated on a small scale, in slightly different configurations &lt;sup id=&#34;fnref1:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt; – would make CAES entirely independent of electricity and would bring the energy conversion steps back to two, as in all historical systems. The only remaining energy conversion losses would be in the air compressor and in the air expander.&lt;/p&gt;
+&lt;p&gt;A rigid connection between windmill shaft and air compressor would also improve the efficiency of a CAES plant that is not connected to a factory but supplies electricity for general purposes, although the efficiency gain will be smaller. Obviously, compressing the air mechanically only works with windmills and not with solar PV panels, which do not produce mechanical energy.&lt;/p&gt;
+&lt;h2 id=&#34;second-lesson-use-heat-and-cold-for-other-purposes&#34;&gt;Second Lesson: Use Heat and Cold for Other Purposes&lt;/h2&gt;
+&lt;p&gt;A second, related difference between present and historical uses of compressed air is how to deal with the temperature differences caused by compression and expansion of air. To improve efficiency, both CAES plants in operation use multiple air compressors. Multi-stage compression progressively increases the pressure and cools the air after each compression stage, using circulating water that is pumped to a cooling tower and released into the atmosphere. &lt;sup id=&#34;fnref:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Today, most CAES engineers are focused on further improving efficiency by using the waste heat of compression to reheat the compressed air upon expansion. This method is called “Advanced Adiabatic CAES” (AA-CAES) or “fuelless CAES” and removes the need to reheat with natural gas as in the standard “diabatic” CAES. The technology is expected to reach an overall efficiency of roughly 70%, bringing it closer to the efficiency of chemical batteries and pumped hydropower storage plants. &lt;sup id=&#34;fnref2:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;In Paris, compressed air was usually heated by a coke fire before it was used by an air motor, increasing the power output in a way that is very similar to the use of natural gas in present-day CAES systems. Source: Hiscox, Gardner D. Compressed air, its production, uses, and applications; comprising the physical properties of air from a vacuum to its highest pressure, its thermodynamics, compression, transmission and uses as a motive power… New York: N. W. Henley (1909): 271.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ In Paris, compressed air was usually heated by a coke fire before it was used by an air motor, increasing the power output in a way that is very similar to the use of natural gas in present-day CAES systems. Source: Hiscox, Gardner D. Compressed air, its production, uses, and applications; comprising the physical properties of air from a vacuum to its highest pressure, its thermodynamics, compression, transmission and uses as a motive power… New York: N. W. Henley (1909): 271. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;However, AA-CAES remains an unproven technology so far: a number of plants have been proposed, but none have yet made it past the design stage. &lt;sup id=&#34;fnref1:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt; The problem is twofold: first, the process enhancement increases the costs of a CAES plant by 20 to 40%; second, re-using the waste heat of the compression process is technologically challenging. To transfer heat at a high rate with a minimal temperature difference requires a very large surface area of contact. &lt;sup id=&#34;fnref3:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the Paris compressed air power network, the cooling provided by the expansion of air was used for refrigeration, freezing, cooling and ventilation&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If we look at older pneumatic systems, we see that there are other, easier ways to take advantage of temperature differences due to compression and expansion. In the Paris compressed air power network, engineers took advantage of the cooling that is provided by the expansion of air. In Paris, compressed air was usually heated by a coke fire before it was used by an air motor, increasing the power output in a way that is very similar to the use of natural gas in present-day CAES systems.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;However, in bars and restaurants, these reheaters were not used. Instead, the cold air was used for refrigeration, freezing, cooling or ventilation purposes. In 1892, F.E. Idell described a Paris restaurant where “the exhaust was carried through a brick flue into the beer cellar. In this flue the carafes were set to freeze, and large moulds of block ice were also being made for table use, while the air was still cold enough in passing away through the beer cellar to render the use of ice for cooling quite unnecessary, even in the hottest weather.” &lt;sup id=&#34;fnref5:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The use of compressed air for cooling or freezing sometimes went together with the production of electricity for lighting, driving a dynamo. In these cases, the air motors were basically worked for their exhaust, with electric light being the by-product. Taking advantage of temperature differences also happened in the earlier mining applications, where the exhaust of the rock drills helped to cool (and ventilate) the mines.&lt;/p&gt;
+&lt;p&gt;A similar and promising idea today, is compressed air energy storage combined with thermal storage to provide electricity, heating, cooling, refrigeration and/or ventilation at the same time. In fact, this approach also avoids several energy conversions, as it could replace refrigerators, freezers, air-conditioners and heating systems running on electricity. The method could work at the level of a city district or an industrial area &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, but it is &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;especially interesting for decentralised energy storage using aboveground storage containers&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As we have seen, a higher air pressure can greatly reduce the size of a compressed air storage vessel, but only at the expense of increased waste heat. In individual buildings, space for storage vessels is limited, while there is a large demand for heat and cold, as well as electricity. Increasing the air pressure makes the storage vessel smaller and increases the production of heat and cold, meeting all energy needs of a household.&lt;/p&gt;
+&lt;p&gt;Some proposed designs follow other approaches to deal with the heat of compression, and these could work for both large-scale and small-scale CAES systems. One interesting idea is a compressed air energy storage system that runs on wind energy as well as solar energy. &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt; Wind energy is stored in the form of compressed air by compressor chain, as in the other CAES plants. However, solar energy from a &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;parabolic dish&lt;/a&gt; is stored in an insulated solar thermal tank and used to reheat the compressed air prior to expansion. Because the heat from the compression process is no longer needed to warm the air upon expansion, it is used to produce hot water.&lt;/p&gt;
+&lt;p&gt;A similar concept for a hybrid thermal and compressed air energy storage design uses electric heating instead of solar thermal power. &lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; Because the workload in these systems is shifted from pure conversion to investing partially in thermal storage, energy densities well in excess of traditional CAES can be achieved, and the size of the air storage can be reduced.&lt;/p&gt;
+&lt;h2 id=&#34;third-lesson-improve-the-air-compressorspanh2&#34;&gt;Third Lesson: Improve the Air Compressor&lt;/span&gt;&lt;/h2&gt;&lt;/h2&gt;
+&lt;p&gt;A third way to improve the efficiency of compressed air energy storage is by using more energy efficient air compressors and expanders. This strategy is opposite to the one we explained before. Instead of taking advantage of heat and cold to make the system more efficient, it tries to minimize waste heat production during compression (and, consequently, to limit cooling during expansion).&lt;/p&gt;
+&lt;p&gt;Once again, it pays to look to the past for inspiration. Surprisingly, the holy grail of “isothermal” air compression – in which no waste heat is produced at all – was found at least 400 years ago. The hydraulic air compressor – or “trompe”, as it was originally known – was an Italian invention first mentioned by name in 1588, but possibly already known in Antiquity.&lt;/p&gt;
+&lt;p&gt;From the 1600s onwards, dozens of “trompes” furnished a continuous air blast to early iron and brass-smelting furnaces in the French/Spanish Pyrenees. &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; Compared to a waterwheel running a wooden piston compressor, it was roughly three times more efficient, allowing higher iron production with less water power resources.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;Image: The trompe compressed air without any moving parts, other than valve gates to shut off incoming water flow.
+De Re Metallica, Georgius Agricola, 1556.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: The trompe compressed air without any moving parts, other than valve gates to shut off incoming water flow.
+De Re Metallica, Georgius Agricola, 1556. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The trompe consisted of one or more vertical wooden tubes through which water was channeled by gravity. Upon its descent, the water absorbed air through holes in the tube and acted as a continuous piston in compressing the air. At the bottom of the tube, the air was separated from the water in a receptacle, after which it was sent to the furnace nozzle by adjustable pressure. Remarkably, the hydraulic air compressor produced compressed air without any moving parts, other than gate valves to shut off incoming water flow. This made it an extremely reliable device. &lt;sup id=&#34;fnref1:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The hydraulic air compressor produced compressed air without any moving parts, which made it an extremely reliable and efficient device&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the 19th century, the design of the hydraulic air compressor was further improved, making it more efficient and practical. In 1861, a hydraulic air compressor was built to power the rock drills for the construction of the Mont Cenis tunnel in the Alps, but the technology reached its heydays only at the end of the nineteenth century, this time in the mining industry.&lt;/p&gt;
+&lt;p&gt;Over a 33-year period starting in 1896, eighteen gigantic hydraulic air compressors were built, mostly in the US, Canada, Germany and Sweden. In the largest of these installations, which were partly or completely built underground, water and air fell through pipes and shafts – hewn out of the rocks – which could be more than 100 metres deep and up to 4 metres wide. The delivery pressure amounted to 8 bar and the power output could reach 3,000 kilowatts. &lt;sup id=&#34;fnref:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:30&#34;&gt;&lt;a href=&#34;#fn:30&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;30&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/taylor-compressor-1_dithered.png&#34; alt=&#39;Image: Scientists gather to study the Taylor air compression system. Image: Canadian Journal of Fabrics,
+septembre 1897.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: Scientists gather to study the Taylor air compression system. Image: Canadian Journal of Fabrics,
+septembre 1897. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The first installations used a multitude of small downward air pipes, as in the original trompe, while later installations would use only two shafts. Leets and penstocks delivered water to air-water ‘mixing heads’ of various designs, and the compressed air was often subdivided to reach different mines and piped over distances of many kilometres. Most hydraulic air compressors operated for decades, the last one until 1981. &lt;sup id=&#34;fnref1:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:30&#34;&gt;&lt;a href=&#34;#fn:30&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;30&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Performance tests, periodically carried out between the 1890s and 1950s, report that the hydropower-to-pneumatic power conversion efficiency ranged between 53% and 88%. More recent research has lowered these numbers to account for gas solubility effects, reporting efficiencies of 40 to 78%. &lt;sup id=&#34;fnref2:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt; Although hydraulic air compression produces little waste heat, a new type of energy loss is introduced: some of the air dissolves in the water and thus bypasses the air-water separation process, reducing the mass flow of air at outlet. &lt;sup id=&#34;fnref3:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The hydraulic air compressor has seen renewed interest lately. A Canadian research team developed a 30-m tall hydraulic air compressor demonstrator rig in a former mine elevator shaft. &lt;sup id=&#34;fnref4:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; The “HAC Demonstrator Project” measures and verifies the energy savings potential of the technology primarily for deep mining applications. However, it could also be an alternative for multi-stage compressors used in industry and in CAES systems. This is because the new design can also be set up in closed-loop configuration, using a pump instead of a natural head of water.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;Image: A newly developed hydraulic air compressor in Canada. Source: HAC Demonstrator Project (https://electrale.com).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A newly developed hydraulic air compressor in Canada. Source: HAC Demonstrator Project (https://electrale.com). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Although the pump introduces extra energy use, a closed-loop configuration has two important advantages. First, it could be applied anywhere, rather than just in proximity to an exploitable water source and a large height difference. Second, it offers the opportunity to suppress the undesirable effects of solubility physics, for example through the addition of salt to the circulating water.&lt;/p&gt;
+&lt;p&gt;According to the researchers, a closed-loop hydraulic air compressor could have an efficiency of 75%, taking into account the extra energy use from the pump. This is 13% more efficient than a three-stage centrifugal compressor, and cost advantages will be larger because of lower maintenance requirements. &lt;sup id=&#34;fnref5:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The hydraulic air compressor seems like a perfect match for large-scale CAES systems with underground reservoirs. In fact, many of the 19th and 20th century hydraulic air compressors used the lower air separator chamber also for compressed air energy storage, in what could be considered the first large-scale use of CAES. The storage – which could be as large as 5,600 m3 – was used to meet a short-time excess demand for air, meaning that the hydraulic air compressor did not have to be designed for the largest loads. &lt;sup id=&#34;fnref2:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-compressed-air&#34;&gt;The Future of Compressed Air&lt;/h2&gt;
+&lt;p&gt;None of these ideas will make CAES plants 100% energy efficient. However, they could help make them reach similar efficiencies to batteries, but with much lower environmental issues and much less energy invested. In the next article, we focus in more detail on &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;small-scale CAES systems, which promise to be a sustainable alternative to chemical batteries in off-the-grid systems&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to George Fleming.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Chen, Haisheng, et al. &amp;ldquo;Compressed air energy storage.&amp;rdquo; Energy Storage-Technologies and Applications. InTech, 2013. &lt;a href=&#34;https://www.intechopen.com/books/energy-storage-technologies-and-applications/compressed-air-energy-storage&#34;&gt;https://www.intechopen.com/books/energy-storage-technologies-and-applications/compressed-air-energy-storage&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Luo, Xing, et al. &amp;ldquo;Overview of current development in electrical energy storage technologies and the application potential in power system operation.&amp;rdquo; Applied Energy 137 (2015): 511-536. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0306261914010290&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0306261914010290&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Barnhart, Charles J., and Sally M. Benson. &amp;ldquo;On the importance of reducing the energetic and material demands of electrical energy storage.&amp;rdquo; Energy &amp;amp; Environmental Science 6.4 (2013): 1083-1092. &lt;a href=&#34;https://gcep.stanford.edu/pdfs/EES_reducingdemandsonenergystorage.pdf&#34;&gt;https://gcep.stanford.edu/pdfs/EES_reducingdemandsonenergystorage.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Only one of these CAES plants is (partially) used to store surplus wind energy. Both were designed as peaker plants based on economic motives.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Kaiser, Friederike. &amp;ldquo;Steady State Analyse of existing Compressed Air Energy Storage Plants.&amp;rdquo; Power and Energy Student Summit (PESS). Dortmund, Germany (2015). &lt;a href=&#34;https://www.efzn.de/uploads/tx_wiwimitarbeiter/S02.2.pdf&#34;&gt;https://www.efzn.de/uploads/tx_wiwimitarbeiter/S02.2.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;The highest efficiencies are reached under optimal operation conditions. Additional efficiency loss is caused by the fact that during expansion the storage reservoir is being discharged and the pressure drops. Meanwhile, the input pressure for the expander is required to vary only in a minimal range to assure high efficiency during expansion. To bring together both requirements, air can be stored in a tank with surplus pressure and throttled down to the required expander input pressure – which is obviously linked to efficiency loss. [5]&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;Advanced Adiabatic Compressed Air Energy Storage (AA-CAES), Energy Storage Association. Retrieved May 2018. &lt;a href=&#34;http://energystorage.org/advanced-adiabatic-compressed-air-energy-storage-aa-caes&#34;&gt;http://energystorage.org/advanced-adiabatic-compressed-air-energy-storage-aa-caes&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;Sun, Hao, Xing Luo, and Jihong Wang. &amp;ldquo;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.&amp;rdquo; Applied Energy 137 (2015): 617-628. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0306261914006680&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0306261914006680&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;In fact, today’s CAES plants are essentially conventional gas turbines in which the compression of the combustion air is separated from the actual gas turbine process. Unlike conventional gas turbines, which consume about two-thirds of their input fuel to compress the air at the time of power generation, CAES precompresses the air using low cost electricity from the power grid at off-peak times, and utilizes it with some gas fuel to generate electricity when required.&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;Smil, Vaclav. &amp;ldquo;Energy in world history.&amp;rdquo; (1994).&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;Ewbank, Thomas. A Descriptive and Historical Account of Hydraulic and Other Machines for Raising Water, Ancient and Modern: Including the Progressive Development of the Steam Engine. No. 32707. Tilt and Bogue, 1842.&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;Nye, David E. &amp;ldquo;Hunter Louis C. and Bryant Lynwood. A History of Industrial Power in the United States, 1780–1930. Volume 3: The Transmission of Power. Cambridge, Mass, and London: MIT Press, 1991. Pp. xxv+ 596 ISBN 0-262-08198-9.&amp;rdquo; The British Journal for the History of Science 25.4 (1992): 476-477.&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref4:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref5:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref6:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;&amp;ldquo;Compressed air: experiments upon the transmission of power by compressed air in Paris (Popp&amp;rsquo;s system)&amp;rdquo;, F.E. Idell, 1892&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref4:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref5:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;&amp;ldquo;The transmission and distribution of power from central stations by compressed air&amp;rdquo;. William Cawthorne Unwin, B. 1891.&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;&amp;ldquo;Compressed air, its production, uses, and applications; comprising the physical properties of air from a vacuum to its highest pressure, its thermodynamics, compression, transmission and uses as a motive power&amp;rdquo;, Gardner D. Hiscox, 1909&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;&amp;ldquo;La SUDAC, un siècle d&amp;rsquo;air comprimé au bord de la Seine&amp;rdquo;, Denis Cosnard, Des usines à Paris, 2011.&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;&amp;ldquo;Histoire de la SUDAC (1877-1996)&amp;rdquo; (PDF), Tristan de la Broise &amp;amp; Florence Meffre, 1996&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34;&gt;
+&lt;p&gt;&amp;ldquo;The transmission of power by compressed air&amp;rdquo;, Robert Zahner, 1890&amp;#160;&lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:19&#34;&gt;
+&lt;p&gt;Energy conversions are not necessarily a bad thing. Mechanical power transmission involves no energy conversions, but it has very high energy losses when transported over longer distances and when subdivided to a large number of machines. This is why so-called “fluid powers” – pneumatics, hydraulics and electricity – came onto the scene in the 19th century. Although their conversion to another form of energy involves energy loss, this loss is compensated for by their much higher efficiency in transmission and subdivision. However, combining two fluid powers – such as compressed air and electricity – is wasteful by definition.&amp;#160;&lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:20&#34;&gt;
+&lt;p&gt;Ibrahim, Hussein, et al. &amp;ldquo;Study and design of a hybrid wind–diesel-compressed air energy storage system for remote areas.&amp;rdquo; Applied Energy 87.5 (2010): 1749-1762. &lt;a href=&#34;http://www.academia.edu/download/42460658/Study_and_design_of_a_hybrid_winddiesel-20160209-23813-kip9us.pdf&#34;&gt;http://www.academia.edu/download/42460658/Study_and_design_of_a_hybrid_winddiesel-20160209-23813-kip9us.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:21&#34;&gt;
+&lt;p&gt;Cheng, Jie. Configuration and optimization of a novel compressed-air-assisted wind energy conversion system. The University of Nebraska-Lincoln, 2016. &lt;a href=&#34;https://digitalcommons.unl.edu/cgi/viewcontent.cgi?referer=https://www.google.es/&amp;amp;httpsredir=1&amp;amp;article=1081&amp;amp;context=elecengtheses&#34;&gt;https://digitalcommons.unl.edu/cgi/viewcontent.cgi?referer=https://www.google.es/&amp;amp;httpsredir=1&amp;amp;article=1081&amp;amp;context=elecengtheses&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:21&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:22&#34;&gt;
+&lt;p&gt;Zakeri, Behnam, and Sanna Syri. &amp;ldquo;Electrical energy storage systems: A comparative life cycle cost analysis.&amp;rdquo; Renewable and Sustainable Energy Reviews 42 (2015): 569-596. &lt;a href=&#34;https://www.researchgate.net/profile/Behnam_Zakeri/publication/281277805_Electrical_energy_storage_systems_A_comparative_life_cycle_cost_analysis_2015/links/55deac0008ae79830bb58ede.pdf&#34;&gt;https://www.researchgate.net/profile/Behnam_Zakeri/publication/281277805_Electrical_energy_storage_systems_A_comparative_life_cycle_cost_analysis_2015/links/55deac0008ae79830bb58ede.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:22&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:22&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:23&#34;&gt;
+&lt;p&gt;Bagdanavicius, Audrius, and Nick Jenkins. &amp;ldquo;Exergy and exergoeconomic analysis of a Compressed Air Energy Storage combined with a district energy system.&amp;rdquo; Energy Conversion and Management 77 (2014): 432-440. &lt;a href=&#34;https://lra.le.ac.uk/bitstream/2381/37140/2/ECM_CAESpaper_final.pdf&#34;&gt;https://lra.le.ac.uk/bitstream/2381/37140/2/ECM_CAESpaper_final.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:23&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:23&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:23&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:24&#34;&gt;
+&lt;p&gt;Ji, Wei, et al. &amp;ldquo;Thermodynamic analysis of a novel hybrid wind-solar-compressed air energy storage system.&amp;rdquo; Energy Conversion and Management 142 (2017): 176-187.&amp;#160;&lt;a href=&#34;#fnref:24&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:25&#34;&gt;
+&lt;p&gt;Houssainy, Sammy, et al. &amp;ldquo;Thermodynamic analysis of a high temperature hybrid compressed air energy storage (HTH-CAES) system.&amp;rdquo; Renewable Energy 115 (2018): 1043-1054.&amp;#160;&lt;a href=&#34;#fnref:25&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:26&#34;&gt;
+&lt;p&gt;Torrence, Euart Carl. &amp;ldquo;Hydraulic air compressors.&amp;rdquo; (1898). &lt;a href=&#34;http://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=1385&amp;amp;context=bachelors_theses&#34;&gt;http://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=1385&amp;amp;context=bachelors_theses&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:26&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:26&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:27&#34;&gt;
+&lt;p&gt;Tomàs, Estanislau. &amp;ldquo;The Catalan process for the direct production of malleable iron and its spread to Europe and the Americas.&amp;rdquo; Contributions to science (2000): 225-232. &lt;a href=&#34;https://www.raco.cat/index.php/Contributions/article/viewFile/157654/209545&#34;&gt;https://www.raco.cat/index.php/Contributions/article/viewFile/157654/209545&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:28&#34;&gt;
+&lt;p&gt;Schulze, Leroy E. Hydraulic air compressors. Vol. 7683. Dept. of the Interior, Bureau of Mines, 1954. &lt;a href=&#34;https://babel.hathitrust.org/cgi/pt?id=mdp.39015078460238;view=1up;seq=11&#34;&gt;https://babel.hathitrust.org/cgi/pt?id=mdp.39015078460238;view=1up;seq=11&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:29&#34;&gt;
+&lt;p&gt;Hydraulic Air Compressor (HAC) Demonstrator Project, Dean Millar, 2017. &lt;a href=&#34;https://aceee.org/files/proceedings/2017/data/polopoly_fs/1.3687890.1501159068!/fileserver/file/790271/filename/0036_0053_000034.pdf&#34;&gt;https://aceee.org/files/proceedings/2017/data/polopoly_fs/1.3687890.1501159068!/fileserver/file/790271/filename/0036_0053_000034.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref4:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref5:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:30&#34;&gt;
+&lt;p&gt;Hartenberg, R. S., and J. Denavit. &amp;ldquo;The fabulous air compressor.&amp;rdquo; Mach. Des 21 (1960): 168-170.&amp;#160;&lt;a href=&#34;#fnref:30&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:30&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:31&#34;&gt;
+&lt;p&gt;Millar, Dean L. &amp;ldquo;A review of the case for modern-day adoption of hydraulic air compressors.&amp;rdquo; Applied Thermal Engineering 69.1-2 (2014): 55-77.&amp;#160;&lt;a href=&#34;#fnref:31&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:31&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

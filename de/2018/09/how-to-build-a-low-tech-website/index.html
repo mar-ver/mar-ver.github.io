@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wie baut man eine Low-tech Website? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Wie baut man eine Low-tech Website?" />
+<meta name="twitter:title" content="Wie baut man eine Low-tech Website?"/>
+
+<meta property="og:description" content="Unser neuer Blog ist so konzipiert, dass der Energieverbrauch für den Zugriff auf unsere Inhalte radikal reduziert wird." />
+
+<meta name="twitter:description" content="Unser neuer Blog ist so konzipiert, dass der Energieverbrauch für den Zugriff auf unsere Inhalte radikal reduziert wird."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-09-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-09-24T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+<meta property="article:author" content="Marie Otsuka" />
+<meta name="citation_author" content="Marie Otsuka">
+
+<meta property="article:author" content="Roel Roscam Abbing" />
+<meta name="citation_author" content="Roel Roscam Abbing">
+
+
+<meta property="article:tag" content="ICT" />
+<meta property="article:tag" content="Solar Powered Website" />
+
+</head>
+<body id="wie-baut-man-eine-low-tech-website">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/de/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/de/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/de/power">Diese Website ist solarbetrieben und geht daher manchmal offline.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/about/ " data-nav="about" >
+                <span>Über</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Lösungen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-Tech Probleme</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergessene Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lesen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/archives/ " data-nav="archive" >
+                <span>Archiv</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/de/solar/donate/ " data-nav="donate" >
+                <span>Spenden</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Wie baut man eine Low-tech Website?</h1>
+
+				<p class="summary">
+					Unser neuer Blog ist so konzipiert, dass der Energieverbrauch für den Zugriff auf unsere Inhalte radikal reduziert wird.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">24. September 2018</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Von</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/de/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/de/authors/marie-otsuka/"> Marie Otsuka</a></span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/de/authors/roel-roscam-abbing/"> Roel Roscam Abbing</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Übersetzt von</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/de/translators/jonas-g%C3%B6rgen/">Jonas Görgen</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Übersetzungen</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2018/09/how-to-build-a-low-tech-website/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2018/09/how-to-build-a-low-tech-website/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2018/09/how-to-build-a-low-tech-website/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/es/2018/09/how-to-build-a-low-tech-website/">es</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/">pt</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pl/2018/09/how-to-build-a-low-tech-website/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png" alt='Erster Prototyp des solarbetriebenen Servers, der die neue Website betreibt. Der Solarladeregler (auf der rechten Seite) versorgt den Server (auf der linken Seite) über ein USB-Kabel mit Strom.' data-original="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/sps_close_hub845258251782203a1b78b8fd94c21a0_655559_800x800_fit_q90_h2_box.webp" data-dither="/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Erster Prototyp des solarbetriebenen Servers, der die neue Website betreibt. Der Solarladeregler (auf der rechten Seite) versorgt den Server (auf der linken Seite) über ein USB-Kabel mit Strom.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p><a href="/offline-reading.html" >Low-tech Magazine: Kindle version</a>.</p>
+<p>Low-tech Magazine wurde 2007 gegründet und hat sich seither kaum verändert. Da eine Neugestaltung der Website längst überfällig war — und weil wir versuchen mit gutem Beispiel voranzugehen — haben wir beschlossen, eine “low-tech”, selbst gehostete und solarbetriebene Version des Low-Tech-Magazins zu bauen. Der neue Blog soll den Energieverbrauch, der mit dem Zugriff auf unsere Inhalte einhergeht, radikal reduzieren. </p>
+<h2 id="warum-eine-low-tech-website">Warum eine Low-tech Website?</h2>
+<p>Es hieß, das Internet würde <a href="https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx" target="_blank" >die Gesellschaft “entmaterialisieren” und den Energieverbrauch senken</a>. Entgegen dieser Erwartungen ist es selbst zu einem <a href="https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/" >großen und schnell wachsenden Energieverbraucher</a> geworden.</p>
+<p>Um die negativen Folgen eines hohen Energieverbrauchs auszugleichen, wurden erneuerbare Energien als Mittel zur Senkung der Emissionen bei der Stromversorgung von Rechenzentren vorgeschlagen. Der jährliche <a href="http://www.greenpeace.org/usa/global-warming/click-clean/" target="_blank" >ClickClean Report</a> von Greenpeace beispielsweise erstellt eine Rangliste der großen Internetunternehmen auf der Grundlage ihrer Nutzung erneuerbarer Energiequellen.</p>
+<p>Der Betrieb von Rechenzentren mit erneuerbaren Energien reicht jedoch nicht aus, um dem wachsenden Energiebedarf des Internets gerecht zu werden. Zunächst einmal verbraucht das Internet bereits dreimal mehr Energie, als alle Wind- und Sonnenenergiequellen weltweit bereitstellen können. Darüber hinaus benötigt die <a href="https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/" >Herstellung und der regelmäßige Ersatz von Wind- und Solaranlagen ebenfalls Energie</a>, was bedeutet, dass mit zunehmendem Datenverkehr auch die Nutzung fossiler Brennstoffe zunehmen wird.</p>
+<blockquote>
+<p>Der Betrieb von Rechenzentren mit erneuerbaren Energien reicht nicht aus, um dem wachsenden Energiebedarf des Internets gerecht zu werden.</p>
+</blockquote>
+<p>Und schließlich sind Sonnen- und Windenergie nicht immer verfügbar, was bedeutet, dass ein  Internet auf Basis von Erneuerbaren auch das Speichern und/oder Übertragen von Elektrizität erfordern würde. Die Herstellung und der Ersatz solcher Infrastruktur ist ebenso <a href="https://lowtechmag.gitlab.io/solar/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" >von fossilen Brennstoffen abhängig</a>. Websites mit erneuerbarer Energie zu betreiben, ist keine schlechte Idee, doch muss auch der Trend zum wachsenden Energieverbrauch beachtet werden.</p>
+<p>Zum einen werden die Inhalte immer ressourcenintensiver. Dies hat viel mit der wachsenden Popularität von Videos zu tun, aber ein ähnlicher Trend lässt sich auch bei Websites beobachten. Die <a href="https://httparchive.org/reports/page-weight" target="_blank" >Größe der durchschnittlichen Webseite</a> (definiert als die durchschnittliche Seitengröße der 500.000 beliebtesten Domains) stieg von 0,45 Megabyte (MB) im Jahr 2010 auf 1,7 Megabyte im Juni 2018. Bei mobilen Websites stieg das durchschnittliche “Seitengewicht” um das Zehnfache von 0,15 MB im Jahr 2011 auf 1,6 MB im Jahr 2018. Andere Quellen berichten unter Verwendung anderer Messmethoden von durchschnittlichen Seitengrößen von bis zu 2,9 MB im Jahr 2018.</p>
+<p>Das Wachstum des Datenverkehrs <a href="https://www.researchgate.net/publication/224224694/download" target="_blank" >übertrifft dabei die Fortschritte in der Energieeffizienz</a> (die Energie, die für die Übertragung von 1 Megabyte Daten über das Internet benötigt wird), was zu einem immer höheren Energieverbrauch führt. “Schwerere” oder “größere” Websites erhöhen nicht nur den Energieverbrauch in der Netzwerkinfrastruktur, sondern verkürzen auch die Lebensdauer von Computern — denn größere Websites erfordern leistungsstärkere Computer, um auf sie zuzugreifen. Das bedeutet, dass mehr Computer hergestellt werden müssen, was ein <a href="https://lowtechmag.gitlab.io/solar/2009/06/the-monster-footprint-of-digital-technology/" >sehr energieintensiver Prozess</a> ist.</p>
+<blockquote>
+<p>Immer online zu sein passt schlecht zu erneuerbaren Energiequellen wie Wind- und Sonnenenergie, die nicht jederzeit verfügbar sind.</p>
+</blockquote>
+<p>Ein zweiter Grund für den wachsenden Internet-Energieverbrauch ist, dass wir immer mehr Zeit online verbringen. Vor der Einführung von tragbaren Computergeräten und drahtlosem Netzwerkzugang waren wir nur dann mit dem Netzwerk verbunden, wenn wir im Büro, zu Hause oder in der Bibliothek Zugang zu einem Desktop-Computer hatten. Heute leben wir in einer Welt, in der wir, egal wo wir uns befinden, immer online sind, manchmal auch über mehr als ein Gerät gleichzeitig.</p>
+<p>Der “Always-on”-Internetzugang wird von einem Cloud-Computing-Modell begleitet, das energieeffizientere Endgeräte auf Kosten des erhöhten Energieverbrauchs in Rechenzentren ermöglicht. Zunehmend erfordern Aktivitäten, die perfekt offline ablaufen könnten — wie zum Beispiel das Schreiben eines Dokuments, das Ausfüllen einer Tabellenkalkulation oder das Speichern von Daten — nun einen kontinuierlichen Netzwerkzugang. Dies lässt sich schlecht mit erneuerbaren Energiequellen wie Wind- und Sonnenenergie kombinieren, die nicht immer verfügbar sind.</p>
+<h2 id="low-tech-webdesign">Low-tech Webdesign</h2>
+<p>Unser neues Konzept befasst sich mit diesen beiden Fragen. Dank eines “low-tech” Webdesigns ist es uns gelungen, die durchschnittliche Seitengröße des Blogs im Vergleich zum alten Design um das Fünffache zu verringern - und gleichzeitig die Website optisch attraktiver (und für mobilgeräte geeigneter) zu gestalten. Zweitens läuft unsere neue Website zu 100% mit Sonnenenergie, nicht nur als Lippenbekenntnis, sondern auch in der Realität: Sie verfügt über einen eigenen Energiespeicher und wird offline gehen, wenn es längere Zeit bewölkt ist.</p>
+<p>Das Internet ist kein abstraktes Gebilde. Sein wachsender Energieverbrauch ist die <a href="http://tonsky.me/blog/disenchantment/" target="_blank" >Folge konkreter Entscheidungen</a>, die von Softwareentwicklern, Webdesignern, Marketingabteilungen, Publishern und Internetnutzern getroffen werden. Mit einer schlanken, “off-the-grid” solarbetriebenen Website wollen wir zeigen, dass auch andere Entscheidungen getroffen werden können.</p>
+<blockquote>
+<p>Mit 36 von etwa 100 Artikeln, die jetzt online sind, liegt das durchschnittliche Seitengewicht auf der solarbetriebenen Website etwa fünfmal unter dem des vorherigen Designs.</p>
+</blockquote>
+<p>Zunächst einmal kehrt das neue Website-Design den Trend zu immer größeren Internetseiten um. Mit 36 von rund 100 Artikeln, die jetzt online sind, beträgt das durchschnittliche Seitenvolumen auf der solarbetriebenen Website 0,77 MB - etwa fünfmal weniger als beim vorherigen Design und weniger als die Hälfte der durchschnittlichen Seitengröße der 500.000 beliebtesten Blogs im Juni 2018. </p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/9801a71c-bdae-4732-9ad7-b45d26897a32_hu4791fac69cfaf7ea3e992d47fa0a3025_31946_800x800_fit_q90_h2_box.webp" data-dither="/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png" alt='Ein Speedtest der alten und neuen Low-Tech-Magazine Websites. Die Seitengröße ist sechsmal kleiner, die Anzahl der Anfragen ist um das Fünffache zurückgegangen und die Downloadgeschwindigkeit hat sich verzehnfacht. Man beachte, dass wir die Website nicht auf Geschwindigkeit, sondern auf niedrigen Energieverbrauch ausgelegt haben. Noch schneller wäre es, wenn der Server in einem Datenzentrum und/oder an einem zentraleren Ort in der Internet-Infrastruktur platziert würde. Quelle: Pingdom.' data-original="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/0103010d-26e1-48e6-a7c1-21d0dd355b1a_hu5916ef1582d64725670a1143c9221799_33907_800x800_fit_q90_h2_box.webp" data-dither="/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ein Speedtest der alten und neuen Low-Tech-Magazine Websites. Die Seitengröße ist sechsmal kleiner, die Anzahl der Anfragen ist um das Fünffache zurückgegangen und die Downloadgeschwindigkeit hat sich verzehnfacht. Man beachte, dass wir die Website nicht auf Geschwindigkeit, sondern auf niedrigen Energieverbrauch ausgelegt haben. Noch schneller wäre es, wenn der Server in einem Datenzentrum und/oder an einem zentraleren Ort in der Internet-Infrastruktur platziert würde. Quelle: Pingdom.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Im Folgenden sind einige der Designentscheidungen aufgeführt, die wir zur Reduzierung des Energieverbrauchs getroffen haben. Wir haben ein <a href="https://github.com/lowtechmag/solar/wiki/Solar-Web-Design" target="_blank" >separates Dokument, mit Schwerpunkt auf dem Front-End-Bereich</a> und eines <a href="https://homebrewserver.club/low-tech-website-howto.html#software" target="_blank" >mit Schwerpunkt auf dem Back-End-Bereich</a> veröffentlicht. Wir haben auch <a href="https://github.com/lowtechmag/solar" target="_blank" >den Quellcode für unser Website-Design veröffentlicht</a>.</p>
+<h2 id="statische-website">Statische Website</h2>
+<p>Eine der grundlegenden Entscheidungen, die wir getroffen haben, war eine statische Website zu bauen. Die meisten der heutigen Websites verwenden serverseitige Programmiersprachen, die die Website durch Abfragen einer Datenbank spontan generieren. Das bedeutet, dass jedes Mal, wenn jemand eine Webseite besucht, diese bei Bedarf generiert wird.</p>
+<p>Dagegen wird eine statische Website <a href="https://varia.zone/en/what-a-website-can-be.html" target="_blank" >einmal generiert und existiert als einfacher Satz von Dokumenten auf der Festplatte des Servers</a>. Sie ist immer da - nicht nur, wenn jemand die Seite aufruft. Statische Websites basieren also auf der Speicherung von Dateien, während dynamische Websites auf wiederkehrenden Berechnungen beruhen. Statische Websites benötigen daher weniger Rechenleistung und damit weniger Energie.</p>
+<p>Die Wahl einer statischen Website bietet die Möglichkeit, die Seite auf kostengünstige Weise von unserem Heimbüro in Barcelona aus zu bedienen. Das Gleiche mit einer datenbankbasierten Website zu tun, wäre fast unmöglich, weil es zu viel Energie erfordern würde. Es wäre auch ein großes Sicherheitsrisiko. Obwohl ein Webserver mit einer statischen Website gehackt werden kann, gibt es wesentlich weniger Angriffswege, und der Schaden lässt sich leichter beheben.</p>
+<h2 id="bilder-mit-dithering">Bilder mit Dithering</h2>
+<p>Die größte Herausforderung bestand darin, die Seitengröße zu reduzieren, ohne die Website weniger attraktiv zu machen. Da Bilder den größten Teil der Bandbreite beanspruchen, wäre es einfach, sehr kleine Seitengrößen und einen geringeren Energieverbrauch zu erreichen, indem man Bilder weglässt, deren Menge reduziert oder sie viel kleiner macht. Abbildungen machen jedoch einen wesentlichen Teil des Low-tech-Magazins aus, und die Seite wäre ohne sie nicht dieselbe.</p>
+<blockquote>
+<p>Durch Dithering können wir Bilder zehnmal ressourcensparender gestalten, auch wenn sie viel größer als auf der alten Website dargestellt werden.</p>
+</blockquote>
+<p>Stattdessen haben wir uns für eine veraltete Methode der Bildkomprimierung entschieden, das so genannte “Dithering”. Die Anzahl der Farben in einem Bild, kombiniert mit dem Dateiformat und der Auflösung, beeinflusst die Größe eines Bildes. Anstatt hochauflösende vollfarbige Bilder zu verwenden, haben wir uns daher dafür entschieden, alle Bilder in Schwarzweiß mit vier Graustufen zu konvertieren.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png" alt='Ein Bild unseres Servers mit Dithering.' data-original="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/600px-A20-OLinuXino-LIME2_hu7abeb4fb19fc16ec46c5ba78c8650d77_138842_800x800_fit_q90_h2_box.webp" data-dither="/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ein Bild unseres Servers mit Dithering.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Diese Schwarz-Weiß-Bilder werden dann entsprechend der jeweiligen Inhaltskategorie über die nativen Bildbearbeitungsfunktionen des Browsers eingefärbt. Mit diesem Dithering-Plugin komprimiert, tragen die in den Artikeln enthaltenen Bilder viel weniger zur Größe des Inhalts bei: Im Vergleich zur alten Website sind die Bilder etwa zehnmal weniger ressourcenintensiv.</p>
+<h2 id="standardschriftart--kein-logo">Standardschriftart / Kein Logo</h2>
+<p>Alle geladenen Ressourcen, einschließlich Schriftarten und Logos, sind eine zusätzliche Anforderung an den Server, die Speicherplatz und Energieverbrauch erfordert. Daher lädt unsere neue Website keine individuelle Schriftart und entfernt die Schriftfamilien-Deklaration, was bedeutet, dass Besucher die Standardschriftart ihres Browsers sehen. </p>
+<p>Beim Logo verfolgen wir einen ähnlichen Ansatz. Eigentlich hatte das Low-tech-Magazin nie ein echtes Logo, sondern nur ein Banner mit einem Speer, der als Low-Tech-Waffe gegen die vorherrschenden High-Tech-Ansprüche gehalten wurde. Anstelle eines entworfenen Logos, das die Produktion und den Vertrieb maßgeschneiderter Schriften und Bilder erfordern würde, besteht die neue Identität des Low-tech-Magazins aus einer einzigen typografischen Geste: der Verwendung des Linkspfeils anstelle des Bindestrichs im Namen des Blogs: LOW←TECH MAGAZIN.</p>
+<h2 id="kein-tracking-durch-dritte-keine-werbedienstleistungen-keine-cookies">Kein Tracking durch Dritte, keine Werbedienstleistungen, keine Cookies</h2>
+<p>Webanalysesoftware wie Google Analytics erfasst, was auf einer Website geschieht — welche Seiten am häufigsten aufgerufen werden, woher die Besucher kommen und so weiter. Diese Dienste sind beliebt, weil nur wenige Menschen selbst ihre Website hosten. Der Austausch dieser Daten zwischen dem Server und dem Computer des Webmasters erzeugt jedoch zusätzlichen Datenverkehr und damit Energieaufwand.</p>
+<p>Mit einem selbst gehosteten Server können wir diese Messungen auf ein und demselben Rechner durchführen und ansehen: Jeder Webserver erzeugt Logs von dem, was auf dem Computer passiert. Diese (anonymen) Logs werden nur von uns eingesehen und nicht zur Erstellung von Besucherprofilen verwendet.</p>
+<blockquote>
+<p>Bei einem selbst gehosteten Server sind keine Nachverfolgung durch Dritte und keine Cookies erforderlich.</p>
+</blockquote>
+<p>Das Low-tech Magazine betreibt Google Adsense-Anzeigen seit Beginn im Jahr 2007. Obwohl diese eine wichtige finanzielle Ressource zur Aufrechterhaltung des Blogs darstellen, haben sie zwei wichtige Nachteile: Die erste ist der Energieverbrauch: Werbedienste erhöhen den Datenverkehr und damit den Energieverbrauch.</p>
+<p>Zweitens sammelt Google Informationen von den Besuchern des Blogs, was uns zwingt, umfangreiche Datenschutzerklärungen und Cookie-Warnungen zu erstellen - die ebenfalls Daten verbrauchen und die Besucher irritieren. Deshalb ersetzen wir Adsense durch andere Finanzierungsmöglichkeiten (mehr dazu weiter unten). Wir verwenden keinerlei Cookies.</p>
+<h2 id="wie-oft-wird-die-website-offline-gehen">Wie oft wird die Website offline gehen?</h2>
+<p>Nicht wenige Webhosting-Unternehmen behaupten, dass ihre Server mit erneuerbarer Energie betrieben werden. Doch selbst wenn sie tatsächlich Solarstrom vor Ort erzeugen und nicht nur den Stromverbrauch aus fossilen Brennstoffen durch das Pflanzen von Bäumen oder Ähnlichem “ausgleichen”, sind ihre Websites immer online.</p>
+<p>Das bedeutet, dass sie entweder ein riesiges Batteriespeichersystem vor Ort haben (was ihre Stromversorgung nicht nachhaltig macht), oder dass sie sich auf Netzstrom verlassen, wenn es einen Mangel an Solarstrom gibt (was bedeutet, dass sie nicht wirklich mit 100 % Solarstrom laufen).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_panel_dithered.png" alt='Das 50W Solarpanel. Darüber ein 10W-Panel für ein Beleuchtungssystem.' data-original="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/sps_panel_hu2fe10b2b9879ca07ae5d0c3ef8f607a3_699874_800x800_fit_q90_h2_box.webp" data-dither="/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_panel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Das 50W Solarpanel. Darüber ein 10W-Panel für ein Beleuchtungssystem.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Im Gegensatz dazu läuft diese Website auf einem netzunabhängigen Solarsystem mit eigenem Energiespeicher und wird bei anhaltend bewölktem Wetter offline gehen. Eine Zuverlässigkeit von weniger als 100% ist für die Nachhaltigkeit eines autarken Solarsystems unerlässlich, da ab einem bestimmten Punkt die Energie aus fossilen Brennstoffen, die für die Herstellung und den Austausch der Batterien verbraucht wird, höher ist als die fossile Energie, die von den Solarmodulen vermieden wird.</p>
+<p>Wie oft die Website offline gehen wird, ist noch offen. Der Webserver wird jetzt von einem neuen 50W Solarmodul und einer zwei Jahre alten 12V 7Ah Blei-Säure-Batterie gespeist. Da das Solarmodul morgens im Schatten liegt, erhält es nur 4 bis 6 Stunden pro Tag direktes Sonnenlicht. Unter optimalen Bedingungen erzeugt das Solarmodul somit 6 Stunden x 50 Watt = 300 Wh Strom.</p>
+<p>Der Webserver verbraucht zwischen 1 und 2,5 Watt Leistung (abhängig von der Anzahl der Besucher), was bedeutet, dass er zwischen 24 Wh und 60 Wh Strom pro Tag benötigt. Unter optimalen Bedingungen sollte also genügend Energie vorhanden sein, um den Webserver 24 Stunden pro Tag am Laufen zu halten. Überschüssige Energieproduktion kann für Haushaltsanwendungen genutzt werden.</p>
+<blockquote>
+<p>Wir gehen davon aus, dass die Website ein oder zwei Tage lang bei schlechtem Wetter online bleiben wird, danach wird sie offline gehen.</p>
+</blockquote>
+<p>Folglich kann der solarbetriebene Server bei schlechtem Wetter für ein oder zwei Tage online bleiben, aber nicht für länger. Dies sind allerdings nur Schätzungen, und wir können bei Bedarf im Herbst eine zweite 7-Ah-Batterie hinzufügen. Wir peilen eine “Uptime” von 90% an, was bedeutet, dass die Website durchschnittlich 35 Tage pro Jahr offline sein wird. </p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_bats_dithered.png" alt='Erster Prototyp mit Blei-Säure-Batterie (12V 7Ah) linksund Li-Po USV-Akku (3,7V 6600mA) auf der rechten Seite. Der Blei-Säure-Akku liefert den Großteil der Energiespeicherung, während der Li-Po-Akku das Herunterfahren des Servers ohne Beschädigung der Hardware ermöglicht (er wird durch einen viel kleineren Li-Po-Akku ersetzt).' data-original="https://lowtechmag.gitlab.io/solar/de/2018/09/how-to-build-a-low-tech-website/images/sps_bats_huf5f2faa813b30fe9be0a5275695cd79b_749867_800x800_fit_q90_h2_box.webp" data-dither="/solar/de/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_bats_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Erster Prototyp mit Blei-Säure-Batterie (12V 7Ah) linksund Li-Po USV-Akku (3,7V 6600mA) auf der rechten Seite. Der Blei-Säure-Akku liefert den Großteil der Energiespeicherung, während der Li-Po-Akku das Herunterfahren des Servers ohne Beschädigung der Hardware ermöglicht (er wird durch einen viel kleineren Li-Po-Akku ersetzt).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="wann-ist-der-beste-zeitpunkt-für-einen-besuch">Wann ist der beste Zeitpunkt für einen Besuch?</h2>
+<p>Die Erreichbarkeit dieser Website hängt vom Wetter in Barcelona in Spanien ab, wo sich der solarbetriebene Webserver befindet. Um den Besuchern zu helfen, ihren Besuch des Low-tech Magazins zu “planen”, geben wir einige Hinweise.</p>
+<blockquote>
+<p>Um den Besuchern zu helfen, ihren Besuch des Low-tech Magazins zu “planen”, geben wir einige Hinweise.</p>
+</blockquote>
+<p>Eine Batterieanzeige liefert wichtige Informationen, da sie dem Besucher zeigen könnte, dass der Blog in Kürze heruntergefahren wird — oder dass es gerade “sicher” ist, ihn zu lesen.</p>
+<p>Die Hintergrundfarbe des Layouts zeigt die Kapazität der solargeladenen Batterie, die den Server der Website mit Strom versorgt. Eine sinkende Höhe zeigt an, dass es Nacht geworden ist oder dass das Wetter schlecht ist.</p>
+<p>Zusätzlich zum Batteriestand sind weitere Informationen über den Website-Server auf einem Statistik-Dashboard sichtbar. Dies beinhaltet kontextbezogene Informationen über den Standort des Servers: Uhrzeit, momentane Wetterlage, aktuelle Vorhersage und die Zeitspanne seit dem letzten Herunterfahren des Servers wegen zu geringer Stromzufuhr.</p>
+<p>Update April 2019: Um das Low-tech Magazine wetterunabhängig lesen zu können, haben wir <a href="" >mehrere optionen verfügbar</a> erhältlich). Die Bücher basieren auf denselben elektronischen Dokumenten, auf denen auch die solarbetriebene Website basiert.</p>
+<h2 id="hardware-und-software">Hardware und Software</h2>
+<p>Wir haben zwei zusätzliche Artikel mit ausführlichen technischen Informationen geschrieben: <a href="https://homebrewserver.club/low-tech-website-howto.html" target="_blank" >How to build a low-tech website: software and hardware</a>, der sich auf das Back-End konzentriert, und <a href="https://github.com/lowtechmag/solar/wiki/Solar-Web-Design" target="_blank" >How to Build a Low-tech Website: Design Techniques and Process</a>, der sich auf das Front-End konzentriert.</p>
+<p>SERVER: Diese Website läuft auf einem <a href="https://homebrewserver.club/low-tech-website-howto.html#server" target="_blank" >Olimex A20 Computer</a>. Er hat 2 Ghz Rechenleistung, 1 GB RAM und 16 GB Speicherplatz. Der Server zieht 1 - 2,5 Watt Strom.</p>
+<p>SERVER-SOFTWARE: Auf dem Webserver läuft Armbian Stretch, ein auf Debian basierendes Betriebssystem, das um den SUNXI-Kernel herum aufgebaut ist. Wir haben <a href="https://homebrewserver.club/low-tech-website-howto.html#configuring-the-webserver" target="_blank" >technische Dokumentation zur Konfiguration des Webservers</a> geschrieben.</p>
+<p>DESIGN-SOFTWARE: Die Website wurde mit <a href="https://blog.getpelican.com/" target="_blank" >Pelican</a>, einem Generator für statische Websites, erstellt. Wir haben <a href="https://github.com/lowtechmag/solar" target="_blank" >den Quellcode für &lsquo;solar&rsquo;, das von uns entwickelte Pelican-Theme, veröffentlicht</a>.</p>
+<p>INTERNET-ANBINDUNG. Der Server ist mit einer 100 MBps-Glasfaser-Internetverbindung verbunden. <a href="https://homebrewserver.club/low-tech-website-howto.html#network" target="_blank" >So haben wir den Router konfiguriert</a>. Im Moment wird der Router mit Netzstrom betrieben und benötigt 10 Watt Leistung. Wir überlegen noch, wie wir den energiehungrigen Router durch einen effizienteren ersetzen können, der auch mit Solarstrom betrieben werden kann.</p>
+<p>SOLAR-PV-SYSTEM. Der Server läuft mit einem 50W Solarpanel und einer 12V 7Ah Blei-Säure-Batterie. Wir sind jedoch noch dabei, das System zu verkleinern und experimentieren mit verschiedenen Kombinationen. Die PV-Anlage wird von einem 20A-Solarladeregler gesteuert.</p>
+<h2 id="was-passiert-mit-der-alten-website">Was passiert mit der alten Website?</h2>
+<p>Das solarbetriebene Low-tech Magazine ist eine fortlaufende Entwicklung. Vorerst bleibt das netzbetriebene Low-tech Magazine online. Die Leser werden ermutigt, die solarbetriebene Website zu besuchen, wenn sie verfügbar ist. Was später passiert, ist noch nicht sicher. Es gibt mehrere Möglichkeiten, aber vieles wird von den Erfahrungen mit dem solarbetriebenen Server abhängen.</p>
+<h2 id="kann-ich-helfen">Kann ich helfen?</h2>
+<p>Ja, kannst du.</p>
+<p>Zum einen suchen wir nach Ideen und Feedback, um die Website weiter zu verbessern und ihren Energieverbrauch zu reduzieren. Wir werden das Projekt ausführlich dokumentieren, damit auch andere Low-Tech-Websites bauen können. Um einen Kommentar zu hinterlassen, schreib eine E-Mail an solar (at) lowtechmagazine (dot) com.</p>
+<p>Andererseits hoffen wir auf Leute, die dieses Projekt mit einem finanziellen Beitrag unterstützen. Werbanzeigen, die das Low-tech Magazine seit seinem Start im Jahr 2007 unterhalten haben, sind mit unserem schlanken Web-Design nicht kompatibel. Daher suchen wir nach anderen Möglichkeiten, die Website zu finanzieren:</p>
+<p>Wir bieten <a href="https://lowtechmag.gitlab.io/solar/2019/03/low-tech-magazine-the-printed-website/" >Print-on-Demand Ausgaben des Blogs</a>. Mit diesen Büchern, kannst du das Low-tech Magazine auf Papier lesen, am Strand, in der Sonne — wann und wo immer du willst.</p>
+<p>Du kannst uns unterstützen via <a href="https://www.paypal.me/lowtechmagazine" target="_blank" >PayPal</a>, <a href="https://www.patreon.com/lowtechmagazine" target="_blank" >Patreon</a> und <a href="https://liberapay.com/lowtechmagazine/" target="_blank" >LiberaPay</a>.</p>
+<p>Der solarbetriebene Server ist eine Zusammenarbeit von <a href="http://www.krisdedecker.org" target="_blank" >Kris De Decker</a>, <a href="https://roelof.info" target="_blank" >Roel Roscam Abbing</a>, und <a href="http://motsuka.com" target="_blank" >Marie Otsuka</a>. Die Webseite auf Papier wird produziert von <a href="http://squishysystems.com" target="_blank" >Lauren Campbell</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Erhalten Sie unseren Newsletter</a>.</li>
+        <li> Unterstützen Sie das Low-tech Magazine mit <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> oder <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/de/offline-reading/">Kaufen Sie die gedruckte Webseite</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/de/tags/ict/" class="">ICT</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/de/tags/solar-powered-website/" class="">Solar Powered Website</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2020/12/how-and-why-i-stopped-buying-new-laptops/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie und warum ich keine neuen Laptops mehr kaufe</h3>
+		<p class="index-summary">Als unabhängiger Journalist – oder als Büroangestellter, wenn Sie so wollen – war ich immer überzeugt, dass ich einen ordentlichen Computer brauche und dass ich für Qualität bezahlen muss.</p>
+		<time class="published">20. Dezember 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie nachhaltig ist eine solarbetriebene Website?</h3>
+		<p class="index-summary">Wir stellen die Energie- und Verfügbarkeitsdaten unserer Website dar, berechnen die Graue Energie unserer Konfiguration, betrachten das optimale Gleichgewicht zwischen Nachhaltigkeit und Verfügbarkeit, und umreißen mögliche Verbesserungen.</p>
+		<time class="published">28. Januar 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2023/06/rebuilding-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Neuerstellung der solarbetriebenen Website</h3>
+		<p class="index-summary">Du blickst auf eine vollständig neu entwickelte Version der solarbetriebenen Website, die es möglich macht, die Dithering-Kompression auszuschalten und die Originalbilder anzuschauen.</p>
+		<time class="published">13. Juni 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/de/2015/10/how-to-build-a-low-tech-internet/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/de/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Wie man ein Lowtech-Internet baut</h3>
+		<p class="index-summary">Wenn wir auch in Situationen mit eingeschränkter Energieversorgung funktionierendes Internet  gewährleisten wollen, können wir wichtige Erkenntnisse von alternativen Netzwerktechnologien lernen.</p>
+		<time class="published">26. Oktober 2015</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Seitengröße: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/de/about">
+  Über
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/de/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/de/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/de/donate">
+  Spenden
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>

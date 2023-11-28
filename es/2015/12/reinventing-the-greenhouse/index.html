@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Reinventando el Invernadero | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Reinventando el Invernadero" />
+<meta name="twitter:title" content="Reinventando el Invernadero"/>
+
+<meta property="og:description" content="Al contrario de los invernaderos totalmente acristalados, un invernadero solar pasivo está diseñado para retener el máximo calor posible." />
+
+<meta name="twitter:description" content="Al contrario de los invernaderos totalmente acristalados, un invernadero solar pasivo está diseñado para retener el máximo calor posible."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" />
+<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-12-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-05-01T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Food" />
+<meta property="article:tag" content="solar power" />
+
+</head>
+<body id="reinventando-el-invernadero">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://lowtechmag.gitlab.io/es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://lowtechmag.gitlab.io/es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://lowtechmag.gitlab.io/solar/es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://lowtechmag.gitlab.io/es/solar/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Reinventando el Invernadero</h1>
+
+				<p class="summary">
+					Al contrario de los invernaderos totalmente acristalados, un invernadero solar pasivo está diseñado para retener el máximo calor posible.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">24 de diciembre de 2015</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/es/translators/aliana-bertolo/">Aliana Bertolo</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/2015/12/reinventing-the-greenhouse/">en</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/fr/2015/12/reinventing-the-greenhouse/">fr</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/nl/2015/12/reinventing-the-greenhouse/">nl</a>
+						
+							<a href="https://lowtechmag.gitlab.io/solar/pl/2015/12/reinventing-the-greenhouse/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" alt='Un invernadero chino. Imagen: Chris Buhler, Indoor Garden HQ' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/chinese-greenhouse_hu6c82d5d860597dfb8a32bff4acbae57c_564134_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un invernadero chino. Imagen: <a href="http://indoorgardenhq.com/2014/07/09/23/passive-solar-greenhouses-chinese-design/" target="_blank" >Chris Buhler, Indoor Garden HQ</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El invernadero moderno de cristal requiere grandes cantidades de energía para producir cultivos de fuera de temporada. Esto es así porque cada metro cuadrado de vidrio, incluso si es de triple acristalamiento, pierde hasta 10 veces tanto calor como una pared. Sin embargo, cultivar frutas y verduras fuera de su temporada de forma sostenible puede ser una realidad, utilizando la energía del sol.</p>
+<p>Al contrario de los invernaderos totalmente acristalados, un invernadero solar pasivo está diseñado para retener el máximo calor posible. Investigaciones realizadas muestran que es posible producir cultivos de clima cálido durante todo el año usando sólo la energía del sol, incluso si las temperaturas son muy bajas fuera del invernadero. El invernadero solar es especialmente exitoso en China, donde miles de estas estructuras han sido construidas en las últimas décadas.</p>
+<p>La producción de cultivos originarios de climas cálidos en regiones templadas inicialmente no implican el uso en absoluto de cristal alguno. En el noroeste de Europa, los cultivos mediterráneos se plantaron cerca de unas construcciónes especiales, llamadas “muros frutales”, los cuales, con una alta masa térmica, crean un <a href="https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/" >microclima que puede ser de 8 a 12°C (14 a 22°F) más caliente que un clima inalterado</a>.</p>
+<p>Más tarde, los invernaderos construidos a partir de estos muros frutales mejoraron aún más el rendimiento de la energía solar. Fue sólo al final del siglo XIX que el invernadero se convirtió en un edificio totalmente acristalado y climatizado artificialmente, donde el calor se pierde casi instantáneamente – todo lo contrario de la tecnología primitiva a partir de la cual estos invernaderos modernos evolucionaron.</p>
+<p>Durante las crisis del petróleo de la década de los 70s, hubo un renovado interés en los invernaderos de energía solar pasiva. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Sin embargo, la atención se desvaneció rápidamente cuando los precios de la energía bajaron, y el invernadero de cristal siguió siendo el caballo de batalla del Noroeste del mundo. Los chinos, por su parte, construyeron 800.000 hectáreas de invernaderos solares pasivos durante las últimas tres décadas, esto constituye 80 veces la superficie de los Países Bajos, el cual es el país con la mayor industria de invernaderos del mundo.</p>
+<h2 id="el-invernadero-chino">El Invernadero Chino</h2>
+<p>El invernadero solar pasivo chino tiene tres paredes de ladrillo o barro. Sólo el lado sur de la estructura se compone de material transparente (por lo general, una lámina de plástico) a través del cual puede brillar el sol. Durante el día el invernadero capta el calor del sol en la masa térmica de las paredes, el cual es liberado por la noche.</p>
+<p>Al ponerse el sol, una hoja aislante – hecha de paja, hierba presionada o lona – se extiende sobre el plástico, aumentando la capacidad de aislar la estructura. Las paredes también bloquean los vientos fríos del norte, que de no ser bloqueados acelerarían la pérdida de calor del invernadero.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouses_dithered.png" alt='Imagen: Invernaderos Chinos. Fotografía: HortTechnology.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/chinese-greenhouses_hu2c7dfa121fe0df6e9a21691a81910469_47868_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-greenhouses_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: Invernaderos Chinos. Fotografía: <a href="http://horttech.ashspublications.org/content/20/3/626.full" target="_blank" >HortTechnology</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Al ser el opuesto del invernadero de cristal de alto consumo energético, el invernadero solar pasivo chino está climatizado durante todo el año solamente por energía solar, incluso cuando la temperatura exterior cae por debajo del punto de congelación. La temperatura interior de la estructura puede ser de hasta 25°C (45°F) más alta que la temperatura exterior.</p>
+<p>La política de incentivos del gobierno chino ha hecho que el invernadero solar sea la piedra angular de la producción de alimentos en el centro y norte de China. Una quinta parte de la superficie total de invernaderos en China está ahora compuesta de invernaderos solares. En 2020 se espera que ocuparán al menos 1,5 millones de hectáreas. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h2 id="la-mejora-del-invernadero-chino">La Mejora del Invernadero Chino</h2>
+<p>El primer invernadero de estilo chino fue construido en 1978. Sin embargo, la tecnología sólo despegó durante la década de los 80s, tras la llegada de las láminas de plástico transparente. No sólo estas láminas son más baratas que la hoja de vidrio, sino que también son más ligeras y no requieren una capacidad de carga fuerte, lo que hace que la construcción de la estructura sea mucho más barata. Desde entonces, el diseño ha mejorado continuamente. La estructura se hizo más profunda y más alta, permitiendo que la luz del sol se distribuya mejor y se garantice una disminución en las fluctuaciones de temperatura.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/different-types-chinese-greenhouses_dithered.png" alt='A: El diseño original de la década de 1980 con una cubierta de cristal. B: Un diseño mejorado de alrededor de 1985, con una lámina de plástico, una cortina para la noche y paredes mejor aisladas. Este diseño es el más común. C: Un diseño mejorado de 1995. Las paredes son más finas debido a que están aisladas con materiales modernos. La cortina de noche funciona automáticamente. D: El diseño más reciente, de 2007, con doble techo que provee más espacio para aislamiento extra.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/different-types-chinese-greenhouses_hueaa0a8d1f19cc541b50a8f940ee6f539_272016_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/different-types-chinese-greenhouses_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A: El diseño original de la década de 1980 con una cubierta de cristal. B: Un diseño mejorado de alrededor de 1985, con una lámina de plástico, una cortina para la noche y paredes mejor aisladas. Este diseño es el más común. C: Un diseño mejorado de 1995. Las paredes son más finas debido a que están aisladas con materiales modernos. La cortina de noche funciona automáticamente. D: El diseño más reciente, de 2007, con doble techo que provee más espacio para aislamiento extra.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Además, los agricultores están optando cada vez más por materiales modernos de aislamiento en lugar de utilizar tierra apisonada o cavidades de aire en las paredes, lo cual ahorra espacio y/o mejora las características de absorción de calor de la estructura. También son ampliamente usadas las mantas sintéticas de aislamiento, que son más adecuadas para hacer frente a la humedad a diferencia de las anticuadas esteras de paja, que se hacen más pesadas y aíslan menos cuando se mojan.</p>
+<p>En algunos de los más recientes invernaderos, las mantas de aislamiento se enrollan hacia arriba y hacia abajo de forma automática, y se utilizan sistemas de ventilación más sofisticados. Algunos invernaderos tienen instalado un doble techo o aislamiento reflectante. Además, se está buscando la mejora continua para la lámina de plástico utilizada para los invernaderos – la cual es obviamente el componente menos sostenible del sistema – resultando en una vida útil más larga.</p>
+<h2 id="rendimiento-del-invernadero-chino">Rendimiento del Invernadero Chino</h2>
+<p>El rendimiento del invernadero chino depende de su diseño, la latitud y el clima local. Un estudio reciente observó tres tipos de invernaderos en Shenyang, capital de la provincia de Liaoning. La ciudad se encuentra en 41.8°N y es una de las zonas más septentrionales donde se construye este tipo de invernadero (entre las latitudes 32°N y 43°N).</p>
+<p>La investigación se realizó desde principios de noviembre hasta finales de marzo, el período durante el cual la temperatura exterior cae por debajo de cero. La temperatura media en el mes más frío es de entre -15°C y -18°C (5 a -0.4°F). <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/unfinished-greenhouse_dithered.png" alt='Cavidades de aire en un invernadero solar en ruinas. Fotografía: Chris Buhler, Indoor Garden HQ.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/unfinished-greenhouse_hu613e77fae459b1f1f99cdf59129bdbb8_318809_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/unfinished-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Cavidades de aire en un invernadero solar en ruinas. Fotografía: <a href="http://indoorgardenhq.com/2014/07/09/23/passive-solar-greenhouses-chinese-design/" target="_blank" >Chris Buhler, Indoor Garden HQ</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los tres invernaderos estudiados tienen en común la misma forma y dimensiones (60 x 12,6 x 5,5 m), pero difieren en las paredes, la lámina de plástico y la capa transparente. La construcción más simple tiene paredes de tierra apisonada y una capa interior de ladrillo para aumentar la estabilidad de la estructura. La cubierta es una película delgada de plástico que está cubierta por la noche con una manta de paja.</p>
+<p>Los otros dos invernaderos tienen la pared orientada hacia el norte hecha de ladrillo con un extruido de espuma de poliestireno que actúa como material aislante, por lo que la anchura de la pared se puede cortar por la mitad. También se cubren con una gruesa lámina de plástico PVC. El mejor invernadero añade a esto un revestimiento reflectante sobre la manta de aislamiento, reduciendo aún más la pérdida de calor por la noche.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/solar-greenhouse-insulating-sheet_dithered.png" alt='Un invernadero chino. Fotografía: Chris Buhler, Indoor Garden HQ.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/solar-greenhouse-insulating-sheet_hud02c4c2fb6c080979483c19fa4a11649_256710_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/solar-greenhouse-insulating-sheet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un invernadero chino. Fotografía: <a href="http://indoorgardenhq.com/2014/07/09/23/passive-solar-greenhouses-chinese-design" target="_blank" >Chris Buhler, Indoor Garden HQ</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/night-curtain-solar-greenhouse_dithered.png" alt='Cortina de noche de un invernadero solar. Fuente: Energy Farms.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/night-curtain-solar-greenhouse_huf2e845b7da7e742a30ddb2a760fcbf3b_471513_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/night-curtain-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Cortina de noche de un invernadero solar. Fuente: <a href="https://energyfarms.wordpress.com/2010/04/05/solar-greenhouses-chinese-style" target="_blank" >Energy Farms</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En los invernaderos más simples, las temperaturas descienden por debajo del punto de congelación desde principios de diciembre hasta mediados de enero. Sin calentamiento adicional, este invernadero no puede producir ningún cultivo en esta latitud. Sólo en los invernaderos más sofisticados – con su capa de aislamiento reflectante – se logra mantener la temperatura en el interior por encima de cero en todo momento, utilizando únicamente la energía solar.</p>
+<p>Además, la temperatura se mantuvo por encima de 10°C la mayor parte del tiempo, la cual es la temperatura mínima para el cultivo de plantas de estación cálida, como los tomates y pepinos. Por supuesto, los invernaderos solares pasivos situados hacia el sur, en lugares más meridionales, requirieren técnicas de aislamiento menos sofisticadas.</p>
+<h2 id="los-invernaderos-solares-en-los-climas-del-norte">Los Invernaderos Solares en los Climas del Norte</h2>
+<p>Si vamos más hacia el norte, los invernaderos solares pasivos similares requerirían calefacción adicional durante los meses más fríos del año, sin importar lo bien que estén aislados. Cuanto más al norte se encuentra el invernadero, mayor será su pendiente. La cubierta está inclinada para estar ubicada de forma perpendicular a los rayos del sol cuando este está en su posición más baja en el horizonte.</p>
+<p>En 2005, un invernadero de estilo chino se puso a prueba en Manitoba, Canadá, a una latitud de 50º N. Este invernadero, de 30 x 7 metros con una pared orientada al norte bien aislada (fibra de vidrio 3.6 RSI) y una manta de aislamiento (1.2 algodón RSI), se observó a partir de enero hasta abril.</p>
+<p>Durante el mes más frío (febrero) la temperatura exterior varió entre + 4,5°C y -29°C (40 a 20°F), mientras que la temperatura interior era en promedio de 18°C (32,4°F) más alta que la exterior, lo cual resultó en ser imposible cultivar plantas sin calefacción adicional durante el invierno. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/cucumbers-solar-greenhouse_dithered.png" alt='Pepinos en un invernadero solar chino. Fotografía: Energy Farms.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/cucumbers-solar-greenhouse_hu7539a9e897ac6488ec5148cd4f5385db_538774_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/cucumbers-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Pepinos en un invernadero solar chino. Fotografía: <a href="https://energyfarms.wordpress.com/2010/04/05/solar-greenhouses-chinese-style/" target="_blank" >Energy Farms</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/strawberries-solar-greenhouse_dithered.png" alt='Fresas en un invernadero solar chino. Fotografía: wikipedia commons.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/strawberries-solar-greenhouse_hufe6ff316e67b84a77d83b442de346f85_84550_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/strawberries-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Fresas en un invernadero solar chino. Fotografía: wikipedia commons.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Sin embargo, el ahorro de energía puede ser enorme en comparación con un invernadero de vidrio. Para mantener la temperatura por encima de diez grados en todo momento, el sistema de calefacción de la estructura canadiense debe entregar un máximo de 17 W / m2, o 3.6kW para el edificio entero. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> En comparación, un invernadero de vidrio de proporciones iguales, y a las mismas temperaturas interiores y exteriores, requeriría una capacidad máxima de 125 a 155 kW.</p>
+<p>Estos resultados no pueden aplicarse a todos los lugares a los 50°N. La investigación canadiense muestra que la radiación solar tiene un mayor impacto en la temperatura interior de la estructura, que la temperatura exterior. La correlación entre la temperatura en el interior y la luz solar es casi cuatro veces mayor que la correlación entre la temperatura interior y la temperatura exterior. <sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Por ejemplo, mientras que Bruselas se encuentra en la misma latitud que Manitoba, este último tiene una media de 1,5 veces más sol.</p>
+<p>La capacidad térmica puede mejorarse aún más mediante la colocación de tanques llenos de agua y pintados de negro dentro de la estructura, contra la pared orientada hacia el norte. Estos tanques capturan energía solar adicional durante el día y la liberan durante la noche. Un método diferente para mejorar la retención de calor de un invernadero es mediante la colocación de bermas o terrazas de tierra en las paredes orientadas al norte, este y oeste. Otra solución para mejorar el aislamiento es el subterráneo o el “invernadero en pozos”. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Sin embargo, este invernadero recibe menos luz solar y es propenso a las inundaciones.</p>
+<h2 id="problemática-del-espacio">Problemática del Espacio</h2>
+<p>El invernadero solar pasivo podría ahorrar una gran cantidad de energía, pero hay un precio que pagar: los beneficios generados por el invernadero chino son dos o tres veces más bajos por metro cuadrado que las de su homólogo totalmente acristalado. En los invernaderos chinos más eficientes, pueden ser cultivados una media de 30 kg de tomates y 30 kg de pepinos por metro cuadrado (Datos del año 2005), mientras que la producción media en invernaderos de cristal es de unos 60 kg de tomates y 100 pepinos kg (Datos del año 2003). <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-solar-greenhouse_dithered.png" alt='Invernadero solar chino. Fotografía: Energy Farms.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/chinese-solar-greenhouse_hu6cca9e5b0b0f265c93e6371fdd3e1cdd_175713_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/chinese-solar-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Invernadero solar chino. Fotografía: <a href="https://energyfarms.wordpress.com/2010/04/05/solar-greenhouses-chinese-style/" target="_blank" >Energy Farms</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Por lo tanto, un área de invernaderos pasivos tomaría hasta dos o tres veces más espacio para producir la misma cantidad de alimento. Esto podría ser visto como un problema, pero, por supuesto, lo que realmente utiliza más intensivamente el espacio en la agricultura es la producción de carne. Un suministro más diverso y atractivo de frutas y verduras podría ser una alternativa más viable para reducir el consumo de carne, por lo cual el uso del suelo no sería un problema.</p>
+<h2 id="invernaderos-calefactados-mediante-el-uso-de-compost">Invernaderos Calefactados Mediante el Uso de Compost</h2>
+<p>Otro problema con los invernaderos solares es la falta de una fuente de CO2. En los invernaderos modernos, el objetivo es tener un nivel de CO2 al menos tres veces mayor al nivel del aire libre, para así aumentar el rendimiento del cultivo. Este CO2 se produce como un subproducto de los sistemas de calefacción a base de combustibles fósiles en el interior de los invernaderos.</p>
+<p>Sin embargo, cuando no se utilizan los combustibles fósiles, otra fuente de CO2 tiene que ser encontrada. Esto no es sólo un problema para los invernaderos solares, sino también constituye una de las principales razones por las cuales la energía geotérmica y bombas de calor eléctricas no están haciendo un avance en la industria de invernaderos modernos.</p>
+<p>En el invernadero solar chino, este problema a veces se resuelve mediante la combinación de crecimiento de cultivos y la cría de animales. Los cerdos, pollos y peces producen CO2 que puede ser absorbido por las plantas, mientras que las plantas producen oxígeno (y residuos verdes) para los animales.</p>
+<p>Los animales y su estiércol también contribuyen al calentamiento de la estructura. La investigación de este tipo de invernaderos con sistemas integrados ha demostrado que la producción combinada de verduras, carne, leche y huevos eleva los rendimientos de forma sustancial. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/compost-heated-greenhouse_dithered.png" alt='Detalle de un invernadero calefactado con compost. Fuente: Pelaf.' data-original="https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/images/compost-heated-greenhouse_hu97284bca17b107fc1e9e8bedfef8c874_594762_800x800_fit_q90_h2_box.webp" data-dither="/solar/es/2015/12/reinventing-the-greenhouse/images/dithers/compost-heated-greenhouse_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Detalle de un invernadero calefactado con compost. Fuente: <a href="http://pelaf.com/compost-heating/" target="_blank" >Pelaf</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Justin Walker, un estadounidense actualmente en Siberia, está participando en la construcción de un sistema integrado usando caballos, cabras y ovejas en un monasterio en Siberia. Teniendo en cuenta la dureza del clima, la estructura está construida en parte de forma subterránea, mientras que sus partes sobresalientes son bermas de tierra.</p>
+<p>Por encima de la zona de granero hay un pajar que proporciona un aislamiento adicional de invierno, así como la ventilación durante el verano, cuando está vacío. Su sistema de recuperación de calor produce agua caliente que se canaliza a través del suelo, calefactando el suelo del invernadero. El CO2 es suministrado por los animales. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<p>La calefacción y producción de CO2 también se puede hacer sin tener los animales en el invernadero. Usar su¡ estiércol es suficiente. Como hemos visto en el artículo anterior, el uso de estiércol de caballo para la calefacción de invernaderos a pequeña escala se remonta a varios siglos en Europa, y en China se practicaba ya desde hace 2.000 años. Desde la década de 1980, varios invernaderos calefactados con compost se han construido en los EE.UU..</p>
+<p>Estos han demostrado que un invernadero puede ser calentado en su totalidad por el compost si está bien aislado, y que el método enriquece drásticamente los niveles de CO2 en el suelo y en el aire del invernadero. Junto a todo ello, el compost también sirve para aumentar la fertilidad del suelo. <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://lowtechmag.gitlab.io/solar/es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Por ejemplo “<a href="https://ia800306.us.archive.org/30/items/fe_The_Solar_Greenhouse_Book/The_Solar_Greenhouse_Book.pdf" target="_blank" >The Solar Greenhouse Book</a>” (PDF), publicado por Rodale Press en 1978.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Energy performance optimization of typical chinese solar greenhouses by means of dynamic simulation (PDF), Alessandro Deiana et al., International conference of agricultural engineering, 2014, Zurich.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Winter performance of a solar energy greenhouse in southern Manitoba (PDF), Canadian Biosystems Engineering. 2006.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>The Earth Sheltered Solar Greenhouse Book, Mike Oehler, 2007.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>The solar greenhouse: state of the art in energy saving and sustainable energy supply. G. Bot et al., 2005.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Structure, function, application, and ecological benefit of a single-slope, energy-efficient solar greenhouse in China. HortTechnology, junio 2010.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Integrated energy self-served animal and plant complementary ecosystem in China, en “Integrated energy systems in China — the cold northwestern region experience”, FAO, 1994.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>The Compost-Powered Water Heater: How to heat your greenhouse, pool, or buildings with only compost, Gaelan Brown, 2014.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/es/tags/food/" class="">Food</a></span> 
+		        
+		           <span><a href="https://lowtechmag.gitlab.io/solar/es/tags/solar-power/" class="">solar power</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Trincheras frutales: cultivando plantas subtropicales en temperaturas bajo cero</h3>
+		<p class="index-summary">Durante la primera mitad del siglo veinte, botanistas soviéticos consiguieron cultivar plantas (sub)tropicales en temperaturas tan bajas como 30 grados Celsius bajo cero. Inclusive en exteriores, y sin usar invernaderos ni ninguna clase de combustible fósil.</p>
+		<time class="published">16 de abril de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-montreuil_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Muros Frutales: Agricultura Urbana en el 1600</h3>
+		<p class="index-summary">Desde el siglo XVI hasta el siglo XX, agricultores urbanos cultivaban frutas y vegetales típicos de la zona mediterránea, en zonas tan lejanas como el norte de Inglaterra y Holanda, usando solo energías renovables.</p>
+		<time class="published">24 de diciembre de 2015</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Las granjas verticales no ahorran espacio</h3>
+		<p class="index-summary">Si la electricidad para las granjas agrícolas verticales proviene de paneles solares, la producción de energía implica ocupar tanto espacio como el que desocupa la propia actividad.</p>
+		<time class="published">16 de febrero de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Cómo Hacer Funcionar la Economía con el Clima</h3>
+		<p class="index-summary">Ajustar la demanda de energía a la oferta haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy.</p>
+		<time class="published">21 de septiembre de 2017</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://lowtechmag.gitlab.io/solar/es/about">
+  Acerca de
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/es/power">
+  Power
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/es/about/team">
+  Colophon
+</a>
+    <a href="https://lowtechmag.gitlab.io/solar/es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+</body>
+</html>
