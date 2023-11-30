@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>./about/</link>
+    <link>/mar-ver.github.io/about/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline</description>
     <generator>Hugo 0.115.3</generator>
-    <language>en</language><atom:link href="./about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/mar-ver.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Low-tech Magazine?</title>
-      <link>./about/what-is-low-tech-magazine/</link>
+      <link>/mar-ver.github.io/about/what-is-low-tech-magazine/</link>
       
-      <enclosure url="/about/what-is-low-tech-magazine/images/dithers/low-tech-hearing-aid_dithered.png" type="image/png" length="59896" ></enclosure>
+      <enclosure url="/mar-ver.github.io/about/what-is-low-tech-magazine/images/dithers/low-tech-hearing-aid_dithered.png" type="image/png" length="59896" ></enclosure>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./about/what-is-low-tech-magazine/</guid>
+      <guid>/mar-ver.github.io/about/what-is-low-tech-magazine/</guid>
       <description>&lt;p&gt;Technology has become the idol of our society, but technological progress is—more often than not—aimed at solving problems caused by earlier technical inventions. There is a lot of potential in past and often forgotten knowledge and technologies when it comes to designing a sustainable society. Interesting possibilities arise when we combine old technology with new knowledge and new materials, or when we apply old concepts and traditional knowledge to modern technology.&lt;/p&gt;
 &lt;p&gt;Low-tech Magazine was founded in November 2007. Since 2018, the magazine also runs on a solar powered server. The website is also available in Spanish, French, Dutch, German, and Polish. Since 2019, LTM also appears in print. Low-tech Magazine publishes at most 12 well-researched stories per year. Sister blog No Tech Magazine brings more regular updates.&lt;/p&gt;
 </description>
@@ -21,15 +21,15 @@
     
     <item>
       <title>About the Solar Powered Website</title>
-      <link>./about/the-solar-website/</link>
+      <link>/mar-ver.github.io/about/the-solar-website/</link>
       
-      <enclosure url="/about/the-solar-website/images/dithers/serverandbattery003_dithered.png" type="image/png" length="32507" ></enclosure>
+      <enclosure url="/mar-ver.github.io/about/the-solar-website/images/dithers/serverandbattery003_dithered.png" type="image/png" length="32507" ></enclosure>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./about/the-solar-website/</guid>
+      <guid>/mar-ver.github.io/about/the-solar-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/serverandbattery003_dithered.png&#34; alt=&#39;The solar powered server that runs this website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/serverandbattery003_dithered.png&#34; alt=&#39;The solar powered server that runs this website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The solar powered server that runs this website. 
 &lt;/figcaption&gt;
@@ -51,10 +51,10 @@
 &lt;p&gt;&lt;a href=&#34;#comments&#34;&gt;Comments&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#media&#34;&gt;The solar powered website in the media&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;span-idwhy_websitewhy-a-low-tech-websitespan&#34;&gt;&lt;span id=&#34;why_website&#34;&gt;Why a low-tech website?&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;We were told that the Internet would &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;“dematerialise” society and decrease energy use&lt;/a&gt;. Contrary to this projection, it has become a large and rapidly growing consumer of energy itself. According to the latest estimates, the entire network already consumes &lt;a href=&#34;./2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;10% of global electricity production&lt;/a&gt;, with data traffic doubling roughly every two years.&lt;/p&gt;
+&lt;p&gt;We were told that the Internet would &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;“dematerialise” society and decrease energy use&lt;/a&gt;. Contrary to this projection, it has become a large and rapidly growing consumer of energy itself. According to the latest estimates, the entire network already consumes &lt;a href=&#34;/mar-ver.github.io/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;10% of global electricity production&lt;/a&gt;, with data traffic doubling roughly every two years.&lt;/p&gt;
 &lt;p&gt;In order to offset the negative consequences associated with high energy consumption, renewable energy has been proposed as a means to lower emissions from powering data centers. For example, Greenpeace’s yearly &lt;a href=&#34;http://www.greenpeace.org/usa/global-warming/click-clean/&#34;&gt;ClickClean report&lt;/a&gt; ranks major Internet companies based on their use of renewable power sources.&lt;/p&gt;
-&lt;p&gt;However, running data centers on renewable power sources is not enough to address the growing energy use of the Internet. To start with, the Internet already uses three times more energy than all wind and solar power sources worldwide can provide. Furthermore, &lt;a href=&#34;./2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;manufacturing, and regularly replacing, renewable power plants also requires energy&lt;/a&gt;, meaning that if data traffic keeps growing, so will the use of fossil fuels.&lt;/p&gt;
-&lt;p&gt;Finally, solar and wind power are not always available, which means that an Internet running on renewable power sources would require infrastructure for energy storage and/or transmission that is also &lt;a href=&#34;./2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependent on fossil fuels for its manufacture and replacement&lt;/a&gt;. Powering websites with renewable energy is not a bad idea. However, the trend towards growing energy use must also be addressed.&lt;/p&gt;
+&lt;p&gt;However, running data centers on renewable power sources is not enough to address the growing energy use of the Internet. To start with, the Internet already uses three times more energy than all wind and solar power sources worldwide can provide. Furthermore, &lt;a href=&#34;/mar-ver.github.io/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;manufacturing, and regularly replacing, renewable power plants also requires energy&lt;/a&gt;, meaning that if data traffic keeps growing, so will the use of fossil fuels.&lt;/p&gt;
+&lt;p&gt;Finally, solar and wind power are not always available, which means that an Internet running on renewable power sources would require infrastructure for energy storage and/or transmission that is also &lt;a href=&#34;/mar-ver.github.io/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependent on fossil fuels for its manufacture and replacement&lt;/a&gt;. Powering websites with renewable energy is not a bad idea. However, the trend towards growing energy use must also be addressed.&lt;/p&gt;
 &lt;h3 id=&#34;websites-are-getting-fatter&#34;&gt;Websites are getting “fatter”&lt;/h3&gt;
 &lt;p&gt;The growing energy use of the Internet is associated with two trends. First, content is becoming increasingly resource-intensive. This has a lot to do with the growing importance of video, but a similar trend can be observed among websites.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://httparchive.org/reports/page-weight&#34;&gt;size of the average web page&lt;/a&gt; (defined as the average page size of the 500,000 most popular websites) increased from 0.45 megabytes in 2010 to 1.7 megabytes in June 2018. For mobile websites, the average “page weight” rose tenfold from 0.15 MB in 2011 to 1.6 MB in 2018. Using different measurement methods, other sources report average page sizes of up to 2.9 MB in 2018.&lt;/p&gt;
@@ -62,7 +62,7 @@
 &lt;p&gt;The size of the average web page increased at least threefold from 2010 to 2018.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The growth in data traffic &lt;a href=&#34;https://www.researchgate.net/publication/224224694/download&#34;&gt;surpasses the advances in energy efficiency&lt;/a&gt; (the energy required to transfer 1 megabyte of data over the Internet), resulting in more and more energy use.&lt;/p&gt;
-&lt;p&gt;Over and above this, “heavier” or “larger” websites not only increase energy use in the network infrastructure, but they also shorten the lifetime of computers &amp;ndash; larger websites require more powerful computers to access them. This means that more computers need to be manufactured, which is a &lt;a href=&#34;./2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;very energy-intensive process&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Over and above this, “heavier” or “larger” websites not only increase energy use in the network infrastructure, but they also shorten the lifetime of computers &amp;ndash; larger websites require more powerful computers to access them. This means that more computers need to be manufactured, which is a &lt;a href=&#34;/mar-ver.github.io/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;very energy-intensive process&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;always-online&#34;&gt;Always online&lt;/h3&gt;
 &lt;p&gt;A second reason for growing Internet energy consumption is that we spend more and more time on-line. Before the arrival of portable computing devices and wireless network access, we were only connected to the network when we had access to a desktop computer in the office, at home, or in the library. We now live in a world in which no matter where we are, we are always on-line, including, at times, via more than one device simultaneously.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -73,7 +73,7 @@
 &lt;p&gt;Our new web design addresses both these issues. Thanks to a low-tech web design, we managed to decrease the average page size of the blog by a factor of five compared to the old design – all while making the website visually more attractive. Secondly, our new website runs 100% on solar power, not just in words, but in reality: it has its own energy storage and will go off-line during longer periods of cloudy weather.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/solar_panel007_dithered.png&#34; alt=&#39;The 50W and 30W solar PV panels on the balcony. One is powering the website, the other is powering the lights in the living room. Image by Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/solar_panel007_dithered.png&#34; alt=&#39;The 50W and 30W solar PV panels on the balcony. One is powering the website, the other is powering the lights in the living room. Image by Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The 50W and 30W solar PV panels on the balcony. One is powering the website, the other is powering the lights in the living room. Image by Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -101,7 +101,7 @@
 &lt;p&gt;Instead, we chose to apply an obsolete image compression technique called “dithering”. The number of colours in an image, combined with its file format and resolution, contributes to the size of an image. Thus, instead of using full-colour high-resolution images, we chose to convert all images to black and white, with four levels of grey in-between. These black-and-white images are then coloured according to the pertaining content category via the browser’s native image manipulation capacities.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/wholeshelf011_dithered.png&#34; alt=&#39;The solar powered server in its new housing, screwed against the wall in the living room. The battery is in front. The solar charge controller below the laptop powers the lights in the room. Image by Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/wholeshelf011_dithered.png&#34; alt=&#39;The solar powered server in its new housing, screwed against the wall in the living room. The battery is in front. The solar charge controller below the laptop powers the lights in the room. Image by Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The solar powered server in its new housing, screwed against the wall in the living room. The battery is in front. The solar charge controller below the laptop powers the lights in the room. Image by Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -120,18 +120,18 @@
 &lt;blockquote&gt;
 &lt;p&gt;Keeping the server on-line no matter what simply requires too many batteries, which makes the system unsustainable and expensive.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In contrast, this website runs on an off-the-grid solar power system with its own energy storage, and will go off-line during longer periods of cloudy weather. Less than 100% reliability is &lt;a href=&#34;./2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;essential for the sustainability of an off-the-grid solar system&lt;/a&gt;, because above a certain threshold the fossil fuel energy used for producing and replacing the batteries is higher than the fossil fuel energy saved by the solar panels.&lt;/p&gt;
+&lt;p&gt;In contrast, this website runs on an off-the-grid solar power system with its own energy storage, and will go off-line during longer periods of cloudy weather. Less than 100% reliability is &lt;a href=&#34;/mar-ver.github.io/2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;essential for the sustainability of an off-the-grid solar system&lt;/a&gt;, because above a certain threshold the fossil fuel energy used for producing and replacing the batteries is higher than the fossil fuel energy saved by the solar panels.&lt;/p&gt;
 &lt;p&gt;Apart from sustainability (and costs), the author&amp;rsquo;s home has limited space for installing solar panels and batteries. Keeping the server on-line no matter what &amp;ndash; the standard business model of webhosting companies &amp;ndash; simply requires too many batteries.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;The sizing of battery and solar panel is a compromise between uptime and sustainability. Illustration: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;The sizing of battery and solar panel is a compromise between uptime and sustainability. Illustration: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The sizing of battery and solar panel is a [compromise between uptime and sustainability](/2020/01/how-sustainable-is-a-solar-powered-website.html). Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/) 
 &lt;/figcaption&gt;
@@ -143,14 +143,14 @@
 &lt;p&gt;However, uptime from 1 October to 30 November 2019 plummeted to 80.17%. This was caused by a software upgrade of the Linux kernel, which increased the average power use of the server from 1.19 to 1.49 watts, and consequently brought the website down for at least a few hours every night.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/watts-server-15-july-15-nov-2019_dithered.png&#34; alt=&#39;Image: In October 2019, average power use suddenly increases and the site goes down every night.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/watts-server-15-july-15-nov-2019_dithered.png&#34; alt=&#39;Image: In October 2019, average power use suddenly increases and the site goes down every night.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: In October 2019, average power use suddenly increases and the site goes down every night. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The graph above, which shows the power use of the server from 15 July to 15 November 2019, reveals the effect of the software upgrade. Power use is zero when the server is offline. Before the software upgrade, this happens only now and then, during longer periods of bad weather. From October onwards, it happens every night. The two peaks at the beginning of November show two intents to charge the battery with grid power, because we initially assumed the problem was caused by a deteriorating battery.&lt;/p&gt;
-&lt;p&gt;All the data above refer to a set-up consisting of a 50W solar panel with an energy storage capacity that is equivalent to that of an 86.4 Wh lead-acid battery. In December 2019 and January 2020, we have been running the system on &lt;a href=&#34;./2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;different sizes of solar panels and batteries&lt;/a&gt;. Based on these experiments, we decided to continue with a smaller (30W) solar panel and a larger (168 Wh) lead-acid battery. Since then, the uptime has been 100% (March to September 2020), even though we have added a lot of content by making the website multilingual. This is due to the larger (brand new) battery but also to the better orientation of the smaller solar panel. The battery&amp;rsquo;s capacity will decline over time, so the higher storage capacity will make it last longer. If the uptime remains 100% through the winter 2020/2021, we will probably downgrade to a 20W solar panel.&lt;/p&gt;
+&lt;p&gt;All the data above refer to a set-up consisting of a 50W solar panel with an energy storage capacity that is equivalent to that of an 86.4 Wh lead-acid battery. In December 2019 and January 2020, we have been running the system on &lt;a href=&#34;/mar-ver.github.io/2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;different sizes of solar panels and batteries&lt;/a&gt;. Based on these experiments, we decided to continue with a smaller (30W) solar panel and a larger (168 Wh) lead-acid battery. Since then, the uptime has been 100% (March to September 2020), even though we have added a lot of content by making the website multilingual. This is due to the larger (brand new) battery but also to the better orientation of the smaller solar panel. The battery&amp;rsquo;s capacity will decline over time, so the higher storage capacity will make it last longer. If the uptime remains 100% through the winter 2020/2021, we will probably downgrade to a 20W solar panel.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.notechmagazine.com/2021/04/solar-powered-website-uptime-for-2020.html&#34;&gt;Here&amp;rsquo;s a graphic representation of our uptime in 2020&lt;/a&gt;, related to the weather.&lt;/p&gt;
 &lt;h2 id=&#34;span-idvisitwhen-is-the-best-time-to-visitspan&#34;&gt;&lt;span id=&#34;visit&#34;&gt;When is the best time to visit?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;The accessibility of this website depends on the weather in Barcelona, Spain, where the solar-powered web server is located. Because it is solar powered, the website is most often online during the summer. To help visitors “plan” their visits to Low-tech Magazine, we provide them with several pointers.&lt;/p&gt;
@@ -158,12 +158,12 @@
 &lt;blockquote&gt;
 &lt;p&gt;To help visitors “plan” their visits to Low-tech Magazine, we provide them with several pointers such as a battery meter and a weather forecast.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In addition to the battery level, other information about the website server is visible with a &lt;a href=&#34;./power.html&#34;&gt;statistics dashboard&lt;/a&gt;. This includes contextual information of the server’s location: time, current sky conditions, upcoming forecast, and the duration since the server last shut down due to insufficient power.&lt;/p&gt;
-&lt;p&gt;To access Low-tech Magazine no matter the weather, we have &lt;a href=&#34;./offline-reading.html&#34;&gt;several offline reading options available&lt;/a&gt;. These include four printed volumes with a
+&lt;p&gt;In addition to the battery level, other information about the website server is visible with a &lt;a href=&#34;/mar-ver.github.io/power.html&#34;&gt;statistics dashboard&lt;/a&gt;. This includes contextual information of the server’s location: time, current sky conditions, upcoming forecast, and the duration since the server last shut down due to insufficient power.&lt;/p&gt;
+&lt;p&gt;To access Low-tech Magazine no matter the weather, we have &lt;a href=&#34;/mar-ver.github.io/offline-reading.html&#34;&gt;several offline reading options available&lt;/a&gt;. These include four printed volumes with a
 total of 2,398 pages and 709 images.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/NEWbook016_dithered.png&#34; alt=&#39;The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/NEWbook016_dithered.png&#34; alt=&#39;The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The Printed Website. 
 &lt;/figcaption&gt;
@@ -174,14 +174,14 @@ total of 2,398 pages and 709 images.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://homebrewserver.club/low-tech-website-howto.html&#34;&gt;How to build a low-tech website: software and hardware&lt;/a&gt;, which focuses on the back-end.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/lowtechmag/solar/wiki/Solar-Web-Design&#34;&gt;How to Build a Low-tech Website: Design Techniques and Process&lt;/a&gt;, which focuses on the front-end.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;./2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;How sustainable is a solar powered website?&lt;/a&gt;, which focuses on the sizing of the solar PV system and the optimal balance between uptime and sustainability.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/mar-ver.github.io/2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;How sustainable is a solar powered website?&lt;/a&gt;, which focuses on the sizing of the solar PV system and the optimal balance between uptime and sustainability.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In addition, Roel Roscam Abbing wrote a conference paper about Low-tech Magazine’s solar powered website: &lt;a href=&#34;https://computingwithinlimits.org/2021/papers/limits21-abbing.pdf&#34;&gt;‘This is a solar-powered website, which means it sometimes goes offline’: a design inquiry into degrowth and ICT&lt;/a&gt;.” Workshop on Computing within Limits. 2021.&lt;/p&gt;
 &lt;p&gt;SERVER: This website runs on an &lt;a href=&#34;https://homebrewserver.club/low-tech-website-howto.html#server&#34;&gt;Olimex A20 computer&lt;/a&gt;. It has 2 Ghz of processing power, 1 GB of RAM, and 16 GB of storage. The server draws 1 - 2.5 watts of power.&lt;/p&gt;
 &lt;p&gt;SERVER SOFTWARE: The webserver runs Armbian Stretch, a Debian based operating system built around the SUNXI kernel. We wrote &lt;a href=&#34;https://homebrewserver.club/low-tech-website-howto.html#configuring-the-webserver&#34;&gt;technical documentation for configuring the webserver&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;DESIGN SOFTWARE: The website is built with &lt;a href=&#34;https://blog.getpelican.com/&#34;&gt;Pelican&lt;/a&gt;, a static site generator. We have &lt;a href=&#34;https://github.com/lowtechmag/solar&#34;&gt;released the source code for ‘solar’, the Pelican theme we developed here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;INTERNET CONNECTION. The server is connected to a 100 MBps fibre internet connection. &lt;a href=&#34;https://homebrewserver.club/low-tech-website-howto.html#network&#34;&gt;Here&amp;rsquo;s how we configured the router&lt;/a&gt;. For now, the router is powered by grid electricity and requires 10 watts of power. We are investigating how to replace the energy-hungry router with a more efficient one that can be solar-powered, too.&lt;/p&gt;
-&lt;p&gt;SOLAR PV SYSTEM. At the moment, the server runs on a 30W solar panel and a 168 Wh lead-acid battery. However, we keep &lt;a href=&#34;./2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;experimenting with different setups&lt;/a&gt;. The PV installation is managed by a 10A solar charge controller.&lt;/p&gt;
+&lt;p&gt;SOLAR PV SYSTEM. At the moment, the server runs on a 30W solar panel and a 168 Wh lead-acid battery. However, we keep &lt;a href=&#34;/mar-ver.github.io/2020/01/how-sustainable-is-a-solar-powered-website.html&#34;&gt;experimenting with different setups&lt;/a&gt;. The PV installation is managed by a 10A solar charge controller.&lt;/p&gt;
 &lt;h2 id=&#34;span-idold_websitewhat-happens-to-the-old-websitespan&#34;&gt;&lt;span id=&#34;old_website&#34;&gt;What happens to the old website?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;The solar powered Low-tech Magazine is a work in progress. For now, the grid-powered Low-tech Magazine remains on-line. Readers will be encouraged to visit the solar powered website if it is available. What happens later, is not yet clear. Our work on the website was interrupted by lockdowns and travel restrictions in early 2020. We hope to get together again in 2022 and finish the job.&lt;/p&gt;
 &lt;h2 id=&#34;span-idwhowho-made-this-websitespan&#34;&gt;&lt;span id=&#34;who&#34;&gt;Who made this website?&lt;/span&gt;&lt;/h2&gt;
@@ -197,7 +197,7 @@ total of 2,398 pages and 709 images.&lt;/p&gt;
 &lt;p&gt;To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Comments will be published at the bottom of this page.&lt;/p&gt;
 &lt;p&gt;On the other hand, we&amp;rsquo;re hoping for people to support this project with a financial contribution. Advertising services, which have maintained Low-tech Magazine since its start in 2007, are not compatible with our lightweight web design. Therefore, we are searching for other ways to finance the website:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;We offer &lt;a href=&#34;./offline-reading.html&#34;&gt;print-on-demand copies of the website&lt;/a&gt;. These publications allow you to read Low-tech Magazine on paper, on the beach, in the sun, or whenever and where ever you want.&lt;/li&gt;
+&lt;li&gt;We offer &lt;a href=&#34;/mar-ver.github.io/offline-reading.html&#34;&gt;print-on-demand copies of the website&lt;/a&gt;. These publications allow you to read Low-tech Magazine on paper, on the beach, in the sun, or whenever and where ever you want.&lt;/li&gt;
 &lt;li&gt;You can support us through &lt;a href=&#34;https://www.paypal.me/lowtechmagazine&#34;&gt;PayPal&lt;/a&gt;, &lt;a href=&#34;https://www.patreon.com/lowtechmagazine&#34;&gt;Patreon&lt;/a&gt; and &lt;a href=&#34;https://liberapay.com/lowtechmagazine/&#34;&gt;LiberaPay&lt;/a&gt;. Patrons get early access to new books, book promotions, special editions, and more.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;span-idmediathe-solar-powered-website-in-the-mediaspan&#34;&gt;&lt;span id=&#34;media&#34;&gt;The solar powered website in the media&lt;/span&gt;&lt;/h2&gt;
@@ -227,7 +227,7 @@ total of 2,398 pages and 709 images.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;&lt;a href=&#34;https://therestartproject.org/podcast/low-tech/&#34;&gt;Restart Podcast Ep. 53: Our low-tech future with Kris De Decker&lt;/a&gt;&amp;rdquo;, Restart, May 2020.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/prototype_setup002_dithered.png&#34; alt=&#39;Off-line portal to the solar powered website at the Dutch Design Week in Eindhoven. Designed and built in collaboration with Marie Verdeil. More images here.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/prototype_setup002_dithered.png&#34; alt=&#39;Off-line portal to the solar powered website at the Dutch Design Week in Eindhoven. Designed and built in collaboration with Marie Verdeil. More images here.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Off-line portal to the solar powered website at the Dutch Design Week in Eindhoven. Designed and built in collaboration with Marie Verdeil. [More images here](https://www.notechmagazine.com/2021/11/off-line-portal-to-solar-powered-website.html). 
 &lt;/figcaption&gt;
@@ -271,7 +271,7 @@ total of 2,398 pages and 709 images.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;&lt;a href=&#34;http://www.brankocollin.nl/blog/2019/11/low-tech-magazine-gaat-terug-naar-zijn-roots&#34;&gt;Low Tech Magazine gaat terug naar zijn roots&lt;/a&gt;&amp;rdquo;, Branko Collin, 2019.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./about/the-solar-website/images/dithers/waste-age-design-museum-london_dithered.png&#34; alt=&#39;The solar powered website in the Design Museum in London. It forms part of the exhibition “Waste age: what can design do?“, which runs until 20 February 2022.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/about/the-solar-website/images/dithers/waste-age-design-museum-london_dithered.png&#34; alt=&#39;The solar powered website in the Design Museum in London. It forms part of the exhibition “Waste age: what can design do?“, which runs until 20 February 2022.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The solar powered website in the Design Museum in London. It forms part of the exhibition “[Waste age: what can design do?](https://designmuseum.org/exhibitions/waste-age-what-can-design-do)“, which runs until 20 February 2022. 
 &lt;/figcaption&gt;
@@ -282,15 +282,15 @@ total of 2,398 pages and 709 images.&lt;/p&gt;
     
     <item>
       <title>Offline Reading</title>
-      <link>./offline-reading/</link>
+      <link>/mar-ver.github.io/offline-reading/</link>
       
-      <enclosure url="/offline-reading/images/dithers/all-four-books_dithered.png" type="image/png" length="17252" ></enclosure>
+      <enclosure url="/mar-ver.github.io/offline-reading/images/dithers/all-four-books_dithered.png" type="image/png" length="17252" ></enclosure>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./offline-reading/</guid>
+      <guid>/mar-ver.github.io/offline-reading/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./offline-reading/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/offline-reading/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Low-tech Magazine: The Printed Website. 
 &lt;/figcaption&gt;
@@ -377,7 +377,7 @@ total of 2,398 pages and 709 images.&lt;/p&gt;
 &lt;li&gt;The solar envelope: how to heat and cool cities without fossil fuel&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;low-tech-magazine-volume-three-2018-2021&#34;&gt;Low-tech Magazine Volume Three (2018-2021)&lt;/h2&gt;
-&lt;p&gt;Low-tech Magazine Volume III contains 18 articles published between 2018 and 2021. It has 368 pages and 183 images. &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2018-2021/paperback/product-q7r49d.html&#34;&gt;Find it in the Lulu bookstore&lt;/a&gt;. This volume is &lt;a href=&#34;./fr/2021/12/the-printed-website-volume-iii-and-more/&#34;&gt;also available in French&lt;/a&gt;. Contents table:&lt;/p&gt;
+&lt;p&gt;Low-tech Magazine Volume III contains 18 articles published between 2018 and 2021. It has 368 pages and 183 images. &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2018-2021/paperback/product-q7r49d.html&#34;&gt;Find it in the Lulu bookstore&lt;/a&gt;. This volume is &lt;a href=&#34;/mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/&#34;&gt;also available in French&lt;/a&gt;. Contents table:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How Circular is the Circular Economy?&lt;/li&gt;
 &lt;li&gt;Keeping Some of the Lights On: Redefining Energy Security&lt;/li&gt;

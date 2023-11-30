@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>./es/about/</link>
+    <link>/mar-ver.github.io/es/about/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
-    <language>es</language><atom:link href="./es/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="/mar-ver.github.io/es/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Low-tech Magazine?</title>
-      <link>./es/about/what-is-low-tech-magazine/</link>
+      <link>/mar-ver.github.io/es/about/what-is-low-tech-magazine/</link>
       
-      <enclosure url="/es/about/what-is-low-tech-magazine/images/dithers/low-tech-hearing-aid_dithered.png" type="image/png" length="59896" ></enclosure>
+      <enclosure url="/mar-ver.github.io/es/about/what-is-low-tech-magazine/images/dithers/low-tech-hearing-aid_dithered.png" type="image/png" length="59896" ></enclosure>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./es/about/what-is-low-tech-magazine/</guid>
+      <guid>/mar-ver.github.io/es/about/what-is-low-tech-magazine/</guid>
       <description>&lt;p&gt;Technology has become the idol of our society, but technological progress is—more often than not—aimed at solving problems caused by earlier technical inventions. There is a lot of potential in past and often forgotten knowledge and technologies when it comes to designing a sustainable society. Interesting possibilities arise when we combine old technology with new knowledge and new materials, or when we apply old concepts and traditional knowledge to modern technology.&lt;/p&gt;
 &lt;p&gt;Low-tech Magazine was founded in November 2007. Since 2018, the magazine also runs on a solar powered server. The website is also available in Spanish, French, Dutch, German, and Polish. Since 2019, LTM also appears in print. Low-tech Magazine publishes at most 12 well-researched stories per year. Sister blog No Tech Magazine brings more regular updates.&lt;/p&gt;
 </description>
@@ -21,15 +21,15 @@
     
     <item>
       <title>Acerca de</title>
-      <link>./es/about/the-solar-website/</link>
+      <link>/mar-ver.github.io/es/about/the-solar-website/</link>
       
-      <enclosure url="/es/about/the-solar-website/images/dithers/serverandbattery003_dithered.png" type="image/png" length="32507" ></enclosure>
+      <enclosure url="/mar-ver.github.io/es/about/the-solar-website/images/dithers/serverandbattery003_dithered.png" type="image/png" length="32507" ></enclosure>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./es/about/the-solar-website/</guid>
+      <guid>/mar-ver.github.io/es/about/the-solar-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/about/the-solar-website/images/dithers/serverandbattery003_dithered.png&#34; alt=&#39;Foto: Detalle del servidor de energía solar.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/about/the-solar-website/images/dithers/serverandbattery003_dithered.png&#34; alt=&#39;Foto: Detalle del servidor de energía solar.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Foto: Detalle del servidor de energía solar. 
 &lt;/figcaption&gt;
@@ -38,19 +38,19 @@
 &lt;p&gt;Primer prototipo del servidor de energía solar que opera el nuevo sitio web. El controlador de carga solar (a la derecha) alimenta el servidor (a la izquierda) a través de un cable USB.&lt;/p&gt;
 &lt;p&gt;Low-tech magazine (La revista de Baja Tecnología) nació en 2007, y desde entonces ha sufrido pocos cambios. Dado a que queríamos rediseñar el sitio web hace ya mucho tiempo, y debido a que tratamos de practicar lo que predicamos, decidimos construir una versión de baja tecnología, autohospedada y que aproveche de la energía solar. El nuevo blog esta diseñado para reducir radicalmente el uso de energía asociado con el acceso a nuestro contenido.&lt;/p&gt;
 &lt;h2 id=&#34;por-qué-una-página-web-de-baja-tecnología&#34;&gt;¿Por qué́ una página web de baja tecnología?&lt;/h2&gt;
-&lt;p&gt;Se nos dijo que el Internet &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;“desmaterializaría” la sociedad y disminuiría el uso de energía&lt;/a&gt;. Contrariamente, este se ha convertido en &lt;a href=&#34;./2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;un gran consumidor con niveles en rápido crecimiento&lt;/a&gt;. Según las últimas estimaciones, toda la red ya consume el 10% de
+&lt;p&gt;Se nos dijo que el Internet &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;“desmaterializaría” la sociedad y disminuiría el uso de energía&lt;/a&gt;. Contrariamente, este se ha convertido en &lt;a href=&#34;/mar-ver.github.io/mar-ver.github.io/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;un gran consumidor con niveles en rápido crecimiento&lt;/a&gt;. Según las últimas estimaciones, toda la red ya consume el 10% de
 la producción mundial de electricidad, y el tráfico de datos se duplica aproximadamente cada dos años.&lt;/p&gt;
 &lt;p&gt;Para aliviar estos altos niveles de consumo, se ha propuesto usar energías renovables
 como un medio para reducir las emisiones provocadas por accionar los centros de
 datos. Por ejemplo, el &lt;a href=&#34;http://www.greenpeace.org/usa/global-warming/click-clean/&#34;&gt;informe anual ClickClean&lt;/a&gt; de Greenpeace clasifica las principales
 compañías de Internet según su uso de energías renovables.&lt;/p&gt;
-&lt;p&gt;Sin embargo, ejecutar centros de datos usando fuentes de energía renovables no es al día de hoy suficiente para suministrar su creciente consumo de energía. Para empezar el Internet ya utiliza tres veces más energía de la que pueden proporcionar todas las fuentes de energía eólica y solar del mundo. Además, &lt;a href=&#34;./2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la fabricación y el mantenimiento regular de las plantas de energía renovable también requieren de energía&lt;/a&gt; lo quesignifica que si el tráfico de datos sigue en crecimiento, también seguirá en crecimiento el uso de combustibles fósiles.&lt;/p&gt;
+&lt;p&gt;Sin embargo, ejecutar centros de datos usando fuentes de energía renovables no es al día de hoy suficiente para suministrar su creciente consumo de energía. Para empezar el Internet ya utiliza tres veces más energía de la que pueden proporcionar todas las fuentes de energía eólica y solar del mundo. Además, &lt;a href=&#34;/mar-ver.github.io/mar-ver.github.io/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la fabricación y el mantenimiento regular de las plantas de energía renovable también requieren de energía&lt;/a&gt; lo quesignifica que si el tráfico de datos sigue en crecimiento, también seguirá en crecimiento el uso de combustibles fósiles.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ejecutar centros de datos usando fuentes de energía renovables no es al día de
 hoy suficiente para abordar su creciente consumo de energía.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Finalmente, la energía solar y eólica no están siempre disponibles, lo que significa que un Internet que funcione con fuentes de energía renovables requeriría una
-infraestructura para el almacenamiento y/o transmisión de energía, lo que &lt;a href=&#34;./es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependería del uso de combustibles fósiles para su fabricación y reemplazo&lt;/a&gt;. Impulsar sitios web que usan energías renovables no es una mala idea, sin embargo, también se debería abordar la tendencia del permanente crecimiento del uso de energía.&lt;/p&gt;
+infraestructura para el almacenamiento y/o transmisión de energía, lo que &lt;a href=&#34;/mar-ver.github.io/mar-ver.github.io/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependería del uso de combustibles fósiles para su fabricación y reemplazo&lt;/a&gt;. Impulsar sitios web que usan energías renovables no es una mala idea, sin embargo, también se debería abordar la tendencia del permanente crecimiento del uso de energía.&lt;/p&gt;
 &lt;h2 id=&#34;sitios-web--pesados&#34;&gt;Sitios web &amp;quot; Pesados&amp;quot;&lt;/h2&gt;
 &lt;p&gt;Para empezar, el contenido publicado en Internet es cada vez más intensivo en el uso de recursos. Esto tiene mucho que ver con la creciente importancia del video, pero también se puede observar esta tendencia entre los sitios web.
 En junio del 2018 el &lt;a href=&#34;https://httparchive.org/reports/page-weight&#34;&gt;tamaño de una página web promedio&lt;/a&gt; aumentó de 0.45 megabytes (MB) a 1.7 megabytes (MB). Para los sitios web móviles, el “peso de una página”
@@ -61,7 +61,7 @@ resulta en un mayor uso de energía. Los sitios web “más pesados” o “más
 solo aumentan el uso de energía en la red, sino que también acortan la vida útil de las
 computadoras: los sitios web más grandes requieren de computadoras más poderosas
 para acceder a ellas. Esto significa que se deben fabricar más computadoras, lo cual es
-&lt;a href=&#34;./2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;un proceso que consume mucha energía&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;/mar-ver.github.io/mar-ver.github.io/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;un proceso que consume mucha energía&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Estar siempre en línea no combina bien con el uso de fuentes de energía
 renovables como la energía eólica y solar, ya que estas no siempre están
@@ -95,14 +95,14 @@ al del diseño anterior.&lt;/p&gt;
 &lt;p&gt;Para empezar, el nuevo diseño del sitio web revierte la tendencia de continuar creando páginas cada vez más grandes y pesadas. Con 36 de aproximadamente 100 artículos en línea, el peso promedio de las páginas en el nuevo sitio web es de 0.77 MB, aproximadamente 5 veces más bajo que el diseño anterior, y menos de la mitad del tamaño promedio de las páginas de los 500,000 blogs más populares de Junio del 2018.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/about/the-solar-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/about/the-solar-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/about/the-solar-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png&#34; alt=&#39;Photo: Prueba de velocidad de la página web antigua y la nueva. El tamaño de página ha disminuido más de 6 veces, la cantidad de solicitudes ha disminuido 5 veces, y la velocidad de descarga se ha multiplicado por 10. Tenga en cuenta que no diseñamos el sitio web para adquirir más velocidad, sino para disminuir el uso de energía. Sería aún más rápido si el servidor se ubicara en un centro de datos y/o en una ubicación más central en la infraestructura de Internet. Fuente: Pingdom.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/about/the-solar-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png&#34; alt=&#39;Photo: Prueba de velocidad de la página web antigua y la nueva. El tamaño de página ha disminuido más de 6 veces, la cantidad de solicitudes ha disminuido 5 veces, y la velocidad de descarga se ha multiplicado por 10. Tenga en cuenta que no diseñamos el sitio web para adquirir más velocidad, sino para disminuir el uso de energía. Sería aún más rápido si el servidor se ubicara en un centro de datos y/o en una ubicación más central en la infraestructura de Internet. Fuente: Pingdom.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo: Prueba de velocidad de la página web antigua y la nueva. El tamaño de página ha disminuido más de 6 veces, la cantidad de solicitudes ha disminuido 5 veces, y la velocidad de descarga se ha multiplicado por 10. Tenga en cuenta que no diseñamos el sitio web para adquirir más velocidad, sino para disminuir el uso de energía. Sería aún más rápido si el servidor se ubicara en un centro de datos y/o en una ubicación más central en la infraestructura de Internet. Fuente: Pingdom. 
 &lt;/figcaption&gt;
@@ -144,7 +144,7 @@ tanto, en lugar de utilizar imágenes de alta resolución a todo color, optamos 
 convertir todas las imágenes a blanco y negro, con cuatro niveles de gris.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/about/the-solar-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png&#34; alt=&#39;Photo: Una imagen interpolada de nuestro servidor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/about/the-solar-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png&#34; alt=&#39;Photo: Una imagen interpolada de nuestro servidor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo: Una imagen interpolada de nuestro servidor. 
 &lt;/figcaption&gt;
@@ -205,7 +205,7 @@ red eléctrica cuando hay una escasez de energía solar (lo que significa que re
 no funcionan con 100 % energía solar).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/about/the-solar-website/images/dithers/sps_panel_dithered.png&#34; alt=&#39;Foto: El panel solar fotovoltaico de 50W. Encima hay un panel de 10W que alimenta un sistema de&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/about/the-solar-website/images/dithers/sps_panel_dithered.png&#34; alt=&#39;Foto: El panel solar fotovoltaico de 50W. Encima hay un panel de 10W que alimenta un sistema de&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Foto: El panel solar fotovoltaico de 50W. Encima hay un panel de 10W que alimenta un sistema de 
 &lt;/figcaption&gt;
@@ -245,7 +245,7 @@ Nuestro objetivo es un &amp;ldquo;tiempo de actividad&amp;rdquo; del 90%, lo que
 estaría fuera de línea durante un promedio de 35 días por año.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/about/the-solar-website/images/dithers/sps_bats_dithered.png&#34; alt=&#39;Foto: Primer prototipo con batería de plomo-ácido (12V 7Ah) a la izquierda, y batería Li- Po UPS (3,7V 6600mA) a la derecha. La batería de plomo-ácido proporciona la mayor parte del almacenamiento de energía, mientras que la batería Li-Po permite que el servidor se apague sin ocasionar daños en el hardware (esta será reemplazada por una batería Li-Po mucho más pequeña).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/about/the-solar-website/images/dithers/sps_bats_dithered.png&#34; alt=&#39;Foto: Primer prototipo con batería de plomo-ácido (12V 7Ah) a la izquierda, y batería Li- Po UPS (3,7V 6600mA) a la derecha. La batería de plomo-ácido proporciona la mayor parte del almacenamiento de energía, mientras que la batería Li-Po permite que el servidor se apague sin ocasionar daños en el hardware (esta será reemplazada por una batería Li-Po mucho más pequeña).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Foto: Primer prototipo con batería de plomo-ácido (12V 7Ah) a la izquierda, y batería Li- Po UPS (3,7V 6600mA) a la derecha. La batería de plomo-ácido proporciona la mayor parte del almacenamiento de energía, mientras que la batería Li-Po permite que el servidor se apague sin ocasionar daños en el hardware (esta será reemplazada por una batería Li-Po mucho más pequeña). 
 &lt;/figcaption&gt;
@@ -305,7 +305,7 @@ envíe un correo electrónico a &lt;a href=&#34;mailto:solar@lowtechmagazine.com
 financiera. Los servicios de publicidad, que han mantenido la revista Low-tech desde su
 inicio en 2007, no son compatibles con nuestro ligero diseño de web. Por lo tanto,
 estamos buscando otras formas de financiar el sitio web:&lt;/p&gt;
-&lt;p&gt;Pronto ofreceremos &lt;a href=&#34;./2019/03/low-tech-magazine-the-printed-website.html&#34;&gt;copias impresas a pedido del blog&lt;/a&gt;. Estas publicaciones le
+&lt;p&gt;Pronto ofreceremos &lt;a href=&#34;/mar-ver.github.io/2019/03/low-tech-magazine-the-printed-website.html&#34;&gt;copias impresas a pedido del blog&lt;/a&gt;. Estas publicaciones le
 permitirán leer la revista Low-tech en papel, en la playa, al sol, o cuando y donde
 quiera.&lt;/p&gt;
 &lt;p&gt;Puede ayudarnos a través de &lt;a href=&#34;https://www.paypal.me/lowtechmagazine&#34;&gt;PayPal&lt;/a&gt;, &lt;a href=&#34;https://www.patreon.com/lowtechmagazine&#34;&gt;Patreon&lt;/a&gt; y &lt;a href=&#34;https://liberapay.com/lowtechmagazine/&#34;&gt;LiberaPay&lt;/a&gt;.&lt;/p&gt;
@@ -316,15 +316,15 @@ alimentado por energía solar.&lt;/p&gt;
     
     <item>
       <title>Offline Reading</title>
-      <link>./es/offline-reading/</link>
+      <link>/mar-ver.github.io/es/offline-reading/</link>
       
-      <enclosure url="/es/offline-reading/images/dithers/all-four-books_dithered.png" type="image/png" length="17252" ></enclosure>
+      <enclosure url="/mar-ver.github.io/es/offline-reading/images/dithers/all-four-books_dithered.png" type="image/png" length="17252" ></enclosure>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./es/offline-reading/</guid>
+      <guid>/mar-ver.github.io/es/offline-reading/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;./es/offline-reading/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/mar-ver.github.io/mar-ver.github.io/es/offline-reading/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Low-tech Magazine: The Printed Website. 
 &lt;/figcaption&gt;
