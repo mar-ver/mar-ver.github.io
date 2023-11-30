@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bedazzled by Energy Efficiency | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Bedazzled by Energy Efficiency" />
+<meta name="twitter:title" content="Bedazzled by Energy Efficiency"/>
+
+<meta property="og:description" content="To focus on energy efficiency is to make present ways of life non-negotiable." />
+
+<meta name="twitter:description" content="To focus on energy efficiency is to make present ways of life non-negotiable."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./2018/01/bedazzled-by-energy-efficiency/" />
+
+
+
+<meta property="og:image" itemprop="image" content="2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png" />
+<meta property="og:image:secure_url" content="2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-01-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-01-09T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy Efficiency" />
+<meta property="article:tag" content="Energy Demand" />
+<meta property="article:tag" content="Economy" />
+
+</head>
+<body id="bedazzled-by-energy-efficiency">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Bedazzled by Energy Efficiency</h1>
+
+				<p class="summary">
+					To focus on energy efficiency is to make present ways of life non-negotiable.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">January 9, 2018</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="./authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="./fr/2018/01/bedazzled-by-energy-efficiency/">fr</a>
+						
+							<a href="./de/2018/01/bedazzled-by-energy-efficiency/">de</a>
+						
+							<a href="./nl/2018/01/bedazzled-by-energy-efficiency/">nl</a>
+						
+							<a href="./es/2018/01/bedazzled-by-energy-efficiency/">es</a>
+						
+							<a href="./pt/2018/01/bedazzled-by-energy-efficiency/">pt</a>
+						
+							<a href="./ar/2018/01/bedazzled-by-energy-efficiency/">ar</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png" alt='Illustration by Diego Marmolejo.' data-original="/2018/01/bedazzled-by-energy-efficiency/images/bedazzled-by-energy-efficiency_huf2f8ddaddd28f1d3522bf88009c4cbe5_130627_800x800_fit_q90_h2_box_3.webp" data-dither="/2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Illustration by <a href="https://www.behance.net/diegomarmolejo" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>To focus on energy efficiency is to make present ways of life non-negotiable. However, transforming present ways of life is key to mitigating climate change and decreasing our dependence on fossil fuels.</p>
+<h2 id="energy-efficiency-policy">Energy efficiency policy</h2>
+<p>Energy efficiency is a cornerstone of policies to reduce carbon emissions and fossil fuel dependence in the industrialised world. For example, the European Union (EU) has set a target of achieving 20% energy savings through improvements in energy efficiency by 2020, and 30% by 2030. Measures to achieve these EU goals include mandatory energy efficiency certificates for buildings, minimum efficiency standards and labelling for a variety of products such as boilers, household appliances, lighting and televisions, and emissions performance standards for cars. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The EU has the world’s most progressive energy efficiency policy, but similar measures are now applied in many other industrialised countries, including China. On a global scale, the International Energy Agency (IEA) asserts that “energy efficiency is the key to ensuring a safe, reliable, affordable and sustainable energy system for the future”. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> In 2011, the organisation launched its <em>450 scenario</em>, which aims to limit the concentration of CO2 in the atmosphere to 450 parts per million. Improved energy efficiency accounts for 71% of projected carbon reductions in the period to 2020, and 48% in the period to 2035. <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<h2 id="what-are-the-results">What are the results?</h2>
+<p>Do improvements in energy efficiency actually lead to energy savings? At first sight, the advantages of efficiency seem to be impressive. For example, the energy efficiency of a range of domestic appliances covered by the EU directives has improved significantly over the last 15 years. Between 1998 and 2012, fridges and freezers became 75% more energy efficient, washing machines 63%, laundry dryers 72%, and dishwashers 50%. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>However, energy use in the EU-28 in 2015 was only slightly below the energy use in 2000 (1,627 Mtoe compared to 1.730 Mtoe, or <em>million tonnes of oil equivalents</em>). Furthermore, there are several other factors that may explain the (limited) decrease in energy use, like the 2007 economic crisis. Indeed, after decades of continuous growth, energy use in the EU decreased slightly between 2007 and 2014, only to go up again in 2015 and 2016 when economic growth returned. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>On a global level, energy use keeps rising at an average rate of 2.4% per year. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> This is double the rate of population growth, while close to half of the global population has limited or no access to modern energy sources. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> In industrialised (OECD) countries, energy use per head of the population doubled between 1960 and 2007. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<h2 id="rebound-effects">Rebound effects?</h2>
+<p>Why is it that advances in energy efficiency do not result in a reduction of energy demand? Most critics focus on so-called “rebound effects”, which have been described since the nineteenth century. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> According to the rebound argument, improvements in energy efficiency often encourage greater use of the services which energy helps to provide. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> For example, the advance of solid state lighting (LED), which is six times more energy efficient than old-fashioned incandescent lighting, has not led to a decrease in energy demand for lighting. Instead, it resulted in six times more light. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>In some cases, rebound effects may be sufficiently large to lead to an overall increase in energy use. <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> For example, the improved efficiency of microchips has accelerated the use of computers, whose total energy use now exceeds the total energy use of earlier generations of computers which had less energy efficient microchips. Energy efficiency advances in one product category can also lead to increased energy use in other product categories, or lead to the creation of an entirely new product category.</p>
+<p>For example, LED-screens are more energy efficient than LCD-screens, and could therefore reduce the energy use of televisions. However, they also led to the arrival of digital billboards, which are enormous power hogs in spite of their energy efficient components. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> Finally, money saved through improvements in energy efficiency can also be spent on other energy-intensive goods and services, which is a possibility usually referred to as an indirect rebound effect.</p>
+<h2 id="beyond-the-rebound-argument">Beyond the rebound argument</h2>
+<p>Rebound effects are ignored by the EU and the IEA, and this might partly explain why the results fall short of the projections. Among academics, the magnitude of the rebound effect is hotly debated. While some argue that “rebound effects frequently offset or even eliminate the energy savings from improved efficiency” <sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, others maintain that rebound effects “have become a distraction” because they are relatively small: “behavioural responses shave 5-30% of intended energy savings, reaching no more than 60% when combined with macro-economic effects – energy efficiency does save energy”. <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>Those who downplay rebound effects attribute the lack of results to the fact that we don’t try hard enough: “many opportunities for improving energy efficiency still go wasted”. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Others are driven by the goal of improving energy efficiency policy. One response is to suggest that the frame of reference be expanded and that analysts should consider the efficiency not of individual products but of entire systems or societies. In this view, energy efficiency is not framed holistically enough, nor given sufficient context. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup></p>
+<p>However, a few critics go one step further. In their view, energy efficiency policy cannot be fixed. The problem with energy efficiency, they argue, is that it establishes and reproduces ways of life that are not sustainable in the long run. <sup id="fnref1:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<h2 id="a-parellel-universe">A parellel universe</h2>
+<p>Rebound effects are often presented as “unintended” consequences, but they are the logical outcome of the abstraction that is required to define and measure energy efficiency. According to Loren Lutzenhiser, a researcher at Portland State University in the US, energy efficiency policy is so abstracted from the everyday dynamics of energy use that it operates in a “parallel universe”. <sup id="fnref1:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> In a more recent paper, <a href="http://www.tandfonline.com/doi/full/10.1080/09613218.2017.1361746" target="_blank" ><em>What is wrong with energy efficiency?</em></a>, UK researcher Elizabeth Shove unravels this “parallel universe”, concluding that efficiency policies are “counter-productive” and “part of the problem”. <sup id="fnref2:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<blockquote>
+<p>According to some critics, efficiency policies are &ldquo;counter-productive&rdquo; and &ldquo;part of the problem&rdquo;.</p>
+</blockquote>
+<p>To start with, the parallel universe of energy efficiency interprets “energy savings” in a peculiar way. When the EU states that it will achieve 20% “energy savings” by 2020, “energy savings” are not defined as a reduction in actual energy consumption compared to present or historical figures. Indeed, such a definition would show that energy efficiency doesn’t reduce energy use at all. Instead, the “energy savings” are defined as reductions compared to the projected energy use in 2020. These reductions are measured by quantifying “avoided energy” – the energy resources not used because of advances in energy efficiency.</p>
+<p>Even if the projected “energy savings” were to be fully realised, they would not result in an absolute reduction in energy demand. The EU argues that advances in energy efficiency will be “roughly equivalent to turning off 400 power stations”, but in reality no single power station will be turned off in 2020 because of advances in energy efficiency. Instead, the reasoning is that Europe would have needed to build an extra 400 power stations by 2020, were it not for the increases in energy efficiency.</p>
+<p>In taking this approach, the EU treats energy efficiency as a fuel, “a source of energy in its own right”. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> The IEA goes even further when it claims that “energy avoided by IEA member countries in 2010 (generated from investments over the preceding 1974 to 2010 period), was larger than actual demand met by any other supply side resource, including oil, gas, coal and electricity”, thus making energy efficiency “the largest or first fuel”. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup><sup id="fnref3:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<h2 id="measuring-something-that-doesnt-exist">Measuring something that doesn’t exist</h2>
+<p>Treating energy efficiency as a fuel and measuring its success in terms of “avoided energy” is pretty weird. For one thing, it is about <strong>not</strong> using a fuel that does <strong>not</strong> exist. <sup id="fnref2:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> Furthermore, the higher the projected energy use in 2030, the larger the “avoided energy” would be. On the other hand, if the projected energy use in 2030 were to be lower than present-day energy use (we reduce energy demand), the “avoided energy” becomes negative.</p>
+<p>An energy policy that seeks to reduce greenhouse gas emissions and fossil fuel dependency must measure its success in terms of lower fossil fuel consumption. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> However, by measuring “avoided energy”, energy efficiency policy does exactly the opposite. Because projected energy use is higher than present energy use, energy efficiency policy takes for granted that total energy consumption will keep rising.</p>
+<p>That other pillar of climate change policy – the decarbonisation of the energy supply by encouraging the use of renewable energy power plants – suffers from similar defects. Because the increase in total energy demand outpaces the growth in renewable energy, solar and wind power plants are in fact <a href="./2009/11/how-not-to-resolve-the-energy-crisis/" >not decarbonising the energy supply</a>. They are not replacing fossil fuel power plants, but are helping to accommodate the ever growing demand for energy. Only by introducing the concept of “avoided emissions” can renewables be presented as having something of the desired effect. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup></p>
+<h2 id="what-is-it-that-is-efficient">What is it that is efficient?</h2>
+<p>In <em>What is wrong with energy efficiency?</em>, Elizabeth Shove demonstrates that the concept of energy efficiency is just as abstract as the concept of “avoided energy”. Efficiency is about delivering more services (heat, light, transportation,…) for the same energy input, or the same services for less energy input. Consequently, a first step in identifying improvements depends on specifying “service” (what is it that is efficient?) and on quantifying the amount of energy involved (how is “less energy” known?). Setting a reference against which “energy savings” are measured also involves specifying temporal boundaries (where does efficiency start and end?). <sup id="fnref4:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>Shove’s main argument is that setting temporal boundaries (where does efficiency start and end?) automatically specifies the “service” (what is it that is efficient?), and the other way around. That’s because energy efficiency can only be defined and measured if it is based on equivalence of service. Shove focuses on home heating, but her point is valid for all other technology. For example, in 1985, the average passenger plane used 8 litres of fuel to transport one passenger over a distance of 100 km, a figure that came down to 3.7 litres today.</p>
+<p>Consequently, we are told that airplanes have become twice as efficient. However, if we make a comparison in fuel use between today and 1950, instead of 1985, airplanes do not use less energy at all. In the 1960s, <a href="./2010/09/piston-powered-aircraft-from-the-1950s-were-as-fuel-efficient-as-the-current-average-jet/" >propeller aircraft</a> were replaced by jet aircraft, which are twice as fast but initially consumed twice as much fuel. Only fifty years later, the jet airplane became as “energy efficient” as the last propeller planes from the 1950s. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<blockquote>
+<p>If viewed in a larger historical context, the concept of energy efficiency completely disintegrates.</p>
+</blockquote>
+<p>What then is a meaningful timespan over which to compare efficiencies? Should propeller planes be taken into account, or should they be ignored? The answer depends on the definition of equivalent service. If the service is defined as “flying”, then propeller planes should be included. But, if the energy service is defined as “flying at a speed of roughly 1,000 km/h”, we can discard propellers and focus on jet engines. However, the latter definition assumes a more energy-intensive service.</p>
+<p>If we go back even further in time, for example to the early twentieth century, people didn’t fly at all and there’s no sense in comparing fuel use per passenger per kilometre. Similar observations can be made for many other technologies or services that have become “more energy efficient”. If they are viewed in a larger historical context, the concept of energy efficiency completely disintegrates because the services are not at all equivalent.</p>
+<p>Often, it’s not necessary to go back very far to prove this. For example, when the energy efficiency of smartphones is calculated, the earlier generation of much less energy demanding “dumbphones” is not taken into account, although they were common less than a decade ago.</p>
+<h2 id="how-efficient-is-a-clothesline">How efficient is a clothesline?</h2>
+<p>Because of the need to compare &rsquo;like with like&rsquo; and establish equivalent of service, energy efficiency policy ignores many low energy alternatives that often have a long history but are still relevant in the context of climate change.</p>
+<p>For example, the EU has calculated that energy labels for tumble driers will be able to “save up to 3.3 Twh of electricity by 2020, equivalent to the annual energy consumption of Malta”. <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup>. But how much energy use would be avoided if by 2020 every European would use a clothesline instead of a tumble drier? Don’t ask the EU, because it has not calculated the avoided energy use of clotheslines.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency-2_dithered.png" alt='Illustration by Diego Marmolejo.' data-original="/2018/01/bedazzled-by-energy-efficiency/images/bedazzled-by-energy-efficiency-2_hu5728f1d53f10f3ca29edd5db1d01c885_295101_800x800_fit_q90_h2_box.webp" data-dither="/2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Illustration by <a href="https://www.behance.net/diegomarmolejo" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Neither do the EU or the IEA measure the energy efficiency and avoided energy of bicycles, <a href="./2011/02/insulation-first-the-body-then-the-home/" >hand powered drills</a>. Nevertheless, if clotheslines would be taken seriously as an alternative, then the projected 3.3 TWh of energy “saved” by more energy efficient tumble driers can no longer be considered “avoided energy”, let alone a fuel. In a similar way, bicycles and clothing undermine the very idea of calculating the “avoided energy” of more energy efficient cars and central heating boilers.</p>
+<h2 id="unsustainable-concepts-of-service">Unsustainable concepts of service</h2>
+<p>The problem with energy efficiency policies, then, is that they are very effective in reproducing and stabilising essentially unsustainable concepts of service. <sup id="fnref5:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> Measuring the energy efficiency of cars and tumble driers, but not of bicycles and clotheslines, makes fast but energy-intensive ways of travel or clothes drying non-negotiable, and marginalises much more sustainable alternatives. According to Shove:</p>
+<p>“Programmes of energy efficiency are politically uncontroversial precisely because they take current interpretations of ‘service’ for granted… The unreflexive pursuit of efficiency is problematic not because it doesn’t work or because the benefits are absorbed elsewhere, as the rebound effect suggests, but because it does work – via the necessary concept of equivalence of services – to sustain, perhaps escalate, but never undermine… increasingly energy intensive ways of life.” <sup id="fnref6:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>Indeed, the concept of energy efficiency easily accommodates further growth of energy services. All future novelties can be subjected to an efficiency approach. For example, if patio heaters and monsoon showers become “normal”, they could be incorporated in existing energy efficiency policy – and when that happens, the problem of their energy use is considered to be under control. At the same time, defining, measuring and comparing the efficiency of patio heaters and monsoon showers helps make them more “normal”. As a bonus, adding new products to the mix will only increase the energy use that is “avoided” through energy efficiency.</p>
+<p>In short, neither the EU nor the IEA capture the “avoided energy” generated by doing things differently, or by not doing them at all – while these arguably have the largest potential to reduce energy demand. <sup id="fnref7:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> Since the start of the Industrial Revolution, there has been a massive expansion in the uses of energy and in the delegation of human to mechanical forms of power. But although these trends are driving the continuing increase in energy demand, they cannot be measured through the concept of energy efficiency.</p>
+<p>As Shove demonstrates, this problem cannot be solved, because energy efficiency can only be measured on the basis of equivalent service. Instead, she argues that the challenge is “to debate and extend meanings of service and explicitly engage with the ways in which these evolve”. <sup id="fnref8:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<h2 id="towards-an-energy-inefficiency-policy">Towards an energy inefficiency policy?</h2>
+<p>There are several ways to escape from the parallel universe of energy efficiency. First, while energy efficiency hinders significant long term reduction in energy demand through the need for equivalence of service, the opposite also holds true – making everything less energy efficient would reverse the growth in energy services and reduce energy demand.</p>
+<p>For example, if we were to install 1960s internal combustion engines into modern SUVs, fuel use per kilometre driven would be much higher than it is today. Few people would be able or willing to afford to drive such cars, and they would have no other choice but to switch to a much lighter, smaller and less powerful vehicle, or to drive less.</p>
+<blockquote>
+<p>Making everything less energy efficient would reverse the growth in energy services and reduce energy demand.</p>
+</blockquote>
+<p>Likewise, if an “energy inefficiency policy” were to mandate the use of inefficient central heating boilers, heating large homes to present-day comfort standards would be unaffordable for most people. They would be forced to find <a href="./2015/02/restoring-the-old-way-of-warming-heating-people-not-places/" >alternative solutions to achieve thermal comfort</a>, for instance heating only one room, dressing more warmly, using personal heating devices, or moving to a smaller home.</p>
+<p>Recent research into the heating of buildings confirms that inefficiency can save energy. A German study examined the calculated energy performance ratings of 3,400 homes and compared these with the actual measured consumption. <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> In line with the rebound argument, the researchers found that residents of the most energy efficient homes (75 kWh/m2/yr) use on average 30% more energy than the calculated rating. However, for less energy efficient homes, the opposite – “pre-bound” – effect was observed: people use less energy than the models had calculated, and the more inefficient the dwelling is, the larger this gap becomes. In the most energy inefficient dwellings (500 kWh/m2/yr), energy use was 60% below the predicted level.</p>
+<h2 id="from-efficiency-to-sufficiency">From efficiency to sufficiency?</h2>
+<p>However, while abandoning – or reversing – energy efficiency policy would arguably bring more energy savings than continuing it, there is another option that’s more attractive and could bring even larger energy savings. For an effective policy approach, efficiency can be complemented by or perhaps woven into a “sufficiency” strategy. Energy efficiency aims to increase the ratio of service output to energy input while holding the output at least constant. Energy sufficiency, by contrast, is a strategy that aims to reduce the growth in energy services. <sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> In essence, this is a return to the “conservation” policies of the 1970s. <sup id="fnref3:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>Sufficiency can involve a reduction of services (less light, less travelling, less speed, lower indoor temperatures, smaller houses), or a substitution of services (a bicycle instead of a car, a clothesline instead of a tumble drier, thermal underclothing instead of central heating). Unlike energy efficiency, the policy objectives of sufficiency cannot be expressed in relative variables (like kWh/m2/year). Instead, the focus is on absolute variables, such as reductions in carbon emissions, fossil fuel use, or oil imports. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Unlike energy efficiency, sufficiency cannot be defined and measured by examining a single product type, because sufficiency can involve various forms of substitution. <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> Instead, a sufficiency policy is defined and measured by looking at what people actually do.</p>
+<p>A sufficiency policy could be developed without a parallel efficiency policy, but combining them could bring larger energy savings. The key step here is to think of energy efficiency as a means rather than an end in itself, argues Shove. <sup id="fnref9:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> For example, imagine how much energy could be saved if we would use an energy efficient boiler to heat just one room to 16 degrees, if we install an <a href="./2008/06/the-citroen-2cv-cleantech-from-the-1940s/" >energy efficient engine in a much lighter vehicle</a>, or if we combine an energy saving shower design with fewer and shorter showers. Nevertheless, while energy efficiency is considered to be a win-win strategy, to develop the concept of sufficiency as a significant force in policy is to make normative judgments: so much consumption is enough, so much is too much. <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> This is sure to be controversial, and it risks being authoritarian, at least as long as there is a cheap supply of fossil fuels.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Bruce F</h5>
+	<p>Nevermind, I just saw something in the footnotes. Thanks for the blog!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Courtney C</h5>
+	<p>Thank you for writing this article and explaining why the energy efficiency madness only creates more problems. Whenever people try to give me long rants about how green energy will save the planet I can refer them to this. For too long I have argued that energy efficiency can only work if society rethinks and backtracks on modern conveniences they refuse to give up. People look at me like I have three heads for insisting on riding my bike or walking instead of driving short distances, using my effective dumb phone instead of constantly buying new ones, building a well insulated small house instead of living in a large house with air conditioning, using an integrated fish pond system to clean my dishes with carp instead of a washing machine, and growing most of my own food to avoid the fuel and plastic waste. If people are willing to be a little imaginative and less lazy we could deal with many of our environmental issues. I won&rsquo;t hold my breath for that.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jan Steinman</h5>
+	<p>the advance of solid state lighting (LED), which is six times more energy efficient than old-fashioned incandescent lighting, has not led to a decrease in energy demand for lighting. Instead, it resulted in six times more light.</p>
+<p>Ha! Caught me!</p>
+<p>I designed a lighting system using copper wire, low-voltage transformers, alligator clips and halogen lights. I had three strings with 150 watts on each. I took pride in providing such &ldquo;task lighting&rdquo; instead of &ldquo;area lighting,&rdquo; and life was good.</p>
+<p>Now, 12V MR-16 LED lamps are common and cheap. My spouse wanted more light on the kitchen counter. We had a dark spot in the living room, and we needed to extend one of the strings there, possible only because we could use LEDs instead of halogens.</p>
+<p>Bottom line: we have more lights, using the same amount of electricity. Jevon&rsquo;s Paradox is a bitch.</p>
+<p>There are practical benefits to doing things this way. My spouse likes &ldquo;a bright house,&rdquo; not desiring to feel deprivation, leaving the task lighting on in the kitchen &ldquo;because it brightens the dining room.&rdquo; So much for the benefits of task lighting. Admittedly, getting through a northern winter without a major bout of depressian is aided by plenty of light.</p>
+<p>So, do we succumb to &ldquo;shivering in the dark,&rdquo; or do we take the gift of efficiency (with its ominous, hidden footprint) to improve our mental state?</p>
+
+</div>
+
+<div class="comment">
+	<h5>JK</h5>
+	<p>Taking aside those virtual savings and the quest to reduce energy use in the EU, I don&rsquo;t understand why we have to connect energy efficiency and saving energy.</p>
+<p>To me energy efficiency means only that we can use energy more efficiently. Not that we use less.</p>
+<p>Of course defining &ldquo;efficient&rdquo; is possible only within some kind of ideological framework, but within one I would say that the problem is not comparing servies, but units.</p>
+<p>For example: going fast has greater value than going slow taking into account limited human life, therefore we should compare fuel consumption not against distance, but speed (not J/m but J/(m/s), which translates to Ns istead of N showing visibly that now we only compare how hard we &ldquo;push&rdquo; and not how long)</p>
+<p>Having said that, I would agree that increasing energy efficiency is not a way to reduce energy use, only to use it more efficiently and there&rsquo;s no miracle cure other than just restraining ourselves.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Israel Walker</h5>
+	<p>Efficiency is always a ratio. Productive efficiency, energy efficiency, time efficiency, etc. It&rsquo;s all arbitrary value X divided by arbitrary value Y. Those values and those ratios have no intrinsic meaning or utility. In a world of nearly infinite numbers to collect and compare, we are guided on what efficiencies we will concern ourselves by our ethics, the numbers themselves are amoral. Numbers cannot tell us what we should do, only what we can. Our values tell us what we should do.</p>
+<p>I am sorry I keep harping on this but it cannot be escaped: this is ethics conversation, not a technological one. Efficiency, in and of itself, means nothing. The concern is why not how, and if the answer to why is &ldquo;So the endless growth model can continue, but with slightly less pollution per dollar of GDP growth&rdquo;, then that is exactly what you get, as the article points out extensively.</p>
+<p>If the answer to why is &ldquo;so that billions of humans like us don&rsquo;t have to suffer and die from privation&rdquo; we might get something else all together.</p>
+<p>There is more than enough time and money on earth for everyone to live a decent life. We make, for instance about 200% more food than it takes to feed everyone and there many more homes than homeless people. For that to change the food and homes are going to have to be taken from their current lawful owners and given to someone else. If there is a way to do that without authoritarianism, I&rsquo;m all ears.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Dragan Jovanović</h5>
+	<p>There is no need for policy to think about all those technical details. Such thinking is both difficult and authoritarian. Same applies for efficiency and sufficiency. Thinking from policy point of view, there is only one tool which is needed - Pigou tax. If something (like dirty energy) generates negative externalities, then tax it proportionally. Period.</p>
+<p>Leave everything else to market. People and companies will think about ways to avoid taxated consumption, in both quantity and quality ways, in a way that fits them best personally.</p>
+<p>So there is no need to compare anyone&rsquo;s way of life with anything else, it all becomes just a matter of style.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Marcel Hänggi</h5>
+	<p>I&rsquo;d argue that sufficiency is efficiency on a systemic level. Spacial planning e.g. can save very much energy because one&rsquo;s personal daily mobility can be reached with less traffic if jobs, schools, shops are close. Driving less is considered as sufficiency, but providing a city with high accessibilities leads to more mobility with less traffic: it&rsquo;s efficient! Friedrich E. Schumacher, in his Small Is Beautiful, called this the &ldquo;efficiency as seen by a buddhist economist&rdquo;.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Patrick</h5>
+	<p>I&rsquo;ve always had an issue with the argument that increased efficient leads to increased use. That is absolutely true up to a point of maximum utility, but after that you just have energy savings.</p>
+<p>I used to work for a solar company that installed off-grid systems and we would see exactly what Jan Steinman wrote about with lighting. However, when the room was bright enough for all parties, gains in efficiency did not result in an increase in usage. If someone had enough incandescent lights in their home to satisfy them, they didn&rsquo;t double (assuming double efficiency for the sake of argument) the number of bulbs they used when CFLs were introduced and they didn&rsquo;t double them again when LEDs were introduced. When you have enough lumens you don&rsquo;t add more when technology increases efficiency.</p>
+<p>The same argument is often made for commuter vehicles. If commuting becomes cheaper people will move farther and farther from where they work because the housing farther away is cheaper. Someone driving half an hour each way might choose to move an hour out if commuting was cheap enough, but very very few people are going to live 2, 3 or 4 hours away from where they work regardless of how cheap it is to commute. It would not be worth the time.</p>
+<p>I had an old 25mpg Subaru Outback. I bought a new Priuc C which is roughly 50 mpg the way I drive. I had already been driving everywhere I needed or wanted to with the Subaru, so my driving habits didn&rsquo;t change when I got a more efficient vehicle and I saved money and energy. I now have a company car (also a Prius C) and I no longer pay for fuel at all, but again, since I was already going everywhere I needed or anted to go effectively having &ldquo;free fuel&rdquo; didn&rsquo;t increase the amount of fuel I was using.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Veerle Raskin</h5>
+	<p>So, this confirms again that supply side solutions are no real solutions. I have sort of come to the conclusion that people and society will use up all the energy that is available to them, for as long as it is affordable.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jeroen van den Bergh</h5>
+	<p>Interesting piece. But it continues the mistaken idea that rebound is a reason to discard energy efficiency improvements. What is missing in the analysis, though, is that rebound can be controlled with adequate &ldquo;rebound policy&rdquo;, which would cause energy efficiency to automatically become much more effective in contributing to less energy use (or fewer carbon emissions). See this paper for more details:</p>
+<p><a href="https://link.springer.com/article/10.1007/s10640-010-9396-z" target="_blank" >https://link.springer.com/article/10.1007/s10640-010-9396-z</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Mattias</h5>
+	<p>@Patrick #9</p>
+<p>About &lsquo;commuting&rsquo;, you will probably find the Marchetti&rsquo;s constant[1] or de BREVER-wet [2] interesting. So since Neolithic times, people spend 1 to 1,5 hour on transport. So &rsquo;time spend&rsquo; is indeed a constant, but not &rsquo;travel distance&rsquo;, which has increased a l-o-t the last years (and so the energy use).</p>
+<p>Most people who have a &lsquo;company car&rsquo; or &lsquo;salary car&rsquo; <em>will</em> probably have an increased amount of fuel. According to a study [3] 84 to 93% of those with a company car take their car to go to work, compared to 59% with people who don&rsquo;t have such a car. That same study also found that people with a company car have 9200 extra driven kilometers!</p>
+<p>Think carefully about your situation. Suppose you have to go somewhere and you could go by public transport. But you will have to pay a ticket. And than you see your company car on your drive way, which rides totally for free. What will you choose? What will most people choose in the same situation?</p>
+<p>[1] <a href="https://en.wikipedia.org/wiki/Marchetti%27s_constant" target="_blank" >https://en.wikipedia.org/wiki/Marchetti%27s_constant</a></p>
+<p>[2] <a href="https://nl.wikipedia.org/wiki/BREVER-wet" target="_blank" >https://nl.wikipedia.org/wiki/BREVER-wet</a> (Dutch)</p>
+<p>[3] <a href="https://www.bondbeterleefmilieu.be/sites/default/files/fiche5_bedrijfswagens_110705.pdf" target="_blank" >https://www.bondbeterleefmilieu.be/sites/default/files/fiche5_bedrijfswagens_110705.pdf</a> (Dutch)</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nikolay Ivankov</h5>
+	<p>Thanks for an extremely mind-provoking article! One quote here is very precise</p>
+<p>This is sure to be controversial, and it risks being authoritarian, at least as long as there is a cheap supply of fossil fuels.</p>
+<p>Now, as a child I&rsquo;ve seen the &ldquo;saving policies&rdquo; being gradually introduced in my family due to an economic collapse. First we&rsquo;ve had to sell the car because we were not in a position to buy fuel. Then it became way too expensive to use public transportation. At times, there was no electricity for many hours, the temperatures indoors dropped to 16C, and I, a thin boy of eight, have been freezing at home alone, struggling to save some warmth by keeping my arms inside the sweater&hellip; it didn&rsquo;t really help, I&rsquo;ve been getting cold every now and then. And by the way, when electricity was going down, so did the elevators, and I&rsquo;ve had to climb to the 11 floor. And when the water was off&hellip; well, use your imagination.</p>
+<p>Still, we&rsquo;ve had food every day, even occasionally meat, &ldquo;seasonal&rdquo; and conserved fruits and vegetables - we&rsquo;ve had an extreme luck of having our own garden and potato field and three extremely laborous grannies (one of them never married). I even had an opportunity to eat some cheese several times in the year 1992, bought especially for me by another childless grandauntie. My future wife was by far not that lucky.</p>
+<p>Whatever the cause, I&rsquo;ve live through the gradual application of these &ldquo;sustainability&rdquo; policies. To everyone who thinks of them as being just &ldquo;controversal&rdquo; - wish you to experience it yourself.</p>
+
+</div>
+
+<div class="comment">
+	<h5>JamieB</h5>
+	<p>@Kris</p>
+<p>I don&rsquo;t see how what I&rsquo;m saying can be described as an abstraction. The EU target of X% reduction compared to some assumed counterfactual is, sure, but the electricity demand reductions that we&rsquo;re seeing in the UK are very real. I don&rsquo;t see how you can argue otherwise.</p>
+<ol>
+<li>
+<p>&ldquo;UK domestic electricity demand is reducing&rdquo;. It really is! See Table 3.01 of ECUK. It peaked in 2005 and is 14% down in 2016, in spite of there being 10% more households over the same period.</p>
+</li>
+<li>
+<p>&ldquo;The reduction is due to energy efficiency measures&rdquo;. Sure it&rsquo;s not <em>all</em> due to physical measures - prices have an effect as well, naturally, as they drive behaviour change (which is energy efficiency as well). But real electricity prices have been stable for the past 3 or 4 years and yet electricity demand continues to drop because people steadily replace their appliances as they break and people are starting the switch to LED lighting.</p>
+</li>
+<li>
+<p>&ldquo;It&rsquo;ll continue for the foreseeable future&rdquo;. Well only time will tell but as long as we continue not to take any meaningful steps to electrify heat, I can&rsquo;t see how it can go anywhere but down. All end uses of domestic electricity are now flat or trending down and there are still an awful lot of inefficient appliances and lights to swap out.</p>
+</li>
+</ol>
+<p>Regarding the final energy consumption data you cite, don&rsquo;t forget that weather has a strong effect but temperature-corrected final energy demand in the domestic sector did increase slightly (1.4%) between 2015 and 2016. The main reason for that? We&rsquo;ve more or less stopped insulating homes in the last couple of years.</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>@ Bruce Teakle</p>
+<p>I agree but you have to make a distinction between people who use &ldquo;too much&rdquo; energy and those who use &ldquo;too little&rdquo;. See the next article: <a href="http://www.lowtechmagazine.com/2018/01/how-much-energy-do-we-need.html" target="_blank" >http://www.lowtechmagazine.com/2018/01/how-much-energy-do-we-need.html</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Larry Edwards</h5>
+	<p>Efficiency is, as noted in the article, &ldquo;inefficient&rdquo; when it is the driving factor. However, the article did not recognize that this is the condition it used for the evaluation.</p>
+<p>Efficiency is however &ldquo;efficient&rdquo; in the case where it is necessary for sufficiency. That is, when the supply or availability of &ldquo;something&rdquo; is restricted.</p>
+<p>As Herman Daly put it: &ldquo;A policy of &lsquo;frugality-first&rsquo; induces efficiency as a secondary consequence. Efficiency-first does not induce frugality, it makes frugality seem less necessary.&rdquo;</p>
+<p>Now consider the case of the need to reduce CO2 emissions to essentially zero in western nations by about 2035 and globally by 2050 (as the carbon budget for 1.5 or 2oC is currently understood). The increase so far in renewable energy in minuscule in comparison to any nation&rsquo;s overall energy consumption. Electricity and fuels are overwhelmingly from fossil sources. This means that either informal rationing (e.g. by price or taxes) or traditional rationing (by coupons or smart cards) of fossil fuels will be necessary if we are avoid catastrophe &ndash; until renewable energy supplies can catch up to what is considered &ldquo;sufficient.&rdquo;</p>
+<p>Rationing as mentioned here would be with an annually declining cap (directly or indirectly) on carbon in fossil fuels. (And of the two methods the first would be inherently unfair, and the latter would give equal access. Past rationing, e.g. in WW-II has included price controls, to have low prices.)</p>
+<p>The interesting thing with rationing is that it will drive efficiency, hence avoiding rebound. It will do so because efficiency becomes a necessity for sufficiency (and some luxury), instead of being primarily a means to monetary savings.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Bruce Teakle</h5>
+	<p>Thanks Kris for your excellent article. It helps me greatly with what has recently been on my mind: that reducing carbon emissions can only occur by people becoming poorer (in the economic sense, not necessarily in experience). The question of efficient lighting discussed above is a good example: if LED lights allow a family to save money (instead of increasing lighting), then the savings will be spent on energy-consuming products, perhaps travelling by Prius instead of by bike, or eating more cheese. As you point out, real reductions in energy consumption are consequences of economic constraints - people getting poorer. The value of efficiency is not in reducing energy consumption or emissions, but in improving the conditions for people who are poor through low income or high energy price.</p>
+
+</div>
+
+<div class="comment">
+	<h5>LorenzoM</h5>
+	<p>I think the problem resides in our capitalist &ldquo;self regulating&rdquo; market democracies.</p>
+<p>As we now are used to think, control over energy consumption takes away &ldquo;freedom&rdquo; from cityzen&rsquo;s lives.</p>
+<p>If we want to guarantee a free market, of course democracies cannot avoid letting producers sell and overproduce, and people to buy and overconsume.</p>
+<p>If we base our economy on GDP, we cannot avoid improving fossil energy use. If we do the contrary, as you stated (&quot;&hellip;This is sure to be controversial, and it risks being authoritarian, at least as long as there is a cheap supply of fossil fuels&hellip;&quot;) freedom as we know it - which is substantially freedom to consume energy - will end.</p>
+<p>So the only way is to change our culture, and it will be a long long way, hoping we have time enough.</p>
+<p>Thank you for you effort.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Keith</h5>
+	<p>Talking about household appliances,Your article does not mention the fact that these units are made to fail, unlike appliances of the past.</p>
+<p>We recently purchased all brand new appliances for our new home, thank God for extended warranties! We have had at least 15 visits from various repairmen to replace or repair different issues.</p>
+<p>The repairmen all say the same thing &ldquo;they don&rsquo;t make them like they used to&rdquo; I have brought this up in conversation with many folks who all have the same reports.</p>
+<p>The Brand name dishwasher made it to the landfill after 18 months.</p>
+<p>Talk about efficiency! Consumerism at it&rsquo;s finest.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Tinkerer</h5>
+	<p>Thank you thank you Kris! I am an energy efficiency consultant for buildings, and I see all of this in my work. What a waste of time for me, and how self deluded are my clients! The fake &ldquo;savings&rdquo; thinking infects most educated people I know. I would like to change careers to develop more useful cargo bicycles. Your work on this site brings me joy.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mike</h5>
+	<p>Great stuff. Thinking like this is a rare occurrence. I would imagine you are quite familiar with the works of Schumacher, but I wanted to make sure you had read or heard this lecture given by Andrew Kimbrell:</p>
+<p><a href="http://www.centerforneweconomics.org/publications/lectures/kimbrell/andrew/cold-evil" target="_blank" >http://www.centerforneweconomics.org/publications/lectures/kimbrell/andrew/cold-evil</a></p>
+<p>Audio and other versions are available. Keep up the great writing. Your site is my favorite thing on the internet!</p>
+
+</div>
+
+<div class="comment">
+	<h5>John Dale &#34;Zach&#34; Lea</h5>
+	<p>Congratulations! Very thought-provoking! Change could come quickly if we had the courage to tax energy use to include its environmental costs. See the EPA&rsquo;s Social Cost of Carbon before and after Trump. Take an extreme example: increase taxes on gasoline so that the price per gallon doubles.</p>
+
+</div>
+
+<div class="comment">
+	<h5>SanMiguel</h5>
+	<p>Thank you Kris, excellent!</p>
+<p>Right, energy saving is neither “the” solution nor the problem, it is a necessity.</p>
+<p>Unfortunately the rebound effect is disputed, but also the (your?) idea of “sufficiency” or to stick to a “fixed supply” in the EU simply neglects the existence of roughly 6 billion non westerners.</p>
+<p>Population growth is the minor issue here.</p>
+<p>The real problem is lifestyle and it’s scalability. This includes living in huge cities, contrary to where food is produced.</p>
+<p>With all energy (and other) savings, but considering the world’s actually existing population, we clearly must accept <em>the_enemy_is_us</em>.</p>
+<p>We are already beyond all limits and will go further.</p>
+<p>Increasing efficiency costs a lot of time, diligence and even more energy + resources to develop and produce efficient products.</p>
+<p>Efficiency isn’t bad.</p>
+<p>On the contrary, efficiency may be the main factor why we are still alive, given our mantra of never ending growth.</p>
+<p>But our net growth is in energy consumption per capita (worldwide average).</p>
+<p>Only that it is impossible to scale this prosperity to the already living mankind.</p>
+
+</div>
+
+<div class="comment">
+	<h5>hugh owens</h5>
+	<p>Excellent paper, Kris. Your paper didn&rsquo;t mention this but it was implied by examples of automobiles and aircraft. For example the BLS in the US doesn&rsquo;t measure inflation by comparing the early price of a good to the price later if there has been a &quot; hedonic quality adjustment&quot; in the auto. Everyone is aware there has been a very large increase in car prices from say 30 or 40 years ago but BLS can prove that isn&rsquo;t so by virtue of improvements in the cars which negates the increase in price. Example: I bought a new GMC suburban for $7800 in the late 70&rsquo;s. A new suburban is about $60000.I see that as inflation of 700%. The bls says not so. My old one had roll up windows, a bench seat rubber mats and an am radio. A 2019 has cruise and climate control, a back up camera, power windows and computers and is not repairable by a handy car owner like my 70&rsquo;s suburban.The BLS gets to decide how much to value these &ldquo;hedonic improvements&rdquo; to prove that there is minimal inflation. I could also make the point that fuel use is probably higher in the new suburbans which get 18 mpg instead of the old one of 13-14 mpg which were also much heavier. Because of highway congestion the avg speed today is lower, spent in low gear.My suburban in stop and go can get under 10 mpg. Because of highway improvements and 75-80 mph speed limits the suburban gets abysmal economy whereas with the old suburban and 50-55 mph limits, economy was around 14. Not only do these newer vehicles cost far more, they still use the same or more fuel in a year. In only 5 years or so they lose 75% or more of their value perhaps40-$50000. Which one would you buy if you had a choice?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Joshua Spodek</h5>
+	<p>I posted a podcast episode: &ldquo;Reducing is strategic. Reusing and recycling are tactical&rdquo; here <a href="http://joshuaspodek.com/guests/rants-raves-monologues-volume-6" target="_blank" >http://joshuaspodek.com/guests/rants-raves-monologues-volume-6</a>.</p>
+<p>Without a strategy to reduce overall waste, then tactics like reusing and recycling only distract use from a strategy of reduction. Actually, they contribute to growth &ndash; the opposite of reduction.</p>
+<p>With a strategy of reduction, using all relevant tactics helps.</p>
+<p>In a world with strategies to reduce overall waste, such as charging for production and waste or cultural norms that shun pollution instead of hiding it, reusing and recycling can help.</p>
+<p>Until we have such strategies, forming them should take priority over distracting ourselves with tactics.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Zak McKracken</h5>
+	<p>»Likewise, if an “energy inefficiency policy” were to mandate the use of inefficient central heating boilers, heating large homes to present-day comfort standards would be unaffordable for most people. They would be forced to find alternative solutions to achieve thermal comfort, for instance heating only one room, dressing more warmly, using personal heating devices, or moving to a smaller home.«</p>
+<p>The author has evidently never lived in the UK, where large freestanding, single-glazed houses with nothing but a thin brick wall for insulation are widely considered the appropriate background for one&rsquo;s Land Rover. Paying for a little extra gas is much preferred to upgrading insulation (because, didn&rsquo;t you know double glazing causes mold, and it really destroys the ambience of that lovely little farm house).</p>
+<p>Once somebody has gotten used to a certain &ldquo;service level&rdquo;, they will not go back without a fight.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Robert Małecki</h5>
+	<p>Hi All,
+this one I don&rsquo;t get:
+&ldquo;In line with the rebound argument, the researchers found that residents of the most energy efficient homes (75 kWh/m2/yr) use on average 30% more energy than the calculated rating. However, for less energy efficient homes, the opposite – “pre-bound” – effect was observed: people use less energy than the models had calculated, and the more inefficient the dwelling is, the larger this gap becomes. In the most energy inefficient dwellings (500 kWh/m2/yr), energy use was 60% below the predicted level.&rdquo;
+Even if for 100sqm home with efficiency 75kWh/m2/yr you would have 30% of underestimate, then it means it is more like 100kWh/m2/yr and in case of 60% of overestimate for 500kWh/m2/yr you end up with something like 300kWh/m2/yr anyway&hellip; so you are consuming 3 times more energy and for worst quality (warming only specific rooms, or sustaining lower temperature etc). So in this case energy efficiency does not produce rebound effect, you still use less energy in total for the same area, so unless you have three times bigger home (not likely for energy efficient homes) you still got better service level per the same or less energy&hellip; So this point is invalid from my perspective - or am I missing something?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Ellenor et al Bjornsdottir</h5>
+	<p>So&hellip; all this efficiency is actually kinda inefficient? What we need is to achieve the same task (home heating? you want to not be cold. put on a jumper) by doing less, and the less that we do also should be more efficient. Right now we&rsquo;ve been in a cycle of doing more to achieve the same thing, and making that more more efficient, and at best it balances. My now two HP Z440s, already ageing beasts, probably consume as much power at idle as notoriously hot, slow and noisy pentium-4 workstations from years prior, but can do far more computationally in the same time, and most importantly, probably consume as much power for what they were asked to do in their time as their forebears consumed for their comparable tasks.</p>
+<p>Efficiency in the current system is an engine revving against a braked torque converter.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>&ldquo;Energy Efficiency&rdquo;, European Commission. <a href="https://ec.europa.eu/energy/en/topics/energy-efficiency" target="_blank" >https://ec.europa.eu/energy/en/topics/energy-efficiency</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>&ldquo;Energy Efficiency&rdquo;, International Energy Association (IEA). <a href="https://www.iea.org/topics/energyefficiency/" target="_blank" >https://www.iea.org/topics/energyefficiency/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Sorrell, Steve. &ldquo;Reducing energy demand: A review of issues, challenges and approaches.&rdquo; Renewable and Sustainable Energy Reviews 47 (2015): 74-82. <a href="http://www.sciencedirect.com/science/article/pii/S1364032115001471" target="_blank" >http://www.sciencedirect.com/science/article/pii/S1364032115001471</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Brischke, Lars-Arvid, et al. Energy sufficiency in private households enabled by adequate appliances. Wuppertal Institut für Klima, Umwelt, Energie, 2015. <a href="https://epub.wupperinst.org/frontdoor/deliver/index/docId/5932/file/5932_Brischke.pdf" target="_blank" >https://epub.wupperinst.org/frontdoor/deliver/index/docId/5932/file/5932_Brischke.pdf</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>&ldquo;Poor people&rsquo;s Energy Outlook 2016&rdquo;, Practical Action, 2016. <a href="https://policy.practicalaction.org/policy-themes/energy/poor-peoples-energy-outlook/poor-people-s-energy-outlook-2016" target="_blank" >https://policy.practicalaction.org/policy-themes/energy/poor-peoples-energy-outlook/poor-people-s-energy-outlook-2016</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>&ldquo;Energy use (kg of oil equivalent per capita)&rdquo;, World Bank, 2014. <a href="https://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE" target="_blank" >https://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Alcott, Blake. &ldquo;Jevons&rsquo; paradox.&rdquo; Ecological economics 54.1 (2005): 9-21. <a href="https://pdfs.semanticscholar.org/f247/b8fae38e0c46bb9d1020b0be0d589db28446.pdf" target="_blank" >https://pdfs.semanticscholar.org/f247/b8fae38e0c46bb9d1020b0be0d589db28446.pdf</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Sorrell, Steve. &ldquo;The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency.&rdquo; (2007). <a href="http://ukerc.rl.ac.uk/UCAT/PUBLICATIONS/The_Rebound_Effect_An_Assessment_of_the_Evidence_for_Economy-wide_Energy_Savings_from_Improved_Energy_Efficiency.pdf" target="_blank" >http://ukerc.rl.ac.uk/UCAT/PUBLICATIONS/The_Rebound_Effect_An_Assessment_of_the_Evidence_for_Economy-wide_Energy_Savings_from_Improved_Energy_Efficiency.pdf</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Kyba, Christopher CM, et al. &ldquo;Artificially lit surface of Earth at night increasing in radiance and extent.&rdquo; Science advances 3.11 (2017): e1701528. <a href="http://advances.sciencemag.org/content/3/11/e1701528.full?intcmp=trendmd-adv;" target="_blank" >http://advances.sciencemag.org/content/3/11/e1701528.full?intcmp=trendmd-adv;</a> Tsao, Jeffrey Y., et al. &ldquo;Solid-state lighting: an energy-economics perspective.&rdquo; Journal of Physics D: Applied Physics 43.35 (2010): 354001. <a href="http://siteresources.worldbank.org/INTEAER/Resources/Sao.Simmons.pdf" target="_blank" >http://siteresources.worldbank.org/INTEAER/Resources/Sao.Simmons.pdf</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Young, Gregory. &ldquo;Illuminating the Issues.&rdquo; (2013). <a href="http://www.scenic.org/storage/documents/Digital_Signage_Final_Dec_14_2010.pdf" target="_blank" >http://www.scenic.org/storage/documents/Digital_Signage_Final_Dec_14_2010.pdf</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Gillingham, Kenneth, et al. &ldquo;Energy policy: The rebound effect is overplayed.&rdquo; Nature 493.7433 (2013): 475-476. <a href="http://environment.yale.edu/kotchen/pubs/rebound.pdf" target="_blank" >http://environment.yale.edu/kotchen/pubs/rebound.pdf</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Shove, Elizabeth. &ldquo;What is wrong with energy efficiency?.&rdquo; Building Research &amp; Information (2017): 1-11. <a href="http://www.tandfonline.com/doi/full/10.1080/09613218.2017.1361746" target="_blank" >http://www.tandfonline.com/doi/full/10.1080/09613218.2017.1361746</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref7:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref8:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref9:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Calwell, Is efficient sufficient? Report for the European Council for an Energy Efficient Economy. <a href="http://www.eceee.org/static/media/uploads/site-2/policy-areas/sufficiency/eceee_Progressive_Efficiency.pdf" target="_blank" >http://www.eceee.org/static/media/uploads/site-2/policy-areas/sufficiency/eceee_Progressive_Efficiency.pdf</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Lutzenhiser, Loren. &ldquo;Through the energy efficiency looking glass.&rdquo; Energy Research &amp; Social Science 1 (2014): 141-151. <a href="http://www.sciencedirect.com/science/article/pii/S2214629614000255" target="_blank" >http://www.sciencedirect.com/science/article/pii/S2214629614000255</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Good Practice in Energy Efficiency: for a sustainable, safer and more competitive Europe. European Commission, 2017.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Capturing the Multiple Benefits of Energy Efficiency. IEA, 2014. <a href="https://www.iea.org/Textbase/npsum/MultipleBenefits2014SUM.pdf" target="_blank" >https://www.iea.org/Textbase/npsum/MultipleBenefits2014SUM.pdf</a>&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Harris, Jeffrey, et al. &ldquo;Towards a sustainable energy balance: progressive efficiency and the return of energy conservation.&rdquo; Energy efficiency 1.3 (2008): 175-188. <a href="https://pubarchive.lbl.gov/islandora/object/ir%3A150324/datastream/PDF/view" target="_blank" >https://pubarchive.lbl.gov/islandora/object/ir%3A150324/datastream/PDF/view</a>&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>How (not) to resolve the energy crisis, Low-tech Magazine, Kris De Decker, 2009. ./2009/11/how-not-to-resolve-the-energy-crisis/&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Peeters, Paul, J. Middel, and A. Hoolhorst. &ldquo;Fuel efficiency of commercial aircraft.&rdquo; An overview of historical and future trends (2005). <a href="https://www.transportenvironment.org/publications/fuel-efficiency-commercial-aircraft-overview-historical-and-future-trends" target="_blank" >https://www.transportenvironment.org/publications/fuel-efficiency-commercial-aircraft-overview-historical-and-future-trends</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Household Tumble Driers, European Commission. <a href="https://ec.europa.eu/energy/en/topics/energy-efficiency/energy-efficient-products/household-tumble-driers" target="_blank" >https://ec.europa.eu/energy/en/topics/energy-efficiency/energy-efficient-products/household-tumble-driers</a>&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Sunikka-Blank, Minna, and Ray Galvin. &ldquo;Introducing the prebound effect: the gap between performance and actual energy consumption.&rdquo; Building Research &amp; Information 40.3 (2012): 260-273. <a href="http://www.tandfonline.com/doi/full/10.1080/09613218.2012.690952" target="_blank" >http://www.tandfonline.com/doi/full/10.1080/09613218.2012.690952</a>&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Thomas, Stefan, et al. Energy sufficiency policy: an evolution of energy efficiency policy or radically new approaches?. Wuppertal Institut für Klima, Umwelt, Energie, 2015. <a href="https://epub.wupperinst.org/frontdoor/deliver/index/docId/5922/file/5922_Thomas.pdf" target="_blank" >https://epub.wupperinst.org/frontdoor/deliver/index/docId/5922/file/5922_Thomas.pdf</a>&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Darby, Sarah. &ldquo;Enough is as good as a feast–sufficiency as policy.&rdquo; Proceedings, European Council for an Energy-Efficient Economy. La Colle sur Loup, 2007. <a href="https://pdfs.semanticscholar.org/8e68/c68ace130104ef6fc0f736339ff34b253509.pdf" target="_blank" >https://pdfs.semanticscholar.org/8e68/c68ace130104ef6fc0f736339ff34b253509.pdf</a>&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./tags/energy-efficiency/" class="">Energy Efficiency</a></span> 
+		        
+		           <span><a href="./tags/energy-demand/" class="">Energy Demand</a></span> 
+		        
+		           <span><a href="./tags/economy/" class="">Economy</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./2018/01/how-much-energy-do-we-need/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How Much Energy Do We Need?</h3>
+		<p class="index-summary">Researchers have calculated minimum levels of energy use needed to live a decent life, but what about maximum levels?</p>
+		<time class="published">January 24, 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/dithers/LED-facade_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Viva Las Vegas: LEDs and the energy efficiency paradox</h3>
+		<p class="index-summary">LEDs introduce lighting in places and situations where there was no lighting before.</p>
+		<time class="published">October 14, 2008</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2021/02/how-sustainable-is-high-tech-health-care/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How Sustainable is High-tech Health Care?</h3>
+		<p class="index-summary">Can we make modern health care carbon-neutral and maintain the levels of care, pain relief, and longevity that we have come to take for granted?</p>
+		<time class="published">February 18, 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2018/11/how-circular-is-the-circular-economy/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2018/11/how-circular-is-the-circular-economy/images/dithers/circular-economy-2_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How Circular is the Circular Economy?</h3>
+		<p class="index-summary">As long as we keep accumulating raw materials, the closing of the material life cycle remains an illusion, even for materials that are, in principle, recyclable.</p>
+		<time class="published">November 3, 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="about">
+  About
+</a>
+    <a href="power">
+  Power
+</a>
+    <a href="about/team">
+  Colophon
+</a>
+    <a href="donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

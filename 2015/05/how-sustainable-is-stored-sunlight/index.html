@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>How Sustainable is Stored Sunlight? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="How Sustainable is Stored Sunlight?" />
+<meta name="twitter:title" content="How Sustainable is Stored Sunlight?"/>
+
+<meta property="og:description" content="Energy storage is often ignored when scientists investigate the sustainability of PV systems." />
+
+<meta name="twitter:description" content="Energy storage is often ignored when scientists investigate the sustainability of PV systems."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./2015/05/how-sustainable-is-stored-sunlight/" />
+
+
+
+<meta property="og:image" itemprop="image" content="2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png" />
+<meta property="og:image:secure_url" content="2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-05-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-05-03T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Solar Power" />
+<meta property="article:tag" content="Energy Storage" />
+<meta property="article:tag" content="Embodied Energy of Renewable Power Plants" />
+<meta property="article:tag" content="Electricity" />
+<meta property="article:tag" content="Off-The-Grid" />
+
+</head>
+<body id="how-sustainable-is-stored-sunlight">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				How Sustainable is Stored Sunlight?</h1>
+
+				<p class="summary">
+					Energy storage is often ignored when scientists investigate the sustainability of PV systems.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">May 3, 2015</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="./authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="./fr/2015/05/how-sustainable-is-stored-sunlight/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png" alt='Image: Tesla&amp;rsquo;s lithium-ion home storage system.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/tesla-batteries_hu5394b0af2004eaecbadce24aff15f631_15622_800x800_fit_q90_h2_box.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Tesla&rsquo;s lithium-ion home storage system.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>One of the constraints of solar power is that it is not always available: it is dependent on daylight hours and clear skies. In order to fill these gaps, a storage solution or a backup infrastructure of fossil fuel power plants is required — a factor that is often ignored when scientists investigate the sustainability of PV systems.</p>
+<p>Whether or not to include storage is no longer just an academic question. Driven by better battery technology and the disincentivization of grid-connected solar panels, off-grid solar is about to make a comeback. How sustainable is a solar PV system if energy storage is taken into account?</p>
+<h2 id="a-positive-bias">A Positive Bias</h2>
+<p>In the <a href="./2015/04/how-sustainable-is-pv-solar-power/" >previous article</a>, we have seen that many life cycle analyses (LCAs) of solar PV systems have a positive bias. Most LCAs base their studies on the manufacturing of solar cells in Europe or the USA. However, most panels are now produced in China, where the electric grid is about twice as carbon-intensive and about 50% less energy efficient. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Likewise, most LCAs investigate solar PV systems in regions with a solar insolation typical of the Mediterranean region, while the majority of solar panels have been installed in places with only half as much sunshine.</p>
+<p>As a consequence, the embodied greenhouse gas emissions of a kWh of electricity generated by solar PV is two to four times higher than most LCAs indicate. Instead of the oft-cited 30-50 grams of CO2-equivalents per kilowatt-hour of generated electricity (gCO2e/kWh), we calculated that the typical solar PV system installed between 2008 and 2014 produces close to 120 gCO2e/kWh. This makes solar PV only four times less carbon-intensive than conventional grid electricity in most western countries.</p>
+<p>However, even this result is overly optimistic. In the previous article, we didn&rsquo;t take into account &ldquo;one of the potentially largest missing components&rdquo; <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> of the usual life cycle analysis of PV systems: the embodied energy of the infrastructure that deals with the intermittency of solar power. Solar insolation varies throughout the day and throughout the season, and of course solar energy is not available after sunset.</p>
+<h2 id="off-grid-solar-power-is-back">Off-grid Solar Power is Back</h2>
+<p>Until the end of the 1990s, most solar installations were off-grid systems. Excess power during the day was stored in an on-site bank of lead-acid batteries for use during the night and on cloudy days. Today, almost all solar systems are grid-connected. These installations use the grid as if it was a battery, &ldquo;storing&rdquo; excess energy during the day for use at night and on cloudy days.</p>
+<p>Obviously, this strategy requires a backup of fossil fuel or nuclear power plants that step in when the supply of solar energy is low or nonexistent. To make a fair comparison with conventional grid electricity, including electricity generated by biomass, this &ldquo;hidden&rdquo; part of the solar PV system should also be taken into account. However, every single life cycle analyse of a solar PV ignores it. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Until now, whether or not to include backup power or storage systems was mainly an academic question. This might change soon, because off-grid solar is about to make a comeback. Several manufacturers have presented storage systems based on lithium-ion batteries, the technology that also powers our gadgets and electric cars. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>Lithium-ion batteries are a superior technology compared to the lead-acid batteries commonly used in off-grid solar PV systems: they last longer, are more compact, more efficient, easier to maintain, and comparatively more sustainable.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/battery-price-projections_dithered.png" alt='Image: Rocky Mountain Institute / Greentechmedia.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/battery-price-projections_hue0229792e040931d2f71f48abe44b4fc_156649_800x800_fit_q90_h2_box_3.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/battery-price-projections_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: <a href="http://www.rmi.org/electricity_grid_defection" target="_blank" >Rocky Mountain Institute</a> / <a href="http://www.greentechmedia.com/articles/featured/Storage-Is-the-New-Solar-Will-Batteries-and-PV-Create-an-Unstoppable-Hybri" target="_blank" >Greentechmedia</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Lithium-ion batteries are more expensive than lead-acid batteries, but Morgan Stanley&rsquo;s 2014 report on solar energy predicts that the price of storage will come down to $125-$150 per kWh by 2020. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>According to the report, this would make solar PV plus battery storage commercially viable in some European countries (Germany, Italy, Portugal, Spain) and across most of the United States. Morgan Stanley expects a lot from electric vehicle manufacturer Tesla, who announced a home storage system for solar power a few days ago (costing $350 per kWh). <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<p>Tesla is building a factory in Arizona that will produce as many lithium-ion batteries as there are currently produced by all manufacturers in the world, introducing economies of scale that can push costs further down.</p>
+<blockquote>
+<p>Morgan Stanley expects off-grid solar PV to be commercially viable in some European countries and across most of the USA by 2020</p>
+</blockquote>
+<p>Other factors also come into play when it comes to home storage for PV power. Solar panels have become so much cheaper in recent years that government subsidies and tax credits for grid-connected systems have come under pressure. In many countries, owners of a grid-connected solar PV system have received a fixed price for the surplus electricity they provide to the grid, without having to pay fixed grid rates. These so-called &ldquo;net metering rules&rdquo; or &ldquo;feed-in rates&rdquo; were recently abolished in several European countries, and are now under pressure in some US states. In its report, Morgan Stanley predicts that, in the coming years, net metering rules and solar tax credits will disappear altogether. <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/powerbox_dithered.png" alt='A 5 kWh lithium-ion battery pack from PowertechSystems.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/powerbox_hu2072bda19fdab72d0fc38336060afb95_39660_800x800_fit_q90_h2_box.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/powerbox_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A 5 kWh lithium-ion battery pack from <a href="http://www.powertechsystems.eu/en/li-ion-battery-applications/power-storage/self-consumption/" target="_blank" >PowertechSystems</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Utility companies are fighting the incentivisation of PV power succesfully with the argument that solar customers make use of the grid but don&rsquo;t pay for it, raising the costs for non-solar customers. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>The irony is that the disincentivization of grid-connected solar panels makes off-grid systems more attractive, and that utilities might be chasing away their customers. If a grid-connected solar customer has to pay fixed grid fees and doesn&rsquo;t receive a good price for his or her excess power, it might become more financially savvy to install a bank of batteries. The more customers do this, the higher the costs will become for the remaining consumers, encouraging more people to adopt off-grid systems. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<h2 id="lead-acid-battery-storage">Lead-Acid Battery Storage</h2>
+<p>Being totally independent of the grid might sound attractive to many, but how sustainable is a solar PV system when battery storage is taken into account? Because a life cycle analysis of an off-grid solar system with lithium-ion batteries has not yet been done, we made one ourselves, based on some LCAs of stand-alone solar PV systems with lead-acid battery storage.</p>
+<p>One of the most complete studies to date is a 2009 LCA of a 4.2 kW off-grid system in Murcia, Spain. The 35 m2 PV solar array is mounted on a building rooftop and supplies a programmed lighting system with a daily constant load pattern of 13.8 kWh. The solar panels are connected to 24 open lead-acid batteries with a storage capacity of 110.4 kWh, offering three days of autonomy. <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>The study found an energy payback time of 9.08 years and specific greenhouse gas emissions of 131 gCO2e/kWh, which makes the system twice as energy efficient and 2.5 times less carbon-intensive than conventional grid electricity in Spain (337 gCO2/kWh). Manufacturing the batteries accounts for 45% of the embodied CO2, and 49% of the life cycle energy use of the solar system.</p>
+<blockquote>
+<p>Lead-acid batteries easily double the energy and CO2 payback times of a solar PV system</p>
+</blockquote>
+<p>This doesn&rsquo;t sound too bad, but unfortunately the researchers made some pretty optimistic assumptions. First of all, the results are valid for a solar insolation of 1,932 kWh/m2/yr — Murcia is one of the sunniest places in Spain. At lower solar insolation, more solar panels would be needed to produce as much electricity, so the embodied energy of the total system will increase. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>If we assume a solar insolation of 1,700 kWh/m2/yr, the average in Southern Europe, GHG emissions would increase to 139 gCO2e/kWh. If we assume a solar insolation of 1,000 kWh/m2/yr, the average in Germany, emissions amount to 174 gCO2/kWh.</p>
+<h2 id="battery-lifespan">Battery Lifespan</h2>
+<p>Secondly, the researchers assume the lifespan of the lead-acid batteries to be 10 years. For the solar panels, they assume a lifetime of 20 years, which means that they included double the amount of batteries in the life cycle analysis. A lifespan of ten years is very optimistic for a lead-acid battery — a fact that the scientists admit. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>Most other LCA&rsquo;s looking at off-grid systems assume a battery life of 3 or 5 years. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup><sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> However, the lifetime of a lead-acid battery depends strongly on use and maintenance. Because of the low load of the system under discussion, a battery lifespan of 10 years is not completely unrealistic.</p>
+<p>On the other hand, if the batteries are used for higher loads — for example, in a common household — their lifetime would shorten considerably. Because almost 50% of embodied CO2 and life cycle energy use of a PV solar system is due to the batteries alone, the expected lifespan of the 2.4 ton battery pack has a profound effect on the sustainability of the system.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lead-acid-battery-storage_dithered.png" alt='A lead-acid battery system. Image: SuperiorSolar.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/lead-acid-battery-storage_hua4e01b178a82de218ae87fa665bfe2b1_93298_800x800_fit_q90_h2_box.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lead-acid-battery-storage_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A lead-acid battery system. Image: <a href="http://www.superiorsolar.com.au/galleries/off-grid-solar-power-systems" target="_blank" >SuperiorSolar</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>If we assume a battery lifespan of 5 instead of 10 years, and keep the other parameters the same, the GHG emissions increase to 198 and 233 gCO2e/kWh for a solar insolation of 1,700 and 1,000 kWh/m2/yr, respectively. In grid-connected solar PV systems, assuming a longer life expectancy for the solar panels improves the sustainability of the system: the embodied energy and CO2 can be spread over a longer period of time. With off-grid systems, this effect is countered by the need for one or more replacements of the batteries.</p>
+<p>If we increase the life expectancy of the solar panels from 20 to 30 years, and keep the battery lifespan at 10 years, CO2e emissions per kWh remain more or less the same. However, if we assume a battery lifespan of only 5 years and extend the lifespan of the solar panels to 30 years, GHG emissions would increase to 206 gCO2e/kWh for a solar insolation of 1,700 kWh/m2/yr, and decrease to 232 gCO2e/kWh for a solar insolation of 1,000 kWh/m2/yr.</p>
+<h2 id="made-in-china">Made in China</h2>
+<p>Thirdly, the researchers assume that all components — PV cells, batteries, electronics — are made in Spain, while we have seen in the previous article that <a href="./2015/04/how-sustainable-is-pv-solar-power/" >manufacturing of solar PV systems has moved to China</a>. Spain&rsquo;s electricity grid is 2.7 times less carbon-intensive (337 gCO2/kWh) than China&rsquo;s electric infrastructure (900 gCO2e/kWh), which means that the GHG emissions of all components of our system can be multiplied by 2.7.</p>
+<p>This results in specific carbon emissions of 353 and 471 gCO2e/kWh for a solar insolation of 1,700 and 1,000 kWh/m2/yr, respectively, which is higher than the carbon-intensity of the Spanish grid. Considering a battery lifespan of 5 instead of 10 years, emissions would rise to 513 and 631 gCO2e/kWh for a solar insolation of 1,700 and 1,000 kWh/m2/yr, respectively.</p>
+<blockquote>
+<p>If solar panels and batteries are produced in China, the CO2-emissions are double those of conventional grid electricity</p>
+</blockquote>
+<p>Although there are some assumptions by the researchers that are less optimistic — such as a battery recycling rate of only 50% instead of the more commonly assumed +90% — it&rsquo;s obvious that an off-grid system with lead-acid batteries is not sustainable, and definitely not when the components are manufactured in China.</p>
+<p>That doesn&rsquo;t make off-grid solar with lead-acid batteries pointless: compared to a diesel generator, a solar PV system with lead-acid batteries is often the better choice, which makes it a good solution for remote areas without access to the power grid. As an alternative for the centralized electricity infrastructure in western countries, however, it makes little sense.</p>
+<h2 id="lithium-ion-battery-storage-system">Lithium-ion Battery Storage System</h2>
+<p>When we replace the lead-acid batteries by lithium-ion batteries, the sustainability of a stand-alone solar PV system improves considerably. At first glance this may seem counter-productive, because it takes more energy to produce 1 kWh of lithium-ion battery storage than it takes to manufacure 1 kWh of lead-acid battery storage. According to the latest LCA&rsquo;s, aimed at electric vehicle storage, the making of a lithium-ion battery requires between 1.4 and 1.87 MJ/wh, <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup><sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> while the energy requirements for the manufacture of a lead-acid battery are between 0.87 and 1.19 MJ/Wh. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries_dithered.png" alt='Image: 6.6 kWh Energy management and lithium-ion storage solution in one. Bosch Power Tec.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/lithium-ion-batteries_hu791569a01b05572b5159a1617321866c_22989_800x800_fit_q90_h2_box.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: 6.6 kWh Energy management and lithium-ion storage solution in one. <a href="https://www.bosch-power-tec.com/en/bpte/storage_solutions/bpt_s_5_hybrid/vs_5_hybrid" target="_blank" >Bosch Power Tec</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Despite this, the higher overall performance of the lithium-ion battery means that considerably less storage is required. For a prolonged lifetime, lead-acid batteries demand a limited &ldquo;Depth of Discharge&rdquo; (DoD). If a lead-acid battery is fully discharged (DoD of 100%) its lifespan becomes very short (300 to 800 cycles, or roughly one to two years, depending on battery chemistry). The lifespan increases to between 400 and 1,000 cycles (1-3 years, assuming 365 cycles per year) at a DoD of 80%, and to between 900 and 2,000 cycles (2.5-5.5 years) at a DoD of 33%. <sup id="fnref2:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>This means that, in order to get a decent lifespan, a lead-acid battery system should be oversized. For example, three times more battery capacity is needed at a DoD of 33%, because two thirds of the battery capacity cannot be used.</p>
+<p>Although the lifespan of a lithium-ion battery also decreases when the depth of discharge increases, this effect is less pronounced than with its lead-acid counterpart. A lithium-ion battery lasts 3,000 to 5,000 cycles (8-14 years) at a DoD of 100%, 5,000 to 7,000 cycles (14-19 years) at a DoD of 80%, and 7,000 to 10,000 cycles (19-27 years) at a DoD of 33%. <sup id="fnref3:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>As a consequence, lithium-ion storage usually has a DoD of 80%, while lead-acid storage usually has a DoD of 33 or 50%. In the LCA of the Spanish off-grid system discussed above, the assumption of three days of autonomy implies that 41 kWh of storage is required (3 x 13.8 kWh per day). Because the DoD is 33%, total storage capacity should be multiplied by three, which results in 123 kWh of batteries. If we would replace these by lithium-ion batteries with a DoD of 80%, only 50 kWh of storage is needed, or 2.5 times less.</p>
+<h2 id="6-x-less-batteries-needed">6 x Less Batteries Needed</h2>
+<p>For utmost accuracy, we should mention that the lifespan of a battery isn&rsquo;t necessarily limited by the cycle life. When batteries are used in applications with shallow cycling, their service life will normally be limited by float life. In this case, the difference between lead-acid and lithium-ion is less pronounced: at no-cycling (float charge), lithium-ion lasts 14-16 years and lead-acid 8-12 years. Battery life will be limited by either the life cycle or the float service life, depending on which condition will be achieved first. <sup id="fnref4:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>Nevertheless, if we focus on off-grid systems for households, the assumption of deep daily cycling better reflects reality, although there will be periods of float charge, for example during holidays.</p>
+<blockquote>
+<p>The total storage capacity to be manufactured over the complete lifetime of a solar PV system is 6 times lower for lithium-ion than for lead-acid</p>
+</blockquote>
+<p>If we also factor in the lifespan of the batteries, the advantage of lithium-ion becomes even larger. Assuming a lifespan of 20 years for the solar PV system and a DoD of 80%, the lithium-ion batteries will last as long as the PV panels. On the other hand, the lead-acid batteries have to be replaced at least 2-4 times over a period of 20 years. This further widens the gap in energy use for manufacturing when comparing lead-acid and lithium-ion batteries. <sup id="fnref5:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>In the original LCA, a total storage capacity of about 240 kWh is needed over a lifespan of 20 years. On the other hand, the cycle life of the lithium-ion battery is 19-27 years, meaning that no replacement may be needed. Consequently, the total storage capacity to be manufactured over the complete lifetime of the system is 6 times lower for lithium-ion than for lead-acid. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries-at-home_dithered.png" alt='E3DC lithium-ion battery system. Image: Thomas Salzmann.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/lithium-ion-batteries-at-home_hu7d1d803fb9624f5fd0675931f578928a_209100_800x800_fit_q90_h2_box_3.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries-at-home_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>E3DC lithium-ion battery system. Image: <a href="http://www.e3dc.com/index.php?id=156" target="_blank" >Thomas Salzmann</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>If we take the most optimistic values for energy during manufacturing, being 0.87 MJ/Wh for lead-acid and 1.4 MJ/Wh for lithium-ion, and multiply them by total battery capacity over a lifetime of 20 years (248,000 Wh for lead-acid and 42,000 Wh for lithium-ion), this results in an embodied energy of 60 MWh for lead-acid (the value in the original LCA) and only 16.5 MWh for lithium. In conclusion, energy requirements for the manufacturing of the batteries is 3.6 times lower for lithium-ion than for lead-acid.</p>
+<p>Another advantage of lithium-ion batteries is that they have a higher efficiency than lead-acid batteries: 85-95% for lithium-ion, compared to 70-85% for lead-acid. Because losses in the battery must be compensated with higher energy input, a higher battery efficiency results in a smaller PV array, lowering the energy requirements to manufacture the solar cells. In the original LCA, 4.2 kW of solar panels (35 m2) are needed to produce 13.8 kWh per day.</p>
+<p>If we assume the lead-acid batteries to be 77% efficient, and the lithium-ion batteries to be 90% efficient, the choice for lithium-ion would resize the solar PV array from 4.2 kW to 3.55 kW. We now have all the data to calculate the greenhouse gas emissions per kWh of electricity produced by an off-grid solar PV system using lithium-ion batteries.</p>
+<h2 id="ghg-emissions-of-the-off-grid-system-with-lithium-ion-batteries">GHG Emissions of the Off-grid System with Lithium-ion Batteries</h2>
+<p>In the original LCA, the batteries and the solar panels (including frames and supports) account for 59 and 62 gCO2e/kWh, respectively. The rest of the components add another 10 gCO2e/kWh, resulting in a total of 131 gCO2e/kWh. If we switch to lithium-ion battery storage, the greenhouse gas emissions for the batteries come down from 59 to 20
+gCO2e/kWh.</p>
+<p>Because of the higher efficiency of the lithium-ion batteries, the greenhouse gas emissions for the solar panels come down from 62 to 55 gCO2e/kWh. This brings the total greenhouse gas emissions of the off-grid system using lithium-ion batteries to 85 gCO2e/kWh, compared to 131 gCO2e/kWh for a similar system with lead-acid storage.</p>
+<p>While this result is an improvement, it&rsquo;s dependent on the assumptions of the researchers; most notably, a solar insolation of 1,932 kWh/m2/yr, and that all manufacturing of components occurs in Spain. If we adjust the value for a solar insolation of 1,700 kWh/m2/yr in order to compare with the other results, total GHG emissions become 92.5 gCO2e/kWh (assuming battery capacity remains the same).</p>
+<p>If we correct for a solar insolation of 1,000 kWh/m2/yr, the average in Germany, GHG emissions become 123.5 gCO2e/kWh. Furthermore, if we assume that the solar panels (but not the batteries or the other components) are manufactured in China, which is most likely the case, GHG emissions rise to 155 and 217
+gCO2e/kWh for a solar insolation of 1,700 and 1,000 kWh/m2/yr, respectively.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/testing-lithium-ion-battery_dithered.png" alt='Testing a lithium-ion battery. Image: A123 Systems.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/testing-lithium-ion-battery_hu20f2bcf3e0abe9bccdba304e15e9139f_41873_800x800_fit_q90_h2_box.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/testing-lithium-ion-battery_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Testing a lithium-ion battery. Image: <a href="http://www.a123systems.com/media-room-photos.htm" target="_blank" >A123 Systems</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In conclusion, lithium-ion battery storage makes off-grid solar PV less carbon-intensive than conventional grid electricity in most western countries, even if the manufacturing of solar panels in China is taken into account. However, the advantage is rather small, which effects the speed at which solar PV systems can be deployed in a sustainable way.</p>
+<p>In the <a href="./2015/04/how-sustainable-is-pv-solar-power/" >previous article</a>, we have seen that the energy and CO2 savings made by the cumulative installed capacity of solar PV systems are cancelled out to some extent by the energy use and CO2 emissions from the production of new installed capacity. For the deployment of solar systems to grow while remaining net greenhouse gas mitigators, they must grow at a rate slower than the inverse of their CO2 payback time. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup><sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup><sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup></p>
+<blockquote>
+<p>Off-grid solar systems with lithium-ion battery storage can have GHG emissions below 30 gCO2e/kWh if they are produced in countries with clean electricity grids, and installed in countries with high solar insolation and carbon-intensive grids.</p>
+</blockquote>
+<p>For solar panels manufactured in China and installed in countries like Germany, the maximum sustainable growth rate is only 16-23% (depending on solar insolation), roughly 3 times lower than the actual annual growth of the industry between 2008 and 2014. If we also take lithium-ion battery storage into account, the maximum sustainable growth rate comes down to 4-14%. In other words, including energy storage further limits the maximum sustainable growth rate of the solar PV industry.</p>
+<p>On the other hand, if we would produce solar panels in countries with very clean electricity grids (France, Canada, etc.) and install them in countries with carbon-intensive grids and high solar insolation (China, Australia, etc.), even off-grid systems with lithium-ion batteries would have GHG emissions of only 26-29 gCO2/kWh, which would allow solar PV to grow sustainably by almost 60% per year. This result is remarkable and shows the importance of location if we want solar PV to be a solution instead of a problem. Of course, whether or not there&rsquo;s enough lithium available to deploy battery storage on a large scale, is another question.</p>
+<h2 id="battery-production-powered-by-renewable-energy">Battery Production Powered by Renewable Energy?</h2>
+<p>Another way to improve the sustainability of battery storage is to produce the batteries using renewable energy. For example, Tesla announced that its &ldquo;GigaFactory&rdquo;, which will produce lithium-ion batteries for vehicles and home storage, will be powered by renewable energy. <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup><sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> To support their claim, Tesla published an illustration of the factory with the roof covered in solar panels and a few dozen windmills in the distance.</p>
+<p>However, the final manufacturing process in the factory consumes only a small portion of the total energy cost of the entire production cycle — much more energy is used during material extraction (mining). It&rsquo;s stated that the GigaFactory will produce 50 GWh of battery capacity per year by 2020. Because the making of 1 kWh of lithium-ion battery storage requires 400 kWh of energy <sup id="fnref1:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref1:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup><sup id="fnref6:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>, producing 50 GWh of batteries would require 20,000 GWh of energy per year.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-gigafactory_dithered.png" alt='Image: Tesla Gigafactory.' data-original="/2015/05/how-sustainable-is-stored-sunlight/images/tesla-gigafactory_hu8f3ce72f202855dcd6fa5979a5fcdc0a_408248_800x800_fit_q90_h2_box.webp" data-dither="/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-gigafactory_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Tesla Gigafactory.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>If we assume an average solar insolation of 2,000 kWh/m2/yr and a solar PV efficiency of 15%, one m2 of solar panels would generate at most 295 kWh per year. This means that it would take 6,800 hectares (ha) of solar panels to run the complete production process of the batteries on solar power, while the solar panels on the roof cover an area of only 1 to 40
+ha (there is some controversy over the actual surface area of the factory under construction). Tesla&rsquo;s claim, though potentially factually accurate, is an obvious example of greenwashing — and everyone seems to buy it.</p>
+<p>There are other ways to improve the sustainability of solar PV when storage is taken into account. Most of these solutions require that solar systems remain connected to the grid, even if they have a (more limited) local storage system. In this scenario, chemical batteries could help to balance the grid system, acting as peak-shaving and load-shifting devices.</p>
+<p>The electric grid has to be sized to meet peak demand, and battery storage could mean that less power plants are needed for that. Decentralized, grid-connected energy storage could also increase the share of renewables that the electricity infrastructure can handle. Of course, this &ldquo;smart grid&rdquo; approach should also be subjected to a life cycle analysis, <a href="./2009/06/the-monster-footprint-of-digital-technology/" >including all electronic components</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Eric W.</h5>
+	<p>&ldquo;Tesla&rsquo;s claim is an obvious example of greenwashing &ndash; and everyone seems to buy it.&rdquo;</p>
+<p>They never said that electricity would be produced 100% on-site. The Gigafactory is located next to some of the best onshore wind resources in the nation, and the image posted above even includes windmills.</p>
+<p>A company can buy renewable energy from the market.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>@ billi (#38)&amp; Moshe Braner (#34):</p>
+<p>Li-ion batteries in gadgets don&rsquo;t last that long because they generally have a DoD of 100%. We usually charge our gadgets only after the battery has died, which limits its durability. For home storage, portability and weight are of less concern so it&rsquo;s easier to add more batteries and limit the DoD, resulting in improved durability. Electric cars are somewhere in between I guess. This said, the lifespans mentioned in the article are based on a report that assumes intelligent use of batteries. Lifespans will be shorter in real life.</p>
+<p>@ Moshe Braner (#34)</p>
+<p>Indeed, lithium-ion battery recycling is not a fact because it&rsquo;s not commercially viable. It will only become so when the easiest lithium supplies are exhausted, and that means that embodied energy will go up anyways. In short, don&rsquo;t count on recycling to lower the embodied energy of lithium-ion batteries. <a href="http://www.waste-management-world.com/articles/print/volume-12/issue-4/features/the-lithium-battery-recycling-challenge.html" target="_blank" >http://www.waste-management-world.com/articles/print/volume-12/issue-4/features/the-lithium-battery-recycling-challenge.html</a></p>
+<p>@ Jim Baerg (#36):</p>
+<p>&ldquo;You barely mentioned the problem of seasonal variation in solar availability.&rdquo;</p>
+<p>Correct. See note 13. Although it might not seem this way, my article is a very optimistic take on the durability of an off-grid PV solar system. Also check the link in comment #5.</p>
+<p>@ Mike Rossetti (#35):</p>
+<p>That claim is made by the utilities, not by me.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Charles</h5>
+	<p>How do these numbers compare to Nikel/Iron batteries with expected lifespans more conveniently measured in decades rather than years?</p>
+
+</div>
+
+<div class="comment">
+	<h5>David F</h5>
+	<p>This is a very useful article. One small correction: Tesla&rsquo;s &ldquo;gigafactory&rdquo; is in northern Nevada near Reno, not in Arizona, so the solar insolation would be less.</p>
+<p>Another research article I didn&rsquo;t see in your references that looks at solar and storage from an energy cost angle (but not emissions) is Carbajales-Dale et al, 2014, at <a href="http://pubs.rsc.org/en/content/articlehtml/2014/ee/c3ee42125b" target="_blank" >http://pubs.rsc.org/en/content/articlehtml/2014/ee/c3ee42125b</a> It comes to a similar conclusion: At 72 hours storage, most PV systems with storage cannot pay back their energy &lsquo;debt&rsquo;; wind, however, because of a more favorable EROI, can &lsquo;afford&rsquo; more storage.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Greg</h5>
+	<p>Regarding the claims about Tesla&rsquo;s factory and PV.</p>
+<p>Tesla have claimed that the factory will run on 100% renewable energy.</p>
+<p>The calculation which claims to show green-washing includes all of the embedded energy in the materials used to assemble battery packs. For example the battery packs will contain metals, however embedded energy for these metals will be consumed at a smelter not at the gigafactory.</p>
+<p>So I believe the calculation in this article is misleading, and that Tesla&rsquo;s claim may well be true.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Daron Robinson</h5>
+	<p>The size is of the proposed factory is about 1000m x 400m giving a roof area of 40 hectares not 1 hectare</p>
+
+</div>
+
+<div class="comment">
+	<h5>Martin Lindh</h5>
+	<p>Great work!</p>
+<p>A life cycle analysis of a grid connected system with only night time storage would be very interesting.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Hanno</h5>
+	<p>Some interesting thoughts. I certainly welcome it when people consider the emission impacts of renewable energy and you&rsquo;re probably right that there is a positive bias on LCAs there. However I&rsquo;d assume that you can find similar positive biases on LCAs for other energy forms as well, not sure which ones are worse (e.g. there&rsquo;s been a lot of debate about methane emissions from natural gas in recent years that were systematically underestimated in the past).</p>
+<p>I see the off-grid solar/battery solutions as a second best option. I don&rsquo;t really like them, but realistically we&rsquo;ll get them and they&rsquo;re better than staying with the status quo. The alternative - intelligent options using the grid - have one huge disadvantage: You need the grid operator to cooporate.</p>
+<p>To put it mildly, most grid operators aren&rsquo;t exactly on the forefront of renewable innovation. They&rsquo;re often tied (or often just are) to traditional utilities that have little interest in change.</p>
+<p>For a solution with medium and large scale storage and more intelligent grids (things like demand side management) you&rsquo;d either need grid operators support (unlikely) or a very strong political regulation towards renewables (also unlikely in most countries, fossil/nuclear lobbies are strong). I live in Germany and we have relatively good political support for renewables, but even here politics is switching back and forth between supporting renewables and slowing the development down to support the old utilities. A couple of years ago there were several plans for new large scale storages (mostly pumped water, some experimental like underground pumped water or air pressure), most of them are on hold because there is little incentive right now to build them</p>
+
+</div>
+
+<div class="comment">
+	<h5>Tim Perry</h5>
+	<p>I appreciate this article but I&rsquo;m skeptical of the conclusion. My background is electrical engineering and I&rsquo;ve done some basic PV calculations in the past, but you should get feedback from a power engineer who has experience in this field.</p>
+<p>This article on Engineering.com came up with different numbers. <a href="http://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/8436/Can-Tesla-Power-Its-Gigafactory-with-Renewables-Alone.aspx" target="_blank" >http://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/8436/Can-Tesla-Power-Its-Gigafactory-with-Renewables-Alone.aspx</a></p>
+<p>Musks companies are filled with engineers, the finest in the world, each sworn to an oath of ethics. Musks fanbase is filled with millions more engineers. If it was as unfeasible as your article suggests, I would expect an army of engineers talking about this online.</p>
+<p>I&rsquo;m not saying your wrong. It&rsquo;s great to be skeptical. But I&rsquo;m skeptical of your conclusion about the Gigafactory.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Bruno</h5>
+	<p>Some points :</p>
+<ul>
+<li>
+<p>nuclear can&rsquo;t step in for day/night variation, the ramp up of nuclear plants longer than a day, that&rsquo;s why nuclear is baseline in heavily nuclear countries like France</p>
+</li>
+<li>
+<p>there is a renewable that can ramp up instantly : hydroelectric</p>
+</li>
+<li>
+<p>100% renewable without storage is theoretically possible, it will take a global grid, and then it is always sunny or windy somewhere&hellip;</p>
+</li>
+</ul>
+
+</div>
+
+<div class="comment">
+	<h5>Nick Nolan</h5>
+	<p>20,000 GWh (20 000 000 MWh) per year is obviously incorrect estimate. It&rsquo;s equal to 2283 MW power consumption 24/7 (two AP1000 nuclear reactors dedicated for one factory).</p>
+<p>Source you are using gives total energy cost of battery. The majority of the total energy usage is in material production, not battery production.</p>
+<p>Tesla recycles all lithium in batteries, so eventually even the total energy usage will be lower. The amount of lithium they use is enormous. The whole endeavor would be financially unsound without recycling.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Dan</h5>
+	<p>Great article. I wonder if it&rsquo;S possible that the 400 kWh needed to produce a lithium ion battery will be reduced by scaling to mass production in the gigafactory? Or is this just the base energy required to bring the chemistry together in the battery?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Henrik</h5>
+	<p>Sorry my bad about the sqm calculation, made and error going from Gigawatt to Kilowatt I think.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Alain</h5>
+	<p>&quot; Remarkably, Tesla shows an illustration of the factory with solar panels on the roof. Knowing that the factory will occupy a surface of 1 ha, while 6,800 ha of solar panels is required to run it on renewable energy, Tesla&rsquo;s claim is an obvious example of greenwashing &ndash; and everyone seems to buy it. &quot;</p>
+<p>You are wrong, the factory sits on a 980 acre site according to Tesla&rsquo;s weblink, that is 4 square kilometers, so plenty of space (400 hectare) available for the 68 hectares of PV solar panels that are neede to cover all the plants energy consumption. And Tesla will also build a 140MW wind turbine park, providing unknown GWh in extra power to make the plant a zero net energy facility, as they correctly stated.</p>
+<p><a href="http://cleantechnica.com/2014/10/29/tesla-motors-deal-nevada-gigafactory-land-concluded/" target="_blank" >http://cleantechnica.com/2014/10/29/tesla-motors-deal-nevada-gigafactory-land-concluded/</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Steve</h5>
+	<p>&ldquo;Morgan Stanley expects a lot from electric vehicle manufacturer Tesla, who announced a home storage system for solar power a few days ago (costing $350 per kWh&rdquo;</p>
+<p>You are correct in that the home solution is priced at $350 a kWh, but you should also note that Tesla is announced to sell their 100KW commercial battery storage solution for $25,000 - which is $250 per KW. That&rsquo;s a pretty good deal for storage costs.</p>
+
+</div>
+
+<div class="comment">
+	<h5>William</h5>
+	<p>You say: &ldquo;the manufacture of 1 kWh of lithium-ion battery storage requires 400 kWh of energy, the factory would require 20,000 GWh of electricity per year to manufacture all these batteries.&rdquo;</p>
+<p>This is wildly off. The only way you can plausibly get a figure of 400 kWh is to be looking at the total energy cost of the entire production process, from material extraction all the way through to final assembly (and even then 400 kWh seems too high, based on the sources you&rsquo;ve cited). The final manufacturing phase - what will be done in the Tesla Gigafactory - consumes only a small portion of the total energy cost of the entire production cycle.</p>
+<p>You may be right that the Gigafactory will not be able to meet its energy requirements from renewables, but not based on these figures. Working in your favour is the fact that the factory will in fact be in Nevada, where solar insolation is lower than in Arizona. Working against you is the fact that all the energy cost numbers available to work with are almost certainly wrong: they don&rsquo;t account for the somewhat uncommon battery chemistry that Tesla use, or for the new economies of scale that might be achieved by a factory of this size (although the scope for this is limited by the simple fact that 75% of the total energy cost of production is wrapped up in material extraction).</p>
+<p>This is a really important question, one that it&rsquo;s really important to get right.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Spiffy Solar</h5>
+	<p>Many just assume that given the right price, batteries will become a major answer to our power generation woes. That they will take over the market and perhaps the utilities as well.</p>
+<p>Making the right decisions on when to utilize batteries sounds crucial to their usefulness.</p>
+<p>Another important factor comes to light, upon close consideration. That is, the technology to maintain and use batteries to their full effectiveness.</p>
+<p>Thanks for the illuminating article.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Thom the Turtle</h5>
+	<p>I really enjoyed the article, but I wished it would have addressed behavioral changes that arise when power is finite, unlike the grid delivering functionally infinite amounts at all times of the day. Just as people adapt to a cell phone that drops to 20%, they will do the same in a house run on batteries powered by sunlight.</p>
+<p>FWIW, I currently live entirely off-grid, although I do own a generator that I use about twice a month for construction projects. I helped install a small, off-grid solar system on Sunday and the issues in this article were discussed.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Michael Dowling</h5>
+	<p>What most concerns me is getting away from centralized power generation,with it&rsquo;s high voltage power transformers,for which there are,in many cases, no spares.I&rsquo;ve read these things are hand built,weigh hundreds of tons,and take literally years to build and transport.If enough of them were destroyed due to a severe geomagnetic storm or a coordinated terrorist attack,grid power could be down for months or even years.Source: <a href="http://spectrum.ieee.org/energy/the-smarter-grid/a-perfect-storm-of-planetary-proportions" target="_blank" >http://spectrum.ieee.org/energy/the-smarter-grid/a-perfect-storm-of-planetary-proportions</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>alain</h5>
+	<p>&ldquo;The making of a lithium-ion battery requires between 1.4 and 1.87 MJ/wh&rdquo; [16, 17, 18] = 400 kWh energy/kWh of battery storage (based on the figure of 1.4 MJ/Wh) x 50 GWh of batteries produced annually = 20,000 GWh of energy per year.&quot;</p>
+<p>Thanks, this is correct, found on page 72 of your second link a similar average figure.</p>
+<p><a href="http://www2.epa.gov/sites/production/files/2014-01/documents/lithium_batteries_lca.pdf" target="_blank" >http://www2.epa.gov/sites/production/files/2014-01/documents/lithium_batteries_lca.pdf</a></p>
+<p>The TESLA factory will produce 50 GWh / year.</p>
+<p>Knowing each battery can cycle for at least 2000 times during it&rsquo;s lifetime, thus storing in total around 100 000 GWh over its lifetime, for every year of production (For deep discharge use like in EV cars, if for home energy storage, it will be much higher than 2000 cycles&hellip;).</p>
+<p>As such the TESLA factory is one gem of a plant, since it will allow on a yearly basis to add 100 000 GWh in overal energy storage capacity to our world, while only consuming 20 000 GWh in energy to get that, from cradle to grave, a return of 500 % on energy investment.</p>
+<p>Now the big questions are :</p>
+<ol>
+<li>
+<p>is this energy needed to manufacture the batteries from cradle to grave, mostly delivered by &lsquo;clean&rsquo; energy, or is it 100% fossil fuel energy ?</p>
+</li>
+<li>
+<p>The batteries will be reloaded with &lsquo;clean&rsquo; energy sourced electricity, or from fossil fuel energy sourced electricity ?</p>
+</li>
+<li>
+<p>If for 1. and 2. most of the energy is relatively clean, then we have a big winner here, if for 1. and 2. it is mostly fossil fuel energy, then Tesla is wasting our time building it all.</p>
+</li>
+</ol>
+<p>I have a 4.2kW solar PV panel system on my home roof, and I am supplied by a 100% renewable energy provider utility (ecopower cvba), so for 2. it would be good for my own situation.</p>
+<p>I however don&rsquo;t need home battery storage with my current setup, and do not drive yet an EV, driving range is now way too short compared to fossil fuel cars, and hybrids are still too expensive for me.</p>
+<p>By 2020, a hybrid will be my preferred choice, probably, given that battery packs are decreasing 6% in price every year.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Peter</h5>
+	<p>Musk talked about reducing fossil energy use of the US, not the world. I think he meant offshore CO2 release.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Sherwood Botsford</h5>
+	<p>A possibly viable storage option: <a href="http://www.velkess.com/" target="_blank" >http://www.velkess.com/</a></p>
+<p>offers a 15 kWh flywheel for $6K &ndash; this is $400/kWh but it can be run to zero power, has an efficiency per cycle of 85%, and should outlast lithium batteries.</p>
+<p>And this is an early model. If it follow the typical technology curve the price will drop fairly rapidly as more units are built.</p>
+<p>In general the electrical companies need to see themselves in a different light, not as electricity producers, but as distributors.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Matt</h5>
+	<p>I have no quarrel with your LCAs or even your conclusions.</p>
+<p>I do think you&rsquo;re fundamentally incorrect to assume that off-grid systems will see any uptick at all, even a small one. I also believe the statement I&rsquo;ve just made is completely different than saying energy storage will or will not continue to grow. The simple fact is that it makes little sense to disconnect oneself from the electricity grid. The grid in North America, and many other parts of the world that are seeing large amounts of solar being installed, is fantastically reliable. Why separate yourself from that? Even if there were some type of fee system imposed on a solar system, I doubt it would be enough to truly consider cutting that cord.</p>
+<p>But what you&rsquo;re not considering, and sort of mentioned in passing in your last paragraph, is the implications of small and large storage becoming part of the grid. People smarter than me have predicted that while the financial incentives and &lsquo;free rides&rsquo; of simple grid-connected solar systems might end, smarter utilities will begin to see the value of having &ldquo;smarter&rdquo; solar on their system, exactly for the reasons you mentioned (load shaving, frequency regulation, ramp rate adjustments, etc).</p>
+<p>In other words, if a solar system is able to automatically respond to what the grid needs with the same level of efficiency as turning a &ldquo;peaker&rdquo; power plant off or on, than each kWh it produces should be worth more than the solar system a mile away that is responding to only the level of irradiance.</p>
+<p>Examples of this future are starting to show up in island communities, where the grid is often diesel fired and electricity prices are high, though they&rsquo;re being installed for functionally different reasons &ndash; namely that having 3MW of supply disappear when a cloud goes over can wreck havoc on your system.</p>
+<p>Still, the ability to shuttle electricity to a large battery bank when supply is saturated, or pull from that bank when needed, is valuable in these situations. In certain places, it&rsquo;s likely that the only way large solar (in particular) would even be allowed at all is if it can meet some fairly specific ramp rate requirements, and very nearly the only way you can do that is with energy storage.</p>
+<p>Will this be the case with smaller systems? It&rsquo;s hard to say, but it&rsquo;s I think far more likely than every house on a block being its own disconnected grid.</p>
+<p>And regarding performing the LCAs of those type of systems, they&rsquo;re not really any different. While there may be different electronics, I&rsquo;m not sure there are MORE electronics in a grid-connected system with batteries compared to an off-grid systems &ndash; still charging, inversion, rectification, etc. Once you add batteries into the mix, you&rsquo;ve already complicated the system. Does a system that talks to the grid really make it that much worse? Probably not measurably &ndash; like having your solar factory 50 miles closer to the shipping port.</p>
+<p>Thanks for your site &ndash; always love the read!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Moshe Braner</h5>
+	<p>The claims of 15 years (or more) float lifetime for lithium batteries seems suspicious to me. We&rsquo;ve had lithium ion batteries in laptops and cellphones and so forth for a while now, and it&rsquo;s my impression that the batteries never maintain much of their initial capacity by the time they are 10 years old, or even 5. And the number of charge cycles they are subjected to is often far less than the thousands talked about in theory (although in some uses they do undergo daily cycles).</p>
+<p>Regarding &ldquo;Tesla recycles all lithium in batteries&rdquo; (in a comment above), that is a promise, not a fact. If the batteries indeed last as long as claimed, they won&rsquo;t have to honor that promise for quite some time, and may be out of business by then.</p>
+<p>Finally, do not assume that the batteries, unlike the PV panels, will be made in countries with cleaner grids. If off-grid storage indeed becomes a trend, what&rsquo;s to stop China from taking over that industry too, like they did to the many previous ones?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mike Rossetti</h5>
+	<p>Just a few thoughts:</p>
+<ol>
+<li>I suspect, at least in the short term (&lsquo;short&rsquo; being 10 years or so) that we are not going to see many net-metering customers go completely off-grid. Rather, we will see them stay on-grid but drop net-metering while employing storage for buffering. Doing so will prevent net-metering customers from being treated as a special class, keeping them in the standard residential customer rate class.</li>
+</ol>
+<p>Side note: The utility industry will try to discourage on-grid/buffered residential use through legislation.</p>
+<p>Side note: Intelligent buffering reduces the most costly, peak time electricity. And by &lsquo;costly&rsquo; I don&rsquo;t just mean most expensive in terms of dollars but also in the amount of pollutants generated.</p>
+<ol start="2">
+<li>The assertion in this article that residential solar customers do not pay for their use of the infrastructure is incorrect. This assumption is based on an incorrect claim that solar customers&rsquo; peak load is not reduced and, thus, current rate schedules cause cost-shifting to non-solar residential customers. In Utah, the average residential solar customer consumes 5% less energy than does the overall average residential customer, implying that infrastructure usage is not being fairly compensated by those solar customers. However, the average residential solar customer in Utah has reduced their peak load by 7%—meaning they are actually paying for more infrastructure than they are actually using.</li>
+</ol>
+<p>Side note: Residential customers taking advantage of high-efficiency trade-in programs also reduce their average consumption but without a demonstrable reduction in peak load.</p>
+<ol start="3">
+<li>One could ask what the CO2 cost has been of the utility infrastructure (mining ore, smelting, milling, transportation, installation, etc.) but that is all sunk costs so I suppose that doesn&rsquo;t matter much except for new residential construction.</li>
+</ol>
+
+</div>
+
+<div class="comment">
+	<h5>Jim Baerg</h5>
+	<p>I would like to make a few points;</p>
+<p>You barely mentioned the problem of seasonal variation in solar availability. In a broad band the around equator seasonal variation is small &amp; peak demand is usually in the summer so storage for solar energy is only needed to cover daily variation. Farther from the equator there is little sunlight in winter &amp; demand is high, for solar to be much use at high latitudes the much harder problem of storing months of energy demand would have to be solved.</p>
+<p>Where the seasonal variation in solar is small, solar electricity would complement a steady power source like nuclear, with solar covering the daytime peak in demand, especially in the panels are pointed somewhat west of equatorward so their maximum output is in the afternoon when demand peaks. This would minimize the need for storage, which is still expensive.</p>
+<p>Re: Bruno (12) Early nuclear reactors had difficulties varying their output due to Xenon 135, but that has to a large extent been solved &amp; the proposed molten salt reactors would not have the problem at all.</p>
+<p>This energy storage technology might turn out to be much better than any battery for stationary applications, though it would have too low energy per liter for cars. They claim to have solved the low efficiency of compressed air storage &amp; their method sounds like it should work. Also their compressors &amp; air tanks should last far longer than any chemical battery.</p>
+<p>This article (<a href="http://bravenewclimate.com/2014/08/22/catch-22-of-energy-storage/" target="_blank" >http://bravenewclimate.com/2014/08/22/catch-22-of-energy-storage/</a>) is worth reading for anyone interested in what can be used to replace fossil fuels.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Russ Finley</h5>
+	<p>I ran the numbers using Tesla&rsquo;s new battery for solar storage and found that it would cost me well over a million dollars to go off grid using them. But I live in Seattle. The cost will vary considerably by location:</p>
+<p><a href="http://biodiversivist.blogspot.com/2015/05/did-tesla-just-kill-hydro-electric-power.html" target="_blank" >http://biodiversivist.blogspot.com/2015/05/did-tesla-just-kill-hydro-electric-power.html</a></p>
+<p>Another engineer ran the numbers for various latitudes and found similar results:</p>
+<p><a href="http://euanmearns.com/how-much-battery-storage-does-a-solar-pv-system-need/" target="_blank" >http://euanmearns.com/how-much-battery-storage-does-a-solar-pv-system-need/</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>billi </h5>
+	<p>well,&hellip; the article has a lot of information and misinformation , because a good lead acid battery has about 1500 cycles at 80% dod and about 5000 cycles at 33% dod</p>
+<p>and on the otherhand the article starts with a tesla battery picture &hellip;.. as known , tesla gives a warranty of only 125000 miles on the 60 kwh sedan battery &hellip;&hellip; , i would not want this poor battery in my house , to replace the 12 year old lead acid one i have</p>
+
+</div>
+
+<div class="comment">
+	<h5>YourNameIsRequired</h5>
+	<p>Bruno - 100% renewable without storage is theoretically possible, it will take a global grid, and then it is always sunny or windy somewhere&hellip;</p>
+<p>No: When it&rsquo;s night in Europe and there&rsquo;s a big anticyclone over the whole area, there won&rsquo;t be any power anywhere.</p>
+<p>Besides, power lines also suffer from NIMBY: The German governement is having a hard time building those to connect wind turbines in the North Sea to users in the West/South of the country.</p>
+<p>Just build nuclear plants and be done with it. Getting off oil for transportion is big enough a challenge.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Wave</h5>
+	<p>This is a very high tech article for Low Tech Magazine.</p>
+
+</div>
+
+<div class="comment">
+	<h5>jesper møller</h5>
+	<p>@ Bruno</p>
+<p>&ldquo;- nuclear can&rsquo;t step in for day/night variation, the ramp up of nuclear plants longer than a day, that&rsquo;s why nuclear is baseline in heavily nuclear countries like France&rdquo;</p>
+<p>This is incorrect. It may hold true for some older designs/plants, but several nuclear plants used to day are load following.</p>
+
+</div>
+
+<div class="comment">
+	<h5>teslark</h5>
+	<p>this is precisely the awesome type of article that should be on lowtech magazine.</p>
+<p>this is one of the best articles in a long time. a sophisticated treatment of a modern tech .</p>
+<p>thing is, you can only write so many articles about rocketstoves and 17th century heating and kiln technology. well done lowtech mag.</p>
+<p>on a side note, we can expect that 40 years from now revolutionary battery technology will be out. so most of what is in this article will be completely and utterly outdated.</p>
+<p>energy storage is EVERYTHING. it practically defines the millions of years of evolutionary history of metabolism.</p>
+<p>animals can eat whatever the hell they want as much as they want, but feast or famine defines all dynamically unstable patterns. things happen in clusters and clumps , including the acquisition and production of energy ( finding food, eating, and digesting it).</p>
+<p>the real sophistication in biology comes in STORING FOOD. which is CREATING FATS AND CREATING SUGARS AND HAVING THEM IN USEABLE FORM IN THE BODY OVER INCREASINGLY SOPHISITICATED PERIODS OF TIME.</p>
+<p>so , yes, energy storage will define the next century of technology more than any changes in energy production. the nuclear/solar/wind/ etc&hellip;.all that or better coal better hydro whatever.</p>
+<p>ITS ALL ABOUT STORAGE NOT GENERATION.</p>
+
+</div>
+
+<div class="comment">
+	<h5>bogbeagle</h5>
+	<p>Why don&rsquo;t the lithium-ion batteries in my laptop, last for 20 years?</p>
+<p>Lucky to get 3.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Teddy</h5>
+	<p>Why don&rsquo;t tree&rsquo;s count as solar batteries? ;)</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rob Halligan</h5>
+	<p>I think the best &ldquo;batteries&rdquo; or energy stores are reservoirs. Use solar or wind power to pump water up hill to a reservoir for later electric conversion through hydro power.</p>
+<p>There&rsquo;s a Canary Island that is powered by 100% wind/hydro by pumping water with excess wind energy up hill to a reservoir from a lower reservoir. They are going to all electric vehicles next.</p>
+
+</div>
+
+<div class="comment">
+	<h5>roberto</h5>
+	<p>@bruno</p>
+<p>&ldquo;- nuclear can&rsquo;t step in for day/night variation, the ramp up of nuclear plants longer than a day, that&rsquo;s why nuclear is baseline in heavily nuclear countries like France&rdquo;</p>
+<p>France&rsquo;s EDF ramps up and down its reactors every single day of the year, with amplitudes depending on day of the week, season, exceptional weather events.</p>
+<p>You can check it out yourself here:</p>
+<p><a href="http://www.rte-france.com/en/eco2mix/eco2mix-mix-energetique-en" target="_blank" >http://www.rte-france.com/en/eco2mix/eco2mix-mix-energetique-en</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Sherwood Botsford</h5>
+	<p>Overall, I agree with you. Off grid doesn&rsquo;t make sense for most people. As long as utilties have to &rsquo;net meter&rsquo; being grid connected makes more sense.</p>
+<p>One tech I expect to see fairly soon is some form of broadcast frequency standard. This can easily be piggy backed on the cell tower system, since their clocks are already based on the atomic clock time broadcast by GPS satellites. A simple receiver at each generation point not only receives a timing signal from the local tower, but also a broadcast text message telling the producers in that cell footprint, what phase to maintain relative to the time tick. (I doubt that local cell neighbourhoods would require different phasing from eachother for local production.)</p>
+<p>In this future utilities will split into two companies (already this is true in Alberta) Production companies and wire service companies. I pay 2 electric bills a month. A fixed fee for the wires that come to my farm, and a variable fee for the electricity. Currently the latter is 8c/kWh</p>
+<ol>
+<li>
+<p>Lithium batteries recycle well. While the first round requires mining, subsequent batteries build from recycled batteries should be substantially less energy intensive.</p>
+</li>
+<li>
+<p>Velkess has an interesting alternative to batteries, storing energy in flywheel rotating in vacuum. They are currently priced at $7500/15 kWh including inverters and transformers. (Maximum draw of 3kW) Like many technologies, I&rsquo;d expect the price to drop as companies get more practice at making them. The units are too bulky for cars, but for stationary storage they are an interesting prospect.</p>
+</li>
+<li>
+<p>For part of the off grid solution, energy can be stored thermally. About 1/3 of energy use is for building heating/cooling. This power can bypass storage and be used to run either electric heaters or a heat pump. A 4&rsquo; diameter by 8 foot tank of water stores a half million BTU with a 100F cycle temperature.</p>
+</li>
+<li>
+<p>while it won&rsquo;t make an immediate difference, there are other battery technologies on the horizon for stationary storage:</p>
+</li>
+</ol>
+<ul>
+<li>Sodium sulfur is made from cheap ingrediants. Currentaly about 300/kWh, but there is only one commercial supplier. They run hot: 300C and can burn violently. Probably not something you want in your garage, but they have potential for grid connected PV environments, either at the center of the grid, or at the distribution stations. These also would make sense at wind farms so that the wind farm can guarantee better levels of service, and give longer warnings.</li>
+<li>Organic flow batteries. Expensive vanadium is replaced with much cheaper organic molecules. Still on the workbench so far. Flow batteries separate the idea of power and capacity. The maximum power is determined by the size of the stack &ndash; where the reaction occurs. The capacity is determined by the solution storage tanks. Again, probably not for the home owner. Complex plumbing, pumps, wiring.</li>
+<li>FeSAlMg is another new tech. Energy density similar to Lion, with possible increases. Materials are cheap compared to Li, and not likely to become scarce.</li>
+<li>Aluminum ion batteries (carbon cathode) are coming out of Stanford U. Lots of potential.</li>
+</ul>
+<p>The off-grid house isn&rsquo;t ready for prime time just yet &ndash; not for most people. Tesla Power Walls may make sense for people who need some degree of backup power, but mostly those people will do better with a generator and use battery to bridge the time until the generator gets started.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="http://www.sciencedirect.com/science/article/pii/S0038092X14001935" target="_blank" >Domestic and overseas manufacturing scenarios of silicon-based photovoltaics: life cycle energy and environmental comparative analysis</a>. Dajun Yue, Fengqi You, Seth B. Darling, in Solar Energy, May 2014&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://web.mit.edu/ebm/www/Publications/Energy%20Payback%20IEEE%20ISSST%20FINAL.pdf" target="_blank" >Energy Payback for Energy Systems Ensembles During Growth</a> (PDF), Timothy Gutowski, Stanley Gershwin and Tonio Bounassisi, IEEE, International Symposium on Sustainable Systems and Technologies, Washington D.C., May 16-19, 2010&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>&ldquo;<a href="http://www.mdpi.com/1996-1073/3/3/462" target="_blank" >Current State of Development of Electricity-Generating Technologies: A Literature Review</a>&rdquo;, Manfred Lenzen, Energies, Volume 3, Issue 3, 2010.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>&ldquo;<a href="http://www.greentechmedia.com/articles/featured/Storage-Is-the-New-Solar-Will-Batteries-and-PV-Create-an-Unstoppable-Hybri" target="_blank" >Storage is the new solar: will batteries and PV create an unstoppable hybrid force?</a>&rdquo;,
+Stephen Lacey, Greentechmedia, 2015&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>&ldquo;<a href="http://www.greentechmedia.com/articles/read/where-and-when-customers-may-start-leaving-the-grid" target="_blank" >Report: Solar Paired with Storage is a &lsquo;Real, Near and Present&rsquo;
+Threat to Utilities</a>&rdquo;,
+Stephen Lacey, greentechmedia, 2014&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>&ldquo;<a href="http://www.abc.net.au/environment/articles/2014/05/01/3995957.htm" target="_blank" >Australia to pilot new power plan</a>&rdquo;,
+Gregg Borschmann, ABC, May 2014&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>&ldquo;<a href="http://regmedia.co.uk/2014/08/06/morgan_stanley_energy_storage_blue_paper_2014.pdf" target="_blank" >Solar Power &amp; Energy Storage: Policy Factors vs. Improving Economics</a>&rdquo;
+(PDF), Morgan Stanley Blue Paper, July 28, 2014&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>&ldquo;<a href="http://hardware.slashdot.org/story/15/05/01/1220207/tesla-announces-home-battery-system" target="_blank" >Tesla announces home battery system</a>&rdquo;,
+Slashdot, May 1, 2015&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>&ldquo;<a href="http://www.washingtonpost.com/national/health-science/utilities-sensing-threat-put-squeeze-on-booming-solar-roof-industry/2015/03/07/2d916f88-c1c9-11e4-ad5c-3b8ce89f1b89_story.html" target="_blank" >Utilities wage campaign against rooftop solar</a>&rdquo;,
+Joby Warrick, The Washington Post, March 2015&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>&ldquo;<a href="http://www.eei.org/ourissues/finance/Documents/disruptivechallenges.pdf" target="_blank" >Disruptive Challenges: Financial Implications and Strategic Responses to a Changing Retail Electric Business</a>&rdquo;
+(PDF), Peter Kind, Energy Infrastructure Advocates, Edison Electric Institute, January 2013&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>&ldquo;<a href="http://www.mendeley.com/research/life-cycle-assessment-study-of-a-42kwp-standalone-photovoltaic-system/" target="_blank" >Life cycle assessment study of a 4.2kWp stand-alone photovoltaic system&rdquo;, R. García, in &ldquo;solar energy</a>&rdquo;,
+september 2009.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>You could argue that you also need more battery storage, because there is a bigger chance of cloudy days. However, we assume battery capacity to remain the same.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>&ldquo;<a href="http://onlinelibrary.wiley.com/doi/10.1002/pip.774/pdf" target="_blank" >Optimal Sizing and Life Cycle Assessment of Residential Photovoltaic Energy Systems With Battery Storage</a>&rdquo;, A. Celik, in &ldquo;Progress in Photovoltaics: Research and Applications&rdquo;, 2008.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>&ldquo;<a href="http://www.projects.science.uu.nl/nws/publica/Publicaties1998/98053.pdf" target="_blank" >Energy pay-back time of photovoltaic energy systems: present status and prospects</a>&rdquo;,
+E.A. Alsema, in &ldquo;Proceedings of the 2nd World Conference and Exhibition on photovoltaics solar energy conversion&rdquo;, July 1998.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>&ldquo;<a href="http://www.nature.com/nchem/journal/v7/n1/full/nchem.2085.html" target="_blank" >Towards greener and more sustainable batteries for electrical energy storage</a>&rdquo;,
+D. Larcher and J.M. Tarascon, Nature Chemistry, November 2014&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>&ldquo;<a href="http://www2.epa.gov/sites/production/files/2014-01/documents/lithium_batteries_lca.pdf" target="_blank" >Application of Life-Cycle Assessment to Nanoscale Technology:
+Lithium-ion Batteries for Electric Vehicles</a>&rdquo;
+(PDF), Environmental Protection Agency (EPA), 2013&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>&ldquo;<a href="http://www.apmaths.uwo.ca/~mdavison/_library/natasha/batterytechnologies6.PDF" target="_blank" >Energy Analysis of Batteries in Photovoltaic systems. Part one (Performance and energy requirements)</a>&rdquo;
+(PDF) and &ldquo;<a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CCUQFjAA&amp;url=http%3A%2F%2Fwww.researchgate.net%2Fprofile%2FBjoern_Sanden%2Fpublication%2F223843791_Energy_analysis_of_batteries_in_photovoltaic_systems._Part_II_Energy_return_factors_and_overall_battery_efficiencies%2Flinks%2F02bfe512b207d0d347000000.pdf&amp;ei=IQBGVZ-BCZD3aqC_gKAI&amp;usg=AFQjCNG6QpCpI8h0PMc-XfC5HfF4-0pIKA&amp;sig2=gFGbOdmw_jQxG6jRirSMoQ&amp;bvm=bv.92291466,d.d2s&amp;cad=rja" target="_blank" >Part two (Energy Return Factors and Overall Battery Efficiencies)</a>&rdquo;
+(PDF). Energy Conversion and Management 46, 2005.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>The lifespan of the lithium-ion battery will probably be closer to 14-16 years (float charge lifespan) because of the shallow cycling assumption in the original LCA. However, since the assumed lifespan of 10 years for the lead-acid batteries is very optimistic, and because deep cycling is more common for household off-grid systems, we assume that no replacement of lithium-ion batteries is needed.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>&ldquo;<a href="http://www.slideshare.net/gregbriner/the-climate-change-mitigation-potential-of-the-solar-pv-industry-a-life-cycle-perspective" target="_blank" >The climate change mitigation potential of the solar PV industry: a life cycle perspective</a>&rdquo;,
+Greg Briner, 2009&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>&ldquo;<a href="http://www.mse.mtu.edu/%7Epearce/papers/2009%20Canada%20Climate%20Conf.pdf" target="_blank" >Optimizing Greenhouse Gas Mitigation Strategies to Suppress Energy Cannibalism</a>&rdquo;
+(PDF). J.M. Pearce. 2nd Climate Change Technology Conference, May 12-15,
+2009, Hamilton, Ontario, Canada.&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>&ldquo;<a href="http://qspace.library.queensu.ca/handle/1974/5436" target="_blank" >Towards Real Energy Economics: Energy Policy Driven by Life-Cycle Carbon Emission</a>&rdquo;, R. Kenny, C. Law, J.M. Pearce, Energy Policy 38, pp. 1969-1978, 2010&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>&ldquo;<a href="http://www.treehugger.com/cars/construction-tesla-5-billion-solar-powered-gigafactory-nevada-progressing-nicely.html" target="_blank" >Construction of Tesla&rsquo;s $5B solar-powered Gigafactory in Nevada is progressing nicely</a>&rdquo;,
+Michael Graham Richard, Treehugger 2014&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>&ldquo;<a href="http://www.treehugger.com/cars/teslas-5-billion-gigafactory-looks-even-cooler-expected-22000-jobs.html" target="_blank" >Tesla&rsquo;s $5bn Gigafactory looks even cooler than expected, will create 22,000
+jobs</a>&rdquo;,
+Michael Graham Richard, Treehugger 2015&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./tags/solar-power/" class="">Solar Power</a></span> 
+		        
+		           <span><a href="./tags/energy-storage/" class="">Energy Storage</a></span> 
+		        
+		           <span><a href="./tags/embodied-energy-of-renewable-power-plants/" class="">Embodied Energy of Renewable Power Plants</a></span> 
+		        
+		           <span><a href="./tags/electricity/" class="">Electricity</a></span> 
+		        
+		           <span><a href="./tags/off-the-grid/" class="">Off-The-Grid</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./2021/10/how-to-build-a-low-tech-solar-panel/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Build a Low-tech Solar Panel?</h3>
+		<p class="index-summary">George Cove, a forgotten solar power pioneer, may have built a highly efficient photovoltaic panel 40 years before Bell Labs engineers invented silicon cells. If proven to work, his design could lead to less complex and more sustainable solar panels.</p>
+		<time class="published">October 5, 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./2018/12/keeping-some-of-the-lights-on-redefining-energy-security/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/images/dithers/lighter_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Keeping Some of the Lights On: Redefining Energy Security</h3>
+		<p class="index-summary">To improve energy security, we need to make infrastructures less reliable.</p>
+		<time class="published">December 9, 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How (Not) to Run a Modern Society on Solar and Wind Power Alone</h3>
+		<p class="index-summary">Matching supply to demand at all times makes renewable power production a complex, slow, expensive and unsustainable undertaking.</p>
+		<time class="published">September 13, 2017</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./2016/05/how-to-get-your-apartment-off-the-grid/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2016/05/how-to-get-your-apartment-off-the-grid/images/dithers/solar-panels-window-sills_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Get Your Apartment Off the Grid</h3>
+		<p class="index-summary">Solar panels on window sills and balconies can supply more power than you would think.</p>
+		<time class="published">May 17, 2016</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="about">
+  About
+</a>
+    <a href="power">
+  Power
+</a>
+    <a href="about/team">
+  Colophon
+</a>
+    <a href="donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

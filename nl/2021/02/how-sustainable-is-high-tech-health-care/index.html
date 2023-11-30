@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hoe duurzaam is een hoogtechnologische gezondheidszorg? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Hoe duurzaam is een hoogtechnologische gezondheidszorg?" />
+<meta name="twitter:title" content="Hoe duurzaam is een hoogtechnologische gezondheidszorg?"/>
+
+<meta property="og:description" content="Kan de moderne gezondheidszorg koolstofneutraal worden zonder aan kwaliteit in te boeten?" />
+
+<meta name="twitter:description" content="Kan de moderne gezondheidszorg koolstofneutraal worden zonder aan kwaliteit in te boeten?"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./nl/2021/02/how-sustainable-is-high-tech-health-care/" />
+
+
+
+<meta property="og:image" itemprop="image" content="nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" />
+<meta property="og:image:secure_url" content="nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-15T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy Demand" />
+
+</head>
+<body id="hoe-duurzaam-is-een-hoogtechnologische-gezondheidszorg">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Hoe duurzaam is een hoogtechnologische gezondheidszorg?</h1>
+
+				<p class="summary">
+					Kan de moderne gezondheidszorg koolstofneutraal worden zonder aan kwaliteit in te boeten?
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">18 februari 2021</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="./nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="./2021/02/how-sustainable-is-high-tech-health-care/">en</a>
+						
+							<a href="./fr/2021/02/how-sustainable-is-high-tech-health-care/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" alt='De chirurgijn, een schilderij van David Teniers, jaren 1670.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/the-surgeon_hu7f84c852cd2818486870615a2cb3ee70_238940_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>De chirurgijn, een schilderij van David Teniers, jaren 1670.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="de-milieuvoetafdruk-van-de-gezondheidszorg">De milieuvoetafdruk van de gezondheidszorg</h2>
+<p>De gezondheidszorg is een van de belangrijkste economische sectoren in hoge-inkomenslanden, maar de milieuvoetafdruk ervan wordt maar zelden gerapporteerd of in overweging genomen. Het meeste wetenschappelijke onderzoek naar duurzaamheid in de gezondheidszorg is minder dan vijf jaar oud. Een studie uit 2019 berekende dat de sector goed is voor 2 tot 10% van de nationale koolstofuitstoot in de OESO-landen, China en India, met een gemiddeld aandeel van 5,5% in totaal. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>De gegevens hebben betrekking op het jaar 2014, toen de gezondheidszorg van al deze 36 landen samen verantwoordelijk was voor 1,6 gigaton broeikasgasemissies. Dit komt overeen met 4,4% van de totale wereldwijde uitstoot dat jaar (35,7 Gt) - bijna het dubbele van het aandeel van de luchtvaart. De VS heeft het meest koolstofintensieve gezondheidszorgsysteem ter wereld, goed voor 10% van de nationale emissies. Het veroorzaakt ook 9% van de nationale luchtvervuiling, 12% van de zure regen, en 10% van de smogvorming op nationaal niveau.</p>
+<p>De ecologische voetafdruk van de gezondheidszorg blijft toenemen. In de VS bijvoorbeeld is de uitstoot van broeikasgassen tussen 2003 en 2013 met 30% gestegen. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> De toename van de uitstoot gaat samen met een stijging van de uitgaven - de emissies worden vaak berekend op basis van de uitgaven. De nationale gezondheidsuitgaven in de VS als percentage van het Bruto Binnenlands Product (BBP) stegen van 3% in 1930, naar 5% in 1960, naar 10% in 1983, naar 15% in 2002, en naar 17,7% in 2019. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> In de EU zijn de uitgaven voor gezondheidszorg per hoofd van de bevolking tussen 2000 en 2018 meer dan verdubbeld, en de totale uitgaven bedragen nu 9,9% van het BBP. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<blockquote>
+<p>Als de hele wereld het huidige Amerikaanse gezondheidszorgsysteem zou kopiëren, zou de mondiale koolstofvoetafdruk van de gezondheidszorg bijna de helft van de totale wereldwijde uitstoot bedragen.</p>
+</blockquote>
+<p>De 36 landen waarvan de gezondheidszorgsystemen samen 4,4% van de wereldwijde uitstoot veroorzaken, tellen slechts 54% van de wereldbevolking. De overige 46% van de bevolking produceert weinig of geen emissies omdat zij geen toegang hebben tot gezondheidszorg. Als we de gezondheidszorg van OESO-China-India wereldwijd zouden uitbreiden, zou de uitstoot verdubbelen tot ongeveer 8% van het wereldwijde totaal. Bovendien zijn er zeer grote verschillen tussen deze 36 landen. Als de hele wereld het Amerikaanse gezondheidszorgsysteem zou kopiëren, zou de mondiale koolstofvoetafdruk van de gezondheidszorgsector ongeveer 16 Gt bedragen - bijna de helft van de totale uitstoot wereldwijd in 2014.</p>
+<h2 id="intense-spotlights-medische-apparatuur-met-hoog-vermogen">Intense spotlights, medische apparatuur met hoog vermogen</h2>
+<p>Wat maakt dat de moderne gezondheidszorg zo&rsquo;n grote ecologische voetafdruk heeftf? <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Om te beginnen zijn moderne ziekenhuizen grootverbruikers van energie, voornamelijk door het hoge stroomverbruik van medische apparatuur, verlichting, ventilatie en airconditioning. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup><sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> In operatiekamers is het hoge stroomverbruik vooral te wijten aan het gebruik van intense spotlights en krachtige ventilatiesystemen. Op intensive care-afdelingen en afdelingen voor diagnostische beeldvorming domineert medische apparatuur de stroombelasting. <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/operating-room_dithered.png" alt='Technologisch geavanceerde operatiekamer. iStock.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/operating-room_huf0e28cf846c6f167096c88f974a5e3d3_1731236_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/operating-room_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Technologisch geavanceerde operatiekamer. iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/MRI-scanner-3T_dithered.png" alt='Een MRI-scanner in Taipei, Taiwan (2006). Beeld: Kasuga Huang (CC BY-SA 3.0).' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/MRI-scanner-3T_huf9e3d860c26df325d30108cef7b03427_195573_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/MRI-scanner-3T_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Een MRI-scanner in Taipei, Taiwan (2006). Beeld: Kasuga Huang (CC BY-SA 3.0).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Zoals zovele andere sectoren in de moderne maatschappij is de gezondheidszorg afhankelijk geworden van allerlei soorten machines en apparaten. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Sommige van deze medische apparaten gebruiken zeer veel stroom. Een MRI-scanner bijvoorbeeld, een van de krachtigste technologieën voor diagnostische beeldvorming, kan evenveel elektriciteit verbruiken als meer dan 70 gemiddelde Europese huishoudens. Een studie uit 2020 berekende dat hightech medische diagnostische technologie (zowel MRI- als CT-scanners) verantwoordelijk was voor maar liefst 0,77% van de wereldwijde koolstofuitstoot in 2016. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>Het stroomverbruik van kleinere medische apparatuur is slecht onderzocht, maar uit een inventarisatie van twee Amerikaanse ziekenhuizen blijkt dat zij respectievelijk 14.648 en 7.372 energieverbruikende apparaten hebben, waarvan de infuuspompen alleen al samen meer elektriciteit verbruiken dan een MRI-scanner. <sup id="fnref1:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> De hoge dichtheid van medische apparatuur verhoogt ook het elektriciteitsverbruik van de airconditioning in ziekenhuizen. <sup id="fnref2:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h2 id="hulpbronnengebruik-in-de-toeleveringsketen">Hulpbronnengebruik in de toeleveringsketen</h2>
+<p>Nog meer energie - ongeveer 60% van het totaal - wordt indirect gebruikt in de toeleveringsketen. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref1:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>. Dit betreft de aanschaf van medische apparatuur, farmaceutica en andere medische producten.</p>
+<p>Om te beginnen moet het groeiende aantal medische hulpmiddelen dat in ziekenhuizen wordt gebruikt worden geproduceerd en op de markt worden gebracht. Hiervoor zijn activiteiten nodig zoals het delven van grondstoffen en de bouw en exploitatie van onderzoekslaboratoria, fabrieken en transportvoertuigen. Deze &ldquo;ingebedde energie&rdquo; van de toeleveringsketen van medische apparatuur is slechts fragmentarisch onderzocht. In een studie werd berekend dat de productie van twee MRI-scanners evenveel fossiele brandstoffen kost als de productie van een passagiersvliegtuig. De ingebedde energie bedraagt een derde van het totale energieverbruik van een MRI-scanner. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup></p>
+<p>De moderne gezondheidszorg is ook sterk afhankelijk van farmaceutische producten, die tussen 10 en 25% van de totale uitstoot van de gezondheidszorg voor hun rekening nemen, afhankelijk van het land. <sup id="fnref1:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Een studie uit 2019 wees uit dat de wereldwijde farmaceutische industrie meer broeikasgassen produceert dan de wereldwijde auto-industrie: 52 MtCO2 versus 46 MtCO2. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> Er zijn echter bijna geen gegevens over de milieuvoetafdruk van specifieke farmaceutische producten, omdat bedrijfsgeheimen wetenschappers ervan weerhouden levenscyclusanalyses te maken.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/pharma-lab_dithered.png" alt='Farmaceutisch productielaboratorium. Bron: iStock.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/pharma-lab_hud7157c85aacb3958788c28117ade2f62_1321010_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/pharma-lab_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Farmaceutisch productielaboratorium. Bron: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/gloves-production_dithered.png" alt='Rubber handschoenen productielijn. Bron: iStock.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/gloves-production_hube76377ea6bf020044a17244d5f19d1f_2121038_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/gloves-production_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Rubber handschoenen productielijn. Bron: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/mask-production_dithered.png" alt='Productielijn voor mondmaskers. Bron: iStock.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/mask-production_hu3dd7e78b0d2fc61458222eedaf80dcd2_1587190_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/mask-production_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Productielijn voor mondmaskers. Bron: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Wegwerpartikelen voor eenmalig gebruik zijn een andere bron van energiegebruik en vervuiling in de gezondheidszorg. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup><sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup><sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup><sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup><sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup><sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> Deze producten worden gedragen door medisch personeel en patiënten (mondmaskers, handschoenen, overschoenen, hoeden, overjassen). Handdoeken, wasbakken, gordijnen, steriele plastic verpakkingen, en gebruiksvoorwerpen zoals injectiespuiten, laryngoscopische handgrepen en mesjes, anesthesie-beademingscircuits, en zelfs chirurgische instrumenten worden eveneens voor eenmalig gebruik verstrekt. Deze wegwerpproducten worden aan ziekenhuizen geleverd in zogenaamde maatverpakkingen. Dit zijn sets van voorverpakte steriele producten voor elke specifieke medische ingreep. Zodra een verpakking is geopend, worden in principe alle artikelen weggegooid, ook als ze niet werden gebruikt.</p>
+<p>Wanneer deze praktijken worden bekritiseerd, is dat vaak wegens het afval dat zij veroorzaken - de gemiddelde patiënt in een ziekenhuis produceert minstens 10 kg afval per dag. <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> De milieuvoetafdruk wordt echter aanzienlijk groter als ook rekening wordt gehouden met de energie en het afval in de toeleveringsketen voor het maken van deze wegwerpproducten. Uit een onderzoek naar cataractchirurgie in het Verenigd Koninkrijk - cataract is wereldwijd de belangrijkste oorzaak van blindheid - blijkt dat de productie van wegwerpmaterialen meer dan de helft van de totale koolstofvoetafdruk van de procedure uitmaakt. <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<h2 id="anesthetica-en-vaccins">Anesthetica en vaccins</h2>
+<p>Ten slotte produceren sommige gespecialiseerde medische geneesmiddelen ook emissies. Inhalatie-anesthetica, die het centrale zenuwstelsel onderdrukken en essentiëel zijn bij chirurgische ingrepen, zijn krachtige broeikasgassen. Ze komen in de atmosfeer terecht nadat ze zijn ingeademd door de patiënt (en naar buiten worden afgevoerd via de hoogenergetische ventilatiesystemen van moderne operatiekamers). <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> Een volwassene van 70 kg een uur lang onder narcose houden, produceert tussen 25 kg (bij gebruik van isofluraan) en 60 kg (desfluraan) CO2-equivalenten. Dat komt overeen met de uitstoot van 200-500 km rijden in een gemiddelde Europese auto (121gCO2/km) (of ongeveer 4 uur rijden). <sup id="fnref2:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<p>Drukinhalatoren, die worden gebruikt om astma en chronische obstructieve longziekte te behandelen, stoten ook krachtige broeikasgassen uit. Wereldwijd worden jaarlijks ongeveer 800 miljoen drukinhalatoren vervaardigd, met een totale koolstofvoetafdruk die overeenkomt met de jaarlijkse uitstoot van meer dan 12 miljoen personenauto&rsquo;s. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup><sup id="fnref1:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> Vaccins zijn een ander belangrijk element van de moderne gezondheidszorg. Zij veroorzaken koolstofemissies, niet alleen door hun ontwikkeling en productie, maar ook door hun energie-intensieve distributie, die een speciale koudeketen omvat. Ik kon geen enkele verwijzing naar de milieuvoetafdruk van vaccins vinden.</p>
+<h2 id="koolstofvoetafdruk-van-medische-procedures">Koolstofvoetafdruk van medische procedures</h2>
+<p>Bij gezondheidszorg zijn vaak alle bovengenoemde emissiebronnen betrokken: medische apparatuur, farmaceutische producten en wegwerpmaterialen. Wanneer de emissies in ziekenhuizen en langs de toeleveringsketen worden gecombineerd, wordt het mogelijk om de milieuvoetafdruk van medische procedures te berekenen.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cardiac-surgery_dithered.png" alt='Operatiekamer in hartchirurgie, 2020. Bron: iStock.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/cardiac-surgery_hue5eb979a8d63e9eacee154ec171e9a06_1948462_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cardiac-surgery_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Operatiekamer in hartchirurgie, 2020. Bron: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In studies over cataractchirurgie en refluxbestrijdingschirurgie in het Verenigd Koninkrijk werd de koolstofvoetafdruk bijvoorbeeld geraamd op respectievelijk 182 kg en 1 ton emissies, wat overeenkomt met 1.517 km tot 8.333 km autorijden. <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup><sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> Nierdialyse, een behandeling om de nierfunctie te vervangen, veroorzaakt 1,8 tot 7,2 ton uitstoot per patiënt per jaar, wat overeenkomt met de uitstoot van 15.000 tot 60.000 km autorijden. <sup id="fnref1:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup><sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup></p>
+<h2 id="de-beperkingen-van-efficiëntie">De beperkingen van efficiëntie</h2>
+<p>Hoewel de gegevens over de milieuvoetafdruk van de gezondheidszorg nog onvolledig zijn, lijkt het vrij duidelijk dat de moderne gezondheidszorg niet verenigbaar is met een overgang naar een koolstofarme samenleving. De grote vraag is of dit al dan niet kan worden verholpen zonder het niveau van zorg, pijnbestrijding en levensduur te verlagen waaraan mensen in hoge-inkomensmaatschappijen gewend zijn geraakt.</p>
+<p>Veel inspanningen en studies op het gebied van duurzaamheid in de gezondheidszorg zijn erop gericht het energieverbruik en de emissies te verminderen zonder de kwaliteit van de medische behandelingen aan te tasten, en vaak wordt die doelstelling expliciet gemaakt. Zo schrijven de auteurs van een onderzoek naar de Oostenrijkse gezondheidszorg in 2020 dat het &ldquo;van cruciaal belang is te begrijpen hoe de gezondheidszorgsector zijn uitstoot kan verminderen zonder de kwaliteit van de dienstverlening te ondermijnen&rdquo;. <sup id="fnref2:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Elders schrijven onderzoekers dat &ldquo;elke oplossing die de milieueffecten zou verminderen en tegelijkertijd de prestaties zou verminderen, niet kan worden ingezet&rdquo;. <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
+<p>Als gevolg daarvan zijn veel onderzoekers geneigd zich te concentreren op het verbeteren van de koolstof- en energie-efficiëntie. Deze strategieën zijn erop gericht dezelfde &ldquo;prestaties&rdquo; of &ldquo;dienstverleningskwaliteit&rdquo; te leveren, maar met minder energie (dankzij energie-efficiëntere apparatuur), of met minder emissies (dankzij meer hernieuwbare energiebronnen). <sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup></p>
+<blockquote>
+<p>De kwaliteit van medische behandelingen blijft verbeteren, wat resulteert in extra energiegebruik dat de koolstof- of energiebesparingen tenietdoet die het resultaat zijn van efficiëntie.</p>
+</blockquote>
+<p>Het probleem is dat de kwaliteit van medische behandelingen <em>continu verbetert</em>, wat resulteert in extra energieverbruik dat de besparingen die voortvloeien uit koolstof- en energie-efficiëntie tenietdoet. In 2012 hebben onderzoekers bijvoorbeeld berekend dat MRI-scanners 10-20% energie-efficiënter kunnen worden gemaakt met relatief eenvoudige veranderingen in ontwerp en werking. <sup id="fnref1:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup> Sommige van de door hen voorgestelde veranderingen zijn nu in gebruik, maar het energieverbruik van MRI-scanners is niet gedaald, integendeel.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/medical-scientist_dithered.png" alt='Een medisch wetenschapper werkt aan hersentumor behandeling in een onderzoekscentrum. Bron: iStock.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/medical-scientist_hu85089eeb0610300b72563c70cb32b8b2_2027703_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/medical-scientist_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Een medisch wetenschapper werkt aan hersentumor behandeling in een onderzoekscentrum. Bron: iStock.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Een eerste reden is dat er nu MRI-scanners zijn met hogere veldsterkten (waardoor diagnostische beelden nauwkeuriger zijn) en met grotere openingen (waardoor het comfort van de patiënt wordt verbeterd en zwaarlijvige of zeer gespierde patiënten kunnen worden gescand). Deze innovaties hebben de kwaliteit van de zorg verbeterd, maar dit is ten koste gegaan van extra energieverbruik. In de studie van 2012 was het gemiddelde stroomverbruik per scan vóór de verbeteringen van de energie-efficiëntie 15 kWh. In een onderzoek uit 2020 werd een energieverbruik per scan gemeten van 17 kWh en 23,6 kWh voor een MRI-scanner met een veldsterkte van respectievelijk 1,5 en 3 Tesla. <sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup></p>
+<p>Ten tweede verhogen MRI-scanners met betere diagnostische mogelijkheden ook het energiegebruik op onverwachte manieren, omdat medische apparatuur, farmaceutica en behandelingen elkaar beïnvloeden. <sup id="fnref:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup> Zo stelden artsen vroeger een diagnose door middel van lichamelijk onderzoek en communicatie, en gebruikten zij alleen diagnostische diensten om de diagnose te bevestigen, indien nodig. Nu vinden diagnostische tests vooraf plaats en sturen ze het besluitvormingsproces, wat leidt tot meer tests en een hoger energieverbruik. De introductie van nieuwe geneesmiddelen kan ook leiden tot steeds energie-intensievere diagnostische praktijken. Zo worden bepaalde geneesmiddelen voor de behandeling van kanker nu ontworpen om een zeer specifiek tumorsubtype te behandelen, hetgeen meer en nauwkeuriger medische beeldvorming vereist om het tumorsubtype te identificeren. <sup id="fnref1:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup></p>
+<p>Het toevoegen van meer hernieuwbare energiebronnen zou de uitstoot van de gezondheidszorg zowel ter plaatse als in de hele toeleveringsketen mogelijk kunnen verlagen, maar aangezien het energiegebruik van medische behandelingen blijft toenemen, is deze uitkomst onwaarschijnlijk. Daarbij toont een snelle berekening aan dat, zelfs zonder verdere groei van het energiegebruik, een koolstofneutraal gezondheidszorgsysteem in de VS nu al de volledige productie van hernieuwbare energie in dat land zou opslokken - zon, wind, hydro-elektrisch, hout, geothermisch, biobrandstoffen, en afval. <sup id="fnref:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup> De uitdaging is slechts iets kleiner in andere landen met hoge inkomens. Tenslotte zou hernieuwbare energie niet alle milieuschade van de gezondheidssector oplossen, en evenmin alle koolstofemissies elimineren.</p>
+<h2 id="gezondheidszorg-wanneer-is-het-genoeg">Gezondheidszorg: wanneer is het genoeg?</h2>
+<p>Om de ecologische voetafdruk van de moderne gezondheidszorg te verkleinen, lijkt er maar één oplossing: vraagtekens zetten bij de tendens om steeds meer gebruik te maken van energie-intensieve technologieën en diensten. Hetzelfde geldt voor andere sectoren van de economie. <sup id="fnref1:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup>  Maar mensen die de charme en de reële voordelen zien van spaarzame en ouderwetse manieren van leven als het gaat om comfort of gemak, zijn niet noodzakelijk geneigd om dezelfde principes toe te passen op gezondheid en levensduur.</p>
+<p>Immers, het gezondheidsequivalent van langzamer reizen of thuis een extra trui dragen kan zijn dat men korter leeft, meer pijn lijdt, of minder mobiel is op oudere leeftijd. Als we bijvoorbeeld geen MRI-scanners meer zouden gebruiken, of alleen die met een veldsterkte tot 1,5 Tesla, zal de lagere diagnostische nauwkeurigheid ertoe leiden dat sommige vormen van kanker niet worden ontdekt, met lagere overlevingskansen voor kanker en een lagere gemiddelde levensverwachting tot gevolg. Althans, zo lijkt het.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/barber-surgeon_dithered.png" alt='Barbier-chirurgijn die een tand trekt, een schilderij van Adriaen van Ostade, 1630.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/barber-surgeon_hu4266a8a6313a066f8924c3a335af8e66_590160_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/barber-surgeon_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Barbier-chirurgijn die een tand trekt, een schilderij van Adriaen van Ostade, 1630.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Als de gezondheidszorg in een historische context wordt bekeken, lijkt het aanvankelijk duidelijk dat er een sterk verband bestaat tussen het gebruik van energie-intensieve medische technologie enerzijds en de gezondheid en de levensduur van een bevolking anderzijds. Zelfs als we minder dan een eeuw terugkijken, zien we dat de overlevingskansen voor allerlei ziekten veel lager waren, en dat de gemiddelde levensverwachting vandaag de dag (72,6 jaar) wereldwijd hoger is dan in eender welk land met een hoog inkomen in 1950.</p>
+<p>Ziekenhuizen gaan terug tot de Oudheid, maar zij boden slechts onderdak aan krankzinnigen of mensen die op hun dood wachtten. In de middeleeuwen werd er geopereerd bij de barbier, waar &ldquo;barbier-chirurgijnen&rdquo; bloed afnamen, tanden trokken en amputaties verrichtten, naast de meer gebruikelijke knip- en scheerbeurten. Ze brouwden hun eigen verdovingsmiddelen op basis van kruiden en alcohol, die net zo dodelijk konden zijn als de behandeling zelf. <sup id="fnref:36"><a href="#fn:36" class="footnote-ref" role="doc-noteref">36</a></sup> Een blik op de &ldquo;ontwikkelingslanden&rdquo; van vandaag lijkt ook te wijzen op een duidelijk verband tussen de uitstoot van gezondheidszorg enerzijds, die zeer bescheiden is, en de levensverwachting anderzijds, die 20 tot 30 jaar lager kan liggen dan die in landen met een hoog inkomen. <sup id="fnref:37"><a href="#fn:37" class="footnote-ref" role="doc-noteref">37</a></sup><sup id="fnref:38"><a href="#fn:38" class="footnote-ref" role="doc-noteref">38</a></sup><sup id="fnref:39"><a href="#fn:39" class="footnote-ref" role="doc-noteref">39</a></sup><sup id="fnref:40"><a href="#fn:40" class="footnote-ref" role="doc-noteref">40</a></sup><sup id="fnref:41"><a href="#fn:41" class="footnote-ref" role="doc-noteref">41</a></sup></p>
+<p>Als men echter dieper graaft, is het verband tussen energiegebruik en levensduur niet zo sterk als het lijkt. Dit wordt ondermeer bewezen door de VS, die de duurste en meest onduurzame gezondheidszorg ter wereld heeft, maar tegelijk op de <em>Health Care Access and Quality Index</em> (die de sterftecijfers meet van 32 doodsoorzaken die vermeden zouden kunnen worden door effectieve medische zorg) lang niet zo goed scoort als de meeste Europese landen. Amerikaanse burgers hebben ook een lagere levensverwachting dan Europese burgers. Het is dus duidelijk dat er ook andere factoren in het spel zijn.</p>
+<h2 id="weerstand-tegen-ziekten">Weerstand tegen ziekten</h2>
+<p>Om te beginnen is de kwaliteit van een gezondheidszorgsysteem lang niet de enige bepalende factor voor gezondheid en een lang leven. Hier heeft de geschiedenis ons een belangrijke les te leren. Medische kennis uit de Oudheid beschouwde gezondheid op een meer holistische manier en legde grote nadruk op het opbouwen van de inherente weerstand van het lichaam tegen ziekte. Hippocrates bijvoorbeeld, die vaak de vader van de Westerse geneeskunde wordt genoemd, schreef dieet, gymnastiek, lichaamsbeweging, massage, hydrotherapie en zwemmen in de zee voor. <sup id="fnref:42"><a href="#fn:42" class="footnote-ref" role="doc-noteref">42</a></sup></p>
+<p>Je zou kunnen aanvoeren dat onze voorouders geen andere keuze hadden dan zich te richten op het voorkomen van ziekte, omdat zij weinig behandelingen tot hun beschikking hadden. De wijsheid van hun aanpak is echter duidelijker dan ooit. De meeste patiënten in samenlevingen met hoge inkomens hebben medische behandeling nodig vanwege zogenaamde levensstijlziekten - ziekten die worden veroorzaakt door slechte of overmatige voeding, gebrek aan lichaamsbeweging, stress of misbruik van middelen (legale en illegale drugs). Typische gezondheidsrisico&rsquo;s zijn hart- en vaatziekten, diabetes type 2, depressie, zwaarlijvigheid, sommige soorten kanker, en een grotere vatbaarheid voor infectieziekten. De industriële samenleving heeft ons doeltreffende medische behandelingen gegeven, maar maakt ons tegelijk ook ziek.</p>
+<p>Dit betekent dat gezondheid en een lang leven op andere manieren kunnen worden bevorderd dan via een gezondheidszorg die steeds meer middelen vergt. Door de bredere determinanten van gezondheid en levensduur aan te pakken, zouden we een omschakeling kunnen maken van curatieve naar preventieve geneeskunde. <sup id="fnref3:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:43"><a href="#fn:43" class="footnote-ref" role="doc-noteref">43</a></sup> Bij preventieve geneeskunde gaat het er niet om dat de overheid ons zegt niet te roken (om vervolgens belastinggeld te innen op de verkoop van sigaretten). Het gaat veeleer om systemische veranderingen die verder gaan dan gedragsverandering.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cars-health_dithered.png" alt='Spitsuur in São Paulo, Brazilië, 2005. Publiek domein.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/cars-health_hub4743fca9fb4e497d49402ce72230b3a_130896_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/cars-health_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Spitsuur in São Paulo, Brazilië, 2005. Publiek domein.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Bijvoorbeeld een aanzienlijke vermindering van het autogebruik in onze samenleving zou verrassend veel gezondheidsvoordelen opleveren, waardoor er veel energie-intensieve medische behandelingen zouden kunnen worden vermeden. Het zou de schade aan de gezondheid door verkeersongevallen en door lucht- en geluidsvervuiling verminderen. Het zou mensen lichamelijk actiever maken (waardoor veel levensstijlziekten worden voorkomen). Het zou veel openbare ruimte vrijmaken voor mensen om samen te komen, voor kinderen om te spelen, en voor bomen om te groeien (allemaal belangrijke factoren voor de geestelijke gezondheid van een bevolking). Ten slotte kan het terugdringen van het autogebruik makkelijk meer broeikasgasemissies besparen dan het gezondheidszorgsysteem produceert.</p>
+<p>Overschakelen op een gezonder voedselproductiesysteem, de milieuschade door de chemische industrie aanpakken (denk aan <a href="https://www.apache.be/2022/09/16/3m-en-indaver-vergiftigen-vlaanderen-met-ultrakorte-pfas" target="_blank" >PFAS</a>), armoede en sociale ongelijkheid verminderen, kortere werktijden en zinvollere banen zijn andere voorbeelden van preventieve geneeskunde. De hogere levensverwachting van vandaag is lang niet alleen te danken aan betere gezondheidszorgsystemen. Wij hebben die voornamelijk ook gekregen dankzij beter onderwijs, betere sanitaire voorzieningen, veiligheids- en verkeersvoorschriften, welzijnssystemen, milieuwetgeving, misdaadbestrijding en een betrouwbaarder voedselvoorziening. De lage gemiddelde levensverwachting in arme landen is ook grotendeels aan deze factoren te wijten.</p>
+<p>Preventieve geneeskunde zou ook de gezondheidsschade verminderen die door de medische behandelingen zelf wordt aangericht. Het gaat hierbij om gezondheidsschade ten gevolge van medische fouten of bijwerkingen van geneesmiddelen en, meer indirect, door de vervuiling die de sector van de gezondheidszorg veroorzaakt. Luchtverontreiniging door de gezondheidszorg draagt bijvoorbeeld bij tot de prevalentie van astma, wat op zijn beurt de vraag naar gezondheidszorg doet toenemen. Klimaatverandering en andere milieuschade bedreigen jongere en toekomstige generaties met nog grotere gevolgen voor de gezondheid, bijvoorbeeld door mislukte oogsten, verspreiding van ziekten, extreme weersomstandigheden en natuurrampen. <sup id="fnref:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup></p>
+<h2 id="de-wet-van-de-afnemende-meeropbrengst">De wet van de afnemende meeropbrengst</h2>
+<p>Ten tweede leiden medische praktijken met een hoger energieverbruik binnen de gezondheidszorg niet noodzakelijkerwijs tot een evenredige toename van de gezondheidsresultaten. Net als zoveel andere sectoren in de industriële samenleving is de curatieve gezondheidszorg kwetsbaar voor de wet van de afnemende meeropbrengst: het kost steeds meer energie om steeds kleinere verbeteringen in de kwaliteit van de zorg te bereiken. Omgekeerd betekent dit dat een relatief kleine afname in de kwaliteit of de specificaties van medische behandelingen een vergelijkbaar grote afname in het gebruik van hulpbronnen en emissies kan opleveren.</p>
+<p>Infectiebestrijding is een goed voorbeeld. De ontwikkeling van algemene anesthesie in de jaren 1840 maakte chirurgie mogelijk, maar in die tijd raakte meer dan 90% van de operatiewonden geïnfecteerd, vaak met de dood tot gevolg. <sup id="fnref:45"><a href="#fn:45" class="footnote-ref" role="doc-noteref">45</a></sup> De eerste grote daling van het infectiepercentage volgde op antiseptische praktijken (1880-1900), en de tweede volgde op de invoering van antibiotica (1945-1970). Tegen 1985 was het totale infectiepercentage gedaald tot ongeveer 5%. Sindsdien zijn veel middelen geïnvesteerd om stapsgewijs te komen tot 100% steriliteit, voornamelijk door herbruikbare spullen te vervangen door wegwerpprodukten voor eenmalig gebruik. <sup id="fnref1:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/reuse-surgical-instruments_dithered.png" alt='Operatiezaalverpleegster maakt instrumenten klaar voor een operatie in het 3rd Station Hospital, Korea. 1951. Bron: US National Library of Medicine.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/reuse-surgical-instruments_hu5426b3fd6613f17ea5d37bc35e1031fc_932595_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/reuse-surgical-instruments_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Operatiezaalverpleegster maakt instrumenten klaar voor een operatie in het 3rd Station Hospital, Korea. 1951. Bron: US National Library of Medicine.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Indien goed ontsmet, brengen herbruikbare instrumenten geen verhoogd infectierisico met zich mee, maar kruisbesmetting tussen patiënten gebeurt soms per ongeluk. Toch hebben sommige wetenschappers gepleit voor een terugkeer naar herbruikbare producten, die in de meeste gevallen een veel kleinere ecologische voetafdruk hebben. Bijvoorbeeld het gebruik van herbruikbare handgrepen voor laryngoscopen produceert 16-25 keer minder broeikasgassen dan wegwerphandgrepen voor eenmalig gebruik. <sup id="fnref1:45"><a href="#fn:45" class="footnote-ref" role="doc-noteref">45</a></sup>. De onderzoekers geven toe dat hun aanpak kan leiden tot een toename van het aantal sterfgevallen door chirurgische infecties. Maar zij stellen dat de gezondheidsschade veroorzaakt door de productie van wegwerpartikelen voor eenmalig gebruik nog veel groter is.</p>
+<blockquote>
+<p>Vergelijkingen van cataractchirurgie in het VK en in India hebben aangetoond dat dezelfde behandeling in het VK slechts 5% van de emissies en 6% van het vaste afval oplevert.</p>
+</blockquote>
+<p>Als het gaat om het maximaliseren van het rendement, kunnen minder welvarende samenlevingen ons een paar lessen leren. Uit vergelijkingen van staaroperaties in het VK en in India is gebleken dat dezelfde behandeling (phacoemulsificatie) in de Indiase Aravind-oogklinieken veel goedkoper is en slechts 5% van de emissies en 6% van het vaste afval in het VK oplevert. Dit komt hoofdzakelijk doordat de Indiase chirurgen zoveel mogelijk benodigdheden, hulpmiddelen en geneesmiddelen hergebruiken bij zoveel mogelijk patiënten. <sup id="fnref2:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup><sup id="fnref:46"><a href="#fn:46" class="footnote-ref" role="doc-noteref">46</a></sup><sup id="fnref:47"><a href="#fn:47" class="footnote-ref" role="doc-noteref">47</a></sup><sup id="fnref:48"><a href="#fn:48" class="footnote-ref" role="doc-noteref">48</a></sup><sup id="fnref:49"><a href="#fn:49" class="footnote-ref" role="doc-noteref">49</a></sup> Bovendien gebruiken zij lokaal vervaardigde producten, implantaten en geneesmiddelen, en passen zij een dubbel bed-systeem toe waarbij een patiënt wordt geopereerd terwijl een andere in het bed ernaast wordt gepositioneerd en voorbereid.</p>
+<p>Hoewel deze praktijken indruisen tegen de voorschriften inzake infectiebestrijding in hoge-inkomenslanden, levert cataractchirurgie in India vergelijkbare of betere resultaten op en veroorzaakt zij niet meer infecties dan in het VK of de VS. Het is dan ook heel goed mogelijk dat de wet van de afnemende meeropbrengst zijn ultieme grens heeft bereikt, in de zin dat een dure en energie-intensieve medische praktijk geen enkel gezondheidsvoordeel lijkt op te leveren. De Indiase oogklinieken tonen aan dat een doeltreffend zorgmodel mogelijk is zonder dure en schadelijke producten en middelen. Medische innovatie kan plaatsvinden zonder nieuwe technologie.</p>
+<h2 id="gedreven-door-winst">Gedreven door winst</h2>
+<p>De wet van de afnemende meeropbrengst en de focus op curatieve geneeskunde zijn beide geworteld in het feit dat medische innovatie in de eerste plaats wordt gedreven door winst. <sup id="fnref:50"><a href="#fn:50" class="footnote-ref" role="doc-noteref">50</a></sup><sup id="fnref:51"><a href="#fn:51" class="footnote-ref" role="doc-noteref">51</a></sup> Bedrijven die medische apparatuur, farmaceutische producten en andere producten voor de gezondheidszorg ontwikkelen en verkopen, hebben niets te winnen of te verdienen als de vraag naar nieuwe curatieve technologieën en producten voor de gezondheidszorg afneemt, of als medische technologieën zouden worden beoordeeld in relatie tot hun gebruik van grondstoffen. De medische industrie wil - logischerwijze - de verkoop van haar produkten maximaliseren, en heeft enorme marketing budgetten en lobby macht tot haar beschikking om dat doel te bereiken. <sup id="fnref:52"><a href="#fn:52" class="footnote-ref" role="doc-noteref">52</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/healthcare-1910s_dithered.png" alt='King George Militair Hospitaal, elektrische behandeling en röntgenkamer. 1915. Bron: US National Library of Medicine.' data-original="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/healthcare-1910s_hu7c95c707655e1ff6dbd5cf614147a41c_931512_800x800_fit_q90_h2_box.webp" data-dither="/nl/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/healthcare-1910s_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>King George Militair Hospitaal, elektrische behandeling en röntgenkamer. 1915. Bron: US National Library of Medicine.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De WHO schat dat 20-40% van de uitgaven voor gezondheidszorg wordt verspild, en stelt dat &ldquo;de kosteneffectiviteit, de werkelijke behoefte en het waarschijnlijke nut van veel innovatieve technologieën twijfelachtig zijn&rdquo;. <sup id="fnref1:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup><sup id="fnref1:37"><a href="#fn:37" class="footnote-ref" role="doc-noteref">37</a></sup> Een groeiend aantal wetenschappelijke studies toont aan in welke mate patiënten in hoge-inkomenslanden worden &ldquo;overgedoseerd, overbehandeld en overgediagnosticeerd&rdquo;. <sup id="fnref2:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup><sup id="fnref1:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<p>Niets van dit alles is onvermijdelijk. Een modern gezondheidszorgsysteem zou ook in een andere economische context kunnen werken. Sommigen hebben bijvoorbeeld de <em>open source</em> ontwikkeling van medische apparatuur en farmaceutische producten voorgesteld, waarbij medische technologie een gemeengoed zou worden. Het verschuiven van de belastingdruk van arbeid naar grondstoffenverbruik zou een ander deel van de oplossing kunnen zijn. In hoge-inkomenslanden dienen medische apparatuur, farmaceutica en wegwerpproducten gedeeltelijk om de dure menselijke arbeidskrachten in de gezondheidszorg te verminderen.</p>
+<h2 id="leeftijd-en-duurzaamheid">Leeftijd en duurzaamheid</h2>
+<p>Op basis van de fragmentarische gegevens die beschikbaar zijn, lijkt het waarschijnlijk dat het gebruik van grondstoffen door moderne gezondheidszorgsystemen aanzienlijk kan worden verminderd, zonder ons terug te brengen naar de barbier-chirurgijnen van de Middeleeuwen. Een gezondheidszorg die meer gericht is op preventieve geneeskunde, en die buiten de logica van de markt opereert, zou de uitstoot kunnen verminderen zonder de gezondheid negatief te beïnvloeden, misschien zelfs verbeteren.</p>
+<blockquote>
+<p>Naarmate medische behandelingen meer en meer grondstoffen vergen, groeit de kans dat de schade van een behandeling voor de volksgezondheid groter is dan de individuele winst van een patiënt</p>
+</blockquote>
+<p>In het andere geval wijst de wet van de afnemende meeropbrengsten op mogelijkheden om de milieuvoetafdruk van gezondheidszorgdiensten te verkleinen. Als bijvoorbeeld de milieuvoetafdruk van de gezondheidszorg gehalveerd zou worden, is het zeer onwaarschijnlijk dat de levensverwachting evenredig zou dalen. Bijna de helft van de levenslange uitgaven voor gezondheidszorg - en dus van het energieverbruik en de emissies - gebeurt in de laatste levensfase (+65 jaar). Voor mensen die 85 jaar oud worden, zal meer dan een derde van hun levenslange uitgaven in de resterende jaren ontstaan. <sup id="fnref:53"><a href="#fn:53" class="footnote-ref" role="doc-noteref">53</a></sup>
+Vooral in de laatste levensmaanden nemen de behandelingen enorm toe.</p>
+<p>Pleiten voor een kortere gemiddelde levensverwachting, ook al gaat het om een zeer bescheiden daling, klinkt zeer problematisch. Het onderwerp vermijden is echter net zo problematisch. Vanwege de enorme (en nog steeds groeiende) ecologische voetafdruk van de moderne gezondheidszorg, gaat de gezondheid en levensduur van vandaag namelijk ten koste van de gezondheid en levensduur van jongere en toekomstige generaties, die geen stem hebben in dit debat. <sup id="fnref3:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup></p>
+<p>Als we vandaag één persoon genezen, ten koste van het ziek maken van andere mensen morgen, wordt de gezondheidszorg contra-productief. Gezondheid is niet alleen een privé-goed maar ook een openbaar goed, en naarmate medische behandelingen steeds meer middelen vergen, groeit de kans dat de schade van een behandeling voor de volksgezondheid groter is dan de individuele winst voot een patiënt.</p>
+<p>Met dank aan Elizabeth Shove.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Pichler, Peter-Paul, et al. &ldquo;International comparison of health care carbon footprints.&rdquo; Environmental Research Letters 14.6 (2019): 064004. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ab19e1/pdf" target="_blank" >https://iopscience.iop.org/article/10.1088/1748-9326/ab19e1/pdf</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Er zijn nationale ramingen van broeikasgasemissies in de gezondheidszorg uitgevoerd voor het VK (2009), de VS (2009 &amp; 2016), Zweden (2017), Australië (2018), Canada (2018), China (2019), Japan (2020) en Oostenrijk (2020). Voor een overzicht, zie <sup id="fnref4:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>. Omdat elke studie zijn eigen methodologie heeft, zijn de resultaten echter niet perfect vergelijkbaar. Daarom citeer ik deze bron, omdat die vergelijkbare ramingen geeft.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Eckelman, Matthew J., and Jodi Sherman. &ldquo;Environmental impacts of the US health care system and effects on public health.&rdquo; PloS one 11.6 (2016): e0157014. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157014" target="_blank" >https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157014</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>US National Health Expenditure Data. Centers for Medicare &amp; Medicaid Services. <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical" target="_blank" >https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Tainter, Joseph. The collapse of complex societies. Cambridge university press, 1988. Page 102 &amp; 103.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Current healthcare expenditure, 2012-2017, Eurostat. Current health expenditure per capita (current US$) - European Union, World Bank. Current health expenditure per capita, PPP (current international $) - European Union, World Bank. Health spending, OECD.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>In wat volgt negeer ik het gebruik van hulpbronnen en de emissies die worden veroorzaakt door het vervoer van en naar zorginstellingen, alsook het gebruik van hulpbronnen en de emissies die worden veroorzaakt door de bouw van de zorginstellingen zelf.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Onderzoek in verschillende landen heeft een elektriciteitsverbruik van 130 tot 280 kilowattuur per vierkante meter per jaar aangetoond, wat neerkomt op ongeveer 50% van het totale energieverbruik van gebouwen ter plaatse. [11-12] Ter vergelijking: het elektriciteitsgebruik in Europese huishoudens is gemiddeld 70 kWh/m2/jaar, en de totale energievraag wordt gedomineerd door verwarming, niet door elektriciteit. Volgens een studie uit 2016, waarvoor wetenschappers stroomgegevens verzamelden over een periode van 18 maanden in een Duits ziekenhuis, hebben operatiekamers het hoogste elektriciteitsgebruik (438 kWh/m2/jaar), gevolgd door intensive care units (135 kWh/m2/jaar). [9]&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Christiansen, Nils, Martin Kaltschmitt, and Frank Dzukowski. &ldquo;Electrical energy consumption and utilization time analysis of hospital departments and large scale medical equipment.&rdquo; Energy and Buildings 131 (2016): 172-183.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Wu, Rui. &ldquo;The carbon footprint of the Chinese health-care system: an environmentally extended input–output and structural path analysis study.&rdquo; The Lancet Planetary Health 3.10 (2019): e413-e419. <a href="https://www.sciencedirect.com/science/article/pii/S2542519619301925" target="_blank" >https://www.sciencedirect.com/science/article/pii/S2542519619301925</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Bawaneh, Khaled, et al. &ldquo;Energy consumption analysis and characterization of healthcare facilities in the United States.&rdquo; Energies 12.19 (2019): 3775. <a href="https://www.mdpi.com/1996-1073/12/19/3775/pdf" target="_blank" >https://www.mdpi.com/1996-1073/12/19/3775/pdf</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Rohde, Tarald, and Robert Martinez. &ldquo;Equipment and energy usage in a large teaching hospital in Norway.&rdquo; Journal of healthcare engineering 6 (2015). <a href="http://downloads.hindawi.com/journals/jhe/2015/231507.pdf" target="_blank" >http://downloads.hindawi.com/journals/jhe/2015/231507.pdf</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Black, Douglas R., et al. &ldquo;Evaluation of miscellaneous and electronic device energy use in hospitals.&rdquo; World Review of Science, Technology and Sustainable Development 10.1-2-3 (2013): 113-128. <a href="https://www.osti.gov/servlets/purl/1172701" target="_blank" >https://www.osti.gov/servlets/purl/1172701</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Picano, Eugenio. &ldquo;Environmental sustainability of medical imaging.&rdquo; Acta Cardiologica (2020): 1-5. <a href="https://www.tandfonline.com/doi/abs/10.1080/00015385.2020.1815985" target="_blank" >https://www.tandfonline.com/doi/abs/10.1080/00015385.2020.1815985</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Sherman, Jodi D., et al. &ldquo;The Green Print: Advancement of Environmental Sustainability in Healthcare.&rdquo; Resources, Conservation and Recycling 161 (2020): 104882. <a href="https://www.researchgate.net/profile/Brett_Duane/publication/343137350_The_Green_Print_Advancement_of_Environmental_Sustainability_in_Healthcare/links/5f216962299bf134048f8960/The-Green-Print-Advancement-of-Environmental-Sustainability-in-Healthcare.pdf" target="_blank" >https://www.researchgate.net/profile/Brett_Duane/publication/343137350_The_Green_Print_Advancement_of_Environmental_Sustainability_in_Healthcare/links/5f216962299bf134048f8960/The-Green-Print-Advancement-of-Environmental-Sustainability-in-Healthcare.pdf</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Martin, Marisa, et al. &ldquo;Environmental impacts of abdominal imaging: a pilot investigation.&rdquo; Journal of the American College of Radiology 15.10 (2018): 1385-1393. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1546144018308639" target="_blank" >https://www.sciencedirect.com/science/article/abs/pii/S1546144018308639</a>. The researchers write that “when production and use phases are combined, the total energy consumption of MRI (&gt;309 MJ/examination, abdominal scan, 1.5 Tesla) is comparable with cooling a three-bedroom house with central air-conditioning for a day”.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Weisz, Ulli, et al. &ldquo;Carbon emission trends and sustainability options in Austrian health care.&rdquo; Resources, Conservation and Recycling 160 (2020): 104862.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Belkhir, Lotfi, and Ahmed Elmeligi. &ldquo;Carbon footprint of the global pharmaceutical industry and relative impact of its major players.&rdquo; Journal of Cleaner Production 214 (2019): 185-194. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0959652618336084" target="_blank" >https://www.sciencedirect.com/science/article/abs/pii/S0959652618336084</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Laufman, Harold, Luther Riley, and Barry Badner. &ldquo;Use of disposable products in surgical practice.&rdquo; Archives of Surgery 111.1 (1976): 20-26. <a href="https://jamanetwork.com/journals/jamasurgery/article-abstract/581229" target="_blank" >https://jamanetwork.com/journals/jamasurgery/article-abstract/581229</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Gilden, Daniel J., K. N. Scissors, and J. B. Reuler. &ldquo;Disposable products in the hospital waste stream.&rdquo; Western journal of medicine 156.3 (1992): 269. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1003232/pdf/westjmed00091-0045.pdf" target="_blank" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1003232/pdf/westjmed00091-0045.pdf</a>&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Sherman, Jodi D., and Harriet W. Hopf. &ldquo;Balancing infection control and environmental protection as a matter of patient safety: the case of laryngoscope handles.&rdquo; Anesthesia &amp; Analgesia 127.2 (2018): 576-579. <a href="https://www.researchgate.net/profile/Jodi_Sherman/publication/322407715_Balancing_Infection_Control_and_Environmental_Protection_as_a_Matter_of_Patient_Safety_The_Case_of_Laryngoscope_Handles/links/5a82ba12a6fdcc6f3eadcfab/Balancing-Infection-Control-and-Environmental-Protection-as-a-Matter-of-Patient-Safety-The-Case-of-Laryngoscope-Handles.pdf" target="_blank" >https://www.researchgate.net/profile/Jodi_Sherman/publication/322407715_Balancing_Infection_Control_and_Environmental_Protection_as_a_Matter_of_Patient_Safety_The_Case_of_Laryngoscope_Handles/links/5a82ba12a6fdcc6f3eadcfab/Balancing-Infection-Control-and-Environmental-Protection-as-a-Matter-of-Patient-Safety-The-Case-of-Laryngoscope-Handles.pdf</a>&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Thiel, Cassandra Lee, et al. &ldquo;Life cycle assessment of medical procedures: Vaginal and cesarean section births.&rdquo; 2012 IEEE International Symposium on Sustainable Systems and Technology (ISSST). IEEE, 2012.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Campion, Nicole, et al. &ldquo;Sustainable healthcare and environmental life-cycle impacts of disposable supplies: a focus on disposable custom packs.&rdquo; Journal of Cleaner Production 94 (2015): 46-55.&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>“Reusables, Disposables each play a role in preventing cross-contamination”, Elizabeth Srejic, Infection Control Today, April 2016&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>Sustainability roadmap for hospitals, American Association of Hospitals. <a href="http://www.sustainabilityroadmap.org/topics/waste.shtml#.YCsEOXyYXWc" target="_blank" >http://www.sustainabilityroadmap.org/topics/waste.shtml#.YCsEOXyYXWc</a>.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p>Thiel, Cassandra L., et al. &ldquo;Cataract surgery and environmental sustainability: waste and lifecycle assessment of phacoemulsification at a private healthcare facility.&rdquo; Journal of Cataract &amp; Refractive Surgery 43.11 (2017): 1391-1398. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5728421/" target="_blank" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5728421/</a>&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p>Vollmer, Martin K., et al. &ldquo;Modern inhalation anesthetics: potent greenhouse gases in the global atmosphere.&rdquo; Geophysical Research Letters 42.5 (2015): 1606-1611. <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL062785" target="_blank" >https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL062785</a>&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28">
+<p>Salas, Renee N., et al. &ldquo;A pathway to net zero emissions for healthcare.&rdquo; bmj 371 (2020).&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29">
+<p>Brown, Lawrence H., et al. &ldquo;Estimating the life cycle greenhouse gas emissions of Australian ambulance services.&rdquo; Journal of Cleaner Production 37 (2012): 135-141.&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30">
+<p>Connor, A., R. Lillywhite, and M. W. Cooke. &ldquo;The carbon footprint of a renal service in the United Kingdom.&rdquo; QJM: An International Journal of Medicine 103.12 (2010): 965-975. <a href="https://academic.oup.com/qjmed/article/103/12/965/1584174" target="_blank" >https://academic.oup.com/qjmed/article/103/12/965/1584174</a>&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31">
+<p>Herrmann, C., and A. Rock. &ldquo;Magnetic resonance equipment (MRI)–Study on the potential for environmental improvement by the aspect of energy efficiency.&rdquo; PE INTERNATIONAL AG, Report (2012).&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32">
+<p>Shove, Elizabeth. &ldquo;What is wrong with energy efficiency?.&rdquo; Building Research &amp; Information 46.7 (2018): 779-789. <a href="https://www.tandfonline.com/doi/pdf/10.1080/09613218.2017.1361746" target="_blank" >https://www.tandfonline.com/doi/pdf/10.1080/09613218.2017.1361746</a>&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33">
+<p>Heye, Tobias, et al. &ldquo;The energy consumption of radiology: energy-and cost-saving opportunities for CT and MRI operation.&rdquo; Radiology 295.3 (2020): 593-605. <a href="https://pubmed.ncbi.nlm.nih.gov/32208096/" target="_blank" >https://pubmed.ncbi.nlm.nih.gov/32208096/</a>&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:34">
+<p>Blue, Stanley. &ldquo;Reducing demand for energy in hospitals: opportunities for and limits to temporal coordination.&rdquo; Demanding Energy. Palgrave Macmillan, Cham, 2018. 313-337.&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:35">
+<p><a href="https://www.eia.gov/tools/faqs/faq.php?id=92&amp;t=4" target="_blank" >https://www.eia.gov/tools/faqs/faq.php?id=92&t=4</a>&#160;<a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:36">
+<p>Duffin, Jacalyn. History of medicine: a scandalously short introduction. University of Toronto Press, 2010.&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:37">
+<p>WHO compendium of innovative health technologies for low-resource settings, WHO; 2016-17. WHO, 2018. <a href="https://www.who.int/medical_devices/publications/compendium_2016_2017/en/" target="_blank" >https://www.who.int/medical_devices/publications/compendium_2016_2017/en/</a>&#160;<a href="#fnref:37" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:37" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:37" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:38">
+<p>Medical devices: managing the mismatch: an outcome of the priority medical devices project: methodology briefing paper, WHO, 2010. <a href="https://apps.who.int/iris/handle/10665/70491" target="_blank" >https://apps.who.int/iris/handle/10665/70491</a>&#160;<a href="#fnref:38" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:39">
+<p>Global Atlas of Medical Devices, WHO, 2017. <a href="https://www.who.int/medical_devices/publications/global_atlas_meddev2017/en/" target="_blank" >https://www.who.int/medical_devices/publications/global_atlas_meddev2017/en/</a>&#160;<a href="#fnref:39" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:40">
+<p>Page, Brandi R., et al. &ldquo;Cobalt, linac, or other: what is the best solution for radiation therapy in developing countries?.&rdquo; International Journal of Radiation Oncology* Biology* Physics89.3 (2014): 476-480.&#160;<a href="#fnref:40" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:41">
+<p>In een enquête onder chirurgen in 30 Afrikaanse landen meldde 48% ten minste wekelijks stroomuitval, 29% had geopereerd met alleen mobiele telefoonverlichting, en 19% had als gevolg daarvan slechte chirurgische resultaten ondervonden. [28]&#160;<a href="#fnref:41" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:42">
+<p>Parker, Steve. Medicine: The Definitive Illustrated History. DK Publishing, 2016.&#160;<a href="#fnref:42" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:43">
+<p>Hall, Peter A., and Michèle Lamont, eds. Successful societies: How institutions and culture affect health. Cambridge University Press, 2009.&#160;<a href="#fnref:43" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:44">
+<p>Borowy, Iris, and Jean-Louis Aillon. &ldquo;Sustainable health and degrowth: Health, health care and society beyond the growth paradigm.&rdquo; Social Theory &amp; Health 15.3 (2017): 346-368.&#160;<a href="#fnref:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:45">
+<p>Sherman, Jodi D., and Harriet W. Hopf. &ldquo;Balancing infection control and environmental protection as a matter of patient safety: the case of laryngoscope handles.&rdquo; Anesthesia &amp; Analgesia 127.2 (2018): 576-579.&#160;<a href="#fnref:45" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:45" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:46">
+<p>Steyn, A., et al. &ldquo;Frugal innovation for global surgery: leveraging lessons from low-and middle-income countries to optimise resource use and promote value-based care.&rdquo; The Bulletin of the Royal College of Surgeons of England 102.5 (2020): 198-200. <a href="https://publishing.rcseng.ac.uk/doi/pdf/10.1308/rcsbull.2020.150" target="_blank" >https://publishing.rcseng.ac.uk/doi/pdf/10.1308/rcsbull.2020.150</a>&#160;<a href="#fnref:46" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:47">
+<p>Haripriya, Aravind, David F. Chang, and Ravilla D. Ravindran. &ldquo;Endophthalmitis reduction with intracameral moxifloxacin in eyes with and without surgical complications: Results from 2 million consecutive cataract surgeries.&rdquo; Journal of Cataract &amp; Refractive Surgery 45.9 (2019): 1226-1233. <a href="https://www.aurolab.com/images/JCRS%202%20million.pdf" target="_blank" >https://www.aurolab.com/images/JCRS%202%20million.pdf</a>&#160;<a href="#fnref:47" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:48">
+<p>Venkatesh, Rengaraj, et al. &ldquo;Carbon footprint and cost–effectiveness of cataract surgery.&rdquo; Current opinion in ophthalmology 27.1 (2016): 82-88.&#160;<a href="#fnref:48" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:49">
+<p>Thiel, Cassandra L., et al. &ldquo;Utilizing off-the-shelf LCA methods to develop a ‘triple bottom line’auditing tool for global cataract surgical services.&rdquo; Resources, Conservation and Recycling 158 (2020): 104805.&#160;<a href="#fnref:49" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:50">
+<p>Relman, Arnold S. &ldquo;The new medical-industrial complex.&rdquo; New England Journal of Medicine 303.17 (1980): 963-970. <a href="https://www.nejm.org/doi/full/10.1056/NEJM198010233031703" target="_blank" >https://www.nejm.org/doi/full/10.1056/NEJM198010233031703</a>&#160;<a href="#fnref:50" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:51">
+<p>Smith, Richard. &ldquo;Limits to medicine. Medical nemesis: the expropriation of health.&rdquo; Journal of Epidemiology &amp; Community Health 57.12 (2003): 928-928. <a href="https://jech.bmj.com/content/57/12/928" target="_blank" >https://jech.bmj.com/content/57/12/928</a>&#160;<a href="#fnref:51" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:52">
+<p>In de gezondheidszorg is er een dunne lijn tussen marketing en corruptie, vooral wanneer het doelpubliek medisch personeel is dat voordeel kan halen uit het gebruik of het voorschrijven van een medisch hulpmiddel of geneesmiddel, of wanneer regelgevende instanties worden beïnvloed om praktijken te vergemakkelijken die de winst verhogen. Transparancy International plaatst de aankoop van geneesmiddelen en medische apparatuur op de vierde plaats op een lijst van zeven processen die een hoog corruptierisico inhouden, en noemt het probleem &ldquo;wijdverbreid in alle landen&rdquo;. <sup id="fnref2:37"><a href="#fn:37" class="footnote-ref" role="doc-noteref">37</a></sup>&#160;<a href="#fnref:52" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:53">
+<p>Alemayehu, Berhanu, and Kenneth E. Warner. &ldquo;The lifetime distribution of health care costs.&rdquo; Health services research 39.3 (2004): 627-642. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361028/" target="_blank" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361028/</a>&#160;<a href="#fnref:53" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="./nl/tags/energy-demand/" class="">Energy demand</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2022/03/how-to-build-a-practical-household-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Bouw een fietsgenerator voor warmte en elektriciteit</h3>
+		<p class="index-summary">Een fietsgenerator houdt je warm en is de ideale backup voor een autonome zonne-installatie. In dit artikel beschrijven we de bouw en het gebruik van een praktische, betaalbare en betrouwbare energiecentrale voor thuisgebruik.</p>
+		<time class="published">6 maart 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="./nl/2022/01/the-revenge-of-the-hot-water-bottle/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">De wraak van de warmwaterkruik</h3>
+		<p class="index-summary">Stelt u zich een persoonlijk verwarmingssysteem voor dat zowel binnen als buiten werkt, overal mee naartoe kan worden genomen, weinig energie verbruikt en onafhankelijk is van enige infrastructuur. Het bestaat en is honderden jaren oud.</p>
+		<time class="published">20 januari 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Hoe ontwerp je een zeilschip voor de 21ste eeuw?</h3>
+		<p class="index-summary">Het is verrassend moeilijk om een klimaatneutraal zeilschip te bouwen. Dat is zeker zo in onze tijd, omdat onze eisen op het vlak van veiligheid, gezondheid, hygiëne, comfort en gemak veel hoger liggen dan honderd jaar geleden.</p>
+		<time class="published">11 mei 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./nl/2020/11/lowtech-magazine-is-verhuisd/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2020/11/lowtech-magazine-is-verhuisd/images/dithers/system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine is verhuisd</h3>
+		<p class="index-summary">Dit is de nieuwe website van Lowtech Magazine. De &ldquo;oude&rdquo; website &ndash; <a href="https://www.lowtechmagazine.be" target="_blank" >www.lowtechmagazine.be</a> &ndash; blijft als archief bestaan maar wordt niet langer geactualiseerd.</p>
+		<time class="published">13 november 2020</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="nl/about">
+  Over ons
+</a>
+    <a href="nl/power">
+  Power
+</a>
+    <a href="nl/about/team">
+  Colophon
+</a>
+    <a href="nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cómo Hacer Todo Nosotros Mismos: Hardware Modular Abierto | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Cómo Hacer Todo Nosotros Mismos: Hardware Modular Abierto" />
+<meta name="twitter:title" content="Cómo Hacer Todo Nosotros Mismos: Hardware Modular Abierto"/>
+
+<meta property="og:description" content="Un sistema modular unificia las ventajas propias de la estandarización (la producción de piezas en grandes cantidades más baratas) con las de la customización (ya que una amplia diversidad de objetos únicos pueden producirse con relativamente pocas piezas)." />
+
+<meta name="twitter:description" content="Un sistema modular unificia las ventajas propias de la estandarización (la producción de piezas en grandes cantidades más baratas) con las de la customización (ya que una amplia diversidad de objetos únicos pueden producirse con relativamente pocas piezas)."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/" />
+
+
+
+<meta property="og:image" itemprop="image" content="es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" />
+<meta property="og:image:secure_url" content="es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2012-12-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-12-15T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="stuff" />
+
+</head>
+<body id="c%C3%B3mo-hacer-todo-nosotros-mismos-hardware-modular-abierto">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" es/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Cómo Hacer Todo Nosotros Mismos: Hardware Modular Abierto</h1>
+
+				<p class="summary">
+					Un sistema modular unificia las ventajas propias de la estandarización (la producción de piezas en grandes cantidades más baratas) con las de la customización (ya que una amplia diversidad de objetos únicos pueden producirse con relativamente pocas piezas).
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">15 de diciembre de 2012</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="./es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="./es/translators/jos%C3%A9-vera/">José Vera</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="./2012/12/how-to-make-everything-ourselves-open-modular-hardware/">en</a>
+						
+							<a href="./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">fr</a>
+						
+							<a href="./nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">nl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-source-consumer-goods_hu1b88eb80d8dcf9268948df85b93d4011_88451_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Volver a <a href="./2012/02/the-art-of-producing-sustainable-consumer-goods-basketry/" >la artesanía tradicional</a> es una manera de sabotear la sociedad de usar y tirar. En este artículo analizaremos otra posibilidad: el diseño de productos de consumo modulares, cuyas partes y componentes pueden ser reutilizados para el diseño de otros productos.</p>
+<p>Iniciativas como OpenStructures, Grid Beam y Contraptor combinan la modularidad de sistemas como LEGO, Meccano y Erector con el poder colaborativo de historias digitales de éxito como Wikipedia, Linux o WordPress.</p>
+<p>Una economía basada en el concepto de reutilización no sólo podría ofrecernos importantes ventajas en términos de sostenibilidad, sino también un ahorro de dinero por parte de los consumidores, la aceleración de la innovación, y el desplazamiento de la fabricación fuera del ámbito de multinacionales.</p>
+<h2 id="productos-modulares">Productos modulares</h2>
+<p>Un sistema modular unificia las ventajas propias de la estandarización (la producción de piezas en grandes cantidades más baratas) con las de la customización (ya que una amplia diversidad de objetos únicos pueden producirse con relativamente pocas piezas). La modularidad puede darse en mayor o menor medida en muchos productos (como p.e. bicicletas y ordenadores) y sistemas (trenes y logística), pero los mejores ejemplos de sistemas modulares son los juguetes:  <a href="http://en.wikipedia.org/wiki/Lego" target="_blank" >LEGO</a>, <a href="http://en.wikipedia.org/wiki/Meccano" target="_blank" >Meccano</a>, y <a href="http://en.wikipedia.org/wiki/Erector_Set" target="_blank" >Erector</a> (el nombre actual de la marca Meccano en Estados Unidos).</p>
+<p>LEGO, Meccano y Erector se componen de relativamente pocos bloques de construcción elementales, los cuales pueden utilizarse para construir varios objetos. Posteriormente, las partes pueden desmontarse y reutilizarse para construir algo totalmente diferente. Además de los bloques de construcción elementales, estas manufactureras han producido muchos más bloques de construcción específicos, que aunque son menos versátiles incrementan en mayor medida las posibilidades en cuanto a la customización.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/lego-modular_hua562ae4c7678dc0b4f5bb21732a1a08f_30704_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En un set de LEGO, Meccano o Erector todos los bloques de construcción encajan entre ellos, puesto que están diseñados de acuerdo a un conjunto de reglas específicas. Los agujeros (Meccano y Erector) o pernos (LEGO) tienen un diámetro preciso y están separados entre sí a distancias específicas. Además, las dimensiones de los bloques de construcción se ajustan con precisión unos a otros. El éxito duradero de LEGO, Meccano y Erector (que aparecieron en el mercado en 1947, 1902 y 1911 respectivamente) se debe a que estas normas no han cambiado. Todos los nuevos bloques de construcción que han ido añadiéndose a lo largo de los años son compatibles con los ya existentes. Hoy en día, los niños pueden ampliar su colección de estos juguetes con la de sus padres o abuelos, y su coste en el mercado de segunda mano es similar a los recién comprados.</p>
+<h2 id="grid-beam-bit-beam-open-beam-maker-beam-and-contraptor">Grid Beam, Bit Beam, Open Beam, Maker Beam and Contraptor</h2>
+<p>El mismo principio podría ser aplicado a los objetos de cada día, desde cafeteras hasta muebles, aparatos, coches y sistemas de energía renovable. Todo lo que necesitas es una estandarización en el diseño. Las reglas de elaboración pueden ser muy sencillas, como es el caso de Grid Beam. Este sistema de construcción modular, que se desarrolló en 1976, se fundamenta en un sistema de vigas con una geometría simple y un agujero de patrón repetitivo. Las vigas pueden estar hechas de madera, aluminio, acero o cualquier otro material.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-high-sleeper_hud53190fd14432ebf742a4bdbc72515f2_89298_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>A pesar de la sencillez del diseño pueden construirse una gran variedad de objetos.  <a href="http://www.gridbeam.com/" target="_blank" >Grid Beam</a> se ha utilizado para elaborar todo tipo de muebles, invernaderos, construcciones para talleres y procesos industriales, molinos de viento, carretillas, maquinaria agrícola, vehículos, naves y edificios (en 2009 se publicó un libro sobre este sistema, <a href="https://web.archive.org/web/20121221223034/http://www.gridbeam.com/a-revolution-in-diy-engineering/" target="_blank" >disponible online</a>). Grid Beam se inspiró en un sistema concebido por Ken Isaacs en la década de 1950, <a href="http://www.publiccollectors.org/LivingStructuresk_isaacs-1.pdf" target="_blank" >Living Structures</a>, que utiliza vigas similares pero contienen sólo unos pocos agujeros.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-wheelbarrow_hu64cd348ca776440ad69e2b9d49d1f9a9_249186_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En los últimos años han aparecido varios sistemas que utilizan un conjunto de reglas muy similar, basado en un patrón repetitivo de agujeros. Bit Beam es básicamente una versión reducida de Grid Beam, destinado a la construcción de estructuras más pequeñas en madera de balsa, como un soporte portátil o un dispositivo de prototipo. <a href="http://www.contraptor.org/" target="_blank" >Contraptor</a> utiliza un enfoque similar, pero está dirigido a proporcionar marcos metálicos para la elaboración propia o DIY de impresoras 3D, fresadoras, o robótica. <a href="https://web.archive.org/web/20121012191337/http://openbeamusa.com/" target="_blank" >OpenBeam</a> y <a href="https://www.sparkfun.com/products/10540?" target="_blank" >MakerBeam</a> también son sistemas constructivos modulares basados en normas muy sencillas; éstos no se basan en un agujero de patrón, sino que utilizan perfiles de aluminio de ranura en forma de T. <a href="http://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform" target="_blank" >Makeblock</a> combina ambos enfoques e incluye módulos electrónicos.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/bitbeam_hub636c7881bdddfd75c778e2d57951183_250194_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La mayoría de estos sistemas de construcción se limitan al diseño de marcos. Sin embargo, hay un sistema que ofrece muchas más posibilidades, ya que se basa en un conjunto más sofisticado de reglas: <a href="http://www.openstructures.net/" target="_blank" >OpenStructures</a>. El proyecto se inició en Bruselas en 2007. A diferencia de todos los proyectos mencionados, OpenStructures se encuentra todavía en una fase experimental. Sin embargo, es lo suficientemente interesante como para mirar con mayor capacidad de detalle, porque muestra mejor hacia dónde pueden dirigirse los sistemas de construcción modular.</p>
+<h2 id="openstructures">OpenStructures</h2>
+<p>La primera regla básica de OpenStructures es compartida con Grid Beam y sistemas similares: todas las partes están conectadas entre sí de tal manera que puedan ser fácilmente desmontadas, usando pernos y tornillos en lugar de clavos o pegamento. Sin embargo, el “lenguaje” de diseño OpenStructures es diferente: consiste en un sistema operativo de cuadrícula (denominado en inglés &lsquo;OS grid&rsquo;), que se construye alrededor de un cuadrado de 4×4 cm y es escalable. Los cuadrados se pueden subdividir o juntar para formar cuadrados más grandes, sin perder la compatibilidad entre ellos. La siguiente ilustración muestra nueve cuadrados completos de 4×4 cm cada uno en su conjunto.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-structures_hu4cc227e7cebdea43cdb565c68285669b_148042_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los bordes de los cuadrados marcan las líneas de corte (que definen las dimensiones de las piezas cuadradas), las diagonales determinan los puntos de unión, y los círculos definen los diámetros comunes. Como es el caso de LEGO, cualquier parte modular tiene que cumplir con al menos una de estas condiciones a fin de ser compatible con otras partes. Cualquiera de las dimensiones tiene que corresponder con las líneas horizontales y verticales; o los puntos de montaje deben estar espaciados de acuerdo con la cuadrícula, o los diámetros deben ser similares. A continuación se muestra una parte que cumple dos de las tres condiciones.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-structures2_hu2f6282f86fb2a16cf4b089cc98c9b021_61264_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si bien este conjunto de reglas es más sofisticado que el del sistema de Grid Beam, no es complicado. En cambio, permite el diseño de una mayor variedad de objetos, no sólo marcos cuadrados o rectangulares. En el transcurso de cinco años, OpenStructures ha producido objetos que van desde los aparatos domésticos a las cargobicicletas, maletas y muebles.</p>
+<h2 id="sistemas-modulares-abiertos-libres-vs-cerrados">Sistemas Modulares Abiertos (“libres”) VS Cerrados</h2>
+<p>A pesar de las similitudes, hay una diferencia fundamental entre los sistemas modulares de construcción tales como OpenStructures, Grid Beam y Contraptor respecto a juguetes modulares como Lego, Meccano y Erector. El primer grupo está formado por sistemas modulares “libres” o “abiertos” donde todo el mundo puede diseñar y producir las piezas, mientras que el segundo consiste en sistemas modulares “cerrados”, en el que todas las piezas están diseñadas y producidas por un fabricante. Los Sistemas Modulares Cerrados producen piezas uniformes. Por ejemplo, todos los bloques de construcción de LEGO son de plástico. LEGO no produce bloques de construcción de madera, aluminio, vidrio o cerámica. Hay una gama limitada de colores. Y debido a que LEGO es un sistema cerrado, a nadie más se le permite producir piezas de LEGO.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/os_hu8cf9e5b4ed44642ef8063e282f465fb2_42051_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Existen sistemas constructivos modulares que funcionan según los mismos principios, como los <a href="http://www.8020.net/" target="_blank" >perfiles T</a> realizados por 80/20 inc. Sin embargo, en los sistemas de construcción modular que hemos introducido anteriormente, cualquiera puede diseñar y producir las piezas, siempre y cuando éstas sean compatibles con el conjunto básico de reglas. Nos encontramos con el mismo método que sigue el software libre, como Linux (un sistema operativo), OpenOffice (software de oficina) o WordPress (una plataforma de blogs). El código informático para estos sistemas está siendo escrito por una gran cantidad de personas, quienes entre todos construyen una parte de algo más grande. Debido a que todos los participantes se adhieren a un conjunto básico de normas, una gran cantidad de personas pueden, independientemente unos de otros, añadir piezas intercompatibles.</p>
+<blockquote>
+<p>Los productos de consumo basados en un sistema modular libre pueden fomentar la innovación rápida, sin el inconveniente de malgastar energía y materiales.</p>
+</blockquote>
+<p>Un sistema modular abierto tiene muchas ventajas sobre un sistema modular cerrado. Dado que cualquiera puede diseñar piezas en un sistema abierto, genera una diversidad mucho mayor de piezas: se pueden hacer en diferentes colores y materiales, y ninguno de los productores puede establecer un precio fijo para todos los consumidores. Y debido a que muchos diseñadores revisan, adaptan y mejoran el trabajo de los demás constantemente, se acelera la innovación. Todos los sistemas de software libre descritos anteriormente son, sin duda, mejor que sus equivalentes de código cerrado, y algunos de ellos han disfrutado de mayor éxito. Un sistema modular cerrado sólo tiene una ventaja: el que tiene la propiedad intelectual tiene mucho dinero.</p>
+<h2 id="bienes-de-consumo-sostenibles">Bienes de consumo sostenibles</h2>
+<p>Los sistemas constructivos modulares fomentan la reutilización de partes físicas, y por lo tanto constituyen una alternativa sostenible a nuestro sistema actual de producción de bienes de consumo. La mayoría de los productos que compramos terminan en vertederos o incineradoras en de un par de años como máximo. Esto es debido a que la mayoría de los fabricantes anima a los consumidores a reemplazar sus productos lo antes posible, ya sea mediante el diseño de objetos que se desechan fácilmente, o bien mediante la introducción de nuevas generaciones de productos que dejen obsoletos los productos de una generación inmediatamente anterior. Este enfoque no sólo genera una enorme acumulación de residuos, sino que derrocha una cantidad de energía y materias primas igualmente masiva.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/part-os-grid_hud88e065dd63f80a59b4801747f2bbcf2_48934_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los productos de consumo basados en un sistema modular libre pueden fomentar la innovación rápida, sin el inconveniente de perder la energía y los materiales. Las piezas de una generación obsoleta de productos pueden ser utilizadas para diseñar la próxima generación, o algo completamente diferente. Por otra parte, los objetos modulares se han incorporado en cuanto a reparabilidad.</p>
+<p>Los sistemas de construcción modular libres podrían acelerar la difusión de bajas tecnologías, tales como <a href="./es/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" >máquinas de pedal con motor</a>, <a href="./es/2011/07/the-bright-future-of-solar-thermal-powered-factories/" >colectores solares térmicos</a> o <a href="./es/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/" >cargociglos</a>. La construcción de un molino de viento o una cargobicicleta es mucho más rápida cuando se utilizan piezas modulares en vez de carpintería o soldadura, y no hay necesidad de costosas herramientas o técnicas especiales. Los errores se pueden corregir fácilmente – con tan sólo desenroscar unos tornillos y volver a empezar. También sería interesante ver la combinación de piezas modulares con el proyecto de un hardware libre, como el <a href="http://www.notechmagazine.com/2011/05/how-to-build-your-own-industrial-civilization.html" target="_blank" >Global Village Construction Set</a>, que genera muchos diseños interesantes, pero hace un uso limitado de la modularidad.</p>
+<h2 id="circulación-de-componentes">Circulación de componentes</h2>
+<p>“Mientras que eBay proporciona una circulación de objetos, y de la cuna a la cuna proporciona una circulación de materiales, los sistemas de construcción modulares proporcionan una circulación de piezas y componentes”, dice Thomas Lommée, el creador de OpenStructures. “Nuestra ambición es crear rompecabezas en lugar de objetos estáticos. El sistema debería generar objetos de los que no ya no estén del todo claro quiénes los diseñaron. Un objeto evoluciona a medida que se toma en las manos de más diseñadores.”</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/kitchen-appliances-open-structures_huf37750ac26d52c053151b5ce453160a8_15860_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los electrodomésticos de cocina que se han diseñado en el contexto del proyecto son buenos ejemplos. Un par de piezas fueron hechas inicialmente para un molinillo de café, las cuales fueron utilizadas, junto con las piezas nuevas, por otro diseñador para construir una máquina de café. A continuación, este aparato fue desarrollado en un dispositivo de purificación de agua por un tercer diseñador. La botella de plástico que servía como contenedor de agua fue reemplazada por una botella de vidrio que contiene un filtro de arcilla. Thomas Lommée: “Al agregar o quitar componentes, o mediante el uso de una manera diferente, lo que se obtiene es una familia de objetos”.</p>
+<h2 id="cargociclo">Cargociclo</h2>
+<p>Otro prototipo que se originó en el proyecto es el cargociclo. La parte trasera es aserrada a través del cuadro de una bicicleta estándar, el fin del cual es compatible con el sistema operativo de cuadrícula. Esto significa que la parte delantera del ciclo puede ser construida de forma modular. El diseñador Jo Van Bostraeten aprovechó esta oportunidad para diseñar tanto una cargobicicletas como un cargotriciclo (este último lleva una impresora 3D), y la cosa no acaba ahí. Junto con Lommée, también construyó un bloque de motor modular. La unidad consta de un motor eléctrico y las ruedas, en la parte superior de las cuales una unidad similar que contenga una batería se puede colocar. Puesto que las unidades son compatibles con el sistema operativo de cuadrícula, se pueden acoplar a la parte frontal del cargociclo, resultando un vehículo motorizado de carga completamente modular.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/cargo-cycle_hub9115c709d9403464b3c09c7d9e4bbc2_38789_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>La última “familia” de los objetos que ha salido de este proyecto está dirigido a los niños. Es preciso destacar que esta colección surgió de uno de los componentes del cargociclo—el contenedor. Se construye a partir de piezas modulares que pueden ser atornilladas juntas, y por lo tanto se pueden combinar de diferentes maneras. Un par de diseñadores se inició conaquellas piezas, que resultaron (entre otras cosas) en un trineo, un asiento, una excavadora de juguete, y un columpio. Cuando el niño llega a la adolescencia, las piezas pueden ser utilizadas para hacer una maleta o una caja de herramientas, o formar parte de un cargociclo que podría ayudarle a <a href="./es/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/" >ganar un poco de dinero</a>.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-source-objects_hu3457ef88b94c35ef9bb0740be1c2af90_40018_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Más interesante que los objetos en sí mismos, es su sistema de apoyo a los usuarios. Grid Beam es, obviamente, un producto de la era pre-Internet. A aquellos que quieran copiar un diseño se les anima a mirar una foto de la creación de otra persona y “contar los agujeros”. OpenStructures, por otro lado, descansa en gran medida gracias al soporte a los usuarios online. La reutilización de partes se ve facilitada por una base de datos online que se puede utilizar de tres maneras.</p>
+<p>En primer lugar, puedes solicitar un resumen de <a href="https://openstructures.net/applications" target="_blank" >todos los objetos</a> que fueron diseñados en base a la red del sistema operativo. En la página web dedicada a cada objeto se muestran las partes y componentes de los que está hecho. En segundo lugar, puedes solicitar un resumen de <a href="https://openstructures.net/parts" target="_blank" >todas las piezas</a> que fueron diseñadas en base a la red del sistema operativo. La página web de cada pieza muestra qué componentes y objetos podrían servir. En tercer lugar, puedes solicitar un resumen de <a href="http://openstructures.net/pages/11/components" target="_blank" >todos los componentes</a>. La página web de cada componente muestra sus partes y los objetos que se pueden utilizar para ello.</p>
+<blockquote>
+<p>La construcción modular abierta no significa que todos deberíamos hacer nuestros bienes de consumo.</p>
+</blockquote>
+<p>La página web para cada pieza, componente y objeto también proporciona información adicional: las dimensiones, los materiales, el nombre del diseñador, la licencia y la información del pedido. Además, todas las partes y componentes reciben un número de serie. Esto significa que después de que un objeto modular esté desmontado, el número de serie de cada pieza y componente se puede introducir en la base de datos para ver qué más se puede hacer con él. Las piezas que faltan se pueden obtener a través de la base de datos: ya sea realizando el pedido en línea, buscando la dirección de una tienda donde se vendan, o bien descargando el diseño digital y realizándolas uno mismo.</p>
+<h2 id="no-todo-el-mundo-es-diseñador">No todo el mundo es diseñador</h2>
+<p>La construcción modular abierta no significa que todos deberíamos hacer nuestros propios productos de consumo. Un objeto como una cafetera o un banco de trabajo podría obtenerse al menos de tres maneras. La primera, el consumidor puede descargar el diseño digital y montar el objeto con piezas que él o ella compre, reutilice o elabore mediante una impresora 3D o cortadora láser, ya sea en casa, en un laboratorio o en un taller. También puede ocurrir en una forma de moda más propia de la baja tecnología, como es el caso de la Grid Beam: el consumidor compra vigas de madera o metal, y <a href="./es/2010/12/hand-powered-drilling-tools-and-machines/" >perfora los agujeros él mismo</a>.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/modular-parts-water-boiler_hu86e611147d68ef430c9d5a052f4148f7_37362_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Una segunda opción es que una empresa compre la licencia del diseño (si no es gratis) y lo convierta en un juego de construcción, comparable a un kit de Lego, Meccano o Erector. En ese caso, el consumidor no tendrá que buscar las piezas, pero sí deberá montar él mismo el producto, como pasaría al montar un mueble de IKEA. Del mismo modo, una empresa podría ofrecer un kit de construcción más general, que pudiera utilizarse para hacer lo que uno quisiera, como una caja de ladrillos básicos LEGO. Beam Bit, Contraptor, Open Beam, Maker Beam y, <a href="http://news.cnet.com/8301-32973_3-57440288-296/after-more-than-30-years-grid-beam-modular-construction-system-comes-to-market" target="_blank" >recientemente</a>, Grid Beam ofrecen una o varias opciones.</p>
+<p>La tercera posibilidad es que un fabricante coloque el objeto en el mercado como un producto montado y acabado. La máquina de café o la mesa de trabajo entonces serían vendidos y comprados como cualquier otro producto de hoy, pero pueden ser desmontados después de su uso, y sus partes pueden volver a ser utilizadas para otros objetos.</p>
+<h2 id="modelo-económico-quién-produce-los-componentes">Modelo Económico: ¿Quién produce los componentes?</h2>
+<p>Mientras que el proceso de diseño en OpenStructures y otros sistemas de construcción modulares libres es idéntico a la de los productos digitales tales como Wikipedia, Linux o WordPress, también hay una diferencia fundamental. El código de ordenador y texto digital se acumula sin costes de material. No así es el caso de los objetos. Este hecho hace el hardware modular libre más difícil, pero también crea oportunidades económicas. Es difícil hacer dinero con el software libre o la escritura en línea. Sin embargo, en el caso de un sistema modular libre para los objetos, alguien tiene que proporcionar los materiales.</p>
+<p>También es importante que las piezas sean producidas por el mayor número posible de fabricantes, permitiendo su disponibilidad en todo el mundo. De otra manera, los costes de envío podrían incrementarse tanto que un objeto modular se volvisese demasiado caro.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/modular-toaster_hu40408455b1a5602562641e945ef6f0f2_39023_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Hay muchas oportunidades de hacer dinero con un modelo de construcción modular libre. Un fabricante puede elegir producir una pieza en la que ve potencial económico. Otro fabricante puede optar por vender un kit de construcción o de un producto acabado de un diseño que piensa que va a vender. Un diseñador puede ganar dinero mediante la subida a la red de un diseño que podría ser libre de descarga para uso personal, pero no para uso comercial. Un fabricante que quiera comercializar este diseño, a continuación, puede comprar la licencia del diseño.</p>
+<p>Los artesanos pueden centrarse en el diseño de piezas exclusivas, hechas a mano en materiales especiales, que son compatibles con los elementos populares producidos en masa. Otros pueden iniciar un Fab Lab o tienda de tecnología, donde la gente puede crear sus propios objetos modulares por una cuota mensual. En resumen, un sistema de construcción modular abierto ofrece oportunidades económicas para todos.</p>
+<h2 id="economía-colaborativa">Economía Colaborativa</h2>
+<p>“No es nuestra ambición construir una gigantesca fábrica que produzca todas las piezas posibles”, señala Lommée. “OpenStructures no debe convertirse en un IKEA modular. Nuestro objetivo es la creación de un sistema económico colectivo, donde un productor se beneficie de la producción de otro fabricante. Porque las piezas que sean hechas por uno, podrían ser utilizadas por otros. Lo que nos gustaría ver, calles llenas de pequeñas tiendas donde todo el mundo genere su propia pequeña parte de un sistema mayor, una economía colaborativa, donde los pequeños productores, trabajadores por cuenta propia tengan su lugar. No se trata un jugador grande que lo haga todo. La dimensión social es muy importante.&quot;</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/contraptor-parts_hufba305b15e7b5f3e90fa0198e4269957_182856_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>“Si IKEA quiere vender un producto que sea compatible con nuestro sistema, entonces eso está bien en lo que a mí respecta. Pero el sistema sólo puede funcionar si se mantiene abierto. Mientras mayor se haga, más fácil será para una pequeña empresa o un artesano formar parte de ella. La ambición es comenzar un rompecabezas universal de colaboración que permita a la más amplia gama de personas—desde artesanos hasta multinacionales—diseñar, construir e intercambiar la más amplia gama de piezas y componentes modulares&quot;.</p>
+<h2 id="organizar-la-reutilazión">Organizar la reutilazión</h2>
+<p>Aparte de un lenguaje de diseño (la cuadrícula OS) y una base de datos online, OpenStructures también ha creado un prototipo de una nave en Bruselas. Este tipo de lugar debe convertirse en el eje de organización de la reutilización de partes y componentes. Piensa en un laboratorio de fabricación o en un taller de tecnología, pero combinado con el almacenamiento de piezas modulares. Si un producto modular ya no se necesita más, y al propietario no le apetece usar las piezas para construir algo nuevo, él o ella lo lleva a uno de estos lugares, donde es desmontado y sus componentes, almacenados.</p>
+<blockquote>
+<p>Un sistema de construcción modular abierto ofrece oportunidades económicas para todos.</p>
+</blockquote>
+<p>Otras personas podrían venir a este lugar para comprar componentes, o para utilizarlos en ese mismo sitio para construir algo nuevo. Como Lommée dice: “No todo el mundo tiene que hacer sus propios productos, pero después de la vida útil, un producto modular siempre acaba en manos de un grupo de personas al que les guste construir cosas.”</p>
+<p>Aunque todavía está en una fase experimental, OpenStructures es, con mucho, el sistema modular abierto más ambicioso y completo diseñado hasta la fecha. Sin embargo, al ser un proyecto europeo, sigue el sistema métrico internacional, mientras que el mucho más antiguo Grid Beam sigue el sistema imperial. Los dos sistemas no son compatibles. Ante la creciente aparición de más y más sistemas modulares libres, ¿no sería importante proporcionar compatibilidad entre todos ellos?</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/makeblock_hu2dcba25b4205bd36a8943162945796fc_84187_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Lommée no lo cree así: “La mayoría de estos sistemas están diseñados para diferentes aplicaciones; por ejemplo, Contraptor pretende precisión, ya que las piezas se usan para construir robots, y otras máquinas sofisticadas. La estética no es claramente importante. Soy un diseñador, así que lo que me interesa especialmente no es si un sistema modular puede generar objetos bellos, sino las cosas que se quieran poner en su interior. También está <a href="http://www.wikispeed.com" target="_blank" >Wikispeed</a>, por ejemplo, que se concentra en el desarrollo de un coche modular. <a href="http://www.arduino.cc/" target="_blank" >Arduino</a> está orientado a la electrónica. No creo que todos estos sistemas modulares tengan que ser compatibles entre sí porque las aplicaciones son muy diferentes.”</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png" alt='' data-original="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/openbeam_hu5438825b9b6d1014226d20d231e650c2_70811_800x800_fit_q90_h2_box.webp" data-dither="/es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>A continuación nos explica por qué eligió el sistema métrico. “He estado dudando mucho sobre esto. Pero al final decidí que el sistema métrico es más fácil para trabajar. Y creo que el mundo es lo suficientemente grande para los dos sistemas—basta con ver la variedad de estándares de energía que están en uso. Alguien ha desarrollado una versión europea de Contraptor, en base al sistema métrico y compatible con el sistema operativo de cuadrícula (OS grid). Y siempre es posible diseñar un acoplamiento entre dos sistemas, de manera que puedan utilizarse juntos. Por otro lado, vivimos en un mundo de redes en el que todo está interconectado y copiado. A menudo, esto significa que cuando compiten diferentes patrones, sólo uno sobrevive. Y éste no es necesariamente el mejor. Voy a cruzar los dedos.”</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./es/tags/stuff/" class="">Stuff</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Como diseñar un mercante a vela para el siglo 21?</h3>
+		<p class="index-summary">Es sorprendentemente difícil construir un mercante a vela neutro en emisiones de carbono; especialmente en estos tiempos porque nuestros estándares de seguridad, salud, higiene, confort y comodidad han cambiado profundamente desde la Era de los Grandes Veleros</p>
+		<time class="published">11 de mayo de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./es/2021/02/vertical-farming-does-not-save-space/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Las granjas verticales no ahorran espacio</h3>
+		<p class="index-summary">Si la electricidad para las granjas agrícolas verticales proviene de paneles solares, la producción de energía implica ocupar tanto espacio como el que desocupa la propia actividad.</p>
+		<time class="published">16 de febrero de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="./es/2020/09/how-to-make-biomass-energy-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2020/09/how-to-make-biomass-energy-sustainable-again/images/dithers/pollards-germany_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Como hacer nuevamente sostenible la energía de biomasa</h3>
+		<p class="index-summary">Desde el neolítico hasta principios del siglo veinte, los árboles recepados, la poda de copas y los setos nos han proporcionado materiales, comida y energía sostenible.</p>
+		<time class="published">20 de septiembre de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Cocinas termoeléctricas: es hora de descartar los paneles solares?</h3>
+		<p class="index-summary">Cocinas a leña, equipadas con generadores termoeléctricos, pueden producir electricidad en forma más sustentable, confiable y menos costosa, que usando paneles fotovoltaicos.</p>
+		<time class="published">26 de mayo de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="es/about">
+  Acerca de
+</a>
+    <a href="es/power">
+  Power
+</a>
+    <a href="es/about/team">
+  Colophon
+</a>
+    <a href="es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

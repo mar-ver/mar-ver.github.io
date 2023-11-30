@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Maak Alles Samen: Open Modulaire Hardware | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Maak Alles Samen: Open Modulaire Hardware" />
+<meta name="twitter:title" content="Maak Alles Samen: Open Modulaire Hardware"/>
+
+<meta property="og:description" content="Een modulair systeem combineert de voordelen van standaardisatie (onderdelen kunnen in grote aantallen en dus goedkoop worden geproduceerd) met de voordelen van maatwerk (met een relatief klein aantal verschillende onderdelen kunnen heel veel verschillende, unieke objecten worden gebouwd)." />
+
+<meta name="twitter:description" content="Een modulair systeem combineert de voordelen van standaardisatie (onderdelen kunnen in grote aantallen en dus goedkoop worden geproduceerd) met de voordelen van maatwerk (met een relatief klein aantal verschillende onderdelen kunnen heel veel verschillende, unieke objecten worden gebouwd)."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/" />
+
+
+
+<meta property="og:image" itemprop="image" content="nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" />
+<meta property="og:image:secure_url" content="nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2012-12-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-12-15T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="stuff" />
+
+</head>
+<body id="maak-alles-samen-open-modulaire-hardware">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Maak Alles Samen: Open Modulaire Hardware</h1>
+
+				<p class="summary">
+					Een modulair systeem combineert de voordelen van standaardisatie (onderdelen kunnen in grote aantallen en dus goedkoop worden geproduceerd) met de voordelen van maatwerk (met een relatief klein aantal verschillende onderdelen kunnen heel veel verschillende, unieke objecten worden gebouwd).
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">15 december 2012</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="./nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="./2012/12/how-to-make-everything-ourselves-open-modular-hardware/">en</a>
+						
+							<a href="./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">fr</a>
+						
+							<a href="./es/2012/12/how-to-make-everything-ourselves-open-modular-hardware/">es</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-source-consumer-goods_hu1b88eb80d8dcf9268948df85b93d4011_88451_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Teruggrijpen naar traditionele ambachten is één manier om de wegwerpmaatschappij stokken in de wielen te stelen. In dit artikel bespreken we een tweede mogelijkheid: het ontwerp van modulaire gebruiksvoorwerpen, waarvan de afzonderlijke onderdelen na gebruik kunnen dienen voor het ontwerp van een nieuw gebruiksvoorwerp.</p>
+<p>Een aantal opmerkelijke projecten combineert de modulariteit van systemen zoals LEGO en Meccano met de collaboratieve kracht van initiatieven zoals Wikipedia of Linux. Het doel is een open modulair ontwerpsysteem gericht op het hergebruik van onderdelen, dat niet alleen duurzaam maar ook democratisch is.</p>
+<p>Een modulair systeem combineert de voordelen van standaardisatie (onderdelen kunnen in grote aantallen en dus goedkoop worden geproduceerd) met de voordelen van maatwerk (met een relatief klein aantal verschillende onderdelen kunnen heel veel verschillende, unieke objecten worden gebouwd). Modulariteit vind je in min of meerdere mate terug bij heel wat producten (computers en fietsen zijn goede voorbeelden), maar de meest complete modulaire systemen kennen we uit onze kindertijd:  <a href="http://en.wikipedia.org/wiki/Lego" target="_blank" >LEGO</a> (op de markt sinds 1947) en <a href="http://en.wikipedia.org/wiki/Meccano" target="_blank" >Meccano</a> (op de markt sinds 1902).</p>
+<p>Beide systemen bestaan uit een relatief klein aantal verschillende elementaire bouwstenen waarmee alle mogelijke objecten kunnen worden gebouwd. Die constructies kunnen vervolgens weer makkelijk uit elkaar worden gehaald, om met dezelfde bouwstenen iets totaal nieuws te bouwen. Naast de elementaire bouwstenen zijn er ook een groot aantal specifieke bouwstenen, die minder veelzijdig zijn maar de mogelijkheden tot maatwerk nog veel groter maken.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/lego-modular_hua562ae4c7678dc0b4f5bb21732a1a08f_30704_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Alle verschillende bouwstenen van LEGO of Meccano passen in elkaar omdat ze allemaal volgens strikte regels zijn ontworpen. De gaatjes (Meccano) of noppen (LEGO) staan op een welbepaalde afstand van elkaar en hebben een specifieke diameter, terwijl de afmetingen van de bouwstenen precies op elkaar zijn afgestemd.</p>
+<p>Het langdurige succes van LEGO en Meccano is gebaseerd op het feit dat die regels nooit zijn veranderd. Alle nieuwe bouwstenen die in de loop der jaren werden toegevoegd, zijn compatibel met de al bestaande bouwstenen. Kinderen vandaag kunnen hun LEGO- of Meccano-collectie perfect uitbreiden met de collectie van hun ouders of grootouders. Tweedehands is het speelgoed dan ook bijna evenveel waard als nieuw in de winkel.</p>
+<h2 id="lego-voor-ontwerpers">LEGO voor ontwerpers</h2>
+<p><a href="http://www.openstructures.net/" target="_blank" >OpenStructures</a> (OS), het experimentele project dat vijf jaar geleden werd opgestart door Thomas Lommée, past een soortgelijk modulair constructiemodel toe als LEGO en Meccano, maar dan voor alledaagse gebruiksvoorwerpen. De spil van het systeem is ook in dit geval een set van afmetingen (het &ldquo;OS grid&rdquo;), waarvan een vierkant van 4 x 4 centimeter de elementaire bouwsteen of metrische eenheid vormt. Het systeem is schaalbaar: de vierkanten kunnen verder worden onderverdeeld, of ze kunnen worden samengevoegd, terwijl de compatibiliteit met andere onderdelen behouden blijft. Op de illustratie hieronder zie je negen volledige vierkanten van 4 x 4 centimeter bij elkaar.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-structures_hu4cc227e7cebdea43cdb565c68285669b_148042_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De grenzen van de vierkanten markeren de afmetingen van rechthoekige onderdelen, de diagonalen bepalen de assemblagepunten, en de ingesloten cirkels definiëren gangbare diameters. Net als bij LEGO of Meccano moet een onderdeel aan minstens één voorwaarde voldoen om compatibel te zijn met andere onderdelen: ofwel moeten de afmetingen overeenkomen met de horizontale lijnen, ofwel moeten de assemblagepunten zich op de juiste afstand van elkaar bevinden, ofwel moeten de diameters dezelfde zijn. Hieronder zie je een onderdeel dat aan twee voorwaarden voldoet.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-structures2_hu2f6282f86fb2a16cf4b089cc98c9b021_61264_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Op basis van dit eenvoudig universeel systeem kan een zeer groot aantal verschillende onderdelen worden ontworpen, die op verschillende manieren kunnen worden gecombineerd met andere, compatibele onderdelen. Een tweede basisregel is dat alle onderdelen op zo&rsquo;n manier aan elkaar worden bevestigd dat ze makkelijk te demonteren zijn. Er wordt dus gebruik gemaakt van bijvoorbeeld schroeven of bouten, maar niet van lijm of spijkers.</p>
+<h2 id="open-modulair-systeem">Open modulair systeem</h2>
+<p>Er is ook een fundamenteel verschil tussen OpenStructures en systemen zoals LEGO en Meccano. De twee laatstgenoemde zijn &lsquo;gesloten&rsquo; modulaire systemen. De onderdelen worden ontworpen en geproduceerd door één welbepaalde fabrikant. Het gevolg is dat alle onderdelen uniform zijn. Alle bouwstenen van LEGO zijn bijvoorbeeld gemaakt uit plastic. Er zijn geen houten, metalen, glazen of keramieken LEGO-bouwstenen. Er is slechts een beperkt assortiment van kleuren. En als een andere ontwerper een geniaal idee heeft voor een onderdeel dat compatibel is met LEGO of Meccano, kan hij of zij dat niet op de markt brengen omdat beide systemen gepatenteerd en afgeschermd zijn.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png" alt='Open (rechts) vs. gesloten (links) modulair systeem.' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/os_hu8cf9e5b4ed44642ef8063e282f465fb2_42051_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Open (rechts) vs. gesloten (links) modulair systeem.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>OpenStructures is, zoals de naam al doet vermoeden, een &lsquo;open&rsquo; modulair systeem. Dat betekent dat iedereen onderdelen kan ontwerpen, zolang ze maar compatibel zijn met de al bestaande onderdelen, en dus met de hierboven beschreven basisregels. Dezelfde benadering wordt al enige tijd succesvol toegepast met &lsquo;open&rsquo; software, zoals Linux (een open besturingssysteem), OpenOffice (een open kantoorsoftwarepakket) of WordPress (een open blogplatform). De computercode voor deze systemen wordt geschreven door een groot aantal mensen, die allemaal een onderdeel bouwen van een groter geheel.</p>
+<p>Ook Wikipedia kan als een bijzonder succesvol open modulair systeem worden beschouwd, omdat iedereen er naar believen onderdelen of componenten (paragrafen of artikels) aan kan toevoegen. Bij al deze projecten is het van essentieel belang dat alle deelnemers zich aan de basisregels en uitgangspunten houden. Alleen op die manier kan een groot aantal mensen onafhankelijk van elkaar onderdelen toevoegen die onderling compatibel zijn.</p>
+<p>Het doel van OpenStructures is dus het ontwerpen van gebruiksvoorwerpen volgens dit ontwerpmodel van open modulaire software. In plaats van computercode of tekst ontwerpt een groot aantal mensen onafhankelijk van elkaar modulaire en onderling compatibele fysieke onderdelen. Anders gezegd: OpenStructures is te vergelijken met een LEGO of Meccano waarvoor iedereen bouwstenen mag ontwerpen. Net als bij software kunnen die onderdelen door andere deelnemers kritisch worden bekeken, aangepast, verder ontwikkeld en op verschillende manieren gecombineerd.</p>
+<p>Het voordeel van een open modulair systeem is dat er veel meer kan worden bereikt en dat er veel sneller kan worden geïnnoveerd. Zo heeft Wikipedia op slechts tien jaar tijd de Encyclopedia Britannica (een &lsquo;gesloten&rsquo; encyclopedie) vrijwel geheel overbodig gemaakt. Daarnaast zorgt het model ook voor een grote diversiteit. Er zijn honderden verschillende versies van Linux en het wiki-sjabloon wordt ook voor duizenden andere informatieve projecten gebruikt. Dezelfde voordelen zijn ook te verwachten als een open modulair systeem wordt toegepast op fysieke objecten.</p>
+<h2 id="duurzame-gebruiksgoederen">Duurzame gebruiksgoederen</h2>
+<p>In het geval van objecten biedt een open modulair systeem nog een bijkomend voordeel dat erg belangrijk is. Het stimuleert hergebruik van fysieke onderdelen en componenten, en is daarom een duurzaam alternatief voor de productie van gebruiksgoederen. De meeste producten die nu door middel van een gesloten (en hoofdzakelijk niet-modulair) systeem worden ontwikkeld, belanden na een paar jaar op de afvalberg. Veel fabrikanten van gebruiksgoederen stimuleren de consument om een product zo snel mogelijk te vervangen, ofwel door het product zo in elkaar te zetten dat het snel kapot gaat, ofwel door nieuwe versies van producten te ontwerpen die de vorige versie verouderd maken.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/part-os-grid_hud88e065dd63f80a59b4801747f2bbcf2_48934_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Dat levert niet alleen een gigantische hoop afval op, maar het kost ook veel energie en grondstoffen. Wegwerpproducten kosten de consument bovendien veel geld. Gebruiksgoederen die worden ontworpen via een open modulair systeem, hebben die nadelen niet. Snelle innovatie van producten blijft mogelijk, maar de onderdelen van een verouderde generatie objecten kunnen opnieuw worden gebruikt. Daarbij kunnen producten van een open modulair ontwerpproces veel makkelijker worden hersteld, omdat ze eenvoudig uit elkaar kunnen worden gehaald.</p>
+<h2 id="circulatie-van-onderdelen">Circulatie van onderdelen</h2>
+<p>&ldquo;Terwijl eBay zorgt voor een circulatie van objecten, en cradle-to-cradle zorgt voor een circulatie van materialen, zorgt OpenStructures voor een circulatie van onderdelen en componenten&rdquo;, vertelt Thomas Lommée in zijn atelier in Brussel. &ldquo;Onze ambitie is in feite het creëren van puzzels in plaats van statische objecten. OpenStructures moet objecten produceren waarvan niet meer echt duidelijk is wie ze heeft ontworpen. Een object evolueert naarmate het door meer ontwerpers onder handen wordt genomen.&rdquo;</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/kitchen-appliances-open-structures_huf37750ac26d52c053151b5ce453160a8_15860_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Een mooi voorbeeld daarvan zijn de keukentoestellen die in het kader van het project werden ontworpen. Een aantal onderdelen die aanvankelijk door een eerste ontwerper werden gemaakt voor een met de hand aangedreven koffiemolen, werden door een tweede ontwerper gebruikt om er, samen met andere onderdelen, een koffiezetapparaat mee te maken (foto hierboven links, ontwerp door Jesse Howard). Dat apparaat werd vervolgens door een derde ontwerper verder ontwikkeld tot een waterfilter (foto hierboven rechts, ontwerp door Dries Verbruggen).</p>
+<p>Bij die laatste metamorfose werd de plastic fles die als waterreservoir diende voor het koffiezetapparaat, vervangen door een doorgesneden glazen fles met daarin een filter van klei. Voor het overige is het apparaat identiek. Thomas Lommée: &ldquo;Door componenten toe te voegen, weg te halen of op een andere manier te gebruiken, krijg je een familie van objecten.&rdquo;</p>
+<h2 id="transportfiets">Transportfiets</h2>
+<p>Een ander prototype dat uit OpenStructures ontstond, is de transportfiets die Jo Van Bostraeten ontwierp. Hier gaat het om een ander niveau van modulariteit. Het achterste deel van de &lsquo;open bakfiets&rsquo; is afkomstig van een gewone fiets. Het frame werd doorgezaagd en het uiteinde ervan werd compatibel gemaakt met het open modulair systeem. De voorkant van de fiets kan daardoor volledig modulair worden opgebouwd. Zo ontwierp Van Bostraeten op basis van hetzelfde frame zowel een transportfiets met twee als met drie wielen.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png" alt='Open transportfiets' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/cargo-cycle_hub9115c709d9403464b3c09c7d9e4bbc2_38789_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Open transportfiets</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Lommée en Van Bostraeten ontwikkelden samen ook een modulair motorblok. Het blok bevat een elektrische motor, de aandrijving en de wielen. Daarop kan een soortgelijk blok worden geplaatst dat de batterij bevat. Aangezien het motorblok compatibel is met alle OpenStructures onderdelen, kan het aan het voorste deel van de &ldquo;fiets&rdquo; worden vastgemaakt. Het resultaat is dan niet langer een fiets maar een gemotoriseerd transportvoertuig.</p>
+<h2 id="van-kinderspeelgoed-tot-reiskoffer">Van kinderspeelgoed tot reiskoffer</h2>
+<p>Het meest recente resultaat van het OpenStructures project is een verzameling kinderspeelgoed. Opmerkelijk is dat deze hele collectie voortkwam uit één component van de transportfiets, namelijk de transportbak (of BlocBox). Die is opgebouwd uit modulaire stukken die aan elkaar worden geschroefd, en dus ook op verschillende manieren kunnen worden gecombineerd. Verschillende ontwerpers gingen met de onderdelen aan de slag. Daaruit kwamen onder meer een slede, een kinderstoel, een graafmachine en een schommel voort.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/open-source-objects_hu3457ef88b94c35ef9bb0740be1c2af90_40018_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>&ldquo;Kinderspeelgoed heeft doorgaans een heel korte levensduur&rdquo;, zegt Lommée. &ldquo;Een kind wordt groter en verliest interesse in een stuk speelgoed. Het kan misschien nog worden gebruikt door jongere broertjes of zusjes, maar daarna belandt het ergens op zolder, of het wordt weggegooid. Met modulaire componenten kan steeds iets nieuws worden gebouwd. En als het kind groot is, kan er bijvoorbeeld ook een reiskoffer of een gereedschapskist mee worden gemaakt, of kan het onderdeel worden van een transportfiets.&rdquo;</p>
+<h2 id="online-database">Online database</h2>
+<p>Het hergebruik van onderdelen wordt vergemakkelijkt en gestimuleerd door een online database, die op drie manieren kan worden gebruikt.</p>
+<p>Ten eerste kan je een overzicht opvragen van <a href="http://openstructures.net/pages/14/structures" target="_blank" >alle objecten</a> die volgens het systeem zijn ontworpen en gemaakt. Bij elk object kan je zien uit welke compatibele onderdelen het bestaat.</p>
+<p>Omgekeerd kan je een overzicht opvragen van <a href="http://openstructures.net/pages/44/parts" target="_blank" >alle onderdelen</a> die volgens het systeem zijn ontworpen en gemaakt. Bij elk onderdeel kan je zien voor welke componenten en objecten ze kunnen dienen. Tot slot kan je een overzicht opvragen van <a href="http://openstructures.net/pages/11/components" target="_blank" >alle componenten</a>. Je kan zien uit welke onderdelen ze bestaan en welke objecten ermee gemaakt kunnen worden.</p>
+<p>Bij alle onderdelen, componenten en objecten vind je ook bijkomende informatie: wat zijn de afmetingen, uit welke materialen bestaan ze, wie heeft ze ontworpen, waar kan je ze bestellen, hoeveel kosten ze en wat is de licentie die erbij hoort? Alle onderdelen en componenten krijgen bovendien een serienummer. Een open modulair object dat niet langer nodig is, kan dus uit elkaar worden gehaald, waarna het serienummer van alle onderdelen of componenten kan worden ingegeven in de database. Zo kan je zien welke andere objecten je met dezelfde onderdelen en componenten kan bouwen.</p>
+<p>Ontbrekende onderdelen en componenten kunnen vervolgens via de database makkelijk worden gevonden: ofwel door ze online te bestellen, ofwel door met de serienummers naar een winkel te stappen, ofwel door het digitaal plan te downloaden en ze zelf te maken.</p>
+<h2 id="niet-iedereen-is-een-doe-het-zelver">Niet iedereen is een doe-het-zelver</h2>
+<p>Open modulaire productie betekent echter niet dat iedereen zelf gebruiksobjecten in elkaar moet knutselen. Een object zoals het koffiezetapparaat zou op minstens drie verschillende manieren kunnen worden geproduceerd en in de markt kunnen worden gezet.</p>
+<p>Een eerste mogelijkheid is dat de consument het digitaal ontwerp (al dan niet tegen betaling) downloadt en vervolgens het product zelf in elkaar zet met onderdelen die hij of zij koopt, hergebruikt, of zelf maakt met behulp van driedimensionale printers en lasersnijders. Dat laatste zou in de toekomst gewoon thuis kunnen gebeuren (als 3D-printers en lasersnijders beter en goedkoper worden), of in een zogenaamde fab lab, waar iedereen er gebruik van kan maken. Er zijn intussen een vijftiental fablabs in België en (vooral) Nederland.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/modular-parts-water-boiler_hu86e611147d68ef430c9d5a052f4148f7_37362_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Een tweede mogelijkheid is dat een bedrijf de licentie van het ontwerp koopt (als het ontwerp is beschermd) en het initiatief neemt om een bouwpakket op de markt te brengen, vergelijkbaar met een doos LEGO of Meccano. De consument hoeft dan niet langer de afzonderlijke onderdelen te vinden of te maken, maar zet het product wel nog zelf in elkaar, net zoals hij een IKEA-meubel in elkaar zet.</p>
+<p>Een derde optie is dat een fabrikant het apparaat als afgewerkt product op de markt brengt. Bijvoorbeeld een koffiezetapparaat wordt in dit geval verkocht en gekocht als eender welk koffiezetapparaat vandaag. Het verschil is dat het product demonteerbaar is en dat de onderdelen na de gebruiksfase voor de productie van andere objecten kunnen worden gebruikt.</p>
+<h2 id="economisch-model-wie-fabriceert-de-onderdelen">Economisch model: wie fabriceert de onderdelen?</h2>
+<p>Hoewel het ontwikkelingsproces achter OpenStructures identiek is aan dat van digitale systemen zoals Wikipedia, Linux of WordPress, is er ook een fundamenteel verschil. Thomas Lommée: &ldquo;Computercode of tekst accumuleert zonder enige materiaalkost. Met objecten is dat anders. Je hebt materiaalkosten, je hebt investeringskosten. Het gaat dus moeizamer dan met software. Maar langs de andere kant schuilt daar wel een economische opportuniteit in. Er bestaat geen succesvol verdienmodel voor Linux of Wikipedia. Maar in het geval van een open modulair ontwerpsysteem voor objecten moet er iemand voor de materialen zorgen.&rdquo;</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/modular-toaster_hu40408455b1a5602562641e945ef6f0f2_39023_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Met een model zoals OpenStructures zou op verschillende manieren geld kunnen worden verdiend. Een fabrikant kan ervoor kiezen om een onderdeel in productie te nemen waar hij brood in ziet. Een andere producent kan er voor kiezen om een ontwerp als afgewerkt product of als bouwdoos op de markt te brengen. Een ontwerper kan een digitaal ontwerp uploaden dat vrij te downloaden is voor persoonlijk gebruik, maar niet voor commercieel gebruik. De fabrikant die dat product of een bouwpakket ervan op de markt wil brengen, koopt dan een licentie van de ontwerper.</p>
+<p>Ambachtslui kunnen zich toeleggen op het maken van exclusieve, handgemaakte onderdelen of componenten in speciale materialen die dankzij de modulariteit perfect gecombineerd kunnen worden met een in massa geproduceerd modulair product. Anderen kunnen een fablab starten waar mensen voor een maandelijks lidgeld spullen kunnen komen bouwen. Kortom, iedereen kan zijn of haar brood verdienen in het systeem.</p>
+<h2 id="samenwerkingseconomie">Samenwerkingseconomie</h2>
+<p>Thomas Lommée: &ldquo;Het is niet onze ambitie om zelf een gigantische fabriek te bouwen die alle mogelijke onderdelen produceert. De bedoeling is niet dat OpenStructures een soort modulaire IKEA wordt. De uiteindelijke ambitie van het project is de creatie van een collectief economisch systeem, waarbij de ene producent baat heeft bij de productie van de andere producent. Want de stukken die de ene produceert, kunnen ook door de andere worden gebruikt. Dé fabriek bestaat straks niet meer. Waar wij naartoe willen, zijn straten vol kleine winkeltjes en werkplaatsen die allemaal een klein onderdeel maken van een groter systeem. Een samenwerkingseconomie, een nieuwe middenstand. Niet één grote speler die alles maakt. Het sociale aspect is ook zeer belangrijk.&rdquo;</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/waterkoker-2_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/waterkoker-2_hucb6c679167539bd0db89f80d654a9e3b_13691_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/waterkoker-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>&ldquo;Ik heb het model beschermd, maar alleen om te verhinderen dat iemand anders dat doet en het vervolgens afsluit&rdquo;, legt Lommée uit. &ldquo;Als IKEA een product wil uitbrengen dat compatibel is met ons systeem, dan is dat prima. Maar het model kan alleen maar werken als het open blijft. Hoe groter OS wordt, hoe makkelijker het wordt voor een klein bedrijfje of een ambachtsman om er mee in te stappen. Het volstaat om één slim component te bedenken dat één of meerdere succesvolle toepassingen heeft. Het uiteindelijke doel is het starten van een universele, gezamenlijke puzzel die het toelaat dat een zo breed mogelijk scala van mensen &ndash; van ambachtslui tot multinationals &ndash; een zo breed mogelijk scala van modulaire componenten ontwerpt, bouwt en uitwisselt.&rdquo;</p>
+<h2 id="hoe-wordt-het-hergebruik-georganiseerd">Hoe wordt het hergebruik georganiseerd?</h2>
+<p>OpenStructures ontwikkelde behalve een gemeenschappelijke intermodulaire taal en een online database ook een prototype van een werkplaats/atelier/stockageruimte in de Brusselse deelgemeente Elsene. Dat soort magazijnen en ontmoetingsplaatsen moet de draaischijf worden voor de organisatie van het hergebruik van de onderdelen en componenten.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os-atelier-stockageruimte_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/os-atelier-stockageruimte_hu80b5b3e979e9fa0ba4072675a85e50f6_34469_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os-atelier-stockageruimte_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Lommée: &ldquo;Als een modulair product niet langer nodig is, en de eigenaar ervan heeft geen zin om zelf met de onderdelen iets anders te maken, dan gooit hij dat product niet weg of brengt hij het niet naar een recyclagepark, maar komt hij naar een plek zoals deze. Wij halen het product uit elkaar en stockeren alle onderdelen. Andere mensen kunnen dan naar hier komen om onderdelen te kopen of om er ter plekke iets anders mee te bouwen, eventueel in combinatie met nieuwe onderdelen die ter plekke ontworpen en gemaakt zouden kunnen worden. Niet iedereen moet zijn eigen producten zelf in elkaar zetten, maar na gebruik komt een modulair object dus altijd in handen van een groep mensen die er wel mee aan de slag wil.&rdquo;</p>
+<h2 id="prototypes">Prototypes</h2>
+<p>OpenStructures is een experimenteel project. Het bevindt zich, om in de terminologie van software te blijven, in &lsquo;bètafase&rsquo;. De objecten, de onderdelen, de database en het atelier zijn allemaal prototypes. De werking van het model wordt sinds vijf jaar getest door studenten en professionele ontwerpers op uitnodiging van Lommée. Ze maken prototypes die vervolgens worden doorgegeven aan andere mensen die er verder op bouwen. Het doel is momenteel het onderzoeken wat de mogelijkheden en beperkingen zijn van een open modulair systeem, en onder welke omstandigheden dit het meest efficient en gunstig kan functioneren.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/atelier-thomas-lommee_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/atelier-thomas-lommee_hu7ac8749af6050b6c294e3c82cc157d6b_37252_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/atelier-thomas-lommee_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Thomas Lommée: &ldquo;Heel het project is een prototype van wat zou kunnen zijn. De ambitie is om te onderzoeken hoe realistisch zo&rsquo;n alternatief is, en om te leren uit wat we doen. OpenStructures kan mislukken, maar in elk geval zijn de vijf jaar tot nu toe een heel interessant leerproces geweest.&rdquo;</p>
+<p>&ldquo;Om te slagen heeft het model ook een soort schaarste nodig&rdquo;, vervolgt Lommée. &ldquo;Je kan qua kostprijs niet concurreren met producten die in China door goedkope werkkrachten worden gemaakt en vervolgens met goedkope brandstof naar hier worden getransporteerd. We hebben die oefening gemaakt. Je kan met een open modulair systeem producten kan maken die goedkoper zijn dan wanneer je ze hier in een gewone fabriek zou produceren, of ze laat maken door een lokale ambachtsman. Maar ze zijn nog altijd duurder dan producten die uit China komen.&rdquo;</p>
+<h2 id="grid-beam-de-voorloper-van-openstructures">Grid Beam: de voorloper van OpenStructures</h2>
+<p>OpenStructures is niet het enige en ook niet het eerste open modulair ontwerpsysteem voor objecten. Het Amerikaanse <a href="http://www.gridbeam.com/" target="_blank" >Grid Beam</a>, dat ontstond in de late jaren zeventig van de twintigste eeuw, is een soort <a href="http://gridbeamers.com/" target="_blank" >Meccano in groot formaat</a>, gebaseerd op geperforeerde balken uit hout, staal of aluminium. Het systeem werd op zijn beurt geïnspireerd door een methode die al in de jaren zestig werd bedacht door Ken Isaacs: <a href="http://popupcity.net/2009/07/free-classic-how-to-build-your-own-living-structures-by-ken-isaacs/" target="_blank" >Living Structures</a>. Nog ouder zijn de <a href="https://nl.wikipedia.org/wiki/Geodetische_koepel" target="_blank" >geodetische koepels</a> van de Amerikaanse architect Buckminster Fuller.</p>
+<p>Met Grid Beam zijn al heel wat structuren gebouwd, zoals meubels, tuinkassen, voertuigen, windmolens en constructies voor werkplaatsen. Het mooie is ook in dit geval dat je bijvoorbeeld een stapelbed dat je niet meer nodig hebt, makkelijk kan ombouwen tot een boekenkast, of andersom. Dat kan je als consument veel geld besparen, en het is uiteraard veel duurzamer dan het kopen van een nieuw meubel. Het systeem vergemakkelijkt ook de constructie van objecten: een fout kan makkelijk worden rechtgezet en balken staan als vanzelf loodrecht op elkaar. Bovendien kan je er veel sneller dingen mee bouwen dan wanneer je moet gaan lassen of timmeren.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-high-sleeper_hud53190fd14432ebf742a4bdbc72515f2_89298_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De uitgangspunten van Grid Beam en OpenStructures zijn zeer gelijklopend (open en modulair, gebouwd met het oog op demontage), maar er zijn ook verschillen. Ten eerste is de ontwerptaal van Grid Beam een stuk minder gesofistikeerd dan die van OpenStructures. De regels schrijven voor dat de balken bepaalde afmetingen hebben en dat de gaten op een welbepaalde afstand van elkaar worden geboord (de afstand tussen de gaten is gelijk aan de breedte van de balk). Dat is alles.</p>
+<p>Deze eenvoudige geometrie beperkt de reikwijdte van de objecten die ermee kunnen worden gemaakt. Er kunnen alleen maar rechthoekige frames mee worden gebouwd, en dan nog alleen in een bepaalde schaal &ndash; zo is het systeem niet geschikt voor het maken van het frame voor een koffiezetapparaat. Met OpenStructures is een veel grote diversiteit aan objecten mogelijk. De hele infrastructuur rond OpenStructures is er juist op gericht een zo groot mogelijke diversiteit aan compatibele onderdelen te genereren.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-wheelbarrow_hu64cd348ca776440ad69e2b9d49d1f9a9_249186_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ten tweede is Grid Beam duidelijk een product van het pre-internet tijdperk. Er hoort geen online infrastructuur bij waar je digitale plannen kan downloaden. Wie een Grid Beam design wil kopiëren, wordt aangeraden om naar een foto ervan te kijken en vervolgens de gaatjes in de gebruikte balken te tellen.</p>
+<p>Thomas Lommée: &ldquo;Open modulaire systemen bestaan al lang, maar voor de opkomst van internet bleef dit soort initiatieven heel sterk verbonden aan een lokale gemeenschap. In feite is het internet de ontbrekende schakel. Als je vandaag een knap ontwerp maakt voor een open modulair object, dan zijn er morgen 100 andere mensen die het gaan nabouwen en verder verbeteren.&rdquo;</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-componenten_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/gridbeam-componenten_hu7aa58e955d6723136901c1d4edde6096_15733_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-componenten_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Niettemin lijkt Grid Beam na 40 jaar nu toch in een stroomversnelling te raken. In 2009 werd er een boek (PDF) uitgebracht over het systeem en eerder dit jaar werden de geperforeerde balken voor het eerst als bouwpakket te koop aangeboden. Tot nu toe was er geen andere mogelijkheid dan de balken zelf te perforeren, wat erg tijdrovend is en waarvoor je (zeker in het geval van stalen of aluminium balken) gespecialiseerd materiaal voor nodig hebt.</p>
+<h2 id="bit-beam-makerbeam-openbeam-en-contraptor">Bit Beam, MakerBeam, OpenBeam en Contraptor</h2>
+<p>De afgelopen twee jaar zijn een aantal vergelijkbare systemen ontwikkeld die in feite geminiaturiseerde versies zijn van Grid Beam, gericht op het ontwerp van kleinere objecten. Voorbeelden zijn BitBeam en Contraptor. Het laatste is specifiek bedoeld voor het zelf maken van driedimensionale printers en lasersnijders, waarmee vervolgens nieuwe onderdelen kunnen worden gemaakt.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/bitbeam_hub636c7881bdddfd75c778e2d57951183_250194_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Twee andere systemen, <a href="http://openbeamusa.com/" target="_blank" >OpenBeam</a> en <a href="https://www.sparkfun.com/products/10540?" target="_blank" >MakerBeam</a>, zijn dan weer &lsquo;open&rsquo; versies van <a href="http://www.8020.net/" target="_blank" >commerciële T-profielen</a>. De structuren van die gesloten systemen structuren zijn weliswaar relatief goedkoop, maar ze werken alleen met speciale schroeven die erg duur zijn &ndash; het business model van de scheermesjes dus. De open alternatieven werken met standaard schroeven en bouten.</p>
+<p>De onderdelen van al deze systemen worden online te koop aangeboden, maar aangezien het open systemen zijn, kan je ook de plannen downloaden en ze zelf maken of in productie nemen. Uit de eerste ervaringen blijkt dat het erg belangrijk is dat de onderdelen door zoveel mogelijk fabrikanten op zoveel mogelijk plaatsen worden gemaakt. Zoniet kunnen de verzendingskosten zo hoog oplopen dat een modulair systeem voor de consument niet meer rendabel is.</p>
+<h2 id="compatibiliteit-van-open-modulaire-systemen">Compatibiliteit van open modulaire systemen</h2>
+<p>Een heikel punt is de compatibiliteit <em>tussen</em> al deze open modulaire systemen, alsook tussen open modulaire en gesloten modulaire constructiemethoden. Contraptor is compatibel met Grid Beam en met commerciële T-profielen. Bit Beam is compatibel met LEGO Technics, een wat gesofistikeerdere versie van LEGO die meer op Meccano lijkt. Maar daar houdt het op. MakerBeam is niet compatibel met OpenBeam. En OpenStructures is niet compatibel met Grid Beam, en dus evenmin met Contraptor of commerciële T-profielen.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png" alt='' data-original="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/contraptor-parts_hufba305b15e7b5f3e90fa0198e4269957_182856_800x800_fit_q90_h2_box.webp" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Een belangrijke reden daarvoor is dat OpenStructures geen Amerikaans systeem is. Het is gebaseerd op het internationale metrische systeem (de meter en de centimeter), terwijl Grid Beam gebaseerd is op de Angelsaksische meeteenheid (de duim en de voet). De kans bestaat dus dat Grid Beam straks een soortgelijke online infrastructuur als OpenStructures opzet rond hun systeem, en daar vervolgens een samenwerkingseconomie rond opbouwt. Contraptor deed al iets soortgelijks. De initiatiefnemers van Grid Beam verwijzen op hun website bovendien expliciet naar OpenStructures, met de opmerking dat er van dat systeem &ldquo;veel te lenen valt&rdquo;.</p>
+<h2 id="modulaire-autos">Modulaire auto&rsquo;s</h2>
+<p>Thomas Lommée: &ldquo;Je ziet inderdaad hoe langer hoe meer soortgelijke open modulaire systemen ontstaan. Maar elk van die systemen legt andere accenten. Bij Contraptor ligt de nadruk bijvoorbeeld op precisie, aangezien er robots en gesofistikeerde machines mee worden gebouwd. De esthetiek is daar duidelijk niet van belang. Ik ben een ontwerper en dus vooral geïnteresseerd in de vraag of open modulaire systemen ook &lsquo;mooie&rsquo; objecten kunnen opleveren, dingen die je een plaats wil geven in je interieur. Je hebt bijvoorbeeld ook <a href="http://www.wikispeed.com/" target="_blank" >WikiSpeed</a>, dat zich op de bouw van een open modulaire auto concentreert. Verder zijn er nog heel wat &lsquo;open hardware&rsquo; systemen die niet op modulaire onderdelen zijn gebaseerd, of slechts in zeer beperkte mate, zoals <a href="http://opensourceecology.org/gvcs.php" target="_blank" >Open Source Ecology</a>. Ik denk niet dat al die systemen noodzakelijk onderling compatibel moeten zijn. De toepassingen zijn heel verschillend.&rdquo;</p>
+<div class="article-img">
+<figure data-imgstate="dither">
+<img src="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png" alt='' data-original="images/openbeam.png" data-dither="/nl/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png" loading="lazy"/> </figure>
+<div class="figure-controls">
+<figcaption class="caption">
+  <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+  </svg>
+<div class="imgindicator">
+<span class="tooltip view-orig">
+  Bekijk origineel beeld
+</span>
+<span class="tooltip view-dither">
+  Bekijk gecompresseerd beeld
+</span>
+</div>
+</figcaption>
+</div>
+</div>
+<p>&ldquo;Ik heb uiteraard lang getwijfeld tussen de duim en de centimeter&rdquo;, vervolgt Lommée. &ldquo;Maar ik kwam uiteindelijk tot de conclusie dat het metrische systeem makkelijker werkt, zeker in Europa. Bovendien lijkt het systeem ook in de VS en Canada aan de winnende hand. Er is trouwens iemand die een <a href="http://www.contraptor.org/forum/t-273404/contraptor-openstructures" target="_blank" >Europese versie van Contraptor</a> heeft gemaakt, gebaseerd op het metrische systeem en compatibel met OpenStructures. Ook denk ik dat de wereld best wel groot genoeg is voor twee systemen. Kijk maar naar de energiestandaarden. Je kan bovendien altijd wel een koppeling tussen twee systemen ontwerpen. Anderzijds besef ik maar al te goed we in een netwerkmaatschappij leven waarin alles verbonden is en gekopieerd wordt. En dat leidt er meestal toe dat er eentje kopje onder gaat. En het is niet altijd de beste standaard die wint. Ik houd dus mijn vingers gekruist.&rdquo;</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>mm</h5>
+	<p>fantastisch artikel !</p>
+<p>daarom dat de landrover defender rijders zo enthousiast zijn/blijven !</p>
+<p>de oude onderdelen kunnen sinds 60jaar perfekt worden uitgewisseld met de nieuwe modellen.</p>
+<p>dit in tegenstelling met de gangbare wegwerpautos !</p>
+<p>ook andere modellen en zelfs onderdelen van andere merken passen op dezelfde basisstructuur !</p>
+<p>nu nog een aanpasbaar en recycleerbaar alternatief voor de zware dieselmotor en deze &lsquo;vuile 4x4&rsquo; wordt een échte groene auto &hellip;</p>
+<p>(effi zonder rekening te houden met de andere kritiek op de auto in het algemeen en dit type in het bijzonder )</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rarrie</h5>
+	<p>Dùùùùùrzaam met z&rsquo;n allen &hellip;</p>
+<p>Is dus NIET samen met &ldquo;Nonkel-Bella-Ciao-Nic-nic-nic&rdquo; (Balthazar) meezingen</p>
+<p>Maar met Lego-blokjes spelen, en van die dingen &hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>JW</h5>
+	<p>Deze site kwam ik van de week tegen..zou hier goed bij in kunnen passen: <a href="http://www.wikihouse.cc" target="_blank" >http://www.wikihouse.cc</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>@ Manuel: Klopt. Dat verdienmodel bestaat. Maar erg succesvol is het niet. De grote meerderheid van Linuxgebruikers betaalt niet voor de software. Linux verkopen is geen winstgevende activiteit, het levert geld op om de gratis versie te kunnen blijven ontwikkelen. Bij hardware is er meer economisch potentieel.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Friedhelm</h5>
+	<p>Jee wat gaaf! Zat al zo vaak te denken aan modulaire fietsen, huizen (zijn hele mooie voorbeelden van), maar alles combineren geeft opeens zoveel meer mogelijkheden.</p>
+<p>Wel grappig trouwens dat Thomas zat te twijfelen tussen een niet-modulair systeem met duim en stone en het metrisch stelsel waar alles modulair is (denk aan de Watt: =F v (kracht maal snelheid), =V I (spanning maal stroom), =0,5 m (v1^2 - v2^2)/t (versnelling), etcetera)</p>
+<p>Misschien wordt OS commercieel interessanter als de afschrijving van de onderdelen geminimaliseerd wordt, dus dat de tweedehands onderdelen een hoge prijs opbrengen door schaarste, licentie etc.</p>
+<p>Ik ga es kijken of ik van die kicksled (<a href="http://www.lowtechmagazine.be/2012/12/de-stepslee-of-kicksled.html" target="_blank" >http://www.lowtechmagazine.be/2012/12/de-stepslee-of-kicksled.html</a>) van Kris een OS kan maken.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Anne Koelewijn</h5>
+	<p>@Kris,</p>
+<p>Gewoon alle reacties verschuiven naar deel 2 van het artikel.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Thijs Bollen</h5>
+	<p>En daar is Kris weer met zijn neus voor inspiratiebronnen voor de weg naar een betere wereld! Mijn complimenten!</p>
+<p>Het idee is geweldig.</p>
+<p>Het zoeken is nu naar de beste toepassing. Huizen? Nee, ik deel de mening dat die eigenlijk voor 400 jaar gebouwd zouden moeten worden. Voornamelijk mechanische gebruiksvoorwerpen? Ook die zouden voor een langere levensduur gebouwd moeten worden. En hoe zit het met kwaliteit en esthetiek? Dan wint de methode van de fluitenmaker waar je eerder over schreef toch glansrijk? Dan zie ik meer in goedkope restauratietechnieken van oude mooie en bewezen goede spullen.</p>
+<p>Echte winst zou kunnen zitten in elektronica. Dat is al wel redelijk modulair opgezet, maar het veroudert nu te snel en je zou eigenlijk elektronische elementen van een wasmachine, pc en dvd-speler zo moeten kunnen uitwisselen, inclusief bijbehorende software.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Tom Decorte</h5>
+	<p>Tof artikel. Een project dat hier volgens mij naadloos bij aansluit: <a href="http://littlebits.cc/mission" target="_blank" >http://littlebits.cc/mission</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Johan</h5>
+	<p>Kris.</p>
+<p>Als eerste m&rsquo;n compliment voor het uitgebreide artikel. Lees al een paar jaar lowtech magazine en de artikelen zijn erg goed om te lezen.</p>
+<p>Gaan gewoon een stuk verder dan de meeste persberichten en bla bla die je veel tegenkomt.</p>
+<p>In het artikel maak alles samen gaat het ook even over makerbeam. Wij zijn doorgegaan met de ontwikkeling van de profielen. De link in je artikel verwijst nog naar de oude versie bij een webshop. op de blog <a href="http://blog.makerbeam.eu/?p=518" target="_blank" >http://blog.makerbeam.eu/?p=518</a> staat er iets meer info over het nieuwe profiel.</p>
+<p>Het klopt dat de onderdelen niet 100% compatibel zijn tussen makerbeam en openbeam. Maar op veel punten proberen we wel samen te werken.</p>
+<p>Zo gebruiken we alle twee M3 als schroefdraad, proberen onderdelen zo te maken dat ze op alle 2 de systemen bruikbaar zijn</p>
+<p><a href="http://blog.makerbeam.eu/?p=529#comments" target="_blank" >http://blog.makerbeam.eu/?p=529#comments</a></p>
+<p>Qua ontwikkeling en locale productie lukt het met makerbeam al een beetje. De ontwerpen zijn zelf lokaal te printen in plastic</p>
+<p><a href="http://blog.makerbeam.eu/?p=564" target="_blank" >http://blog.makerbeam.eu/?p=564</a> en winkels verlopen ook al onderdelen die ze lokaal printen om bij de makerbeams te verkopen zoals voetjes.</p>
+<p><a href="http://www.makerbeam.eu/epages/63128753.sf/en_GB/?ObjectPath=/Shops/63128753/Products/vec3d" target="_blank" >http://www.makerbeam.eu/epages/63128753.sf/en_GB/?ObjectPath=/Shops/63128753/Products/vec3d</a></p>
+<p>Wat wij gemerkt hebben bij makerbeam is dat het idee op kickstarter alleen niet voldoende is voor succes.</p>
+<p><a href="http://www.kickstarter.com/projects/mnemnion/makerbeam-an-open-source-building-kit" target="_blank" >http://www.kickstarter.com/projects/mnemnion/makerbeam-an-open-source-building-kit</a></p>
+<p>Makerbeam heeft bijna 1 jaar stil gelegen omdat het gewoon nergens te koop was. Door het beschikbaar te maken gaan mensen er verder mee en worden er ook weer nieuwe onderdelen voor ontwikkeld. Het breed beschikbaar hebben is iets wat vaak mist bij open hardware ontwerpen. Gridbeam is daar denk ik wel een mooi voorbeeld van. Nu er een webshop met makerbeam is is er ook genoeg omzet om een nieuwe versie te maken. Hierop worden er door andere gebruikers weer nieuwe onderdelen ontworpen die er op passen. Zo begint het te leven en kan het ook groeien.</p>
+<p>Vriendelijke Groet</p>
+<p>Johan</p>
+
+</div>
+
+<div class="comment">
+	<h5>rudy de jaegher</h5>
+	<p>al eens gekeken op <a href="https://www.leho.be" target="_blank" >www.leho.be</a>?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Koen Vandewalle</h5>
+	<p>Scholen, universiteiten, bibliotheken,&hellip; dat zijn ook niet echt verdienmodellen. En toch is het georganiseerde, gratis verspreiden van kennis en inzicht de enige manier om onze complexe samenleving te laten draaien. Zoniet waren we hier waarschijnlijk nog allemaal akkkers aan het bewerken met handgereedschappen. De toekomst zal het moeten uitwijzen, maar intellectueel eigendomsrecht en/of fabrieksgeheim zijn mijns inziens niet de beste systemen om met kennis om te gaan, ook al geven ze de mogelijkheid om er aan te verdienen.</p>
+<p>Ik druk me voorzichtig uit, omdat ik het ook niet leuk vind als een ander poen schept met ideeën die hij &ldquo;geleend&rdquo; heeft van iemand anders.</p>
+<p>Anderzijds ken ik er bitter weinig die beter geworden zijn van het poenscheppen.</p>
+<p>Een blijvende -bescheiden- bijdrage kunnen leveren aan de ontwikkeling van een stukje van de mensheid, en dat zien evolueren, schept genoegdoening. Je kunt dat hier op deze blog ook duidelijk merken.</p>
+<p>Via deze weg wil ik Kris, maar ook de schrijvers van commentaren, nu al danken voor het voorbij jaar van fantastisch interessante en vlotlezende stukjes, en iedereen een creatief en low-tech 2013 toewensen.</p>
+<p>Koen</p>
+
+</div>
+
+<div class="comment">
+	<h5>Geert FA G</h5>
+	<p>Erg boeiend artikel. Aan de voorwerpen kan esthetisch nog wat gewerkt worden, maar dat is geen onmogelijk te nemen hindernis lijkt me.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Manuel</h5>
+	<p>Kleine correctie: In het artikel staat dat er geen succesvol verdienmodel bestaat voor Linux ed. Niets is echter minder waar. Er bestaan reeds vele projecten waarbij de software opensource is en er betaald moet worden voor de service. <a href="http://en.wikipedia.org/wiki/Business_models_for_open-source_software" target="_blank" >http://en.wikipedia.org/wiki/Business_models_for_open-source_software</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>hp</h5>
+	<p>ik ben pro maximale modulariteit</p>
+<p>ik mis een indrukwekkende lijst van dingen die modulair kunnen worden gemaakt</p>
+<p>mijn lijst</p>
+<p>allerlei opberg-oplossingen</p>
+<p>meubilair</p>
+<p>koelkast ?</p>
+<p>moet erg goed te onderhouden zijn</p>
+<p>microgolfoven ?</p>
+<p>moet veilig zijn !</p>
+<p>en makkelijk te onderhouden</p>
+<p>als die ventilatoren nu eens standaard zouden zijn</p>
+<p>en makkelijk te vervangen</p>
+<p>en als glazen draaiplateau&rsquo;s universeel zouden zijn</p>
+<p>fiets ?</p>
+<p>wielen , pedalen enz zijn vervangbaar</p>
+<p>rest het frame</p>
+<p>uitgerekend bij de verbindingen /overgangen moet er een vloeiend krachten-verloop zijn</p>
+<p>het wordt zwaar en duur</p>
+<p>toestellen met elektronica ?</p>
+<p>bij verbindingen is er het corrosie-probleem</p>
+<p>één-stuk toestanden en &ldquo;gedoopt&rdquo; (luchtdicht) is betrouwbaarder</p>
+<p>voor aantal toestellen is gewicht van belang</p>
+<p>bvb smartphone / fototoestel / uw bril</p>
+<p>en dan is één-stuk lichter</p>
+<p>heel wat zaken zijn klein</p>
+<p>en ongeschikt om thuis in elkaar te klussen</p>
+<p>voor talrijke gebruiksvoorwerpen is ergonomie</p>
+<p>niet onbelangrijk en is een precieze vormgeving van belang ; niet evident met standaard modulaire componenten</p>
+<p>enz</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rens Verpaalen</h5>
+	<p>Het aantal en de gevarieerdheid van de reacties maakt wel duidelijk dat je hier iets heel belangwekkends hebt &lsquo;opgewekt&rsquo;.</p>
+<p>Dankjewel Kris, voor het waardevolle werk dat je verricht.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Tjeerd</h5>
+	<p>Weliswaar een late reactie op dit artikel, maar dit is toch de gedachte achter de ISO/DIN/NEN normeringen van materiaal? Schroefdraad, bouten, moeren, profielen, bouwmaterialen etc. zijn sterk genormeerd. Van standaard profielen in de metaalindustrie tot standaard maten in de bouw, dit heeft tot doel net zo met materialen te kunnen componeren als met Lego, zonder dat je bijvoorbeeld een rare set Engelse sleutels hoeft bij te kopen.</p>
+<p>In electronica speelt dit ook. Natuurlijk zie je partijen die op basis van eigen koppelingen weer een vendor lock-in proberen maar de EU probeert Apple momenteel weer duidelijk te maken dat ze de Lightning aansluiting moeten vervangen met USB3. En vergeet hier niet de normen voor fittingen, spanningsniveaus, kleurcoderingen, etc. In de autoindustrie speelt dit ook met het standaard kunnen uitlezen van de electronica willekeurig welk merk auto.</p>
+<p>Het is een gegeven dat de industrie je graag te klant houdt door specifieke aansluitingen en componenten af te dwingen. Nespresso en de inkjetprinters zijn/waren een goed voorbeeld van dit verdienmodel. Zoeken naar alternatieven loont dan. Maar zoals in de ICT open standaarden belangrijker zijn gebleken dan open source lijkt mij dat normering van componenten net zo goed bijdraagt aan het mogelijk maken van uitwisselbare ontwerpen.</p>
+<p>Dat nog los van het feit dat je eindproducten beter in staat bent te repareren als deze fijnmaziger modulair zijn opgebouwd en zich daarbij juist aan aansluitvoorwaarden conformeren.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="./nl/tags/stuff/" class="">Stuff</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./nl/2023/11/plastic-waste-in-the-fuel-tank/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Plastic afval in de brandstoftank?</h3>
+		<p class="index-summary">We produceren genoeg plastic afval om minstens 10% van het gemotoriseerde wegverkeer van brandstof te voorzien. De Nederlandse ontwerper Gijs Schalkx greep deze kans en rijdt nu met zijn auto op het plastic afval dat hij verzamelt.</p>
+		<time class="published">19 november 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2023/11/bike-generator-at-paris-exhibition/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/11/bike-generator-at-paris-exhibition/images/dithers/bike-generator-pavillon-arsenaL_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Fietsgenerator op tentoonstelling in Parijs</h3>
+		<p class="index-summary">Low-tech Magazine bouwde een fietsgenerator voor een expositie over energie in het Pavillon d&rsquo;Arsenal in Parijs, nu open voor het publiek. Onze twee andere fietsen zijn te bekijken en uit te proberen in Rotterdam en Barcelona.</p>
+		<time class="published">18 november 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2023/10/workshop-in-rotterdam-how-to-build-a-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/10/workshop-in-rotterdam-how-to-build-a-bike-generator/images/dithers/poster-rotterdam-final-nl_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Workshop in Rotterdam: Bouw een fietsgenerator</h3>
+		<p class="index-summary">Van 10 tot 14 oktober geeft Low-tech Magazine een gratis workshop waar we samen een fietsgenerator bouwen.</p>
+		<time class="published">4 oktober 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2023/10/boerderij-op-menskracht/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/10/boerderij-op-menskracht/images/dithers/boerderij-tekening_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Boerderij op Menskracht</h3>
+		<p class="index-summary">In dit nieuwe toekomstscenario voor de Human Power Plant - een samenwerking tussen Low-tech Magazine en kunstenaar Melle Smets - richten we de aandacht op de voedselproductie. Wat gaan we eten als de olie op is?</p>
+		<time class="published">3 oktober 2023</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="nl/about">
+  Over ons
+</a>
+    <a href="nl/power">
+  Power
+</a>
+    <a href="nl/about/team">
+  Colophon
+</a>
+    <a href="nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

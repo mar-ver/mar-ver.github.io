@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Italiano</title>
+    <link>./it/tags/stuff/</link>
+    <description>Questo e un sito a energia solare, il che vuol dire che a volte va offline.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 03 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="./it/tags/stuff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quanto è circolare l’economia circolare?</title>
+      <link>./it/2018/11/how-circular-is-the-circular-economy/</link>
+      
+      <enclosure url="/it/2018/11/how-circular-is-the-circular-economy/images/dithers/circular-economy-2_dithered.png" type="image/png" length="10713" ></enclosure>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>./it/2018/11/how-circular-is-the-circular-economy/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./it/2018/11/how-circular-is-the-circular-economy/images/dithers/circular-economy-2_dithered.png&#34; alt=&#39;Illustrazione a cura di Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustrazione a cura di [Diego Marmolejo](www.diegomarmolejo.com) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Per esempio, si potrebbe pagare per la luce e non per i dispositivi di illuminazione, che rimarrebbero di proprietà del fornitore. Un prodotto diviene dunque un servizio, cosa che si ritiene incoraggi il mondo degli affari ad allungarne la vita, quindi la durata, e migliorarne la riciclabilità.&lt;/p&gt;
+&lt;p&gt;L’economia circolare è presentata come un’alternativa all’economia lineare, termine coniato dai sostenitori della circolarità e che si riferisce al fatto che le società industriali trasformano risorse di valore in rifiuto. Eppure, sebbene non ci siano dubbi sull’insostenibilità dell’attuale modello industriale, ci si chiede come in realtà si differenzierebbe da esso, appunto, la cosiddetta  economia circolare.&lt;/p&gt;
+&lt;h2 id=&#34;gli-aspetti-critici&#34;&gt;Gli aspetti critici&lt;/h2&gt;
+&lt;p&gt;Numerosi studi scientifici (si veda la bibliografia in fondo all’articolo) descrivono il concetto di economia circolare come una «visione idealizzata»,
+un «mix di idee varie da differenti ambiti di provenienza», o un’«idea vaga basata su concetti pseudoscientifici». Sono tre i principali punti critici, che vado a sviluppare qui di seguito.&lt;/p&gt;
+&lt;h2 id=&#34;troppo-complicato-da-riciclare&#34;&gt;Troppo complicato da riciclare.&lt;/h2&gt;
+&lt;p&gt;La prima incrinatura nella credibilità dell’economia circolare è il fatto che il processo di riciclo dei moderni prodotti è ben lontano dall’essere efficiente al 100%. Peraltro, c’è da dire che l’economia circolare di per sé non è nulla di nuovo. Nel Medioevo i vestiti consunti venivano trasformati in carta, gli scarti alimentari erano destinati ai polli o ai maiali e i nuovi edifici erano costruiti con ciò che restava dei vecchi. La differenza tra allora e oggi sta nelle risorse utilizzate.&lt;/p&gt;
+&lt;p&gt;Prima dell’industrializzazione, quasi tutto era ricavato da materiali che si decomponevano facilmente (come legno, canne o canapa) o facilmente riciclabili o riutilizzabili (come il ferro e i mattoni). I prodotti moderni sono costituiti invece da una varietà molto maggiore di (nuovi) materiali, che per lo più non si decompongono e che non sono nemmeno facili da riciclare.&lt;/p&gt;
+&lt;p&gt;Per esempio, uno studio recente sul Fairphone 2 modulare, uno smartphone progettato per essere riciclabile e durare molto, dimostra che l’uso di materiali sintetici, microchip e batterie rende praticamente impossibile chiudere il cerchio del riciclo. Solo il 30% di ciò che viene usato per questo cellulare può essere recuperato. Uno studio sulle luci a Led ha dato risultati analoghi.&lt;/p&gt;
+&lt;p&gt;Più un prodotto è complesso, più fasi e processi richiede per essere riciclato. E in ogni passaggio si perdono risorse ed energia. Inoltre, nel caso dell’elettronica, è lo stesso processo produttivo a richiedere addirittura più risorse rispetto alle materie prime grezze estratte per la produzione;
+ciò significa che riciclare il prodotto finale permetterà di recuperare solo una frazione di ciò che è sta to necessario usare per crearlo. E mentre certe plastiche sono davvero riciclabili, il processo in questione produce solo materiali di grado inferiore (downcycling), che entrano nella catena del rifiuto poco dopo.&lt;/p&gt;
+&lt;p&gt;La scarsa efficienza del processo di recupero è già di per sé sufficiente a erodere dalle fondamenta il concetto di economia circolare: la perdita di risorse durante il riciclo necessita sempre di essere compensata con ulteriore sovra-estrazione di risorse del pianeta. Il processo magari migliorerà, ma resta sempre un compromesso al ribasso tra il massimo del materiale recuperato e il minimo dell’energia utilizzata. E questo ci porta al punto successivo.&lt;/p&gt;
+&lt;h2 id=&#34;come-riciclare-le-fonti-di-energia&#34;&gt;Come riciclare le fonti di energia?&lt;/h2&gt;
+&lt;p&gt;E veniamo alla seconda incrinatura nella credibilità dell’economia circolare:
+il fatto che il 20% delle risorse totali usate nel mondo è costituito da combustibili fossili. Di questa fetta, il 98% viene bruciato come fonte di energia e non può essere riutilizzato o riciclato. Al massimo, il calore in eccesso, per esempio, dalla generazione di elettricità può essere usato per sostituire altre fonti di calore.&lt;/p&gt;
+&lt;p&gt;Quando l’energia viene trasferita o trasformata, la sua qualità si abbassa (seconda legge della termodinamica); infatti è impossibile far funzionare un’auto o una centrale elettrica con l’eccesso di calore proveniente da un loro analogo. Di conseguenza, ci sarà sempre bisogno di estrarre ulteriori combustibili fossili. Inoltre, anche i materiali da riciclare richiedono energia, sotto forma di ciò che serve per il processo stesso di recupero e per il trasporto del riciclato e del riciclabile.&lt;/p&gt;
+&lt;p&gt;Su questo i sostenitori dell’economia circolare hanno una risposta: ci riconvertiremo a un 100% di energia rinnovabile. Ma ciò non chiude il cerchio: per costruire e alimentare gli impianti a energie rinnovabili e le infrastrutture collegate abbiamo bisogno di risorse (sia energia che materiali). Per non parlare poi del fatto che la tecnologia per raccogliere e stoccare l’energia rinnovabile si basa su materiali difficili da riciclare. Infatti, i pannelli solari, le turbine eoliche e le batterie a ioni di litio non vengono riciclati, bensì interrati nelle discariche o bruciati negli inceneritori.&lt;/p&gt;
+&lt;h2 id=&#34;linput-supera-loutput&#34;&gt;L’input supera l’output.&lt;/h2&gt;
+&lt;p&gt;La terza breccia che si apre nella credibilità dell’economia circolare è la più
+grande: l’uso globale delle risorse, intese come energia e come materiali, è in continua crescita, anno dopo anno, ed è aumentato del 1400% nell’ultimo secolo. Da 7 gigatonnellate (Gt) nel 1900 a 62 Gt nel 2005,
+fino a 78 nel 2010. Si tratta di una crescita media intorno al 3% all’anno, oltre il doppio del tasso di crescita della popolazione.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La crescita rende impossibile un’economia circolare, anche se tutte le materie prime grezze fossero riciclate e se tutto il riciclo fosse efficiente al 100%.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La crescita rende impossibile un’economia circolare, anche se tutte le materie prime grezze fossero riciclate e se tutto il riciclo fosse efficiente al 100%. La quantità recuperabile di materiale utilizzato sarà sempre inferiore rispetto a quello di cui la crescita ha bisogno e, per compensare, dobbiamo continuamente estrarre sempre più risorse. La differenza tra domanda e offerta è più elevata che mai. Se guardiamo all’intero ciclo di vita delle risorse, allora risulta chiaro che i sostenitori dell’economia circolare considerano solo una piccola parte del sistema nel suo complesso e ne fraintendono il funzionamento.&lt;/p&gt;
+&lt;h2 id=&#34;laccumulo-di-risorse&#34;&gt;L’accumulo di risorse.&lt;/h2&gt;
+&lt;p&gt;Un considerevole segmento di tutte le risorse, circa un terzo del totale, non viene né riciclato, né incenerito né gettato in discarica: si accumula negli edifici, nelle infrastrutture e nei beni di consumo. Nel 2005 a livello globale sono state utilizzate 62 Gt di risorse. Se togliamo ciò che attiene al settore minerario, restano 30 Gt destinate a fabbricare beni materiali. Di queste, 4 Gt sono andate per i prodotti con una durata inferiore a un anno (usa e getta).&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./it/2018/11/how-circular-is-the-circular-economy/images/dithers/circular-economy-diego_dithered.png&#34; alt=&#39;Illustrazione a cura di Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustrazione a cura di [Diego Marmolejo](www.diegomarmolejo.com) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Le altre 26 Gt risultano accumulate in edifici, infrastrutture e beni di consumo che durano, essi stessi, meno di un anno; di queste, 9 Gt sono state smaltite, ciò significa che gli «stock» di capitale materiale si sono attestati a 17
+Gt. Ma solo 13 Gt erano potenzialmente riciclabili, di cui poi solo un terzo (4 Gt) è stato effettivamente riciclato.&lt;/p&gt;
+&lt;p&gt;Solo 9 Gt di materiali è quindi finito nelle discariche, negli inceneritori o è stato smaltito ed è su quella quantità che si focalizza l’economia circolare. Ma anche se quella quantità venisse tutta riciclata e i processi fossero efficienti al 100%,
+il cerchio non si chiuderebbe. Finché continuiamo ad accumulare materiali grezzi, la chiusura del ciclo vitale di quegli stessi materiali resta un’illusione, anche se in origine, in linea di principio, sono riciclabili.&lt;/p&gt;
+&lt;p&gt;Per esempio, i metalli riciclati possono coprire solo il 36% della domanda annuale di nuovo metallo, anche se si tratta di materiali con un’elevata potenzialità di recupero, intorno al 70%. All’interno del sistema, noi usiamo ancora oggi più materiali grezzi di quanti se ne possano rendere disponibili attraverso il riciclo, quindi, molto semplicemente, non ci sono abbastanza materiali grezzi riciclabili per mettere fine alla continua espansione dell’economia estrattiva.&lt;/p&gt;
+&lt;h2 id=&#34;il-vero-volto-delleconomia-circolare&#34;&gt;Il vero volto dell’economia circolare&lt;/h2&gt;
+&lt;p&gt;Un uso più responsabile delle risorse è naturalmente un’eccellente idea. Ma per raggiungere questo obiettivo, il riciclo e il riuso da soli non sono sufficienti. Dato che il 71% di tutte le risorse non può ancora essere riciclato o riutilizzato (di cui il 44% è costituito da fonti energetiche e il 27% viene aggiunto a stock esistenti), l’unico modo per ottenere numeri migliori è ridurre l’uso totale di risorse.&lt;/p&gt;
+&lt;p&gt;Un’economia circolare richiederebbe quindi che usassimo meno combustibili fossili (che non è la stessa cosa che dire di usare più energia rinnovabile) e che accumulassimo meno materiali grezzi nelle merci. E, cosa ancora più importante, dobbiamo produrre meno cose: meno auto, meno microchip, meno edifici. Ciò sfocerebbe in un doppio profitto: avremmo bisogno di meno risorse e i materiali di scarto disponibili per il riuso e il riciclo potrebbero aumentare negli anni a venire.&lt;/p&gt;
+&lt;p&gt;Ma sembra poco probabile che i sostenitori dell’economia circolare potranno accettare queste condizioni aggiuntive. Il concetto stesso intende allineare la sostenibilità alla crescita economica; in altre parole, più auto, più microchip, più edifici. La riprova? L’Unione europea ha dichiarato che l’economia circolare «favorirà una crescita economica sostenibile».&lt;/p&gt;
+&lt;p&gt;Peraltro, anche i seppur limitati obiettivi dell’economia circolare (il riciclo totale solo di una frazione di risorse) necessitano di una condizione aggiuntiva su cui probabilmente i suoi sostenitori non sarebbero d’accordo: tutto, ancora una volta, dovrebbe tornare a essere fatto di legno e di metalli semplici, senza uso di materiali sintetici o compositi, né semiconduttori, né batterie a ioni di litio.&lt;/p&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia:&lt;/h2&gt;
+&lt;p&gt;Haas, Willi, et al. &amp;ldquo;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/jiec.12244&#34;&gt;How circular is the global economy?: An assessment of material flows, waste production, and recycling in the European Union and the world in 2005&lt;/a&gt;.&amp;rdquo; Journal of Industrial Ecology 19.5 (2015): 765-777.&lt;/p&gt;
+&lt;p&gt;Murray, Alan, Keith Skene, and Kathryn Haynes. &amp;ldquo;&lt;a href=&#34;https://link.springer.com/article/10.1007/s10551-015-2693-2&#34;&gt;The circular economy: An interdisciplinary exploration of the concept and application in a global context&lt;/a&gt;.&amp;rdquo; Journal of Business Ethics 140.3 (2017): 369-380.&lt;/p&gt;
+&lt;p&gt;Gregson, Nicky, et al. &amp;ldquo;&lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/03085147.2015.1013353&#34;&gt;Interrogating the circular economy: the moral economy of resource recovery in the EU&lt;/a&gt;.&amp;rdquo; Economy and Society 44.2 (2015): 218-243.&lt;/p&gt;
+&lt;p&gt;Krausmann, Fridolin, et al. &amp;ldquo;&lt;a href=&#34;https://www.pnas.org/content/early/2017/01/31/1613773114.short&#34;&gt;Global socioeconomic material stocks rise 23-fold over the 20th century and require half of annual resource use&lt;/a&gt;.&amp;rdquo; Proceedings of the National Academy of Sciences (2017): 201613773.&lt;/p&gt;
+&lt;p&gt;Korhonen, Jouni, Antero Honkasalo, and Jyri Seppälä. &amp;ldquo;&lt;a href=&#34;https://link.springer.com/article/10.1007/s10551-015-2693-2&#34;&gt;Circular economy: the concept and its limitations&lt;/a&gt;.&amp;rdquo; Ecological economics 143 (2018): 37-46.&lt;/p&gt;
+&lt;p&gt;Fellner, Johann, et al. &amp;ldquo;&lt;a href=&#34;https://www.cec4europe.eu/fileadmin/user_upload/documents/Fellner_et_al_2017_%20JIEC_Present_Potentials_and_Limitations_of_a_Circular%20Economy%20with%20Respect%20to%20Primary%20Material%20Demand.pdf&#34;&gt;Present potentials and limitations of a circular economy with respect to primary raw material demand&lt;/a&gt;.&amp;rdquo; Journal of Industrial Ecology 21.3 (2017): 494-496.&lt;/p&gt;
+&lt;p&gt;Reuter, Markus A., Antoinette van Schaik, and Miquel Ballester. &amp;ldquo;&lt;a href=&#34;https://www.researchgate.net/profile/Markus_Reuter3/publication/323855448_Limits_of_the_Circular_Economy_Fairphone_Modular_Design_Pushing_the_Limits/links/5b1b6ab0a6fdcca67b6721e4/Limits-of-the-Circular-Economy-Fairphone-Modular-Design-Pushing-the-Limits.pdf&#34;&gt;Limits of the Circular Economy: Fairphone Modular Design Pushing the Limits&lt;/a&gt;.&amp;rdquo; 2018&lt;/p&gt;
+&lt;p&gt;Reuter, M. A., and A. Van Schaik. &amp;ldquo;&lt;a href=&#34;https://link.springer.com/article/10.1007/s40831-014-0006-0&#34;&gt;Product-Centric Simulation-based design for recycling: case of LED lamp recycling&lt;/a&gt;.&amp;rdquo; Journal of Sustainable Metallurgy 1.1 (2015): 4-28.&lt;/p&gt;
+&lt;p&gt;Reuter, Markus A., Antoinette van Schaik, and Johannes Gediga. &amp;ldquo;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11367-015-0860-4&#34;&gt;Simulation-based design for resource efficiency of metal production and recycling systems: Cases-copper production and recycling, e-waste (LED lamps) and nickel pig iron&lt;/a&gt;.&amp;rdquo; The International Journal of Life Cycle Assessment 20.5 (2015): 671-693.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

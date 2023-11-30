@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Español</title>
+    <link>./es/translators/</link>
+    <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="./es/translators/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby Eastwood</title>
+      <link>./es/translators/ruby-eastwood/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./es/translators/ruby-eastwood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nacho Postigo</title>
+      <link>./es/translators/nacho-postigo/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>./es/translators/nacho-postigo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angela Lluch</title>
+      <link>./es/translators/angela-lluch/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>./es/translators/angela-lluch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

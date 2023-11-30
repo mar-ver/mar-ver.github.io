@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Français</title>
+    <link>./fr/translators/alexandre-descamps/</link>
+    <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 15 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="./fr/translators/alexandre-descamps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tout faire soi-même : Open Modular Hardware</title>
+      <link>./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/</link>
+      
+      <enclosure url="/fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" type="image/png" length="18540" ></enclosure>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Revenir à &lt;a href=&#34;./fr/2012/02/the-art-of-producing-sustainable-consumer-goods-basketry/&#34;&gt;l&amp;rsquo;artisanat traditionnel&lt;/a&gt; est une bonne façon de combattre la société de gaspillage. Dans cet article, nous aborderons une autre possibilité : la conception de produits de consommation modulaires, dont les pièces et les composants pourraient être réutilisés dans la construction d’autres produits.&lt;/p&gt;
+&lt;p&gt;Des initiatives comme OpenStructures, Grid Beam et Contraptor combinent la modularité de LEGO, Meccano et Erector avec le pouvoir collaboratif de succès numériques comme Wikipédia, Linux ou WordPress.&lt;/p&gt;
+&lt;p&gt;Une économie fondée sur le concept de recyclage apporterait non seulement des avantages importants en termes de durabilité, mais permettrait également aux consommateurs de faire des économies, d&amp;rsquo;accélérer l&amp;rsquo;innovation et de retirer la fabrication des mains des multinationales.&lt;/p&gt;
+&lt;h2 id=&#34;produits-modulaires&#34;&gt;Produits modulaires&lt;/h2&gt;
+&lt;p&gt;Un système modulaire réunit les avantages de la standardisation (les pièces peuvent être produites en grande quantité et à faible coût) et ceux de la personnalisation (une grande diversité d&amp;rsquo;objets uniques peut être fabriquée avec relativement peu de pièces).&lt;/p&gt;
+&lt;p&gt;La modularité s’applique à la fabrication de nombreux produits (comme les vélos et les ordinateurs) et de systèmes (comme les trains et la logistique), mais les meilleurs exemples de systèmes modulaires sont les jouets : &lt;a href=&#34;http://en.wikipedia.org/wiki/Lego&#34;&gt;LEGO&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Meccano&#34;&gt;Meccano&lt;/a&gt; et &lt;a href=&#34;http://en.wikipedia.org/wiki/Erector_Set&#34;&gt;Erector&lt;/a&gt; (qui est maintenant la marque Meccano aux États-Unis).&lt;/p&gt;
+&lt;p&gt;Les jouets LEGO, Meccano et Erector sont composés de blocs de construction basiques relativement peu nombreux, qui peuvent être utilisés pour construire divers objets. Les pièces peuvent ensuite être désassemblées et réutilisées pour construire complètement autre chose. Outre les blocs de construction basiques, ces fabricants ont produit de nombreux blocs de construction plus spécifiques, moins polyvalents, mais qui augmentent davantage les possibilités de personnalisation.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Tous les blocs de construction d&amp;rsquo;un jeu de LEGO, de Meccano ou d&amp;rsquo;Erector s&amp;rsquo;assemblent parce qu&amp;rsquo;ils sont conçus selon un ensemble de règles spécifiques. Les trous (Meccano et Erector) ou les goujons (LEGO) ont un diamètre précis et sont espacés à des distances bien précises. En outre, les dimensions des blocs de construction sont précisément adaptées les unes aux autres.&lt;/p&gt;
+&lt;p&gt;Le succès intemporel des entreprises LEGO, Meccano et Erector (qui sont apparus sur le marché respectivement en 1947, 1902 et 1911) repose sur l’immuabilité de ces règles. Tous les nouveaux blocs de bâtiments qui ont été ajoutés au fil du temps sont compatibles avec ceux déjà existants. Aujourd&amp;rsquo;hui, les enfants peuvent enrichir leur collection avec celle de leurs parents ou grands-parents, et ces vieux blocs valent autant en occasion que neufs.&lt;/p&gt;
+&lt;h2 id=&#34;grid-beam-bit-beam-open-beam-maker-beam-et-contraptor&#34;&gt;Grid Beam, Bit Beam, Open Beam, Maker Beam et Contraptor&lt;/h2&gt;
+&lt;p&gt;Le même principe pourrait être appliqué aux objets du quotidien, des cafetières aux meubles, en passant par les gadgets, les voitures et les systèmes d&amp;rsquo;énergie renouvelable. Il suffit d&amp;rsquo;une standardisation de la conception. Les règles de conception peuvent être très simples, comme le prouve &lt;a href=&#34;http://www.gridbeam.com/&#34;&gt;Grid Beam&lt;/a&gt;. Mis au point en 1976, ce système de construction modulaire se base sur des poutres à la géométrie simple et au schéma de trous répétitif. Les poutres peuvent être en bois, en aluminium, en acier ou en tout autre matériau.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Malgré la simplicité de la conception, une grande variété d&amp;rsquo;objets peut être construite. Grid Beam a été utilisé pour fabriquer toutes sortes de meubles, de serres, de constructions d&amp;rsquo;ateliers et de processus industriels, de moulins à vent, de brouettes, de machines agricoles, de véhicules, de hangars et de bâtiments (un livre sur le système a été publié en 2009 et peut être consulté &lt;a href=&#34;http://www.gridbeam.com/a-revolution-in-diy-engineering/&#34;&gt;en ligne&lt;/a&gt;). Grid Beam s&amp;rsquo;inspire d&amp;rsquo;un système imaginé par Ken Isaacs dans les années 1950,
+&lt;a href=&#34;http://www.publiccollectors.org/CompletePublications.htm&#34;&gt;Living Structures&lt;/a&gt;, qui utilisait des poutres similaires, mais ne contenait que quelques trous.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ces dernières années, plusieurs systèmes utilisant un ensemble de règles très similaires, basées sur un motif de trous répétitif sont apparus. &lt;a href=&#34;http://bitbeam.org/&#34;&gt;Bit Beam&lt;/a&gt; est en fait une version réduite de Grid. Beam, qui vise à construire de plus petites structures en balsa, comme un support d&amp;rsquo;ordinateur portable ou un prototype d&amp;rsquo;appareil. &lt;a href=&#34;http://www.contraptor.org/&#34;&gt;Contraptor&lt;/a&gt; utilise une approche similaire, mais vise à fournir des cadres métalliques structurels pour les imprimantes 3D, les fraiseuses ou la robotique. &lt;a href=&#34;http://openbeamusa.com/&#34;&gt;OpenBeam&lt;/a&gt; et &lt;a href=&#34;https://www.sparkfun.com/products/10540?&#34;&gt;MakerBeam&lt;/a&gt; sont également des systèmes de construction modulaire basés sur des règles très simples. Ceux-là ne se basent pas sur des paternes à trou, mais utilisent des profilés en aluminium à rainure en T. &lt;a href=&#34;http://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform&#34;&gt;Makeblock&lt;/a&gt; combine les deux approches et comprend des modules électroniques.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;La plupart de ces systèmes de construction se limitent à la conception de charpentes. Basé sur un ensemble de règles plus sophistiqué, il existe cependant un système qui offre beaucoup plus de possibilités : &lt;a href=&#34;http://www.openstructures.net/&#34;&gt;OpenStructures&lt;/a&gt;. Le projet a été lancé à Bruxelles en 2007. Contrairement à tous les projets ci-dessus, OpenStructures est encore en phase expérimentale. Toutefois, elle est suffisamment intéressante pour être examinée plus en détail, car elle illustre parfaitement la direction que pourraient prendre les systèmes de construction modulaire à l&amp;rsquo;avenir.&lt;/p&gt;
+&lt;h2 id=&#34;openstructures&#34;&gt;OpenStructures&lt;/h2&gt;
+&lt;p&gt;La règle primordiale des OpenStructures est partagée avec Grid Beam et d&amp;rsquo;autres systèmes similaires : toutes les pièces sont reliées entre elles de manière à pouvoir être facilement démontées, en utilisant des boulons et des vis plutôt que des clous ou de la colle. Cependant, le « langage » de conception d&amp;rsquo;OpenStructures est différent : il est basé sur l&amp;rsquo;&lt;a href=&#34;http://openstructures.net/pages/9&#34;&gt;OS Grid&lt;/a&gt;, qui est construit autour d&amp;rsquo;un carré de 4x4 cm et est évolutif. Les carrés peuvent être subdivisés ou assemblés pour former des carrés plus grands, sans perdre leur inter-compatibilité. L&amp;rsquo;illustration ci-dessous montre neuf carrés complets de chaque 4x4 cm assemblés.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Les bords des carrés marquent les lignes de coupe (qui définissent les dimensions des pièces carrées), les diagonales déterminent les points d&amp;rsquo;assemblage, et les cercles définissent les diamètres communs. Comme c&amp;rsquo;est le cas pour LEGO, toute pièce modulaire doit respecter au moins une de ces conditions pour être compatible avec les autres pièces. Soit les dimensions doivent correspondre aux lignes horizontales et verticales, soit les points d&amp;rsquo;assemblage doivent être espacés selon la grille, soit les diamètres doivent être similaires. Vous trouverez ci-dessous une pièce qui remplit deux des trois conditions.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Si cet ensemble de règles est plus sophistiqué que celui du système Grid Beam, il n&amp;rsquo;est pas pour autant compliqué. Néanmoins, elle permet de concevoir une variété beaucoup plus grande d&amp;rsquo;objets, et pas seulement des cadres carrés ou rectangulaires. En cinq ans, OpenStructures a produit des objets allant des appareils ménagers aux vélos cargo, en passant par les valises et les meubles.&lt;/p&gt;
+&lt;h2 id=&#34;open-vs-systèmes-modulaires-fermés&#34;&gt;Open VS Systèmes modulaires fermés&lt;/h2&gt;
+&lt;p&gt;Malgré ces similitudes, il existe une différence fondamentale entre les systèmes de construction modulaire tels que OpenStructures, Grid Beam et Contraptor, et les jouets modulaires tels que LEGO, Meccano et Erector. Le premier groupe est constitué de systèmes modulaires « ouverts », dans lesquels chacun est libre de concevoir et de produire des pièces, tandis que le second est constitué de systèmes modulaires « fermés », où toutes les pièces sont conçues et produites par un seul fabricant. Les systèmes modulaires fermés produisent des pièces uniformes. Par exemple, tous les blocs de construction LEGO sont en plastique. LEGO ne produit pas de blocs de construction en bois, en aluminium, en verre ou en céramique. La gamme de couleurs est également limitée. Et parce que LEGO est un système exclusif, personne d&amp;rsquo;autre n&amp;rsquo;est autorisé à produire des pièces LEGO.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Il existe des systèmes de construction modulaire qui fonctionnent selon les mêmes principes, comme les &lt;a href=&#34;http://www.8020.net/&#34;&gt;profils en T&lt;/a&gt; réalisés par 80/20 inc. Toutefois, dans les systèmes de construction modulaire que nous avons présentés ci-dessus, chacun est autorisé à concevoir et à produire des pièces, tant que ces pièces sont compatibles avec l&amp;rsquo;ensemble des règles de base. On retrouve la même approche avec les logiciels ouverts, comme Linux (un système d&amp;rsquo;exploitation), OpenOffice (logiciel de bureautique) ou WordPress (plateforme de blogs). Le code informatique de ces systèmes est écrit par un grand nombre de personnes, qui font toutes partie d&amp;rsquo;un ensemble plus vaste. Comme tous les participants s&amp;rsquo;en tiennent à un ensemble de règles de base, un grand nombre de personnes peuvent, indépendamment les unes des autres, ajouter des pièces qui sont inter-compatibles.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Les produits de consommation basés sur un système modulaire ouvert peuvent favoriser l&amp;rsquo;innovation rapide, sans l&amp;rsquo;inconvénient du gaspillage d&amp;rsquo;énergie et de matériaux.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Un système modulaire ouvert présente de nombreux avantages par rapport à un système modulaire fermé.
+Puisque n&amp;rsquo;importe qui peut concevoir des pièces dans un système ouvert, celui-ci génère une diversité beaucoup plus grande de pièces : elles peuvent être fabriquées dans des couleurs et des matériaux différents, et aucun des producteurs ne peut fixer un prix fixe pour tous les consommateurs. Et comme de nombreux concepteurs examinent, adaptent et améliorent constamment le travail des autres, l&amp;rsquo;innovation est accélérée. Tous les systèmes logiciels ouverts décrits ci-dessus sont sans doute meilleurs que leurs homologues fermés et certains d&amp;rsquo;entre eux ont connu un plus grand succès. Un système modulaire fermé n&amp;rsquo;a qu&amp;rsquo;un seul avantage : celui qui détient les droits d&amp;rsquo;auteur gagne beaucoup d&amp;rsquo;argent.&lt;/p&gt;
+&lt;h2 id=&#34;biens-de-consommation-durables&#34;&gt;Biens de consommation durables&lt;/h2&gt;
+&lt;p&gt;Les systèmes de construction modulaire encouragent la réutilisation des pièces physiques et constituent donc une alternative durable à notre système actuel de production d&amp;rsquo;articles de consommation. La plupart des produits que nous achetons finissent dans des décharges ou des incinérateurs au bout de quelques années, tout au plus. En effet, la majorité des fabricants encouragent les consommateurs à remplacer leurs produits le plus rapidement possible, soit en concevant des objets qui tombent facilement en panne, soit en introduisant de nouvelles générations de produits qui rendent la génération précédente obsolète. Cette approche ne génère pas seulement un énorme tas de déchets, elle gaspille une quantité tout aussi importante d&amp;rsquo;énergie et de matières premières.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Les produits de consommation basés sur un système modulaire ouvert peuvent favoriser une innovation rapide, sans l&amp;rsquo;inconvénient du gaspillage d&amp;rsquo;énergie et de matériaux. Les pièces d&amp;rsquo;une génération de produits obsolètes peuvent être utilisées pour concevoir la génération suivante, ou quelque chose de complètement différent. En outre, les objets modulaires se réparent facilement.&lt;/p&gt;
+&lt;p&gt;Les systèmes de construction modulaire ouverts pourraient accélérer considérablement la diffusion des technologies de bas niveau, telles que les &lt;a href=&#34;./fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;machines à pédales&lt;/a&gt;, &lt;a href=&#34;./fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal collectors&lt;/a&gt;, &lt;a href=&#34;./fr/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/&#34;&gt;velomobiles&lt;/a&gt; or &lt;a href=&#34;./fr/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/&#34;&gt;cargo cycles&lt;/a&gt;. La construction d&amp;rsquo;une éolienne ou d&amp;rsquo;un vélo cargo est beaucoup plus rapide avec des pièces modulaires qu&amp;rsquo;à travers des travaux de menuiserie ou de soudure. De plus, elles ne nécessitent pas d&amp;rsquo;outils coûteux ou de compétences particulières. Les erreurs peuvent être facilement corrigées, il suffit de dévisser les boulons et de recommencer. Il serait également intéressant de voir comment des pièces modulaires s’emboîtent à un projet de matériel ouvert tel que la &lt;a href=&#34;http://www.notechmagazine.com/2011/05/how-to-build-your-own-industrial-civilization.html&#34;&gt;construction d&amp;rsquo;un village Set&lt;/a&gt;, qui génère de nombreuses conceptions intéressantes, mais fait un usage limité de la modularité.&lt;/p&gt;
+&lt;h2 id=&#34;trafic-à-paris&#34;&gt;Trafic à Paris&lt;/h2&gt;
+&lt;p&gt;« Alors qu&amp;rsquo;eBay assure une circulation des objets, et que le « cradle-to-cradle » assure une circulation des matériaux, les systèmes de construction modulaire assurent une circulation des pièces et des composants », explique Thomas Lommée, le créateur d&amp;rsquo;OpenStructures. « Nous voulons créer des puzzles plutôt que des objets inchangeables. Le système devrait générer des objets dont on ne sait plus très bien qui les a conçus. Un objet évolue au fur et à mesure qu&amp;rsquo;il est pris en main par d&amp;rsquo;autres concepteurs. »&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Les appareils de cuisine conçus dans le cadre du projet en sont de bons exemples. Quelques pièces initialement destinées à un moulin à café ont été assemblées avec de nouvelles pièces par un autre concepteur pour construire une cafetière. Cet appareil a ensuite été développé en un dispositif de purification d’eau par un troisième concepteur. La bouteille en plastique a été remplacée par une bouteille en verre découpé contenant un filtre en argile. Thomas Lommée : « En ajoutant ou en supprimant des composants, ou en les utilisant de manière différente, on obtient une famille d&amp;rsquo;objets. »&lt;/p&gt;
+&lt;h2 id=&#34;vélo-cargo&#34;&gt;Vélo cargo&lt;/h2&gt;
+&lt;p&gt;Un autre prototype issu du projet est un vélo cargo. L&amp;rsquo;arrière est un cadre scié d&amp;rsquo;un vélo standard, dont l&amp;rsquo;extrémité est compatible avec l’OS Grid. Cela signifie que l&amp;rsquo;avant du vélo peut être construit de manière modulaire. Jo Van Bostraeten, le concepteur, a profité de cette occasion pour concevoir à la fois un vélo et un tricycle cargo (ce dernier transporte une imprimante 3D), et cela ne s&amp;rsquo;arrête pas là.
+En collaboration avec Thomas Lommée, il a également construit un bloc moteur modulaire. L&amp;rsquo;unité se compose d&amp;rsquo;un moteur électrique et de roues, sur lesquels on peut placer une unité similaire qui contient une batterie. Comme les unités sont compatibles avec l&amp;rsquo;OS Grid, elles peuvent être couplées à l&amp;rsquo;avant du cycle de chargement, ce qui permet d&amp;rsquo;obtenir un véhicule cargo motorisé entièrement modulaire.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;La dernière « famille » d&amp;rsquo;objets issue du projet est destinée aux enfants. Il est intéressant de noter que cette collection est née d&amp;rsquo;un élément du cycle du fret : le conteneur. Il est construit à partir de pièces modulaires qui peuvent être boulonnées ensemble et peuvent donc être combinées de différentes manières. Quelques concepteurs ont commencé à utiliser ces pièces, créant ainsi (entre autres) une luge, un siège, une pelleteuse et une balançoire. Lorsque l&amp;rsquo;enfant devient adolescent, les pièces peuvent être utilisées pour fabriquer une valise, une boîte à outils, ou encore des éléments d’un vélo cargo qui pourrait &lt;a href=&#34;./fr/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/&#34;&gt;lui faire gagner de l&amp;rsquo;argent de poche&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Plus intéressant que les objets eux-mêmes, c&amp;rsquo;est leur système d&amp;rsquo;assistance aux utilisateurs. Grid Beam est manifestement un produit de l&amp;rsquo;ère pré-internet. Ceux qui veulent copier un modèle sont encouragés à regarder une photo de la création de quelqu&amp;rsquo;un d&amp;rsquo;autre et à « compter les trous ». OpenStructures, en revanche, s&amp;rsquo;appuie fortement sur le centre d’aide aux utilisateurs en ligne. La réutilisation des pièces est facilitée par une base de données en ligne qui peut être utilisée de trois manières.&lt;/p&gt;
+&lt;h2 id=&#34;une-base-de-données-modulaire&#34;&gt;Une base de données modulaire&lt;/h2&gt;
+&lt;p&gt;Tout d&amp;rsquo;abord, vous pouvez demander un aperçu de &lt;a href=&#34;http://openstructures.net/pages/14/structures&#34;&gt;tous les objets&lt;/a&gt; qui ont été conçus sur la base de la grille OS. La page web de chaque objet vous montre ensuite les pièces et les composants dont il est constitué. Ensuite, vous pouvez demander un aperçu de &lt;a href=&#34;http://openstructures.net/pages/44/parts&#34;&gt;toutes les pièces&lt;/a&gt; qui ont été conçues sur la base de la grille OS. La page web de chacune d&amp;rsquo;entre elles vous indique les composants et les objets avec lesquels elles peuvent être utilisées. Enfin, vous pouvez demander un aperçu de &lt;a href=&#34;http://openstructures.net/pages/11/components&#34;&gt;tous les composants&lt;/a&gt;. La page web de chaque composant vous montre ses parties et les objets avec lesquels il peut être utilisé.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La construction modulaire ouverte ne signifie pas que tout le monde doit fabriquer ses propres produits de consommation&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La page web de chaque pièce, composant et objet donne également des informations supplémentaires : dimensions, matériaux, nom du concepteur, licence et informations relatives à la commande. De plus, toutes les pièces et tous les composants ont un numéro de série. Cela signifie qu&amp;rsquo;après le démontage d&amp;rsquo;un objet modulaire, le numéro de série de chaque pièce et composant peut être saisi dans la base de données pour voir ce qui peut encore être fabriqué avec cet objet. Les pièces manquantes peuvent être obtenues via la base de données : soit en les commandant en ligne, soit en trouvant l&amp;rsquo;adresse d&amp;rsquo;un magasin où elles sont vendues, soit en téléchargeant le dessin numérique et en les fabriquant.&lt;/p&gt;
+&lt;h2 id=&#34;nest-pas-concepteur-qui-veut&#34;&gt;N’est pas concepteur qui veut&lt;/h2&gt;
+&lt;p&gt;La construction modulaire ouverte ne signifie pas que chacun doit fabriquer ses propres produits de consommation. Un objet comme une cafetière ou un établi peut être obtenu d’au moins trois façons. Tout d&amp;rsquo;abord, le consommateur peut télécharger la conception numérique, puis assembler l&amp;rsquo;objet avec des pièces qu&amp;rsquo;il achète, réutilise ou fabrique à l&amp;rsquo;aide d&amp;rsquo;une imprimante 3D ou d&amp;rsquo;une découpeuse laser, que ce soit chez lui ou dans un fab lab ou un tech shop. Cela peut également se faire de manière plus artisanale, comme dans le cas de Grid Beam : le consommateur achète des poutres en bois ou en métal et &lt;a href=&#34;./fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;perce les trous lui-même&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Une deuxième option est qu&amp;rsquo;une entreprise achète la licence du dessin (si elle n&amp;rsquo;est pas libre) et la transforme en un kit de construction, comparable à un kit de LEGO, Meccano ou Erector. Dans ce cas, le consommateur ne doit pas chercher les pièces lui-même, mais il monte quand même le produit tout seul, tout comme il monterait un meuble chez IKEA. De même, une entreprise pourrait proposer un kit de construction plus général, qui peut être utilisé pour fabriquer ce que l&amp;rsquo;on veut, comme une boîte de briques LEGO de base. Bit Beam, Contraptor, Open Beam, Maker Beam et, &lt;a href=&#34;http://news.cnet.com/8301-32973_3-57440288-296/after-more-than-30-years-grid-beam-modular-construction-system-comes-to-market/&#34;&gt;récemment&lt;/a&gt;, Grid Beam offre chacune de ces options.&lt;/p&gt;
+&lt;p&gt;La troisième possibilité est qu&amp;rsquo;un fabricant mette l&amp;rsquo;objet sur le marché comme un produit fini et assemblé. La cafetière ou l&amp;rsquo;établi seraient alors vendus et achetés comme n&amp;rsquo;importe quel autre produit aujourd&amp;rsquo;hui, mais ils pourraient être démontés après usage, et leurs pièces pourraient être réutilisées pour d&amp;rsquo;autres objets.&lt;/p&gt;
+&lt;h2 id=&#34;modèle-économique--qui-produit-les-pièces-&#34;&gt;Modèle économique : qui produit les pièces ?&lt;/h2&gt;
+&lt;p&gt;Si le processus de conception d&amp;rsquo;OpenStructures et d&amp;rsquo;autres systèmes de construction modulaire ouverts est identique à celui de produits numériques tels que Wikipédia, Linux ou WordPress, il existe cependant une différence fondamentale. Le code informatique et le texte numérique n’engendrent aucun coût matériel. Ce n&amp;rsquo;est pas le cas des objets. Cela rend le matériel modulaire ouvert moins facile, mais cela crée aussi des opportunités économiques. Il est difficile de gagner de l&amp;rsquo;argent avec des logiciels libres ou du code. Toutefois, dans le cas d&amp;rsquo;un système modulaire ouvert pour les objets, quelqu&amp;rsquo;un doit fournir les matériaux.&lt;/p&gt;
+&lt;p&gt;Il est également important que les pièces soient produites par le plus grand nombre de fabricants possible, afin qu&amp;rsquo;elles soient disponibles dans le monde entier. Dans le cas contraire, les frais d&amp;rsquo;expédition peuvent être si élevés qu&amp;rsquo;un objet modulaire devient trop cher.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Il existe de nombreuses possibilités de gagner de l&amp;rsquo;argent avec un modèle de construction modulaire ouvert. Un fabricant peut choisir de produire une pièce qui pourrait être une opportunité économique. Un autre peut choisir de vendre un kit de construction ou un produit fini d&amp;rsquo;un modèle qu&amp;rsquo;il pense pouvoir vendre. Un concepteur peut se faire de l’argent en mettant en ligne un dessin téléchargeable gratuitement pour un usage personnel, mais pas pour un usage commercial. Un fabricant qui souhaite commercialiser ce modèle peut alors acheter la licence auprès du concepteur.&lt;/p&gt;
+&lt;p&gt;Les artisans peuvent se concentrer sur la conception de pièces exclusives, fabriquées à la main dans des matériaux spéciaux, qui sont compatibles avec des articles populaires produits en série. D&amp;rsquo;autres peuvent créer un Fab lab ou un tech shop, où les gens peuvent construire leurs propres objets modulaires moyennant un abonnement mensuel. En bref, un système de construction modulaire ouvert offre des opportunités économiques pour tout le monde.&lt;/p&gt;
+&lt;h2 id=&#34;économie-collaborative&#34;&gt;Économie collaborative&lt;/h2&gt;
+&lt;p&gt;« Nous n&amp;rsquo;avons pas l&amp;rsquo;ambition de construire une usine gigantesque qui produirait toutes les pièces possibles et inimaginables », note M. Lommée. « OpenStructures ne doit pas devenir un IKEA modulaire. Notre but est de créer un système économique collectif, dans lequel un producteur bénéficie de la production d&amp;rsquo;un autre producteur. Car les pièces fabriquées par l&amp;rsquo;un peuvent être utilisées par l’autre. Ce que nous aimerions voir, ce sont des rues pleines de petites boutiques, où chacun génère sa propre petite partie d&amp;rsquo;un système plus vaste. Une économie collaborative, où les petits producteurs indépendants ont leur place. Pas un seul grand constructeur à la tête de toutes les constructions. La dimension sociale est très importante. »&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;« Si IKEA veut vendre un produit qui est compatible avec notre système, ça me convient. Mais le système ne peut fonctionner que s&amp;rsquo;il reste ouvert. Plus il s’étend, plus il est facile pour une petite entreprise ou un artisan d&amp;rsquo;en faire partie. L&amp;rsquo;ambition est de lancer un puzzle universel et collaboratif qui permette au plus grand nombre possible de personnes (de l&amp;rsquo;artisan à la multinationale), de concevoir, construire et échanger la plus large gamme possible de pièces et de composants modulaires. »&lt;/p&gt;
+&lt;h2 id=&#34;organiser-la-réutilisation&#34;&gt;Organiser la réutilisation&lt;/h2&gt;
+&lt;p&gt;En dehors d&amp;rsquo;un langage de conception (la grille OS) et d&amp;rsquo;une base de données en ligne, OpenStructures a également mis en place un prototype d&amp;rsquo;entrepôt à Bruxelles. Ce type d&amp;rsquo;endroit devrait devenir la plaque tournante de l&amp;rsquo;organisation de la réutilisation des pièces et des composants. Pensez à un laboratoire de fabrication ou à un atelier technologique, mais combiné au stockage de pièces modulaires. Si un produit modulaire n&amp;rsquo;est plus nécessaire et que le propriétaire n&amp;rsquo;a pas envie d&amp;rsquo;utiliser les pièces pour construire quelque chose de nouveau, il l&amp;rsquo;apporte à l&amp;rsquo;un de ces endroits, où il est démonté et ses pièces sont stockées.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Un système de construction modulaire ouvert offre des opportunités économiques pour tout le monde&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;D&amp;rsquo;autres personnes pourraient venir à cet endroit pour acheter des pièces ou les utiliser sur place pour construire quelque chose de nouveau. Comme le dit M. Lommée : « Tout le monde ne doit pas fabriquer ses propres produits, mais après sa vie utile, un produit modulaire se retrouve toujours entre les mains d&amp;rsquo;un groupe de personnes qui aime fabriquer des choses. »&lt;/p&gt;
+&lt;h2 id=&#34;compatibilité-entre-les-systèmes-modulaires-ouverts&#34;&gt;Compatibilité entre les systèmes modulaires ouverts&lt;/h2&gt;
+&lt;p&gt;Bien qu&amp;rsquo;il soit encore en phase expérimentale, OpenStructures est de loin le système modulaire ouvert le plus ambitieux et le plus complet conçu à ce jour. Cependant, comme il s&amp;rsquo;agit d&amp;rsquo;un projet européen, il suit le système métrique international. Alors que Grid Beam, beaucoup plus ancien, suit le système impérial. Ces systèmes ne sont pas compatibles. Avec l&amp;rsquo;apparition de plus en plus de systèmes modulaires ouverts, ne serait-il pas important d&amp;rsquo;assurer leur inter-compatibilité ?&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;M. Lommée pense que non : « La plupart de ces systèmes ont des buts différents. Par exemple, Contraptor vise la précision, car les pièces sont utilisées pour construire des robots et d&amp;rsquo;autres machines sophistiquées. L&amp;rsquo;esthétique n&amp;rsquo;est manifestement pas leur but premier. Je suis concepteur, donc ce qui m&amp;rsquo;intéresse surtout, c&amp;rsquo;est de savoir si un système modulaire peut générer, ou non, de beaux objets et des choses que vous voudriez mettre chez vous. Il y a aussi &lt;a href=&#34;http://www.wikispeed.com/&#34;&gt;Wikispeed&lt;/a&gt;, par exemple, qui se concentre sur le développement d&amp;rsquo;une voiture modulaire. &lt;a href=&#34;http://www.arduino.cc/&#34;&gt;Arduino&lt;/a&gt; est destiné à l&amp;rsquo;électronique. Je ne pense pas que tous ces systèmes modulaires doivent être compatibles entre eux, car les applications sont très différentes. »&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./fr/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Il explique ensuite pourquoi il a choisi le système métrique. « J&amp;rsquo;ai beaucoup douté à ce sujet. Mais finalement, j&amp;rsquo;ai décidé que le système métrique était plus facile à utiliser. Et je pense que le monde est assez grand pour deux systèmes : il suffit de regarder la variété des normes énergétiques qui sont utilisées. Quelqu&amp;rsquo;un a développé une &lt;a href=&#34;http://www.contraptor.org/forum/t273404/contraptor-openstructures&#34;&gt;version européenne de Contraptor&lt;/a&gt;, basée sur le système métrique et compatible avec la grille OS. Et il est toujours possible de concevoir un couplage entre deux systèmes, afin qu&amp;rsquo;ils puissent être utilisés ensemble. D&amp;rsquo;autre part, nous vivons dans un monde en réseau où tout est connecté et copié. Cela signifie souvent que lorsque les normes sont en concurrence, une seule survit. Et ce n&amp;rsquo;est pas nécessairement la meilleure situation. Je croise les doigts. »&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

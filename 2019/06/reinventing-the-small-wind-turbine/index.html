@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Reinventing the Small Wind Turbine | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Reinventing the Small Wind Turbine" />
+<meta name="twitter:title" content="Reinventing the Small Wind Turbine"/>
+
+<meta property="og:description" content="A wooden rotor and tower greatly increase the net energy output over the lifetime of a small wind turbine." />
+
+<meta name="twitter:description" content="A wooden rotor and tower greatly increase the net energy output over the lifetime of a small wind turbine."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./2019/06/reinventing-the-small-wind-turbine/" />
+
+
+
+<meta property="og:image" itemprop="image" content="2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png" />
+<meta property="og:image:secure_url" content="2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-06-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-06-02T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Wind Power" />
+<meta property="article:tag" content="Off-The-Grid" />
+<meta property="article:tag" content="Materials" />
+<meta property="article:tag" content="Waste and Recycling" />
+<meta property="article:tag" content="Embodied Energy of Renewable Power Plants" />
+
+</head>
+<body id="reinventing-the-small-wind-turbine">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Reinventing the Small Wind Turbine</h1>
+
+				<p class="summary">
+					A wooden rotor and tower greatly increase the net energy output over the lifetime of a small wind turbine.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">June 2, 2019</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="./authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="./fr/2019/06/reinventing-the-small-wind-turbine/">fr</a>
+						
+							<a href="./de/2019/06/reinventing-the-small-wind-turbine/">de</a>
+						
+							<a href="./nl/2019/06/reinventing-the-small-wind-turbine/">nl</a>
+						
+							<a href="./pl/2019/06/reinventing-the-small-wind-turbine/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png" alt='A small wind turbine with blades and tower made from wood. Image: InnoVentum.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/wooden-blades-and-tower_hu24343ce1905d61d6460658388f3d363f_211675_800x800_fit_q90_h2_box.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A small wind turbine with blades and tower made from wood. Image: InnoVentum.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Many commercially available small wind turbines with plastic blades and steel towers are infamous for their low reliability, high embodied energy, and limited power output. Building them out of wood can addresses these issues.</p>
+<p>Because of their aesthetic appeal, and thanks to the ability to produce them locally, small wooden wind turbines can also improve the public acceptance of wind power. Furthermore, innovation in tower design facilitates the installation of small wind turbines, reducing the need for concrete foundations and heavy machinery.</p>
+<h2 id="low-performance">Low Performance</h2>
+<p>Tests have shown that many commercially available small wind turbines <a href="http://theoildrum.com/node/6954" target="_blank" >may not always generate sufficient power over their lifetime</a> to compensate for the energy that was needed to produce them.</p>
+<p>There are three reasons why this is so. First, there are the laws of physics. The energy yield of a wind turbine increases faster than its height and rotor size, meaning that as a wind turbine becomes smaller, <a href="https://www.lowtechmagazine.com/2008/09/urban-windmills-harm-the-environment.html" target="_blank" >its power output decreases over proportionally</a>.</p>
+<p>Second, wind turbine blades are commonly made from fiberglass reinforced plastic, which is energy-intensive to produce (<a href="./2019/06/how-to-make-wind-power-sustainable-again/" >and impossible to recycle</a>). This energy needs to be “paid back” during the lifetime of the wind turbine, which can be challenging for machines with small rotor diameters.</p>
+<p>Third, the maintenance of small wind turbines depends on the ability of the manufacturer to remain in business and provide its customers with spare parts. Unlike solar panels, wind turbines have a lot of moving parts and are thus more likely to need repairs. However, suppliers of small wind turbines tend to have an even shorter life expectancy than their products. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="hand-carved-wood-blades">Hand Carved Wood Blades</h2>
+<p>The laws of physics can’t be changed, but on their own they don’t make small wind turbines uneconomical and unsustainable. It’s the other two factors that are decisive, and these can be addressed. In fact, they have been addressed for more than two decades by Scottish engineer Hugh Piggott, who builds small 1-2 kW wind turbines with 2-4 meter rotor diameters using solid wooden blades. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/nepali-hand-carved-blades_dithered.png" alt='Image: Hand carved wooden blades. Source: [^5]' data-original="/2019/06/reinventing-the-small-wind-turbine/images/nepali-hand-carved-blades_hu1ecd9d94a4e72cbaf54758c2ab804e9d_258541_800x800_fit_q90_h2_box_3.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/nepali-hand-carved-blades_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Hand carved wooden blades. Source: [^5]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The blades are hand carved locally with basic woodworking skills and tools. In contrast to fiberglass blades, little or no energy is used to produce them. This increases the chance that the wind turbine will produce more energy over its lifetime than was needed to make it.</p>
+<p>Defying the usual focus on efficiency, Piggott’s wind turbines sacrifice peak power for more reliable operation. The machines use a furling system which limits the turbine input at winds of 8 m/s (Beaufort 5), while most commercial models keep working up to higher wind speeds. This increases reliability, because the faster the machine spins, the quicker its parts will wear out. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<h2 id="local-manufacturing">Local Manufacturing</h2>
+<p>A comparison of Piggott’s wind turbines with commercially available models concluded that the increased energy yield generated by the latter at wind speeds above 8 m/s is largely wasted, because most of the extra power is generated when the batteries are already full. The study also revealed that Piggott’s design is about 20% cheaper, taking into account both capital and operational costs. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/wood-turbines-nepal_dithered.png" alt='Image: Wooden wind turbines in Nepal. Source: [^5]' data-original="/2019/06/reinventing-the-small-wind-turbine/images/wood-turbines-nepal_hu0adef1a3ba264a79b7cc193ec6147ce9_389533_800x800_fit_q90_h2_box_3.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/wood-turbines-nepal_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Wooden wind turbines in Nepal. Source: [^5]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Piggott’s open source design has spawned thousands of small DIY wind turbines all over the world. It also became the basis for several wind-based rural electrification initiatives in Mongolia, Nepal, Peru and Nicaragua. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> In “developing” countries, the ability to manufacture and maintain the turbines locally is a great advantage over the use of commercial wind turbines or solar panels.</p>
+<h2 id="commercial-wind-turbines-with-wood-blades">Commercial Wind Turbines with Wood Blades</h2>
+<p>The use of solid wood blades, <a href="https://www.notechmagazine.com/2009/12/windmills-and-wind-motors-how-to-build-and-run-them-1910.html" target="_blank" >once common</a> for <a href="https://www.notechmagazine.com/2011/05/the-homemade-windmills-of-nebraska-1899.html" target="_blank" >smaller windmills and wind turbines</a>, has seen renewed interest lately. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Most notable is the success story of the Dutch company <a href="https://www.eazwind.com/en/home-3/" target="_blank" >EAZ Wind</a>, founded in 2014 by four young windsurfers. The firm, which now has over 40 employees, sells wind turbines with solid wooden blades to farms and energy cooperatives in the region. With a rotor diameter of 12 meter and a power output of 10 kW, the turbines are about five times larger than Piggott’s machines.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/eaz-wind_dithered.png" alt='Wind turbine with wooden blades, built by EAZ Wind.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/eaz-wind_hu93d776486f7e1e45374d629a7babfc83_822060_800x800_fit_q90_h2_box_3.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/eaz-wind_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Wind turbine with wooden blades, built by EAZ Wind.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The blades are made from solid wood beams that are glued together and then sanded to obtain their shape. They are then covered with an epoxy coating to protect them from humidity, while the sharp side of the blade gets a strip of fiberglass reinforced plastic to make it more durable. According to the manufacturer, the wind turbines &ndash; installed on 15 m tall towers &ndash; produce roughly 30,000 kWh of electricity per year, which corresponds to the power use of ten Dutch households. A machine sells for 46,000 euro, which makes it cheaper than a solar PV system (4,600 euro per household, or less than half the price of a solar PV system). The financial payback time – in the windy northern Netherlands –  is 7 to 10 years.</p>
+<h2 id="public-acceptance">Public Acceptance</h2>
+<p>Interestingly, EAZ Wind’s choice for wooden blades is not driven by the aim to lower the embodied energy of the wind turbine. Rather, the company’s mission is to make the countryside – especially farms but also small villages – self-sufficient in terms of power production by designing more beautiful and locally produced wind turbines that people don’t complain about. As in many other countries, large wind turbines – and the transmission lines that go with them – raise a lot of opposition from local residents in the Netherlands.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/EAZ-wind-installing-wooden-wind-turbine_dithered.png" alt='Image: Installing a wind turbine with wooden blades. Image: EAZ Wind.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/EAZ-wind-installing-wooden-wind-turbine_hu46252a8a03e31712dabf94776a890cf2_399608_800x800_fit_q90_h2_box.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/EAZ-wind-installing-wooden-wind-turbine_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Installing a wind turbine with wooden blades. Image: EAZ Wind.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The approach seems to work. When a farm installs a wind turbine, its neighbours are usually the next customers. EAZ Wind has sold more than 400 wind turbines by now. Public acceptance of wind power seems to be encouraged by two factors. First, wind turbines with wooden blades have a more natural look, increasing their aesthetic appeal. Second, the machines are produced locally, meaning that the purchase of a wind turbine supports the local economy. The wood for the blades comes from a nearby province and is processed by companies in the region.</p>
+<h2 id="wooden-towers">Wooden Towers</h2>
+<p>The turbins from EAZ Wind have wooden blades, but steel towers. The Swedish company <a href="https://www.innoventum.se" target="_blank" >InnoVentum</a> takes a different approach: its wind turbines have a wooden tower, while the blades are made from plastic. The 12 m or 20 m tall towers are of a unique design, composed from small wood modules that can be bolted together on the ground in a few hours.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/innoventum-wooden-tower_dithered.png" alt='Image: InnoVentum&amp;rsquo;s wooden wind turbine tower.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/innoventum-wooden-tower_huda10c1be8337d8aec5cd5ae5cf4d78e3_833920_800x800_fit_q90_h2_box_3.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/innoventum-wooden-tower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: InnoVentum&rsquo;s wooden wind turbine tower.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The multi-leg towers require <a href="https://www.innoventum.se/portfolio/dalifant-inst-se/" target="_blank" >no or much less concrete for their foundations</a> and they can be erected without the use of a crane, using a rope and a winch instead. Around fifteen have been installed since 2012. Like EAZ Wind, the company aims to create a new aesthetic level that may help to increase the acceptance of wind turbines.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/innoventum-wind-turbine-tower_dithered.png" alt='Image: InnoVentum&amp;rsquo;s wooden wind turbine tower.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/innoventum-wind-turbine-tower_hu67eb7fb58b07b920513e1afe7f25dac8_780885_800x800_fit_q90_h2_box_3.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/innoventum-wind-turbine-tower_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: InnoVentum&rsquo;s wooden wind turbine tower.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Of course both approaches could be combined, resulting in small wind turbines with wooden blades, tower and other structural parts. A small wind turbine that’s almost completely built out of wood – minus the gearwork and the generator – further decreases the energy that’s needed to produce it, thus making it more economical and sustainable over its entire lifetime. In terms of carbon emissions, a small wooden wind turbine can even be considered a carbon sink, because the wood sequesters CO2 that the trees have taken from the atmosphere.</p>
+<h2 id="combining-wind-and-solar">Combining Wind and Solar</h2>
+<p>The newest products from both EAZ Wind and InnoVentum incorporate solar panels at the basis of the structure. Because the wind turbine and the solar PV system can share the same support structure, electrical system, and energy storage, this approach saves money and resources. The combination of solar and wind also increases the chances of sufficient power output at any time, reducing the need for energy storage – which is the <a href="./2015/05/how-sustainable-is-stored-sunlight/" >most unsustainable part of an off-the-grid power installation</a>.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/innoventum-wind-solar-power-plant_dithered.png" alt='Image: InnoVentum.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/innoventum-wind-solar-power-plant_hu13f216f94937bf5f62af068d5a2f11ff_73309_800x800_fit_q90_h2_box.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/innoventum-wind-solar-power-plant_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: InnoVentum.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In the hybrid solar-wind model from EAZ Wind, the capacity of the wind turbine is double the capacity of the solar PV panels, reflecting the local climate (windy but not very sunny). The addition of solar panels increases the power yield to 45,000 kWh per year, which corresponds to the power demand of 14 Dutch households. However, the use of solar panels <a href="./2015/04/how-sustainable-is-pv-solar-power/" >increases the embodied energy of the system considerably</a>, so that it may no longer be a carbon sink.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2019/06/reinventing-the-small-wind-turbine/images/dithers/solar-wind-off-grid-power-plant_dithered.png" alt='Image: InnoVentum.' data-original="/2019/06/reinventing-the-small-wind-turbine/images/solar-wind-off-grid-power-plant_huddb9b450fe436dde61f880b2e42589f3_935945_800x800_fit_q90_h2_box_3.webp" data-dither="/2019/06/reinventing-the-small-wind-turbine/images/dithers/solar-wind-off-grid-power-plant_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: InnoVentum.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="decentralised-power-production">Decentralised Power Production</h2>
+<p>Small wooden wind turbines offer additional benefits that are inherent to all decentralised power sources. The fact that they&rsquo;re paid for by the same people that enjoy their benefits, increases their public acceptance. They also eliminate the need for transmission lines, and the more power is produced and used locally, the less challenging it becomes to integrate unpredictable wind power into the central grid. Last but not least, the connection between energy use and demand <a href="./2018/12/keeping-some-of-the-lights-on-redefining-energy-security/" >encourages lower energy ways of life</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Bob BAAL</h5>
+	<p>A question - &ldquo;produce roughly 30,000 kWh of electricity per year, which corresponds to the power use of ten Dutch households&rdquo;. Most calculations I have seen assume at least 5.500 kWh per household in Europe - and often much more than that. How is your 3000 KWh derived??</p>
+
+</div>
+
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>@ Jim, Ben, Wiebren</p>
+<p>Thanks, I rewrote the sentence.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Phil P</h5>
+	<p>If you hand carve a blade, you still have to get energy from eating food to power the human. So calling it &ldquo;zero&rdquo; energy used is bad accounting/ misleading.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Whateveryoneisthinking</h5>
+	<p>Shutup Phil.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Ben</h5>
+	<p>&ldquo;Shutting down the wind turbine at lower speeds&hellip;&rdquo;</p>
+<p>I think you mean higher speeds?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jim</h5>
+	<p>Ben, re-read the article. It shuts down at lower speeds <em>than the others</em> to minimize the wear and tear on the machine, especially at a time when the storage system is probably fully charged anyway.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Wiebren</h5>
+	<p>@Jim and @Ben: I had the exact same confusion and even went to the comments now before finishing the article. Your add-on to the sentence explains the lower speeds nicely Jim. My first thought was also to put &lsquo;higher&rsquo; there, because it&rsquo;s about the logic of the shutting off. Then with that explained, more shutting off at high wind speeds saves the machine. Putting &rsquo;loeer&rsquo; next to &lsquo;speed&rsquo; makes it pretty hard to interpret that as &lsquo;in relation to other windmills&rsquo; shutoff speed&rsquo;;-)</p>
+
+</div>
+
+<div class="comment">
+	<h5>Pr. Théodose</h5>
+	<p>Another wood product could be useful to build turbine blades and tower is densified wood :</p>
+<p><a href="https://arstechnica.com/science/2019/05/chemically-treated-wood-could-send-excess-heat-to-space/" target="_blank" >https://arstechnica.com/science/2019/05/chemically-treated-wood-could-send-excess-heat-to-space/</a></p>
+<p>It is obtained by boiling wood a 30% solution of hydrogen peroxide, then compressing it until its height is reduced by 80%. Mechanical properties are then 3 to 10 times higher than for the original wood. Hydrogen peroxide can be produced sustainably if you generate hydrogen from renewable sources of water and energy.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Etienne</h5>
+	<p>An issue used to be the inverter that was required to be always ready to transform the DC current in AC. Maybe a solution could be a small battery that could be loaded, and the inverter would only start once the battery is full.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jim Baerg</h5>
+	<p>Unless I missed it, you might include some mention and history of the Jacobs Wind Generator, which dominated the pre war market for small windmills. And it had wood blades too. Pretty low tech, indestructible and used as far away as the South Pole.</p>
+
+</div>
+
+<div class="comment">
+	<h5>defdefred</h5>
+	<p>think bamboo!</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Kostakis, Vasilis, et al. &ldquo;<a href="https://www.minasliarokapis.com/CleanerProduction2016_Kostakis_DigitalCommonsLocalManufacturing.pdf" target="_blank" >The convergence of digital commons with local manufacturing from a degrowth perspective: two illustrative cases</a> .&rdquo; <em>Journal of Cleaner Production</em> 197 (2018): 1684-1693.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>&ldquo;<a href="https://www.scoraigwind.com/pirate%20oldies/Hugh%20Piggott%20Axial-flow%20PMG%20wind%20turbine%20May%202003.pdf" target="_blank" >How to build a wind turbine</a>&rdquo;. High Piggott, 2003.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Sumanik-Leary, Jon, et al. &ldquo;<a href="http://windempowerment.org/wp-content/uploads/2014/11/PhD_Seminar_2013_FullPaper_Sumanik-Leary-FINAL.pdf" target="_blank" >Locally manufactured small wind turbines: how do they compare to commercial machines</a>.&rdquo; <em>Proceedings of 9 th PhD Seminar on Wind Energy in Europe</em>. 2013.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Mishnaevsky, Leon, et al. &ldquo;<a href="https://www.mdpi.com/1996-1944/10/11/1285/htm" target="_blank" >Materials for wind turbine blades: an overview</a>.&rdquo; <em>Materials 10.11</em> (2017): 1285.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Mishnaevsky Jr, Leon, et al. &ldquo;<a href="https://www.researchgate.net/profile/Hai_Qing2/publication/242770543_Strength_and_Reliability_of_Wood_for_the_Components_of_Low-cost_Wind_Turbines_Computational_and_Experimental_Analysis_and_Applications/links/590142fa0f7e9bcf65468690/Strength-and-Reliability-of-Wood-for-the-Components-of-Low-cost-Wind-Turbines-Computational-and-Experimental-Analysis-and-Applications.pdf" target="_blank" >Strength and reliability of wood for the components of low-cost wind turbines: computational and experimental analysis and applications</a>.&rdquo; <em>Wind Engineering 33.2</em> (2009): 183-196.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Mishnaevsky Jr, Leon, et al. &ldquo;<a href="https://www.sciencedirect.com/science/article/pii/S0960148111000565" target="_blank" >Small wind turbines with timber blades for developing countries: Materials choice, development, installation and experiences</a>.&rdquo; <em>Renewable Energy 36.8</em> (2011): 2128-2138.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Sinha, Rakesh, et al. &ldquo;<a href="https://journals.sagepub.com/doi/abs/10.1260/0309-524X.34.3.263" target="_blank" >Selection of Nepalese timber for small wind turbine blade construction</a>.&rdquo; <em>Wind Engineering 34.3</em> (2010): 263-276.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Clausen, P. D., F. Reynal, and D. H. Wood. &ldquo;Design, manufacture and testing of small wind turbine blades.&rdquo; <em>Advances in wind turbine blade design and materials</em>. Woodhead Publishing, 2013. 413-431.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Pourrajabian, Abolfazl, et al. &ldquo;Choosing an appropriate timber for a small wind turbine blade: A comparative study.&rdquo; <em>Renewable and Sustainable Energy Reviews 100</em> (2019): 1-8.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./tags/wind-power/" class="">Wind Power</a></span> 
+		        
+		           <span><a href="./tags/off-the-grid/" class="">Off-The-Grid</a></span> 
+		        
+		           <span><a href="./tags/materials/" class="">Materials</a></span> 
+		        
+		           <span><a href="./tags/waste-and-recycling/" class="">Waste and Recycling</a></span> 
+		        
+		           <span><a href="./tags/embodied-energy-of-renewable-power-plants/" class="">Embodied Energy of Renewable Power Plants</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2019/06/how-to-make-wind-power-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Make Wind Power Sustainable Again</h3>
+		<p class="index-summary">If we build them out of wood, large wind turbines could become a textbook example of the circular economy.</p>
+		<time class="published">June 2, 2019</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./2021/10/how-to-build-a-low-tech-solar-panel/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How to Build a Low-tech Solar Panel?</h3>
+		<p class="index-summary">George Cove, a forgotten solar power pioneer, may have built a highly efficient photovoltaic panel 40 years before Bell Labs engineers invented silicon cells. If proven to work, his design could lead to less complex and more sustainable solar panels.</p>
+		<time class="published">October 5, 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2009/04/small-windmills-put-to-the-test/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2009/04/small-windmills-put-to-the-test/images/dithers/SMALL-WINDMILLS-PUT-TO-THE-TEST_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Small Windmills Put to the Test</h3>
+		<p class="index-summary">Wind power rules, but commercially available small windmills are a swindle.</p>
+		<time class="published">April 19, 2009</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2008/09/urban-windmills-harm-the-environment/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2008/09/urban-windmills-harm-the-environment/images/dithers/urban-wndmill-1_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Urban windmills harm the environment</h3>
+		<p class="index-summary">A small windmill on your roof or in the garden is an attractive idea. Unfortunately, commercially available micro wind turbines deliver hardly enough energy to power a light bulb. Their financial payback time is much longer than their life expectancy and in urban areas they will not even deliver as much energy as was needed to produce them.</p>
+		<time class="published">September 2, 2008</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="about">
+  About
+</a>
+    <a href="power">
+  Power
+</a>
+    <a href="about/team">
+  Colophon
+</a>
+    <a href="donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

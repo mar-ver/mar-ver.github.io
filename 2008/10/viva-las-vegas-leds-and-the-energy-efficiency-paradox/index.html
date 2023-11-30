@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Viva Las Vegas: LEDs and the energy efficiency paradox | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Viva Las Vegas: LEDs and the energy efficiency paradox" />
+<meta name="twitter:title" content="Viva Las Vegas: LEDs and the energy efficiency paradox"/>
+
+<meta property="og:description" content="LEDs introduce lighting in places and situations where there was no lighting before." />
+
+<meta name="twitter:description" content="LEDs introduce lighting in places and situations where there was no lighting before."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/" />
+
+
+
+<meta property="og:image" itemprop="image" content="2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/dithers/LED-facade_dithered.png" />
+<meta property="og:image:secure_url" content="2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/dithers/LED-facade_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/dithers/LED-facade_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2008-10-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2008-10-14T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy Efficiency" />
+<meta property="article:tag" content="Energy Demand" />
+<meta property="article:tag" content="Lighting" />
+<meta property="article:tag" content="Buildings" />
+<meta property="article:tag" content="Economy" />
+
+</head>
+<body id="viva-las-vegas-leds-and-the-energy-efficiency-paradox">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="power">This is a solar-powered website, which means it sometimes goes offline      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" about/ " data-nav="about" >
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Low-tech Solutions</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>High-tech Problems</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Obsolete Technology</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Reading</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" donate/ " data-nav="donate" >
+                <span>Donate</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Viva Las Vegas: LEDs and the energy efficiency paradox</h1>
+
+				<p class="summary">
+					LEDs introduce lighting in places and situations where there was no lighting before.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">October 14, 2008</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="./authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/dithers/LED-facade_dithered.png" alt='Image: Building facade with LED display system. Credit: Lord Jaraxxus (CC-BY SA 3.0).' data-original="/2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/LED-facade_hu9d23eb705a16c52bc92081a87ac05da6_131488_800x800_fit_q90_h2_box.webp" data-dither="/2008/10/viva-las-vegas-leds-and-the-energy-efficiency-paradox/images/dithers/LED-facade_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Building facade with LED display system. Credit: Lord Jaraxxus (CC-BY SA 3.0).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>The incandescent light bulb is abused by environmentalists – but the alternative will only raise energy consumption. More and more, compact fluorescent lamps are considered to be an interim technology, awaiting the arrival of Light Emitting Diodes (LEDs) and Organic Light Emitting Diodes (OLEDs).</p>
+<p>At the moment, LED technology is no competition for the incandescent light bulb. However, it can be considered a worthy improvement of another technology: neon lights. Whether or not white LEDs will finally arrive, the success of coloured LEDs is a fact. Though some of them are definitely useful, they all introduce lighting in places and situations where there was no lighting before.</p>
+<p>The invention of the <a href="http://en.wikipedia.org/wiki/Incandescent_light_bulb" target="_blank" >incandescent light bulb</a> in the 19th century was one of the most important technological breakthroughs of the Industrial Revolution. Until that time, people used torches, candles, oil lanterns, and kerosene and gas lamps to light up the interior of their houses. Compared to a light bulb, these methods were dangerous, clumsy and unhealthy. The incandescent light bulb, perfected and brought to commercial success by Thomas Edison, solved all those problems in one go.</p>
+<p>Today, the Edison bulb is considered to be evil. The reason: an incandescent light bulb only converts 10 percent of the electrical power supplied into visible light. The rest is emitted as infrared light, in other words: heat. Since lighting is responsible for 20 to 25 percent of electricity consumption in a home, engineers try to design new technologies that could save a large amount of energy. Up until now, no one has succeeded.</p>
+<h2 id="compact-fluorescent-lamps-cfls">Compact Fluorescent Lamps (CFLs)</h2>
+<p>Halogen lamps (fitted into many desktop armatures and in spotlights) were introduced in 1959 and were then considered to be the future of lighting, but it turned out they run too hot for many applications. Next came the <a href="http://en.wikipedia.org/wiki/Compact_fluorescent_lamp" target="_blank" >compact fluorescent lamps</a> (CFLs), invented (in their modern form) in 1973 and much hyped in recent years. In the meantime it has become clear that they, too, have too many drawbacks to become a worthy successor of the incandescent light bulb.</p>
+<p>CFLs are more energy efficient and have longer life expectancies than incandescent light bulbs, but the light they produce is not as pleasing as a normal light bulb they do not reproduce the colours of various objects faithfully in comparison with an ideal or natural light source (which can be proven by <a href="http://en.wikipedia.org/wiki/Color_rendering_index" target="_blank" >measurements</a>). CFLs also need some time to achieve their full potential after turning them on, which makes them unsuitable for rooms where the light is switched on only for short periods.</p>
+<p>CFLs contain mercury and should be treated as toxic waste at the end of their life – a fact that is hard to combine with eco-friendliness. It is correct that coal power plants also emit mercury, and if the electricity to power your home is produced by coal plants then the energy savings of a CFL will actually result in <a href="http://e360.yale.edu/content/digest.msp?id=1499" target="_blank" >lower overall mercury emissions</a>. However, if your house is powered by renewable energy, and that’s what environmentalists want us to do, a CFL is not a green choice.</p>
+<h2 id="light-emitting-diodes-leds">Light Emitting Diodes (LEDs)</h2>
+<p>The drawbacks of CFLs are slowly gaining recognition even amongst critics of the incandescent light bulb. More and more, compact fluorescent lamps are considered to be an <a href="http://www.treehugger.com/files/2006/09/led_lightbulb_r_1.php" target="_blank" >interim technology</a>, awaiting the arrival of <a href="http://en.wikipedia.org/wiki/Light-emitting_diode" target="_blank" >Light Emitting Diodes</a> (LEDs) and <a href="http://en.wikipedia.org/wiki/OLED" target="_blank" >Organic Light Emitting Diodes</a> (OLEDs).</p>
+<p>Strikingly, exactly <a href="./2008/04/leave-the-algae-alone/" >the same thing is happening with biofuels</a>, where advocates eventually accepted the unforeseen disadvantages but point to a next generation of technology which offers all the benefits without the drawbacks.</p>
+<p>LEDs do not contain mercury and they are even more energy-efficient than CFLs, while boasting even longer life expectancies. However, also this technology still has to fulfil its promises. LEDs have become a mature and clearly advantageous technology when it comes to coloured lighting – red, green, yellow. This makes them a very good choice for traffic lights, for instance. White light – the light that we need most to light up our homes and streets – is another story.</p>
+<p>White LEDs are considerably less energy efficient, have lower life expectancies and can become very hot. High powered white LEDs are equipped with a fan to cool them down – introducing extra energy consumption, noise and breaking possibilities. Also, there is evidence that high power white LEDs can <a href="http://texyt.com/bright&#43;blue&#43;leds&#43;annoyance&#43;health&#43;risks" target="_blank" >damage health</a>. And last but not least: white light from a LED looks very much like the light of a welder: more blue than white, and everything but cosy.</p>
+<h2 id="viva-las-vegas">Viva Las Vegas</h2>
+<p>At the moment, LED technology is no competition for the incandescent light bulb. However, it can be considered a worthy improvement of another technology: neon lights. And that’s the problem. Whether or not white LEDs will finally arrive, the success of coloured LEDs is a fact. New applications are appearing every day, and even though some of them are definitely useful, they all introduce lighting in places and situations where there was no lighting before.</p>
+<p>Pasting many thousands of LEDs on a large building, with the sole purpose of decoration, seems to be the new hot thing in architecture. Dozens of examples (including the pictures on this page) can be found <a href="http://deputy-dog.com/2008/07/6-of-most-illuminated-buildings-on.html" target="_blank" >here</a>, <a href="http://nait5.wordpress.com/category/projects/media-facade/" target="_blank" >here</a>, <a href="http://www.interactivearchitecture.org/category/lighting" target="_blank" >here</a>, <a href="http://www.magicmonkey.net/" target="_blank" >here</a> and <a href="http://www.colorkinetics.com/showcase/architecture/index.html?page=0&amp;s_id=1" target="_blank" >here</a>. The people behind these projects almost always emphasize the energy efficiency of the lighting technology used, but of course no energy is saved here, on the contrary.</p>
+<p>The LED lights attached to facades (sometimes more than 200,000 of them) are not substituting incandescent light bulbs, they substitute a non-lit façade. So what counts is the extra energy consumption introduced by these LED-curtains, not the energy savings compared to wrapping a building in incandescent lights or neon – which nobody would do, except in Las Vegas.</p>
+<h2 id="solar-panels">Solar panels</h2>
+<p>Gigantic billboards are another emerging application of LEDs. Bejing has two of them. <a href="http://www.greenpix.org/" target="_blank" >Greenpix</a> measures 2,200 square meters, another screen in the same city – placed not vertically but horizontally as a <a href="http://www.ledsmagazine.com/features/4/1/5" target="_blank" >roof over a street</a> - measures 7,500 m². In Dubai, a <a href="http://www.gulfnews.com/business/Real_Estate_Property/10250190.html" target="_blank" >33 story LED-display</a> is planned, visible to a distance up to 1.5 kilometres, to be attached to a skyscraper.</p>
+<p>Greenpix is powered by solar panels, and therefore it is marketed as “a radical example of sustainable technology”. Of course, it is not. It takes energy to <a href="./2008/03/the-ugly-side-of-solar-panels/" >manufacture solar panels</a>. Introducing renewable energy lowers energy consumption only if it substitutes existing energy production.</p>
+<h2 id="translucent-concrete-and-luminous-pavement">Translucent concrete and luminous pavement</h2>
+<p>Two other recent inventions that should raise concern: <a href="http://www.litracon.hu/" target="_blank" >translucent concrete</a> and <a href="http://www.kiss-textil.de/wisdomen.htm" target="_blank" >luminous pavement</a>. In the near future, we will leave the light on in every room of our house, not for ourselves, but for the passer-by on the street and for the neighbours. LED-walls can display moving images, controlled by a computer. Every wall, every building, every bridge and every paving-stone could become a medium for communication.</p>
+<p>LEDs could revolutionise interior design and the list of products that can be “augmented” by LEDs seems infinite. Some examples: <a href="http://www.iwantoneofthose.com/new-arrivals/glow-flow-tap/index.html" target="_blank" >taps and showerheads that change the colour of the water according to temperature</a>, <a href="http://technabob.com/blog/2006/09/23/color-changing-led-shelves/" target="_blank" >colour changing book shelves</a>, <a href="http://www.lumalive.com/" target="_blank" >illuminated</a> <a href="http://www.lumigram.com/catalog/index.php?cPath=1" target="_blank" >clothing</a> and <a href="http://www.globalsources.com/manufacturers/LED-Clothing.html" target="_blank" >accessories</a>, <a href="http://www.brightfeetslippers.com/" target="_blank" >slippers</a>, <a href="http://www.advancedsafetyequipment.com/sales/led.html" target="_blank" >safety clothing</a>, <a href="http://www.ecofriend.org/entry/spectacular-led-lights-powered-by-the-wind-and-the-sun/" target="_blank" >garden</a>
+<a href="http://www.ecofriend.org/entry/a-beautiful-way-to-illuminate-your-peripheral-surroundings/" target="_blank" >lights</a>, <a href="http://www.ballerhouse.com/2008/06/30/the-lightbench-gives-the-park-bench-a-new-glow/" target="_blank" >garden benches</a>, <a href="http://www.itemltd.com/content/section/9/44/" target="_blank" >speed bumps and crossings</a>.</p>
+<p>Some of these applications are worthwhile. Most notably, LEDs promise to make traffic <a href="http://www.itemltd.com/component/option,com_frontpage/Itemid,1/" target="_blank" >safer</a>. And many people will be thrilled by the emerging design possibilities. But this technology will NOT lower energy consumption, on the contrary. There will be much more lighting everywhere, and because this lighting is more efficient, the best that can happen is that energy consumption will <em>not rise</em>.</p>
+<p>In fact, that’s exactly what the shopkeeper’s association in Madrid answered last December, when Spanish newspaper El País asked why there was such a striking increase of Christmas lights compared to the year before: “LEDs consume much less energy, so we can use much more lights without consuming more energy”.</p>
+<h2 id="the-energy-efficiency-paradox">The energy efficiency paradox</h2>
+<p>It is a common misconception that energy efficiency always leads to energy savings. This might be true in some cases, but not in most. Computers, televisions and car engines are good examples. All these technologies have become much more efficient during the last decades, but their energy consumption has been constant or on the rise.</p>
+<p>Even the arrival of a radically new energy efficient technology – comparable to the change from Edison bulbs to LEDs – is no guarantee. LCD and plasma television technology is in itself considerably more energy efficient than the conventional cathode-ray tube. There was a for a reduction in energy consumption, but instead it was decided to use the technology to make larger televisions without raising power consumption (too much).</p>
+<p>There are so many examples of the energy efficiency paradox that it is hard to believe that this mechanism (already described in 1865 by Stanley Jevons and further developed by Daniel Khazzoom en Len Brookes in the 1970s) is still <a href="http://www.alternet.org/environment/84982/?page=entire#comments" target="_blank" >so controversial</a>. Maybe LEDs will finally convince us, because they promise to become one of the most powerful examples to date.</p>
+<p>The paradox is very hard to prove for compact fluorescent lamps, because they did not bring about new applications. It could be that people are tempted to install more lights and leave them on for longer periods, because they know they consume less - but that’s very hard to prove, and not so likely either. With LEDs, however, the situation is vastly different. Your desk lamp might use less energy in 10 years time, but the technology that made it happen will also light the exterior of all buildings and infrastructure in your city.</p>
+<h2 id="more-instruments-needed">More instruments needed</h2>
+<p>LEDs illustrate the danger of a purely technological approach to energy conservation. A technology that was originally designed to save energy, gives way to all kinds of new applications that might eventually raise energy consumption considerably. The evolution of technology is unpredictable, and therefore technology should never be the only solution to a problem.</p>
+<p>Outlawing incandescent light bulbs – which several countries plan to do – is no solution either. The guy burning one light bulb in his little room (and maybe using the excess heat of his bulb as heating in winter) damages the environment a whole lot less than the guy on the other side of the street who decorates his mansion and garden like a casino with LEDs. There is a lot of room to lower energy consumption <em>without</em> switching to new technology. Something is awfully wrong with our approach to energy conservation.</p>
+<p>All this does not mean that energy efficiency is a bad thing. It brings economical gains and many other advantages: faster cars, more powerful and smaller computers, larger televisions. For many of us, these are all very important achievements. Energy efficiency also <em>offers the possibility</em> for a reduction in energy consumption, but this does not happen automatically. More is needed to translate energy efficiency into energy reduction. A carbon tax or higher energy prices, for instance. Together with these instruments, energy efficiency can be a very powerful tool. Without them, energy efficiency works against us when it comes to saving energy.</p>
+<h2 id="updates">Updates:</h2>
+<ol>
+<li>
+<p><a href="http://features.csmonitor.com/environment/2008/10/15/eu-bans-incandescent-light-bulbs/" target="_blank" >EU bans incandescent light bulb</a></p>
+</li>
+<li>
+<p>The insane hardware driving <a href="http://gizmodo.com/5096475/the-insane-hardware-driving-the-worlds-biggest-led-billboard" target="_blank" >the world&rsquo;s biggest LED billboard</a></p>
+</li>
+<li>
+<p>Why are we so amazed by colourful lights at night? Because <a href="http://img367.imageshack.us/img367/1749/summermilkywayjg6.jpg" target="_blank" >this is what we saw before we started to light up the night</a>.</p>
+</li>
+</ol>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Subscribe to our newsletter</a>.</li>
+        <li> Support Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> or <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="offline-reading/">Read Low-tech Magazine offline</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments </h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com. Your e-mail address is not used for other purposes, and will be deleted after the comment is published. If you don’t want your real name to be published, sign the e-mail with the name you want to appear.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Andy</h5>
+	<p>You post does not offer a solution. If you think LEDs are so terrible, would you like everyone to continue using incandescent bulbs in their home? If we have more efficient technology, we should be urging people to use that when they can in applications that make sense to. Of course we shouldn&rsquo;t just have more efficient lighting, we should find ways to use it less also.</p>
+<p>Obviously covering a building with lights is not an efficient use of our energy, but that doesn&rsquo;t make LEDs themselves a bad idea. You are taking a few instances of poor applications in terms of energy use to determine that a specific source of light is a bad choice. Good job taking a broad idea, focusing it to one issue, and then trying to apply that thinking broadly again.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Kris De Decker</h5>
+	<p>&ldquo;The typical digital billboard consumes about 30 times as much energy as the average American household.&rdquo;</p>
+<p><a href="http://www.notechmagazine.com/2010/12/digital-led-billboards.html" target="_blank" >http://www.notechmagazine.com/2010/12/digital-led-billboards.html</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>S.P. Gass</h5>
+	<p>Excellent post. I have begun replacing incandescent bulbs in my house with CFLs, but only when an incandescent bulb burns out. I agree, however, that the CFL light is not as pleasing as an old-fashioned incandescent bulb. And there are some applications, such as bulbs on a dimmer switch where low cost CFLs are not an option.</p>
+<p>I will consider LED bulbs, or better technology, when they are readily available.</p>
+
+</div>
+
+<div class="comment">
+	<h5>guitarMan666</h5>
+	<p>I don&rsquo;t know what you mean by &ldquo;not pleasing&rdquo; or &ldquo;anything but cozy.&rdquo; I absolutely despise the warm (red/yellow) colors of traditional bulbs and flame. I much prefer the blue-ish light of LEDs and the more &ldquo;white&rdquo; light of CFLs</p>
+
+</div>
+
+<div class="comment">
+	<h5>Eric H</h5>
+	<p>Have you heard this? It brilliantly illustrates Kris&rsquo; point:</p>
+<p>The Times Square ball is going to be left on all year.</p>
+<p><a href="http://www.npr.org/templates/story/story.php?storyId=98912400" target="_blank" >http://www.npr.org/templates/story/story.php?storyId=98912400</a></p>
+<p>&ldquo;When the 32,000 LED lights inside blared on, it was dazzling. Even in the middle of the afternoon, it hurt to look right at it. &hellip; Computer controlled LEDs swirl in every color of the rainbow. &hellip;</p>
+<p>&ldquo;It was the new design that allowed Jeffrey Strauss to dream that a year-round ball was possible. Strauss is the co-producer of New Year&rsquo;s Eve.</p>
+<p>&ldquo;He says that the old incandescent bulbs would have cost a fortune to keep lit all year, plus you it wouldn&rsquo;t have been bright enough to see them during the day. But this ball, Strauss says, could conceivably be used to celebrate everything.&rdquo;</p>
+<p>If the LEDs use 1% of the energy, they are still going to be on for 365 days, and so at least 3.65 times the total energy usage. But they don&rsquo;t use 1% of the energy, as this is now a much brighter design.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Myrtone</h5>
+	<p>&ldquo;CFLs are more energy efficient and have longer life expectancies than incandescent light bulbs&hellip;&rdquo;</p>
+<p>There is a type of lighting that does even better, Induction lighting.</p>
+<p>&ldquo;&hellip;but the light they produce is not as pleasing as a normal light bulb.&rdquo;</p>
+<p>What do you mean, doesn&rsquo;t it depend on personal taste?</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>Read before you make a comment. The article says: &ldquo;The incandescent light bulb, perfected and brought to commercial success by Thomas Edison,&hellip;&rdquo;</p>
+<p>It does not say: &ldquo;Edison invented the light bulb&rdquo;.</p>
+<p>Your second remark is simply wrong. LCD and plasma display panels are more efficient than cathode ray tubes for a given screen size. The thing is that they are larger than CRTs, and therefore in the end consume more energy. An energy-efficient technology has been translated into extra applications instead of energy savings, an excellent example of the energy efficiency paradox that is the subject of this article. Oh, of course, you did not read it.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Richard</h5>
+	<p>I have an even better idea: Go back to open fire instead of electric light. That&rsquo;s dangerous and requires some work to maintain it burning.</p>
+<p>And therefore you could safe so much energy - amazing.</p>
+<p>You could even safe much more energy when you live in the trees and use the natural daylight. You dont&rsquo;s event need heating then - because it&rsquo;s just useless in the trees.</p>
+
+</div>
+
+<div class="comment">
+	<h5>John</h5>
+	<p>Buildings have been lit up since long before the invention of the LED. Have you never seen Las Vegas or Times Square or Piccadilly Circus or Shinjuku? Maybe some buildings can now be lit more brightly with LEDs than would have been affordable before, but you provide no evidence that LEDs increase energy consumption overall. Given that only a very small proportion of total energy consumption is used to light a few high profile landmark buildings, this seems unlikely.</p>
+<p>LEDs use so much less power than incandescent bulbs, less than a tenth, that there could be up to ten times as much light in the world, and there would still be a saving. Might not that be a good thing?</p>
+<p>LEDs mean that I rarely have to replace my cycle light batteries, LEDs make my wind-up torch practical and LEDs allow poor Indians to use solar charged lights in place of smoky kerosene lanterns. That’s certainly a good thing.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Default_UserID</h5>
+	<p>CFL based lighting is not as efficient as you might think. Due to the low power factor of the circuitry that drives the bulb, the power company has to produce as much as twice the power to actually power the bulb than the bulb is rated for. Combine that with the annoying light spectrum, much shorter life than advertised, and the mercury content, most knowledgeable people consider CFLs a failure.</p>
+<p>I plan on stockpiling incandescent bulbs before our nanny state government goons ban them. And you will never see a carbon tax in the US because most people recognize it as another scam to line the pockets of con artists like Al Gore, who stands to make millions if we are dumb enough not to stop him.</p>
+<p>LEDs will continue to progress and will eventually be a great substitute for the incandescent bulb. But don&rsquo;t try to force alternative technologies down our throats with legislation - we&rsquo;ll always find a way around it.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Michael Drake</h5>
+	<p>Get your facts right before sounding off. Edison did not invent the light bulb, that&rsquo;s an American conceit. LCD and plasma display panels are not more efficient than cathode ray tubes,quite the reverse.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Oscar</h5>
+	<p>&lsquo;Efficiency&rsquo; is one thing, but what is most overlooked in the debate over lighting energy is saving energy through not lighting things, or lighting things more for usability, rather than just &lsquo;more&rsquo;. It seems odd that all the pictures in this post are all &lsquo;waste&rsquo; light - none of them is actually helping solve a task.</p>
+<p>To clarify on the &rsquo;light quality&rsquo; issue - Neither &lsquo;more light&rsquo; nor &lsquo;whiter light&rsquo; necissarily means that what you are trying to see will be clearer to you. This is because both flourescent tubes and LEDs tend to emit light only in tiny fragments of the whole spectrum (generally the broader the spectrum, the easier to see what you are looking at). But this does not mean that these technologies CANNOT do this - however its more expensive to make a more readable flourescent tube than a standard one (basically it requires more different phosphors - not just a small selection of the cheaper ones that can be combined to become white)</p>
+<p>Another factor that is important to note is the physiological effect of light on the body, and the effects of &rsquo;light pollution&rsquo; etc. (for instance, street lights usually emit alot of light but are amongst the least readable lights of any kind). For this I can only very highly recommend the book:</p>
+<p>Ott, John N. (1973). Health and Light: The Effects of Natural and Artificial Light on Man and Other Living Things</p>
+<p>(John Ott wikipedia page at <a href="http://en.wikipedia.org/wiki/John_Ott" target="_blank" >http://en.wikipedia.org/wiki/John_Ott</a> )</p>
+
+</div>
+
+<div class="comment">
+	<h5>JulieG</h5>
+	<p>The problem isn&rsquo;t LEDs, it&rsquo;s people being wasteful. LEDs are a pretty useful technology, but they&rsquo;re not idiot-proof. Few things are.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Aaron Lin</h5>
+	<p>I really enjoyed this post. I&rsquo;ve noticed this energy-efficiency paradox in other areas, too, especially when it comes to solar energy. Most people don&rsquo;t stop to think about the rare metals and energy required to produce solar panels, so they have the incorrect impression that solar energy is free. As a result, instead of cutting back on their power usage, they just pave their entire house over with panels.</p>
+<p>It&rsquo;s expensive and not necessarily more effective than just relying on the conventional grid, but unplugging all your appliances.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./tags/energy-efficiency/" class="">Energy Efficiency</a></span> 
+		        
+		           <span><a href="./tags/energy-demand/" class="">Energy Demand</a></span> 
+		        
+		           <span><a href="./tags/lighting/" class="">Lighting</a></span> 
+		        
+		           <span><a href="./tags/buildings/" class="">Buildings</a></span> 
+		        
+		           <span><a href="./tags/economy/" class="">Economy</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./2018/01/how-much-energy-do-we-need/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How Much Energy Do We Need?</h3>
+		<p class="index-summary">Researchers have calculated minimum levels of energy use needed to live a decent life, but what about maximum levels?</p>
+		<time class="published">January 24, 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2018/01/bedazzled-by-energy-efficiency/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2018/01/bedazzled-by-energy-efficiency/images/dithers/bedazzled-by-energy-efficiency_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Bedazzled by Energy Efficiency</h3>
+		<p class="index-summary">To focus on energy efficiency is to make present ways of life non-negotiable.</p>
+		<time class="published">January 9, 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2016/11/the-curse-of-the-modern-office/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2016/11/the-curse-of-the-modern-office/images/dithers/fantasy-skyline_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">The Curse of the Modern Office</h3>
+		<p class="index-summary">The information society promises to dematerialise society and make it more sustainable, but modern office and knowledge work has itself become a large and rapidly growing consumer of energy and other resources</p>
+		<time class="published">November 22, 2016</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./2021/02/how-sustainable-is-high-tech-health-care/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/2021/02/how-sustainable-is-high-tech-health-care/images/dithers/the-surgeon_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">How Sustainable is High-tech Health Care?</h3>
+		<p class="index-summary">Can we make modern health care carbon-neutral and maintain the levels of care, pain relief, and longevity that we have come to take for granted?</p>
+		<time class="published">February 18, 2021</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="about">
+  About
+</a>
+    <a href="power">
+  Power
+</a>
+    <a href="about/team">
+  Colophon
+</a>
+    <a href="donate">
+  Donate
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Energie-efficiëntie maakt blind | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Energie-efficiëntie maakt blind" />
+<meta name="twitter:title" content="Energie-efficiëntie maakt blind"/>
+
+<meta property="og:description" content="Om energie-efficiëntie &lsquo;objectief&rsquo; te meten, wordt de werkelijkheid zo abstract gemaakt dat er meer wordt verhuld dan verklaard." />
+
+<meta name="twitter:description" content="Om energie-efficiëntie &lsquo;objectief&rsquo; te meten, wordt de werkelijkheid zo abstract gemaakt dat er meer wordt verhuld dan verklaard."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./nl/2018/01/bedazzled-by-energy-efficiency/" />
+
+
+
+<meta property="og:image" itemprop="image" content="nl/2018/01/bedazzled-by-energy-efficiency/images/dithers/lockheed_dithered.png" />
+<meta property="og:image:secure_url" content="nl/2018/01/bedazzled-by-energy-efficiency/images/dithers/lockheed_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="nl/2018/01/bedazzled-by-energy-efficiency/images/dithers/lockheed_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-01-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-07-31T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy efficiency" />
+<meta property="article:tag" content="Energy demand" />
+
+</head>
+<body id="energie-effici%C3%ABntie-maakt-blind">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Energie-efficiëntie maakt blind</h1>
+
+				<p class="summary">
+					Om energie-efficiëntie &lsquo;objectief&rsquo; te meten, wordt de werkelijkheid zo abstract gemaakt dat er meer wordt verhuld dan verklaard.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">9 januari 2018</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="./nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="./2018/01/bedazzled-by-energy-efficiency/">en</a>
+						
+							<a href="./fr/2018/01/bedazzled-by-energy-efficiency/">fr</a>
+						
+							<a href="./de/2018/01/bedazzled-by-energy-efficiency/">de</a>
+						
+							<a href="./es/2018/01/bedazzled-by-energy-efficiency/">es</a>
+						
+							<a href="./pt/2018/01/bedazzled-by-energy-efficiency/">pt</a>
+						
+							<a href="./ar/2018/01/bedazzled-by-energy-efficiency/">ar</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2018/01/bedazzled-by-energy-efficiency/images/dithers/lockheed_dithered.png" alt='Een Lockheed Constellation uit 1950: even zuinig als een moderne Airbus A380.' data-original="/nl/2018/01/bedazzled-by-energy-efficiency/images/lockheed_hu409eb76ad523e5e31d4d5d0860412b13_399998_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2018/01/bedazzled-by-energy-efficiency/images/dithers/lockheed_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Een Lockheed Constellation uit 1950: even zuinig als een moderne Airbus A380.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Het streven naar energie-efficiëntie wordt algemeen beschouwd als de beste strategie om de afhankelijkheid van fossiele brandstoffen te verlagen. Maar om energie-efficiëntie &lsquo;objectief&rsquo; te meten, wordt de werkelijkheid zo abstract gemaakt dat er meer wordt verhuld dan verklaard.</p>
+<p>Een mooi voorbeeld is de luchtvaart. In 1985 had een vliegtuig gemiddeld 8 liter brandstof nodig om één passagier 100 kilometer te vervoeren, terwijl dat vandaag slechts 3,7 liter is. Vliegen heeft dus nu de naam twee keer energie-efficiënter te zijn dan dertig jaar geleden. En aangezien het gemiddelde brandstofverbruik van een auto tegenwoordig ongeveer 6 liter per 100 kilometer bedraagt, zijn er wetenschappelijke studies die beweren dat &lsquo;vliegen zuiniger is dan autorijden&rsquo;.</p>
+<p>Deze stelling is bijzonder problematisch. Ten eerste is een lijnvliegtuig een openbaar vervoermiddel met een hoge bezettingsgraad, terwijl een auto een privaat vervoermiddel is waarin gemiddeld 1,2 personen zitten. Het zou dus logischer zijn om een lijnvliegtuig te vergelijken met een autobus. In een goed gevulde autobus ligt het verbruik per passagier op slechts 0,5 liter per 100 kilometer, bijna acht keer lager dan in een lijnvliegtuig.</p>
+<p>Ten tweede houdt de gekozen meeteenheid – het brandstofverbruik per passagier per kilometer – geen rekening met de in totaal afgelegde kilometers. Het voordeel van een trager vervoersmiddel zit hem niet zozeer in het lagere brandstofverbruik per afgelegde kilometer, maar in de kortere afstanden die logischerwijze worden afgelegd. De hoge snelheid van een vliegtuig zorgt ervoor dat er veel meer kilometers worden overbrugd dan tijdens de gemiddelde auto- of busrit.</p>
+<p>De berekening bevat nog meer betwistbare aannames. Ze is gericht op individuele vliegtuigen, niet op de luchtvaart in zijn geheel. Terwijl het brandstofverbruik per passagier de afgelopen veertig jaar halveerde, verachtvoudigde het aantal vluchten. Het totale brandstofverbruik in de luchtvaart blijft dus stijgen, mede onder invloed van zuinigere vliegtuigen.</p>
+<p>Tot slot is de berekening gebaseerd op een abstractie in de tijd. Maken we een vergelijking met als startjaar 1950 in plaats van 1985, dan blijkt dat vliegtuigen helemaal niet efficiënter zijn geworden. In de jaren zestig werden propellervliegtuigen vervangen door straalvliegtuigen, die dubbel zo snel zijn maar aanvankelijk ook dubbel zoveel energie verbruikten. Pas 50 jaar later is het straalvliegtuig even &lsquo;zuinig&rsquo; als het propellervliegtuig.</p>
+<p>Gaan we nog verder terug, dan klapt het abstracte concept van energie-efficiëntie helemaal in elkaar. Begin vorige eeuw vlogen mensen helemaal niet.</p>
+<p>De focus op energie-efficiëntie impliceert dus dat reizen met een snelheid van 1.000 kilometer per uur &rsquo;normaal&rsquo; is en niet ter discussie mag worden gesteld, wat ons blind maakt voor evidente oplossingen die wel tot een lager energieverbruik leiden.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Gerold Manders</h5>
+	<p>@ Bart W.:</p>
+<p>1200 km/h&hellip;dat begint tegen Mach-1 snelheden te hikken. En daar zijn lijnvliegtuigen niet voor ontworpen. Voordat een vliegtuig door de Mach-x grens breekt, krijgt het eerst te maken met hevige vibraties, hitte-ontwikkeling en vervorming van het aluminium.</p>
+<p>De Concorde was wel voor Mach snelheden ontworpen. Die kenmerkende vormen van dat vliegtuig waren bittere noodzaak. Nu vliegt de Concorde al jaren niet meer. Te duur in onderhoud, brandstof gelimiteerd in vervoerscapaciteit van personen en geluidsoverlast van jewelste. Concorde tickets waren dus spektakelachtig duur. Tijdswinst die ook nog eens gereduceerd werd als je tegen de draairichting van de planeet vliegt, in vergelijking met een ouder lijnvliegtuig.</p>
+<p>Als zelfs hooggeplaatste functionarissen en directie-leden vragen gaan stellen over de tijdswinst tegenover de kosten&hellip;dan is het einde nabij.</p>
+<p>Die kosten/baten afweging van snelheid en verbruik is ook doorgetrokken naar normaal lijnvlieg-verkeer.</p>
+<p>Bij oudere lijnvliegtuigen was een hogere kruissnelheid een hogere prioriteit dan brandstofverbruik. Bij nieuwere lijnvliegtuigen is het andersom. Als een half uur tot een uur aan extra reistijd erbij komt, daar voelt de gemiddelde reiziger maar weinig van, maar het scheelt enorm qua brandstof verbruik over het functionele leven van dat vliegtuig. Iets waar luchtvaartmaatschappijen erg blij van worden.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rien</h5>
+	<p>Dit soort vergelijkingen lopen altijd mank natuurlijk.</p>
+<p>Vliegen van Brussel naar Rome is toch echt VEEL beter voor het milieu dan auto rijden, alleen al omdat het auto rijden 2 extra dagen kost waarin ook kosten/energie uitgegeven moet worden.</p>
+<p>Maar waar het echt om draait is niet zozeer de energie vergelijking, maar de vraag is het nu echt wel nodig om een weekeinde shopping in NY te doen? of een vakantie in Bangkok? Is dat energie nuttig gespendeerd?</p>
+<p>Maar de vraag die nog het minst te beantwoorden is: Wat anders?</p>
+<p>I.e. een vlucht naar Turkse kust en dan twee weken in een hotel is wellicht toch energie zuiniger dan hier blijven en elke dag ergens anders naar toe rijden&hellip;</p>
+<p>Ach, waren er maar eenvoudige vragen&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nico S.</h5>
+	<p>Bedankt voor het artikel.</p>
+<p>Voor de vergelijking van het vliegtuig met de autobus dienen nog variabelen in rekening te worden genomen. In het voordeel van vliegen pleit ook het type van het terrein: Bergen en heuvels vragen een hoger brandstofverbruik voor bussen, bovendien kan een vliegtuig in een rechte lijn naar zijn bestemming vliegen, waar de bus een autosnelweg dient te volgen.</p>
+<p>Op het water moeten voor bussen extra vervoersmiddelen (schepen) worden voorzien.</p>
+<p>Een logisch nadeel (lees meer vervuilend) van sneller reizen is dat er méér gereisd kan worden. Als een enkele verplaatsing met de bus een dag in beslag neemt, dan kan het vliegtuig in dezelfde dag heen en terug vliegen. Typisch gebruikt door gezagdragers om een handtekening te gaan plaatsen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mark</h5>
+	<p>Wat mij betreft is vliegen een noodzakelijk kwaad. Het maakt de wereld kleiner, brengt mensen dichter bij elkaar, en het brengt een hoop negatieve ecologische externaliteiten met zich mee.</p>
+<p>Dat alles is volgens mij nodig om misschien/hopelijk/ooit te komen tot beleid op globaal niveau.</p>
+<p>Wat uiteraard niet wil zeggen dat ik als individu niet probeer mijn verantwoordelijkheid te nemen&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>Willy Zon</h5>
+	<p>Een topman van een Belgische touroperator vatte het eens in een interview kernachtig samen. Meer dan 90% van onze vluchten gaan naar bestemmingen die nauwelijks de moeite waard zijn&hellip; zo zie je maar.</p>
+<p>Het gemiddelde verbruik per 100 km werd heel duidelijk geschetst. Maar wat ik graag eens wil weten is het verbruik voor de eerste 100 km inclusief het loskomen van 250 à 300 ton tot een hoogte van 10.000 meter?</p>
+<h5 id="koen-vandewalle">Koen Vandewalle</h5>
+<p>Dat is een gevolg van onze economische manier van denken van eeuwige groei en creatieve destructie, die totaal tegen de natuurwetten in handelen. Creatieve destructie en de verheerlijking van de eeuwige groei, zonder rekening te houden met de beperkingen van de mens, de aarde en de natuur, zullen nog enorme problemen veroorzaken. Stel in het beste geval dat we met kernfusie het probleem van energie kunnen oplossen. Wat zal dan het volgende zijn: een Hotel op de maan ? In een luchtzak, deels gevuld met een waterbel, in de ruimte gaan zwemmen ? Allemaal leuk hoor, maar waarom ? Voor elke wereldreddende uitvinding, komen er nadien duizend oneigenlijke gebruiken bij in de entertainmentsfeer. Goed, want dan groeit de economie&hellip;.?</p>
+<p>Wat we nu &ldquo;hernieuwbaar&rdquo; noemen, veroorzaken meer -vooral uitgestelde- problemen dan wat ze oplossen. Holland stond al eens vol windmolens, en veroverde de wereld met zeilboten. De bossen, de turf en nu het gas, zijn ook al opgebrand. Goh mensen, verspil maar, want in het verleden hebben de techniekers en de uitvinders het ook altijd opgelost DUS zal het nu ook wel opgelost worden. En wie er over zeurt en niet meedoet met de nieuwe spelletjes en de economische groei, zal een paria worden waar diegenen die wel flink meegedaan hebben zullen op neerkijken. Generaties lang.</p>
+<p>Die &ldquo;dus&rdquo; staat in het vet omdat daar de redeneerfout zit.</p>
+<p>Terug naar het vliegtuig: Een enorme verbetering voor het laten samenwerken van grote delen van de wereldbevolking, maar al te vaak misbruikt voor relatief onbenullige doeleinden in de entertainmentsfeer. Maar ook in de zakelijke wereld wordt er te veel overgeconsumeerd aan verplaatsingen.</p>
+<p>Soms ben ik zelfs gelukkig dat mijn kinderen hier gewoon op hun computer zitten te gamen en te chatten of vlogjes te bekijken. Ze doen dan minstens geen onnozele verplaatsingen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Bart.W</h5>
+	<p>Ik vloog vorige week van Canada naar Nederland, na 5 maanden werk weer naar huis.</p>
+<p>Standard boeing ding. Deed op hoogte 650knopen dat is 1203,8 km/h.</p>
+<p>De door de schrijver genoemd 1000 kan dus prima kloppen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Karel Adams</h5>
+	<p>Ook de energie-efficiëntie van auto&rsquo;s is erg krom getrokken. Bij voorbeeld: mijn Fiat Ducato is ZO efficiënt dat er nauwelijks genoeg restenergie is voor de verwarming. Als ik in de winter langere tijd stilsta, aan een spoorslagboom bv., dan zie ik de termometer teruglopen, en binnen de kortste keren komt er koude lucht uit de verwarmingsblazer. In Scandinavië wordt deze wagen dus verkocht met standaard een extra kachel erin, die uiteraard op stookolie oftewel dieselolie draait - maar wat die verbruikt blijft netjes buiten de gepubliceerde liters per 100 km. Puur boerenbedrog inderdaad.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Maranke Spoor</h5>
+	<p>Wat een fijne kollum weer Kris, dank!</p>
+
+</div>
+
+<div class="comment">
+	<h5>roland</h5>
+	<p>&ldquo;In de jaren zestig werden propellervliegtuigen vervangen door straalvliegtuigen, die dubbel zo snel zijn maar aanvankelijk ook dubbel zoveel energie verbruikten.&rdquo;</p>
+<p>Bij andere voertuigen zorgt snelheidsverdubbeling vaak voor een viervoudig energieverbruik.</p>
+<p>Dit artikel vergelijkt energieverbruik tussen voertuigen, dan telt vooral de bezettingsgraad.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mattias</h5>
+	<p>Patrick: hoe bedoel je? Stel dat je de uitstoot berekend van het totaal aan mensen die vroeger meer dan 600 km afleggen vergeleken met nu, dan denk ik wel dat er vroeger minder uitstoot was.</p>
+<p>Zie bv.[1] (met bijhorende grafiek): &ldquo;Again, the problem is growth. In the time that it took for aircraft efficiency to improve by a factor of three, passsenger numbers and airfreight tonnage have both grown by a factor of approximately 30.&rdquo;</p>
+<p>[1] <a href="http://www.hembrow.eu/cycling/2017odeaangaia.html#slide9" target="_blank" >http://www.hembrow.eu/cycling/2017odeaangaia.html#slide9</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>Hans</h5>
+	<p>Danku, mooie column.</p>
+<p>En ja, de vergelijking van (efficiëntie van) transportmiddelen &ldquo;per passagier en per kilometer&rdquo; is natuurlijk bijzonder subjectief gekozen.</p>
+<p>Als je &ldquo;per passagier en per uur&rdquo; zou rekenen krijg je al iets heel anders.</p>
+<p>Ook dan nog gaat de efficientie omhoog als de bus/auto/trein/viegtuig/boot beter gevuld is, en dat is een zaak van marketing en verkoopsprijs. Daarmee wordt een Ouigo misschien &ldquo;efficienter&rdquo; dan een Thalys, die met erg vergelijkbaar materieel rijdt: de goedkope trein zal voller zijn, (op Thalys worden geen biljetten zonder stoel aangeboden), en misschien een beetje trager: het verbruik &ldquo;per uur&rdquo; daalt dan wellicht, terwijl de afstand Lyon-Bordeaux toch dezelfde blijft.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Marksken</h5>
+	<p>Ik denk dat dit artikel eerder wil aankaarten dat je met de nodige overtuiging eigenlijk elke berekening in een positief daglicht zou kunnen stellen en juist door die overtuiging je de objectiviteit uit het oog kan verliezen.</p>
+<p>Vergelijk het met het verbruik van elektrische voertuigen waar je geen enkel cijfer van kan terugvinden over hoeveel stroom uit het net nu van doen is per km enkel het verbruik van de motor. Alsof stroom in en uit een accu telkens met 100% rendement gebeurt.</p>
+
+</div>
+
+<div class="comment">
+	<h5>freek</h5>
+	<p>Blijft een mooie kist die Constellation, wow</p>
+
+</div>
+
+<div class="comment">
+	<h5>Henk Poldervaart</h5>
+	<p>Kris, dank voor het artikel, zoals gesteld is het bijzonder moeilijk om vliegtuigen met auto&rsquo;s te vergelijken. Voor vliegtuigen heeft er wel een evolutie plaatsgevonden na de propellervliegtuigen naar de straalmotoren. Vliegtuigen met straalmotoren vliegen het meest efficiënt bij een lage luchtdruk, dus op grote hoogte 10.000 meter of hoger. Door deze lage luchtdruk moet het vliegtuig voor de benodigde lift tenminste ongeveer 1000 km/uur vliegen omdat het vliegtuig anders naar beneden zou vallen, een boek waarin e.e.a.duidelijk wordt uitgelegd is van professor Tennekes. Het is de vraag of we in Nederland zitten te wachten op rozen die in Kenia worden geteeld en die daarna met een vliegtuig naar Europa worden gevlogen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Vhris Paepen</h5>
+	<p>Bedankt voor het artikel, en heel wat reacties.</p>
+<p>Wat ik me dan steeds afvraag is: welk ander materiaal- en energieverbruik zijn er nog allemaal gekoppeld aan een verplaatsing met een vervoer middel. Bij vliegtuigverplaatsingen is dat een hele wereld van luchthavens met diverse activiteiten t.e.m. alle verkeersleidingen en veiligheidsvoorzieningen. Bij bussen/auto&rsquo;s is dat minder, maar zijn er natuurlijk wel de wegen enz. Ook het de energie voor materialen, constructie, onderhoud, sloop, &hellip; speelt een rol.</p>
+<p>Dat totale plaatje is natuurlijk nog veel moeilijker te maken, maar is m.i. minstens even belangrijk.</p>
+<p>En is kerosine een meer of minder belastende brandstof dan diesel/benzine?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Harrie</h5>
+	<p>Grappig artikel.</p>
+<p>Ik mis echter het doel van de verplaatsing t.o.v. de vervuiling die optreed. Shoppen in frankrijk of werken voor onze handel in invloed(regering).</p>
+<p>(De publiek gefinancierde energie van windmolens lobbyisten 1e kamer van Schiphol niet meegerekend)</p>
+<p>Gr. Harrie</p>
+
+</div>
+
+<div class="comment">
+	<h5>Piet</h5>
+	<p>In de Monthly Review.schreef Einstein dat de chaotische kapitalistische samenleving een bron van kwaad was die overwonnen moest worden.</p>
+<p>Dat is blijkbaar hogere wiskunde voor onze ongeschoolde geschiedkundige sociologen die onze cultuur land verkopen van 4000 miljard aan belastingdealtjes om netwerk kleine zelfstandigen te ondermijnen tot gesubsideerd rondslepen van accu&rsquo;s voor het milieu of Amerikaanse bossen versnipperd verkopen als biobrandstof/ geluidsberekening vliegveld Lelystad.</p>
+<p>Jammer dat onze politieke kleuterschool niet meer als serieuze werkplek kan worden gezien voor mensen met know how.</p>
+<p>dit land is ziek van zijn haagse verwende kleuters</p>
+
+</div>
+
+<div class="comment">
+	<h5>Patrick</h5>
+	<p>In het begin van de twintigste eeuw en vroeger reisden mensen per boot. Een oversteek van de oceaan duurde misschien twee weken(?). Was dat dan milieuvriendelijk?</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="./nl/tags/energy-efficiency/" class="">Energy efficiency</a></span> 
+		        
+		           <span><a href="./nl/tags/energy-demand/" class="">Energy demand</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="./nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/images/dithers/LTM-boek-nederlandstalig_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine op papier, in het Nederlands</h3>
+		<p class="index-summary">De 18 nieuwste artikels van Lowtech Magazine zijn nu verkrijgbaar in boekvorm – het eerste volume in een reeks.</p>
+		<time class="published">2 december 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./nl/2018/11/how-circular-is-the-circular-economy/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2018/11/how-circular-is-the-circular-economy/images/dithers/circular-economy-2_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Ook circulaire economie pleegt roofbouw op planeet</h3>
+		<p class="index-summary">Zolang we grondstoffen blijven accumuleren, is het sluiten van de grondstoffencyclus een illusie, zelfs voor materialen die in principe goed te recycleren zijn</p>
+		<time class="published">3 november 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2018/01/how-much-energy-do-we-need/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2018/01/how-much-energy-do-we-need/images/dithers/azuri-technologies_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Hoeveel energie hebben we nodig?</h3>
+		<p class="index-summary">Onderzoekers hebben berekend hoeveel energie mensen minimaal nodig hebben om een fatsoenlijk leven te leiden. Kunnen ze ook een maximale limiet voor energieverbruik berekenen?</p>
+		<time class="published">24 januari 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2017/05/could-we-run-modern-society-on-human-power-alone/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-power-production-fitness_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Kan een moderne samenleving op menselijke spierkracht draaien?</h3>
+		<p class="index-summary">Unlike solar and wind energy, human power is always available, no matter the season or time of day.</p>
+		<time class="published">28 mei 2017</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="nl/about">
+  Over ons
+</a>
+    <a href="nl/power">
+  Power
+</a>
+    <a href="nl/about/team">
+  Colophon
+</a>
+    <a href="nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

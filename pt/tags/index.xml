@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Português</title>
+    <link>./pt/tags/</link>
+    <description>Este site é movido a energia solar, o que significa que, às vezes, ele fica fora do ar.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="./pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Food</title>
+      <link>./pt/tags/food/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>./pt/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solar Power</title>
+      <link>./pt/tags/solar-power/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>./pt/tags/solar-power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>./pt/tags/history/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>./pt/tags/history/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

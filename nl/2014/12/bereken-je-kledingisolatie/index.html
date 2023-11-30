@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bereken je kledingisolatie | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Bereken je kledingisolatie" />
+<meta name="twitter:title" content="Bereken je kledingisolatie"/>
+
+<meta property="og:description" content="De isolatie van kleding kan heel precies worden berekend aan de hand van de clo-waarde." />
+
+<meta name="twitter:description" content="De isolatie van kleding kan heel precies worden berekend aan de hand van de clo-waarde."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./nl/2014/12/bereken-je-kledingisolatie/" />
+
+
+
+<meta property="og:image" itemprop="image" content="nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-man_dithered.png" />
+<meta property="og:image:secure_url" content="nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-man_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-man_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-12-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-12-26T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="heating and cooling" />
+
+</head>
+<body id="bereken-je-kledingisolatie">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Bereken je kledingisolatie</h1>
+
+				<p class="summary">
+					De isolatie van kleding kan heel precies worden berekend aan de hand van de clo-waarde.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">26 december 2014</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="./nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-man_dithered.png" alt='Foto: Kledingoutfits met verschillende clo-waardes. Bron: Work Design, Stephan A. Korz, 1979.' data-original="/nl/2014/12/bereken-je-kledingisolatie/images/clo-man_hu8c4cdce25c89539aa55ac5aa124e6fcf_51357_800x800_fit_q90_h2_box.webp" data-dither="/nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-man_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Kledingoutfits met verschillende clo-waardes. Bron: Work Design, Stephan A. Korz, 1979.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Het menselijk lichaam zet voedsel om in fysieke en mentale arbeid, maar ook in (rest)warmte: ongeveer 100 tot 120 watt voor een persoon in rust. Onze kleding zorgt ervoor dat de warmte die het lichaam produceert, niet meteen verloren gaat aan de omgeving. Precies hetzelfde principe wordt toegepast bij de isolatie van een gebouw.  In beide gevallen kan de isolatiewaarde heel precies worden berekend.</p>
+<p>Een paar jaar geleden publiceerden we een artikel over het belang van kledingisolatie: <a href="./2011/02/insulation-first-the-body-then-the-home/" >Isolatie: eerst het lichaam, dan het huis</a>. Daarin argumenteerden we dat isolatie van het lichaam veel efficiënter is dan isolatie van de ruimte waarin het lichaam zich bevindt. Dat verhaal was voornamelijk gebaseerd op persoonlijke ervaring, maar het energie-besparende potentieel van kleding kan ook wetenschappelijk worden berekend met behulp van de zogenaamde &ldquo;clo&rdquo;-standaard. Deze eenheid, die uiteraard is afgeleid van het Engelse woord &ldquo;clothes&rdquo;, werd in 1941 geïntroduceerd en wordt vandaag algemeen gebruikt in het wetenschappelijk onderzoek naar thermisch comfort.</p>
+<p>Eén clo komt overeen met een warmtegeleidingscoëfficiënt van 0,155 m²K/W en een R-waarde van 0,88 (terwijl een R-waarde van 1 correspondeert met een clo-waarde van 1,137 clo). Het voordeel van het gebruik van de clo is dat het een makkelijk te begrijpen eenheid is: 1 clo is de kledingisolatie die nodig is om een rustende persoon (bijvoorbeeld iemand die al zittend televisie kijkt) comfortabel te houden bij een binnentemperatuur van 21 graden. Een kledingisolatie van 1 clo komt overeen met het typisch driedelig pak inclusief hemd, vest en ondergoed.</p>
+<p>De keuze voor deze archetypische moderne mannelijke kleding is het gevolg van het feit dat de eenheid oorspronkelijk werd geïntroduceerd voor gebruik in het leger. A.C. Burton, die de clo mee bedacht, schreef in 1946: &ldquo;We found that we could explain even to a General or Admiral, without a course in physics for which he had neither the time nor patience, that his uniform had about one clo-unit of thermal insulation, his greatcoat another one clo-unit, and that together they provided him with a total of two clo-units.&rdquo;</p>
+<h2 id="een-clo-waarde-op-het-etiket">Een clo-waarde op het etiket?</h2>
+<p>Elk kledingstuk heeft een precies bepaalde clo-waarde. Het zou handig zijn als die informatie op het etiket stond vermeld, wat perfect mogelijk zou zijn. Voorlopig moeten de clo-waarden van afzonderlijke kledingstukken worden gezocht in databases van onder meer de ISO en de ASHRAE, waarvoor flink moet worden betaald. Hieronder een aantal voorbeelden op basis van verschillende bronnen:</p>
+<ul>
+<li>T-shirt met korte mouwen: 0,10 clo</li>
+<li>Dikke trui: 0,20 - 0,40 clo</li>
+<li>Hemd met lange mouwen: 0,20 - 0,30 clo</li>
+<li>Lange broek: 0,20 - 0,35 clo</li>
+<li>Lang winterkleed: 0,40 clo</li>
+<li>Onderbroek: 0,05 clo</li>
+<li>Gewone sokken: 0,02 clo</li>
+<li>Dikke, lange sokken: 0,10 clo</li>
+<li>Schoenen: 0,02 - 0,04 clo</li>
+<li>Laarzen: 0,10 clo</li>
+<li>Lange onderbroek: 0,20 - 0,35 clo</li>
+<li>Parka: 0,70 clo</li>
+<li>Ook meubels kunnen de clo-waarde verhogen. Een typische bureaustoel op kantoor heeft een isolatiewaarde van ongeveere 0,15 clo.</li>
+</ul>
+<p>De clo-waarden van verschillende kledingstukken kunnen eenvoudigweg worden opgeteld om de totale isolatiewaarde van iemands outfit te berekenen. Een naakt persoon heeft een kledingisolatie van nul clo.</p>
+<h2 id="bereken-de-energiebesparing-van-kleding">Bereken de energiebesparing van kleding</h2>
+<p>De clo-waarde maakt het mogelijk om precies te berekenen welke kleding we moeten dragen bij een bepaalde binnentemperatuur, en andersom. Als vuistregel geldt dat een verandering van 1 graad in temperatuur een verhoging of verlaging van 0,18 clo in kledingisolatie vereist. Als de temperatuur in de woonkamer tot 16 graden daalt, dan stijgt de benodigde isolatiewaarde naar 1,9 clo. Daalt de temperatuur naar 10 graden, dan is een isolatie nodig van 3 clo.</p>
+<p>Met deze gegevens kan eenvoudig worden gedemonstreerd hoe zelfs kleine wijzigingen in onze kleding een ingrijpend effect kunnen hebben op de verwarmingskosten en het energieverbruik. Als we zittend televisie kijken in alleen een lange broek en een T-shirt, dan daalt de totale clo-waarde van 1 naar ongeveer 0,55 clo en moet de temperatuur stijgen van 21 naar 24 graden om comfortabel te blijven. Aangezien het energieverbruik van de centrale verwarming stijgt met 7 tot 10% per graad Celsius extra binnentemperatuur, levert dat een extra energieverbruik op van 20 tot 30 procent.</p>
+<p>Maar het werkt ook in de andere richting. Als we de originele outfit van 1 clo (een driedelig pak of een comfortabeler equivalent daarvan) aanvullen met een laag katoenen thermisch ondergoed, dan stijgt de clo-waarde naar 1,7 clo, wat het mogelijk maakt om de binnentemperatuur te verlagen naar 17 graden. Dat komt overeen met een energiebesparing van 30-40% in vergelijking met de normale outfit (een isolatiewaarde van 1 clo). In vergelijking met de outfit in T-shirt (0,55 clo) bedraagt de energiebesparing zelfs 50-70 procent.</p>
+<p>Het is  duidelijk dat kleding een enorme invloed heeft op de capaciteit en het energieverbruik van de verwarming.</p>
+<h2 id="de-isolatiewaarde-van-verschillende-materialen">De isolatiewaarde van verschillende materialen</h2>
+<p>Het verhogen van de clo-waarde komt in essentie neer op het toevoegen van extra gewicht aan kleding. Een isolatiewaarde van 1 clo komt daarbij overeen met ongeveer drie kilogram kleding. Als we thermisch comfort willen bereiken bij een temperatuur van 13 graden (2,5 clo) dan is daar dus 7,5 kg kleding voor nodig. Ook de dikte van kleding is een handige indicatie van de isolatiewaarde: een kledinglaag van 2 centimeter komt overeen met een isolatiewaarde van ongeveer 1,6 clo. Voor een isolatiewaarde van 2,5 clo is dus ruim 3 cm kleding nodig.</p>
+<p>Dikke en zware kleding beperkt de bewegingsvrijheid, maar gelukkig bestaan er uitzonderingen op deze regel. Ten eerste is de relatie tussen clo-waarde en dikte en gewicht van kleding ook afhankelijk van het materiaal waaruit de kleding is gemaakt. Er is op dat vlak veel vooruitgang geboekt. Het leger, de ruimtevaart en de fabrikanten van sportkledij hebben de warmte/gewicht verhouding van kleding aanzienlijk verbeterd. Deze synthetische materialen hebben clo-waarden die ongeveer het dubbele bedragen van katoenen kleding.</p>
+<p>Nadeel is dat synthetische kleding bij het wassen vezels verliest die bijdragen tot de plastic-vervuiling in de oceanen. Bovendien gaat synthetische kleding snel stinken, zodat ze vaker moet worden gewassen &ndash; dat kost ook energie. Gelukkig heeft ook wol, een natuurlijk materiaal dat deze nadelen niet kent, een isolatiewaarde die hoger is dan die van katoen. Het grote voordeel van wol is dat het slecht vuil opneemt, zodat het minder vaak moet worden gewassen.</p>
+<h2 id="de-isolatiewaarde-van-thermisch-ondergoed">De isolatiewaarde van thermisch ondergoed</h2>
+<p>Een tweede manier om het gewicht en de dikte van kleding te beperken, is het dragen van thermische onderkleding. Deze laag wordt onder de normale kleding gedragen en boven het ondergoed. Omdat thermische onderkleding strak om het lichaam past, heeft ze een optimale “pomp-coëfficient” &ndash; een andere factor die het thermisch comfort van kleding bepaalt. De pomp-coëfficiënt definieert hoeveel van de door het lichaam opgewarmde lucht er ontsnapt als de persoon beweegt. Een dikke trui die los rond het lichaam hangt, laat veel warme lucht ontsnappen, zeker als er bewogen wordt. Bij thermische onderkleding is dat niet het geval. Een dunnere laag textiel volstaat dus, en dat is comfortabeler.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-woman_dithered.png" alt='Foto: Kledingoutfits met verschillende clo-waardes. Bron: Bron: Work Design, Stephan A. Korz, 1979.' data-original="/nl/2014/12/bereken-je-kledingisolatie/images/clo-woman_hub417fd038a9e9d38b65ce034c91ccd22_49746_800x800_fit_q90_h2_box.webp" data-dither="/nl/2014/12/bereken-je-kledingisolatie/images/dithers/clo-woman_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: Kledingoutfits met verschillende clo-waardes. Bron: Bron: Work Design, Stephan A. Korz, 1979.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Omdat ze relatief dun is, kan thermische onderkleding ook in laagjes worden gedragen. Twee lagen thermische onderkleding geven een clo-waarde die meer dan het dubbele bedraagt van één laag thermische onderkleding. Volgens het &ldquo;US Air Force Survival Book&rdquo; heeft één laag thermische onderkleding in katoen een isolatiewaarde van 0,6 clo, terwijl de isolatiewaarde voor twee lagen niet 1,2 clo maar 1,5 clo bedraagt. Eén laag thermische onderkleding in combinatie met een winteroutfit van 1 clo maakt het mogelijk om comfortabel televisie te kijken bij 17-18 graden, terwijl twee lagen thermisch comfort geven bij slechts 12-13 graden. </p>
+<p>Thermische onderkleding uit beter isolerende materialen (zoals synthetische vezels of fijne wolsoorten) heeft een clo-waarde die tot het dubbele of meer kan bedragen dan die van thermische onderkleding in katoen. Er kan dan met slechts één laag thermisch comfort worden behaald bij 12-13 graden, terwijl twee lagen het toelaten de temperatuur te doen dalen tot minder dan 4 graden. Zoals we in het artikel over thermische onderkleding uitlegden, zullen handen en voeten niet koud aanvoelen als de kerntemperatuur van het lichaam op peil blijft.</p>
+<h2 id="lichaamsactiviteit">Lichaamsactiviteit</h2>
+<p>Tot slot: Alle cijfers hierboven zijn geldig voor een persoon in rust &ndash; een metabolisme van 1 &ldquo;met&rdquo;. Bij een hogere lichaamsactiviteit stijgt de warmteproductie van het lichaam en is minder kledingisolatie nodig. Zelfs lichte activiteiten zoals schrijven doen de benodigde clo-waarde al gevoelig afnemen. Terwijl een zittend en inactief persoon bij een binnentemperatuur van 10 graden een kledingisolatie van 2,7 - 3 clo nodig heeft, daalt dat naar slechts 1,7 clo als iemand zittend aan de computer werkt of een geanimeerde conversatie voert.</p>
+<h2 id="bronnen-en-meer-informatie">Bronnen en meer informatie:</h2>
+<p><a href="https://tpc.ashrae.org/FileDownload?idx=19fe1a78-d2ee-4e30-96a2-dfa55a54e569" target="_blank" >A Comprehensive Data Base for Estimating Clothing Insulation</a> (pdf), E.A. McCullough. Het tweede deel van het document geeft een overzicht van de clo-waarde van verschillende kledingstukken.</p>
+<p><a href="https://www.iso.org/standard/39257.html" target="_blank" >ISO 9920 international database: Ergonomics of the thermal environment &ndash; Estimation of thermal insulation and water vapour resistance of a clothing ensemble</a>. (2007). Deze bron heeft recente informatie over de isolatiewaarde van kleding, maar kost ongeveer 200 euro.</p>
+<p><a href="https://www.scribd.com/document/35512680/Handbook-on-Clothing-2nd-Ed" target="_blank" >Handbook on clothing: biomedical effects of military clothing and equipment systems</a>, second edition, Ralph F. Goldman &amp; Bernhard Kampmann, 2007.</p>
+<p><a href="https://www.taylorfrancis.com/books/mono/10.1201/b16750/human-thermal-environments-ken-parsons" target="_blank" >Human Thermal Environments: The Effects of Hot, Moderate, and Cold Environments on Human Health, Comfort, and Performance</a>, Ken Parsons. Dit boek is een standaardwerk omtrent thermisch comfort, inclusief kleding.</p>
+<p><a href="https://books.google.es/books?id=OZ_LpW1bLQwC&amp;pg=PA237&amp;lpg=PA237&amp;dq=database&#43;clo-values&amp;source=bl&amp;ots=fVTY3EDeem&amp;sig=8cD_0mdGuDwhaYT9V3eEkVelmCA&amp;hl=nl&amp;sa=X&amp;ei=X82SVJTOIpLsaIu_gNgN&amp;ved=0CDUQ6AEwAg#v=onepage&amp;q=database%20clo-values&amp;f=false" target="_blank" >Static and dynamic insulation values for cold weather protective clothing</a>, Chil Soon Kim &amp; Elizabeth A. McCullough, in &ldquo;Performance of protective clothing: issues and priorities for the 21st century: seventh volume, American Society for Testing and Materials, 2000</p>
+<p><a href="https://www.academia.edu/42320896/HANDBOOK_OF_TECHNICAL_TEXTILES_A_R_Horrocks_and_S_C_Anand" target="_blank" >Handbook of Technical Textiles</a>, A.R. Horrocks &amp; S.C. Anand, 2000</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1520373/" target="_blank" >Physiology of heat regulation and the science of clothing</a>, L.H. Newburgh, 1949</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Renaat</h5>
+	<p>Op zich weer een erg interessant artikel, maar ik mis hier en daar toch wat.</p>
+<p>&ldquo;Bovendien gaat synthetische kleding snel stinken, zodat ze vaker moet worden gewassen &ndash; dat kost ook energie.&rdquo;</p>
+<p>Dat klopt niet voor alle synthetische kledij. Er zijn methoden (zoals het in de vezels verwerken van zilver) die dit probleem oplossen. (Of dat op termijn niet schadelijk is, daar spreek ik me niet over uit. In standaard wasmiddelen zitten echter ook vaak schadelijke stoffen.)</p>
+<p>Sowieso is het verschil tussen diverse synthetische stoffen of zelf tussen kleding van éénzelfde materiaal maar een andere fabrikant aanzienlijk.</p>
+<p>&ldquo;Gelukkig heeft ook wol, een natuurlijk materiaal dat deze nadelen niet kent, een isolatiewaarde die hoger is dan die van katoen. Het grote voordeel van wol is dat het slecht vuil opneemt, zodat het minder vaak moet worden gewassen.&rdquo;</p>
+<p>En het grote nadeel is dat diervriendelijke wol eerder zeldzaam is. De meeste wolproductie is erg dieronvriendelijke.</p>
+<p>Raar is ook dat dons niet vernoemd wordt. Kwaliteitsdons steekt nog steeds met kop en schouders boven alle (al dan niet synthetische) alternatieven uit wat betreft gewicht/isolatie-verhouding. De synthetische alternatieven zijn wel snel aan het evolueren maar halen echt nog niet het niveau van dons.</p>
+<p>Het grote nadeel is wel dat ook dons zelden diervriendelijk is. In tegenstelling tot wat vele fabrikanten graag willen doen uitschijnen is de meeste dons afkomstig van levend geplukte dieren, een extreem dieronvriendelijke en wrede praktijk.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Borg Groeneveld</h5>
+	<p>Voor mij zou het interessant zijn wanneer er kledingstof bestaat die met verschillende omgevingstemperaturen en maten van activiteit om kan gaan.</p>
+<p>Ik wissel in mijn werk vaak van stilzitten naar bewegen en draag dan vaak vesten, die ik snel kan openritsen.</p>
+<p>Als ik alleen thuis ben, draag ik vaak twee truien voer elkaar om de verwarming niet hoger te hoeven zetten, zodat niet voor mij alleen het hele huis wordt opgewarmd.</p>
+
+</div>
+
+<div class="comment">
+	<h5>HansM</h5>
+	<p>Ik zou nog een factor willen noemen: leeftijd. Ik ben al meer dan veertig jaar energiebespaarder en heb al die tijd waarnemingen gedaan. Temperaturen die ik noem zijn van een thermometer, geijkt door de Bloembollen Keurings Dienst, die altijd naast de thermostaat heeft gehangen. (Uit ervaring weet ik dat de temperatuur van thermostaten in het verleden soms wel drie graden daarvan afweken). Vroeger hadden we aan een temperatuur tusen de 18 en 19 C genoeg. De laatste jaren hebben we 22.5 C nodig. En nog loop ik soms de hele dag met koude handen rond, ook al heb ik een dikke trui aan. Omdat dat soms is, vermoed ik dat de lichamelijke gesteldheid ook van invloed kan zijn.</p>
+
+</div>
+
+<div class="comment">
+	<h5>h. honnest</h5>
+	<p>Interessant artikel, maar behoeft naar mijn mening de nodige nuancering.</p>
+<ul>
+<li>
+<p>Mensen van hetzelfde geslacht en leeftijd verschillen sterk in hun gevoel van comfort bij een bepaalde temperatuur. Wanneer ik met mijn even oude buurman buiten een pilsje drink, ril ik met mijn twee truien aan, terwijl hij zich comfortabel voelt met één t-shirt of sweater.</p>
+</li>
+<li>
+<p>Bij stijgen van de leeftijd daalt de stofwisseling in rust (basaalmetabolisme) aanmerkelijk, zoals ook blijkt uit de ondervinding van HansM (reactie 4).</p>
+</li>
+<li>
+<p>De hoeveelheid lichaamsvet draagt bij aan de kledingbehoefte.</p>
+</li>
+<li>
+<p>We verliezen niet alleen warmte door (infrarood)straling, maar ook door geleiding (vochtigheidsgraad!) en (lucht)stroming. Welke textielsoort (of combinatie van verschillende materialen) is het beste geschikt voor welke omstandigheid?</p>
+</li>
+<li>
+<p>Waar thermisch ondergoed tijdens fysieke activiteit beter isoleert dan katoen, is dat bij mij in stil zittende houding vreemd genoeg juist andersom. Iemand een verklaring?</p>
+</li>
+<li>
+<p>Meer kleding dragen (om minder te hoeven stoken) betekent dat bij het aangaan van een fysieke activiteit meteen ook meer lagen kleding moeten worden &lsquo;afgepeld&rsquo;. Dat is behoorlijk onpraktisch. Een lange, goed sluitende kamerjas is wat dit betreft mogelijk nog het meest comfortabel.</p>
+</li>
+</ul>
+<p>Omdat gewicht een belangrijke factor speelt in het comfortabel dragen daarvan, lijkt dons hier inderdaad (Renaat, reactie 1) de beste kandidaat, al is diervriendelijk &lsquo;geoogst&rsquo; dons helaas erg moeilijk (maar niet onmogelijk) verkrijgbaar.</p>
+<ul>
+<li>Een ecologische middenweg is misschien om de isolatie van meubels te verbeteren of zelfs de meubels of de onderzijde van een bureautafel te verwarmen. Misschien is er zelfs iemand die een zitmeubel kan ontwerpen dat automatisch begint te verwarmen op het moment dat je er op gaat zitten? Vooral handig op kantoor of achter de televisie lijkt me.</li>
+</ul>
+<p>Er is kortom heel wat meer te zeggen over lichaamswarmte dan alleen de Clo, hoe interessant ook.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Harry Snijders</h5>
+	<p>Interessant artikel. Wat ik mis, misschien niet op zijn plaats is, maar toch dicht tegen het onderwerp aan zit is de gewennings factor. Er wordt telkens van uit gegaan dat gekleed moet worden naar een constante temperatuur terwijl het lichaam, wetenschappelijk bewezen en uit eigen ervaring, zich aanpast. In hoeverre het lichaam flexibel is weet ik niet maar zou ik graag verder onderzoeken. Is iemand daar al verder mee?</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="./nl/tags/heating-and-cooling/" class="">heating and cooling</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./nl/2023/11/plastic-waste-in-the-fuel-tank/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/11/plastic-waste-in-the-fuel-tank/images/dithers/intro-plastic-waste-in-fuel-tank-gijs-schalkx_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Plastic afval in de brandstoftank?</h3>
+		<p class="index-summary">We produceren genoeg plastic afval om minstens 10% van het gemotoriseerde wegverkeer van brandstof te voorzien. De Nederlandse ontwerper Gijs Schalkx greep deze kans en rijdt nu met zijn auto op het plastic afval dat hij verzamelt.</p>
+		<time class="published">19 november 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2023/11/bike-generator-at-paris-exhibition/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/11/bike-generator-at-paris-exhibition/images/dithers/bike-generator-pavillon-arsenaL_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Fietsgenerator op tentoonstelling in Parijs</h3>
+		<p class="index-summary">Low-tech Magazine bouwde een fietsgenerator voor een expositie over energie in het Pavillon d&rsquo;Arsenal in Parijs, nu open voor het publiek. Onze twee andere fietsen zijn te bekijken en uit te proberen in Rotterdam en Barcelona.</p>
+		<time class="published">18 november 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2023/10/workshop-in-rotterdam-how-to-build-a-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/10/workshop-in-rotterdam-how-to-build-a-bike-generator/images/dithers/poster-rotterdam-final-nl_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Workshop in Rotterdam: Bouw een fietsgenerator</h3>
+		<p class="index-summary">Van 10 tot 14 oktober geeft Low-tech Magazine een gratis workshop waar we samen een fietsgenerator bouwen.</p>
+		<time class="published">4 oktober 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./nl/2023/10/boerderij-op-menskracht/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/nl/2023/10/boerderij-op-menskracht/images/dithers/boerderij-tekening_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Boerderij op Menskracht</h3>
+		<p class="index-summary">In dit nieuwe toekomstscenario voor de Human Power Plant - een samenwerking tussen Low-tech Magazine en kunstenaar Melle Smets - richten we de aandacht op de voedselproductie. Wat gaan we eten als de olie op is?</p>
+		<time class="published">3 oktober 2023</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="nl/about">
+  Over ons
+</a>
+    <a href="nl/power">
+  Power
+</a>
+    <a href="nl/about/team">
+  Colophon
+</a>
+    <a href="nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

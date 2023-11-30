@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Deutsch</title>
+    <link>./de/posts/</link>
+    <description>Diese Website ist solarbetrieben und geht daher manchmal offline.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="./de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mit Muskelkraft betriebenes Luftkompressor— und Energiespeichersystem</title>
+      <link>./de/2023/07/human-powered-air-compressor-and-energy-storage-system/</link>
+      
+      <enclosure url="/de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-1_dithered.png" type="image/png" length="55525" ></enclosure>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./de/2023/07/human-powered-air-compressor-and-energy-storage-system/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-1_dithered.png&#34; alt=&#39;Bild: Mit Muskelkraft betriebenes Luftkompressor- und Energiespeichersystem. Foto von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Mit Muskelkraft betriebenes Luftkompressor- und Energiespeichersystem. Foto von Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Wenn ich mich in meiner Motorradwerkstatt umschaue, sehe ich überall Druckluftwerkzeuge. Von Handgeräten wie Schlagschraubern, Schleifmaschinen, Schneidwerkzeugen, Sägen und Winkelschleifern bis hin zu großen Geräten wie einer Sandstrahlkabine und einer Bereifungsmaschine – Druckluft ist ein wesentlicher Faktor bei der Verrichtung einer Vielzahl von Arbeiten.&lt;/p&gt;
+&lt;p&gt;Der Druckluftkompressor, den ich seit den 1990er Jahren einsetze, verwendet einen 220-Volt-Elektromotor mit 7 PS, der eine zweistufige Druckluftpumpe mit 800 Umdrehungen pro Minute antreibt, die den 80-Gallonen-Tank in etwa fünf Minuten auf 150 psi füllt. Die Maschine ist so zuverlässig, dass ich kaum noch auf sie achte. Erst bei einem Stromausfall wird mir bewusst, wie sehr ich mich auf den ständig verfügbaren Vorrat an Druckluft verlasse.&lt;/p&gt;
+&lt;p&gt;Weil in unserer sich schnell verändernden Welt preiswerte und verlässliche Energie immer weniger selbstverständlich ist, hatte ich mir vorgenommen, ein System zu bauen, mit dem ich meine Drucklufttanks ohne Strom oder Treibstoff füllen kann. Meine Konstruktion sollte frei von jeglicher Elektronik sein, und die Komponenten sollten bei minimaler Wartung ein Leben lang halten. Ich wollte so viele gebrauchte Teile wie möglich verwenden, um die Kosten niedrig zu halten und zu Recycling und Wiederverwertung anzuregen.&lt;/p&gt;
+&lt;h2 id=&#34;komponenten&#34;&gt;Komponenten&lt;/h2&gt;
+&lt;p&gt;Als Erstes musste ich einen Drucklufttank finden. Ich fand einen 80 Gallonen (300 Liter) Ingersoll Rand Druckluftkompressor, der 1952 hergestellt wurde. Ich entfernte die Druckluftpumpe und den Elektromotor. Die ursprüngliche Pumpe wurde durch eine neue von Speedaire ersetzt, die für 115 psi ausgelegt ist und normalerweise einen 0,5-PS-Motor zum Betrieb benötigt. Die Pumpe ist an der Oberseite des Druckufttanks mit einer Stahlplatte befestigt, die mit der ursprünglichen Motorplatte verschraubt ist.&lt;/p&gt;
+&lt;p&gt;An der Stelle des Elektromotors habe ich eine massive Stahlwelle mit selbstzentrierenden Stehlagern installiert. Diese Welle trägt drei 20 kg schwere Kompressorscheiben, die als Schwungräder dienen, um den Betrieb zu stabilisieren. Diese Riemenscheiben haben eine 1 ⅜&amp;quot;-Bohrung und einen Durchmesser von 16&amp;quot;. Ein einzelner Keilriemen der Größe 4L verbindet die Schwungradwelle mit der Druckluftpumpe.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-6_dithered.png&#34; alt=&#39;Bild: Kompressor und Kompressor-Riemenscheiben als Schwungräder. Foto von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Kompressor und Kompressor-Riemenscheiben als Schwungräder. Foto von Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-7_dithered.png&#34; alt=&#39;Bild: Massive Stahlwelle mit drei Kompressor-Riemenscheiben, die als Schwungräder dienen. Foto von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Massive Stahlwelle mit drei Kompressor-Riemenscheiben, die als Schwungräder dienen. Foto von Andy Lagzdins.
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Als Nächstes stand die Suche nach einem auf Muskelkraft basierenden Antrieb zum Drehen der Schwungräder auf dem Programm. Ich fand einen Schwinn-Heimtrainer aus den 1970er Jahren, der sehr gut konstruiert war und fast nur aus Stahlteilen bestand. Ich zerlegte ihn bis auf das Nötigste und baute eine Sturmey Archer Nabenschaltung mit acht Gängen anstelle des ursprünglichen Speichenrads ein. Diese Nabe hat einen Übersetzungsbereich von 1:1 bis 3,25:1, und die Gänge werden mit einem Hebel am Lenker geschaltet.&lt;/p&gt;
+&lt;p&gt;Um das Treten zu erleichtern, wurden die Tretkurbeln durch Kurbelarme aus Cr-Mo-Stahl, abgedichtete Lager und Plattformpedale von einem BMX-Rennrad ersetzt. Lenker und Vorbau wurden ebenfalls durch Cr-Mo-Komponenten ersetzt, um das Durchbiegen bei starker Beanspruchung zu minimieren, und für hohe Belastbarkeit wurden ⅛&amp;quot;-Fahrradketten verwendet.&lt;/p&gt;
+&lt;p&gt;Anschließend wurden der ehemalige Heimtrainer und der Druckluftbehälter ausgerichtet und in der richtigen Position auf einen Rahmen aus Kanthölzern (15x15cm) montiert. Das Ausgangsritzel des Fahrrads wurde durch eine weitere Kette mit einem ähnlichen Ritzel am Ende der Schwungradwelle verbunden. Damit war das Antriebssystem komplett.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-4_dithered.png&#34; alt=&#39;Bild: Ein Schwinn-Heimtrainer aus den 1970er Jahren. Die Tretkurbel wurde durch Kurbelarme aus Cr-Mo-Stahl, abgedichtete Lager und Plattformpedale von einem BMX-Rennrad ersetzt. Foto von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Ein Schwinn-Heimtrainer aus den 1970er Jahren. Die Tretkurbel wurde durch Kurbelarme aus Cr-Mo-Stahl, abgedichtete Lager und Plattformpedale von einem BMX-Rennrad ersetzt. Foto von Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-5_dithered.png&#34; alt=&#39;Bild: Sturmey Archer Nabenschaltung mit acht Gängen. Foto von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Sturmey Archer Nabenschaltung mit acht Gängen. Foto von Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Um den Luftstrom zu steuern, habe ich ein zweistufiges System gebaut. Ein 10-Gallonen-Tank (38 Liter) und der 80-Gallonen-Tank (300 Liter) sind mit separaten Ventilen versehen, so dass ich jeden Tank unabhängig voneinander oder beide zusammen befüllen oder Druckluft von einem Tank in den anderen umfüllen kann. Manometer an jedem Tank dienen zur Überwachung des Drucks. Wenn der große Tank zum ersten Mal befüllt wird, bringe ich ihn auf 50 psi, indem ich ihn direkt mit der Druckluftpumpe befülle. Dann beginne ich, den kleinen Tank auf 100 psi aufzufüllen um anschließend die Druckluft von dort aus in den großen Tank zu leiten.&lt;/p&gt;
+&lt;h2 id=&#34;acht-gang-schaltung&#34;&gt;Acht-Gang-Schaltung&lt;/h2&gt;
+&lt;p&gt;Die Acht-Gang-Schaltung ist eine große Hilfe beim Füllen des Drucklufttanks. Wenn der Fülldruck niedrig ist, kann das Fahrrad in den höheren Gängen gefahren werden. Wenn der Druck im Bereich von 70-100 psi liegt, werden die niedrigeren Gänge verwendet, um den wachsenden Widerstand der Druckluftpumpe zu bewältigen.&lt;/p&gt;
+&lt;p&gt;Um die leeren Tanks auf 100 psi aufzufüllen, muss man sich etwa eine Woche lang täglich 5-10 Mal aufs Fahrrad schwingen. Wenn ich in der Werkstatt viel zu tun habe, ist es eine gute Möglichkeit, einen klaren Kopf zu bekommen, und bei kaltem Wetter wärmt es mich auf und bringt meinen Kreislauf in Schwung. Ich kann einen niedrigen Gang einlegen, wenn ich beim Treten telefonieren oder Musik hören will.&lt;/p&gt;
+&lt;p&gt;Dass ich in die Pedale treten muss, um die Druckluft zu erzeugen, sorgt dafür dass ich beim Einsatz der Werkzeuge keine Druckluft mehr verschwende, und ich achte auch mehr darauf, dass alle Anschlüsse richtig abgedichtet sind, damit keine Lecks entstehen.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-3_dithered.png&#34; alt=&#39;Bild: Druckluftbetriebene Werkzeuge. Bild von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Druckluftbetriebene Werkzeuge. Bild von Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Die am stärksten strapazierten Teile dieser Maschine sind die Dichtungen der Druckluftpumpe, der Antriebsriemen und die Ketten, die Zahnräder und der zentrale Druckluftschlauch. Ich halte Ersatzteile für diese Teile vorrätig, um einen störungsfreien Betrieb für die nächsten Jahre zu gewährleisten. Alle Teile können mit einfachstem Werkszeug gewartet und repariert werden.&lt;/p&gt;
+&lt;p&gt;Ein weiterer Vorteil der Verwendung von Druckluft zum Antrieb sind die niedrigen Kosten für Druckluftwerkzeuge. Der aktuelle Trend geht zu Akku-Geräten, so dass die Leute ihre &amp;ldquo;veralteten&amp;rdquo; Druckluftwerkzeuge verkaufen. Es gibt viele gebrauchte Druckluftkompressoren mit defekten Motoren oder Pumpen zu kaufen, die daher recht preiswert sind. Es gibt ein gutes Angebot an gebrauchten Heimtrainern, was wahrscheinlich darauf zurückzuführen ist, dass die Leute sie angeschafft hatten, um ein Fitnessprogramm zu beginnen, aber den Plan nie durchgezogen haben. Meine nächste Änderung wird darin bestehen, einen weiteren 80-Gallonen-Tank hinzuzufügen, um die Speicherkapazität zu erhöhen.&lt;/p&gt;
+&lt;p&gt;Zusammenfassend lässt sich sagen, dass die Hauptvorteile des fahrradbetriebenen Druckluftkompressors darin bestehen, dass kein Strom benötigt wird, dass er jederzeit auch in abgelegenen Gegenden betrieben werden kann, dass er aus größtenteils recycelten Komponenten besteht, die leicht repariert werden können, und dass er keine Betriebskosten verursacht. Es gibt weitere zusätzliche Nebeneffekte, und während ich dieses Gerät benutze, zeigen sich immer mehr positive Wirkungen – insbesondere ein gesunder Körper durch das Treten der Pedale und ein gesunder Geist durch das Denken außerhalb von festgefahrenen Bahnen.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/07/human-powered-air-compressor-and-energy-storage-system/images/dithers/human-powered-air-compressor-2_dithered.png&#34; alt=&#39;Bild: Mit Muskelkraft betriebenes Luftkompressor- und Energiespeichersystem. Illustration von Andy Lagzdins.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Bild: Mit Muskelkraft betriebenes Luftkompressor- und Energiespeichersystem. Illustration von Andy Lagzdins. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;technische-daten&#34;&gt;Technische Daten:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hauptlufttank: 80 Gallonen (300 Liter), horizontal, Ingersoll Rand&lt;/li&gt;
+&lt;li&gt;Fülltank: 10 Gallonen (38 Liter), 125 psi, SnapOn&lt;/li&gt;
+&lt;li&gt;Druckluftpumpe: Einstufig, 1 PS Max, 115 psi, Speedaire 40KH94&lt;/li&gt;
+&lt;li&gt;Heimtrainer: Schwinn Exerciser&lt;/li&gt;
+&lt;li&gt;Getriebe: 8-Gang-Nabenschaltung, Sturmey Archer S80 XRK8&lt;/li&gt;
+&lt;li&gt;Schwungräder: Gusseisen, 16&amp;quot; Durchmesser, 1 ⅜&amp;quot; Bohrung&lt;/li&gt;
+&lt;li&gt;Stehlager: P207 abgedichtet, selbstzentrierend, langer Fuß&lt;/li&gt;
+&lt;li&gt;Riemen: 4L Keilriemen&lt;/li&gt;
+&lt;li&gt;Ketten: 1/2 x 1/8 KMC Z1EHX Wide&lt;/li&gt;
+&lt;li&gt;Ventile: ½&amp;quot; NPT Kugelhähne, Messing&lt;/li&gt;
+&lt;li&gt;Luftfilter: K&amp;amp;N Pod, Textil- und Stahlgewebe&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neuerstellung der solarbetriebenen Website</title>
+      <link>./de/2023/06/rebuilding-a-solar-powered-website/</link>
+      
+      <enclosure url="/de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" type="image/png" length="31868" ></enclosure>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./de/2023/06/rebuilding-a-solar-powered-website/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png&#34; alt=&#39;Ein Screenshot der Markdown-Datei von dieser Seite.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;p&gt;Ein Screenshot der Markdown-Datei von dieser Seite.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In den letzten Monaten haben wir daran gearbeitet, die solarbetriebene Website von einem statischen Website-Generator (Pelican) auf einen anderen (Hugo) umzustellen. Viele Leser werden die Änderungen nicht sofort bemerken, da wir keine größeren Anpassungen am Design vorgenommen haben. Dennoch hat uns die neue Plattform ermöglicht, auf Grundlage des Feedbacks, das wir im Laufe der Jahre erhalten haben, einige Probleme anzugehen.&lt;/p&gt;
+&lt;p&gt;Die neue Solar-Website wurde von &lt;a href=&#34;https://motsuka.com&#34;&gt;Marie Otsuka&lt;/a&gt; und &lt;a href=&#34;https://roelof.info&#34;&gt;Roel Roscam Abbing&lt;/a&gt; entworfen, den gleichen Personen, die auch hinter dem ersten Solar-Design standen. &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; unterstützte den gesamten Prozess und koordinierte die Migration der Website.&lt;/p&gt;
+&lt;h2 id=&#34;umstellung-auf-eine-neue-plattform&#34;&gt;Umstellung auf eine neue Plattform&lt;/h2&gt;
+&lt;p&gt;Die ursprüngliche Solar-Website, &lt;a href=&#34;./de/2018/09/how-to-build-a-low-tech-website/&#34;&gt;die 2018 veröffentlicht wurde&lt;/a&gt;, lief auf einem statischen Website-Generator namens &lt;a href=&#34;https://getpelican.com&#34;&gt;Pelican&lt;/a&gt;. Obwohl dies eine gute Wahl für relativ kleine Websites ist, ist die solarbetriebene Version von Low-tech Magazine im Laufe der Zeit erheblich gewachsen. Anfangs enthielt die Website nur eine Auswahl englischsprachiger  Artikel. Im Laufe der Zeit wurde sie jedoch erweitert, um nicht nur mehr englischsprachige Artikel, sondern auch Übersetzungen in fünf weiteren Sprachen einzubeziehen. Das Veröffentlichen von Artikeln und das Einpflegen von Änderungen auf einer so großen Website wurde zunehmend zu einem umständlichen Prozess. Zum Beispiel dauerte es mehr als eine Stunde, um die Website bei Änderungen neu zu generieren, selbst wenn wir nur einen Kommentar hinzugefügt hatten.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; ist ein statischer Website-Generator, der in einer schnelleren Programmiersprache geschrieben ist. In Pelican kamen viele der Funktionen, die wir für die Website benötigten (wie die Unterstützung von mehreren Sprachvarianten und Bildkompression) aus Plugins unterschiedlicher Qualität. Dabei sind wir im Laufe der Zeit an Grenzen gestoßen. Bei Hugo sind diese Anforderungen bereits als Grundfunktionen abgedeckt. Durch den Wechsel zu Hugo konnten wir die Generierungszeit auf dem Server von über einer Stunde auf etwa zwölf Minuten reduzieren. Auf einem modernen Laptop liegt der Unterschied zwischen mehreren Minuten und mehreren Sekunden.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Abgesehen von schnelleren Website-Builds ermöglicht Hugo eine bessere Organisation der Inhalte und ist flexibler bei der Erzeugung von Übersichtseiten. Dies ermöglichte uns zum Beispiel, Seiten zu erstellen, auf denen die verschiedenen &lt;a href=&#34;./de/contributors/&#34;&gt;Mitwirkenden und Übersetzer*innen&lt;/a&gt; des Magazins hervorgehoben werden. Die Migration aller Inhalte von Pelican nach Hugo war jedoch ziemlich zeitaufwändig. Dies lag an subtilen Unterschieden im Format der Metadaten sowie an unserer Implementierung, die eigene Shortcodes erfordert, um Bilder, Bildunterschriften und Links anzeigen zu können. Wir haben die Mehrheit der Artikel von einer Plattform auf die andere mit einem eigenen Skript konvertiert, aber es dauerte weitere zwei Monate, um Fehler bei der automatischen Migration zu erkennen und manuell zu beheben.&lt;/p&gt;
+&lt;h2 id=&#34;designänderungen&#34;&gt;Designänderungen&lt;/h2&gt;
+&lt;h3 id=&#34;batterieanzeige&#34;&gt;Batterieanzeige&lt;/h3&gt;
+&lt;p&gt;Der Relaunch ermöglichte es uns, zwei Designprobleme anzugehen, die in den letzten Jahren regelmäßig im Feedback aufgetaucht sind. Das erste betrifft die Batterieanzeige, die den Ladezustand unseres autarken Webservers durchscheinen lässt. Einige Leute fanden, dass sie den Lesevorgang störte, besonders wenn sie sich auf halber Höhe befand. Die Batterieanzeige bleibt ein grundlegender Bestandteil unseres Designs und macht die materielle Infrastruktur sichtbar, die die Website trägt. Allerdings befindet sie sich nun oben im Dokument und bewegt sich nicht mehr mit, während man in einem Artikel nach unten scrollt. So wird die Lesbarkeit des Textes nicht mehr beeinträchtigt.&lt;/p&gt;
+&lt;h3 id=&#34;bilder&#34;&gt;Bilder&lt;/h3&gt;
+&lt;p&gt;Die zweite und größte Designverbesserung betrifft die Bilder. Die Bildkompression mit Dithering funktioniert für viele Bilder gut und macht Schwarz-Weiß-Bilder sogar interessanter. Allerdings werden manche Bilder dadurch schwer zu erkennen. Dies gilt insbesondere für Grafiken, die unleserlich werden können, wenn sie nicht schon mit Dithering im Hinterkopf entworfen wurden. Bei einigen anderen Bildern gehen Informationen durch den Dithering-Prozess verloren – beispielsweise wenn Farben verwendet werden, um etwas auszudrücken.&lt;/p&gt;
+&lt;p&gt;Das neue Design ermöglicht es Besucher*innen, die Dithering-Kompression für einzelne Bilder auszuschalten und das Originalfoto oder die Originalillustration anzuzeigen. Die Originalbilder, die wir zeigen, sind konventionell komprimiert und etwas größer als die Bilder mit Dithering. Das Anzeigen der Originalbilder erhöht also die Belastung unseres Servers. Es bleibt abzuwarten, wie sich dies auf den Energieverbrauch und die Verfügbarkeit der Solar-Website auswirken wird.&lt;/p&gt;
+&lt;p&gt;Außerdem gehen die Bilder nicht mehr über die gesamten Bildschirmbreite, was sinnvoller ist, wenn die Website auf einem großen PC-Monitor betrachtet wird.&lt;/p&gt;
+&lt;h2 id=&#34;quellcode&#34;&gt;Quellcode&lt;/h2&gt;
+&lt;p&gt;Wie beim ursprünglichen Pelican-Theme geben wir das &lt;a href=&#34;https://github.com/lowtechmag/solar_v2&#34;&gt;Hugo-Theme als Open-Source-Software&lt;/a&gt; frei. Das ursprüngliche Solar-Web-Theme und die Plugins bleiben verfügbar, werden aber nicht mehr aktualisiert und gepflegt.&lt;/p&gt;
+&lt;h2 id=&#34;low-tech-magazine-auf-1-website-betreiben&#34;&gt;Low-tech Magazine auf 1 Website betreiben&lt;/h2&gt;
+&lt;p&gt;Diese umfangreiche Neugestaltung ist der vorletzte Schritt hin zum Betrieb von Low-tech Magazine auf nur einer einzigen (solarbetriebenen) Website. Seit dem Start der solarbetriebenen Website im Jahr 2018 ist die alte (englischsprachige) Website &lt;a href=&#34;https://www.lowtechmagazine.com&#34;&gt;online und auf dem neuesten Stand&lt;/a&gt; geblieben. Dies ist aus mehreren Gründen problematisch.&lt;/p&gt;
+&lt;p&gt;Erstens widerspricht es unserem Ziel, den ökologischen Fußabdruck der Publikation zu verringern, wenn wir zwei ähnliche Websites betreiben. Zumal die ursprüngliche Website – eine dynamische Website, die auf der Blogging-Plattform &lt;em&gt;TypePad&lt;/em&gt; gehostet wird – nicht gerade leichtgewichtig ist. Eine zweite Website, die mit Netzstrom betrieben wird, passt außerdem nicht zu der Idee, offline zu gehen, wenn das Wetter schlecht ist. Die alte Website bleibt unabhängig vom Wetter online. Zweitens erfordert die Aktualisierung von zwei Websites viel zusätzliche Arbeit, die besser dem Schreiben und Recherchieren gewidmet wäre. Das Layout für jeden Artikel muss zweimal auf verschiedenen Plattformen erstellt werden. Kommentare und Änderungen an den Artikeln müssen ebenfalls auf beiden Plattformen aktualisiert werden.&lt;/p&gt;
+&lt;p&gt;Die höhere Qualität der Bilder war einer der Hauptgründe, um die alte Website weiter zu pflegen. Jetzt, da die Originalbilder auf der solarbetriebenen Website angezeigt werden können, aktualisieren wir die alte Website nicht mehr. Ab sofort erscheinen neue Inhalte (einschließlich Kommentare zu älteren Artikeln) nur noch auf der solarbetriebenen Website. Die &lt;em&gt;TypePad&lt;/em&gt; Website bleibt noch bis zum Sommer online. Dann planen wir, den Teil des Archivs, der bisher noch nicht in statische Webseiten konvertiert wurde, ebenfalls zu verschieben. Es handelt sich größtenteils um Artikel und Seiten aus den Anfangstagen.&lt;/p&gt;
+&lt;p&gt;Für die meisten Sprachen wurde der Wechsel zur solarbetriebenen Website bereits abgeschlossen und die betreffenden Bereiche wurden geschlossen. Die einzige Ausnahme bildet die ursprüngliche niederländischsprachige Website, die nicht mehr aktualisiert wird, aber online bleibt (ebenfalls gehostet auf &lt;em&gt;TypePad&lt;/em&gt;), um den Zugriff auf ältere Artikel zu ermöglichen. Aufgrund der großen Anzahl von Originalartikeln auf dieser Website wird sie als letzte der ursprünglichen Websites verschwinden – wenn überhaupt. Sie hat immer noch &lt;a href=&#34;https://www.lowtechmagazine.be&#34;&gt;das ursprüngliche Design von 2007&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;benutzerfreundlichkeit&#34;&gt;Benutzerfreundlichkeit&lt;/h2&gt;
+&lt;p&gt;Das neue Solar-Design bringt den Lesern von Low-tech Magazine nur Vorteile. Allerdings fällt die Bilanz auf der Herausgeberseite weniger erfreulich aus. Eine verbesserte Benutzerfreundlichkeit für die Besucher*innen geht teilweise zu Lasten der Benutzerfreundlichkeit für den Autor. Die von Hugo verwendeten Shortcodes sind &lt;a href=&#34;https://github.com/lowtechmag/solar_v2#image-shortcodes&#34;&gt;deutlich umständlicher&lt;/a&gt; als die Syntax, die von Pelican verwendet wird, und das erhöht den Zeitaufwand für das Layouten eines Artikels. Dies macht zum Teil den Zeitgewinn zunichte, der durch das Wegfallen der Aktualisierung der zweiten Website entsteht.&lt;/p&gt;
+&lt;p&gt;Statische Websites sind viel energieeffizienter als dynamische Websites. Dennoch haben statische Website-Generatoren noch einen langen Weg vor sich, was die Benutzerfreundlichkeit betrifft, bevor sie mainstreamtauglich werden und mit Tools wie WordPress konkurrieren können. In den fünf Jahren zwischen unserer ersten Veröffentlichung und dieser Version ist überraschenderweise keine robuste und benutzerfreundliche Anwendung für statische Website-Generatoren erschienen, die unseren aktuellen Workflow ersetzen könnte. Es gibt zwar mehrere Projekte, aber diese sind alle von proprietären Cloud-Services abhängig. Es gibt bei statischen Website-Generatoren immer noch viel Raum für Fortschritte bei der Entwicklung benutzerfreundlicher grafischer Benutzeroberflächen.&lt;/p&gt;
+&lt;p&gt;In den kommenden Monaten werden wir versuchen, noch Dinge auf der Herausgeberseite zu verbessern, und wie immer freuen wir uns über Euer Feedback und Eure Vorschläge. Bitte teilt uns auch Fehler oder Inkonsistenzen mit, die uns bei der Migration entgangen sind. Vielen Dank an alle, die dieses Projekt im Laufe der Jahre unterstützt haben.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Um den Unterschied zu verstehen, haben wir sowohl die Hugo- als auch die Pelican-Seitengeneratoren in einem Experiment getestet. Der Pelican-Build basiert auf dem &lt;a href=&#34;https://github.com/lowtechmag/solar&#34;&gt;Solar-Theme&lt;/a&gt; und den &lt;a href=&#34;https://github.com/lowtechmag/solar-plugins&#34;&gt;Plugins&lt;/a&gt;. Der Hugo-Build basiert auf dem &lt;a href=&#34;https://github.com/lowtechmag/solar_v2&#34;&gt;Solar_v2-Theme&lt;/a&gt; sowie Skripten zur Dithering- und Dateigrößenberechnung, wie sie im &lt;a href=&#34;https://github.com/lowtechmag/solar_v2/blob/main/utils/build_site.sh&#34;&gt;Build-Skript&lt;/a&gt; definiert sind. Beide Websites enthalten 447 Artikel in verschiedenen Sprachen und mehr als 1500 Bilder. Die Ergebnisse des Experiments sind in der folgenden Tabelle sichtbar. Die ersten beiden Zeilen zeigen, wie lange es dauert, die Website initial zu generieren. Beim ersten Ausführen müssen alle Ressourcen generiert und Bilder komprimiert werden, was länger dauert als spätere Ausführungen, bei denen die Ressourcen zwischengespeichert sind. Die letzten beiden Zeilen zeigen die Generierungszeiten, wenn die Ressourcen bereits zwischengespeichert sind. Die angezeigten Zeiten sind der Durchschnittswert von drei Durchläufen auf dem Solar-Server (ein A20-Prozessor mit zwei 1-GHz-Kernen und 1 GB RAM) und einem modernen Laptop (ein Intel i7-8650U-Prozessor mit vier Kernen mit 1,9 GHz und 32 GB RAM). Das Generieren der Hugo-Site auf dem Solar-Server ohne zwischengespeicherte Ressourcen ist nicht möglich, da der Prozess entweder den Speicher übersteigt oder das Timeout-Limit von Hugo überschreitet. In diesem Fall muss der Befehl mehrmals hintereinander ausgeführt werden. Obwohl es so aussieht, als ob Hugo auf dem Laptop langsamer ist als Pelican, lässt sich das wahrscheinlich damit erklären, dass die Hugo-Site &lt;em&gt;sowohl&lt;/em&gt; eine Dithering-Logik als auch eine andere Kompressionslogik für die Bilder verwendet. Bei Pelican werden Bilder nur gedithert und Originale nicht erneut komprimiert.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Hugo&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Pelican&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Solar Server (erster Durchlauf)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;100 Minuten, 47 Sekunden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Moderner Laptop (erster Durchlauf)&lt;/td&gt;
+&lt;td&gt;13 Minuten, 31 Sekunden&lt;/td&gt;
+&lt;td&gt;12 Minuten, 53 Sekunden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Solar Server (zwischengespeichert)&lt;/td&gt;
+&lt;td&gt;11 Minuten, 57 Sekunden&lt;/td&gt;
+&lt;td&gt;68 Minuten, 47 Sekunden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Moderner Laptop (zwischengespeichert)&lt;/td&gt;
+&lt;td&gt;46 Sekunden&lt;/td&gt;
+&lt;td&gt;04 Minuten, 57 Sekunden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Die Wiederentdeckung der Wärmflasche</title>
+      <link>./de/2022/01/the-revenge-of-the-hot-water-bottle/</link>
+      
+      <enclosure url="/de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" type="image/png" length="40997" ></enclosure>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>./de/2022/01/the-revenge-of-the-hot-water-bottle/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png&#34; alt=&#39;Wärmflaschen können viel Energie und Geld sparen, ohne dass der Wärmekomfort darunter leidet. Sie funktionieren sowohl in Innenräumen als auch im Freien. Illustration: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Wärmflaschen können viel Energie und Geld sparen, ohne dass der Wärmekomfort darunter leidet. Sie funktionieren sowohl in Innenräumen als auch im Freien. Illustration: Marie Verdeil.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Eine Wärmflasche ist ein verschließbarer, mit heißem Wasser gefüllter Behälter, der oft von einer Textilhülle umschlossen ist und zum Zwecke des Wärmekomforts direkt auf eine Körperstelle gelegt wird. In einigen Ländern wie in Großbritannien und Japan ist die Wärmflasche immer noch ein gängiger Gebrauchsgegenstand, aber in den meisten Industrieländern ist sie weitgehend in Vergessenheit geraten oder wird nicht mehr ernst genommen. Diejenigen, die sie noch kennen, assoziieren sie in der Regel eher mit Schmerzlinderung als mit Wärmekomfort, oder sie halten ihre Verwendung für eine überholte Praxis für Arme und ältere Menschen.&lt;/p&gt;
+&lt;p&gt;Als ich jedoch zwei Dutzend Wärmflaschen als Weihnachtsgeschenk an Freunde und Verwandte verschickte, waren die Reaktionen fast ausnahmslos begeistert. Die Leute zeigen sich sehr überrascht, dass ein so bescheidener Gegenstand so viel Behaglichkeit spenden kann. Da ich weder die Zeit noch das Geld habe, um Wärmflaschen an jeden Menschen zu verschicken, habe ich diesen Artikel geschrieben. Er basiert weitgehend auf meiner persönlichen Erfahrung – ich benutze Wärmflaschen seit vielen Jahren und sie sind die einzige Wärmequelle in meiner Wohnung.&lt;/p&gt;
+&lt;h2 id=&#34;die-geschichte-der-wärmflasche&#34;&gt;Die Geschichte der Wärmflasche&lt;/h2&gt;
+&lt;p&gt;Der kroatische Erfinder Eduard Penkala ließ sich die Wärmflasche aus Gummi – die er “Termofor” nannte – 1903 patentieren. Sie kam jedoch nicht aus dem Nichts. Tatsächlich reicht die Geschichte der Wärmflasche Tausende von Jahren zurück, wenn auch in unterschiedlichen Formen.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png&#34; alt=&#39;Wärmflasche aus Gummi, hergestellt in Deutschland (1925-35). Quelle: Museum Rotterdam.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Wärmflasche aus Gummi, hergestellt in Deutschland (1925-35). Quelle: [Museum Rotterdam](https://museumrotterdam.nl/collectie/item/76113-A-B). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Die ersten “Wärmflaschen” waren nichts anderes als Menschen und Tiere. Seit Menschengedenken haben sich die Menschen eng aneinander gekuschelt, um sich zu wärmen. So war es zum Beispiel üblich, dass alle Familienmitglieder und sogar Gäste zusammen in einem Bett schliefen. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Und man nutzte auch seine Tiere als lebende “Wärmflaschen” mit Fell.&lt;/p&gt;
+&lt;p&gt;Man kuschelte sich an Kühe und Schweine, die sich den Wohnraum teilten oder im darunter liegenden Stall waren. Im 18. Jahrhundert benutzen Frauen der Oberschicht speziell gezüchtete Zwergpudel (“Handhunde”), um ihren Schoß und ihre Hände warm zu halten. [^2] Persönliche Wärmequellen gab es auch in Form von Gegenständen (Steine, Ziegel, Kartoffeln), die im oder neben dem Feuer erhitzt wurden. Sie wurden dann in Stoff oder Papier eingewickelt und in die Kleidung oder ins Bett gesteckt.&lt;/p&gt;
+&lt;p&gt;Bereits um 1500 begannen die Menschen, alle Arten von tragbaren Behältern mit heißen Kohlen zu füllen. Diese wurden als Fußwärmer, Handwärmer und Bettwärmer verwendet. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Die meisten waren aus Metall, entweder Messing oder Kupfer, und befanden sich in Holz- oder Keramikhüllen, um Verbrennungen zu vermeiden. Im Laufe der Zeit wurden die heißen Kohlen durch heißes Wasser ersetzt, das ein sauberes und weniger gefährliches Wärmespeichermedium ist.&lt;/p&gt;
+&lt;p&gt;Die ersten “echten” Wärmflaschen waren zunächst aus hartem Material wie Glas, Metall oder Keramik gefertigt. Erst mit der Erfindung von vulkanisiertem Gummi im neunzehnten Jahrhundert wurden komfortablere, leichte und flexible Wärmflaschen möglich. Spanische Freunde haben mir von Wärmflaschen erzählt, die aus Leder hergestellt wurden, obwohl ich diese Information nicht überprüfen konnte. Das wäre nicht verwunderlich, wenn man bedenkt, dass überall auf der Welt “Schläuche” zur Aufbewahrung von Flüssigkeiten verwendet wurden.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png&#34; alt=&#39;Ein Beispiel für eine Wärmflasche, die Mitte des 20. Jahrhunderts in Haushalten üblich war, bevor Gummiwärmflaschen verwendet wurden (1940er Jahre, Melbourne, Australien). Quelle: Victorian Collections. https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Ein Beispiel für eine Wärmflasche, die Mitte des 20. Jahrhunderts in Haushalten üblich war, bevor Gummiwärmflaschen verwendet wurden (1940er Jahre, Melbourne, Australien). Quelle: Victorian Collections. [https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799](https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png&#34; alt=&#39;Eine Fomentationskanne wird mit heißem Wasser gefüllt und ähnlich wie eine Wärmflasche verwendet, um dem Körper Wärme zuzuführen. Fomentation bedeutet eigentlich “das Auftragen von warmen Flüssigkeiten zur Behandlung der Haut”. Diese ovale Kanne ist so gebogen, dass sie sich dem Körper anpasst. Hersteller: Kenworthy Son and Company. Herstellungsort: Southport, Sefton, Merseyside, England, Großbritannien. Quelle: Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/gf42542b.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Eine Fomentationskanne wird mit heißem Wasser gefüllt und ähnlich wie eine Wärmflasche verwendet, um dem Körper Wärme zuzuführen. Fomentation bedeutet eigentlich “das Auftragen von warmen Flüssigkeiten zur Behandlung der Haut”. Diese ovale Kanne ist so gebogen, dass sie sich dem Körper anpasst. Hersteller: Kenworthy Son and Company. Herstellungsort: Southport, Sefton, Merseyside, England, Großbritannien. Quelle: Science Museum, London. (CC BY 4.0). [https://wellcomecollection.org/works/gf42542b](https://wellcomecollection.org/works/gf42542b). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png&#34; alt=&#39;Sechseckige Wärmflasche, Österreich, 1791-1798. Diese sechseckige Wärmflasche ist aus Zinn gefertigt und mit einer Waldszene verziert. Quelle: Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/b452vwjm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Sechseckige Wärmflasche, Österreich, 1791-1798. Diese sechseckige Wärmflasche ist aus Zinn gefertigt und mit einer Waldszene verziert. Quelle: Science Museum, London. (CC BY 4.0). [https://wellcomecollection.org/works/b452vwjm](https://wellcomecollection.org/works/b452vwjm). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png&#34; alt=&#39;Dieser Fußwärmer (aus dem Jahr 1927) wurde in Krankenhäusern verwendet, um Patienten warm zu halten. Der aus verzinntem Eisen gefertigte Wärmer wurde mit heißem Wasser gefüllt und mit einem Stöpsel verschlossen. Herstellungsort: Glasgow, Schottland, Großbritannien. Quelle: Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/mfjujndv&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Dieser Fußwärmer (aus dem Jahr 1927) wurde in Krankenhäusern verwendet, um Patienten warm zu halten. Der aus verzinntem Eisen gefertigte Wärmer wurde mit heißem Wasser gefüllt und mit einem Stöpsel verschlossen. Herstellungsort: Glasgow, Schottland, Großbritannien. Quelle: Science Museum, London. (CC BY 4.0). [https://wellcomecollection.org/works/mfjujndv](https://wellcomecollection.org/works/mfjujndv) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png&#34; alt=&#39;Französischer Fußwärmer, Datum unbekannt. Quelle: Musée Départemental Albert Demard&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Französischer Fußwärmer, Datum unbekannt. Quelle: Musée Départemental Albert Demard 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;wärmflaschen-heute&#34;&gt;Wärmflaschen heute&lt;/h2&gt;
+&lt;p&gt;Die klassische Wärmflasche, die Sie heute kaufen können, besteht entweder aus Gummi oder aus PVC-Kunststoff. Letzterer hat aber kaum Vorteile. Er ist oft etwas billiger und kann transparent gemacht werden, aber im Gegensatz zu Gummi enthält er giftige Chemikalien um den Kunststoff flexibel zu machen. Eine dritte Möglichkeit – die etwas schwieriger zu finden ist – sind starre Wärmflaschen aus Hartplastik, die keine chemischen Weichmacher enthalten.&lt;/p&gt;
+&lt;p&gt;Die typische japanische Wärmflasche (der “Yutanpo”) ist eine solche. Sie stammt aus dem 15. Jahrhundert. Damals wurde sie noch aus Metall oder Keramik hergestellt. Natürlich kann jeder verschließbare Behälter als Wärmflasche verwendet werden. Ich habe mit Erfolg Trinkflaschen aus Metall und sogar PET-Plastikflaschen verwendet – dazu später mehr.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trotz ihres altbackenen Rufs hat die Wärmflasche in letzter Zeit einige interessante Neuerungen erfahren.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Die typische Wärmflasche ist mehr oder weniger rechteckig und kann bis zu zwei Liter Wasser fassen. Doch trotz ihres altbackenen Rufs hat die Wärmflasche in letzter Zeit einige interessante Neuerungen erfahren. Es gibt mittlerweile deutlich kleinere Modelle, die zwischen 0,2 und 0,8 Liter Wasser fassen. Nach ihrer Hülle zu urteilen, sind sie vor allem für Kinder gedacht, aber Erwachsene können sie auch in die Jackentasche oder in die Kleidung stecken.&lt;/p&gt;
+&lt;p&gt;Und es gibt auch größere Wärmflaschen, die bis zu drei Liter Wasser oder mehr fassen. Die erfolgreichste Neuheit schließlich hat die Form eines Hotdogs: Es handelt sich um eine 80 Zentimeter lange Wärmflasche, die um die Taille gebunden werden kann. Aber auch auf dem Sofa oder im Bett ist dieses Modell sehr bequem und kann problemlos von zwei Personen genutzt werden. Sie fasst bis zu zwei Liter Wasser.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png&#34; alt=&#39;Wärmflaschen aus Gummi und PVC. Bild von Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Wärmflaschen aus Gummi und PVC. Bild von Marie Verdeil.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png&#34; alt=&#39;Wärmflaschen aus Gummi. Bild von Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Wärmflaschen aus Gummi. Bild von Marie Verdeil.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png&#34; alt=&#39;Eine japanische Wärmflasche aus Hartplastik – auch Yutampo genannt. Quelle: All About Japan. https://allabout-japan.com/en/article/6244/&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Eine japanische Wärmflasche aus Hartplastik – auch Yutampo genannt. Quelle: All About Japan. [https://allabout-japan.com/en/article/6244/](https://allabout-japan.com/en/article/6244/) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png&#34; alt=&#39;Das japanische Yutampo ist weiterhin in Metall erhältlich. Quelle: Maruka.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Das japanische Yutampo ist weiterhin in Metall erhältlich. Quelle: Maruka.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;wärmflaschen-können-vielfältig-genutzt-werden&#34;&gt;Wärmflaschen können vielfältig genutzt werden&lt;/h2&gt;
+&lt;p&gt;Wer Wärmflaschen kennt, denkt meist an einen Bettgenossen. Aber sie können einen wirklich überall und den ganzen Tag über warm halten. Nicht nur auf dem Sofa, sondern auch am Tisch oder am Schreibtisch. Man kann sich z. B. mit einer oder mehreren Wärmflaschen umgeben, während man auf einem Stuhl sitzt.&lt;/p&gt;
+&lt;p&gt;Je nach Temperatur verwende ich eine, zwei oder sogar drei Wärmflaschen auf einmal. Ich lege sie auf den Schoß, in den unteren Rücken und/oder unter die Füße. Auch wenn die Wärmflasche nur diese Körperteile direkt erwärmt, verteilt sich ihre Wärme dank der Blutzirkulation überall im Körper.&lt;/p&gt;
+&lt;p&gt;Man kann die Wärmflasche auch unter einer Decke verwenden, um es noch bequemer zu haben. Wenn ich mir eine Decke über den Schoß lege, während ich am Schreibtisch sitze, bleibt die Wärmflasche länger warm.&lt;/p&gt;
+&lt;p&gt;Noch besser sind Decken mit einem Loch in der Mitte, durch das man den Kopf stecken kann – eigentlich Ponchos – oder solche mit Ärmeln. Wenn sie groß genug sind, können sie wie Zelte verwendet werden und den ganzen Körper in dem von den Wärmflaschen geschaffenen Mikroklima halten. Eine Wärmequelle mit lockerer Kleidung zu umhüllen, war früher eine recht verbreitete Strategie, um sich warm zu halten.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png&#34; alt=&#39;Eine Decke hält die Wärme der Wärmflaschen zurück. Illustration von Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Eine Decke hält die Wärme der Wärmflaschen zurück. Illustration von Marie Verdeil.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Man kann sogar noch einen Schritt weiter gehen, indem man eine große Decke über den Schreibtisch oder Tisch legt und dann die Beine darunter schiebt. Solche einfachen Heizvorrichtungen wurden in verschiedenen Teilen der Welt verwendet, meist mit heißer Kohle als Wärmequelle. Beispiele sind das japanische “Kotatsu”, das nahöstliche “Korsi” und das spanische “Brasero de Picón”.&lt;/p&gt;
+&lt;p&gt;Die ersten beiden sind eher niedrig – man sitzt auf dem Boden –, während der letztere der üblichen Sitzhöhe in der westlichen Welt entspricht. Es ist einfach, eine solche Heizvorrichtung zu bauen, und ein paar Wärmflaschen sind die ultimative Wärmequelle dafür.&lt;/p&gt;
+&lt;h2 id=&#34;wärmflaschen-im-freien-und-unterwegs&#34;&gt;Wärmflaschen im Freien und unterwegs&lt;/h2&gt;
+&lt;p&gt;Die obigen Ausführungen gelten natürlich nur für Personen, die sich nicht fortbewegen. Der Bedarf an einer externen Wärmequelle nimmt ab, wenn wir uns bewegen und körperlich aktiv sind, da unser Körper selbst mehr Wärme produziert.&lt;/p&gt;
+&lt;p&gt;Dennoch können Wärmflaschen auch dann warm halten, wenn wir Dinge im Stehen erledigen oder uns durch einen Raum oder ein Gebäude bewegen. Sie können unter der Kleidung oder sogar in speziell dafür vorgesehenen Taschen oder Rucksäcken getragen werden. Ein kleiner Rucksack mit einer Wärmflasche zwischen den Schulterblättern funktioniert auch sehr gut auf einem Stuhl.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png&#34; alt=&#39;Wärmflaschen sorgen für Wärmekomfort bei geöffneten Fenstern. Illustration von Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Wärmflaschen sorgen für Wärmekomfort bei geöffneten Fenstern. Illustration von Marie Verdeil.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Wärmflaschen funktionieren also drinnen und draußen gleichermaßen – vorausgesetzt, der Körper ist vor Wind und Regen geschützt – oder in Innenräumen bei geöffneten Fenstern. Moderne Zentralheizungen sorgen für thermische Behaglichkeit, indem sie hauptsächlich die Raumluft erwärmen, was natürlich weder im Freien noch bei geöffneten Fenstern funktioniert. Eine Wärmflasche hingegen gibt ihre Wärme über direkte Wärmeleitung (“Konduktion”) an den Körper ab. &lt;a href=&#34;./de/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;Sie wärmt Menschen, nicht Räume&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dies macht Wärmflaschen auch zu einer praktischen und nachhaltigen Alternative zu Terrassenheizungen in Bars und Restaurants. Die Investition ist minimal: eine Reihe von Wärmflaschen und ein Wasserkocher. Das Wasser kann immer wieder verwendet werden. Alternativ könnte jeder seine eigene Wärmflasche mitbringen und sie auf der Terrasse auffüllen.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wärmflaschen sind eine praktische und nachhaltige Alternative zu Terrassenheizungen in Bars und Restaurants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Man könnte sogar noch weiter gehen und eine öffentliche Infrastruktur ins Auge fassen, in der man seine Wärmflasche nicht nur in Bars, sondern an verschiedenen Orten wie Schulen, Büros und öffentlichen Plätzen auffüllen kann. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Die Menschen könnten sich um Wärmespender versammeln, so wie sie sich auch an Wasserspendern treffen.&lt;/p&gt;
+&lt;p&gt;Historisch gesehen wurden Wärmflaschen – und ihre Vorgänger auf Kohlebasis – auch außerhalb des Hauses verwendet – z. B. in Kutschen,  Zügen und unbeheizten Kirchen. Kleinere Wärmequellen wurden in Handwärmer oder Manteltaschen gesteckt. Heutzutage könnte man heißes Wasser einfach in einer Thermosflasche mitnehmen und Stunden später in seine Wärmflasche umfüllen.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png&#34; alt=&#39;“Queens Muff Warmer” aus Steingut. Quelle: Antiques Atlas. https://www.antiques-atlas.com.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ “Queens Muff Warmer” aus Steingut. Quelle: Antiques Atlas. [https://www.antiques-atlas.com](https://www.antiques-atlas.com). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png&#34; alt=&#39;Gewölbte rechteckige Wärmflasche, Frankreich, 1751-1810. Diese Wärmflasche aus Weißmetall, einer Legierung aus Zinn und Blei, ist mit Vögeln und Pflanzen graviert und hat eine geschwungene Form, damit sie eng am Körper anliegt. Quelle: Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/g5ufhayn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Gewölbte rechteckige Wärmflasche, Frankreich, 1751-1810. Diese Wärmflasche aus Weißmetall, einer Legierung aus Zinn und Blei, ist mit Vögeln und Pflanzen graviert und hat eine geschwungene Form, damit sie eng am Körper anliegt. Quelle: Science Museum, London. (CC BY 4.0). [https://wellcomecollection.org/works/g5ufhayn](https://wellcomecollection.org/works/g5ufhayn).  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;wie-viel-energie-kann-man-mit-wärmflaschen-einsparen&#34;&gt;Wie viel Energie kann man mit Wärmflaschen einsparen?&lt;/h2&gt;
+&lt;p&gt;Es überrascht nicht, dass es wenig – oder eigentlich gar keine – akademische Forschung über das Energiesparpotenzial von Wärmflaschen gibt. Lowtech-Lösungen werden selten ernst genommen. Stattdessen haben Wissenschaftler in den letzten Jahren aufwendige persönliche Hilfsmittel wie elektrisch beheizbare Schreibtische und Stühle, Wärmestrahler oder batteriebetriebene Heizkissen untersucht. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Diese Alternativen erscheinen im Vergleich zur Wärmflasche unnötig kompliziert. Wasser kann auf viele Arten erhitzt werden, sowohl mit Hightech als auch mit Lowtech, und die Gefäße können aus lokal verfügbaren Materialien hergestellt werden.&lt;/p&gt;
+&lt;p&gt;Dennoch zeigen diese Studien, dass auch solche technischen Wärmequellen, die eine ähnliche Wirkung wie Wärmflaschen haben, viel Energie sparen und gleichzeitig das Wohlbefinden erhalten und oft sogar verbessern. So zeigte eine Studie, dass die Senkung des Thermostats in einem Büro von 20,5°C auf 18,8°C den thermischen Komfort sogar erhöht, wenn die Mitarbeiter stattdessen auf einem beheizten Bürostuhl sitzen können. Dabei ging der Energieverbrauch um 35 % zurück.&lt;/p&gt;
+&lt;p&gt;Es gibt nur wenige Maßnahmen an der Gebäudehülle, die mit einer so geringen Investition so große Energieeinsparungen erreichen können, und dennoch war die Senkung der Lufttemperatur in diesem Experiment alles andere als radikal. Würden persönliche Wärmequellen mit &lt;a href=&#34;./de/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;wärmerer Kleidung und/oder Decken kombiniert&lt;/a&gt;, könnte die Energieeinsparung noch viel größer ausfallen.&lt;/p&gt;
+&lt;p&gt;Eine andere Möglichkeit, das Energiesparpotenzial der Wärmflasche zu untersuchen, besteht darin, zu berechnen, wie viel Energie für die Zubereitung einer Wärmflasche benötigt wird, und dies mit dem Energieverbrauch einer Zentralheizung zu vergleichen. Da Wärmflaschen aus Gummi oder PVC für eine sichere und bequeme Nutzung nur zu zwei Dritteln gefüllt werden können, gehe ich von einem etwas größeren Modell (drei Liter) aus, das in der Praxis mit zwei Litern Wasser befüllt wird.&lt;/p&gt;
+&lt;p&gt;Damit gilt die Berechnung auch für Behälter, die vollständig gefüllt werden können, wie z. B. die japanischen Yutampo. Wir brauchen 4.200 Joule, um die Temperatur von 1 Liter um 1 Grad Celsius zu erhöhen. Das bedeutet, dass das Erwärmen von 2 Litern Wasser von 10°C auf 60°C 420 Kilojoule oder 116,7 Watt pro Stunde erfordert.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png&#34; alt=&#39;Werbung für die “Cosimax”-Wärmflaschen von Westbrook &amp;amp;amp; Thompson Ltd, hergestellt aus Dunlop-Gummi. 1938. Science Museum / Science &amp;amp;amp; Society Picture Library. Quelle: https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Werbung für die “Cosimax”-Wärmflaschen von Westbrook &amp; Thompson Ltd, hergestellt aus Dunlop-Gummi. 1938. Science Museum / Science &amp; Society Picture Library. Quelle: [https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938](https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Im Vergleich dazu liegt der durchschnittliche Energieverbrauch eines Haushalts für das Heizen mit Gas in Belgien, wo ein gemäßigtes Klima herrscht, bei 20.000 kWh pro Jahr. Geht man davon aus, dass die durchschnittliche belgische Heizung sechs Monate im Jahr genutzt wird, entspricht der tägliche Energieverbrauch 109,6 kWh pro Tag. Damit könnte man etwa 900 Wärmflaschen pro Tag befüllen – genug, um die ganze Nachbarschaft warm zu halten.&lt;/p&gt;
+&lt;p&gt;Nehmen wir an, vier Familienmitglieder benutzen jeweils zwei Wärmflaschen gleichzeitig und erhitzen sie alle zwei Stunden, insgesamt 16 Stunden lang. Die Gesamtenergiekosten würden dann immer noch unter 4 kWh liegen, fast 30 Mal niedriger als der Durchschnittsverbrauch einer belgischen Familie.&lt;/p&gt;
+&lt;p&gt;Damit soll nicht gesagt werden, dass die Wärmflasche eine Zentralheizung generell vollständig ersetzen soll. Aber die kurzen und milden Winter hier in Barcelona machen das für mich tatsächlich möglich, denn meine ungeheizte Wohnung wird eigentlich nie kälter als 12°C.&lt;/p&gt;
+&lt;p&gt;In weniger günstigen Klimazonen können Wärmflaschen mit einer Zentralheizung kombiniert werden. Die Wärmflaschen schaffen Inseln des thermischen Komforts für Aktivitäten mit geringem Stoffwechsel, während der Rest des Raums eine ausreichende Temperatur hat, um sich darin zu bewegen oder körperlich aktiv zu sein.&lt;/p&gt;
+&lt;h2 id=&#34;sicherheit&#34;&gt;Sicherheit&lt;/h2&gt;
+&lt;p&gt;Heißes Wasser ist weniger gefährlich als glimmende Kohle, aber es ist nicht ungefährlich und Wärmflaschen sollten immer mit Vorsicht verwendet werden. In der Betriebsanleitung steht, kein kochendes Wasser zu verwenden, was bereits ein guter Rat ist, aber heißes Wasser muss nicht kochen, um gefährlich zu werden. Wasser mit einer Temperatur von über 60 °C kann verbrühen und zu sehr schweren Verletzungen führen.&lt;/p&gt;
+&lt;p&gt;Daher wird empfohlen, nur nicht ganz so heißes Wasser mit einer Temperatur unter 60°C zu verwenden. Diese Temperatur ist ausreichend hoch, um sich wohlzufühlen, und der einzige Vorteil der Verwendung von heißerem Wasser besteht darin, dass man es seltener erhitzen muss.&lt;/p&gt;
+&lt;p&gt;Zu heißes Wasser kann Ihnen in mehrfacher Hinsicht schaden. Erstens besteht immer die Gefahr, dass Sie beim Einfüllen der Flasche heißen Wasser auf Ihre Hände verschütten. Zweitens kann eine Wärmflasche aus Gummi oder Kunststoff undicht werden, entweder durch den Deckel oder durch die Nähte.&lt;/p&gt;
+&lt;p&gt;Und schließlich, und das ist das schlimmste Szenario, kann eine Wärmflasche platzen und zwei Liter heißes Wasser über Ihren Körper ausgießen. Solche Unfälle sind selten, da Wärmflaschen heutzutage nach hohen Qualitätsstandards hergestellt werden. Sie kommen jedoch vor, zumeist wenn die Wärmflasche altersbedingt spröde geworden ist.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png&#34; alt=&#39;Die “Jayne Mansfield Hot Water Bottle” kam 1957 auf den Markt. Die Mansfield-Figur – in einer Pin-up-Pose mit den Händen im Nacken und in einem aufgemalten schwarzen Bikini – besteht aus “errötendem” rosafarbenem Kunststoff mit einem hutförmigen Verschluss und ist von Kopf bis Fuß fast 50 cm groß. Quelle: https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Die “Jayne Mansfield Hot Water Bottle” kam 1957 auf den Markt. Die Mansfield-Figur – in einer Pin-up-Pose mit den Händen im Nacken und in einem aufgemalten schwarzen Bikini – besteht aus “errötendem” rosafarbenem Kunststoff mit einem hutförmigen Verschluss und ist von Kopf bis Fuß fast 50 cm groß. Quelle: [https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/](https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Um Wärmflaschen aus Gummi oder PVC bei höheren Temperaturen sicher zu verwenden, ist es wichtig, sie sorgfältig zu behandeln und sie nach einigen Jahren Gebrauch auszutauschen. Wenn Sie wirklich höhere Wassertemperaturen verwenden wollen, sind Wärmflaschen aus Metall – mit einer Hülle, um Hautverbrennungen zu vermeiden – die sicherste Option.&lt;/p&gt;
+&lt;p&gt;Wenn Sie nur Wasser unter 60°C verwenden, ist das Schlimmste, was passieren kann, dass Sie nass werden. Wenn Sie PET-Wärmflaschen verwenden, sollten Sie sich unbedingt an die Höchsttemperatur halten, denn bei höheren Temperaturen könnten sie schmelzen. Außerdem sollte das heiße Wasser aus einer PET-Wärmflasche nicht zum Trinken verwendet werden, da die höheren Temperaturen Chemikalien freisetzen können.&lt;/p&gt;
+&lt;h2 id=&#34;wasserverbrauch-und-infrastruktur&#34;&gt;Wasserverbrauch und Infrastruktur&lt;/h2&gt;
+&lt;p&gt;Wärmflaschen benötigen eine Wasserquelle. Man kann das gleiche Wasser tausende Male wiederverwenden und so den Wasserverbrauch auf wenige Liter für die gesamte Lebensdauer der Wärmflasche beschränken. Das ist jedoch nicht immer die praktikabelste Lösung. In modernen Haushalten kommt heißes Wasser üblicherweise aus einem Wasserkocher, einem Topf auf dem Herd oder dem Warmwasserhahn.&lt;/p&gt;
+&lt;p&gt;Heißes Leitungswasser ist zwar die sicherste Wasserquelle für eine Wärmflasche, aber wenn das Wasser abgekühlt ist, gibt es keine Möglichkeit, es zum Wiederaufwärmen zurück in die Leitungen zu bringen. Außerdem dauert es einen Moment, bis heißes Wasser aus dem Hahn kommt, so dass effektiv mehr als zwei Liter Wasser verbraucht werden.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Selbst eine etwas geringere Duschhäufigkeit liefert problemlos das Wasser und die Energie für den Dauerbetrieb der Wärmflasche.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Die Verwendung eines Wasserkochers – oder eines Topfes auf dem Herd – macht es einfach, das gleiche Wasser immer wieder zu verwenden, hat aber auch Nachteile. Erstens: Wenn Ihr Wasserkocher nicht mit einer variablen Tempreratureinstellung ausgestattet ist, müssen Sie sicherstellen, dass das Wasser nicht zu heiß wird. Ich löse dieses Problem, indem ich ein Digitalthermometer in den Wasserkocher halte, während ich das Wasser erwärme.&lt;/p&gt;
+&lt;p&gt;Zweitens: Wenn Sie das Wasser aus Gummiwärmflaschen wieder aufwärmen, kann der Wasserkocher (oder der Teekessel) nicht mehr zum Erhitzen von Wasser für den menschlichen Verzehr verwendet werden, da das Wasser einen schlechten Geschmack annimmt. Sie müssen also entweder einen separaten Wasserkocher für das Wasser in den Wärmflaschen verwenden oder das Wasser im einzigen Wasserkocher im Haus erhitzen und es dann nach der Verwendung in den Ausguss gießen.&lt;/p&gt;
+&lt;p&gt;Selbst wenn das Wasser nicht für andere Zwecke wiederverwendet wird (z. B. zum Gießen der Pflanzen), ist die Verschwendung recht gering. Einmal &lt;a href=&#34;./de/2019/10/mist-showers-sustainable-decadence/&#34;&gt;duschen&lt;/a&gt; kann im Durchschnitt bis zu 37 Wärmflaschen füllen. Ebenso entspricht eine durchschnittliche Dusche der Energiemenge, die benötigt wird, um 17 Wärmflaschen zu erwärmen (die heißeres Wasser benötigen als das Duschwasser). Schon eine etwas geringere Duschhäufigkeit liefert Ihnen also problemlos das Wasser und die Energie für eine kontinuierliche Nutzung von Wärmflaschen.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png&#34; alt=&#39;Wärmflasche aus Keramik (1901-1910). Quelle: Auckland War Memorial Museum&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Wärmflasche aus Keramik (1901-1910). Quelle: Auckland War Memorial Museum 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./de/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png&#34; alt=&#39;Japaner boten ihren Gästen einen kleinen rundlichen Keramiktopf – einen “te-aburi” – an, der mit heißer Kohle gefüllt war. Handwärmer aus Kupfer oder Bronze mit einem Durchmesser von wenigen Zentimetern, die oft perforiert waren und Tragegriffe hatten – “shou lu” genannt – wurden in China verwendet. Das Bild ist gemeinfrei. Lesen Sie mehr: https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Japaner boten ihren Gästen einen kleinen rundlichen Keramiktopf – einen “te-aburi” – an, der mit heißer Kohle gefüllt war. Handwärmer aus Kupfer oder Bronze mit einem Durchmesser von wenigen Zentimetern, die oft perforiert waren und Tragegriffe hatten – “shou lu” genannt – wurden in China verwendet. Das Bild ist gemeinfrei. Lesen Sie mehr: [https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/](https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;kalte-wärmflaschen&#34;&gt;Kalte “Wärmflaschen”&lt;/h2&gt;
+&lt;p&gt;Wärmflaschen können auch zum Kühlen verwendet werden. In diesem Fall werden sie mit kaltem Wasser gefüllt oder in den Gefrierschrank gelegt. Das Kühlen von Menschen ist viel energieeffizienter als das Kühlen von Räumen. Ich habe keine Klimaanlage und verlasse mich im Sommer, wenn die Temperaturen meist über 30°C liegen, ausschließlich auf &lt;a href=&#34;./2014/09/the-revenge-of-the-circulating-fan/&#34;&gt;Ventilatoren&lt;/a&gt;  und kalte Wärmflaschen. Ich verwende diese “Kaltwasserflaschen” auf ähnliche Weise wie Wärmflaschen – sie kommen ins Bett, unter meine Füße oder an meinen Rücken.&lt;/p&gt;
+&lt;p&gt;Zum Kühlen verwende ich PET-Wärmflaschen und Trinkflaschen aus Metall, aber keine Gummiwärmflaschen, da diese hart und brüchig werden. Achten Sie darauf, die Flasche nicht vollständig zu füllen – Wasser dehnt sich aus, wenn es gefroren ist – und die Flasche in eine Schutzhülle zu stecken,  um ein Erfrieren der Haut zu verhindern. Bedenken Sie auch, dass sie außen etwas nass werden, wenn das Eis schmilzt – dieser Effekt verstärkt jedoch noch die Kühlung. Wie warme Wärmflaschen können auch kalte Wärmflaschen sowohl drinnen als auch draußen verwendet werden.&lt;/p&gt;
+&lt;p&gt;[^2] : &lt;a href=&#34;https://www.encompassingdesigns.com/blog/hot-water-bottlesa-thing-of-the-past&#34;&gt;https://www.encompassingdesigns.com/blog/hot-water-bottlesa-thing-of-the-past&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Dieser Brauch war mit strengen Regeln verbunden. So schliefen beispielsweise männliche Besucher auf der einen Seite des Bettes, während die Töchter der Familie auf der anderen Seite lagen. Quelle: Ekirch, A. Roger. At day&amp;rsquo;s close: night in times past. WW Norton &amp;amp; Company, 2006.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Die “Wärmepfanne” oder der “Bettwärmer” war ein Metallbehälter, der mit heißen Kohlen gefüllt und mit einem langen Griff versehen war. Er wurde zwischen die Bettlaken geschoben und dann quer über das Bett bewegt, um alle Ecken zu erwärmen, bevor jemand in das Bett stieg. Eine weitere Lösung, um das Bett zu wärmen, war der so genannte “Bettwagen”: ein hölzerner Rahmen oder Schlitten, der einen Topf mit heißen Kohlen aufnehmen konnte, der unter das Bett geschoben und mit einem Blech abgedeckt wurde. Im Gegensatz zu einer Wärmepfanne lieferte der Bettwagen die ganze Nacht über Wärme. Siehe: &lt;a href=&#34;http://www.oldandinteresting.com/warming-the-bed.aspx&#34;&gt;http://www.oldandinteresting.com/warming-the-bed.aspx&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Einige Städte hatten öffentliche Systeme zur Bereitstellung von heißem Wasser. In der ersten Hälfte des 20. Jahrhunderts gab es in der niederländischen Stadt Rotterdam beispielsweise Hunderte von “Wasserdestillerien”, in denen die Menschen Eimer mit heißem Wasser für den Hausgebrauch füllten. In China ist es seit sehr langer Zeit üblich, die Bürger überall mit heißem Wasser zu versorgen – hauptsächlich zum Trinken. Ab den 1830er Jahren tauchten in den großen Städten entlang des Jangtse-Flusses Geschäfte mit heißem Wasser auf – bekannt als “laohuzao” oder “Tigerofen”. Heute hat in China fast jedes öffentliche Gebäude, Unternehmen und jede Schulen einen Heißwasserspender – sogar in Hochgeschwindigkeitszüge gibt es welche. Weitere Informationen: &lt;a href=&#34;https://www.sixthtone.com/news/1000919/the-history-behind-chinas-obsession-with-hot-water&#34;&gt;https://www.sixthtone.com/news/1000919/the-history-behind-chinas-obsession-with-hot-water&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Verhaart, Jacob, Michal Veselý, und Wim Zeiler. &amp;ldquo;Personal heating: effectiveness and energy use.&amp;rdquo; Building Research &amp;amp; Information 43.3 (2015): 346-354. &lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/09613218.2015.1001606&#34;&gt;https://www.tandfonline.com/doi/abs/10.1080/09613218.2015.1001606&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Deng, Qihong, et al. &amp;ldquo;Human thermal sensation and comfort in a non-uniform environment with personalized heating.&amp;rdquo; Science of the total environment 578 (2017): 242-248.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Mishra, A. K., M. G. L. C. Loomans, und Jan LM Hensen. &amp;ldquo;Thermal comfort of heterogeneous and dynamic indoor conditions—An overview.&amp;rdquo; Building and Environment 109 (2016): 82-100. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0360132316303560&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0360132316303560&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

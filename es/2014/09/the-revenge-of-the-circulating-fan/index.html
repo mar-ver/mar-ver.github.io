@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>La venganza de los ventiladores | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="La venganza de los ventiladores" />
+<meta name="twitter:title" content="La venganza de los ventiladores"/>
+
+<meta property="og:description" content="Enfriar a la personas aumentando el flujo de aire local es al menos diez veces más eficiente energéticamente que refrigerar el aire en un espacio determinado." />
+
+<meta name="twitter:description" content="Enfriar a la personas aumentando el flujo de aire local es al menos diez veces más eficiente energéticamente que refrigerar el aire en un espacio determinado."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./es/2014/09/the-revenge-of-the-circulating-fan/" />
+
+
+
+<meta property="og:image" itemprop="image" content="es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/circulating-fan_dithered.png" />
+<meta property="og:image:secure_url" content="es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/circulating-fan_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/circulating-fan_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-09-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-09-10T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="heating and cooling" />
+
+</head>
+<body id="la-venganza-de-los-ventiladores">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" es/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" es/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				La venganza de los ventiladores</h1>
+
+				<p class="summary">
+					Enfriar a la personas aumentando el flujo de aire local es al menos diez veces más eficiente energéticamente que refrigerar el aire en un espacio determinado.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">10 de septiembre de 2014</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="./es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="./es/translators/adriana-parra-esteruelas/">Adriana Parra Esteruelas</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="./2014/09/the-revenge-of-the-circulating-fan/">en</a>
+						
+							<a href="./fr/2014/09/the-revenge-of-the-circulating-fan/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/circulating-fan_dithered.png" alt='El ventilador de techo Haiku ventilator de techo de Big Ass Fans.El consumo de energía para un rango de uso medio es de 2 a 8 vatios.' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/circulating-fan_hu28c54b5760aa569c9720a2d91180509f_122391_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/circulating-fan_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>El ventilador de techo <a href="http://www.bigassfans.com/products/haiku/" target="_blank" >Haiku ventilator de techo</a> de Big Ass Fans.El consumo de energía para un rango de uso medio es de 2 a 8 vatios.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El ventilador se ha utilizado desde el siglo XVIII para refrescar a las personas, y aún sigue siendo muy eficaz, ya que requiere mucha menos energía y es más cómodo que el aire acondicionado. Enfriar a las personas aumentando el flujo de aire local es, al menos, diez veces más eficiente desde el punto de vista energético que refrigerar el aire en un espacio determinado, y además añade el beneficio de un entorno térmico controlado personalmente.</p>
+<p>Si se utiliza en combinación con el aire acondicionado, los ventiladores podrían reducir el consumo energético entre un 30% y un 70%, incluso en climas increíblemente calurosos o durante las olas de calor. Los ventiladores, cada vez más eficientes en su diseño, pueden ser fácilmente aplicables y a bajo coste, tanto en edificios nuevos como en los ya existentes. Los recientes cambios en los estándares internacionales de confort han allanado el camino para su regreso.</p>
+<h2 id="el-auge-del-aire-acondicionado">El auge del Aire Acondicionado</h2>
+<p>Los sistemas de refrigeración o de aire acondicionado (A/A) por compresores ejercen una presión creciente en las redes eléctricas de todo el mundo. En EEUU, la cuna de la tecnología, el aire acondicionado representa aproximadamente el 20% del consumo eléctrico en los hogares americanos durante todo el año, y el 15% del uso total de electricidad <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. El uso generalizado del aire acondicionado explica en gran parte por qué los americanos consumen mucha más electricidad que los europeos: el uso del aire acondicionado eléctrico en un hogar americano equivale al 60% de toda la electricidad usada en el hogar europeo medio. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Excepto en unas pocas regiones templadas de la Costa Oeste, en la mayoría de los hogares americanos el aire acondicionado es ahora un estándar. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Si en 1960 tan sólo el 12% de los hogares americanos tenían aire acondicionado, en 2009 esta cifra alcanzó el 87%. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Y aún más: en 2005 el consumo energético del aire acondicionado en un hogar promedio supuso un incremento del 37% respecto al de 1993 –a pesar de que la eficiencia energética del aire condicionado ha mejorado en un 28%. En parte, el aumento del uso de energía se debe al cambio de las unidades en las ventanas (que enfrían una habitación) a la climatización central (que enfrían todo el edificio), y en parte al aumento de la cantidad de metros cúbicos de casas y apartamentos. <sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="pico-de-demanda-energética">Pico de demanda energética</h2>
+<p>Aún peor es el impacto que el aire acondicionado tiene en los picos de demanda energética. Obviamente, el uso del aire acondicionado no se reparte equitativamente a lo largo del año, sino que se concentra en los meses de verano. En días muy calurosos, muchas unidades de aire acondicionado se nivelan hasta al máximo, y como consecuencia la demanda de electricidad se dispara. En tan sólo dos o tres días de media al año, para satisfacer la demanda se necesitan centenares de centrales eléctricas y muchos kilómetros de líneas de transmisión y distribución; el resto del año, se quedan inactivas. El ritmo de crecimiento de la demanda máxima de energía es superior al de la demanda media, y se debe en gran parte a los sistemas de refrigeración por compresor. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>Si nos detenemos en las emisiones de gases de efecto invernadero, sale a la luz otro problema. El aire acondicionado no sólo genera emisiones por la producción de electricidad; también está la fuga de refrigerantes, que son gases que, aunque permanecen en la atmósfera durante un tiempo más corto, tienen un potencial de calentamiento global mucho mayor que el CO2. Irónicamente, las emisiones sustanciales de gases de efecto invernadero de los sistemas de aire acondicionado nos traen veranos más cálidos, lo que a su vez estimula el uso del aire acondicionado. Otro bucle de retroalimentación es el &ldquo;efecto cañón de calor&rdquo;: al expulsar el aire caliente de los edificios, el aire acondicionado está provoca el aumento de temperatura en las calles, lo que a su vez incremente la necesidad de más aire acondicionado. <sup id="fnref3:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<blockquote>
+<p>El uso del aire acondicionado eléctrico en los hogares americanos equivale al 60% de toda la electricidad utilizada en un hogar europeo medio</p>
+</blockquote>
+<p>Aunque EEUU sigue siendo el campeón absoluto de la climatización, esta tecnología también está ganando importancia en el resto del mundo. Entre 1997 y 2007, por ejemplo, el número de hogares chinos que poseen aire acondicionado se triplicó, y el número anual de hogares que lo venden supera los 20 millones. Para 2020, se prevé que el consumo de energía del aire acondicionado en India crecerá casi diez veces en comparación con su nivel de 2005. <sup id="fnref4:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Incluso en las regiones templadas de Europa, el aire acondicionado está avanzando, especialmente en el sector comercial. En Reino Unido, por ejemplo, basándonos en las tendencias actuales, el 40% de los espacios comerciales tendrán aire acondicionado en 2020, comparado con el 10% en 1994. <sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<h2 id="la-evolución-histórica-del-ventilador">La evolución histórica del ventilador</h2>
+<p>A lo largo de la historia, el ser humano ha usado la energía para entrar en calor durante los meses de invierno. Sin embargo, el uso de energía para refrescarse en verano es un fenómeno relativamente reciente. Antes de la llegada del aire acondicionado, en la primera mitad del siglo XX, los edificios en climas cálidos estaban diseñados para facilitar la ventilación natural (ver más adelante), y las personas se adaptaban al calor cambiando sus rutinas. Sin embargo, el aire acondicionado no es la primera tecnología que usa la energía para enfriar; el ventilador se adelantó décadas al aire acondicionado.</p>
+<p>Durante la mayor parte de la historia, los ventiladores han funcionado por el impulso humano. Los abanicos de mano eran ya utilizados por antiguos egipcios, babilonios, persas, chinos, griegos y romanos. A menudo, los abanicos eran agitados por los sirvientes para refrescar a sus amos y ahuyentar a los insectos. El abanico plegable, que la gente usaba para refrescarse, fue inventado por los japoneses en el siglo IX, e introducido en Occidente por marineros portugueses durante el Renacimiento. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/punkah-cooling_dithered.png" alt='Un punkah operado a distancia, 1863.' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/punkah-cooling_hu01121fe65c8ba625fd9bfe412a4c3511_231675_800x800_fit_q90_h2_box.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/punkah-cooling_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un punkah operado a distancia, 1863.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los primeros ventiladores operados a distancia se denominaron pankha o punkah, y se desarrollaron durante el siglo XVI en India y Oriente Medio. Se trataba de armazones rectangulares de lona, suspendidos por encima de la cabeza, y que eran agitados de un lado a otro por los sirvientes (llamados pankwallah o punkawallah), quienes tiraban de una cuerda con un contrapeso mientras permanecían sentados fuera de la estancia. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<p>Los ventiladores rotativos aparecieron en el siglo XVIII, y al principio también fueron impulsados por la acción humana. En el mismo siglo, no obstante, aparecieron los ventiladores de relojería, impulsados por un mecanismo de cuerda. Ya en el siglo XIX, los ventiladores se accionaban con ruedas hidráulicas, máquinas de vapor o pequeñas turbinas de agua que funcionaban con agua del grifo suministrada por la red urbana de suministro. El primer ventilador eléctrico apareció en EEUU en 1882.</p>
+<h2 id="cómo-mantener-a-la-gente-fresca">¿Cómo mantener a la gente fresca?</h2>
+<p>Los cuatro factores ambientales que determinan el confort térmico humano son la temperatura del aire, la velocidad del aire, la humedad del aire y la temperatura radiante. Cada una de estas variables puede ser manipulada para enfriar (o calentar) a las personas.</p>
+<p>El aire acondicionado reduce la temperatura del aire y (si es necesario) la humedad del aire. Una temperatura del aire más baja aumenta la pérdida de calor del cuerpo por convección, mientras que una humedad del aire más baja aumenta la pérdida de calor del cuerpo por evaporación de la humedad de la piel (que también ocurre cuando no estamos sudando). Los ventiladores aumentan la velocidad del aire, lo que acelera la pérdida de calor de la piel por convección y evaporación. La pérdida de calor por evaporación aumenta la velocidad del aire al cuadrado. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/cooling-effect-moving-air_dithered.png" alt='Aire en movimiento. Foto:[Amancay Maahs].(https://www.flickr.com/photos/amanky/426137424).' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/cooling-effect-moving-air_hudfb8720d491054e2941400b7d177d6d7_151856_800x800_fit_q90_h2_box.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/cooling-effect-moving-air_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Aire en movimiento. Foto:[Amancay Maahs].(<a href="https://www.flickr.com/photos/amanky/426137424%29" target="_blank" >https://www.flickr.com/photos/amanky/426137424)</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El enfriamiento radiante, otro método para mantener a los humanos cómodos, funciona al descender la temperatura de las superficies en un espacio. Esto se logra haciendo circular agua fría a través de tuberías de plástico en las superficies de los edificios, como paredes, suelos, techos o en paneles modulares. Los sistemas radiantes enfrían a las personas aumentando la pérdida de calor del cuerpo a través de la radiación, pero también hay una disminución indirecta, limitada y retardada de la temperatura del aire. No sucede así en el caso de los ventiladores, que no tienen ningún efecto en la temperatura del aire. <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> De cualquier manera, tanto los ventiladores como los sistemas de enfriamiento radiante pueden proporcionar confort térmico a temperaturas del aire más altas en condiciones de calor.</p>
+<h2 id="por-qué-el-aire-acondicionado-es-ineficiente">Por qué el aire acondicionado es ineficiente</h2>
+<p>El aire acondicionado es el método menos eficiente de enfriar a las personas, ya que implica que todo el aire de un espacio cerrado debe ser refrigerado (y deshumidificado, si es necesario) para enfriar a los ocupantes. Cuanto más grande sea el espacio y menos personas haya en él, más energía se necesitará para enfriar a cada ocupante. Al igual que el aire acondicionado, los ventiladores enfrían a las personas fomentando la pérdida de calor del cuerpo a través de la convección y la evaporación. Sin embargo, a diferencia del aire acondicionado, el aire en movimiento requiere mucha menos energía que su refrigeración.</p>
+<blockquote>
+<p>Mover el aire requiere mucho menos energía que refrigerarlo. Además, el efecto de enfriamiento que tienen los ventiladores puede aplicarse localmente y con efecto inmediato</p>
+</blockquote>
+<p>Además, el efecto de enfriamiento que tienen los ventiladores puede aplicarse localmente y con efecto inmediato. Los ventiladores hacen que el aire circule alrededor del cuerpo, mientras que no afecta al aire en aquellas partes desocupadas de un espacio. Asimismo, no es necesario mantener la circulación del aire cuando no hay nadie. Al entrar en una habitación, encender el ventilador tiene un efecto inmediato. El aire acondicionado, por otro lado, necesita tiempo para enfriar un espacio. En consecuencia, el espacio a menudo será climatizado incluso cuando no haya nadie en su interior, con el propósito de ofrecer un confort inmediato al entrar en él.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/vintage-desk-fan_dithered.png" alt='Ventilador de escritorio vintage, de WestinghouseWikipedia Commons.' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/vintage-desk-fan_hua14b1acbe29294b1adc515847fd4499b_116924_800x800_fit_q90_h2_box.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/vintage-desk-fan_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ventilador de escritorio vintage, de Westinghouse<a href="http://commons.wikimedia.org/wiki/File:Westinghouse_Goodness.JPG" target="_blank" >Wikipedia Commons</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Al igual que los ventiladores, la refrigeración radiante es mucho más eficiente que el aire acondicionado, porque no hay necesidad de enfriar el aire. Además, la radiación es a menudo el principal método de intercambio de calor entre el cuerpo y el ambiente interior. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<p>Sin embargo, comparado con los ventiladores, el enfriamiento radiante tiene dos desventajas. En primer lugar, como el aire acondicionado, es de acción lenta, lo que significa que necesita ser operado continuamente para ofrecer una comodidad inmediata. En segundo lugar, es considerablemente más caro que los ventiladores y no es tan fácil de instalar en los edificios existentes.</p>
+<p>Otra desventaja del aire acondicionado es que requiere un espacio cerrado y hermético para mantener el aire refrigerado en el interior. Los ventiladores de circulación y los sistemas de refrigeración radiante, sin embargo, funcionan tanto en el interior como en el exterior. Pueden combinarse con la ventilación natural, aprovechando un efecto adicional de enfriamiento cuando esté disponible. Ambos sistemas de refrigeración aparecen en la naturaleza: el viento es el equivalente natural de un ventilador, mientras que las superficies frías de los mares, lagos o cuevas son el equivalente de las superficies de refrigeración radiante de un edificio.</p>
+<h2 id="el-potencial-de-enfriamiento-de-los-ventiladores">El potencial de enfriamiento de los ventiladores</h2>
+<p>El efecto de enfriamiento que tiene un ventilador es importante. Una velocidad del aire de aproximadamente 1 m/s es capaz de compensar un aumento de 3°C (5,4°F) en la temperatura interior, mientras que una velocidad del aire de 3 m/s tiene un efecto de enfriamiento de aproximadamente 7°C (12,6°F). <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> A nivel comparativo, estas modestas velocidades del aire se corresponden con una velocidad del viento exterior de Beaufort 1 y 2, respectivamente. Cuanto menor es la humedad del aire, mayor es el efecto de enfriamiento de una velocidad del aire determinada. La configuración de los ventiladores es otra variable importante, porque el flujo de aire de los ventiladores normalmente sólo alcanza ciertas partes del cuerpo.</p>
+<p>Los ventiladores de techo producen menos enfriamiento a una determinada velocidad del aire, ya que afectan a menos parte del cuerpo. Sin embargo, aportan otras ventajas: no ocupan espacio en el suelo o en el escritorio y pueden tener diámetros muy grandes, lo que les permite enfriar un área mayor. Los ventiladores de pie dirigidos a la espalda o al pecho proporcionan el mayor enfriamiento, mientras que el efecto de los ventiladores de escritorio se sitúa entre estos dos extremos –la cara parece ser muy sensible al efecto de enfriamiento del aire en movimiento.<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/industrial-ceiling-fan_dithered.png" alt='Ventilador de techo industrial. Imagen: Wikipedia Commons.' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/industrial-ceiling-fan_hu07adc71f42352202e00db078de1c5ac2_164214_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/industrial-ceiling-fan_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ventilador de techo industrial. Imagen: <a href="http://commons.wikimedia.org/wiki/File:Big_Ass_Fans_Powerfoil_X2.0_Plus_Fan.png" target="_blank" >Wikipedia Commons</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En los últimos años, diversos estudios han calculado qué efecto de enfriamiento tienen diferentes configuraciones de ventiladores a varias velocidades de aire y humedad relativas. Un estudio realizado en 2013 con ventiladores de techo encontró que los sujetos se sentían cómodos a temperaturas de hasta 30°C y 60% de humedad relativa con velocidades del aire de 1,2 m/s; y hasta 30°C y 80% de humedad relativa con velocidades del aire de 1,6 m/s. Con el 60% de humedad relativa, los sujetos estarían cómodos a temperaturas de más de 30°C, pero estas condiciones no fueron investigadas. Durante el experimento, que tuvo lugar en una cámara climática, los sujetos llevaban ropa ligera (0,5 clo) y realizaban actividades livianas (por ejemplo, trabajos con ordenador en un escritorio). <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<blockquote>
+<p>Estudios recientes han demostrado que las personas pueden estar cómodas a 30°C (86°F) y 80% de humedad relativa con una velocidad del aire de sólo 1,6 m/s</p>
+</blockquote>
+<p>Los mismos autores llevaron a cabo un estudio similar con ventiladores de pie controlados personalmente. En este caso, los sujetos estaban cómodos a una temperatura de 30°C (86°F) y 60% de humedad relativa con una velocidad del aire de sólo 1 m/s. Sin embargo, la velocidad máxima del aire de los ventiladores de pie no fue suficiente para proporcionar confort térmico a 30°C y 80% de humedad relativa, en cuyo caso sólo el 60% de los sujetos se sintieron cómodos (los estándares de confort requieren que al menos el 80% de las personas se sientan cómodas en una condición determinada). Los investigadores llegaron a la conclusión de que el aumento de la velocidad máxima del aire podría mejorar aún más los resultados. <sup id="fnref2:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>Ambos estudios también encontraron que ninguno de los sujetos se quejaba de ruido o de ojos secos como consecuencia del uso de ventiladores. Experimentos anteriores con ventiladores controlados personalmente mostraron que el confort térmico podía mantenerse hasta 31°C (88°F) y una humedad relativa del 50% con una velocidad del aire de 1,6 m/s, mientras que estudios en Tailandia y Hong Kong han demostrado que los sujetos se sentían cómodos a temperaturas muy superiores a los 30°C (86°F) y una humedad relativa del 85% con velocidades del aire de hasta 3 m/s. Sin embargo, hay que señalar que en estos estudios no se preguntó a los sujetos sobre la posible incomodidad debida al ruido o a la sequedad de los ojos.  <sup id="fnref3:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<h2 id="ahorro-de-energía-de-los-ventiladores">Ahorro de energía de los ventiladores</h2>
+<p>Los ventiladores pueden ahorrar grandes cantidades de energía, ya sea disminuyendo el uso de energía del aire acondicionado, o eliminando completamente su necesidad. Los estándares internacionales de confort dictan una zona de confort muy estrecha para los edificios con aire acondicionado en verano, que está entre 23°C y 26°C. Sin embargo, si el aire acondicionado se complementa con el efecto de enfriamiento de los ventiladores, se puede permitir que el interior de un edificio fluctúe dentro de un rango de temperatura más amplio, manteniendo al mismo tiempo el confort térmico de los ocupantes.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/ceiling-fan_dithered.png" alt='El modelo Aeratron E503, de 126 cm de diámetro, uno de los ventiladores de techo probados, consume sólo de 4 a 8 vatios para un rango de uso normal.' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/ceiling-fan_hufcd4b9addaf2e61a14255d1ed2d0cc96_25658_800x800_fit_q90_h2_box.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/ceiling-fan_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>El modelo <a href="http://aeratron.org/e503/" target="_blank" >Aeratron E503</a>, de 126 cm de diámetro, uno de los ventiladores de techo probados, consume sólo de 4 a 8 vatios para un rango de uso normal.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Las temperaturas más cálidas de los termostatos pueden producir grandes ahorros de energía. Por cada aumento de grado centígrado por encima de 25°C (77°F) en el ajuste del termostato en verano, se puede lograr un ahorro de energía de refrigeración de entre 9 y 12% (5% por grado F). Obviamente, también debe tenerse en cuenta el consumo de energía de los ventiladores. En el caso de los ventiladores de techo que funcionan a altas velocidades, el uso de energía es aproximadamente el 2% del ahorro de aire acondicionado, dejando un ahorro neto de entre el 7 y el 10% por cada grado centígrado de aumento del termostato. Por consiguiente, si los ventiladores permiten un punto de ajuste del termostato de, por ejemplo, 29°C (84°F) en lugar de 24°C (75°F), el ahorro neto asciende a 35-50%. <sup id="fnref2:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<p>La nueva generación de ventiladores con motores de corriente continua y cojinetes de levitación magnética tienen un consumo de energía notablemente bajo. En el estudio mencionado anteriormente, el confort térmico de hasta 30°C (86°F) podría ser proporcionado por ventiladores que usan menos de 10 vatios, aumentando el ahorro de energía hasta un 70%. Incluso los ventiladores de muy bajo voltaje (3W) que producen una velocidad del aire de 1 m/s cerca de cada ocupante son capaces de compensar un aumento de la temperatura de 3°C (5,4°F), ahorrando alrededor del 30% de la energía de refrigeración. Un beneficio adicional del bajo uso de energía de estos ventiladores es que pueden ser funcionar fácilmente con baterías de energía durante los apagones. <sup id="fnref4:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<blockquote>
+<p>Un beneficio adicional del bajo uso de energía de estos ventiladores es que pueden funcionar fácilmente con baterías de energía a través de la energía durante los apagones.</p>
+</blockquote>
+<p>En climas más moderados, el uso de ventiladores en combinación con la ventilación natural o con sistemas de refrigeración radiante podría permitir fácilmente a la gente deshacerse por completo de los aires acondicionados. Aunque la ventilación natural puede ser muy efectiva en un edificio bien diseñado, evitando la necesidad de ventiladores durante la mayor parte del año, su efectividad depende de las condiciones del viento exterior. Por lo tanto, los ventiladores pueden actuar como un respaldo durante los días sin viento. Además, no todos los ocupantes pueden estar lo suficientemente cerca de una ventana como para disfrutar del efecto refrigerante de la ventilación natural.</p>
+<p>Los ventiladores también funcionan bien junto con los sistemas de enfriamiento radiante de acción lenta, porque pueden proporcionar comodidad instantánea en previsión de la llegada del enfriamiento radiante, acortando los tiempos de preenfriamiento. <sup id="fnref5:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>Si los ventiladores permitieran a la gente deshacerse del aire acondicionado por completo, el ahorro de energía en refrigeración podría suponer más del 90%.  <sup id="fnref3:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<h2 id="limitaciones-de-los-ventiladores">Limitaciones de los Ventiladores</h2>
+<p>Cuanto más rápido se mueva el aire sobre la piel, más rápido desaparecerá el calor del cuerpo. Desafortunadamente, hay un límite fundamental para el efecto de enfriamiento de los ventiladores: sólo pueden proporcionar enfriamiento a temperaturas del aire inferiores a la temperatura media de la piel, que es de unos 35°C (95°F). Los ventiladores no pueden enfriar a las personas por encima de ese límite, porque el aire en movimiento no puede reducir la temperatura de la piel por debajo de la temperatura ambiente, no importa cuán alta sea la velocidad del aire.</p>
+<p>A pesar de esta limitación, los ventiladores siguen siendo extremadamente útiles a temperaturas superiores a los 35°C (95°F), porque pueden utilizarse junto con el aire acondicionado. Por ejemplo, en lugar de enfriar un espacio hasta los 24°C (75°F), el aire acondicionado puede enfriarlo hasta 29°C (84°F), que es una temperatura cómoda si se combina con ventiladores. Cuando se usa en tándem, el ahorro de energía durante las olas de calor sería de alrededor del 50% comparado con el uso de aire acondicionado solamente.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/under-desk-fan_dithered.png" alt='Ventilador bajo el escritorio para un flujo de aire controlado localmente. Fuente:  [^11]' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/under-desk-fan_hu5f794b8b2514d56d0f05248b44f1749e_67192_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/under-desk-fan_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ventilador bajo el escritorio para un flujo de aire controlado localmente. Fuente:  [^11]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Otro límite a la velocidad del aire es la posible perturbación de papeles sueltos, que puede convertirse en un problema en las oficinas a velocidades de ventilador superiores a 1 m/s. Esto puede ser resuelto con pesas de papel, o ubicando ventiladores debajo de los escritorios, apuntando al diafragma. Otra solución sería la tan proclamada oficina sin papel.<sup id="fnref4:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<h2 id="mayor-confort">Mayor Confort</h2>
+<p>El uso de ventiladores puede mejorar el confort térmico de múltiples maneras. La principal diferencia entre el aire acondicionado y los ventiladores es que el aire acondicionado somete a todas las personas de un espacio al mismo ambiente térmico, mientras que los ventiladores permiten la creación de microclimas personales. Las personas reaccionan de manera diferente a temperaturas similares, así como se visten con más o menos ropa y tienen diferentes niveles de actividad. Por lo tanto, es muy inusual que las personas alcancen la unanimidad en lo que al ajuste del termostato se refiere. En las oficinas, este problema se ve a menudo exacerbado por la tendencia a sobreenfriar el edificio, obligando a algunas personas a llevar suéteres gruesos o incluso a usar calefactores eléctricos mientras que las temperaturas exteriores pueden superar con creces los 30°C (86°F).</p>
+<blockquote>
+<p>El aire acondicionado somete a todas las personas que comparten un espacio al mismo ambiente térmico, mientras que los ventiladores permiten la creación de microclimas personales</p>
+</blockquote>
+<p>A diferencia del aire acondicionado, los ventiladores permiten la coexistencia de diferentes ambientes térmicos en un mismo espacio. Cuando la gente utiliza ventiladores personales en sus escritorios, se está ejerciendo control sobre el propio ambiente térmico, lo que conlleva una gran mejora en el confort relativo de uno mismo. Los estudios también muestran cómo los ventiladores pueden mejorar significativamente la percepción que las personas tienen de la calidad del aire, posiblemente al alterar la termorregulación natural del cuerpo, a través de la cual, los olores corporales y los bioefluvios de la piel llegan a las vías respiratorias. <sup id="fnref6:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Al igual que el aire acondicionado, los ventiladores ofrecen una solución en regiones plagadas de insectos voladores, porque las corrientes turbulentas de aire que provocan los ventiladores dificultan el vuelo de éstos. <sup id="fnref5:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<h2 id="por-qué-se-infravalora-el-uso-de-ventiladores">¿Por qué se infravalora el uso de ventiladores?</h2>
+<p>Si los ventiladores son tan efectivos y cómodos, entonces ¿por qué no está más extendido su uso? La respuesta está en que, hasta hace poco, los estándares de confort internacionales limitaban el movimiento de aire en interiores a una velocidad de unos escasos 0,2 m/s, para evitar así las corrientes de aire. Obviamente, evitar las corrientes de aire es de gran utilidad durante la temporada de calefacción, ya que en ese caso el poderoso efecto de enfriamiento del aire en movimiento es contraproducente. Sin embargo, limitar al mismo nivel la velocidad del aire en verano, sólo puede explicarse por el hecho de que los estándares de confort americanos están escritos por la organización nacional de la industria de refrigeración y calefacción del aire (ASHRAE), que protege y promociona sus propios productos. (La normativa de confort fuera de los EEUU, como la ISO 7730 y la EN 15251, están fuertemente influenciadas por la ASHRAE). <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>Afortunadamente, estos estándares de confort han sido cada vez más criticados en los últimos años, ya que cada vez más, los estudios demuestran que, a velocidades del aire más elevadas, mayor pueden ser los efectos refrescantes durante los meses cálidos. En 2010, el estándar de confort térmico &ldquo;ASHRAE 55&rdquo; fue revisado para permitir mayores velocidades del aire en interiores: hasta 0,8 m/s sin control local de la velocidad del ventilador, y hasta 1,2 m/s con control local de la velocidad del ventilador. Además, a niveles de actividad más altos estos límites no son aplicables en absoluto.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/efficient-fan_dithered.png" alt='El modelo Toshiba Sient de 30 cm de diámetro, uno de los ventiladores de pie probados. El consumo de energía para un rango de uso normal es de 2 a 8 vatios.' data-original="/es/2014/09/the-revenge-of-the-circulating-fan/images/efficient-fan_hu9aad15606c49733fdfc512cb44b09be5_87204_800x800_fit_q90_h2_box.webp" data-dither="/es/2014/09/the-revenge-of-the-circulating-fan/images/dithers/efficient-fan_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>El modelo <a href="http://www.toshiba.co.jp/living/fans/pickup/f-dln100_01.htm" target="_blank" >Toshiba Sient</a> de 30 cm de diámetro, uno de los ventiladores de pie probados. El consumo de energía para un rango de uso normal es de 2 a 8 vatios.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En el documento ASHRAE 55-2013, que se presentó hace menos de un año, se dio un paso más al definir la velocidad del aire no como la velocidad máxima de un solo punto, sino como la &ldquo;velocidad media del aire&rdquo;, es decir, la velocidad media del aire a nivel de los tobillos, la parte media del cuerpo y el cuello. Esto permite que los sistemas de ventilación incluyan velocidades máximas de aire a nivel local más altas en la zona ocupada, ya que los flujos de los ventiladores rara vez son igual de altos en los tres niveles. Aunque pasará algún tiempo antes de que los arquitectos, los ingenieros y los códigos nacionales de construcción adopten las nuevas directrices, parece que el ventilador se ha puesto de nuevo en marcha.</p>
+<h2 id="la-arquitectura-del-aire-acondicionado">La arquitectura del aire acondicionado</h2>
+<p>Entre tanto, sin embargo, se ha hecho mucho daño. Si bien un interés renovado en los ventiladores tendría como consecuencia el ahorro de grandes cantidades de energía al refrigerar los edificios, existen ciertas limitaciones para alcanzar este objetivo, porque el uso generalizado del aire acondicionado ha influido demasiado en la arquitectura. Antes de la llegada del aire acondicionado, los edificios en climas cálidos estaban diseñados para que resultasen cómodos durante los meses de verano sin el uso de energía. Fomentaban la ventilación natural, entre otras cosas, mediante grandes pórticos, techos altos, respiraderos de techo, ventanas de guillotina, pozos de ventilación, travesaños sobre las puertas interiores y patios. Algunas casas fueron incluso construidas sobre pilotes para permitir una mayor circulación de aire. <sup id="fnref5:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref2:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref1:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref1:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<p>Tradicionalmente, los edificios en climas cálidos estaban construidos con materiales pesados; podían estar rematados por grandes aleros y techos de estaño reflectantes, y a su alrededor, crecer árboles que proporcionasen sombra. De esta manera, se conseguía mantener a raya la radiación solar. El uso generalizado del aire acondicionado, sin embargo, ha provocado que todos estos elementos de construcción hayan desaparecido, estimulando por el contrario aquellos materiales más ligeros y baratos. Los bloques de oficinas en forma de H, T y L, que facilitaban la ventilación cruzada, han sido sustituidos por enormes bloques cuadrados de plantas muy profundas. También han surgido unos tipos de edificios completamente nuevos, como torres de oficinas con fachadas totalmente acristaladas o centros comerciales cerrados, que serían simplemente inhabitables sin el aire acondicionado debido al efecto invernadero. En estos edificios, los ventiladores podrían reducir el gasto energético que suponen los sistemas de aire acondicionado, pero aun así el consumo de electricidad seguiría siendo muy alto. <sup id="fnref6:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref3:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref2:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup id="fnref2:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>“Cox, Stan. 2012. <em>Losing our cool: uncomfortable truths about our air-conditioned world (and finding new ways to get through the summer)</em>. New York: New Press.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>&ldquo;<a href="http://www.eceee.org/library/conference_proceedings/eceee_Summer_Studies/2005c/Panel_2/2246henderson/paper" target="_blank" >Home air conditioning in Europe – how much energy would we use if we became more like American households?</a>&rdquo;
+(PDF), George Henderson, 2005&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>&ldquo;<a href="http://www.eia.gov/pressroom/releases/press366.cfm" target="_blank" >While household air conditioners have become both more prevalent and more efficient, new data highlight opportunities to lower energy bills</a>&rdquo;, US Energy Information Administration, August 2011&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>&ldquo;<a href="http://uc-ciee.org/downloads/PeakPowerImpacts.Modera.PDF" target="_blank" >Peak Demand Impacts of Residential Air-Conditioning Conservation Measures</a>&rdquo;,
+Burke Treidler and Mark Modera, Lawrence Berkeley Laboratory, 1994&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>&ldquo;<a href="http://enduse.lbl.gov/Info/LBNL-49947.pdf" target="_blank" >The role of building technologies in reducing and controlling peak electricity demand</a>&rdquo;
+(PDF), Jonathan Koomey and Richard E. Brown, LBNL, 2003&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>“Growth in mobile air-conditioning: a socio-technical research agenda”, Graham Parkhurst &amp; Richard Parnaby, in <em>Comfort in a Lower Carbon Society (Building Research and Information)</em>, Elizabeth Shove, 2008.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="http://www.allhandfans.com/" target="_blank" >http://www.allhandfans.com/</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>&ldquo;<a href="http://www.yourbuilding.org/library/1_tec25.pdf" target="_blank" >Circulating fans for summer and winter comfort and indoor energy efficiency</a>&rdquo;
+(PDF), Richard Aynsley, 2007&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p><em>Human Thermal Environments: The Effects of Hot, Moderate, and Cold Environments on Human Health, Comfort, and Performance</em>, Third Edition, Ken Parsons, 2014&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p><em>Thermally Active Surfaces in Architecture</em>, Kiel Moe, 2010&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>&ldquo;<a href="http://escholarship.org/uc/item/2d656203" target="_blank" >Air movement as an energy efficient means toward occupant comfort</a>&rdquo;, Edward Arens, Hui Zhang, Wilmer Pasut, Yongchao Zhai, Tyler Hoyt, Li Huang, November 2013. Prepared for State of California Air Resources Board, Research Division.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p><em>Adaptive Thermal Comfort: Principles and Practice</em>, Fergus Nicol, Michael Humphreys &amp; Susan Roaf, 2012&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./es/tags/heating-and-cooling/" class="">heating and cooling</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="./es/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/images/dithers/restoring-old-way-of-warming_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Calentar a la Gente, No al Edificio</h3>
+		<p class="index-summary">La mayoría de los sistemas actuales de calefacción se basan en calentar el aire. Parece una opción obvia, pero hay alternativas mucho más válidas.</p>
+		<time class="published">11 de febrero de 2015</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./es/2011/02/insulation-first-the-body-then-the-home/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2011/02/insulation-first-the-body-then-the-home/images/dithers/insulated-sheep_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Aislamiento: Primero el Cuerpo, Luego la Casa</h3>
+		<p class="index-summary">La ropa interior térmica moderna ofrece la posibilidad de bajar el termostato sin tener que sacrificar ni la comodidad ni el lucimiento.</p>
+		<time class="published">27 de febrero de 2011</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Como diseñar un mercante a vela para el siglo 21?</h3>
+		<p class="index-summary">Es sorprendentemente difícil construir un mercante a vela neutro en emisiones de carbono; especialmente en estos tiempos porque nuestros estándares de seguridad, salud, higiene, confort y comodidad han cambiado profundamente desde la Era de los Grandes Veleros</p>
+		<time class="published">11 de mayo de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./es/2021/02/vertical-farming-does-not-save-space/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Las granjas verticales no ahorran espacio</h3>
+		<p class="index-summary">Si la electricidad para las granjas agrícolas verticales proviene de paneles solares, la producción de energía implica ocupar tanto espacio como el que desocupa la propia actividad.</p>
+		<time class="published">16 de febrero de 2021</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="es/about">
+  Acerca de
+</a>
+    <a href="es/power">
+  Power
+</a>
+    <a href="es/about/team">
+  Colophon
+</a>
+    <a href="es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

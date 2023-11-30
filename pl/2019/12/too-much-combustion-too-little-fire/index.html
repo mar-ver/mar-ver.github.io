@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Za dużo spalania, za mało ognia | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Za dużo spalania, za mało ognia" />
+<meta name="twitter:title" content="Za dużo spalania, za mało ognia"/>
+
+<meta property="og:description" content="Ogień, którym człowiek posługuje się już przeszło czterysta tysięcy lat, pozostaje najbardziej wszechstronną i zrównoważoną technologią jaką zna ludzkość." />
+
+<meta name="twitter:description" content="Ogień, którym człowiek posługuje się już przeszło czterysta tysięcy lat, pozostaje najbardziej wszechstronną i zrównoważoną technologią jaką zna ludzkość."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./pl/2019/12/too-much-combustion-too-little-fire/" />
+
+
+
+<meta property="og:image" itemprop="image" content="pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" />
+<meta property="og:image:secure_url" content="pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-12-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-29T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Off-the-grid" />
+<meta property="article:tag" content="Renewable Energy" />
+<meta property="article:tag" content="History" />
+
+</head>
+<body id="za-du%C5%BCo-spalania-za-ma%C5%82o-ognia">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="pl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="pl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="pl/power">Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" pl/about/ " data-nav="about" >
+                <span>O nas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" pl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Proste technologie, proste rozwiązania</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" pl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemy zaawansowanych technologii</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" pl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Zapomniane technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" pl/offline-reading/ " data-nav="offline-reading" >
+                <span>Czytanie offline</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" pl/archives/ " data-nav="archive" >
+                <span>Archiwum</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" pl/donate/ " data-nav="donate" >
+                <span>Wspomóż nas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  obsolete-technology '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Za dużo spalania, za mało ognia</h1>
+
+				<p class="summary">
+					Ogień, którym człowiek posługuje się już przeszło czterysta tysięcy lat, pozostaje najbardziej wszechstronną i zrównoważoną technologią jaką zna ludzkość.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">29 grudnia 2019</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="./pl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Przekład</span>
+						
+							<span class="author"><a href="./pl/translators/micha%C5%82-kolbusz/">Michał Kolbusz</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="./2019/12/too-much-combustion-too-little-fire/">en</a>
+						
+							<a href="./fr/2019/12/too-much-combustion-too-little-fire/">fr</a>
+						
+							<a href="./nl/2019/12/too-much-combustion-too-little-fire/">nl</a>
+						
+							<a href="./es/2019/12/too-much-combustion-too-little-fire/">es</a>
+						
+							<a href="./pt/2019/12/too-much-combustion-too-little-fire/">pt</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" alt='Ilustracja: Diego Marmolejo.' data-original="/pl/2019/12/too-much-combustion-too-little-fire/images/toasterbanner_hu25b5b37df6ef64ef1183e42eddb543ec_2412457_800x800_fit_q90_h2_box.webp" data-dither="/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ilustracja: <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ogień, który pali się w naszych domostwach już przeszło czterysta tysięcy lat, pozostaje najbardziej wszechstronną i zrównoważoną technologią jaką zna ludzkość. Od tysiącleci ogień zapewnia nam to, do czego dzisiaj używamy szeregu nowoczesnych urządzeń takich jak: piekarnik, płyta grzewcza, żarówka, lodówka, zamrażarka, bojler, suszarka bębnowa i telewizja. W przeciwieństwie do tych nowoczesnych technologii, ogień aby działać nie potrzebuje rozbudowanej, scentralizowanej infrastruktury - wystarczą łatwo dostępne lokalne materiały.</p>
+<h2 id="od-ogniska-do-elektrowni">Od Ogniska do Elektrowni</h2>
+<p>Szacuje się, że człowiek świadomie korzysta z ognia już 300-400 tys. lat. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Aż do XX wieku, ogień powstający ze spalania biomasy był jedynym zużywającym energię &ldquo;urządzeniem domowym&rdquo; - bez względu na to, czy ludzie mieszkali w jaskini, w jurcie czy w murowanym budynku. Pierwsze ludzkie schronienia były stawiane z potrzeby podtrzymywanie ognia, miały ochraniać go przed wiatrem i deszczem.</p>
+<p>Przez większość ludzkiej historii, ogień miał formę otwartego paleniska, rozpalanego na ziemi po środku schronienia. Dym wydostawał się przez otwór w dachu. W początkach XIV wieku  w Europie, otwarte paleniska były stopniowo zastępowane przez paleniska połączone z kominem, przeważnie wbudowane w ścianę w formie murowanego pieca. W zimniejszych regionach (takich jak Skandynawia) domy wyposażano w bardziej wydajne <a href="./2008/12/sunbathing-in-the-living-room-oven-stoves-and-heat-walls/" >piece kaflowe</a>, a w cieplejszych stronach (w basenie Morza Śródziemnego) ludzie wciąż używali kotłów - przenośnych metalowych naczyń, w których palono węgiel drzewny. W XVIII i XIX wieku murowane piece zaczęto zastępować żeliwnymi.</p>
+<p>Ogień zajmował w domu centralną pozycję, aż do XX wieku, kiedy coraz częściej zaczął ustępować miejsca szeregowi nowo wynalezionych urządzeń, podłączonych do scentralizowanej infrastruktury. Dzisiaj, nawet w społeczeństwach uprzemysłowionych, metalowe piece są rzadkością. Otwarty ogień został zakazany, w szczególności w miastach. W nowych budynkach nie znajdziemy już kominków, kominów czy otworów w suficie.</p>
+<blockquote>
+<p>Ogień zajmował w domu centralną pozycję, aż do XX wieku, kiedy coraz częściej zaczął ustępować miejsca szeregowi nowo wynalezionych urządzeń, podłączonych do scentralizowanej infrastruktury.</p>
+</blockquote>
+<p>&ldquo;Paradoksalnie&rdquo;, pisze Luis Fernandez-Galiano w <em>Fire and Memory, On Architecture and Energy</em> (<em>Ogień i Pamięć, Rzecz o Architekturze i Energii</em>), &ldquo;ludzkie schronienia, których życie rozpoczęło się jako miejsce ochrony ogniska domowego, dzisiaj unikają żywego ognia&rdquo;. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>  W <em>Fire: A Brief History</em> (<em>Krótka Historia Ognia</em>), Stephen J. Pyne dokonuje następującej obserwacji; &ldquo;Mieszkańcy miast mogą latami nie widzieć żywego ognia. Jeśli zobaczą płomienie to będę one zwykle dziełem wypadku czy podpalenia i zostaną uznane, prawie zawsze, za zagrożenie&rdquo;. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>Pomimo tego, ogień nie zniknął w zupełności. Tysiące pojedynczych, domowych palenisk zastąpiono kilkoma gigantycznymi paleniskami w elektrowniach. W innych miejscach również płoną ognie. &ldquo;W naszej gospodarce obfitości&rdquo;, pisze Stephen J. Pyne, &ldquo;ogień jest w sercu magii - w fabrykach, samochodach, domach, elektrowniach [&hellip;]. Nowoczesne miasto pozostało ekosystemem napędzanym ogniem […]. Zaprzestańcie spalania, a miasto stanie w miejscu. Otwarty ogień jednak zniknął. Tak jak czarna dziura pośrodku kosmosu, ogień kształtował wszystko co go otaczało, sam pozostając niewidocznym.&rdquo;</p>
+<p>Uprzemysłowienie nie zlikwidowało spalania, a jedynie zmieniło jego formę. Co więcej, ogień zaczął płonąć dzięki nowym, obfitym źródłom energii: paliwom kopalnym. Aż do XX wieku, prawie wszystkie rozpalane przez ludzi ognie były wynikiem spalanie surowców odnawialnych: drewna, trawy, łajna <a href="./pl/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/" >(torf i wczesne użycie węgla kamiennego są wyjątkiem)</a>. Dzisiaj w społeczeństwach uprzemysłowionych prawie każdy ogień &ldquo;w sercu magii&rdquo; płonie dzięki gazowi, węglowi i ropie naftowej.</p>
+<h2 id="ogień-kontra-elektryczność">Ogień Kontra Elektryczność</h2>
+<p>Przyjmując globalną perspektywę, zobaczymy, że kilka miliardów ludzi nadal mieszka w domach zbudowanych wokół staroświeckiego ognia, często w formie prostego ogniska. Niektórzy mieszkańcy Zachodniego Świata postrzegają tę praktykę jako zacofaną i prymitywną, i uważają że powinna zostać zakazana - nawet jeśli oparta jest na wykorzystaniu surowców odnawialnych.</p>
+<p>W 2011 roku, ONZ i Bank Światowy, w wspólnej inicjatywie pt. &ldquo;Zrównoważona Energia dla Wszystkich&rdquo;, zadeklarowali &ldquo;zapewnienie powszechnego dostępu do nowoczesnych usług energetycznych do 2030 roku”.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Co kryje się za &ldquo;nowoczesnymi usługami energetycznymi&rdquo;, nie jest do końca jasne, ale widać że przede wszystkim chodzi o wykorzystanie elektryczności i gazu - co praktycznie oznacza spalanie paliw kopalnych.</p>
+<blockquote>
+<p>“Mieszkańcy miast postrzegają ogień jako technologię, którą można zastąpić innymi, bardziej zaawansowanymi technologiami&rdquo;.</p>
+</blockquote>
+<p>Inicjatywy tego typu sugerują, że &ldquo;nowoczesne usługi energetyczne&rdquo; są lepsze od tradycyjnego ogniska i paleniska. &ldquo;Mieszkańcy miast postrzegają ogień jako technologię, którą można zastąpić innymi, bardziej zaawansowanymi technologiami&rdquo;, pisze Stephen J. Pyne, &ldquo;Jeśli ogień jest urządzeniem, chcą [oni] ulepszonego ognia i aktualizacji do wersji bez dymu&rdquo;.</p>
+<p>Przykładami takiego, lepszego ognia i ognia bez dymu, są panele fotowoltaiczne i turbiny wiatrowe. Dzięki nim, zakończymy w końcu naszą zależność od paliw kopalnych - w tym momencie wciąż niezbędnych do zapewnienia powszechnego dostępu do &ldquo;nowoczesnych usług energetycznych&rdquo;. Ale zadajmy sobie pytanie - jaka jest rzeczywista efektywność otwartego paleniska w porównaniu  z &ldquo;nowoczesnymi usługami energetycznymi&rdquo; (wliczając w to, te oparte na zrównoważonych źródłach energii)? A co ze zdrowiem, bezpieczeństwem i zrównoważonym wykorzystaniem? Co tak naprawdę chcemy powiedzieć, kiedy mówimy, że „elektryczność albo gaz są lepsze od tradycyjnego ognia”?</p>
+<h2 id="wszechstronność-ognia">Wszechstronność Ognia</h2>
+<p>Jednym z powodów dlaczego współcześni ludzie, w społeczeństwach uprzemysłowionych, postrzegają ogień jako nieefektywny i niezrównoważony jest to, że nie mają wiedzy o tym jak ich przodkowi rzeczywiście go używali. W dzisiejszych czasach, ogień jest uważany za mało wydajny. Jest tak dlatego, ponieważ jego wydajność porównywana jest jedynie, do jednej z szeregu funkcji jaką może spełniać, tj. do ogrzewania pomieszczeń. Jednakże, nasi przodkowie nie korzystali  z ognia jedynie po to, aby ogrzać siebie samych. Używali go również do gotowania, oświetlenia, konserwacji żywności, grzania wody, suszenia ubrań, ochrony przed drapieżnikami i insektami, i do wielu, wielu innych zastosowań.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/hairdryer_dithered.png" alt='Ilustracja: Diego Marmolejo.' data-original="/pl/2019/12/too-much-combustion-too-little-fire/images/hairdryer_hu0f2bd4f09d3e02f7300017ee531b5392_8345522_800x800_fit_q90_h2_box.webp" data-dither="/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/hairdryer_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ilustracja: <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ogień jest niesamowicie wszechstronny - ciężko powiedzieć jakie jego zastosowanie było najwyżej cenione przez naszych przodków. Z tego powodu, jeśli chcemy zmierzyć zużycie energii domowego paleniska i porównać je do nowoczesnych technologii, nie powinniśmy patrzeć jedynie na zużycie energii systemu grzewczego, i do niego porównywać ognia, a powinniśmy przyjrzeć się zużyciu energii w całym gospodarstwie domowym.</p>
+<h2 id="gotowanie-na-ogniu">Gotowanie na Ogniu</h2>
+<p>Jako urządzenie do gotowania, ognia można użyć na wiele rożnych sposób i tym samym zastąpić zaskakująco wiele nowoczesnych urządzeń kuchennych. Ogień nie tylko działa jako kuchenka, ale również jako piekarnik. W trakcie pieczenia czy grillowania, jedzenie obracało się na rożnie i piekło dzięki bezpośredniemu działaniu płomieni. Gliniane naczynie, wkładane w popiół paleniska (&ldquo;piec Holenderski&rdquo;), służyło jako piekarnik. Innym sposobem było pieczenie w wbudowanym w piec piekarniku lub na ścianach komory paleniska. Wykorzystywano również wolno stojące na zewnątrz urządzenia. Gotowanie i smażenie odbywało się w wiszącym nad ogniem kociołku. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>Ogień może spełniać te same funkcje, które zapewniają małe, elektryczne urządzenia kuchenne. Na przykład, możecie sądzić, że ludzie zaczęli jeść tosty dopiero wtedy kiedy pojawiły się tostery (XX wiek). Jednakże, zanim pojawiły się elektryczne opiekacze, ludzie po prostu wkładali chleb na drucianym opiekaczu do ognia. Szybkie przygotowanie gorących napojów również nie rozpoczęło się dopiero z wymyśleniem elektrycznego czajnika - wcześniej ludzie wkładali do kubków rozgrzany do czerwoności żelazny przyrząd, który zagotowywał wodę w kilka sekund. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<blockquote>
+<p>Jako urządzenie do gotowania, ognia można używać na wiele różnych sposób i tym samym zastąpić zaskakująco wiele nowoczesnych urządzeń kuchennych.</p>
+</blockquote>
+<p>Ogień zastępował również dzisiejsze lodówki i zamrażarki. W książce <em>The Food Axis: Cooking, Eating and the Architecture of American Houses</em> (<em>Oś żywności: Gotowanie, Jedzenie i Architektura Amerykańskich Domów</em>), Elizabeth Collins Cromley opisuje jak konserwowano mięso i ryby, przez wieszania ich na wiele tygodni w dymie. <sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Najprostszą metodą wędzenia, stosowaną przez naszych przodków, było zawieszanie kawałków mięsa i ryb w kuchennym kominie, lub (jeśli nie było komina) wysoko u powały, nad otwartym paleniskiem. Wędzono również w komorze wędzarniczej, która była dostawiona do kuchennego paleniska lub dobudowana, w piwnicy lub na strychu, do komina. Korzystano również z wolno stojących, zewnętrznych wędzarni.</p>
+<p>Powstało wiele innych metod konserwacji żywności opartych na użyciu ognia. Jeśli klimat nie był dostatecznie słoneczny to owoce, warzywa i zioła suszono nad ogniem. Robienie słodkich przetworów owocowych, produkcja sera i masła, były zależne od ciepła ognia. Sól, kluczową do konserwacji żywności, wieszano w pojemniku blisko paleniska, aby nie zawilgotniała. <sup id="fnref2:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<h2 id="rozprowadzanie-ciepła-i-światła">Rozprowadzanie Ciepła i Światła</h2>
+<p>Ogień nie tylko produkuje ciepło i dym - daje również światło. Jako źródło światła, ogień był kiedyś tak wszechstronny, jak dzisiaj jest oświetlenie elektryczne. Blask płomieni nie jaśniał jedynie z wnętrza paleniska czy pieca, ale świecił również z pochodni, łuczyw, a później ze świec i lamp naftowych. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> Ciepło paleniska mogło być rozprowadzane po całym domu. Chociaż kuchnia była z reguły jedynym ogrzewanym w domu pomieszczeniem, to dzięki takim przenośnym urządzeniom jak <a href="./2015/02/restoring-the-old-way-of-warming-heating-people-not-places/" >szkandele i ogrzewacze do stóp</a>, żar węgli można było roznosić po całym domu (zamiast żaru do rozprowadzenie po domu ciepła, używano też termoforów i ceramicznych dzbanków z gorącą wodą, przyp. tłum.).<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>Dzięki ogniowi grzano wodę przeznaczoną do prania i mycia. Praktykę tę kontynuowano kiedy pojawiły się żeliwne piece wolno stojące, często zaopatrzone w płaszcze wodne lub zbiorniki na wodę. Co więcej, ogień suszył pranie, robiąc to samo co dzisiejsze suszarki bębnowe. Ludzie nie zaczęli prasować ubrań dopiero wtedy, kiedy wynalezione zostało żelazko elektryczne. Od czasów średniowiecza, ludzie używali prostych, metalowych żelazek, które rozgrzewano na ogniu lub piecu. Popularne były również bardziej zaawansowane żelazka z duszą, w które wkładano żar lub węgle z paleniska. Niektóre z nich miały nawet małe kominki, którymi uciekał dym, nie pozostawiając nieprzyjemnego zapachu na prasowanych ubraniach. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<blockquote>
+<p>Ludzie nie zaczęli prasować ubrań dopiero wtedy, kiedy wynalezione zostało żelazko elektryczne. Od czasów średniowiecza ludzie używali prostych metalowych żelazek, które rozgrzewano na ogniu lub piecu.</p>
+</blockquote>
+<p>Ogień spełniał w domu jeszcze jedną istotną funkcję. Był centrum dookoła, którego ludzie gromadzili się w celach towarzyskich i po to żeby wymienić informacje. Przez tysiące lat, palenisko było &ldquo;[…] iskrzącą duszą i sercem domu, wokół którego od niepamiętnych czasów, zbierano się i rozmawiano&rdquo;.<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Współcześnie te role przejęły telewizja i telefony komórkowe, ale wątpliwe jest czy kiedykolwiek uda im się skraść czar żywych płomieni. Masa elektronicznych gadżetów, które starają się imitować płomienie ognia - elektryczne świece i ogniska, żarówki LED z migoczącymi efektami płomieni czy nagrania trzaskającego ogniska - zdaje się wskazywać na ukrytą, ludzką tęsknotę za ogniem.</p>
+<h2 id="wydajność-i-zrównoważone-użycie">Wydajność i Zrównoważone Użycie</h2>
+<p>W domu, którego życie tętni dookoła ognia, przygotowywanie gorących napojów i tostów, suszenie ubrań, czy oświetlenie pomieszczeń nie podnosi zużycia całkowitej energii ognia; po prostu wykorzystuje, w sposób bardziej wydajny, energię, która i tak jest zużywana do innych potrzeb, takich jak ogrzewanie pomieszczeń czy gotowanie. Chcąc dzisiaj uzyskać ten sam efekt, musimy włączyć szereg urządzeń elektrycznych, a każde z nich potrzebuje dodatkowej, własnej energii do działania: centralne ogrzewanie, płyta grzewcza, elektryczny toster, suszarka bębnowa, oświetlenie itd.</p>
+<p>Co więcej, musimy brać pod uwagę wydobycie surowców i zużycie energii jakiej potrzeba, żeby zastąpić jedno palenisko, dziesiątkami sprzętów wyprodukowanych w odległych fabrykach  i przywiezionych do konsumentów. A na koniec, powinniśmy uwzględnić ilość energii i materiałów potrzebnych do zbudowania i utrzymania infrastruktury dzięki, której te urządzenia mogą działać, takiej jak sieć elektryczna, sieć gazowa czy łańcuch chłodniczy. Zupełnie inaczej jest z piecem czy paleniskiem, których użycie jest niezależne od scentralizowanej infrastruktury, a do ich budowy wystarczą łatwo dostępne, lokalne materiały.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/plancha_dithered.png" alt='Ilustracja: Diego Marmolejo.' data-original="/pl/2019/12/too-much-combustion-too-little-fire/images/plancha_hue038899fd8dc0d367dce8a89947ad557_6364209_800x800_fit_q90_h2_box.webp" data-dither="/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/plancha_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ilustracja: <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Odnawialne źródła energii, takie jak panele słoneczne i turbiny wiatrowe, nie są wystarczającą odpowiedzią na problemy energetyczne dzisiejszego świata. Trzeba je wyprodukować, przetransportować, utrzymywać, naprawiać, utylizować, a na końcu zastąpić nowymi. Można by pomyśleć, że w ten sam sposób, możemy postępować z coraz to większą masą sprzętu AGD, która ma zaspokoić nasze potrzeby - zaprojektować, wyprodukować, a jak się zużyje to wyrzucić. Nawet produkcja prądu elektrycznego ze spalania biomasy, nie uczyni dzisiejszego systemu zrównoważonym. Chociaż eliminuje ona użycie paliw kopalnych to ogromna ilość energii jest marnowana w procesie konwersji biomasy na elektryczność. Biomasa nie spowoduje również, że znikną fabryki produkujące sprzęt AGD.</p>
+<h2 id="porównanie-zużycia-energii-starożytne-a-nowoczesne-domy">Porównanie Zużycia Energii: Starożytne a Nowoczesne Domy</h2>
+<p>Jeśli przyjrzymy się zużyciu energii we współczesnym Europejskim domu, to zobaczymy, że 64% całej zużywanej energii idzie na ogrzewanie przestrzeni, 15% na grzanie wody, 14% na oświetlenie i urządzenia elektryczne, 5% na gotowanie, a 1% na pozostałe usługi (w tym chłodzenie).<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Większość z tych usług może być świadczona przez ogień. Jak się więc ma, zużycie energii w tradycyjnym domostwie, z otwartym paleniskiem, do zużycia energii w nowoczesnym domu, zbudowanym wokoło różnych urządzeń i centralnej infrastruktury?</p>
+<p>Nie ulega wątpliwości, że zużycie energii nowoczesnego domu jest lepiej udokumentowane niż budynków i schronień z zamierzchłych czasów. Możemy jednak powołać się na badania, których celem było obliczenie wykorzystania energii przez gospodarstwa domowe wciąż korzystające ze starego, dobrego ognia.</p>
+<blockquote>
+<p>Jeśli mierzymy wykorzystanie energii ognia w domu, w porównaniu do współczesnych technologii, to powinniśmy porównać zużycie energii w całym gospodarstwie domowym.</p>
+</blockquote>
+<p>Policzono, że w 2002 roku roczne zużycie drewna w tradycyjnych nepalskich domach wahało się pomiędzy 6 a 33 m³ na gospodarstwo domowe, co odpowiada 35 do 165 giga dżulom (GJ) energii.<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup><sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup>. Patrząc na zużycie energii we współczesnym niemieckim (75 GJ/rok) albo kanadyjskim domu (105 GJ/rok), te liczby wydają się dosyć duże.</p>
+<p>Jednakże, w czasie trwania badań, jeden nepalski dom zamieszkiwało średnio od 5 do 12 domowników, kiedy współczesne, przeciętne zachodnie gospodarstwo domowe skurczyło się do 2 osób. Wynika z tego, że w 2002 roku w nepalskich domach roczne zużycie energii wyniosło od 2 do 33 GJ na osobę. Nowsze badania, nad zużyciem drewna do ogrzewania, gotowania i oświetlenia w Nepalu, podają zużycie 2.5 do 10 GJ energii na rok na osobę.<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup><sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> Dla porównania w krajach takich jak Holandia, Niemcy i Kanada zużycie energii na osobę wynosi około 30-40 GJ/rok.</p>
+<h2 id="10-miliardów-ludzi-dookoła-paleniska">10 Miliardów Ludzi Dookoła Paleniska</h2>
+<p>Nawet jeśli pominiemy ilość surowców i energii, jaką trzeba zużyć na wyprodukowanie współczesnej infrastruktury i urządzeń, to zużycie energii w czasach preindustrialnych wydaje się być znacząco mniejsze niż dzisiaj. Szybka kalkulacja to potwierdza. Teoretycznie, można założyć, że jeśli 10 miliardów ludzi korzystałoby tylko z otwartych palenisk, jako jedynego źródła energii, to byłaby to całkowicie zrównoważona praktyka.</p>
+<p>Przyjmując średnie roczne zużycie drewna opałowego na 6 m³ na osobę, potrzebowalibyśmy 60 miliardów metrów sześciennych drewna rocznie. Do zebrania jednego metra sześciennego drewna rocznie potrzeba 0.2 hektara lasu, więc dla uzyskania 60 miliardów m³ potrzeba 120 milionów kilometrów kwadratowych lasu, użytkowanego w zrównoważony sposób (aby uniknąć całkowitego wylesienia). To powierzchnia, ponad trzykrotnie większą, niż powierzchnia lasów całej Ziemi i równa około 80% całkowitej powierzchni lądów naszej planety (150 milionów kilometrów kwadratowych).</p>
+<p>Ponieważ nie potrzebowalibyśmy dodatkowej przestrzeni dla fabryk i dróg, potrzebnych do produkcji produktów konsumpcyjnych, moglibyśmy powrócić do otwartych palenisk bez niszczenia środowiska. Nie można tego powiedzieć o 10 miliardach ludzi, dalej spalających paliwa kopalne i używających nowoczesnej infrastruktury.*</p>
+<p>*Komentarz tłumacza: Powyższe założenie zdaje się nietrafione, ponieważ sam autor pisze, że nie dysponujemy na naszej planecie wystarczającą ilością lasów, żeby pozyskiwać drewno dla 10 miliardów ludzi - nawet w sposób zrównoważony.</p>
+<h2 id="zdrowie-kontra-zrównoważone-użycie">Zdrowie Kontra Zrównoważone Użycie</h2>
+<p>Skoro &ldquo;nowoczesne usługi energetyczne&rdquo; nie są, ani bardziej zrównoważone, ani wydajniejsze od tradycyjnego ognia, to dlaczego ciągle uważamy je za lepsze? Za unikaniem używania otwartego ognia w nowoczesnych miastach, mają odpowiadać dwa dodatkowe czynniki: po pierwsze, ogień jest szkodliwy dla zdrowia (zanieczyszcza powietrze) i po drugie, jest niebezpieczny (niesie ze sobą ryzyko pożaru). Te zagrożenia są prawdziwe, ale jak wypada ogień pod względem zdrowia i bezpieczeństwa w porównaniu z &ldquo;nowoczesnymi usługami energetycznymi&rdquo;?</p>
+<p>Nie ma wątpliwości, że zastąpienie w domach i mieszkaniach, otwartego ognia przez nowoczesną infrastrukturę, polepszyło jakość powietrza i bezpieczeństwo w miastach. Jednak może być to tylko chwilowa korzyść. Nowoczesna infrastruktura (ponieważ jest uzależniona od paliw kopalnych), co najmniej w tym samym stopniu zagraża zdrowiu i bezpieczeństwu.</p>
+<blockquote>
+<p>Jak wypada ogień pod względem zdrowia i bezpieczeństwa w porównaniu do &ldquo;nowoczesnych usług energetycznych&rdquo;?</p>
+</blockquote>
+<p>Za przykład można wziąć fale upałów i pożary lasów, szalejące w tej chwili (grudzień 2019 roku) w Australii, zabijające ludzi, niszczące mienie i powodujące, tak wielkie zadymienie, że ludzie  w dużych miastach nie mają czym oddychać. Te pożary, nie są spowodowane przez ludzi rozpalających paleniska. Te pożary, to wynik zmian klimatycznych, za które przede wszystkim odpowiadają ludzie korzystający z przemysłowej infrastruktury - zasilanej paliwami kopalnymi.</p>
+<p>Nasza nadmierna zależność od scentralizowanej infrastruktury, która zaspokaja nasze podstawowe potrzeby, to kolejne zagrożenia dla zdrowia i bezpieczeństwa. Odetnijmy na chwilę duże miasto od prądu, a prawie wszystko przestanie działać - włączając w to kanalizację, lodówki i alarmy antywłamaniowe.</p>
+<p>Nasze spaczone spojrzenie na dobry, stary ogień częściowo jest zakorzenione w pomieszaniu dwóch odmiennych od siebie pojęć: &ldquo;zdrowia&rdquo; i &ldquo;zrównoważonego użycia&rdquo;. W rzeczy samej, coś może być jednocześnie zdrowe, bezpieczne i zrównoważone, jak np. chodzenie (o ile nie ma chodników). Ale również coś może być zdrowe i bezpieczne, ale już niezrównoważone, jak lodówka, która jest zależna od energochłonnego łańcucha chłodniczego. Na koniec, coś może być niezdrowe i niebezpieczne, ale zrównoważone jak np. wędzarnia w piwnicy.</p>
+<p>Zdrowie i długowieczność są tym, czego my, jako jednostki &ldquo;potrzebujemy&rdquo;, chcemy, pożądamy i czujemy się do tego przywiązani. Tak samo, jak czujemy się przywiązani do określonego poziomu komfortu, wygody, prędkości i czystości. Jednak ustalenie tego jak powinniśmy żyć, aby nasza egzystencja była zrównoważona i nie doprowadziła nas i naszego środowiska do upadku, wymaga zakwestionowania obecnych wyobrażeń na temat poziomu komfortu, wygody, czystości, prędkości, bezpieczeństwa i zdrowia na jakie zasługujemy. Możemy przedkładać bezpieczeństwo  i zdrowie ponad zrównoważone życie, gdy są one ze sobą w konflikcie, ale tylko kosztem bezpieczeństwa i zdrowia młodszych i przyszłych pokoleń.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Zapisz się do naszego newslettera</a>.</li>
+        <li> Wesprzyj Low-tech Magazine przez <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> lub <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="pl/offline-reading/">Czytaj Low-tech Magazine off-line</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Roebroeks, Wil, and Paola Villa. &ldquo;On the earliest evidence for habitual use of fire in Europe.&rdquo;. Proceedings of the National Academy of Sciences 108.13 (2011): 5209-5214.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Berna, Francesco, et al. &ldquo;Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave, Northern Cape province, South Africa.&rdquo; Proceedings of the National Academy of Sciences 109.20 (2012): E1215-E1220.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Fernández, Guillén, and Luis Fernández-Galiano. Fire and memory: on architecture and energy. Mit Press, 2000.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Pyne, Stephen J. Fire: a brief history. University of Washington Press, 2019.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://www.seforall.org" target="_blank" >https://www.seforall.org</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Collins Cromley, Elizabeth. The food axis: cooking, eating, and the architecture of American houses. University of Virginia Press, 2010.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>W przeciwieństwie do gazowych i elektrycznych piekarników i piecyków, ogień nie ma przycisków i pokręteł, którymi można by regulować temperaturę. Aby gotować lub dusić na wolnym ogniu, garnki wieszało się na ramieniu, które można było podnosić lub opuszczać. W przypadku pieca, kucharz mógł zdecydować, aby na początku, kiedy piec osiągał najwyższą temperaturę, upiec ciasto lub chleb, a następnie kiedy temperatura z wolna opadała, pierniki, budynie, a na końcu wkładał zboże do suszenia. [6]&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Marcoux, Paula. Cooking with fire: From roasting on a spit to baking in a tannur, rediscovered techniques and recipes that capture the flavors of wood-fired cooking. Storey Publishing, 2014.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Hough, Walter. Fire as an agent in human culture. No. 139. Govt. print. Off., 1926.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Źródłem energii tych rozproszonych ogni było drewno, żywice, wosk, tłuszcz, łój lub olej. Potrzeba specjalnego skoncentrowania i umiejscowienia źródła światła, doprowadziła do wynalezienia specjalnych uchwytów, stojaków i wieszaków .[9]&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Heating people, not spaces: restoring the old way of warming, Kris De Decker, Low-tech Magazine, 2016.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>History of ironing, Old &amp; Interesting, retrieved December 26, 2019.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Energy consumption and use by households, Eurostat, 2019.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Rijal, H. B., and H. Yoshida. &ldquo;Investigation and evaluation of firewood consumption in traditional houses in Nepal.&rdquo; Proceedings: Indoor Air (2002): 1000-1005.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Gęstość energetyczna 1 m³ składowanego drewna zależy, od gatunki drewna i tego jak jest ułożone. Starałem się porównywać zbliżone rzeczy, jeśli to było możliwe, jednak nie zawsze dało się to zrobić, więc wyniki są jedynie szacunkowe.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Roczne zużycie drewna opałowego w osiemnastowiecznej Austrii (Karyntia) było prawem ograniczone do 35 m³ na gospodarstwo domowe: Źródło: Peter, Sieferle Rolf. The subterranean forest. Cambridge: The White Horse Press, 2001.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Rijal, Hom Bahadur. &ldquo;Firewood Consumption in Nepal.&rdquo; Sustainable Houses and Living in the Hot-Humid Climates of Asia. Springer, Singapore, 2018. 335-344.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Liczby wynoszą 0.5 to 2 m³ drewna opałowego na osobę rocznie, co przeliczyłem do 2.5 do 10 GJ energii na osobę rocznie.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="./pl/tags/off-the-grid/" class="">Off-the-grid</a></span> 
+		        
+		           <span><a href="./pl/tags/renewable-energy/" class="">Renewable Energy</a></span> 
+		        
+		           <span><a href="./pl/tags/history/" class="">History</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./pl/2022/03/how-to-build-a-practical-household-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Jak zbudować generator rowerowy z panelem sterowania</h3>
+		<p class="index-summary">Zbudowaliśmy generator prądu napędzany pedałami, wyposażony we własny panel sterowania, służący nam jednocześnie jako domowe źródło energii i przyrząd do ćwiczeń. Można go zintegrować z systemem fotowoltaicznym. Poniżej zamieszczamy szczegółową instrukcję, dzięki której zbudujecie swój własny generator przy pomocy standardowych ręcznych narzędzi i minimum umiejętności technicznych.</p>
+		<time class="published">6 marca 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="./pl/2021/11/fascine-mattresses-basketry-gone-wild/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Materace faszynowe: koszykarsko do kwadratu</h3>
+		<p class="index-summary">Mniej więcej w XVII wieku Holendrzy zaczęli umacniać swoje porty i groble wytrzymałymi materacami o rozmiarach boisk piłkarskich – ręcznie plecionymi z niezliczonej ilości wierzbowych witek, zbieranych z okolicznych zagajników odroślowych. Te „materace faszynowe” obciążano kamieniami i zatapiano w kanałach, rzekach i estuariach.</p>
+		<time class="published">3 listopada 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./pl/2019/06/how-to-make-wind-power-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/pl/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">﻿Jak ponownie uczynić energię wiatrową zrównoważoną</h3>
+		<p class="index-summary">Jeśli będziemy budować je z drewna, duże turbiny wiatrowe mogą stać się książkowym przykładem gospodarki o obiegu zamkniętym.</p>
+		<time class="published">2 czerwca 2019</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./pl/2019/06/reinventing-the-small-wind-turbine/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/pl/2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">﻿Mała turbina wiatrowa wynaleziona na nowo</h3>
+		<p class="index-summary">Ze względu na swoje walory estetyczne i możliwość produkowania ich lokalnie, małe drewniane turbiny wiatrowe mogą podnieść społeczną akceptację dla energii wiatrowej.</p>
+		<time class="published">2 czerwca 2019</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Rozmiar strony: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="pl/about">
+  O nas
+</a>
+    <a href="pl/power">
+  Power
+</a>
+    <a href="pl/about/team">
+  Colophon
+</a>
+    <a href="pl/donate">
+  Wspomóż nas
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

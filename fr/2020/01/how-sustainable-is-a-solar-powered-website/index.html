@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Un site Web à énergie solaire est-il durable? | LOW←TECH MAGAZINE</title>
+	
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="./icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Un site Web à énergie solaire est-il durable?" />
+<meta name="twitter:title" content="Un site Web à énergie solaire est-il durable?"/>
+
+<meta property="og:description" content="Nous présentons les données d&rsquo;énergie et de durée de disponibilité de notre site Web, les calculs d&rsquo;énergie grise de notre installation, l&rsquo;équilibre optimal entre soutenabilité et disponibilité du serveur, avant de décrire les améliorations possibles." />
+
+<meta name="twitter:description" content="Nous présentons les données d&rsquo;énergie et de durée de disponibilité de notre site Web, les calculs d&rsquo;énergie grise de notre installation, l&rsquo;équilibre optimal entre soutenabilité et disponibilité du serveur, avant de décrire les améliorations possibles."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="./fr/2020/01/how-sustainable-is-a-solar-powered-website/" />
+
+
+
+<meta property="og:image" itemprop="image" content="fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" />
+<meta property="og:image:secure_url" content="fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-01-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-28T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+<meta property="article:author" content=" Roel Roscam Abbing" />
+<meta name="citation_author" content=" Roel Roscam Abbing">
+
+<meta property="article:author" content=" Marie Otsuka" />
+<meta name="citation_author" content=" Marie Otsuka">
+
+
+<meta property="article:tag" content="ICT" />
+<meta property="article:tag" content="Solar power" />
+<meta property="article:tag" content="Off-the-grid" />
+<meta property="article:tag" content="Energy storage" />
+<meta property="article:tag" content="Solar Powered Website" />
+
+</head>
+<body id="un-site-web-%C3%A0-%C3%A9nergie-solaire-est-il-durable">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="./">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="./ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" fr/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" fr/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Un site Web à énergie solaire est-il durable?</h1>
+
+				<p class="summary">
+					Nous présentons les données d&rsquo;énergie et de durée de disponibilité de notre site Web, les calculs d&rsquo;énergie grise de notre installation, l&rsquo;équilibre optimal entre soutenabilité et disponibilité du serveur, avant de décrire les améliorations possibles.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">28 janvier 2020</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="./fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+									<span class="author"><a href="./fr/authors/roel-roscam-abbing/"> Roel Roscam Abbing</a></span>
+							
+									<span class="author"><a href="./fr/authors/marie-otsuka/"> Marie Otsuka</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="./fr/translators/maxime-pinsard/">Maxime Pinsard</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="./2020/01/how-sustainable-is-a-solar-powered-website/">en</a>
+						
+							<a href="./de/2020/01/how-sustainable-is-a-solar-powered-website/">de</a>
+						
+							<a href="./es/2020/01/how-sustainable-is-a-solar-powered-website/">es</a>
+						
+							<a href="./pl/2020/01/how-sustainable-is-a-solar-powered-website/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" alt='Illustration: Diego Marmolejo.' data-original="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/detail-system-diego_hu0c9d2f24a72e5874656535abe505514e_108735_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Illustration: <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Notre site web auto-hébergé, alimenté à l&rsquo;énergie solaire et hors-réseau (off-grid) fonctionne depuis 15 mois maintenant. Dans cet article, nous présentons ses mesures d&rsquo;énergie et de disponibilité et calculons l&rsquo;énergie grise de notre configuration. Sur la base de ces résultats, l&rsquo;équilibre optimal entre la soutenabilité et la disponibilité du serveur est considéré, et les améliorations possibles sont présentées.</p>
+<p><a href="#uptime">Disponibilité, consommation électrique, efficacité du système</a></p>
+<p><a href="#balance">Disponibilité en ligne et énergie grise ?</a></p>
+<p><a href="#uptime-and-battery">Durée de disponibilité et taille de la batterie</a></p>
+<p><a href="#solarpanel">Durée de disponibilité et taille des panneaux solaires</a></p>
+<p><a href="#embodied">Énergie grise pour différentes tailles de panneaux solaires et batteries</a></p>
+<p><a href="#emissions">Émissions de CO2 : un site web à énergie solaire est-il durable ?</a></p>
+<p><a href="#improvements">Améliorations possibles</a></p>
+<p><a href="#scale">Voyons plus grand !</a></p>
+<p><a href="#network">Consommation d&rsquo;énergie sur le réseau</a></p>
+<h2 id="introduction">Introduction</h2>
+<p>En septembre 2018, Low-tech Magazine <a href="./fr/2018/09/how-to-build-a-low-tech-website/" >a lancé un nouveau site</a> visant à réduire radicalement la consommation d&rsquo;énergie et les émissions carbone associées à l&rsquo;accès de son contenu. La consommation d&rsquo;énergie sur Internet <a href="./fr/2015/10/why-we-need-a-speed-limit-for-the-internet/" >croît rapidement</a> en raison à la fois de l&rsquo;augmentation des débits de données (le contenu en ligne devient &ldquo;plus lourd&rdquo;) et de l&rsquo;augmentation du temps passé en ligne (surtout depuis l&rsquo;arrivée de l&rsquo;informatique mobile et de l&rsquo;Internet sans fil).</p>
+<p>Notre site Web à énergie solaire s&rsquo;oppose à ces tendances. Pour réduire la consommation d&rsquo;énergie bien en deçà de celle d&rsquo;un site Web moyen, nous avons opté pour une conception Web basique, en utilisant un <a href="" >site Web statique</a> au lieu d&rsquo;un système de gestion de contenu basé sur une base de données. Pour réduire la consommation d&rsquo;énergie associée à la production du panneau solaire et de la batterie, nous avons choisi une configuration minimale et accepté que le site web soit indisponible lorsque le temps est mauvais.</p>
+<h2 id="span-iduptimedisponibilité-consommation-électrique-efficacité-du-systèmespan"><span id="uptime">Disponibilité, consommation électrique, efficacité du système</span></h2>
+<h3 id="disponibilité">Disponibilité</h3>
+<p>Notre site internet alimenté à l&rsquo;énergie solaire se déconnecte lorsque le temps est nuageux, mais à quelle fréquence ? Pendant une période d&rsquo;environ un an (351 jours, du 12 décembre 2018 au 28 novembre 2019), le site a été disponible 95,26 % du temps. Cela signifie que nous avons été hors ligne dû au mauvais temps pendant 399 heures.</p>
+<p>En ignorant les deux derniers mois, notre temps de disponibilité atteint 98,2 %, avec un temps d&rsquo;arrêt de seulement 152 heures. La disponibilité a chuté à 80 % au cours des deux derniers mois, lorsqu&rsquo;une mise à niveau logicielle <a href="/fr/about.html" >a augmenté la consommation d&rsquo;énergie du serveur</a>. Le site Web a été hors ligne pendant au moins quelques heures chaque nuit.</p>
+<h3 id="consommation-électrique-et-efficacité-du-système">Consommation électrique et efficacité du système</h3>
+<p>Regardons l&rsquo;électricité utilisée par notre serveur (la consommation d&rsquo;énergie « opérationnelle »). Nous avons relevé des mesures du serveur et du contrôleur de charge solaire, dont la comparaison révèle l’inefficacité du système. Sur une période d&rsquo;environ un an (du 3 décembre 2018 au 24 novembre 2019), la consommation électrique de notre serveur a été de 9,53 kilowattheures (kWh). Nous avons mesuré des pertes importantes dans le système solaire photovoltaïque dues aux conversions de tension et aux pertes de charge/décharge dans la batterie. Le contrôleur de charge solaire a enregistré une consommation d&rsquo;électricité annuelle de 18,10 kWh, ce qui signifie que l&rsquo;efficacité du système atteint environ 50 %.</p>
+<h3 id="consommation-dénergie-par-visiteur">Consommation d&rsquo;énergie par visiteur</h3>
+<p>Au cours de la période d&rsquo;étude, notre site Web à énergie solaire a reçu 865 000 visiteurs différents. En incluant toutes les pertes d&rsquo;énergie dans l&rsquo;installation solaire, la consommation d&rsquo;électricité par visiteur unique est alors de 0,021 watt-heure. Un kilowattheure d&rsquo;électricité solaire peut ainsi desservir près de 50 000 visiteurs différents, et un watt-heure d&rsquo;électricité peut en desservir environ 50. Il s&rsquo;agit uniquement d&rsquo;énergie renouvelable et, en tant que telles, il n&rsquo;y a pas d&rsquo;émissions carbone directement associées.</p>
+<blockquote>
+<p>Un kilowattheure d&rsquo;électricité solaire peut desservir près de 50 000 visiteurs différents</p>
+</blockquote>
+<h2 id="span-idbalance-disponibilité-en-ligne-et-énergie-grise-span"><span id="balance"> Disponibilité en ligne et énergie grise </span></h2>
+<p>L&rsquo;histoire se termine souvent ici quand les énergies renouvelables sont présentées comme une solution à la demande croissante d&rsquo;énergie d&rsquo;Internet. Lorsque les chercheurs examinent la consommation énergétique des centres de données, ceux-là même qui hébergent le contenu accessible sur Internet, ils ne prennent jamais en compte l&rsquo;énergie nécessaire pour construire et entretenir les infrastructures qui alimentent ces centres de données.</p>
+<p>Ce n’est pas le cas avec un site Web auto-hébergé alimenté par une installation solaire photovoltaïque hors-réseau. Le panneau solaire, la batterie et le contrôleur de charge solaire sont des éléments tout aussi essentiels que le serveur lui-même. Par conséquent, l&rsquo;utilisation d&rsquo;énergie pour l&rsquo;exploitation des ressources et la fabrication de ces composants – l&rsquo;« énergie grise » – doit également être prise en compte.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png" alt='Ci-dessus, une représentation simple de notre système. La conversion de tension (entre le contrôleur de charge 12 V et le serveur 5 V) et le compteur de batterie (entre le serveur et la batterie) sont manquants. Illustration : Diego Marmolejo.' data-original="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/system-diego_hu809460e88bc9a55b97b0d60b6bc0ba44_622635_800x800_fit_q90_h2_box.webp" data-dither="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Ci-dessus, une représentation simple de notre système. La conversion de tension (entre le contrôleur de charge 12 V et le serveur 5 V) et le compteur de batterie (entre le serveur et la batterie) sont manquants. Illustration : <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Malheureusement, la majeure partie de cette énergie provient de combustibles fossiles, soit sous forme de diesel (extraction des matières premières et transport des composants), soit sous forme d&rsquo;électricité générée principalement par des centrales électriques à combustibles fossiles (comme la plupart des procédés de fabrication).</p>
+<blockquote>
+<p>Le dimensionnement de la batterie et du panneau solaire est un compromis entre disponibilité et durabilité</p>
+</blockquote>
+<p>L&rsquo;énergie grise de notre configuration est principalement déterminée par la taille de la batterie et du panneau solaire. Dans le même temps, elles déterminent aussi la fréquence à laquelle le site Web sera en ligne (le « temps de disponibilité »). Par conséquent, dimensionner la batterie et le panneau solaire est aussi un compromis entre disponibilité et durabilité. Pour trouver l&rsquo;équilibre optimal, nous avons fait fonctionner (et continuons de faire fonctionner) notre système avec différentes combinaisons de panneaux solaires et batteries. La disponibilité et l&rsquo;énergie grise sont également déterminées par les conditions météorologiques locales, de sorte que les résultats que nous présentons ici ne sont valables que pour notre emplacement (le balcon du logement de l&rsquo;auteur, près de Barcelone, Espagne).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png" alt='' data-original="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/solar-panels-sizes_hu8663c3c47f85f49abf7ee6a7e7107fb9_424768_800x800_fit_q90_h2_box.webp" data-dither="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png" alt='Illustration: Diego Marmolejo' data-original="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/batteries-sizes_hu9acfa977dad414fa35875a3a3cc1f03f_136208_800x800_fit_q90_h2_box.webp" data-dither="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Illustration: <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-iduptime-and-battery-durée-de-disponibilité-et-taille-de-la-batterie-span"><span id="uptime-and-battery"> Durée de disponibilité et taille de la batterie </span></h2>
+<p>La capacité de stockage de la batterie détermine combien de temps le site Web peut fonctionner sans être alimenté par le Soleil. Un minimum de stockage d&rsquo;énergie est nécessaire pour passer la nuit, tandis qu&rsquo;un stockage supplémentaire peut compenser une période de conversion d&rsquo;énergie solaire faible (ou même nulle) pendant la journée. Les batteries se détériorent avec l&rsquo;âge, il est donc préférable de commencer avec plus de capacité que ce qui est réellement nécessaire, sous peine de devoir les remplacer assez rapidement.</p>
+<h3 id="plus-de-90--de-disponibilité">Plus de 90 % de disponibilité</h3>
+<p>Tout d&rsquo;abord, calculons le stockage d&rsquo;énergie minimum nécessaire pour maintenir le site Web en ligne pendant la nuit, à condition qu&rsquo;il fasse beau, que la batterie soit neuve et que le panneau solaire soit suffisamment grand pour charger complètement la batterie. Notre serveur Web utilisait 1,97 watts d’électricité pendant la première année, incluant toutes les pertes d&rsquo;énergie dans l&rsquo;installation solaire. Pendant la nuit la plus courte de l&rsquo;année (8h50, le 21 juin), 17,40 wattheures de capacité de stockage ont été nécessaire, et 29,19 Wh pendant la nuit la plus longue (14h49, le 21 décembre).</p>
+<h4 id="stockage-dénergie-minimum-requis-pour-maintenir-le-site-web-en-ligne-pendant-la-nuit-">Stockage d&rsquo;énergie minimum requis pour maintenir le site Web en ligne pendant la nuit *</h4>
+<table>
+<thead>
+<tr>
+<th>Mois</th>
+<th>Jour</th>
+<th>Nuit</th>
+<th>Stockage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21 Sep 2018</td>
+<td>12 h 13 min</td>
+<td>11 h 47 min</td>
+<td>23.21 Wh</td>
+</tr>
+<tr>
+<td>21 Oct 2018</td>
+<td>10 h 52 min</td>
+<td>13 h 8 min</td>
+<td>25.87 Wh</td>
+</tr>
+<tr>
+<td>21 Nov 2018</td>
+<td>9 h 41 min</td>
+<td>14 h 19 min</td>
+<td>28.2 Wh</td>
+</tr>
+<tr>
+<td>21 Dec 2018</td>
+<td>9 h 11 min</td>
+<td>14 h 49 min</td>
+<td>29.1 Wh</td>
+</tr>
+<tr>
+<td>21 Jan 2019</td>
+<td>9 h 41 min</td>
+<td>14 h 19 min</td>
+<td>28.2 Wh</td>
+</tr>
+<tr>
+<td>21 Fev 2019</td>
+<td>10 h 53 min</td>
+<td>13 h 7 min</td>
+<td>25.84 Wh</td>
+</tr>
+<tr>
+<td>21 Mar 2019</td>
+<td>12 h 13 min</td>
+<td>11 h 47 min</td>
+<td>23.22 Wh</td>
+</tr>
+<tr>
+<td>21 Avr 2019</td>
+<td>13 h 34 min</td>
+<td>10 h 26 min</td>
+<td>20.55 Wh</td>
+</tr>
+<tr>
+<td>21 Mai 2019</td>
+<td>14 h 41 min</td>
+<td>9 h 19 min</td>
+<td>18.35 Wh</td>
+</tr>
+<tr>
+<td>21 Juin 2019</td>
+<td>15 h 10 min</td>
+<td>8 h 50 min</td>
+<td>17.4 Wh</td>
+</tr>
+<tr>
+<td>21 Juil 2019</td>
+<td>14 h 43 min</td>
+<td>9 h 17 min</td>
+<td>18.29 Wh</td>
+</tr>
+<tr>
+<td>21 Aou 2019</td>
+<td>13 h 36 min</td>
+<td>10 h 24 min</td>
+<td>20.49 Wh</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>Localisation: Barcelone</li>
+<li>Considérant que le temps est nuageux</li>
+<li>Wh = Watt-heure</li>
+</ul>
+<p>Parce que les batteries au plomb doivent jamais être déchargées à moins de la moitié de leur capacité de charge, le serveur à énergie solaire requiert une batterie au plomb de 60 Wh pour passer les nuits les plus courtes lorsque les conditions solaires sont optimales (2 x 29,19 Wh). Pendant la majeure partie de l&rsquo;année, nous avons fait fonctionner le système avec un stockage d&rsquo;énergie légèrement plus important (jusqu&rsquo;à 86,4 Wh) et un panneau solaire de 50 W, et avons atteint un temps de disponibilité de 95 - 98 % comme mentionné ci-dessus. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h3 id="un-temps-de-disponibilité-de-100--">Un temps de disponibilité de 100 % ?</h3>
+<p>Une plus grosse batterie permettrait au site Web de fonctionner même pendant de longues périodes de mauvais temps, à condition encore une fois que le panneau solaire soit suffisamment grand pour charger complètement la batterie. Pour compenser un jour de très mauvais temps (pas de production d&rsquo;électricité importante), nous avons besoin de 47,28 wattheures (24h x 1,97 watts) de capacité de stockage.</p>
+<p>Du 1er décembre 2019 au 12 janvier 2020, nous avons combiné le panneau solaire de 50 W avec une batterie de 168 watts-heure, qui a une capacité de stockage réelle de 84 watts-heure. Il s&rsquo;agit d&rsquo;un espace de stockage suffisant pour que le site Web fonctionne pendant deux nuits et un jour. Même si nous avons testé cette configuration pendant la période la plus sombre de l&rsquo;année, la météo a été relativement bonne et le temps de disponibilité a atteint 100 %.</p>
+<p>Cependant, pour assurer une disponibilité de 100 % sur plusieurs années, il faudrait plus de stockage d&rsquo;énergie. Pour maintenir le site Web en ligne pendant quatre jours de production d&rsquo;électricité faible ou nulle, nous aurions besoin d&rsquo;une batterie au plomb-acide de 440 watts-heure – la taille d&rsquo;une batterie de voiture. Nous incluons cette configuration, qui représente l&rsquo;approche conventionnelle de l&rsquo;énergie solaire hors réseau.</p>
+<h3 id="-90-de-disponibilité">&lt; 90 % de disponibilité</h3>
+<p>Nous avons également pris en compte le cas des batteries trop petites pour faire tenir le site Web pendant la nuit la plus courte de l&rsquo;année : 48 Wh, 24 Wh et 15,6 Wh (avec des capacités effectives de stockage de 24 Wh, 12 Wh et 7,8 Wh, respectivement). Cette dernière est la plus petite batterie au plomb disponible dans le commerce.</p>
+<blockquote>
+<p>Un site Web qui se déconnecte le soir pourrait être une option intéressante pour une publication en ligne locale anticipant un trafic assez faible après minuit.</p>
+</blockquote>
+<p>S&rsquo;il fait beau, la batterie plomb-acide de 48 Wh assure le fonctionnement du serveur pendant la nuit de mars à septembre. La batterie au plomb de 24 Wh peut maintenir le site Web en ligne pendant 6 heures maximum, ce qui signifie que le serveur sera hors ligne chaque nuit de l&rsquo;année, mais à des heures différentes selon la saison.</p>
+<p>Enfin, la batterie de 15,6 Wh maintient le site Web en ligne pendant seulement quatre heures lorsqu&rsquo;il n&rsquo;y a pas de soleil. Même s&rsquo;il fait beau, le serveur cessera de fonctionner vers 1h du matin en été et vers 21h en hiver. La disponibilité maximale avec la plus petite batterie serait d&rsquo;environ 50 %, et en pratique plus faible en raison des nuages ​​et de la pluie. Un site Web qui se déconnecte le soir pourrait être une option intéressante pour une publication en ligne locale avec un faible trafic prévu après minuit. Cependant, étant donné que le lectorat de Low-tech Magazine est réparti de façon quasi-égale entre l&rsquo;Europe et les États-Unis, ce n&rsquo;est pas une option attrayante. Si le site Web tombe en panne tous les soirs, nos lecteurs américains ne pourraient y accéder que le matin.</p>
+<h4 id="temps-de-disponibilité-attendus-par-type-de-batterie-sur-une-charge-complète">Temps de disponibilité attendus par type de batterie sur une charge complète</h4>
+<table>
+<thead>
+<tr>
+<th>Batterie</th>
+<th>Disponibilité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>440 Wh</td>
+<td>Le site Web supporte 4 jours de mauvais temps</td>
+</tr>
+<tr>
+<td>168 Wh</td>
+<td>Le site Web supporte 1 jour de mauvais temps</td>
+</tr>
+<tr>
+<td>86.4 Wh</td>
+<td>Le site Web passe la nuit s&rsquo;il fait beau</td>
+</tr>
+<tr>
+<td>48 Wh</td>
+<td>Le site Web se déconnecte plusieurs nuits de l&rsquo;année</td>
+</tr>
+<tr>
+<td>24 Wh</td>
+<td>Le site Web se déconnecte toutes les nuits</td>
+</tr>
+<tr>
+<td>15.6 Wh</td>
+<td>Le site Web se déconnecte toutes les nuits</td>
+</tr>
+</tbody>
+</table>
+<h2 id="span-idsolarpanel-durée-de-disponibilité-et-taille-des-panneaux-solaires-span"><span id="solarpanel"> Durée de disponibilité et taille des panneaux solaires </span></h2>
+<p>La disponibilité du site Web alimenté à l&rsquo;énergie solaire n&rsquo;est pas seulement déterminée par la batterie, mais également par le panneau solaire, en particulier en cas d&rsquo;intempéries. Plus le panneau solaire est grand, plus il chargera la batterie rapidement, et moins d&rsquo;heures de soleil seront nécessaires pour faire fonctionner le site toute la nuit. Par exemple, avec le panneau solaire de 50 W, quelques heures de plein soleil suffisent pour recharger complètement la plupart des batteries.</p>
+<p>Si on remplace cependant le panneau solaire de 50 W par un panneau solaire de 10 W, le système a besoin d&rsquo;au moins 5,5 heures pour charger la batterie de 86,4 Wh dans des conditions optimales (2 W pour faire fonctionner le serveur, 8 W pour charger la batterie). Si le panneau solaire de 10 W est associé à une batterie au plomb plus grande de 168 Wh, il a besoin de 10,5 heures de plein soleil pour recharger complètement la batterie, ce qui n&rsquo;est possible que de février à novembre.</p>
+<blockquote>
+<p>Un panneau solaire plus grand augmente les chances que le site Web reste en ligne, même lorsque les conditions météorologiques ne sont pas optimales.</p>
+</blockquote>
+<h3 id="temps-nuageux">Temps nuageux</h3>
+<p>Un panneau solaire plus grand est tout aussi avantageux par temps nuageux. Les nuages ​​peuvent réduire la production d&rsquo;énergie solaire, de 0 à 90 % de la capacité maximale selon l&rsquo;épaisseur de la couverture nuageuse. Si un panneau solaire de 50 watts ne produit que 10 % de sa capacité maximale (5 W), c&rsquo;est quand même suffisant pour faire fonctionner le serveur (2 W) et charger la batterie (3 W).</p>
+<p>Cependant, un panneau solaire de 10 W ne produisant qu’à 10 % de sa capacité est juste suffisant pour alimenter le serveur, sans pouvoir charger la batterie. Nous avons fait fonctionner le site Web sur un panneau de 10 W du 12 au 21 janvier 2020, et il est rapidement inopérant lorsque la météo ne fut pas bonne. Nous alimentons maintenant le site Web avec un panneau solaire de 30 W (et une batterie stockant 168 Wh).</p>
+<p>Un panneau solaire de 5 W – le plus petit panneau solaire de 12 V disponible dans le commerce – serait le minimum absolu pour faire fonctionner notre site Web. Mais il ne pourra alimenter le serveur (2 W) et charger la batterie (3 W) que dans des conditions optimales, et faire fonctionner le site Web toute la nuit que si la durée du jour est suffisamment longue. Puisque les panneaux solaires ne produisent que rarement à leur capacité maximale, le site Web ne serait en ligne que lorsque le soleil brille.</p>
+<p>Même si combiner petit panneau solaire et grande batterie donne la même énergie grise que combiner grand panneau solaire et petite batterie, chaque configuration donnée aura des caractéristiques très différentes. En général, il est préférable d&rsquo;opter pour un panneau solaire plus grand et une batterie plus petite, car cette combinaison augmente la durée de vie de la batterie - les batteries au plomb devant être chargées complètement de temps en temps pour ne pas perdre leur capacité de stockage.</p>
+<h4 id="heures-densoleillement-nécessaires-pour-charger-complètement-chaque-batterie-selon-la-taille-du-panneau-solaire">Heures d&rsquo;ensoleillement nécessaires pour charger complètement chaque batterie, selon la taille du panneau solaire.*</h4>
+<table>
+<thead>
+<tr>
+<th>Batterie</th>
+<th>50 W</th>
+<th>30 W</th>
+<th>10 W</th>
+<th>5 W</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>440 Wh</td>
+<td>6h45min</td>
+<td>11h14min</td>
+<td>33h44min</td>
+<td>67h28min</td>
+</tr>
+<tr>
+<td>168 Wh</td>
+<td>2h35min</td>
+<td>4h17min</td>
+<td>12h53min</td>
+<td>25h46min</td>
+</tr>
+<tr>
+<td>86.4 Wh</td>
+<td>1h17min</td>
+<td>2h12min</td>
+<td>6h37min</td>
+<td>13h15min</td>
+</tr>
+<tr>
+<td>48 Wh</td>
+<td>0h44min</td>
+<td>1h13min</td>
+<td>3h41min</td>
+<td>7h22min</td>
+</tr>
+<tr>
+<td>24 Wh</td>
+<td>0h22min</td>
+<td>0h37min</td>
+<td>1h50min</td>
+<td>3h41min</td>
+</tr>
+<tr>
+<td>15.6 Wh</td>
+<td>0h14min</td>
+<td>0h24min</td>
+<td>1h12min</td>
+<td>2h24min</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>En supposant une moyenne de 75 % du max de production d&rsquo;électricité, 15 % de pertes de charge et 50 % de taux de décharge.</li>
+</ul>
+<h2 id="span-idembodied-énergie-grise-pour-différentes-tailles-de-panneaux-solaires-et-batteries-span"><span id="embodied"> Énergie grise pour différentes tailles de panneaux solaires et batteries </span></h2>
+<p>Il faut 1,03 mégajoule (MJ) pour produire 1 watt-heure de capacité de batterie au plomb <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> et 3 514 MJ d&rsquo;énergie pour produire 1 m² de panneau solaire. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Dans le tableau ci-dessous, nous présentons l&rsquo;énergie grise pour différentes tailles de batteries et de panneaux solaires, puis calculons l&rsquo;énergie grise par année, sur la base d&rsquo;une espérance de vie de 5 ans pour les batteries et de 25 ans pour les panneaux solaires. Les valeurs sont converties en kilowattheures par an et se réfèrent à l&rsquo;énergie primaire et non à l&rsquo;électricité.</p>
+<p>Un site Web alimenté à l&rsquo;énergie solaire a également besoin d&rsquo;un contrôleur de charge, et bien-sûr d&rsquo;un serveur Web. L&rsquo;énergie grise de ces composants reste la même, quelle que soit la taille du panneau solaire ou de la batterie. L&rsquo;énergie grise annuelle est basée sur une espérance de vie de 10 ans. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<h4 id="énergie-grise-des-différents-composants-par-année-en-fonctionnement">Énergie grise des différents composants (par année en fonctionnement)</h4>
+<table>
+<thead>
+<tr>
+<th>Batterie *</th>
+<th>Energie grise</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Batterie 440 Wh</td>
+<td>25.17 kWh/an</td>
+</tr>
+<tr>
+<td>Batterie 168 Wh</td>
+<td>9.60 kWh/ an</td>
+</tr>
+<tr>
+<td>Batterie 86.4 Wh</td>
+<td>3.91 kWh/an</td>
+</tr>
+<tr>
+<td>Batterie 48 Wh</td>
+<td>2.75 kWh/an</td>
+</tr>
+<tr>
+<td>Batterie 24 Wh</td>
+<td>1.27 kWh/an</td>
+</tr>
+<tr>
+<td>Batterie 15.6 Wh</td>
+<td>0.89 kWh/an</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>Calculé pour une espérance de vie de 5 ans</li>
+<li>kWh/an = énergie primaire</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Panneau solaire*</th>
+<th>Énergie grise</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Panneau solaire 50 W</td>
+<td>16,96 kWh/an</td>
+</tr>
+<tr>
+<td>Panneau solaire 30 W</td>
+<td>10,20 kWh/an</td>
+</tr>
+<tr>
+<td>Panneau solaire 10 W</td>
+<td>3,40 kWh/an</td>
+</tr>
+<tr>
+<td>Panneau solaire 5 W</td>
+<td>1,70 kWh/an</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>Calculé sur une espérance de vie de 25 ans</li>
+<li>kWh/an = énergie primaire</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Autres composants*</th>
+<th>Énergie grise</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contrôleur de charge solaire</td>
+<td>3.33 kWh/an</td>
+</tr>
+<tr>
+<td>Serveur</td>
+<td>5.00 kWh/an</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>Calculé sur une espérance de vie de 10 ans</li>
+<li>kWh/an = énergie primaire</li>
+</ul>
+<p>Nous avons maintenant toutes les données pour calculer l&rsquo;énergie grise totale pour chaque combinaison de panneaux solaires et de batteries. Les résultats sont présentés dans le tableau ci-dessous. L&rsquo;énergie grise varie d&rsquo;un facteur cinq selon la configuration : de 10,92 kWh d&rsquo;énergie primaire par an pour la combinaison « plus petit panneau solaire (5W) - plus petite batterie (15,6 Wh) » à 50,46 kWh d&rsquo;énergie primaire par an pour la combinaison « plus grand panneau solaire (50 W) - plus grande batterie (440Wh) ».</p>
+<h4 id="énergie-grise-par-an-pour-différentes-installations-solaires-">Énergie grise par an pour différentes installations solaires *</h4>
+<table class="setuptable">
+<thead>
+<tr>
+	<td>
+	</td>
+	<td colspan="4" style="text-align: center;">
+		Panneau solaire 	</td>
+<tr>
+<th>Batterie</th>
+<th>50 W</th>
+<th>30 W</th>
+<th>10 W</th>
+<th>5 W</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>440 Wh</td>
+<td>50.46 kWh</td>
+<td>43.70 kWh</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>168 Wh</td>
+<td>34.89 kWh</td>
+<td>28.13 kWh</td>
+<td>21.33 kWh</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>86.4 Wh</td>
+<td>29.20 kWh</td>
+<td>22.36 kWh</td>
+<td>15.64 kWh</td>
+<td>13.94 kWh</td>
+</tr>
+<tr>
+<td>48 Wh</td>
+<td>28.04 kWh</td>
+<td>21.28 kWh</td>
+<td>14.18 kWh</td>
+<td>12.78 kWh</td>
+</tr>
+<tr>
+<td>24 Wh</td>
+<td>26.29 kWh</td>
+<td>19.80 kWh</td>
+<td>13.00 kWh</td>
+<td>11.30 kWh</td>
+</tr>
+<tr>
+<td>15.6 Wh</td>
+<td>26.18 kWh</td>
+<td>19.42 kWh</td>
+<td>12.62 kWh</td>
+<td>10.92 kWh</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>Comprend l&rsquo;énergie grise du serveur et du contrôleur de charge</li>
+<li>kWh/an = énergie primaire</li>
+<li>n/a = Le panneau solaire est incapable de charger complètement la batterie, quelle que soit la saison.</li>
+</ul>
+<p>En divisant ces résultats par le nombre de visiteurs différents par an (865 000), nous obtenons la consommation d&rsquo;énergie grise par visiteur unique sur notre site Web. Pour notre configuration d&rsquo;origine avec une disponibilité de 95 - 98 % (panneau solaire de 50 W, batterie de 86,4 Wh), la consommation d&rsquo;énergie primaire par visiteur unique est de 0,03 Wh. Ce résultat serait assez similaire pour les autres configurations ayant un temps de disponibilité inférieur, car bien que l&rsquo;énergie grise soit plus faible, le nombre de visiteurs différents l&rsquo;est également.</p>
+<h2 id="span-idemissions-émissions-de-co2-un-site-web-à-énergie-solaire-est-il-durable--span"><span id="emissions"> Émissions de CO2 : un site web à énergie solaire est-il durable ? </span></h2>
+<h3 id="émissions-de-carbone-du-site-web-à-énergie-solaire">Émissions de carbone du site web à énergie solaire</h3>
+<p>Maintenant que nous avons calculé l&rsquo;énergie grise de différentes configurations, nous pouvons calculer leurs émissions carbones. On ne peut pas comparer l&rsquo;empreinte environnementale du site Web à énergie solaire avec celle de l&rsquo;ancien site Web, celui-ci étant hébergé ailleurs, ni mesurer sa consommation d&rsquo;énergie. Ce que nous pouvons comparer c&rsquo;est le site Web à énergie solaire et une configuration similaire auto-hébergée fonctionnant sur le réseau électrique. Cela nous permet d&rsquo;évaluer la (non)-soutenabilité du fonctionnement du nouveau site Web.</p>
+<p>Les analyses du cycle de vie des panneaux solaires ne sont pas très utiles pour calculer les émissions de CO2 de nos composants car elles partent du principe que toute l&rsquo;énergie produite par les panneaux est utilisée. Ce n&rsquo;est pas nécessairement vrai dans notre cas : les panneaux solaires plus gros gaspillent beaucoup d&rsquo;énergie solaire dans des conditions météorologiques optimales.</p>
+<blockquote>
+<p>Héberger le Low-tech Magazine à l’énergie solaire pendant un an a produit autant d&rsquo;émissions que parcourir 50 km avec une voiture standard.</p>
+</blockquote>
+<p>Nous adoptons donc une autre approche : nous convertissons l&rsquo;énergie grise de nos composants en litres de pétrole (1 litre de pétrole correspond à 10 kWh d&rsquo;énergie primaire) et calculons le résultat sur la base des émissions de CO2 du pétrole (1 litre de pétrole produit 3 kg de gaz à effet de serre, extraction et raffinage compris). On tient compte du fait que <a href="./fr/2015/04/how-sustainable-is-pv-solar-power/" >la plupart des panneaux solaires et des batteries sont maintenant produits en Chine</a> - où le réseau électrique est trois fois plus carboné et 50 % plus énergivore qu&rsquo;en Europe. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>Cela signifie que l&rsquo;hébergement du Low-tech Magazine solaire (panneau de 50 W, batterie de 86,4 Wh, au cours de la première année) correspond en termes de combustibles fossiles à 3 litres de pétrole et 9 kg d&rsquo;émissions carbone - autant qu&rsquo;une voiture européenne moyenne parcourant 50 km. Voici les résultats pour les autres configurations :</p>
+<h3 id="énergie-grise-en-équivalents-pétrole-lan-et-émissions-de-carbone-kgan-pour-différentes-installations-solaires">Énergie grise en équivalents pétrole (L/an) et émissions de carbone (kg/an) pour différentes installations solaires*</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>50 W</th>
+<th>30 W</th>
+<th>10 W</th>
+<th>5 W</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>440 Wh</td>
+<td>5.05 L<br>15.14 kg</td>
+<td>4.37 L<br>13.11 kg</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>168 Wh</td>
+<td>3.49 L<br>10.47 kg</td>
+<td>2.81 L<br>8.44  kg</td>
+<td>2.13 L<br>6.40 kg</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>86.4 Wh</td>
+<td>2.92 L<br>8.76 kg</td>
+<td>2.24 L<br>6.71 kg</td>
+<td>1.56 L<br>4.69 kg</td>
+<td>1.39 L<br>4.18 kg</td>
+</tr>
+<tr>
+<td>48 Wh</td>
+<td>2.80 L<br>8.41 kg</td>
+<td>2.13 L<br>6.38 kg</td>
+<td>1.45 L<br>4.34 kg</td>
+<td>1.28 L<br>3.83 kg</td>
+</tr>
+<tr>
+<td>24 Wh</td>
+<td>2.63 L<br>7.89 kg</td>
+<td>1.98 L<br>5.94 kg</td>
+<td>1.3 L<br>3.90 kg</td>
+<td>1.13 L<br>3.39 kg</td>
+</tr>
+<tr>
+<td>15.6 Wh</td>
+<td>2.62 L<br>7.85 kg</td>
+<td>1.94 L<br>5.83 kg</td>
+<td>1.26 L<br>3.79 kg</td>
+<td>1.09 L<br>3.28 kg</td>
+</tr>
+</tbody>
+</table>
+<ul class="caption">
+<li>Comprend l&rsquo;énergie grise du serveur et du contrôleur de charge</li>
+<li>n/a = Le panneau solaire ne peut pas charger complètement la batterie, quelle que soit la saison.</li>
+</ul>
+<h3 id="comparaison-avec-lintensité-carbone-du-réseau-électrique-espagnol">Comparaison avec l&rsquo;intensité carbone du réseau électrique espagnol</h3>
+<p>Calculons maintenant les émissions de CO2 pour un serveur Web auto-hébergé alimenté par le réseau électrique et non à l&rsquo;énergie solaire. Les émissions de CO2 dans ce cas dépendent du réseau électrique espagnol, qui se trouve être l&rsquo;un des moins carboné d&rsquo;Europe en raison de sa part élevée en énergie renouvelable et nucléaire (respectivement 36,8 % et 22 % en 2019).</p>
+<p>En 2019, l&rsquo;intensité carbone du réseau électrique espagnol est tombée à 162 g de CO2 par kWh d&rsquo;électricité. À titre de comparaison, l&rsquo;intensité carbone moyenne en Europe est d&rsquo;environ 300g/kWh, tandis que les intensités carbones des réseaux électriques américain et chinois sont respectivement de plus de 400g et 900g de CO2 par kWh d&rsquo;électricité.</p>
+<p>En regardant simplement l’électricité que notre serveur a utilisé, soit 9,53 kWh au cours de la première année, il aurait émis 1,54 kg d&rsquo;émissions de CO2 sur le réseau électrique espagnol, contre 3 à 10 kg pour les configurations à énergie solaire que nous avons testées. Cela semble indiquer que notre serveur solaire est en fait une fausse bonne idée, car même le plus petit panneau solaire avec la plus petite batterie génèrent plus d&rsquo;émissions carbone que le réseau électrique standard.</p>
+<blockquote>
+<p>Lorsque l&rsquo;intensité carbone du réseau électrique est mesurée, l&rsquo;énergie grise de l&rsquo;infrastructure d&rsquo;énergie renouvelable n’est pas prise en compte.</p>
+</blockquote>
+<p>Cependant, c’est comparer des pommes et des oranges. Nous avons calculé nos émissions sur la base de l&rsquo;énergie grise de notre installation. Or, lorsque l&rsquo;intensité carbone du réseau électrique espagnol est mesurée, l&rsquo;énergie grise de l&rsquo;infrastructure d&rsquo;énergie renouvelable n’est pas prise en compte. Si nous calculions notre intensité carbone de cette manière, on arriverait aussi à zéro.</p>
+<p>Ignorer les émissions carbone intrinsèques de l&rsquo;infrastructure électrique est raisonnable lorsque le réseau est alimenté par des centrales électriques à combustibles fossiles, car les émissions carbone pour construire cette infrastructure sont très faibles par rapport aux émissions carbone du carburant brûlé. Cependant, c’est l&rsquo;inverse pour les sources d&rsquo;énergie renouvelables, où les émissions carbone opérationnelles sont presque nulles, le carbone étant émis lors de la production des centrales elles-mêmes.</p>
+<p>Pour avoir une comparaison correcte avec notre serveur solaire, le calcul de l&rsquo;intensité carbone du réseau électrique espagnol devrait prendre en compte les émissions dues à la construction et à l&rsquo;entretien des centrales électriques, des lignes de transmission et - si les centrales électriques à combustibles fossiles devaient à terme disparaître – rajouter le stockage d&rsquo;énergie. Bien sûr, en fin de compte, l&rsquo;énergie grise de tous ces composants dépendrait de ce qu’on vise en termes de durée de disponibilité du site Web.</p>
+<h2 id="span-idimprovements-améliorations-possibles-span"><span id="improvements"> Améliorations possibles </span></h2>
+<p>Il existe de nombreuses façons d&rsquo;améliorer la soutenabilité de notre site Web solaire tout en maintenant la même disponibilité. La production de panneaux solaires et de batteries utilisant l&rsquo;électricité du réseau espagnol aurait le plus gros impact en matière de réduction des émissions : l&rsquo;empreinte carbone de notre configuration serait ainsi environ 5 fois plus faible à ce qu&rsquo;elle est actuellement.</p>
+<p>Ce que nous pouvons faire de notre côté c&rsquo;est aussi réduire l&rsquo;énergie que consomme le serveur et améliorer l&rsquo;efficacité du système de l&rsquo;installation solaire photovoltaïque. Les deux nous permettraient de faire fonctionner le serveur avec une batterie et un panneau solaire plus petits, réduisant ainsi l&rsquo;énergie grise. On pourrait aussi passer à un autre type de stockage d&rsquo;énergie, ou même à un autre type de source d&rsquo;énergie.</p>
+<h3 id="le-serveur">Le serveur</h3>
+<p>Nous avons déjà apporté quelques modifications ayant entraîné une réduction de l&rsquo;énergie que le serveur consomme. Par exemple, nous avons découvert que plus de la moitié du trafic de données total sur notre serveur (6,63 sur 11,16 To) était causé par une seule <a href="https://github.com/nextcloud/news/issues/588" target="_blank" >implémentation RSS défectueuse</a> qui tirait du jus toutes les deux minutes.</p>
+<blockquote>
+<p>Une différence de consommation d&rsquo;énergie de 0,19 watts s&rsquo;élève à 4,56 watts-heure sur 24 heures, ce qui signifie que le site Web peut rester en ligne plus de 2,5 heures supplémentaires.</p>
+</blockquote>
+<p>La correction de ce problème ainsi que d&rsquo;autres modifications ont réduit la consommation électrique du serveur (hors pertes d&rsquo;énergie) de 1,14 watts à environ 0,95 watts. Le gain peut sembler faible, mais une différence de consommation d&rsquo;énergie de 0,19 watts s&rsquo;élève à 4,56 watts-heure sur 24 heures, ce qui signifie que le site Web peut rester en ligne plus de 2,5 heures supplémentaires.</p>
+<h3 id="efficacité-du-système">Efficacité du système</h3>
+<p>Au cours de la première année, l&rsquo;efficacité du système n’a été que de 50 %. Des pertes d&rsquo;énergie ont été enregistrées lors de la charge et de la décharge de la batterie (22 %), ainsi que lors de la conversion de tension 12 V (système photovoltaïque solaire) vers 5 V (connexion USB), où les pertes s&rsquo;élèvaient à 28 %. Le convertisseur de tension initial que nous avions construit était assez sous-optimal (notre contrôleur de charge solaire n&rsquo;a pas de connexion USB intégrée) : on pourrait ainsi <a href="https://blog.yavilevich.com/2017/03/efficient-dc-12v-to-5v-conversion-for-low-power-electronics-evaluation-of-six-modules/" target="_blank" >en construire un meilleur</a>, ou passer à une installation solaire photovoltaïque 5 V.</p>
+<h3 id="stockage-dénergie">Stockage d&rsquo;énergie</h3>
+<p>Pour augmenter l&rsquo;efficacité du stockage d&rsquo;énergie, nous pourrions remplacer les batteries au plomb par des batteries lithium-ion plus chères, mais avec des pertes de charge/décharge plus faibles (&lt;10%) et une énergie grise plus faible. Il est plus probable que nous passions en fin de compte à un <a href="./fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/" >système de stockage d&rsquo;énergie plus « poétique »</a> fonctionnant à air comprimé (CAES). Bien que les systèmes CAES basse pression aient une efficacité similaire à celle des batteries au plomb, ils ont une énergie grise beaucoup plus faible en raison de leur longue espérance de vie (atteignant des décennies et non des années).</p>
+<h3 id="source-dénergie">Source d&rsquo;énergie</h3>
+<p>Une autre façon de réduire l&rsquo;énergie grise est de changer de source d&rsquo;énergie renouvelable. L&rsquo;énergie solaire photovoltaïque a une énergie grise élevée par rapport à des alternatives telles que le vent, l&rsquo;eau ou l&rsquo;énergie humaine. Ces sources d&rsquo;énergie pourraient être récoltées avec un peu plus qu&rsquo;un générateur et un régulateur de tension - car le reste de la centrale <a href="./fr/2019/06/reinventing-the-small-wind-turbine/" >pourrait être construit en bois</a>. De plus, un site Web alimenté par un système hydraulique ne nécessiterait pas de stockage d&rsquo;énergie pointe. Si vous êtes dans un climat froid, vous pouvez même faire fonctionner votre site Web sur la chaleur d&rsquo;un poêle à bois, à l&rsquo;aide d&rsquo;un générateur thermoélectrique.</p>
+<h3 id="traqueur-solaire">Traqueur solaire</h3>
+<p>Les personnes qui disposent d&rsquo;un bon approvisionnement en énergie éolienne ou hydraulique pourraient construire un système avec une énergie grise plus faible que le nôtre. Cependant, à moins que l&rsquo;auteur ne commence à alimenter son site Web <a href="https://www.humanpowerplant.com" target="_blank" >avec la force de ses bras ou de ses jambes</a>, nous sommes quasiment contraints à utiliser le solaire. La meilleure amélioration que nous pourrions apporter serait d&rsquo;ajouter un traqueur solaire pour que le panneau suive le soleil, ce qui pourrait augmenter la production d&rsquo;électricité jusqu&rsquo;à + 30 % et ainsi d&rsquo;obtenir une meilleure disponibilité avec un panneau plus petit.</p>
+<h2 id="span-idscale-voyons-plus-grand--span"><span id="scale"> Voyons plus grand ! </span></h2>
+<p>Un dernier moyen d&rsquo;améliorer la soutenabilité de notre système serait de le faire évoluer : exécuter davantage de sites Web sur un serveur, et exécuter plus de serveurs (et plus gros) sur un système solaire photovoltaïque. Cette configuration aurait une énergie grise beaucoup plus faible que les systèmes standards, qui sont surdimensionné pour chaque site Web seul.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png" alt='Illustration: Diego Marmolejo.' data-original="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/solar-powered-data-center_hu18c3fb1f68f16ca901dee83a4826c670_892546_800x800_fit_q90_h2_box.webp" data-dither="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Illustration: <a href="https://www.instagram.com/ddidak/" target="_blank" >Diego Marmolejo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="société-dhébergement-de-sites-web-solaires">Société d&rsquo;hébergement de sites web solaires</h3>
+<p>Si nous devions remplir le balcon de l&rsquo;auteur de panneaux solaires et lancer une société d&rsquo;hébergement de sites Web solaires, l&rsquo;énergie grise par visiteur unique diminuerait considérablement. Nous n&rsquo;aurions besoin que d&rsquo;un seul serveur pour plusieurs sites Web et d&rsquo;un seul contrôleur de charge solaire pour plusieurs panneaux solaires. La conversion de tension serait plus économe en énergie et l&rsquo;énergie solaire et la batterie pourraient être partagées par tous les sites Web, ce qui entraînerait des économies d&rsquo;échelle.</p>
+<p>Bien sûr, c&rsquo;est le concept même du data center, et bien que nous n&rsquo;ayons pas l&rsquo;ambition de démarrer une telle entreprise, d&rsquo;autres pourraient faire cheminer cette idée : aller vers un data center qui fonctionnerait aussi efficacement que n&rsquo;importe quel autre data center d’aujourd&rsquo;hui, mais qui serait alimenté aux énergies renouvelables et se déconnecterait lorsque la météo est mauvaise.</p>
+<h3 id="ajouter-plus-de-sites-web">Ajouter plus de sites web</h3>
+<p>Ayant constaté que la capacité de notre serveur est suffisamment grande pour héberger davantage de sites Web, nous avons commencé à aller vers des économies d&rsquo;échelle en déplaçant les versions <a href="./2020/01/the-solar-powered-website-in-spanish-french-and-other-languages/" >espagnole et française du Low-tech Magazine</a>) sur le serveur solaire (ainsi que certaines autres traductions).</p>
+<p>Bien que cette décision augmente notre consommation d&rsquo;énergie de fonctionnement mais aussi potentiellement d&rsquo;énergie grise, nous éliminons en même temps d&rsquo;autres sites Web hébergés ailleurs. Nous devons également garder à l&rsquo;esprit que le nombre de visiteurs uniques du Low-tech Magazine pourrait augmenter à l&rsquo;avenir : nous devons donc continuer à être plus efficients énergétiquement, simplement pour maintenir une faible empreinte environnementale.</p>
+<h3 id="combiner-serveur-et-éclairage">Combiner serveur et éclairage</h3>
+<p>Une autre façon de réaliser des économies d&rsquo;échelle serait bien plus radicale. Le serveur à énergie solaire est en effet situé au foyer de l&rsquo;auteur, qui est <a href="./fr/2016/05/how-to-get-your-apartment-off-the-grid/" >aussi en partie alimenté par de l&rsquo;énergie solaire hors réseau</a>. Nous <em>pourrions</em> tester différentes tailles de batteries et de panneaux solaires - simplement en échangeant des composants entre les installations solaires.</p>
+<p>Lorsque nous faisions fonctionner le serveur sur un panneau de 50 W, l&rsquo;auteur faisait fonctionner les lumières du salon sur un panneau de 10 W – et restait souvent assis dans le noir. En branchant le serveur sur le panneau de 10 W, c&rsquo;était l&rsquo;inverse : il y avait plus de lumière dans la maison, au détriment d&rsquo;une disponibilité plus faible du serveur.</p>
+<blockquote>
+<p>En cas de mauvais temps, l&rsquo;auteur peut décider de ne pas utiliser les lumières et de maintenir le serveur en ligne – ou l&rsquo;inverse</p>
+</blockquote>
+<p>SI nous alimentons à la fois les lumières et le serveur sur un seul et même système solaire photovoltaïque, cela réduirait l&rsquo;énergie grise des deux systèmes, car un seul contrôleur de charge solaire serait nécessaire. De plus, on pourrait utiliser une batterie et un panneau solaire beaucoup plus petits (par rapport au cas de deux systèmes distincts), car si le temps se gâte, l&rsquo;auteur pourrait décider de ne pas utiliser les lumières et de garder le serveur en ligne - ou l&rsquo;inverse. Cette flexibilité n&rsquo;est pas disponible actuellement, car le serveur est la seule charge et sa consommation d&rsquo;énergie ne peut être facilement ajustée.</p>
+<h2 id="span-idnetwork-consommation-dénergie-sur-le-réseau-span"><span id="network"> Consommation d&rsquo;énergie sur le réseau </span></h2>
+<p>C’est la première fois à notre connaissance qu’une analyse de cycle de vie d&rsquo;un site Web fonctionnant entièrement aux énergies renouvelables - incluant l&rsquo;énergie grise de son système d’alimentation et de l’infrastructure de stockage d&rsquo;énergie - est réalisée. Cependant, il ne s&rsquo;agit bien entendu pas de la consommation totale d&rsquo;énergie associée à ce site Web.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png" alt='' data-original="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/server-to-internet-router_hu1d80cebd2ebc640d6d368315f9da912e_51781_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Il y a aussi l&rsquo;énergie grise et opérationnelle de l&rsquo;infrastructure réseau (qui comprend notre routeur, le réseau principal d’Internet et le réseau de téléphonie mobile), et l&rsquo;énergie grise et opérationnelle des appareils que nos visiteurs utilisent pour accéder à notre site Web : smartphones, tablettes, ordinateurs portables, ordinateurs de bureau. Certains d&rsquo;entre eux consomment peu d&rsquo;énergie en fonctionnement, mais ils ont tous une durée de vie très limitée et donc <a href="./fr/2009/06/the-monster-footprint-of-digital-technology/" >une énergie grise élevée</a>.</p>
+<p>La consommation d&rsquo;énergie dans le réseau est directement liée au débit du trafic de données qui le traverse, de sorte que notre site Web peu gourmand est tout aussi efficace sur le réseau de communication que sur notre serveur. Cependant, nous avons très peu d&rsquo;influence sur les appareils que les gens utilisent pour accéder à notre site Web et l&rsquo;avantage direct de notre conception est beaucoup plus faible pour cela que sur le réseau. Par exemple, notre site Web a le potentiel d&rsquo;augmenter la durée de vie des ordinateurs, car il est suffisamment léger pour être accessible sur de très vieilles machines. Malheureusement, il n&rsquo;incitera pas les gens à utiliser leur ordinateur plus longtemps.</p>
+<blockquote>
+<p>L&rsquo;infrastructure réseau ainsi que les terminaux pourraient être repensés sur le modèle du site Web solaire.</p>
+</blockquote>
+<p>Cela dit, à la fois l&rsquo;infrastructure réseau et les terminaux (appareils utilisateurs) pourraient être réimaginés sur le modèle du site Web solaire – c’est-à-dire à échelle réduite et alimenté par des sources d&rsquo;énergie renouvelables avec un stockage d&rsquo;énergie limité. Certaines parties de l&rsquo;infrastructure réseau pourraient être déconnectées si la météo locale est mauvaise et votre courriel pourrait être temporairement stocké dû à une tempête à 3 000 km de là. Ce type d&rsquo;infrastructure réseau <a href="./fr/2016/11/why-the-office-needs-a-typewriter-revolution/" >existe réellement dans certains pays</a> et ces réseaux  ont en partie inspir&quot; notre sute Web à energie solaire. Les terminaux pourraient aussi avoir une faible consommation énergétique et une longue durée de vie.</p>
+<p>Étant donné que la consommation totale d&rsquo;énergie d&rsquo;Internet est généralement mesurée comme étant répartie à peu près également sur le trio serveurs, réseau et terminaux (comprenant tous la fabrication des appareils), nous pouvons faire une estimation approximative de l&rsquo;énergie totale que ce site Web consommerait sur un Internet repensé. Pour notre configuration d&rsquo;origine avec 95,2 % de disponibilité, cela représenterait 87,6 kWh d&rsquo;énergie primaire, ce qui correspond à 9 litres de pétrole et 27 kg de CO2 par an. Les améliorations que nous avons décrites précédemment pourraient encore faire baisser ces chiffres car, dans ce calcul, tout Internet est alimenté par des systèmes solaires photovoltaïques surdimensionnés logés sur des balcons.</p>
+<p>Merci à Kathy Vanhout, Adriana Parra et Gauthier Roussilhe.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>La capacité de stockage de notre configuration d&rsquo;origine est une estimation. En réalité, pendant cette période, nous avons fait fonctionner le serveur solaire sur une batterie LiPo de 24 Wh (3,7 V, 6,6 A) et avons placé une très vieille batterie au plomb-acide de 84,4 watts-heure entre le LiPo et le contrôleur de charge solaire pour rendre les deux systèmes compatibles. La tension de coupure de la batterie plomb-acide était réglée très haut en été (ce qui signifie que le système ne fonctionnait que sur le LiPo) mais plus basse en hiver (de sorte qu&rsquo;une partie de la batterie plomb-acide fournissait une part du stockage d&rsquo;énergie). Cette configuration compliquée était entièrement due au fait que nous pouvions uniquement mesurer la capacité de stockage de la batterie LiPo - nécessaire pour afficher notre indicateur de batterie en ligne. En novembre 2019, nous avons développé notre propre indicateur de charge de batterie au plomb, ce qui a permis d&rsquo;éliminer le LiPo de notre configuration.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>“<a href="http://www.apmaths.uwo.ca/~mdavison/_library/natasha/batterytechnologies6.PDF" target="_blank" >Energy Analysis of Batteries in Photovoltaic systems. Part one (Performance and energy requirements)</a>” (PDF) and “<a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CCUQFjAA&amp;url=http%3A%2F%2Fwww.researchgate.net%2Fprofile%2FBjoern_Sanden%2Fpublication%2F223843791_Energy_analysis_of_batteries_in_photovoltaic_systems._Part_II_Energy_return_factors_and_overall_battery_efficiencies%2Flinks%2F02bfe512b207d0d347000000.pdf&amp;ei=IQBGVZ-BCZD3aqC_gKAI&amp;usg=AFQjCNG6QpCpI8h0PMc-XfC5HfF4-0pIKA&amp;sig2=gFGbOdmw_jQxG6jRirSMoQ&amp;bvm=bv.92291466,d.d2s&amp;cad=rja" target="_blank" >Part two (Energy Return Factors and Overall Battery Efficiencies)</a>” (PDF). Energy Conversion and Management 46, 2005&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Zhong, Shan, Pratiksha Rakhe, and Joshua M. Pearce. &ldquo;Energy payback time of a solar photovoltaic powered waste plastic recyclebot system.&rdquo; Recycling 2.2 (2017): 10.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Il existe peu de recherches utiles sur l&rsquo;énergie grise des contrôleurs de charge solaire. La plupart des études se concentrent sur les grands systèmes solaires photovoltaïques, dans lesquels l&rsquo;énergie grise du contrôleur de charge est négligeable. Le résultat le plus utile que nous ayons trouvé était une valeur de 1 MJ/W, estimée sur la taille du contrôleur : Kim, Bunthern, et al. &quot; Life cycle assessment for a solar energy system based on reuse components for developing countries.&quot; Journal of cleaner production 208 (2019): 1459-1468. Pour une capacité de 120W, cela revient à 120 MJ, soit 33,33 kWh. Pour l&rsquo;espérance de vie, nous avons trouvé des valeurs de 7 ans et 12,5 ans : même référence, et Kim, Bunthern, et al. &ldquo;Second life of power supply unit as charge controller in PV system and environmental benefit assessment.&rdquo; IECON 2016-42nd Annual Conference of the IEEE Industrial Electronics Society. IEEE, 2016. Nous avons décidé de faire le calcul sur la base d&rsquo;une espérance de vie de 10 ans.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Il n&rsquo;y a aucune recherche publiée sur l&rsquo;énergie grise de notre serveur. Nous avons calculé l&rsquo;énergie grise sur la base d&rsquo;une analyse de cycle de vie d&rsquo;un smartphone : Ercan, Mine &amp; Malmodin, Jens &amp; Bergmark, Pernilla &amp; Kimfalk, Emma &amp; Nilsson, Ellinor. (2016). <a href="https://www.ericsson.com/en/reports-and-papers/research-papers/life-cycle-assessment-of-a-smartphone" target="_blank" >Life Cycle Assessment of a Smartphone</a>. 10.2991/ict4s-16.2016.15. Nous n&rsquo;avons aucune idée de la durée de vie attendue du serveur, mais comme notre Olimex est destiné à un usage industriel (contrairement au Raspberry Pi), nous supposons une espérance de vie de 10 ans, tout comme le contrôleur de charge.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>De Decker, Kris. &ldquo;How sustainable is solar PV power?&rdquo;, Low-tech Magazine, May 2015.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="./fr/tags/ict/" class="">ICT</a></span> 
+		        
+		           <span><a href="./fr/tags/solar-power/" class="">Solar Power</a></span> 
+		        
+		           <span><a href="./fr/tags/off-the-grid/" class="">Off-the-grid</a></span> 
+		        
+		           <span><a href="./fr/tags/energy-storage/" class="">energy storage</a></span> 
+		        
+		           <span><a href="./fr/tags/solar-powered-website/" class="">Solar Powered Website</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./fr/2021/12/the-printed-website-volume-iii-and-more/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Le site imprimé : premier volume en français</h3>
+		<p class="index-summary">Lisez Low-tech Magazine sans avoir besoin d’un ordinateur, d’internet ou d’une alimentation électrique – ou quand le site internet solaire est hors service à cause d’une mauvaise météo.</p>
+		<time class="published">2 décembre 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Poêles thermoélectriques : la fin des panneaux solaires ?</h3>
+		<p class="index-summary">Les poêles à bois équipés de générateurs thermoélectriques peuvent produire une électricité plus durable, plus fiable et moins coûteuse que l’énergie des panneaux solaires.</p>
+		<time class="published">26 mai 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="./fr/2020/12/how-and-why-i-stopped-buying-new-laptops/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment et pourquoi j&#39;ai arrêté d&#39;acheter de nouveaux ordinateurs portables</h3>
+		<p class="index-summary">En tant que journaliste indépendant – ou employé de bureau si vous préférez – j&rsquo;ai toujours considéré avoir besoin d&rsquo;un ordinateur décent et que la qualité se payait.</p>
+		<time class="published">20 décembre 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="./fr/2018/09/how-to-build-a-low-tech-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('/fr/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment créer un site web basse technologie</h3>
+		<p class="index-summary">Le nouveau blog est conçu pour réduire radicalement la consommation d’énergie associée à l’accès à notre contenu.</p>
+		<time class="published">24 septembre 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="./">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="fr/about">
+  À propos
+</a>
+    <a href="fr/power">
+  Power
+</a>
+    <a href="fr/about/team">
+  Colophon
+</a>
+    <a href="fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>

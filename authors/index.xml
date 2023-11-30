@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE English</title>
+    <link>./authors/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="./authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kris De Decker</title>
+      <link>./authors/kris-de-decker/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./authors/kris-de-decker/</guid>
+      <description>&lt;p&gt;Enim voluptate cillum sunt nostrud aliquip qui mollit quis veniam officia. Minim dolore irure anim incididunt qui culpa. Culpa nulla sint est amet sint quis commodo id voluptate quis. Occaecat aliquip laboris deserunt aliquip et elit excepteur Lorem dolor culpa sit est. Ex qui duis ipsum aliqua excepteur exercitation proident id excepteur consectetur sit culpa voluptate. Elit consectetur dolore id nostrud deserunt quis nostrud proident laborum voluptate laborum sint exercitation tempor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Marie Verdeil</title>
+      <link>./authors/marie-verdeil/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./authors/marie-verdeil/</guid>
+      <description>&lt;p&gt;Author bio?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Andy Lagzdins</title>
+      <link>./authors/andy-lagzdins/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./authors/andy-lagzdins/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

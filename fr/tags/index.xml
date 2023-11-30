@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Français</title>
+    <link>./fr/tags/</link>
+    <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="./fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Airplanes</title>
+      <link>./fr/tags/airplanes/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./fr/tags/airplanes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bicycles</title>
+      <link>./fr/tags/bicycles/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./fr/tags/bicycles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cars</title>
+      <link>./fr/tags/cars/</link>
+      <enclosure url="./icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>./fr/tags/cars/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

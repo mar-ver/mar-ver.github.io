@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE English</title>
+    <link>./tags/water-power/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="./tags/water-power/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Water Networks</title>
+      <link>./2016/03/power-water-networks/</link>
+      
+      <enclosure url="/2016/03/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>./2016/03/power-water-networks/</guid>
+      <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Image: A hydraulic accumulator. Picture: Les Chatfield&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: A hydraulic accumulator. Picture: [Les Chatfield](https://www.flickr.com/photos/61132483@N00/7184633723) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;During the second half of the nineteenth century, water motors were widely used in Europe and America. These small water turbines were connected to the tap and could power any machine that is now driven by electricity. As we have seen in a &lt;a href=&#34;./2013/09/power-from-the-tap-water-motors/&#34;&gt;previous article&lt;/a&gt;, operating motors with tap water was not very sustainable. Because of the low and irregular water pressure of the town mains, these motors used unacceptably high amounts of drinking water.&lt;/p&gt;
+&lt;p&gt;While the use of water motors in the US came to an end early in the twentieth century, the Europeans found a solution for the high water use of water motors and took hydraulic power transmission one step further. They set up special &amp;ldquo;power water&amp;rdquo; networks, which distributed water under pressure for motive power purposes only, and switched to a much higher and more regular water pressure, made possible by the invention of the hydraulic accumulator.&lt;/p&gt;
+&lt;p&gt;Almost all these power water networks remained in service until the 1960s and 1970s. Hydraulic power transmission is very efficient compared to electricity when it is used to operate powerful but infrequently used machines, which can be distributed over a geographical area the size of a city.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The use of water is a curiously neglected subject in the literature of engineering. As a romantic or popular facet of engineering, hydraulic power has never caught the public eye like the steam engine, the locomotive or even the internal combustion engine.&amp;rdquo; Ian McNeil, &lt;em&gt;Hydraulic Power&lt;/em&gt;, 1972&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The theoretical basis for hydraulic power transmission was laid in 1647 by French whizz-kid Blaise Pascal. By means of experiments, he discovered that water — unlike air — is virtually incompressible and transmits pressure equally in all directions.&lt;/p&gt;
+&lt;p&gt;The implications of the &amp;ldquo;hydrostatic paradox&amp;rdquo; were demonstrated in Pascal&amp;rsquo;s &amp;ldquo;machine for multiplying forces&amp;rdquo;, illustrated below. It consists of two upright cylinders, connected together by a pipe. The whole system is filled with water and sealed water-tight. One cylinder contains a small diameter plunger, while the other cylinder contains a plunger that has a cross-sectional area 100 times larger.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine for multiplying forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Machine for multiplying forces. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pascal demonstrated that if a weight is placed on top of the small piston, it will be able to raise a weight placed on top of the larger piston that is 100 times heavier. Pascal&amp;rsquo;s machine thus allowed forces to be multiplied — in the example above, the ratio of force output to force input is 100 to 1. In other words, you can produce an output force of 100 kg for an input force of only 1 kg.&lt;/p&gt;
+&lt;h2 id=&#34;a-machine-for-multiplying-forces&#34;&gt;A Machine for Multiplying Forces&lt;/h2&gt;
+&lt;p&gt;Force multiplication was anything but new in the 1600s. More simple devices such as pulleys, gear trains, capstans, winches and treadwheels — all variations on the 7,000 year old lever — could also derive a high output force output from a small input force. For example, the Romans built cranes with a &lt;a href=&#34;./2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/&#34;&gt;mechanical advantage of up to 70 to one&lt;/a&gt;, meaning that one man exerting a force of only 25 kg could raise a weight of 1.75 tonnes.&lt;/p&gt;
+&lt;p&gt;However, the hydraulic version of the lever has one outstanding advantage over earlier mechanisms: the friction loss is very small and independent of the mechanical advantage. Therefore, the possible multiplication ratio is almost infintely greater and both pistons may be a considerable distance apart — up to about 25 km, as we shall see.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In hydraulics, friction loss is independent of the mechanical advantage, therefore the possibile force multiplication ratio is almost infinite&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Increasing force multiplication could be done by either extending the proportion between the diameter of both plungers, or by applying greater power to the smaller piston. In common with the earlier mechanisms, what is gained in mechanical advantage is lost in velocity ratio.&lt;/p&gt;
+&lt;p&gt;If a small hydraulic force is converted into a larger force, its speed of operation will be reduced in exactly the inverse proportion, because the distance traversed increases in the same proportion as the force. For example, a person pressing down the small piston 10 centimetres would move the other piston up only 1/100th of that distance.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Illustration: Pascal&amp;amp;rsquo;s Barrel experiment. Source unknown.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: Pascal&#39;s Barrel experiment. Source unknown. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Consequently, in a closed system, the heavier weight could be lifted only over a very limited distance, depending on the length of the plunger. However, this limit is removed when more water is added to the system and the smaller piston, instead of coming down just once, makes a number of strokes — in other words, when it functions as a pump. In this case, the larger piston will keep rising.&lt;/p&gt;
+&lt;h2 id=&#34;the-hydraulic-press&#34;&gt;The Hydraulic Press&lt;/h2&gt;
+&lt;p&gt;Pascal could only prove his point indirectly, as the available materials at the time were not strong enough to withstand the pressure. It would take another century and a half before hydraulic force multiplication was put into practice. Its first use was not a lifting device, but rather the opposite: the hydraulic press, which generates a compressive force.&lt;/p&gt;
+&lt;p&gt;The conventional screw press of the time, little developed since the Romans had used it for pressing olives and grapes, required a great effort to operate, had large frictional energy loss (+80%), and could not have exerted more than 25 tonnes load. (The screw, which converts rotational motion into linear motion, is basically an inclined plane wrapped around a cylinder).&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;Left: The screw press. Picture credit: Bruce K. Satterfield Right: The hydraulic press.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Left: The screw press. Picture credit: [Bruce K. Satterfield](http://emp.byui.edu/SATTERFIELDB/Olive%20Tree/olive%20tree%20horticulture.htm) Right: The hydraulic press. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The hydraulic press was invented in 1796 by English locksmith and carpenter Joseph Bramah. It was entirely based on the theoretical work of Pascal. Bramah&amp;rsquo;s hydraulic press, which was driven by a hand-operated pump, brought a large increase in the load that could be exerted by a human.&lt;/p&gt;
+&lt;p&gt;With the available materials at the time, Bramah achieved an overall ratio of 1,000 to 1, which means that an effective load of 60 tonnes on the lifting piston could be balanced by a mere 60 kg on the pump handle. The efficiency of the hydraulic press was over 90%.&lt;/p&gt;
+&lt;h2 id=&#34;harbours-and-dockyards&#34;&gt;Harbours and Dockyards&lt;/h2&gt;
+&lt;p&gt;In spite of its eminent suitability for crane operation, hydraulics made little progress in this field during the first half of the nineteenth century. This was largely due to the problem of reliably and efficiently translating the linear motion of a ram to rotary motion of the crane barrel or drum. During the first half of the nineteenth century, cargo handling in harbours, dockyards and railway yards was still done by means of &lt;a href=&#34;./2010/03/the-sky-is-the-limit-human-powered-cranes-and-lifting-devices/&#34;&gt;human powered cranes&lt;/a&gt;, but the need for taller and stronger cranes was great.&lt;/p&gt;
+&lt;p&gt;Starting in the 1830s, iron began to be used as a material for ship building, with a parallel growth in the dimensions of ships. Conventional lifting systems were no longer adequate. In most countries, the solution was found in the steam powered crane, which appeared in the 1850s. However, in harbours and dockyards in Britain, a worthy alternative appeared: the water powered crane.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During the first half of the nineteenth century, cargo handling in harbours, dockyards and railway yards was still done by means of human powered cranes&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;British engineer William Armstrong started designing and operating powerful hydraulic cranes in the 1840s. Being fully aware that hydraulics was best adapted for giving a slow, steady motion, Armstrong deviced a method of lifting the load at one stroke of a ram or piston, multiplying the motion sufficiently by means of pulleys.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Image: hydraulic crane&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Image: hydraulic crane 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;However, his efforts were complicated by the low and irregular pressure of the town mains, which was the power source for these machines. The maximum power output of a water powered machine is determined by water pressure and water flow. In the town mains, water pressure was (and often still is) supplied by a water tower. Because the practical height of a water tower is limited, so is the water pressure. A 50 m (165 ft.) tall water tower can produce a water pressure of 70 pound-per-square-inch (psi).&lt;/p&gt;
+&lt;p&gt;Consequently, the only way to further increase the power output of a crane running on water from the town mains is to increase the water flow. However, this raises potable water consumption and increases the size and costs of pipes, valves, cylinders, and other parts of the system. Moreover, if there is a higher than average demand for potable water from other users, the water level in a water tower will fall, and so will the water pressure and the power output of the machine.&lt;/p&gt;
+&lt;h2 id=&#34;the-hydraulic-accumulator&#34;&gt;The Hydraulic Accumulator&lt;/h2&gt;
+&lt;p&gt;In 1851, Armstrong came up with an alternative solution that solved these issues: the hydraulic accumulator. Although much more compact than a water tower, it could produce a regular water pressure of 700 psi or higher — at least 10 times the water pressure in the town mains. This allowed to produce an order of magnitude more power without raising water consumption or increasing the size of system components.&lt;/p&gt;
+&lt;p&gt;Armstrong&amp;rsquo;s hydraulic accumulator was a contraption in which a ram or piston exerted pressure on the water in a vertical cylinder. The piston was loaded by dead weight ballast, which generally took on the form of a cylindrical ballast container surrounding the central cylinder (image below, on the left). The container was filled with crushed rock, scrap iron or other ballast material.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Left: Hydarulic Accumulator in Bristol Harbour. Wikipedia Commons. Right: Hydraulic Accumulator, Walsh Bay, Sydney. Source: NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Left: Hydarulic Accumulator in Bristol Harbour. Wikipedia Commons. Right: Hydraulic Accumulator, Walsh Bay, Sydney. Source: [NSW HSC Online](http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;For a water pressure of 700 psi the ballast was about 100 tonnes, acting on a ram of about 45 cm in diameter with a vertical stroke of 6 to 7 meters. Another type of accumulator utilised a rectangular platen to support a brickwork ballast (image above, on the right) or steel slabs. Hydraulic accumulators could be set up outdoors, or housed in a purpose designed building.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In comparison with a water tower, a hydraulic accumulator could deliver ten times more power, and maintain an even pressure all over the network&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The workings of the hydraulic accumulator are somewhat similar to those of a water tower. The central cylinder has a water inlet and outlet at the bottom. Water from the docks could be pumped in through the inlet by a steam powered pump, raising the piston, while it could be pushed out through the outlet into the mains for distribution, lowering the piston.&lt;/p&gt;
+&lt;p&gt;Energy was stored by upward movement of the ram and recovered upon its descent. The pumping rate of the steam engine was regulated in function of the water level in the accumulator, either automatically via mechanical linkages or via the aid of a human being.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Fielding and Platt hydraulic accumulator&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Fielding and Platt hydraulic accumulator 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Contrary to a water tower, however, the accumulator could maintain an even pressure all over the system regardless of the volume of water in the cylinder, because it&amp;rsquo;s the weight of the ballast and not the weight of the water that creates the pressure — in other words, the hydraulic accumulator gives pressure by load instead of by elevation.&lt;/p&gt;
+&lt;p&gt;With a charging/discharging efficiency above 98%, and no self-discharge, the hydraulic accumulator was an extremely energy efficient device.&lt;/p&gt;
+&lt;h2 id=&#34;water-powered-factory-machinery&#34;&gt;Water Powered Factory Machinery&lt;/h2&gt;
+&lt;p&gt;The introduction of the hydraulic accumulator had two important effects. First, it greatly expanded the range of hydraulically operated machines. The water motors connected to the town mains were &lt;a href=&#34;./2013/09/power-from-the-tap-water-motors/&#34;&gt;household devices and workshop tools&lt;/a&gt;. But Armstrong and other engineers adapted high pressure water to a variety of industrial applications that required great power such as forging, punching, stamping, flanging, shearing and riveting (the predecessor of welding).&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Hydraulically powered riveting machine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hydraulically powered riveting machine. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In harbours, high pressure water not only operated cranes and hoisting machines handling cargo on docks and in warehouses, but also lock gates, swing bridges, boat lifts, and graving docks. At railway yards, hydraulic power transmission was used for freight handling and for moving railway cars (using hydraulic capstans), as well as for operating turntables, elevators and traversing mechanisms. All these applications of hydraulic power would have been impossible with the low and irregular pressure prevailing on the town mains.&lt;/p&gt;
+&lt;p&gt;To give an idea of the importance of hydraulic power, it suffices to look once more at the evolution of lifting devices. In 1586, a 344 ton obelisk was moved between squares in Rome. Domenic Fontana, master builder of the Vatican, raised the obelisk with the help of 40 capstans worked by 400 men and 75 horses. In 1878, John Dixon raised another obelisk — Cleopatra&amp;rsquo;s needle, weighing 209 tons — using four hydraulic lifting jacks, worked by four men.&lt;/p&gt;
+&lt;h2 id=&#34;power-water-networks&#34;&gt;Power Water Networks&lt;/h2&gt;
+&lt;p&gt;Secondly, the hydraulic accumulator made it possible to transmit power efficiently over large distances. For a 30 cm diameter pipeline, the pressure drop in water distribution amounts to about 10 psi per mile, a figure that is independent of water pressure. Thus, if you transmit water with a pressure of 70 psi over a distance of 7 miles (12 km), all energy is lost. But if you transmit water over the same distance with a pressure of 700 psi, a water pressure of 630 psi remains, which comes down to a transmission efficiency of 90%.&lt;/p&gt;
+&lt;p&gt;The high transmission efficiency of high-pressure water led to the construction of at least a dozen public power water networks with accumulator storage, half of them in Britain, in which centrally located steam engines pumped water into hydraulic accumulators that distributed high pressure water over a large geographical area. One or more accumulators would be installed at each hydraulic power station and others could be sited at strategic points along the supply main as sub-stations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The idea of a truly hydraulic power network — analogous to the electric grid that came a bit later — was already outlined in a 1812 patent by Joseph Bramah, the inventor of the hydraulic press.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From the 1870s to the 1890s, hydraulic power networks were established in the leading industrial cities of Britain: Kingston upon Hull, London, Liverpool, Birmingham, Grimsby, Manchester and Glasgow. Dock and railway companies pioneered the technology, and remained the most important users for decades.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations of a hydraulic accumulator, a hydraulic crane, and a hydraulic lift.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustrations of a hydraulic accumulator, a hydraulic crane, and a hydraulic lift. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;However, power water was also running manufacturing processes in factories, operating elevators in public, private and commercial buildings, and activating household devices and workshop tools. Anybody who was lucky enough to have a mains running through the street could connect to the public network. Power water consumption was metered, as it happens today with potable water and electricity.&lt;/p&gt;
+&lt;p&gt;The idea of a truly hydraulic power network — analogous to the electric grid that came a bit later — was already outlined in a 1812 patent by Joseph Bramah, the inventor of the hydraulic press. But Bramah, who also conceived the hydraulic accumulator and the hydraulic crane, was ahead of his time. It took another sixty years before his ideas were brought into practice by Armstrong and his contemporaries.&lt;/p&gt;
+&lt;h2 id=&#34;london-hydraulic-power-company&#34;&gt;London Hydraulic Power Company&lt;/h2&gt;
+&lt;p&gt;The most extensive hydraulic power network was built in London, operated by the &amp;ldquo;London Hydraulic Company&amp;rdquo;. At the company&amp;rsquo;s peak in 1917, five interconnected central power stations pumped high pressure water in about a dozen hydraulic accumulators and almost 300 km of supply mains, powering more than 8,000 machines and serving most of the city. In London theatres and other cultural buildings, power water was moving floors, organ consoles, fire curtains and stages. Water under pressure worked water pumps and lifted the bascules of the Tower Bridge.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration: layout of London Hydraulic Power Co. mains and pumping stations, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: layout of London Hydraulic Power Co. mains and pumping stations, 1895. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Fire hydrants were also advantageously served by the high pressure system and several hundreds of them were connected to the London Hydraulic Power Company&amp;rsquo;s mains. These fire-fighting systems increased the pressure of the domestic water mains by injecting a small amount of high pressure water in them, using a jet pump. By itself, water at high pressure from the hydraulic power mains could not be supplied in adequate quantity to have an effect on a large fire, while the domestic supply mains had enough quantity but not enough pressure to reach the top floors of buildings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In London, five interconnected central power stations pumped high pressure water in a dozen hydraulic accumulators and almost 300 km of supply mains, powering more than 8,000 machines and serving most of the city.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Another remarkable application of high pressure water in London was the &lt;em&gt;Silent Dustman&lt;/em&gt;, a water powered vacuum cleaning system that came on the market in 1910. Several large hotels were completely &amp;ldquo;wired&amp;rdquo; for this system: water from the town mains was used in a jet pump to produce a vacuum in a pipe to which the system was to be fitted. Along these pipes were a number of nozzles to which flexible hoses could be fixed. Thus the dirt from the sweepers was drawn into the hydraulic pipe and carried away into the drains. The system, which operated silently and efficiently, remained in operation until 1937.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;One of the London power stations. Note the tower on the right, which houses the hydraulic accumulators.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ One of the London power stations. Note the tower on the right, which houses the hydraulic accumulators. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In London, however, hydraulic power does not seem to have made a great impact on the domestic scene. In &lt;em&gt;The Hydraulic Age&lt;/em&gt; (1980), B. Pugh notes that this was &amp;ldquo;possibly due to the fact that in its day domestic labour was cheap and in plentiful supply. Had present-day conditions operated then possibly the story would have been different since the potentialities of hydraulic power were not less than those of electricity today.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Most public power water networks supplied water under a pressure of 700 to 800 psi (48 to 55 bar), with the exception of Manchester and Glasgow, where water was pressurized to 1120 psi. In these cities, there was a heavy demand for power for hydraulic presses used for baling, an application that required a higher pressure.&lt;/p&gt;
+&lt;h2 id=&#34;power-networks-outside-britain&#34;&gt;Power Networks Outside Britain&lt;/h2&gt;
+&lt;p&gt;The British power systems inspired similar networks elsewhere: Antwerp in Belgium, Buenos Aires in Argentina, and Melbourne and Sydney in Australia. While the Australian systems were reminiscent of those in Britain (with 80 km of mains, the one in Melbourne was the second largest ever built), the Argentinian system was used to pump sewage, and the network in Antwerp was aimed at the combined production of mechanical power and electricity. The latter was an attempt to overcome the very high transmission losses of electricity at the time.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;quot;Zuiderpershuis&amp;amp;quot;: a former hydraulic pumping plant in Antwerp. The towers housed the hydraulic accumulators.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ \&#34;Zuiderpershuis\&#34;: a former hydraulic pumping plant in Antwerp. The towers housed the hydraulic accumulators. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In &lt;em&gt;The Hydraulic Age&lt;/em&gt;, B. Pugh writes that:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;For power transmission, the early electric stations were faced with the same difficulties as the hydraulic power stations, their voltage being analogous to working pressure, and voltage drop due to mains resistance analogous to pressure drop due to pipe friction. The early electric public power stations were direct or continuous current stations, the voltage of generation essentially being only slightly higher (by the voltage drop in the cables) than at the consumer&amp;rsquo;s premises which for safety reasons had to be less than 250 volts. Due to voltage limitation, the area of supply as well as the amount of power that could be transmitted was limited.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The network in Antwerp was aimed at the combined production of mechanical power and electricity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since 1865, Antwerp had been using a high pressure hydraulic network for powering cranes, bridges and sluices in the harbour. To this was added a second network in 1893, which distributed high pressure water to electric substations scattered across the city (twelve according to the plan, but only three were built). There, water turbines generated electricity which was distributed in a radius of 500 m via underground electric conduits — this was about the distance at which low voltage could be distributed efficiently.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Hydraulic cranes in Antwerp harbour. Picture by Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hydraulic cranes in Antwerp harbour. Picture by Low-tech Magazine. 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The Antwerp system, which was used for operating street lighting, thus did on a large scale what water motors connected to dynamos did on a small scale with water from the town mains (see the &lt;a href=&#34;./2013/09/power-from-the-tap-water-motors/&#34;&gt;previous article&lt;/a&gt;. About 66% of the hydraulic energy was converted to electricity. At its peak, the network reached a length of 23 km with an output of 1200 hp. There were also a number of places in London where consumers ran small electric generators from the hydraulic supply.&lt;/p&gt;
+&lt;h2 id=&#34;power-water-versus-electricity&#34;&gt;Power Water Versus Electricity&lt;/h2&gt;
+&lt;p&gt;The breakthrough in high voltage electric transmission at the turn of the century made systems like those in Antwerp immediately obsolete. The electricity generating part of the network disappeared in 1900. Producing water under pressure in order to produce electricity involves a fourfold energy conversion, which is needlessly wasteful if you can just produce electricity and transport it efficiently.&lt;/p&gt;
+&lt;p&gt;The expansion of efficient electrical transmission also stopped the construction of other large-scale power water networks before the century was over. &amp;ldquo;Had these systems been started some years earlier, they might have become vastly more popular&amp;rdquo;, writes Ian McNeil in &lt;em&gt;Hydraulic Power&lt;/em&gt; (1972). &amp;ldquo;A few years later, and they would probably never have been built at all.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;However, almost all public power water systems that were built between the 1870s and 1890s remained in service until the 1960s and 1970s, eventually using electric motors instead of steam engines for pumping. The power water network operated by the London Hydraulic Company, the last to survive, worked until 1977. Most of the public power water networks kept growing during the first decades of the twentieth century, reaching their heydays at the end of the 1920s. The fatal decline came only when factories started leaving the cities in the 1960s and 1970s.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If electricity is the most efficient and practical way of transmitting and distributing power, then why did almost all power water networks remain in service for almost a century?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This raises two questions. First, why didn&amp;rsquo;t power water become the universal method of power distribution that Joseph Bramah and William Armstrong had envisioned? And second, if electricity is the most efficient and practical way of transmitting and distributing power, then why did almost all power water networks remain in service for almost a century?&lt;/p&gt;
+&lt;h2 id=&#34;advantages-of-electric-power&#34;&gt;Advantages of Electric Power&lt;/h2&gt;
+&lt;p&gt;As a power transmission technology, power water has three important disadvantages in comparison to electricity. First of all, electricity can be transported efficiently over much longer distances. Hydraulic power transmission was (and still is) at least as efficient as electric power transmission up to distances of 15 to 25 km. Beyond those distances, however, electric transmission is a clear winner.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Greenland dock hydraulic lock gates in London, built in the 1880s. Picture credit: Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Greenland dock hydraulic lock gates in London, built in the 1880s. Picture credit: [Chris Allen](http://www.geograph.org.uk/photo/2569524) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A second shortcoming of hydraulic transmission is that a complex distribution network introduces additional energy loss. Every curve or bend in the mains increases friction losses. The more intricate the network, the less efficient it becomes. Electric transmission doesn&amp;rsquo;t have this problem, at least not in a significant way. The friction losses in the water mains limit the amount of machines that can be attached to a power water network, while electricity can be subdivided almost infinitely.&lt;/p&gt;
+&lt;p&gt;The third limitation of power water is the limited capacity of a hydraulic transmission line. Water under pressure can only be moved through thin pipes at walking speeds in order to avoid excessive friction losses. At higher speeds, the loss of friction increases as the square of the velocity and efficiency goes down fast, even over relatively short distances. This limits the flow rate and thus the power that could be delivered by a hydraulic transmission line.&lt;/p&gt;
+&lt;p&gt;Using a 10 to 12 cm diameter pipe — a common size in most high pressure system at the time — a hydraulic transmission line could produce a maximum continuous power of 115 to 205 horse power (85 to 150 kW). High voltage electric transmission lines of similar size can carry an amount of power that was orders of magnitude greater than that.&lt;/p&gt;
+&lt;h2 id=&#34;advantages-of-power-water&#34;&gt;Advantages of Power Water&lt;/h2&gt;
+&lt;p&gt;However, none of these disadvantages mattered for the power water networks that we have discussed. These were all decentralized systems, with machines no more than 15-25 km away from the power source. Secondly, because the hydraulically operated machinery in harbours, railway yards, factories and buildings was characterized by slow motion and infrequent use, the slow transmission speed of power water presented no obstacle.&lt;/p&gt;
+&lt;p&gt;With the exception of the short-lived electricity generating system in Antwerp, none of the Armstrong-type power water networks supplied power to a large amount of continuously operating machines. (But note the &lt;a href=&#34;http://www.lowtechmagazine.com/power-water-networks-in-switzerland.html&#34;&gt;medium pressure power water networks in Switzerland&lt;/a&gt;. Lastly, because a power water network operated relatively few (but very powerful) machines, friction loss through bends and curves in the network was limited.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Hydraulic pump, accumulator and press. Source: Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, December 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Hydraulic pump, accumulator and press. Source: Portefeuille économique des machines, de l&#39;outillage et du matériel, December 1864, [Bibliothèque nationale de France](http://gallica.bnf.fr/ark:/12148/bpt6k5539152w/f79.pleinepage.langFR) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The limitations of hydraulic transmission were very well understood at the end of the nineteenth century. However, engineers also grasped the unique benefits of the technology, which still hold today. For example, Robert Zahner, an advocate of yet another alternative to electricity, &lt;a href=&#34;./2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;compressed air&lt;/a&gt;, wrote in &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890) that:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The practical incompressibility of water renders the hydraulic method unfit for transmitting regularly a constant amount of power. It can be used to advantage only where motive power is to be accumulated and applied at intervals, such as raising weights, operating punches, compressive forging and other work of intermittent character, requiring a great force through a small distance.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Hydraulic transmission is &amp;ldquo;admirably adapted for use with heavy machinery and equipment in operations requiring marked concentration of power, reciprocating straight-line motion, and intermittent action&amp;rdquo;, wrote Louis Hunter in &lt;em&gt;The Transmission of Power&lt;/em&gt; (1991). The main excellence of the hydraulic accumulator is that it allows to operate machines that require much more power than the energy source can supply — Pascal&amp;rsquo;s &amp;ldquo;force multiplication&amp;rdquo;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The limitations of hydraulic transmission were very well understood at the end of the nineteenth century. However, engineers also grasped the unique benefits of the technology, which still hold today.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When high force or torque are needed, hydraulic power systems are a much more compact and energy efficient solution than mechanical or electric drives. Both electric motors and combustion engines often need mechanical power transmission (gears, chains, belts) to convert their high rotational speed to a slower speed with higher torque.&lt;/p&gt;
+&lt;p&gt;Likewise, hydraulic power systems easily produce linear motion using hydraulic cylinders, while electric power requires costly linear motors or mechanical power transmissions such as rack-and-pinion assemblies. Hydraulic and electric power are complementary in this sense: one of the limitations of power water transmission was the relative difficulty of converting linear motion to rotary motion.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Illustration: hydraulic lift&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Illustration: hydraulic lift 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pelton wheels were the most obvious choice, but their high rotational speed involved the use of gearing for the operation of slow speed machinery. A number of hydraulic engines of the ram type was available to supply rotative power involving variable or slow speed operation, but these engines had few advantages compared to electric or mechanical drives.&lt;/p&gt;
+&lt;p&gt;A third important advantage of hydraulics is that the power is always readily available in the pipes and in the accumulator, but when there is no demand there is no waste. When none of the machines in a power water network was in operation, the hydraulic accumulators kept the lines pressurized without using any energy. This advantage is especially relevant when machines are used intermittently.&lt;/p&gt;
+&lt;h2 id=&#34;hydraulics-today&#34;&gt;Hydraulics Today&lt;/h2&gt;
+&lt;p&gt;Hydraulic power is still in use today, especially in heavy industrial equipment that requires a slow but powerful linear motion, and in mobile construction machinery such as excavators. However, the raised-weight hydraulic accumulator and the power water networks have disappeared.&lt;/p&gt;
+&lt;p&gt;The pressurized fluid is no longer water but oil, mixed with additives. (Vegetable oil had been used as a hydraulic medium in the 19th century). Unlike water, oil doesn&amp;rsquo;t freeze and is not corrosive. However, it makes hydraulic power more expensive and it obviously doesn&amp;rsquo;t permit the exhaust fluid to end up in the sewer network, the docks or the sea.&lt;/p&gt;
+&lt;p&gt;Partly as a consequence of the use of oil, there evolved the self-contained hydraulic power pack consisting of pump, hydraulic accumulator, and return flow systems, ready to be coupled to an electric motor or a diesel engine. The hydraulic accumulators in these systems are much smaller, they use a gas to compress the fluid, and they do not maintain a steady pressure.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Today&amp;amp;rsquo;s hydraulic accumulators (usually compressed gas types) have little in common with the raised-weight accumulators in power water networks. Picture: HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Today&#39;s hydraulic accumulators (usually compressed gas types) have little in common with the raised-weight accumulators in power water networks. Picture: [HYD](http://www.hyd.com/tejas/products/products_frame.htm). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;While the practical benefits of hydraulics remain — a large amount of power can be transferred and controlled precisely using very compact components — the modern approach erases an important efficiency advantage specific to the more centralized power water networks of the nineteenth and twentieth century. In a city-wide power water network, a comparably small central power source — a handful of hydraulic accumulators — could operate a large number of very powerful machines. The pumping engines didn&amp;rsquo;t have to be dimensioned for peak loads.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A great advantage of power water networks was that comparatively little power capacity was required to operate a large number of powerful machines over a wide area.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B. Pugh laments this evolution in &lt;em&gt;The Hydraulic Age&lt;/em&gt; (1980):&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;One century ago, only a few very large machines — swing bridges and an occasional hydraulic press — had their own individual pumping equipment. More recently, this trend spread throughout hydraulically operated machinery of all types and sizes, and is accepted practice today. With unit hydraulic power packs each piece of equipment will be driven by its own motor and will have its own instrumentation, filters, etcetera, which will call for periodic inspection and maintenance.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The motor will run continuously while the unit is in use regardless of the load on the pump it drives. In the case of a number of such units not all will be working to capacity all the time. Appreciable economy could be effected by having a central pumping plant to supply a number of units and due to the diversification of the load the maximum load at any one time will be less than the sum of the individual maximum loads.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;An advantage of a large station over a number of smaller ones lies in the ability to meet diversity of demand. A number of small, independent power stations must each have sufficient capacity to meet the peak demand of its own area of supply and the peaks will not occur at the same time. A large station, embracing the total area of a number of small stations, will need only to meet the maximum simultaneous demand and this will normally be less than the sum total of the local peaks.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;alternatives-to-electricity&#34;&gt;Alternatives to Electricity&lt;/h2&gt;
+&lt;p&gt;Just like mechanical power transmission technologies — such as &lt;a href=&#34;./2013/02/the-mechanical-transmission-of-power-2-jerker-line-systems/&#34;&gt;jerker line systems&lt;/a&gt; and &lt;a href=&#34;./2013/03/the-mechanical-transmission-of-power-3-endless-rope-drives/&#34;&gt;endless rope drives&lt;/a&gt; — power water networks have disappeared largely because electric transmission has superior efficiency over long distances. However, in a more decentralized energy system based on renewable energy, all these forgotten alternatives for electricity deserve to be reconsidered for specific purposes. Raised-weight hydraulic accumulators could be solar, wind or even pedal powered.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2016/03/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Picture: J.W. Gibson&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Picture: J.W. Gibson 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Around 1900, the superiority of electricity for transmitting power over very long distances was not disputed. For moderate distances, however, quite a few authors doubted its usefulness. For example, R. Kennedy wrote in &lt;em&gt;Modern Engines and Power Generators&lt;/em&gt; (1905):&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Electricity offers paramount advantages for power transmission to a distance in most cases. Electrical engineers, however, claim far too much for it. They are apt to forget other means for transmitting power, which means have paramount advantages over electricity in a good many cases.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;W.C. Unwin, the author of the most complete nineteenth-century book on power transmission (&lt;em&gt;On the Development and Transmission of Power from Central Stations&lt;/em&gt;), expressed a similar concern in 1894:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Granting that electrical distribution will play an important part before long in the development of systems of power distribution, there is a popular tendency at the moment to regard too exclusively electrical methods, and to overlook other means of power distribution which have been usefully applied in the past, and will, in suitable conditions, be still employed in the future&amp;hellip; For transmission to moderate distances there is a choice of several means of transmission, and electrical distribution has not in such cases and up to the present established any universal superiority.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;In the next installment of our power transmission series, we will discuss &lt;a href=&#34;./2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;compressed air&lt;/a&gt;, which is probably the most usable alternative for electricity.&lt;/p&gt;
+&lt;p&gt;This article is dedicated to Charles Steele. RIP.&lt;/p&gt;
+&lt;h2 id=&#34;sources-in-order-of-importance&#34;&gt;Sources (in order of importance):&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0852984472/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0852984472&amp;amp;linkCode=as2&amp;amp;tag=lowtemagaz-20&amp;amp;linkId=Z6GMW7UXFV442C3K&#34;&gt;The Hydraulic Age&lt;/a&gt;, B. Pugh, 1980&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0582127971/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0582127971&amp;amp;linkCode=as2&amp;amp;tag=lowtemagaz-20&amp;amp;linkId=WSOKMM4EJWWMVVZ5&#34;&gt;Hydraulic Power (Industrial Archaeology)&lt;/a&gt;, Ian McNeil, 1972&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/ondevelopmentan03unwigoog&#34;&gt;On the Development and Transmission of Power from Central Stations&lt;/a&gt;, W.C. Unwin, 1894. Also &lt;a href=&#34;https://archive.org/details/ondevelopmentan01unwigoog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/hydraulicmachin01blaigoog&#34;&gt;Hydraulic Machinery, with an introduction to hydraulics&lt;/a&gt;, R.G. Blaine, 1897&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0262081989/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0262081989&amp;amp;linkCode=as2&amp;amp;tag=lowtemagaz-20&amp;amp;linkId=4ZCQHKC2QAUALVOZ&#34;&gt;A History of Industrial Power in the U.S., 1780-1930: Vol 3: The Transmission of Power&lt;/a&gt;, Louis C. Hunter and Lynwood Bryant (1991)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/modernenginespow01kennrich&#34;&gt;Modern Engines and Power Generators; a Practical Work on Prime Movers and the Transmission of Power, Steam, Electric, Water and Hot Air — Volume One&lt;/a&gt;, R. Kennedy, 1905&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/modernenginespow06kennrich&#34;&gt;Modern Engines and Power Generators; a Practical Work on Prime Movers and the Transmission of Power, Steam, Electric, Water and Hot Air — Volume Six&lt;/a&gt;, R. Kennedy, 1905&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/powerpowertransm00kerrrich&#34;&gt;Power and Power Transmission&lt;/a&gt;, E.W. Kerr, 1908&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ipenz.org.nz/heritage/conference/papers/Gibson_J.pdf&#34;&gt;Remnants of Early Hydraulic Power Systems&lt;/a&gt; (PDF), J.W. Gibson, 3rd Australasian Engineering Heritage Conference 2009&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.ca/books?id=LcvvKPq45uEC&amp;amp;printsec=frontcover&amp;amp;hl=es#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;L&amp;rsquo;eau à Genève et dans la région Rhône-Alpes: XIXe-XXe siècles&lt;/a&gt;, Serge Paquier, 2007&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.es/books?id=m7Pp5AoyQtoC&amp;amp;printsec=frontcover&amp;amp;hl=nl#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;L&amp;rsquo;eau des villes: Aux sources des empires municipaux&lt;/a&gt;, Géraldine Pflieger, 2009&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://dbhsarl.eu/fichiers/exposition.pdf&#34;&gt;Revue technique de l&amp;rsquo;Exposition universelle de 1889, Section II, récepteurs hydrauliques&lt;/a&gt; (PDF), 1893&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cnum.cnam.fr/DET/8XAE353.9.html&#34;&gt;Revue technique de l&amp;rsquo;Exposition universelle de 1889, Volume 9. Septième partie. Mécanique générale. Machins outils. Hydraulique générale. Travail du bois. Travail des métaux. Machineries industrielles&lt;/a&gt;, 1893&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;usine des forces motrices de la Coulouvrenière à 100 ans: 1886-1986, Services industriels, 1986&lt;/p&gt;
+&lt;p&gt;Waterdruk in Antwerpen. Een stroom van elektriciteit&amp;quot;, Dirk De Vleesschauwer and Noël Kerckhaert, 1993&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tenboome.be/tenboome/paginas/jaarboek%201993-1994/kroniek_stroomverdeling_van_antwerpen_tot_de_Rupelstreek.htm&#34;&gt;Kroniek van de stroomverdeling van Antwerpen-stad tot de Rupelstreek tot de Eerste Wereldoorlog&lt;/a&gt;, Geschiedkundige Studiegroep Ten Boome. (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.watererfgoed.be/Docs/Boekje%20OMD.pdf&#34;&gt;Het Zuiderpershuis, een monument. Brochure bij de tentoonstelling n.a.v. Open Monumentendag 2010&lt;/a&gt; (PDF), Steunpunt Industrieel en Wetenschappelijk Erfgoed, 2010.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/centrifugalpump00innegoog&#34;&gt;The Centrifugal Pump, Turbines, and Water Motors, Including the Theory and Practice of Hydraulics&lt;/a&gt;, Charles Herbert Innes, 1898&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.es/books?id=fvrV9GabWD8C&amp;amp;pg=PA152&amp;amp;lpg=PA152&amp;amp;dq=%22silent+dustman%22&amp;amp;source=bl&amp;amp;ots=Ioi1Mou1Em&amp;amp;sig=SBqxZBf6MgB2XXLFOF3IiP0DR00&amp;amp;hl=nl&amp;amp;sa=X&amp;amp;ei=oGUCUvHOEaLN7Aai74DoBA&amp;amp;ved=0CDcQ6AEwAQ#v=onepage&amp;amp;q=%22silent%20dustman%22&amp;amp;f=false&#34;&gt;Metropolitan Works: Collected Papers on London History&lt;/a&gt;, Ralph Turvey, date unknown.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.vauxhallcivicsociety.org.uk/history/hydraulic-power-company/&#34;&gt;Hydraulic Power Company&lt;/a&gt;, The Vauxhall Society, 2012 (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gracesguide.co.uk/London_Hydraulic_Power_Co%22&#34;&gt;London Hydraulic Power Co&lt;/a&gt;, Grace&amp;rsquo;s Guide, date unknown (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm&#34;&gt;Hydraulic Power&lt;/a&gt;, NSW HSC Online (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archive.org/details/transmissionpow00zahngoog&#34;&gt;The Transmission of Power by Compressed Air&lt;/a&gt;, Robert Zahner, 1890&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.douglas-self.com/MUSEUM/POWER/waterengine/waterengine.htm&#34;&gt;Water Engines&lt;/a&gt;, The Museum of Retrotechnology, 2011 (website)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0953021912?ie=UTF8&amp;amp;tag=lowtemagaz-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0953021912&#34;&gt;The History of Cranes (The Classic Construction Series)&lt;/a&gt;, Oliver Bachmann,1997.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://books.google.co.uk/books?id=DRkFAAAAQAAJ&amp;amp;pg=PA530#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;On the employment of a column of water as a motive power for propelling machinery&lt;/a&gt;, William Armstrong, 1840&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Power from the Tap: Water Motors</title>
+      <link>./2013/09/power-from-the-tap-water-motors/</link>
+      
+      <enclosure url="/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" type="image/png" length="59868" ></enclosure>
+      <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>./2013/09/power-from-the-tap-water-motors/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png&#34; alt=&#39;A late nineteenth-century water motor with one side of the casing removed. Image: Old Pelton.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A late nineteenth-century water motor with one side of the casing removed. Image: [Old Pelton](http://www.oldpelton.net/).
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Few people in the western world realize that they have an extra power source available in their household, workshop or factory: tap water.&lt;/p&gt;
+&lt;p&gt;Just before the arrival of electricity at the end of the nineteenth century, water motors were widely used in Europe and America.&lt;/p&gt;
+&lt;p&gt;These miniature water turbines were connected to the tap and could power any machine that is now driven by electricity.&lt;/p&gt;
+&lt;h2 id=&#34;power-from-the-tap&#34;&gt;Power from the tap&lt;/h2&gt;
+&lt;p&gt;Water has been the main inanimate source of mechanical power from antiquity right up to the beginning of the twentieth century. Although most water wheels were located at the banks of the river (&lt;a href=&#34;./2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;or in the river itself&lt;/a&gt;), some were set up at considerable distances from a water source. This was made possible by the introduction of hydraulic power transmission—the process by which water from a stream is led through artificial watercourses to water wheels built on the land.&lt;/p&gt;
+&lt;p&gt;To support hydraulic power transmission, man-made channels (&amp;ldquo;power canals&amp;rdquo; or &amp;ldquo;aqueducts&amp;rdquo;) could be dug into the earth or carved out of the rocks (&amp;ldquo;ditches&amp;rdquo;). They could also be elevated structures whose walls were raised above the surrounding terrain (&amp;ldquo;flumes&amp;rdquo;). Water reservoirs formed by dams could be integrated into these power transmission networks, regulating water flow, providing power storage for times when water was running low, and increasing the &amp;ldquo;head&amp;rdquo; or fall of water for a vertical overshot water wheel. The use of power canals increased throughout the medieval period and became widespread during the 1500s.&lt;/p&gt;
+&lt;p&gt;In the mid-nineteenth century, many European and American cities introduced a more sophisticated water distribution system: the public water supply. Although this introduction was an answer to health concerns (it had become clear that &lt;a href=&#34;./2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/&#34;&gt;reoccurring epidemics were the consequence of drinking contaminated water&lt;/a&gt;), it became quickly obvious that the potable water sent through the pipelines of the public water supply could also provide motive power.&lt;/p&gt;
+&lt;p&gt;Waterwheels were still the most important source of mechanical power in the early days of public water mains. Most European and American cities had running water before they had electricity, so there was a market for a compact power source that could be used in the city, as an alternative to steam engines (which were too expensive, too dangerous and too unpractical to operate on a small-scale) or &lt;a href=&#34;./2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;hand&lt;/a&gt;
+and &lt;a href=&#34;./2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;foot powered machines&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-2_dithered.png&#34; alt=&#39;Late nineteenth-century water motors. Images: Smokstack and Old Pelton.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Late nineteenth-century water motors. Images: [Smokstack](http://www.smokstak.com/forum/showthread.php?t=19878) and [Old Pelton](http://www.oldpelton.net/). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The town mains were no different from the hydraulic power transmission systems built in earlier times. In public water supply systems, traditional reliance on geological features as a head for the hydropower cycle is replaced by the use of a water tower. Water is pumped into an elevated reservoir, which could be on a hill or on top of a specially built water tower (a combination of both is also possible).&lt;/p&gt;
+&lt;p&gt;The height differential between the water level in the reservoir and the water level in the mains determines the pressure of the water. For every 10.20 cm of elevation, a water column produces 0.145 psi (pounds per square inch) of pressure. To produce 70 psi of pressure at street level, a water tower must be 50 m tall.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It became quickly obvious that the potable water sent through the pipelines of the public water supply could also provide motive power.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the town mains, the role of the aqueducts or power canals is taken over by a much more intricate network of pipelines. This prevents debris from entering the water and makes uphill water transport easier. Water piping technology was used in some ancient civilizations, but the nineteenth-century systems introduced some lasting innovations.&lt;/p&gt;
+&lt;p&gt;First of all, thanks to the screw type tap (which was patented in 1845), the water supply could be easily regulated. Second, the water could be further distributed inside individual buildings, often reaching multiple rooms at several floors. At any of these spots, all you had to do to receive motive power from the town mains was to connect a small water turbine to the tap. This is exactly what happened.&lt;/p&gt;
+&lt;h2 id=&#34;water-powered-household-devices&#34;&gt;Water Powered Household Devices&lt;/h2&gt;
+&lt;p&gt;In Europe, small motors using the public water supply appeared in the 1840s. In the US, they came into extensive use in the 1870s and 1880s. A water motor consisted of a small water turbine that was suspended in a metal casing. The diameter of the turbine runner could be anywhere between from 20 to 90 cm.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/ad-motor_dithered.png&#34; alt=&#39;A 1906 advertisement for a typical American water motor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A 1906 advertisement for a typical American water motor.  
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/hydraulic-dynamo_dithered.png&#34; alt=&#39;A hydraulic dynamo. Image: The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A hydraulic dynamo. Image: [The Museum of Retrotechnology](http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/watermotor/watermotor.htm). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The smallest water motors were used to run sewing machines, jigsaws, fans, and other similarly mechanized items. The somewhat larger water motors were recommended for operating coffee grinders, ice cream freezers, jeweler&amp;rsquo;s and locksmith&amp;rsquo;s lathes, grindstones, church organs, or drug and paint mills. The largest water motors were used to run elevators or circular saws. In &lt;a href=&#34;http://www.notechmagazine.com/2013/09/water-powered-washing-machine.html&#34;&gt;water powered washing machines&lt;/a&gt;, the water that was needed to wash the clothes was capable of providing power to the machine simultaneously.&lt;/p&gt;
+&lt;p&gt;Water motors operated machinery by means of a mechanical power transmission, similar to old-fashioned wind, water, and &lt;a href=&#34;./2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;pedal powered machines from that era&lt;/a&gt;. The shaft of the water turbine was either equipped with a belt pulley to which different machines could be attached, or it drove one machine directly.&lt;/p&gt;
+&lt;p&gt;At the end of the nineteenth century, water motors were also used to power electrical devices, especially radios and light bulbs. In this case, the water motor drove a dynamo that produced electricity on the spot. Compact units consisting of a small water turbine directly coupled to a dynamo were commercially available.&lt;/p&gt;
+&lt;h2 id=&#34;output-and-efficiency-of-a-water-motor&#34;&gt;Output and Efficiency of a Water Motor&lt;/h2&gt;
+&lt;p&gt;Most water turbines derived pressure by extracting energy from the impulse of moving water as opposed to generating energy via weight, as was the case with most water wheels and some other water turbines. A major innovation was the &lt;a href=&#34;http://en.wikipedia.org/wiki/Pelton_wheel&#34;&gt;Pelton wheel&lt;/a&gt;, which was invented in 1878.&lt;/p&gt;
+&lt;p&gt;This water turbine consists of a series of cups fastened at equal intervals around the periphery of a circular disc (the &amp;ldquo;runner&amp;rdquo;). The water enters the casing through an inlet pipe, where it is forced through a nozzle which reduces its volume and increases its velocity, after which it is directed to the cups. By changing the nozzle which influences this fluxuation in pressure, the power obtained from a wheel could vary. The exhaust water is dropped out of the bottom of the casing, or led away by an outlet pipe.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The efficiency of a Pelton wheel is not dependent on its size, which makes it especially attractive for smaller powers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Pelton turbine is especially well suited for use in combination with the town mains, due to the fact that it requires a high head and a low water flow. A Pelton wheel is up to 90% efficient, which is comparable to the efficiency of a large, modern electric motor. Unlike steam engines, electric motors, and most other water turbines, which become less efficient as they become smaller, the efficiency of a Pelton wheel is not dependent on its size, which makes it especially attractive for smaller powers.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-sewing-machine_dithered.png&#34; alt=&#39;A water-powered sewing machine. Image: Knight&amp;amp;rsquo;s American Dictionary (1881).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A water-powered sewing machine. Image: Knight&#39;s American Dictionary (1881). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Water turbines (such as the Pelton wheel) are much more compact than water wheels, which makes that a small motor can deliver more energy than one would suspect. The maximum power output of a water motor is determined by two factors. The first is the prevailing water pressure and the second is the water flow rate, which is defined by the pipe diameter and the velocity of the water. The latter factor is rather fixed for narrow pipes, because at velocities above 8 km/h friction becomes problematic.&lt;/p&gt;
+&lt;p&gt;Water pressure in the town mains is typically between 40 and 70 psi (2.75 to 4.8 bar), and was closer to 70 psi in the nineteenth century. With a water pressure of 70 psi and a pipe diameter of 1.25 cm (a typical size for individual branch lines running to the taps), the maximum power output of a water motor is 0.33 horse power (or 243 watts of mechanical power). Even after you take into account the efficiency loss in the motor, this is quite a lot of power: Two to three times as much as a human operating a pedal powered machine can sustain for an hour or longer.&lt;/p&gt;
+&lt;h2 id=&#34;water-use&#34;&gt;Water Use&lt;/h2&gt;
+&lt;p&gt;Water motors supplied a need almost entirely unmatched by other new motors from that time, and they exploited a source of energy readily available from centralized systems already built in most urban areas. However, at least in the United States, their succes was short-lived. When electric motors and gasoline engines became available, the water motor lost its attraction. In 1900, the amount of water motors in the US (an estimated 30,000 motors aggregating 26,000 horse power) was about one-fifth of the amount of gasoline engines and one-tenth of the amount of electric motors. Source: Hunter 1991.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At the end of the nineteenth century, water motors were also used to power electrical devices, especially radios and light bulbs&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The main drawback of water motors was their very high use of potable water. Using a 1.25 cm diameter pipe and a pressure of 70 psi, a water motor consumed 30 litres of water per minute for a power output of 243
+watts. This means that it took 7,440 litres of water to produce 1 kWh of mechanical energy. To give an idea: People today in the west consume less than 500 liters of potable water per day, and they consume at least 5 kWh of electric energy per day.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-2_dithered.png&#34; alt=&#39;A water powered fan. Found at Smokstak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A water powered fan. Found at [Smokstak](http://www.smokstak.com/forum/showthread.php?t=27871). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the water pressure dropped below 70 psi, a water motor&amp;rsquo;s power output decreased with it, while potable water consumption remained the same. The minimum pressure in the public water supply was (and still is) 20 psi (1.4 bar). Below that value, there is a risk of contamination because polluted water could enter the mains through leaks in the pipes.&lt;/p&gt;
+&lt;p&gt;If you were unlucky and you got a water pressure of just 20 psi, motor output would have been limited to a much less impressive 0.09 hp (67 watt). You could have chosen to restore the power output by increasing the pipe diameter, but that would have further increased the consumption of potable water.&lt;/p&gt;
+&lt;p&gt;There are many reasons why the water pressure in the town mains could be lower than 70 psi: adoption of a lower water pressure by a company, leaks in the pipelines, structural location of consumer residences in relation to the water tower, or use of a water motor on a higher floor. Water pressure drops by 10 psi per mile of pipeline. Water pressure is generally higher when it enters the house than when it comes out of the tap: It will decrease with every bend in the pipelines, and about 5 psi of pressure is lost each time you go up one floor.&lt;/p&gt;
+&lt;h2 id=&#34;irregular-water-pressure&#34;&gt;Irregular Water Pressure&lt;/h2&gt;
+&lt;p&gt;Water consumption was further increased by the irregularity of the water pressure. The use of a water tower is advantageous from an energy efficiency viewpoint, because you can create water pressure with low capacity pumps. The pumps only have to meet average demand. A higher than average demand (for instance, when everybody takes a shower in morning) can be dealt with by a decreasing water level in the tower. The reservoir will be filled again when demand is lower than average (mostly at night).&lt;/p&gt;
+&lt;p&gt;On the other hand, if you choose to create water pressure by pumping water &lt;em&gt;directly&lt;/em&gt; into the mains (a modern approach that is gaining popularity), you need high capacity pumps that can meet peak demand, and they will be running inefficiently most of the time.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;While the use of water motors in the US came to an end early in the twentieth century, the Europeans took hydraulic power transmission one step further&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Irregular water pressure is not a problem for the distribution of potable water, but it is very disadvantageous for the use of water motors. If the water level in the tower decreases, so will the water pressure in the pipes. To insure enough motor output in the event of lower water pressures, water motors had to be larger and use larger diameter pipes than strictly necessary, further increasing the use of water, and wasting energy. Irregular water pressures lower the energetic efficiency of a water motor because it achieves its highest efficiency only when it is optimally adjusted to the prevailing water pressure.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-egg-beater_dithered.png&#34; alt=&#39;A water-powered egg-beater. Images: Smokstak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A water-powered egg-beater. Images: [Smokstak](http://www.smokstak.com/forum/showthread.php?t=114931). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;in-search-of-a-better-solution-the-hydraulic-accumulator&#34;&gt;In Search of a Better Solution: the Hydraulic Accumulator&lt;/h2&gt;
+&lt;p&gt;As we have mentioned before, the maximum power output by a water motor is determined by two factors: Water pressure and water flow. Increasing the pipe diameter (and thus the flow rate and water use) is only one way to increase the power capacity of a water motor. The other way is to increase the water pressure, which yields much more interesting results. For example, we could produce much more energy with much less water.&lt;/p&gt;
+&lt;p&gt;With a water pressure of 700 psi (48 bar), which equates to ten times the pressure in the public mains, a water motor connected to a 1.25 cm pipe could produce a power output of 3.3 horse power (or 2,500 watts of mechanical energy). That&amp;rsquo;s ten times more power for the same 30 litres of water per minute (or ten times less water use for the same power). To create a water pressure of 700 psi, it would be mandatory to build a water tower of almost 500 meters tall. Unfortunately, this is not practical to build.&lt;/p&gt;
+&lt;p&gt;While the use of water motors in the US came to an end early in the twentieth century, the Europeans found a solution for the high water use of water motors and took hydraulic power transmission one step further. Firstly, they set up special power networks which distributed water under pressure for motive power purposes only. This eliminated the need to use potable water. Secondly, Europe switched to a much higher (and regular) water pressure, which was made possible by &lt;a href=&#34;./2016/03/power-water-networks/&#34;&gt;the invention of the hydraulic accumulator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Read part two: &lt;a href=&#34;./2016/03/power-water-networks/&#34;&gt;Power Water Networks&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;A History of Industrial Power in the U.S., 1780-1930: Vol 3: The Transmission of Power&lt;/em&gt;, Louis C. Hunter and Lynwood Bryant (1991)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/watermotor/watermotor.htm&#34;&gt;Water Motors&lt;/a&gt;&amp;rdquo;, The Museum of Retrotechnology&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.oldpelton.net/&#34;&gt;Old Pelton&lt;/a&gt;&amp;rdquo;, website.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ijecs.in/ijecsissue/wp-content/uploads/2013/03/416-432ijecs.pdf&#34;&gt;Efficiency Improvement of Pelton Wheel and Cross Flow Turbines in  Micro Hydro Power Plants: Case  Study&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://physics.kenyon.edu/EarlyApparatus/Fluids/Water_Wheel/Water_Wheel.html&#34;&gt;Water Wheel Model: Water Motor&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Back to Basics: Direct Hydropower</title>
+      <link>./2013/08/back-to-basics-direct-hydropower/</link>
+      
+      <enclosure url="/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydropower-1_dithered.png" type="image/png" length="54725" ></enclosure>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>./2013/08/back-to-basics-direct-hydropower/</guid>
+      <description>&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydropower-1_dithered.png&#34; alt=&#39;Picture: Direct Hydro Power Coffee Depulper. Picture: Brian W. Raichle.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Picture: Direct Hydro Power Coffee Depulper. Picture: [Brian W. Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;All hydropower plants today produce electricity. Transforming energy to electricity seems to be the only way to harness water power, but it is not. For almost two thousand years, water wheels powered machines directly via mechanical transmission.&lt;/p&gt;
+&lt;p&gt;Some small direct hydro powered systems in South America present a strong case for combining the use of modern materials with old fashioned methods of water power mechanization.&lt;/p&gt;
+&lt;p&gt;The higher efficiency of this approach means that less water is needed to produce a given amount of energy. This lowers the cost of hydropower and enables power to be produced by the use of very small streams.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The hydro power installations in use today are actually less efficient than those of earlier centuries&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Throughout the course of history, the efficiency of water powered prime movers has steadily increased. Wooden water wheels, which appeared more than 2,000 years ago, converted a relatively small amount of water energy into mechanical power: The efficiency was 5 to 15% for an horizontal water wheel, 20 to 30% for a vertical undershot water wheel, and 50 to 60% for a vertical overshot water wheel. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Iron water wheels, which appeared in the late 18th century, had improved the efficiency rating of the vertical overshot wheel to 65 to 85%. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Water turbines, which were developed in the 19th century, and which are the water-powered prime movers that we still use today, generally convert over 85% of the kinetic energy inherent to the water source into mechanical power at the shaft of the turbine. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Water turbines are ten to twenty times more compact than water wheels for the same power output, an advantage that led to much cheaper and much more powerful prime movers. Turbines are more widely applicable than water wheels, because water wheels could not make efficient use of any head of water (the vertical distance travelled by the water) much greater than their own diameter. &lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;why-modern-hydro-power-is-less-efficient&#34;&gt;Why Modern Hydro Power is Less Efficient&lt;/h2&gt;
+&lt;p&gt;In spite of these significant improvements, hydropower installations today are actually &lt;em&gt;less&lt;/em&gt; efficient than those from earlier centuries. The culprit is electricity. Not long after the introduction of the water turbine, another change occured. Instead of using water-powered prime movers to run machinery &lt;em&gt;directly&lt;/em&gt; (as had been the case for centuries), water turbines were (and still are) used to generate electricity. This modern approach has introduced an energy deficit that has nullified any progress behind hydropower design efficiency.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/hydro-powered-coffee-depulper-1_dithered.png&#34; alt=&#39;Direct Hydro Power Coffee Depulper. Picture: Brian W. Raichle.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Direct Hydro Power Coffee Depulper. Picture: [Brian W. Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In a modern hydropower installation, a water turbine converts the energy in the moving water into rotational energy at its shaft, which is then converted into electrical energy by the generator that is coupled to the turbine. Next, the electrical energy is converted back into rotational energy by the electric motor of the machine that is being powered. Every energy conversion introduces energy loss.&lt;/p&gt;
+&lt;p&gt;This loss of energy occurs due to friction, which is observable as heat, vibration and noise. Friction occurs at all levels of electrical transmission: In the turbine, the generator, and the motor. Additional components such as batteries, drive systems and inverters can further increase efficiency losses.&lt;/p&gt;
+&lt;p&gt;It is possible to calculate the efficiency rating for each modern hydropower unit by measuring the difference between turbine input and electric generator output. A home-sized hydropower plant generating AC electric power has a &amp;ldquo;water-to-wire&amp;rdquo; energy transfer of at best 60 to 70
+percent. Smaller DC electric systems, which require inverters and generally have battery banks, have lower efficiencies of 40 to 60 percent. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Energy loss in the electric motors of the devices being powered is not included but should also be considered (&amp;ldquo;water-to-motor&amp;rdquo; efficiency). The efficacy of an electric motor can vary wildly - from less than 60%
+for small motors to more than 95% for large motors. On average, a hydro-electric power installation only converts about half of the energy available in water into useful work.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A direct hydropowered coffee depulper in Nicaragua has been performing flawlessly through five harvests&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This means that a small, modern hydropower plant has a similar efficiency rating to a centuries old configuration using a wooden vertical overshot water wheel (50-60%), and that this modern counterpart is considerably &lt;em&gt;less&lt;/em&gt; efficient than the iron water wheels of the 18th century (65-85%).&lt;/p&gt;
+&lt;p&gt;In an old fashioned hydropower installation, there was only one conversion of energy; A water wheel converted the energy inherent to the water source into rotational energy at its shaft. The same shaft also moved the machinery, so that the only source of significant energy loss occured in the water wheel itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydro-coffee-depulper-3_dithered.png&#34; alt=&#39;Direct Hydro Power Coffee Depulper. Picture: Brian W. Raichle.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Direct Hydro Power Coffee Depulper. Picture: [Brian W. Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Note that this is not the total efficiency of the hydropower installation: friction also occurs in the pipeline that feeds the water to the turbine. Most small hydropower systems don&amp;rsquo;t use dams. Instead, they divert a fraction of the water of a stream downhill through a pipe. The energy losses in the pipeline are the same for hydroelectric and direct hydropower installations. Therefore, for the purposes of our comparison, these power losses can be overlooked.&lt;/p&gt;
+&lt;h2 id=&#34;why-direct-hydropower-makes-sense&#34;&gt;Why Direct Hydropower Makes Sense&lt;/h2&gt;
+&lt;p&gt;There is one possible hydropower configuration in particular that deserves considerable attention: a water turbine directly powering machinery, without the intermediate step of generating electricity. Depending on the type of turbine used in such a system, the value that corresponds to the &amp;ldquo;water-to-motor&amp;rdquo; efficiency is roughly 80 to 95%. The implementation of this form of direct hydropower doubles the effectiveness of a small scale electric hydropower installation. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The higher efficiency of direct hydropower brings important advantages. If the intermediate step of generating electricity is bypassed, considerably more power can be gathered and utilized from a given head (the vertical distance travelled by the water) and water flow rate (the amount of water that runs down a stream). This advantage can be used to increase the energy production of an existing water power site. It also means that more potential water power sites become available, and that relatively small streams and rivers can be shared by several hydropower units.&lt;/p&gt;
+&lt;p&gt;Because of its higher efficiency a direct hydropower system is also cheaper than a hydroelectric power system. Less water is needed to produce a given amount of power, which means that all components of the installation are reduced in size, cost, and other resources. For instance, less civil engineering is required. Water can be carried to the turbine by low cost, low pressure, easily transportable, flexible, plastic tubes that are small in diameter as opposed to the rigid, large diameter penstocks common to electric hydropower plants. The flexible connections between the pressure pipe and turbine also simplify installation.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/hydro-powered-coffee-depulper-4_dithered.png&#34; alt=&#39;Picture: Direct Hydro Power Coffee Depulper. Source: Brian W. Raichle&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ Picture: Direct Hydro Power Coffee Depulper. Source: [Brian W. Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Last but not least, the higher efficiency of direct hydropower limits the ecological impact of a water power site. Maintaining enough water in the power source for aquatic life to thrive is a cornerstone of environmentally sound microhydropower production. This type of ecological sustainability is easier to achieve with direct hydropower because less water is required.&lt;/p&gt;
+&lt;h2 id=&#34;old-school-approach-modern-materials&#34;&gt;Old-School Approach, Modern Materials&lt;/h2&gt;
+&lt;p&gt;Many NGO&amp;rsquo;s are &lt;a href=&#34;http://www.ashden.org/micro-hydro&#34;&gt;introducing small hydropower systems in the developing world&lt;/a&gt;. Almost all of them are aimed at the production of electricity. However, there are a few exceptions to this standard practice. In 2007, a team from the Appalachian University in the US designed, built and installed a direct hydropowered coffee depulper in Nicaragua. According to &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0973082612000634&#34;&gt;a recent study&lt;/a&gt;
+in &lt;em&gt;Energy for sustainable development&lt;/em&gt;, it has &amp;ldquo;performed flawlessly through five harvests&amp;rdquo;. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Because less water is needed to produce a given amount of power, all components of the system are reduced in size and cost&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Much of the necessary energy for coffee harvesting and processing is provided by manual labour. One of the most tedious, labour intensive steps of coffee bean processing is depulping. In the past, the depulping process was restricted to a hand cranked machine, and would take all night to complete. Now, with the help of direct hydropower technologies, the depulping can be completed in two or three hours.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydro-turbine_dithered.png&#34; alt=&#39;The bronze runner of the Watermotor model 150. Picture: Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ The bronze runner of the Watermotor model 150. Picture: [Campo Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&amp;type=3). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The installation can deliver a maximum of 800 watt mechanical power with a head of 35 m and a water flow of 300 liters per minute. The material costs amounted to just $1900. For comparison, &lt;em&gt;Practical Action&lt;/em&gt; states that, when using appropriate technologies, a small scale hydroelectric installation &lt;a href=&#34;http://practicalaction.org/micro-hydro-power&#34;&gt;costs $1,800 to $6,000 per installed kilowatt&lt;/a&gt;. It takes about two kilowatts of mechanical power to produce one kilowatt of electric power, so that direct hydropower is at least twice as economically viable as a hydroelectric operation with the same rate of energy production.&lt;/p&gt;
+&lt;h2 id=&#34;precise-control&#34;&gt;Precise Control&lt;/h2&gt;
+&lt;p&gt;The turbine used by the direct hydropowered coffee depulper is a commercially available &lt;em&gt;Water Motor model 90&lt;/em&gt; from &lt;a href=&#34;http://www.watermotor.net&#34;&gt;&lt;em&gt;Campo Nuevo&lt;/em&gt;&lt;/a&gt; in Bolivia. According to the manufacturer, the compact machine (16 x 16 x 32 cm) is &amp;ldquo;the only modern turbine designed to drive common machines directly with water power&amp;rdquo;.
+The turbine uses a 9 cm diameter Turgo type runner, which converts water power into mechanical power at 80 to 85% efficiency. It is suited for moderate to high head systems. The larger model 150 has a 15 cm diameter runner and produces about three times as much power.&lt;/p&gt;
+&lt;p&gt;The water motor is as easy to control and adjust as an electric motor. It has a power switch that allows instant on/off control, which makes it practical to directly power machines which must be turned on and off many times during use. The mechanism works by deflection of the water from the runner, so that the force of the flow does not increase the pressure in the penstock.&lt;/p&gt;
+&lt;p&gt;The power output of the turbine can be precisely adjusted. Like any other turbine of the impulse type, a Turgo runner is driven by high velocity jets of water. A manifold separates the water flow into four smaller tubes, with each stream leading to one of the four jets driving the turbine wheel.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/water-motor-in-casing_dithered.png&#34; alt=&#39;The Campo Nuevo Watermotor in its casing. Picture: Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ The Campo Nuevo Watermotor in its casing. Picture: [Campo Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&amp;type=3). 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Each of the four nozzles has an individual valve to provide for a range of flows, so that the motor can be run on one to four jets at a time. Furthermore, the jets can be adjusted to various sizes. This mechanism makes it possible to precisely measure and adjust the power output of the motor and cater to seasonal variations in water flow.&lt;/p&gt;
+&lt;h2 id=&#34;direct-hydropowered-woodworking-unit&#34;&gt;Direct Hydropowered Woodworking Unit&lt;/h2&gt;
+&lt;p&gt;At the &lt;em&gt;Campo Nuevo&lt;/em&gt; demonstration site in the Andes, the water motor runs a large variety of machines, including a &lt;a href=&#34;http://www.watermotor.net/motor.html&#34;&gt;small woodworking unit&lt;/a&gt; (table saw, grinder, joiner, drill, abrasive disk), a cement mixer, and a grain mill. When mechanical power is not being used by any of these machines (for instance at night), the motor runs a generator which stores electric energy in batteries for lighting and other purposes. The water motor can also operate an air compressor to run air-powered tools. (In principle, it could also run &lt;a href=&#34;http://www.flickr.com/photos/13080477@N08/1498486336/sizes/l/in/set-72157603355180063/&#34;&gt;a compressor from a refrigerator&lt;/a&gt;). &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A small storage tank makes it possible to run even more powerful machines&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The water motor on the demonstration site delivers power similar to a 0.75 horse power (560 watt) electric motor at 1,450 rpm using a stream with a vertical fall of 18 m and an average water flow of 310 liters per minute. These conditions are less than ideal for a hydroelectric power site, but for direct hydropower the situation is perfect.&lt;/p&gt;
+&lt;p&gt;A small storage tank attached to the direct hydropower unit even makes it possible to temporarily run more powerful machines. Since the operation of the table saw requires 500 liters of water per minute (which is often not available), the 6,000 liter storage tank was installed, measuring 2 x 2 x 1.5 m. It allows the table saw to run for 15 minutes continuously. This additional power output adds up over two hours of operating time over the course of a ten hour workday.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/water-motor-running-table-saw_dithered.png&#34; alt=&#39;A set-up of a water motor running a table saw and generator. Picture: Campo Nuevo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ A set-up of a water motor running a table saw and generator. Picture: [Campo Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&amp;type=3) 
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+.
+&lt;p&gt;All machines (including the generator and air compressor) are placed directly on or beside the turbine housing. These tools are attachable to (and driven by) the same belt. The water motor can only operate one machine at a time, since there is no distribution of energy. This works well in a workshop, because many tools and machines are used intermittently.&lt;/p&gt;
+&lt;p&gt;The same configuration is used for the direct hydropowered coffee depulper in Nicaragua, which was described above. Coffee beans are harvested from December through February, and they must be depulped within 24 hours of picking. This processing constraint means that the depulper is only used at night for a small fraction of the year.&lt;/p&gt;
+&lt;p&gt;Therefore, the direct hydropower installation is often available for other applications (such as running a saw, a drill, an air compressor, or an electric generator). Although the turbine that powers the coffee depulper can provide up to 800 watts of mechanical power, the coffee depulper itself uses only one fourth of that waterpower and one jet to deliver 200 watts for its operation.&lt;/p&gt;
+&lt;h2 id=&#34;upgrading-medieval-water-mills&#34;&gt;Upgrading Medieval Water Mills&lt;/h2&gt;
+&lt;p&gt;Will we see a rebirth of direct hydro power? Maybe, but the fact remains that this form of energy production has never disappeared. In some mountainous regions, there are still water wheels in operation that share similar design with the water mills so extensively used in medieval Europe. The rotating shaft directly drives machinery, most commonly found today as grain mills for flour production.&lt;/p&gt;
+&lt;p&gt;In remote villages in Nepal, many farmers use all wooden traditional water mills to grind grain. About 25,000 to 30,000 of these are still in operation today. In Nepal, the goal is not to reintroduce direct hydropower, but to make sure that it &lt;em&gt;stays&lt;/em&gt;. That is why the national NGO &lt;a href=&#34;http://www.crtnepal.org/&#34;&gt;Central for Rural Technology Nepal&lt;/a&gt;(CRT/N) runs a program to upgrade these mills. The improved water wheels can grind grain more efficiently and have longer lifespans, which allows them to compete better with diesel powered mills.&lt;/p&gt;
+&lt;div class=&#34;article-img &#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/improved-water-mill_dithered.png&#34; alt=&#39;CRT/N have increased the efficiency of water mills in Nepal by replacing wooden runners with precision-made metal ones. Picture: CRT/N.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ CRT/N have increased the efficiency of water mills in Nepal by replacing wooden runners with precision-made metal ones. Picture:
+[CRT/N](http://www.crtnepal.org/).
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Basically, CRT/N &lt;a href=&#34;http://www.ashden.org/winners/crt&#34;&gt;upgrades medieval style water wheels to nineteenth-century style water wheels&lt;/a&gt;, by replacing key wooden parts such as the shaft and the runner with locally produced precision metal parts. The wooden penstock that delivers water to the mills is replaced by a high density polyethylene pipe which reduces leakage and other avoidable problems.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In Nepal, an NGO has upgraded more than 5,000 still operating all wooden water mills to nineteenth-century standards, doubling their efficiency and allowing them to compete with diesel power&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;CRT/N calls its technology the &lt;a href=&#34;http://www.crtnepal.org/?option=technology&amp;amp;tid=3232313031&#34;&gt;Improved Water Mill&lt;/a&gt; (IWM). Estimates suggest that grinding capacity of the upgraded mills has doubled, which corresponds neatly with the efficiency figures we introduced at the beginning of this article. The higher efficiency makes that less water is needed and that the mills can operate for longer periods of the year.&lt;/p&gt;
+&lt;h2 id=&#34;replacing-diesel-engines&#34;&gt;Replacing Diesel Engines&lt;/h2&gt;
+&lt;p&gt;The NGO has upgraded 5,700 water mills from 1990 to 2009. Some of these upgrades (237 to be precise) also involved adapting water mills so that they can run other machines as well, such as oil presses, rice de-huskers, sawing machines, or an electric generator. To achieve this variability, a longer shaft is installed which disconnects the runner from the millstones. Instead of connecting to the millstones, the grinding shaft operates from the long shaft using a belt drive, allowing other machines to be operated by direct hydropower.&lt;/p&gt;
+&lt;div class=&#34;article-img  vertical&#34;&gt;
+&lt;figure data-imgstate=&#34;dither&#34;&gt;
+&lt;img src=&#34;./2013/08/back-to-basics-direct-hydropower/images/dithers/improved-water-mill-4_dithered.png&#34; alt=&#39;With a long-shaft attachment, several machines such as a rice-huller can be run from a mill. Picture: CRT/N.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;figcaption class=&#34;caption&#34;&gt;
+ With a long-shaft attachment, several machines such as a rice-huller can be run from a mill. Picture: [CRT/N](http://www.crtnepal.org/).
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;While these upgraded water wheels do not achieve the high efficiency of direct hydropower installations using turbines, they are less expensive. Basic upgrades of a water mill cost $350, whilst the option of running multiple machines brings the total cost at $900 to $1,200. Thus, upgrading a traditional water mill is at least two times cheaper than installing a complete new, turbine driven direct hydropower system. In Nepal, improved water mills have even replaced some diesel powered grain mills, because they are less expensive to run and produce better quality flour.&lt;/p&gt;
+&lt;p&gt;The water mill upgrade project is still &lt;a href=&#34;http://www.crtnepal.org/?option=projects&amp;amp;pjid=3330313139&#34;&gt;ongoing&lt;/a&gt;. Similar but much smaller projects have been implemented by &lt;a href=&#34;http://www.ashden.org/winners/itpi&#34;&gt;IT Power India&lt;/a&gt;, also in the Himalayas (70
+upgraded mills at a cost of $200 each), and by &lt;a href=&#34;http://www.ashden.org/winners/sitmo&#34;&gt;SITMo&lt;/a&gt; in the Philippines (as part of a mostly electric hydro scheme).&lt;/p&gt;
+&lt;h2 id=&#34;the-best-of-both-worlds&#34;&gt;The best of both worlds&lt;/h2&gt;
+&lt;p&gt;This plea for direct hydro does not imply that we should stop using electricity. Some things cannot be powered by mechanical energy, most importantly lighting and electronic equipment. Furthermore, many people in the developing world do not have access to electricity at all, forcing them to use unhealthy kerosene lamps instead.&lt;/p&gt;
+&lt;p&gt;Rather, the examples described above show that it might be interesting to combine both methods. The best results would be obtained by a hydropower installation that produces mechanical power for operating machines, and stores electric power in batteries for lighting and other purposes when mechanical power is not required (for instance at night). Compared to a strictly mechanical system, it would offer important extra benefits. Compared to a merely electric system, it would deliver more power and be much more efficient.&lt;/p&gt;
+&lt;p&gt;Water motors can also be used if you don&amp;rsquo;t have a mountain stream running next to your house, farm or factory. That&amp;rsquo;s the topic of the next post: &lt;a href=&#34;./2013/09/power-from-the-tap-water-motors/&#34;&gt;Power from the tap: water motors&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0801872480/&#34;&gt;Stronger than a Hundred Men: A History of the Vertical Water Wheel (Johns Hopkins Studies in the History of Technology)&lt;/a&gt;&lt;/em&gt;, Terry S. Reynolds, 1983. See pages 106, 306-307, and 342-349.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;The efficiency of a water turbine depends on the type of turbine used. There are many types of turbines available, and each one is aimed at specific combinations of head and water flow. For small-scale hydro applications, a minimum efficiency of 80-85% can be achieved in any situation. Pelton turbines are up to 90% efficient and large turbines can be over 95% efficient.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.homepower.com/articles/intro-hydropower-part-3&#34;&gt;&lt;em&gt;Intro to Hydropower&lt;/em&gt;&lt;/a&gt;, Home Power Magazine, 2012. Another source is the &lt;a href=&#34;http://appropriatetec.appstate.edu/sites/appropriatetec.appstate.edu/files/microhydro_factsheet6.pdf&#34;&gt;&lt;em&gt;Fact Sheet MicroHydro&lt;/em&gt;&lt;/a&gt; of Appalachian State University, which gives an average system efficiency of 53% (including energy loss in the pipeline). And a &lt;a href=&#34;http://ijecs.in/ijecsissue/wp-content/uploads/2013/03/416-432ijecs.pdf&#34;&gt;recent study&lt;/a&gt; states: &amp;ldquo;It is common to assume an overall system efficiency of 50–60%.
+However, in practice actual power output may be as low as 30% of gross input power for very small installations and as high as 70% for larger schemes.&amp;rdquo;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;To this should be added the energy loss in the drive train, which is needed to match the rotational speed of the prime mover with that of the machine being powered. This loss has been included in the efficiency results of modern hydro power installations, where a drive system is used to match the rotative speeds of turbine and generator, but not in the results for the old-fashioned installations. The energy loss in the drive train can be quite large, for instance when you would use a slow-turning water wheel to operate an electric generator or a circular sawing machine, which require high rotational speeds and thus elaborate gearing to step up the speed. On the other hand, the energy loss in the drive train can be negligible when a water turbine is used to directly power fast-rotating machinery, because water turbines have much higher rotational velocity than water wheels. This also holds true for water wheels operating machines which do not require high rotational speeds. Turbines operating slow-rotating machines will need gearing to step down the speed. If the connection is made by a single gear, chain or belt, the drive train can be up to 99% efficient.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0973082612000634&#34;&gt;&lt;em&gt;Design and Construction of a Direct Hydro Powered Coffee Depulper&lt;/em&gt;&lt;/a&gt;, Energy for Sustainable Development 16 (2012) 401-405. Brian W. Raichle, Raymond S. Sinclair, Jeremy C. Ferrell.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://ps-survival.com/PS/Hydro-Power/Water_Motor_In_Bolivia_Runs_Table_Saw_Home_Power_Magazine_2004.pdf&#34;&gt;&lt;em&gt;Water Power in the Andes. Yesterday&amp;rsquo;s Solution for Today&amp;rsquo;s Needs&lt;/em&gt;&lt;/a&gt;, Ron Davis, 1999&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
