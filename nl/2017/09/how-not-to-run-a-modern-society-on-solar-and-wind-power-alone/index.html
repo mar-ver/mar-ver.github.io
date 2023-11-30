@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hoe duurzaam is een duurzaam elektriciteitsnet? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://mar-ver.github.io/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://mar-ver.github.io/css/style.css"><meta property="og:title" content="Hoe duurzaam is een duurzaam elektriciteitsnet?" />
+<meta name="twitter:title" content="Hoe duurzaam is een duurzaam elektriciteitsnet?"/>
+
+<meta property="og:description" content="Als we de energievraag zouden aanpassen aan het wisselende aanbod, dan kan hernieuwbare elektriciteitsproductie heel voordelig zijn. Deze strategie was heel gewoon in vroegere tijden, en moderne technologie maakt ze nog interessanter." />
+
+<meta name="twitter:description" content="Als we de energievraag zouden aanpassen aan het wisselende aanbod, dan kan hernieuwbare elektriciteitsproductie heel voordelig zijn. Deze strategie was heel gewoon in vroegere tijden, en moderne technologie maakt ze nog interessanter."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" />
+<meta property="og:image:secure_url" content="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-09-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-09-13T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Renewable Energy" />
+<meta property="article:tag" content="Wind power" />
+<meta property="article:tag" content="Solar power" />
+<meta property="article:tag" content="Energy Storage" />
+<meta property="article:tag" content="Power transmission" />
+
+</head>
+<body id="hoe-duurzaam-is-een-duurzaam-elektriciteitsnet">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://mar-ver.github.io/nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://mar-ver.github.io/nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://mar-ver.github.io/nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  high-tech-problems '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Hoe duurzaam is een duurzaam elektriciteitsnet?</h1>
+
+				<p class="summary">
+					Als we de energievraag zouden aanpassen aan het wisselende aanbod, dan kan hernieuwbare elektriciteitsproductie heel voordelig zijn. Deze strategie was heel gewoon in vroegere tijden, en moderne technologie maakt ze nog interessanter.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">13 september 2017</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="https://mar-ver.github.io/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">en</a>
+						
+							<a href="https://mar-ver.github.io/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">fr</a>
+						
+							<a href="https://mar-ver.github.io/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">es</a>
+						
+							<a href="https://mar-ver.github.io/pl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" alt='Afbeelding: Eye of the wind' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/sailboat2_hu2cf95e4b3442dd5b2dfb53fcade20252_219922_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Afbeelding: <a href="https://www.eyeofthewind.net/en/" target="_blank" >Eye of the wind</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Hoewel het potentieel van wind- en zonne-energie groter is dan de energievraag van industriële samenlevingen, zijn deze energiebronnen niet altijd beschikbaar. Om te verzekeren dat het aanbod altijd aan de vraag kan voldoen, heeft een elektriciteitsnet op basis van wind en zon heel veel extra infrastructuur nodig.</p>
+<p>Die infrastructuur maakt van hernieuwbare elektriciteitsproductie een complexe, trage, dure en onduurzame onderneming. Als we daarentegen de energievraag zouden aanpassen aan het wisselende aanbod, dan kan hernieuwbare elektriciteitsproductie wel heel voordelig zijn. Deze strategie was heel gewoon in vroegere tijden, en moderne technologie maakt ze nog interessanter.</p>
+<p>Het idee leeft dat hernieuwbare energiebronnen ons in de toekomst onafhankelijk zullen maken van fossiele brandstoffen. Windenergie en zonne-energie hebben met voorsprong het grootste potentieel. De hoeveelheid energie die Europa praktisch kan uit de wind kan halen, wordt geschat op 30.000 terawatt-uur (TWh) per jaar, of tien keer meer dan het jaarlijkse energieverbruik. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Het potentieel aan zonne-energie in de VS wordt geschat op 400.000 TWh, of 100 keer het jaarlijkse energieverbruik. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>In praktijk zijn dit soort uitspraken problematisch. Ze zijn gebaseerd op jaarlijkse gemiddelden, en houden totaal geen rekening met de variabiliteit van windenergie en zonne-energie. In een elektriciteitsnetwerk moeten vraag en aanbod altijd in evenwicht zijn. Dat is relatief makkelijk met fossiele brandstoffen, want die zijn op afroep beschikbaar. Maar de opbrengst van windturbines en zonnepanelen is totaal afhankelijk van de grillen van het weer.</p>
+<p>Om te weten of er genoeg hernieuwbare energie is om een moderne samenleving op wind en zon te laten draaien, moeten we dus een vergelijking maken doorheen de tijd. Wetenschappers die deze metingen en berekeningen hebben uitgevoerd, maken duidelijk dat vraag en aanbod heel vaak niet overeen stemmen. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/intermittency-solar-wind-compared-with-energy-demand_dithered.png" alt='De grafiek hierboven laat de dagelijkse energieopbrengst zien van wind (blauw) en zon (geel) over een periode van dertig dagen, De energievraag is in het rood aangeduid. De dikke lijnen zijn de gemiddelden. Lokatie: Bonneville, VS, april 2010. [^21]' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/intermittency-solar-wind-compared-with-energy-demand_hu84cb7289ec12832343e4b3da6094e694_350378_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/intermittency-solar-wind-compared-with-energy-demand_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>De grafiek hierboven laat de dagelijkse energieopbrengst zien van wind (blauw) en zon (geel) over een periode van dertig dagen, De energievraag is in het rood aangeduid. De dikke lijnen zijn de gemiddelden. Lokatie: Bonneville, VS, april 2010. [^21]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De opbrengst van een zonnepaneel kan enorm variëren in de tijd. Bijvoorbeeld in onze streken is er &rsquo;s winters ongeveer 10 keer minder zon dan &rsquo;s zomers. Vergelijk je een zonnige zomerdag op de middag met een miezerige winterochtend, dan is er 65 keer meer zonne-energie in het eerste geval. En &rsquo;s nachts is er uiteraard helemaal geen zonne-energie. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<blockquote>
+<p>Het enige wat met zekerheid kan worden voorspeld, is dat de opbrengst van een windmolen 0 tot 100% van het maximale vermogen bedraagt.</p>
+</blockquote>
+<p>Wind is nog minder voorspelbaar. Langs de ene kant kan het zowel &rsquo;s nachts als overdag waaien, maar langs de andere kant is er geen verzekerde minimum opbrengst zoals bij zonne-energie. In tegenstelling tot zon kan wind dagen- of wekenlang helemaal afwezig zijn. Er kan ook te veel wind zijn, en dan moeten windturbines worden stil gelegd om schade te voorkomen.</p>
+<p>Windmolenparken produceren gemiddeld over een jaar 10-45% van hun maximale capaciteit. Dat is dubbel de jaarlijkse capaciteitsfactor van zonne-energie (5-30%), afhankelijk van de locatie. <sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup><sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Maar in praktijk produceren windturbines op elk mogelijk moment 0 tot 100% van hun maximale vermogen.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/solar-wind_dithered.png" alt='Elektriciteitsopbrengst van een windmolenpark in Californië op 29 verschillende dagen in april 2005. [^6]' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/solar-wind_hu615f08db2d0c448b64238e2736a93a08_127853_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/solar-wind_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Elektriciteitsopbrengst van een windmolenpark in Californië op 29 verschillende dagen in april 2005. [^6]</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Voor veel locaties zijn alleen gemiddelde windsnelheden bekend. Maar de grafiek hierboven laat zien hoe de energieopbrengst van een windmolenpark in Califonië varieert van uur tot uur en van dag tot dag over een periode van 29 dagen. Het enige wat met zekerheid te zeggen valt, is dat de opbrengst elk moment kan wisselen van nul tot 600 megawatt (het maximale vermogen van de centrale). <sup id="fnref2:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Het aanbod van wind- en zonne-energie variëert ook doorheen de jaren, met verschillen van 20-30%. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup><sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<h2 id="hoe-vraag-en-aanbod-verzoenen">Hoe vraag en aanbod verzoenen?</h2>
+<p>Tot op zeker hoogte kunnen zonne-energie en windenergie elkaar aanvullen. Zo is de wind ongeveer dubbel zo sterk tijdens de winter, terwijl er dan minder zon is. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> Maar dat gaat weer om gemiddelde waarden. Op elk moment van het jaar kunnen wind en zonne-energie ons tegelijk in de steek laten.</p>
+<p>De vraag naar elektriciteit variëert ook doorheen de dag en de seizoenen, maar deze variaties zijn een stuk voorspelbaarder en veel minder extreem. De vraag naar elektriciteit piekt tijdens de ochtend en de avond, en is het laagst gedurende de nacht. Maar zelfs &rsquo;s nachts is het elektriciteitsverbruik nog altijd ongeveer 60% van het maximale verbruik.</p>
+<blockquote>
+<p>Om te verzekeren dat het aanbod van elektriciteit altijd overeenstemt met de vraag, is er extra infrastructuur nodig.</p>
+</blockquote>
+<p>Als we bijgevolg de capaciteit van zonne-energie en windenergie berekenen op de jaarlijkse gemiddelde opbrengst en in overeenstemming met het gemiddelde elektriciteitsverbruik, dan zouden er enorme elektriciteitstekorten zijn gedurende het grootste deel van het jaar. Om te verzekeren dat het aanbod van elektriciteit altijd overeenstemt met de vraag, zijn er dus extra maatregelen nodig.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/average-cloud-cover_dithered.png" alt='Het gemiddelde wolkendek op aarde 2002-2015. Bron: NASA' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/average-cloud-cover_hu7b6d4123576688ec4e582b4902ea86d1_2084757_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/average-cloud-cover_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Het gemiddelde wolkendek op aarde 2002-2015. Bron: <a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=85843&amp;amp;eocn=image&amp;amp;eoci=related_image" target="_blank" >NASA</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ten eerste zouden we kunnen rekenen op een reservecapaciteit van klassieke elektriciteitscentrales die op fossiele brandstoffen draaien. Die centrales worden dan ingezet als er onvoldoende wind en zon is. Ten tweede kunnen we veel meer windturbines en zonnepanelen plaatsen, zodat er zelfs bij bewolkt weer en bij lage windsnelheden voldoende hernieuwbare energie is.</p>
+<p>Ten derde kunnen we geografisch verspreide hernieuwbare energiecentrales met elkaar verbinden, zodat de variaties in elektriciteitsproductie worden uitgevlakt. Tot slot kunnen we overtollige stroom opslaan voor gebruik op momenten dat zon en wind het laten afweten.</p>
+<p>Zoals we zullen zien, ondermijnt elk van deze strategieën de duurzaamheid van een &lsquo;duurzaam&rsquo; elektriciteitsnetwerk, ook als ze met elkaar worden gecombineerd. Als de energie die nodig is voor het bouwen en onderhouden van de extra infrastructuur mee in rekening wordt gebracht in een levenscyclusanalyse, dan zou een elektriciteitsnetwerk met alleen maar windturbines en zonnepanelen net zo CO2-intensief zijn als het nu bestaande elektriciteitsnetwerk.</p>
+<h2 id="strategie-1-reservecapaciteit-van-klassieke-energiecentrales">Strategie 1: Reservecapaciteit van klassieke energiecentrales</h2>
+<p>Tot nu toe wordt het relatief kleine aandeel van hernieuwbare energie in evenwicht gehouden door aardgascentrales. Hoewel deze aanpak het probleem van een wisselend aanbod volledig &ldquo;oplost&rdquo;, resulteert dit in een paradox omdat het nu net de bedoeling is om onafhankelijk te worden van fossiele brandstoffen, inclusief aardgas. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>Voor een elektriciteitsnet dat gebaseerd is op 100% zonne-energie en windenergie, zonder energieopslag en met alleen maar uitwisseling van elektriciteit op nationaal niveau, moet de reservecapaciteit van klassieke elektriciteitscentrales net zo groot zijn als de piekvraag. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Met andere woorden: er zouden evenveel klassieke energiecentrales staan als vandaag.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/energiecentrale_dithered.png" alt='Foto: James Allan, CC BY-SA 2.0.' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/energiecentrale_hu87cd4c221a246654a0af329dbdc2c952_139346_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/energiecentrale_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: James Allan, CC BY-SA 2.0.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Zo&rsquo;n hybride infrastructuur zou het gebruik van fossiele brandstoffen voor de opwekking van elektriciteit verminderen, aangezien hernieuwbare energiecentrales inspringen als er zon of wind is. Maar tegelijk moet er heel veel energie en materialen worden geïnvesteerd in wat in essentie een dubbele infrastructuur is. De energie die we besparen door minder fossiele brandstoffen te verbranden, wordt gespendeerd aan het bouwen, installeren en verbinden van miljoenen zonnepanelen en windturbines.</p>
+<p>Hoewel een reservecapaciteit van fossiele brandstoffen algemeen wordt beschouwd als een tijdelijke oplossing die niet geschikt is voor een groter aandeel hernieuwbare energiebronnen, zullen we zien dat bijna alle andere technologische strategieën de nood aan reservecapaciteit slechts deels kunnen verlagen.</p>
+<h2 id="strategie-2-overdimensioneren-van-de-hernieuwbare-energieproductie">Strategie 2: Overdimensioneren van de hernieuwbare energieproductie</h2>
+<p>Een andere manier om elektriciteitstekorten te vermijden is het installeren van meer zonnepanelen en windturbines. Als de geïnstalleerde capaciteit van zonnepanelen gedimensioneerd is op de kortste en donkerste winterdagen, en de geïnstalleerde capaciteit van windturbines wordt afgestemd op de laagste windsnelheden, dan wordt het risico op elektriciteitstekorten veel kleiner.</p>
+<p>Het voor de hand liggende nadeel is dat er tegelijk een overaanbod van hernieuwbare elektriciteit ontstaat voor de grootste tijd van het jaar.</p>
+<p>Als er te veel hernieuwbare energie is, dan moet de productie van windturbines en zonnepanelen worden beperkt. Het probleem is dat op die manier de totale elektriciteitsopbrengst van zonnepanelen of windturbines gedurende hun levensduur afneemt, terwijl de energie die nodig is om ze te produceren, te installeren en te verbinden dezelfde blijft. Dat betekent dat een zonnepaneel minder duurzaam wordt.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/leaflet_dithered.png" alt='Foto: Leaflet - Own work, CC BY-SA 3.0' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/leaflet_hu12679cb0456f9095a7ebdd32948386fa_129914_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/leaflet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Foto: <a href="https://en.wikipedia.org/wiki/Wind_farm#/media/File:GreenMountainWindFarm_Fluvanna_2004.jpg" target="_blank" >Leaflet</a> - Own work, CC BY-SA 3.0</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Het &lsquo;vernietigen&rsquo; van duurzame energieproductie neemt spectaculair toe naarmate wind en zon een groter aandeel uitmaken van de totale elektriciteitsproductie. Wetenschappers berekenden dat een Europees elektriciteitsnetwerk bestaande uit 60% wind- en zonne-energie een overdimensionering vereist die gelijk is aan twee keer de piekvraag naar elektriciteit. Dat resulteert in 300 TWh overtollige elektriciteit per jaar &ndash; 10% van de huidige jaarlijkse elektriciteitsproductie in Europa.</p>
+<blockquote>
+<p>Bij een aandeel van 100% wind- en zonne-energie is het elektriciteitsoverschot groter dan het energieverbruik.</p>
+</blockquote>
+<p>Bij een aandeel van 80% wind en zon moeten er zes keer meer windturbines en zonnepanelen worden gebouwd, terwijl de overtollige elektriciteit oploopt tot 60% van het totale jaarlijkse verbruik. Bij een aandeel van 100% wind en zon moet de productiecapaciteit tien keer groter zijn, en is de overtollige elektriciteit groter dan het jaarlijkse elektriciteitsverbruik in Europa. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<p>Dit betekent dat er tot tien keer meer zonnepanelen en windturbines moeten worden gebouwd. De energie die nodig is voor deze infrastructuur zou de overgang naar hernieuwbare elektriciteit totaal onzinnig maken, zeker wat zonne-energie betreft. Als we ervan uitgaan dat het twee tot vier jaar duurt eer een zonnepaneel de energie heeft terugverdiend die de productie ervan kostte, dan zou een overdimensionering met een factor tien daar 20 tot 40 jaar van maken.</p>
+<p>Aangezien een zonnepaneel maar 30 jaar meegaat, wil dat zeggen dat de productie ervan meer energie kan kosten dan het paneel gedurende zijn gehele levensduur oplevert. Wind blijft voordelig omdat de terugverdientijd korter is, maar ook in dit geval wordt het verschil met fossiele brandstoffen een stuk kleiner.</p>
+<h2 id="strategie-3-europees-elektriciteitsnet">Strategie 3: Europees Elektriciteitsnet</h2>
+<p>De variabiliteit van zon en wind kan ook worden opgevangen door hernieuwbare energiebronnen met elkaar te verbinden over een geografisch uitgestrekt gebied. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Bijvoorbeeld: als er in Denemarken te veel wind is, en in Italië te weinig, dan kan de Deense windenergie via het elektriciteitsnetwerk naar Italië worden getransporteerd.</p>
+<p>Deze strategie biedt ook de mogelijkheid om verschillende soorten hernieuwbare energiebronnen met elkaar te combineren, zoals energie uit golven en getijden. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Bovendien laat interconnectie toe om de reservecapaciteit van klassieke energiecentrales te delen.</p>
+<p>Hoewel het huidige elektriciteitsnetwerk zich over heel Europa uitstrekt, is het lang niet krachtig genoeg om dit idee in de praktijk te brengen. Er zijn dus nieuwe hoogspanningsverbindingen nodig. Zo&rsquo;n &lsquo;supergrids&rsquo; zijn onderdeel van een reeks ambitieuze plannen voor hernieuwbare energie, vooral in Europa. <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> Maar hetzelfde probleem duikt op: deze strategie impliceert dat we de infrastructuur gaan overdimensioneren. <sup id="fnref2:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<p>Voor een Europees elektriciteitsnet met een aandeel van 60% zon en wind moet de capaciteit van het hoogspanningsnetwerk zeven keer groter worden. Als individuele Europese landen hun gevoeligheden over nationale energieverzekering aan de kant schuiven, en de reservecapaciteit optimaal over het continent zou worden verspreid, dan kan het met een &ldquo;slechts&rdquo; drie keer grotere transmissiecapaciteit. Voor een netwerk met een aandeel van 100% wind en zon moet het hoogspanningsnetwerk twaalf keer krachtiger worden dan vandaag. <sup id="fnref1:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup><sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/wind-map-europe_dithered.png" alt='Windkaart van Europa, 2 september 2017, 23h48. Bron: Windy.' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/wind-map-europe_hu87b5ec8d527511e6b1ad7c359ad62ac9_521872_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/wind-map-europe_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Windkaart van Europa, 2 september 2017, 23h48. Bron: <a href="https://www.windy.com/" target="_blank" >Windy</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Er zijn drie problemen met het uitbreiden van de transmissiecapaciteit. Ten eerste kost het bouwen van hoogspanningsmasten, funderingen, stroomkabels, substations, enzovoort heel veel energie en andere grondstoffen. Deze moeten ook in rekening worden gebracht als er een levenscyclusanalyse wordt gemaakt van een &lsquo;duurzaam&rsquo; elektriciteitsnetwerk. De overgedimensioneerde hoogspanningslijnen zullen slechts een deel van de tijd worden gebruikt, waardooor de capaciteitsfactor van het transmissienetwerk zal dalen.</p>
+<blockquote>
+<p>Zelfs met twaalf keer de huidige transmissiecapaciteit is er 65 dagen per jaar een stroomtekort.</p>
+</blockquote>
+<p>Ten tweede introduceert het transport van elektriciteit energieverliezen, wat betekent dat er meer windturbines en zonnepanelen moeten worden gebouwd om dit verlies goed te maken. Ten derde verloopt het aanleggen van nieuwe hoogspanningslijnen bijzonder moeizaam &ndash; het duurt tot tien jaar eer een plan werkelijkheid wordt.[^20]<sup id="fnref1:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> Bureaucratische rompslomp is niet de enige reden: hoogspanningslijnen hebben een ingrijpende impact op het landschap en krijgen meestal te maken met lokale oppositie.</p>
+<p>Zelfs met een &lsquo;supergrid&rsquo; blijft er de mogelijkheid dat er op bepaalde dagen niet voldoende elektriciteit is. Met een aandeel van 100% wind en zon en twaalf keer de huidige transmissiecapaciteit in Europa is er nog steeds een reservecapaciteit nodig die gelijk is aan 15% van de totale jaarlijkse elektriciteitsconsumptie. <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup></p>
+<p>Zelfs in het Verenigd Koninkrijk, waar relatief gezien erg veel hernieuwbare energie te oogsten valt, zou een netwerk dat windtubrines, zonnepanelen, getijdencentrales en golfslaggeneratoren met elkaar combineert, nog altijd 65 dagen per jaar tegen een elektriciteitstekort aankijken. <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup></p>
+<h2 id="strategie-4-energieopslag">Strategie 4: Energieopslag</h2>
+<p>Een laatste strategie om het aanbod van energie in overeenstemming te brengen met de vraag, is energieopslag. Op momenten dat er meer hernieuwbare energie wordt geproduceerd dan er nodig is, wordt die opgeslagen voor gebruik in de toekomst, wanneer er een tekort is. Energieopslag maakt komaf met het probleem van overtollige hernieuwbare energie, en het is de enige strategie die een reservecapaciteit van fossiele energiecentrales overbodig kan maken, tenminste in theorie. In praktijk botst de opslag van energie op een aantal obstakels.</p>
+<p>Ten eerste: hoewel er geen nood is aan het bouwen en onderhouden van een reservecapaciteit van fossiele energiecentrales, wordt dit voordeel teniet gedaan door de bouw en het onderhoud van de energieopslag. Ten tweede hebben alle opslagtechnologieën laad- en ontlaadverliezen, en bijgevolg zijn er meer windturbines en zonnepanelen nodig om dit verlies te compenseren.</p>
+<p>Onderzoek heeft uitgewezen dat het efficiënter kan zijn om windenergie te vernietigen dan op te slaan: de energie die nodig is voor het bouwen en onderhouden van de energieopslag, is groter dan de energie die verloren gaat als de turbine wordt stilgelegd. <sup id="fnref1:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/pompcentrale-wales_dithered.png" alt='Een pompcentrale in Wales.' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/pompcentrale-wales_hu9c55437601688c52e0184a10fac1e2c0_219026_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/pompcentrale-wales_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Een pompcentrale in Wales.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Wetenschappers hebben uitgerekend dat er voor een Europees netwerk met 100% hernieuwbare energie (670 GW wind, 810 GW zon), zonder reservecapaciteit, een energieopslag nodig is die 1,5 keer zo groot is als het gemiddelde maandelijks verbruik. Dat is 400 TWh, zonder rekening te houden met de laad- en ontlaadverliezen.<sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup><sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup><sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup></p>
+<blockquote>
+<p>Als we op elektrische auto&rsquo;s rekenenen om het surplus van hernieuwbare elektriciteit op te slaan, dan zouden hun batterijen 60 keer groter (of efficiënter) moeten zijn.</p>
+</blockquote>
+<p>Om een idee te geven wat dat betekent: volgens de meest optimistische schattingen van Europa&rsquo;s capaciteit voor pompcentrales is 80 TWh <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup>, terwijl het omwisselen van alle auto&rsquo;s door elektrische voertuigen met een batterij van 30 kWh zou resulteren in een energieopslag van 7.5 TWh.</p>
+<p>Met andere woorden: als we op elektrische auto&rsquo;s rekenenen om het surplus van hernieuwbare elektriciteit op te slaan, dan zouden hun batterijen 60 keer groter (of efficiënter) moeten zijn. En dan houden we er niet eens rekening mee dat elektrische auto&rsquo;s het elektriciteitsverbruik flink zouden doen stijgen.</p>
+<p>Als we uitgaan van een laad- en ontlaad-efficientie van 85%, dan zou het produceren van 460 TWh lithium-ion batterijen 644 miljoen Terajoule primaire energie vragen, wat overeenkomt met 15 keer het jaarlijkse primaire energieverbruik in Europa.<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> Deze investering moet minimaal elke twintig jaar gebeuren, want dat is de meest optimistische schatting voor de levensduur van een li-ion batterij. Er zijn veel andere technologieën voor het opslaan van energie, maar die hebben allemaal unieke nadelen die ze onaantrekkelijk maken bij gebruik op grote schaal. <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup><sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
+<h2 id="overdimensioneren-van-de-infrastructuur">Overdimensioneren van de Infrastructuur</h2>
+<p>Conclusie: het berekenen van de duurzaamheid van hernieuwbare energie, louter op basis van de energie die het kost om zonnepanelen en windturbines te bouwen, overschat de duurzaamheid van een elektriciteitsnet gebaseerd op wind en zon. Als we willen dat het aanbod steeds aan de vraag voldoet, dan moeten we ook de energie in rekening brengen voor het overdimensioneren van de generatiecapaciteit en de transmissiecapaciteit, alsook voor de reservecapaciteit en/of de energieopslag.</p>
+<p>De nood om het hele systeem te overdimensioneren verhoogt ook de financiële investering en de tijd die het kost om een overgang te maken naar hernieuwbare energie.</p>
+<p>Het combineren van de verschillende strategieën die hierboven worden beschreven is een synergetische aanpak die de duurzaamheid van een hernieuwbaar elektriciteitsnetwerk verhoogt, maar dit voordeel is niet groot genoeg om een fundamentele oplossing te bieden. <sup id="fnref1:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup><sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup><sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup></p>
+<p>Het bouwen van zonnepanelen, windturbines, transmissielijnen, reservecapaciteit en energieopslag met energie afkonstig van hernieuwbare energie is evenmin een oplossing: ook dan wordt een overdimensionering verondersteld, want we moeten de hernieuwbare energie-infrastructuur bouwen die de hernieuwbare energie-infrastructuur zal bouwen.</p>
+<h2 id="de-vraag-aanpassen-aan-het-aanbod">De Vraag Aanpassen aan het Aanbod</h2>
+<p>Dit alles betekent niet dat een duurzaam elektriciteitsnetwerk onmogelijk is. Er is een vijfde strategie, die niet probeert om het aanbod aan de vraag aan te passen, maar daarentegen probeert om de vraag af te stemmen op het wisselende aanbod van wind- en zonne-energie. In dit scenario wordt hernieuwbare energie ideaal gezien alleen maar gebruikt als de zon schijnt of de wind waait.</p>
+<p>Als we daarin zouden slagen, dan zou er helemaal geen nood zijn aan energieopslag, reservecapaciteit, of een overgedimensioneerde transmissie- en generatiecapaciteit. Alle energie die door zonnepanelen en windturbines wordt geproduceerd, zou ook worden gebruikt, zonder transmissieverliezen, laad- en ontlaadverliezen, of de nood om hernieuwbare energiecentrales stil te leggen. In feite zouden pas dan de nu bestaande levenscyclusanalyses van zonne-energie en windenergie geldig zijn.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/windmill-belgium_dithered.png" alt='Een windmolen in Moulbaix, België, 17de/18de eeuw. Foto: Jean-Pol GrandMont.' data-original="https://mar-ver.github.io/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/windmill-belgium_huaef38e408641e83bc6e8e0b438467064_92679_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/windmill-belgium_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Een windmolen in Moulbaix, België, 17de/18de eeuw. Foto: <a href="https://commons.wikimedia.org/wiki/File:Moulbaix_MV1aJPG.jpg" target="_blank" >Jean-Pol GrandMont</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Uiteraard is het onmogelijk om de energievraag ten alle tijd aan het wisselende aanbod aan te passen, aangezien niet alle energieverbruik kan worden uitgesteld tot het zonnig of winderig is. Maar als deze strategie prioriteit zou hebben, terwijl de andere (technologische) middelen een ondersteunende rol spelen, dan zou een hernieuwbaar elektriciteitsnet veel sneller, goedkoper en duurzamer kunnen worden gebouwd. Dat impliceert dat we afstappen van de verwachting dat we 24 uur per dag en 365 dagen per jaar zoveel elektriciteit hebben als we maar willen.</p>
+<blockquote>
+<p>Als we de vraag zouden aanpassen aan het wisselende aanbod, dan hebben we al deze extra infrastructuur niet nodig.</p>
+</blockquote>
+<p>Zelfs relatief kleine toegevingen kunnen een aanzienlijk effect hebben. Bijvoorbeeld, als het Verenigd Konikrijk 65 dagen per jaar een elektriciteitstekort zou accepteren, dan zou het elektriciteitsverbruik helemaal op hernieuwbare energiebronnen kunnen steunen (wind, zon, golf, getijden), zonder de nood aan energieopslag, reservecapaciteit of een grote overdimensionering van hernieuwbare energiebronnen. <sup id="fnref1:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup></p>
+<p>Als deze vraag-strategie al wordt besproken, dan is de discussie meestal beperkt tot zogenaamd &ldquo;slimme&rdquo; apparaten zoals wasmachines en afwasmachines die automatisch aanslaan als er hernieuwbare energie is. Maar er is veel meer mogelijk.</p>
+<p>Voor de komst van de Industriële Revolutie waren industrie en transport grotendeels afhankelijk van variabele hernieuwbare energiebronnen. De variabiliteit werd in grote mate opgelost door het aanpasen van de vraag naar energie. Bijvoorbeeld windmolens en zeilboten werkten alleen maar als het waaide.</p>
+<p>In het volgende artikel zullen we zien dat dezelfde strategie ook succesvol kan worden toegepast op moderne industrie en goederentransport:  <a href="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" >Geen wind? Geen trein: hernieuwbare energie zonder opslag</a>.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://mar-ver.github.io/nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Vincent Mattelaer</h5>
+	<p>Zoals steeds op Lowtechmagazine een mooi artikel in leesbare taal.</p>
+<p>Misschien ook nog dit vermelden: Het elektriciteitsnetwerk zal in de toekomst &rsquo;s nachts zwaarder belast worden vanwege alle elektrische voertuigen die vooral &rsquo;s nachts geladen zullen worden.</p>
+<p>Wat ik ook mis is het opslaan van energie onder de vorm van waterstof. Dat is de weg die de EU alvast wil inslaan. Waterstof is een energiedrager die gemakkelijk te stockeren is in grote hoeveelheden en gemakkelijk te transporteren is. Waarom heb je dat idee achterwege gelaten?</p>
+<p>mvg, Vincent</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nico S.</h5>
+	<p>Ik hoop dat we mogen leren uit het verleden bvb: &ldquo;De hoeveelheid energie die Europa praktisch kan uit de wind kan halen, wordt geschat op 30.000 terawatt-uur (TWh) per jaar&rdquo; Wat zijn de gevolgen voor onze planeet als we dit massaal oogsten? Zie naar het verbruiken van fossiele brandstoffen en nog verder in het verleden het kappen van bossen?</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>@ Thijs (#34)</p>
+<p>Ik heb het boek even bekeken en ik zie niet waarin het zou verschillen van andere utopische high-tech toekomstvisies. En zoals je zelf al aangeeft: daar zitten heel veel haken en ogen aan.</p>
+<p>Ik wil daar best over discussiëren als de auteurs dat willen.</p>
+<p>@ Dominique (#30)</p>
+<p>Het probleem is dat de productie van de batterij inderdaad veel energie kost. Het is vanuit energetisch standpunt voordelig om een tweede windturbine te bouwen in plaats van de energie van de eerste op te slaan.</p>
+<p>Geplaatst door: kris de decker | 15 november 2017 om 12:29</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mattias</h5>
+	<p>Vandaag in de Standaard: &ldquo;Van deze grafiek moet u wakker liggen&rdquo;. Niet rechtstreeks met bovenstaand artikel te maken, maar toch één van de weinige keren dat ik MainStreamMedia (MSM) zo negatief hoor over de stavaza. Zie <a href="http://www.standaard.be/cnt/dmf20171013_03129318" target="_blank" >http://www.standaard.be/cnt/dmf20171013_03129318</a></p>
+<p>@Roland: je geciteerd stukje van &ldquo;een overaanbod van hernieuwbare elektriciteit voor de grootste tijd van het jaar&rdquo; valt onder de kop &ldquo;Strategie 2: Overdimensioneren van de hernieuwbare energieproductie&rdquo;. In die situatie lijkt me de opmerking &ldquo;Overdrijven is een kunst.&rdquo; niet juist.</p>
+<p>Ivm de huidige opslag is die nu voldoen, omdat heel wat energie koolstofgebaseerd en gemakkelijk bereikbaar is. In de toekomst zal dit anders zijn.</p>
+<p>Ik denk ook dat grootverbruikers meer kunnen doen en dat oplossingen bij de kleinverbruikers plaatsen (slimme meters, wasmachines,&hellip;) meer zal kosten, dan dat het zal opbrengen. En ons eventueel in de waan laten dat we goed bezig zijn (bv. &ldquo;ik trek altijd mijn gsm-adapter uit, maar die terrasverwarmer vind ik wel aangenaam&rdquo;). Zelf reken ik &rsquo;transport&rsquo; over het algemeen wel ook bij &lsquo;grootverbruikers&rsquo;, toch op zijn minst die mensen 5 km verder moeten en hiervoor een auto van ongeveer 1000 kg gebruiken om nog geen 100 kg aan nuttig gewicht te vervoeren&hellip;</p>
+<p>@Dominique. Je &rsquo;tenzij&rsquo; lijkt me alvast heel erg belangrijk.</p>
+<p>@mathias. Spijtig dat hierover niet meer info (in Jip-en-Janneke-taal) te vinden is. Nochtans zijn er al wat mensen die zaken zoals OpenEnergyMonitor of Flusko gebruiken. En die dus kunnen zien hoeveel % van de tijd ze van hun zonnepanelen kunnen &ldquo;leven&rdquo;. &rsquo;t Kan ook hydro-energie zijn, bv. <a href="https://blog.openenergymonitor.org/2017/08/cydynni-energylocal/" target="_blank" >https://blog.openenergymonitor.org/2017/08/cydynni-energylocal/</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>h. honnest</h5>
+	<p>Helder artikel, Kris. Dank weer!</p>
+<p>Eenvoudigst zou toch zijn om allereerst fors op energieverbruik te gaan bezuinigen. Het huishoudelijk verbruik kan al bijna gehalveerd worden zonder noemenswaard in comfort achteruit te gaan. (in ons 4 persoons huishouden gebruiken wij 1800 kWh/jaar, waar in NL 3500 het gemiddelde is). Goed, toegegeven, wij hebben geen wasdroger noch afwasmachine, maar verder zijn we van alle moderne &lsquo;gemakken&rsquo; voorzien.</p>
+<p>Maar ja, hoe beweeg je de burger richting bezuiniging? Gesteld we hebben een pot geld voor de energietransitie, kunnen we die op verschillende manieren inzetten. Geef de consument een aanzienlijke financiële beloning voor fors lagere meterstanden en menigeen zal daarnaar handelen.</p>
+<p>Verder schijnt (althans in NL) in eerste instantie toch vooral in de industrie een forse capaciteitswinst te behalen te zijn, gezien dat (als ik het wel heb) het Planbureau voor de Leefomgeving heeft uitgerekend dat de kosten veel lager zijn om de Parijs-doelstellingen voor 2020 en 2030 te behalen via aanpassingen in de Industrie dan via maatregelen op niveau van Individuele Huishoudens. Ook die industrie zou vanuit die (fictieve) transitiepot beloond moeten kunnen worden.</p>
+<p>Nemen we het behalen van de doelstellingen echt heel serieus dan zouden overheden wellicht nog aanvullend met energierantsoenen moeten gaan werken. Beetje vergelijkbaar toch met het even of oneven nummerbord dat bijvoorbeeld in Parijs en Beijing mag rijden op dagen met smog. Zouden we die solidariteit op kunnen brengen op mistige, windstille winterdagen?</p>
+<p>Nu ja, zoals steeds met de energietransitie zal de oplossing uit meerdere elkaar aanvullende deelsoluties moeten bestaan, waarvan we er vermoedelijk niet veel buiten beschouwing zullen mogen laten.</p>
+<p>Misschien dan maar gelukkig ook dat tegelijk met het ontstaan van het moderne energievraagstuk ook de computertechnologie is ontstaan, die aan de benodigde ingewikkelde onderlinge afstemming van de verschillende technieken kan bijdragen, zowel in de planfase als tijdens de praktische uitvoering. Al zijn het natuurlijk wetenschappers die de parameters zullen moeten invoeren en politici en bestuurders die de benodigde maatregelen aan het grotendeels onwetende en vaak ook sceptische publiek uit zullen moeten leggen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jens</h5>
+	<p>In het artikel wordt gesteld dat de terugverdientijd voor zonnepanelen 2 a 4 jaar bedraagt.</p>
+<p>In een (gecontesteerde) Zwitserse studie werd recent gesteld dat in onze contreien zonnepanelen geen netto stroomopbrengst hebben over de volledige levenscyclus.</p>
+<p>Hierbij werd wel rekening gehouden met noodzakelijke opslagsystemen.</p>
+<p>Geldt de 2 tot 4 jaar terugverdientijd ook voor de volledige levenscyclus in onze contreien, maar dan zonder opslagsystemen?</p>
+
+</div>
+
+<div class="comment">
+	<h5>roland</h5>
+	<p>@Thijs Bollen,</p>
+<p>Hoe die adviezen bijsturen?</p>
+<p>Omzetting via waterstof kost nu 2 tot 3 keer meer energie. Zon- en windstroom is veel nuttiger direkt bruikbaar, zolang deze nog beperkt beschikbaar is.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Koen Develter</h5>
+	<p>Ik lees geen woord over biomassa om de gaten te vullen. Als we pellets verstoken in vele micro-WKK&rsquo;s, kunnen we dan niet veel stroomuitvallen vermijden? En ook over de totaal onderbenutte waterkracht in ons land lees ik niets. Watermolens zijn veel betrouwbaardere elektriciteitsleveranciers dan windmolen, toch?</p>
+
+</div>
+
+<div class="comment">
+	<h5>Koen Vandewalle</h5>
+	<p>Met de nieuwe Tesla Roadster, met een autonomie van 1000 kilometer, lijkt er toch wel weer een volgende stap in de batterijevolutie te zijn gezet.</p>
+<p>Toch wel een indrukwekkende energiedichtheid en vermogendichtheid.</p>
+<p>Het zou me niet verwonderen mochten ze AI ingezet hebben om naar nieuwe kristalstructuren en elektronendragende moleculen te zoeken die vlotjes in mekaar schuiven.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Willy Zon</h5>
+	<p>Ik voel me best verwant met de oplossing aangereikt door (5). Volgens H. Honnest: &ldquo;Eenvoudigst zou toch zijn om allereerst fors op energieverbruik te gaan bezuinigen. Het huishoudelijk verbruik kan al bijna gehalveerd worden zonder noemenswaard in comfort achteruit te gaan.</p>
+<p>Maar ja, hoe beweeg je de burger richting bezuiniging? Gesteld we hebben een pot geld voor de energietransitie, kunnen we die op verschillende manieren inzetten. Geef de consument een aanzienlijke financiële beloning voor fors lagere meterstanden en menigeen zal daarnaar handelen.&rdquo; Met de technofix loop ik niet zo hoog op.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Pieter</h5>
+	<p>Het is een én én én verhaal.</p>
+<p>En aanpaasen van de vraag aan het aanbod (bv auto&rsquo;s, pc&rsquo;, diepvries, wasmachine &hellip;</p>
+<p>Waterpompen drinkwater, zware industrie op momenten met overaanbod gebruiken&rsquo;s nachts opladen/gebruiken (optie één!!!)</p>
+<p>En overdimensioneren van hernieuwbare bronnen, met meer aandacht aan bv waterkracht, getijden, windturbines die ook bij windstil weer werken,&hellip;</p>
+<p>En een beter netwerk zowel voor overschotten op te slagen als om tekorten aan te vullen</p>
+<p>En meer opslagcapaciteit (waterkracht, drinkwaterreservoirs, batterijen (denk aan de vloeistof vloeistof batterij van MIT op basis van bv ijzer); eventueel een atol of betonnen stolp op zee, warmte stockeren ondergrond in zomer voor gebruik in winter,&hellip;</p>
+<p>En reservercapaciteit eventueel via biomassa van onbruikbare reststromen (voor zover deze echt bestaan)</p>
+<p>En omzetten excess via waterstof naar andere interessante chemische bouwstenen voor de chemie</p>
+<p>En eventueel water ontzilten met excess energie</p>
+<p>En energie besparen (optie 2)</p>
+<p>En meer recycleren</p>
+<p>En consuminderen?</p>
+<p>En meer lokaal?</p>
+<p>En om misschien niet naar 100% groene stroom te gaan?</p>
+<p>En &hellip;</p>
+<p>Denk gerust mee, bv op HackBelgium in April 2018.</p>
+<p>WWW.hackbelgium.be</p>
+<p>PS aanpassen van verbruik aan productie gebeurd nu ook zeer lokaal. Grote groene stroom producenten verkopen hun tijdelijke excess stroom (1-3c€/kwh) en kopen hun tijdelijke tekorten (15-25c€/kwh) op de markt en worden zo beloond om vraag en aanbod op elkaar af te stemmen (of om hun groene stroom te onderdimensioneren)</p>
+
+</div>
+
+<div class="comment">
+	<h5>Renaat</h5>
+	<p>h. honnest: &ldquo;Geef de consument een aanzienlijke financiële beloning voor fors lagere meterstanden en menigeen zal daarnaar handelen.&rdquo;</p>
+<p>En daar zit een belangrijke (en zeer problematische) energiebesparingsparadox. Als mensen geld besparen door energie te besparen (of een financiële beloning te krijgen) dan is de kans zeer groot dat dat geld wordt uitgegeven aan zaken die het energieverbruik weer opdrijven (extra op vakantie gaan, meer ruimtes in de woning permanent verwarmen, nog wat meer spullen kopen, &hellip;). Het totale plaatje is dan vaak niet positief.</p>
+<p>Dus zolang mensen hun gedrag enkel aanpassen omwille van financiële redenen gaan we het probleem van overmatig energieverbruik niet oplossen.</p>
+<p>Omdat de grote meerderheid van de mensen ook niet zomaar bereid zijn om hun gedrag aan te passen om niet financiële redenen zijn er nog maar enkele mogelijk (deel)oplossingen.</p>
+<p>Ofwel moet de technologie ons redden (een overaanbod aan duurzaam geproduceerd energie), maar ik heb geen reden om aan te nemen dat dat iets voor de komende decennia zal zijn. Ofwel moet de energieprijs sterk stijgen.</p>
+<p>In de praktijk is er geen reden om aan te nemen dat het tijdig en voldoende in de goede richting zal evolueren.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Patrick</h5>
+	<p>Het teveel aan windenergie zou op bepaalde momenten kunnen aangewend om water weg te pompen uit een “atol” in zee. Bij weinig wind kan men dan overschakelen op hydro-elektriciteit. Misschien duur, maar wel duurzaam!</p>
+
+</div>
+
+<div class="comment">
+	<h5>h.honnest</h5>
+	<p>@Renaat en @Koen Vandewalle</p>
+<p>Ik deel jullie mening over het gevaar van de energieparadox. Heb het zelf ook van nabij meegemaakt met een collega die zijn kinderen aanspoorde om zuiniger met elektriciteit om te gaan, door ze te beloven om met het hiermee uitgespaarde bedrag naar Disney World te reizen&hellip;</p>
+<p>Zoiets zal voor de hogere- en middenklassen inderdaad zeer verleidelijk zijn (want tja, wat moet je nou weer eens gaan doen van al dat geld?) Voor de mensen aan de onderkant, kan het evenwel het verschil zijn tussen voedselbank of zelf eten kopen en tussen wel of geen vervolgopleiding voor de kinderen.</p>
+<p>Eén vraag is kortom, of het op de lagere energierekening verdiende geld overall tot een lagere, gelijkblijvende of juist hogere energie-intensieve consumptie zal leiden.</p>
+<p>Een andere vraag is, hoe je mensen zonder financiële prikkels massaal kunt stimuleren tot energietechnisch consuminderen. Of beter gesteld, tot energie-extensief consumeren. Dus kwalitatief goed (dus duurder) eten; voedselproducten uit de eigen omgeving; massage door de plaatselijke masseur; vakantie in eigen omgeving; goede woningisolatie; aanschaf van mooie e-books; genieten van optredens van regionale theater- en orkestgroepen, etc.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Dominique</h5>
+	<p>Via een eenvoudig? voorbeeldje tracht ik te begrijpen wat er in bovenstaand artikel staat. Een windmolen wekt 100 kwh op 1 jaar tijd, daarmee wordt een batterij gemaakt. Die slaat dan energie op, zodanig dat er geen gebruik gemaakt wordt van 100 kwh maar van 200 kwh op 1 jaar tijd omdat die stroom beter verdeeld is. Je zou op die manier een tweede batterij kunnen maken of een windmolen, enz</p>
+<p>Mijn conclusie van dit voorbeeldje is dat je altijd een rendementswinst hebt met energieopslag. Tenzij natuurlijk dat de bouw en het onderhoud van die opslag en de hernieuwbare energie meer energie kost. Of spreekt men over centen? Is het niet economisch om energie op te slaan?</p>
+
+</div>
+
+<div class="comment">
+	<h5>mathias</h5>
+	<p>Zou een interessant experiment zijn: neem een gezinswoning en laat de energievoorziening fluctueren in functie van de beschikbare energie uit windmolens en zonnepanelen. Lijkt mij technisch niet zo moeilijk om dit te simuleren. De elektriciteit in de straat hoef je daarvoor niet aan te passen, een &lsquo;blackbox&rsquo; tussen de meter en de zekeringkast die in functie van het actuele aanbod groene energie die stroom in of uitschakelt lijkt mij wel te maken.</p>
+<p>Ik vermoed dat er door de bewoners op allerlei vlakken interessante oplossingen zullen bedacht worden (techniek, financieel, sociaal, mentaal,&hellip;) om hier mee om te gaan, een mens is creatief als het moet :)</p>
+<p>Zelfde experiment zou je ook kunnen doen met een bedrijf.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Thijs Bollen</h5>
+	<p>@Roland</p>
+<p>Dat is nuttige, maar verdrietig makende info&hellip; (Vooropgesteld: ik ben verre van naïef.)</p>
+<p>Maar wat is het gelijk? Als men tóch de waterstofkant opgaat (zie bijv. <a href="http://nelhydrogen.com/" target="_blank" >http://nelhydrogen.com/</a> voor de Nikola-truck), is het dan niet beter om adviezen te richten op het bijsturen dan op afkraken, hoe terecht misschien ook?</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Swart, R. J., et al. Europe&rsquo;s onshore and offshore wind energy potential, an assessment of environmental and economic constraints. No. 6/2009. European Environment Agency, 2009.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Lopez, Anthony, et al. US renewable energy technical potentials: a GIS-based analysis. NREL, 2012. See also Here&rsquo;s how much of the world would need to be covered in solar panels to power Earth, Business Insider, October 2015.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Hart, Elaine K., Eric D. Stoutenburg, and Mark Z. Jacobson. &ldquo;The potential of intermittent renewables to meet electric power demand: current methods and emerging analytical techniques.&rdquo; Proceedings of the IEEE 100.2 (2012): 322-334.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Ambec, Stefan, and Claude Crampes. Electricity production with intermittent sources of energy. No. 10.07. 313. LERNA, University of Toulouse, 2010.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Mulder, F. M. &ldquo;Implications of diurnal and seasonal variations in renewable energy generation for large scale energy storage.&rdquo; Journal of Renewable and Sustainable Energy 6.3 (2014): 033105.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>INITIATIVE, MIT ENERGY. &ldquo;Managing large-scale penetration of intermittent renewables.&rdquo; (2012).&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Richard Perez, Mathieu David, Thomas E. Hoff, Mohammad Jamaly, Sergey Kivalov, Jan Kleissl, Philippe Lauret and Marc Perez (2016), &ldquo;Spatial and temporal variability of solar energy&rdquo;, Foundations and Trends in Renewable Energy: Vol. 1: No. 1, pp 1-44. <a href="http://dx.doi.org/10.1561/2700000006" target="_blank" >http://dx.doi.org/10.1561/2700000006</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Sun Angle and Insolation. FTExploring.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Sun position calculator, Sun Earth Tools.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Burgess, Paul. &quot; Variation in light intensity at different latitudes and seasons effects of cloud cover, and the amounts of direct and diffused light.&quot; Forres, UK: Continuous Cover Forestry Group. Available online at http://www. ccfg. org. uk/conferences/downloads/P_Burgess. pdf. 2009.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Schaber, Katrin, Florian Steinke, and Thomas Hamacher. &ldquo;Transmission grid extensions for the integration of variable renewable energies in europe: who benefits where?.&rdquo; Energy Policy 43 (2012): 123-135.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>German offshore wind capacity factors, Energy Numbers, July 2017&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>What are the capacity factors of America&rsquo;s wind farms? Carbon Counter, 24 July 2015.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Jerez, S., et al. &ldquo;The Impact of the North Atlantic Oscillation on Renewable Energy Resources in Southwestern Europe.&rdquo; Journal of applied meteorology and climatology 52.10 (2013): 2204-2225.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Eerme, Kalju. &ldquo;Interannual and intraseasonal variations of the available solar radiation.&rdquo; Solar Radiation. InTech, 2012.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Archer, Cristina L., and Mark Z. Jacobson. &ldquo;Geographical and seasonal variability of the global practical wind resources.&rdquo; Applied Geography 45 (2013): 119-130.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Rugolo, Jason, and Michael J. Aziz. &ldquo;Electricity storage for intermittent renewable sources.&rdquo; Energy &amp; Environmental Science 5.5 (2012): 7151-7160.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Barnhart, Charles J., et al. &ldquo;The energetic implications of curtailing versus storing solar- and wind-generated electricity.&rdquo; Energy &amp; Environmental Science 6.10 (2013): 2804-2810.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Schaber, Katrin, et al. &ldquo;Parametric study of variable renewable energy integration in europe: advantages and costs of transmission grid extensions.&rdquo; Energy Policy 42 (2012): 498-508.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>Schaber, Katrin, Florian Steinke, and Thomas Hamacher. &ldquo;Managing temporary oversupply from renewables efficiently: electricity storage versus energy sector coupling in Germany.&rdquo; International Energy Workshop, Paris. 2013.&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p>Szarka, Joseph, et al., eds. Learning from wind power: governance, societal and policy perspectives on sustainable energy. Palgrave Macmillan, 2012.&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p>Rodriguez, Rolando A., et al. &ldquo;Transmission needs across a fully renewable european storage system.&rdquo; Renewable Energy 63 (2014): 467-476.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p>Becker, Sarah, et al. &ldquo;Transmission grid extensions during the build-up of a fully renewable pan-European electricity supply.&rdquo; Energy 64 (2014): 404-418.&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>Zero Carbon britain: Rethinking the Future, Paul Allen et al., Centre for Alternative Technology, 2013&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p>Heide, Dominik, et al. &ldquo;Seasonal optimal mix of wind and solar power in a future, highly renewable Europe.&rdquo; Renewable Energy 35.11 (2010): 2483-2489.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p>Rasmussen, Morten Grud, Gorm Bruun Andresen, and Martin Greiner. &ldquo;Storage and balancing synergies in a fully or highly renewable pan-european system.&rdquo; Energy Policy 51 (2012): 642-651.&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p>Weitemeyer, Stefan, et al. &ldquo;Integration of renewable energy sources in future power systems: the role of storage.&rdquo; Renewable Energy 75 (2015): 14-20.&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28">
+<p>Assessment of the European potential for pumped hydropower energy storage, Marcos Gimeno-Gutiérrez et al., European Commission, 2013&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29">
+<p>De berekening is gebaseerd op de data uit het volgende artikel: Batterijen maken van zonne-energie een CO2-intensieve energiebron. Kris De Decker, Lowtech Magazine, 2015.&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30">
+<p>Evans, Annette, Vladimir Strezov, and Tim J. Evans. &ldquo;Assessment of utility energy storage options for increased renewable energy penetration.&rdquo; Renewable and Sustainable Energy Reviews 16.6 (2012): 4141-4147.&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31">
+<p>Zakeri, Behnam, and Sanna Syri. &ldquo;Electrical energy storage systems: A comparative life cycle cost analysis.&rdquo; Renewable and Sustainable Energy Reviews 42 (2015): 569-596.&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32">
+<p>Steinke, Florian, Philipp Wolfrum, and Clemens Hoffmann. &ldquo;Grid vs. storage in a 100% renewable Europe.&rdquo; Renewable Energy 50 (2013): 826-832.&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33">
+<p>Heide, Dominik, et al. &ldquo;Reduced storage and balancing needs in a fully renewable European power system with excess wind and solar power generation.&rdquo; Renewable Energy 36.9 (2011): 2515-2523.&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/renewable-energy/" class="">Renewable Energy</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/wind-power/" class="">Wind power</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/solar-power/" class="">Solar Power</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/energy-storage/" class="">Energy Storage</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/power-transmission/" class="">power transmission</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://mar-ver.github.io/nl/2020/11/lowtech-magazine-is-verhuisd/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2020/11/lowtech-magazine-is-verhuisd/images/dithers/system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine is verhuisd</h3>
+		<p class="index-summary">Dit is de nieuwe website van Lowtech Magazine. De &ldquo;oude&rdquo; website &ndash; <a href="https://www.lowtechmagazine.be" target="_blank" >www.lowtechmagazine.be</a> &ndash; blijft als archief bestaan maar wordt niet langer geactualiseerd.</p>
+		<time class="published">13 november 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://mar-ver.github.io/nl/2019/06/how-to-make-wind-power-sustainable-again/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Kunnen we windturbines opnieuw uit hout bouwen?</h3>
+		<p class="index-summary">De windturbine kan een schoolvoorbeeld worden van de circulaire economie.</p>
+		<time class="published">2 juni 2019</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/nl/2023/08/direct-solar-power-off-grid-without-batteries/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Directe zonnestroom: off-grid zonder batterijen</h3>
+		<p class="index-summary">Het gebruik van zonnepanelen zonder backup infrastructuur maakt hernieuwbare energieproductie veel betaalbaarder, efficiënter en duurzamer.</p>
+		<time class="published">25 augustus 2023</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/nl/2023/08/video-series-demonstration-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2023/08/video-series-demonstration-bike-generator/images/dithers/elektrische-gitaar-fietsgenerator_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Videoreeks: demonstratie van een fietsgenerator</h3>
+		<p class="index-summary">We maakten een reeks korte video’s die de mogelijkheden van menselijke elektriciteitsproductie demonstreren.</p>
+		<time class="published">24 augustus 2023</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://mar-ver.github.io/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://mar-ver.github.io/nl/about">
+  Over ons
+</a>
+    <a href="https://mar-ver.github.io/nl/power">
+  Power
+</a>
+    <a href="https://mar-ver.github.io/nl/about/team">
+  Colophon
+</a>
+    <a href="https://mar-ver.github.io/nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://mar-ver.github.io/js/script.js"></script>
+</body>
+</html>

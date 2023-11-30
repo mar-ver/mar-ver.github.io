@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cómo Hacer Funcionar la Economía con el Clima | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://mar-ver.github.io/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://mar-ver.github.io/css/style.css"><meta property="og:title" content="Cómo Hacer Funcionar la Economía con el Clima" />
+<meta name="twitter:title" content="Cómo Hacer Funcionar la Economía con el Clima"/>
+
+<meta property="og:description" content="Ajustar la demanda de energía a la oferta haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy." />
+
+<meta name="twitter:description" content="Ajustar la demanda de energía a la oferta haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" />
+<meta property="og:image:secure_url" content="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-09-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-06-13T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy storage" />
+<meta property="article:tag" content="Renewable energy" />
+<meta property="article:tag" content="solar power" />
+<meta property="article:tag" content="wind power" />
+<meta property="article:tag" content="power transmission" />
+<meta property="article:tag" content="history" />
+
+</head>
+<body id="c%C3%B3mo-hacer-funcionar-la-econom%C3%ADa-con-el-clima">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://mar-ver.github.io/es/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://mar-ver.github.io/es/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://mar-ver.github.io/es/power">Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/about/ " data-nav="about" >
+                <span>Acerca de</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Soluciones de Baja Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemas de Alta Tecnología</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Tecnologías Obsoletas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/offline-reading/ " data-nav="offline-reading" >
+                <span>Lectura fuera de línea</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/archives/ " data-nav="archive" >
+                <span>Archivo</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/es/donate/ " data-nav="donate" >
+                <span>Donaciones</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Cómo Hacer Funcionar la Economía con el Clima</h1>
+
+				<p class="summary">
+					Ajustar la demanda de energía a la oferta haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">21 de septiembre de 2017</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Escrito por</span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/es/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traducido por</span>
+						
+							<span class="author"><a href="https://mar-ver.github.io/es/translators/aliana-bertolo/">Aliana Bertolo</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traducciones</span>
+						
+							<a href="https://mar-ver.github.io/2017/09/how-to-run-the-economy-on-the-weather/">en</a>
+						
+							<a href="https://mar-ver.github.io/fr/2017/09/how-to-run-the-economy-on-the-weather/">fr</a>
+						
+							<a href="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/">nl</a>
+						
+							<a href="https://mar-ver.github.io/pl/2017/09/how-to-run-the-economy-on-the-weather/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" alt='' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/stoneferry-detail_hubf026aaef7c1abb07c7841cd273ab4ab_748408_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Antes de la Revolución Industrial, las personas ajustaban su demanda de energía en base a la oferta de la misma, la cual era variable. Nuestro sistema de transporte y comercio global, que dependía de barcos de vela, operaban solo cuando el viento soplaba, así como los molinos que proporcionaban nuestro alimento y energizaban muchos procesos de manufactura.</p>
+<p>El mismo enfoque podría ser muy útil hoy en día, especialmente cuando es mejorado con tecnología moderna. En particular, las fábricas y el transporte de carga, como barcos e incluso trenes, podrían solo operarse cuando haya energía renovable disponible. Ajustar la demanda de energía a la oferta haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy.</p>
+<h2 id="energía-renovable-en-tiempos-preindustriales">Energía renovable en tiempos preindustriales</h2>
+<p>Antes de la Revolución Industrial, tanto la industria como el transporte dependían en gran medida de fuentes de energía renovable intermitentes. Los molinos de agua, los molinos de viento y los veleros han estado en uso desde la Antigüedad, pero los europeos llevaron estas tecnologías a su pleno desarrollo a partir del siglo XV en adelante.</p>
+<p>En su apogeo, justo antes del despegue de la Revolución Industrial, habían en Europa aproximadamente <a href="https://mar-ver.github.io/es/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/" >200,000 molinos accionados por el viento y 500,000 molinos accionados por el agua</a>. Inicialmente, los molinos de agua y los molinos de viento se usaban principalmente para moler grano, una tarea laboriosa que se había hecho a mano durante muchos siglos, primero con la ayuda de piedras y luego con un molino de mano giratorio.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png" alt='“Een zomers landschap” (“Un paisaje de verano”), pintura de Jan van Os.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/summer-landscape_hu2eb53b2ffb1ace07747fd97179959bee_192827_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>“Een zomers landschap” (“Un paisaje de verano”), pintura de Jan van Os.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Pronto los molinos accionados por agua y viento se adaptaron a procesos industriales destinados a aserrar madera, pulir vidrio, fabricar papel, taladrar tuberías, cortar mármol, cortar metal, afilar cuchillos, triturar tiza, moler mortero, fabricar pólvora, acuñar monedas, etc. . <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Los molinos de viento y agua también procesaron una gran cantidad de productos agrícolas: presionando aceitunas, descascarando cebada y arroz, moliendo especias y tabaco, y triturando linaza, colza y semillas de cáñamo para cocinar e iluminar.</p>
+<blockquote>
+<p>Aunque el comercio internacional dependía de Fuentes intermitentes de viento, este fue crucial para muchas economías europeas antes de la Revolución Industrial.</p>
+</blockquote>
+<p>Los llamados “molinos industriales de agua” se habían utilizado en la Antigüedad y fueron ampliamente adoptados en Europa en el siglo XV, pero los “molinos industriales de viento” aparecieron solo en los 1600 en los Países Bajos, un país que llevó la energía eólica al extremo. Los holandeses incluso aplicaron la energía eólica para recuperar tierras del mar, y todo el país se mantuvo seco mediante molinos de viento de funcionamiento intermitente hasta 1850. <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/river-landscape_dithered.png" alt='Abraham Storck: Paisaje de un río con Pescadores en botes de remo, 1679.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/river-landscape_hufe1e12ff88bbe17c2b3a1c1f4c2ef6f1_224540_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/river-landscape_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Abraham Storck: Paisaje de un río con Pescadores en botes de remo, 1679.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>El uso de la energía eólica para el transporte usando veleros, también prosperó desde el año 1500 en adelante, cuando los europeos “descubrieron” nuevas tierras. El transporte eólico apoyó un sistema de comercio internacional robusto, diverso y en constante expansión, tanto en productos a granel (como grano, vino, madera, metales, cerámica y pescado conservado), artículos de lujo (como metales preciosos, pieles, especias, marfil, sedas y medicinas) y esclavos humanos. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Aunque dependía de fuentes eólicas intermitentes, el comercio internacional fue crucial para muchas economías europeas. Por ejemplo, la industria de construcción naval holandesa, que se apoyaba en aproximadamente unas 450 serrerías eólicas, importó prácticamente todos sus víveres navales del Báltico: madera, alquitrán, hierro, cáñamo y lino. Incluso el suministro de alimentos podía depender del transporte impulsado por el viento. Hacia finales del siglo XVI, los holandeses importaron dos mil cargamentos de grano por año desde Gdansk. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Los veleros también fueron importantes para la pesca.</p>
+<h2 id="tratando-con-la-intermitencia-en-tiempos-pre-industriales">Tratando con la intermitencia en tiempos Pre-industriales</h2>
+<p>Aunque las fuentes de energía renovables variables fueron críticas para la sociedad europea durante los 500 años antes de que los combustibles fósiles tomaran el control, no habían ni baterías químicas, ni líneas de transmisión eléctrica ni capacidad de equilibrio de las centrales eléctricas de combustibles fósiles para manejar la energía variable del viento y el poder del agua. Entonces, ¿cómo lidiaron nuestros antepasados con la <a href="https://mar-ver.github.io/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" >gran variabilidad de las fuentes de energía renovables</a>?</p>
+<p>Hasta cierto punto, contaban con soluciones tecnológicas para igualar la oferta de energía a la demanda de energía, tal como lo hacemos hoy. El nivel del agua en un río depende del clima y las estaciones. Los <a href="https://mar-ver.github.io/2010/11/boat-mills-water-powered-floating-factories/" >molinos flotantes y molinos situados en puentes</a> se encontraban entre las primeras soluciones tecnológicas para este problema. Subiendo y bajando junto con el nivel del agua, les permitía mantener un régimen operativo más predecible. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<blockquote>
+<p>Hasta cierto punto, nuestros antepasados contaban con soluciones tecnológicas para igualar la oferta de energía a la demanda, tal como lo hacemos hoy.</p>
+</blockquote>
+<p>Sin embargo, la potencia hidráulica podría almacenarse para un uso posterior. Comenzando en la Edad Media, se construyeron presas, o azudes, para crear estanques, una forma de almacenamiento de energía similar a los depósitos de energía hidroeléctrica de hoy en día. Los depósitos de almacenamiento igualaron el flujo de arroyos y ríos y aseguraron que el agua estuviera disponible cuando fuese necesario. <sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png" alt='Molino movido por caballos, una pintura de James Herring. Ca. 1850.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/horse-mill_hu93e210054364dcef733618138e69802e_1014000_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Molino movido por caballos, una pintura de James Herring. Ca. 1850.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Pero los ríos aún podrían secarse o congelarse durante períodos prolongados, haciendo inútiles las represas y las ruedas hidráulicas ajustables. Además, no habían soluciones disponibles de este tipo para los molinos de viento. <sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>Una solución tecnológica para la intermitencia del agua y la energía eólica era el “molino de tracción a sangre” o “molino de caballos”. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> En contraste con la energía eólica y hidráulica, se puede contar con caballos, burros o bueyes para suministrar energía cuando sea necesario. Sin embargo, los molinos de bestias eran caros e ineficientes energéticamente: alimentar a un caballo requería un área de tierra capaz de alimentar a ocho humanos. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> En consecuencia, el uso de la potencia animal en procesos de fabricación a gran escala era raro. Los molinos de tracción a sangre se usaban principalmente para la molienda de granos o como fuente de energía en talleres pequeños, utilizando animales de tiro. <sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Obviamente, los molinos de tracción a sangre tampoco eran una fuente de energía de respaldo viable para barcos de vela. En principio, los veleros podrían usar la energía humana cuando el viento no estuviera disponible. Sin embargo, una cuadrilla de remo suficientemente grande necesitaba agua y alimentos adicionales, lo que habría limitado el alcance del buque o su capacidad de carga. Por lo tanto, el remo estaba restringido principalmente a barcos de guerra y botes más pequeños.</p>
+<h2 id="ajustando-la-demanda-a-la-oferta-fábricas">Ajustando la demanda a la oferta: Fábricas</h2>
+<p>Debido a las limitadas opciones tecnológicas que nuestros antepasados tenían para hacer frente a la variabilidad de las fuentes de energía renovables, recurrieron principalmente a una estrategia que hemos olvidado en gran medida: adaptaron su demanda de energía a la oferta variable de energía. En otras palabras, aceptaron que la energía renovable no siempre estaba disponible y actuaron en consecuencia. Por ejemplo, los molinos de viento y los veleros simplemente no se operaban cuando no había viento.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png" alt='Pintura: Molinos en Westzijderveld, cerca de Zaandam, una pintura de Claude Monet.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/windmills-monet_hubf3b79a39d408ccfc61cad01eff06e79_825356_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Pintura: <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_Mills_in_the_Westzijderveld_near_Zaandam.jpg" target="_blank" >Molinos en Westzijderveld, cerca de Zaandam</a>, una pintura de Claude Monet.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En los molinos de viento industriales, se trabajaba cada vez que soplaba el viento, incluso si eso significaba que el molinero tenía que trabajar día y noche, tomando cortas siestas. Por ejemplo, un documento revela que en el Union Mill en Cranbrook, Inglaterra, el molinero solo durmió tres horas durante un período ventoso que duró 60 horas. <sup id="fnref3:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Un libro de 1957 sobre molinos de viento, en parte basado en entrevistas con los últimos molineros supervivientes, revela la urgencia de usar el viento cuando estaba disponible:</p>
+<p>A menudo, cuando soplaba el viento en otoño, el molinero trabajaba desde el domingo a la medianoche hasta el martes por la noche, desde el miércoles por la mañana hasta el jueves por la noche, y desde el viernes por la mañana hasta el sábado a medianoche, tomando solo algunos momentos de sueño; y un buen molinero siempre se despertaba cuando el viento soplaba, levantándose en la mitad de la noche para poner en marcha el molino, porque el viento era su capataz y debía aprovecharse cada vez que soplaba. Muchas veces, a un pueblo le ha faltado el pan de trigo porque el molino local estaba en un distrito sin agua antes de la invención de la máquina de vapor; y el pan de harina de cebada o incluso el pan de patata tenían que ser suficientes en la crisis de un otoño sin viento. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<p>En el pasado, tiempos más conservadores, un molinero era castigado por trabajar el domingo, pero a este no siempre le importó. Cuando se realizó una protesta contra el trabajo dominical del Sr. Wade del molino de Wicklewood, Norfolk, él replicó: “Si el Señor es lo suficientemente bueno como para enviarme viento un domingo, lo voy a usar”. <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> Por otro lado, cuando no había viento, los molineros hacían otros trabajos, como mantener su maquinaria, o tomarse un tiempo libre. Noah Edwards, el último molinero de la torre de molinos Arkley en Hertfordshire, se “sentaría en el escenario de una buena tarde y tocaría el violín”. <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<h2 id="ajustando-la-demana-a-la-oferta-barcos-de-vela">Ajustando la demana a la oferta: Barcos de vela</h2>
+<p>Un enfoque similar existía para los viajes en altamar, utilizando veleros. Cuando no había viento, los marineros se quedaban en tierra, mantenían y reparaban sus barcos, o hacían otras cosas. Planeaban sus viajes según las estaciones, haciendo uso de vientos y corrientes estacionales favorables. Los vientos en el mar no solo son mucho más fuertes que los terrestres, sino también más predecibles.</p>
+<blockquote>
+<p>Los marineros planeaban sus viajes según las estaciones del año, haciendo uso de los vientos y corrientes más favorables.</p>
+</blockquote>
+<p>La atmósfera baja del planeta, la tropósfera, está rodeada por seis cinturones de viento principales, tres en cada hemisferio. Desde el ecuador hasta los polos, estos “vientos dominantes” son los vientos alisios, los vientos del oeste y los vientos del este. Los seis cinturones de viento se mueven hacia el norte durante el verano en el hemisferio norte y hacia el sur durante el invierno boreal. Cinco grandes corrientes marinas están correlacionados con los flujos de viento dominantes.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/maas-at-dordrecht_dithered.png" alt='El Mass en Dordrecht, pintura de Aelbert Cuyp, 1660.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/maas-at-dordrecht_hu6cf3e61f8b33c55ffd6a06d1c9657e2b_72279_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/maas-at-dordrecht_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>El Mass en Dordrecht, pintura de Aelbert Cuyp, 1660.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Poco a poco, los navegantes europeos descifraron el patrón global de los vientos y las corrientes y aprovecharon esta información para establecer nuevas rutas marítimas en todo el mundo. Para el año 1500, Cristóbal Colón había descubierto que la combinación de vientos alisios y vientos del oeste permitía una ruta de ida y vuelta para los veleros cruzando el océano Atlántico.</p>
+<p>Los vientos alisios alcanzan su latitud más septentrional en/o después del final del verano septentrional, poniéndolos al alcance de España y Portugal. Estos vientos alisios de verano facilitaron la navegación desde el sur de Europa hasta el Caribe y América del Sur, porque el viento soplaba en esa dirección a lo largo de la ruta.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png" alt='Mapa de vientos del Atlántico, 9 de Septiembre del 2017. Fuente: Windy' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/wind-map-of-the-atlantic_hue19c91df38f6e896a36b5a51551dded8_440549_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Mapa de vientos del Atlántico, 9 de Septiembre del 2017. Fuente: <a href="https://www.windy.com" target="_blank" >Windy</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Tomar la misma ruta de regreso sería casi imposible. Sin embargo, los marineros ibéricos primero navegaron hacia el norte para atrapar los vientos del oeste, que alcanzan su ubicación más al sur en/o después del final del invierno, y estos llevaron a los marineros directamente al sur de Europa. En la década de 1560, el explorador vasco Andrés de Urdaneta descubrió una ruta de ida y vuelta similar en el Océano Pacífico. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
+<blockquote>
+<p>El uso de vientos favorables hizo que los tiempos de viaje de los veleros fueran relativamente fidedignos. El cruce del océano Atlántico mas rápido fue de 21 días, el más lento de 29 días.</p>
+</blockquote>
+<p>El uso de vientos favorables hizo que los tiempos de viaje de los veleros fueran relativamente predecibles. <em>Ocean Passages for the World</em> menciona que los tiempos típicos de Nueva York al Canal de la Mancha para un velero de mediados del siglo XIX a principios del siglo XX fue de 25 a 30 días. De 1818 a 1832, el cruce más rápido fue de 21 días, el más lento de 29 días. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup></p>
+<p>El viaje del Canal de la Mancha a Nueva York tomaba 35-40 días en invierno y 40-50 días en verano. Para Ciudad del Cabo, Melbourne y Calcuta tomaba 50-60 días, 80-90 días y 100-120 días, respectivamente. <sup id="fnref1:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> Estos tiempos de viaje son el doble o el triple de los de los portacontenedores actuales, <a href="https://mar-ver.github.io/2009/04/cargo-ships-then-and-now/" >que varían su velocidad en función de los precios del petróleo y la demanda económica</a>.</p>
+<h2 id="viejo-enfoque-nueva-tecnología">Viejo Enfoque, Nueva Tecnología</h2>
+<p>Como estrategia para tratar con fuentes de energía variables, ajustar la demanda de energía a la oferta de energía renovable es hoy una solución tan valiosa como lo era en tiempos preindustriales. Sin embargo, esto no significa que tengamos que volver a los medios preindustriales. Tenemos una mejor tecnología disponible, lo que hace que sea mucho más fácil sincronizar las demandas económicas con los caprichos del clima.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/shipping-in-a-calm_dithered.png" alt='Navegando en la calma, pintura de Charles Brooking, primera mitad del siglo XVIII.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/shipping-in-a-calm_hu68000c3c30ffde4d6426312f7c59496b_100163_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/shipping-in-a-calm_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Navegando en la calma, pintura de Charles Brooking, primera mitad del siglo XVIII.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En los párrafos siguientes, investigo más detalladamente cómo la industria y el transporte podrían operar solo con fuentes de energía variable, y demostrar cómo las nuevas tecnologías abren nuevas posibilidades. Luego concluyo analizando los efectos sobre los consumidores, los trabajadores y el crecimiento económico.</p>
+<h2 id="manufactura-industrial">Manufactura Industrial</h2>
+<p>A escala mundial, la manufactura industrial representa casi la mitad de todo el consumo energético. Muchos procesos mecánicos que fueron manejados por molinos de viento siguen siendo importantes hoy en día, como serrar, cortar, perforar, triturar, martillar, afilar, pulir, fresar, tornear, etc. Todos estos procesos de producción se pueden ejecutar con una fuente de energía intermitente.</p>
+<p>Lo mismo ocurre con los procesos de producción de alimentos (trituración o descascarado de granos, prensado de aceitunas y semillas), minería y excavación (recolección y paleo, trituración de rocas y minerales) o producción textil (relleno de tela, preparación de fibras, tejido y tejido). En todos estos ejemplos, la entrada de energía intermitente no afecta la calidad del proceso de producción, solo la velocidad de producción.</p>
+<blockquote>
+<p>Muchos procesos industriales no se ven fuertemente afectados debido al suministro de energía de forma intermitente.</p>
+</blockquote>
+<p>Ejecutar estos procesos con fuentes de energía variables se ha vuelto mucho más fácil de lo que era en épocas anteriores. Las plantas de energía eólica están ahora completamente automatizadas, mientras que el molino de viento tradicional requiere atención constante. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png" alt='Imagen: “Travailler au moulin / Werken met molens/ Trabajando con molinos”, Jean Bruggeman, 1996.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/how-to-rig-a-windmill-sail_hud321f5283d07ad6028c5c20ce0e00a1f_259638_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen: “Travailler au moulin / Werken met molens/ Trabajando con molinos”, Jean Bruggeman, 1996.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Sin embargo, no solo las turbinas eólicas (y las turbinas hidráulicas) son más prácticas y poderosas que en épocas anteriores, ahora podemos utilizar la energía solar para producir energía mecánica. Esto se hace generalmente con paneles solares fotovoltaicos, que convierten la luz solar en electricidad para hacer funcionar un motor eléctrico.</p>
+<p>En consecuencia, una fábrica que requiere energía mecánica puede funcionar con una combinación de energía eólica y solar, lo que aumenta las posibilidades de que haya suficiente energía para hacer funcionar su maquinaria. La capacidad de recolectar energía solar es importante porque es la fuente de energía renovable más ampliamente disponible. La mayor parte de la capacidad energética del agua ya está siendo utilizada. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<h2 id="energía-térmica">Energía Térmica</h2>
+<p>Otra diferencia crucial con los tiempos preindustriales es que podemos aplicar la misma estrategia a los procesos industriales básicos que requieren energía térmica en lugar de energía mecánica. El calor domina el uso de energía industrial, por ejemplo, en la fabricación de productos químicos o microchips, o en la fundición de metales.</p>
+<p>En tiempos preindustriales, los procesos de fabricación que requerían energía térmica se alimentaban de la quema de biomasa, turba y/o carbón. El uso de estas fuentes de energía causó graves problemas, como <a href="https://mar-ver.github.io/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/" >la deforestación a gran escala, la pérdida de tierras y la contaminación del aire</a>. Aunque la energía solar se usó en épocas anteriores, por ejemplo, para evaporar sal a lo largo de las costas, para secar cultivos para su conservación o para secar el barro en ladrillos de arcilla, su uso se limitó a procesos que requerían temperaturas relativamente bajas.</p>
+<blockquote>
+<p>Podemos aplicar la misma estrategia a los procesos industriales básicos que requieren energía térmica en lugar de energía mecánica, lo cuál no era posible antes de la Revolución Industrial.</p>
+</blockquote>
+<p>En la actualidad, las energías renovables distintas de la biomasa pueden ser utilizadas para producir energía térmica de dos maneras. En primer lugar, podemos usar turbinas eólicas, turbinas hidráulicas o paneles solares fotovoltaicos para producir electricidad, que luego puede usarse para producir calor mediante resistencia eléctrica. Esto no era posible en la época preindustrial, porque no había electricidad.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png" alt='Imprenta accionada mediante energía solar de Augustin Mouchot,1882.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/solar-powered-printing-press_hu86e9fcc4964a109dbdeb4917fafc281f_868253_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imprenta accionada mediante energía solar de Augustin Mouchot,1882.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En segundo lugar, podemos aplicar directamente el calor solar, utilizando colectores de placas planas a base de agua o colectores de tubos de vacío, que recogen la radiación solar desde todas las direcciones y pueden alcanzar temperaturas de 120 grados centígrados. También tenemos colectores de concentrador solar, que rastrean el sol, concentran su radiación y pueden generar temperaturas lo <a href="https://mar-ver.github.io/es/2011/07/the-bright-future-of-solar-thermal-powered-factories/" >suficientemente altas como para fundir metales o producir microchips y células solares</a>. Estas tecnologías solares solo estuvieron disponibles a finales del siglo XIX, siguiendo los avances en la fabricación de vidrio y espejos.</p>
+<h2 id="almacenamiento-de-energía-limitada">Almacenamiento de Energía Limitada</h2>
+<p>La ejecución de procesos en fábricas utilizando fuentes de energía variables no excluye aprovechar del almacenamiento de energía o plantas de energía de respaldo para el despacho de la misma. Ajustar la demanda a la oferta debe tener prioridad, pero <a href="https://mar-ver.github.io/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" >otras estrategias</a> pueden ser un apoyo. En primer lugar, el almacenamiento de energía o la capacidad de generación de energía de respaldo podrían ser útiles para procesos de producción críticos que no pueden detenerse durante períodos prolongados, como la producción de alimentos.</p>
+<p>En segundo lugar, el almacenamiento de energía a corto plazo también es útil para ejecutar procesos de producción que están en desventaja debido a un suministro de energía intermitente. <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> En tercer lugar, el almacenamiento de energía a corto plazo es crucial para los procesos de fabricación controlados por computadora, permitiendo que sigan funcionando durante breves interrupciones en la fuente de alimentación y que las computadoras se apaguen de forma segura en caso de cortes de energía más prolongados. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/binnenshaven-rotterdam_dithered.png" alt='Binnenshaven Rotterdam, una pintura de Jongkind Johan Berthold (1857)' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/binnenshaven-rotterdam_hu63b07e5b84ea6b82979f4fc7b8a2d256_136839_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/binnenshaven-rotterdam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Binnenshaven Rotterdam, una pintura de Jongkind Johan Berthold (1857)</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>En comparación con los tiempos preindustriales, ahora tenemos más y mejores opciones de almacenamiento de energía disponibles. Por ejemplo, podemos usar biomasa como fuente de energía de respaldo para la producción de energía mecánica, algo que los molineros preindustriales no podían hacer: antes de la llegada de la máquina de vapor, no había forma de convertir la biomasa en energía mecánica.</p>
+<blockquote>
+<p>Antes de la llegada de la máquina de vapor, no había forma de convertir la biomasa en energía mecánica.</p>
+</blockquote>
+<p>También contamos con baterías químicas, y sistemas de baja tecnología como volantes de motor (flywheels), almacenamiento de aire comprimido, acumuladores hidráulicos y plantas de almacenamiento por bombeo. La energía térmica puede almacenarse en depósitos de agua bien aislados (hasta 100 grados) o en sal, aceite o cerámica (para temperaturas mucho más altas). Todas estas soluciones de almacenamiento fracasarían por alguna razón u otra si se les encomendara almacenar una gran producción de energía renovable. Sin embargo, pueden ser muy útiles a menor escala para apoyar el ajuste de la demanda de energía.</p>
+<h2 id="la-nueva-era-de-la-vela">La nueva era de la vela</h2>
+<p>El transporte de carga es otro candidato para el uso de energía renovable cuando está disponible. Los barcos todavía transportan alrededor del 90 por ciento del comercio mundial, y aunque es la forma de transporte más eficiente en términos de energía por tonelada-kilómetro, el uso total de energía es alto y los buques que funcionan con petróleo son extremadamente contaminantes.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/arne-list_dithered.png" alt='Imagen de Arne List [CC BY-SA 2.0], via Wikimedia Commons' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/arne-list_hubf7e8eb90c953becb79902aaacbb55ad_471620_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/arne-list_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Imagen de Arne List [CC BY-SA 2.0], via Wikimedia Commons</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Una idea común de alta tecnología es instalar turbinas eólicas costa afuera, convertir la electricidad que generan en hidrógeno y luego usar ese hidrógeno para alimentar los buques de navegación marítima. Sin embargo, es mucho más práctico y eficiente energéticamente utilizar el viento para alimentar las naves directamente, como lo hemos hecho durante miles de años. Además, los buques de carga propulsados por petróleo suelen flotar inactivos durante días o incluso semanas antes de que puedan entrar y/o abandonar un puerto, lo que hace que la relativa imprevisibilidad de los veleros sea menos problemática.</p>
+<blockquote>
+<p>Es mucho mas práctico y eficiente energéticamente usar el viento para alimentar barcos directamente.</p>
+</blockquote>
+<p>Al igual que con la fabricación industrial, en la actualidad la tecnología ha avanzado y hay conocimiento disponible para basar una industria naviera mundial únicamente en la energía eólica. Tenemos nuevos materiales para construir barcos y velas, mejores y más duraderos, contamos con instrumentos de navegación y comunicación más precisos, tenemos previsiones meteorológicas más predecibles, podemos utilizar paneles solares como energía de respaldo del motor, y tenemos un conocimiento más detallado sobre vientos y corrientes.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png" alt='Thomas W. Lawson era una Goleta de 7 mástiles y casco de acero construida en 1902 para el comercio del Pacífico. Tenía una tripulación de 18.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/seven-masted-schooner_huccc486b184c122aaa3612026ceaa31b0_865617_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Thomas W. Lawson era una Goleta de 7 mástiles y casco de acero construida en 1902 para el comercio del Pacífico. Tenía una tripulación de 18.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>De hecho, los patrones mundiales de viento y corrientes solo se entendieron completamente cuando la era de la navegación a vela casi había terminado. Entre 1842 y 1861, el navegante estadounidense Matthew Fontaine Maury recolectó una amplia gama de registros de embarcaciones que le permitieron registrar los vientos dominantes y las corrientes marinas, así como sus variaciones estacionales. <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup></p>
+<p>El trabajo de Maury permitió a los marineros acortar considerablemente el tiempo de navegación, simplemente mediante el mejor aprovechamiento de los vientos dominantes y las corrientes marinas. Por ejemplo, un viaje de Nueva York a Río de Janeiro se redujo de 55 a 23 días, mientras que la duración de un viaje de Melbourne a Liverpool se redujo a la mitad, de 126 a 63 días. <sup id="fnref1:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup></p>
+<p>Más recientemente, las carreras de yates han generado muchas innovaciones que nunca se han aplicado al envío comercial. Por ejemplo, en la Copa Americana del 2017, el equipo Emirates New Zealand introdujo bicicletas fijas en lugar de manivelas para alimentar el sistema hidráulico que dirige el barco. Debido a que nuestras piernas son más fuertes que nuestros brazos, el uso de pedal permite un viraje y giro más rápidos en una carrera, pero también podría ser útil para reducir los recursos humanos requeridos para veleros comerciales. <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png" alt='' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/fast-sailing_hua5e31c98d66f8b1ec23ae486678971a6_892856_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los registros de velocidad de navegación también son reveladores. El velero más rápido en 1972 ni siquiera llegó a 50 km/h, mientras que el actual poseedor del récord – el Vestas Sailrocket 2 – navegó a 121 km/h en 2012. Si bien este tipo de barcos no son prácticos para transportar carga, podrían inspirar otros diseños que lo fuesen.</p>
+<h2 id="trenes-accionados-por-energía-eólica-y-solar">Trenes accionados por energía eólica y solar</h2>
+<p>Podríamos seguir un enfoque similar para el transporte terrestre, con el uso de trenes propulsados por energía eólica y solar. Al igual que los barcos de vela, los trenes podrían funcionar siempre que haya energía renovable disponible. Por supuesto esto no significaría poner velas en los trenes, sino accionarlos con electricidad producida por paneles solares fotovoltaicos o turbinas eólicas a lo largo de las vías. Esta sería una aplicación completamente nueva de una estrategia centenaria para tratar con fuentes de energía variables, solo posible gracias a la invención de la electricidad.</p>
+<blockquote>
+<p>Trenes accionados por energía eólica y solar podrían ser la aplicación completamente nueva de una estrategia centenaria para tratar con fuentes de energía variables.</p>
+</blockquote>
+<p>Accionar trenes de carga con energía renovable es un gran uso de la energía eólica intermitente, ya que generalmente se operan de noche, cuando la energía eólica a menudo es óptima y la demanda de energía es la más baja. Además, al igual que los buques de carga, los trenes de carga tienen horarios poco confiables porque a menudo permanecen estacionarios en los varaderos durante días, esperando cargarse por completo.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png" alt='Cardiff Docks, una pintura de Lionel Walden, 1894' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/cardiff-docks_hua1afb84685f3ea52fb05564157c42a3d_210807_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Cardiff Docks, una pintura de Lionel Walden, 1894</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Incluso la velocidad de los trenes podría regularse dependiendo de la cantidad de energía renovable que esté disponible, al igual que la velocidad del viento determina la velocidad de un velero. Un enfoque similar también podría funcionar con otros sistemas de transporte eléctrico, como <a href="https://mar-ver.github.io/2009/07/get-wired-again-trolleybuses-and-trolleytrucks/" >trolebús</a>, <a href="https://mar-ver.github.io/2009/12/trolley-canal-boats/" >trolebotes</a> o <a href="https://mar-ver.github.io/2011/01/aerial-ropeways-automatic-cargo-transport-for-a-bargain/" >teleféricos aéreos</a>.</p>
+<p>La combinación de trenes de carga y fábricas accionadas por energía solar y eólica crea posibilidades adicionales. Por ejemplo, a primera vista, los trenes de pasajeros impulsados por energía solar o eólica parecen ser imposibles, porque las personas son menos flexibles que los bienes. Si un tren con energía solar no funciona o funciona demasiado lento, es posible que hayan cambios en las agendas de las personas. Del mismo modo, en días nublados, pocas personas llegarían a la oficina.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png" alt='Paneles fotovoltáicos solares cubren una vía férrea en Bélgica, 2016. Imagen: Infrabel' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/solar-covered-railway_hu4c92159616fea560e150deafe74797f4_1524287_800x800_fit_q90_h2_box_3.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Paneles fotovoltáicos solares cubren una vía férrea en Bélgica, 2016. Imagen: Infrabel</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Sin embargo, esto podría resolverse utilizando las mismas fuentes de energía renovables para fábricas y trenes de pasajeros. Los paneles solares a lo largo de las líneas ferroviarias podrían dimensionarse para días nublados, y así garantizar un nivel mínimo de energía para un servicio mínimo de trenes de pasajeros (pero no de producción industrial). Durante los días soleados, la energía solar adicional podría usarse para hacer funcionar las fábricas a lo largo de la línea ferroviaria, o para ejecutar trenes adicionales de pasajeros (o carga).</p>
+<h2 id="consecuencias-para-la-sociedad-consumo-y-producción">Consecuencias para la sociedad: Consumo y Producción</h2>
+<p>Como hemos visto, si la producción industrial y el transporte de carga dependieran de la disponibilidad de energía renovable, aún podríamos producir una amplia gama de bienes de consumo y transportarlos por todo el mundo. Sin embargo, no todos los productos estarían disponibles todo el tiempo. Si se quisiera comprar zapatos nuevos, es posible que se deba esperar la temporada adecuada para su fabricación y entrega.</p>
+<p>La producción y el consumo dependerían del clima y las estaciones. Las fábricas accionadas con energía solar tendrían mayores tasas de producción en los meses de verano, mientras que las fábricas eólicas tendrían mayores tasas de producción en los meses de invierno. Las temporadas de navegación también deberían tenerse en cuenta.</p>
+<blockquote>
+<p>Si se quisiera comprar zapatos nuevos, es posible que se deba esperar la temporada adecuada para su fabricación y entrega.</p>
+</blockquote>
+<p>Pero administrar una economía según los ritmos del clima no significa necesariamente que las tasas de producción y consumo disminuirían. Si las fábricas y el transporte de carga ajustan su uso de energía al clima, pueden utilizar la producción anual de energía total de las turbinas eólicas y los paneles solares.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png" alt='Un Molino de viento en Zaandam, una pintura de Claude Monet, 1871.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/windmill-zaandam_hud0f007e33553ea328ae1069fd7e43ab3_127317_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un Molino de viento en Zaandam, una pintura de Claude Monet, 1871.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Los fabricantes podrían contrarrestar la escasez de producción produciendo artículos estacionales ‘de temporada’ y luego almacenándolos cerca de los consumidores para la venta durante períodos de baja energía. De hecho, estos productos se convertirían en “reserva de energía” en este escenario. En lugar de almacenar energía para fabricar productos en el futuro, fabricaríamos productos siempre que haya energía disponible, y almacenaríamos los productos para su posterior venta.</p>
+<p>Sin embargo, la producción estacional si podría conducir a menores tasas de producción y consumo. Sobre-producir en tiempos de alta energía requiere grandes instalaciones de producción y almacenes, que serían infrautilizados durante el resto del año. Para producir de forma rentable, los fabricantes deberán hacer compromisos. De vez en cuando, estos compromisos conducirán a la escasez de productos, lo que a su vez podría alentar a las personas a considerar otras soluciones, como la reparación y la reutilización de productos existentes, productos hechos a mano, bricolaje o intercambiar y compartir productos.</p>
+<h2 id="consecuencias-para-la-fuerza-de-trabajo">Consecuencias para la fuerza de trabajo</h2>
+<p>Ajustar la demanda de energía al suministro de energía también implica que la fuerza de trabajo se debe adaptar al clima. Si una fábrica funciona con energía solar, entonces la disponibilidad de energía se correspondería muy bien con los ritmos humanos. El único inconveniente es que los trabajadores estarían libres del trabajo, especialmente en invierno y en días nublados.</p>
+<p>Sin embargo, si una fábrica o un tren de carga funciona con energía eólica, entonces la gente también tendría que trabajar durante la noche, lo que se considera poco saludable. Lo bueno es que tendrían vacaciones en verano y en días de buen clima.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png" alt='Nachtelijk werk in de dokken (Trabajo nocturne en los muelles), una pintura de Henri Adolphe Schaep, 1856.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/night-works-docks_hudb235fffd444a8ef881e30eff54febc2_74916_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Nachtelijk werk in de dokken (Trabajo nocturne en los muelles), una pintura de Henri Adolphe Schaep, 1856.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si una fábrica o un sistema de transporte es operado solo con energía eólica o solar, los trabajadores también tendrían que lidiar con la incertidumbre sobre sus horarios de trabajo. Aunque tenemos pronósticos meteorológicos mucho mejores que en tiempos preindustriales, sigue siendo difícil hacer predicciones precisas con más de unos días de anticipación.</p>
+<p>Sin embargo, no son solo las plantas de energía renovables las que ahora están completamente automatizadas. Lo mismo ocurre con las fábricas. Desde el siglo pasado se ha visto una creciente automatización de los procesos de producción, basados en computadoras y robots. Las llamadas “fábricas oscuras” ya están completamente automatizadas (no necesitan luces porque no hay nadie allí).</p>
+<blockquote>
+<p>No son solo las plantas de energía renovables las que están ahora completamente automatizadas. Lo mismo ocurre con las fábricas.</p>
+</blockquote>
+<p>Si una fábrica no tiene trabajadores, no importa cuándo esta esté operando. Además, muchas fábricas ya funcionan durante 24 horas por día, en parte operadas por millones de trabajadores haciendo el turno de noche. En estos casos, el trabajo nocturno en realidad disminuiría porque estas fábricas solo funcionarán durante la noche si hace viento.</p>
+<p>Finalmente, también podríamos limitar la parte principal de la fabricación industrial y el transporte ferroviario a las horas de trabajo normales, y reducir el exceso de oferta durante la noche. En este escenario, simplemente tendríamos menos bienes materiales y más vacaciones. Por otro lado, habría una mayor necesidad de otros tipos de trabajos, como la artesanía y la navegación.</p>
+<h2 id="qué-hay-del-internet">¿Qué hay del Internet?</h2>
+<p>En conclusión, la fabricación industrial y el transporte de carga, tanto terrestre como marítimo, podrían ejecutarse casi en su totalidad con fuentes de energía renovables variables, con poca necesidad de almacenamiento de energía, redes de transmisión, capacidad de equilibrado o sobre-construcción de plantas de energía renovable. En contraste, el enfoque moderno de alta tecnología de unir el suministro de energía a la demanda de energía en todo momento requiere una gran cantidad de infraestructura adicional que hace que la producción de energía renovable sea una <a href="https://mar-ver.github.io/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/" >tarea compleja, lenta, costosa e insostenible</a>.</p>
+<p>Ajustar la demanda de energía al suministro haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy. No habría reducción de energía ni pérdidas por almacenamiento y transmisión. Toda la energía producida por los paneles solares y las turbinas eólicas se usaría en el lugar y nada se desperdiciaría.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png" alt='Marina, una pintura de Carol Popp de Szathmary, 1800s.' data-original="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/images/marina_hu17eb908ca67046ede57fb160eb94248b_181477_800x800_fit_q90_h2_box.webp" data-dither="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Marina, una pintura de Carol Popp de Szathmary, 1800s.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Ver imagen original
+            </span>
+            <span class="tooltip view-dither">
+            Ver imagen interpolada
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ajustar la demanda de energía al suministro de energía puede ser menos sencillo en otros sectores. A pesar de que Internet podría operarse completamente con fuentes de energía variables, utilizando <a href="https://mar-ver.github.io/es/2015/10/how-to-build-a-low-tech-internet/" >redes asíncronas y softwares tolerantes al retardo</a>, muchas aplicaciones de Internet más nuevas desaparecerían.</p>
+<p>En casa, probablemente no podemos esperar que las personas se sienten a oscuras o que no cocinen cuando no hay energía renovable. Del mismo modo, las personas no vendrán a los hospitales sino hace sol. En tales casos, existe una mayor necesidad de almacenamiento de energía u otras medidas para contrarrestar un suministro de energía intermitente. Esto es material para una próxima publicación.</p>
+<p>Parte de la investigación de este artículo se realizó durante una beca en el <a href="http://www.demand.ac.uk/" target="_blank" >Demand Center</a>, Lancaster, Reino Unido.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT">Suscríbete a nuestro boletín</a>.</li>
+        <li> Apoye a Low-tech Magazine a través de <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> o <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://mar-ver.github.io/es/offline-reading/">Lea Low-tech Magazine sin conexión</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Lucas, Adam. Wind, Water, Work: Ancient and Medieval Milling Technology. Vol. 8. Brill, 2006.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Hills, Richard Leslie. Power from wind: a history of windmill technology. Cambridge University Press, 1996.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Paine, Lincoln. The sea and civilization: a maritime history of the world. Atlantic Books Ltd, 2014.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Reynolds, Terry S. Stronger than a hundred men: a history of the vertical water wheel. Vol. 7. JHU Press, 2002.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Una de las primeras represas hidroeléctricas más grandes fue la Cento Represa, en Italia (1450), que tenía 71 m de largo y casi 6 m de altura. En el siglo XVIII, las presas más grandes tenían hasta 260 m de largo y 25 m de alto, con canales de potencia que conducían a docenas de ruedas hidráulicas.  <sup id="fnref2:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Aunque los molinos de viento tenían todo tipo de mecanismos internos para adpatarse a los cambios repentinos en la velocidad del viento, y la dirección del viento, la energía eólica no tenía equivalente en la presa de energía hidráulica.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Esto explica por qué los molinos de viento se volvieron especialmente importantes en regiones con climas secos, en países planos, o en áreas muy frías, donde no había agua disponible. En países con buenos recursos hídricos, los molinos de viento solo aparecieron cuando la demanda de energía crecío y creó una crisis porque los mejores sitios de suministro de agua ya estaban ocupados.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Las mareas eran técnicamente similares a los molinos de agua, pero eran más confiables porque el mar es menos propenso a secarse, congelarse o cambiar su nivel de agua comparado con un río.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Sieferle, Rolf Peter, and Michael P. Osman. The subterranean forest: energy systems and the industrial revolution. Cambridge: White Horse Press, 2001.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Freese, Stanley. Windmills and millwrighting. Cambridge University Press, 1957&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Wailes, Rex. The English windmill. London, Routledge &amp; K. Paul, 1954&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>El patrón global del viento se complementa con patrones de viento regionales, como la brisa terrestre y la brisa marina. El Océano Índico Norte tiene inviernos semi-anuales reversos a los vientos del Monzón. Estos soplan del suroeste desde junio a noviembre y del noreste desde diciembre a mayo. El comercio marítimo en el Océano Índico comenzó antes que en otros mares, y las rutas comerciales establecidas dependían por completo de la temporada.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Jenkins, H. L. C. “Ocean passages for the world.” The Royal Navy, Somerset (1973).&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>Las personas encargadas de los molinos de viento tenían que estar alertas para mantener la brecha entre las piedras constante, por muy agitado que fuera el viento. Antes de los días en los que gobierna el centrifugado, esto se hacía a mano. El molinero tenía que vigilar la fuerza del viento, juzgar la cantidad de tela que debía extenderse, y estar preparado para detener el molino a vela y tomar o sacar más tela, ya que no había velas patentadas. Y antes de que la fantail se pusiera en uso, también tenía que vigilar la dirección del viento y mantener las velas cuadradas en el ojo del viento. [11]&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>Además de la electricidad, la Revolución Industrial también nos trajo aire comprimido, agua a presión y una mejor transmisión de potencia mecánica, que pueden ser todas alternativas valiosas para la electricidad en ciertas aplicaciones.&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>Una distinción similar se hizo en pasado. Por ejemplo, cuando se hacía girar la tela, se requería una velocidad constante para evitar la caída de las ruedas dentadas y hacer que las máquinas entregaran partes gruesas y delgadas en mechas o hilos. [3] Es por eso que la hilatura solo se mecanizó utilizando energía hidráulica, que podría almacenarse para garantizar un suministro de energía más regular, y no energía eólica. La energía eólica tampoco era apta para procesos como la fabricación de papel, el transporte de minas o el funcionamiento de fuelles de alto horno en ferrerías.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>Se requiere un almacenamiento de energía a muy corto plazo para muchos procesos mecánicanicos que se ejecutan usando fuentes de energía variables, con el fin de suavizar las variaciones pequeñas y repentinas en el suministro de energía. Dichos sistemas mecánicos ya se usaban en molinos de viento preindustriales.&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>Leighly, J. (ed) (1963) The Physical Geography of the Sea and its Meteorology by Matthew Fontaine Maury, 8th Edition, Cambridge, MA: Belknap Press. Cited by Knowles, R.D. (2006) “Transport shaping space: the differential collapse of time/space”, Journal of Transport Geography, 14(6), pp. 407-425.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>Rival teams rejected pedal power because they feared radical change, says Team New Zealand designer. The Telegraph, May 24, 2017.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://mar-ver.github.io/es/tags/energy-storage/" class="">energy storage</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/es/tags/renewable-energy/" class="">Renewable energy</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/es/tags/solar-power/" class="">solar power</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/es/tags/wind-power/" class="">Wind power</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/es/tags/power-transmission/" class="">power transmission</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/es/tags/history/" class="">History</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Cocinas termoeléctricas: es hora de descartar los paneles solares?</h3>
+		<p class="index-summary">Cocinas a leña, equipadas con generadores termoeléctricos, pueden producir electricidad en forma más sustentable, confiable y menos costosa, que usando paneles fotovoltaicos.</p>
+		<time class="published">26 de mayo de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://mar-ver.github.io/es/2018/05/history-and-future-of-the-compressed-air-economy/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Historia y Futuro de la Economía del Aire Comprimido</h3>
+		<p class="index-summary">Sistemas históricos son la clave para el diseño de un medio de almacenamiento de energía de baja tecnología, con bajo costo, robusto, sostenible y relativamente eficiente en energía</p>
+		<time class="published">15 de mayo de 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://mar-ver.github.io/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Trincheras frutales: cultivando plantas subtropicales en temperaturas bajo cero</h3>
+		<p class="index-summary">Durante la primera mitad del siglo veinte, botanistas soviéticos consiguieron cultivar plantas (sub)tropicales en temperaturas tan bajas como 30 grados Celsius bajo cero. Inclusive en exteriores, y sin usar invernaderos ni ninguna clase de combustible fósil.</p>
+		<time class="published">16 de abril de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">¿Qué tan sostenible es un sitio web operado con energía solar?</h3>
+		<p class="index-summary">En este artículo, presentaremos los datos relacionados al consumo de energía y tiempo de actividad, y calcularemos la energía interna de nuestra configuracion. En base a estos resultados, consideraremos el equilibrio óptimo entre la sostenibilidad y el tiempo de actividad del servidor, y delinearemos las posibles mejoras.</p>
+		<time class="published">28 de enero de 2020</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Tamaño de página: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://mar-ver.github.io/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://mar-ver.github.io/es/about">
+  Acerca de
+</a>
+    <a href="https://mar-ver.github.io/es/power">
+  Power
+</a>
+    <a href="https://mar-ver.github.io/es/about/team">
+  Colophon
+</a>
+    <a href="https://mar-ver.github.io/es/donate">
+  Donaciones
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAEZUWQsqfc4iKwh6GDA0LS_6AE98wa1FP5PR4GpWzonWKBB5kuC2lPxvZDfq3TFEMX0TRy6KUp0QmzTaqBvvisJ5zpgu6FeI2lTw-8WjgPZBWxio3IKivik9Pd-EyiEzPwXuAkwkw0jhIXWwx2mYOuSPW06G1aOktFLZ2oV8YP58E2eMWj1AG-FK7PWiZXGE28K8WvV-ZPfT' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://mar-ver.github.io/js/script.js"></script>
+</body>
+</html>

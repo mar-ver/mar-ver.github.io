@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOW←TECH MAGAZINE Italiano</title>
+    <link>https://mar-ver.github.io/it/categories/</link>
+    <description>Questo e un sito a energia solare, il che vuol dire che a volte va offline.</description>
+    <generator>Hugo 0.115.3</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Low-tech Solutions</title>
+      <link>https://mar-ver.github.io/it/low-tech-solutions/</link>
+      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mar-ver.github.io/it/low-tech-solutions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obsolete Technology</title>
+      <link>https://mar-ver.github.io/it/obsolete-technology/</link>
+      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mar-ver.github.io/it/obsolete-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-tech Problems</title>
+      <link>https://mar-ver.github.io/it/high-tech-problems/</link>
+      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mar-ver.github.io/it/high-tech-problems/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Construire un vélo générateur pour la chaleur et l&#39;électricité | LOW←TECH MAGAZINE</title>
+	
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://mar-ver.github.io/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://mar-ver.github.io/css/style.css"><meta property="og:title" content="Construire un vélo générateur pour la chaleur et l&#39;électricité" />
+<meta name="twitter:title" content="Construire un vélo générateur pour la chaleur et l&#39;électricité"/>
+
+<meta property="og:description" content="Un vélo générateur vous maintient au chaud et constitue la solution de secours idéale pour un système solaire autonome. Dans cet article, nous décrivons comment construire et utiliser une centrale électrique pratique, abordable et fiable pour un usage domestique." />
+
+<meta name="twitter:description" content="Un vélo générateur vous maintient au chaud et constitue la solution de secours idéale pour un système solaire autonome. Dans cet article, nous décrivons comment construire et utiliser une centrale électrique pratique, abordable et fiable pour un usage domestique."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
+<meta property="og:image:secure_url" content="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-12T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+<meta property="article:author" content=" Marie Verdeil" />
+<meta name="citation_author" content=" Marie Verdeil">
+
+
+<meta property="article:tag" content="Energy Demand" />
+<meta property="article:tag" content="Off-the-grid" />
+<meta property="article:tag" content="Renewable Energy" />
+<meta property="article:tag" content="Human Power" />
+
+</head>
+<body id="construire-un-v%C3%A9lo-g%C3%A9n%C3%A9rateur-pour-la-chaleur-et-l%C3%A9lectricit%C3%A9">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://mar-ver.github.io/fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://mar-ver.github.io/fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://mar-ver.github.io/fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Construire un vélo générateur pour la chaleur et l&#39;électricité</h1>
+
+				<p class="summary">
+					Un vélo générateur vous maintient au chaud et constitue la solution de secours idéale pour un système solaire autonome. Dans cet article, nous décrivons comment construire et utiliser une centrale électrique pratique, abordable et fiable pour un usage domestique.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">6 mars 2022</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/fr/authors/marie-verdeil/">Marie Verdeil</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="https://mar-ver.github.io/fr/translators/audrey-belliot/">Audrey Belliot</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="https://mar-ver.github.io/2022/03/how-to-build-a-practical-household-bike-generator/">en</a>
+						
+							<a href="https://mar-ver.github.io/nl/2022/03/how-to-build-a-practical-household-bike-generator/">nl</a>
+						
+							<a href="https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" alt='Image : Le vélo générateur dans le salon.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-generator-living-room_hua151ed88e97bac72456216f5d8d8f983_8753548_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le vélo générateur dans le salon.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="article">Article</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#bikegenerator">Le vélo générateur</a>
+<ul>
+<li><a href="#flywheel">La roue d&rsquo;inertie</a></li>
+<li><a href="#maxpower">Production maximale d’énergie</a></li>
+</ul>
+</li>
+<li><a href="#art">L&rsquo;art du pédalage : quels sont les principaux défis ?</a>
+<ul>
+<li><a href="#volt">Adapter la tension</a></li>
+<li><a href="#current">Adapter le courant</a></li>
+<li><a href="#batteries">Recharger des batteries</a></li>
+</ul>
+</li>
+<li><a href="#dashboard">Le tableau de bord : comment relever ces défis ?</a>
+<ul>
+<li><a href="#matching-voltage">Adapter la tension :  convertisseurs abaisseurs-élévateurs de tension (buck / boost)</a></li>
+<li><a href="#matching-current">Adapter le courant : circuits commutables et variateurs</a></li>
+</ul>
+</li>
+<li><a href="#experiments">Comment utiliser le vélo : expérimentations</a>
+<ul>
+<li><a href="#power-tools">Outils électriques filaires</a></li>
+<li><a href="#kettle">Bouilloire électrique</a></li>
+<li><a href="#peltier">Réfrigérateur Peltier</a></li>
+</ul>
+</li>
+<li><a href="#alternative">Autres configurations possibles : Vélo générateur avec table de travail</a></li>
+<li><a href="#hybrid">Système hybride avec alimentation humaine/solaire</a></li>
+</ul>
+<h2 id="manuel">Manuel</h2>
+<ul>
+<li><a href="#manual-bike">Le vélo générateur</a>
+<ul>
+<li><a href="#type">De quel type de générateur avez-vous besoin ?</a></li>
+<li><a href="#gearratio">Comment calculer le rapport de transmission et la taille du galet ?</a></li>
+<li><a href="#spindle">De quel type de galet avez-vous besoin et où le trouver ?</a></li>
+<li><a href="#fix">Comment fixer le galet au générateur ?</a></li>
+<li><a href="#friction">Comment fixer le système d’entraînement  par friction au vélo ?</a></li>
+</ul>
+</li>
+<li><a href="#manual-dashboard">Le tableau de bord</a>
+<ul>
+<li><a href="#buckboost">Convertisseurs abaisseurs-élévateurs de tension (buck / boost), variateur</a></li>
+<li><a href="#wind">Contrôleur de charge éolienne (pour recharger des batteries au plomb)</a></li>
+<li><a href="#wires">Câbles, connecteurs, diodes, fusibles, interrupteurs</a></li>
+<li><a href="#instruments">Les indicateurs du tableau de bord</a></li>
+<li><a href="#panel">Panneau du tableau de bord et fixation</a></li>
+</ul>
+</li>
+<li><a href="#wire">Le câblage</a>
+<ul>
+<li><a href="#complete">Tableau de bord complet</a></li>
+<li><a href="#5V">Circuit 5V</a></li>
+<li><a href="#12V">Circuit 12V</a></li>
+<li><a href="#14V">Circuit 14.4V</a></li>
+<li><a href="#220V">Circuit 220V</a></li>
+</ul>
+</li>
+<li><a href="#components">Composants + Coûts + Outils</a></li>
+<li><a href="#first">Le premier prototype</a></li>
+</ul>
+<h2 id="span-idintroductionintroductionspan"><span id="introduction">Introduction</span></h2>
+<h3 id="résumé">Résumé</h3>
+<p>De nombreuses personnes ont construit des générateurs à pédales et ont publié les manuels en ligne et dans des livres. Cependant, quand nous avons voulu en fabriquer un nous-mêmes, nous avons trouvé que ces manuels étaient incomplets lorsqu&rsquo;il s&rsquo;agissait de rendre le générateur pratique à utiliser. L&rsquo;accent est mis sur la fabrication de la source d&rsquo;énergie elle-même, avec assez peu d&rsquo;attention pour ce qui se passe avec l&rsquo;énergie produite. Le simple fait de connecter un générateur à un vélo ne suffit pas à fournir une source d&rsquo;énergie utilisable.</p>
+<p>Pour essayer de rendre la production d&rsquo;énergie humaine plus utile, nous avons construit non seulement un générateur d&rsquo;énergie à pédales, mais aussi un panneau de contrôle sous la forme d&rsquo;un &ldquo;tableau de bord&rdquo; fixé au guidon. Le tableau de bord permet d&rsquo;alimenter ou de charger une grande variété d&rsquo;appareils, quelle que soit la tension à laquelle ils fonctionnent. Par ailleurs, plusieurs appareils peuvent être alimentés simultanément, ce qui permet au cycliste d&rsquo;ajuster la résistance des pédales pour un effort optimal.</p>
+<p>Nous avons aussi essayé d&rsquo;améliorer le vélo générateur lui-même. Bien qu&rsquo;il existe de bons manuels, nous voulions une source d&rsquo;énergie facile à construire (pas de soudure ni d&rsquo;outils complexes), confortable pour pédaler, aussi compacte que possible et discrète. Le vélo générateur est installé dans un petit salon et devrait inciter à une utilisation régulière. Nous avons donc opté pour un vélo d&rsquo;appartement vintage avec une roue d&rsquo;inertie, une approche que nous n&rsquo;avions pas encore vue.</p>
+<h3 id="essai-et-erreur">Essai et erreur</h3>
+<p>Le vélo générateur et le tableau de bord ont été conçus et réalisés en collaboration avec <a href="https://verdeil.net" target="_blank" >Marie Verdeil</a> dans le cadre de son stage au Low-tech Magazine. Nous n&rsquo;avons pas pu trouver les informations techniques que nous recherchions, nous avons donc suivi une approche par essais et erreurs. Cela a pris du temps et a coûté cher, mais nous en avons tiré des enseignements. Nous avons fait beaucoup d&rsquo;erreurs que vous pouvez éviter.</p>
+<p>Nous ne sommes pas ingénieurs, et <a href="#comments" >nous sommes ouverts aux commentaires techniques</a> concernant les améliorations à apporter. Sur la base de ces commentaires et d&rsquo;autres expériences avec le vélo générateur - qui est maintenant utilisé depuis un mois - nous mettrons à jour et enrichirons le manuel. Notre design peut être ajusté et adapté à vos besoins.</p>
+<p>Les nouveaux lecteurs de ce site seront peut-être intéressés par certains articles antérieurs sur lesquels ce projet de générateur se base : <a href="https://mar-ver.github.io/fr/2018/01/how-much-energy-do-we-need/" >La brève histoire des premières machines à pédales</a> (2018).</p>
+<p>Il est évident qu&rsquo;un vélo générateur ne pourra pas alimenter un foyer qui consomme beaucoup - à moins de trouver le nombre d&rsquo;esclaves suffisant. Ce manuel est destiné aux personnes ayant un mode de vie économe en énergie.</p>
+<h2 id="span-idbikegeneratorle-vélo-générateurspan"><span id="bikegenerator">Le vélo générateur</span></h2>
+<p>Il y a de nombreuses façons de construire un vélo générateur, et chacune a ses avantages et ses inconvénients. Nous avons conçu notre générateur à pédales à partir d’un vélo d’appartement vintage des années 1950. Notre vélo a été fabriqué par la marque espagnole BH mais des modèles vintage similaires peuvent être trouvés partout dans le monde industrialisé.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" alt='Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/vintage-exercise-bike_hub7ef30f5906dbe7549bb0246debf0f0e_1066410_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idflywheella-roue-dinertiespan"><span id="flywheel">La roue d&rsquo;inertie</span></h3>
+<p>Notre approche a plusieurs avantages. Le premier et le plus important est que les anciens vélos d&rsquo;appartement ont une grande roue d&rsquo;inertie à l&rsquo;avant. Les vélos générateurs sans roue d&rsquo;inertie - qui sont aujourd&rsquo;hui les plus courants - ont de grandes chances de finir par prendre la poussière au fond d’un garage car ils sont fatigants et peu confortables à utiliser.</p>
+<p>Une roue d&rsquo;inertie est essentielle car pédaler sur un vélo à l&rsquo;arrêt est très différent de pédaler sur route. La puissance que nos pieds exercent sur les pédales culmine tous les 180 degrés de rotation du pédalier. Sur la route, cela a peu d&rsquo;effet en raison de l&rsquo;inertie du cycliste.</p>
+<p>En revanche, sur un vélo à l&rsquo;arrêt, cette puissance non uniforme entraîne des mouvements saccadés et de la pression sur les composants. La roue d&rsquo;inertie résout ce problème grâce à sa masse importante et à sa vitesse de rotation. Cela permet de compenser la différence entre les pics de puissance et de rendre le pédalage plus confortable. Le cycliste se fatigue moins vite et peut générer plus d&rsquo;énergie. Une roue d&rsquo;inertie produit également une tension plus régulière.</p>
+<p>Notre approche permet également de construire un générateur à pédales avec des outils simples et des compétences de base. Il n&rsquo;est pas nécessaire de couper ou de souder du métal - le vélo reste tel quel. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Il n&rsquo;est pas non plus nécessaire de construire une structure de support - le vélo en possède déjà une. Il suffit d&rsquo;ajouter un système d&rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&rsquo;inertie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" alt='Image : Le système d&amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;rsquo;inertie.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive_hu3ec74efee421ff40a16679f4ab76938c_9095067_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le système d&rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&rsquo;inertie.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Notre méthode permet également d&rsquo;obtenir un vélo générateur très compact. Il mesure un peu plus d&rsquo;un mètre de long. Et, bien qu&rsquo;il s&rsquo;agisse d&rsquo;une question de goût personnel, le résultat est un vélo générateur qui est beau à voir. Ce vélo a été acheté à quelqu&rsquo;un dans un village voisin qui l&rsquo;avait installé dans son salon comme décoration.</p>
+<p>Un inconvénient à mentionner est qu&rsquo;un entraînement par friction est moins efficace énergétiquement qu&rsquo;un entraînement par engrenage ou par courroie. Cependant, l&rsquo;efficacité supérieure de la roue d&rsquo;inertie compense cet inconvénient. Seule la combinaison d&rsquo;une roue d&rsquo;inertie et d&rsquo;une transmission par engrenages ou par courroie serait plus efficace, mais elle serait plus difficile à construire. Un autre inconvénient est que notre vélo ne peut pas changer de vitesse - nous y reviendrons plus tard.</p>
+<h3 id="span-idmaxpowerproduction-maximale-dénergiespan"><span id="maxpower">Production maximale d’énergie</span></h3>
+<p>La puissance de sortie (W) d&rsquo;un vélo générateur est égale à la tension (V) multipliée par l&rsquo;intensité (A). Nous obtenons une puissance d&rsquo;environ 100 watts (12V, 8-9A) en faisant un effort court et intense. Lors d&rsquo;un effort plus modéré - que nous pouvons tenir plus longtemps - la puissance de sortie se situe alors entre 45 et 75 watts. La puissance de sortie dépend non seulement du vélo, mais aussi de la personne qui l&rsquo;utilise. Les athlètes peuvent produire plus de puissance, tandis que les moins sportifs en produisent (initialement !) moins. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Nous avons mesuré la puissance de sortie juste après le générateur. Cependant, il faut exercer plus de puissance sur les pédales pour obtenir cette puissance de sortie. Premièrement, aucun générateur n&rsquo;est efficace à 100 %. Notre générateur atteint son efficacité maximale (75-78%) à une intensité de sortie supérieure à 6A (72W). L&rsquo;efficacité diminue lorsque vous produisez moins d&rsquo;intensité : elle tombe à 60% à 3A et à moins de 45% à 2A. Deuxièmement, il existe des pertes d&rsquo;énergie dans la transmission entre les pédales et le générateur. Nous ne pouvons pas les mesurer, mais d&rsquo;après les données que nous avons trouvées, un entraînement par friction génère en moyenne 15 % de pertes d&rsquo;énergie supplémentaires.</p>
+<p>En prenant en compte les pertes d&rsquo;efficacité du générateur et de l’entraînement par friction, il faut exercer au moins 150 watts sur les pédales pour obtenir une puissance de 100 watts. Il existe des pertes d&rsquo;énergie supplémentaires dans la trasnmission du vélo. En théorie, les engrenages du vélo ont de faibles pertes d&rsquo;énergie, au maximum quelques %. En pratique, cependant, ces pertes d&rsquo;énergie peuvent être élevées. Nous l&rsquo;avons prouvé sans le vouloir. La production d&rsquo;énergie a <em>doublé</em> après que nous ayons minutieusement nettoyé et huilé la chaîne du vélo. Nous avons fait l&rsquo;erreur de ne nettoyer le vélo qu&rsquo;à la toute fin. Cela nous a obligés à adapter le tableau de bord pour gérer les courants plus élevés qui le traversaient tout à coup.</p>
+<h2 id="span-idartlart-du-pédalage--quels-sont-les-principaux-défis-span"><span id="art">L&rsquo;art du pédalage : quels sont les principaux défis ?</span></h2>
+<p>En tant que “cycliste énergétique”, vous devez adapter la tension (V) et le courant (A) de l&rsquo;appareil que vous alimentez ou rechargez. Mais c&rsquo;est plus facile à dire qu&rsquo;à faire. Les appareils électriques fonctionnent à des tensions différentes et ont des besoins en énergie très différents. La tension correspond à la <em>vitesse</em> à laquelle vous pédalez et le courant à la <em>force</em> avec laquelle vous pédalez.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" alt='Image : le vélo générateur en fonction.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/kris-reading_hu9810db53e73169e75e83abc846de27ad_9179067_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : le vélo générateur en fonction.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idvolt1-adapter-la-tensionspan"><span id="volt">1. Adapter la tension</span></h3>
+<p>Un vélo générateur produit du <a href="https://mar-ver.github.io/fr/2016/04/slow-electricity-the-return-of-dc-power/" >courant continu basse tension</a>, comme un système photovoltaïque (12/24V). La tension de sortie dépend de la vitesse de rotation du vélo générateur. La vitesse du pédalage et le rapport de vitesse déterminent la vitesse du générateur. Le manuel explique en détail <a href="#gearratio" >comment définir le bon rapport de transmission</a>. En résumé, vous devez mesurer le diamètre extérieur de trois pièces (pignon de la pédale, pignon de la roue d&rsquo;inertie, roue d&rsquo;inertie) et utiliser ces données pour calculer la taille correcte du galet pour la tension de sortie attendue.</p>
+<p>Une fois que vous avez défini le rapport de transmission, vous pouvez produire une tension plus ou moins élevée en pédalant plus ou moins vite, respectivement. Cela permet d&rsquo;alimenter des appareils à des tensions différentes. Cependant, en supposant que votre générateur produise une tension de 12 V à une vitesse de pédalage moyenne, vous devrez pédaler au ralenti pour produire une tension de 5 V, et il sera difficile de garder les pieds sur les pédales pour produire une tension de 24 V. Des vitesses permettraient de faire varier plus facilement la tension de sortie, mais notre vélo n&rsquo;en a pas.</p>
+<p>Faire fonctionner un appareil directement à partir du générateur peut être une solution pratique s&rsquo;il a besoin d&rsquo;environ 12V. La roue d&rsquo;inertie permet de maintenir une tension de sortie relativement stable. Cependant, les appareils électroniques et les batteries ont besoin d&rsquo;une tension exacte. Sinon, ils risquent de ne pas fonctionner ou d&rsquo;être endommagés. De plus, faire fonctionner un appareil directement à partir du générateur vous empêche d&rsquo;alimenter ou de charger simultanément plusieurs appareils avec des tensions différentes - ce qui est une solution à notre prochain problème.</p>
+<h3 id="span-idcurrent2-adapter-le-courantspan"><span id="current">2. Adapter le courant</span></h3>
+<p>Les appareils électriques et électroniques peuvent avoir des puissances très différentes, même s&rsquo;ils fonctionnent avec la même tension. Malheureusement, il est beaucoup plus difficile de régler le courant que la tension. La force avec laquelle vous devez pédaler dépend entièrement de l&rsquo;appareil que vous alimentez. Dans certains cas, cela permet d&rsquo;obtenir une résistance optimale. Mais le plus souvent, la résistance au niveau des pédales est soit trop faible, soit trop élevée.</p>
+<p>À un extrême, la résistance sur les pédales est presque nulle lorsqu&rsquo;on recharge un smartphone ou une batterie au plomb relativement petite. À l&rsquo;autre extrême, la résistance sur les pédales est trop élevée pour alimenter une bouilloire ou un réfrigérateur. Certains appareils ont des intensités de courant variables. Par exemple, une imprimante demande entre 25 et 70 watts de puissance, en fonction de ce qu&rsquo;elle est en train de faire exactement. Il y a des pics de courant au démarrage et entre les pages, et l&rsquo;impression d&rsquo;images demande plus d&rsquo;efforts que l&rsquo;impression de texte.</p>
+<h3 id="span-idbatteries3-recharger-des-batteriesspan"><span id="batteries">3. Recharger des batteries</span></h3>
+<p>Les installations solaires photovoltaïques non raccordées au réseau rechargent souvent des batteries au plomb. L&rsquo;énergie humaine ne dépend ni du temps ni de l&rsquo;heure de la journée, mais il peut être pratique de la stocker dans une batterie pour une utilisation ultérieure.</p>
+<p>En se basant sur une production de 100 watts de puissance, il est facile de faire des calculs trop optimistes sur le temps nécessaire pour recharger une batterie. Par exemple, si une batterie a une capacité de 100 Wh, vous pouvez la recharger en une heure, non ? Pas du tout. Même si vous pouviez maintenir une puissance de sortie de 100 watts pendant une heure, la batterie limite la quantité de puissance que vous pouvez lui fournir. Il n&rsquo;est pas possible de faire une courte séance d&rsquo;entraînement pour charger la batterie plus vite qu&rsquo;elle ne vous le permet.</p>
+<p>Les batteries au plomb se rechargent entre 10 et 25% de leur capacité maximale - et nous avons atteint 10% pour toutes les batteries testées. Pour recharger une batterie de voiture au plomb (environ 60-80Ah), le générateur doit produire 85-115 watts, ce qui représente un effort conséquent. Une recharge complète (12V à 13V) prendra cinq heures, sans compter les pertes de charge et de décharge.</p>
+<p>Cependant, pour des batteries au plomb plus petites, la faible intensité demandée est problématique. Comme il n&rsquo;y a que peu ou pas de résistance sur les pédales (donc pas vraiment d’effort), c&rsquo;est très inefficace (le générateur a des pertes d&rsquo;énergie élevées), et pourtant, cela prend autant de temps que de recharger une batterie beaucoup plus grande. Par exemple, la recharge d&rsquo;une batterie 12V d&rsquo;une capacité de stockage de 14Ah (semblable à celle qui alimente le <a href="/fr/about.html" >site web à énergie solaire</a>) ne nécessite que 1,4A. Cela ne représente pas un gros effort (20W).</p>
+<p>Le même problème se pose avec les appareils USB. L&rsquo;utilisation la plus souvent mentionnée d&rsquo;un vélo générateur est la recharge d&rsquo;un smartphone. Or, la recharge d&rsquo;un smartphone nécessite très peu d&rsquo;énergie (5-10W) par rapport à ce que le vélo peut produire. (Certains modèles plus récents permettent une recharge plus rapide). On pourrait penser que la recharge d&rsquo;une batterie de téléphone de 10Wh ne prendrait que 6 minutes à une puissance maximale de 100W, mais cela prend tout autant de temps que lorsque vous la branchez à une prise murale. Un chargeur manuel beaucoup plus petit serait suffisant pour charger un smartphone, mais dans ce cas, vous n&rsquo;avez pas les mains libres.</p>
+<h2 id="span-iddashboardle-tableau-de-bord--comment-relever-ces-défis-span"><span id="dashboard">Le tableau de bord : comment relever ces défis ?</span></h2>
+<p>Pour éviter tous ces problèmes, nous avons construit un tableau de bord qui répartit l&rsquo;énergie du vélo générateur vers des circuits commutables avec différentes tensions pour faire fonctionner divers appareils. Vous pouvez utiliser ces circuits séparément ou simultanément, ce qui permet de régler précisément la résistance des pédales pour un effort optimal. Vous pouvez aussi contrôler directement certains appareils en réduisant leur demande de puissance.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" alt='Image : Le tableau de bord.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-bike-generator-2_hu051b2e7764484691f49a62df736d12b6_8569486_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le tableau de bord.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" alt='Image : Le tableau de bord vu de côté.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-from-side_hu50bb6155fde0d03c6b14eecc77d30b91_8076997_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le tableau de bord vu de côté.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idmatching-voltage1-adapter-la-tension--convertisseurs-abaisseur-élévateur-de-tension-buck--boostspan"><span id="matching-voltage">1. Adapter la tension : convertisseurs abaisseur-élévateur de tension (buck / boost)</span></h3>
+<p>Il n&rsquo;est pas nécessaire de pédaler plus ou moins vite pour que la tension soit adaptée aux différents appareils. À la place, vous pouvez utiliser des convertisseurs abaisseurs (ou convertisseurs buck) et des convertisseurs élévateurs (ou convertisseurs boost) - des modules électroniques qui convertissent une tension d&rsquo;entrée variable en une tension de sortie constante.</p>
+<p>Les convertisseurs buck reçoivent une tension d&rsquo;entrée supérieure à la tension de sortie (ils réduisent la tension), tandis que les convertisseurs boost reçoivent une tension de sortie supérieure à la tension d&rsquo;entrée (ils augmentent la tension). Vous trouverez <a href="#buckboost" >plus d&rsquo;informations sur les convertisseurs buck et boost dans le manuel</a>.</p>
+<h3 id="span-idmatching-current2-adapter-le-courant--circuits-commutables-et-variateursspan"><span id="matching-current">2. Adapter le courant : circuits commutables et variateurs</span></h3>
+<p>Vous pouvez construire un circuit électrique en utilisant uniquement un convertisseur buck ou boost. Il suffit ensuite de régler la tension en tournant la petite vis chaque fois que vous alimentez un appareil nécessitant une tension différente. Cependant, la construction de plusieurs circuits commutables avec des tensions différentes présente des avantages. Non seulement vous pouvez facilement passer d&rsquo;un type d&rsquo;appareil à un autre sans avoir besoin d&rsquo;un tournevis, mais vous pouvez également moduler la résistance au niveau des pédales en faisant fonctionner plusieurs circuits en même temps.</p>
+<p>Le tableau de bord comprend :</p>
+<ul>
+<li>Deux circuits pour alimenter ou recharger des appareils USB (5V).</li>
+<li>Trois circuits pour alimenter des appareils de 12V.</li>
+<li>Un circuit pour recharger les batteries au plomb (14,4 V).</li>
+<li>Un circuit pour alimenter la plupart des appareils ménagers (220V dans l&rsquo;UE).</li>
+<li>Un circuit non régulé où la tension de sortie correspond à la tension d&rsquo;entrée.</li>
+</ul>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" alt='Image : L&amp;rsquo;avant du tableau de bord.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/frontpanel_huec524283f2343e76e2933209e9bc8823_1132870_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : L&rsquo;avant du tableau de bord.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" alt='Image : L&amp;rsquo;arrière du tableau de bord.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-dashboard_hu641036afdadacc6db07c71af0ba108d2_5638971_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : L&rsquo;arrière du tableau de bord.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Si la demande de puissance est insuffisante, on peut augmenter la résistance des pédales en actionnant davantage de circuits. Cela augmentera également l&rsquo;efficacité du générateur. Pour remédier à la faible demande de puissance des batteries, on peut laisser les circuits 5V et 14,4V toujours activés. Cela crée une charge électrique de base d&rsquo;environ 20W (deux à cinq dispositifs USB et une batterie au plomb de 14Ah). Pour un effort plus important, il faut augmenter la charge en ouvrant d&rsquo;autres circuits et en alimentant davantage de dispositifs. Cette approche ne réduit pas le temps nécessaire à la charge des batteries. Mais elle rend l&rsquo;effort plus utile.</p>
+<p>Un tableau de bord comprenant uniquement des circuits USB 5V est une autre option. Mieux encore, on peut utiliser le tableau de bord de cette façon sans faire beaucoup de changements. Il est possible de brancher une multitude d&rsquo;appareils sur une seule sortie USB, avec une consommation maximale de 10 watts (5V/2A). Notre tableau de bord dispose de deux circuits 5V - l&rsquo;un sert principalement à l&rsquo;éclairage du tableau de bord, mais vous pouvez y ajouter un hub de distribution USB pour 10W supplémentaires d&rsquo;appareils.</p>
+<p>On peut ajouter six sorties d&rsquo;alimentation USB supplémentaires en branchant des connecteurs USB sur les trois sorties 12V, en ajoutant au moins trois connecteurs 12V femelles. Cela amène la puissance totale de sortie à 80 watts, ce qui est suffisant pour recharger 10 à 15 smartphones simultanément. Aujourd&rsquo;hui, les appareils USB ne manquent pas : téléphones, tablettes, livres numériques, chargeurs de batteries externes, lampes de vélo, appareils photo, casques sans fil, chargeurs de piles AA, etc.</p>
+<h3 id="variateur">Variateur</h3>
+<p>Si la demande de puissance est trop importante, il est possible de couper un ou plusieurs circuits. Pour certains appareils 12V plus puissants, le tableau de bord permet également de diminuer le courant et donc la résistance des pédales directement à l&rsquo;aide d&rsquo;une résistance variable ou d&rsquo;un potentiomètre (ou variateur).</p>
+<p>Lorsque vous réduisez l&rsquo;intensité pour des appareils tels que la bouilloire électrique ou le réfrigérateur à effet Peltier, ils fonctionnent tout aussi bien, mais plus lentement. Sans potentiomètre, seuls des athlètes pourraient alimenter ces appareils (100-120W). La réduction d&rsquo;intensité ne fonctionne pas pour tous les appareils. Un ordinateur portable, par exemple, s&rsquo;éteindra s&rsquo;il ne reçoit pas la puissance dont il a besoin.</p>
+<p>En passant d&rsquo;un circuit à l&rsquo;autre et en combinant différents circuits - et en réglant avec précision le courant sur le circuit 12V - vous pouvez ajuster la résistance au niveau des pédales aussi précisément que sur un vélo d&rsquo;appartement. Cela optimise l&rsquo;endurance mais aussi la puissance produite.</p>
+<h2 id="span-idexperimentscomment-utiliser-le-vélo--expérimentationsspan"><span id="experiments">Comment utiliser le vélo : expérimentations</span></h2>
+<p>Un vélo générateur est plus adapté pour alimenter directement des appareils électriques - sans stocker d&rsquo;énergie dans une batterie d’abord. Cela permet d&rsquo;éviter les pertes à la charge et à la décharge (jusqu&rsquo;à 30 % dans les batteries au plomb) et de réduire la complexité et les coûts de mise en place d&rsquo;une “centrale électrique humaine” fonctionnelle. Pour cela, notre tableau de bord dispose de plusieurs circuits de 12V et d&rsquo;un circuit de 220V.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" alt='Image : Certains des appareils que nous avons testés : compresseur d&amp;rsquo;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/mosaic-bike-2_hud4574ca36f662aeff7f266c84d8b8f35_390686_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Certains des appareils que nous avons testés : compresseur d&rsquo;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Parmi les appareils de 12V que nous avons alimentés directement, on peut citer un réfrigérateur expérimental Peltier, une bouilloire, des ordinateurs portables - alimentés par un adaptateur 12V, sans batterie ou avec la batterie à 100% - des lampes, un fer à souder, une perceuse électrique et une ponceuse. Il existe de nombreux autres appareils 12V, principalement destinés aux chauffeurs routiers et aux automobilistes, aux marins, aux personnes vivant en caravane (et aux <a href="https://mar-ver.github.io/fr/2016/05/how-to-get-your-apartment-off-the-grid/" >bricoleurs low-tech qui connectent leur appartement comme s&rsquo;il s&rsquo;agissait d&rsquo;un voilier</a>).</p>
+<p>Voici l’ensemble des appareils que nous avons alimentés ou chargés jusqu&rsquo;à présent :</p>
+<ul>
+<li>Tous les types d&rsquo;appareils USB (5V)</li>
+<li>Batteries au plomb de différentes tailles (14,4V)</li>
+<li>Réfrigérateur Peltier (12V)</li>
+<li>Bouilloire électrique (12V)</li>
+<li>Fer à souder (12V) (<a href="https://www.youtube.com/watch?v=7A2qbDgoEZs" target="_blank" >vidéo</a>)</li>
+<li>Perceuse électrique filaire (12V)</li>
+<li>Ponceuse filaire (12V)</li>
+<li>Compresseur d&rsquo;air (12V)</li>
+<li>Chemin de fer miniature (12V)</li>
+<li>Machine à coudre (220V)</li>
+<li>Imprimante matricielle (220V) (<a href="https://www.youtube.com/watch?v=t1M8EgnFutQ" target="_blank" >vidéo</a>)</li>
+<li>Amplificateur stéréo + lecteur cd (220V)</li>
+<li>Ordinateurs portables (12V, 220V)</li>
+<li>Eclairage (5V, 12V, 220V) (<a href="https://www.youtube.com/watch?v=yuZC2rmg0_I" target="_blank" >vidéo</a>)</li>
+<li>Ventilateurs (5V, 12V, 220V)</li>
+</ul>
+<p>Alimenter des lampes est souvent plus pratique avec une batterie, car cela vous permet de profiter de l&rsquo;éclairage sans avoir à pédaler en même temps. Cependant, il est tout à fait possible de lire un livre sur le vélo tout en alimentant les lampes en temps réel, surtout en hiver - cela demande peu d&rsquo;effort, c&rsquo;est plus sain que de rester assis, et cela vous tient chaud. D&rsquo;autres appareils qui se prêtent bien à la production d&rsquo;énergie humaine &quot; par transmission directe &quot; sont les outils électriques et les appareils de chauffage et de climatisation.</p>
+<h3 id="span-idpower-tools1-outils-électriques-filairesspan"><span id="power-tools">1. Outils électriques filaires</span></h3>
+<p>Bien que les outils électriques 12V soient très répandus, ils sont presque toujours alimentés par des batteries lithium-ion. Vous pourriez recharger ces batteries avec de l&rsquo;énergie humaine. Mais cela prendra beaucoup de temps, ne sera pas un effort très important et engendrera d&rsquo;importantes pertes d&rsquo;énergie. Il est donc plus pertinent de transformer ces appareils en outils électriques filaires. De cette manière, vous ne produisez de l&rsquo;énergie que lorsque vous en avez besoin, avec une efficacité bien supérieure. De plus, il n&rsquo;est plus nécessaire d&rsquo;attendre que les batteries se chargent - l&rsquo;outil est toujours prêt à l&rsquo;emploi.</p>
+<p>Transformer un outil alimenté par batterie en un outil filaire peut être assez simple. Après avoir retiré la batterie, repérez les deux pôles positifs et négatifs et soudez-y deux fils. Notez que vous n&rsquo;avez qu&rsquo;une seule chance de déterminer lequel est positif ou négatif. Pour la perceuse électrique, cela a été très facile à trouver. Pour la ponceuse, nous avons demandé conseil car le câblage est plus complexe. Les outils électriques de 12 V dont les batteries sont manquantes ou hors d&rsquo;usage se trouvent d&rsquo;occasion à bas prix.</p>
+<p>Une perceuse électrique filaire est peut-être l&rsquo;outil le plus polyvalent. Vous pouvez l&rsquo;utiliser avec un batteur (pour les œufs), une brosse rigide (pour enlever la peinture ou nettoyer des objets), une meule (pour aiguiser les couteaux) ou un disque à polir (pour faire briller le chrome ou d&rsquo;autres métaux et matériaux). Les outils de précision pour la bijouterie ou le modélisme se combinent également bien avec la transmission directe par pédales. Nous en sommes encore aux premiers essais de transformation et d&rsquo;utilisation d&rsquo;outils électriques filaires de 12V.</p>
+<h3 id="outils-manuels-versus-outils-alimentés-par-pédales">Outils manuels versus outils alimentés par pédales</h3>
+<p>En comparaison avec les <a href="https://mar-ver.github.io/fr/2010/12/hand-powered-drilling-tools-and-machines/" >outils manuels mécaniques</a>, les équipements électriques actionnés par un humain sont moins efficaces sur le plan énergétique. Le fait de passer à l&rsquo;électricité entraîne des pertes d&rsquo;énergie supplémentaires - au niveau du générateur, du convertisseur, des câbles et de la transmission. Cependant, ces pertes sont plus que compensées par une utilisation plus efficace de la source d&rsquo;énergie humaine. Nos jambes sont environ quatre fois plus fortes que nos bras.</p>
+<p>Le recours à l&rsquo;électricité est également plus ergonomique car il ménage les articulations et les muscles de la main. Fixer des dizaines de vis à la main est peut-être plus écologique que d&rsquo;utiliser une perceuse électrique, mais cela peut vous abîmer le poignet. Un vélo générateur vous permet donc de travailler plus rapidement et de manière plus ergonomique sans dépendre d&rsquo;une source d&rsquo;énergie externe.</p>
+<p>Les outils manuels mécaniques ont quand même quelques avantages : ils sont silencieux, plus facilement transportables et leur fabrication consomme moins d&rsquo;énergie. Une troisième option combine ces avantages : <a href="https://mar-ver.github.io/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" >les équipements mécaniques à pédale</a>. Cependant, il est difficile de construire un vélo stationnaire compact qui puisse alimenter de nombreux outils différents. Nous avons conçu le vélo générateur pour qu&rsquo;il soit aussi compact et multifonctionnel que possible.</p>
+<p>Les outils électriques peuvent avoir des consommations élevées, mais cela ne doit pas vous arrêter. La ponceuse n&rsquo;a besoin que de 30 watts au maximum, mais notre perceuse électrique peut demander jusqu&rsquo;à 20A de courant - ce qui est trop élevé pour le vélo générateur et le tableau de bord (12Vx20A=240W). Cependant, la perceuse consomme rarement cette énergie, sauf si vous l&rsquo;utilisez pour percer des matériaux durs.</p>
+<p>La consommation d&rsquo;énergie d&rsquo;un outil électrique augmente chaque fois que le couple augmente, ce qui vous permet de sentir quand le foret a traversé le matériau ou quand la vis a été fixée ou desserrée. Vous pouvez manipuler l&rsquo;outil aussi précisément avec vos pieds qu&rsquo;avec vos mains.</p>
+<h3 id="span-idkettle2-bouilloire-électriquespan"><span id="kettle">2. Bouilloire électrique</span></h3>
+<p>Le chauffage et la climatisation électriques consomment beaucoup d&rsquo;énergie. Les alternatives, comme la <a href="https://mar-ver.github.io/fr/2019/12/too-much-combustion-too-little-fire/" >chaleur solaire directe</a>, sont plus écologiques. Cependant, des systèmes de chauffage et de refroidissement peuvent facilement être intégrés à votre séance d&rsquo;exercice et produire des résultats.</p>
+<p>Nous avons appliqué ce principe avec une bouilloire électrique et un réfrigérateur expérimental Peltier. Les deux appareils sont très bien isolés. Par conséquent, la conversion de l&rsquo;énergie humaine en chaleur ou en froid en fait une autre forme de stockage d&rsquo;énergie - sans tous les inconvénients des batteries.</p>
+<p>Les bouilloires électriques connectées au réseau sont souvent très puissantes et font bouillir l&rsquo;eau en quelques minutes, voire quelques secondes. Faire bouillir de l&rsquo;eau à l&rsquo;aide d&rsquo;un vélo générateur prendra beaucoup plus de temps, mais c&rsquo;est tout à fait possible. Nous avons acheté une bouilloire électrique de 12 V avec un réservoir isotherme d&rsquo;un litre. Au cours d&rsquo;un test, faire bouillir de l&rsquo;eau pour une tasse de thé a pris un peu plus d&rsquo;une heure à une puissance moyenne de 60W.</p>
+<p>La bouilloire électrique peut également servir à préparer des <a href="https://mar-ver.github.io/fr/2022/01/the-revenge-of-the-hot-water-bottle/" >bouillottes pour un confort thermique</a>. Cela nécessite plus d&rsquo;eau qu&rsquo;une tasse de thé, mais à une température plus basse d&rsquo;environ 60 degrés Celsius. Lors d&rsquo;un test, faire chauffer un litre d&rsquo;eau pour une (petite) bouillotte a pris 1 heure et 30 minutes à une puissance moyenne de 60 watts.</p>
+<p>Après cet effort, la dernière chose dont vous avez besoin est une bouillotte. Encore plus fort, pendant cet effort, vous vous transformez en véritable chauffage d&rsquo;une puissance de plusieurs centaines de watts, et vous pouvez augmenter la température de l&rsquo;air dans une petite pièce. L&rsquo;élément chauffant est en quelque sorte intégré au vélo générateur : c&rsquo;est la personne qui l&rsquo;utilise. Cependant, la bouilloire isotherme peut être placée dans une <a href="https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/" >marmite norvégienne</a> et être utilisée jusqu&rsquo;à 24 heures plus tard lorsque vous ne bougez pas et que vous avez besoin de vous réchauffer.</p>
+<h3 id="span-idpeltier3-réfrigérateur-peltierspan"><span id="peltier">3. Réfrigérateur Peltier</span></h3>
+<p>Les réfrigérateurs de 12V qu’on trouve dans le commerce sont chers. Après avoir fait des recherches sur les <a href="https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/" >générateurs thermoélectriques</a> (GTE), l&rsquo;idée d&rsquo;un réfrigérateur Peltier est née. Un réfrigérateur Peltier est en fait une sorte de marmite norvégienne bien isolée sur laquelle est installé un GTE. Si on applique du courant, le module devient chaud d&rsquo;un côté et froid de l&rsquo;autre, ce qui refroidit l&rsquo;intérieur de la boîte. Le refroidissement par GTE n&rsquo;est pas particulièrement efficient. Cependant, il est silencieux, fonctionne sans aucun gaz de refroidissement dangereux et est le moyen le plus simple de fabriquer soi-même un réfrigérateur.</p>
+<p>Le réfrigérateur GTE est un prototype récent, qui doit encore être testé et amélioré. L&rsquo;alimentation d&rsquo;un GTE à pleine puissance nécessite environ 60 watts (12Vx5A), mesurés à la sortie du générateur. C&rsquo;est un bon effort et le variateur permet de diminuer avec précision la résistance au niveau des pédales. Cependant, on s&rsquo;est vite rendu compte qu&rsquo;un GTE n&rsquo;est pas suffisant pour la taille du compartiment de refroidissement. Nous en ajouterons un deuxième pour un effort plus important (60-100 watts).</p>
+<h3 id="appareils-ménagers-220v">Appareils ménagers (220V)</h3>
+<p>Notre tableau de bord comprend également un circuit 220V. Cela le rend compatible avec les appareils alimentés par le réseau électrique (110V aux États-Unis, 240V au Royaume-Uni). Le circuit 220V nécessite un onduleur. L&rsquo;onduleur est trop grand pour être inclus dans le tableau de bord, nous l&rsquo;avons donc placé dans une boîte sur le porte-bagages que nous avons fabriqué à l&rsquo;avant.</p>
+<p>Une prise 220V n&rsquo;est pas nécessaire. De nombreux appareils 220V ont des alternatives 12V (ou 24V) qui sont <a href="https://mar-ver.github.io/fr/2016/04/slow-electricity-the-return-of-dc-power/" >plus économes en énergie pour une production d&rsquo;énergie décentralisée</a>. Cependant, nous avons inclus un circuit 220V pour alimenter les appareils qui n&rsquo;ont pas (encore) été remplacés ou transformés en appareils à basse tension : l&rsquo;imprimante matricielle, la machine à coudre, la chaîne stéréo et le routeur.</p>
+<p>L&rsquo;imprimante matricielle et la machine à coudre sont difficiles à utiliser parce que leur consommation d&rsquo;énergie varie rapidement. Par exemple, pour éviter que la tension ne tombe en dessous de 12V lors des pics de consommation élevés pendant l&rsquo;impression, il faut pédaler très vite (environ 20V) pour fournir une inertie suffisante à la roue d&rsquo;inertie. Un supercondensateur pourrait résoudre ce problème - nous testerons cette option dans les mois à venir. Une machine à coudre mécanique et une imprimante à pédale seraient beaucoup plus efficaces sur le plan énergétique, mais beaucoup plus encombrants.</p>
+<h2 id="span-idalternativeautres-configurations-possibles--vélo-générateur-avec-table-de-travailspan"><span id="alternative">Autres configurations possibles : Vélo générateur avec table de travail</span></h2>
+<p>Le tableau de bord est conçu pour alimenter une multitude d&rsquo;appareils, mais vous pouvez suivre la même approche avec des résultats différents. Par exemple, si vous souhaitez uniquement recharger des batteries au plomb, un circuit de 14,4 V est suffisant. Vous pouvez utiliser un convertisseur buck et boost pour créer la tension dont vous avez besoin, par exemple pour construire un circuit de 3V, 6V, 9V ou 24V.</p>
+<p>Cependant, si vous souhaitez principalement faire fonctionner des appareils de 24V, il est préférable d&rsquo;ajuster le rapport de transmission. De même, si vous souhaitez uniquement recharger des batteries au plomb de 14,4V sur un système de 12V : <a href="#gearratio" >ajustez le rapport de transmission</a> pour générer 16-17V (pour compenser les pertes d&rsquo;énergie dans le convertisseur buck). Le manuel vous explique comment faire.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" alt='Image : La prise 220V.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/220V_huba785fe85721bd533f5c59cc205c952c_9473002_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : La prise 220V.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" alt='Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB).' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Power-outlets_hubdf8c85dd05098d29f32e8071cc285d8_7921124_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" alt='Image : A l&amp;rsquo;intérieur de la boîte :  l&amp;rsquo;onduleur, le régulateur de charge éolienne, la batterie au plomb.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/in-the-box_huffa61bb428ff90b663af7e57f117b152_8863091_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : A l&rsquo;intérieur de la boîte :  l&rsquo;onduleur, le régulateur de charge éolienne, la batterie au plomb.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Nous avons fait le choix d&rsquo;avoir un grand tableau de bord sur le guidon, ce qui présente des avantages et des inconvénients. Le fait d&rsquo;avoir le tableau de bord directement sur le vélo le rend facile à lire et à utiliser. Cela rend également le vélo générateur transportable. Si un voisin a besoin d&rsquo;une alimentation de secours, vous prenez le vélo et vous pouvez être sur place en un instant. En revanche, le fait d&rsquo;avoir le tableau de bord sur le vélo ajoute des vibrations, ce qui augmente le bruit et les pertes d&rsquo;énergie. Il est également nécessaire d&rsquo;ajuster de temps en temps la tension de sortie des convertisseurs buck et boost.</p>
+<p>Plus important encore, le fait d&rsquo;avoir un tableau de bord aussi grand sur le vélo empêche d&rsquo;installer un grand bureau sur le guidon. Cela pourrait être utile pour utiliser des outils électriques ou un ordinateur portable tout en fournissant du courant. Notre installation actuelle n&rsquo;est pas idéale pour utiliser des outils électriques. Il faut deux personnes - une pour pédaler et l&rsquo;autre pour utiliser l&rsquo;outil électrique. De la même façon, vous pouvez alimenter l&rsquo;ordinateur portable d&rsquo;une autre personne, mais vous ne pouvez pas alimenter le vôtre pendant que vous l&rsquo;utilisez.</p>
+<p>Nous prévoyons de construire un vélo générateur avec un tableau de bord plus petit - un circuit 12V et deux ports USB - et un grand espace de travail sur le guidon. Ce type de vélo générateur rappelle les machines à pédales (mécaniques) <a href="https://mar-ver.github.io/fr/2011/05/the-short-history-of-early-pedal-powered-machines/" >similaires du début du vingtième siècle</a>. Une autre option serait de visser le panneau de commande sur le mur ou de le placer sur une étagère, et de placer le vélo générateur à côté. L&rsquo;onduleur, la batterie au plomb et le régulateur de charge éolienne, qui sont à présent sur le porte-bagages, peuvent également être placés à distance du vélo.</p>
+<h2 id="span-idhybridsystème-dalimentation-hybride-solairehumainspan"><span id="hybrid">Système d&rsquo;alimentation hybride solaire/humain</span></h2>
+<p>Vous pourriez penser que notre vélo générateur est plus un gadget qu&rsquo;une source d&rsquo;énergie pratique pour la maison. Cela est vrai en partie. Notre générateur humain est l&rsquo;appareil d&rsquo;exercice parfait - la production d&rsquo;énergie est motivante. Il est également pratique en cas d&rsquo;urgence, surtout s&rsquo;il y a suffisamment de puissance humaine - il peut produire jusqu&rsquo;à 2,4 kWh par jour. Cependant, il ne fournira jamais assez d&rsquo;énergie par jour, même pour un logement low-tech. Dans les faits, il n&rsquo;y a pas assez de personnes prêtes à faire du vélo.</p>
+<p>Par contre, un vélo générateur est un excellent complément à un système solaire photovoltaïque hors réseau, du moins pour un logement à faible consommation d&rsquo;énergie. La production d&rsquo;énergie du vélo générateur ne dépend ni du temps, ni des saisons, ni de l&rsquo;heure de la journée. L&rsquo;énergie humaine peut fournir un supplément d&rsquo;énergie par mauvais temps, ce qui réduit le besoin en batteries coûteuses et peu écologiques. C&rsquo;est particulièrement utile en hiver, lorsque le système photovoltaïque produit beaucoup moins d&rsquo;énergie et que l&rsquo;effort nécessaire pour faire fonctionner le vélo permet également de se réchauffer. L&rsquo;énergie solaire est suffisante en été, lorsqu&rsquo;il fait souvent trop chaud pour utiliser un vélo d’appartement.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" alt='Image : Le vélo générateur à côté du système solaire photovoltaïque. L&amp;rsquo;objectif final est de combiner les deux systèmes d&amp;rsquo;alimentation.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-in-front-of-solar-systems_hud7b73f4d2530e134314689a8ba969b15_9870932_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le vélo générateur à côté du système solaire photovoltaïque. L&rsquo;objectif final est de combiner les deux systèmes d&rsquo;alimentation.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Avec une puissance de 50 à 100 watts, le vélo générateur est plus puissant que les deux panneaux solaires qui se trouvent sur le balcon à côté : le panneau solaire de 50 W qui alimente les lampes du salon et celui de 30 W qui fait fonctionner le <a href="/fr/about.html" >site internet solaire</a>. Les panneaux solaires atteignent rarement - voire jamais - leur rendement maximal et, par mauvais temps, ils produisent beaucoup moins d&rsquo;énergie que le vélo générateur. Lorsque le ciel est couvert de nuages noirs, la production d&rsquo;énergie tombe presque à zéro, et si cela dure deux jours, les lampes et le site internet s&rsquo;éteignent. Une ou deux heures par jour sur le vélo générateur pourraient résoudre ce problème. De même, la puissance des pédales pourrait faire fonctionner des outils électriques ou d&rsquo;autres appareils sans puiser dans le stockage d&rsquo;énergie du système photovoltaïque.</p>
+<p>Il est également possible d&rsquo;utiliser le tableau de bord avec un panneau solaire au lieu d&rsquo;un vélo générateur. Il suffit de remplacer le <a href="#wind" >régulateur de charge éolienne</a> par un régulateur de charge solaire. Vous pouvez alors utiliser l&rsquo;énergie solaire pour alimenter directement des appareils - sans nécessairement utiliser un régulateur de charge solaire et une batterie. Si vous remplacez le régulateur de charge éolienne par un régulateur de charge hybride solaire/éolienne, vous pouvez utiliser les deux sources d&rsquo;énergie pour recharger les batteries et alimenter directement les appareils. L&rsquo;énergie solaire et l&rsquo;énergie humaine peuvent également être combinées, ce qui augmente la puissance de sortie.</p>
+<p>En combinant l&rsquo;énergie solaire et l&rsquo;énergie humaine, il devrait être possible de faire un pas de plus <a href="https://mar-ver.github.io/fr/2016/05/how-to-get-your-apartment-off-the-grid/" >vers un logement urbain hors réseau</a>. L&rsquo;objectif est d&rsquo;ajouter un autre panneau solaire de 50W, de déconnecter davantage d&rsquo;appareils du réseau (notamment le réfrigérateur) et de conserver le stockage des batteries tel quel.</p>
+<h2 id="span-idmanual-bikemanuel--le-vélo-générateurspan"><span id="manual-bike">Manuel : Le Vélo Générateur</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" alt='Image :  Le système d&amp;rsquo;entraînement par friction.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive-intro_hu9e496e5745f1e77f4a1cc8531beb04df_9289577_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image :  Le système d&rsquo;entraînement par friction.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="span-idtypede-quel-type-de-générateur-avez-vous-besoin-span"><span id="type">De quel type de générateur avez-vous besoin ?</span></h3>
+<p>Pour convertir l&rsquo;énergie mécanique de la roue d&rsquo;inertie en électricité, vous avez besoin d&rsquo;un générateur de courant continu à aimant permanent 12V/24V d&rsquo;une puissance maximale d&rsquo;environ 150-250 watts. Tous les générateurs ne conviennent pas. Vous devez en utiliser un qui fonctionne à une vitesse relativement faible (&lt;5000 tours/minute sans charge) pour obtenir 12 ou 24V avec un rapport de transmission raisonnable (voir plus loin). De nombreux générateurs doivent fonctionner à des vitesses plus élevées pour générer 12 ou 24 V, et vous ne serez pas en mesure de produire plus de quelques volts à une vitesse de pédalage moyenne.</p>
+<p>Assurez-vous de prendre un moteur à courant continu à balais (“brushed DC motor”). Les moteurs CC sans balais ne fonctionneront pas car ils nécessitent une vitesse de rotation très élevée. À noter qu&rsquo;un générateur est un moteur fonctionnant en sens inverse. Lorsque vous effectuez une recherche en ligne, vous obtiendrez plus de résultats avec &quot; moteur à courant continu &quot; qu&rsquo;avec &quot; générateur à courant continu &ldquo;. Les alternateurs de voiture fonctionnent également, et de nombreuses installations électriques à pédales les utilisent car ils sont peu coûteux et faciles à obtenir. Cependant, ils sont très inefficaces et nécessitent une batterie de 9V pour démarrer.</p>
+<p>Vous pouvez récupérer des générateurs CC sur des scooters électriques ou des vélos usagés, mais nous en avons acheté un neuf : le <a href="https://www.ampflow.com/motors/pancake/" target="_blank" >Ampflow Pancake Motor P40-250</a>. Il tourne à 1700 tours/minute sans charge à 12V et a une puissance maximale de 250 watts. Vous pouvez le fixer fermement à une surface métallique ou en bois, ce qui vous évitera bien des soucis.</p>
+<h3 id="span-idgearratiocomment-calculer-le-rapport-de-transmission-et-la-taille-du-galet-span"><span id="gearratio">Comment calculer le rapport de transmission et la taille du galet ?</span></h3>
+<p>La tension produite par le générateur est directement proportionnelle à la vitesse de rotation du générateur (le TPM ou &quot; tours par minute &ldquo;). Cependant, la vitesse de rotation du générateur n&rsquo;est pas connue d&rsquo;avance. Elle dépend de la vitesse à laquelle vous pédalez ( TPM des pédales). Elle dépend également du rapport de transmission entre les pédales et le générateur. Le TPM moyen des pédales sur un vélo stationnaire - une vitesse de pédalage confortable que vous pouvez maintenir pendant une longue période - est d&rsquo;environ 60 tours/minute. Il peut être calculé précisément à l&rsquo;aide d&rsquo;un tachymètre ou d&rsquo;astuces low-tech. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>Notre vélo générateur utilise un système d&rsquo;entraînement par friction. Il s&rsquo;agit d&rsquo;une petite roue (le galet) fixée à l&rsquo;arbre du générateur qui va tourner au contact de la roue d&rsquo;inertie. Pour calculer le rapport de transmission, il faut mesurer le diamètre extérieur de quatre pièces : le pignon de la pédale, le pignon de la roue d&rsquo;inertie, la roue d&rsquo;inertie et le galet. Les trois premiers sont connus, tandis que le dernier est à déterminer. La taille du galet dont vous avez besoin dépend des spécifications de votre générateur et de la tension exacte que vous souhaitez produire. Ce calcul peut s&rsquo;avérer difficile, à moins que quelqu&rsquo;un ne vous fournisse la bonne formule (merci, Gabriel Verdeil !).</p>
+<p>Tout d&rsquo;abord, vous devez trouver le nombre de tours/minute sans charge (&ldquo;no-load RPM&rdquo;) de votre générateur. Cette information devrait être fournie par le fabricant. Notre générateur est à 3400 tours/minute sans charge à 24V. Ce rapport est proportionnel - vous pouvez calculer le nombre de tours/minute sans charge requis pour n&rsquo;importe quelle tension souhaitée. Par exemple, à 12V, c&rsquo;est 1700 tours/minute (3400/24x12), et à 16V, c&rsquo;est 2267 tours/minute (3400/24x16). Ensuite, mesurez le diamètre extérieur du pignon de la pédale, du pignon de la roue d&rsquo;inertie et de la roue d&rsquo;inertie. Que vous utilisiez des mm, des cm ou toute autre unité n&rsquo;a pas d&rsquo;importance, mais il faut rester cohérent. Vous avez maintenant toutes les données dont vous avez besoin pour calculer la taille du galet. Ci-dessous, vous trouverez la formule, suivie du calcul dans notre cas spécifique (en supposant que les pédales tournent à 60 tours/minute) :</p>
+<p>Diamètre du galet = (PPxRxTPM pédales)/(PRxTPM générateur)</p>
+<ul>
+<li>PP = diamètre du pignon de la pédale</li>
+<li>R = diamètre de la roue d&rsquo;inertie</li>
+<li>TPM pédales = vitesse à laquelle vous pédalez - tours/minute</li>
+<li>PR = diamètre du pignon de la roue d&rsquo;inertie</li>
+<li>TPM générateur = nombre de tours/minute sans charge du générateur.</li>
+</ul>
+<p>Diamètre du galet dans notre configuration (en mm) pour produire différentes tensions :</p>
+<ul>
+<li>12V = (190x525x60)/(60x1700) = 58,68 mm de diamètre pour le galet.</li>
+<li>13V = (190x525x60)/(60x1842) = 54,15 mm de diamètre pour le galet.</li>
+<li>14V = (190x525x60)/(60x1983) = 50,30 mm de diamètre pour le galet.</li>
+<li>15V = (190x525x60)/(60x2125) = 46,94 mm de diamètre pour le galet.</li>
+<li>16V = (190x525x60)/(60x2267) = 44,00 mm de diamètre pour le galet.</li>
+<li>17V = (190x525x60)/(60x2408) = 41,42 mm de diamètre pour le galet.</li>
+<li>24V = (190x525x60)/(60x3400) = 29,34 mm de diamètre pour le galet.</li>
+</ul>
+<p>La tension exacte dont vous avez besoin - et donc la taille exacte du galet - dépend de ce que vous voulez faire exactement avec le vélo. Nous abordons ce point en détail dans le <a href="#manual-dashboard" >manuel du tableau de bord</a>. Imaginons que vous vouliez charger des batteries au plomb (qui nécessitent 14,4 V). Vous utilisez un convertisseur buck (qui abaisse la tension d&rsquo;entrée), vous devrez donc produire près de 17V pour compenser les pertes dans la conversion de tension. Cela donne un diamètre de galet de 41,42mm. Cette configuration apparaît dans l&rsquo;illustration ci-dessous.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator-fr_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/gear-ratio-bike-generator-fr_hu44153721072b79bc2c81b52db63e9373_107939_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator-fr_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Vous pouvez utiliser cette formule de différentes manières. Vous pouvez l&rsquo;utiliser pour calculer le nombre de tours/min minimum aux pédales pour un galet donné, pour calculer le nombre de tours/min du générateur en fonction d&rsquo;un nombre de tours/min donné aux pédales et de la taille du galet, et pour calculer la tension qui sera produite par une certaine configuration. Vous trouverez les formules ci-dessous, suivies d&rsquo;un exemple basé sur la configuration illustrée plus haut :</p>
+<p>Pour calculer le nombre de tours/min minimum aux pédales pour une taille de galet donnée (G) :</p>
+<ul>
+<li>TPM générateur/[(PPxR)/(PRxG] * 2260/[(190x525)/(60x41)] = 55,81 TPM aux pédales.</li>
+</ul>
+<p>Pour calculer le nombre de tours/minute du générateur pour une taille de galet et un nombre de tours/minute aux pédales donnés :</p>
+<ul>
+<li>(PP/FS)x(R/G)xTPM aux pédales * (190/60)x(525/41)x55 = 40,61 (rapport de transmission)x56 = 2274 TPM générateur</li>
+</ul>
+<p>Pour calculer la tension pour un nombre de tours/minute donné au niveau du générateur :</p>
+<ul>
+<li>TPM générateurxRatio TPM sans charge * 2274x(3400/24) = 16.1V</li>
+</ul>
+<h3 id="span-idspindlede-quel-type-de-galet-avez-vous-besoin-span"><span id="spindle">De quel type de galet avez-vous besoin ?</span></h3>
+<p>Déterminer la taille du galet n&rsquo;est pas tout. Il peut être difficile de trouver un galet du bon diamètre, fabriqué dans le matériau adéquat et compatible avec l&rsquo;arbre du générateur. Nous avons essayé une douzaine de galets jusqu&rsquo;à ce que nous trouvions le bon. Une roue d&rsquo;inertie a une surface dure et nécessite un galet souple en caoutchouc ou en polyuréthane. Nous avons constaté qu&rsquo;un tampon amortisseur en métal et en caoutchouc permettait une friction optimale avec notre roue d&rsquo;inertie. Nous l&rsquo;avons amené dans un atelier de métallurgie où on y a fait percer un trou de 10 mm.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" alt='Image : Un aperçu de nos galets de test.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/spindles-sample_huca133ef5d176c62e1845c444b919545d_10055859_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Un aperçu de nos galets de test.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>D&rsquo;autres options possibles sont les petites roues solides en polyuréthane et les suspensions en caoutchouc. Les roues de patins ont un diamètre intérieur plus grand, ce qui n&rsquo;est pas idéal pour un arbre de 8-10 mm. Veillez à choisir un matériau capable de supporter la friction : certains plastiques ont tendance à chauffer et à fondre. Gardez à l&rsquo;esprit qu&rsquo;il s&rsquo;agit d&rsquo;un processus d&rsquo;essai et d&rsquo;erreur. Vous n&rsquo;y arriverez pas du premier coup. Vous pouvez également concevoir une pièce sur mesure avec un tour à métaux, comme expliqué dans le <a href="https://www.re-innovation.co.uk/docs/no-welding-pedal-generator-stand/" target="_blank" >tutoriel de magnificientrevolution.org</a>. Un moyeu de montage universel peut faciliter la fixation de roues qui ont des trous de fixation, comme les roues de robot.</p>
+<p>Acheter un générateur DC avec un galet intégré semble être la solution la plus simple. Par exemple, Pedal Power Generator propose un <a href="https://www.amazon.com/Bicycle-Generator-Dynamo-rubber-polyeurethane/dp/B07939RBJR/ref=sr_1_8?keywords=Pedal&#43;Power&#43;Generator&amp;qid=1645908023&amp;sr=8-8" target="_blank" >générateur de 360 W avec un galet de 37,5 mm</a>. Cependant, vous ne pouvez pas choisir de galet d&rsquo;un autre diamètre. Cela signifie que vous ne pouvez pas contrôler la tension de sortie, à moins de remplacer les pignons de la transmission du vélo. Dans notre cas, un galet de 37,5 mm produirait 18 V, ce qui est trop.</p>
+<h3 id="span-idfixcomment-fixer-le-galet-sur-le-générateur-span"><span id="fix">Comment fixer le galet sur le générateur ?</span></h3>
+<p>Le générateur est livré avec un pignon ou une poulie d&rsquo;entraînement intégré. Vous devez le retirer pour fixer le galet. Un écrou de blocage en nylon à filetage inversé maintient le pignon ou la poulie d&rsquo;entraînement. Vous devez le dévisser vers la droite. Vous aurez probablement besoin d&rsquo;un serre-joint pour y parvenir.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" alt='Image : Le générateur avec un arbre fileté.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-with-shaft-arbor_hu8c82aba41c37bc89aa723bc9a7c99f93_5884136_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le générateur avec un arbre fileté.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" alt='Image : Le générateur avec le galet de 41 mm.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Generator_hu1c209f670074bde2d7ffd6920a62cf8f_4847784_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le générateur avec le galet de 41 mm.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Notre générateur est doté d&rsquo;un arbre de 8 mm, tandis que notre galet s&rsquo;adapte à un arbre de 10 mm. Nous utilisons donc un galet en deux parties comprenant un &ldquo;arbre&rdquo; et une roue. Pour fixer correctement le galet, vous pouvez profiter de la découpe en D de l&rsquo;arbre (un &ldquo;arbre rond avec plat d&rsquo;entraînement&rdquo;). Notre premier essai a été une fixation par filetage, mais cela n&rsquo;a pas fonctionné. À cause du filetage inversé, il se détache lorsque le générateur commence à tourner.</p>
+<p>Il s&rsquo;est avéré qu&rsquo;une extension d&rsquo;arbre filetée avec des vis sans tête était la solution la plus polyvalente pour tester différentes roues. Nous avons fixé l&rsquo;extension d&rsquo;arbre avec des vis sans tête sur la partie plate de l&rsquo;arbre. Il s&rsquo;agit d&rsquo;une tige filetée M10. Vous pouvez fixer une roue dessus avec quelques rondelles et un écrou. Un accouplement rigide peut également servir de petit galet. Vous pouvez également l&rsquo;utiliser pour fixer l&rsquo;arbre du générateur à un autre axe avec une roue. Cependant, nous avons constaté que ce n&rsquo;était pas idéal pour notre installation car les vis de réglage dépassent de la pièce, ce qui endommage la roue d&rsquo;inertie.</p>
+<h3 id="span-idfrictioncomment-fixer-le-système-dentraînement-par-friction-au-vélo-span"><span id="friction">Comment fixer le système d&rsquo;entraînement par friction au vélo ?</span></h3>
+<p>Nous avons vissé le générateur à une planche de bois, puis nous l&rsquo;avons appuyé contre la roue d&rsquo;inertie à l&rsquo;aide d&rsquo;une structure de support en bois. La planche est fixée au vélo à l&rsquo;aide d&rsquo;une solide charnière de porte. Cela permet d&rsquo;adapter l&rsquo;angle selon lequel le galet est en contact avec la roue d&rsquo;inertie. Le support repose sur une cale en liège qui amortit les vibrations. Voir notre <a href="#first" >premier prototype</a> pour une autre méthode.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" alt='Image : Le système d&amp;rsquo;entraînement par friction.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-stand_huaf3e3e7405ffea21b40a640792a09b03_7918251_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Le système d&rsquo;entraînement par friction.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-idmanual-dashboardmanuel--le-tableau-de-bordspan"><span id="manual-dashboard">Manuel : Le Tableau de Bord</span></h2>
+<h3 id="span-idbuckboostconvertisseurs-abaisseurs-et-élévateurs-buck-et-boost-variateursspan"><span id="buckboost">Convertisseurs abaisseurs et élévateurs (buck et boost), variateurs</span></h3>
+<p>Les convertisseurs buck et boost sont des composants électroniques qui convertissent une tension d&rsquo;entrée fluctuante en une tension de sortie constante. Les convertisseurs buck reçoivent une tension d&rsquo;entrée supérieure à la tension de sortie (ils abaissent la tension), tandis que les convertisseurs boost reçoivent une tension de sortie supérieure à la tension d&rsquo;entrée (ils augmentent la tension).</p>
+<p>Vous pouvez régler la tension de sortie en tournant une petite vis sur le composant. Certains convertisseurs buck et boost sont équipés d&rsquo;un petit écran numérique qui indique la tension de sortie. Si ce n&rsquo;est pas le cas, vous pouvez utiliser un multimètre pour régler la tension de sortie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Dashboard-white-background_hucbbb3cc5bd1350ad71ef884b55de2001_5891939_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Notez que vous avez besoin soit d&rsquo;un convertisseur buck, soit d&rsquo;un convertisseur boost. N&rsquo;utilisez PAS de convertisseur buck/boost. Il s&rsquo;agit d&rsquo;une sorte de microsystème d&rsquo;alimentation qui nécessite que la tension de sortie soit ajustée à chaque fois que le système est mis sous tension. Cela n&rsquo;est pas pratique et risque d&rsquo;endommager vos appareils. En revanche, un convertisseur buck ou boost se souvient de la tension de sortie chaque fois que vous le mettez en marche.</p>
+<p>De même, n&rsquo;achetez PAS de régulateur de tension. Ce dispositif vous permet de réguler la tension de sortie mais uniquement par rapport à la tension d&rsquo;entrée. Si la tension d&rsquo;entrée change, la tension de sortie changera également. Vous devez acheter un convertisseur buck ou boost, pour lequel la tension d&rsquo;entrée peut fluctuer mais la tension de sortie est stable.</p>
+<p>Enfin, vous devez vérifier le courant maximal avant d&rsquo;acheter un convertisseur buck ou boost. Certains ne supportent que 2A, ce qui n&rsquo;est pas assez puissant pour un vélo générateur. Il vous faut un convertisseur d&rsquo;au moins 5A, et de préférence un convertisseur de 10A ou 15A, en fonction de votre puissance.</p>
+<h3 id="convertisseur-buck-ou-boost-">Convertisseur buck ou boost ?</h3>
+<p>Le choix d&rsquo;un convertisseur buck ou boost dépend de la tension produite par le générateur - et de la tension du ou des appareils que vous souhaitez alimenter ou charger. Si le vélo générateur délivre une tension de 12V et que vous voulez charger des appareils USB de 5V, vous devez diminuer le volume et donc utiliser un convertisseur buck. Les petits modules dotés d&rsquo;un connecteur USB convertissent une tension d&rsquo;entrée fluctuante en une tension de sortie constante de 5V. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>Si vous voulez alimenter des appareils 12V ou recharger des batteries au plomb (14,4V), un convertisseur buck ou boost peut fonctionner. Si vous optez pour un convertisseur buck, le vélo générateur doit avoir une tension de sortie légèrement supérieure à 12V ou 14,4V (13-14V et 16-17V, respectivement). Cette tension d&rsquo;entrée plus élevée est nécessaire pour compenser les pertes d&rsquo;énergie dans la conversion de puissance. Si vous utilisez un convertisseur boost, la tension de sortie du générateur doit rester inférieure à 12V ou 14,4V.</p>
+<p>Un convertisseur buck ne dépassera jamais la tension de sortie choisie, quelle que soit la quantité de volts produite par le générateur. En revanche, un convertisseur boost vous garantit une tension de sortie minimale, mais il ne fixe pas de tension de sortie maximale. Si vous pédalez trop vite, la tension de sortie peut dépasser la tension de sortie choisie et endommager l&rsquo;appareil ou la batterie que vous alimentez ou rechargez.</p>
+<p>Pour notre premier prototype de tableau de bord, nous n&rsquo;avons utilisé que des convertisseurs buck. Pour la version suivante, nous avons utilisé un convertisseur boost pour charger des batteries au plomb. Le générateur doit produire 16-17V pour obtenir une tension de sortie de 14,4V avec un convertisseur buck. C&rsquo;est très bien si vous voulez seulement charger des batteries au plomb, car vous pouvez alors ajuster le rapport de transmission pour produire 16-17V à une vitesse de pédalage confortable. Cependant, si vous optimisez le rapport de transmission pour des tensions inférieures, vous devrez pédaler très vite chaque fois que vous voudrez recharger des batteries pendant votre séance d&rsquo;entraînement.</p>
+<h3 id="span-idwindrégulateur-de-charge-éoliennespan"><span id="wind">Régulateur de charge éolienne</span></h3>
+<p>Le vélo générateur doit fournir 14,4 V pour charger les batteries au plomb, soit la tension maximale dont elles ont besoin. En principe, tout ce dont vous avez besoin est un convertisseur buck ou boost, mais il y a un problème : vous risquez de surcharger la batterie, ce qui peut entraîner une explosion.</p>
+<p>Vous pouvez éviter ce risque d&rsquo;une manière peu sophistiquée en gardant un œil sur l&rsquo;ampèremètre. Lorsque le courant tombe à 3 % de la capacité de stockage nominale de la batterie (en Ah), la batterie est complètement rechargée - et vous devez arrêter de pédaler. Étant donné que vous êtes la source d&rsquo;énergie et donc certainement présent et éveillé, cette approche est moins risquée que la charge d&rsquo;une batterie au plomb à partir d&rsquo;une alimentation en courant continu ou d&rsquo;un panneau solaire sans régulateur de charge.</p>
+<p>Cependant, il est bon d&rsquo;ajouter plus de sécurité. Un régulateur de charge solaire fournit cette sécurité dans un système solaire photovoltaïque. Il coupe l&rsquo;alimentation lorsque la tension dépasse 14,4V. Cependant, un régulateur de charge solaire ne fonctionne pas lorsqu&rsquo;il est couplé à un vélo générateur. Vous avez plutôt besoin d&rsquo;un régulateur de charge éolienne, qui fonctionne dans l&rsquo;autre sens.</p>
+<p>Au lieu de réduire la charge à zéro, un régulateur de charge éolienne l&rsquo;augmente soudainement et &ldquo;freine&rdquo;. Si vous utilisez un convertisseur buck, le régulateur de charge éolienne activera rarement le frein parce que le convertisseur buck limitera la tension de sortie à 14,4V. Il ne freinera que lorsque vous menacerez de surcharger la batterie. Si vous utilisez un convertisseur boost, le régulateur de charge éolienne freinera chaque fois que vous dépasserez accidentellement une tension de sortie de 14,4V.</p>
+<p>Les régulateurs de charge éolienne ont trois câbles verts à connecter à la source d&rsquo;alimentation. Vous pouvez prendre deux de ces trois fils et les connecter au plus et au moins de la source d&rsquo;alimentation - peu importe lequels.</p>
+<p>La plupart des régulateurs de charge éoliennes disponibles dans le commerce sont beaucoup trop puissants pour un générateur d&rsquo;électricité à pédales, alors prenez le plus petit que vous pouvez trouver. Nous avons renvoyé deux régulateurs de charge au fabricant. Un régulateur de charge éolienne avec écran était livré sans manuel, et personne n&rsquo;a réussi à comprendre comment il fonctionnait. Le seul régulateur hybride éolienne/solaire que nous avons essayé, jusqu&rsquo;à présent, était dangereux. Le panneau solaire surchargeait la batterie. Il maintenait également le frein électrique pendant une demi-heure chaque fois que nous franchissions le seuil, bloquant ainsi la production d&rsquo;énergie humaine.</p>
+<h3 id="span-idwirescâbles-connecteurs-diodes-fusibles-interrupteurs-span"><span id="wires">Câbles, connecteurs, diodes, fusibles, interrupteurs </span></h3>
+<p>Vous avez besoin de câbles, de connecteurs, de diodes, de fusibles et d&rsquo;interrupteurs pour tout connecter. Toutes ces pièces peuvent porter à confusion, alors voici ce que vous devez savoir.</p>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-panel-portrait_hucaad8f3d22e464c9df29c35e0be377c7_1130855_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="câbles">Câbles</h3>
+<p>Le tableau de bord comprend environ dix mètres de câble électrique. Toutefois, la principale chose dont il faut se préoccuper n&rsquo;est pas la longueur mais l&rsquo;épaisseur du câble. Si vous optez pour des câbles trop fins, votre tableau de bord risque de prendre feu lors de séances d&rsquo;entraînement intensives. Faire le bon choix peut être source de confusion car il existe <a href="https://www.powerstream.com/Wire_Size.htm" target="_blank" >plusieurs</a> <a href="https://www.lapptannehill.com/resources/technical-information/metric-to-awg-conversion-chart" target="_blank" >normes</a>. Nous avons câblé le tableau de bord avec un câble 20AWG 0,52mm2, qui supporte 11A. Une meilleure option aurait été un câble 18AWG 0,82mm2, qui supporte 16A. Faites attention lorsque vous dénudez les câbles : si vous coupez trop loin, le câble peut supporter moins de courant.</p>
+<h3 id="connecteurs">Connecteurs</h3>
+<p>Les câbles peuvent être connectés avec des méthodes très différentes. Nous avons choisi des connecteurs à levier - encombrants et chers mais pratiques. Ils permettent de connecter les câbles de manière sûre, sans soudure ni vis. Ces connecteurs sont dotés de deux à dix entrées. Le câblage du tableau de bord peut vite devenir désordonné. Assurez-vous de ne pas couper les câbles trop courts.</p>
+<h3 id="fusibles">Fusibles</h3>
+<p>Vous pouvez construire un vélo générateur et un tableau de bord sans fusibles, mais ce n&rsquo;est pas une très bonne idée. Un fusible coupe le circuit électrique lorsque vous dépassez un seuil de courant, ce qui évite les incendies et les dommages aux composants. Nous avons placé un fusible de 12A à l&rsquo;entrée du tableau de bord (notre production d&rsquo;énergie maximale est de 8-9A). Nous avons également ajouté des fusibles à la plupart des appareils que nous alimentons.</p>
+<h3 id="interrupteurs">Interrupteurs</h3>
+<p>Les circuits commutables nécessitent des interrupteurs. Notre tableau de bord en compte neuf. Nous voulions des interrupteurs qui s&rsquo;allument lorsqu&rsquo;ils sont actifs, car cela permet de voir rapidement quels circuits électriques sont en fonctionnement lors du démarrage du générateur à pédale. Cependant, les lumières rendent le câblage des interrupteurs plus complexe.</p>
+<p>Nous avons acheté des interrupteurs avec les câbles déjà fixés car nous préférions ne pas souder les connexions. Cependant, nous avons dû les souder quand même, car les câbles épais prenaient trop de place. Les interrupteurs sans lumière et avec des câbles déjà fixés plus fins simplifient cette partie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" alt='Image : Câblage des interrupteurs.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-on-off-switch2_hu619c03e126fba9507b966073be9e16b5_65316_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Câblage des interrupteurs.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h3 id="diode-schottky">Diode Schottky</h3>
+<p>Une diode Schottky assure que le courant ne puisse circuler que dans un seul sens dans un câble. Cette petite pièce est essentielle lorsque des batteries sont reliées à votre système. Sans diode, la batterie pourrait alimenter le générateur (et faire tourner les pédales) et non l&rsquo;inverse. Nous avons placé une diode Schottky juste après le générateur pour éviter cela. Elle doit être dimensionnée pour un ampérage correct : supérieur à votre production d&rsquo;énergie prévue. Notre production d&rsquo;énergie maximale est de 8-9A, la diode Schottky supporte 10A.</p>
+<h3 id="span-idinstrumentsles-indicateurs-du-tableau-de-bordspan"><span id="instruments">Les indicateurs du tableau de bord</span></h3>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/volt-amperemeter_hu1e86e61be491b0df2ca60ffa10f9f4de_698109_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Le tableau de bord dispose de plusieurs affichages qui indiquent la tension et le courant dans différents circuits électriques. Le voltmètre - ampèremètre analogique situé en haut est le plus important. Il indique la quantité de puissance produite par le générateur (VxA=W). Le voltmètre vous indique la vitesse à laquelle vous pédalez, l&rsquo;ampèremètre la force avec laquelle vous pédalez.</p>
+<p>Les voltmètres - ampèremètres analogiques sont plus précis au milieu de leur plage, nous choisissons donc un voltmètre qui va jusqu&rsquo;à 30V et un ampèremètre qui va jusqu&rsquo;à 15A. Un multimètre numérique est plus compact, mais les analogiques affichent mieux les variations. Au-dessus, il y a un circuit USB pour brancher une petite lampe LED. Cela vous permet de garder un œil sur le voltmètre et ampèremètre dans l&rsquo;obscurité. C&rsquo;est également pratique pour vérifier rapidement si le système fonctionne.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" alt='Image : Câblage d&amp;rsquo;un voltmètre et d&amp;rsquo;un ampèremètre analogiques.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-analog-meters-cut_hu405eae204eb6ddec60df2b312b082316_66220_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image : Câblage d&rsquo;un voltmètre et d&rsquo;un ampèremètre analogiques.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Sous le voltmètre et l&rsquo;ampèremètre se trouvent trois voltmètres pour chaque convertisseur buck et boost. Ils indiquent la tension de sortie pour chacun des circuits. La tension de sortie doit être de 12,0 V pour les circuits électriques de 12 V et 220 V et de 14,4 V pour le circuit de 14,4 V. Les deux premiers peuvent tomber en dessous de cette valeur si vous ne pédalez pas assez vite, tandis que le dernier peut la dépasser si vous pédalez trop vite &ndash; le <a href="#wind" >contrôleur de charge éolienne</a> vous le fera aussi comprendre. Il y a également un voltmètre et un ampèremètre sur le circuit 5V. Cela permet de maximiser la production d&rsquo;énergie en ajoutant autant de dispositifs USB que possible (jusqu&rsquo;à 2A).</p>
+<p>Deux autres indicateurs ne se trouvent pas directement sur le tableau de bord : le voltmètre de la batterie au plomb et les thermomètres de la bouilloire électrique et du réfrigérateur Peltier. Aucun de ces instruments n&rsquo;est indispensable. Cependant, ils peuvent motiver le cycliste électrique. Sur la route, vos efforts se traduisent par une distance parcourue. Le cyclisme stationnaire peut être ennuyeux - vous n&rsquo;allez nulle part. Les indicateurs vous aident à vous fixer des objectifs. Par exemple : abaisser la température du réfrigérateur de 2 degrés C avant de prendre une douche.</p>
+<h3 id="span-idpanelpanneau-du-tableau-de-bord-et-fixationspan"><span id="panel">Panneau du tableau de bord et fixation</span></h3>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/Mounting-dashboard_hubfa70d8aeeb22f421858d71599f56632_7142505_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/files-dashboard_huf93f83d2c400b77c0c116b412670d2e2_129099_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Nous avons fixé le tableau de bord au guidon et ajouté un porte-bagages à l&rsquo;avant qui contient des pièces supplémentaires comme un onduleur, un régulateur de charge éolienne et une batterie au plomb. Sur le dessus de la boîte se trouvent les sorties d&rsquo;alimentation de chaque circuit et un hub USB. La boîte a un couvercle ouvert et des trous pour faire passer les câbles du tableau de bord (ils passent d&rsquo;abord à l&rsquo;intérieur du guidon).</p>
+<p>Nous avons utilisé une découpeuse laser dans un maker space (MADE Barcelona) pour produire le panneau. Tous les composants sont encastrés ou pris en sandwich entre deux couches de MDF de 4 mm. Vous pouvez facilement retirer le panneau avant si quelque chose doit être changé ou réparé. Une plaque acrylique transparente protège les convertisseurs buck et boost. Vous pouvez l&rsquo;enlever pour régler la tension de sortie. Nous avons fixé le tableau de bord à la poignée du vélo avec des colliers de serrage en caoutchouc, des écrous borgnes M8 et des boulons.</p>
+<h2 id="span-idwirecomment-câbler-le-tableau-de-bord-span"><span id="wire">Comment câbler le tableau de bord ?</span></h2>
+<h2 id="span-idcompletetableau-de-bord-complet-span"><span id="complete">Tableau de bord complet :</span></h2>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" alt='1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/complete-control-panel-wiring_hua1f4cb4ff362fa373b937a3848d11ac3_139695_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id5vcircuit-5v-span"><span id="5V">Circuit 5V :</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" alt='8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/5V-circuit_huc74a9f1c787e7220b71fa87af438b65f_68716_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id12vcircuit-12v-span"><span id="12V">Circuit 12V :</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" alt='11 : Convertisseur Buck. 12 : Variateur.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/12V-circuit_hu6e5db91cac5c2888a25f5c3504861b2d_89048_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>11 : Convertisseur Buck. 12 : Variateur.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id14vcircuit-144v-span"><span id="14V">Circuit 14.4V :</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" alt='13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/14-4V-circuit_hu78fcebec2bac6900d83161eac12ff0fe_70584_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-id220vcircuit-220v-span"><span id="220V">Circuit 220V :</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" alt='17 : Convertisseur Buck. 18 : Onduleur.' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/220V-circuit_huc0b410a99a5e57be74574773ceb9a357_68558_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>17 : Convertisseur Buck. 18 : Onduleur.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<h2 id="span-idcomponentsmanuel--liste-des-composantsspan"><span id="components">Manuel : Liste des composants</span></h2>
+<h3 id="générateur">Générateur</h3>
+<ol>
+<li>Moteur (x1). <a href="https://www.ampflow.com/motors/pancake/" target="_blank" >Ampflow P40 - 250W Pancake DC. Moteur à balais 24-12V</a></li>
+<li>Extension de l&rsquo;arbre (x1). Extension d&rsquo;arbre filetée de 8mm à M10 (&ldquo;threaded shaft arbor&rdquo; si vous faites la recherche en anglais) 1. Galet (x1).</li>
+</ol>
+<h3 id="dashboard">Dashboard</h3>
+<ol>
+<li>Diode Schottky (x1). BOJACK Diode Schottky 10SQ045 (10A 45V).</li>
+<li>Fusible (x1). 1. Ampèremètre analogique (x1). Ampèremètre analogique DH-670 0-5A Classe 2.0 &amp; Voltmètre analogique (x1) - Voltmètre analogique DH-670 DC 0-30V Classe 2.0.</li>
+<li>Interrupteur On/Off LED (x8) - KR1-5 Series Rocker ON/OFF Switch 12V 20A 3 broches avec LED 1. Connecteur de câble (≈16 de différents formats).</li>
+<li>Lampe LED USB 5V. N&rsquo;importe quelle lampe LED USB à tige flexible conviendra.</li>
+<li>Convertisseur Buck 5V (x2). Convertisseur Buck MH KC24 DC-DC 24-12V Chargeur Step Down vers 5V USB avec protocole de charge rapide.</li>
+<li>Voltmètre et ampèremètre 5V USB.</li>
+<li>Multiprise USB 5V.</li>
+<li>Convertisseur Buck 12 V 5A (x2). Convertisseur Buck DC-DC ajustable 12-24-36V 5A.</li>
+<li>Variateur et prise 12V DC (x1). RUIZHI Prise femelle étanche 12V DC pour allume cigare de voiture.</li>
+<li>Convertisseur Boost (x1).</li>
+<li>Contrôleur de charge pour éolienne (x1) - Asixx Waterproof Wind Charge Controller 24-12V 300/600W.</li>
+<li>Voltmètre électronique pour batterie.</li>
+<li>Convertisseur Buck 12V 15A - Convertisseur Buck 200W 15A DC 3-60V to 1-36V Module redresseur synchrone abaisseur de tension réglable.</li>
+<li>Onduleur (x1) - 300W ou moins Onduleur DC 12V - AC 220-240V.</li>
+<li>Câble (+10m). Fils conducteurs parallèles en silicone de 0.52mm2 20AWG 11A (10M de chaque).</li>
+</ol>
+<h3 id="matériel">Matériel</h3>
+<ul>
+<li>Boulons M3. Ils s&rsquo;adaptent aux composants électroniques pour les fixer au tableau de bord.</li>
+<li>Boulons M6. Pour fixer le moteur à la planche de bois.</li>
+<li>Boulons M8. Pour fixer les deux parties du tableau de bord.</li>
+<li>Grande charnière de porte. Pour fixer le moteur en angle.</li>
+<li>Supports de fixation en métal (toutes tailles et formes). Pour renforcer la structure.</li>
+<li>Pinces métalliques avec caoutchouc. Pour fixer le tableau de bord au guidon du vélo.</li>
+<li>Colle à bois, vis (toutes tailles), boulons, rondelles et écrous (normaux, de blocage, arrondis, papillons), tasseaux et planches en bois, peinture acrylique noire, etc.</li>
+</ul>
+<h2 id="coûts">Coûts</h2>
+<p>Nous indiquons uniquement les composants que nous avons réellement utilisés :</p>
+<h3 id="générateur-1">Générateur</h3>
+<ul>
+<li>Vélo d&rsquo;appartement vintage (d&rsquo;occasion) : 60 euros</li>
+<li>Générateur : 60 euros</li>
+<li>Arbre de transmission : 10 euros</li>
+<li>Galet : 3 euros</li>
+<li><strong>Total : 133 euros</strong></li>
+</ul>
+<h3 id="tableau-de-bord-tous-les-circuits">Tableau de bord (tous les circuits)</h3>
+<ul>
+<li>Câbles : 17 euros</li>
+<li>Connecteurs : 25 euros</li>
+<li>Voltmètre analogique : 9 euros</li>
+<li>Ampèremètre analogique : 9 euros</li>
+<li>Boutons on-off : 20 euros</li>
+<li>Diode : 1 euro</li>
+<li>Fusible : 1 euro</li>
+<li><strong>Total : 82 euros</strong></li>
+</ul>
+<h3 id="circuit-5v">Circuit 5V</h3>
+<ul>
+<li>Convertisseur buck 5V USB (2x) : 8 euro</li>
+<li>Voltmètre - ampèremètre 5V USB : 8.50 euro</li>
+<li>Hub USB : 30 euros</li>
+<li><strong>Total : 46,5 euros</strong></li>
+</ul>
+<h3 id="circuit-12v">Circuit 12V</h3>
+<ul>
+<li>Convertisseur buck 12V 5A (2x) : 24 euros</li>
+<li>Convertisseur boost 12V 5A : 8 euros</li>
+<li>Convertisseur buck 12V 15A : 25 euros (circuit supplémentaire que nous avons ajouté plus tard)</li>
+<li>Variateur : 7,50 euros</li>
+<li><strong>Total : 64,5 euros</strong></li>
+</ul>
+<h3 id="circuit-144v">Circuit 14.4V</h3>
+<ul>
+<li>Onduleur : 50 euros</li>
+<li>Batterie (14Ah) : 31 euros</li>
+<li>Régulateur de charge éolienne : 34 euros</li>
+<li><strong>Total : 115 euros</strong></li>
+</ul>
+<h3 id="accessoires">Accessoires</h3>
+<ul>
+<li>Pour fixer le tableau de bord et le générateur : +/-30 euros</li>
+</ul>
+<h3 id="coût-total">Coût total</h3>
+<ul>
+<li><strong>Total général : 471 euros</strong></li>
+</ul>
+<h2 id="ampérage-maximal-de-tous-les-composants-limitation-du-circuit-">Ampérage maximal de tous les composants (limitation du circuit) :</h2>
+<p>Tous les composants utilisés doivent supporter la puissance qui les traverse. La tension n&rsquo;est généralement pas un problème, mais il faut surveiller l&rsquo;ampérage. La production d&rsquo;énergie se limitait à 60 watts (12V, 5A) - mais c&rsquo;était avant que nous n&rsquo;ayons soigneusement nettoyé et huilé la chaîne du vélo. Après le nettoyage, nous avons découvert que le vélo pouvait produire presque le double de cette puissance (12V, 8-9A). Cela nous a obligés à faire quelques modifications.</p>
+<p>Les composants sont plus chers lorsque leur ampérage nominal maximum augmente. Pour les circuits 12V, 220V et 14,4V, nous nous sommes limités à 5A. Bien que le vélo générateur puisse produire plus de puissance, nous combinons généralement plusieurs circuits - chacun étant limité à 5A. Nous avons ajouté un circuit supplémentaire de 12V avec un convertisseur buck de 15A et des câbles plus épais pour faire fonctionner un appareil plus puissant. Ce circuit ne passe pas par le tableau de bord. Nous envisageons de le déplacer vers le circuit électrique non régulé du tableau de bord (et d&rsquo;améliorer le câblage).</p>
+<ul>
+<li>Câbles : 11A, 18A pour le circuit supplémentaire</li>
+<li>Convertisseurs buck USB : 2A</li>
+<li>2x Convertisseurs Buck : 5A</li>
+<li>1x convertisseur Buck : 15A</li>
+<li>Convertisseur Boost : 5A</li>
+<li>Interrupteurs marche-arrêt : 20A</li>
+<li>Diode : 10A</li>
+<li>Fusible : 12A</li>
+<li>Connecteurs : 20A</li>
+</ul>
+<h2 id="outils-nécessaires">Outils nécessaires</h2>
+<ul>
+<li>Pince coupante</li>
+<li>Petit tournevis (pour régler la tension de sortie des convertisseurs buck et boost)</li>
+<li>Calculatrice, multimètre, tachymètre</li>
+<li>Fer à souder. Nous avons soudé les interrupteurs marche/arrêt et les deux convertisseurs buck USB. Cependant, cela peut être évité. Les interrupteurs peuvent être achetés précâblés et il existe d&rsquo;autres options pour les convertisseurs USB.</li>
+<li>Scie à bois : pour fabriquer le porte-bagages</li>
+<li>Scie à métaux : pour couper des tiges filetées sur mesure</li>
+<li>Perceuse : pour monter le porte-bagages et le tableau de bord.</li>
+<li>Jeu de clés à douilles : très pratique pour bricoler sur un vélo.</li>
+</ul>
+<h2 id="span-idfirstle-premier-prototypespan"><span id="first">Le premier prototype</span></h2>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-dashboard_hu2940fba321a97760085266dcfa30a422_730992_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-first-control-panel_huc0084d98f1c91d1858e6c98e75871749_8504293_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<div class="article-img  vertical">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-on-board_hu5fe3dca8efc3a096e1a2baa79f30aef5_10426413_800x800_fit_q90_h2_box.webp" data-dither="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Le tableau de bord peut prendre différentes formes et être réalisé avec d&rsquo;autres outils et matériaux. Nous avons d&rsquo;abord construit une preuve de concept avec des chutes de bois et des Meccano, puis nous l&rsquo;avons attaché au guidon avec du fil de fer et quelques blocs de bois.</p>
+<p>Au départ, nous avons vissé le générateur sur une grande planche de bois et posé le vélo dessus. Nous avons percé des trous dans la planche pour les quatre pieds afin que le vélo soit toujours là où il doit être. Cette configuration a fonctionné et était pratique pour essayer différentes tailles de galets, mais elle prend beaucoup plus de place au sol que notre configuration finale.</p>
+<p>Nous remercions particulièrement Adriana Parra, Eris Belil, Gabriel Verdeil et Manvel Arzumanyan.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://mar-ver.github.io/fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Une exception, cependant. Nous avons dû retirer le rouleau de friction et la vis qui règle la résistance sur les pédales du vélo d&rsquo;appartement. Nous avons coupé cette pièce avec une petite scie à métaux.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Il est important que votre selle soit à la bonne hauteur pour maximiser la production de puissance. La selle de notre vélo est trop basse. Nous devons trouver une tige de selle plus longue.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>La résistance sur les pédales dépend de l&rsquo;appareil que vous alimentez. Si vous chargez un smartphone, vous ne pourrez produire que quelques watts - autant que le smartphone en a besoin. Par conséquent, pour connaître la puissance maximale d&rsquo;un vélo générateur, vous avez besoin d&rsquo;un appareil ou d&rsquo;un multimètre plus puissant que vous. Nous avons fait le test avec un compresseur d&rsquo;air électrique.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Pour calculer le nombre de tours/minute aux pédales, pédalez pendant 15 secondes et comptez le nombre de tours de pédale complets (la pédale gauche ou droite fait un tour complet). Multipliez ce nombre par quatre.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Il existe de nombreux autres types de connecteurs USB, mais ils nécessitent une entrée 12V constante.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://mar-ver.github.io/fr/tags/energy-demand/" class="">Energy demand</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/fr/tags/off-the-grid/" class="">Off-the-grid</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/fr/tags/renewable-energy/" class="">Renewable Energy</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/fr/tags/human-power/" class="">Human power</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/fr/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment concevoir un voilier pour le 21e siècle?</h3>
+		<p class="index-summary">Il est étonnamment difficile de construire un voilier à impact carbone neutre. C’est d’autant plus le cas aujourd’hui que nos normes de sécurité, de santé, d’hygiène, de confort et de commodités ont profondément changé depuis l’âge de la voile.</p>
+		<time class="published">11 mai 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/fr/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/images/dithers/lighter_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Garder certaines lumières allumées: redéfinir la sécurité énergétique</h3>
+		<p class="index-summary">Pour améliorer la sécurité énergétique, nous devons rendre les infrastructures moins fiables.</p>
+		<time class="published">9 décembre 2018</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://mar-ver.github.io/fr/2022/01/the-revenge-of-the-hot-water-bottle/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">La vengeance de la bouillotte</h3>
+		<p class="index-summary">Imaginez un chauffage personnel portable qui fonctionnerait aussi bien à l&rsquo;intérieur qu&rsquo;à l&rsquo;extérieur, qui nécessiterait peu d&rsquo;énergie et qui serait indépendant de toute infrastructure. Il existe - et a des centaines d&rsquo;années.</p>
+		<time class="published">20 janvier 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Le site imprimé : premier volume en français</h3>
+		<p class="index-summary">Lisez Low-tech Magazine sans avoir besoin d’un ordinateur, d’internet ou d’une alimentation électrique – ou quand le site internet solaire est hors service à cause d’une mauvaise météo.</p>
+		<time class="published">2 décembre 2021</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://mar-ver.github.io/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://mar-ver.github.io/fr/about">
+  À propos
+</a>
+    <a href="https://mar-ver.github.io/fr/power">
+  Power
+</a>
+    <a href="https://mar-ver.github.io/fr/about/team">
+  Colophon
+</a>
+    <a href="https://mar-ver.github.io/fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://mar-ver.github.io/js/script.js"></script>
+</body>
+</html>

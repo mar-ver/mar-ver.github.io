@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>/mar-ver.github.io/es/</link>
+    <link>https://mar-ver.github.io/es/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/mar-ver.github.io/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>/mar-ver.github.io/es/posts/</link>
-      <enclosure url="/mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <link>https://mar-ver.github.io/es/posts/</link>
+      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>/mar-ver.github.io/es/posts/</guid>
+      <guid>https://mar-ver.github.io/es/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/mar-ver.github.io/es/about/</link>
-      <enclosure url="/mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://mar-ver.github.io/es/about/</link>
+      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/mar-ver.github.io/es/about/</guid>
+      <guid>https://mar-ver.github.io/es/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Archivo</title>
-      <link>/mar-ver.github.io/es/archives/</link>
-      <enclosure url="/mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://mar-ver.github.io/es/archives/</link>
+      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/mar-ver.github.io/es/archives/</guid>
+      <guid>https://mar-ver.github.io/es/archives/</guid>
       <description>&lt;p&gt;Archive page content&lt;/p&gt;
 </description>
     </item>

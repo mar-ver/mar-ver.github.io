@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Geen Wind? Geen Trein: Hernieuwbare Energie zonder Opslag | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://mar-ver.github.io/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://mar-ver.github.io/css/style.css"><meta property="og:title" content="Geen Wind? Geen Trein: Hernieuwbare Energie zonder Opslag" />
+<meta name="twitter:title" content="Geen Wind? Geen Trein: Hernieuwbare Energie zonder Opslag"/>
+
+<meta property="og:description" content="De energievraag aanpassen aan het wisselende aanbod van zon en wind zou de transitie naar hernieuwbare energie veel duurzamer, sneller en goedkoper maken." />
+
+<meta name="twitter:description" content="De energievraag aanpassen aan het wisselende aanbod van zon en wind zou de transitie naar hernieuwbare energie veel duurzamer, sneller en goedkoper maken."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" />
+<meta property="og:image:secure_url" content="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-09-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-09-21T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Energy storage" />
+<meta property="article:tag" content="Renewable energy" />
+<meta property="article:tag" content="solar power" />
+<meta property="article:tag" content="wind power" />
+<meta property="article:tag" content="power transmission" />
+<meta property="article:tag" content="history" />
+
+</head>
+<body id="geen-wind-geen-trein-hernieuwbare-energie-zonder-opslag">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://mar-ver.github.io/nl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://mar-ver.github.io/nl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://mar-ver.github.io/nl/power">Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/about/ " data-nav="about" >
+                <span>Over ons</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Lowtech Oplossingen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Hightech Problemen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Vergeten Technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/offline-reading/ " data-nav="offline-reading" >
+                <span>Offline Lezen</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/archives/ " data-nav="archive" >
+                <span>Archief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/nl/donate/ " data-nav="donate" >
+                <span>Nieuwsbrief</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Geen Wind? Geen Trein: Hernieuwbare Energie zonder Opslag</h1>
+
+				<p class="summary">
+					De energievraag aanpassen aan het wisselende aanbod van zon en wind zou de transitie naar hernieuwbare energie veel duurzamer, sneller en goedkoper maken.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">21 september 2017</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Door</span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/nl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						
+						<div class="translations">
+						<span class="byline">Vertalingen</span>
+						
+							<a href="https://mar-ver.github.io/2017/09/how-to-run-the-economy-on-the-weather/">en</a>
+						
+							<a href="https://mar-ver.github.io/fr/2017/09/how-to-run-the-economy-on-the-weather/">fr</a>
+						
+							<a href="https://mar-ver.github.io/es/2017/09/how-to-run-the-economy-on-the-weather/">es</a>
+						
+							<a href="https://mar-ver.github.io/pl/2017/09/how-to-run-the-economy-on-the-weather/">pl</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" alt='Prent: Stoneferry (detail), een schilderij van John Ward of Hull.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/stoneferry-detail_hubf026aaef7c1abb07c7841cd273ab4ab_748408_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Prent: Stoneferry (detail), een schilderij van John Ward of Hull.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In het tijdperk voor de Industriële Revolutie werd hernieuwbare energie alleen maar gebruikt als ze beschikbaar was. Als er geen wind was, dan lagen windmolens en zeilschepen stil.</p>
+<p>Dezelfde strategie zou ook vandaag heel nuttig kunnen zijn, zeker als we ze verbeteren met behulp van moderne kennis en technologie. Bijvoorbeeld fabrieken, schepen en vrachttreinen zouden alleen maar gebruikt kunnen worden als het waait of als de zon schijnt. De energievraag aanpassen aan het wisselende aanbod van zon en wind zou de transitie naar hernieuwbare energie veel duurzamer, sneller en goedkoper maken.</p>
+<h2 id="windenergie-een-lange-geschiedenis">Windenergie: een lange geschiedenis</h2>
+<p>Watermolens, windmolens en zeilboten zijn al in gebruik sinds de Oudheid, maar het waren de Europeanen die deze technologieën tot hun volle ontwikkeling brachten vanaf de vijftiende eeuw. Op het hoogtepunt, vlak voor de Industriële Revolutie, telde Europa naar schatting 200.000 windmolens en 500.000 watermolens.</p>
+<p>De belangrijkste toepassing van wind- en watermolens was het vermalen van granen, een arbeidsintensieve taak die eeuwenlang met de hand gebeurde. Tot in 1900 werd de volledige tarweoogst van Noord-Europa vermalen door windmolens in Nederland, Denemarken en Duitsland.</p>
+<p>Gaandeweg werden ook steeds meer andere productiemethoden afhankelijk van wind- of watermolens: het zagen van hout, het vermalen van mortel, het maken van papier, het polijsten van glas, het boren van waterleidingen, de productie van textiel, het slaan van munten, enzovoort. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png" alt='&amp;quot;Een zomers landschap&amp;quot;, Jan van Os.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/summer-landscape_hu2eb53b2ffb1ace07747fd97179959bee_192827_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>&quot;Een zomers landschap&quot;, Jan van Os.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Het gebruik van windenergie voor transport – in de vorm van de zeilboot – nam een hoge vlucht toen de Europeanen nieuwe werelddelen ‘ontdekten’. Vanaf de middeleeuwen tot aan de twintigste eeuw ondersteunden zeilboten een robuust, divers en globaal handelsnetwerk in zowel bulkgoederen (graan, wijn, hout, metaal, keramiek of gedroogde vis), luxegoederen (edele metalen, dierenhuiden, kruiden, ivoor, zijde, medicijnen), dieren, en menselijke slaven. <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>Deze internationale handel was cruciaal voor de economie van heel wat landen. Bijvoorbeeld de Nederlandse scheepsbouwindustrie, met haar 450 door wind aangedreven zaagmolens, importeerde alle benodigde materialen (hout, teer, ijzer, hennep en vlas) uit de Baltische regio. Ook de voedselbevoorrading kon afhankelijk zijn van zeilboten: naar het einde van de zestiende eeuw importeerden de Nederlanders 2000 scheepsladingen graan per jaar vanuit Gdansk. <sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Zeilboten waren ook van groot belang voor de visserij.</p>
+<h2 id="wat-als-er-geen-wind-was">Wat als er geen wind was?</h2>
+<p>Hoewel variabele energiebronnen cruciaal waren voor de Europese samenleving in de 500 jaar voorafgaande aan de Industriële Revolutie, hadden onze voorouders geen chemische batterijen, geen elektrische transmissielijnen, en geen balanscapaciteit van fossiele brandstofcentrales om de variabiliteit van wind en zon op te vangen. Dus wat deden ze als het niet waaide?</p>
+<p>Tot op zekere hoogte rekenden onze voorouders op technologische oplossingen waarmee ze probeerden het aanbod van energie altijd af te stemmen op de vraag ernaar &ndash; net zoals wij dat vandaag doen. Vanaf de middeleeuwen werden dammen gebouwd waarmee kleine stuwmeren werden aangelegd, een vorm van energieopslag die lijkt op de huidige pompcentrales. <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Dankzij deze waterreservoirs konden de wijzigingen in het waterpeil – afhankelijk van het weer en de seizoenen – worden opgevangen.</p>
+<p>Windenergie kon echter niet worden opgeslagen. Eén oplossing was de rosmolen, waarin paarden, ossen of ezels energie leverden als er geen wind was. Toch gebeurde dat alleen voor levensnoodzakelijke productieprocessen (vooral het malen van graan), of in kleine werkplaatsen waar lastdieren ook als energieproducent werden ingezet. <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> De rosmolen was duur en inefficiënt in gebruik, omdat het voeden van een paard een stuk landbouwgrond vereiste dat ook acht mensen kon voeden. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png" alt='The Horse Mill, James Herring. Ca. 1850.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/horse-mill_hu93e210054364dcef733618138e69802e_1014000_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>The Horse Mill, James Herring. Ca. 1850.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Rosmolens waren evenmin een oplossing voor zeilboten. In principe kon een zeilboot terugvallen op menselijke spierkracht als er geen wind was. Maar een voldoende grote roeibemanning heeft veel extra water en voedsel nodig, waardoor ofwel het laadvermogen ofwel het bereik van een zeilboot wordt beperkt. Bijgevolg werd roeien uitsluitend gebruikt voor oorlogsschepen en voor kleinere boten.</p>
+<h2 id="geen-wind-geen-werk">Geen wind, geen werk</h2>
+<p>Gezien hun beperkte technologische opties voor het opslaan of transporten van hernieuwbare energie stemden onze voorouders hun energieverbruik af op het wisselende aanbod. Met andere woorden: ze accepteerden dat hernieuwbare energie niet altijd beschikbaar was en handelden daarnaar.</p>
+<p>Windmolens en zeilboten werden niet gebruikt als er geen wind was. Een windmolenaar werkte altijd als het waaide, ook al moest hij dag en nacht werken. Zo onthult een document dat een windmolenaar in Cranbrook, Engeland, slechts drie uur sliep op een winderige periode van 60 uur. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>In vroegere tijden werd de molenaar gestraft voor het werken op zondag, maar daar trok hij zich niet altijd iets van aan. Toen er geprotesteerd werd tegen een Engelse molenaar uit Norfolk, antwoordde die: “Als de heer goed genoeg is om mij wind te sturen op een zondag, dan gebruik ik die ook”. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png" alt='Mills in the Westzijderveld near Zaandam, Claude Monet.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/windmills-monet_hubf3b79a39d408ccfc61cad01eff06e79_825356_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span><a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_Mills_in_the_Westzijderveld_near_Zaandam.jpg" target="_blank" >Mills in the Westzijderveld near Zaandam</a>, Claude Monet.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Langs de andere kant: als er geen wind was, dan deden windmolenaars ander werk, zoals het onderhoud van hun machines, of namen ze tijd vrij. Noah Edwards, de laatste windmolenaar van de windmolen in Arkley, zat bij mooi weer op de staart van zijn windmolen en speelde viool. <sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<h2 id="geen-wind-geen-transport">Geen wind, geen transport</h2>
+<p>Met zeilboten gebeurde hetzelfde. Als er geen wind was, dan bleven zeelieden aan de wal. Ze repareerden en onderhielden hun schepen, of ze deden andere dingen. Toch was hun werk niet zo onvoorspelbaar. Zeelieden planden hun vertrek alnaargelang de seizoenen. De wind op zee is niet alleen veel sterker dan op land, maar ook veel voorspelbaarder.</p>
+<p>De lagere atmosfeer van de planeet wordt omcirkeld door zes grote windzones, drie in elke hemisfeer. Vanaf de equator tot de polen zijn deze heersende winden de passaatwinden, de westenwindgordels, en de polaire oosterwinden. Deze windzones bewegen zich noordwaarts tijdens de noordelijke zomer en zuidwaarts tijdens de zuidelijke zomer. Vijf grote zeestromingen zijn gecorreleerd aan de dominante windstromen.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/amaldus-nielsen_dithered.png" alt='Amaldus Nielsen, Ved Cadiz, 1925.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/amaldus-nielsen_hu224f22bfb29ab6d9fd1a9474713cf473_184437_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/amaldus-nielsen_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Amaldus Nielsen, Ved Cadiz, 1925.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Gaandeweg ontcijferden de Europese zeelieden het globale patroon van winden en stromingen, wat leidde tot nieuwe zeilroutes over de gehele wereld. Begin zestiende eeuw had Christopher Columbus uitgedokterd dat de combinatie van passaatwinden en westenwindgordels een retourroute mogelijk maakte voor het oversteken van de Atlantische Oceaan.</p>
+<p>De passaatwinden bereiken hun meest noorderlijke lengtegraad op het eind van de zomer, wat ze in het bereik brengt van Spanje en Portugal. De wind blaast dan bijna rechtstreeks van Europa naar de Caraïben en Zuid-Amerika. Dezelfde route op de terugweg zou bijna onmogelijk zijn. In plaats daarvan zeilden Spanjaarden en Portugezen eerst noordwaarts, richting passaatwinden die op het eind van de winter hun meest zuidelijke locatie bereiken. Deze heersende winden brachten de zeelieden bijna rechtstreeks naar huis.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png" alt='Windkaart van de Atlantische Oceaan, 9 september 2017. Bron: Windy' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/wind-map-of-the-atlantic_hue19c91df38f6e896a36b5a51551dded8_440549_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Windkaart van de Atlantische Oceaan, 9 september 2017. Bron: <a href="https://www.windy.com" target="_blank" >Windy</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Iets later ontdekte de Bask Andrés de Urdaneta een gelijkaardige route in de Sille Oceaan. Het mee surfen met heersende winden maakte de reistijden van zeilboten relatief voorspelbaar. “Ocean Passages for the World” vermeldt dat de typische reistijd van New York naar het Engelse kanaal 25 tot 30 dagen bedroeg (voor een zeilschip uit de tweede helft van de negentiende eeuw). <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<p>Tussen 1818 en 1832 was de snelste overtocht 21 dagen, terwijl de traagste overtocht 29 dagen bedroeg. De reis van het kanaal naar New York duurde 35-40 dagen in de winter en 40-50 dagen in de zomer. <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Dat is twee tot drie keer trager dan de huidige containerschepen, waarvan de snelheid varieert alnaargelang de brandstofprijzen en de economische activiteit.</p>
+<h2 id="oude-aanpak-nieuwe-technologie">Oude aanpak, nieuwe technologie</h2>
+<p>Opnieuw kiezen om het energieverbruik af te stemmen op het wisselende aanbod van hernieuwbare energie, betekent niet dat we terug moeten grijpen naar pre-industriële middelen. We hebben veel betere technologie beschikbaar, waarmee we de economie makkelijker kunnen afstemmen op de grillen van het weer.</p>
+<p>Op een wereldwijde schaal is industriële activiteit goed voor ongeveer de helft van al het energieverbruik. Veel mechanische processen die vroeger ook door windmolens werden uitgevoerd, zijn nog steeds essentieel: zagen, snijden, boren, vergruizelen, polijsten, enzovoort.</p>
+<p>Deze bewerkingen zouden net zo goed opnieuw met een variabele energiebron kunnen gebeuren. Onderbrekingen in het productieproces hebben geen enkele invloed op de kwaliteit ervan, ze beïnvloedden alleen de productiesnelheid. Hetzelfde geldt voor veel voedselbewerkingsprocessen, mijnbouwactiviteiten of textielproductie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png" alt='Werken met molens, Jean Bruggeman, 1996' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/how-to-rig-a-windmill-sail_hud321f5283d07ad6028c5c20ce0e00a1f_259638_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Werken met molens, Jean Bruggeman, 1996</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Een traditionele windmolen had constant aandacht nodig, maar moderne windturbines werken geheel automatisch. Niet alleen zijn windturbines en waterturbines praktischer en krachtiger dan in vroegere tijden, we kunnen ook gebruik maken van zonne-energie om mechanische energie te produceren. Dit gebeurt meestal met fotovoltaische panelen, die zonlicht omzetten in elektriciteit waarmee dan elektrische motoren worden aangedreven.</p>
+<p>Bijgevolg kan een fabriek die mechanische energie nodig heeft, gerund worden op een combinatie van windenergie en zonne-energie, wat de kansen verhoogt dat er voldoende energie is om de machines te doen werken. De mogelijkheid om zonne-energie te gebruiken is een enorm voordeel omdat de zon met grote voorsprong de meest overvloedige hernieuwbare energiebron is. De meeste capaciteit voor waterkracht is al ingenomen.</p>
+<h2 id="ook-voor-thermische-energie">Ook voor thermische energie</h2>
+<p>Een ander cruciaal verschil met vroeger is dat we dezelfde strategie ook kunnen toepassen op industriële processen die met thermische energie werken. Warmte domineert het industriële energieverbruik, bijvoorbeeld voor het maken van chemicaliën en microchips, of voor het smelten van metalen.</p>
+<p>In de pre-industriële tijd werden er bij deze productieprocessen biomassa, turf of steenkool verbrand. Het gebruik van deze energiebronnen veroorzaakte problemen op grote schaal: ontbossing, verlies van land, luchtvervuiling. Hoewel zonne-energie ook werd ingezet, bijvoorbeeld voor het verdampen van zout langs de kust, het drogen van gewassen om ze langer te bewaren, of het in de zon bakken van stenen, was het gebruik ervan beperkt tot processen die relatief lage temperaturen vereisten.</p>
+<p>Vandaag kunnen we gebruik maken van andere energiebronnen dan biomassa om thermische energie te produceren. Ten eerste kunnen we windturbines, waterturbines of zonnepanelen gebruiken om elektriciteit op te wekken, die in warmte kan worden omgezet door middel van een elektrische weerstand. Dit was niet mogelijk in de pre-industriële tijd, want we konden geen elektriciteit maken.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png" alt='Drukpers op zonne-energie van Augustin Mouchot, 1882.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/solar-powered-printing-press_hu86e9fcc4964a109dbdeb4917fafc281f_868253_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Drukpers op zonne-energie van Augustin Mouchot, 1882.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Ten tweede kunnen we zonne-energie ook direct toepassen, door het gebruik van vlakkeplaatcollectoren en vacuümbuissystemen (de zogenaamde &ldquo;zonneboilers&rdquo;), die zonnestraling uit alle richtingen opnemen en temperaturen kunnen bereiken van 120 °C , of door middel van geconcentreerde collectoren, die de zon volgen, het zonlicht concentreren, en veel hogere temperaturen halen. Deze technologie &ndash; zeer geschikt voor industriële toepassingen &ndash; ontstond pas op het einde van de negentiende eeuw, als gevolg van verbeteringen in de productiemethoden voor glas en spiegels.</p>
+<h2 id="beperkte-energieopslag">Beperkte energieopslag</h2>
+<p>Fabrieken laten draaien op variabele energiebronnen betekent niet dat energieopslag of andere methoden taboe worden. Ze kunnen een ondersteunende rol spelen, bijvoorbeeld voor het aandrijven van productieprocessen die niet onderbroken kunnen worden, of voor productieprocessen die te belangrijk zijn om stil te liggen (voedsel, medicijnen, enzovoort). Een beperkte energie-opslag is ook nodig voor computergestuurde processen.</p>
+<p>Ook op het vlak van energieopslag hebben we veel betere technologie. We kunnen biomassa gebruiken als een betrouwbare bron van mechanische energie, iets wat pre-industriele molenaars niet konden doen omdat er voor de komst van de stoommachine geen manier was om biomassa in mechanische energie om te zetten. We hebben ook chemische batterijen, en we hebben lowtech systemen zoals vliegwielen, persluchtopslag, hydraulische accumulatoren, en pompcentrales. Al deze opslagtechnieken zouden tekort schieten als ze een grote hoeveelheid hernieuwbare energie zouden moeten opvangen, maar ze kunnen zeer nuttig zijn op een kleine schaal.</p>
+<h2 id="een-nieuwe-toekomst-voor-de-zeilvaart">Een nieuwe toekomst voor de zeilvaart</h2>
+<p>Goederentransport is een andere kandidaat voor het gebruik van variabele energiebronnen. Dit ligt het meest voor de hand voor de scheepvaart. Schepen vervoeren nog altijd 90% van de wereldhandel en hoewel het schip de meest energie-efficiënte manier van vervoer is per ton-kilometer, is het totale energieverbruik hoog en zijn hedendaagse schepen extreem vervuilend.</p>
+<p>Een high-tech idee is het installeren van windturbines in zee en de elektriciteit daarvan om te zetten in waterstof, die vervolgens dient als brandstof voor zeeschepen. Maar het is natuurlijk veel praktischer en efficiënter om de schepen rechtstreeks aan te drijven met de wind, zoals we duizenden jaren hebben gedaan.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png" alt='Thomas W. Lawson, een zeilschip gebouwd in 1902.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/seven-masted-schooner_huccc486b184c122aaa3612026ceaa31b0_865617_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Thomas W. Lawson, een zeilschip gebouwd in 1902.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Bovendien liggen containerschepen soms dagenlang of wekenlang voor anker in of voor een haven eer ze binnen of buiten kunnen, wat de relatieve onbetrouwbaarheid van zeilboten minder problematisch maakt.</p>
+<p>Net zoals in het geval van industriële productie hebben we nu veel betere technologie en kennis ter beschikking om een wereldwijde zeilvaart op touw te zetten. We hebben nieuwe materialen om betere schepen en zeilen te bouwen met een langere levensduur, we hebben accuratere navigatie- en communicatie-instrumenten, we hebben betere weersvoorspellingen, we kunnen gebruik maken van zonnepanelen aan boord, en we hebben meer kennis over winden en stromingen.</p>
+<p>In feite werden de globale winden en stromingen pas volledig in kaart gebracht toen de tijd van de commerciele zeilvaart bijna voorbij was. Tussen 1842 en 1861 verzamelde de Amerikaanse zeevaarder Matthew Fontained Maury een enorme hoeveelheid gegevens, wat het mogelijk maakte om de reisduur van heel wat routes in the korten. Zo werd een reis van New York naar Rio de Janerio verkort van 55 tot 23 dagen, terwijl de reisduur van Melbourne naar Liverpool werd gehalveerd tot 63 dagen. <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png" alt='' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/fast-sailing_hua5e31c98d66f8b1ec23ae486678971a6_892856_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Recenter heeft ook de sport heel wat innovaties meegebracht die nooit zijn toegepast in de commerciele zeilvaart. Het Emirates Team Nieuw Zeeland introduceerde in de America’s Cup 2017 het gebruik van stationaire fietsen voor de besturing van het hydraulische systeem dat de boot bestuurt. Normaal worden daar handslingers voor gebruikt, maar onze benen zijn sterker dan onze armen. Deze techniek laat toe om sneller overstag te gaan en te gijpen, maar ze kan ook nuttig zijn om het aandeel menskracht te reduceren in de commerciale zeilvaart. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>Snelheidsrecords zijn ook veelzeggend. De snelste zeilboot in 1972 haalde niet eens 50 km/u, terwijl de huidige recordhouder – de Vestas Sailrocket 2 – meer dan 120 km/u haalde in 2012. Deze schepen zijn niet praktisch om goederen mee te vervoeren, maar ze zouden andere ontwerpen kunnen inspireren die dat wel zijn.</p>
+<h2 id="treinen-op-wind-en-zonne-energie">Treinen op wind en zonne-energie</h2>
+<p>Dezelfde strategie kan ook werken voor transport over land, in de vorm van door wind en zon aangedreven vrachttreinen. Treinen zouden alleen maar rijden als er hernieuwbare energie is, vergelijkbaar met zeilboten. Uiteraard is het niet de bedoeling om treinen uit te rusten met zeilen, wel om ze te doen rijden op elektriciteit die gemaakt is door zonnepanelen of windturbines langs de rails.</p>
+<p>Dat zou een geheel nieuwe toepassing zijn van een eeuwenoude strategie om met variabele energiebronnen om te gaan, mogelijk gemaakt door de uitvinding van elektriciteit.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png" alt='Cardiff Docks, Lionel Walden, 1894' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/cardiff-docks_hua1afb84685f3ea52fb05564157c42a3d_210807_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Cardiff Docks, Lionel Walden, 1894</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Goederentreinen rijden vaak ‘s nachts, wanneer er vaak meer wind is en wanneer het energieverbruik op zijn laagst is. En net zoals vrachtschepen hebben goederentreinen onregelmatige uurroosters omdat ze vaak stilstaan op rangeerterreinen, wachtend op extra vracht.</p>
+<p>Zelfs de snelheid van de treinen zou geregeld kunnen worden door de beschikbare energie, net zoals de snelheid van een zeilschip wordt bepaald door de heersende windkracht. Een gelijkaardige aanpak zou ook kunnen werken voor andere elektrische transportsystemen, zoals trolleyboten of kabelspoorbanen.</p>
+<p>Het combineren van goederentreinen met fabrieken creëert extra mogelijkheden. Bijvoorbeeld, op het eerste gezicht lijken passagierstreinen op zon of wind onmogelijk, omdat mensen minder flexibel zijn dan goederen. Als een op zon rijdende trein niet rijdt of te traag rijdt, dan moet een afspraak mogelijk op het allerlaatste moment worden verzet. Op bewolkte dagen zouden de meeste pendelaars niet of veel te laat op kantoor raken.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png" alt='Zonnepanelen op een spoorlijn in België. Foto: Infrabel.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/solar-covered-railway_hu4c92159616fea560e150deafe74797f4_1524287_800x800_fit_q90_h2_box_3.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zonnepanelen op een spoorlijn in België. Foto: Infrabel.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Dit zou kunnen worden opgelost door dezelfde hernieuwbare energiebronnen te gebruiken voor fabrieken en voor passagierstreinen. De zonnepanelen die langs de spoorlijnen staan opgesteld zijn gedimensioneerd op bewolkte dagen, en garanderen zodoende een hoeveelheid energie voor een minimumdienst van passagierstreinen (maar geen industriele productie). Op zonnige dagen wordt de extra energie dan gebruikt om de fabrieken langs de spoorlijnen te doen werken, of om extra goederen- of passagierstreinen te laten rijden.</p>
+<h2 id="gevolgen-voor-de-samenleving-consumptie-en-productie">Gevolgen voor de samenleving: consumptie en productie</h2>
+<p>Als industriële productie en goederentransport volledig afhankelijk zouden worden van hernieuwbare energie, dan zouden we nog steeds in staat zijn om een grote diversiteit aan consumentengoederen te produceren, en die vervolgens over heel de aardbol te transporteren. Maar niet alle producten zouden altijd beschikbaar zijn.</p>
+<p>Als ik nieuwe schoenen wil kopen, dan moet ik mogelijk wachten op het juiste seizoen om ze geproduceerd en geleverd te kunnen krijgen. Productie en consumptie zouden afhankelijk worden van het weer en de seizoenen. Op zonne-energie draaiende fabrieken zullen meer produceren in de zomermaanden, terwijl op wind draaiende fabrieken meer zullen produceren in de wintermaanden. Seizoenswinden zullen leveringstermijnen beïnvloeden.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png" alt='A Windmill at Zaandam, Claude Monet, 1871.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/windmill-zaandam_hud0f007e33553ea328ae1069fd7e43ab3_127317_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>A Windmill at Zaandam, Claude Monet, 1871.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>In principe hoeft deze aanpak niet tot een lagere productie te leiden. De jaarlijkse energieproductie van alle geïnstalleerde windturbines en zonnepanelen blijft in theorie immers volledig beschikbaar. Producenten zouden dus seizoenstekorten kunnen opvangen door producten &lsquo;in het seizoen&rsquo; te produceren en ze dan dicht bij consumenten te stockeren voor verkoop &lsquo;buiten het seizoen&rsquo;. In feite vervullen de producten in dit scenario zelf de rol van energieopslag.</p>
+<p>In praktijk is de kans groot dat een direct gebruik van hernieuwbare energie tot een lagere productie zal leiden. Overproductie in tijden van veel energie vereist immers grote productiefaciliteiten en opslagplaatsen, die vervolgens voor het grootste gedeelte van de tijd onderbenut zouden zijn. Om kosten-efficient te produceren, zullen producenten compromissen moeten sluiten.</p>
+<p>Van tijd tot tijd zullen deze compromissen tot productietekorten leiden, die op hun beurt mensen kunnen aanzetten om andere oplossingen te overwegen, zoals reparatie en hergebruik van bestaande producten, ambachtelijk gemaakte producten, doe-het-zelf oplossingen of het uitwisselen en delen van goederen.</p>
+<h2 id="gevolgen-voor-de-werknemers">Gevolgen voor de werknemers</h2>
+<p>De energievraag aanpassen aan het energieaanbod impliceert ook dat de werknemers zich aan het weer aanpassen. Als een fabriek op zonne-energie draait, dan komt de beschikbaarheid van energie heel goed overeen met menselijke ritmes. Maar als een fabriek of een trein op windenergie rijdt, dan zouden mensen ook ‘s nachts moeten werken, wat als ongezond wordt beschouwd. Als een fabriek of een transportsysteem alleen op wind of zon draait, dan zouden werknemers ook te maken hebben met onzekerheid over hun werkuren.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png" alt='Nachtelijk werk in de dokken, Henri Adolphe Schaep, 1856.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/night-works-docks_hudb235fffd444a8ef881e30eff54febc2_74916_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Nachtelijk werk in de dokken, Henri Adolphe Schaep, 1856.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Maar het zijn niet enkel de hernieuwbare energiecentrales die intussen geautomatiseerd zijn. Hetzelfde geldt in grote mate voor de fabrieken zelf. De laatste eeuw heeft een steeds toenemende automatisering van productieprocessen gezien, gebaseerd op computers en robots. Als een fabriek geen werknemers heeft, dan maakt het niet uit wanneer ze draait.</p>
+<p>Bovendien draaien veel fabrieken al 24 uur per dag, deels bediend door miljoenen nachtwerkers. Voor deze mensen zou het nachtwerk alleen maar afnemen, want hun fabrieken zouden alleen nog maar ‘s nachts draaien als er wind is.</p>
+<p>Tot slot zouden we ook de industriële productie en het goederentransport kunnen beperken tot normale werkuren, ook als het daarna blijft waaien. In dat geval zouden we gewoon minder spullen hebben, en meer vakantie. Er zou ook nood aan andere jobs zijn, zoals ambachtslui en zeelieden.</p>
+<h2 id="wat-met-het-internet">Wat met het internet?</h2>
+<p>Conclusie: zowel industrie als goederentransport – over land als over het water – zouden bijna volledig op variabele energiebronnen kunnen werken, zonder grootschalige infrastructuur voor energieopslag of transmissie, zonder balanscapaciteit van fossiele brandstoffen of kernenergie, en zonder het overdimensioneren van de generatiecapaciteit zonnepanelen en windturbines.</p>
+<p>Deze infrastructuur is noodzakelijk als het aanbod ten allen prijze aan de vraag moet kunnen voldoen, en maakt van hernieuwbare energieproductie een complexe, dure en vooral onduurzame onderneming.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png" alt='Marina, Carol Popp de Szathmary, 1800s.' data-original="https://mar-ver.github.io/nl/2017/09/how-to-run-the-economy-on-the-weather/images/marina_hu17eb908ca67046ede57fb160eb94248b_181477_800x800_fit_q90_h2_box.webp" data-dither="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Marina, Carol Popp de Szathmary, 1800s.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Bekijk origineel beeld
+            </span>
+            <span class="tooltip view-dither">
+            Bekijk gecompresseerd beeld
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Tot slot, wat kan werken voor industrie en goederentransport is niet noodzakelijk geldig in elke andere context. Hoewel het internet volledig op variabele energiebronnen zou kunnen werken, door het gebruik van asynchorne netwerken en software, zouden veel nieuwe toepassingen dan verdwijnen.</p>
+<p>Thuis kunnen we wellicht niet verlangen dat mensen in het donker zitten of geen eten klaarmaken als er geen hernieuwbare energie is. En mensen gaan niet alleen naar het ziekenhuis komen als de zon schijnt. In die omstandigheden is er dus een grotere nood aan energieopslag of andere maatregelen.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas">Schrijf je in op onze nieuwsbrief</a>.</li>
+        <li> Steun Low-tech Magazine via <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> of <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://mar-ver.github.io/nl/offline-reading/">Lees Low-tech Magazine op papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Reacties </h2>
+			<p><em>Als je op dit artikel wil reageren, stuur dan een mailtje naar solar (at) lowtechmagazine (dot) com. Je gegevens worden niet voor andere doeleinden gebruikt.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reacties</summary>
+				<div id="comments-list">
+					
+<div class="comment">
+	<h5>Marieke &#39;Zwervende Eik&#39; Van Coppenolle</h5>
+	<p>Ik heb je artikel zojuist gedeeld op mijn tijdlijn, met deze commentaar (die ik jou niet wil onthouden): &ldquo;Low Tech Magazine: een visionair, creatief en intelligent tijdschrift, dat altijd een brug legt tussen verleden en toekomst - boeiend en leerrijk! Echt iets voor een druilerige winterzondag&hellip;&rdquo;</p>
+<p>Erg bedankt voor al je opzoekwerk, altijd, en het bruggenbouwen!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Jacco van der Pol</h5>
+	<p>Goed artikel. En eigenlijk helemaal niet zo heel moeilijk om ook praktisch te maken. Als je de filosofie van Elon Musk volgt, waarbij je een transitie voor elkaar krijgt door bedrijven vanuit de markt een financiële prikkel te geven, dan zou de oplossing wellicht in de elektriciteitsprijs liggen.</p>
+<p>Als groene energie heel goedkoop zou zijn, of zelfs gratis en fossiele energie schrikbarend duur, dan zou het het voor de industrie domweg economischer wordt om op groene energie te draaien.</p>
+<p>Voor huishoudens geldt dan, dat de aanschaf van een batterij systeem, eventueel in combinatie met zonnepanelen, ineens veel interessanter wordt.</p>
+
+</div>
+
+<div class="comment">
+	<h5>jan </h5>
+	<p>Als de trein enkel rijdt als er energie is, en als er bvb 1/2 van de tijd energie is, er 2 keer zoveel treinen en rails nodig zijn voor de zelfde hoeveelheid te vervoeren&hellip;.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Bart Vandenbroucke</h5>
+	<p>Ik ben het volledig eens dat een grondige mentaliteitswijziging bij de consumenten noodzakelijk is, wil een volledige overschakeling op duurzame energie mogelijk zijn. Ik denk dat we daar heel, heel ver van af zijn.</p>
+<p>En, beste Kris, toch voorzichtig met Hot Air&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nico S.</h5>
+	<p>Een mentaliteitsverandering zal er uiteindelijk komen, maar ten koste van welke planetaire schade? Uiteindelijk zou het erop neer moeten komen hoeveel &lsquo;Aardse&rsquo; bronnen/grondstoffen we per bewoner willen toekennen. Dus hoe meer mensen op onze planeet, hoe minder we mogen/kunnen verbruiken. Momenteel is het nog volop genieten van alle niet hernieuwbare bronnen/grondstoffen. De gevolgen mogen onze nabestaanden aanpakken. Let wel dat ik ook niet te vinden ben om massaal hernieuwbare energie te oogsten. Indammen van rivieren heeft al gekende gevolgen. Massaal oogsten van zonne- en windenergie zal dat ook hebben.</p>
+<p>Ik zou ook graag de term &rsquo;economische groei&rsquo; willen zien verdwijnen. Deze staat (meestal) haaks op de leefbaarheid van onze planeet.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Rolf Grooten</h5>
+	<p>Wederom dank voor een breed en diepgaand artikel. Speciale dank dit maal voor de collectie prachtige schilderijen. Kris, je geeft hiermee weer dat ook schoonheid en emotie een rol spelen in een veranderende wereld. Bravo!</p>
+
+</div>
+
+<div class="comment">
+	<h5>Veerle Raskin</h5>
+	<p>Waar u voor pleit, ingrijpen aan de vraagzijde, is het omgekeerde van wat in de media, in het politieke discours en in de hoofden van investeerders en van de meeste mensen leeft: het aanbod oppimpen. Ik word er niet goed van hoe mensen echt schijnen te geloven dat onze welvaart en levenswijze kan voortgezet worden als we maar genoeg investeren in &ldquo;hernieuwbare&rdquo; energie. Er is een totaal gebrek aan inzicht en kennis van energiesystemen, thermodynamica en de band met economie en welvaart. En intussen gaat de verspilling door, en ontglipt ons de tijd om prioriteiten te stellen en te beginnen met een moeilijke maar hoognodige omschakeling. Wat gaat dat een pijnlijk ontwaken zijn.</p>
+
+</div>
+
+<div class="comment">
+	<h5>h.honnest</h5>
+	<p>Zoals gebruikelijk weer een zeer doorwrochte analyse, Chris.</p>
+<p>Ik ben ervan overtuigd dat zodra het op schaarste aan zou komen, we het heel prima zouden kunnen, die overschakeling naar gefaseerd gebruik van (duurzame) energiebronnen.</p>
+<p>Alleen, wanneer het om een vrijwillige transitie gaat, zullen we - zoals de zaken er nu voorstaan - maar weinig spelers meekrijgen. We gaan dan gewoon door met de pan waarin wij zelf de kreeften zijn, steeds een graadje warmer te stoken.</p>
+<p>Hoewel de oplossingen (theoretisch) voor het oprapen liggen, blijven we vastklampen aan het bestaande systeem. Of we wachten af totdat anderen hun spel wijzigen (wat niet gebeurt omdat wij het ook niet doen).</p>
+<p>De steeds zwakkere overheden zijn (vooralsnog?) niet bij machte voldoende aan noodzakelijke spelregels op te leggen.</p>
+<p>Zullen (eventuele) latere beschavingen met verwondering zien dat onze maatschappij ondanks een onvoorstelbare schat aan kennis, technologie en creativiteit alsnog ten onder is gegaan? Dan zouden ze zomaar eens tot de conclusie kunnen komen dat dit niet door onkunde is gegaan, maar door verslaving. Een zeer lastig te behandelen aandoening, waarop we naar ik hoop alsnog tijdig een geschikte therapie zullen vinden. Maar de tijd dringt steeds meer en de juiste diagnose wordt zelden genoemd&hellip;</p>
+
+</div>
+
+<div class="comment">
+	<h5>roland</h5>
+	<p>@Mattias,</p>
+<p>De stroomopslag is nu vooral waterkracht met een hoog (80-90%) rendement zoals tussen Denemarken en Noorwegen.</p>
+<p>De geringe opbrengst van groene stroom maakt opslag nog niet dringend, vooral door omzettings verliezen en de opslagkosten.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Mattias</h5>
+	<p>Ik hoop dat je gelijk hebt! Maar als het zo gemakkelijk is, dan zou ik denken dat we al meer zo&rsquo;n werkende opslag in de praktijk zouden hebben. Ken je voorbeelden, die al zo&rsquo;n uitgebreid netwerk hebben?</p>
+
+</div>
+
+<div class="comment">
+	<h5>kris de decker</h5>
+	<p>@ Cor</p>
+<p>Helaas leven we niet in een ideale wereld. Want die energie-onafhankelijkheid delft tegelijk ook ons graf. Ons welvaartsniveau vasthouden maakt onze leefomgeving kapot.</p>
+<p>Het is dus niet zozeer &ldquo;willen&rdquo; maar &ldquo;moeten&rdquo;.</p>
+<p>Maar het is niet kiezen tussen alles of niks. Ons welvaartsniveau terugschroeven kan ook zonder terug te keren naar de middeleeuwen.</p>
+<p>Het zijn niet de ziekenhuizen of brandweerwagens waarop we moeten bezuinigen. Er zijn heel veel energie-slurpende dingen die helemaal niet nodig zijn. Vliegtuigen, auto&rsquo;s, smartphones, microwaves, digitale reclamepanelen, noem maar op.</p>
+<p>Zie ook het volgende artikel: <a href="http://www.lowtechmagazine.be/2018/02/hoeveel-energie-hebben-we-nodig.html" target="_blank" >http://www.lowtechmagazine.be/2018/02/hoeveel-energie-hebben-we-nodig.html</a></p>
+
+</div>
+
+<div class="comment">
+	<h5>roland </h5>
+	<p>@kris,</p>
+<ul>
+<li>
+<p>&ldquo;geen verplichting om de productiemiddelen af te stemmen op het grootst mogelijke aanbod&rdquo; niet bij mij; het aanbod gaat zonodig deels naar de opslag. Dus juist geen afstemming &ldquo;op het grootst mogelijke aanbod van hernieuwbare energie&rdquo;!</p>
+</li>
+<li>
+<p>&ldquo;Autosnelwegen zijn &rsquo;s nachts grotendeels leeg&rdquo; het belangrijkste probleem dat de autowegomvang vaak op de spitsvraag zijn afgesteld, dus voor een heel korte dagperiode. Er is steeds meer nachtelijk goederenvervoer.</p>
+</li>
+<li>
+<p>zwembaden, stranden, landbouw zijn weersafhankelijke gebruikers.</p>
+</li>
+</ul>
+<p>Het gebruik van kassen poogt die afhankelijkheid te verminderen. Met het mijden van uitzonderlijk omstandigheden en energieverbruik kan ook hier de voedselproduktie sterk vergroot worden.</p>
+<p>Opslag kan de weersafhankelijkheid bij zon-windenenergie (sterk) verminderen en overproduktie van energie geheel benutten</p>
+<p>Dank voor de laatste opmerking</p>
+
+</div>
+
+<div class="comment">
+	<h5>mathias</h5>
+	<p>@roland</p>
+<p>Ik heb zelf nog niet nagedacht over gedwongen of vrijwillig.</p>
+<p>Het hoeft volgens mij ook niet zwartwit te zijn. Sommige activiteiten zijn nu eenmaal beter geschikt om mee te schuiven in de tijd dan andere.</p>
+<p>In mijn huidige job lijkt het mij wel haalbaar om het grootste deel van mijn werk in lente zomer te doen en dan in de herfst/winter minder tot niet te werken. Ik zou evenveel verdienen op jaarbasis.</p>
+<p>En er zijn nu al mensen in bepaalde jobs die (onbewust?) zo werken denk aan bijvoorbeeld het toerisme of de landbouw.</p>
+<p>In andere jobs is dit natuurlijk moeilijker; denk aan bvb hulpdiensten, ziekenhuis,&hellip; die kunnen niet zeggen wacht maar tot de lente.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Chris Crombez</h5>
+	<p>Goed artikel. Enkele opmerkingen :</p>
+<ol>
+<li>
+<p>Energieopslag door middel van waterbekkens is niet verwaarloosbaar en tamelijk goedkoop. Een samenwerken tussen Noorwegen, Zwitserland, Duitsland, Frankrijk, &hellip; is één grid zorgt voor zeer veel mogelijke energieopslag.</p>
+</li>
+<li>
+<p>In Oostenrijk is al zelfs zwaar geïnvesteerd in reusachtige &ldquo;batterijen&rdquo; : energie-opslag door middel van 2 onderling verbonden stuwmeren zodat overschotten aan energie kunnen opgepompt worden ; bijvoorbeeld Kaprun Limberg II (zie website Verbund AG). Kostprijs batterijen is 2 € per kWh. Vergelijk dat met Tesla : kostprijs batterijen is voorlopig 50 à 100 x duurder.</p>
+</li>
+<li>
+<p>Ook de run-of-river hydropower electriceit kan zorgen voor een constante basis vermogen (MegaWatt) : zie ook in Oostenrijk : enorm vermogen. Ook vermogen in België mogelijk ? Ik vraag het mij af.</p>
+</li>
+</ol>
+<p>Chris Crombez</p>
+
+</div>
+
+<div class="comment">
+	<h5>Nico</h5>
+	<p>Mogelijk kan een groot deel van de bevolking verhuizen naar de locatie waar de hernieuwbare energie volgens het seizoen op zijn hoogst is. Dan verlaag je de energie die benodigd is om te verwarmen en verminder je transport van voedsel. Een beetje de terugkeer naar de nomaden. Hiervoor is wel meer energie nodig om de mensen te verplaatsen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Freek</h5>
+	<p>Er zijn heel wat fabrieken (dat zijn er veel en flink grote gebruikers) die je beter niet kan stilleggen&hellip; Levert serieuze procesproblemen op. Alleen al opstarten kan dagen kosten. Maar goed, de industrie verhuist toch naar vervuilende landen, dus hier kunnen we prima groen doen.</p>
+
+</div>
+
+<div class="comment">
+	<h5>Cor Vanistendael</h5>
+	<p>Dit idee is niet haalbaar omdat we niet terug willen naar een tijd dat mensen niet konden worden geholpen als er geen energie voorradig was. Wil je echt geen brandweer, ambulance, enz. als er toevallig op dat moment geen energie voor handen is? Vroeger was niet alles beter en één van die dingen was dat je afhankelijk was van natuurlijke energiebevoorrading voor levensnoodzakelijke zaken. Mensen werden minder oud, kinder stierven als vliegen voor ze vijf jaar oud waren. Er was onnoemelijk veel leed omwille van energieafhankelijkheid. We vergeten zo gemakkelijk hoe simpel het is om zo verschrikkelijk rijk te zijn en alle opties open te kunnen houden op afroep. De meeste bestaande energie-oplossingen werden zo veel decennia terug niet zonder reden als reddend en een stralend toekomstvisioen in de markt gezet. Ze waren dat ook echt, ten minste in vergelijking tot wat men tot dan toe kende. Het zou fout zijn terug te willen naar afhankelijkheid naar natuurlijk aanbod van energiebronnen om één heel simpele reden: je krijgt het huidige welvaartspeil met alle voordelen die dat bied niet georganiseerd. Wat je wel kunt doen is trachten minder energie te verbruiken en daarbij rekening te houden met het aanbod en de mogelijkheden. Maar beschikbaarheid van energie afbouwen is de poort openzetten voor enorm veel leed. Ik ben er vrij zeker van dat niemand dat echt wil.</p>
+
+</div>
+
+				</div>
+			</details>			
+		</section>
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p>Lucas, Adam. Wind, Water, Work: Ancient and Medieval Milling Technology. Vol. 8. Brill, 2006.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Reynolds, Terry S. Stronger than a hundred men: a history of the vertical water wheel. Vol. 7. JHU Press, 2002.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Hills, Richard Leslie. Power from wind: a history of windmill technology. Cambridge University Press, 1996.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Paine, Lincoln. The sea and civilization: a maritime history of the world. Atlantic Books Ltd, 2014.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Sieferle, Rolf Peter, and Michael P. Osman. The subterranean forest: energy systems and the industrial revolution. Cambridge: White Horse Press, 2001.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Wailes, Rex. The English windmill. London, Routledge &amp; K. Paul, 1954&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Jenkins, H. L. C. &ldquo;Ocean passages for the world.&rdquo; The Royal Navy, Somerset (1973).&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Leighly, J. (ed) (1963) The Physical Geography of the Sea and its Meteorology by Matthew Fontaine Maury, 8th Edition, Cambridge, MA: Belknap Press. Cited by Knowles, R.D. (2006) &ldquo;Transport shaping space: the differential collapse of time/space&rdquo;, Journal of Transport Geography, 14(6), pp. 407-425.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Rival teams rejected pedal power because they feared radical change, says Team New Zealand designer. The Telegraph, May 24, 2017.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/energy-storage/" class="">Energy Storage</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/renewable-energy/" class="">Renewable Energy</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/solar-power/" class="">Solar Power</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/wind-power/" class="">Wind power</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/power-transmission/" class="">power transmission</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/nl/tags/history/" class="">History</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/nl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">De thermo-elektrische kachel: een alternatief voor zonnepanelen?</h3>
+		<p class="index-summary">Een houtkachel met thermo-elektrische generatoren kan een huishouden van zowel warmte als elektriciteit voorzien.</p>
+		<time class="published">26 mei 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://mar-ver.github.io/nl/2011/12/how-to-downsize-a-transport-network-the-chinese-wheelbarrow/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2011/12/how-to-downsize-a-transport-network-the-chinese-wheelbarrow/images/dithers/chinese-wheelbarrow_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Het geniale ontwerp van de Chinese kruiwagen</h3>
+		<p class="index-summary">Terwijl de Europese kruiwagen enkel werd ingezet voor het vervoer van vracht op zeer korte afstand, was de Chinese kruiwagen eeuwenlang een universeel voertuig voor het transport van zowel goederen als passagiers op veel grotere afstanden.</p>
+		<time class="published">29 december 2011</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://mar-ver.github.io/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2022/12/lowtech-magazine-op-papier-in-het-nederlands/images/dithers/LTM-boek-nederlandstalig_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Lowtech Magazine op papier, in het Nederlands</h3>
+		<p class="index-summary">De 18 nieuwste artikels van Lowtech Magazine zijn nu verkrijgbaar in boekvorm – het eerste volume in een reeks.</p>
+		<time class="published">2 december 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/nl/2021/10/how-to-build-a-low-tech-solar-panel/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/nl/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Kunnen we lowtech zonnepanelen bouwen?</h3>
+		<p class="index-summary">Heeft George Cove, een vergeten pionier op het gebied van zonne-energie, een efficiënt fotovoltaïsch paneel gebouwd aan het begin van de twintigste eeuw? Als blijkt dat zijn ontwerp werkt, kan het leiden tot minder complexe en duurzamere zonnepanelen.</p>
+		<time class="published">5 oktober 2021</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Paginagrootte: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://mar-ver.github.io/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://mar-ver.github.io/nl/about">
+  Over ons
+</a>
+    <a href="https://mar-ver.github.io/nl/power">
+  Power
+</a>
+    <a href="https://mar-ver.github.io/nl/about/team">
+  Colophon
+</a>
+    <a href="https://mar-ver.github.io/nl/donate">
+  Nieuwsbrief
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAHQzQiVLl_sv5NX9Sii_mfBoFQThNwPv_rtFv0ABEc9OFnwTy_OUeTB7iy-sFym7LiQipYTbtM3PUqohPJDtydCCgro4hClGkznEtvMbbhXU8NLAkLOowbKx_ToeTDsoEjF6m0FvWskEbgmT9t40R1SYOw8Hb5sk6dEpF_G91Lm-c1BbIIlmyl59CZCGMjkfPRF0IuzmQCas' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://mar-ver.github.io/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Comment créer un Internet low-tech | LOW←TECH MAGAZINE</title>
+	
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://mar-ver.github.io/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://mar-ver.github.io/css/style.css"><meta property="og:title" content="Comment créer un Internet low-tech" />
+<meta name="twitter:title" content="Comment créer un Internet low-tech"/>
+
+<meta property="og:description" content="Si nous voulons qu&rsquo;Internet continue de fonctionner dans un contexte d&rsquo;accès limité à l&rsquo;énergie, nous pouvons tirer d&rsquo;importantes leçons des réseaux alternatifs." />
+
+<meta name="twitter:description" content="Si nous voulons qu&rsquo;Internet continue de fonctionner dans un contexte d&rsquo;accès limité à l&rsquo;énergie, nous pouvons tirer d&rsquo;importantes leçons des réseaux alternatifs."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png" />
+<meta property="og:image:secure_url" content="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-10-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-10-26T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="ICT" />
+
+</head>
+<body id="comment-cr%C3%A9er-un-internet-low-tech">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://mar-ver.github.io/fr/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://mar-ver.github.io/fr/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://mar-ver.github.io/fr/power">Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/about/ " data-nav="about" >
+                <span>À propos</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Solutions Low-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problèmes High-tech</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Technologie Ancienne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/offline-reading/ " data-nav="offline-reading" >
+                <span>Lire le magazine hors-ligne</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/archives/ " data-nav="archive" >
+                <span>Archive</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/fr/donate/ " data-nav="donate" >
+                <span>Faire un don</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Comment créer un Internet low-tech</h1>
+
+				<p class="summary">
+					Si nous voulons qu&rsquo;Internet continue de fonctionner dans un contexte d&rsquo;accès limité à l&rsquo;énergie, nous pouvons tirer d&rsquo;importantes leçons des réseaux alternatifs.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">26 octobre 2015</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Ecrit par</span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/fr/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Traduit par</span>
+						
+							<span class="author"><a href="https://mar-ver.github.io/fr/translators/hugo-gervasoni/">Hugo Gervasoni</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Traductions</span>
+						
+							<a href="https://mar-ver.github.io/2015/10/how-to-build-a-low-tech-internet/">en</a>
+						
+							<a href="https://mar-ver.github.io/de/2015/10/how-to-build-a-low-tech-internet/">de</a>
+						
+							<a href="https://mar-ver.github.io/es/2015/10/how-to-build-a-low-tech-internet/">es</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png" alt='Image: Un nœud du réseau écossais Tegola' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/tegola-project-low-tech-internet_hubdfcbab0795c40ddd0f03a63a323a3c5_630466_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/tegola-project-low-tech-internet_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Un nœud du <a href="http://www.tegola.org.uk/hebnet/" target="_blank" >réseau écossais Tegola</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>L&rsquo;accès sans-fil à Internet n&rsquo;a cessé d&rsquo;augmenter, non seulement dans les sociétés de consommation modernes mais aussi dans les pays dits en voie de développement. Alors que dans les pays riches, l&rsquo;accent est mis sur une très haute disponibilité et des vitesses de connexion toujours plus rapides, les pays pauvres vont plutôt se connecter à Internet via des réseaux low-tech, souvent asynchrones.</p>
+<p>Si l&rsquo;approche haute technologie alourdit <a href="https://mar-ver.github.io/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/" >de plus en plus</a> le coût énergétique d&rsquo;Internet, l&rsquo;approche low-tech, elle, permet d&rsquo;obtenir des réseaux meilleurs marché et à haut rendement énergétique, qui se couplent bien avec une production d&rsquo;énergie renouvelable et qui résistent mieux aux interruptions.</p>
+<p>Si nous voulons qu&rsquo;Internet continue de fonctionner dans un contexte d&rsquo;accès limité à l&rsquo;énergie, nous pouvons tirer d&rsquo;importantes leçons des réseaux alternatifs. Mieux encore, nous n&rsquo;avons pas besoin d&rsquo;attendre que les gouvernements ou les entreprises ouvrent la voie: Si nous coopérons ensemble, nous pouvons construire notre propre infrastructure de communication résiliente. C&rsquo;est ce que prouvent plusieurs réseaux communautaires à travers l&rsquo;Europe, dont le plus grand compte déjà plus de 35 000 utilisateurs.</p>
+<p>Contrairement à ce que laisserait penser son appellation de &ldquo;World Wide Web&rdquo;, plus de la moitié de la population mondiale actuelle n&rsquo;a toujours pas accès à Internet. Internet aujourd&rsquo;hui est un phénomène majoritairement urbain, surtout dans les pays &ldquo;en voie de développement&rdquo;. Les companies de télécommunications rechignent en général à étendre leurs réseaux hors des villes pour de nombreuses raisons: le coût élevé des infrastructures, des densités faibles de population, qui de plus ne peuvent pas se permettre de payer leurs services et une infrastructure électrique peu fiable voire non existente. Même dans les régions reculées des pays dits &ldquo;développés&rdquo;, une connexion Internet fiable n&rsquo;est pas toujours une garantie.</p>
+<p>On entend régulièrement parler de nouvelles solutions proposées par les géants d&rsquo;Internet comme Facebook ou Google visant à fournir Internet aux régions les plus reculées du monde: Facebook en employant des drones, Google des ballons à haute-altitude. Des défis technologiques importants à relever, certes, mais surtout contestables de par leur caractère mercantile. Il va de soi que l&rsquo;objectif de Google et Facebook en connectant davantage de personnes à Internet est d&rsquo;augmenter leurs revenus. Facebook en particulier est l&rsquo;objet de nombreuses critiques car leur réseau déssert surtout son propre site et bloque la majorité des autres. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Pendant ce temps, de nombreux groupes de recherches et des passionné·es de réseaux ont développé et implémenté des technologies de réseaux alternatives bien plus abordables pour résoudre ces enjeux. Bien qu&rsquo;ils aient démontré leur efficacité, ces réseaux low-tech reçoivent moins d&rsquo;attention. Contrairement aux projet cités ci-dessus, ils sont mis en place par de petites organisations ou même parfois par les utilisateur·rices. Cela garantit la création de réseaux ouverts qui bénéficient aux utilisateur·rices d&rsquo;abord, et non à une poignée d&rsquo;entreprises et qui de plus ont l&rsquo;avantage d&rsquo;être bien plus économes en énergie.</p>
+<h2 id="réseaux-wi-fi-longue-distance">Réseaux Wi-Fi Longue Distance</h2>
+<p>La majorité des réseaux low-tech sont basés sur le Wi-Fi, protocole qui fournit l&rsquo;accès à Internet dans la plupart des domiciles des pays occidentaux. Comme nous l&rsquo;avons vu dans notre article précédent, <a href="https://mar-ver.github.io/2015/10/the-4g-mobile-internet-that-s-already-there/" >partager les routeurs Wi-Fi pourrait fournir un accès gratuit à Internet dans les métropoles densément peuplées</a>. Mais cette technologie peut être tout aussi efficace dans des zones faiblement peuplées. Bien que le standard Wi-Fi ait été conçu pour transmettre des données à courte distance (avec une portée d&rsquo;environ 30 mètres), sa portée peut être étendue en modifiant la couche MAC (Media Access Control) de son protocole réseau, et via l&rsquo;utilisation de répéteurs et d&rsquo;antennes directionnelles. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<blockquote>
+<p>Bien que le standard Wi-Fi ait été conçu pour transmettre des données à courte distance, sa portée peut être étendue pour couvrir des distances de plus de 100 kilomètres.</p>
+</blockquote>
+<p>La plus longue liaison Wi-Fi non-amplifiée s&rsquo;étend sur 384 km et relie de point à point le Pico El Águila et le Pico Platillón au Venezuela depuis quelques années. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Toutefois les réseaux Wi-Fi longue distance sont plus souvent constitués de plusieurs liaisons point à point, séparées par des distances allant de quelques kilomètres à une centaine de kilomètres maximum. Celles-ci sont combinées pour créer de plus larges réseaux appelés &ldquo;réseaux à sauts multiples&rdquo;. Cela est fait avec l&rsquo;aide d&rsquo;antennes omnidirectionnelles qui vont ensuite distribuer le signal aux particulier·ères (ou institutions publiques) appartenant à la communauté.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/node-tegola_dithered.png" alt='Image: Un relai avec trois liaisons point à point et trois antennes sectorielles. Tegola' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/node-tegola_hu5d3baa76121ae281d41676d8c06d931b_134573_800x800_fit_q90_h2_box.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/node-tegola_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Un relai avec trois liaisons point à point et trois antennes sectorielles. <a href="http://www.tegola.org.uk/howto/network-planning.html" target="_blank" >Tegola</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les liaisons Wi-Fi longue distance nécessitent une visibilité directe pour établir une connexion &ndash; elles sont sur cet aspect similaires aux <a href="https://mar-ver.github.io/fr/2007/12/email-in-the-18th-century-the-optical-telegraph/" >sémaphores du XVIIIème siècle</a>. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> S&rsquo;il n&rsquo;y a pas de visibilité directe entre deux points, il faut alors mettre en place un relai ayant en vue ces deux points pour faire office d&rsquo;intermédiaire lors de la transmission du signal. Le nombre de nœuds dépend alors du terrain et des obstacles à la communication. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>Les liaisons point à point consistent typiquement de deux antennes directionnelles, une visant le précedent nœud du réseau, et l&rsquo;autre le prochain. Les nœuds peuvent avoir plusieurs antennes, une pour chaque liaison point à point à chaque voisin du réseau. <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Cela permet d&rsquo;utiliser des protocoles de &ldquo;routage maillé&rdquo;, qui permettent de choisir dynamiquement la meilleure liaison à emprunter parmi celles disponibles <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<blockquote>
+<p>Les liaisons Wi-Fi longue distance nécessitent une visibilité directe pour établir une connexion &ndash; elles sont sur cet aspect similaires aux sémaphores du XVIIIème siècle</p>
+</blockquote>
+<p>Les nœuds de distribution, eux, sont composés d&rsquo;une antenne sectorielle (une variante plus petite de celles que vous pouvez voir sur les antennes-relais des réseaux mobiles) ou d&rsquo;un routeur Wi-Fi ordinaire, couplés aux récepteurs des membres de la communauté. <sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Pour de la transmission Wi-Fi à courte distance, il n&rsquo;est pas nécessaire d&rsquo;avoir une visibilité directe entre le transmetteur et le récepteur. <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>Pour fournir aux utilisateur·rices un accès au World Wide Web, un réseau Wi-Fi longue distance doit être connecté à l&rsquo;infrastructure globale d&rsquo;Internet via au moins un &ldquo;réseau backhaul&rdquo; ou un &ldquo;nœud passerelle&rdquo;. Cela peut autant être un réseau modem qu&rsquo;un réseau haut-débit (xDSL, fibre ou satellite). Si une telle liaison n&rsquo;est pas établie, les utilisateur·rices pourront tout de même communiquer ensemble et consulter des sites hébergés sur des serveurs locaux, mais ne pourront pas consulter tout Internet. <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<h2 id="avantages-du-wi-fi-longue-distance">Avantages du Wi-Fi Longue Distance</h2>
+<p>Le Wi-Fi longue distance fournit une bande passante élevée (allant jusqu&rsquo;à 54 Mb/s) pour de faible coûts d&rsquo;investissement. De par la large adoption et mise en production du standard Wi-Fi, il est facile de trouver et d&rsquo;acheter des antennes et des cartes Wi-Fi à faible coût. <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> À défaut, il est toujours possible d&rsquo;assembler des composants <a href="http://roelof.info/projects/%282014%29Pretty_Fly_For_A_Wifi/" target="_blank" >à partir de matériaux abandonnés</a> comme de vieux routeurs, des antennes paraboliques ou des ordinateurs portables. Des protocoles comme WiLDNet tournent sur des processeurs de 266 MHz avec seulement 128 Mo de mémoire, ce qui montre bien que même un vieil ordinateur pourrait faire l&rsquo;affaire. <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/wifi-link_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/wifi-link_hub26402e7e656b977efa29ddd09d9f542_32908_800x800_fit_q90_h2_box.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/wifi-link_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les nœuds Wi-Fi sont légers et fonctionnent sans avoir besoin d&rsquo;être installés sur des tours &ndash; réduisant le coût d&rsquo;investissement et minimisant ainsi l&rsquo;impact écologique des infrastructures à concevoir. <sup id="fnref2:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Depuis peu, il est de plus en plus facile de trouver des équipements qui combinent antenne, carte Wi-Fi et processeur en un seul module, ce qui simplifie grandement leur installation. Pour construire un relai, il suffit de connecter ces modules entre eux à l&rsquo;aide de câbles Ethernet transmettant à la fois l&rsquo;alimentation et le signal (PoE, Power over Ethernet). <sup id="fnref2:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Ces modules peuvent être montés sur des tours ou de petits pylônes, qui ont une faible prise au vent. <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Des entreprises comme <a href="https://www.ubnt.com/" target="_blank" >Ubiquiti</a>, <a href="http://www.alvarion.com/" target="_blank" >Alvarion</a> et <a href="http://www.mikrotik.com/" target="_blank" >MicroTik</a> fournissent du matériel pour le Wi-Fi longue distance.</p>
+<blockquote>
+<p>Le Wi-Fi longue distance emploie des spectres exploitables sans license et fournit une bande passante élevée pour de faibles coûts d&rsquo;investissements, une installation facile et de faibles besoins en énergie.</p>
+</blockquote>
+<p>Le Wi-Fi longue distance a des coûts de fonctionnement moins élevés car il consomme peu d&rsquo;énergie. L&rsquo;installation classique sur un pylône consistant en deux liaisons longue distance et une ou deux cartes sans-fil pour la distribution locale ne consomme environ que 30 Watts. <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> Dans plusieurs réseaux low-tech, les nœuds sont entièrement alimentés par des panneaux solaires et des batteries. Un autre avantage important du Wi-Fi longue distance est qu&rsquo;il emploie des spectres exploitables sans license (2,4 et 5 GHz), et évite ainsi d&rsquo;avoir à négocier avec des opérateurs télécom ou des gouvernements. Cela permet de faire encore plus d&rsquo;économies et permet à n&rsquo;importe qui de commencer à mettre en place un réseau Wi-Fi longue distance. <sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h2 id="les-réseaux-wi-fi-longue-distance-dans-les-pays-pauvres">Les Réseaux Wi-Fi Longue Distance Dans les Pays Pauvres</h2>
+<p>Les premiers réseaux Wi-Fi longue distance ont été mis en place il y a une dizaine d&rsquo;années. On en trouve principalement deux types dans les pays pauvres. Le premier a pour but de fournir l&rsquo;accès Internet aux villages de pays reculés. C&rsquo;est le cas du réseau Akshaya en Inde, qui couvre l&rsquo;intégralité de l&rsquo;état du Kerala et est un des plus grand réseaux Wi-Fi au monde. Son infrastructure est comprise de près de 2500 &ldquo;ordinateurs centres d&rsquo;accès&rdquo; ouverts à la population locale &ndash; la possession directe d&rsquo;ordinateurs étant rare dans la région. <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup></p>
+<p>On peut aussi mentionner les réseaux AirJaldi, aussi en Inde, qui fournissent un accès Internet à environ 20 000 utilisateur·rices dans six états, tous dans des régions reculées et des zones peu accessibles. Presque tous les nœuds de ce réseau sont alimentés par de l&rsquo;énergie solaire, et la distance entre deux nœuds peut aller jusqu&rsquo;à 50 km, voire plus. <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> Dans certains pays africains, des réseaux Wi-Fi locaux transmettent l&rsquo;accès à Internet via une passerelle satellite. <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup><sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/node-air-jaldi-network_dithered.png" alt='Un nœud du réseau AirJaldi. Image: AirJaldi.' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/node-air-jaldi-network_hu59ecfb60932e7cbb6b217f7cc4606450_432272_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/node-air-jaldi-network_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un nœud du réseau AirJaldi. Image: AirJaldi.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Le second type de réseau Wi-Fi longue distance dans les pays pauvres a pour but de fournir des services de télémédecine aux communautés les plus isolées. Dans ces régions, les soins de santé sont souvent administrés dans des postes sanitaires mal équipés et occupés par des agent·es de santés peu formés. <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Les réseaux de Wi-Fi longue distance peuvent alors connecter les hôpitaux urbains à ces postes sanitaires éloignés, en permettant aux docteur·es d&rsquo;assister à distance les technicien·nes, via des transferts de fichiers en haute-définition et des appels audio et vidéo en temps réel.</p>
+<p>Un exemple de ce type de réseau est la liaison entre Cabo Pantoja et Iquitos dans la province du Loreto au Pérou, établie en 2007. Ce réseau de 450 km est composé de 17 tours éloignées de 16 à 50 km les unes des autres. Il relie 15 postes sanitaires situés dans des villages reculés à l&rsquo;hôpital principal d&rsquo;Iquitos et permet de diagnostiquer à distance des patient·es. <sup id="fnref1:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup><sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> Tout cet équipement est alimenté par des panneaux solaires. <sup id="fnref1:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup><sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> D&rsquo;autres exemples réussis de réseaux Wi-Fi longue distance destinés à la télémedicine ont été construits en Inde, au Malawi et au Ghana. <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup><sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup></p>
+<h2 id="les-réseaux-wi-fi-communautaires-en-europe">Les Réseaux Wi-Fi Communautaires en Europe</h2>
+<p>Les réseaux low-tech des pays pauvres sont mis en place par des ONG, des gouvernements, des universités ou des entreprises. À l&rsquo;inverse, la plupart des réseaux Wi-Fi longue distance situés dans des zones isolées des pays riches vont plutôt prendre la forme de &ldquo;réseaux communautaires&rdquo;: c&rsquo;est à dire qu&rsquo;ils sont construits, possédés, alimentés et entretenus par leurs utilisateur·rices. Comme pour l&rsquo;approche urbaine de partage du Wi-Fi, le partage mutuel de ressources constitue la base de ces réseaux: les participant·es peuvent mettre en place leur propre nœud et le connecter au réseau (gratuitement), tant que leur nœud permet aussi le trafic d&rsquo;autres utilisateur·rices. Chaque nœud agit alors comme un routeur Wi-Fi qui fournit alors des services de routage d&rsquo;IP et de une liaison de données à tous les utilisateur·rices qui y sont connecté·es. <sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<blockquote>
+<p>Un réseau communautaire est construit, possèdé, alimenté et entretenu par ses utilisateur·rices.</p>
+</blockquote>
+<p>Par conséquent, chaque nouvel·le utilisateur·rice agrandit le réseau, ce qui fait qu&rsquo;il n&rsquo;est pas nécessaire de planifier au préalable l&rsquo;infrastructure. Un réseau communautaire grandit par la base, selon les besoins de ses utilisateur·rices, car des nœuds et des liaisons ne sont ajoutés ou améliorés que si la demande augmente. Tout ce qu&rsquo;il y a à faire est de connecter le nœud du participant ou de la participante à un nœud existant. Quand le nœud est allumé, il découvre ses voisins, s&rsquo;attribue une adresse IP unique puis établit le chemin le plus approprié pour accéder au reste du réseau, selon la qualité des nœuds alentours. Les réseaux communautaires sont ouverts à tous les participant·es, pour certains à condition qu<strong>e</strong> les accords d&rsquo;échange de trafic soient respectés. <sup id="fnref2:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref2:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup><sup id="fnref1:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup><sup id="fnref1:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/wireless-links-spanish-guifi-network_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/wireless-links-spanish-guifi-network_hub6d6c2b89f17b9c305226689a8f9e964_323959_800x800_fit_q90_h2_box.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/wireless-links-spanish-guifi-network_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Image: Des liaisons Wi-Fi du réseau espagnol Guifi. <a href="http://iuliinet.github.io/presentazione_ottobre_2014/img/barcellona.jpg" target="_blank" >Crédit</a></p>
+<p>Malgré le manque de statistiques fiables à leur sujet, les réseaux communautaires semblent prospères, et de très larges réseaux existent en Europe, comme <a href="https://guifi.net/" target="_blank" >Guifi.net</a> (Espagne), <a href="http://www.awmn.gr/content.php?s=ce506a41ab245641d6934638c6f6f107" target="_blank" >l&rsquo;Athens Wireless Metropolitan Network</a> (Grèce), <a href="http://www.funkfeuer.at/" target="_blank" >FunkFeuer</a> (Autriche), et <a href="http://freifunk.net/en/" target="_blank" >Freifunk</a> (Allemagne). <sup id="fnref3:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref2:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup><sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup><sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup></p>
+<p>Le réseau espagnol est le plus grand réseau Wi-Fi longue distance du monde avec plus de 50 000 km de liaisons, bien qu&rsquo;une partie soit basée sur de la fibre. La plus grande partie est située dans les Pyrénées catalanes, une des zones les moins peuplées d&rsquo;Espagne. Le réseau fut créé en 2004 et est maintenant constitué de près de 30 000 nœuds, alors qu&rsquo;il n&rsquo;en avait que 17 000 en 2012. <sup id="fnref4:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref3:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<p>Guifi.net fournit un accès Internet à des particulier·ères, des entreprises, des administrations et des universités. En principe le réseau est installé, alimenté et entretenu par ses utilisateur·rices, bien que des équipes de bénévoles ou des installateurs professionnels soient présents pour les assister. Certain·es bénéficiaires indirect·es du réseau ont même réussi à financer la mise à jour de nœuds et du cœur du réseau à la suite d&rsquo;une campagne de collecte de fonds. <sup id="fnref5:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref4:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup></p>
+<h2 id="performance-des-réseaux-low-tech">Performance des Réseaux Low-Tech</h2>
+<p>Qu&rsquo;en est-il de la performance de ces réseaux low-tech ? Que peut-on accomplir en s&rsquo;en servant ? La bande passante disponible par utilisateur·rice est extrêmement variable et dépend, parmi d&rsquo;autres facteurs, de la bande passante des nœuds passerelles, et du nombre d&rsquo;utilisateur·rices. Les réseaux Wi-Fi longue distance destinés à la télémédecine dans les pays pauvres ont peu d&rsquo;utilisateur·rices et un bon raccordement, ce qui permet une bande passante élevée (plus de 40 Mb/s), une performance semblable à celle de la fibre dans les pays dits développés. Une étude d&rsquo;une partie du réseau communautaire Guifi.net, composée de douzaines de nœuds passerelles et des milliers d&rsquo;utilisateur·rices, affiche un débit moyen de 2 Mb/s, comparable à une connexion DSL assez lente. Le débit effectif par utilisateur·rice peut varier de 700 kb/s à 8 Mb/s. <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup></p>
+<blockquote>
+<p>La bande passante disponible par utilisateur·rice peut varier énormément, selon la bande passante du ou des nœuds passerelle(s) et du nombre d&rsquo;utilisateur·rices, parmi d&rsquo;autres facteurs.</p>
+</blockquote>
+<p>Cependant, les réseaux low-tech qui doivent fournir un accès Internet à une large population dans les pays dits en voie de développement peuvent avoir une bande passante encore plus limitée par utilisateur·rice. Par exemple, un campus universitaire au Kerala (Inde) utilise une connexion de 750 kb/s partagée par 3000 professeur·es et étudiant·es sur 400 machines qui peuvent, pendant les pics d&rsquo;utilisation, être toutes en emploi.</p>
+<p>Par conséquent la pire bande passante possible par machine est d&rsquo;approximativement 1,9 kb/s, un débit lent même en comparaison avec une connexion modem classique de 56 kb/s. Ce débit reste tout à fait correct par rapport à ceux que l&rsquo;on peut avoir dans les zones rurales de pays pauvres. <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> Pire encore, ces réseaux se retrouvent souvent confrontés à des problèmes d&rsquo;alimentation énergétique intermittente.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/node-spanish-guifi-network_dithered.png" alt='Image: Un nœud du réseau communautaire espagnol Guifi' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/node-spanish-guifi-network_hu5bd119ab155f289b4f66f93b04ebf660_127153_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/node-spanish-guifi-network_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: Un nœud du réseau communautaire espagnol Guifi</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Dans ce contexte, même les applications internet les plus basiques ont une performance médiocre voire inexistante. Le modèle de communication d&rsquo;Internet est basé sur plusieurs postulats sur la forme du réseau, appelés les protocoles TCP/IP. On retrouve par exemple parmi ces postulats celui de l&rsquo;existence d&rsquo;un chemin de bout en bout entre la source (par exemple le serveur hébergeant le site) et la destination (l&rsquo;ordinateur de l&rsquo;utilisateur), des délais d&rsquo;aller-retour faibles et de faibles taux d&rsquo;erreur.</p>
+<p>La plupart des réseaux low-tech des pays pauvres ne sont pas conformes à ces postulats. Ils sont caractérisés par une connexion intermittente ou &ldquo;partitionnage réseau&rdquo; &ndash; l&rsquo;absence d&rsquo;un chemin de bout en bout de la source à la destionation &ndash; des délais longs et variables, et de hauts taux d&rsquo;erreurs. <sup id="fnref1:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup><sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup><sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup></p>
+<h2 id="réseaux-tolérants-aux-délais">Réseaux Tolérants aux Délais</h2>
+<p>Néanmoins même dans ces conditions il serait possible de faire fonctionner Internet correctement. Les problèmes techniques peuvent être résolus en s&rsquo;écartant du modèle de connexion permanente des réseaux traditionnels et concevoir des réseaux adaptés à des communications asynchrones et une connexion intermittente. Ces &ldquo;Réseaux Tolérants aux Délais&rdquo; (DTN en anglais) ont leurs propre protocoles qui se superposent à ceux des couches les plus basses du modèle de communication, et qui n&rsquo;utilisent pas TCP. Ils résolvent les problèmes d&rsquo;intermittence et de longs délais en utilisant la commutation de message en mode différé.</p>
+<p>L&rsquo;information est d&rsquo;abord envoyée de l&rsquo;espace de stockage d&rsquo;un nœud à celui d&rsquo;un autre nœud, suivant un chemin qui rejoindra &ndash; à terme &ndash; sa destination. Contrairement aux routeurs Internet classiques, qui ne stockent que les packets entrants que pendant quelques millisecondes sur des puces mémoire, les nœuds des DTN possèdent des stockages persistants (comme des disques durs), qui peuvent contenir l&rsquo;information indéfiniment. <sup id="fnref1:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup><sup id="fnref1:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup></p>
+<blockquote>
+<p>Les Réseaux Tolérants aux Délais (DTN) se combinent bien avec l&rsquo;énergie renouvelable: des panneaux solaires ou des éoliennes pourraient n&rsquo;alimenter les nœuds du réseaux que lorsque le soleil brille ou le vent souffle, éliminant ainsi le besoin de stocker de l&rsquo;énergie.</p>
+</blockquote>
+<p>Les DTN n&rsquo;ont pas besoin d&rsquo;un chemin de bout en bout entre la source et la destination. Les données sont juste transférées de nœud à nœud. Si le prochain nœud n&rsquo;est pas disponible à cause de délais longs ou de coupures de courant, les données sont alors stockées sur le disque dur en attendant que le nœud redevienne accessible. Bien que les données puissent mettre beaucoup de temps à être transmises, un DTN assure qu&rsquo;elles finiront bien par arriver à bon port.</p>
+<p>Les DTN réduisent davantage les coûts d&rsquo;investissement et la consommation énergétique, amenant ainsi à une meilleure gestion de ressources limitées: ils fonctionnent même alimentés par une source d&rsquo;énergie intermittente et se combinent bien avec les énergies renouvelables: des panneaux solaires ou des éoliennes pourraient n&rsquo;alimenter les nœuds que lorsque le soleil brille ou le vent souffle, éliminant ainsi le besoin de stocker de l&rsquo;énergie.</p>
+<h2 id="les-chariots-de-données">Les Chariots de Données</h2>
+<p>Les DTN peuvent prendre des formes surprenantes, surtout quand ils s&rsquo;inspirent de modes de communication peu usités comme les &ldquo;chariots de données&rdquo; (data mules en anglais). <sup id="fnref1:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup><sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> Dans ces réseaux, les méthodes conventionnelles de transport &ndash; bus, voiture, moto, train, bateau, avion&hellip; &ndash; sont employées pour transporter des messages d&rsquo;un lieu à un autre en mode différé.</p>
+<p>C&rsquo;est le cas de DakNet et KioskNet pour lesquels les chariots de données sont des bus. <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup><sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup><sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup><sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup><sup id="fnref:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup> Dans de nombreuses régions dites &ldquo;en voie de développement&rdquo;, des bus de campagne circulent régulièrement dans des villages ou villes sans aucune connexion Internet. En ajoutant à chaque véhicule un ordinateur, un support de stockage, et un nœud Wi-Fi mobile, puis en installant un nœud Wi-Fi fixe dans chaque village, l&rsquo;infrastructure de transport en commun locale peut alors servir de liaison sans-fil à Internet. <sup id="fnref2:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/air-jaldi-epostman_dithered.png" alt='Image: AirJaldi.' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/air-jaldi-epostman_hu19dbd613705006ac696e3e6b9dd43462_644107_800x800_fit_q90_h2_box_3.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/air-jaldi-epostman_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Image: AirJaldi.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Les données sortantes (commes des e-mails envoyés ou des requêtes vers des pages web) sont stockées dans des ordinateurs du village jusqu&rsquo;à ce que le bus arrive à portée. Le nœud Wi-Fi fixe du village va alors transmettre ces données au nœud Wi-Fi mobile du bus. Plus tard, quand le bus atteindra une zone connectée à Internet, les données sortantes seront envoyées automatiquement du nœud Wi-Fi mobile au nœud passerelle, qui les transmettra ensuite à Internet. Les données envoyées au village prendront le chemin inverse. La personne conduisant le bus &ndash; et des données &ndash; n&rsquo;a pas besoin de compétences supplémentaires et n&rsquo;a aucune idée des données étant transmises. Il ou elle a juste à amener le bus à portée des nœuds.<sup id="fnref1:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup><sup id="fnref1:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
+<blockquote>
+<p>Dans un réseau de chariots de données, l&rsquo;infrastructure de transport en commun local fait office de liaison sans-fil à Internet.</p>
+</blockquote>
+<p>L&rsquo;utilisation de chariots de données possède plusieurs avantages par rapport aux DTN plus &ldquo;sophistiqués&rdquo;. Un réseau Wi-Fi &ldquo;véhiculé&rdquo; permet d&rsquo;employer du matériel petit, bon-marché et consommant peu d&rsquo;énergie, ne nécessitant pas de visibilité directe, et donc pas de tours &ndash; ce qui donne donc des coûts d&rsquo;investissement et une consommation énergétique encore plus inférieures aux autres réseaux low-tech. <sup id="fnref2:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup><sup id="fnref2:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup><sup id="fnref1:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup></p>
+<p>L&rsquo;utilisation de liaison Wi-Fi à courte distance donne aussi une bande passante plus élevée que celles des liaisons Wi-Fi longue distance, ce qui rend les chariots de données plus adaptés aux transferts de larges fichiers. En moyenne 20 Mo de données peuvent être transmis et reçus en même temps lorsqu&rsquo;un bus passe près d&rsquo;un nœud Wi-Fi fixe. <sup id="fnref3:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup><sup id="fnref2:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup> En contrepartie, la latence (c&rsquo;est à dire le temps entre l&rsquo;envoi et la réception des données) est généralement plus élevée que pour les autres réseaux Wi-Fi longue distance. Un unique bus traversant un village une fois par jour va en effet correspondre à une latence de 24 heures.</p>
+<h2 id="logiciels-de-tolérance-aux-délais">Logiciels de Tolérance aux Délais</h2>
+<p>Il va de soi qu&rsquo;un Réseau Tolérant aux Délais (DTN) &ndash; quelle que soit sa forme &ndash; va demander des logiciels différents: des applications fonctionnant sans avoir besoin d&rsquo;une connectivité de bout en bout. <sup id="fnref3:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> De telles applications seraient aussi adaptées à des réseaux synchrones à faible bande passante. L&rsquo;e-mail, étant déjà une méthode de communication asynchrone, serait relativement facile à adapter pour une connexion intermittente. Un client mail adapté au DTN stockerait les données sortantes jusqu&rsquo;à ce qu&rsquo;une connexion soit accessible. Bien que le mail mettrait plus de temps à atteindre sa destination, l&rsquo;expérience d&rsquo;utilisation ne changerait presque pas.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/freifunk-wifi-node_dithered.png" alt='Un nœud Wi-Fi de Freifunk est installé à Berlin, en Allemagne. Image: Wikipedia Commons' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/freifunk-wifi-node_hu6dfb15fa0dbecc2abf65d48a60141f62_114720_800x800_fit_q90_h2_box.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/freifunk-wifi-node_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Un nœud Wi-Fi de Freifunk est installé à Berlin, en Allemagne. Image: <a href="https://upload.wikimedia.org/wikipedia/commons/5/51/Freifunk-Initiative_in_Berlin-Kreuzberg.jpg" target="_blank" >Wikipedia Commons</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Pour naviguer et effectuer des recherches sur le web, plus d&rsquo;adaptations seront requises. Les moteurs de recherche, par exemple, sont optimisés pour obtenir la meilleure vitesse possible car ils supposent que l&rsquo;utilisateur·rice peut rapidement visualiser les différents liens et directement lancer une seconde recherche si le premier résultat n&rsquo;est pas pertinent. Cependant dans des réseaux intermittents, plusieurs sessions de recherche interactives de ce genre seraient impraticables. <sup id="fnref1:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup><sup id="fnref:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup> Les moteurs de recherches asynchrones sont optimisés par rapport à la bande passante plutôt qu&rsquo;au temps de réponse. <sup id="fnref2:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup><sup id="fnref4:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup><sup id="fnref3:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup><sup id="fnref1:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup><sup id="fnref:36"><a href="#fn:36" class="footnote-ref" role="doc-noteref">36</a></sup> Par exemple RuralCafe &ldquo;dé-synchronise&rdquo; le processus de recherche en réalisant plusieurs tâches de recherche hors-connexion, affinant la recherche à l&rsquo;aide d&rsquo;une base de données de recherches similaires. La récupération effective d&rsquo;informations via le réseau n&rsquo;est faite qu&rsquo;en cas d&rsquo;absolue nécessité.</p>
+<blockquote>
+<p>Plusieurs applications Internet pourraient être adaptées à des réseaux intermittents, comme la navigation Internet, l&rsquo;e-mail, les formulaires électroniques, les sites d&rsquo;e-commerce, les blogs, le téléchargement de larges fichiers ou bien les réseaux sociaux.</p>
+</blockquote>
+<p>Certains navigateurs Web favorisant les DTN ne vont pas charger que la page web demandée, mais aussi celles qui sont listées dans cette page. <sup id="fnref5:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> D&rsquo;autres sont optimisés pour renvoyer les résultats avec le moins de bande passante possible, via des techniques de filtrage, d&rsquo;analyse et de compression sur le site. Un effet similaire peut être obtenu en utilisant un service comme <a href="http://www.loband.org/loband/" target="_blank" >Loband</a>, qui débarrasse les pages web de leurs images, vidéos, publicités, boutons de partage des réseaux sociaux&hellip; de sorte à ne présenter que le contenu textuel. <sup id="fnref3:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
+<p>La navigation et la recherche sur des réseaux intermittents peuvent aussi être améliorées par un cache local (stockant les pages déjà chargées) et le &ldquo;prefetching&rdquo; (le chargement préalable de pages pouvant être consultées dans le futur). <sup id="fnref4:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> Plusieurs autres applications Internet pourraient ainsi être adaptées aux réseaux intermittents, comme les formulaires électroniques, les sites de e-commerce, les blogs, le téléchargement de larges fichiers, les réseaux sociaux, etc&hellip; <sup id="fnref4:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup><sup id="fnref6:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> Tous ces usages restent donc possibles, bien qu&rsquo;à des vitesses plus lentes.</p>
+<h2 id="les-sneakernets">Les Sneakernets</h2>
+<p>Bien sûr, des applications en temps réel telles que les appels audio, le streaming, le chat ou les visioconférences ne peuvent pas être transposées aux réseaux intermittents, qui ne fournissent que de la communication asynchrone. Elles seraient aussi difficilement utilisables dans des réseaux synchrones à faible bande passante. Nous pourrions aussi nous dire que, ces applications étant largement responsables de l&rsquo;explosion de la consommation énergétique d&rsquo;Internet, leur incompatibilité avec les réseaux low-tech est en réalité une bonne chose (voir <a href="https://mar-ver.github.io/fr/2015/10/why-we-need-a-speed-limit-for-the-internet/" >l&rsquo;article précédent</a>).</p>
+<p>De plus, ces applications peuvent être réorganisées complètement différemment. Si les appels audio ou vidéo ne fonctionnaient plus, il serait toujours possible de recevoir des messages audio et vidéo. Si le streaming n&rsquo;était plus tenable, on pourrait toujours télécharger de la musique et des vidéos. Ces fichiers-ci pourraient être &ldquo;transmis&rdquo; avec l&rsquo;aide de la technologie Internet la plus low-tech possible: un &ldquo;sneakernet&rdquo;. Dans un sneakernet, les données sont transmises &ldquo;sans-fil&rdquo; via un support de stockage comme un disque dur, une clé USB, une carte mémoire, un CD ou un DVD. Avant l&rsquo;arrivée d&rsquo;Internet le sneakernet était l&rsquo;unique méthode d&rsquo;échange de fichiers, se servant de cassettes ou de disquettes comme supports de stockage.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/sneakernet-on-rails_dithered.png" alt='' data-original="https://mar-ver.github.io/fr/2015/10/how-to-build-a-low-tech-internet/images/sneakernet-on-rails_hucf6c4d3547c26db36fc860b00a83e158_129687_800x800_fit_q90_h2_box.webp" data-dither="/fr/2015/10/how-to-build-a-low-tech-internet/images/dithers/sneakernet-on-rails_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              Voir l&#39;original
+            </span>
+            <span class="tooltip view-dither">
+            Voir la version compressée
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Remplir un train de marchandises avec des supports de stockage numériques battrait n&rsquo;importe quel réseau classique en termes de rapidité, coût et rendement énergétique. Image: Wikipedia Commons.</p>
+<p>Comme un chariot de données, un sneakernet fait intervenir un véhicule, un messager à pied ou un animal (comme un <a href="https://mar-ver.github.io/2009/02/truckloads-of-hard-disks/" >pigeon voyageur</a>). Cependant, dans un sneakernet, il n&rsquo;y aurait pas de transfert automatique de données entre un nœud mobile et un nœud fixe. À la place, les données devraient être transférées de l&rsquo;ordinateur de l&rsquo;expéditeur·rice au support de stockage mobile. Une fois le véhicule arrivé à destination, les données devraient être manuellement transférées du support de stockage mobile à l&rsquo;ordinateur du ou de la destinataire. <sup id="fnref7:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> Un sneakernet va donc réquérir une intervention manuelle, le rendant peu adapté à de nombreuses applications Internet.</p>
+<p>On trouve des exceptions: par exemple, un film n&rsquo;a pas à être transféré au disque dur de votre ordinateur pour être vu. Il suffit de le jouer depuis le disque dur externe, ou un DVD. Cela confère au sneakernet un avantage important: de tous les réseaux low-tech, il est celui qui a le plus de bande passante. Il est donc tout particulièrement adapté à la distribution de très larges fichiers comme des films ou des jeux-vidéos. En réalité, quand il s&rsquo;agit de larges fichiers, un sneakernet bat même la plus rapide des connexions Internet en fibre optique. Si la vitesse d&rsquo;Internet est très lente, les sneakernets peuvent aussi être préférables pour la lecture de petits fichiers.</p>
+<p>L&rsquo;innovation technologique ne va pas rendre obsolète le sneakernet. Les supports de stockages numériques évoluent aussi vite que les connexions Internet et améliorent tout autant la communication.</p>
+<h2 id="des-réseaux-résilients">Des Réseaux Résilients</h2>
+<p>Bien que la majorité des réseaux low-tech soient conçus pour des régions où l&rsquo;alternative serait de ne pas du tout avoir accès à Internet, il ne faut pas non plus les négliger dans des contextes de zones bien connectées. Internet tel que nous le connaissons dans notre société industrielle est le produit de sources d&rsquo;énergies abondantes, d&rsquo;une infrastructure électrique robuste et d&rsquo;une croissance économique stable. Cet Internet &ldquo;high-tech&rdquo; est certes plus performant que ses alternatives low-tech, mais ne peut pas survivre si les conditions ci-dessus venaient à changer. Cela le rend extrêmement vulnérable.</p>
+<blockquote>
+<p>Internet tel que nous le connaissons dans notre société industrielle est le produit de sources d&rsquo;énergies abondantes, d&rsquo;une infrastructure électrique robuste et d&rsquo;une croissance économique stable. Il ne peut pas survivre si ces conditions venaient à changer.</p>
+</blockquote>
+<p>Selon leur niveau de résilience, les réseaux low-tech pourraient rester opérationnels si les réserves d&rsquo;énergies fossiles venaient à s&rsquo;estomper, si l&rsquo;infrastructure énergétique venait à se détériorer, si l&rsquo;économie se mettait à décroître ou bien en cas de catastrophes naturelles. Un Internet low-tech nous permettrait alors toujours de naviguer sur le web, envoyer et recevoir des e-mails, faire des achats en ligne, partager du contenu, etc&hellip; Pendant ce temps-là, les chariots de données et les sneakernets se chargeraient de distribuer les larges fichiers comme les vidéos. Remplir un train de marchandises ou un navire cargo avec des supports de stockage numériques battrait alors n&rsquo;importe quel réseau classique en terme de rapidité, de coût et de rendement énergétique. Si une telle infrastructure de transport venait aussi à disparaître, il serait toujours possible de se servir de messagers à pied, de <a href="https://mar-ver.github.io/fr/2014/05/modular-cargo-cycles/" >Cycles Utilitaires Modulaires</a>, ou de bateaux à voile.</p>
+<p>Un tel système hybride d&rsquo;applications en ligne et hors-ligne serait toujours un réseau de communication très performant &ndash; largement supérieur à ce que nous avions à la fin du XXème siècle. Même dans un scénario apocalyptique dans lequel l&rsquo;infrastructure entière d&rsquo;Internet aurait disparu, des réseaux low-tech isolés seraient toujours de très bons outils de communications locaux et régionaux. De plus, ils pourraient toujours importer du contenu venant d&rsquo;autres réseaux via des supports de stockages portables. Il semblerait donc qu&rsquo;Internet puisse être aussi low-tech ou high-tech que nous puissions nous le permettre.</p>
+<p>DIY: <a href="http://wndw.net/book.html#readBook" target="_blank" >Wireless networking in the developing world</a> (Third Edition) est un livre gratuit sur la conception, l&rsquo;implémentation et la maintenance de réseaux sans-fil bons-marchés. Disponible en Français, Anglais et Espagnol.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Abonnez-vous à notre newsletter</a>.</li>
+        <li> Soutenez Low-tech Magazine sur <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> ou <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://mar-ver.github.io/fr/offline-reading/">Lire le magazine sur papier</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="http://tech.slashdot.org/story/15/09/03/214256/connecting-the-unwired-world-with-balloons-satellites-lasers-drones" target="_blank" >Connecting the unwired world with balloons, satellites, lasers and drones</a>, Slashdot, 2015&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://link.springer.com/article/10.1186%2Fs13638-015-0352-z#/page-1" target="_blank" >A QoS-aware dynamic bandwidth allocation scheme for multi-hop WiFi-based long distance networks</a>, Iftekhar Hussain et al., 2015&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>[Long-distance, Low-Cost Wireless Data Transmission](<a href="http://www.ursi.org/files/RSBissues/RSB" target="_blank" >http://www.ursi.org/files/RSBissues/RSB</a><em>339</em>2011_12.pdf) (PDF), Ermanno Pietrosemoli, 2011&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Cette liaison n&rsquo;a pu être établie que grâce à l&rsquo;altitude des deux extrémitées (4200 et 1500 m) ainsi que grâce à un terrain intermédiaire plat. La courbe de la Terre rend en effet l&rsquo;étabilissement de liaison Wi-Fi point à point plus grandes difficile car il doit y avoir une visibilité directe entre les deux extrémités.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Les ondes radio occupent un espace autour de la ligne optique, qui ne doit rencontrer aucun obstacle. Cet espace, appelé l&rsquo;Ellipsoïde de Fresnel, augmente proportionnellement à la distance entre les deux extrémitiés, et à la longueur d&rsquo;onde du signal, qui à son tour est inversement proportionnelle à la fréquence. Il faut donc laisser donc laisser une marge de manœuvre à cette zone de Fresnel. <sup id="fnref3:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="http://www.tegola.org.uk/tegola-history.html" target="_blank" >A Brief History of the Tegola Project</a>, Tegola Project, retrieved October 2015&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="http://tier.cs.berkeley.edu/docs/wireless/wild_multihop.pdf" target="_blank" >WiLDNet: Design and Implementation of High Performance WiFi based Long Distance Networks</a> (PDF), Rabin Patra et al., 2007&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="http://dsg.ac.upc.edu/sites/default/files/1569633605.pdf" target="_blank" >Topology Patterns of a Community Network: Guifi.net</a> (PDF), Davide Vega et al., 2012&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="https://trac.tools.ietf.org/group/irtf/trac/wiki/gaia" target="_blank" >Global Access to the Internet for All, internet draft</a>, Internet Engineering Task Force (IETF), 2015&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>C&rsquo;est ce qui est arrivé au réseau afghan JLINK quand <a href="http://www.wired.com/2012/05/jlink/" target="_blank" >les financements pour la liaison satellite de leur réseau se sont épuisés en 2012</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p><a href="http://www.cs.cmu.edu/%5c~mattkam/lab/publications/Computer2005.pdf" target="_blank" >The case for technology in developing regions</a> (PDF), Eric Brewer et al., 2005&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p><a href="https://www.usenix.org/legacy/event/nsdi08/tech/full_papers/surana/surana.pdf" target="_blank" >Beyond Pilots: Keeping Rural Wireless Networks Alive</a> (PDF), Sonesh Surana et al., 2008&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p><a href="http://www.akshaya.kerala.gov.in" target="_blank" >Akshaya</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p><a href="https://web.archive.org/web/20160322093528/https://airjaldi.com/" target="_blank" >AirJaldi</a>: archived website&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p><a href="http://www.cs.bham.ac.uk/%5c~pejovicv/docs/Anand12ICTD.pdf" target="_blank" >VillageCell: Cost Effective Cellular Connectivity in Rural Areas</a> (PDF), Abhinav Anand et al., 2012&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>[Deployment and Extensio of a Converged WiMAX/WiFi Network for Dwesa Community Area South Africa](<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.7357&amp;amp" target="_blank" >http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.7357&amp</a>;rep=rep1&amp;type=pdf) (PDF), N. Ndlovu et al., 2009&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>[A telemedicine network optimized for long distances in the Amazonian jungle of Peru](<a href="http://www.ehas.org/wp-content/uploads/2012/01/Extremecomm" target="_blank" >http://www.ehas.org/wp-content/uploads/2012/01/Extremecomm</a><em>sig</em>ISBN.pdf) (PDF), Carlos Rey-Moreno, ExtremeCom &lsquo;11, September 2011&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4197650/" target="_blank" >Telemedicine networks of EHAS Foundation in Latin America</a>, Ignacio Prieto-Egido et al., in &ldquo;Frontiers in Public Health&rdquo;, October 15, 2014.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p><a href="https://eciencia.urjc.es/bitstream/handle/10115/2293/THE%20DESIGN%20OF%20A%20WIRELESS%20SOLAR-POWERED-2008.pdf?sequence=1" target="_blank" >The design of a wireless solar-powered router for rural environments isolated from health facilities</a> (PDF), Francisco Javier Simo Reigadas et al., in &ldquo;IEEE Wireless Communications&rdquo;, June 2008.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p><a href="http://users.ictp.it/%5c~mzennaro/Malawi.pdf" target="_blank" >On a long wireless link for rural telemedicine in Malawi</a> (PDF), M. Zennaro et al., 2008&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21">
+<p><a href="http://www.jie-online.org/index.php/jie/article/view/91" target="_blank" >A Survey of Delay- and Disruption-Tolerant Networking Applications</a>, Artemios G. Voyiatzis, 2012&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22">
+<p><a href="https://www.sics.se/%5c~amir/files/download/papers/guifi.pdf" target="_blank" >Supporting Cloud Deployment in the Guifi Community Network</a> (PDF), Roger Baig et al., 2013&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23">
+<p><a href="http://www.sigcomm.org/sites/default/files/ccr/papers/2013/July/2500098-2500108.pdf" target="_blank" >A Case for Research with and on Community Networks</a> (PDF), Bart Braem et.al, 2013&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24">
+<p>Il y a de plus petits réseaux en Écosse (<a href="http://www.tegola.org.uk/" target="_blank" >Tegola</a>), Slovénie (<a href="https://wlan-si.net/" target="_blank" >wlan slovenija</a>), Belgique (<a href="http://www.wirelessantwerpen.be/" target="_blank" >Wireless Antwerpen</a>), et aux Pays-Bas (<a href="https://www.wirelessleiden.nl/" target="_blank" >Wireless Leiden</a>), entre autres. L&rsquo;Australie a <a href="http://melbourne.wireless.org.au/" target="_blank" >Melbourne Wireless</a>. En Amérique Latine, on peut trouver le <a href="https://www.facebook.com/BogotaMesh" target="_blank" >Bogota Mesh</a> (Colombie) et <a href="http://picandocodigo.net/2008/montevideolibre-redes-libres-en-montevideo/" target="_blank" >Monte Video Libre</a> (Uruguay). Certains de ces réseaux sont interconnectés. C&rsquo;est le cas pour les réseaux communautaires belges et néerlandais, mais aussi pour les réseaux slovéniens et autrichiens. <sup id="fnref6:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup id="fnref5:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup><sup id="fnref1:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup>&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25">
+<p><a href="http://upcommons.upc.edu/handle/2099.1/19710" target="_blank" >Proxy performance analysis in a community wireless network</a>, Pablo Pitarch Miguel, 2013&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26">
+<p><a href="http://www.ambuehler.ethz.ch/CDstore/www2009/proc/docs/p411.pdf" target="_blank" >RuralCafe: Web Search in the Rural Developing World</a> (PDF), Jay Chen et al., 2009&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27">
+<p><a href="http://www.kevinfall.com/seipage/papers/p27-fall.pdf" target="_blank" >A Delay-Tolerant Network Architecture for Challenged Networks</a> (PDF), Kevin Fall, 2003&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28">
+<p>[Delay- and Disruption-Tolerant Networks (DTNs) &ndash; A Tutorial (version 2.0)](<a href="http://ipnsig.org/wp-content/uploads/2012/07/DTN" target="_blank" >http://ipnsig.org/wp-content/uploads/2012/07/DTN</a><em>Tutorial</em>v2.04.pdf) (PDF), Forrest Warthman, 2012&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29">
+<p><a href="http://www.hindawi.com/journals/isrn/2014/730760/" target="_blank" >Healthcare Supported by Data Mule Networks in Remote Communities of the Amazon Region</a>, Mauro Margalho Coutinho et al., 2014&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30">
+<p>[First Mile Solutions&rsquo; Daknet Takes Rural Communities Online](<a href="http://www.firstmilesolutions.com/documents/FMS" target="_blank" >http://www.firstmilesolutions.com/documents/FMS</a><em>Case</em>Study.pdf) (PDF), Carol Chyau and Jean-Francois Raymond, 2005&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref7:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31">
+<p><a href="http://courses.media.mit.edu/2003fall/de/DakNet-Case.pdf" target="_blank" >DakNet: A Road to Universal Broadband Connectivity</a> (PDF), Amir Alexander Hasson et al., 2003&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32">
+<p><a href="http://ijpret.com/publishedarticle/2015/4/IJPRET%20-%20ECN%20115.pdf" target="_blank" >DakNet: Architecture and Connectivity in Developing Nations</a> (PDF), Madhuri Bhole, 2015&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33">
+<p><a href="http://www.citeulike.org/user/tnhh/article/13517347" target="_blank" >Delay Tolerant Networks and Their Applications</a>, Longxiang Gao et al., 2015&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:34">
+<p><a href="https://people.csail.mit.edu/matei/papers/2006/mobicom_kiosks.pdf" target="_blank" >Low-cost communication for rural internet kiosks using mechanical backhaul</a>, A. Seth et al., 2006&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:35">
+<p><a href="http://tek.sourceforge.net/papers/tek-www02.pdf" target="_blank" >Searching the World Wide Web in Low-Connectivity Communities</a> (PDF), William Thies et al., 2002&#160;<a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:36">
+<p><a href="http://www.cs.cmu.edu/%5c~yubink/hcir2013.pdf" target="_blank" >Slow Search: Information Retrieval without Time Constraints</a> (PDF), Jaime Teevan, 2013&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tag
+		        
+		           <span><a href="https://mar-ver.github.io/fr/tags/ict/" class="">ICT</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Le site imprimé : premier volume en français</h3>
+		<p class="index-summary">Lisez Low-tech Magazine sans avoir besoin d’un ordinateur, d’internet ou d’une alimentation électrique – ou quand le site internet solaire est hors service à cause d’une mauvaise météo.</p>
+		<time class="published">2 décembre 2021</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  high-tech-problems ">
+	<a href="https://mar-ver.github.io/fr/2020/12/how-and-why-i-stopped-buying-new-laptops/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment et pourquoi j&#39;ai arrêté d&#39;acheter de nouveaux ordinateurs portables</h3>
+		<p class="index-summary">En tant que journaliste indépendant – ou employé de bureau si vous préférez – j&rsquo;ai toujours considéré avoir besoin d&rsquo;un ordinateur décent et que la qualité se payait.</p>
+		<time class="published">20 décembre 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/fr/2020/01/how-sustainable-is-a-solar-powered-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Un site Web à énergie solaire est-il durable?</h3>
+		<p class="index-summary">Nous présentons les données d&rsquo;énergie et de durée de disponibilité de notre site Web, les calculs d&rsquo;énergie grise de notre installation, l&rsquo;équilibre optimal entre soutenabilité et disponibilité du serveur, avant de décrire les améliorations possibles.</p>
+		<time class="published">28 janvier 2020</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/fr/2018/09/how-to-build-a-low-tech-website/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/fr/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Comment créer un site web basse technologie</h3>
+		<p class="index-summary">Le nouveau blog est conçu pour réduire radicalement la consommation d’énergie associée à l’accès à notre contenu.</p>
+		<time class="published">24 septembre 2018</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Taille de la page: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://mar-ver.github.io/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://mar-ver.github.io/fr/about">
+  À propos
+</a>
+    <a href="https://mar-ver.github.io/fr/power">
+  Power
+</a>
+    <a href="https://mar-ver.github.io/fr/about/team">
+  Colophon
+</a>
+    <a href="https://mar-ver.github.io/fr/donate">
+  Faire un don
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://mar-ver.github.io/js/script.js"></script>
+</body>
+</html>

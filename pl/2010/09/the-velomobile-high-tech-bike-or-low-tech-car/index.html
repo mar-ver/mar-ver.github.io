@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Welomobil: zaawansowany rower czy prosty samochód? | LOW←TECH MAGAZINE</title>
+	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
+	<meta name="author" content="Kris De Decker">
+
+	<link rel="icon" href="https://mar-ver.github.io/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="https://mar-ver.github.io/css/style.css"><meta property="og:title" content="Welomobil: zaawansowany rower czy prosty samochód?" />
+<meta name="twitter:title" content="Welomobil: zaawansowany rower czy prosty samochód?"/>
+
+<meta property="og:description" content="Rowery poziome z nadwoziem wywołują ciekawy efekt. Wyglądają na szybkie niczym samochód wyścigowy albo myśliwiec, ale oczywiście tak nie jest. Nie mniej jednak, dzięki swojej horyzontalnej pozycji, minimalnej wadze i niezrównanej aerodynamice, pedałowanie velomobilem wymaga 3 do 4 razy mniej energii niż na zwykłym rowerze." />
+
+<meta name="twitter:description" content="Rowery poziome z nadwoziem wywołują ciekawy efekt. Wyglądają na szybkie niczym samochód wyścigowy albo myśliwiec, ale oczywiście tak nie jest. Nie mniej jednak, dzięki swojej horyzontalnej pozycji, minimalnej wadze i niezrównanej aerodynamice, pedałowanie velomobilem wymaga 3 do 4 razy mniej energii niż na zwykłym rowerze."/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/" />
+
+
+
+<meta property="og:image" itemprop="image" content="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/versatile-velomobile_dithered.png" />
+<meta property="og:image:secure_url" content="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/versatile-velomobile_dithered.png" />
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/versatile-velomobile_dithered.png"/>
+
+<meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2010-09-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-25T00:00:00+00:00" /><meta property="og:site_name" content="LOW←TECH MAGAZINE" />
+
+
+<meta property="article:author" content="Kris De Decker" />
+<meta name="citation_author" content="Kris De Decker">
+
+
+<meta property="article:tag" content="Bicycles" />
+<meta property="article:tag" content="Transportation" />
+<meta property="article:tag" content="Cars" />
+
+</head>
+<body id="welomobil-zaawansowany-rower-czy-prosty-samoch%C3%B3d">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="https://mar-ver.github.io/pl/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="https://mar-ver.github.io/pl/">LOW←TECH MAGAZINE</a></h1>
+  <div class="subtitle">
+     <a href="https://mar-ver.github.io/pl/power">Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        <div id="lang-menu" title="languages">
+  <svg id="globe" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.97 19.97"><circle class="stroke" cx="9.99" cy="9.99" r="9.24"/><ellipse class="stroke" cx="9.99" cy="9.99" rx="4.63" ry="9.24"/><line class="stroke" x1="9.99" y1="0.75" x2="9.99" y2="19.22"/><line class="stroke" x1="18.39" y1="12.99" x2="1.58" y2="12.99"/><line class="stroke" x1="18.39" y1="6.99" x2="1.58" y2="6.99"/></svg>
+</div>
+<nav id="languages">
+<ul> 
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/">English</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/fr/">Français</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/de/">Deutsch</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/nl/">Nederlands</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/es/">Español</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/it/">Italiano</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pt/">Português</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/pl/">Polski</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ar/">العربية</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/vn/">Tiếng Việt</a>
+  </li>
+
+  <li>
+    <a class="lang-option" href="https://mar-ver.github.io/ko/">한국어</a>
+  </li>
+
+</ul>
+</nav>
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/about/ " data-nav="about" >
+                <span>O nas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/low-tech-solutions/ " data-nav="low-tech-solutions" >
+                <span>Proste technologie, proste rozwiązania</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/high-tech-problems/ " data-nav="high-tech-problems" >
+                <span>Problemy zaawansowanych technologii</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/obsolete-technology/ " data-nav="obsolete-technology" >
+                <span>Zapomniane technologie</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/offline-reading/ " data-nav="offline-reading" >
+                <span>Czytanie offline</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/archives/ " data-nav="archive" >
+                <span>Archiwum</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://mar-ver.github.io/pl/donate/ " data-nav="donate" >
+                <span>Wspomóż nas</span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" https://www.notechmagazine.com/ " data-nav="ntm"  target="_blank" >
+                <span>NTM</span>
+            </a>
+        </li>
+        
+        <li class="rss">
+            <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+            <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+        </li>
+    </ul>
+</nav>
+ 
+</header>
+
+	
+
+<main class='article  low-tech-solutions '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">
+				Welomobil: zaawansowany rower czy prosty samochód?</h1>
+
+				<p class="summary">
+					Rowery poziome z nadwoziem wywołują ciekawy efekt. Wyglądają na szybkie niczym samochód wyścigowy albo myśliwiec, ale oczywiście tak nie jest. Nie mniej jednak, dzięki swojej horyzontalnej pozycji, minimalnej wadze i niezrównanej aerodynamice, pedałowanie velomobilem wymaga 3 do 4 razy mniej energii niż na zwykłym rowerze.
+				</p>
+				<div class="metadata">
+					
+					
+						<div><time class="published">30 września 2010</time> </div>
+						
+							<div class="authors">
+							<span class="byline">Written by</span>
+							
+									<span class="author"><a href="https://mar-ver.github.io/pl/authors/kris-de-decker/">Kris De Decker</a></span>
+							
+							</div>
+						
+					
+					
+						
+
+						<div class="translations">
+						<span class="byline">Przekład</span>
+						
+							<span class="author"><a href="https://mar-ver.github.io/pl/translators/micha%C5%82-kolbusz/">Michał Kolbusz</a></span>
+						
+						</div>
+						
+
+						
+						<div class="translations">
+						<span class="byline">Translations</span>
+						
+							<a href="https://mar-ver.github.io/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/">en</a>
+						
+							<a href="https://mar-ver.github.io/fr/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/">fr</a>
+						
+						</div>
+						
+				</div>
+			</header>
+
+			<div class="entry-content"><div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/versatile-velomobile_dithered.png" alt='Zdjęcie: Versatile.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/versatile-velomobile_hu970ea41aeef650249c6de7685807a945_215276_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/versatile-velomobile_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.flevobike.nl/content/view/26/56/lang,en/" target="_blank" >Versatile</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Rowery poziome z nadwoziem wywołują ciekawy efekt. Wyglądają na szybkie niczym samochód wyścigowy albo myśliwiec, ale oczywiście tak nie jest. Nie mniej jednak, dzięki swojej horyzontalnej pozycji, minimalnej wadze i niezrównanej aerodynamice, pedałowanie velomobilem wymaga 3 do 4 razy mniej energii niż na zwykłym rowerze.</p>
+<p>Wyższą sprawność energetyczną można zamienić na wyższy komfort jazdy, ale dzięki niej możliwe jest przede wszystkim osiągania wyższych prędkości i większego zasięgu. Jadąc velomobilem kolarz o przeciętnej kondycji może z łatwością utrzymać prędkość podróżną 40 km/godz., lub wyższą. Tym samym velomobil staje się
+świetną alternatywą dla samochodu, zwłaszcza na średnich dystansach i podczas złej pogody.</p>
+<p>Velomobil to po prostu rower poziomy z nadwoziem. Rowery poziome są uważane za trochę dziwne, ale posiadają pewne przewagi na zwykłym rowerem. Na przykład, w rowerze poziomym siedzimy na wygodnym siedzisku z oparciem na plecy, a nie na wąskim siodełku, co sprawia że dzięki wyższemu komfortowi jazdy możemy dłużej  pedałować. Dzięki lepszym właściwościom aerodynamicznym, pedałowanie na rowerze poziomym wymaga mniej wysiłku, pozwalając na szybsze i dalsze podróżowanie. Rower poziomy może mieć trzy (trajki) albo cztery koła, zapewniające lepszą stabilność.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Scorpion-Grau-bike_dithered.png" alt='Zdjęcie: Scorpion.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Scorpion-Grau-bike_hu55253a6e9f9aeac7e6e93b25be7fc25c_62263_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Scorpion-Grau-bike_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.hpvelotechnik.com/produkte/scorpion/index_e.html" target="_blank" >Scorpion</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Velomobil - prawie zawsze trajka - posiada cechy dające mu dodatkową przewagę nad rowerem poziomym. Nadwozie chroni kolarza (oraz części mechaniczne) przed  warunkami atmosferycznymi, tak więc może być on używany w każdym klimacie i przy każdej pogodzie. Aerodynamiczny kształt nadwozia podnosi sprawność pojazdu  zapewniając mu spektakularne osiągi.</p>
+<h2 id="velomobil-kontra-rower">Velomobil kontra rower</h2>
+<p>Z tabeli u dołu (<a href="http://users.telenet.be/fietser/fotos/VM4SD-FVDWsm.pdf" target="_blank" >źródło</a>) widać, że moc potrzebna do osiągnięcia prędkości 30 km/godz., w przypadku najnowocześniejszego velomobilu wynosi 79 Wattów, w porównaniu do 271 Wattów dla zwykłego roweru i 444 Wattów w wypadku zaniedbanego roweru. Pedałowanie z  prędkością 30 km/godz., wymaga więc 3,5 razy mniej energii jadąc w velomobilu niż na normalnym rowerze. Zasuwając pełną parą (moc 250 W) rozpędzimy się do 29 km/godz. na zwykłym rowerze i do 50 km/godz. w velomobilu.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Speed-comparison-bikes_dithered.png" alt='Źródło: &amp;quot;Velomobil jako pojazd bardziej zrównoważonego transportu&amp;quot;(pdf).' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Speed-comparison-bikes_hucf22a8fb802f418f6782c32100b61e66_54849_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Speed-comparison-bikes_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Źródło: <a href="http://users.telenet.be/fietser/fotos/VM4SD-FVDWsm.pdf" target="_blank" >&quot;Velomobil jako pojazd bardziej zrównoważonego transportu&quot;</a>(pdf).</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>NASA podaje, że dorosły mężczyzna jest w stanie pracować przez dłuższy czas utrzymując moc na poziomie 75 watów. Wysportowana osoba może łatwością utrzymać przez wiele godzin moc na poziomie 100 watów, 200 do 300 watów przez jedną godzinę i pomiędzy 300 a 400 watami mocy przez co najmniej 10 minut. Podczas wyścigu Tour de France w czasie podjazdu Lance Armstrong generował przez 38 minut moc na poziomie 475-500 watów. (Źródło: <a href="http://www.amazon.com/Human-Powered-Home-Choosing-Muscles-Motors/dp/0865716013" target="_blank" >The human powered home</a>).</p>
+<p>Jeśli na co dzień poruszasz się rowerem, to dzięki przesiadce na velomobil możesz osiągnąć dwie rzeczy. Zużyć 3,5 razy mniej energii zachowując tą samą
+prędkość, lub dotrzeć do celu dwa razy szybciej przy tym samym wysiłku. Wysoka sprawność znacząco zwiększa użyteczny zasięg pojazdów na pedały. Generalnie  rower jest postrzegany jako środek transportu na krótkie dystanse poniżej 5 kilometrów (co odpowiada 15 minutowej jeździe z prędkością 20 km/godz.). Dla  porównania średni dystans podróży samochodem wynosi w Europie i w USA między 13 a 15 kilometrami.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Sinner-mango-red_dithered.png" alt='Zdjęcie: Sinner Mango Red Edition.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Sinner-mango-red_hua90bc61f6abb541beff9c895f4673506_40999_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Sinner-mango-red_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.go-mango.nl/indexuk.html" target="_blank" >Sinner Mango Red Edition</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Velomobil osiąga stałą prędkość podróżną na poziomie 35 km/godz., zużywając tyle samo energii co zwykły rower, tak więc dystans pokonany w 15 minut wyniesie  9, a nie 5 kilometrów. Przy prędkości 45 km/godz. (osiągalnej dla przeciętnego kolarza) dystans pokonany w 15 minut wyniesie ponad 11 kilometrów. Z tego  wynika, że pedałowanie w velomobilu przez 20 minut pokrywa średni dystans podróży samochodem. Gdyby velomobil stał się powszechnie używanym środkiem  transportu, zaoszczędzilibyśmy wiele &ldquo;samochodo-kilometrów&rdquo; (kilometrów pokonywanych samochodem - co wiązałoby się z redukcją emisji CO2 i zanieczyszczeń z transportu, przyp. tłum.), tym bardziej że chroni on kierowcę przed wiatrem, deszczem i chłodem.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Quest_dithered.png" alt='Zdjęcie: Quest' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Quest_hub80f79b439ddbd9a891672b49e6f0cba_58034_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Quest_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://en.velomobiel.nl/quest/" target="_blank" >Quest</a></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Velomobile z założenia buduje się dla szybkości. Przy wyższych prędkościach (poczynając od 20 do 25 km/godz.) nadwozie zapewnia wyraźną przewagę nad  normalnym rowerem. Powyżej 25 km/godz., prawie cała energia generowana przez kolarza zużywana jest na walkę z oporem powietrza. Na zwykłym rowerze ze względu  na wyprostowaną pozycję, aerodynamika kolarza jest co najmniej słaba. Za to velomobil pokonuje opór powietrza lepiej niż najbardziej aerodynamiczny sportowy  samochód! (Kształt nadwozia sportowych samochodów należy również optymalizować pod kątem redukowania siły ciągu, kosztem pogorszenia właściwości  aerodynamicznych. Jeśli nie brano by pod uwagę siły ciągu skierowanej ku górze to przy wysokich prędkościach samochód traciłby przyczepność i sterowność, a w  najgorszym wypadku wzbiłby się w powietrze jak samolot. Ponieważ velomobil nie osiąga prędkości, przy których ciąg stwarzałby zagrożenie, projektanci mogą
+skupić się na projektowaniu nadwozi o wyjątkowo opływowych kształtach, przyp., tłum.)</p>
+<p>Jednakże, przy niskich prędkościach większa waga velomobilu (od 25 do 40 kg) działa na jego niekorzyść. Przyśpiesza on wolniej niż rower, i znacznie trudniej  podjechać nim na wzniesienie. Rozwiązaniem tego problemu może być elektryczne wspomaganie napędu. Silnik elektryczny pomoże podczas podjazdu, a co więcej  hamując w czasie zjazdu może odzyskać części energii. W płaskim terenie również można zastosować wspomaganie elektryczne, które cieszy się w dzisiejszych  czasach coraz większą popularnością.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Leiba-x-treme-front_dithered.png" alt='Zdjęcie: Leiba x-stream.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Leiba-x-treme-front_hu244f3b4b793aa92fc8003865ffba2ab8_159768_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Leiba-x-treme-front_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.leiba.de/index.php?option=com_content&amp;task=view&amp;id=44&amp;Itemid=94" target="_blank" >Leiba x-stream</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Velomobil został stworzony do pokonywania dłuższych dystansów. Na krótszych trasach i w mieście, dzięki swojej zwrotności, niższej wadze, mniejszych  wymiarach i lepszemu przyśpieszeniu tradycyjny rower wciąż jest nie do pokonania.</p>
+<h2 id="velomobil-kontra-samochód-elektryczny">Velomobil kontra samochód elektryczny</h2>
+<p>Dries Callebaut i Brecht Vandeputte, Belgijscy twórcy <a href="http://www.notechmagazine.com/2010/05/belgian-recumbent-tricycles.html" target="_blank" >velomobilu WAW</a>, porównali sprawność energetyczną ich velomobilu do sprawności samochodu elektrycznego  (wykorzystując własne dane i to źródło: <a href="http://www.withouthotair.com/%29" target="_blank" >http://www.withouthotair.com/)</a>. Wyposażyli swój velomobil w silnik elektryczny, całkowicie zastępujący napęd na pedały, i wystartowali w tegorocznym (2010 rok, przyp. tłum.) ekomaratonie. Chociaż nie do takich celów ich pojazd został stworzony, postanowili wykorzystać
+dogodną możliwość na przeprowadzenie eksperymentu.</p>
+<p>Zużycie energii przez WAW zostało zmierzone na 0,7 kWh na 100 km. Ten wynik czyni velomobil 20 razy bardziej wydajnym energetycznie od najbardziej wydajnego  samochodu elektrycznego dostępnego w sprzedaży (w roku 2010). Nissan Leaf potrzebuje 15 kWh na 100 km. Tak duża różnica wynika oczywiście w ogromnej różnicy w wadze. Nissan bez baterii waży ponad tonę, kiedy WAW waży mniej niż 30 kg,</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Versatile-zijkant-blauw_dithered.png" alt='Zdjęcie: Versatile.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Versatile-zijkant-blauw_huc414dedd8d545a91fc03e839e24b4c2a_40346_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Versatile-zijkant-blauw_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.flevobike.nl/content/view/26/56/lang,en/" target="_blank" >Versatile</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Niestety, sprawy komplikują się jeśli chcemy porównać samochód elektryczny z velomobilem napędzanym siłą ludzkich mięśni. Człowiek nie jest zasilany prądem,  tylko biomasą. Sprawność velomobilu zależeć będzie więc od tego co kolarz je (analogicznie sprawność samochodu elektrycznego zależy od tego w jaki sposób  produkuje się prąd). Cellebaut i Vandeputte przyjeli, że wegetarianin żywiący się tym co wyhoduje we własnym ogródku zużywa 0,6 kWh/100 km energii  pierwotnej, a człowiek na przeciętnej zachodniej nie wegetariańskiej diecie zużyje 2,4 kWh/100km energii pierwotnej.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Versatile-bovenkant_dithered.png" alt='Zdjęcie: Versatile.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Versatile-bovenkant_huc41d207b84e0b7dcc4f59fe61460ef12_34670_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Versatile-bovenkant_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.flevobike.nl/content/view/26/56/lang,en/" target="_blank" >Versatile</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Z tego wynika, że napędzany siłą ludzkich mięśni velomobil jest od 15 do 62 razy bardziej wydajny energetycznie od Nissana Leaf. Nie 6 do 25 razy, a więcej,  ponieważ w tym przypadku porównujemy zużycie energii pierwotnej. 15 kWh energii, które na 100 km zużywa Nissan równa się mniej więcej 37,5 kWh energii  pierwotnej, ponieważ elektrownie (w Europie) mają sprawność na poziomie 40%.</p>
+<p>Można dodać, że spalanie tkanki tłuszczowej, w czasach kiedy nadwaga i brak ruchu są plagą zachodniego świata, jest czymś pozytywnym bez względu na to co  jemy. Energia która marnowana jest na siłowniach, lub tłuszczyk który odkłada się przed telewizorem, może zastąpić ropę naftową w transporcie. Jeśli  spojrzymy na to w ten sposób, to możemy powiedzieć, że velomobil zużywa (tak jak rowerzysta czy pieszy) 0,00 kWh na 100 kilometrów.</p>
+<h2 id="początki">Początki</h2>
+<p>Początki velomobilu sięgają pierwszych lat XX wieku, jednak nowoczesny pojazd o opływowych kształtach pojawił się dopiero w latach 80tych XX wieku. Duńska  <a href="http://www.leitra.dk/" target="_blank" >Leitra</a> była pierwszym dostępnym w sprzedaży velomobilem, a w roku 1993 na rynku pojawił się Holenderski <a href="http://de.wikipedia.org/wiki/Alleweder" target="_blank" >Alleweder</a>. Około 500 egzemplarzy sprzedano w latach 90tych w Holandii, Belgii i Niemczech.</p>
+<p>Allewader wprowadził na rynek jako pierwszy ważne rozwiązanie techniczne: nadwozie samonośne podobne do tych stosowanych w samochodach - tylko że znacznie od nich lżejsze. Dzięki temu konstrukcja velomobilu zyskała na sztywności i wytrzymałości bez zwiększania wagi. Zawieszenie zastosowane w Allewaderze również zainspirowane zostało samochodami. Nadwozie pierwszych modeli składano z blachy aluminiowej łączonej nitami - rozwiązanie stosowane w lotnictwie.</p>
+<h2 id="z-dachem-lub-bez">Z dachem lub bez</h2>
+<p>Wszystkie obecnie produkowane velomobile bazują na założeniach konstrukcyjnych Allewader&rsquo;a. Jednak zmieniły się materiały, z których wykonuje się nadwozia.  Teraz zamiast aluminium stosuje się materiały kompozytowe (np. kewlar), które dają większą swobodę w modelowaniu sylwetki nadwozia pod kątem lepszej  aerodynamiki. Niestety są one droższe.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Go-one-3_dithered.png" alt='Zdjęcie: Go One 3.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Go-one-3_hu93eda91bff6924798694d19a6b5aaa60_27110_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Go-one-3_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.go-one.us/" target="_blank" >Go One 3</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Nowoczesny velomobil waży od 25 do 40 kilogramów, ma około 250 centymetrów długości, 80 centymetrów szerokości i 90 centymetrów wysokości. Trzy koła są
+amortyzowane, a nadwozie ma zintegrowane z bryłą lusterka, światła, migacze i czasem światło stopu. Przestrzeń bagażowa velomobili porównywalna jest do  wielkości bagażnika sportowego samochodu.</p>
+<p>Dzisiejsze velomobile można podzielić na dwa rodzaje; pierwsze w których głowa kierowcy wystaje z nadwozia (m.in. <a href="http://en.velomobiel.nl/quest/" target="_blank" >Quest</a>, <a href="http://sites.google.com/site/agendafietser/Home/waw" target="_blank" >WAW</a>, [Versatile](<a href="http://www.flevobike.nl/content/view/26/56/lang,en/" target="_blank" >http://www.flevobike.nl/content/view/26/56/lang,en/</a>, <a href="http://www.go-mango.nl/indexuk.html" target="_blank" >Mango</a>, <a href="http://www.fortschritt-fahrzeugbau.de/design.htm#special" target="_blank" >Velayo</a> i  <a href="http://www.alligt.nl/" target="_blank" >Alleweder</a>) i takie, w których kierowca jest w pełni zamkniety w nadwoziu (<a href="http://www.go-one.us/" target="_blank" >Go-One</a>, <a href="http://www.leiba.de/index.php?option=com_content&amp;task=view&amp;id=21&amp;Itemid=42" target="_blank" >Leiba</a>, <a href="http://www.leitra.dk/" target="_blank" >Leitra</a>, <a href="http://pannonrider.pannonsolar.hu/pannonrider/pannonrider_2_english.html" target="_blank" >Pannonrider</a> i <a href="http://www.bluevelo.com/bluevelo_-_Cab-Bike.html" target="_blank" >Cab-Bike</a>). W przypadku zamkniętej karoserii, żeby wsiąść należy otworzyć część nadwozia. W przypadku pół-otwartych pojazdów, kierowca zajmuje miejsce przez otwór u góry.</p>
+<p>Velomobile mogą mieć otwarte lub zabudowane nadkola. Zabudowane nadkola dają lepszą aerodynamikę, ale zwiększają promień skrętu i utrudniają wymianę opon.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Pannonrider-solar-panel-body_dithered.png" alt='Zdjęcie: Pannonrider ma panele fotowoltaiczne wbudowane w nadwozie (inną opcją jest energia wiatru)' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Pannonrider-solar-panel-body_hu8f060fde61954b577e7ddd8159e25c4c_80611_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Pannonrider-solar-panel-body_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: Pannonrider ma panele fotowoltaiczne wbudowane w nadwozie (<a href="https://www.notechmagazine.com/2010/07/wind-powered-trikes.html" target="_blank" >inną opcją jest energia wiatru</a>)</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Całkowicie zamknięte nadwozie niesie ze sobą sporo korzyści, ale ma również swoje wady. Największym problemem jest wentylacja. Nawet podczas chłodniejszych  dni, kierowca może się przegrzać. Ludzkie ciało wytwarzające 200 Wattów mocy jednocześnie produkuje około 1000 watów ciepła odpadowego, które w większości  ucieka przez głowę. Zamknięte nadwozie ma również negatywny wpływ ma widoczność i słyszalność. Przednia szyba może zaparować, a deszcze i śnieg mogą ją
+przysłonić (w żadnym w velomobilu nie są dostępne wycieraczki, prawdopodobnie z powodu dodatkowej masy napędu i akumulatora).</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Velayo_dithered.png" alt='Zdjęcie: Velayo.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Velayo_hu7320db4f8dd2c40d6914be5596ec2134_49744_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Velayo_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.fortschritt-fahrzeugbau.de/design.htm#special" target="_blank" >Velayo</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>W pełni zabudowany velomobil potrzebuje sprawnej pasywnej wentylacji (co można uzyskać przez wlot powietrza z przodu pojazdu). Niektórzy producenci poszli  inną drogą. WAW posiada mały odczepiany daszek z systemem wentylacji sterowanym z wnętrza pojazdu. Daszek można zwinąć i schować do bagażnika, a w razie potrzeby szybko i łatwo z powrotem zamontować. Velayo wyposażono &ldquo;w inteligentny dach&rdquo;, który rozwiązuje problem gorąca i wentylacji jednocześnie chroniąc kierowcę przed deszczem.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Hase-bikes-family_dithered.png" alt='' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Hase-bikes-family_hue931a6a3568caea00b597e77d659c6c9_1884020_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Hase-bikes-family_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Niemiecka wytwórnia Hase zaprezentowała (rok 2010) poziomego trójkołowca ze składanym poszyciem (i ze wspomaganiem elektrycznym). Nie jest on kompromisem pomiędzy w zamkniętym a pół-otwartym velomobilem, lecz pomiędzy nieosłoniętym a osłoniętym trójkołowcem - najbardziej wygodną i aerodynamiczną opcją w czasie ciepłych dni.</p>
+<h2 id="dwu-miejscowce">Dwu-miejscowce</h2>
+<p>Na rynku możemy spotkać velomobile, w których wygodnie pomieszczą się dwie osoby np. dwumiejscowy transportowy <a href="http://picasaweb.google.be/Waw.ulv/Bakmobiel#" target="_blank" >Bakmobiel</a> czy <a href="http://www.velomobiel.nl/duoquest/" target="_blank" >DuoQuest</a>. W obu pojazdach pasażer siedzi obok kierowcy. Dobrze, że wygoda bierze górę na aerodynamiką.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Duo-quest-velomobile_dithered.png" alt='' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Duo-quest-velomobile_hu20869fe856e8937970cffcc1bbc1317a_127556_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Duo-quest-velomobile_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span></span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Jeszcze innym trendem jest projektowanie velomobili z niższym nadwoziem (jak Niemiecka Leiba) dzięki któremu można łatwo i szybko wejść i wyjść z pojazdu.  Takie rozwiązanie obniża poziom ochrony przed warunkami atmosferycznymi, ale dalej czyni velomobil bardziej wydajnym przy wyższych prędkościach od roweru  (przydatnemu na krótszych dystansach).</p>
+<h2 id="czy-velomobile-są-za-drogie">Czy velomobile są za drogie?</h2>
+<p>Wysoka cena jest tym co wymienia się jako największą przeszkodę na drodze velomobilu do zyskania popularności na jaką zasługuje. W pełni wyposażona maszyna kosztuje przynajmniej 5 tysięcy euro - wyraźnie więcej niż dobrej klasy rower. Ceny w USA spadły z poziomu dwukrotnie wyższego, ponieważ obecnie niektóre popularne marki z Europy Północnej są produkowane teraz w Stanach Zjednoczonych. Wysyłka velomobilu przez Atlantyk nie jest tania.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/quest-shark-velomobile_dithered.png" alt='Zdjęcie: Quest.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/quest-shark-velomobile_hu5d8a25db0b3ba8b119128f06ee0e5eb8_64134_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/quest-shark-velomobile_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://en.velomobiel.nl/quest/" target="_blank" >Quest</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Wysoka cena wynika głównie z dopłaty za poziomą pozycję, ale tym za co przede wszystkim płaci się jest kosztowne nadwozie. Każdy velomobil jest ręcznie  składany, a budowa poszycia wymaga najwięcej pracy. Oczywiście taniej byłoby produkować je seryjnie na linii montażowej, szczególnie w jakimś kraju z niskimi  płacami. Jednak nawet wtedy - wliczając koszta wyzysku ludzi i strat środowiskowych - nikt nie liczy na to, że cena spadnie więcej niż o połowę. Lekkie  materiały, kluczowe dla tych pojazdów, są po prostu drogie.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Celtic-Quest_dithered.png" alt='Zdjęcie: Quest.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Celtic-Quest_hu20723b2d929e30e57001a946e7df2e29_101619_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Celtic-Quest_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://en.velomobiel.nl/quest/" target="_blank" >Quest</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Na ten problem można jednak spojrzeć inaczej. Velomobil kosztuje więcej niż rower, ale mniej niż samochód. Ponieważ komfort i osiągi plasują go gdzieś
+pomiędzy rowerem a autem, jego cena przestaje być tak odstraszająca. Co więcej samochód potrzebuje paliwa, a velomobil nie. Jego utrzymanie sprowadza się do  wymiany opon, klocków hamulcowych czy łańcucha (tak jak w zwykłym rowerze). Ktokolwiek zamienia swój samochód na velomobil robi to ze względów ekonomicznych.</p>
+<p>Rządy mogłyby pomóc wypromować velomobile, i obniżyć ich cenę, wspierając właśnie je zamiast samochodów elektrycznych i biopaliw (korzyść dla środowiska  byłaby oczywista i nie byłoby potrzeby inwestować w żadną nową infrastrukturę taką jak stacje do ładowania baterii).</p>
+<h2 id="alternatywa-dla-samochodu">Alternatywa dla samochodu?</h2>
+<p>Największą przeszkodą dla velomobili nie jest cena, ale konkurencja ze strony samochodów. Chociaż velomobile mogą jeździć po szerszych ścieżkach rowerowych,  nie mniej jednak najlepiej sprawdzają się na drogach. Jazda tymi pojazdami pozostaje świetnym pomysłem, dopóki nie muszą one dzielić jezdni z samochodami. Na obecnych, pełnych aut, drogach pilotowanie velomobilu jest względnie niebezpieczne. Kierowcy samochodów nie zawsze cię widzą i pomimo wielu wzmocnień nadwozia, jesteś bardzo narażony na np. jeepa Cherokee.</p>
+<div class="article-img ">
+  <figure data-imgstate="dither">
+    <img src="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Alleweder-a6_dithered.png" alt='Zdjęcie: Alleweder.' data-original="https://mar-ver.github.io/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/Alleweder-a6_hud9e0844e052f11ddb7fdb8944c2fe1fc_37268_800x800_fit_q90_h2_box.webp" data-dither="/pl/2010/09/the-velomobile-high-tech-bike-or-low-tech-car/images/dithers/Alleweder-a6_dithered.png" loading="lazy"> 
+      <div class="figure-controls">
+        <figcaption class="caption">
+          <span>Zdjęcie: <a href="http://www.alligt.nl/" target="_blank" >Alleweder</a>.</span>
+          <svg class="dither-toggle icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <rect class="svg_fill" x="13.51" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="37.93" y="37.86" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="13.58" width="24.28" height="24.28"/><rect class="svg_fill" x="13.51" y="62.14" width="24.28" height="24.28"/><rect class="svg_fill" x="62.21" y="62.14" width="24.28" height="24.28"/>
+          </svg>
+          <div class="imgindicator">
+            <span class="tooltip view-orig">
+              View original image
+            </span>
+            <span class="tooltip view-dither">
+            View dithered image
+            </span>
+          </div>
+        </figcaption>
+      </div>
+  </figure>
+</div>
+<p>Aby nastąpił przełom w użyciu velomobili potrzeba albo stworzyć całkowicie nową infrastrukturę dla pojazdów na pedały albo trzeba zastąpić na obecnych  lokalnych i regionalnych drogach samochody velomobilami (i innymi pojazdami napędzanymi siłą ludzkich mięśni). Ta druga opcja, którą ja bardziej popieram,  może nie sprzyja sprzedaży samochodów, lecz nic nie stoi na przeszkodzie, żeby ich producenci zaczęli wytwarzać velomobile.</p>
+
+			</div>
+			
+			
+			<div class="post-footer">
+    <ul>
+        <li><a href="https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv">Zapisz się do naszego newslettera</a>.</li>
+        <li> Wesprzyj Low-tech Magazine przez <a href="https://www.paypal.me/lowtechmagazine">Paypal</a> lub <a href="https://www.patreon.com/lowtechmagazine">Patreon</a>.</li>
+        <li><a href="https://mar-ver.github.io/pl/offline-reading/">Czytaj Low-tech Magazine off-line</a>.</li>
+    </ul>
+</div>
+
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+
+
+		
+		
+		
+		<section id="related" class="article-list">
+		    <h3 class="related">Related Articles</h3>
+		    <div class="post-info">
+		    <p class="tags">Tags
+		        
+		           <span><a href="https://mar-ver.github.io/pl/tags/bicycles/" class="">Bicycles</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/pl/tags/transportation/" class="">Transportation</a></span> 
+		        
+		           <span><a href="https://mar-ver.github.io/pl/tags/cars/" class="">cars</a></span> 
+		        
+		    </p>
+		    </div>
+		    <div class="grid">
+				
+				 
+				
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient-part-two/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/pl/2012/10/electric-velomobiles-as-fast-and-comfortable-as-automobiles-but-80-times-more-efficient-part-two/images/dithers/wind-explorer_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Elektryczne welomobile: Szybkie i wygodne jak samochody, lecz 80 razy bardziej wydajne cz. 2</h3>
+		<p class="index-summary">Samochód zdolny pędzić 270 km/godz. można prowadzić gdziekolwiek na Ziemi, za to elektryczny welomobil ze wspomaganiem do 50 km/godz. jest zakazany w większości krajów.</p>
+		<time class="published">24 października 2012</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/pl/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/pl/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/images/dithers/Cargo-Cycle-Electric-Assist-Germany_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Rowery transportowe zastępują ciężarówki na ulicach Europejskich miast</h3>
+		<p class="index-summary">Rower dostawczy jest w mieście co najmniej tak samo szybki jak furgonetka, a na pewno znacznie tańszy w eksploatacji.</p>
+		<time class="published">24 września 2012</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  low-tech-solutions ">
+	<a href="https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Jak zbudować generator rowerowy z panelem sterowania</h3>
+		<p class="index-summary">Zbudowaliśmy generator prądu napędzany pedałami, wyposażony we własny panel sterowania, służący nam jednocześnie jako domowe źródło energii i przyrząd do ćwiczeń. Można go zintegrować z systemem fotowoltaicznym. Poniżej zamieszczamy szczegółową instrukcję, dzięki której zbudujecie swój własny generator przy pomocy standardowych ręcznych narzędzi i minimum umiejętności technicznych.</p>
+		<time class="published">6 marca 2022</time>
+	</a>
+</div>
+	
+		
+		
+		
+	
+		<div class="article  obsolete-technology ">
+	<a href="https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/">
+		
+		
+		
+		          
+		<div class="featured-img" style="background-image: url('https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
+		
+		
+		<h3 class="entry-title">Zemsta termofora</h3>
+		<p class="index-summary">Wyobraź sobie osobisty system ogrzewania, który działa zarówno w pomieszczeniach, jak i na zewnątrz; można go zabrać ze sobą wszędzie, potrzebuje niewiele energii i jest niezależny od jakiejkolwiek infrastruktury. Taki system istnieje już setki lat.</p>
+		<time class="published">20 stycznia 2022</time>
+	</a>
+</div>
+	
+		
+		
+		    </div>
+		</section>
+		
+		
+	</article>
+</main>
+
+	<footer class="site-footer">
+    <div id=page-size>Rozmiar strony: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="https://mar-ver.github.io/">LOW←TECH MAGAZINE</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="https://mar-ver.github.io/pl/about">
+  O nas
+</a>
+    <a href="https://mar-ver.github.io/pl/power">
+  Power
+</a>
+    <a href="https://mar-ver.github.io/pl/about/team">
+  Colophon
+</a>
+    <a href="https://mar-ver.github.io/pl/donate">
+  Wspomóż nas
+</a>
+<a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Kris De Decker<br> solar [at] lowtechmagazine [dot] com</p>
+
+                <div class="social">
+                    
+                    <a href="/feeds" type="application/atom+xml" rel="alternate" target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>RSS Feed</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href='https://d69baa34.sibforms.com/serve/MUIEAJWIw9w82Dl4ua6FQArPaI-3Qb-zVTwPNabHQgFH51MiGF69Smy9LOC_HPoUmBj0emaXsXT87gcQXDPvtu-AZsJCHWhkkv21CdrcQu4GdnYAhZ-MrIPhwGDecagLzYxqfvkaqXg2ODcbJU4ByoDmzJK3ZTczDo2jcWtfn-En0MGKLVkgxx9TgdHqYoPabMJCMF-agLEclEwv' target="_blank"><svg viewBox="0 0 80 80" class="icon"><title>Newsletter</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+                    <a href="https://www.patreon.com/lowtechmagazine" target="_blank"><svg viewBox="-25 -12  284 284"   class="icon"><title>Patreon</title><path d="M45.1355837,0 L45.1355837,246.35001 L0,246.35001 L0,0 L45.1355837,0 Z M163.657111,0 C214.65668,0 256,41.3433196 256,92.3428889 C256,143.342458 214.65668,184.685778 163.657111,184.685778 C112.657542,184.685778 71.3142222,143.342458 71.3142222,92.3428889 C71.3142222,41.3433196 112.657542,0 163.657111,0 Z"> </path></svg></a>
+                    <a href="https://www.linkedin.com/in/krisdedecker/"  target="_blank"><svg viewBox="-2 -2 36 36" class="icon"><title>LinkedIn</title><path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"/></svg></a>
+
+                    <a href="https://www.youtube.com/user/lowtechmagazine"  target="_blank"><svg viewBox="0 0 36 36" class="icon"><title>YouTube</title><path d="M31.328 8.271c-0.38-1.349-1.432-2.407-2.787-2.781-2.495-0.667-12.525-0.667-12.525-0.667s-10.011-0.016-12.532 0.667c-1.348 0.375-2.405 1.432-2.781 2.781-0.473 2.557-0.708 5.145-0.697 7.745-0.005 2.583 0.229 5.167 0.697 7.708 0.376 1.349 1.433 2.407 2.781 2.787 2.495 0.667 12.532 0.667 12.532 0.667s10.005 0 12.525-0.667c1.355-0.38 2.407-1.437 2.787-2.787 0.459-2.541 0.683-5.125 0.667-7.708 0.016-2.6-0.203-5.188-0.667-7.745zM12.812 20.803v-9.595l8.349 4.808z"/></svg></a>
+
+                    
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+</footer>
+
+	<script src="https://mar-ver.github.io/js/script.js"></script>
+</body>
+</html>
