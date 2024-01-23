@@ -76,9 +76,17 @@ a {
     color: var(--color-sub);
     text-decoration: none; }
 
+.mono {
+  font-family: var(--monospace); }
+
 code {
   font-size: 0.9em;
   color: var(--color-sub); }
+  code.category {
+    width: 100% !important; }
+
+.istrue {
+  color: #006951; }
 
 /*---------------------
 MAIN STRUCTURES
@@ -334,7 +342,8 @@ METADATA, BYLINES
     .tags {
       font-size: var(--font-small); } }
 #filltag {
-  font-size: var(--font-less); }
+  font-size: var(--font-less);
+  cursor: pointer; }
 
 .linklist {
   margin-right: 0.5em;
@@ -474,7 +483,9 @@ ARCHIVES
     width: 100%; }
   #archive-list time,
   #archive-list .category {
-    padding: var(--pad-small) 0; } }
+    padding: var(--pad-small) 0; }
+  #archive-list #searchtag summary, #archive-list #searchtag .post-info {
+    width: 100%; } }
 
 #filters {
   width: 100%;
@@ -492,10 +503,15 @@ ARCHIVES
 #searchtag {
   padding: 0.25rem 0 .2rem 0;
   color: var(--color-primary);
-  border-bottom: 1px solid var(--color-primary); }
+  border-bottom: 1px solid var(--color-primary);
+  display: flow-root; }
 
 #searchtag summary {
   width: 20%;
+  float: left; }
+
+#searchtag .post-info {
+  width: 80%;
   float: left; }
 
 .filter:hover {
@@ -594,25 +610,6 @@ figure,
 
 .entry-content details > summary {
   margin-bottom: var(--pad); }
-
-.entry-content table {
-  border-spacing: 0; }
-  .entry-content table th,
-  .entry-content table td {
-    padding: 8px 5px;
-    text-align: left; }
-  .entry-content table td {
-    border-bottom: 1px solid black; }
-  .entry-content table th {
-    border-bottom: 2px solid black;
-    font-weight: normal; }
-  .entry-content table th:first-child, .entry-content table td:first-child {
-    padding-left: 0; }
-  .entry-content table .istrue {
-    color: var(--color-obs); }
-
-.entry-content table#istranslated {
-  margin: 0; }
 
 .entry-content .caption {
   font-size: calc( 1.2 * var(--font-small));

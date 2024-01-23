@@ -161,16 +161,16 @@ dither_icons.forEach(icon => {
 var mytags= document.querySelectorAll(".choosetag")
 var articleselected = document.querySelectorAll("[data-tags]")
 const filltag = document.getElementById("filltag");
-//console.log(articleselected.length)
+console.log(articleselected.length)
 for (let index = 0; index < mytags.length; index++) {
     mytags[index].addEventListener('click', function() {
-       
+        console.log("ch")
         this.classList.add("tagon");
         if (this.classList.contains("tagon")) {
            
             var tagtitle = mytags[index].getAttribute('title')
             var tagname = mytags[index].getAttribute('data-search')
-            filltag.innerText= ":  "+tagtitle;
+            filltag.innerText= tagtitle;
             console.log(tagname, "is")
           
             for (let i = 0; i < articleselected.length; i++) {
