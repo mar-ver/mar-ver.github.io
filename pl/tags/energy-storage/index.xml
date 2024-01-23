@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Polski</title>
-    <link>https://lowtechmag.gitlab.io/solar/pl/tags/energy-storage/</link>
+    <link>/pl/tags/energy-storage/</link>
     <description>Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.</description>
     <generator>Hugo 0.115.3</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/pl/tags/energy-storage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/pl/tags/energy-storage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piece Termoelektryczne: Fotowoltaika do Lamusa?</title>
-      <link>https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
+      <link>/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
+      <enclosure url="/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
+      <guid>/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Ilustracja: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Ilustracja: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustracja: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
@@ -30,7 +30,7 @@
 &lt;p&gt;Generator termoelektryczny składa się z elementów półprzewodnikowych w kształcie sztabek, które są połączone szeregowo z paskami metalu. Z góry i z dołu, sztabki są izolowane ceramicznymi płytkami przewodzącymi ciepło (ale nie prąd elektryczny). Taki zestaw tworzy kompaktowy moduł o budowie „kanapki”. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;  Gotowe moduły są dostępne w sprzedaży przez takich producentów jak Hi-Z, Tellurex, Thermalforce i Thermomanic.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Zdjęcie: Moduł termoelektryczny. Gerardtv (CCBY-SA3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Zdjęcie: Moduł termoelektryczny. Gerardtv (CCBY-SA3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Moduł termoelektryczny. Gerardtv (CCBY-SA3.0) 
 &lt;/figcaption&gt;
@@ -38,14 +38,14 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Moduł termoelektryczny. Zdjęcie wykorzystane za pozwoleniem Applied Thermoelectric Solutions LLC, Jak Działa Generator Termoelektryczny.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Moduł termoelektryczny. Zdjęcie wykorzystane za pozwoleniem Applied Thermoelectric Solutions LLC, Jak Działa Generator Termoelektryczny.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Moduł termoelektryczny. Zdjęcie wykorzystane za pozwoleniem Applied Thermoelectric Solutions LLC, [Jak Działa Generator Termoelektryczny](https://thermoelectricsolutions.com/how-thermoelectric-generators-work/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Przyklej moduł termoelektryczny do powierzchni pieca na drewno, a będzie on wytwarzał energię elektryczną za każdym razem gdy piec będzie rozpalany do gotowania, ogrzewania pomieszczeń lub podgrzewania wody. W eksperymentach i prototypach, które są opisane bardziej szczegółowo w dalszej części artykułu, uzyskano moc wyjściową na moduł od 3 do 19 watów.&lt;/p&gt;
-&lt;p&gt;Podobnie jak w przypadku paneli słonecznych, moduły termoelektryczne można łączyć ze sobą równolegle i szeregowo, aby uzyskać dowolne napięcie i moc wyjściową - przynajmniej tak długo na ile starczy nam powierzchni pieca. Tak, jak w ogniwie fotowoltaicznym, prąd elektryczny wytwarzany przez moduł/y termoelektryczny jest regulowany przez regulator ładowania i gromadzony w baterii, dzięki czemu nadwyżka energii jest dostępna również wtedy gdy piec nie jest używany. Piec termoelektryczny jest zwykle łączony z &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;urządzeniami niskonapięciowymi na prąd stały&lt;/a&gt;, co pozwala uniknąć strat na konwersji wynikających z zastosowania falownika.&lt;/p&gt;
+&lt;p&gt;Podobnie jak w przypadku paneli słonecznych, moduły termoelektryczne można łączyć ze sobą równolegle i szeregowo, aby uzyskać dowolne napięcie i moc wyjściową - przynajmniej tak długo na ile starczy nam powierzchni pieca. Tak, jak w ogniwie fotowoltaicznym, prąd elektryczny wytwarzany przez moduł/y termoelektryczny jest regulowany przez regulator ładowania i gromadzony w baterii, dzięki czemu nadwyżka energii jest dostępna również wtedy gdy piec nie jest używany. Piec termoelektryczny jest zwykle łączony z &lt;a href=&#34;/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;urządzeniami niskonapięciowymi na prąd stały&lt;/a&gt;, co pozwala uniknąć strat na konwersji wynikających z zastosowania falownika.&lt;/p&gt;
 &lt;p&gt;Piece termoelektryczne mogą znaleźć zastosowanie w wielu częściach świata. Większość badań nad ich wykorzystaniem celuje w „Globalne Południe”, gdzie prawie 3 miliardy ludzi (40% światowej populacji) jest zależnych od spalania biomasy do grzania wody i gotowania. Niektóre z tych gospodarstw domowych, używają pieców lub palenisk również do oświetlania (1,3 miliarda ludzi nie ma dostępu do elektryczności) oraz do ogrzewania pomieszczeń. Istnieją również badania nad wykorzystaniem pieców termoelektrycznych w społeczeństwach przemysłowych gdzie piece i kominki na biomasą, szczególnie poza miastami, zyskują na popularności.&lt;/p&gt;
 &lt;h2 id=&#34;sprawność-100&#34;&gt;Sprawność 100%&lt;/h2&gt;
 &lt;p&gt;Od czasu kiedy efekt termoelektryczny został po raz pierwszy opisany przez Thomasa Seebecka w 1821 roku, generatory termoelektryczne cieszą się złą sławą ze względu na słabą sprawność konwersji ciepła na elektryczność. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Dzisiejsze moduły termoelektryczne osiągają sprawność rzędu 5-6%, mniej więcej trzy razy niższą niż przeciętny panel fotowoltaiczny. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -56,7 +56,7 @@
 &lt;p&gt;Nawet, jeśli piec używany byłby jedynie do gotowania i grzania wody, to codzienne domowe prace gwarantują przewidywalną produkcję elektryczności bez względu na klimat. Co więcej, produkcja elektryczności przez piece termoelektryczne bardzo dobrze dopasowuje się do zapotrzebowania na prąd gospodarstwa domowego: w tym samym czasie kiedy używa się pieca, z reguły pojawia się potrzeba użycia elektryczności. Niestety, fotowoltaika generuje bardzo niewiele, albo wcale, energii elektrycznej wtedy kiedy potrzeba jej w domu.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Zdjęcie: Radziecki generator termoelektryczny oparty na lampie naftowej zasilający radio. 1959 rok. Źródło: Muzeum Retrotechnologii.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Zdjęcie: Radziecki generator termoelektryczny oparty na lampie naftowej zasilający radio. 1959 rok. Źródło: Muzeum Retrotechnologii.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Radziecki generator termoelektryczny oparty na lampie naftowej zasilający radio. 1959 rok. [Źródło: Muzeum Retrotechnologii](http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm).  
 &lt;/figcaption&gt;
@@ -79,16 +79,16 @@
 &lt;p&gt;Pierwsze piece termoelektryczne na biomasę zostały zbudowane na początku XXI wieku, chociaż Sowieci byli pionierami podobnej koncepcji w latach pięćdziesiątych XX wieku, wykorzystując lampy naftowe do zasilania elektrycznych odbiorników radiowych. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; W 2004 roku zespół libańskich naukowców doposażył typowy żeliwny piec opalany drewnem, powszechnie używany na terenach wiejskich, w wykonany przez zespół, pojedynczy moduł termoelektryczny o wymiarach 56 na 56 mm. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Zdjęcie: Żeliwny piec użyty do testów. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Zdjęcie: Żeliwny piec użyty do testów. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Żeliwny piec użyty do testów. [^18] 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Naukowcy przykręcili gładką aluminiową płytę o grubości 1 cm do najgorętszego miejsca na powierzchni pieca, następnie do niej zamocowali moduł termoelektryczny, a do zimnej strony modułu dołożyli duży (180 na 136 na 125 mm) aluminiowy radiator żebrowany. Przy szybkości spalania wynoszącej 2,5 kg drewna sosnowego na godzinę, uzyskali średnią moc wyjściową równą 4,2 wata. Dziesięć godzin pracy pieca dziennie (z wyłączeniem fazy rozgrzewania) dostarcza zatem wiejskiemu libańskiemu gospodarstwu domowemu 42 watogodzin energii elektrycznej. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/01/how-much-energy-do-we-need/&#34;&gt;Wystarczająco dużo na pokrycie podstawowych potrzeb&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Naukowcy przykręcili gładką aluminiową płytę o grubości 1 cm do najgorętszego miejsca na powierzchni pieca, następnie do niej zamocowali moduł termoelektryczny, a do zimnej strony modułu dołożyli duży (180 na 136 na 125 mm) aluminiowy radiator żebrowany. Przy szybkości spalania wynoszącej 2,5 kg drewna sosnowego na godzinę, uzyskali średnią moc wyjściową równą 4,2 wata. Dziesięć godzin pracy pieca dziennie (z wyłączeniem fazy rozgrzewania) dostarcza zatem wiejskiemu libańskiemu gospodarstwu domowemu 42 watogodzin energii elektrycznej. &lt;a href=&#34;/2018/01/how-much-energy-do-we-need/&#34;&gt;Wystarczająco dużo na pokrycie podstawowych potrzeb&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Zdjęcie: Szczegóły budowy pieca termoelektryczny i jego umiejscowienia. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Zdjęcie: Szczegóły budowy pieca termoelektryczny i jego umiejscowienia. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Szczegóły budowy pieca termoelektryczny i jego umiejscowienia. [^18] 
 &lt;/figcaption&gt;
@@ -100,7 +100,7 @@
 &lt;p&gt;Podczas testów jednomodułowa, termoelektryczna kuchenka z wymuszonym nadmuchem osiągnęła moc wyjściową 4,5 W, z czego 1 W był potrzebny do zasilenia wentylatora. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; Produkcja energii netto (3,5 W) była niższa w porównaniu z piecem z samym radiatorem (4,2 W), jednak piec chłodzony wentylatorem zużył o połowę mniej drewna opałowego: wytwarzał 3,5 W energii elektrycznej netto przy szybkości spalania 1 kg drewna na godzinę, podczas gdy piec pasywnie chłodzony potrzebował 2,5 kg drewna do wyprodukowania 4,2 wata.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Zdjęcie: Kuchenka z wymuszonym ciągiem powietrza i modułami termoelektrycznymi. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Zdjęcie: Kuchenka z wymuszonym ciągiem powietrza i modułami termoelektrycznymi. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Kuchenka z wymuszonym ciągiem powietrza i modułami termoelektrycznymi. [^20]  
 &lt;/figcaption&gt;
@@ -112,7 +112,7 @@
 &lt;p&gt;Najbardziej wydajne piece termoelektryczne to takie, w których zimna strona modułu (modułów) jest chłodzona przez bezpośredni kontakt ze zbiornikiem wody. Woda ma niższy opór cieplny niż powietrze, dzięki czemu skuteczniej chłodzi. Co więcej, jej temperatura nie przekroczyć 100ºC co zmniejsza prawdopodobieństwo awarii modułu z powodu przegrzania.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Obraz: Zasada działania pieca termoelektrycznego z pasywnym chłodzeniem wodnym. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Obraz: Zasada działania pieca termoelektrycznego z pasywnym chłodzeniem wodnym. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Zasada działania pieca termoelektrycznego z pasywnym chłodzeniem wodnym. [^17] 
 &lt;/figcaption&gt;
@@ -122,7 +122,7 @@
 &lt;p&gt;Większość pieców termoelektrycznych z pasywnym chłodzeniem wodnym ma małe rozmiary i służy jedynie do podgrzewania stosunkowo niewielkich ilości wody. Z reguły, nie jest to klasyczny piec, a najczęściej garnek wyposażony w moduły termoelektryczne. Na przykład PowerPot, to dostępny w sprzedaży, turystyczny garnek do gotowania wyposażony w moduł termoelektryczny przymocowany do podstawy. Można go postawić bezpośrednio na kuchence, a wygeneruje 5-10 W mocy.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Obraz: Wielozadaniowy piec na drewno z pasywnym chłodzeniem wodą. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Obraz: Wielozadaniowy piec na drewno z pasywnym chłodzeniem wodą. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Wielozadaniowy piec na drewno z pasywnym chłodzeniem wodą. [^22] 
 &lt;/figcaption&gt;
@@ -134,21 +134,21 @@
 &lt;p&gt;Pasywne chłodzenie wodne ma istotną wadę. Wraz ze wzrostem temperatury wody w zbiorniku różnica między zimną, a gorącą stroną modułu zmniejsza się, przez co spada sprawność pieca. Musi minąć odpowiednio dużo czasu, pomiędzy kolejnymi rozpaleniami pieca, aby woda w zbiorniku dostatecznie ostygła. Można również regularnie wymieniać ciepłą wodę (i używać ją do prac domowych) na zimną, a żeby się ciągle nie męczyć i ręcznie nie wymieniać wody, wystarczy zamontować pompę, która zrobi to za nas.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Zdjęcie: Prototyp pieca termoelektrycznego z modułami chłodzonymi wodą. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Zdjęcie: Prototyp pieca termoelektrycznego z modułami chłodzonymi wodą. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Prototyp pieca termoelektrycznego z modułami chłodzonymi wodą. [^26] 
 &lt;/figcaption&gt;
@@ -159,7 +159,7 @@
 &lt;p&gt;W obecnej infrastrukturze energetycznej społeczeństw ery przemysłowej lepiej odnajdą się generatory termoelektryczne z wymuszonym chłodzeniem wodnym, zwłaszcza w gospodarstwach domowych z systemami centralnego ogrzewania. Można zwiększyć liczbę zainstalowanych modułów, dzięki czemu wzrośnie produkcja energii elektrycznej, tak potrzebna w „wysokoenergetycznym” stylu życia. Niestety pojawiają się tutaj pewne trudności. Po pierwsze, systemy centralnego ogrzewania są używane tylko do ogrzewania pomieszczeń i wody, a nie do gotowania, co sprawia że ilość energii, którą wytwarzają zmienia się sezonowo. Po drugie, tylko niektóre systemy CO spalają biomasę lub pelet drzewny. Większość działa na gaz, olej opałowy, węgiel lub prąd.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Zdjęcie: Prototyp opalanego peletem drzewnym kotła termoelektrycznego. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Zdjęcie: Prototyp opalanego peletem drzewnym kotła termoelektrycznego. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Prototyp opalanego peletem drzewnym kotła termoelektrycznego. [^30]  
 &lt;/figcaption&gt;
@@ -169,7 +169,7 @@
 &lt;p&gt;Jednakże, gdy źródłem ciepła w domu jest gaz lub olej opałowy, to kocioł termoelektryczny jest niskoemisyjnym dostawcą elektryczności, na równi z systemem fotowoltaicznym umieszczonym na dachu. &lt;sup id=&#34;fnref:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt; Taki termoelektryczny system grzewczy nie uniezależni jednak gospodarstwa domowego od paliw kopalnych, podobnie jak nie uczyni tego instalacja fotowoltaiczna podłączona do sieci energetycznej. Opiera się on bowiem na centralnej sieci energetycznej (w dużej mierze zasilanej paliwami kopalnymi), aby uniknąć niedoborów energii i pozbyć się nadwyżek, a do ogrzewania pomieszczeń i wody wykorzystuje z reguły system CO zasilany paliwami kopalnymi.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Zdjęcie: Jedno kilowatowy generator termoelektryczny z wymuszonym chłodzeniem wodnym, zaprojektowany do wykorzystania niskotemperaturowego ciepła geotermalnego. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Zdjęcie: Jedno kilowatowy generator termoelektryczny z wymuszonym chłodzeniem wodnym, zaprojektowany do wykorzystania niskotemperaturowego ciepła geotermalnego. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Jedno kilowatowy generator termoelektryczny z wymuszonym chłodzeniem wodnym, zaprojektowany do wykorzystania niskotemperaturowego ciepła geotermalnego. [^31] 
 &lt;/figcaption&gt;
@@ -274,15 +274,15 @@
     
     <item>
       <title>Strona internetowa zasilana słońcem – w jakim stopniu jest zrównoważona?</title>
-      <link>https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/</link>
+      <link>/pl/2020/01/how-sustainable-is-a-solar-powered-website/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" type="image/png" length="10369" ></enclosure>
+      <enclosure url="/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" type="image/png" length="10369" ></enclosure>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/</guid>
+      <guid>/pl/2020/01/how-sustainable-is-a-solar-powered-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
@@ -299,8 +299,8 @@
 &lt;p&gt;&lt;a href=&#34;#scale&#34;&gt;Efekt korzyści skali&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#network&#34;&gt;Sieciowe zużycie energii&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;wprowadzenie&#34;&gt;Wprowadzenie&lt;/h2&gt;
-&lt;p&gt;We wrześniu 2018 roku, Low-Tech Magazine &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2018/09/how-to-build-a-low-tech-website/&#34;&gt;uruchomił nową stronę internetową&lt;/a&gt;, której zadaniem było radykalne zmniejszenie zużycia energii i emisji dwutlenku węgla związanej przeglądaniem naszych treści. Zużycie energii światowej sieci internetowej &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;szybko rośnie&lt;/a&gt; z powodu rosnącej ilości przesyłanych danych (treść stron staje się &amp;ldquo;cięższa&amp;rdquo;) oraz przez wzrost czasu spędzanego w sieci (szczególnie od czasów pojawienia się przenośnych komputerów, smartfonów i rozwoju sieci bezprzewodowych).&lt;/p&gt;
-&lt;p&gt;Zasilana energią słońca strona internetowa opiera się tym trendom. Aby móc znacząco obniżyć zużycie energii (poniżej tego ile potrzebuje przeciętna strona internetowa) skupiliśmy się na podstawach projektowania stron i wybraliśmy statyczną stronę zamiast systemu zarządzania treścią opartym na bazie danych. Żeby zmniejszyć ślad ekologiczny związany z użyciem paneli słonecznych i baterii, których produkcja jest wysoce energochłonna, postawiliśmy na minimalistyczny projekt godząc się na to, że strona może przejść w tryb offline kiedy &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/power.html&#34;&gt;pogoda będzie kiepska&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We wrześniu 2018 roku, Low-Tech Magazine &lt;a href=&#34;/pl/2018/09/how-to-build-a-low-tech-website/&#34;&gt;uruchomił nową stronę internetową&lt;/a&gt;, której zadaniem było radykalne zmniejszenie zużycia energii i emisji dwutlenku węgla związanej przeglądaniem naszych treści. Zużycie energii światowej sieci internetowej &lt;a href=&#34;/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;szybko rośnie&lt;/a&gt; z powodu rosnącej ilości przesyłanych danych (treść stron staje się &amp;ldquo;cięższa&amp;rdquo;) oraz przez wzrost czasu spędzanego w sieci (szczególnie od czasów pojawienia się przenośnych komputerów, smartfonów i rozwoju sieci bezprzewodowych).&lt;/p&gt;
+&lt;p&gt;Zasilana energią słońca strona internetowa opiera się tym trendom. Aby móc znacząco obniżyć zużycie energii (poniżej tego ile potrzebuje przeciętna strona internetowa) skupiliśmy się na podstawach projektowania stron i wybraliśmy statyczną stronę zamiast systemu zarządzania treścią opartym na bazie danych. Żeby zmniejszyć ślad ekologiczny związany z użyciem paneli słonecznych i baterii, których produkcja jest wysoce energochłonna, postawiliśmy na minimalistyczny projekt godząc się na to, że strona może przejść w tryb offline kiedy &lt;a href=&#34;/power.html&#34;&gt;pogoda będzie kiepska&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Przez piętnaście miesięcy prowadziliśmy monitoring zasilanego słońcem serwera i zebraliśmy dane dotyczące czasu pracy, zużycia prądu, sprawności systemu oraz ruchu sieciowego. Obliczyliśmy również ile energii potrzeba do wyprodukowania paneli słonecznych, baterii, kontrolera ładowania  i serwera (tzw. energii wcielonej, przyp. tłum.).&lt;/p&gt;
 &lt;h2 id=&#34;span-iduptimeczas-pracy-zużycie-energii--sprawność-systemu-span&#34;&gt;&lt;span id=&#34;uptime&#34;&gt;Czas Pracy, Zużycie Energii &amp;amp; Sprawność Systemu &lt;/span&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;czas-pracy&#34;&gt;Czas pracy&lt;/h3&gt;
@@ -320,7 +320,7 @@
 &lt;p&gt;My poszliśmy o krok dalej. Dla nas panele fotowoltaiczne, akumulator i kontroler ładowania solarnego są równie istotne jak sam serwer. Nie można zapominać o energii zużytej na wydobycie surowców i wyprodukowanie wszystkich elementów systemu tj. o ich energii wcielonej.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png&#34; alt=&#39;Uproszoczny schemat naszego systemu. Zmiana napięcia (pomiędzy 12 woltowym kontrolerem ładowania, a 5 woltowym serwerem) i wskaźnik poziomu naładowania baterii (pomiędzy serwerem, a akumulatorem) nie zostały przedstawione. Ilustracja: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png&#34; alt=&#39;Uproszoczny schemat naszego systemu. Zmiana napięcia (pomiędzy 12 woltowym kontrolerem ładowania, a 5 woltowym serwerem) i wskaźnik poziomu naładowania baterii (pomiędzy serwerem, a akumulatorem) nie zostały przedstawione. Ilustracja: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Uproszoczny schemat naszego systemu. Zmiana napięcia (pomiędzy 12 woltowym kontrolerem ładowania, a 5 woltowym serwerem) i wskaźnik poziomu naładowania baterii (pomiędzy serwerem, a akumulatorem) nie zostały przedstawione. Ilustracja: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
@@ -331,17 +331,17 @@
 &lt;p&gt;Dobór wielkości akumulatora i panelu słonecznego jest kompromisem pomiędzy czasem online, a stopniem zrównoważenia systemu.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Energia wcielona naszego zestawu jest determinowana przede wszystkim przez wielkość akumulatora i panelu fotowoltaicznego. Od ich rozmiarów zależy tak samo to, jak często strona będzie dostępna online. Nasz wybór wielkości akumulatora i panelu słonecznego jest kompromisem pomiędzy czasem pracy, a zrównoważonym użyciem.&lt;/p&gt;
-&lt;p&gt;Żeby uzyskać optymalny balans, zmienialiśmy (i nadal zmieniamy) konfigurację obu tych komponentów. Czas prac i energia wcielona są również zależne od lokalnych warunków pogodowych, więc wyniki jakie uzyskaliśmy mogę być znaczące jedynie dla &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/power.html&#34;&gt;naszej lokalizacji&lt;/a&gt; (dla balkonu autora niedaleko hiszpańskiej Barcelony).&lt;/p&gt;
+&lt;p&gt;Żeby uzyskać optymalny balans, zmienialiśmy (i nadal zmieniamy) konfigurację obu tych komponentów. Czas prac i energia wcielona są również zależne od lokalnych warunków pogodowych, więc wyniki jakie uzyskaliśmy mogę być znaczące jedynie dla &lt;a href=&#34;/power.html&#34;&gt;naszej lokalizacji&lt;/a&gt; (dla balkonu autora niedaleko hiszpańskiej Barcelony).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;Illustracja: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;Illustracja: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustracja: [Diego Marmolejo](https://www.instagram.com/ddidak/) 
 &lt;/figcaption&gt;
@@ -812,16 +812,16 @@
 &lt;h3 id=&#34;sprawność-systemu&#34;&gt;Sprawność systemu&lt;/h3&gt;
 &lt;p&gt;Wydajność systemu wyniosła zaledwie 50% w pierwszym roku pracy. Straty energii występowały podczas ładowania i rozładowywania akumulatora (22%), a także podczas konwersji napięcia z 12V (system fotowoltaiczny) na 5V (połączenie USB), gdzie straty sumują się do 28%. Pierwszy konwerter napięcia który zbudowaliśmy nie był dobrze zoptymalizowany (nasz kontroler ładowania słonecznego nie ma wbudowanego połączenia USB), więc moglibyśmy postarać się zbudować lepszy lub przełączyć się na instalację fotowoltaiczną 5V.&lt;/p&gt;
 &lt;h3 id=&#34;magazynowanie-energii&#34;&gt;Magazynowanie energii&lt;/h3&gt;
-&lt;p&gt;Aby zwiększyć efektywność magazynowania energii, moglibyśmy zastąpić akumulatory ołowiowo-kwasowe droższymi akumulatorami litowo-jonowymi, których straty ładowania/rozładowania są niższe (&amp;lt;10%), a ich energia wcielona mniejsza. Bardziej prawdopodobne jest, że ostatecznie przejdziemy na &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;małoskalowy system magazynowania energii na sprężone powietrze&lt;/a&gt; (Compressed Air Energy Storage, w skrócie CAES). Chociaż niskociśnieniowe układy CAES mają podobną wydajność jak akumulatory kwasowo-ołowiowe, to ich energia wcielona jest niższa z powodu znacznie dłuższej żywotności (dziesięciolecia, a nie lata).&lt;/p&gt;
+&lt;p&gt;Aby zwiększyć efektywność magazynowania energii, moglibyśmy zastąpić akumulatory ołowiowo-kwasowe droższymi akumulatorami litowo-jonowymi, których straty ładowania/rozładowania są niższe (&amp;lt;10%), a ich energia wcielona mniejsza. Bardziej prawdopodobne jest, że ostatecznie przejdziemy na &lt;a href=&#34;/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;małoskalowy system magazynowania energii na sprężone powietrze&lt;/a&gt; (Compressed Air Energy Storage, w skrócie CAES). Chociaż niskociśnieniowe układy CAES mają podobną wydajność jak akumulatory kwasowo-ołowiowe, to ich energia wcielona jest niższa z powodu znacznie dłuższej żywotności (dziesięciolecia, a nie lata).&lt;/p&gt;
 &lt;h3 id=&#34;źródło-zasilania&#34;&gt;Źródło zasilania&lt;/h3&gt;
-&lt;p&gt;Innym sposobem na obniżenie energii wcielonej może być zmiana źródła energii odnawialnej. Energia słoneczna z fotowoltaiki ma wysoką energię wcieloną w porównaniu z wiatrową, wodną lub siłą ludzkich mięśni. Te ostatnie wymagają jedynie instalacji generatora i regulatora napięcia - resztę systemu zasilania można &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;zbudować z drewna&lt;/a&gt;. ponadto strona internetowa zasilana wodą nie wymagałaby zaawansowanego technologicznie magazynowania energii. Jeśli żyjesz w chłodnym klimacie, to dzięki generatorowi termoelektrycznemu możesz nawet uruchomić witrynę internetową zasilaną piecem opalanym drewnem.&lt;/p&gt;
+&lt;p&gt;Innym sposobem na obniżenie energii wcielonej może być zmiana źródła energii odnawialnej. Energia słoneczna z fotowoltaiki ma wysoką energię wcieloną w porównaniu z wiatrową, wodną lub siłą ludzkich mięśni. Te ostatnie wymagają jedynie instalacji generatora i regulatora napięcia - resztę systemu zasilania można &lt;a href=&#34;/pl/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;zbudować z drewna&lt;/a&gt;. ponadto strona internetowa zasilana wodą nie wymagałaby zaawansowanego technologicznie magazynowania energii. Jeśli żyjesz w chłodnym klimacie, to dzięki generatorowi termoelektrycznemu możesz nawet uruchomić witrynę internetową zasilaną piecem opalanym drewnem.&lt;/p&gt;
 &lt;h3 id=&#34;moduł-śledzenia-słońca&#34;&gt;Moduł śledzenia słońca&lt;/h3&gt;
 &lt;p&gt;Osoby, które cieszą się lepszym nasłonecznieniem i silniejszymi wiatrami, mogą zbudować system z niższą energią wcieloną niż nasz. Jednak dopóki autor nie zacznie zasilać swojej strony &lt;a href=&#34;https://www.humanpowerplant.be&#34;&gt;ręką lub nogą&lt;/a&gt;, jesteśmy skazani na słońce. Największym usprawnieniem jakie moglibyśmy wprowadzić, jest dodanie modułu śledzenia słońca, który sprawia że panel podąża za ruchem słońcem, co może zwiększyć uzysk prądu nawet o 30% i pozwala wydłużyć czas pracy (nawet przy mniejszym panelu fotowoltaicznym).&lt;/p&gt;
 &lt;h2 id=&#34;span-idscaleefekt-korzyści-skalispan&#34;&gt;&lt;span id=&#34;scale&#34;&gt;Efekt korzyści skali&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Ostatnim sposobem na poprawienie stopnia zrównoważenia naszego systemu byłoby jego powiększenie: uruchomienie większej liczby stron internetowych na serwerze oraz uruchomienie większej liczby serwerów zasilanych słońcem. Tym sposobem można by zmniejszyć energię wcieloną systemu w porównaniu z tworzenie większej ilości pojedynczych stron.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
@@ -831,10 +831,10 @@
 &lt;p&gt;Gdybyśmy zabudowali cały balkon autora panelami słonecznymi i założyli firmę hostingową zasilaną energią słoneczną, energia wcielona przypadająca na jednego odwiedzającego stronę znacznie by się zmniejszyła. Potrzebowalibyśmy tylko jednego serwera dla wielu stron internetowych i tylko jednego kontrolera ładowania słonecznego dla wielu paneli słonecznych. Konwersja napięcia byłaby bardziej energooszczędna, a zarówno energia słoneczna, jak i ta pobierana z baterii, mogłyby być dzielone przez wszystkie strony internetowe, co jest efektem korzyści skali.&lt;/p&gt;
 &lt;p&gt;Jest to oczywiście koncepcja centrum danych i chociaż nie mamy ambicji założenia takiej firmy, inni mogliby podchwycić ten pomysł: centrum danych, które działa równie skutecznie jak każde inne dzisiejsze centrum danych, ale z tą różnicą, że zasila je energia odnawialna i wyłącza się gdy pogoda jest zła.&lt;/p&gt;
 &lt;h3 id=&#34;dodać-więcej-stron&#34;&gt;Dodać więcej stron&lt;/h3&gt;
-&lt;p&gt;Zauważyliśmy, że pojemność naszego serwera jest wystarczająco duża, aby pomieścić więcej stron internetowych, więc pierwszy krok w kierunku korzyści skali został wykonany. Na serwer słoneczny przenieśliśmy pozostałe wersje językowe w tym m.in. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/01/the-solar-powered-website-in-spanish-french-and-other-languages/&#34;&gt;hiszpańską&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zauważyliśmy, że pojemność naszego serwera jest wystarczająco duża, aby pomieścić więcej stron internetowych, więc pierwszy krok w kierunku korzyści skali został wykonany. Na serwer słoneczny przenieśliśmy pozostałe wersje językowe w tym m.in. &lt;a href=&#34;/2020/01/the-solar-powered-website-in-spanish-french-and-other-languages/&#34;&gt;hiszpańską&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Chociaż ten ruch zwiększy nasze zużycie energii operacyjnej (potencjalnie także energię wcieloną), to eliminujemy tym sposobem pozostałe strony internetowe, które są lub były hostowane gdzie indziej. Musimy również pamiętać, że liczba odwiedzających Low-Tech Magazine może wzrosnąć w przyszłości, dlatego musimy stać się bardziej energooszczędni, aby utrzymać nasz niski ślad środowiskowy.&lt;/p&gt;
 &lt;h3 id=&#34;łącząc-serwer-i-oświetlenie&#34;&gt;Łącząc serwer i oświetlenie&lt;/h3&gt;
-&lt;p&gt;Innym sposobem osiągnięcia korzyści skali mogłoby być dosyć nietuzinkowe rozwiązanie. Serwer zasilany energią słoneczną jest częścią gospodarstwa domowego autora, które jest również &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;częściowo zasilane energią słońca z poza sieci energetycznej&lt;/a&gt;. Gdy serwer był zasilany przez panel o mocy 50 W, autor zapalał światła w salonie na panelu o mocy 10 W, w wyniku czego często siedział po ciemku. Kiedy przełączaliśmy serwer na panel 10 watowy, było odwrotnie: w domu było więcej światła, ale czas pracy serwera skracał się.&lt;/p&gt;
+&lt;p&gt;Innym sposobem osiągnięcia korzyści skali mogłoby być dosyć nietuzinkowe rozwiązanie. Serwer zasilany energią słoneczną jest częścią gospodarstwa domowego autora, które jest również &lt;a href=&#34;/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;częściowo zasilane energią słońca z poza sieci energetycznej&lt;/a&gt;. Gdy serwer był zasilany przez panel o mocy 50 W, autor zapalał światła w salonie na panelu o mocy 10 W, w wyniku czego często siedział po ciemku. Kiedy przełączaliśmy serwer na panel 10 watowy, było odwrotnie: w domu było więcej światła, ale czas pracy serwera skracał się.&lt;/p&gt;
 &lt;p&gt;Możemy więc przetestować różne konfiguracje bateri i paneli słonecznych, po prostu zamieniając komponenty pomiędzy instalacją sieciową a domową.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Jeśli pogoda się pogorszy autor może zdecydować, aby nie używać świateł i utrzymywać serwer  online lub na odwrót.&lt;/p&gt;
@@ -844,17 +844,17 @@
 &lt;p&gt;O ile wiemy, nasza analiza energetycznego cyklu życiowego strony internetowej, która działa wyłącznie na energii odnawialnej i zawiera kalkulację energii wcielonej infrastruktury magazynowania energii, jest pierwszą tego typu. Oczywiście nie jest to całkowita ilość energii jaką zużywa witryna.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Istnieje również energia operacyjna i wcielona infrastruktury sieci (która obejmuje nasz router, szkielet internetowy i sieć telefonii komórkowej), a także energia operacyjna i wcielona urządzeń używanych przez naszych gości do uzyskiwania dostępu do witryny: smartfonów, tabletów, laptopów czy komputerów stacjonarnych. Niektóre z nich mają niskie zużycie energii, ale wszystkie mają bardzo ograniczoną żywotność, a tym samym &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;wysoką energię wcieloną&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Istnieje również energia operacyjna i wcielona infrastruktury sieci (która obejmuje nasz router, szkielet internetowy i sieć telefonii komórkowej), a także energia operacyjna i wcielona urządzeń używanych przez naszych gości do uzyskiwania dostępu do witryny: smartfonów, tabletów, laptopów czy komputerów stacjonarnych. Niektóre z nich mają niskie zużycie energii, ale wszystkie mają bardzo ograniczoną żywotność, a tym samym &lt;a href=&#34;/pl/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;wysoką energię wcieloną&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Zużycie energii w sieci jest bezpośrednio związane z ruchem danych, więc nasza lekka strona internetowa jest równie wydajna w sieci komunikacyjnej, jak na naszym serwerze. Jednak mamy bardzo niewielki wpływ na to, z jakich urządzeń korzystają użytkownicy, aby uzyskać dostęp do naszej witryny. Nasza witryna mogłaby teoretycznie przedłużyć żywotność komputerów, ponieważ jest wystarczająco lekka, aby nawet bardzo stare maszyny miały do niej dostęp. Niestety, sam Low-Tech Magazine nie wydłuży życia wszystkich komputerów.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zarówno infrastruktura sieciowa, jak i urządzenie do przeglądania stron mogłyby zostać na nowo opracowane zgodnie z kierunkiem jaki wyznacza strona zasilana energią słoneczną.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Podsumowując; zarówno infrastruktura sieciowa, jak i urządzenie do przeglądania strony mogłyby zostać na nowo opracowane zgodnie z kierunkiem jaki wyznacza strona zasilana energią słoneczną - mniejsze rozmiary, zasilanie z odnawialnych źródeł energii z małoskalowym systemem magazynowania energii. Urządzenia do przeglądania stron mogłyby mieć &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/10/how-to-build-a-low-tech-internet/&#34;&gt;niskie zużycie energii i długą żywotność&lt;/a&gt;, i to one częściowo zainspirowały nasz projekt.&lt;/p&gt;
+&lt;p&gt;Podsumowując; zarówno infrastruktura sieciowa, jak i urządzenie do przeglądania strony mogłyby zostać na nowo opracowane zgodnie z kierunkiem jaki wyznacza strona zasilana energią słoneczną - mniejsze rozmiary, zasilanie z odnawialnych źródeł energii z małoskalowym systemem magazynowania energii. Urządzenia do przeglądania stron mogłyby mieć &lt;a href=&#34;/2015/10/how-to-build-a-low-tech-internet/&#34;&gt;niskie zużycie energii i długą żywotność&lt;/a&gt;, i to one częściowo zainspirowały nasz projekt.&lt;/p&gt;
 &lt;p&gt;Ponieważ całkowite zużycie energii w Internecie jest zazwyczaj mierzone w przybliżeniu w równym stopniu na serwerach, w sieci i urządzeniach końcowych (łącznie z produkcją urządzeń), możemy dokonać przybliżonego szacunku całkowitego zużycia energii przez naszą stronę w nowym, przekształconym Internecie. W przypadku naszej pierwotnej konfiguracji z 95.2% czasem pracy byłoby to 87.6 kWh energii pierwotnej, co odpowiada 9 litrom ropy i 27 kg CO2. Ulepszenia, które zaproponowaliśmy w tym artykule mogą obniżyć ten wynik, ponieważ w naszych kalkulacjach przyjmujemy, że cały Internet jest zasilany przez zbyt duże niż jest to konieczne, nieruchome panele fotowoltaiczne na balkonach.&lt;/p&gt;
 &lt;p&gt;Podziękowania dla Kathy Vanhout, Adriana Parra i Gauthier Roussilhe.&lt;/p&gt;
 &lt;p&gt;Tłumaczenie Michał Kolbusz&lt;/p&gt;
@@ -883,15 +883,15 @@
     
     <item>
       <title>Ogrzej swój dom za pomocą wiatraka</title>
-      <link>https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/</link>
+      <link>/pl/2019/02/heat-your-house-with-a-mechanical-windmill/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-windmill-melted-house-rona-binay_dithered.png" type="image/png" length="27483" ></enclosure>
+      <enclosure url="/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-windmill-melted-house-rona-binay_dithered.png" type="image/png" length="27483" ></enclosure>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/</guid>
+      <guid>/pl/2019/02/heat-your-house-with-a-mechanical-windmill/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-windmill-melted-house-rona-binay_dithered.png&#34; alt=&#39;Ilustracja: Rona Binay dla Low-Tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-windmill-melted-house-rona-binay_dithered.png&#34; alt=&#39;Ilustracja: Rona Binay dla Low-Tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustracja: [Rona Binay](https://ronabinay.com/) dla Low-Tech Magazine.  
 &lt;/figcaption&gt;
@@ -908,23 +908,23 @@
 &lt;p&gt;W szczególności pompy ciepła są promowana przez wiele rządów i organizacji jako zrównoważony, odnawialny sposób produkcji ciepła. Jednak moc słońca i wiatru można bezpośrednio wykorzystać do produkcji ciepła, bez potrzeby wcześniejszej konwersji elektryczności na ciepło (to samo tyczy się spalania biomasy). Bezpośrednia produkcja energii cieplnej jest tańsza, bardziej wydajna energetycznie i bardziej zrównoważona niż produkcja pośrednia.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-generating-windmills-denmark-high-resolution_dithered.png&#34; alt=&#39;Prototypy wiatraków generujących ciepło, skonstruowane przez Esra L. Sorensen&amp;amp;rsquo;a w 1974 r. Fotografia Claus Nyobre. Źródło: [^13]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-generating-windmills-denmark-high-resolution_dithered.png&#34; alt=&#39;Prototypy wiatraków generujących ciepło, skonstruowane przez Esra L. Sorensen&amp;amp;rsquo;a w 1974 r. Fotografia Claus Nyobre. Źródło: [^13]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Prototypy wiatraków generujących ciepło, skonstruowane przez Esra L. Sorensen&#39;a w 1974 r. Fotografia Claus Nyobre. Źródło: [^13]  
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Bezpośrednią alternatywą dla fotowoltaiki jest termiczna energia słoneczna. Technologia ta pojawiła się w XIX wieku w wyniku poszukiwań sposobu obniżenia kosztów produkcji szkła i luster. Termiczną energię słoneczną można użyć do ogrzewania wody i pomieszczeń oraz wykorzystać ją w przemyśle. Jest &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;2 do 3&lt;/a&gt; razy bardziej wydajna energetycznie niż konwersja elektryczności na ciepło.&lt;/p&gt;
+&lt;p&gt;Bezpośrednią alternatywą dla fotowoltaiki jest termiczna energia słoneczna. Technologia ta pojawiła się w XIX wieku w wyniku poszukiwań sposobu obniżenia kosztów produkcji szkła i luster. Termiczną energię słoneczną można użyć do ogrzewania wody i pomieszczeń oraz wykorzystać ją w przemyśle. Jest &lt;a href=&#34;/pl/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;2 do 3&lt;/a&gt; razy bardziej wydajna energetycznie niż konwersja elektryczności na ciepło.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Prawie nikt nie wie, że wiatrak może bezpośrednio wytwarzać ciepło.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Bezpośrednią i powszechnie znaną konkurencją dla turbin wiartowych jest staromodny wiatrak, który ma już z grubsza dwa tysiące lat. Wiatrak zamienia energię obrotową wirnika bezpośrednio proprzez wał na energię mechaniczą, wykorzystywaną na przykład do cięcia drewna czy mielenie zboża. Ta stara technologia ciągle pozostaje wartościowa, ponieważ jest bardziej wydajana energetycznie (w szczególności w połączeniu z nowszymi rozwiązaniami) &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;niż zamiana energii obrotowej turbiny na energię elektryczną i spowrotem na energię mechananiczną&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bezpośrednią i powszechnie znaną konkurencją dla turbin wiartowych jest staromodny wiatrak, który ma już z grubsza dwa tysiące lat. Wiatrak zamienia energię obrotową wirnika bezpośrednio proprzez wał na energię mechaniczą, wykorzystywaną na przykład do cięcia drewna czy mielenie zboża. Ta stara technologia ciągle pozostaje wartościowa, ponieważ jest bardziej wydajana energetycznie (w szczególności w połączeniu z nowszymi rozwiązaniami) &lt;a href=&#34;/pl/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;niż zamiana energii obrotowej turbiny na energię elektryczną i spowrotem na energię mechananiczną&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Jednakże staromodny wiatrak może być również źródłem ciepła. Problem z tym, że praktycznie nikt o tym nie wie! Nawet Międzynarodowa Agencja Energetyczna (ang. IEA) nie wymienia w swoich opracowaniach na temat wszystkich możliwych opcji zrównoważonej produkcji ciepła, bezpośredniej produkcji energii termicznej przez wiatraki.&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;wiatrak-z-hamulcem-wodnym&#34;&gt;Wiatrak z hamulcem wodnym&lt;/h2&gt;
 &lt;p&gt;Istnieją mechaniczne wiatraki, które bezpośrednio zamieniają energię obrotową na ciepło, przy użyciu &amp;ldquo;hamulca wodnego&amp;rdquo; lub tzw. &amp;ldquo;maszyny Joule’a&amp;rdquo;. Tak działający generator ciepła to tak naprawdę napędzany wiatrem mikser zainstalowany w zaizolowanym zbiorniku z woda. Dzięki tarciu pomiędzy cząsteczkami wody, energia mechaniczna jest zamianiana w energię termiczną. Podgrzaną wodę można następnia przepompować do budynków i użyć ją do ogrzewania czy do prania. Przemysł, który wymaga względnie niskich temperatur (przetwórstwo spożywcze, papiernictwo, browarnictwo, przemysł chemiczny itp., przyp. tłum.) może również skorzystać z ciepła dostarczanego przez wiatraki. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/drawing-heat-generating-windmill_dithered.png&#34; alt=&#39;Szkic systemu ogrzewania bazujacego na wiatraku z hamulcem wodnym. Źródło: [^8]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/drawing-heat-generating-windmill_dithered.png&#34; alt=&#39;Szkic systemu ogrzewania bazujacego na wiatraku z hamulcem wodnym. Źródło: [^8]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Szkic systemu ogrzewania bazujacego na wiatraku z hamulcem wodnym. Źródło: [^8] 
 &lt;/figcaption&gt;
@@ -937,7 +937,7 @@
 &lt;p&gt;Najbardziej fascynujęce w wiatrakach z hamulcem wodnym jest to, że hipotetycznie, mogły być budowane setki, jak nie tysiace lat temu. Do ich postawienie wystarczą łatwo dostępny materiały, takie jak drewno lub metal. Chcociaż nie możemy wykluczyć, że podobne urządzenie nie pojawiały się w czasach przedprzemysłowych, to pierwsze udokumentowane ich wykorzystanie przypada na lata 70-te XX wieku, kiedy to Duńczycy zaczeli stawiać je w następstwie pierwszego kryzysu paliwowego.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/drawing-heat-generator-windmill_dithered.png&#34; alt=&#39;Szkic generatora ciepła w wiatraku. Źródło: [^8]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/drawing-heat-generator-windmill_dithered.png&#34; alt=&#39;Szkic generatora ciepła w wiatraku. Źródło: [^8]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Szkic generatora ciepła w wiatraku. Źródło: [^8]  
 &lt;/figcaption&gt;
@@ -949,7 +949,7 @@
 &lt;p&gt;Po pierwsze i najważniejsze, wiatraki mechaniczne są mniej skomplikowane niż turbiny wiatrowe, co czyni je bardziej opłacalnymi i mniej wymagającymi w budowie pod względem materiałowym. Dzięki mniej złożonej i prostszej konstrukcji charakteryzuję się one wyższą niezawodnością i dłuższą żywotnością. W wiatrakach z hamulcem wodnym generator, przekładnia i transformator są zbędne, dzięki czemu wiatraki są lżejsze. Niższa masa pozwala oszczędzić środków na fundamenty i solidności konstrukcji. Maszyna Joule&amp;rsquo;a jest mniejsza, waży mniej i kosztuje mniej niż generator. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;. Należy równiez wziąć pod uwagę, że koszt magazynowania ciepła jest 60-70% niższy w porównaniu z bateriami lub z utrzymaniem elektrociepłowni jako back-up&amp;rsquo;u. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-generating-windmill-water-brake_dithered.png&#34; alt=&#39;Wiatrak z hamulcem wodnym zbudowane przez Institute for Agricultural Techniques w 1974. Autor zdjęcia Ricard Matzen. Źródło [^13].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-generating-windmill-water-brake_dithered.png&#34; alt=&#39;Wiatrak z hamulcem wodnym zbudowane przez Institute for Agricultural Techniques w 1974. Autor zdjęcia Ricard Matzen. Źródło [^13].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Wiatrak z hamulcem wodnym zbudowane przez Institute for Agricultural Techniques w 1974. Autor zdjęcia Ricard Matzen. Źródło [^13].  
 &lt;/figcaption&gt;
@@ -966,7 +966,7 @@
 &lt;p&gt;Jeden ze wczesnych małych Duńskich wiatraków przeszedł oficjalne testy. &amp;ldquo;Calorius Typ 37&amp;rdquo; - z wirnikiem o średnicy 5 metrów i wysokości 9 metrów - był w stanie wytworzyć 3,5 kW mocy przy prędkości wiatru 11 m/s (silny wiatr, 6 w skali Beauforta). Są to osiągi porównywalane z mocą najmniejszego pokojowego grzejnika elektrycznego. Pomiędzy rokiem 1993 a 2000, Duńska firma Westrup zbudowała 34 wiatraki z hamulcem wodnym oparte na projekcie „Caloriusa”, a do 2012 roku w użyciu pozostało 17 z nich. &lt;sup id=&#34;fnref2:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/calorius-windmill_dithered.png&#34; alt=&#39;Wiatrak Calorius produkuje do 4 kW ciepła. Zdjęcie udostępnione przez Nordic Folkecenter w Danii.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/calorius-windmill_dithered.png&#34; alt=&#39;Wiatrak Calorius produkuje do 4 kW ciepła. Zdjęcie udostępnione przez Nordic Folkecenter w Danii.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Wiatrak Calorius produkuje do 4 kW ciepła. Zdjęcie udostępnione przez [Nordic Folkecenter](http://folkecenter.eu) w Danii.  
 &lt;/figcaption&gt;
@@ -983,7 +983,7 @@
 &lt;p&gt;Badacze pokazują mechanizm działania wiatraka z mechanicznym hamulcem wodnym i obliczają optymalne parametry pracy dla tej technologii. Dowodzą, że w celu uzyskania najlepszej wydajności średnica wirnika wiatraka powinna być precyzyjnie dobrana do średnicy wirnika hamulca wodnego. Dla bardzo małego wiatraka Savonius, który to naukowcy użyli do testów i modelowania, o średnicy wirnika 0,5 m i wysokości wieży 2,0 m, powinnien zostać dobrany wirnik hamulca o średnicy 0.388 m.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-production-windmill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-production-windmill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -995,18 +995,18 @@
 &lt;p&gt;Oczywiście nie zawsze wieje porywisty wiatr, co oznacza że dla generowanie ciepła z wiatru ważna jest przedewszystkim średnia prędkość wiatru na danym terenie. W pracy z 2015 roku zbadano możliwość wytwarzania ciepła dzieki energii wiatru na Litwie, w pństwie bałtyckim o zimnym klimacie, zdanym na import drogich paliw koplanych. &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;. Badacze obliczyli, że przy średniej krajowej prędkości wiatru (4 m/s, 3 w skali Beuforta) wygenerowanie 1 kW ciepła wymaga użycia wiatraka o średnicy wirnika 8.2 m.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-generating-windmill-1975-high-resolution_dithered.png&#34; alt=&#39;Wiatrak wytwarzający ciepło z hamulcem wodnym umieszczonym w środku podstawy wieży. Wiatrak zbudowany przez Jorgena Andersena w 1975 w miejscowości Serritslev. Autor zdjęcia: Claus Nybroe. Źródło: [^13].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/heat-generating-windmill-1975-high-resolution_dithered.png&#34; alt=&#39;Wiatrak wytwarzający ciepło z hamulcem wodnym umieszczonym w środku podstawy wieży. Wiatrak zbudowany przez Jorgena Andersena w 1975 w miejscowości Serritslev. Autor zdjęcia: Claus Nybroe. Źródło: [^13].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Wiatrak wytwarzający ciepło z hamulcem wodnym umieszczonym w środku podstawy wieży. Wiatrak zbudowany przez Jorgena Andersena w 1975 w miejscowości Serritslev. Autor zdjęcia: Claus Nybroe. Źródło: [^13]. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Badacze porównali uzyskany wyniki z zapotrzebowaniem cieplnym 120 metrowego, nowego, dobrze ocieplonego budynku ogrzewanego do &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;temperatury współczesnych standardów komfortu&lt;/a&gt; (21&amp;rsquo;C) i wywnioskowali, że wiatrak byłby w stanie pokryć 40-75% rocznego zapotrzebowania na ciepło (w zależności od klasy termoizolacji budynku). &lt;sup id=&#34;fnref1:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Badacze porównali uzyskany wyniki z zapotrzebowaniem cieplnym 120 metrowego, nowego, dobrze ocieplonego budynku ogrzewanego do &lt;a href=&#34;/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;temperatury współczesnych standardów komfortu&lt;/a&gt; (21&amp;rsquo;C) i wywnioskowali, że wiatrak byłby w stanie pokryć 40-75% rocznego zapotrzebowania na ciepło (w zależności od klasy termoizolacji budynku). &lt;sup id=&#34;fnref1:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;magazynowanie-ciepła&#34;&gt;Magazynowanie ciepła&lt;/h2&gt;
 &lt;p&gt;Ponieważ nie ma gwarancji, że wiatr będzie wiał nawet ze średnią predkością, wiatrak wytwarzający ciepło potrzebuje systemu jego magazynowania.  W przeciwnym razie będzie dostarczał ciepło jedynie wtedy kiedy wieje wiatr. Jeden metr sześcienny ogrzanej wody (1 tona lub 1 000 litrów) może zawierać do 90KWh ciepła, co mniej więcej odpowiada dwudniowemu zapotrzebowaniu na ciepło czteroosobowego gospodarstwa domowego.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/thermal-windmill_dithered.png&#34; alt=&#39;Ten sam wiatrak co na poprzednim zdjęciu widziany od dołu. Źródło [^7].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/thermal-windmill_dithered.png&#34; alt=&#39;Ten sam wiatrak co na poprzednim zdjęciu widziany od dołu. Źródło [^7].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ten sam wiatrak co na poprzednim zdjęciu widziany od dołu. Źródło [^7].  
 &lt;/figcaption&gt;
@@ -1023,7 +1023,7 @@
 &lt;p&gt;Zwalniacz hydrodynamiczny jest dobrze znany jako system hamulcowy w ciężkich pojazdach. Tak jak maszyna Joule’a, zamienia energię obrotową w ciepło bez udziału energii elektrycznej. Zwalniacze i mechaniczne pompy ciepła mają te same zalety co maszyny Joule’a - są znacznie mniejsze, lżejsze i tańsze od generatorów. Jednakże, aby uzyskać maksymalną wydajność należy zastosować w układzie skrzynię biegów.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/direct-versus-indirect-heat-production_dithered.png&#34; alt=&#39;Porównanie różnych typów bezpośredniej i pośredniej produkcji ciepła. Żródła [^15].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/direct-versus-indirect-heat-production_dithered.png&#34; alt=&#39;Porównanie różnych typów bezpośredniej i pośredniej produkcji ciepła. Żródła [^15].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Porównanie różnych typów bezpośredniej i pośredniej produkcji ciepła. Żródła [^15].  
 &lt;/figcaption&gt;
@@ -1036,7 +1036,7 @@
 &lt;p&gt;Dla pojedyńczego domostwa bezpośrednie sprzężenie mechanicznego wiatraka  z mechanicza pompą ciepła jest najtańszym rozwiazaniem. Połączenie turbiny wiatrowej z kotłem elektrycznym jest trzykrotnie droższe. Wszystkie pozostałe technologie plasują się gdzieś pomiędzy. Biorąc pod uwagą koszty inwestycyjne, operacyjne i wydajność małych wiatraków (rocznie wytwarzają one od około 12 do 22% maksymalnej mocy wyjściowej), połączenie małego wiatraka z mechaniczną pompą ciepła jest tańsze lub równie drogie jak użycie kotła gazowego.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/thermal-windmill3_dithered.png&#34; alt=&#39;Zdjęcie: Wiatrak z hamulcem wodnym opracowany przez O. Halgesona (po lewej), hamulec wodny z systemem zmiennego obciążenia (po prawej). Zdjęcie pochodzi z &amp;amp;quot;Testów pracy wiatraka z hamulcem wodnym przy bardzo dużej prędkości wiatru&amp;amp;quot;, O. Helgason i A.S. Sigurdson. Instytut Nauki, Uniwersytet Islandzki. Źródło: [^7].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/thermal-windmill3_dithered.png&#34; alt=&#39;Zdjęcie: Wiatrak z hamulcem wodnym opracowany przez O. Halgesona (po lewej), hamulec wodny z systemem zmiennego obciążenia (po prawej). Zdjęcie pochodzi z &amp;amp;quot;Testów pracy wiatraka z hamulcem wodnym przy bardzo dużej prędkości wiatru&amp;amp;quot;, O. Helgason i A.S. Sigurdson. Instytut Nauki, Uniwersytet Islandzki. Źródło: [^7].&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Wiatrak z hamulcem wodnym opracowany przez O. Halgesona (po lewej), hamulec wodny z systemem zmiennego obciążenia (po prawej). Zdjęcie pochodzi z \&#34;Testów pracy wiatraka z hamulcem wodnym przy bardzo dużej prędkości wiatru\&#34;, O. Helgason i A.S. Sigurdson. Instytut Nauki, Uniwersytet Islandzki. Źródło: [^7].  
 &lt;/figcaption&gt;
@@ -1051,14 +1051,14 @@
 &lt;p&gt;Wiatraki generujace ciepło testowane są rówenież pod kątem produkcji odnawialnej energii elektrycznej, ponieważ oferują lepsze rozwiązania magazynowania energii w porównaniu do baterii czy innych popularnych technologii. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;. W takich systemach, wyprodukowane ciepło jest zamieniane na prąd elektryczyczny za pomocą turbin parowych. System magazynowania energii jest zbliżony do tych używanych elektrowniach skoncentrowanej energii słonecznej (ang. concentrated solar power plant, skrót CSP), tylko że wiatraki zastępują kolektory słoneczne.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/eddy-current-heater-sobor_dithered.png&#34; alt=&#39;[Ilustration nr 10]. &amp;amp;quot;Grzejnik wiroprądowy&amp;amp;quot;. Źródło: [^9]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2019/02/heat-your-house-with-a-mechanical-windmill/images/dithers/eddy-current-heater-sobor_dithered.png&#34; alt=&#39;[Ilustration nr 10]. &amp;amp;quot;Grzejnik wiroprądowy&amp;amp;quot;. Źródło: [^9]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  [Ilustration nr 10]. \&#34;Grzejnik wiroprądowy\&#34;. Źródło: [^9] 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Ponieważ turbina parowa potrzebuje wysokiej temperatury do wytworzenia prądu, nie jest możliwe użycie ani maszyny Joule’a, ani zwalniaczy hydrodynamicznych. Należy zastosować inny typ zwalniacza nazywany &amp;ldquo;grzejnikiem wiroprądowym&amp;rdquo; (lub &amp;ldquo;grzejnikiem indukcyjnym). Magnes umieszczony na wale obraca się wewnątrz cewki wypełnionej wodą. Indukowany przez magnes prąd elektryczny ogrzewa wodę w cewce, nawet do temperatury 600&amp;rsquo;C. Zastosowanie takiego rozwiązania może zapewnić ciepło o wysokiej temperturze, czyniąc wiatraki w nie wyposażone użytecznymi dla przemysłu.&lt;/p&gt;
-&lt;p&gt;Jednak wykorzystanie wytworzonego i zmagazynowanego przez wiatraki ciepła do produkcji energii elektrycznej jest bardziej kosztowne i mniej zrównoważone niż bezpośrednie jego zużycie. Konwersja ciepła na prąd elektryczny jest wydajne w co najwyżej 30%, co oznacza że dwie trzecie energii wiatru jest marnowana w podczasz konwersji energii. To samo tyczy &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;się ciepła wytworzonego dzięki energii słonecznej&lt;/a&gt;. &lt;sup id=&#34;fnref3:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Jednak wykorzystanie wytworzonego i zmagazynowanego przez wiatraki ciepła do produkcji energii elektrycznej jest bardziej kosztowne i mniej zrównoważone niż bezpośrednie jego zużycie. Konwersja ciepła na prąd elektryczny jest wydajne w co najwyżej 30%, co oznacza że dwie trzecie energii wiatru jest marnowana w podczasz konwersji energii. To samo tyczy &lt;a href=&#34;/pl/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;się ciepła wytworzonego dzięki energii słonecznej&lt;/a&gt;. &lt;sup id=&#34;fnref3:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Bezpośrednia produkcja ciepła oferuje możliwość zaoszczędzenia trzykrotnie większej ilości emisji gazów cieplarnianych i paliw kopalnych, wykorzystując tę samą liczbę wiatraków. Wiatraki mechancznicze są dodatkowo tańsze i bardziej zrównoważone w budowie niż turbiny wiatrowe. Na szczęście bezpośrednia produckja ciepła otrzyma uwagą na jakie zasługuje. Chociaż klimat się ociepla to zapotrzebowania na energie cieplną jest wysokie jak nigdy dotąd.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
@@ -1070,7 +1070,7 @@
 &lt;p&gt;&lt;a href=&#34;https://www.grin.com/document/384572&#34;&gt;Integration of Thermal Energy Storage into Energy Network&lt;/a&gt;, Sharyar Ahmed, 2017&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;The bright future of solar thermal powered factories&lt;/a&gt;, Kris De Decker, Low-tech Magazine, 2011&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/pl/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;The bright future of solar thermal powered factories&lt;/a&gt;, Kris De Decker, Low-tech Magazine, 2011&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:4&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.iea-shc.org/Data/Sites/1/publications/Solar-Heat-Worldwide-2018.pdf&#34;&gt;Solar Heat Worldwide&lt;/a&gt;, edition 2018, International Energy Agency (IEA).&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;

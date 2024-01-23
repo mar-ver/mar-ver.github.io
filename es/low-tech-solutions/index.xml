@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>https://lowtechmag.gitlab.io/solar/es/low-tech-solutions/</link>
+    <link>/es/low-tech-solutions/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/es/low-tech-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/es/low-tech-solutions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Como diseñar un mercante a vela para el siglo 21?</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</link>
+      <link>/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png" type="image/png" length="48677" ></enclosure>
+      <enclosure url="/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png" type="image/png" length="48677" ></enclosure>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</guid>
+      <guid>/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png&#34; alt=&#39;En alta mar a boro del velero Garthsnaid. Vista desde la jarcia. Foto de Allan C. Green, alrededor de 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png&#34; alt=&#39;En alta mar a boro del velero Garthsnaid. Vista desde la jarcia. Foto de Allan C. Green, alrededor de 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  En alta mar a boro del velero *Garthsnaid*. Vista desde la jarcia. Foto de Allan C. Green, alrededor de 1920.  
 &lt;/figcaption&gt;
@@ -31,7 +31,7 @@
 &lt;p&gt;Desde entonces otros se han unido a la actividad del transporte a vela. En 2016 la compañía alemana &lt;a href=&#34;https://timbercoast.com/en/&#34;&gt;Timbercoast&lt;/a&gt; empezó a enviar carga con el &lt;em&gt;Avontuur&lt;/em&gt;, un buque construido en 1920. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; En 2017, la francesa &lt;a href=&#34;https://blueschoonercompany.com/en/home/&#34;&gt;Blue Schooner Company&lt;/a&gt; empezó a transportar mercancías entre Europa y América con el &lt;em&gt;Gallant&lt;/em&gt;, un velero construido en 1916. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Todos estos barcos a vela fueron construidos en los siglos diecinueve o veinte y restaurados en una fecha posterior. Sin embargo, un renacimiento de la marina a vela no puede basarse sólo en veleros históricos, porque no hay suficientes. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/clipper-ship-noach_dithered.png&#34; alt=&#39;El Noach, construido en 1857.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/clipper-ship-noach_dithered.png&#34; alt=&#39;El Noach, construido en 1857.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  El Noach, construido en 1857. 
 &lt;/figcaption&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;Estos dos barcos – uno en construcción y otro en fase de diseño – tienen el potencial de hacer el transporte marítimo mucho más económico de lo que es hoy en día. Esto es porque tienen mucha más capacidad de carga que los buques a vela que están operando actualmente. Un barco un poco más grande aumenta su capacidad de carga más que proporcionalmente.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/ecoclipper-prototype500-colour_dithered.png&#34; alt=&#39;El EcoClipper500 es una réplica a tamaño real del Noach.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/ecoclipper-prototype500-colour_dithered.png&#34; alt=&#39;El EcoClipper500 es una réplica a tamaño real del Noach.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  El EcoClipper500 es una réplica a tamaño real del Noach. 
 &lt;/figcaption&gt;
@@ -59,7 +59,7 @@
 &lt;p&gt;Si estas 1.200 toneladas de emisiones fueran distribuidas durante un ciclo de vida estimado en 50 años, entonces el &lt;em&gt;EcoClipper500&lt;/em&gt; tendría una huella de carbono de unos 2 gramos de CO2 por tonelada-kilómetro de carga, concluye el investigador Andrew Simons, quien ha hecho el cálculo del ciclo de vida del barco. Esto es aproximadamente cinco veces menos que la huella de carbono de un portacontenedores convencional (10 gramos de CO2/tonelada-kilómetro) y tres veces menos que la huella de carbono de un carguero (6 gramos de CO2/tonelada_kilómetro). &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_looking_aft_from_aloft_on_the_deck_while_at_anchor_dithered.png&#34; alt=&#39;Mirando a popa desde la arboladura del &amp;amp;lsquo;Parma&amp;amp;rsquo; en fondeo. Alan Villiers, 1932-33. El trabajo de Villiers recoge con fidelidad el periodo marítimo histórico del inicio del siglo 20, cuando los veleros mercantes o Grandes Veleros estaban en rápida desaparición.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_looking_aft_from_aloft_on_the_deck_while_at_anchor_dithered.png&#34; alt=&#39;Mirando a popa desde la arboladura del &amp;amp;lsquo;Parma&amp;amp;rsquo; en fondeo. Alan Villiers, 1932-33. El trabajo de Villiers recoge con fidelidad el periodo marítimo histórico del inicio del siglo 20, cuando los veleros mercantes o Grandes Veleros estaban en rápida desaparición.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Mirando a popa desde la arboladura del &#39;Parma&#39; en fondeo. Alan Villiers, 1932-33. El trabajo de Villiers recoge con fidelidad el periodo marítimo histórico del inicio del siglo 20, cuando los veleros mercantes o Grandes Veleros estaban en rápida desaparición. 
 &lt;/figcaption&gt;
@@ -74,7 +74,7 @@
 &lt;p&gt;Un posible compromiso sería una construcción híbrida, en la que un esqueleto de acero es recubierto en un fondo, costados y cubierta de madera. Andrew Simons: “Esto reduciría la huella de carbono de la construcción a la mitad. También sería posible hacer las superestructuras y algunas de las secciones de los mástiles y arboladura en madera en lugar de acero.”&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_driving_sprays_over_the_main_deck_dithered.png&#34; alt=&#39;Rociones sobre la cubierta principal del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_driving_sprays_over_the_main_deck_dithered.png&#34; alt=&#39;Rociones sobre la cubierta principal del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Rociones sobre la cubierta principal del &#39;Parma&#39;. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -87,14 +87,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;La huella de carbono de los pasajeros asciende a 10 g por pasajero-km, comparado con los aproximadamente 100 g por pasajero-km en un avión.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;En consecuencia, y &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/06/life-without-airplanes-from-london-to-new-york-in-3-days-and-12-hours/&#34;&gt;como los transatlánticos han desaparecido&lt;/a&gt;, el &lt;em&gt;EcoClipper500&lt;/em&gt; también se convierte en una alternativa al avión. Según los resultados del estudio del ciclo de vida, la huella de carbono de los pasajeros en el &lt;em&gt;EcoClipper500&lt;/em&gt; ascendría a 10 gramos por pasajero-kilómetro, comparado con los aproximadamente 100 gramos por pasajero-kilómetro en un avión. Transportar un pasajero produce las mismas emisiones de carbono que llevar una tonelada de carga.&lt;/p&gt;
+&lt;p&gt;En consecuencia, y &lt;a href=&#34;/2008/06/life-without-airplanes-from-london-to-new-york-in-3-days-and-12-hours/&#34;&gt;como los transatlánticos han desaparecido&lt;/a&gt;, el &lt;em&gt;EcoClipper500&lt;/em&gt; también se convierte en una alternativa al avión. Según los resultados del estudio del ciclo de vida, la huella de carbono de los pasajeros en el &lt;em&gt;EcoClipper500&lt;/em&gt; ascendría a 10 gramos por pasajero-kilómetro, comparado con los aproximadamente 100 gramos por pasajero-kilómetro en un avión. Transportar un pasajero produce las mismas emisiones de carbono que llevar una tonelada de carga.&lt;/p&gt;
 &lt;h2 id=&#34;motor-o-no&#34;&gt;¿Motor o no?&lt;/h2&gt;
 &lt;p&gt;Muy importante: el estudio del ciclo de vida del &lt;em&gt;EcoClipper500&lt;/em&gt; asume que no lleva motor diesel a bordo. En un velero, el motor diesel puede servir para dos cosas, que se pueden combinar. Primero, permite propulsar el barco cuando no hay viento o las velas no se pueden emplear, por ejemplo entrando o saliendo de puerto. Segundo, combinado con un alternador, un motor diesel puede producir electricidad para las necesidades de a bordo.&lt;/p&gt;
 &lt;p&gt;A lo largo de la historia el consumo de energía a bordo de un velero no era muy problemático. Había lumbre de leña para cocinar y calentarse y había velas y lámparas de aceite para la iluminación. No había neveras para conservar los alimentos, no había duchas ni lavadoras o lavaplatos, ni instrumentos electrónicos para la navegación o las comunicaciones ni bombas eléctricas para emplear en caso de vías de agua o fuego a bordo.&lt;/p&gt;
 &lt;p&gt;Sin embargo, hoy en día tenemos estándares más altos en seguridad, salud, higiene, confort térmico y comodidades. El problema es que estos elevados estándares son más difíciles de conseguir cuando el barco no cuenta con un motor que consume combustibles fósiles. Los sistemas  modernos de calefacción, de cocina, calentadores de agua, neveras, congeladores, iluminación, equipo de seguridad e instrumentos electrónicos, todos necesitan energía para funcionar.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crewman_with_his_model_of_the_%27Parma%27_dithered.png&#34; alt=&#39;Tripulante del &amp;amp;lsquo;Parma&amp;amp;rsquo; con un modelo de su barco. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crewman_with_his_model_of_the_%27Parma%27_dithered.png&#34; alt=&#39;Tripulante del &amp;amp;lsquo;Parma&amp;amp;rsquo; con un modelo de su barco. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Tripulante del &#39;Parma&#39; con un modelo de su barco. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -106,11 +106,11 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Obviamente, las emisiones y otros contaminantes de estos motores tienen que tenerse en cuenta cuando se calcula la huella ecológica de un viaje a vela. Dependiendo de la forma de vida de la gente a bordo, las emisiones por pasajero-kilómetro pueden llegar o incluso superar el nivel de un avión. Hasta cierto punto, el consumo eléctrico a bordo también aumenta las emisiones de la carga transportada.&lt;/p&gt;
 &lt;h2 id=&#34;consumo-de-energía-a-bordo-de-un-velero&#34;&gt;Consumo de energía a bordo de un velero&lt;/h2&gt;
-&lt;p&gt;El &lt;em&gt;EcoClipper500&lt;/em&gt; no tiene motor diesel a bordo, lo que es una segunda razón por la que interesarnos por este barco. Obviamente, un velero sin motor no puede continuar su viaje cuando no hay viento. Esto se puede &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;fácilmente resolver “a la antigua”&lt;/a&gt;: el &lt;em&gt;EcoClipper500&lt;/em&gt; se queda parado hasta que el viento vuelve. Un barco sin motor también necesita remolcadores – que normalmente consumen combustibles fósiles – para entrar y salir de los puertos. En el &lt;em&gt;EcoClipper500&lt;/em&gt;, estos servicios de remolcadores suponen 0.3 g/tkm de la huella total de carbono de 2 g/tkm.&lt;/p&gt;
+&lt;p&gt;El &lt;em&gt;EcoClipper500&lt;/em&gt; no tiene motor diesel a bordo, lo que es una segunda razón por la que interesarnos por este barco. Obviamente, un velero sin motor no puede continuar su viaje cuando no hay viento. Esto se puede &lt;a href=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;fácilmente resolver “a la antigua”&lt;/a&gt;: el &lt;em&gt;EcoClipper500&lt;/em&gt; se queda parado hasta que el viento vuelve. Un barco sin motor también necesita remolcadores – que normalmente consumen combustibles fósiles – para entrar y salir de los puertos. En el &lt;em&gt;EcoClipper500&lt;/em&gt;, estos servicios de remolcadores suponen 0.3 g/tkm de la huella total de carbono de 2 g/tkm.&lt;/p&gt;
 &lt;p&gt;Sin un motor diesel, el barco tiene que generar toda la energía que se necesita a bordo de fuentes de energía locales, y esta es la parte difícil. La energía renovable es intermitente y tiene baja densidad energética comparada con los combustibles fósiles, lo que implica que se necesita más espacio para generar una cantidad de energía dada, cosa aún más problemática en el mar que en tierra.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_--_renewing_caulking_on_the_poop_dithered.png&#34; alt=&#39;Renovando el calafateado en la popa del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_--_renewing_caulking_on_the_poop_dithered.png&#34; alt=&#39;Renovando el calafateado en la popa del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Renovando el calafateado en la popa del &#39;Parma&#39;. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -126,7 +126,7 @@
 &lt;p&gt;El hidrogenerador es la única fuente de energía renovable que puede proporcionar a un gran buque la suficiente electricidad como para emplear tecnología moderna a bordo. Los hidrogeneradores se montan bajo el casco y funcionan en el sentido opuesto a las hélices del motor. En lugar de que la hélice haga moverse al barco, el movimiento del barco hace girar la hélice que mueve un generador que produce electricidad. A pesar de su nombre y aspecto el hidrogenerador es una fuente de energía eólica: las velas mueven las hélices. Obviamente esto sólo es posible cuando el barco navega a suficiente velocidad.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_furling_sail_on_the_main_yard_dithered.png&#34; alt=&#39;Recogiendo vela en la verga de mayor del Parma. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_furling_sail_on_the_main_yard_dithered.png&#34; alt=&#39;Recogiendo vela en la verga de mayor del Parma. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Recogiendo vela en la verga de mayor del Parma. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -144,7 +144,7 @@
 &lt;p&gt;Para cubrir las necesidades de tres días flotando en aguas frías, se requeriría un almacenaje de energía de 150 kwh, sin contar con las pérdidas de la carga y la descarga. Cinco o siete días de consumo a bordo requerirían entre 250 y 350 kwh de almacenamiento. Para emergencias se necesitarían otros 25 kwh de energía almacenada.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_scraping_the_deck_dithered.png&#34; alt=&#39;Baldeando la cubierta del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_scraping_the_deck_dithered.png&#34; alt=&#39;Baldeando la cubierta del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Baldeando la cubierta del &#39;Parma&#39;. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -157,7 +157,7 @@
 &lt;p&gt;Hay otra fuente y almacenamiento de energía renovable a bordo del &lt;em&gt;EcoClipper&lt;/em&gt; y son los mismos humanos. Como la estufa de pellets y el biodigestor, el uso de energía humana podría reducir la necesidad de electricidad. Tanto los mercantes de hoy en día como los grandes veleros mueven eléctrica o hidráulicamente molinetes, bombas y el sistema de gobierno, ahorrando mano de obra a cambio de un mayor uso de energía. En contraste el &lt;em&gt;EcoClipper&lt;/em&gt; apuesta lo más posible por el accionamiento manual  de estos mecanismos&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crew_at_the_capstan_weighing_anchor_dithered.png&#34; alt=&#39;La tripulción del Parma levando el ancla. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crew_at_the_capstan_weighing_anchor_dithered.png&#34; alt=&#39;La tripulción del Parma levando el ancla. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La tripulción del Parma levando el ancla. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -166,11 +166,11 @@
 &lt;p&gt;Simons y Langelaan también están considerando instalar unas cuantas máquinas de remo conectadas a generadores para producir energía en caso de emergencia. Dos máquinas de remo podrían producir 400 vatios de energía. Si se mantienen funcionando permanentemente en turnos, podrían proveer unos 9.6kwh de energía al día (ignorando pérdidas energéticas del sistema), una quinta parte del consumo máximo diario de electricidad.&lt;/p&gt;
 &lt;p&gt;De hecho, como les digo a Simons y Langelaan diez máquinas de remo funcionando permanentemente en turnos proveerían tanta energía como los hidrogeneradores navegando a una velocidad de 7.5 nudos. Si hay 60 personas a bordo y todos generasen energía menos de una hora al día, ni siquiera se necesitarían baterías ni hidrogeneradores. “Interesante reflexión” responde Simons “pero ¿qué impresión transmitiríamos?”&lt;/p&gt;
 &lt;h2 id=&#34;duchas-calientes&#34;&gt;¿Duchas calientes?&lt;/h2&gt;
-&lt;p&gt;Incluso contando con el biodigestor, los hidrogeneradores, baterías y las máquinas de remo los pasajeros y tripulantes del &lt;em&gt;EcoClipper&lt;/em&gt; no disfrutarían de muchos lujos y a algunos podría faltarles comodidades. Por ejemplo si las 60 personas a bordo del barco se dan una ducha diaria de agua caliente – &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/&#34;&gt;lo que requiere una media de 2,1kwh de energía y 76.5 litros de agua cuando se hace en tierra&lt;/a&gt;- el consumo energético diario sería de 126 kwh, más del doble que la energía que el barco es capaz de producir a 7.5 nudos de velocidad.&lt;/p&gt;
+&lt;p&gt;Incluso contando con el biodigestor, los hidrogeneradores, baterías y las máquinas de remo los pasajeros y tripulantes del &lt;em&gt;EcoClipper&lt;/em&gt; no disfrutarían de muchos lujos y a algunos podría faltarles comodidades. Por ejemplo si las 60 personas a bordo del barco se dan una ducha diaria de agua caliente – &lt;a href=&#34;/es/2019/10/mist-showers-sustainable-decadence/&#34;&gt;lo que requiere una media de 2,1kwh de energía y 76.5 litros de agua cuando se hace en tierra&lt;/a&gt;- el consumo energético diario sería de 126 kwh, más del doble que la energía que el barco es capaz de producir a 7.5 nudos de velocidad.&lt;/p&gt;
 &lt;p&gt;El barco podría generar esta energía navegando más rápido, pero además se necesitarían 4.590 litros de agua al día que sólo se podrían producir potabilizando el agua del mar – un proceso que requiere muchísima energía. Incluso una tripulación de 12 personas dándose una ducha diaria significaría 25.2kw de energía diaria, la mitad de lo que producen los hidrogeneradores a una velocidad de 7.5 nudos. El &lt;em&gt;Bark Europa&lt;/em&gt; es el único velero mencionado en este artículo que cuenta con duchas calientes en cada camarote (compartido), pero también es el barco con los generadores más grandes y el mayor uso de combustible fósil.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_on_the_forecastle_in_fine_weather_dithered.png&#34; alt=&#39;En el castillo de proa del Parma con buen tiempo. Image by Alan Villiers, 1932.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_on_the_forecastle_in_fine_weather_dithered.png&#34; alt=&#39;En el castillo de proa del Parma con buen tiempo. Image by Alan Villiers, 1932.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  En el castillo de proa del Parma con buen tiempo. Image by Alan Villiers, 1932. 
 &lt;/figcaption&gt;
@@ -184,7 +184,7 @@
 &lt;p&gt;Si redujesemos el tráfico de mercancias marítimas más de cinco veces y el de pasajeros más de diez veces, entonces las emisiones de todos los portacontenedores y aviones serían menores que las de todos los buques a vela que transportasen 11.2 billones de toneladas de carga y 4.5 billones de pasajeros. Y al contrario: si nos pasamos a buques a vela pero seguimos transportando más y más mercancías y pasajeros por todo el planeta, llegaremos a producir tantas emisiones como hacemos hoy con el transporte alimentado por combustibles fósiles.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Grace_Harwar_-_the_mizzen_of_the_ship;_view_aft_from_the_main_crosstrees_dithered.png&#34; alt=&#39;La mesana del &amp;amp;lsquo;Grace Harwar&amp;amp;rsquo;; mirando a popa desde las vergas de mayor. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Grace_Harwar_-_the_mizzen_of_the_ship;_view_aft_from_the_main_crosstrees_dithered.png&#34; alt=&#39;La mesana del &amp;amp;lsquo;Grace Harwar&amp;amp;rsquo;; mirando a popa desde las vergas de mayor. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La mesana del &#39;Grace Harwar&#39;; mirando a popa desde las vergas de mayor. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -235,28 +235,28 @@
     
     <item>
       <title>Cocinas termoeléctricas: es hora de descartar los paneles solares?</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
+      <link>/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
+      <enclosure url="/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
+      <guid>/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Si &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2019/12/too-much-combustion-too-little-fire/&#34;&gt;los molinos de viento de 2.000 años de antigüedad son los predecesores de las turbinas de viento modernas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si &lt;a href=&#34;/es/2019/12/too-much-combustion-too-little-fire/&#34;&gt;los molinos de viento de 2.000 años de antigüedad son los predecesores de las turbinas de viento modernas&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;La fotosíntesis también nos ha proporcionado todo tipo de energía mecánica a lo largo de la historia: nos ha provisto de combustible tanto para humanos como para animales, y de materiales de construcción para molinos de viento y agua. Ni los antiguos molinos de viento ni las antiguas cocinas a leña proveen electricidad, pero ambos pueden ser adaptados para hacerlo: basta con conectar un generador eléctrico al molino, y uno termoeléctrico a la cocina.&lt;/p&gt;
 &lt;h2 id=&#34;generadores-termoeléctricos&#34;&gt;Generadores Termoeléctricos&lt;/h2&gt;
 &lt;p&gt;Los generadores termoeléctricos (o “GTES”) son muy similares a los generadores “fotoeléctricos” – llamados hoy en día generadores “fotovoltaico”, o celdas solares FV: un generador fotovoltaico convierte luz directamente en electricidad, y un generador termoeléctrico convierte calor directamente en electricidad. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Un generador termoeléctrico consiste en uno o más lingotes de elementos semiconductores conectados en serie con planchas de metal, intercalados entre dos placas de material eléctricamente aislante, pero térmicamente conductor, formando un módulo muy compacto. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Pueden adquirirse de varios fabricantes, como Hi-Z, Tellurex, Thermalforce o Thermomanic.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un módulo termoeléctrico. Imagen: Gerardtv (CC BY-SA 3.0) 
 &lt;/figcaption&gt;
@@ -264,14 +264,14 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen usada con permiso, Applied Thermoelectric Solutions LLC, Cómo funciona un generador termoeléctrico.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen usada con permiso, Applied Thermoelectric Solutions LLC, Cómo funciona un generador termoeléctrico.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un módulo termoeléctrico. Imagen usada con permiso, Applied Thermoelectric Solutions LLC, [Cómo funciona un generador termoeléctrico](https://thermoelectricsolutions.com/how-thermoelectric-generators-work/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Si uno adhiere un módulo termoeléctrico a la superficie de una cocina a leña, producirá electricidad cuando la cocina se use para cocinar, calefaccionar o calentar agua. A lo largo de varios experimentos y prototipos descriptos en mayor detalle más adelante, la potencia generada por cada módulo ha sido de entre 3 y 19 watts.&lt;/p&gt;
-&lt;p&gt;Al igual que con los paneles solares, los módulos pueden conectarse unos a otros en paralelo o serie, con el fin de obtener el voltaje y potencia que uno necesite – al menos mientras haya espacio disponible en la superficie de la cocina. Al igual que con los paneles solares, la corriente eléctrica que producen los módulos puede ser regulada por un controlador de carga y almacenada en una batería, para ser consumida inclusive cuando la cocina no se encuentra en uso. Una cocina termoeléctrica se combina habitualmente con dispositivos de &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;corriente directa y poco voltaje&lt;/a&gt;, evitando pérdidas por conversión.&lt;/p&gt;
+&lt;p&gt;Al igual que con los paneles solares, los módulos pueden conectarse unos a otros en paralelo o serie, con el fin de obtener el voltaje y potencia que uno necesite – al menos mientras haya espacio disponible en la superficie de la cocina. Al igual que con los paneles solares, la corriente eléctrica que producen los módulos puede ser regulada por un controlador de carga y almacenada en una batería, para ser consumida inclusive cuando la cocina no se encuentra en uso. Una cocina termoeléctrica se combina habitualmente con dispositivos de &lt;a href=&#34;/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;corriente directa y poco voltaje&lt;/a&gt;, evitando pérdidas por conversión.&lt;/p&gt;
 &lt;p&gt;Las cocinas termoeléctricas podrían ser usadas en muchas partes del mundo. Las investigaciones se enfocan principalmente en el “Sur Global”, donde cerca de 3.000 millones de personas (40% de la población mundial) dependen de quemar biomasa para cocinar y calentar agua. Algunos de estos hogares también usan cocinas u hogueras para iluminación (1.300 millones de personas no tienen acceso a electricidad) y para calefacción durante partes del año. Sin embargo, también hay investigaciones sobre su uso en hogares en sociedades industriales, donde las cocinas a biomasa y hornallas han aumentado en popularidad, sobre todo fuera de las ciudades.&lt;/p&gt;
 &lt;h2 id=&#34;100-eficiente&#34;&gt;100% Eficiente&lt;/h2&gt;
 &lt;p&gt;Desde que Thomas Seebeck describió el efecto termoeléctrico por primera vez, en 1821, los generadores termoeléctricos han sido famosos por su baja eficiencia al convertir calor en electricidad. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Hoy en día, la eficiencia de los módulos termoeléctricos es de tan solo 5 a 6%, aproximadamente tres veces menor que la de los paneles FV más usados. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -282,7 +282,7 @@
 &lt;p&gt;Aunque la cocina se use únicamente para cocinar y calentar agua, estas tareas cotidianas garantizan de todas formas una fuente constante de energía sin importar el clima. Además, la producción de energía de una cocina termoeléctrica coincide con las demandas de energía de un hogar: por lo general, el mayor uso de electricidad se da al mismo tiempo que se usa la cocina. Los paneles solares, por otra parte, producen muy poca o ninguna electricidad en los momentos de mayor demanda hogareña.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico basado en una lámpara de querosén, alimentando una radio, 1959. Fuente: Museo de retro tecnología.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico basado en una lámpara de querosén, alimentando una radio, 1959. Fuente: Museo de retro tecnología.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Un generador termoeléctrico basado en una lámpara de querosén, alimentando una radio, 1959. Fuente: [Museo de retro tecnología](http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm).  
 &lt;/figcaption&gt;
@@ -305,16 +305,16 @@
 &lt;p&gt;Las primeras cocinas termoeléctricas a biomasa se fabricaron a principio de los años 2000, aunque los soviéticos habían probado un concepto similar en los años 50, usando linternas de querosén para alimentar radios eléctricas. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; En el 2004, un grupo de investigadores en el Líbano adaptaron una cocina de fundición de hierro a base de leña, típica en áreas rurales, con un módulo termoeléctrico de 56 x 56 mm que ellos mismos fabricaron. La cocina, usada tanto para cocinar y hornear, como para calefaccionar y calentar agua, era relativamente pequeña (52 x 44 x 29 cm) y pesaba 40 kg.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Imagen: La cocina de fundición de hierro usada en los experimentos. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Imagen: La cocina de fundición de hierro usada en los experimentos. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: La cocina de fundición de hierro usada en los experimentos. [^18] 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Los investigadores atornillaron una plancha de aluminio de 1 cm de grosor en el punto más caliente de la cocina. Instalaron ahí el módulo, y adosaron al lado frío un gran disipador de aluminio (180 x 136 x 125 mm) con aletas. Quemando 2,5 kg de madera blanda de pino por hora, lograron una potencia de salida de 4,2 watts. Si la cocina se usara durante 10 horas al día (dejando de lado la fase inicial de entrada en calor), podría proveer de 42 watt-hora de electricidad, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/01/how-much-energy-do-we-need/&#34;&gt;suficiente para cubrir las necesidades básicas&lt;/a&gt; de un hogar rural en el Líbano.&lt;/p&gt;
+&lt;p&gt;Los investigadores atornillaron una plancha de aluminio de 1 cm de grosor en el punto más caliente de la cocina. Instalaron ahí el módulo, y adosaron al lado frío un gran disipador de aluminio (180 x 136 x 125 mm) con aletas. Quemando 2,5 kg de madera blanda de pino por hora, lograron una potencia de salida de 4,2 watts. Si la cocina se usara durante 10 horas al día (dejando de lado la fase inicial de entrada en calor), podría proveer de 42 watt-hora de electricidad, &lt;a href=&#34;/es/2018/01/how-much-energy-do-we-need/&#34;&gt;suficiente para cubrir las necesidades básicas&lt;/a&gt; de un hogar rural en el Líbano.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Imagen: Detalle de instalación del GTE y ubicación en la cocina. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Imagen: Detalle de instalación del GTE y ubicación en la cocina. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Detalle de instalación del GTE y ubicación en la cocina. [^18] 
 &lt;/figcaption&gt;
@@ -326,7 +326,7 @@
 &lt;p&gt;Un estudio de una cocina termoeléctrica, con un módulo y ventilación forzada, mostró que puede producir 4,5 watts de potencia, de los cuales 1 es consumido por el ventilador. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt; La producción neta (3,5 watts) es menor que en la cocina que solo usa un disipador (4,2 watts), pero la cocina con el ventilador consume menos de la mitad de leña: genera 3,5 watts netos de electricidad quemando solo 1 kg por hora, mientras que la cocina con refrigeración pasiva requiere 2,5 kg por hora para producir los 4,2 watts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Imagen: Cocina con GTE y ventilación forzada. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Imagen: Cocina con GTE y ventilación forzada. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Cocina con GTE y ventilación forzada. [^20]  
 &lt;/figcaption&gt;
@@ -338,7 +338,7 @@
 &lt;p&gt;Las cocinas termoeléctricas más eficientes son aquellas en las que el lado frío de los módulos se encuentra en contacto directo con un tanque de agua. El agua tiene una resistencia termal menor que el aire, por lo que refrigera más eficientemente. Además, la temperatura del agua no puede superar los 100 grados Celsius, lo que reduce la posibilidad de que un módulo falle por sobrecalentamiento.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Imagen: el funcionamiento de las cocinas termoeléctricas con refrigeración pasiva con agua. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Imagen: el funcionamiento de las cocinas termoeléctricas con refrigeración pasiva con agua. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: el funcionamiento de las cocinas termoeléctricas con refrigeración pasiva con agua. [^17] 
 &lt;/figcaption&gt;
@@ -348,7 +348,7 @@
 &lt;p&gt;La mayoría de las cocinas termoeléctricas con refrigeración pasiva a agua son pequeñas, y calientan cantidades reducidas de agua. De hecho, el módulo termoeléctrico suele adosarse a una pequeña cacerola, y no a la cocina. Un ejemplo es el PowerPot, una cacerola que se coloca directamente sobre la cocina y que tiene un módulo termoeléctrico adosado a su base. Se puede adquirir comercialmente, y supuestamente puede generar entre 5 y 10 watts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Imagen: cocina multifuncional a base de leña con refrigeración pasiva a agua. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Imagen: cocina multifuncional a base de leña con refrigeración pasiva a agua. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: cocina multifuncional a base de leña con refrigeración pasiva a agua. [^22] 
 &lt;/figcaption&gt;
@@ -360,21 +360,21 @@
 &lt;p&gt;La refrigeración pasiva a agua tiene una desventaja: a medida que la temperatura del agua aumenta, la diferencia de temperatura entre el lado frío y caliente del generador disminuye, y por lo tanto se vuelve menos eficiente. O bien se deja suficiente tiempo entre los usos de la cocina para que el agua se enfríe, o el agua caliente debe ser usada regularmente y reemplazada por agua fría. Una bomba de agua facilita esta tarea.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Imagen: Prototipo de una cocina termoeléctrica con módulos refrigerados a agua. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Imagen: Prototipo de una cocina termoeléctrica con módulos refrigerados a agua. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Prototipo de una cocina termoeléctrica con módulos refrigerados a agua. [^26] 
 &lt;/figcaption&gt;
@@ -385,7 +385,7 @@
 &lt;p&gt;Los generadores termoeléctricos con refrigeración forzada a agua se adaptan mejor a la infraestructura eléctrica de sociedades industrializadas, especialmente en hogares con sistemas de calefacción central. Agregándoles más módulos pueden suplir las necesidades de un estilo de vida con alto consumo eléctrico, pero no están faltos de obstáculos. Primero, los sistemas de calefacción centralizada se usan únicamente para calentar el ambiente y el agua, no para cocinar, lo que significa que su uso no es constante a lo largo del año. Segundo, solo algunos de tales sistemas quema biomasa o gránulos de madera; la mayoría usa gas, petróleo o electricidad.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototipo de un quemador termoeléctrico a gránulos de madera. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototipo de un quemador termoeléctrico a gránulos de madera. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Prototipo de un quemador termoeléctrico a gránulos de madera. [^30]  
 &lt;/figcaption&gt;
@@ -395,7 +395,7 @@
 &lt;p&gt;Sin embargo, cuando la fuente de energía es gas o petróleo, una caldera termoeléctrica es una solución tan baja en carbono como un sistema solar FV conectado a la red eléctrica. &lt;sup id=&#34;fnref:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt; Ni un sistema de calefacción termoeléctrico, ni uno solar FV conectado a la red, vuelven a un hogar independiente de combustibles fósiles. Ambos siguen dependiendo de la red eléctrica, mayormente alimentada por combustibles fósiles, para solucionar excesos y faltas de energía, y generalmente cuentan con un sistema de calefacción y agua caliente central, alimentado también por combustibles fósiles.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico de 1kW con refrigeración forzada a agua, para fuentes de energía termal de baja temperatura. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico de 1kW con refrigeración forzada a agua, para fuentes de energía termal de baja temperatura. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Un generador termoeléctrico de 1kW con refrigeración forzada a agua, para fuentes de energía termal de baja temperatura. [^31] 
 &lt;/figcaption&gt;
@@ -497,27 +497,27 @@
     
     <item>
       <title>¿Qué tan sostenible es un sitio web operado con energía solar?</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/</link>
+      <link>/es/2020/01/how-sustainable-is-a-solar-powered-website/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" type="image/png" length="10369" ></enclosure>
+      <enclosure url="/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" type="image/png" length="10369" ></enclosure>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/</guid>
+      <guid>/es/2020/01/how-sustainable-is-a-solar-powered-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
-&lt;p&gt;En septiembre de 2018, Low-tech Magazine &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/09/how-to-build-a-low-tech-website/&#34;&gt;lanzó un nuevo sitio web&lt;/a&gt; destinado a reducir radicalmente el uso de energía y las emisiones de carbono asociadas con el acceso a su contenido. El uso de energía relacionado al acceso a Internet está &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;creciendo rápidamente&lt;/a&gt; debido al aumento tanto en la tasa de bits (el contenido en línea cada vez se vuelve &amp;ldquo;más pesado&amp;rdquo;) como el aumento del tiempo de conexión (especialmente desde la llegada de la informática móvil y la conexión inalámbrica a Internet).&lt;/p&gt;
-&lt;p&gt;El sitio web operado con energía solar se opone a estas tendencias. Para reducir el uso de energía por debajo del consumo de un sitio web promedio, optamos por un diseño &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/about.html&#34;&gt;web sencillo y estático&lt;/a&gt; en lugar de un sistema de gestión de contenido operado desde una base de datos. Para reducir el uso de energía asociado con la producción del panel solar y la batería, elegimos una configuración mínima y aceptamos el hecho de que el sitio web se desconectaria cuando hace mal tiempo.&lt;/p&gt;
+&lt;p&gt;En septiembre de 2018, Low-tech Magazine &lt;a href=&#34;/es/2018/09/how-to-build-a-low-tech-website/&#34;&gt;lanzó un nuevo sitio web&lt;/a&gt; destinado a reducir radicalmente el uso de energía y las emisiones de carbono asociadas con el acceso a su contenido. El uso de energía relacionado al acceso a Internet está &lt;a href=&#34;/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;creciendo rápidamente&lt;/a&gt; debido al aumento tanto en la tasa de bits (el contenido en línea cada vez se vuelve &amp;ldquo;más pesado&amp;rdquo;) como el aumento del tiempo de conexión (especialmente desde la llegada de la informática móvil y la conexión inalámbrica a Internet).&lt;/p&gt;
+&lt;p&gt;El sitio web operado con energía solar se opone a estas tendencias. Para reducir el uso de energía por debajo del consumo de un sitio web promedio, optamos por un diseño &lt;a href=&#34;/es/about.html&#34;&gt;web sencillo y estático&lt;/a&gt; en lugar de un sistema de gestión de contenido operado desde una base de datos. Para reducir el uso de energía asociado con la producción del panel solar y la batería, elegimos una configuración mínima y aceptamos el hecho de que el sitio web se desconectaria cuando hace mal tiempo.&lt;/p&gt;
 &lt;p&gt;Hemos estado monitoreando el servidor solar durante 15 meses y hemos recopilado datos sobre el tiempo de actividad, el uso de energía, potencia, la eficiencia del sistema y el tráfico de visitantes. También calculamos cuánta energía se requeríria para fabricar el panel solar, la batería, el controlador de carga y el servidor.&lt;/p&gt;
 &lt;h2 id=&#34;tiempo-de-actividad-uso-de-electricidad-y-eficiencia-del-sistema&#34;&gt;Tiempo de actividad, uso de electricidad y eficiencia del sistema&lt;/h2&gt;
 &lt;p&gt;El sitio web solar se desconecta cuando hace mal tiempo, pero ¿con qué frecuencia sucede eso? Durante un período de aproximadamente un año (351 días, del 12 de diciembre de 2018 al 28 de noviembre de 2019), logramos un tiempo de actividad del 95.26%. Esto significa que estuvimos fuera de línea debido al mal tiempo durante 399 horas.&lt;/p&gt;
-&lt;p&gt;Si ignoramos los últimos dos meses, nuestro tiempo de actividad fue del 98.2%, con un tiempo de inactividad de tan solo 152 horas. El tiempo de actividad cayo en picado al 80% durante los últimos dos meses, debido a que una actualización de software &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/about.html&#34;&gt;aumentó el uso de energía del servidor&lt;/a&gt;. Esto interrumpió el sitio web, quitándolo de linea durante al menos unas horas cada noche.&lt;/p&gt;
+&lt;p&gt;Si ignoramos los últimos dos meses, nuestro tiempo de actividad fue del 98.2%, con un tiempo de inactividad de tan solo 152 horas. El tiempo de actividad cayo en picado al 80% durante los últimos dos meses, debido a que una actualización de software &lt;a href=&#34;/es/about.html&#34;&gt;aumentó el uso de energía del servidor&lt;/a&gt;. Esto interrumpió el sitio web, quitándolo de linea durante al menos unas horas cada noche.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Un kilovatio hora de electricidad generada por energía solar puede servir a casi 50,000 visitantes únicos.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -529,7 +529,7 @@
 &lt;p&gt;No existe tal omisión con un sitio web autohospedado impulsado por una instalación solar fotovoltaica fuera de red. El panel solar, la batería y el controlador de carga solar son partes igualmente esenciales de la instalación como el servidor mismo. La energía, el uso para la extracción de los recursos y la fabricación de estos componentes, la &amp;ldquo;energía incorporada&amp;rdquo;, también deben ser tomadas en cuenta.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png&#34; alt=&#39;Una representación simple de nuestro sistema. La conversión de voltaje (entre el controlador de carga de 12 V y el servidor de 5 V) y el medidor de batería (entre el servidor y la batería) no se muestran en la ilustracion.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png&#34; alt=&#39;Una representación simple de nuestro sistema. La conversión de voltaje (entre el controlador de carga de 12 V y el servidor de 5 V) y el medidor de batería (entre el servidor y la batería) no se muestran en la ilustracion.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Una representación simple de nuestro sistema. La conversión de voltaje (entre el controlador de carga de 12 V y el servidor de 5 V) y el medidor de batería (entre el servidor y la batería) no se muestran en la ilustracion. 
 &lt;/figcaption&gt;
@@ -543,14 +543,14 @@
 &lt;p&gt;Para encontrar el equilibrio óptimo, manejamos nuestro sistema con diferentes combinaciones de paneles solares y baterías. El tiempo de actividad y la energía incorporada también están determinados por las condiciones climáticas locales, por lo que los resultados que aquí presenataremos solo son válidos para nuestra ubicación especifica (el balcón de la casa del autor cerca de Barcelona, España).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;Diferentes tamaños de paneles solares y baterías. Ilustración: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;Diferentes tamaños de paneles solares y baterías. Ilustración: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Diferentes tamaños de paneles solares y baterías. Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/) 
 &lt;/figcaption&gt;
@@ -914,7 +914,7 @@ autohospedada similar que se ejecuta en la red. Esto nos permite evaluar la (des
 &lt;p&gt;Alojar la revista Low-tech con energía solar durante un año ha producido tantas emisiones como una distancia promedio de conducción de de 50 km.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Por lo tanto, adoptamos otro enfoque: convertimos la energía incorporada de nuestros componentes en litros de aceite (1 litro o aceite es 10 kWh de energía
-primaria) y calculamos el resultado en función de las emisiones de CO2 del petróleo (1 litro de aceite produce 3 kg) de gases de efecto invernadero, incluida su extracción y refinación). Esto tiene en cuenta que la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;mayoría de los paneles solares y baterías ahora se producen en China&lt;/a&gt;, donde la red eléctrica es tres veces más intensiva en carbono y 50% menos eficiente en energía que en Europa. &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+primaria) y calculamos el resultado en función de las emisiones de CO2 del petróleo (1 litro de aceite produce 3 kg) de gases de efecto invernadero, incluida su extracción y refinación). Esto tiene en cuenta que la &lt;a href=&#34;/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;mayoría de los paneles solares y baterías ahora se producen en China&lt;/a&gt;, donde la red eléctrica es tres veces más intensiva en carbono y 50% menos eficiente en energía que en Europa. &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Esto significa que el uso de combustibles fósiles asociado con el funcionamiento de la revista Low-tech solar durante el primer año (panel de 50W, batería de 86.4 Wh) corresponde a 3 litros de aceite y 9 kg de emisiones de carbono, tanto como un automóvil europeo promedio que conduce un distancia de 50 km. A continuación se muestran los resultados para las otras configuraciones:&lt;/p&gt;
 &lt;h3 id=&#34;energía-incorporada-en-su-equivalente-en-petróleo-l--año-y-emisiones-de-co-2-kg--año-de-las-diferentes-configuraciones&#34;&gt;Energía incorporada en su equivalente en petróleo (L / año) y emisiones de CO 2 (kg / año) de las diferentes configuraciones&lt;/h3&gt;
 &lt;table&gt;
@@ -1008,12 +1008,12 @@ vatios. La ganancia puede parecer pequeña, pero una diferencia en el uso de ene
 &lt;p&gt;La eficiencia del sistema fue solo del 50% durante el primer año. Se experimentaron pérdidas de energía durante la carga y descarga de la batería
 (22%), así como en la conversión de voltaje de 12 V (sistema fotovoltaico solar) a 5 V (conexión USB), donde las pérdidas suman un 28%. El convertidor de voltaje inicial que construimos era bastante subóptimo (nuestro controlador de carga solar no tiene una conexión USB incorporada), por lo que podríamos &lt;a href=&#34;https://blog.yavilevich.com/2017/03/efficient-dc-12v-to-5v-conversion-for-low-power-electronics-evaluation-of-six-modules/&#34;&gt;construir uno mejor&lt;/a&gt;, o cambiar la configuración de PV solar a 5V.&lt;/p&gt;
 &lt;h2 id=&#34;almacenamiento-de-energía&#34;&gt;Almacenamiento de energía&lt;/h2&gt;
-&lt;p&gt;Para aumentar la eficiencia del almacenamiento de energía, podríamos reemplazar las baterías de plomo-ácido con baterías de iones de litio. Estas son más caras, pero tienen menores pérdidas de carga / descarga (&amp;lt;10%) y menor energía incorporada. Lo más probable es que eventualmente cambiemos a &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;un sistema de almacenamiento de energía de aire comprimido a pequeña escala&lt;/a&gt; (CAES). Aunque los sistemas CAES de baja presión tienen una eficiencia similar a las baterías de plomo-ácido, tienen una energía incorporada mucho menor debido a su larga vida útil (décadas en lugar de años).&lt;/p&gt;
+&lt;p&gt;Para aumentar la eficiencia del almacenamiento de energía, podríamos reemplazar las baterías de plomo-ácido con baterías de iones de litio. Estas son más caras, pero tienen menores pérdidas de carga / descarga (&amp;lt;10%) y menor energía incorporada. Lo más probable es que eventualmente cambiemos a &lt;a href=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;un sistema de almacenamiento de energía de aire comprimido a pequeña escala&lt;/a&gt; (CAES). Aunque los sistemas CAES de baja presión tienen una eficiencia similar a las baterías de plomo-ácido, tienen una energía incorporada mucho menor debido a su larga vida útil (décadas en lugar de años).&lt;/p&gt;
 &lt;h2 id=&#34;fuente-de-energía&#34;&gt;Fuente de energía&lt;/h2&gt;
 &lt;p&gt;Otra forma de reducir la energía incorporada es cambiar la fuente de energía
 renovable. La energía solar fotovoltaica tiene una alta energía incorporada en comparación con otras alternativas como la eólica, hidráulica o la energía
 humana. Estas fuentes de energía podrían cosecharse con poco más que un generador y un regulador de voltaje, ya que el resto de la planta de energía
-&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;podría construirse de madera&lt;/a&gt;. Además, un sitio web alimentado por agua no requeriría almacenamiento de energía de alta tecnología. Si se encuentra en un clima frío, se podría operar un sitio web al calor de una estufa de leña, utilizando un generador termoeléctrico.&lt;/p&gt;
+&lt;a href=&#34;/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;podría construirse de madera&lt;/a&gt;. Además, un sitio web alimentado por agua no requeriría almacenamiento de energía de alta tecnología. Si se encuentra en un clima frío, se podría operar un sitio web al calor de una estufa de leña, utilizando un generador termoeléctrico.&lt;/p&gt;
 &lt;h2 id=&#34;rastreador-solar&#34;&gt;Rastreador solar&lt;/h2&gt;
 &lt;p&gt;Teniendo un buen suministro de viento o agua se podría construir un sistema con menos energía incorporada que el nuestro. Sin embargo, a menos que el autor comience a alimentar su sitio web con energía de &lt;a href=&#34;https://www.humanpowerplant.be&#34;&gt;las manos o los pies&lt;/a&gt;, estamos prácticamente obligados a usar energía solar. La mejora más importante que podríamos hacer es agregar un rastreador solar que haga que el panel siga al sol, lo que podría aumentar la generación de electricidad hasta en un 30% y permitirnos obtener un mejor tiempo de actividad con un panel más pequeño.&lt;/p&gt;
 &lt;h2 id=&#34;ampliando-el-sistema&#34;&gt;Ampliando el sistema&lt;/h2&gt;
@@ -1021,7 +1021,7 @@ humana. Estas fuentes de energía podrían cosecharse con poco más que un gener
 ampliarlo: ejecutar más sitios web en un servidor y ejecutar más servidores (y más grandes) en un sistema solar fotovoltaico. Esta configuración tendría una energía incorporada mucho menor que un sistema de gran tamaño para cada sitio web.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
@@ -1031,12 +1031,12 @@ ampliarlo: ejecutar más sitios web en un servidor y ejecutar más servidores (y
 &lt;p&gt;Si tuviéramos que llenar el balcón del autor con paneles solares y comenzar una empresa de alojamiento web con energía solar, la energía incorporada por visitante único disminuiría significativamente. Solo necesitaríamos un servidor para múltiples sitios web y un controlador de carga solar para múltiples paneles solares. La conversión de voltaje sería más eficiente desde el punto de vista energético, y todos los sitios web podrían compartir la energía solar y de la batería, lo que genera economía de escala.&lt;/p&gt;
 &lt;p&gt;Por supuesto, este es mismo concepto de los centros de datos, y aunque no tenemos la ambición de iniciar un negocio así, otros podrían llevar esta idea hacia adelante: hacia un centro de datos que sea tan eficiente como cualquierotro centro de datos actual, pero que funciona con energías renovables y se desconecta cuando hace mal tiempo.&lt;/p&gt;
 &lt;h3 id=&#34;agregar-más-sitios-web&#34;&gt;Agregar más sitios web&lt;/h3&gt;
-&lt;p&gt;Descubrimos que la capacidad de nuestro servidor es lo suficientemente grande como para alojar más sitios web, por lo que ya hemos dado un pequeño paso hacia la economía de escala al trasladar las versiones en &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/&#34;&gt;español&lt;/a&gt; y &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/&#34;&gt;francés&lt;/a&gt; de Low-tech Magazine al servidor alimentado por energía solar (así como algunas otras traducciones).&lt;/p&gt;
+&lt;p&gt;Descubrimos que la capacidad de nuestro servidor es lo suficientemente grande como para alojar más sitios web, por lo que ya hemos dado un pequeño paso hacia la economía de escala al trasladar las versiones en &lt;a href=&#34;/es/&#34;&gt;español&lt;/a&gt; y &lt;a href=&#34;/fr/&#34;&gt;francés&lt;/a&gt; de Low-tech Magazine al servidor alimentado por energía solar (así como algunas otras traducciones).&lt;/p&gt;
 &lt;p&gt;Aunque este movimiento aumentará nuestro uso de energía operacional y potencialmente también nuestro uso de energía incorporada, también
 eliminamos otros sitios web que están o estaban alojados en otros lugares. También tenemos que tener en cuenta que la cantidad de visitantes únicos a la revista Low-Tech puede crecer en el futuro, por lo que debemos ser más
 eficientes energéticamente tan solo para mantener nuestra huella ambiental.&lt;/p&gt;
 &lt;h3 id=&#34;combinar-servidor-e-iluminación&#34;&gt;Combinar servidor e iluminación&lt;/h3&gt;
-&lt;p&gt;Otra forma de lograr economía de escala daría un giro completamente nuevo a la idea. El servidor alimentado por energía solar es parte del hogar del autor, que también está &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;parcialmente alimentado por energía solar fuera de la red&lt;/a&gt;. Podríamos probar diferentes tamaños de baterías y paneles solares, simplemente intercambiando componentes entre instalaciones solares.&lt;/p&gt;
+&lt;p&gt;Otra forma de lograr economía de escala daría un giro completamente nuevo a la idea. El servidor alimentado por energía solar es parte del hogar del autor, que también está &lt;a href=&#34;/es/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;parcialmente alimentado por energía solar fuera de la red&lt;/a&gt;. Podríamos probar diferentes tamaños de baterías y paneles solares, simplemente intercambiando componentes entre instalaciones solares.&lt;/p&gt;
 &lt;p&gt;Cuando estábamos ejecutando el servidor en el panel de 50 W, el autor estaba operando las luces en la sala de estar en un panel de 10 W, y a menudo se quedaba sentado en la oscuridad. Cuando estábamos operando el servidor en el panel de 10 W, era al revés: había más luz en el hogar, a expensas de un menor tiempo de actividad del servidor.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Si el clima empeora, el autor podría decidir no usar las luces y mantener el servidor en línea, o al revés&lt;/p&gt;
@@ -1047,18 +1047,18 @@ eficientes energéticamente tan solo para mantener nuestra huella ambiental.&lt;
 incorporada y la infraestructura de almacenamiento de energía. Sin embargo, este no es, por supuesto, el uso total de energía asociado con este sitio web.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;También existe la energía operacional e incorporada de la infraestructura de red (que incluye nuestro enrutador, la red troncal de Internet y la red de telefonía
-móvil), y la energía operacional e incorporada de los dispositivos que nuestros visitantes usan para acceder a nuestro sitio web: teléfonos inteligentes, tabletas, computadoras portátiles, computadoras de escritorio. Algunos de estos tienen un bajo uso de energía operativa, pero todos tienen una vida útil muy limitada y, por lo tanto, una &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;gran energía incorporada&lt;/a&gt;.&lt;/p&gt;
+móvil), y la energía operacional e incorporada de los dispositivos que nuestros visitantes usan para acceder a nuestro sitio web: teléfonos inteligentes, tabletas, computadoras portátiles, computadoras de escritorio. Algunos de estos tienen un bajo uso de energía operativa, pero todos tienen una vida útil muy limitada y, por lo tanto, una &lt;a href=&#34;/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;gran energía incorporada&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;El uso de energía en la red está directamente relacionado con la frecuencia de bits de los datos, por lo que nuestro sitio web, al ser tan livano, es igual de eficiente en las redes de comunicación como en nuestro servidor. Sin embargo, tenemos muy poca influencia sobre qué dispositivos utilizan las personas para acceder a nuestro sitio web, y la ventaja directa de nuestro diseño es mucho menor aquí que en la red. Por ejemplo, nuestro sitio web tiene el potencial de aumentar la esperanza de vida de las computadoras, ya que es lo suficientemente ligero como para acceder a él con máquinas muy antiguas. Desafortunadamente, nuestro sitio web no hará que las personas usen sus computadoras por más tiempo.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Tanto la infraestructura de red como los dispositivos de uso final podrían reimaginarse en línea con sitio web solar.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Dicho esto, tanto la infraestructura de red como los dispositivos de uso final podrían reimaginarse en línea con el sitio web solar, reducido y alimentado por fuentes de energía renovables con almacenamiento de energía limitado. Partes de la infraestructura de la red podrían desconectarse si el clima local es malo, y su correo electrónico puede almacenarse temporalmente en una tormenta a 3.000 km de distancia. Este tipo de infraestructura de red existe realmente en algunos países y ella fue la inspiración para la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/11/why-the-office-needs-a-typewriter-revolution/&#34;&gt;creación de este sitio web solar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dicho esto, tanto la infraestructura de red como los dispositivos de uso final podrían reimaginarse en línea con el sitio web solar, reducido y alimentado por fuentes de energía renovables con almacenamiento de energía limitado. Partes de la infraestructura de la red podrían desconectarse si el clima local es malo, y su correo electrónico puede almacenarse temporalmente en una tormenta a 3.000 km de distancia. Este tipo de infraestructura de red existe realmente en algunos países y ella fue la inspiración para la &lt;a href=&#34;/2016/11/why-the-office-needs-a-typewriter-revolution/&#34;&gt;creación de este sitio web solar&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Debido a que el uso total de energía del Internet generalmente se mide para que se distribuya aproximadamente por igual entre los servidores, la red y los dispositivos de uso final (todo incluyendo la fabricación de los dispositivos), podemos hacer una estimación aproximada del uso total de energía de este sitio web a través de un internet reimaginado. Para nuestra configuración original con un tiempo de actividad del 95.2%, esto sería 87.6 kWh de energía primaria, que corresponde a 9 litros de aceite y 27 kg de CO2. Las mejoras que describimos anteriormente podrían reducir aún más estos números, porque en este cálculo, todo el Internet funciona con sistemas solares fotovoltaicos de gran tamaño en balcones.&lt;/p&gt;
 &lt;p&gt;Gracias a Kathy Vanhout, Adriana Parra y Gauthier Roussilhe.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

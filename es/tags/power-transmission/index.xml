@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>https://lowtechmag.gitlab.io/solar/es/tags/power-transmission/</link>
+    <link>/es/tags/power-transmission/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/es/tags/power-transmission/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="/es/tags/power-transmission/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abandone las Baterías: Almacenamiento de Energía de Aire Comprimido Fuera de Red</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
+      <link>/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
+      <enclosure url="/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
       <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
+      <guid>/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -27,11 +27,11 @@
 &lt;p&gt;Desafortunadamente, las plantas de CAES a gran escala son muy ineficientes energéticamente. Comprimir y descomprimir el aire introduce pérdidas de energía, lo que resulta en una eficiencia eléctrica a eléctrica del solo 40-52%, en comparación con 70-85% para las plantas hidroeléctricas bombeadas, y del 70-90% para las baterías químicas.&lt;/p&gt;
 &lt;p&gt;La baja eficiencia se debe principalmente a que el aire se calienta durante la compresión. Este calor residual, que contiene una gran parte de la energía de entrada, se vierte a la atmósfera. Un problema relacionado es que el aire se enfría cuando se descomprime, lo que reduce la producción de electricidad y posiblemente congela el vapor de agua en el aire. Para evitar esto, las plantas CAES a gran escala calientan el aire antes de la expansión utilizando gas natural, lo que deteriora aún más la eficiencia del sistema y hace que el almacenamiento de energía renovable dependa de los combustibles fósiles.&lt;/p&gt;
 &lt;h2 id=&#34;por-qué-caes-a-pequeña-escala&#34;&gt;¿Por qué CAES a pequeña escala?&lt;/h2&gt;
-&lt;p&gt;En el artículo anterior, presentamos varias ideas, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspiradas en sistemas históricos&lt;/a&gt;, que podrían mejorar la eficiencia de las plantas CAES a gran escala. En este artículo, nos centramos en el pequeño pero creciente número de ingenieros e investigadores que piensan que el futuro no está en el almacenamiento de energía a gran escala de aire comprimido, sino en sistemas a pequeña escala o microsistemas, utilizando recipientes de almacenamiento artificiales en la superficie en lugar de depósitos subterráneos. Dichos sistemas podrían estar desconectados de la red o conectados a la red, ya sea operando solos o junto con un sistema de batería.&lt;/p&gt;
+&lt;p&gt;En el artículo anterior, presentamos varias ideas, &lt;a href=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspiradas en sistemas históricos&lt;/a&gt;, que podrían mejorar la eficiencia de las plantas CAES a gran escala. En este artículo, nos centramos en el pequeño pero creciente número de ingenieros e investigadores que piensan que el futuro no está en el almacenamiento de energía a gran escala de aire comprimido, sino en sistemas a pequeña escala o microsistemas, utilizando recipientes de almacenamiento artificiales en la superficie en lugar de depósitos subterráneos. Dichos sistemas podrían estar desconectados de la red o conectados a la red, ya sea operando solos o junto con un sistema de batería.&lt;/p&gt;
 &lt;p&gt;La razón principal para investigar el almacenamiento descentralizado de energía de aire comprimido es el simple hecho de que dicho sistema podría instalarse en cualquier lugar, al igual que las baterías químicas. CAES a gran escala, por otro lado, depende de una geología subterránea adecuada. Aunque hay más sitios potenciales para plantas de CAES a gran escala que para plantas hidroeléctricas a gran escala, encontrar cavernas de almacenamiento adecuadas no es tan fácil como se había supuesto.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Configuración experimental del sistema de almacenamiento de energía de aire comprimido a pequeña escala. Fuente: [^27]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Configuración experimental del sistema de almacenamiento de energía de aire comprimido a pequeña escala. Fuente: [^27]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Configuración experimental del sistema de almacenamiento de energía de aire comprimido a pequeña escala. Fuente: [^27] 
 &lt;/figcaption&gt;
@@ -44,7 +44,7 @@
 &lt;p&gt;Además, no requieren materiales inusuales o tóxicos, y el hardware es fácilmente reciclable. El almacenamiento descentralizado de energía de aire comprimido no necesita líneas de producción de alta tecnología y puede ser fabricado, instalado y mantenido por empresas locales, a diferencia de un sistema de almacenamiento de energía basado en baterías químicas. Finalmente, el micro CAES no tiene autodescarga, es tolerante a una gama más amplia de entornos y promete ser más económico que las baterías químicas. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;Figura 2. Gráfico de barras muestra la relación entre la energía eléctrica total almacenada durante la vida útil de la tecnología de almacenamiento y su energía primaria incorporada. Los valores más altos consumen menos energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;Figura 2. Gráfico de barras muestra la relación entre la energía eléctrica total almacenada durante la vida útil de la tecnología de almacenamiento y su energía primaria incorporada. Los valores más altos consumen menos energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Figura 2. Gráfico de barras muestra la relación entre la energía eléctrica total almacenada durante la vida útil de la tecnología de almacenamiento y su energía primaria incorporada. Los valores más altos consumen menos energía. 
 &lt;/figcaption&gt;
@@ -57,7 +57,7 @@
 &lt;p&gt;Para empeorar las cosas, la eficiencia del sistema y el tamaño de almacenamiento están inversamente relacionados: mejorar un factor a menudo es a expensas del otro. El aumento de la presión de aire minimiza el tamaño de almacenamiento pero disminuye la eficiencia del sistema, mientras que el uso de una presión más baja hace que el sistema sea más eficiente en términos de energía pero da como resultado un mayor tamaño de almacenamiento. Algunos ejemplos ayudan a ilustrar el problema.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Tanques de almacenamiento de energía de aire comprimido. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Tanques de almacenamiento de energía de aire comprimido. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Tanques de almacenamiento de energía de aire comprimido. [Fuente](http://www.screwtypeaircompressors.com/sale-8108163-vertical-compressed-air-tank-natural-gas-tank-2000l-air-receiver-tank.html). 
 &lt;/figcaption&gt;
@@ -71,7 +71,7 @@
 &lt;p&gt;Tal sistema puede ser beneficioso en este contexto, especialmente porque tiene una vida útil mucho más larga que las baterías químicas. Sin embargo, una configuración similar en un contexto urbano con un alto consumo de energía es obviamente problemático. En otro estudio, se calculó que se necesitaría un tanque de almacenamiento de aire de 65 m3 para almacenar 3 kWh de energía. Esto corresponde a un recipiente a presión de 13 metros de largo con un diámetro de 2,5 metros, mostrado a continuación. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;Figura 28. Tamaño de un tanque que puede almacenar 3 kWh de energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;Figura 28. Tamaño de un tanque que puede almacenar 3 kWh de energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Figura 28. Tamaño de un tanque que puede almacenar 3 kWh de energía. 
 &lt;/figcaption&gt;
@@ -80,11 +80,11 @@
 &lt;p&gt;Además, el uso promedio diario doméstico de electricidad en los países industrializados es mucho mayor. Por ejemplo, en el Reino Unido es ligeramente inferior a 13 kWh por día, en EE. UU. y Canadá es de más de 30 kWh. En este último caso, se requerirían diez de tales tanques a presión de aire para almacenar electricidad suficiente para un día de uso.&lt;/p&gt;
 &lt;p&gt;Los sistemas CAES de pequeña escala a altas presiones dan resultados opuestos. Por ejemplo, una configuración modelo para un uso eléctrico doméstico típico en Europa (6.400 kWh por año) opera a una presión de 200 bar (casi 4 veces mayor que la presión en plantas CAES de gran escala) y logra un volumen de almacenamiento de solo 0,55 m3, que es comparable a las baterías. Sin embargo, la eficiencia de electricidad a electricidad de esta configuración es solo del 11-17%, dependiendo del tamaño del sistema solar fotovoltaico. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dos-estrategias-para-hacer-el-sistema-micro-caes-funcionante&#34;&gt;Dos estrategias para hacer el sistema Micro CAES funcionante&lt;/h2&gt;
-&lt;p&gt;Estos ejemplos parecen sugerir que el almacenamiento de energía de aire comprimido no tiene sentido como un sistema de almacenamiento de energía a pequeña escala, incluso con &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/01/how-much-energy-do-we-need/&#34;&gt;una reducción en la demanda de energía&lt;/a&gt;. Sin embargo, y quizás sorprendente para muchos, este no es el caso.&lt;/p&gt;
+&lt;p&gt;Estos ejemplos parecen sugerir que el almacenamiento de energía de aire comprimido no tiene sentido como un sistema de almacenamiento de energía a pequeña escala, incluso con &lt;a href=&#34;/es/2018/01/how-much-energy-do-we-need/&#34;&gt;una reducción en la demanda de energía&lt;/a&gt;. Sin embargo, y quizás sorprendente para muchos, este no es el caso.&lt;/p&gt;
 &lt;p&gt;Los sistemas CAES a pequeña escala no pueden seguir el mismo enfoque que los sistemas CAES a gran escala. Estos últimos aumentan la capacidad de almacenamiento y la eficiencia general mediante varias etapas de refrigeración intermedia (intercooling) y varias etapas de expansión con recalentamiento. Este método implica componentes adicionales y aumenta la complejidad y el costo, lo cual lo rinde inmpráctico para los sistemas a pequeña escala.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -99,7 +99,7 @@
 &lt;p&gt;En estos sistemas, la eficiencia electricidad a electricidad es muy baja. Sin embargo, ahora hay varias eficiencias por definir, porque el sistema también suministra calor y frío. &lt;sup id=&#34;fnref1:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Además, este enfoque puede convertir en innecesarios varios aparatos eléctricos, como el refrigerador, el aire acondicionado y la caldera eléctrica para calentar espacios y agua. Dado que el uso de estos dispositivos a menudo representa aproximadamente la mitad del uso de electricidad en un hogar promedio, un sistema CAES de pequeña escala con alta presión tiene una demanda de electricidad más baja en general.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresor de aire típico. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresor de aire típico. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un compresor de aire típico. [Fuente](https://www.thomasnet.com/articles/machinery-tools-supplies/Air-Compressors). 
 &lt;/figcaption&gt;
@@ -108,7 +108,7 @@
 &lt;p&gt;Los sistemas de alta presión resuelven fácilmente el problema del tamaño de almacenamiento. Como hemos visto, una presión de aire más alta puede reducir en gran medida el tamaño de un recipiente de almacenamiento de aire comprimido, pero solo a expensas de un aumento del calor residual. En un sistema de pequeña escala que aprovecha las diferencias de temperatura para proporcionar calefacción yrefrigeración, esto es ventajoso. Por lo tanto, los sistemas de alta presión son ideales para edificios residenciales a pequeña escala, donde el espacio de almacenamiento es limitado y donde hay una gran demanda de calor y frío, así como de electricidad. Las únicas desventajas son que los sistemas de alta presión requieren tanques de almacenamiento más fuertes y costosos, y se require de un espacio adicional para los intercambiadores de calor.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Configuración experimental de un sistema micro CAES. Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Configuración experimental de un sistema micro CAES. Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Configuración experimental de un sistema micro CAES. Fuente: [^30] 
 &lt;/figcaption&gt;
@@ -121,7 +121,7 @@
 &lt;p&gt;Por debajo de las presiones de aire de aproximadamente 10 bar, la compresión y expansión del aire exhiben cambios de temperatura insignificantes (“casi isotérmicos”), y la eficiencia del sistema de almacenamiento de energía puede ser cercana al 100%. No hay calor residual y, en consecuencia, no hay necesidad de recalentar el aire al expandirse.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;Figura 133. Compresor de tres etapas&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;Figura 133. Compresor de tres etapas&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Figura 133. Compresor de tres etapas 
 &lt;/figcaption&gt;
@@ -137,7 +137,7 @@
 &lt;p&gt;El dispositivo de bajo costo tiene la mínima cantidad de partes móviles y obtiene eficiencias del 60 al 70% a una presión de 3 a 7 bares. &lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Esta es una eficiencia muy alta para un dispositivo tan simple, considerando que un sofisticado compresor centrífugo de tres etapas, utilizado en sistemas CAES de gran escala o en entornos industriales, tiene una eficiencia del 70% aproximadamente. Además, los investigadores afirman que la eficiencia está limitada por el motor estándar que utilizan para alimentar su compresor. De hecho, otro equipo de investigación logró una eficiencia del 83%. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Compresor Scroll Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Compresor Scroll Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Compresor Scroll Fuente: [^30] 
 &lt;/figcaption&gt;
@@ -149,7 +149,7 @@
 &lt;p&gt;Aunque los compresores y los expansores son aquellos que determinan en mayor medida la eficiencia del sistema en los sistemas CAES de pequeña escala, no son los únicos. Por ejemplo, en cada sistema de almacenamiento de energía de aire comprimido, la pérdida de eficiencia adicional es causada por el hecho de que durante la expansión el depósito de almacenamiento se agota y, por lo tanto, la presión disminuye. Al mismo tiempo, se require una variación minima en la entrada para el expansor para así asegurar una alta eficiencia.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -164,7 +164,7 @@
 &lt;p&gt;La configuración opera a baja presión (máximo 5 bar) y está compuesta por la unidad de compresión / expansión acoplada a tres cilindros pequeños (7L), previamente utilizados como extintores de aire. Los recipientes de almacenamiento están conectados a través de tuberías de PVC y conexiones de latón. Para controlar el flujo de aire, se usan tres válvulas de aire, controladas por computadora, en la entrada de cada cilindro. El sistema se puede extender agregando más recipientes a presión. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -177,7 +177,7 @@
 &lt;p&gt;Curiosamente, la capacidad de almacenamiento es de 410 Wh, la cual es comparable al sistema rural mencionado anteriormente de 360 Wh, que requiere un recipiente de almacenamiento de 18 m3, que es treinta veces más grande que el sistema de almacenamiento modular.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Válvulas de aire controladas por computador. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Válvulas de aire controladas por computador. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Válvulas de aire controladas por computador. [Fuente](http://www.jaksa.si/compressed-air-solenoid-valves.html). 
 &lt;/figcaption&gt;
@@ -188,7 +188,7 @@
 &lt;h2 id=&#34;construirlo-usted-mismo&#34;&gt;¿Construirlo usted mismo?&lt;/h2&gt;
 &lt;p&gt;En conclusión, el almacenamiento de energía de aire comprimido a pequeña escala podría ser una alternativa prometedora a las baterías, pero la investigación aún está en sus primeras etapas -el primer estudio sobre CAES a pequeña escala se publicó en 2010- y nuevas ideas continuarán arrojando luz sobre la mejor forma de desarrollar esta tecnología. Por el momento, no hay productos comerciales disponibles, y la configuración de su propio sistema puede ser bastante intimidante si es nuevo en la neumática. Tan solo agarrar los componentes y accesorios correctos es un dolor de cabeza, ya que vienen en una variedad desconcertante y solo son vendidos a las industrias.&lt;/p&gt;
 &lt;p&gt;Sin embargo, si es paciente y no demasiado descuidado, y si está decidido a utilizar un sistema de almacenamiento de energía más sostenible, es perfectamente posible construir su propio sistema CAES. Como han demostrado los ejemplos de este artículo, es un poco más difícil construir uno bueno.&lt;/p&gt;
-&lt;p&gt;Hay más ideas para sistemas de CAES de pequeña escala en el artículo anterior: &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Historia y futuro de la economía del aire comprimido&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hay más ideas para sistemas de CAES de pequeña escala en el artículo anterior: &lt;a href=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Historia y futuro de la economía del aire comprimido&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -253,15 +253,15 @@
     
     <item>
       <title>Historia y Futuro de la Economía del Aire Comprimido</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/</link>
+      <link>/es/2018/05/history-and-future-of-the-compressed-air-economy/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
+      <enclosure url="/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
+      <guid>/es/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -269,12 +269,12 @@
 &lt;p&gt;El almacenamiento de energía de aire comprimido (CAES) se considera un componente importante de una red de energía renovable, ya que podría almacenar el excedente de energía producido por las turbinas eólicas y paneles solares a gran escala. Sin embargo, en su forma actual, esta tecnología sufre de grandes perdidas de energía y depende del gas natural para operar. Un vistazo a la historia del aire comprimido deja en claro que esto no es inevitable.&lt;/p&gt;
 &lt;p&gt;A pesar de que nuestros antepasados dependían de una tecnología menos eficiente energéticamente, usaron aire comprimido en configuraciones mas inteligentes que tenían menos perdidas de conversión de energía y eran independientes de los combustibles fósiles. Estos sistemas históricos son la clave para el diseño de un medio de almacenamiento de energía de baja tecnología, con bajo costo, robusto, sostenible y relativamente eficiente en energía. La economía del aire comprimido podría ser la alternativa práctica y realista al hidrógeno o a la utopía de una sociedad basada 100% en energía electrica.&lt;/p&gt;
 &lt;h2 id=&#34;la-promesa-del-aire-comprimido&#34;&gt;La promesa del aire comprimido&lt;/h2&gt;
-&lt;p&gt;Si bien el potencial de la energía eolica y solar es mas que suficiente para abastecer la demanda de electricidad de las sociedades industriales, estos recursos solo están disponibles &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;de manera intermitente&lt;/a&gt; - es una forma de lidiar con la variabilidad e incertidumbre de la energía renovable, pero esta tiene sus límites. Por lo tanto, una red electrica renovable necesita poder almacenar energía, y lo mismo ocurre con un sistema fuera de la red eléctrica basado en energía solar o eólica.&lt;/p&gt;
+&lt;p&gt;Si bien el potencial de la energía eolica y solar es mas que suficiente para abastecer la demanda de electricidad de las sociedades industriales, estos recursos solo están disponibles &lt;a href=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;de manera intermitente&lt;/a&gt; - es una forma de lidiar con la variabilidad e incertidumbre de la energía renovable, pero esta tiene sus límites. Por lo tanto, una red electrica renovable necesita poder almacenar energía, y lo mismo ocurre con un sistema fuera de la red eléctrica basado en energía solar o eólica.&lt;/p&gt;
 &lt;p&gt;Hoy, más del 99% de la capacidad de almacenamiento electrico mundial consiste en plantas de almacenamiento de energía hidroelectrica, donde la energía electrica excedente de las plantas de energía solar o eólica se almacena para su posterior uso bombeando agua desde un depósito inferior a uno superior.&lt;/p&gt;
 &lt;p&gt;El almacenamiento de energía hidroelectrica por bombeo es bastante eficiente y de baja tecnología, pero requiere una geografía adecuada para dos masas de agua grandes, separadas verticalmente, y una o dos presas. También inunda grandes áreas de tierra. Los sitios más adecuados ya están en uso, lo que significa que hay poco potencial para un mayor crecimiento. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -286,27 +286,27 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Es importante destacar que CAES es el almacenamiento de energía mas sostenible que existe. A diferencia del almacenamiento de energía hidroelectrica bombeada, el almacenamiento de energía de aire comprimido no presenta problemas ambientales causados por la inundación de la tierra y el embalse de los ríos.&lt;/p&gt;
 &lt;p&gt;Además, si la energía almacenada durante la vida útil de un dispositivo de almacenamiento se compara con la cantidad de energía primaria requerida para construir el dispositivo, CAES supera el almacenamiento de energía hidroelectrica bombeada y es muy superior a las baterías electroquímicas, que requieren 10 a 100 veces más energía incorporada para una capacidad de almacenamiento dada. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Esta es una ventaja crucial, ya que el alto consumo de energía para la produccio n de almacenamiento de energía &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;puede disminuir en gran medida la sostenibilidad de una red electrica renovable&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Esta es una ventaja crucial, ya que el alto consumo de energía para la produccio n de almacenamiento de energía &lt;a href=&#34;/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;puede disminuir en gran medida la sostenibilidad de una red electrica renovable&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;el-problema-con-el-aire-comprimido&#34;&gt;El problema con el aire comprimido&lt;/h2&gt;
 &lt;p&gt;A pesar de estas ventajas, actualmente solo hay dos plantas de CAES a gran escala en funcionamiento en todo el mundo: una en Alemania, construida en 1979 y otra en los EE. UU., Construida en 1991. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Esta aceptación limitada se atribuye principalmente al hecho que más de la mitad de la energía se pierde al cargar y descargar una “batería” de aire comprimido.&lt;/p&gt;
 &lt;p&gt;Mientras que el almacenamiento de energía hidroelectrica bombeada tiene una eficiencia de carga / descarga del 70-85%, y las baterías químicas alcanzan el 65- 90%, las plantas de CAES en operación en Alemania y EE. UU. Tienen una eficiencia electrica a electrica de solo 40-42% y 51-54%, respectivamente. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;La baja eficiencia de conversión de energía se debe principalmente a que la temperatura del aire aumenta cuando se comprime a altas presiones (ambas plantas CAES operan a 50-70 bar, que es de 10 a 20 veces la presión de aire en un neumatico de bicicleta). Debido a que la densidad de energía del aire disminuye con el aumento de la temperatura, ambas plantas CAES eliminan el calor antes del almacenamiento y lo expulsan a la atmósfera. Esto implica una importante fuente de perdida de energía. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Además, cuando el aire se descomprime a alta presión, la temperatura disminuye hasta tal punto que el vapor de agua en el aire puede congelarse, perjudicando las válvulas y el expansor del sistema de almacenamiento. Para prevenir esto, y para aumentar la potencia de salida, ambas plantas de CAES calientan el aire en calentadores usando combustible de gas natural antes de la expansión. Obviamente, esto reduce aún más la eficiencia energética del proceso global, haciendo que los actuales sistemas CAES sean completamente dependientes de los combustibles fósiles para su funcionamiento. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Una eficiencia de conversión de 40-50% significa que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;la capacidad de generación de energía eólica o solar debe duplicarse para compensar esa pérdida&lt;/a&gt;. En consecuencia, necesitamos más energía, más materiales y más espacio para la misma producción de energía. La amigabilidad ambiental de CAES por lo tanto, disminuye por su baja eficiencia.&lt;/p&gt;
+&lt;p&gt;Una eficiencia de conversión de 40-50% significa que &lt;a href=&#34;/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;la capacidad de generación de energía eólica o solar debe duplicarse para compensar esa pérdida&lt;/a&gt;. En consecuencia, necesitamos más energía, más materiales y más espacio para la misma producción de energía. La amigabilidad ambiental de CAES por lo tanto, disminuye por su baja eficiencia.&lt;/p&gt;
 &lt;p&gt;Además, la baja eficiencia de conversión de energía de CAES esta intrínsecamente relacionada con su baja densidad de energía, lo que significa que depende de depósitos de almacenamiento muy grandes. En principio, la densidad de energía del aire comprimido puede mejorarse mucho utilizando presiones de aire mas altas, pero a medida que aumenta la presión de aire, se convierte más energía en calor residual y la eficiencia de todo el proceso se deteriora aún más. En consecuencia, un sistema CAES, en su configuración actual, es siempre un compromiso entre la eficiencia y la densidad de energía.&lt;/p&gt;
 &lt;h2 id=&#34;4000-años-de-historia&#34;&gt;4.000 años de historia&lt;/h2&gt;
 &lt;p&gt;En un contexto histórico, la muy baja eficiencia energética de los sistemas actuales de almacenamiento de energía de aire comprimido es notable. El uso de aire comprimido data de hace más de 4.000 años y siempre ha sido un importante impulsor del progreso tecnológico. Aunque estas aplicaciones históricas no estaban dirigidas al almacenamiento de energía, ofrecen inspiración para mejorar tanto la eficiencia energetica como la densidad energética de los sistemas CAES actuales.&lt;/p&gt;
 &lt;p&gt;El uso más antiguo y posiblemente más importante del aire comprimido a lo largo de la historia ha sido la alimentación del fuego. Esto sucedio en la cocina y en todos los procesos de producción basados en calor, pero fue especialmente importante en los procesos de fabricación de metales. Un incendio de carbón desatendido podría alcanzar los 900°C, pero un potente suministro de aire forzado podría elevar su temperatura a casi 2000°C. &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -317,10 +317,10 @@
 &lt;p&gt;El progreso en la fundición de metales fue en gran parte impulsado por las mejoras en la tecnología de compresión de aire&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Comenzando en la década de 1860 y continuando en los 1900, el aire comprimido (o “neumática”) fue el centro de otra revolución tecnológica. Esta vez, la neumática se estableció como la tecnología de transmisión de energía más versátil y ampliamente utilizada antes de la introducción de la electricidad. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Debido a que la energía eléctrica aún se distribuía &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/03/power-water-networks/&#34;&gt;a bajos voltajes&lt;/a&gt;: el aire esta disponible en cualquier lugar y su escape no presenta problemas, mientras que los sistemas hidráulicos requieren un suministro de agua suficiente y un medio para drenar el fluido después del uso.&lt;/p&gt;
+&lt;p&gt;Debido a que la energía eléctrica aún se distribuía &lt;a href=&#34;/2016/03/power-water-networks/&#34;&gt;a bajos voltajes&lt;/a&gt;: el aire esta disponible en cualquier lugar y su escape no presenta problemas, mientras que los sistemas hidráulicos requieren un suministro de agua suficiente y un medio para drenar el fluido después del uso.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -332,7 +332,7 @@
 &lt;p&gt;Casi al mismo tiempo en Europa, los franceses llevaron la transmisión de energía neumática un paso más alla al establecer una red de distribución de energía en toda la ciudad en París. Permanecería en uso durante ma s de 100 años (de 1881 a 1994), distribuyendo aire comprimido a una presión relativamente baja de 5-6 bar en una red de (eventualmente) más de 900 km, atendiendo a más de 10,000 clientes.  &lt;sup id=&#34;fnref4:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -344,7 +344,7 @@
 &lt;p&gt;Ya en 1892, F.E. Idell escribió que “entre los propósitos industriales más pequeños para los cuales se usan los motores de aire en París, encuentro la conducción de tornos para metal y madera, de sierras circulares, taladros, pulidoras y muchos otros. Tambien se utilizan en los talleres de carpinteros, ensambladores y ebanistas, herreros, fabricantes de paraguas, fabricantes de collares, encuadernadores y, naturalmente, en muchos lugares donde se utilizan máquinas de coser, tanto por modistas, sastres, y zapateros, desde la más pequeña hasta la más grande&amp;quot;. &lt;sup id=&#34;fnref3:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Central energetica de la red de aire comprimido en París. Fuente: Museo de Retrotecnología&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Central energetica de la red de aire comprimido en París. Fuente: Museo de Retrotecnología&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Central energetica de la red de aire comprimido en París. Fuente: [Museo de Retrotecnología](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
 &lt;/figcaption&gt;
@@ -356,7 +356,7 @@
 &lt;p&gt;El aire comprimido sigue siendo vital para la productividad de muchas industrias y servicios en todo el mundo y se utiliza en miles de aplicaciones, desde el envasado de alimentos y la fundicón de metales hasta la fabricación de microchips y plásticos. Sin embargo, el aire comprimido ahora es producido por compresores de aire que funcionan con electricidad. Esto introduce dos fuentes adicionales de perdida de energía: el generador eléctrico (que convierte la energía mecanica de una fuente de energía en electricidad) y el motor eléctrico (que convierte la energía electrica en energía mecanica para hacer funcionar el compresor de aire). Como resultado, el uso industrial actual de aire comprimido es muy derrochador: suponiendo que cada convertidor tiene una eficiencia del 75% eficiente, y suponiendo que no haya otras pérdidas de energía, solo el 30% de la entrada de energía se convierte en una salida de energía útil. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;En París, el aire comprimido se canalizaba a traves del sistema de alcantarillado.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;En París, el aire comprimido se canalizaba a traves del sistema de alcantarillado.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  En París, el aire comprimido se canalizaba a traves del sistema de alcantarillado. 
 &lt;/figcaption&gt;
@@ -366,7 +366,7 @@
 &lt;p&gt;Cuando se dice que la eficiencia de una planta de CAES es de 40-50%, esto solo se refiere a las pérdidas en el compresor de aire y el expansor de aire (eficiencia de electricidad a electricidad). Sin embargo, si incluimos las conversiones hacia y desde la electricidad, la eficiencia general del sistema disminuye a menos del 20%, asumiendo de nuevo que cada convertidor tiene una eficiencia del 75%.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -378,7 +378,7 @@
 &lt;p&gt;Por otro lado, si conectamos una planta de CAES directamente a una fábrica que utiliza herramientas neumáticas, al conectar el aire comprimido de una a otra, sufriremos solo cuatro fuentes de pérdida de energía (generador, motor, compresor, expansor). En la planta de CAES, ya no es necesario convertir el aire comprimido almacenado en electricidad, mientras que en la fábrica no hay necesidad de comprimir el aire una segunda vez, utilizando electricidad. CAES y una fábrica podrían estar a una distancia de hasta 25 km, la distancia hasta la cual el aire comprimido se puede distribuir de manera eficiente.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Mapa. Fuente: Museo de Retrotecnología.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Mapa. Fuente: Museo de Retrotecnología.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Mapa. Fuente: [Museo de Retrotecnología](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm). 
 &lt;/figcaption&gt;
@@ -391,7 +391,7 @@
 &lt;p&gt;En la actualidad, la mayoría de los ingenieros de CAES se centran en mejorar aún más la eficiencia mediante el uso del calor de compresión residual para recalentar el aire comprimido durante la expansión. Este me todo se llama “CAES Adiabático Avanzado” (AA-CAES) o “CAES sin combustible” y elimina la necesidad de recalentar con gas natural como en el CAES “diabático” estándar. Se espera que la tecnología alcance una eficiencia general de aproximadamente 70%, acercándola a la eficiencia de las baterías químicas y las plantas hidroeléctricas de almacenamiento por bombeo. &lt;sup id=&#34;fnref2:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -403,23 +403,23 @@
 &lt;p&gt;Si observamos los sistemas neumáticos más antiguos, vemos que hay otras maneras mas fáciles de aprovechar las diferencias de temperatura debido a la compresión y expansión. En la red de energía de aire comprimido de París, los ingenieros aprovecharon el enfriamiento que proporciona la expansión del aire. En París, el aire comprimido solía calentarse con coque antes de ser utilizado por un motor neumático, lo que aumentaba la producción de energía de una manera muy similar al uso de gas natural en los sistemas CAES actuales.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Sin embargo, en bares y restaurantes, estos recalentadores no fueron utilizados. En cambio, el aire frío se uso para fines de refrigeración, congelación, enfriamiento o ventilación. En 1892, F.E. Idell describió un restaurante de París donde el escape fue llevado a través de una chimenea de ladrillo en la bodega de cerveza. En este tiro, las garrafas se congelaban y se fabricaron grandes moldes de hielo en bloque para el uso en la mesa mientras el aire todavía estaba lo suficientemente frío al pasar a través de la bodega de cerveza para hacer innecesario el uso de hielo, incluso en el clima más cálido&amp;quot;. &lt;sup id=&#34;fnref5:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;El uso de aire comprimido para enfriar o congelar a veces iba de la mano con la producción de electricidad para la iluminación y la conducción de una dínamo. En estos casos, los motores de aire básicamente se trabajaron para su escape, con la luz eléctrica que es el subproducto. Aprovechando las diferencias de temperatura también se utilizó en las aplicaciones mineras anteriores, donde el escape de los taladros de roca ayudó a enfriar (y ventilar) las minas.&lt;/p&gt;
-&lt;p&gt;Una idea similar y prometedora hoy en día es el almacenamiento de energía de aire comprimido combinado con almacenamiento térmico para proporcionar electricidad, calefacción, refrigeración, refrigeracio n y / o ventilacio n al mismo tiempo. De hecho, este enfoque tambien evita varias conversiones de energía, ya que podría reemplazar a los refrigeradores, congeladores, acondicionadores de aire y sistemas de calefacción que funcionan con electricidad. El método podría funcionar a nivel de un distrito de la ciudad o un área industrial &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, pero es &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;especialmente interesante para el almacenamiento de energía descentralizada, utilizando contenedores artificiales de almacenamiento sobre el suelo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Una idea similar y prometedora hoy en día es el almacenamiento de energía de aire comprimido combinado con almacenamiento térmico para proporcionar electricidad, calefacción, refrigeración, refrigeracio n y / o ventilacio n al mismo tiempo. De hecho, este enfoque tambien evita varias conversiones de energía, ya que podría reemplazar a los refrigeradores, congeladores, acondicionadores de aire y sistemas de calefacción que funcionan con electricidad. El método podría funcionar a nivel de un distrito de la ciudad o un área industrial &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, pero es &lt;a href=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;especialmente interesante para el almacenamiento de energía descentralizada, utilizando contenedores artificiales de almacenamiento sobre el suelo&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Como hemos visto, una presión de aire más alta puede reducir en gran medida el tamaño de un recipiente de almacenamiento de aire comprimido, pero solo a expensas del aumento del calor residual. En los edificios individuales, el espacio para los recipientes de almacenamiento es limitado, mientras que hay una gran demanda de calor y frío, además de electricidad. El aumento de la presión de aire hace que el recipiente de almacenamiento sea más pequeño y aumenta la producción de calor y frío, satisfaciendo todas las necesidades energéticas de un hogar.&lt;/p&gt;
-&lt;p&gt;Algunos diseños propuestos siguen otros enfoques para lidiar con el calor de la compresión, y estos podrían funcionar tanto para sistemas de CAES a gran escala como los de pequeña escala. Una idea interesante es un sistema de almacenamiento de energía de aire comprimido que funciona tanto con energía eólica como con energía solar. [24] La energía eólica se almacena en forma de aire comprimido por la cadena del compresor, como en las otras plantas CAES. Sin embargo, la energía solar de un &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;plato parabólico&lt;/a&gt; se almacena en un tanque térmico solar aislado y se utiliza para recalentar el aire comprimido antes de la expansión. Debido a que el calor del proceso de compresión ya no es necesario para calentar el aire después de la expansión, este se usa para producir agua caliente.&lt;/p&gt;
+&lt;p&gt;Algunos diseños propuestos siguen otros enfoques para lidiar con el calor de la compresión, y estos podrían funcionar tanto para sistemas de CAES a gran escala como los de pequeña escala. Una idea interesante es un sistema de almacenamiento de energía de aire comprimido que funciona tanto con energía eólica como con energía solar. [24] La energía eólica se almacena en forma de aire comprimido por la cadena del compresor, como en las otras plantas CAES. Sin embargo, la energía solar de un &lt;a href=&#34;/es/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;plato parabólico&lt;/a&gt; se almacena en un tanque térmico solar aislado y se utiliza para recalentar el aire comprimido antes de la expansión. Debido a que el calor del proceso de compresión ya no es necesario para calentar el aire después de la expansión, este se usa para producir agua caliente.&lt;/p&gt;
 &lt;p&gt;Un concepto similar para un diseño híbrido de almacenamiento de energía de aire comprimido y térmico utiliza calefacción eléctrica en lugar de energía solar térmica. &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt; Debido a que la carga de trabajo en estos sistemas se desplaza de la conversión pura a la inversión parcial en el almacenamiento térmico, se pueden lograr densidades de energía muy superiores a las CAES tradicionales y se puede reducir el tamaño del almacenamiento de aire.&lt;/p&gt;
 &lt;h2 id=&#34;tercera-leccion-mejorar-el-compresor-de-aire&#34;&gt;Tercera lección: mejorar el compresor de aire&lt;/h2&gt;
 &lt;p&gt;Una tercera forma de mejorar la eficiencia del almacenamiento de energía de aire comprimido es mediante el uso de compresores de aire y expansores con mayor eficiencia energética. Esta estrategia es opuesta a la anterior. En lugar de aprovechar el calor y el frío para hacer que el sistema sea mas eficiente, trata de minimizar la producción de calor residual durante la compresión (y, en consecuencia, limitar el enfriamiento durante la expansión).&lt;/p&gt;
@@ -427,7 +427,7 @@
 &lt;p&gt;Desde 1600 en adelante, docenas de “trompe” proporcionaron una ráfaga de aire continuo a los primeros hornos de fundición de hierro y bronce en el Pirineo franco-español. &lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; En comparación con una rueda hidráulica que funciona con un compresor de pistón de madera, este era aproximadamente tres veces más eficiente, lo que permite una mayor producción de hierro con menos recursos de energía hidráulica.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -443,7 +443,7 @@
 &lt;p&gt;Últimamente, el compresor de aire hidráulico ha suscitado un renovado interés. Un equipo de investigación canadiense desarrollo una plataforma de demostración de compresión de aire hidráulico de 30 m de altura en un antiguo pozo de ascensor de mina. &lt;sup id=&#34;fnref5:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; El “Proyecto Demostrador de HAC” (“The HAC demonstrator project” en inglés) mide y verifica el potencial de ahorro de energía de esta tecnología principalmente en aplicaciones para la minería. Sin embargo, también podría ser una alternativa para los compresores de etapas múltiples utilizados en la industria y en los sistemas CAES. Esto se debe a que el nuevo diseño también se puede configurar en de circuito cerrado, utilizando una bomba en lugar de una fuente de agua natural.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -452,7 +452,7 @@
 &lt;p&gt;Según los investigadores, un compresor de aire hidráulico de circuito cerrado podría tener una eficiencia del 75%, teniendo en cuenta el uso de energía extra de la bomba. Esto es un 13% más eficiente que un compresor centrífugo de tres etapas, y las ventajas relacionadas al costo seran mayores debido a los menores requisitos de mantenimiento. &lt;sup id=&#34;fnref6:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;El compresor de aire hidráulico parece una combinación perfecta para sistemas CAES a gran escala con depósitos subterráneos. De hecho, muchos de los compresores de aire hidráulicos de los siglos XIX y XX utilizaron la cámara de separación de aire inferior también para el almacenamiento de energía de aire comprimido, en lo que podría considerarse el primer uso a gran escala de CAES. El almacenamiento, que podría ser de hasta 5.600 m3, se utilizo para satisfacer un exceso de demanda de aire a corto plazo, lo que significa que el compresor de aire hidráulico no tuvo que diseñarse para las cargas más grandes. &lt;sup id=&#34;fnref3:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;el-futuro-del-aire-comprimido&#34;&gt;El futuro del aire comprimido&lt;/h2&gt;
-&lt;p&gt;Ninguna de estas ideas hará que las plantas de CAES sean 100% eficientes desde el punto de vista energético. Sin embargo, podrían ayudarlos a alcanzar eficiencias similares a las baterías, pero con problemas ambientales mucho menores y mucho menos consumo de energía. En el siguiente artículo, nos enfocaremos con más detalle en &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;los sistemas CAES de pequeña escala, que prometen ser una alternativa sostenible a las baterías químicas en sistemas fuera de la red&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ninguna de estas ideas hará que las plantas de CAES sean 100% eficientes desde el punto de vista energético. Sin embargo, podrían ayudarlos a alcanzar eficiencias similares a las baterías, pero con problemas ambientales mucho menores y mucho menos consumo de energía. En el siguiente artículo, nos enfocaremos con más detalle en &lt;a href=&#34;/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;los sistemas CAES de pequeña escala, que prometen ser una alternativa sostenible a las baterías químicas en sistemas fuera de la red&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Gracias a George Fleming.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
@@ -557,15 +557,15 @@
     
     <item>
       <title>Cómo Hacer Funcionar la Economía con el Clima</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/</link>
+      <link>/es/2017/09/how-to-run-the-economy-on-the-weather/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" type="image/png" length="38294" ></enclosure>
+      <enclosure url="/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" type="image/png" length="38294" ></enclosure>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/</guid>
+      <guid>/es/2017/09/how-to-run-the-economy-on-the-weather/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -574,10 +574,10 @@
 &lt;p&gt;El mismo enfoque podría ser muy útil hoy en día, especialmente cuando es mejorado con tecnología moderna. En particular, las fábricas y el transporte de carga, como barcos e incluso trenes, podrían solo operarse cuando haya energía renovable disponible. Ajustar la demanda de energía a la oferta haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy.&lt;/p&gt;
 &lt;h2 id=&#34;energía-renovable-en-tiempos-preindustriales&#34;&gt;Energía renovable en tiempos preindustriales&lt;/h2&gt;
 &lt;p&gt;Antes de la Revolución Industrial, tanto la industria como el transporte dependían en gran medida de fuentes de energía renovable intermitentes. Los molinos de agua, los molinos de viento y los veleros han estado en uso desde la Antigüedad, pero los europeos llevaron estas tecnologías a su pleno desarrollo a partir del siglo XV en adelante.&lt;/p&gt;
-&lt;p&gt;En su apogeo, justo antes del despegue de la Revolución Industrial, habían en Europa aproximadamente &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;200,000 molinos accionados por el viento y 500,000 molinos accionados por el agua&lt;/a&gt;. Inicialmente, los molinos de agua y los molinos de viento se usaban principalmente para moler grano, una tarea laboriosa que se había hecho a mano durante muchos siglos, primero con la ayuda de piedras y luego con un molino de mano giratorio.&lt;/p&gt;
+&lt;p&gt;En su apogeo, justo antes del despegue de la Revolución Industrial, habían en Europa aproximadamente &lt;a href=&#34;/es/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;200,000 molinos accionados por el viento y 500,000 molinos accionados por el agua&lt;/a&gt;. Inicialmente, los molinos de agua y los molinos de viento se usaban principalmente para moler grano, una tarea laboriosa que se había hecho a mano durante muchos siglos, primero con la ayuda de piedras y luego con un molino de mano giratorio.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png&#34; alt=&#39;“Een zomers landschap” (“Un paisaje de verano”), pintura de Jan van Os.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png&#34; alt=&#39;“Een zomers landschap” (“Un paisaje de verano”), pintura de Jan van Os.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  “Een zomers landschap” (“Un paisaje de verano”), pintura de Jan van Os. 
 &lt;/figcaption&gt;
@@ -590,7 +590,7 @@
 &lt;p&gt;Los llamados “molinos industriales de agua” se habían utilizado en la Antigüedad y fueron ampliamente adoptados en Europa en el siglo XV, pero los “molinos industriales de viento” aparecieron solo en los 1600 en los Países Bajos, un país que llevó la energía eólica al extremo. Los holandeses incluso aplicaron la energía eólica para recuperar tierras del mar, y todo el país se mantuvo seco mediante molinos de viento de funcionamiento intermitente hasta 1850. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/river-landscape_dithered.png&#34; alt=&#39;Abraham Storck: Paisaje de un río con Pescadores en botes de remo, 1679.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/river-landscape_dithered.png&#34; alt=&#39;Abraham Storck: Paisaje de un río con Pescadores en botes de remo, 1679.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Abraham Storck: Paisaje de un río con Pescadores en botes de remo, 1679. 
 &lt;/figcaption&gt;
@@ -599,15 +599,15 @@
 &lt;p&gt;El uso de la energía eólica para el transporte usando veleros, también prosperó desde el año 1500 en adelante, cuando los europeos “descubrieron” nuevas tierras. El transporte eólico apoyó un sistema de comercio internacional robusto, diverso y en constante expansión, tanto en productos a granel (como grano, vino, madera, metales, cerámica y pescado conservado), artículos de lujo (como metales preciosos, pieles, especias, marfil, sedas y medicinas) y esclavos humanos. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Aunque dependía de fuentes eólicas intermitentes, el comercio internacional fue crucial para muchas economías europeas. Por ejemplo, la industria de construcción naval holandesa, que se apoyaba en aproximadamente unas 450 serrerías eólicas, importó prácticamente todos sus víveres navales del Báltico: madera, alquitrán, hierro, cáñamo y lino. Incluso el suministro de alimentos podía depender del transporte impulsado por el viento. Hacia finales del siglo XVI, los holandeses importaron dos mil cargamentos de grano por año desde Gdansk. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Los veleros también fueron importantes para la pesca.&lt;/p&gt;
 &lt;h2 id=&#34;tratando-con-la-intermitencia-en-tiempos-pre-industriales&#34;&gt;Tratando con la intermitencia en tiempos Pre-industriales&lt;/h2&gt;
-&lt;p&gt;Aunque las fuentes de energía renovables variables fueron críticas para la sociedad europea durante los 500 años antes de que los combustibles fósiles tomaran el control, no habían ni baterías químicas, ni líneas de transmisión eléctrica ni capacidad de equilibrio de las centrales eléctricas de combustibles fósiles para manejar la energía variable del viento y el poder del agua. Entonces, ¿cómo lidiaron nuestros antepasados con la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;gran variabilidad de las fuentes de energía renovables&lt;/a&gt;?&lt;/p&gt;
-&lt;p&gt;Hasta cierto punto, contaban con soluciones tecnológicas para igualar la oferta de energía a la demanda de energía, tal como lo hacemos hoy. El nivel del agua en un río depende del clima y las estaciones. Los &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;molinos flotantes y molinos situados en puentes&lt;/a&gt; se encontraban entre las primeras soluciones tecnológicas para este problema. Subiendo y bajando junto con el nivel del agua, les permitía mantener un régimen operativo más predecible. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Aunque las fuentes de energía renovables variables fueron críticas para la sociedad europea durante los 500 años antes de que los combustibles fósiles tomaran el control, no habían ni baterías químicas, ni líneas de transmisión eléctrica ni capacidad de equilibrio de las centrales eléctricas de combustibles fósiles para manejar la energía variable del viento y el poder del agua. Entonces, ¿cómo lidiaron nuestros antepasados con la &lt;a href=&#34;/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;gran variabilidad de las fuentes de energía renovables&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Hasta cierto punto, contaban con soluciones tecnológicas para igualar la oferta de energía a la demanda de energía, tal como lo hacemos hoy. El nivel del agua en un río depende del clima y las estaciones. Los &lt;a href=&#34;/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;molinos flotantes y molinos situados en puentes&lt;/a&gt; se encontraban entre las primeras soluciones tecnológicas para este problema. Subiendo y bajando junto con el nivel del agua, les permitía mantener un régimen operativo más predecible. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hasta cierto punto, nuestros antepasados contaban con soluciones tecnológicas para igualar la oferta de energía a la demanda, tal como lo hacemos hoy.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Sin embargo, la potencia hidráulica podría almacenarse para un uso posterior. Comenzando en la Edad Media, se construyeron presas, o azudes, para crear estanques, una forma de almacenamiento de energía similar a los depósitos de energía hidroeléctrica de hoy en día. Los depósitos de almacenamiento igualaron el flujo de arroyos y ríos y aseguraron que el agua estuviera disponible cuando fuese necesario. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png&#34; alt=&#39;Molino movido por caballos, una pintura de James Herring. Ca. 1850.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png&#34; alt=&#39;Molino movido por caballos, una pintura de James Herring. Ca. 1850.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Molino movido por caballos, una pintura de James Herring. Ca. 1850. 
 &lt;/figcaption&gt;
@@ -620,7 +620,7 @@
 &lt;p&gt;Debido a las limitadas opciones tecnológicas que nuestros antepasados tenían para hacer frente a la variabilidad de las fuentes de energía renovables, recurrieron principalmente a una estrategia que hemos olvidado en gran medida: adaptaron su demanda de energía a la oferta variable de energía. En otras palabras, aceptaron que la energía renovable no siempre estaba disponible y actuaron en consecuencia. Por ejemplo, los molinos de viento y los veleros simplemente no se operaban cuando no había viento.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png&#34; alt=&#39;Pintura: Molinos en Westzijderveld, cerca de Zaandam, una pintura de Claude Monet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png&#34; alt=&#39;Pintura: Molinos en Westzijderveld, cerca de Zaandam, una pintura de Claude Monet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pintura: [Molinos en Westzijderveld, cerca de Zaandam](https://commons.wikimedia.org/wiki/File:Claude_Monet_Mills_in_the_Westzijderveld_near_Zaandam.jpg), una pintura de Claude Monet. 
 &lt;/figcaption&gt;
@@ -637,7 +637,7 @@
 &lt;p&gt;La atmósfera baja del planeta, la tropósfera, está rodeada por seis cinturones de viento principales, tres en cada hemisferio. Desde el ecuador hasta los polos, estos “vientos dominantes” son los vientos alisios, los vientos del oeste y los vientos del este. Los seis cinturones de viento se mueven hacia el norte durante el verano en el hemisferio norte y hacia el sur durante el invierno boreal. Cinco grandes corrientes marinas están correlacionados con los flujos de viento dominantes.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/maas-at-dordrecht_dithered.png&#34; alt=&#39;El Mass en Dordrecht, pintura de Aelbert Cuyp, 1660.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/maas-at-dordrecht_dithered.png&#34; alt=&#39;El Mass en Dordrecht, pintura de Aelbert Cuyp, 1660.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  El Mass en Dordrecht, pintura de Aelbert Cuyp, 1660. 
 &lt;/figcaption&gt;
@@ -647,7 +647,7 @@
 &lt;p&gt;Los vientos alisios alcanzan su latitud más septentrional en/o después del final del verano septentrional, poniéndolos al alcance de España y Portugal. Estos vientos alisios de verano facilitaron la navegación desde el sur de Europa hasta el Caribe y América del Sur, porque el viento soplaba en esa dirección a lo largo de la ruta.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png&#34; alt=&#39;Mapa de vientos del Atlántico, 9 de Septiembre del 2017. Fuente: Windy&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png&#34; alt=&#39;Mapa de vientos del Atlántico, 9 de Septiembre del 2017. Fuente: Windy&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Mapa de vientos del Atlántico, 9 de Septiembre del 2017. Fuente: [Windy](https://www.windy.com) 
 &lt;/figcaption&gt;
@@ -658,12 +658,12 @@
 &lt;p&gt;El uso de vientos favorables hizo que los tiempos de viaje de los veleros fueran relativamente fidedignos. El cruce del océano Atlántico mas rápido fue de 21 días, el más lento de 29 días.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;El uso de vientos favorables hizo que los tiempos de viaje de los veleros fueran relativamente predecibles. &lt;em&gt;Ocean Passages for the World&lt;/em&gt; menciona que los tiempos típicos de Nueva York al Canal de la Mancha para un velero de mediados del siglo XIX a principios del siglo XX fue de 25 a 30 días. De 1818 a 1832, el cruce más rápido fue de 21 días, el más lento de 29 días. &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;El viaje del Canal de la Mancha a Nueva York tomaba 35-40 días en invierno y 40-50 días en verano. Para Ciudad del Cabo, Melbourne y Calcuta tomaba 50-60 días, 80-90 días y 100-120 días, respectivamente. &lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Estos tiempos de viaje son el doble o el triple de los de los portacontenedores actuales, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/04/cargo-ships-then-and-now/&#34;&gt;que varían su velocidad en función de los precios del petróleo y la demanda económica&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;El viaje del Canal de la Mancha a Nueva York tomaba 35-40 días en invierno y 40-50 días en verano. Para Ciudad del Cabo, Melbourne y Calcuta tomaba 50-60 días, 80-90 días y 100-120 días, respectivamente. &lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Estos tiempos de viaje son el doble o el triple de los de los portacontenedores actuales, &lt;a href=&#34;/2009/04/cargo-ships-then-and-now/&#34;&gt;que varían su velocidad en función de los precios del petróleo y la demanda económica&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;viejo-enfoque-nueva-tecnología&#34;&gt;Viejo Enfoque, Nueva Tecnología&lt;/h2&gt;
 &lt;p&gt;Como estrategia para tratar con fuentes de energía variables, ajustar la demanda de energía a la oferta de energía renovable es hoy una solución tan valiosa como lo era en tiempos preindustriales. Sin embargo, esto no significa que tengamos que volver a los medios preindustriales. Tenemos una mejor tecnología disponible, lo que hace que sea mucho más fácil sincronizar las demandas económicas con los caprichos del clima.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/shipping-in-a-calm_dithered.png&#34; alt=&#39;Navegando en la calma, pintura de Charles Brooking, primera mitad del siglo XVIII.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/shipping-in-a-calm_dithered.png&#34; alt=&#39;Navegando en la calma, pintura de Charles Brooking, primera mitad del siglo XVIII.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Navegando en la calma, pintura de Charles Brooking, primera mitad del siglo XVIII. 
 &lt;/figcaption&gt;
@@ -679,7 +679,7 @@
 &lt;p&gt;Ejecutar estos procesos con fuentes de energía variables se ha vuelto mucho más fácil de lo que era en épocas anteriores. Las plantas de energía eólica están ahora completamente automatizadas, mientras que el molino de viento tradicional requiere atención constante. &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png&#34; alt=&#39;Imagen: “Travailler au moulin / Werken met molens/ Trabajando con molinos”, Jean Bruggeman, 1996.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png&#34; alt=&#39;Imagen: “Travailler au moulin / Werken met molens/ Trabajando con molinos”, Jean Bruggeman, 1996.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: “Travailler au moulin / Werken met molens/ Trabajando con molinos”, Jean Bruggeman, 1996. 
 &lt;/figcaption&gt;
@@ -689,26 +689,26 @@
 &lt;p&gt;En consecuencia, una fábrica que requiere energía mecánica puede funcionar con una combinación de energía eólica y solar, lo que aumenta las posibilidades de que haya suficiente energía para hacer funcionar su maquinaria. La capacidad de recolectar energía solar es importante porque es la fuente de energía renovable más ampliamente disponible. La mayor parte de la capacidad energética del agua ya está siendo utilizada. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;energía-térmica&#34;&gt;Energía Térmica&lt;/h2&gt;
 &lt;p&gt;Otra diferencia crucial con los tiempos preindustriales es que podemos aplicar la misma estrategia a los procesos industriales básicos que requieren energía térmica en lugar de energía mecánica. El calor domina el uso de energía industrial, por ejemplo, en la fabricación de productos químicos o microchips, o en la fundición de metales.&lt;/p&gt;
-&lt;p&gt;En tiempos preindustriales, los procesos de fabricación que requerían energía térmica se alimentaban de la quema de biomasa, turba y/o carbón. El uso de estas fuentes de energía causó graves problemas, como &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/&#34;&gt;la deforestación a gran escala, la pérdida de tierras y la contaminación del aire&lt;/a&gt;. Aunque la energía solar se usó en épocas anteriores, por ejemplo, para evaporar sal a lo largo de las costas, para secar cultivos para su conservación o para secar el barro en ladrillos de arcilla, su uso se limitó a procesos que requerían temperaturas relativamente bajas.&lt;/p&gt;
+&lt;p&gt;En tiempos preindustriales, los procesos de fabricación que requerían energía térmica se alimentaban de la quema de biomasa, turba y/o carbón. El uso de estas fuentes de energía causó graves problemas, como &lt;a href=&#34;/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/&#34;&gt;la deforestación a gran escala, la pérdida de tierras y la contaminación del aire&lt;/a&gt;. Aunque la energía solar se usó en épocas anteriores, por ejemplo, para evaporar sal a lo largo de las costas, para secar cultivos para su conservación o para secar el barro en ladrillos de arcilla, su uso se limitó a procesos que requerían temperaturas relativamente bajas.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Podemos aplicar la misma estrategia a los procesos industriales básicos que requieren energía térmica en lugar de energía mecánica, lo cuál no era posible antes de la Revolución Industrial.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;En la actualidad, las energías renovables distintas de la biomasa pueden ser utilizadas para producir energía térmica de dos maneras. En primer lugar, podemos usar turbinas eólicas, turbinas hidráulicas o paneles solares fotovoltaicos para producir electricidad, que luego puede usarse para producir calor mediante resistencia eléctrica. Esto no era posible en la época preindustrial, porque no había electricidad.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png&#34; alt=&#39;Imprenta accionada mediante energía solar de Augustin Mouchot,1882.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png&#34; alt=&#39;Imprenta accionada mediante energía solar de Augustin Mouchot,1882.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imprenta accionada mediante energía solar de Augustin Mouchot,1882. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;En segundo lugar, podemos aplicar directamente el calor solar, utilizando colectores de placas planas a base de agua o colectores de tubos de vacío, que recogen la radiación solar desde todas las direcciones y pueden alcanzar temperaturas de 120 grados centígrados. También tenemos colectores de concentrador solar, que rastrean el sol, concentran su radiación y pueden generar temperaturas lo &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;suficientemente altas como para fundir metales o producir microchips y células solares&lt;/a&gt;. Estas tecnologías solares solo estuvieron disponibles a finales del siglo XIX, siguiendo los avances en la fabricación de vidrio y espejos.&lt;/p&gt;
+&lt;p&gt;En segundo lugar, podemos aplicar directamente el calor solar, utilizando colectores de placas planas a base de agua o colectores de tubos de vacío, que recogen la radiación solar desde todas las direcciones y pueden alcanzar temperaturas de 120 grados centígrados. También tenemos colectores de concentrador solar, que rastrean el sol, concentran su radiación y pueden generar temperaturas lo &lt;a href=&#34;/es/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;suficientemente altas como para fundir metales o producir microchips y células solares&lt;/a&gt;. Estas tecnologías solares solo estuvieron disponibles a finales del siglo XIX, siguiendo los avances en la fabricación de vidrio y espejos.&lt;/p&gt;
 &lt;h2 id=&#34;almacenamiento-de-energía-limitada&#34;&gt;Almacenamiento de Energía Limitada&lt;/h2&gt;
-&lt;p&gt;La ejecución de procesos en fábricas utilizando fuentes de energía variables no excluye aprovechar del almacenamiento de energía o plantas de energía de respaldo para el despacho de la misma. Ajustar la demanda a la oferta debe tener prioridad, pero &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;otras estrategias&lt;/a&gt; pueden ser un apoyo. En primer lugar, el almacenamiento de energía o la capacidad de generación de energía de respaldo podrían ser útiles para procesos de producción críticos que no pueden detenerse durante períodos prolongados, como la producción de alimentos.&lt;/p&gt;
+&lt;p&gt;La ejecución de procesos en fábricas utilizando fuentes de energía variables no excluye aprovechar del almacenamiento de energía o plantas de energía de respaldo para el despacho de la misma. Ajustar la demanda a la oferta debe tener prioridad, pero &lt;a href=&#34;/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;otras estrategias&lt;/a&gt; pueden ser un apoyo. En primer lugar, el almacenamiento de energía o la capacidad de generación de energía de respaldo podrían ser útiles para procesos de producción críticos que no pueden detenerse durante períodos prolongados, como la producción de alimentos.&lt;/p&gt;
 &lt;p&gt;En segundo lugar, el almacenamiento de energía a corto plazo también es útil para ejecutar procesos de producción que están en desventaja debido a un suministro de energía intermitente. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; En tercer lugar, el almacenamiento de energía a corto plazo es crucial para los procesos de fabricación controlados por computadora, permitiendo que sigan funcionando durante breves interrupciones en la fuente de alimentación y que las computadoras se apaguen de forma segura en caso de cortes de energía más prolongados. &lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/binnenshaven-rotterdam_dithered.png&#34; alt=&#39;Binnenshaven Rotterdam, una pintura de Jongkind Johan Berthold (1857)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/binnenshaven-rotterdam_dithered.png&#34; alt=&#39;Binnenshaven Rotterdam, una pintura de Jongkind Johan Berthold (1857)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Binnenshaven Rotterdam, una pintura de Jongkind Johan Berthold (1857) 
 &lt;/figcaption&gt;
@@ -723,7 +723,7 @@
 &lt;p&gt;El transporte de carga es otro candidato para el uso de energía renovable cuando está disponible. Los barcos todavía transportan alrededor del 90 por ciento del comercio mundial, y aunque es la forma de transporte más eficiente en términos de energía por tonelada-kilómetro, el uso total de energía es alto y los buques que funcionan con petróleo son extremadamente contaminantes.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/arne-list_dithered.png&#34; alt=&#39;Imagen de Arne List [CC BY-SA 2.0], via Wikimedia Commons&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/arne-list_dithered.png&#34; alt=&#39;Imagen de Arne List [CC BY-SA 2.0], via Wikimedia Commons&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen de Arne List [CC BY-SA 2.0], via Wikimedia Commons 
 &lt;/figcaption&gt;
@@ -736,7 +736,7 @@
 &lt;p&gt;Al igual que con la fabricación industrial, en la actualidad la tecnología ha avanzado y hay conocimiento disponible para basar una industria naviera mundial únicamente en la energía eólica. Tenemos nuevos materiales para construir barcos y velas, mejores y más duraderos, contamos con instrumentos de navegación y comunicación más precisos, tenemos previsiones meteorológicas más predecibles, podemos utilizar paneles solares como energía de respaldo del motor, y tenemos un conocimiento más detallado sobre vientos y corrientes.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png&#34; alt=&#39;Thomas W. Lawson era una Goleta de 7 mástiles y casco de acero construida en 1902 para el comercio del Pacífico. Tenía una tripulación de 18.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png&#34; alt=&#39;Thomas W. Lawson era una Goleta de 7 mástiles y casco de acero construida en 1902 para el comercio del Pacífico. Tenía una tripulación de 18.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Thomas W. Lawson era una Goleta de 7 mástiles y casco de acero construida en 1902 para el comercio del Pacífico. Tenía una tripulación de 18. 
 &lt;/figcaption&gt;
@@ -747,7 +747,7 @@
 &lt;p&gt;Más recientemente, las carreras de yates han generado muchas innovaciones que nunca se han aplicado al envío comercial. Por ejemplo, en la Copa Americana del 2017, el equipo Emirates New Zealand introdujo bicicletas fijas en lugar de manivelas para alimentar el sistema hidráulico que dirige el barco. Debido a que nuestras piernas son más fuertes que nuestros brazos, el uso de pedal permite un viraje y giro más rápidos en una carrera, pero también podría ser útil para reducir los recursos humanos requeridos para veleros comerciales. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -761,17 +761,17 @@
 &lt;p&gt;Accionar trenes de carga con energía renovable es un gran uso de la energía eólica intermitente, ya que generalmente se operan de noche, cuando la energía eólica a menudo es óptima y la demanda de energía es la más baja. Además, al igual que los buques de carga, los trenes de carga tienen horarios poco confiables porque a menudo permanecen estacionarios en los varaderos durante días, esperando cargarse por completo.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png&#34; alt=&#39;Cardiff Docks, una pintura de Lionel Walden, 1894&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png&#34; alt=&#39;Cardiff Docks, una pintura de Lionel Walden, 1894&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Cardiff Docks, una pintura de Lionel Walden, 1894 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Incluso la velocidad de los trenes podría regularse dependiendo de la cantidad de energía renovable que esté disponible, al igual que la velocidad del viento determina la velocidad de un velero. Un enfoque similar también podría funcionar con otros sistemas de transporte eléctrico, como &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/07/get-wired-again-trolleybuses-and-trolleytrucks/&#34;&gt;trolebús&lt;/a&gt;, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/12/trolley-canal-boats/&#34;&gt;trolebotes&lt;/a&gt; o &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/01/aerial-ropeways-automatic-cargo-transport-for-a-bargain/&#34;&gt;teleféricos aéreos&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Incluso la velocidad de los trenes podría regularse dependiendo de la cantidad de energía renovable que esté disponible, al igual que la velocidad del viento determina la velocidad de un velero. Un enfoque similar también podría funcionar con otros sistemas de transporte eléctrico, como &lt;a href=&#34;/2009/07/get-wired-again-trolleybuses-and-trolleytrucks/&#34;&gt;trolebús&lt;/a&gt;, &lt;a href=&#34;/2009/12/trolley-canal-boats/&#34;&gt;trolebotes&lt;/a&gt; o &lt;a href=&#34;/2011/01/aerial-ropeways-automatic-cargo-transport-for-a-bargain/&#34;&gt;teleféricos aéreos&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;La combinación de trenes de carga y fábricas accionadas por energía solar y eólica crea posibilidades adicionales. Por ejemplo, a primera vista, los trenes de pasajeros impulsados por energía solar o eólica parecen ser imposibles, porque las personas son menos flexibles que los bienes. Si un tren con energía solar no funciona o funciona demasiado lento, es posible que hayan cambios en las agendas de las personas. Del mismo modo, en días nublados, pocas personas llegarían a la oficina.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png&#34; alt=&#39;Paneles fotovoltáicos solares cubren una vía férrea en Bélgica, 2016. Imagen: Infrabel&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png&#34; alt=&#39;Paneles fotovoltáicos solares cubren una vía férrea en Bélgica, 2016. Imagen: Infrabel&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Paneles fotovoltáicos solares cubren una vía férrea en Bélgica, 2016. Imagen: Infrabel 
 &lt;/figcaption&gt;
@@ -787,7 +787,7 @@
 &lt;p&gt;Pero administrar una economía según los ritmos del clima no significa necesariamente que las tasas de producción y consumo disminuirían. Si las fábricas y el transporte de carga ajustan su uso de energía al clima, pueden utilizar la producción anual de energía total de las turbinas eólicas y los paneles solares.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png&#34; alt=&#39;Un Molino de viento en Zaandam, una pintura de Claude Monet, 1871.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png&#34; alt=&#39;Un Molino de viento en Zaandam, una pintura de Claude Monet, 1871.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un Molino de viento en Zaandam, una pintura de Claude Monet, 1871. 
 &lt;/figcaption&gt;
@@ -800,7 +800,7 @@
 &lt;p&gt;Sin embargo, si una fábrica o un tren de carga funciona con energía eólica, entonces la gente también tendría que trabajar durante la noche, lo que se considera poco saludable. Lo bueno es que tendrían vacaciones en verano y en días de buen clima.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png&#34; alt=&#39;Nachtelijk werk in de dokken (Trabajo nocturne en los muelles), una pintura de Henri Adolphe Schaep, 1856.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png&#34; alt=&#39;Nachtelijk werk in de dokken (Trabajo nocturne en los muelles), una pintura de Henri Adolphe Schaep, 1856.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Nachtelijk werk in de dokken (Trabajo nocturne en los muelles), una pintura de Henri Adolphe Schaep, 1856. 
 &lt;/figcaption&gt;
@@ -814,17 +814,17 @@
 &lt;p&gt;Si una fábrica no tiene trabajadores, no importa cuándo esta esté operando. Además, muchas fábricas ya funcionan durante 24 horas por día, en parte operadas por millones de trabajadores haciendo el turno de noche. En estos casos, el trabajo nocturno en realidad disminuiría porque estas fábricas solo funcionarán durante la noche si hace viento.&lt;/p&gt;
 &lt;p&gt;Finalmente, también podríamos limitar la parte principal de la fabricación industrial y el transporte ferroviario a las horas de trabajo normales, y reducir el exceso de oferta durante la noche. En este escenario, simplemente tendríamos menos bienes materiales y más vacaciones. Por otro lado, habría una mayor necesidad de otros tipos de trabajos, como la artesanía y la navegación.&lt;/p&gt;
 &lt;h2 id=&#34;qué-hay-del-internet&#34;&gt;¿Qué hay del Internet?&lt;/h2&gt;
-&lt;p&gt;En conclusión, la fabricación industrial y el transporte de carga, tanto terrestre como marítimo, podrían ejecutarse casi en su totalidad con fuentes de energía renovables variables, con poca necesidad de almacenamiento de energía, redes de transmisión, capacidad de equilibrado o sobre-construcción de plantas de energía renovable. En contraste, el enfoque moderno de alta tecnología de unir el suministro de energía a la demanda de energía en todo momento requiere una gran cantidad de infraestructura adicional que hace que la producción de energía renovable sea una &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;tarea compleja, lenta, costosa e insostenible&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En conclusión, la fabricación industrial y el transporte de carga, tanto terrestre como marítimo, podrían ejecutarse casi en su totalidad con fuentes de energía renovables variables, con poca necesidad de almacenamiento de energía, redes de transmisión, capacidad de equilibrado o sobre-construcción de plantas de energía renovable. En contraste, el enfoque moderno de alta tecnología de unir el suministro de energía a la demanda de energía en todo momento requiere una gran cantidad de infraestructura adicional que hace que la producción de energía renovable sea una &lt;a href=&#34;/es/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;tarea compleja, lenta, costosa e insostenible&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ajustar la demanda de energía al suministro haría que el cambio a la energía renovable fuera mucho más realista de lo que es hoy. No habría reducción de energía ni pérdidas por almacenamiento y transmisión. Toda la energía producida por los paneles solares y las turbinas eólicas se usaría en el lugar y nada se desperdiciaría.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png&#34; alt=&#39;Marina, una pintura de Carol Popp de Szathmary, 1800s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png&#34; alt=&#39;Marina, una pintura de Carol Popp de Szathmary, 1800s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Marina, una pintura de Carol Popp de Szathmary, 1800s. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Ajustar la demanda de energía al suministro de energía puede ser menos sencillo en otros sectores. A pesar de que Internet podría operarse completamente con fuentes de energía variables, utilizando &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2015/10/how-to-build-a-low-tech-internet/&#34;&gt;redes asíncronas y softwares tolerantes al retardo&lt;/a&gt;, muchas aplicaciones de Internet más nuevas desaparecerían.&lt;/p&gt;
+&lt;p&gt;Ajustar la demanda de energía al suministro de energía puede ser menos sencillo en otros sectores. A pesar de que Internet podría operarse completamente con fuentes de energía variables, utilizando &lt;a href=&#34;/es/2015/10/how-to-build-a-low-tech-internet/&#34;&gt;redes asíncronas y softwares tolerantes al retardo&lt;/a&gt;, muchas aplicaciones de Internet más nuevas desaparecerían.&lt;/p&gt;
 &lt;p&gt;En casa, probablemente no podemos esperar que las personas se sienten a oscuras o que no cocinen cuando no hay energía renovable. Del mismo modo, las personas no vendrán a los hospitales sino hace sol. En tales casos, existe una mayor necesidad de almacenamiento de energía u otras medidas para contrarrestar un suministro de energía intermitente. Esto es material para una próxima publicación.&lt;/p&gt;
 &lt;p&gt;Parte de la investigación de este artículo se realizó durante una beca en el &lt;a href=&#34;http://www.demand.ac.uk/&#34;&gt;Demand Center&lt;/a&gt;, Lancaster, Reino Unido.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

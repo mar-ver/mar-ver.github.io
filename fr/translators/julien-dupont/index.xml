@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://lowtechmag.gitlab.io/solar/fr/translators/julien-dupont/</link>
+    <link>/fr/translators/julien-dupont/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 13 Feb 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/julien-dupont/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Feb 2008 00:00:00 +0000</lastBuildDate><atom:link href="/fr/translators/julien-dupont/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Le droit aux 35 mobiles</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2008/02/the-right-to-35-mobiles/</link>
+      <link>/fr/2008/02/the-right-to-35-mobiles/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2008/02/the-right-to-35-mobiles/images/dithers/mobiele-telefoon_dithered.png" type="image/png" length="2371" ></enclosure>
+      <enclosure url="/fr/2008/02/the-right-to-35-mobiles/images/dithers/mobiele-telefoon_dithered.png" type="image/png" length="2371" ></enclosure>
       <pubDate>Wed, 13 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2008/02/the-right-to-35-mobiles/</guid>
+      <guid>/fr/2008/02/the-right-to-35-mobiles/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2008/02/the-right-to-35-mobiles/images/dithers/mobiele-telefoon_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2008/02/the-right-to-35-mobiles/images/dithers/mobiele-telefoon_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -36,7 +36,7 @@ a constitué un autre argument pour justifier l’achat d’un nouveau télépho
 &lt;p&gt;Parmi les améliorations récentes, citons les téléphones à écran tactile, les téléphones avec GPS intégré et les téléphones connectés à Internet. Cette dernière amélioration, assortie d’un réseau 3G plus rapide comme l’UMTS, sort du lot : bon nombre de personnes la considèrent comme particulièrement prometteuse pour l’avenir : encore un peu de patience et chacun pourra utiliser son téléphone pour envoyer des e-mails, surfer sur la toile, télécharger de la musique, ou regarder la télévision et jouer à des jeux en ligne.&lt;/p&gt;
 &lt;p&gt;Mis à part ces améliorations techniques, le téléphone portable est aussi un objet tendance ainsi qu’un symbole social, ce qui est une bonne raison en soi pour le changer régulièrement. Le résultat de tout ceci, c’est que la durée de vie moyenne d’un téléphone portable ne dépasse même pas deux ans. La plupart du temps, nous en changeons lorsque la batterie nous lâche.&lt;/p&gt;
 &lt;h2 id=&#34;fabrication-du-téléphone&#34;&gt;Fabrication du téléphone&lt;/h2&gt;
-&lt;p&gt;Cela signifie que chacun d’entre nous aura environs &lt;a href=&#34;http://www.weeeman.org/html/impact/facts.html&#34;&gt;35 téléphones portables&lt;/a&gt; dans sa vie. D’un point de vue environnemental, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;la fabrication de toutes ces machines&lt;/a&gt; consomme plus d’énergie que leur utilisation.&lt;/p&gt;
+&lt;p&gt;Cela signifie que chacun d’entre nous aura environs &lt;a href=&#34;http://www.weeeman.org/html/impact/facts.html&#34;&gt;35 téléphones portables&lt;/a&gt; dans sa vie. D’un point de vue environnemental, &lt;a href=&#34;/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;la fabrication de toutes ces machines&lt;/a&gt; consomme plus d’énergie que leur utilisation.&lt;/p&gt;
 &lt;p&gt;Selon une &lt;a href=&#34;http://www.weeeman.org/html/what/lifecycle_case.html&#34;&gt;étude du cycle de vie&lt;/a&gt; commanditée par Nokia, 70 % de la consommation énergétique totale d’un téléphone portable est utilisée lors de sa production : le minage des ressources, la production des composants, l’assemblage de la machine et enfin le transport des ressources, des composants et des produits finis. Le rechargement du téléphone ne correspond qu’à 30 % de sa consommation énergétique totale.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;70 à 95 % de la consommation énergétique totale d’un téléphone portable est utilisée lors de la phase de production.&lt;/p&gt;
@@ -56,7 +56,7 @@ a constitué un autre argument pour justifier l’achat d’un nouveau télépho
 &lt;p&gt;Si vous souhaitez faire un choix écologique, il n’y a qu’une seule option : conservez votre téléphone aussi longtemps que possible, et ne succombez pas à la première nouveauté venue.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Les (petits) efforts des fabricants pour rendre leurs gadgets plus écologiques visent principalement la réduction de la consommation énergétique durant la phase d’utilisation. Mais si nous voulons limiter la consommation énergétique du réseau téléphone, il est bien plus efficace d’allonger la durée de vie des portables. De plus, l’augmentation de l’efficacité énergétique est constamment annulée par des applications nouvelles, plus énergivores.&lt;/p&gt;
-&lt;p&gt;Même les portables qui se rechargent avec des panneaux solaires ou une dynamo n’ont pas beaucoup d’influence positive sur les dégâts écologiques de la technologie. Il en est de même pour les téléphones facilement recyclables. Comme mentionné auparavant, 90 % des déchets sont produits lors de la phase de &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;production&lt;/a&gt;. La quantité de déchets d’équipements électriques et électroniques, bien qu’astronomique, représente seulement la partie émergée de l’iceberg.&lt;/p&gt;
+&lt;p&gt;Même les portables qui se rechargent avec des panneaux solaires ou une dynamo n’ont pas beaucoup d’influence positive sur les dégâts écologiques de la technologie. Il en est de même pour les téléphones facilement recyclables. Comme mentionné auparavant, 90 % des déchets sont produits lors de la phase de &lt;a href=&#34;/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;production&lt;/a&gt;. La quantité de déchets d’équipements électriques et électroniques, bien qu’astronomique, représente seulement la partie émergée de l’iceberg.&lt;/p&gt;
 &lt;p&gt;Si vous voulez faire un choix écologique, il n’y a qu’une seule option : conservez votre téléphone aussi longtemps que possible, et ne succombez pas à la première nouveauté venue. Malheureusement, ce n’est pas ce genre de « bonne parole » qui sera répandue à Barcelone, lors du Mobile World Congress.&lt;/p&gt;
 </description>
     </item>

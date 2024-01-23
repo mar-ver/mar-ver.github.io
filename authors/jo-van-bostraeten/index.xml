@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://lowtechmag.gitlab.io/solar/authors/jo-van-bostraeten/</link>
+    <link>/authors/jo-van-bostraeten/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/authors/jo-van-bostraeten/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="/authors/jo-van-bostraeten/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Make Everything Ourselves: Open Modular Hardware</title>
-      <link>https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/</link>
+      <link>/2012/12/how-to-make-everything-ourselves-open-modular-hardware/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" type="image/png" length="18540" ></enclosure>
+      <enclosure url="/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png" type="image/png" length="18540" ></enclosure>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/</guid>
+      <guid>/2012/12/how-to-make-everything-ourselves-open-modular-hardware/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png&#34; alt=&#39;Open source water boiler. Design by Jesse Howard in collaboration with Thomas Lommée. Pictures by Thomas Lommée and Kristof Vrancken.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-consumer-goods_dithered.png&#34; alt=&#39;Open source water boiler. Design by Jesse Howard in collaboration with Thomas Lommée. Pictures by Thomas Lommée and Kristof Vrancken.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Open source water boiler. Design by Jesse Howard in collaboration with Thomas Lommée. Pictures by Thomas Lommée and Kristof Vrancken. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Reverting to &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/02/the-art-of-producing-sustainable-consumer-goods-basketry/&#34;&gt;traditional handicrafts&lt;/a&gt; is one way to sabotage the throwaway society. In this article, we discuss another possibility: the design of modular consumer products, whose parts and components could be re-used for the design of other products.&lt;/p&gt;
+&lt;p&gt;Reverting to &lt;a href=&#34;/2012/02/the-art-of-producing-sustainable-consumer-goods-basketry/&#34;&gt;traditional handicrafts&lt;/a&gt; is one way to sabotage the throwaway society. In this article, we discuss another possibility: the design of modular consumer products, whose parts and components could be re-used for the design of other products.&lt;/p&gt;
 &lt;p&gt;Initiatives like OpenStructures, Grid Beam, and Contraptor combine the modularity of systems like LEGO, Meccano and Erector with the collaborative power of digital success stories like Wikipedia, Linux or WordPress.&lt;/p&gt;
 &lt;p&gt;An economy based on the concept of re-use would not only bring important advantages in terms of sustainability, but would also save consumers money, speed up innovation, and take manufacturing out of the hands of multinationals.&lt;/p&gt;
 &lt;h2 id=&#34;modular-products&#34;&gt;Modular Products&lt;/h2&gt;
@@ -32,7 +32,7 @@
 &lt;p&gt;LEGO, Meccano and Erector are composed of relatively few elementary building blocks, which can be used to build various objects. The parts can then be disassembled and re-used to build something completely different. Apart from the elementary buildings blocks, these manufacturers have produced many more specific building blocks, which are less versatile, but further increase customisation possibilities.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png&#34; alt=&#39;Lego dimensions (view original image).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/lego-modular_dithered.png&#34; alt=&#39;Lego dimensions (view original image).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Lego dimensions (view original image). 
 &lt;/figcaption&gt;
@@ -44,7 +44,7 @@
 &lt;p&gt;The same principle could be applied to everyday objects, from coffeemakers to furniture, gadgets, cars and renewable energy systems. All you need is a standardisation in design. The design rules can be very simple, as is the case with &lt;a href=&#34;http://www.gridbeam.com/&#34;&gt;Grid Beam&lt;/a&gt;. This modular construction system, which was developed in 1976, is based on beams with a simple geometry and a repetitive hole-pattern. The beams can be made of wood, aluminium, steel, or any other material.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png&#34; alt=&#39;A Grid Beam high sleeper.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-high-sleeper_dithered.png&#34; alt=&#39;A Grid Beam high sleeper.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A Grid Beam high sleeper. 
 &lt;/figcaption&gt;
@@ -53,7 +53,7 @@
 &lt;p&gt;In spite of the simplicity of the design, a great variety of objects can be constructed. Grid Beam has been used to make all kinds of furniture, greenhouses, constructions for workshops and industrial processes, windmills, wheelbarrows, agricultural machinery, vehicles, sheds and buildings (a book about the system was published in 2009, and &lt;a href=&#34;http://www.gridbeam.com/a-revolution-in-diy-engineering/&#34;&gt;can be found online&lt;/a&gt;). Grid Beam was inspired by a system envisioned by Ken Isaacs in the 1950s, &lt;a href=&#34;http://www.publiccollectors.org/CompletePublications.htm&#34;&gt;Living Structures&lt;/a&gt;, which used similar beams but contained only a few holes.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png&#34; alt=&#39;A Grid Beam wheelbarrow.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/gridbeam-wheelbarrow_dithered.png&#34; alt=&#39;A Grid Beam wheelbarrow.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A Grid Beam wheelbarrow. 
 &lt;/figcaption&gt;
@@ -63,7 +63,7 @@
 uses a similar approach, but is aimed at providing structural metal frames for DIY 3D-printers, milling machines, or robotics. &lt;a href=&#34;http://openbeamusa.com/&#34;&gt;OpenBeam&lt;/a&gt; and &lt;a href=&#34;https://www.sparkfun.com/products/10540?&#34;&gt;MakerBeam&lt;/a&gt; are also modular construction systems based on very simple rules. These are not based on a hole-pattern, but use T-slot aluminium profiles. &lt;a href=&#34;http://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform&#34;&gt;Makeblock&lt;/a&gt; combines both approaches and includes electronic modules.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png&#34; alt=&#39;BitBeam parts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/bitbeam_dithered.png&#34; alt=&#39;BitBeam parts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  BitBeam parts. 
 &lt;/figcaption&gt;
@@ -75,7 +75,7 @@ uses a similar approach, but is aimed at providing structural metal frames for D
 &lt;p&gt;The first basic rule of OpenStructures is shared with Grid Beam and similar systems: all parts are connected to each other in such a way that they can be easily disassembled, using bolts and screws rather than nails or glue. However, the OpenStructures design &amp;ldquo;language&amp;rdquo; is different: it is based on the &lt;a href=&#34;http://openstructures.net/pages/9&#34;&gt;OS Grid&lt;/a&gt;, which is built around a square of 4x4 cm and is scalable. The squares can be further subdivided or put together to form larger squares, without losing inter-compatibility. The illustration below shows nine complete squares of each 4x4 cm put together.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png&#34; alt=&#39;OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures_dithered.png&#34; alt=&#39;OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another. 
 &lt;/figcaption&gt;
@@ -84,7 +84,7 @@ uses a similar approach, but is aimed at providing structural metal frames for D
 &lt;p&gt;The borders of the squares mark the cutting lines (which define the dimensions of square parts), the diagonals determine the assembly points, and the circles define the common diameters. As is the case with LEGO, any modular part has to comply with at least one of these conditions in order to be compatible with other parts. Either the dimensions have to correspond with the horizontal and vertical lines, or the assembly points should be spaced according to the grid, or the diameters should be similar. Below is a part that fulfills two of three conditions.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png&#34; alt=&#39;OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-structures2_dithered.png&#34; alt=&#39;OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another. 
 &lt;/figcaption&gt;
@@ -96,7 +96,7 @@ uses a similar approach, but is aimed at providing structural metal frames for D
 modular systems, where all parts are designed and produced by one manufacturer. Closed modular systems produce uniform parts. For instance, all LEGO building blocks are made of plastic. LEGO does not produce building blocks made of wood, aluminium, glass or ceramics. There is a limited range of colours. And because LEGO is a closed system, nobody else is allowed to produce LEGO pieces.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png&#34; alt=&#39;Closed (left) versus open (right) modular systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/os_dithered.png&#34; alt=&#39;Closed (left) versus open (right) modular systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Closed (left) versus open (right) modular systems. 
 &lt;/figcaption&gt;
@@ -111,20 +111,20 @@ modular systems, where all parts are designed and produced by one manufacturer. 
 &lt;p&gt;Modular construction systems encourage the re-use of physical parts, and thus form a sustainable alternative to our present-day system of producing consumer items. Most products that we buy end up in landfills or incinerators within a couple of years, at most. This is because the majority of manufacturers encourages consumers to replace their products as quickly as possible, either by designing objects that break down easily, or by introducing new generations of products which make the former generation of products obsolete. This approach not only generates a massive pile of waste, it squanders an equally massive amount of energy and raw materials.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png&#34; alt=&#39;OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/part-os-grid_dithered.png&#34; alt=&#39;OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenStructures’ design guidelines allow everybody to design compatible parts and components independently from one another. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Consumer products based on an open modular system can foster rapid innovation, without the drawback of wasting energy and materials. The parts of an obsolete generation of products can be used to design the next generation, or something completely different. Furthermore, modular objects have built-in repairability.&lt;/p&gt;
-&lt;p&gt;Open modular construction systems could greatly speed up the diffusion of low-technologies, such as &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;pedal-powered machines&lt;/a&gt;, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal collectors&lt;/a&gt;, &lt;a href=&#34;http://www.lowtechmagazine.com/velomobiles/&#34;&gt;velomobiles&lt;/a&gt; or &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/&#34;&gt;cargo cycles&lt;/a&gt;. Building a windmill or a cargo bike goes much faster when using modular parts than when using carpentry or welding, and there is no need for expensive tools or special skills. Mistakes can be easily corrected &amp;ndash;
+&lt;p&gt;Open modular construction systems could greatly speed up the diffusion of low-technologies, such as &lt;a href=&#34;/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;pedal-powered machines&lt;/a&gt;, &lt;a href=&#34;/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal collectors&lt;/a&gt;, &lt;a href=&#34;http://www.lowtechmagazine.com/velomobiles/&#34;&gt;velomobiles&lt;/a&gt; or &lt;a href=&#34;/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/&#34;&gt;cargo cycles&lt;/a&gt;. Building a windmill or a cargo bike goes much faster when using modular parts than when using carpentry or welding, and there is no need for expensive tools or special skills. Mistakes can be easily corrected &amp;ndash;
 just unscrew the bolts and start again. It would also be interesting to see modular parts combined with an open hardware project such as the &lt;a href=&#34;http://www.notechmagazine.com/2011/05/how-to-build-your-own-industrial-civilization.html&#34;&gt;Global Village Construction Set&lt;/a&gt;, which generates many interesting designs but makes limited use of modularity.&lt;/p&gt;
 &lt;h2 id=&#34;circulation-of-parts&#34;&gt;Circulation of Parts&lt;/h2&gt;
 &lt;p&gt;&amp;ldquo;While eBay provides a circulation of objects, and cradle-to-cradle provides a circulation of materials, modular construction systems provide a circulation of parts and components&amp;rdquo;, says Thomas Lommée, the creator of OpenStructures. &amp;ldquo;Our ambition is to create puzzles instead of static objects. The system should generate objects of which it is not entirely clear anymore who designed them. An object evolves as it is taken in hands by more designers.&amp;rdquo;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png&#34; alt=&#39;OpenStructures kitchen appliances.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/kitchen-appliances-open-structures_dithered.png&#34; alt=&#39;OpenStructures kitchen appliances.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenStructures kitchen appliances. 
 &lt;/figcaption&gt;
@@ -135,16 +135,16 @@ just unscrew the bolts and start again. It would also be interesting to see modu
 &lt;p&gt;Another prototype that originated from the project, is a cargo cycle. The rear is a sawed through frame of a standard bicycle, the end of which is compatible with the OS Grid. This means that the front of the cycle can be built up in a modular way. Designer Jo Van Bostraeten used this opportunity to design both a cargo bicycle and a cargo tricycle (the latter is carrying a 3D-printer), and it doesn&amp;rsquo;t end there. Together with Lommée, he also constructed a modular motor block. The unit consists of an electric motor and wheels, on top of which a similar unit can be placed that holds a battery. Since the units are compatible with the OS Grid, they can be coupled to the front of the cargo cycle, resulting in a completely modular motorised cargo vehicle.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png&#34; alt=&#39;OpenStructure cargo bike. Design by Jo van Bostraeten. Picture by Kristof Vrancken.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/cargo-cycle_dithered.png&#34; alt=&#39;OpenStructure cargo bike. Design by Jo van Bostraeten. Picture by Kristof Vrancken.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenStructure cargo bike. Design by Jo van Bostraeten. Picture by Kristof Vrancken. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;The latest &amp;ldquo;family&amp;rdquo; of objects to come out of the project is aimed at children. It is noteworthy that this collection arose from one component of the cargo cycle — the container. It is built up from modular parts that can be bolted together, and can thus be combined in different ways. A couple of designers got started with those parts, resulting in (among other things) a sled, a seat, a toy excavator, and a swing. When the child becomes an adolescent, the parts can be used to make a suitcase or a tool box, or become part of a cargo cycle that could &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/&#34;&gt;make him or her some pocket money&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The latest &amp;ldquo;family&amp;rdquo; of objects to come out of the project is aimed at children. It is noteworthy that this collection arose from one component of the cargo cycle — the container. It is built up from modular parts that can be bolted together, and can thus be combined in different ways. A couple of designers got started with those parts, resulting in (among other things) a sled, a seat, a toy excavator, and a swing. When the child becomes an adolescent, the parts can be used to make a suitcase or a tool box, or become part of a cargo cycle that could &lt;a href=&#34;/2012/09/cargo-cyclists-replace-truck-drivers-on-european-city-streets/&#34;&gt;make him or her some pocket money&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png&#34; alt=&#39;OpenStructures suitcase, using the same container as the cargo bike, and other objects. Design and picture by Marijn Van Der Pol.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/open-source-objects_dithered.png&#34; alt=&#39;OpenStructures suitcase, using the same container as the cargo bike, and other objects. Design and picture by Marijn Van Der Pol.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenStructures suitcase, using the same container as the cargo bike, and other objects. Design and picture by Marijn Van Der Pol. 
 &lt;/figcaption&gt;
@@ -158,10 +158,10 @@ just unscrew the bolts and start again. It would also be interesting to see modu
 &lt;/blockquote&gt;
 &lt;p&gt;The webpage for each part, component and object also gives additional information: the dimensions, the materials, the designer&amp;rsquo;s name, the licence and the order information. To add to this, all parts and components receive a serial number. This means that after a modular object is taken apart, the serial number of each part and component can be entered into the database to see what else can be made with it. Missing parts can be obtained via the database: either by ordering them online, by finding the address of a shop where they sell them, or by downloading the digital design and making them.&lt;/p&gt;
 &lt;h2 id=&#34;not-everyone-is-a-designer&#34;&gt;Not Everyone is a Designer&lt;/h2&gt;
-&lt;p&gt;Open modular construction does not mean that everyone should make their own consumer products. An object like a coffee maker or a workbench could be obtained in at least three ways. Firstly, the consumer can download the digital design and then assemble the object with parts that he or she buys, re-uses, or makes using a 3D-printer or laser cutter, whether at home or at a fab lab or tech shop. It can also happen in a more low-tech fashion, as is the case with Grid Beam: the consumer buys wood or metal beams, and &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;drills the holes himself&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Open modular construction does not mean that everyone should make their own consumer products. An object like a coffee maker or a workbench could be obtained in at least three ways. Firstly, the consumer can download the digital design and then assemble the object with parts that he or she buys, re-uses, or makes using a 3D-printer or laser cutter, whether at home or at a fab lab or tech shop. It can also happen in a more low-tech fashion, as is the case with Grid Beam: the consumer buys wood or metal beams, and &lt;a href=&#34;/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;drills the holes himself&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png&#34; alt=&#39;Modular parts of a water boiler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-parts-water-boiler_dithered.png&#34; alt=&#39;Modular parts of a water boiler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Modular parts of a water boiler. 
 &lt;/figcaption&gt;
@@ -174,7 +174,7 @@ just unscrew the bolts and start again. It would also be interesting to see modu
 &lt;p&gt;It is also important that the parts are produced by as many manufacturers as possible, so that they are available worldwide. Otherwhise, the shipping costs can be so high that a modular object becomes too expensive.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png&#34; alt=&#39;Modularparts of a toaster.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/modular-toaster_dithered.png&#34; alt=&#39;Modularparts of a toaster.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Modularparts of a toaster. 
 &lt;/figcaption&gt;
@@ -186,7 +186,7 @@ just unscrew the bolts and start again. It would also be interesting to see modu
 &lt;p&gt;&amp;ldquo;It is not our ambition to build a gigantic factory that produces all possible parts&amp;rdquo;, Lommée notes. &amp;ldquo;OpenStructures should not become a modular IKEA. Our ambition is the creation of a collective economic system, where one producer benefits from the production of another producer. Because parts which are made by one, can be used by another. What we would like to see, are streets full of little shops where everybody generates their own little part of a larger system, a collaborative economy where small, self-employed producers have their place. Not one big player that makes everything. The social dimension is very important.&amp;rdquo;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png&#34; alt=&#39;Contraptor parts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/contraptor-parts_dithered.png&#34; alt=&#39;Contraptor parts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Contraptor parts. 
 &lt;/figcaption&gt;
@@ -204,7 +204,7 @@ from craftsmen to multinationals — to design, build and exchange the widest po
 &lt;p&gt;While it is still in an experimental phase, OpenStructures is by far the most ambitious and complete open modular system designed to date. However, being a European project, it follows the international metric system, while the much older Grid Beam follows the imperial system. The systems are not compatible. With more and more open modular systems appearing, would it not be important to provide inter-compatibility between them?&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png&#34; alt=&#39;Makeblock.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/makeblock_dithered.png&#34; alt=&#39;Makeblock.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Makeblock. 
 &lt;/figcaption&gt;
@@ -213,7 +213,7 @@ from craftsmen to multinationals — to design, build and exchange the widest po
 &lt;p&gt;Lommée doesn&amp;rsquo;t think so: &amp;ldquo;Most of these systems are designed for different applications. For instance, Contraptor aims at precision, because the parts are used to build robots and other sophisticated machines. Esthetics are clearly not important. I am a designer, so what interests me especially is whether or not a modular system can generate beautiful objects, things you would want to put in your interior. There is also &lt;a href=&#34;http://www.wikispeed.com/&#34;&gt;Wikispeed&lt;/a&gt;, for instance, which concentrates on the development of a modular car. &lt;a href=&#34;http://www.arduino.cc/&#34;&gt;Arduino&lt;/a&gt; is aimed at electronics. I don&amp;rsquo;t think that all of these modular systems have to be compatible with each other because the applications are very different.&amp;rdquo;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png&#34; alt=&#39;OpenBeam.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/12/how-to-make-everything-ourselves-open-modular-hardware/images/dithers/openbeam_dithered.png&#34; alt=&#39;OpenBeam.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  OpenBeam. 
 &lt;/figcaption&gt;

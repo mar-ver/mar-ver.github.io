@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://lowtechmag.gitlab.io/solar/tags/thermal-insulation/</link>
+    <link>/tags/thermal-insulation/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/thermal-insulation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/thermal-insulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Direct Solar Power: Off-Grid Without Batteries</title>
-      <link>https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/</link>
+      <link>/2023/08/direct-solar-power-off-grid-without-batteries/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
+      <enclosure url="/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/</guid>
+      <guid>/2023/08/direct-solar-power-off-grid-without-batteries/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Image: a laptop running on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Image: a laptop running on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: a laptop running on direct solar power. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;Energy storage also dominates the plant&amp;rsquo;s &amp;ldquo;embedded&amp;rdquo; energy (and resulting carbon emissions). Producing my lead-acid battery took 1,200 megajoules (MJ) of energy. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Over a 30-year lifetime (six batteries at best), that equates to 7,200 MJ. The three charge controllers add another 360 MJ over a 30-year lifetime, bringing the total energy consumption for the battery system to 7,560 MJ. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; In contrast, the production of the solar panels costs only 2,275 MJ out of a total of 9,835 MJ. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Conclusion: more than 75% of total fossil energy consumption is due to energy storage.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Image: To the right on the balcony are the two 50W solar panels that power my flat&amp;amp;rsquo;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Image: To the right on the balcony are the two 50W solar panels that power my flat&amp;amp;rsquo;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: To the right on the balcony are the two 50W solar panels that power my flat&#39;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -41,7 +41,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker. 
 &lt;/figcaption&gt;
@@ -49,7 +49,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker. 
 &lt;/figcaption&gt;
@@ -66,7 +66,7 @@
 &lt;p&gt;To answer that question, we look at a pioneer of &amp;ldquo;direct solar power&amp;rdquo;: the &lt;em&gt;Living Energy Farm&lt;/em&gt;. This environmental education community in the US state of Virginia is completely &amp;ldquo;off-the-grid&amp;rdquo; thanks to solar power, but only 10% of the solar power generated passes through a (nickel-iron) battery. However, the solar panels provide power for several homes, a communal kitchen, a metal workshop, and a farm. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Image: direct solar power at the Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Image: direct solar power at the Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: direct solar power at the Living Energy Farm. 
 &lt;/figcaption&gt;
@@ -78,7 +78,7 @@
 &lt;p&gt;On a much smaller scale, I have used direct solar power for a soldering iron, glue gun and irrigation pump (for the balcony) at home. Other examples of appliances and machines that could be used only during the day include hoovers, sewing machines, washing machines, game consoles, laser cutters and 3D printers. It is not so difficult to imagine a modern society where activities such as vacuuming and DIY chores only take place during the day. It is certainly not a return to the Middle Ages.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler. 
 &lt;/figcaption&gt;
@@ -86,7 +86,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler. 
 &lt;/figcaption&gt;
@@ -94,7 +94,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Image: Soldering with direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Image: Soldering with direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Soldering with direct solar power. Photo: Marie Verdeil. [Watch the video](https://www.youtube.com/watch?v=qozZCJU4IOc). 
 &lt;/figcaption&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;Consequently, these types of devices can be charged with direct solar energy during the day and then used for several hours after sunset thanks to the built-in battery. Combined with a lithium-ion power bank, a direct solar panel can also make it possible to charge USB devices after sunset. This strategy can even work for lighting, as there are many battery-powered lamps that you can use as modern torches, hung in different parts of rooms and buildings.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Image: A mobile phone on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Image: A mobile phone on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A mobile phone on direct solar power. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -124,7 +124,7 @@
 &lt;p&gt;A direct solar-powered fridge also opens at the top, not at the front. Cold air is heavy, and so much less energy is lost that way when someone opens the door. All these design choices add up to spectacular energy efficiency. A study of direct solar refrigerators in very sunny regions (Texas and New Mexico, USA) showed that they maintained their cooling capacity for 6 or 7 days without power supply. The units operated year-round with solar panels of only 80W to 120W. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; The Living Energy Farm powers its solar refrigerator with a 200W panel. &lt;sup id=&#34;fnref3:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer. 
 &lt;/figcaption&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;In principle, a conventional cooker can also be connected directly to a solar panel, but as with a conventional fridge, it is not very practical. You can only cook during the day, and you have to install a lot of solar panels. A single hot plate needs 1,000 watts of electrical power. A solar electric cooker solves these problems by packing the cooktop with thermal insulation. The technology is basically a combination of an electric cooktop and a &lt;a href=&#34;https://solar.lowtechmagazine.com/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;haybox&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly). 
 &lt;/figcaption&gt;
@@ -146,7 +146,7 @@
 &lt;p&gt;Cooking after sunset is possible by using a cooking pot with a much thicker bottom (5-10 kg). Cal Poly&amp;rsquo;s research team managed to bring the temperature of that solid heat storage to 250°C in five hours with a 100W solar panel. They were then able to boil a litre of water in three seconds after sunset. In another test, they stir-fried 1 kg of vegetables in two minutes. The ideal configuration consists of two cooking pots: one with and one without heat storage. Thus, an electric solar cooker can cook both slowly and quickly, depending on the time of day and the dish. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly). 
 &lt;/figcaption&gt;
@@ -163,7 +163,7 @@
 &lt;p&gt;Many other devices need a specific and stable voltage input, which usually does not match what the solar panel produces. This can be solved by placing a DC-DC converter (a &amp;ldquo;buck&amp;rdquo; or &amp;ldquo;boost&amp;rdquo; converter) between the solar panel and the device. This is a small electronic module that converts the fluctuating voltage of a solar panel into a constant output voltage for a low-voltage device (5V, 12V or higher). &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Image: Experiments with direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Image: Experiments with direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Experiments with direct solar power. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -176,7 +176,7 @@
 &lt;p&gt;Different technologies can be used for heating elements, but embedding nichrome wires in cement is the simplest option. These wires can be taken from a variety of appliances such as toasters, ovens and hotplates. In principle, the heating wires can be attached directly to the cooking pot, but it is more practical to make a heated &amp;ldquo;nest&amp;rdquo; in which a pot can be placed.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Image: Inspired by Cal Poly&amp;amp;rsquo;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they offer for sale through their website. The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Image: Inspired by Cal Poly&amp;amp;rsquo;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they offer for sale through their website. The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Inspired by Cal Poly&#39;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they [offer for sale through their website](https://livingenergylights.com/product/roxy-solar-electric-oven/). The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage. 
 &lt;/figcaption&gt;
@@ -184,7 +184,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&amp;amp;rsquo;s solar refrigerator for sale online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&amp;amp;rsquo;s solar refrigerator for sale online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&#39;s solar refrigerator [for sale online](https://livingenergylights.com/product/sunstar-direct-drive-8-cuft-chest-style-refrigerator-freezer/). 
 &lt;/figcaption&gt;
@@ -202,7 +202,7 @@
 &lt;p&gt;However, such a smart grid does require a lot of infrastructure, even if direct solar power were to be used at that scale. It may not require batteries or fossil fuels as backup, but it does require transmission and communication infrastructure.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Image: A record player on direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Image: A record player on direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A record player on direct solar power. Photo: Marie Verdeil. [Watch the video](https://www.youtube.com/watch?v=_LjSigJv0-0). 
 &lt;/figcaption&gt;
@@ -301,39 +301,39 @@
     
     <item>
       <title>If We Insulate Our Houses, Why Not Our Cooking Pots?</title>
-      <link>https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</link>
+      <link>/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png" type="image/png" length="39897" ></enclosure>
+      <enclosure url="/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png" type="image/png" length="39897" ></enclosure>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</guid>
+      <guid>/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png&#34; alt=&#39;A fireless/gas cookstove from the 1920s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png&#34; alt=&#39;A fireless/gas cookstove from the 1920s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A fireless/gas cookstove from the 1920s. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;While modern cooking stoves are convenient, when it comes to energy use they leave a lot to be desired. As we &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;have seen in the previous article&lt;/a&gt;, the thermal efficiency of an electric hob does not exceed that of a conventional open fire. In both cases almost 90% of the primary energy is lost during the cooking process.&lt;/p&gt;
+&lt;p&gt;While modern cooking stoves are convenient, when it comes to energy use they leave a lot to be desired. As we &lt;a href=&#34;/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;have seen in the previous article&lt;/a&gt;, the thermal efficiency of an electric hob does not exceed that of a conventional open fire. In both cases almost 90% of the primary energy is lost during the cooking process.&lt;/p&gt;
 &lt;p&gt;Cooking food could be achieved in a far more energy efficient way, especially if the cooking pot itself is insulated. This is the principle behind the fireless cooker, a well-insulated box that keeps food simmering with only the heat of the cooking pot itself. A fireless cooker doubles the efficiency of any type of cooking device because it shortens the time on the fire and limits heat transfer losses.&lt;/p&gt;
 &lt;p&gt;In the early twentieth century, fireless cookers were common additions to western kitchens, similar to the refrigerator or cooking stove. Some models even integrated fireless cookers with gas or electric hobs. These functioned by lowering an insulated hood over the cooking pot once the heat had been switched off.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiencies-cooking-appliances-rich-and-poor-countries_dithered.png&#34; alt=&#39;Graph: Thermal efficiencies of cooking appliances in rich and poor countries.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiencies-cooking-appliances-rich-and-poor-countries_dithered.png&#34; alt=&#39;Graph: Thermal efficiencies of cooking appliances in rich and poor countries.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Graph: Thermal efficiencies of cooking appliances in rich and poor countries. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;In the previous article, we found that &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;cooking food is an incredibly inefficient process&lt;/a&gt;. The thermal efficiency varies from 13% for electric hobs to 23% for gas hobs, and from 5 to 25% for open fires and crude biomass stoves. Cooking stoves also produce considerable levels of indoor air pollution  —  especially in developing countries but also in the modern kitchens of wealthy households. These results show that in both developed and developing nations, energy efficiency and pollution levels in the cooking process can stand to be improved.&lt;/p&gt;
+&lt;p&gt;In the previous article, we found that &lt;a href=&#34;/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;cooking food is an incredibly inefficient process&lt;/a&gt;. The thermal efficiency varies from 13% for electric hobs to 23% for gas hobs, and from 5 to 25% for open fires and crude biomass stoves. Cooking stoves also produce considerable levels of indoor air pollution  —  especially in developing countries but also in the modern kitchens of wealthy households. These results show that in both developed and developing nations, energy efficiency and pollution levels in the cooking process can stand to be improved.&lt;/p&gt;
 &lt;p&gt;The proposed strategies to tackle these issues differ for poor and rich countries. In poorer countries, most efforts concentrate on improving energy efficiency and lowering the indoor pollution caused by biomass stoves. Rocket stoves, for example, can achieve thermal efficiencies of 45% or more, with only about half of the emissions. However, any type of improved biomass stove still requires wood for fuel, and continues to produce air pollution.&lt;/p&gt;
 &lt;p&gt;In the western world, the proposed solution is a more widespread use of the best available technology, such as electric induction stoves. However, these devices obtain a thermal efficiency of only 15%, which means that 85% of the energy generated for cooking is wasted. In summary, the present-day approach to improving the sustainability of cooking stoves is not very ambitious.&lt;/p&gt;
 &lt;h2 id=&#34;why-is-cooking-so-inefficient&#34;&gt;Why is cooking so inefficient?&lt;/h2&gt;
 &lt;p&gt;To further improve upon the efficiency of cooking, we have to take a closer look at where the greatest energy losses are incurred. For electric hobs and microwaves, the most significant waste of energy can be attributed to power conversion losses. Converting fossil fuels or biomass into electricity produces an energy efficiency level of 20-45% depending on the power plant, which explains why electric stoves are among the least efficient cooking devices.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/gas-stove_dithered.png&#34; alt=&#39;Gas stoves have the largest heat transfer losses of all modern cooking stoves. Image: Ashley Bischoff @ Flickr.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/gas-stove_dithered.png&#34; alt=&#39;Gas stoves have the largest heat transfer losses of all modern cooking stoves. Image: Ashley Bischoff @ Flickr.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Gas stoves have the largest heat transfer losses of all modern cooking stoves. Image: [Ashley Bischoff @ Flickr](https://www.flickr.com/photos/handcoding/2306148621/sizes/l/in/photolist-9fwxsE-ceme3-6fsdHT-baqyQD-4vMBD8-7qKtbt-7wgwmh-5mxmYh-7t5MRY-32Zkcr-334VPJ-32ZneV-6WNUnd-4otRwY-9YKx7X-eNvbyf-5K212X-6oy431-3i4xq-5dhzoB-6aXzBk-bcpTDp-3LarEn-5Ru5J2-3i4xp-4sXcWB-4tNCfP-7teghU-8XjEGz-4KFDC7-4nXEtC-CgUdE-4hWhcF-4jFwAw-7estzW-49Ti1-9n5zm5-5vGLzJ-5LULtt-6v5ReY-67t5UC-5FrWB8-5vCsSD-6psLwc-a2JTdv-SBfWT-8shCrM-52ndMn-4RfqYF-7jkgdz/). 
 &lt;/figcaption&gt;
@@ -349,7 +349,7 @@
 &lt;p&gt;A simple way to start improving cooking efficiency is by using a pot skirt. This device increases heat transfer efficiency between cooking stove and cooking pot. They work with all but the electric stove. A pot skirt is a vertical sleeve, usually of metal, that forces the hot gases from the fire to flow closely around the sides of the pot. Skirts can be insulated on the outside, which brings the additional benefit of decreasing heat losses from the sides of the pot.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pot-skirt_dithered.png&#34; alt=&#39;A pot skirt. Picture: Ecozoomstove.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pot-skirt_dithered.png&#34; alt=&#39;A pot skirt. Picture: Ecozoomstove.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A pot skirt. Picture: [Ecozoomstove](http://ecozoomstove.com/blogs/ecozoom/13498333-maximum-rocket-stove-efficiency-use-a-pot-skirt). 
 &lt;/figcaption&gt;
@@ -360,7 +360,7 @@
 &lt;p&gt;The rather well-known pressure cooker takes a different approach. A pressure cooker is a sealed vessel which reaches higher water temperatures because of added steam pressure, making it more energy efficient and able to cook food faster. It is either operated electrically (as a standalone device or on an electric stove), or used in combination with a gas, biomass, coal or solar stove. The pressure cooker lowers both power conversion losses (because of shorter cooking times) and heat transfer losses (because it completely eliminates heat loss through evaporation).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pressure-cooker_dithered.png&#34; alt=&#39;A pressure cooker. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pressure-cooker_dithered.png&#34; alt=&#39;A pressure cooker. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A pressure cooker. Image: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -372,7 +372,7 @@
 &lt;p&gt;While we can see marked improvements with the pressure cooker, these vessels still lose heat through the walls and lid, and these losses are considerable. There are also heat transfer losses between the stove and the pot if the device is placed on a hob. However, if we bring food to a boil and then quickly put the pot in a well-insulated box, the heat transfer energy losses can be minimized to such an extent that the cooking process continues, without any further energy input.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-basket_dithered.png&#34; alt=&#39;Fireless cooker in a basket. Picture: Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-basket_dithered.png&#34; alt=&#39;Fireless cooker in a basket. Picture: Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Fireless cooker in a basket. Picture: [Solar Cookers International](http://solarcooking.wikia.com/wiki/Heat-retention_cooking). 
 &lt;/figcaption&gt;
@@ -385,17 +385,17 @@
 &lt;p&gt;The fireless cooker is the key to efficient cooking in poor and rich countries alike. It almost completely eliminates heat transfer loss and reduces cooking time on the fire or hob substantially, thus addressing the two largest energy losses in the cooking process. Fireless cookers can lower energy use by more than 80%, but the precise savings potential depends on many factors. Such factors include the insulation material, the design of the fireless cooker, the required cooking time of the dish, the food itself, and the swiftness with which the cooking pot is moved from the stove to the fireless cooker.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/classical-fireless-cooker_dithered.png&#34; alt=&#39;A classical fireless cooker. Image: Natuurlijk Bewaren.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/classical-fireless-cooker_dithered.png&#34; alt=&#39;A classical fireless cooker. Image: Natuurlijk Bewaren.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A classical fireless cooker. Image: [Natuurlijk Bewaren](http://www.natuurlijkbewaren.nl/website/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;The Partnership for Clean Indoor Air (PCIA) has measured the energy savings of fireless cookers. In their &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;test of 18 types of solid fuel cooking stoves&lt;/a&gt;, the energy savings of the fireless cooker amount to an average fuel reduction of 50%, which is the number we will use in this article.&lt;/p&gt;
+&lt;p&gt;The Partnership for Clean Indoor Air (PCIA) has measured the energy savings of fireless cookers. In their &lt;a href=&#34;/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;test of 18 types of solid fuel cooking stoves&lt;/a&gt;, the energy savings of the fireless cooker amount to an average fuel reduction of 50%, which is the number we will use in this article.&lt;/p&gt;
 &lt;p&gt;If we combine an electric stove with a fireless cooker, we can double its thermal efficiency. Combined they reach 26%, which is still not very impressive, but at least achieves a higher energy efficiency than a gas stove alone. A gas stove used in conjunction with a fireless cooker obtains 46% thermal efficiency, while a well-tended fire with a fireless cooker attains 50%. A combination of a rocket stove with a fireless cooker is more than 80% efficient. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiency-fireless-cooker_dithered.png&#34; alt=&#39;Graph: Thermal efficiency of a fireless cooker&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiency-fireless-cooker_dithered.png&#34; alt=&#39;Graph: Thermal efficiency of a fireless cooker&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Graph: Thermal efficiency of a fireless cooker 
 &lt;/figcaption&gt;
@@ -410,7 +410,7 @@ for this purpose; tightly woven &lt;a href=&#34;http://books.google.es/books?id=
 received an award at the 1867 World Exhibition in Paris. It was a simple yet elegant container with four layers of felt for insulation.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-with-associated-cooking-pots_dithered.png&#34; alt=&#39;A fireless cooker with associated cooking pots. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-with-associated-cooking-pots_dithered.png&#34; alt=&#39;A fireless cooker with associated cooking pots. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A fireless cooker with associated cooking pots. Image: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -423,7 +423,7 @@ received an award at the 1867 World Exhibition in Paris. It was a simple yet ele
 &lt;p&gt;The best models were made entirely out of metal lined with mineral wool insulation, and kept the cooking pot and insulating material separated for easy cleaning and durable construction. These devices were also used for cooling.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-integrated-in-gas-hub_dithered.png&#34; alt=&#39;A fireless cooker integrated into a gas hob.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-integrated-in-gas-hub_dithered.png&#34; alt=&#39;A fireless cooker integrated into a gas hob.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A fireless cooker integrated into a gas hob. 
 &lt;/figcaption&gt;
@@ -431,7 +431,7 @@ received an award at the 1867 World Exhibition in Paris. It was a simple yet ele
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooking-gas-range_dithered.png&#34; alt=&#39;A Chambers Fireless Cooking Gas Range from the 1910s. The insulated hoods were lowered over the burners.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooking-gas-range_dithered.png&#34; alt=&#39;A Chambers Fireless Cooking Gas Range from the 1910s. The insulated hoods were lowered over the burners.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A Chambers Fireless Cooking Gas Range from the 1910s. The insulated hoods were lowered over the burners. 
 &lt;/figcaption&gt;
@@ -441,7 +441,7 @@ received an award at the 1867 World Exhibition in Paris. It was a simple yet ele
 a combination of gas stove, gas oven and fireless cooker. The device obviated the need to move cooking utensils from the hob to the fireless cooker by making use of insulated hoods — &amp;ldquo;thermodomes&amp;rdquo; — that could be lowered over the burners. The food was brought to a boil, the gas was shut off, and then the pot would be covered up by the thermodome. The inverted receptacle was raised and lowered with the assistance of a counterbalance.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-fireless-cooker_dithered.png&#34; alt=&#39;Image: How to operate the thermodome.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-fireless-cooker_dithered.png&#34; alt=&#39;Image: How to operate the thermodome.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: How to operate the thermodome. 
 &lt;/figcaption&gt;
@@ -451,7 +451,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;Another attempt to merge fireless cookers with cookstoves was the &lt;a href=&#34;http://www.automaticwasher.org/cgi-bin/TD/TD-VIEWTHREAD.cgi?51147_3&#34;&gt;deep well cooker&lt;/a&gt; (also known as the &amp;ldquo;thrift cooker&amp;rdquo;). Old ranges, both gas and electric, sometimes had one of their burners sunk into a hole in the cooktop. This &amp;ldquo;well&amp;rdquo; had heavily insulated sides and enclosed a specifically designed pot with an insulated lid and no handles on the sides.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/deep-well-cooker_dithered.png&#34; alt=&#39;A deep well cooker from the 1950s. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/deep-well-cooker_dithered.png&#34; alt=&#39;A deep well cooker from the 1950s. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A deep well cooker from the 1950s. [Source](http://www.automaticwasher.org/cgi-bin/TD/TD-VIEWTHREAD.cgi?51147_3). 
 &lt;/figcaption&gt;
@@ -467,7 +467,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;An important innovation in the western market is the so-called thermal cooker which appeared in the 1990s. The device is based on vacuum technology: the principle behind the thermos flask. The thermal cooker is comprised of a removable cooking pot, with handle and lid, that fits inside a vacuum flask which has a diameter ranging from 20 to 50 cm. The cooking pot is heated on the cooking stove (regardless of type) and then moved to and sealed in the flask. Find an exampe &lt;a href=&#34;http://www.zojirushi.com/products/snxae&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-cooker_dithered.png&#34; alt=&#39;A thermal cooker. The high-tech version of the fireless cooker. The cooking pot (left) is put on the fire and transferred to the vacuum flask (right) once to food has been brought to a boil. Picture: Thermal Cookware&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-cooker_dithered.png&#34; alt=&#39;A thermal cooker. The high-tech version of the fireless cooker. The cooking pot (left) is put on the fire and transferred to the vacuum flask (right) once to food has been brought to a boil. Picture: Thermal Cookware&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A thermal cooker. The high-tech version of the fireless cooker. The cooking pot (left) is put on the fire and transferred to the vacuum flask (right) once to food has been brought to a boil. Picture: [Thermal Cookware](https://www.thermalcookware.com/main.php?mod=Shop&amp;file=Cats) 
 &lt;/figcaption&gt;
@@ -480,7 +480,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;In the beginning of the twentieth century, time savings were the main sales argument for fireless cookers. This seems odd, because the average cooking time doubles compared to the traditional cooking process. Fireless cookers do afford the cook more time, however, by reducing the amount he or she spends in front of the stove or fire.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/photograph-woman-cooking-dinner-for-six-fireless-cooker_dithered.png&#34; alt=&#39;Early twentieth century advertisement for fireless cooking.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/photograph-woman-cooking-dinner-for-six-fireless-cooker_dithered.png&#34; alt=&#39;Early twentieth century advertisement for fireless cooking.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Early twentieth century advertisement for fireless cooking. 
 &lt;/figcaption&gt;
@@ -493,7 +493,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;Fireless cookers essentially act as batteries, storing energy in hot food. They greatly increase the usefulness of solar cookers, making them appropriate even on cloudy days and in countries where there is less sunshine. Furthermore, the combination of solar cooker and fireless cooker allows you to prepare a meal that can be served hours after sunset.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/solar-box-cooker_dithered.png&#34; alt=&#39;A low-tech solar box cooker. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/solar-box-cooker_dithered.png&#34; alt=&#39;A low-tech solar box cooker. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A low-tech solar box cooker. Image: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -507,7 +507,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;Parabolic solar cookers incorporate a more complex design, and use curved mirrors to focus solar radiation on a focal point. They work faster, produce higher temperatures, and have the ability to fry, roast and barbeque food. They are, however, more challenging to build, they require frequent orientation to the sun, they can be dangerous, and they only work in clear weather conditions. Panel cookers — such as the &lt;a href=&#34;http://solarcooking.wikia.com/wiki/CooKit&#34;&gt;CooKit&lt;/a&gt; — incorporate elements of both box and parabolic cookers.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/parabolic-solar-cooker_dithered.png&#34; alt=&#39;A parabolic solar cooker. Picture: Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/parabolic-solar-cooker_dithered.png&#34; alt=&#39;A parabolic solar cooker. Picture: Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A parabolic solar cooker. Picture: [Solar Cookers International](http://solarcooking.wikia.com/wiki/Heat-retention_cooking). 
 &lt;/figcaption&gt;
@@ -519,7 +519,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;The promotion of solar cookers in developing countries has produced improved technology that can be useful all over the world. For example, it is now possible to cook indoors using solar energy. This can happen in two ways: either by focusing a parabolic cooker through a wall aperture and then reflecting the sunlight onto a cooking pot, or by using concentrated sunlight to generate steam which is then transported through pipes to a nearby indoor kitchen.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/indoor-solar-cooking_dithered.png&#34; alt=&#39;Indoor solar cooking. Image: Solare Brücke.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/indoor-solar-cooking_dithered.png&#34; alt=&#39;Indoor solar cooking. Image: Solare Brücke.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Indoor solar cooking. Image: [Solare Brücke](http://www.solare-bruecke.org/index.php?lang=en). 
 &lt;/figcaption&gt;
@@ -537,7 +537,7 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;p&gt;A similar system in the western world could even utilise electric or gas stoves instead of improved biomass stoves. Because the use of fireless cookers, pressure cookers and solar cookers shortens the use of electric or gas stoves considerably, their low efficiency becomes less of a concern. If the energy use of gas and electric stoves is substantially reduced, it also becomes more realistic to supply this smaller amount of energy by renewable sources, such as wind power.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-cooking_dithered.png&#34; alt=&#39;Integrated cooking: combining solar cookers, fireless cookers and improved biomass stoves.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-cooking_dithered.png&#34; alt=&#39;Integrated cooking: combining solar cookers, fireless cookers and improved biomass stoves.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Integrated cooking: combining solar cookers, fireless cookers and improved biomass stoves. 
 &lt;/figcaption&gt;
@@ -546,8 +546,8 @@ a combination of gas stove, gas oven and fireless cooker. The device obviated th
 &lt;blockquote&gt;
 &lt;p&gt;Increasingly, NGO&amp;rsquo;s are betting on a combination of solar cookers, fireless cookers and improved biomass stoves&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Solar cookers and fireless cookers are good examples of the kind of technology that we aim for here at Low-tech Magazine. They can be cheap and easy to make, they are truly sustainable, and yet they are superior to any cooking technology available in pre-industrial times. The &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;extensive use of water power&lt;/a&gt;
-and &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;wind power in history&lt;/a&gt;
+&lt;p&gt;Solar cookers and fireless cookers are good examples of the kind of technology that we aim for here at Low-tech Magazine. They can be cheap and easy to make, they are truly sustainable, and yet they are superior to any cooking technology available in pre-industrial times. The &lt;a href=&#34;/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;extensive use of water power&lt;/a&gt;
+and &lt;a href=&#34;/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;wind power in history&lt;/a&gt;
 seems to suggest that solar cooking goes back many centuries, but that is not the case. The first experimental solar box cookers only appeared in the 18th century, and parabolic cookers only showed up in the late 19th century.&lt;/p&gt;
 &lt;p&gt;Solar cookers and fireless cookers might have a very low-tech image, but they integrate well with high-tech materials. Before the Industrial Revolution, we had no tin or aluminium foil, no vacuum technology, no plastic containers, and no thermally insulated glass. Cooking with fireless cookers, pressure cookers and solar cookers is not a return to the now impractical or defunct gadgets of the past. Rather, it is an innovative approach that optimizes existing knowledge and technology with the aim of radical energy efficiency.&lt;/p&gt;
 &lt;p&gt;Thanks to all readers who have urged me to write about fireless cookers.&lt;/p&gt;
@@ -564,49 +564,49 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
     
     <item>
       <title>The Solar Envelope: How to Heat and Cool Cities without Fossil Fuels</title>
-      <link>https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/</link>
+      <link>/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Sun-S_dithered.png" type="image/png" length="46052" ></enclosure>
+      <enclosure url="/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Sun-S_dithered.png" type="image/png" length="46052" ></enclosure>
       <pubDate>Sat, 24 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/</guid>
+      <guid>/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Sun-S_dithered.png&#34; alt=&#39;Illustration by Diego Marmolejo for Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Sun-S_dithered.png&#34; alt=&#39;Illustration by Diego Marmolejo for Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration by [Diego Marmolejo](http://ddidak.blogspot.com.es/) for Low-tech Magazine. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;1 / &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;2&lt;/a&gt; / &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-3/&#34;&gt;3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1 / &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;2&lt;/a&gt; / &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-3/&#34;&gt;3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Architects all over the world have demonstrated the usefulness of buildings which are heated and cooled by design rather than by fossil fuel energy. What has received much less attention, however, is the possibility of applying this approach to entire urban neighbourhoods and cities.&lt;/p&gt;
 &lt;p&gt;Designing a single, often free-standing, passive solar house is quite different from planning a densely populated city where each building is heated and cooled using only natural energy sources. And yet, if we want passive solar design to be more than just a curiosity, this is exactly what we need. Modern research, which combines ancient knowledge with fast computing techniques, shows that passive solar cities are a realistic option, allowing for surprisingly high population densities.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Passive solar design has been around for thousands of years, and even predates the use of glass windows.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Passive solar design requires the knowledge to design and orientate buildings so that they can be heated by the sun. Coupled with other low-tech solutions such as &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;thermal underwear&lt;/a&gt;
-&amp;ndash;, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2013/11/heat-your-clothes-not-your-house/&#34;&gt;heated clothing&lt;/a&gt;
-&amp;ndash; and the &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;creation of microclimates&lt;/a&gt; &amp;ndash;, passive solar design could all but eliminate the use of fossil fuels and biomass for heating buildings throughout large parts of the world.&lt;/p&gt;
+&lt;p&gt;Passive solar design requires the knowledge to design and orientate buildings so that they can be heated by the sun. Coupled with other low-tech solutions such as &lt;a href=&#34;/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;thermal underwear&lt;/a&gt;
+&amp;ndash;, &lt;a href=&#34;/2013/11/heat-your-clothes-not-your-house/&#34;&gt;heated clothing&lt;/a&gt;
+&amp;ndash; and the &lt;a href=&#34;/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;creation of microclimates&lt;/a&gt; &amp;ndash;, passive solar design could all but eliminate the use of fossil fuels and biomass for heating buildings throughout large parts of the world.&lt;/p&gt;
 &lt;p&gt;Indirectly, a passive solar house can also cancel the energy requirements for cooling and ventilation (passive cooling), and for lighting during the day. Of course, passive solar buildings can be outfitted with solar water heaters and PV solar panels, further reducing the use of unsustainable energy resources. Passive solar design does not involve any new technology. In fact, it has been around for thousands of years, and even predates the use of glass windows.&lt;/p&gt;
 &lt;p&gt;For most of human history, buildings were adapted to the local climate through a consideration of their location, orientation and shape, as well as the appropriate building materials. This resulted in many vernacular building styles in different parts of the world. In contrast, most modern buildings look the same wherever they stand. They are made from the same materials, they follow forms that are driven by fashion rather than by climate, and are most often randomly located and oriented, indifferent to the path of the sun and the prevailing wind conditions.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Casas-solar-1_dithered.png&#34; alt=&#39;Illustration by Diego Marmolejo for Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Casas-solar-1_dithered.png&#34; alt=&#39;Illustration by Diego Marmolejo for Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration by [Diego Marmolejo](http://ddidak.blogspot.com.es/) for Low-tech Magazine. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Modern buildings rely on a massive supply of cheap fossil fuels for heating, cooling, and lighting. Take the supply of cheap fossil fuels away, and they become completely uninhabitable for most of the year: they are too cold, too hot or too dark. This radical change in architectural design was caused by both the arrival of cheap and abundant energy sources and the resultant urbanisation (See &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;part 2&lt;/a&gt;
+&lt;p&gt;Modern buildings rely on a massive supply of cheap fossil fuels for heating, cooling, and lighting. Take the supply of cheap fossil fuels away, and they become completely uninhabitable for most of the year: they are too cold, too hot or too dark. This radical change in architectural design was caused by both the arrival of cheap and abundant energy sources and the resultant urbanisation (See &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;part 2&lt;/a&gt;
 &amp;mdash;).&lt;/p&gt;
 &lt;p&gt;The Industrial Revolution relocated millions of people from the countryside to the cities. When most of us lived and worked on farms or in hamlets, it was fairly easy to orientate one&amp;rsquo;s house towards the sun. In an urban environment, however, building orientation is generally determined by street layout, and one building can easily overshadow another. High-rise buildings further complicate solar access.&lt;/p&gt;
 &lt;h2 id=&#34;from-solar-oriented-buildings-to-solar-oriented-cities&#34;&gt;From solar oriented buildings to solar oriented cities&lt;/h2&gt;
 &lt;p&gt;This does not mean that passive solar design could not be applied to entire cities. It just takes more sophisticated planning. Solar access to an individual building is determined by only four factors: latitude (the distance north or south from the equator), slope, building shape and orientation.&lt;/p&gt;
-&lt;p&gt;Solar access to a city (or any other built-up environment) is determined by &lt;em&gt;seven&lt;/em&gt; factors: the four just mentioned, plus the height of the buildings, the width of the streets, and the orientation of the streets (See &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;part 2&lt;/a&gt;
+&lt;p&gt;Solar access to a city (or any other built-up environment) is determined by &lt;em&gt;seven&lt;/em&gt; factors: the four just mentioned, plus the height of the buildings, the width of the streets, and the orientation of the streets (See &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;part 2&lt;/a&gt;
 &amp;mdash;). Providing ventilation in an urban environment is determined by the same factors, with the exception that latitude is replaced by prevailing wind conditions.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/General-principle-solar-envelope_dithered.png&#34; alt=&#39;Image: Ralph Knowles developed and refined a method that strikes an optimal balance between population density and solar access: the &amp;amp;quot;Solar Envelope&amp;amp;quot;.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/General-principle-solar-envelope_dithered.png&#34; alt=&#39;Image: Ralph Knowles developed and refined a method that strikes an optimal balance between population density and solar access: the &amp;amp;quot;Solar Envelope&amp;amp;quot;.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Ralph Knowles developed and refined a method that strikes an optimal balance between population density and solar access: the \&#34;Solar Envelope\&#34;. 
 &lt;/figcaption&gt;
@@ -620,13 +620,13 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;Buildings within this imaginary container do not overshadow neighbouring buildings during critical energy-receiving periods of the day and the season, and assure solar access for both passive and active solar systems. On the one hand, the solar envelope allows architects to design with sunlight without fear that their ideas will be cancelled out by future buildings. On the other hand, the solar envelope recognizes the need for development and high population densities, by defining the largest container of space that would not cast shadows off-site at specified times of the day.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Floor-to-area-ratio-and-solar-access_dithered.png&#34; alt=&#39;Image: Floor-to-area ratio and solar access. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Floor-to-area-ratio-and-solar-access_dithered.png&#34; alt=&#39;Image: Floor-to-area ratio and solar access. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Floor-to-area ratio and solar access. Ralph Knowles. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Knowles and his students have reached densities that are far above the average in European and American cities (See &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-3/&#34;&gt;part 3&lt;/a&gt;
+&lt;p&gt;Knowles and his students have reached densities that are far above the average in European and American cities (See &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-3/&#34;&gt;part 3&lt;/a&gt;
 &amp;mdash;), with the exception of high-rise centers such as Manhattan.&lt;/p&gt;
 &lt;h2 id=&#34;modification-of-traditional-zoning-practices&#34;&gt;Modification of traditional zoning practices&lt;/h2&gt;
 &lt;p&gt;The solar envelope is actually a relatively simple modification of existing zoning practices, which also set imaginary boundaries that enclose a building site—determining the maximum height, width and depth of future buildings. The most rigid approach in conventional zoning prescribes maximum building heights, set in feet or metres, number of floors, or both. A second, more flexible approach, sets limits based on a ratio between developeable land and floor area within the building on that site.&lt;/p&gt;
@@ -638,7 +638,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;Adjacent buildings can meet each other gently, rather than abruptly, across property sidelines. Tall buildings would group together at the site&amp;rsquo;s southwestern end, and those of moderate height at the northeastern end, with the shortest buildings taking up the site&amp;rsquo;s midsection. Buildings on corner lots will be taller because their shadows can extend accross the street in two directions instead of one.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Solar-Envelopes-Ralph-Knowles_dithered.png&#34; alt=&#39;Image: Solar envelopes on the Spanish street grid system in Los Angeles. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Solar-Envelopes-Ralph-Knowles_dithered.png&#34; alt=&#39;Image: Solar envelopes on the Spanish street grid system in Los Angeles. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Solar envelopes on the Spanish street grid system in Los Angeles. Ralph Knowles. 
 &lt;/figcaption&gt;
@@ -646,7 +646,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Buildings-within-solar-envelopes-ralph-knowles_dithered.png&#34; alt=&#39;Buildings within the solar envelopes shown above. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Buildings-within-solar-envelopes-ralph-knowles_dithered.png&#34; alt=&#39;Buildings within the solar envelopes shown above. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Buildings within the solar envelopes shown above. Ralph Knowles. 
 &lt;/figcaption&gt;
@@ -654,7 +654,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Solar-Envelopes-High-Density-Housing-2_dithered.png&#34; alt=&#39;Building designs under the solar envelope are characterised by roof terraces, courtyards and clerestories. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Solar-Envelopes-High-Density-Housing-2_dithered.png&#34; alt=&#39;Building designs under the solar envelope are characterised by roof terraces, courtyards and clerestories. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Building designs under the solar envelope are characterised by roof terraces, courtyards and clerestories. Ralph Knowles. 
 &lt;/figcaption&gt;
@@ -666,14 +666,14 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;The most important choice is the definition of the hours during which we want to avoid casting shadows on adjacent land—the &amp;lsquo;cut-off times&amp;rsquo;. The longer the period of daily solar access, the smaller the developeable volume under the envelope. Obviously, setting the cut-off times as equal to the period between sunrise and sunset would not work, because in that case few or any buildings could be constructed. For passive solar design, a minimum of 4 to 6 hours per day in winter is considered practical, depending on the climate.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Generation-of-solar-envelope-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Generation-of-solar-envelope-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Generation-of-solar-envelope-2_dithered.png&#34; alt=&#39;Image: Generating a solar envelope.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Generation-of-solar-envelope-2_dithered.png&#34; alt=&#39;Image: Generating a solar envelope.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Generating a solar envelope. 
 &lt;/figcaption&gt;
@@ -684,7 +684,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;Solar envelopes can be designed for individual buildings or as a single envelope for a group of houses, a neighbourhood, a district or even an entire city. This is a rather straightforward process when a site is being designed from scratch, but often current buildings will complicate the generation of a solar envelope. When the solar envelope is applied in line with existing buildings, new construction would always be shaped and proportioned with reference to the old. Each new phase of development changes the surroundings and thus the context within which the next envelope is generated.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Knowles-Wilshire-Housing-Project_dithered.png&#34; alt=&#39;Image: A solar envelope casting its maximum shadow in winter. The smaller, previously built houses retain their solar access. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Knowles-Wilshire-Housing-Project_dithered.png&#34; alt=&#39;Image: A solar envelope casting its maximum shadow in winter. The smaller, previously built houses retain their solar access. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A solar envelope casting its maximum shadow in winter. The smaller, previously built houses retain their solar access. Ralph Knowles. 
 &lt;/figcaption&gt;
@@ -692,7 +692,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Wilshire-project-buildings-within-solar-envelope_dithered.png&#34; alt=&#39;Image: One of the building designs within the solar envelope shown above. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Wilshire-project-buildings-within-solar-envelope_dithered.png&#34; alt=&#39;Image: One of the building designs within the solar envelope shown above. Ralph Knowles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: One of the building designs within the solar envelope shown above. Ralph Knowles. 
 &lt;/figcaption&gt;
@@ -704,7 +704,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;In the fifth century BC, for example, a neighbourhood for about 2500 people was built in the city of Olynthus. The streets were built perpendicular to each other, running long in the east-west direction (the horizontal streets shown in the plan below), so that all houses (five on each side of the street) could be built with southern exposure.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Passive-solar-house-in-priene-greece_dithered.png&#34; alt=&#39;Image: Passive solar house in Ancient Greece.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Passive-solar-house-in-priene-greece_dithered.png&#34; alt=&#39;Image: Passive solar house in Ancient Greece.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Passive solar house in Ancient Greece. 
 &lt;/figcaption&gt;
@@ -712,7 +712,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Olynthus-street-plan_dithered.png&#34; alt=&#39;Image: Street plan of the Ancient Greek City Olynthus.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Olynthus-street-plan_dithered.png&#34; alt=&#39;Image: Street plan of the Ancient Greek City Olynthus.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Street plan of the Ancient Greek City Olynthus. 
 &lt;/figcaption&gt;
@@ -724,7 +724,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;&lt;em&gt;&amp;ldquo;In winter, rays from the sun traveling low across the southern sky streamed across the south-facing courts, throgh the portico, and into the house - heating the main rooms. The north walls were made of adobe bricks one and a half feet thick, which kept out the cold north winds of winter.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Priene-Solar-Oriented-City_dithered.png&#34; alt=&#39;Image: The Ancient Greek city of Priene.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Priene-Solar-Oriented-City_dithered.png&#34; alt=&#39;Image: The Ancient Greek city of Priene.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The Ancient Greek city of Priene. 
 &lt;/figcaption&gt;
@@ -736,7 +736,7 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;These communities followed a different building style than that of the Greeks. The Ancient Pueblo People constructed terraced buildings of up to three floors high. These were buildings that would fit perfectly in a solar envelope with slanting lines.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Drawing-by-Gary-Shigemura-in-from-Energy-and-form-ralph-knowls_dithered.png&#34; alt=&#39;Image: Illustration of Acoma Pueblo, by Gary S. Shigemura (from &amp;amp;quot;Energy and Form&amp;amp;quot;, Ralph Knowles).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Drawing-by-Gary-Shigemura-in-from-Energy-and-form-ralph-knowls_dithered.png&#34; alt=&#39;Image: Illustration of Acoma Pueblo, by Gary S. Shigemura (from &amp;amp;quot;Energy and Form&amp;amp;quot;, Ralph Knowles).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Illustration of Acoma Pueblo, by Gary S. Shigemura (from \&#34;Energy and Form\&#34;, Ralph Knowles). 
 &lt;/figcaption&gt;
@@ -747,14 +747,14 @@ seems to suggest that solar cooking goes back many centuries, but that is not th
 &lt;p&gt;Knowles&amp;rsquo; research combines the best elements of these historical designs and incorporates modern technology that greatly facilitates the generation of a solar envelope. The &lt;a href=&#34;http://www.hpd-online.com/heliodons.php&#34;&gt;heliodon&lt;/a&gt;, invented in the 1930s, is a contraption that creates a geometrical relationship between an architectural scale model and (a representation of) the sun.  More recently, software versions of the heliodon have made the technology much more affordable, while allowing for the fast generation of even very complex solar envelopes.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Solar-houses-2_dithered.png&#34; alt=&#39;Illustration by Diego Marmolejo for Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels/images/dithers/Solar-houses-2_dithered.png&#34; alt=&#39;Illustration by Diego Marmolejo for Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration by [Diego Marmolejo](http://ddidak.blogspot.com.es/) for Low-tech Magazine. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;On larger sites in particular, and when already existing buildings complicate the generation of a solar envelope, the available computer software saves time and can result in more building volume.&lt;/p&gt;
-&lt;p&gt;Continue reading: 1 / &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;2&lt;/a&gt;/ &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-3/&#34;&gt;3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Continue reading: 1 / &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-2/&#34;&gt;2&lt;/a&gt;/ &lt;a href=&#34;/2012/03/the-solar-envelope-how-to-heat-and-cool-cities-without-fossil-fuels-part-3/&#34;&gt;3&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.amazon.com/dp/1597260509/?tag=lowtemagaz-20&#34;&gt;Ritual House: Drawing on Nature&amp;rsquo;s Rhythms for Architecture and     Urban     Design&lt;/a&gt;&amp;rdquo;, Ralph L. Knowles, 2006.&lt;/li&gt;

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://lowtechmag.gitlab.io/solar/fr/obsolete-technology/</link>
+    <link>/fr/obsolete-technology/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/obsolete-technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/fr/obsolete-technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Les réseaux de force motrice hydraulique</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/</link>
+      <link>/fr/2023/09/power-water-networks/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
+      <enclosure url="/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/</guid>
+      <guid>/fr/2023/09/power-water-networks/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Illustration : Un accumulateur hydraulique. Image : Les Chatfield.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Illustration : Un accumulateur hydraulique. Image : Les Chatfield.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : Un accumulateur hydraulique. Image : [Les Chatfield](https://www.flickr.com/photos/61132483@N00/7184633723). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;L’utilisation des moteurs à eau était largement répandue en Europe et en Amérique dans la seconde moitié du dix-neuvième siècle. Reliées à un robinet, ces petites turbines hydrauliques pouvaient faire fonctionner n’importe quelle machine aujourd’hui alimentée à l’électricité. Comme nous l’avons montré dans un &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;, faire fonctionner ces moteurs à l’eau courante n’était pas une solution particulièrement durable. Du fait des niveaux de pression à la fois faibles et irréguliers dans les réseaux d’adduction, ces moteurs consommaient d’énormes quantités d’eau potable.&lt;/p&gt;
+&lt;p&gt;L’utilisation des moteurs à eau était largement répandue en Europe et en Amérique dans la seconde moitié du dix-neuvième siècle. Reliées à un robinet, ces petites turbines hydrauliques pouvaient faire fonctionner n’importe quelle machine aujourd’hui alimentée à l’électricité. Comme nous l’avons montré dans un &lt;a href=&#34;/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;, faire fonctionner ces moteurs à l’eau courante n’était pas une solution particulièrement durable. Du fait des niveaux de pression à la fois faibles et irréguliers dans les réseaux d’adduction, ces moteurs consommaient d’énormes quantités d’eau potable.&lt;/p&gt;
 &lt;p&gt;Tandis qu’aux Etats-Unis les moteurs à eau tombèrent en désuétude au début du vingtième siècle, les Européens trouvèrent une solution pour réduire leur importante consommation d’eau, perfectionnant ainsi la technique de transmission d’énergie par voie hydraulique. Ils déployèrent des « réseaux de force motrice hydraulique », dédiés à la distribution d’eau sous pression pour des usages de force mécanique exclusivement, et les convertirent à des régimes de pression beaucoup plus élevés et constants, rendus possibles par l’invention de l’accumulateur hydraulique.&lt;/p&gt;
 &lt;p&gt;La quasi-totalité de ces réseaux demeurèrent en service jusque dans les années 1960 et 1970. Comparée à l’électricité, la transmission de l’énergie hydraulique comme force motrice s’avère très efficace, quand elle est utilisée pour alimenter des machines puissantes mais fonctionnant de manière intermittente, lesquelles peuvent être réparties sur une aire géographique de la taille d’une ville entière.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;Les conséquences pratiques de ce qui deviendra plus tard le Principe de Pascal, aussi appelé &amp;ldquo;paradoxe hydrostatique&amp;rdquo;, furent démontrées par sa &amp;ldquo;machine à multiplier les forces&amp;rdquo;, schématiquement illustrée ci-dessous. Elle consiste en 2 cylindres, reliés entre eux par un tuyau. L’ensemble du dispositif est rempli d’eau et scellé hermétiquement. Le premier cylindre contient un piston de faible diamètre, tandis que le second cylindre contient un piston de diamètre 100 fois supérieur.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine à multiplier les forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine à multiplier les forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Machine à multiplier les forces. 
 &lt;/figcaption&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;Si une force hydraulique faible est convertie en une force plus grande, sa vitesse de fonctionnement sera réduite de manière inversement proportionnelle, dans la mesure où la distance parcourue est proportionnelle à la force. Par exemple, en descendant le petit piston de 10 centimètres vers le bas, on n’élèverait l’autre piston qu’au 1/100ème de cette distance.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Pascal barrel experiment.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Pascal barrel experiment.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pascal barrel experiment. 
 &lt;/figcaption&gt;
@@ -62,7 +62,7 @@
 &lt;p&gt;La traditionnelle presse à vis, en usage à cette époque, avait connu peu d’évolutions depuis son invention par les Romains, qui l’utilisaient alors pour presser les olives et le raisin. Elle nécessitait, pour fonctionner, des efforts conséquents avec d’importantes pertes d’énergie par friction (+80 %), et ne pouvait exercer de pression supérieure à 25 tonnes. (La vis, qui convertit le mouvement de rotation en un mouvement linéaire vertical, consiste tout simplement en un plan incliné &amp;ldquo;enroulé&amp;rdquo; en spirale autour d’un cylindre).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;À gauche : La presse à vis. Crédit d’image : Bruce K. Satterfield À droite : La presse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;À gauche : La presse à vis. Crédit d’image : Bruce K. Satterfield À droite : La presse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  À gauche : La presse à vis. Crédit d’image : [Bruce K. Satterfield](http://emp.byui.edu/SATTERFIELDB/Olive%20Tree/olive%20tree%20horticulture.htm) À droite : La presse hydraulique.  
 &lt;/figcaption&gt;
@@ -79,7 +79,7 @@
 &lt;p&gt;C’est au cours des années 1840 que l’ingénieur anglais William Armstrong commença à concevoir et utiliser des grues hydrauliques relativement puissantes. Conscient que les systèmes hydrauliques sont plus adaptés aux mouvements lents et réguliers, Armstrong mis au point une technique permettant de soulever une charge en une seule course de piston ou vérin, démultipliant suffisamment le mouvement par un jeu de poulies.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Hydraulic crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Hydraulic crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic crane. 
 &lt;/figcaption&gt;
@@ -92,7 +92,7 @@
 &lt;p&gt;L’accumulateur hydraulique d’Armstrong consistait en un cylindre vertical dans lequel un vérin ou un piston plongeur exerçait une pression sur l’eau. Ce piston était lesté d’un contrepoids, lequel prenait généralement la forme d’un réservoir de lestage cylindrique entourant le cylindre central (image de gauche, ci-dessous). Ce réservoir était ballasté avec des granulats (pierres concassées), de la ferraille ou tout autre matériau de lestage.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : [NSW HSC Online](http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm) 
 &lt;/figcaption&gt;
@@ -106,7 +106,7 @@
 &lt;p&gt;L’énergie était stockée temporairement lors de l’ascension du vérin, puis récupérée lors de sa descente. Le débit de pompage de la machine à vapeur était régulé en fonction du niveau d’eau dans l’accumulateur, soit automatiquement par un système de liaisons mécaniques, soit avec l’aide d’un opérateur.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Hydraulic accumulator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Hydraulic accumulator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic accumulator.
 &lt;/figcaption&gt;
@@ -115,10 +115,10 @@
 &lt;p&gt;Contrairement à un château d’eau, un accumulateur hydraulique permettait de maintenir une pression uniforme dans l’ensemble du réseau quelque soit le volume d’eau contenu dans son cylindre, car la pression y est générée par le poids du ballast et par non le poids de l’eau elle-même &amp;ndash; pour le dire autrement, l’accumulateur hydraulique génère une pression au moyen d’un poids extérieur plutôt que par la seule énergie gravitaire (liée à la différence de hauteur).&lt;/p&gt;
 &lt;p&gt;Avec un rendement de charge/décharge supérieur à 98 %, et aucune autodécharge, l’accumulateur hydraulique était un dispositif extrêmement efficace sur le plan énergétique.&lt;/p&gt;
 &lt;h2 id=&#34;des-machines-industrielles-alimentées-par-la-force-motrice&#34;&gt;Des Machines Industrielles Alimentées par la Force Motrice&lt;/h2&gt;
-&lt;p&gt;Son introduction eut deux effets majeurs. Premièrement, elle élargit considérablement l’éventail des opérations susceptibles d’être réalisées par des machines à énergie hydrauliques. Les moteurs à eau connectés au réseau d’eau potable se limitaient alors à de petits &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;appareils domestiques ou des outils d’atelier&lt;/a&gt;. Mais Armstrong et d’autres ingénieurs adaptèrent l’usage de l’eau sous haute pression à tout un large spectre d’opérations industrielles nécessitant des puissances importantes, telles que le forgeage, le poinçonnage, l’emboutissage, le bordage, le cisaillage et le rivetage (ancêtre de la soudure).&lt;/p&gt;
+&lt;p&gt;Son introduction eut deux effets majeurs. Premièrement, elle élargit considérablement l’éventail des opérations susceptibles d’être réalisées par des machines à énergie hydrauliques. Les moteurs à eau connectés au réseau d’eau potable se limitaient alors à de petits &lt;a href=&#34;/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;appareils domestiques ou des outils d’atelier&lt;/a&gt;. Mais Armstrong et d’autres ingénieurs adaptèrent l’usage de l’eau sous haute pression à tout un large spectre d’opérations industrielles nécessitant des puissances importantes, telles que le forgeage, le poinçonnage, l’emboutissage, le bordage, le cisaillage et le rivetage (ancêtre de la soudure).&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Riveteuse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Riveteuse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Riveteuse hydraulique.
 &lt;/figcaption&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;Des années 1870 aux années 1890, des réseaux d’eau motrice sous pression furent ainsi déployés dans les principales villes industrielles de Grande-Bretagne : Kingston upon Hull, London, Liverpool, Birmingham, Grimsby, Manchester et Glasgow. Les compagnies portuaires et ferroviaires furent pionnières dans le développement cette technologie, et en demeurèrent les principales utilisatrices pendant plusieurs décennies.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.
 &lt;/figcaption&gt;
@@ -147,7 +147,7 @@
 &lt;p&gt;C’est à Londres que fut construit le plus vaste réseau de force motrice hydraulique, exploité par la &amp;ldquo;London Hydraulic Company&amp;rdquo;. À l’apogée de l’entreprise en 1917, pas moins de cinq centrales interconnectées assuraient le pompage d’eau sous haute pression vers une douzaine d’accumulateurs hydrauliques et près de 300 km de conduites souterraines, alimentant en énergie plus de 8 000 machines réparties dans presque toute la ville. Dans les théâtres et autres équipements culturels de Londres, l’eau motrice était utilisée pour déplacer les décors, les consoles d’orgues, les rideaux coupe-feu et les plateaux de scène. La machinerie hydraulique du Tower Bridge était également actionnée par de l’eau sous pression, pompée dans six accumulateurs par des moteurs à vapeur, permettant la levée des bascules.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895. 
 &lt;/figcaption&gt;
@@ -160,7 +160,7 @@
 &lt;p&gt;Une autre application notable de l’eau sous haute pression à Londres fut le &lt;em&gt;Silent Dustman&lt;/em&gt;, un système d’aspiration à énergie hydraulique commercialisé en 1910. Plusieurs grands hôtels en furent intégralement &amp;ldquo;équipés&amp;rdquo; : de l’eau courante était utilisée par une pompe à jet pour générer du vide dans un conduit principal, sur lequel venait se brancher le système d’aspiration. Le long de ce conduit, un certain nombre de buses permettaient de brancher des tuyaux souples. La poussière était ainsi aspirée vers le tube principal puis évacuée vers les égouts. Ce système, au fonctionnement à la fois silencieux et efficace, demeura en service jusqu’en 1937.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques. 
 &lt;/figcaption&gt;
@@ -172,7 +172,7 @@
 &lt;p&gt;Les réseaux britanniques firent des émules en inspirant la création de réseaux similaires ailleurs dans le monde : à Anvers en Belgique, Buenos Aires en Argentine, Melbourne et Sydney en Australie. Si les réseaux australiens étaient directement inspirés de ceux déployés au Royaume-Uni (avec 80 km de canalisations, celui de Melbourne fut le second plus grand jamais construit), le système argentin servait au pompage des eaux usées, tandis que le réseau d’Anvers était quant à lui conçu pour la production combinée &amp;ndash; on parle aujourd’hui de &amp;ldquo;cogénération&amp;rdquo; &amp;ndash; d’énergie mécanique et d’électricité. Cette dernière technique visait à palier les importantes pertes en ligne du transport d’électricité à cette époque.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;ldquo;Zuiderpershuis&amp;amp;rdquo; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;ldquo;Zuiderpershuis&amp;amp;rdquo; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  &#34;Zuiderpershuis&#34; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours. 
 &lt;/figcaption&gt;
@@ -186,13 +186,13 @@
 &lt;p&gt;La ville d’Anvers utilisait depuis 1865 un réseau d’eau motrice pour alimenter les grues, ponts et écluses de son port. Il vint s’y ajouter en 1893 un second réseau, qui distribuait de l’eau sous haute pression à des sous-stations électriques disséminées dans toute la ville (au nombre de douze d’après la carte &amp;ndash; toutefois, seules trois d’entres elles furent effectivement construites). Des turbines hydrauliques y généraient de l’électricité, ensuite distribuée dans un rayon de 500 m via des lignes électriques enterrées &amp;ndash; distance maximale à laquelle le courant basse tension pouvait alors être distribué avec un bon rendement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Le système anversois, utilisé pour l’éclairage public, réalisait ainsi à grande échelle ce que les moteurs à eau couplés à des dynamos assuraient à une petite échelle via le réseau d’eau courante (voir le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;. Environ 66 % de l’énergie hydraulique était convertie en électricité. À son apogée, le réseau atteignit 23 km de longueur totale, pour une puissance de 1200 CV. Il faut par ailleurs mentionner qu’à Londres, un certain nombre d’habitants utilisaient de petits générateurs domestiques pour produire de l’électricité directement à partir du réseau d’eau courante.&lt;/p&gt;
+&lt;p&gt;Le système anversois, utilisé pour l’éclairage public, réalisait ainsi à grande échelle ce que les moteurs à eau couplés à des dynamos assuraient à une petite échelle via le réseau d’eau courante (voir le &lt;a href=&#34;/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;. Environ 66 % de l’énergie hydraulique était convertie en électricité. À son apogée, le réseau atteignit 23 km de longueur totale, pour une puissance de 1200 CV. Il faut par ailleurs mentionner qu’à Londres, un certain nombre d’habitants utilisaient de petits générateurs domestiques pour produire de l’électricité directement à partir du réseau d’eau courante.&lt;/p&gt;
 &lt;h2 id=&#34;force-motrice-hydraulique-versus-electricité&#34;&gt;Force Motrice Hydraulique versus Electricité&lt;/h2&gt;
 &lt;p&gt;Le développement fulgurant de la transmission d’électricité haute tension au tournant du siècle rendit immédiatement obsolète des systèmes comme celui d’Anvers. La partie du réseau dédiée à la production d’électricité disparut en 1900. En effet, comprimer de l’eau pour &lt;em&gt;in fine&lt;/em&gt; générer de l’électricité induit une quadruple conversion énergétique &amp;ndash; et par conséquent des pertes &amp;ndash; qui s’avèrent inutiles dès lors que la production et le transport d’électricité deviennent efficaces.&lt;/p&gt;
 &lt;p&gt;La construction de nouveaux réseaux urbains de distribution de force motrice fut par ailleurs interrompue avant la fin du siècle par le déploiement rapide de réseaux électriques désormais efficaces. &amp;ldquo;Si le développement de ces systèmes avait démarré quelques années plus tôt, leur succès aurait pu être nettement plus important&amp;rdquo; écrit Ian McNeil dans son ouvrage &lt;em&gt;Hydraulic Power&lt;/em&gt; (1972). &amp;ldquo;Quelques années plus tard, et ils n’auraient probablement jamais vu le jour.&amp;rdquo;&lt;/p&gt;
@@ -205,7 +205,7 @@
 &lt;p&gt;En tant que vecteur de transmission d’énergie, la force hydraulique présente 3 principaux inconvénients par rapport à l’électricité. Tout d’abord, l’électricité peut être transportée efficacement sur des distances beaucoup plus grandes. La transmission hydraulique était (et demeure) au moins aussi efficace que la transmission électrique pour des distances comprises entre 15 et 25 km. Au-delà, l’électricité se démarque nettement par son meilleur rendement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : [Chris Allen](http://www.geograph.org.uk/photo/2569524) 
 &lt;/figcaption&gt;
@@ -219,13 +219,13 @@
 &lt;p&gt;Exception faite du système de génération d’électricité déployé à Anvers &amp;ndash; et rapidement abandonné &amp;ndash; aucun des réseaux de type Armstrong ne fournissait d’énergie à un grand parc de machines en fonctionnement continu. (Mentionnons tout de même les &lt;a href=&#34;http://www.lowtechmagazine.com/medium-pressure-power-water-networks-in-switzerland.html&#34;&gt;réseaux hydrauliques moyenne pression en Suisse&lt;/a&gt;. Troisièmement, les pertes par friction causées par les angles et courbes des conduites étaient limitées, car un tel réseau servait généralement à alimenter un nombre relativement réduit de (très puissantes) machines.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, décembre 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, décembre 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&#39;outillage et du matériel, décembre 1864, [Bibliothèque nationale de France](http://gallica.bnf.fr/ark:/12148/bpt6k5539152w/f79.pleinepage.langFR) 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;A la fin du dix-neuvième siècle, les limites intrinsèques à la transmission d’énergie hydraulique étaient désormais très bien connues. Ceci n’empêchera pas les ingénieurs de l’époque de se saisir des potentialités uniques offertes par cette technologie, qui sont toujours d’actualité. A titre d’exemple, citons les mots de Robert Zahner, promoteur en son temps d’une autre alternative à l’électricité, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;. Dans son livre &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890), il écrivait que :&lt;/p&gt;
+&lt;p&gt;A la fin du dix-neuvième siècle, les limites intrinsèques à la transmission d’énergie hydraulique étaient désormais très bien connues. Ceci n’empêchera pas les ingénieurs de l’époque de se saisir des potentialités uniques offertes par cette technologie, qui sont toujours d’actualité. A titre d’exemple, citons les mots de Robert Zahner, promoteur en son temps d’une autre alternative à l’électricité, &lt;a href=&#34;/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;. Dans son livre &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890), il écrivait que :&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Le caractère virtuellement incompressible de l’eau rend la méthode hydraulique impropre au transport d’énergie en quantité constante. Elle peut être mise à profit uniquement dans les cas où la force motrice doit être accumulée et utilisée à intervalles, réguliers ou non, par exemple pour soulever des poids, réaliser des opérations de poinçonnement, de forgeage par compression ainsi que d’autres travaux de nature intermittente, qui requièrent l’application d’une grande force sur une courte distance ou surface.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;La distribution de la force motrice de l’eau est &amp;ldquo;merveilleusement adaptée aux machineries lourdes et aux engins dont les opérations requièrent la concentration de puissances élevées, des mouvements de va-et-vient linéaires, et un fonctionnement intermittent&amp;rdquo; écrit quant à lui Louis Hunter dans &lt;em&gt;The Transmission of Power&lt;/em&gt; (1991). La principale qualité de l’accumulateur hydraulique est de permettre le fonctionnement de machines qui nécessitent une puissance grandement supérieure à celle que peut fournir la source d’énergie &amp;ndash; selon le principe de Pascal de &amp;ldquo;multiplication des forces&amp;rdquo;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -235,7 +235,7 @@
 &lt;p&gt;De même, les systèmes hydrauliques permettent de générer assez facilement un mouvement linéaire (translation) via le recours à des vérins hydrauliques tandis que l’énergie électrique doit recourir pour cela à de coûteux moteurs linéaires ou à des dispositifs mécaniques, de type transmission à pignon-crémaillère. C’est en ce sens que les énergies hydrauliques et électriques s’avèrent complémentaires : une des contraintes liées à la transmission hydraulique était la relative difficulté à convertir un mouvement linéaire en mouvement rotatif.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Hydraulic elevator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Hydraulic elevator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic elevator. 
 &lt;/figcaption&gt;
@@ -249,7 +249,7 @@
 &lt;p&gt;C’est en partie du fait de la conversion à l’huile que furent développés des systèmes hydrauliques embarqués, circuits autonomes généralement composés d’une pompe, d’un accumulateur et d’un circuit de bouclage, prêts à être couplés à un moteur électrique ou diesel. Dans ce type de technologies les accumulateurs hydrauliques sont en principe beaucoup plus petits, utilisent un gaz pour compresser le fluide, et ne garantissent pas une pression constante au sein du circuit.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &amp;amp;ldquo;à poids&amp;amp;rdquo; des réseaux d’eau motrice. Image : HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &amp;amp;ldquo;à poids&amp;amp;rdquo; des réseaux d’eau motrice. Image : HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &#34;à poids&#34; des réseaux d’eau motrice. Image : [HYD](http://www.hyd.com/tejas/products/products_frame.htm). 
 &lt;/figcaption&gt;
@@ -267,7 +267,7 @@
 &lt;p&gt;Comme dans le cas d’autres techniques de transmission de l’énergie mécanique &amp;ndash; tels que les &lt;a href=&#34;&#34;&gt;systèmes de pompes avec tige à saccades&lt;/a&gt; et les &lt;a href=&#34;&#34;&gt;courroies de transmission sans fin&lt;/a&gt; &amp;ndash; c’est la meilleure efficacité de la transmission électrique sur de longues distances qui a en grande partie causé la disparition des réseaux urbains de distribution de force motrice. Toutes ces alternatives à l’électricité, aujourd’hui oubliées, mériteraient d’être réétudiées aux fins d’applications spécifiques, dans la perspective d’un système énergétique plus décentralisé et basé sur les énergies renouvelables. On peut ainsi imaginer que les accumulateurs hydrauliques à poids puissent être alimentés à l’énergie solaire, éolienne, voire musculaire (à pédale).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Image : J.W. Gibson.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2023/09/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Image : J.W. Gibson.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : J.W. Gibson. 
 &lt;/figcaption&gt;
@@ -277,7 +277,7 @@
 &lt;p&gt;&amp;ldquo;L’électricité offre, en matière de transmission d’énergie, un grand nombre d’avantages dans la plupart des cas. Les ingénieurs électriciens idéalisent cependant la chose. Ils sont en effet bien souvent prompts à oublier d’autres technologies, lesquelles disposent, dans bon nombre de cas, d’avantages considérables par rapport à l’électricité.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;W.C. Unwin, auteur au dix-neuvième siècle de l’ouvrage le plus complet de l’époque sur la transmission d’énergie (&lt;em&gt;On the Development and Transmission of Power from Central Stations&lt;/em&gt;), exprima en 1894 des réserves similaires :&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Bien que la distribution d’électricité soit indéniablement amenée à jouer un rôle prochain dans le développement des réseaux de distribution de l’énergie, on observe ces temps-ci une tendance à ne considérer que l’option électrique, et à négliger d’autres moyens de transport de l’énergie qui ont été utilisés avec succès par le passé et seront, dans des conditions adéquates, toujours employés à l’avenir. Dans le cas de la transmission sur moyenne distance, on dispose de plusieurs alternatives crédibles, et la transmission électrique n’a pas, dans un tel cas et jusqu’à ce jour, établit sa supériorité d’aucune manière.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Le prochain épisode de notre série sur la transmission d’énergie s’intéressera à &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;, qui est probablement l’alternative à l’électricité la plus crédible.&lt;/p&gt;
+&lt;p&gt;Le prochain épisode de notre série sur la transmission d’énergie s’intéressera à &lt;a href=&#34;/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;, qui est probablement l’alternative à l’électricité la plus crédible.&lt;/p&gt;
 &lt;p&gt;Kris De Decker&lt;/p&gt;
 &lt;p&gt;Cet article est dédié à Charles Steele. RIP.&lt;/p&gt;
 &lt;h2 id=&#34;sources-par-ordre-dimportance-&#34;&gt;Sources (par ordre d’importance) :&lt;/h2&gt;
@@ -312,15 +312,15 @@
     
     <item>
       <title>Les armes mortelles qui poussaient sur les arbres</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/</link>
+      <link>/fr/2022/11/when-lethal-weapons-grew-on-trees/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/long-arrows_dithered.png" type="image/png" length="27299" ></enclosure>
+      <enclosure url="/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/long-arrows_dithered.png" type="image/png" length="27299" ></enclosure>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/</guid>
+      <guid>/fr/2022/11/when-lethal-weapons-grew-on-trees/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/long-arrows_dithered.png&#34; alt=&#39;Image : Habitant des îles Tanimbar muni d’un très grand arc et de flèches et portant une armure de cuir, Indes néerlandaises. Source inconnue.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/long-arrows_dithered.png&#34; alt=&#39;Image : Habitant des îles Tanimbar muni d’un très grand arc et de flèches et portant une armure de cuir, Indes néerlandaises. Source inconnue.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Habitant des îles Tanimbar muni d’un très grand arc et de flèches et portant une armure de cuir, Indes néerlandaises. Source inconnue. 
 &lt;/figcaption&gt;
@@ -342,7 +342,7 @@
 &lt;p&gt;Un arc simple se caractérise par sa durabilité et sa simplicité de fabrication, d’entretien et de réparation. Il est constitué d’une seule pièce de bois, généralement droite. Le modèle le plus connu est l’arc long. Comme son nom le laisse entendre, il est connu pour sa longueur. Il était à peu près de la même taille (ou plus grand) que l’archer qui tirait avec.Ce type d’arc est souvent apparenté à l’arc long anglais, qui est devenu une arme très utilisée sur les champs de bataille pendant le bas Moyen Âge. La conception de l’arc long est cependant beaucoup plus ancienne, et son utilisation était répandue dans toute l’Europe et sur d’autres continents. La momie Ötzi, retrouvée dans les Alpes italiennes en 1991, possédait par exemple un arc long de 182 cm datant de 3 300 av. J.-C. &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/longbow-archers_dithered.png&#34; alt=&#39;Image : Archers utilisant des arcs longs. Image de Peter Trimming. Source : Wikimedia Commons. CC BY SA 2.0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/longbow-archers_dithered.png&#34; alt=&#39;Image : Archers utilisant des arcs longs. Image de Peter Trimming. Source : Wikimedia Commons. CC BY SA 2.0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Archers utilisant des arcs longs. Image de Peter Trimming. Source : [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Archery_at_Appuldurcombe_(1)_-_geograph.org.uk_-_1983840.jpg). CC BY SA 2.0. 
 &lt;/figcaption&gt;
@@ -352,7 +352,7 @@
 &lt;p&gt;Le deuxième type d’arc simple est l’arc plat. Il est à peine plus court que l’arc long, mais sa partie centrale est différente. L’arc long a une forme circulaire ou en D. L’arc long anglais, par exemple, a un « dos » plat et un « ventre » bombé - le ventre étant le côté de l’arc qui est tourné vers l’archer. L’arc plat, au contraire est plat des deux côtés. L’arc long a des branches étroites et a généralement une poignée plus large, alors que l’arc plat a des branches plus larges et une poignée étroite. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/flatbow2_dithered.png&#34; alt=&#39;Image : Un arc plat en frêne, fabriqué par Sagittaria Handcrafts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/flatbow2_dithered.png&#34; alt=&#39;Image : Un arc plat en frêne, fabriqué par Sagittaria Handcrafts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un arc plat en frêne, fabriqué par [Sagittaria Handcrafts](http://sagittaria-handcrafts.com/en/1-en-pokus/bows/detail_22/). 
 &lt;/figcaption&gt;
@@ -363,7 +363,7 @@
 &lt;p&gt;Historiquement, la puissance des arcs simples de grande taille a servi au combat et à la chasse aux gros gibiers. Pour la chasse au petit gibier à courte distance, on se contentait d’arcs plus courts (appelés « petits arcs » ou « arcs à oiseaux »). Ces armes étaient moins puissantes, utilisaient des flèches plus courtes et plus légères (souvent avec des pointes de flèches émoussées). On les utilisait en tirant la corde vers la poitrine plutôt que vers l’oreille.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-bows_dithered.png&#34; alt=&#39;Image : Arcs anciens du continent africain, montrant la grande variété de tailles. Source: Leakey, Louis Seymour Bazett. « A New Classification of the Bow and Arrow in Africa. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 56 (1926) : 259-299&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-bows_dithered.png&#34; alt=&#39;Image : Arcs anciens du continent africain, montrant la grande variété de tailles. Source: Leakey, Louis Seymour Bazett. « A New Classification of the Bow and Arrow in Africa. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 56 (1926) : 259-299&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Arcs anciens du continent africain, montrant la grande variété de tailles. Source: Leakey, Louis Seymour Bazett. « A New Classification of the Bow and Arrow in Africa. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 56 (1926) : 259-299 
 &lt;/figcaption&gt;
@@ -374,7 +374,7 @@
 &lt;p&gt;Certains bois sont particulièrement bien adaptés à la fabrication d’arcs. Les fabricants d’arcs du passé considéraient l’if comme l’un des meilleurs matériaux. &lt;sup id=&#34;fnref1:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; L’if pousse (lentement) un peu partout dans le monde. Son aubier (le bois blanc à l’extérieur de l’arbre, juste en dessous de l’écorce) est très résistant à la tension. Son duramen (le bois rouge qui constitue le centre) supporte très bien la compression. Dans un arc en if, on utilise donc l’aubier pour le dos et le duramen pour le ventre. &lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt; Un autre excellent bois d’arc est l’oranger des osages, originaire d’Amérique du Nord, mais qui peut se développer dans de nombreux climats. Seul le duramen est utilisé - les orangers des Osages ont une forte résistance à la flexion et une grande élasticité. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; Ces deux types de bois résistent également très bien à la décomposition.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/yew-selfbow-living-longbows-facebook_dithered.png&#34; alt=&#39;Image : Un arc simple en if, laissant apparaître le duramen et l’aubier, fabriqué par le maître artisan Jack Pinson, Under Warden, Irlande. Source : Living Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/yew-selfbow-living-longbows-facebook_dithered.png&#34; alt=&#39;Image : Un arc simple en if, laissant apparaître le duramen et l’aubier, fabriqué par le maître artisan Jack Pinson, Under Warden, Irlande. Source : Living Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un arc simple en if, laissant apparaître le duramen et l’aubier, fabriqué par le maître artisan Jack Pinson, Under Warden, Irlande. Source : [Living Longbows](https://www.facebook.com/LivingLongbows). 
 &lt;/figcaption&gt;
@@ -382,7 +382,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/osage-bloodwood-handle-2-von-18_dithered.png&#34; alt=&#39;Image : un arc plat en oranger des Osages, fabriqué par le maître artisan Simon Sieß. Il est pratiquement impossible de trouver une pièce droite d’oranger des Osages suffisamment longue pour un arc, car le bois est très tordu, plein de nœuds et d’épines. Le fabricant d’arc contourne ces imperfections. Source : Stonehill Primitive Bows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/osage-bloodwood-handle-2-von-18_dithered.png&#34; alt=&#39;Image : un arc plat en oranger des Osages, fabriqué par le maître artisan Simon Sieß. Il est pratiquement impossible de trouver une pièce droite d’oranger des Osages suffisamment longue pour un arc, car le bois est très tordu, plein de nœuds et d’épines. Le fabricant d’arc contourne ces imperfections. Source : Stonehill Primitive Bows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : un arc plat en oranger des Osages, fabriqué par le maître artisan Simon Sieß. Il est pratiquement impossible de trouver une pièce droite d’oranger des Osages suffisamment longue pour un arc, car le bois est très tordu, plein de nœuds et d’épines. Le fabricant d’arc contourne ces imperfections. Source : [Stonehill Primitive Bows](https://primitive-bows.com/category/bows/). 
 &lt;/figcaption&gt;
@@ -394,7 +394,7 @@
 &lt;p&gt;Sans outils en métal, abattre de grands arbres pour récupérer du bois demande beaucoup d’efforts. Certains Amérindiens ont mis au point une technique ingénieuse qui permettait de découper des arcs à partir de troncs et de branches d’arbres vivants. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;Ils pratiquaient deux entailles en forme de V aux extrémités supérieure et inférieure de la pièce prévue, qui était ensuite laissée dans l’arbre pendant plusieurs années en attendant qu’elle sèche. Enfin, avec un levier, ils arrachaient la pièce de l’arbre, puis façonnaient l’arc. On trouve encore des arbres anciens qui conservent les séquelles de cette méthode. Les fabricants d’arcs pouvaient se servir du même arbre pour en fabriquer pendant plusieurs siècles.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/juniper3_dithered.png&#34; alt=&#39;Image : Extraction d’arcs à partir d’arbres vivants. Source: Wilke, Philip J. « Bow staves harvested from Juniper trees by Indians of nevada. » Journal of California and Great Basin Anthropology 10.1 (1988) : 3-31&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/juniper3_dithered.png&#34; alt=&#39;Image : Extraction d’arcs à partir d’arbres vivants. Source: Wilke, Philip J. « Bow staves harvested from Juniper trees by Indians of nevada. » Journal of California and Great Basin Anthropology 10.1 (1988) : 3-31&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Extraction d’arcs à partir d’arbres vivants. Source: Wilke, Philip J. « [Bow staves harvested from Juniper trees by Indians of nevada](https://escholarship.org/content/qt4v5249w9/qt4v5249w9.pdf%C2%A0). » Journal of California and Great Basin Anthropology 10.1 (1988) : 3-31 
 &lt;/figcaption&gt;
@@ -404,7 +404,7 @@
 &lt;p&gt;Le modelage d’un arc simple consiste à suivre le grain et le comportement du bois. Si on utilise des rondins, la première étape consiste à les fendre en deux ou en quatre, en utilisant une cale de manière à ce que la fissure suive le sens du grain. Ce sont les bûches qui déterminent le style et la forme de chaque arc. Par exemple, si la pièce est tordue à un endroit, le modèle suivra cette torsion, ce qui donnera un arc partiellement torsadé. Le processus de fabrication d’un arc simple repose principalement sur le « tillering » : les branches de l’arc sont affinées de plus en plus en retirant du bois du côté du ventre, petit à petit, et en veillant à ne pas en retirer trop. Le dos de l’arc reste inchangé et suit l’anneau de croissance du bois. &lt;sup id=&#34;fnref3:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/Bow_staves_dithered.png&#34; alt=&#39;Image : Bois fraîchement découpé en pièces d’arcs. Source : Wikimedia Commons. Image de MartinFields (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/Bow_staves_dithered.png&#34; alt=&#39;Image : Bois fraîchement découpé en pièces d’arcs. Source : Wikimedia Commons. Image de MartinFields (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Bois fraîchement découpé en pièces d’arcs. Source : [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bow_staves.JPG). Image de MartinFields (CC BY-SA 3.0). 
 &lt;/figcaption&gt;
@@ -412,7 +412,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/bowyers-tools-2_dithered.png&#34; alt=&#39;Image : Un arc simple pendant sa fabrication par le maître artisan Jack Pinson, Under Warden. Irlande. Source : Living Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/bowyers-tools-2_dithered.png&#34; alt=&#39;Image : Un arc simple pendant sa fabrication par le maître artisan Jack Pinson, Under Warden. Irlande. Source : Living Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un arc simple pendant sa fabrication par le maître artisan Jack Pinson, Under Warden. Irlande. Source : [Living Longbows](https://www.facebook.com/LivingLongbows).  
 &lt;/figcaption&gt;
@@ -424,7 +424,7 @@
 &lt;p&gt;La combinaison de ces matériaux offrant de meilleures performances que les meilleurs bois, un arc composite peut se courber davantage par rapport à sa longueur qu’un arc simple. C’est pour cette raison qu’on peut le fabriquer plus court qu’un arc simple à puissance égale,  ce qui le rendait idéal pour tirer à cheval, puisque l’archer pouvait facilement tirer d’un côté puis de l’autre. L’arc composite était majoritairement utilisé par les archers à cheval, et l’arme est également connue sous le nom de « horse bow » (arc à cheval). Elle était également l’arme de prédilection de l’archer sur char, antérieur à l’archer à cheval.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/balfour-composite_dithered.png&#34; alt=&#39;Gauche : Arc composite tatare, montrant la forme avec et sans corde. Droite : Arc composite perse, présentant une courbure « reflex » extrême sans corde. Source: Balfour, Henry. « The Archer’s Bow in the Homeric Poems. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 51 (1921) : 289-309&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/balfour-composite_dithered.png&#34; alt=&#39;Gauche : Arc composite tatare, montrant la forme avec et sans corde. Droite : Arc composite perse, présentant une courbure « reflex » extrême sans corde. Source: Balfour, Henry. « The Archer’s Bow in the Homeric Poems. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 51 (1921) : 289-309&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Gauche : Arc composite tatare, montrant la forme avec et sans corde. Droite : Arc composite perse, présentant une courbure « reflex » extrême sans corde. Source: Balfour, Henry. « The Archer’s Bow in the Homeric Poems. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 51 (1921) : 289-309 
 &lt;/figcaption&gt;
@@ -432,14 +432,14 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/comp-bow-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/comp-bow-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/comp-bow_dithered.png&#34; alt=&#39;Image : Horse bow (avec et sans corde) fabriqué par le maître artisan Bjørn Schmidt. Source : Bjørn Schmidt.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/comp-bow_dithered.png&#34; alt=&#39;Image : Horse bow (avec et sans corde) fabriqué par le maître artisan Bjørn Schmidt. Source : Bjørn Schmidt.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Horse bow (avec et sans corde) fabriqué par le maître artisan Bjørn Schmidt. Source : [Bjørn Schmidt](https://www.facebook.com/groups/161983523940600/user/100026327045649/). 
 &lt;/figcaption&gt;
@@ -447,7 +447,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/collection-of-composite-bows_dithered.png&#34; alt=&#39;Image : Une collection d’arcs composites de tailles variées. Source: Peter Dekker, Mandarin Mansion.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/collection-of-composite-bows_dithered.png&#34; alt=&#39;Image : Une collection d’arcs composites de tailles variées. Source: Peter Dekker, Mandarin Mansion.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Une collection d’arcs composites de tailles variées. Source: Peter Dekker, [Mandarin Mansion](https://mandarinmansion.com). 
 &lt;/figcaption&gt;
@@ -459,7 +459,7 @@
 &lt;p&gt;L’arc composite est également moins durable et nécessite plus d’entretien que l’arc simple. En raison de sa vulnérabilité à l’humidité, l’arc composite nécessite un entretien continu : il doit être gardé au chaud et au sec. Dans les climats froids, les archers enveloppaient leurs arcs dans des vêtements et dormaient avec. Quand ils le pouvaient, ils réchauffaient l’arc avec un feu avant de l’utiliser. Les Chinois (qui fabriquaient les plus grands arcs composites) utilisaient des meubles chauffants spéciaux pour conserver ou restaurer la forme recourbée perdue au cours de l’utilisation. Il fallait également protéger les arcs composites contre les animaux, qui mangeaient les parties en tendon et des vers qui pouvaient manger la corne. &lt;sup id=&#34;fnref1:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref3:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:30&#34;&gt;&lt;a href=&#34;#fn:30&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;30&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref1:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:32&#34;&gt;&lt;a href=&#34;#fn:32&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/making-compositebow_dithered.png&#34; alt=&#39;Image : fabrication d’un arc composite. Source inconnue. Via Mihkel Tammet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/making-compositebow_dithered.png&#34; alt=&#39;Image : fabrication d’un arc composite. Source inconnue. Via Mihkel Tammet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : fabrication d’un arc composite. Source inconnue. Via [Mihkel Tammet](https://www.facebook.com/photo/?fbid=294008220709631&amp;set=g.161983523940600). 
 &lt;/figcaption&gt;
@@ -467,7 +467,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/composite-bow-making_dithered.png&#34; alt=&#39;Image : Un arc composite en cours de fabrication. Source : The modern reproduction of a Mongol era bow based on historical facts and ancient technology research. Jason Wayne Beever &amp;amp;amp; Zoran Pavlović, EXARC Journal Issue 2017/02.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/composite-bow-making_dithered.png&#34; alt=&#39;Image : Un arc composite en cours de fabrication. Source : The modern reproduction of a Mongol era bow based on historical facts and ancient technology research. Jason Wayne Beever &amp;amp;amp; Zoran Pavlović, EXARC Journal Issue 2017/02.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un arc composite en cours de fabrication. Source : [The modern reproduction of a Mongol era bow based on historical facts and ancient technology research](https://exarc.net/issue-2017-2/at/modern-reproduction-mongol-era-bow-based-historical-facts-and-ancient-technology-research). Jason Wayne Beever &amp; Zoran Pavlović, EXARC Journal Issue 2017/02. 
 &lt;/figcaption&gt;
@@ -479,7 +479,7 @@
 &lt;p&gt;On peut ajouter que la pose d’un renforcement était un moyen courant de réparer un arc simple. Si le dos d’un arc était abîmé, on pouvait y coller du cuir brut, du lin ou du tendon pour résoudre le problème. &lt;sup id=&#34;fnref1:34&#34;&gt;&lt;a href=&#34;#fn:34&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;34&lt;/a&gt;&lt;/sup&gt; Dans le cas où l’arc avait subi trop de tension, c’est-à-dire s’il avait dépassé sa limite d’élasticité, une autre technique pouvait être utilisée. Le fabricant d’arc inversait l’arc, le dos devenant le ventre, et appliquait le renforcement sur le nouveau dos (qui était auparavant le ventre).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/017.700x700_dithered.png&#34; alt=&#39;Image : Un arc à branches larges renforcé par du tendon. Source : National Museum of the American Indian, Smithsonian.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/017.700x700_dithered.png&#34; alt=&#39;Image : Un arc à branches larges renforcé par du tendon. Source : National Museum of the American Indian, Smithsonian.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un arc à branches larges renforcé par du tendon. Source : [National Museum of the American Indian, Smithsonian](https://americanindian.si.edu/collections-search/search?page=26&amp;edan_q=BOW). 
 &lt;/figcaption&gt;
@@ -487,7 +487,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/juniper-bow_dithered.png&#34; alt=&#39;Image : [arc en genévrier style west coast] (https://primitive-bows.com/juniper-west-coast-style-bow-hld-no-7/), fabriqué par le maître artisan archer Simon Sieß. Seules les extrémités sont renforcées par des tendons. Source : Stonehill Primitive Bows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/juniper-bow_dithered.png&#34; alt=&#39;Image : [arc en genévrier style west coast] (https://primitive-bows.com/juniper-west-coast-style-bow-hld-no-7/), fabriqué par le maître artisan archer Simon Sieß. Seules les extrémités sont renforcées par des tendons. Source : Stonehill Primitive Bows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : [arc en genévrier style west coast] (https://primitive-bows.com/juniper-west-coast-style-bow-hld-no-7/), fabriqué par le maître artisan archer Simon Sieß. Seules les extrémités sont renforcées par des tendons. Source : [Stonehill Primitive Bows](https://primitive-bows.com/category/bows/).  
 &lt;/figcaption&gt;
@@ -495,7 +495,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/sinew-preparation_dithered.png&#34; alt=&#39;Image : préparation des tendons Source : Making the sinew-backed bow, Jeff Martin, Primitive Lifeways.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/sinew-preparation_dithered.png&#34; alt=&#39;Image : préparation des tendons Source : Making the sinew-backed bow, Jeff Martin, Primitive Lifeways.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : préparation des tendons Source : [Making the sinew-backed bow](https://primitivelifeways.com/2019/05/making-the-sinew-backed-bow/), Jeff Martin, Primitive Lifeways. 
 &lt;/figcaption&gt;
@@ -503,7 +503,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/detail-sinew-backing_dithered.png&#34; alt=&#39;Image : renforcement au tendon. Source : Making the sinew-backed bow, Jeff Martin, Primitive Lifeways.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/detail-sinew-backing_dithered.png&#34; alt=&#39;Image : renforcement au tendon. Source : Making the sinew-backed bow, Jeff Martin, Primitive Lifeways.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : renforcement au tendon. Source : [Making the sinew-backed bow](https://primitivelifeways.com/2019/05/making-the-sinew-backed-bow/), Jeff Martin, Primitive Lifeways.  
 &lt;/figcaption&gt;
@@ -515,7 +515,7 @@
 &lt;p&gt;Tout renforcement doit être proportionnel à la masse de la branche le long de l’arc, ce qui signifie qu’il doit être plus épais au niveau de la poignée et plus fin vers les pointes de l’arc. Avec un renforcement collé, c’est facile à réaliser : il faut ajouter de nouvelles couches au milieu de l’arc. Cependant, il est difficile de réduire le diamètre d’un câble entre la poignée et l’extrémité. Les Inuits ont résolu ce problème en faisant passer une partie des câbles sur seulement une section de la branche. Jusqu’à une douzaine de fils s’étendent le long de l’arc.. La plupart des arcs simples renforcés par du câble étaient des arcs plats courts, d’une longueur maximale de 125 cm. &lt;sup id=&#34;fnref7:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref2:37&#34;&gt;&lt;a href=&#34;#fn:37&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;37&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/03PLATE%20III_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/03PLATE%20III_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884. 
 &lt;/figcaption&gt;
@@ -523,7 +523,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/05PLATE%20V_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/05PLATE%20V_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884. 
 &lt;/figcaption&gt;
@@ -531,7 +531,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/06PLATE%20VI_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/06PLATE%20VI_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884. 
 &lt;/figcaption&gt;
@@ -539,7 +539,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/09PLATE%20IX_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/09PLATE%20IX_dithered.png&#34; alt=&#39;Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Arcs renforcés par du câble. Source: Murdoch, John. « A study of the Eskimo bows in the US National Museum. » Report of the United States National Museum for the year 1884. 
 &lt;/figcaption&gt;
@@ -551,7 +551,7 @@
 &lt;p&gt;Pour finir, il y a l’arc japonais, le yumi, qui constitue une catégorie à part entière. Le yumi est un arc lamellé (composé d’au moins sept couches de bambou et de bois), mais sa construction et sa conception sont clairement influencées par l’arc composite. Le yumi se distingue par sa longueur (il peut dépasser deux mètres) et son assymétrie : la branche supérieure couvre les deux tiers de la longueur totale. La branche la plus longue permet de tirer plus loin, tandis que la branche la plus courte permet de tirer à cheval ou à genoux. Dans la fabrication d’un yumi, le fabricant d’arcs devait utiliser ses mains et ses pieds, travailler rapidement avec des colles à séchage rapide qui pouvaient être ramollies à nouveau dans une étuve.  &lt;sup id=&#34;fnref3:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/01-meare-heath-neolithic-bow-illustration_dithered.png&#34; alt=&#39;Image : dessin de l’arc Meare Heath. Source: Clark, J. G. D. « Neolithic bows from Somerset, England, and the prehistory of archery in north-western Europe. » Proceedings of the Prehistoric Society. Vol. 29. Cambridge University Press, 1963.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/01-meare-heath-neolithic-bow-illustration_dithered.png&#34; alt=&#39;Image : dessin de l’arc Meare Heath. Source: Clark, J. G. D. « Neolithic bows from Somerset, England, and the prehistory of archery in north-western Europe. » Proceedings of the Prehistoric Society. Vol. 29. Cambridge University Press, 1963.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : dessin de l’arc Meare Heath. Source: Clark, J. G. D. « Neolithic bows from Somerset, England, and the prehistory of archery in north-western Europe. » Proceedings of the Prehistoric Society. Vol. 29. Cambridge University Press, 1963. 
 &lt;/figcaption&gt;
@@ -559,7 +559,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/meare-heath-bow-replica_dithered.png&#34; alt=&#39;Image : Une réplique de l’arc Meare Heath, fabriquée par le maître artisan Greg Anderson. Source : North Wood Traditional Archery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/meare-heath-bow-replica_dithered.png&#34; alt=&#39;Image : Une réplique de l’arc Meare Heath, fabriquée par le maître artisan Greg Anderson. Source : North Wood Traditional Archery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Une réplique de l’arc Meare Heath, fabriquée par le maître artisan Greg Anderson. Source : [North Wood Traditional Archery](https://www.facebook.com/profile.php?id=100067570410615). 
 &lt;/figcaption&gt;
@@ -567,7 +567,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/penobscot-bow_dithered.png&#34; alt=&#39;Image : L’arc Penobscot. Une autre méthode pour fabriquer un arc à partir de bois de qualité inférieure. On augmente la puissance de l’arc en ajoutant une deuxième branche. Source : National Museum of the American Indian, Smithsonian.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/penobscot-bow_dithered.png&#34; alt=&#39;Image : L’arc Penobscot. Une autre méthode pour fabriquer un arc à partir de bois de qualité inférieure. On augmente la puissance de l’arc en ajoutant une deuxième branche. Source : National Museum of the American Indian, Smithsonian.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : L’arc Penobscot. Une autre méthode pour fabriquer un arc à partir de bois de qualité inférieure. On augmente la puissance de l’arc en ajoutant une deuxième branche. Source : [National Museum of the American Indian, Smithsonian](https://americanindian.si.edu/collections-search/objects/NMAI_27561). 
 &lt;/figcaption&gt;
@@ -579,7 +579,7 @@
 &lt;p&gt;Les outils de découpe en métal ont fait apparaître une nouvelle méthode, qui a permis de fabriquer des flèches à partir de bois scié. Des planches de bois sont découpées en petits carrés de la taille d’une flèche, puis leurs quatre coins sont rabotés, ce qui leur donne une forme octogonale. Ces hampes sont ensuite arrondies au papier de verre ou au grès. Le « Split Timber Shafting » a permis de réduire le temps de fabrication des hampes de flèches, de produire des flèches en grand nombre et d’améliorer leurs capacités balistiques. &lt;sup id=&#34;fnref2:38&#34;&gt;&lt;a href=&#34;#fn:38&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;38&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref2:39&#34;&gt;&lt;a href=&#34;#fn:39&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;39&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:41&#34;&gt;&lt;a href=&#34;#fn:41&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;41&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/011.700x700_dithered.png&#34; alt=&#39;Image : Un jeu de flèches avec des pointes et des embouts en bois. Source : National Museum of the American Indian, Smithsonian&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/011.700x700_dithered.png&#34; alt=&#39;Image : Un jeu de flèches avec des pointes et des embouts en bois. Source : National Museum of the American Indian, Smithsonian&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un jeu de flèches avec des pointes et des embouts en bois. Source : [National Museum of the American Indian, Smithsonian](https://americanindian.si.edu/collections-search/objects/NMAI_31682?destination=edan_searchtab%3Fpage%3D5%26edan_q%3DARROWS)  
 &lt;/figcaption&gt;
@@ -587,7 +587,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/arrowheads-black-white_dithered.png&#34; alt=&#39;Image : Répliques de flèches préhistoriques, fabriquées par le maître artisan Greg Anderson. Source : North Wood Traditional Archery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/arrowheads-black-white_dithered.png&#34; alt=&#39;Image : Répliques de flèches préhistoriques, fabriquées par le maître artisan Greg Anderson. Source : North Wood Traditional Archery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Répliques de flèches préhistoriques, fabriquées par le maître artisan Greg Anderson. Source : [North Wood Traditional Archery](https://www.facebook.com/profile.php?id=100067570410615). 
 &lt;/figcaption&gt;
@@ -595,7 +595,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/medieval-arrows_dithered.png&#34; alt=&#39;Image : Répliques de flèches médiévales, fabriquées par Heritage Longbows. Source : Heritage Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/medieval-arrows_dithered.png&#34; alt=&#39;Image : Répliques de flèches médiévales, fabriquées par Heritage Longbows. Source : Heritage Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Répliques de flèches médiévales, fabriquées par Heritage Longbows. Source : [Heritage Longbows](https://www.heritagelongbows.com). 
 &lt;/figcaption&gt;
@@ -603,28 +603,28 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-3_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-3_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-4_dithered.png&#34; alt=&#39;Arcs et flèches d’Afrique. Source: Leakey, Louis Seymour Bazett. « A New Classification of the Bow and Arrow in Africa. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 56 (1926) : 259-299&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/african-arrows-4_dithered.png&#34; alt=&#39;Arcs et flèches d’Afrique. Source: Leakey, Louis Seymour Bazett. « A New Classification of the Bow and Arrow in Africa. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 56 (1926) : 259-299&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Arcs et flèches d’Afrique. Source: Leakey, Louis Seymour Bazett. « A New Classification of the Bow and Arrow in Africa. » The Journal of the Royal Anthropological Institute of Great Britain and Ireland 56 (1926) : 259-299 
 &lt;/figcaption&gt;
@@ -638,7 +638,7 @@
 &lt;p&gt;Si la hampe se cassait à un autre endroit, elle pouvait être réparée par une technique plus élaborée appelée « footing ». Cette technique, qui nécessitait des outils en métal, consistait à réaliser des jointures en queue de poisson. De plus, les pointes de flèches et les plumes pouvaient être réutilisées pour fabriquer de nouvelles flèches.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/tools-arrowmaker-horizontal_dithered.png&#34; alt=&#39;Image : Outils du fabricant de flèches. Source: Mason, Otis T. North American bows, arrows, and quivers. JM Carroll, 1893.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/tools-arrowmaker-horizontal_dithered.png&#34; alt=&#39;Image : Outils du fabricant de flèches. Source: Mason, Otis T. North American bows, arrows, and quivers. JM Carroll, 1893.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Outils du fabricant de flèches. Source: Mason, Otis T. North American bows, arrows, and quivers. JM Carroll, 1893. 
 &lt;/figcaption&gt;
@@ -650,7 +650,7 @@
 &lt;p&gt;Il existe plusieurs façons de transformer un fil en corde d’arc. Le « fil sans fin » est le plus facile à réaliser. Enfoncez deux clous dans une planche de bois, la distance entre eux étant égale à la longueur de corde souhaitée (un peu plus courte que l’arc lui-même). Le fil est enroulé d’avant en arrière autour des clous jusqu’à ce que vous atteigniez le nombre de brins désiré (généralement 12 à 16 brins). Les deux extrémités sont ensuite nouées ensemble, renforcées par un autre fil et formées en boucles qui peuvent être attachées aux extrémités de l’arc. Dans certaines régions, les archers utilisaient des nœuds plutôt que des boucles pour attacher la corde à l’arc, ce qui leur permettait d’ajuster la longueur de la corde. &lt;sup id=&#34;fnref2:44&#34;&gt;&lt;a href=&#34;#fn:44&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;44&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/bowstrings-nocks_dithered.png&#34; alt=&#39;Image : Cordes d’arcs fabriquées par le maître artisan Greg Anderson. Source : North Wood Traditional Archery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/bowstrings-nocks_dithered.png&#34; alt=&#39;Image : Cordes d’arcs fabriquées par le maître artisan Greg Anderson. Source : North Wood Traditional Archery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Cordes d’arcs fabriquées par le maître artisan Greg Anderson. Source : [North Wood Traditional Archery](https://www.facebook.com/profile.php?id=100067570410615). 
 &lt;/figcaption&gt;
@@ -658,7 +658,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/bowstring-living-longbows-facebook_dithered.png&#34; alt=&#39;Image : Une corde d’arc fabriquée par le maître artisan Jack Pinson, Under Warden. Irlande. Source : Living Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/11/when-lethal-weapons-grew-on-trees/images/dithers/bowstring-living-longbows-facebook_dithered.png&#34; alt=&#39;Image : Une corde d’arc fabriquée par le maître artisan Jack Pinson, Under Warden. Irlande. Source : Living Longbows.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Une corde d’arc fabriquée par le maître artisan Jack Pinson, Under Warden. Irlande. Source : [Living Longbows](https://www.facebook.com/LivingLongbows).  
 &lt;/figcaption&gt;
@@ -812,15 +812,15 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
     
     <item>
       <title>La vengeance de la bouillotte</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/</link>
+      <link>/fr/2022/01/the-revenge-of-the-hot-water-bottle/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" type="image/png" length="40997" ></enclosure>
+      <enclosure url="/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" type="image/png" length="40997" ></enclosure>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/</guid>
+      <guid>/fr/2022/01/the-revenge-of-the-hot-water-bottle/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png&#34; alt=&#39;Grâce aux bouillottes, nous pourrions économiser beaucoup d’énergie et d’argent sans avoir à sacrifier notre confort thermique. Elles marchent aussi bien à l&amp;amp;rsquo;intérieur qu&amp;amp;rsquo;à l&amp;amp;rsquo;extérieur. Illustration : Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png&#34; alt=&#39;Grâce aux bouillottes, nous pourrions économiser beaucoup d’énergie et d’argent sans avoir à sacrifier notre confort thermique. Elles marchent aussi bien à l&amp;amp;rsquo;intérieur qu&amp;amp;rsquo;à l&amp;amp;rsquo;extérieur. Illustration : Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Grâce aux bouillottes, nous pourrions économiser beaucoup d’énergie et d’argent sans avoir à sacrifier notre confort thermique. Elles marchent aussi bien à l&#39;intérieur qu&#39;à l&#39;extérieur. Illustration : Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -832,7 +832,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;En 1903, l&amp;rsquo;inventeur croate Eduard Penkala dépose le brevet de la bouillotte en caoutchouc qu&amp;rsquo;il nomme alors le « Termofor ». Mais elle n’est pas apparue du jour au lendemain. L&amp;rsquo;histoire de la bouillotte, bien que celle-ci ait eu d’autres apparences, commence bien plus tôt.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png&#34; alt=&#39;Bouillotte en caoutchouc, fabriquée en Allemagne (1925-35). Source : Museum Rotterdam.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png&#34; alt=&#39;Bouillotte en caoutchouc, fabriquée en Allemagne (1925-35). Source : Museum Rotterdam.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Bouillotte en caoutchouc, fabriquée en Allemagne (1925-35). Source : [Museum Rotterdam](https://museumrotterdam.nl/collectie/item/76113-A-B). 
 &lt;/figcaption&gt;
@@ -844,7 +844,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Au départ, ces premières « vraies » bouillottes étaient fabriquées dans des matériaux solides comme le ver, le métal ou le grès. Ce n’est qu&amp;rsquo;à partir de l&amp;rsquo;invention du caoutchouc vulcanisé au 19ème siècle que les bouillottes plus légères et flexibles voient le jour. Des amis Espagnols m&amp;rsquo;ont parlé de bouillottes fabriquées à partir de peaux d&amp;rsquo;animaux bien que je n&amp;rsquo;aie pu vérifier cette information. Ça ne serait pas étonnant, étant donné que, partout dans le monde, on utilisait des « outres » pour transporter des liquides.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png&#34; alt=&#39;Exemple d&amp;amp;rsquo;une bouillotte couramment utilisée dans les foyers au 20ème siècle avant l&amp;amp;rsquo;arrivée des bouillottes en caoutchouc (Années 1940, Melbourne, Australie). Source : Victorian Collections. https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png&#34; alt=&#39;Exemple d&amp;amp;rsquo;une bouillotte couramment utilisée dans les foyers au 20ème siècle avant l&amp;amp;rsquo;arrivée des bouillottes en caoutchouc (Années 1940, Melbourne, Australie). Source : Victorian Collections. https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Exemple d&#39;une bouillotte couramment utilisée dans les foyers au 20ème siècle avant l&#39;arrivée des bouillottes en caoutchouc (Années 1940, Melbourne, Australie). Source : Victorian Collections. [https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799](https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799). 
 &lt;/figcaption&gt;
@@ -852,7 +852,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png&#34; alt=&#39;Fabriqué par Kenworty Son and Company à Southport, en Angleterre, ce modèle ovale est incurvé et adapté à la forme du corps. Source : Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/gf42542b.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png&#34; alt=&#39;Fabriqué par Kenworty Son and Company à Southport, en Angleterre, ce modèle ovale est incurvé et adapté à la forme du corps. Source : Science Museum, London. (CC BY 4.0). https://wellcomecollection.org/works/gf42542b.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Fabriqué par Kenworty Son and Company à Southport, en Angleterre, ce modèle ovale est incurvé et adapté à la forme du corps. Source : Science Museum, London. (CC BY 4.0). [https://wellcomecollection.org/works/gf42542b](https://wellcomecollection.org/works/gf42542b). 
 &lt;/figcaption&gt;
@@ -860,7 +860,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png&#34; alt=&#39;Bouillotte hexagonale, Autriche, 1791-1798. Cette bouillotte est faite en étain et est ornée d’une gravure représentant une forêt. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/b452vwjm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png&#34; alt=&#39;Bouillotte hexagonale, Autriche, 1791-1798. Cette bouillotte est faite en étain et est ornée d’une gravure représentant une forêt. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/b452vwjm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Bouillotte hexagonale, Autriche, 1791-1798. Cette bouillotte est faite en étain et est ornée d’une gravure représentant une forêt.  Source : Science Museum, Londres. (CC BY 4.0). [https://wellcomecollection.org/works/b452vwjm](https://wellcomecollection.org/works/b452vwjm). 
 &lt;/figcaption&gt;
@@ -868,7 +868,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png&#34; alt=&#39;Ce chauffe-pied (fabriqué en 1927) était utilisé pour réchauffer et réconforter les patients qui séjournaient à l’hôpital. Fabriquée en fer et en étain, on la remplissait d&amp;amp;rsquo;eau chaude avant de la refermer à l’aide d’un bouchon. Fabriquée à : Glasgow, Écosse, Royaume-Uni. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/mfjujndv&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png&#34; alt=&#39;Ce chauffe-pied (fabriqué en 1927) était utilisé pour réchauffer et réconforter les patients qui séjournaient à l’hôpital. Fabriquée en fer et en étain, on la remplissait d&amp;amp;rsquo;eau chaude avant de la refermer à l’aide d’un bouchon. Fabriquée à : Glasgow, Écosse, Royaume-Uni. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/mfjujndv&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ce chauffe-pied (fabriqué en 1927) était utilisé pour réchauffer et réconforter les patients qui séjournaient à l’hôpital. Fabriquée en fer et en étain, on la remplissait d&#39;eau chaude avant de la refermer à l’aide d’un bouchon. Fabriquée à : Glasgow, Écosse, Royaume-Uni. Source : Science Museum, Londres. (CC BY 4.0). [https://wellcomecollection.org/works/mfjujndv](https://wellcomecollection.org/works/mfjujndv) 
 &lt;/figcaption&gt;
@@ -876,7 +876,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png&#34; alt=&#39;Chauffe-pied Français, date inconnue. Source : Musée Départemental Albert Demard&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png&#34; alt=&#39;Chauffe-pied Français, date inconnue. Source : Musée Départemental Albert Demard&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Chauffe-pied Français, date inconnue. Source : Musée Départemental Albert Demard 
 &lt;/figcaption&gt;
@@ -892,7 +892,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Aujourd&amp;rsquo;hui, il existe aussi des bouillottes plus grandes, qui peuvent contenir jusqu&amp;rsquo;à 3 litres d&amp;rsquo;eau, voire plus. Finalement, la bouillote qui a connu le plus de succès est celle en forme de saucisse : une bouillotte de 80 cm de longueur. On peut l&amp;rsquo;attacher autour de sa taille ou la serrer contre soi dans le canapé ou au lit. Elle peut aussi d&amp;rsquo;être partagée et sa forme la rend extrêmement confortable. Elle peut contenir jusqu&amp;rsquo;à deux litres d&amp;rsquo;eau.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png&#34; alt=&#39;Bouillotte en caoutchouc et en PVC. Image par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png&#34; alt=&#39;Bouillotte en caoutchouc et en PVC. Image par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Bouillotte en caoutchouc et en PVC. Image par Marie Verdeil.  
 &lt;/figcaption&gt;
@@ -900,7 +900,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png&#34; alt=&#39;Bouillotte en caoutchouc. Image par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png&#34; alt=&#39;Bouillotte en caoutchouc. Image par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Bouillotte en caoutchouc. Image par Marie Verdeil.  
 &lt;/figcaption&gt;
@@ -908,7 +908,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png&#34; alt=&#39;Une bouillotte japonaise, ou « yutampo », fabriquée en plastique dur. Source : All About Japan. https://allabout-japan.com/en/article/6244/&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png&#34; alt=&#39;Une bouillotte japonaise, ou « yutampo », fabriquée en plastique dur. Source : All About Japan. https://allabout-japan.com/en/article/6244/&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une bouillotte japonaise, ou « yutampo », fabriquée en plastique dur. Source : All About Japan. [https://allabout-japan.com/en/article/6244/](https://allabout-japan.com/en/article/6244/) 
 &lt;/figcaption&gt;
@@ -916,7 +916,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png&#34; alt=&#39;On trouve encore des yutampo Japonais en métal. Source : Maruka.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png&#34; alt=&#39;On trouve encore des yutampo Japonais en métal. Source : Maruka.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  On trouve encore des yutampo Japonais en métal. Source : Maruka.  
 &lt;/figcaption&gt;
@@ -929,7 +929,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Encore mieux : les couvertures avec un trou au milieu pour y mettre sa tête – les ponchos en fait – ou celles à manches. Si elles sont assez grandes, elles peuvent s’utiliser comme des tentes et garder le corps entier dans ce microclimat créé par les bouillottes. Draper une source de chaleur de vêtements amples était, auparavant, une stratégie de confort assez commune.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png&#34; alt=&#39;Une couverture retient la chaleur des bouillottes. Illustration par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png&#34; alt=&#39;Une couverture retient la chaleur des bouillottes. Illustration par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une couverture retient la chaleur des bouillottes. Illustration par Marie Verdeil.  
 &lt;/figcaption&gt;
@@ -942,13 +942,13 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Malgré tout, les bouillottes peuvent aussi tenir chaud en déplacement. Elles peuvent être portées sous les vêtements ou même dans des sac (à dos) spécialement conçu pour. Un petit sac à dos contenant une bouillotte – entre les omoplates – fonctionne très bien aussi assis sur une chaise.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png&#34; alt=&#39;Les bouillottes peuvent fournir du confort thermique même avec les fenêtres ouvertes. Illustration par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png&#34; alt=&#39;Les bouillottes peuvent fournir du confort thermique même avec les fenêtres ouvertes. Illustration par Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les bouillottes peuvent fournir du confort thermique même avec les fenêtres ouvertes. Illustration par Marie Verdeil.  
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Les bouillottes marchent aussi bien en extérieur – à condition que le corps soit protégé des intempéries – qu&amp;rsquo;en intérieur avec les fenêtres ouvertes. Les chauffages modernes fournissent du confort thermique en réchauffant l&amp;rsquo;air d’une pièce, une approche qui, bien évidemment, ne marche pas trop en extérieur ou dans les intérieurs trop aérés. Les bouillottes réchauffent les gens grâce au contact physique direct (une méthode de transfert de chaleur qu’on appelle la conduction). &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;Elles réchauffent les gens, non les espaces.&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les bouillottes marchent aussi bien en extérieur – à condition que le corps soit protégé des intempéries – qu&amp;rsquo;en intérieur avec les fenêtres ouvertes. Les chauffages modernes fournissent du confort thermique en réchauffant l&amp;rsquo;air d’une pièce, une approche qui, bien évidemment, ne marche pas trop en extérieur ou dans les intérieurs trop aérés. Les bouillottes réchauffent les gens grâce au contact physique direct (une méthode de transfert de chaleur qu’on appelle la conduction). &lt;a href=&#34;/fr/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;Elles réchauffent les gens, non les espaces.&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ce qui fait des bouillottes une alternative pratique et durable pour se réchauffer sur les terrasses de bars et dans les restaurants. L&amp;rsquo;investissement est minimal : quelques bouillottes et une bouilloire – l&amp;rsquo;eau se réutilise à l&amp;rsquo;infini. Sinon, les gens pourraient apporter leurs propres bouillottes et les remplir en terrasse.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Les bouillottes sont une alternative pratique et durable pour se réchauffer sur les terrasses de bars et dans les restaurants.&lt;/p&gt;
@@ -957,7 +957,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Historiquement, les bouillottes – et ses prédécesseurs à base de charbon – étaient utilisés en dehors des foyers. Elles étaient couramment utilisées dans les trains et les bus, tout comme dans les églises, qui n&amp;rsquo;avaient pas de chauffages. Des petites bouillottes avec des cordons de transport et des housses en tissu se glissaient dans les gants en fourrure ou les poches. Aujourd&amp;rsquo;hui, on pourrait aussi garder de l&amp;rsquo;eau chaude dans un thermos pour ensuite la verser dans une bouillotte.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png&#34; alt=&#39;&amp;amp;quot;Queens Muff Warmer&amp;amp;quot;. Source : Antiques Atlas. https://www.antiques-atlas.com.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png&#34; alt=&#39;&amp;amp;quot;Queens Muff Warmer&amp;amp;quot;. Source : Antiques Atlas. https://www.antiques-atlas.com.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  \&#34;Queens Muff Warmer\&#34;. Source : Antiques Atlas. [https://www.antiques-atlas.com](https://www.antiques-atlas.com). 
 &lt;/figcaption&gt;
@@ -965,7 +965,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png&#34; alt=&#39;Bouillotte rectangulaire incurvée, France, 1751-1810. Des oiseaux et des plantes sont gravés sur cette bouillotte. Sa forme permet d’épouser parfaitement le corps. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/g5ufhayn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png&#34; alt=&#39;Bouillotte rectangulaire incurvée, France, 1751-1810. Des oiseaux et des plantes sont gravés sur cette bouillotte. Sa forme permet d’épouser parfaitement le corps. Source : Science Museum, Londres. (CC BY 4.0). https://wellcomecollection.org/works/g5ufhayn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Bouillotte rectangulaire incurvée, France, 1751-1810. Des oiseaux et des plantes sont gravés sur cette bouillotte. Sa forme permet d’épouser parfaitement le corps. Source : Science Museum, Londres. (CC BY 4.0). [https://wellcomecollection.org/works/g5ufhayn](https://wellcomecollection.org/works/g5ufhayn).  
 &lt;/figcaption&gt;
@@ -975,12 +975,12 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Comme on peut s&amp;rsquo;y attendre, il y a très peu – voir pas – de recherche académique sur le potentiel des bouillottes et l&amp;rsquo;énergie que l&amp;rsquo;on peut économiser grâce à elles. Récemment, les scientifiques travaillent plus sur les dispositifs personnels plus sophistiqués comme les bureaux et chaises chauffés électriquement, les résistances chauffantes ou encore les oreillers chauffants à batterie. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Ces alternatives semblent inutilement complexes quand on les compare avec les bouillottes. Il y a plusieurs manières de réchauffer l&amp;rsquo;eau de façon high-tech comme low-tech, et les récipients peuvent être fabriqués dans des matériaux locaux.&lt;/p&gt;
 &lt;p&gt;Néanmoins, ces études montrent que les sources de chaleur personnelles avec des effets similaires de ceux de la bouillotte pourraient permettre d’économiser beaucoup d&amp;rsquo;énergie tout en gardant et souvent en améliorant le confort thermique. Par exemple, une étude a révélé que baisser la température dans un bureau de 20,5°C à 18,8°C et donner à des salariés une chaise chauffante pour compenser la perte de confort, augmentait le confort thermique et diminuait l&amp;rsquo;usage de l’énergie de 35 %.&lt;/p&gt;
-&lt;p&gt;Peu de méthodes de rénovations des locaux permettraient d&amp;rsquo;économiser autant pour un si petit investissement. Pourtant, dans cette expérience, peu de température était perdue. Si les appareils chauffants personnels étaient &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;utilisés avec des vêtements bien isolants&lt;/a&gt; et/ou des couvertures, les économies d&amp;rsquo;énergie pourraient devenir encore plus marquantes.&lt;/p&gt;
+&lt;p&gt;Peu de méthodes de rénovations des locaux permettraient d&amp;rsquo;économiser autant pour un si petit investissement. Pourtant, dans cette expérience, peu de température était perdue. Si les appareils chauffants personnels étaient &lt;a href=&#34;/fr/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;utilisés avec des vêtements bien isolants&lt;/a&gt; et/ou des couvertures, les économies d&amp;rsquo;énergie pourraient devenir encore plus marquantes.&lt;/p&gt;
 &lt;p&gt;Une autre manière d&amp;rsquo;examiner les économies d&amp;rsquo;énergie potentielles de la bouillotte est de calculer l’électricité utilisée pour la chauffer et de comparer ces résultats avec ceux d&amp;rsquo;un chauffage central. Vu que les bouillottes en caoutchouc ou en PVC ne peuvent être remplies que deux tiers pour rester sans danger et confortable, j’imagine un modèle plus grand – 3 litres – qui peut contenir 2 litres en pratique.&lt;/p&gt;
 &lt;p&gt;Cela fait en sorte que les calculs fonctionnent aussi pour les récipients que l’on peut remplir complètement, comme le yutampo Japonais. Il nous faut 4 200 joules pour augmenter la température d&#39;1 litre d&#39;1 degré Celsius, ce qui veut dire que réchauffer 2 litres d&amp;rsquo;eau de 10°C à 60°C exige 420 kilojoules ou bien 116,7 watt par heure.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png&#34; alt=&#39;Publicité pour les bouillottes « Cosimax » de Westbrook &amp;amp;amp; Thompson Ltd&amp;amp;rsquo;s, faites en caoutchouc Dunlop. 1938. Science Museum / Science &amp;amp;amp; Society Picture Library. Source : https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png&#34; alt=&#39;Publicité pour les bouillottes « Cosimax » de Westbrook &amp;amp;amp; Thompson Ltd&amp;amp;rsquo;s, faites en caoutchouc Dunlop. 1938. Science Museum / Science &amp;amp;amp; Society Picture Library. Source : https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Publicité pour les bouillottes « Cosimax » de Westbrook &amp; Thompson Ltd&#39;s, faites en caoutchouc Dunlop. 1938. Science Museum / Science &amp; Society Picture Library. Source : [https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938](https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938). 
 &lt;/figcaption&gt;
@@ -997,7 +997,7 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;p&gt;Dernièrement – et c’est le pire scénario – la bouillotte peut éclater et répandre deux litres d&amp;rsquo;eau chaude sur la personne qui l’utilise. Ces accidents sont rares car les bouillottes modernes sont faites selon des standards de qualité. Pourtant, ils arrivent, la plupart du temps parce que la bouillotte est complètement usée.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png&#34; alt=&#39;La bouillotte Jayne Mansfield est sortie en 1957. La personnage Mansfield – dans une pose pin-up avec ses mains derrière son cou en bikini noir – est faite en plastique rose « rougissant » avec un bouchon en forme de chapeau et mesure près de 50 cm des pieds à la tête. Source : https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png&#34; alt=&#39;La bouillotte Jayne Mansfield est sortie en 1957. La personnage Mansfield – dans une pose pin-up avec ses mains derrière son cou en bikini noir – est faite en plastique rose « rougissant » avec un bouchon en forme de chapeau et mesure près de 50 cm des pieds à la tête. Source : https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La bouillotte Jayne Mansfield est sortie en 1957. La personnage Mansfield – dans une pose pin-up avec ses mains derrière son cou en bikini noir – est faite en plastique rose « rougissant » avec un bouchon en forme de chapeau et mesure près de 50 cm des pieds à la tête. Source : [https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/](https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/). 
 &lt;/figcaption&gt;
@@ -1013,10 +1013,10 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/blockquote&gt;
 &lt;p&gt;Utiliser une bouilloire électrique – ou une casserole – permet de réutiliser l&amp;rsquo;eau plusieurs fois, mais cela présente également quelques inconvénients. Tout d&amp;rsquo;abord, si jamais on ne peut pas programmer la température de l&amp;rsquo;eau d’une bouilloire, on doit la garder bien à l’œil pour faire en sorte que l&amp;rsquo;eau ne chauffe pas trop. Je résous ce problème en mettant un thermomètre digital dans la bouilloire en chauffant l&amp;rsquo;eau.&lt;/p&gt;
 &lt;p&gt;En plus, si l’on utilise une bouilloire pour chauffer l’eau d&amp;rsquo;une bouillotte en caoutchouc, celle-ci ne peut plus être utilisé pour chauffer de l&amp;rsquo;eau pour la consommation humaine car elle aura un goût mauvais. Il faudra donc utiliser une bouilloire différente pour l&amp;rsquo;eau des bouillottes, ou bien réchauffer l&amp;rsquo;eau dans la seule bouilloire de la maison puis la verser dans l’évier une fois refroidie.&lt;/p&gt;
-&lt;p&gt;Même si l&amp;rsquo;on ne peut pas réutiliser l’eau pour notre propre usage, on peut, par exemple, arroser ses plantes avec, le gaspillage reste donc assez limité. La &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/10/mist-showers-sustainable-decadence/&#34;&gt;douche moyenne&lt;/a&gt; peut remplir jusqu&amp;rsquo;à 37 bouillottes. De même, une douche moyenne correspond à la quantité d&amp;rsquo;énergie nécessaire pour réchauffer 17 bouillottes (qui ont de l&amp;rsquo;eau plus chaude que celle de la douche). Par conséquent, même de fait de réduire la fréquence de ses douches permet d’économiser facilement l&amp;rsquo;eau et l&amp;rsquo;énergie nécessaire pour garder une bouillotte constamment chaude.&lt;/p&gt;
+&lt;p&gt;Même si l&amp;rsquo;on ne peut pas réutiliser l’eau pour notre propre usage, on peut, par exemple, arroser ses plantes avec, le gaspillage reste donc assez limité. La &lt;a href=&#34;/fr/2019/10/mist-showers-sustainable-decadence/&#34;&gt;douche moyenne&lt;/a&gt; peut remplir jusqu&amp;rsquo;à 37 bouillottes. De même, une douche moyenne correspond à la quantité d&amp;rsquo;énergie nécessaire pour réchauffer 17 bouillottes (qui ont de l&amp;rsquo;eau plus chaude que celle de la douche). Par conséquent, même de fait de réduire la fréquence de ses douches permet d’économiser facilement l&amp;rsquo;eau et l&amp;rsquo;énergie nécessaire pour garder une bouillotte constamment chaude.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png&#34; alt=&#39;Bouillotte en grès (1901-1910). Source : Auckland War Memorial Museum&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png&#34; alt=&#39;Bouillotte en grès (1901-1910). Source : Auckland War Memorial Museum&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Bouillotte en grès (1901-1910). Source : Auckland War Memorial Museum 
 &lt;/figcaption&gt;
@@ -1024,14 +1024,14 @@ Edited by C. N. Hickman, Forrest Nagler &amp;amp; Paul E. Klopsteg, 1939.&amp;#1
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png&#34; alt=&#39;Les Japonais offraient un petit pot rond en grès – un « te-aburi » – rempli de charbon chaud à leurs invités. Des chauffe-mains en cuivre ou bronze de quelques centimètres de diamètre, souvent perforés et avec des poignées de transport, appelés « shou lu » étaient utilisés en Chine. Image dans le domaine public. En savoir plus : https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png&#34; alt=&#39;Les Japonais offraient un petit pot rond en grès – un « te-aburi » – rempli de charbon chaud à leurs invités. Des chauffe-mains en cuivre ou bronze de quelques centimètres de diamètre, souvent perforés et avec des poignées de transport, appelés « shou lu » étaient utilisés en Chine. Image dans le domaine public. En savoir plus : https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les Japonais offraient un petit pot rond en grès – un « te-aburi » – rempli de charbon chaud à leurs invités. Des chauffe-mains en cuivre ou bronze de quelques centimètres de diamètre, souvent perforés et avec des poignées de transport, appelés « shou lu » étaient utilisés en Chine. Image dans le domaine public. En savoir plus : [https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/](https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;bouillottes-froides&#34;&gt;Bouillottes froides&lt;/h2&gt;
-&lt;p&gt;On peut aussi utiliser les bouillottes pour se rafraîchir. Dans ce cas-là, on les remplit d&amp;rsquo;eau froide avant de les mettre au congélateur. Rafraîchir les gens et beaucoup plus efficace que de rafraîchir des pièces entières. Je n&amp;rsquo;ai pas de climatisation et je suis complètement dépendant de mes &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/09/the-revenge-of-the-circulating-fan/&#34;&gt;ventilateurs&lt;/a&gt; et de bouillottes froides en été, quand les températures dépassent les 30°C. J&amp;rsquo;utilise les « bouillottes froides » de la même façon que les bouillottes chaudes – au lit, sous mes pieds ou bien contre mon dos.&lt;/p&gt;
+&lt;p&gt;On peut aussi utiliser les bouillottes pour se rafraîchir. Dans ce cas-là, on les remplit d&amp;rsquo;eau froide avant de les mettre au congélateur. Rafraîchir les gens et beaucoup plus efficace que de rafraîchir des pièces entières. Je n&amp;rsquo;ai pas de climatisation et je suis complètement dépendant de mes &lt;a href=&#34;/fr/2014/09/the-revenge-of-the-circulating-fan/&#34;&gt;ventilateurs&lt;/a&gt; et de bouillottes froides en été, quand les températures dépassent les 30°C. J&amp;rsquo;utilise les « bouillottes froides » de la même façon que les bouillottes chaudes – au lit, sous mes pieds ou bien contre mon dos.&lt;/p&gt;
 &lt;p&gt;Pour me rafraîchir, j&amp;rsquo;utilise les bouillotte PET en plastique et des récipients en métal, mais pas les bouillottes en caoutchouc car elles durcissent et deviennent fragile. Il faut bien faire attention à ne pas remplir la bouillotte complètement – le volume de l’eau augmente une fois congelée – et de mettre la bouillotte dans une housse protectrice pour empêcher de se geler la peau. Il faut également garder à l’esprit que de la condensation se forme sur la bouillotte à mesure que la glace fond et qu’elle peut mouiller les vêtements – même si cela permet de se rafraîchir encore plus. Comme les bouillottes chaudes, les bouillottes froides fonctionnent aussi bien en extérieur qu&amp;rsquo;en intérieur.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;

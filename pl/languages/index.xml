@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Polski</title>
-    <link>https://lowtechmag.gitlab.io/solar/pl/languages/</link>
+    <link>/pl/languages/</link>
     <description>Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.</description>
     <generator>Hugo 0.115.3</generator>
-    <language>pl</language><atom:link href="https://lowtechmag.gitlab.io/solar/pl/languages/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language><atom:link href="/pl/languages/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -8,10 +8,10 @@
 	<meta name="description" content="This is a solar-powered website, which means it sometimes goes offline">
 	<meta name="author" content="Kris De Decker">
 
-	<link rel="icon" href="https://lowtechmag.gitlab.io/solar/icons/sun.svg">
+	<link rel="icon" href="icons/sun.svg">
 
 	
-	<link rel="stylesheet" href="https://lowtechmag.gitlab.io/solar/css/style.css"><meta property="og:title" content="Jak zbudować generator rowerowy z panelem sterowania" />
+	<link rel="stylesheet" href="/css/style.css"><meta property="og:title" content="Jak zbudować generator rowerowy z panelem sterowania" />
 <meta name="twitter:title" content="Jak zbudować generator rowerowy z panelem sterowania"/>
 
 <meta property="og:description" content="Zbudowaliśmy generator prądu napędzany pedałami, wyposażony we własny panel sterowania, służący nam jednocześnie jako domowe źródło energii i przyrząd do ćwiczeń. Można go zintegrować z systemem fotowoltaicznym. Poniżej zamieszczamy szczegółową instrukcję, dzięki której zbudujecie swój własny generator przy pomocy standardowych ręcznych narzędzi i minimum umiejętności technicznych." />
@@ -19,15 +19,15 @@
 <meta name="twitter:description" content="Zbudowaliśmy generator prądu napędzany pedałami, wyposażony we własny panel sterowania, służący nam jednocześnie jako domowe źródło energii i przyrząd do ćwiczeń. Można go zintegrować z systemem fotowoltaicznym. Poniżej zamieszczamy szczegółową instrukcję, dzięki której zbudujecie swój własny generator przy pomocy standardowych ręcznych narzędzi i minimum umiejętności technicznych."/>
 
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/" />
+<meta property="og:url" content="/pl/2022/03/how-to-build-a-practical-household-bike-generator/" />
 
 
 
-<meta property="og:image" itemprop="image" content="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
-<meta property="og:image:secure_url" content="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
+<meta property="og:image" itemprop="image" content="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
+<meta property="og:image:secure_url" content="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" />
 <meta property="og:image:type" content="image/png">
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png"/>
+<meta name="twitter:image" content="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png"/>
 
 <meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-03-06T00:00:00+00:00" />
@@ -50,7 +50,7 @@
 <body id="jak-zbudowa%C4%87-generator-rowerowy-z-panelem-sterowania">
 	<div class="battery_bg">
 	<div id="battery_data" class="bat_status" data-charging="no">
-	  <a href="https://lowtechmag.gitlab.io/pl/power/" title="Power">
+	  <a href="pl/power/" title="Power">
 	    <span id="charge_icon">
 	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
 	      
@@ -62,9 +62,9 @@
 	</div>
 </div>
 	<header class="site-header">
-  <h1><a id="top" href="https://lowtechmag.gitlab.io/pl/">LOW←TECH MAGAZINE</a></h1>
+  <h1><a id="top" href="pl/">LOW←TECH MAGAZINE</a></h1>
   <div class="subtitle">
-     <a href="https://lowtechmag.gitlab.io/solar/pl/power">Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.      
+     <a href="pl/power">Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.      
     </a>
   </div>
   <nav id="menu">
@@ -76,47 +76,47 @@
 <ul> 
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/">English</a>
+    <a class="lang-option" href="/">English</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/fr/">Français</a>
+    <a class="lang-option" href="/fr/">Français</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/de/">Deutsch</a>
+    <a class="lang-option" href="/de/">Deutsch</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/nl/">Nederlands</a>
+    <a class="lang-option" href="/nl/">Nederlands</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/es/">Español</a>
+    <a class="lang-option" href="/es/">Español</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/it/">Italiano</a>
+    <a class="lang-option" href="/it/">Italiano</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pt/">Português</a>
+    <a class="lang-option" href="/pt/">Português</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/pl/">Polski</a>
+    <a class="lang-option" href="/pl/">Polski</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ar/">العربية</a>
+    <a class="lang-option" href="/ar/">العربية</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/vn/">Tiếng Việt</a>
+    <a class="lang-option" href="/vn/">Tiếng Việt</a>
   </li>
 
   <li>
-    <a class="lang-option" href="https://lowtechmag.gitlab.io/solar/ko/">한국어</a>
+    <a class="lang-option" href="/ko/">한국어</a>
   </li>
 
 </ul>
@@ -127,43 +127,43 @@
      
          
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/about/ " data-nav="about" >
+            <a href=" pl/about/ " data-nav="about" >
                 <span>O nas</span>
             </a>
         </li>
         
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/low-tech-solutions/ " data-nav="low-tech-solutions" >
+            <a href=" pl/low-tech-solutions/ " data-nav="low-tech-solutions" >
                 <span>Proste technologie, proste rozwiązania</span>
             </a>
         </li>
         
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/high-tech-problems/ " data-nav="high-tech-problems" >
+            <a href=" pl/high-tech-problems/ " data-nav="high-tech-problems" >
                 <span>Problemy zaawansowanych technologii</span>
             </a>
         </li>
         
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/obsolete-technology/ " data-nav="obsolete-technology" >
+            <a href=" pl/obsolete-technology/ " data-nav="obsolete-technology" >
                 <span>Zapomniane technologie</span>
             </a>
         </li>
         
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/offline-reading/ " data-nav="offline-reading" >
+            <a href=" pl/offline-reading/ " data-nav="offline-reading" >
                 <span>Czytanie offline</span>
             </a>
         </li>
         
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/archives/ " data-nav="archive" >
+            <a href=" pl/archives/ " data-nav="archive" >
                 <span>Archiwum</span>
             </a>
         </li>
         
         <li class="">
-            <a href=" https://lowtechmag.gitlab.io/pl/solar/donate/ " data-nav="donate" >
+            <a href=" pl/donate/ " data-nav="donate" >
                 <span>Wspomóż nas</span>
             </a>
         </li>
@@ -204,9 +204,9 @@
 							<div class="authors">
 							<span class="byline">written by</span>
 							
-									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/pl/authors/kris-de-decker/">Kris De Decker</a></span>
+									<span class="author"><a href="/pl/authors/kris-de-decker/">Kris De Decker</a></span>
 							
-									<span class="author"><a href="https://lowtechmag.gitlab.io/solar/pl/authors/marie-verdeil/"> Marie Verdeil</a></span>
+									<span class="author"><a href="/pl/authors/marie-verdeil/"> Marie Verdeil</a></span>
 							
 							</div>
 						
@@ -217,7 +217,7 @@
 						<div class="translations">
 						<span class="byline">Przekład</span>
 						
-							<span class="author"><a href="https://lowtechmag.gitlab.io/solar/pl/translators/micha%C5%82-kolbusz/">Michał Kolbusz</a></span>
+							<span class="author"><a href="/pl/translators/micha%C5%82-kolbusz/">Michał Kolbusz</a></span>
 						
 						</div>
 						
@@ -226,11 +226,11 @@
 						<div class="translations">
 						<span class="byline">Translations</span>
 						
-							<a href="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/">en</a>
+							<a href="/2022/03/how-to-build-a-practical-household-bike-generator/">en</a>
 						
-							<a href="https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/">fr</a>
+							<a href="/fr/2022/03/how-to-build-a-practical-household-bike-generator/">fr</a>
 						
-							<a href="https://lowtechmag.gitlab.io/solar/nl/2022/03/how-to-build-a-practical-household-bike-generator/">nl</a>
+							<a href="/nl/2022/03/how-to-build-a-practical-household-bike-generator/">nl</a>
 						
 						</div>
 						
@@ -239,7 +239,7 @@
 
 			<div class="entry-content"><div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" alt='Image: Generator rowerowy w dużym pokoju.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-generator-living-room_hua151ed88e97bac72456216f5d8d8f983_8753548_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" alt='Image: Generator rowerowy w dużym pokoju.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-generator-living-room_hua151ed88e97bac72456216f5d8d8f983_8753548_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Generator rowerowy w dużym pokoju.</span>
@@ -329,13 +329,13 @@
 <p>Staraliśmy się również ulepszyć sam generator rowerowy. Choć dobre podręczniki są dostępne, chcieliśmy, aby źródło prądu było łatwe w budowie (nie wymagało spawania ani korzystania ze skomplikowanych narzędzi), wygodne podczas pedałowania, możliwie kompaktowe i aby nie rzucało się w oczy. Nasz generator rowerowy stoi w małym salonie i jest używany regularnie. Rozwiązanie znaleźliśmy we wcześniej nam nieznanym, zabytkowym rowerze stacjonarnym wyposażonym w koło zamachowe.</p>
 <h3 id="próby-i-błędy">Próby i błędy</h3>
 <p>Generator rowerowy i tablica rozdzielcza zostały zaprojektowane i wykonane we współpracy z <a href="https://verdeil.net" target="_blank" >Marie Verdeil</a> w ramach jej stażu w Low-tech Magazine. Nie mogliśmy znaleźć potrzebnej specyfikacji technicznej, więc zastosowaliśmy metodę prób i błędów. Okazało się to czasochłonne i kosztowne, ale dzięki temu nauczyliśmy się wiele i wyciągnęliśmy cenne wnioski. Popełniliśmy wiele błędów, których Wy będziecie mogli uniknąć.</p>
-<p>Nie jesteśmy inżynierami, więc z radością wysłuchamy Waszych <a href="https://lowtechmag.gitlab.io/solar/pl/donate/" >propozycji ulepszeń technicznych</a>.</p>
-<p>Osoby pierwszy raz odwiedzający naszą stronę mogą przeczytać kilka wcześniejszych artykułów, na których opiera się ten projekt generatora rowerowego (tłumaczenia na język polski nie są jeszcze dostępne):  <a href="https://lowtechmag.gitlab.io/solar/2018/01/how-much-energy-do-we-need/" >The short history of pedal powered machines</a> (2018).</p>
+<p>Nie jesteśmy inżynierami, więc z radością wysłuchamy Waszych <a href="/pl/donate/" >propozycji ulepszeń technicznych</a>.</p>
+<p>Osoby pierwszy raz odwiedzający naszą stronę mogą przeczytać kilka wcześniejszych artykułów, na których opiera się ten projekt generatora rowerowego (tłumaczenia na język polski nie są jeszcze dostępne):  <a href="/2018/01/how-much-energy-do-we-need/" >The short history of pedal powered machines</a> (2018).</p>
 <h2 id="span-idbikegeneratorgenerator-rowerowyspan"><span id="bikegenerator">Generator rowerowy</span></h2>
 <p>Istnieje wiele sposobów na zbudowanie prądnicy rowerowej, a każdy z nich ma swoje zalety i wady. Oparliśmy naszą elektrownię na pedały na zabytkowym rowerze stacjonarnym z lat 50. ubiegłego wieku. Nasz rower został wyprodukowany przez hiszpańską firmę BH, ale podobne zabytkowe modele można znaleźć w każdym miejscu uprzemysłowionego świata.</p>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" alt='Image: Rower stacjonarny z lat 50. Z przodu ma ciężkie koło zamachowe.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/vintage-exercise-bike_hub7ef30f5906dbe7549bb0246debf0f0e_1066410_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" alt='Image: Rower stacjonarny z lat 50. Z przodu ma ciężkie koło zamachowe.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/vintage-exercise-bike_hub7ef30f5906dbe7549bb0246debf0f0e_1066410_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Rower stacjonarny z lat 50. Z przodu ma ciężkie koło zamachowe.</span>
@@ -361,7 +361,7 @@
 <p>Nasze podejście umożliwia zbudowanie generatora na pedały przy użyciu prostych narzędzi i przy wykorzystaniu podstawowych umiejętności. Nie ma potrzeby cięcia ani spawania metalu - rower pozostaje taki, jaki jest. Nie ma też potrzeby budowania ramy - korzystamy z istniejącej. Musieliśmy jedynie dodać napęd cierny, czyli mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" alt='Image: Napęd cierny - mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive_hu3ec74efee421ff40a16679f4ab76938c_9095067_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" alt='Image: Napęd cierny - mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive_hu3ec74efee421ff40a16679f4ab76938c_9095067_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Napęd cierny - mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.</span>
@@ -390,7 +390,7 @@
 <p>Jako cykliści-generatorzy musicie dopasować napięcie (V) i natężenie (A) urządzenia, które zasilacie lub ładujecie. Jednak łatwiej to powiedzieć niż zrobić. Urządzenia elektryczne pracują przy różnych napięciach i mają bardzo różne zapotrzebowanie na energię. Napięcie wynika z prędkości obrotów korbą, a natężenie prądu z siły, jaką wkładamy w pedałowanie.</p>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" alt='Image: Generator rowerowy w działaniu.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/kris-reading_hu9810db53e73169e75e83abc846de27ad_9179067_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" alt='Image: Generator rowerowy w działaniu.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/kris-reading_hu9810db53e73169e75e83abc846de27ad_9179067_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Generator rowerowy w działaniu.</span>
@@ -410,7 +410,7 @@
   </figure>
 </div>
 <h3 id="span-idvolt1-dostosowanie-napięciaspan"><span id="volt">1. Dostosowanie napięcia</span></h3>
-<p>Generator rowerowy wytwarza <a href="https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/" >prąd stały o niskim napięciu</a>, podobnie jak system fotowoltaiczny (12/24 V). Napięcie wyjściowe zależy od prędkości, z jaką obraca się prądnica rowerowa. Prędkość pedałowania i przełożenie przekładni określają prędkość wału generatora. W naszej instrukcji <a href="#gearratio" >szczegółowo opisano, jak ustawić prawidłowe przełożenie</a>. W skrócie, należy zmierzyć średnicę zewnętrzną trzech części (przedniej zębatki, zębatki koła zamachowego i koła zamachowego) i na podstawie tych danych obliczyć prawidłowy rozmiar wrzeciona w odniesieniu do zamierzonego napięcia wyjściowego.</p>
+<p>Generator rowerowy wytwarza <a href="/2016/04/slow-electricity-the-return-of-dc-power/" >prąd stały o niskim napięciu</a>, podobnie jak system fotowoltaiczny (12/24 V). Napięcie wyjściowe zależy od prędkości, z jaką obraca się prądnica rowerowa. Prędkość pedałowania i przełożenie przekładni określają prędkość wału generatora. W naszej instrukcji <a href="#gearratio" >szczegółowo opisano, jak ustawić prawidłowe przełożenie</a>. W skrócie, należy zmierzyć średnicę zewnętrzną trzech części (przedniej zębatki, zębatki koła zamachowego i koła zamachowego) i na podstawie tych danych obliczyć prawidłowy rozmiar wrzeciona w odniesieniu do zamierzonego napięcia wyjściowego.</p>
 <p>Po ustawieniu przełożenia można uzyskać niższe lub wyższe napięcie, pedałując odpowiednio wolniej lub szybciej. Umożliwia to zasilanie urządzeń różnymi napięciami. Zakładając jednak, że przy średniej prędkości pedałowania generator da napięcie 12 V, to uzyskanie napięcia 5 V wymagałoby bardzo wolnego pedałowania, a 24 V niezwykle szybkiego. Przerzutki ułatwiłyby zmianę napięcia wyjściowego, ale nasz rower ich nie posiada.</p>
 <p>Praktycznym rozwiązaniem tego problemu może być zasilanie urządzenia bezpośrednio z generatora, jeśli potrzebuje ono mniej więcej 12 V. Koło zamachowe pomaga utrzymać względnie stałe napięcie wyjściowe. Urządzenia elektroniczne i akumulatory wymagają jednak ściśle określonego napięcia. W przeciwnym razie mogą one nie działać lub ulec uszkodzeniu. Ponadto zasilanie urządzenia bezpośrednio z generatora uniemożliwia jednoczesne zasilanie lub ładowanie kilku urządzeń o różnych napięciach.</p>
 <h3 id="span-idcurrent2-dostosowanie-natężenia-prąduspan"><span id="current">2. Dostosowanie natężenia prądu</span></h3>
@@ -426,7 +426,7 @@
 <p>Aby rozwiązać wszystkie problemy ze zmiennymi parametrami prądu, zbudowaliśmy panel sterowania rozdzielający energię generatora na obwody o różnym napięciu do obsługi różnych urządzeń. Obwody te można wykorzystywać pojedynczo lub łącząc je, co pozwala na precyzyjną regulację oporu na pedałach w celu uzyskania optymalnego treningu. Można także bezpośrednio sterować niektórymi urządzeniami, zmniejszając ich zapotrzebowanie na moc.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" alt='Image: Panel sterowania.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-bike-generator-2_hu051b2e7764484691f49a62df736d12b6_8569486_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" alt='Image: Panel sterowania.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-bike-generator-2_hu051b2e7764484691f49a62df736d12b6_8569486_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Panel sterowania.</span>
@@ -447,7 +447,7 @@
 </div>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" alt='Image: Panel sterowania widziany z boku.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-from-side_hu50bb6155fde0d03c6b14eecc77d30b91_8076997_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" alt='Image: Panel sterowania widziany z boku.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dashboard-from-side_hu50bb6155fde0d03c6b14eecc77d30b91_8076997_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Panel sterowania widziany z boku.</span>
@@ -481,7 +481,7 @@
 </ul>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" alt='Image: Front panelu sterowania.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/frontpanel_huec524283f2343e76e2933209e9bc8823_1132870_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" alt='Image: Front panelu sterowania.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/frontpanel_huec524283f2343e76e2933209e9bc8823_1132870_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Front panelu sterowania.</span>
@@ -502,7 +502,7 @@
 </div>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" alt='Image: Tył panelu sterowania.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-dashboard_hu641036afdadacc6db07c71af0ba108d2_5638971_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" alt='Image: Tył panelu sterowania.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-dashboard_hu641036afdadacc6db07c71af0ba108d2_5638971_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Tył panelu sterowania.</span>
@@ -532,7 +532,7 @@
 <p>Generator rowerowy najlepiej nadaje się do bezpośredniego zasilania urządzeń elektrycznych, bez uprzedniego magazynowania energii w akumulatorze. Pozwala to uniknąć strat przy ładowaniu i rozładowywaniu (do 30% w akumulatorach kwasowo-ołowiowych) oraz zmniejsza złożoność i koszty budowy ludzkiej elektrowni. W tym celu wyposażyliśmy deskę rozdzielczą w kilka obwodów 12 V i jeden obwód 220 V.</p>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" alt='Image: Niektóre z urządzeń, które przetestowaliśmy: kompresor, oświetlenie, lodówka Peltiera, drukarka igłowa, czajnik elektryczny, lutownica.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/mosaic-bike-2_hud4574ca36f662aeff7f266c84d8b8f35_390686_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" alt='Image: Niektóre z urządzeń, które przetestowaliśmy: kompresor, oświetlenie, lodówka Peltiera, drukarka igłowa, czajnik elektryczny, lutownica.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/mosaic-bike-2_hud4574ca36f662aeff7f266c84d8b8f35_390686_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Niektóre z urządzeń, które przetestowaliśmy: kompresor, oświetlenie, lodówka Peltiera, drukarka igłowa, czajnik elektryczny, lutownica.</span>
@@ -551,7 +551,7 @@
       </div>
   </figure>
 </div>
-<p>Urządzenia, które zasilamy bezpośrednio napięciem 12 V to: eksperymentalna lodówka Peltiera, czajnik elektryczny, laptopy - zasilane przez zasilacz 12 V, bez baterii lub z baterią naładowaną w 100%, lampy, lutownica, wiertarka i szlifierka. Na rynku dostępnych jest wiele innych urządzeń zasilanych napięciem 12 V, przeznaczonych głównie dla kierowców samochodów ciężarowych i osobowych, żeglarzy, użytkowników przyczep kempingowych (<a href="https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/" >oraz drobnych majsterkowiczów, którzy wyposażają swoje mieszkania, jakby to były żaglówki</a>).</p>
+<p>Urządzenia, które zasilamy bezpośrednio napięciem 12 V to: eksperymentalna lodówka Peltiera, czajnik elektryczny, laptopy - zasilane przez zasilacz 12 V, bez baterii lub z baterią naładowaną w 100%, lampy, lutownica, wiertarka i szlifierka. Na rynku dostępnych jest wiele innych urządzeń zasilanych napięciem 12 V, przeznaczonych głównie dla kierowców samochodów ciężarowych i osobowych, żeglarzy, użytkowników przyczep kempingowych (<a href="/2016/05/how-to-get-your-apartment-off-the-grid/" >oraz drobnych majsterkowiczów, którzy wyposażają swoje mieszkania, jakby to były żaglówki</a>).</p>
 <p>Oto lista wszystkich urządzeń, które do tej pory zasilaliśmy lub ładowaliśmy:</p>
 <ul>
 <li>Wszystkie typy urządzeń USB (5V)</li>
@@ -575,30 +575,30 @@
 <p>Przeróbka narzędzia bateryjnego na przewodowe jest dość prosta. Po wyjęciu baterii należy znaleźć styki dodatni i ujemny, a następnie przylutować do nich dwa przewody. Trzeba pamiętać, że decyzja, który z nich jest dodatni, a który ujemny, jest jednorazowa. W przypadku wiertarki było to bardzo łatwe do rozgryzienia. W przypadku szlifierki oscylacyjnej poprosiliśmy o pomoc, ponieważ okablowanie było bardziej skomplikowane. Elektronarzędzia 12-woltowe bez baterii lub z martwymi akumulatorami można tanio kupić na rynku wtórnym.</p>
 <p>Przewodowa wiertarka elektryczna jest chyba najbardziej uniwersalnym elektronarzędziem na świecie. Trochę wyobraźni i będzie służyć za trzepaczkę (do ubijania jajek), szczotkę (do usuwania farby lub czyszczenia przedmiotów), tarczę szlifierską (do ostrzenia noży) czy tarczę polerską (do nadawania połysku chromowi lub innym metalom i materiałom). Precyzyjne narzędzia do wyrobu biżuterii lub modelowania również dobrze współpracują z bezpośrednim napędem z pedałów. Jesteśmy we wczesnej fazie testowania możliwości przerabiania i używania narzędzi zasilanych prądem 12 V.</p>
 <h3 id="narzędzia-zasilane-rękami-kontra-zasilane-nogami">Narzędzia zasilane rękami kontra zasilane nogami</h3>
-<p>Urządzenia elektryczne zasilane siłą ludzkich mięśni są mniej sprawne energetycznie w porównaniu z <a href="https://lowtechmag.gitlab.io/solar/2010/12/hand-powered-drilling-tools-and-machines/" >ręcznymi narzędziami mechanicznymi</a>. Zasilanie elektryczne prowadzi do dodatkowych strat energii w generatorze, przetwornicy buck, przewodach i układzie napędowym. Jednak straty te są z nawiązką rekompensowane przez bardziej energooszczędne wykorzystanie ludzkiego zasilania. Nasze nogi są około cztery razy silniejsze niż ręce.</p>
+<p>Urządzenia elektryczne zasilane siłą ludzkich mięśni są mniej sprawne energetycznie w porównaniu z <a href="/2010/12/hand-powered-drilling-tools-and-machines/" >ręcznymi narzędziami mechanicznymi</a>. Zasilanie elektryczne prowadzi do dodatkowych strat energii w generatorze, przetwornicy buck, przewodach i układzie napędowym. Jednak straty te są z nawiązką rekompensowane przez bardziej energooszczędne wykorzystanie ludzkiego zasilania. Nasze nogi są około cztery razy silniejsze niż ręce.</p>
 <p>Urządzenia elektryczne są za to bardziej ergonomiczne, ponieważ oszczędzają nasze stawy i mięśnie rąk. Ręczne przykręcanie dziesiątek śrubek może i jest bardziej zrównoważone niż wkręcanie ich wkrętarką elektryczną, jednakże łatwo przeciążyć nadgarstki. Generator rowerowy pozwala więc na szybszą i bardziej ergonomiczną pracę, bez konieczności korzystania z zewnętrznego źródła energii.</p>
-<p>Pomimo pewnej przewagi elektronarzędzi, mechaniczne narzędzia ręczne mają swoje zalety: są ciche i łatwiejsze do przenoszenia, a ich produkcja zużywa mniej materiałów i energii. Istnieją także <a href="https://lowtechmag.gitlab.io/solar/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" >narzędzia mechaniczne zasilane nogami</a>, umożliwiające ergonomiczną pracę i zrównoważoną produkcję energii. Jednak nie lada wyzwaniem jest skonstruowanie kompaktowego roweru stacjonarnego, który mógłby zasilać wiele różnych narzędzi. Zaprojektowaliśmy nasz generator rowerowy tak, aby był jak najbardziej kompaktowy i wielofunkcyjny.</p>
+<p>Pomimo pewnej przewagi elektronarzędzi, mechaniczne narzędzia ręczne mają swoje zalety: są ciche i łatwiejsze do przenoszenia, a ich produkcja zużywa mniej materiałów i energii. Istnieją także <a href="/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/" >narzędzia mechaniczne zasilane nogami</a>, umożliwiające ergonomiczną pracę i zrównoważoną produkcję energii. Jednak nie lada wyzwaniem jest skonstruowanie kompaktowego roweru stacjonarnego, który mógłby zasilać wiele różnych narzędzi. Zaprojektowaliśmy nasz generator rowerowy tak, aby był jak najbardziej kompaktowy i wielofunkcyjny.</p>
 <p>Elektronarzędzia mają często duże zapotrzebowanie na moc, ale to nie powinno Was zrazić. Szlifierka potrzebuje co najwyżej 30 W, ale nasza wiertarka może wymagać prądu o natężeniu do 20 A - to za dużo dla prądnicy rowerowej i panelu sterowania (12 V × 20 A = 240 W). Jednak rzadko będzie potrzeba wygenerowania tak dużej mocy, chyba że będziesz wiercił w twardych materiałach.</p>
 <p>Zapotrzebowanie na moc elektronarzędzi rośnie ze wzrostem momentu obrotowego, więc użytkownik czuje, że wiertło przebiło się przez materiał lub że śruba została zamocowana lub poluzowana. Narzędziem można posługiwać się równie precyzyjnie za pomocą stóp, jak i rąk.</p>
 <h3 id="span-idkettle2-czajnik-elektrycznyspan"><span id="kettle">2. Czajnik elektryczny</span></h3>
-<p>Grzanie i chłodzenie za pomocą prądu elektrycznego zużywa wiele energii. Bardziej zrównoważone są alternatywne rozwiązania, takie jak <a href="https://lowtechmag.gitlab.io/solar/pl/2019/12/too-much-combustion-too-little-fire/" >bezpośrednie wykorzystanie ciepła słonecznego</a>. Niemniej jednak można włączyć ogrzewanie i chłodzenie do codziennych ćwiczeń na generatorze i dzięki temu zoptymalizować produkcję ciepła i chłodu.</p>
+<p>Grzanie i chłodzenie za pomocą prądu elektrycznego zużywa wiele energii. Bardziej zrównoważone są alternatywne rozwiązania, takie jak <a href="/pl/2019/12/too-much-combustion-too-little-fire/" >bezpośrednie wykorzystanie ciepła słonecznego</a>. Niemniej jednak można włączyć ogrzewanie i chłodzenie do codziennych ćwiczeń na generatorze i dzięki temu zoptymalizować produkcję ciepła i chłodu.</p>
 <p>Stosujemy to podejście do grzania wody w czajniku elektrycznym i chłodzenia w eksperymentalnej lodówce Peltiera. Oba urządzenia są bardzo dobrze zaizolowane termiczne. Dzięki temu zamiana ludzkiej energii w ciepło lub zimno staje się kolejną (bardzo tanią i skuteczną) formą magazynowania energii, bez konieczności godzenia się na problematyczne przechowywanie energii w bateriach.</p>
 <p>Zasilane z sieci czajniki elektryczne są często bardzo wydajne i są w stanie zagotować wodę w ciągu kilku minut lub nawet sekund. Zagotowanie wody przy użyciu prądnicy rowerowej zajmie znacznie więcej czasu, ale jest wykonalne. Kupiliśmy komercyjny czajnik elektryczny 12 V z izolowanym próżniowo litrowym zbiornikiem. Zagotowanie wody na jedną filiżankę herbaty zajęło podczas testu nieco ponad godzinę, przy średniej mocy 60 W.</p>
-<p>W czajniku elektrycznym nie tylko zagotujemy wodę na herbatę, ale również <a href="https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/" >podgrzejemy wodę do termofora</a>. Trzeba zagrzać większą ilość wody, ale za to do niższej temperatury (około 60ºC). W czasie testu podgrzanie jednego litra wody do małego termoforu zajęło 1 godzinę i 30 minut, przy średniej mocy 60 W.</p>
-<p>Po takim wysiłku ostatnią rzeczą, jaką człowiek potrzebuje, jest termofor. Rozsądniej zużyć naszą energię do zasilenia grzejnika o mocy kilkuset watów i podnieść temperaturę powietrza w małym pomieszczeniu. Zaizolowany próżniowo czajnik można jednak włożyć do <a href="https://lowtechmag.gitlab.io/solar/pl/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/" >kuchenki bezogniowej</a> i użyć go wiele godzin później, gdy skończycie aktywność i będziecie potrzebowali ciepła.</p>
+<p>W czajniku elektrycznym nie tylko zagotujemy wodę na herbatę, ale również <a href="/pl/2022/01/the-revenge-of-the-hot-water-bottle/" >podgrzejemy wodę do termofora</a>. Trzeba zagrzać większą ilość wody, ale za to do niższej temperatury (około 60ºC). W czasie testu podgrzanie jednego litra wody do małego termoforu zajęło 1 godzinę i 30 minut, przy średniej mocy 60 W.</p>
+<p>Po takim wysiłku ostatnią rzeczą, jaką człowiek potrzebuje, jest termofor. Rozsądniej zużyć naszą energię do zasilenia grzejnika o mocy kilkuset watów i podnieść temperaturę powietrza w małym pomieszczeniu. Zaizolowany próżniowo czajnik można jednak włożyć do <a href="/pl/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/" >kuchenki bezogniowej</a> i użyć go wiele godzin później, gdy skończycie aktywność i będziecie potrzebowali ciepła.</p>
 <h3 id="span-idpeltier3-lodówka-peltieraspan"><span id="peltier">3. Lodówka Peltiera</span></h3>
-<p>Lodówki zasilane napięciem 12 V są drogie. Badania i testy nad <a href="https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/" >generatorami termoelektrycznymi</a> (TEG) doprowadziły do powstania lodówki Peltiera. Lodówka Peltiera to w zasadzie dobrze zaizolowana kuchenka bezogniowa wyposażona w moduł TEG. Moduł podłączony do zasilania nagrzewa się z jednej strony i wyziębia z drugiej, chłodząc wnętrze chłodziarki. Chłodzenie za pomocą TEG nie jest szczególnie wydajne, jest za to ciche, nie wymaga gazów chłodzących i jest najprostszym sposobem na samodzielne zbudowanie lodówki.</p>
+<p>Lodówki zasilane napięciem 12 V są drogie. Badania i testy nad <a href="/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/" >generatorami termoelektrycznymi</a> (TEG) doprowadziły do powstania lodówki Peltiera. Lodówka Peltiera to w zasadzie dobrze zaizolowana kuchenka bezogniowa wyposażona w moduł TEG. Moduł podłączony do zasilania nagrzewa się z jednej strony i wyziębia z drugiej, chłodząc wnętrze chłodziarki. Chłodzenie za pomocą TEG nie jest szczególnie wydajne, jest za to ciche, nie wymaga gazów chłodzących i jest najprostszym sposobem na samodzielne zbudowanie lodówki.</p>
 <p>Lodówka TEG to jeszcze prototyp, wymagający dalszych testów i ulepszeń. Zasilanie jednej chłodziarki TEG pełną mocą wymaga ok. 60 watów (12 V × 5 A), mierzonych tuż za generatorem. To oznacza intensywny trening. Ściemniacz pozwala precyzyjnie zmniejszyć opór na pedałach, ale okazało się, że jeden moduł TEG to za mało na nasze rozmiary przestrzeni chłodzącej. Podczas cięższego treningu (60-100 watów) będziemy dołączać drugi moduł zasilania.</p>
 <h3 id="urządzenia-sieciowe-220-v">Urządzenia sieciowe 220 V</h3>
 <p>Nasza tablica rozdzielcza posiada również obwód 220 V. Dzięki temu jest ona kompatybilna z urządzeniami zasilanymi z sieci energetycznej (110 V w USA, 240 V w Wielkiej Brytanii). Obwód 220 V wymaga przetwornicy. Przetwornica jest zbyt duża, aby zmieścić ją w desce rozdzielczej, więc umieściliśmy ją w skrzynce na zbudowanym z przodu roweru bagażniku.</p>
-<p>Gniazdko 220 V nie jest niezbędne. Wiele urządzeń zasilanych napięciem 220 V ma alternatywne gniazda 12 V (lub 24 V), które są <a href="https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/" >bardziej energooszczędne w przypadku zdecentralizowanej produkcji energii</a>. Niemniej jednak, włączyliśmy obwód 220 V do zasilania urządzeń, które nie zostały (jeszcze) zastąpione lub przerobione na źródła niskiego napięcia: drukarki igłowej, maszyny do szycia, wieży stereo i routera.</p>
+<p>Gniazdko 220 V nie jest niezbędne. Wiele urządzeń zasilanych napięciem 220 V ma alternatywne gniazda 12 V (lub 24 V), które są <a href="/2016/04/slow-electricity-the-return-of-dc-power/" >bardziej energooszczędne w przypadku zdecentralizowanej produkcji energii</a>. Niemniej jednak, włączyliśmy obwód 220 V do zasilania urządzeń, które nie zostały (jeszcze) zastąpione lub przerobione na źródła niskiego napięcia: drukarki igłowej, maszyny do szycia, wieży stereo i routera.</p>
 <p>Obsługa drukarki igłowej i maszyny do szycia jest trudna ze względu na ich szybko zmieniające się zapotrzebowanie na energię. Trzeba na przykład pedałować bardzo szybko (około 20 V), aby zapewnić odpowiednią bezwładność koła zamachowego w celu uniknięcia spadku napięcia poniżej 12 V podczas momentów szczytowego poboru mocy. Problem może rozwiązać zastosowanie superkondensatora - spróbujemy tego w nadchodzących miesiącach. Znacznie bardziej energooszczędne byłyby napędzane stopami mechaniczna maszyna do szycia i drukarka, ale zajmowałyby znacznie więcej miejsca.</p>
 <h2 id="span-idalternativealternatywne-konfiguracje---generator-rowerowy-ze-stołem-roboczymspan"><span id="alternative">Alternatywne konfiguracje - generator rowerowy ze stołem roboczym</span></h2>
 <p>Nasz panel sterowania został skonstruowany do zasilania szerokiej gamy urządzeń, ale Wy możecie przyjąć inne podejście i uzyskać podobną funkcjonalność. Na przykład, jeśli chcecie ładować tylko akumulatory, wystarczy jeden obwód 14,4 V. Możecie użyć przetwornic buck i boost, aby uzyskać dowolne napięcie, na przykład zbudować obwód 3 V, 6 V, 9 V lub 24 V.</p>
 <p>Jeśli jednak chcecie przede wszystkim zasilać urządzenia 24 V, to lepiej będzie dostosować przełożenie generatora. To samo dotyczy ładowania akumulatorów kwasowo-ołowiowych 14,4 V w systemie 12 V: <a href="#gearratio" >dostosujcie przełożenie tak</a>, aby generować napięcie 16-17 V (aby skompensować straty energii w przetwornicy buck).</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" alt='Image: Wyjście 220 V.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/220V_huba785fe85721bd533f5c59cc205c952c_9473002_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" alt='Image: Wyjście 220 V.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/220V_huba785fe85721bd533f5c59cc205c952c_9473002_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Wyjście 220 V.</span>
@@ -619,7 +619,7 @@
 </div>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" alt='Image: Bagażnik, a na nim wyjścia zasilania (zmienne, 3x12V, 14.4V, 5V USB).' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Power-outlets_hubdf8c85dd05098d29f32e8071cc285d8_7921124_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" alt='Image: Bagażnik, a na nim wyjścia zasilania (zmienne, 3x12V, 14.4V, 5V USB).' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Power-outlets_hubdf8c85dd05098d29f32e8071cc285d8_7921124_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Bagażnik, a na nim wyjścia zasilania (zmienne, 3x12V, 14.4V, 5V USB).</span>
@@ -640,7 +640,7 @@
 </div>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" alt='Image: W środku obudowy: falownik, kontroler ładowania wiatrowego, akumulator' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/in-the-box_huffa61bb428ff90b663af7e57f117b152_8863091_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" alt='Image: W środku obudowy: falownik, kontroler ładowania wiatrowego, akumulator' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/in-the-box_huffa61bb428ff90b663af7e57f117b152_8863091_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: W środku obudowy: falownik, kontroler ładowania wiatrowego, akumulator</span>
@@ -661,13 +661,13 @@
 </div>
 <p>Nasza sporej wielkości deska rozdzielcza umieszczona na kierownicy ma swoje wady i zalety. Umieszczenie panelu sterowania na samym rowerze ułatwia odczyt i obsługę, a także przenoszenie roweru. Jeśli sąsiad potrzebuje awaryjnego zasilania, bierzecie rower i w ciągu minuty jesteście na miejscu. Z drugiej strony, umieszczenie tablicy rozdzielczej na rowerze generuje wibracje, zwiększające hałas i straty energii. Konieczne jest również okresowe regulowania napięcia wyjściowego z przetwornic buck i boost.</p>
 <p>Największą wadą panelu sterowania na kierownicy jest brak możliwości zamontowania w tym miejscu dużego pulpitu. Przydałby się do obsługi elektronarzędzi lub laptopa, a jednocześnie zapewniałby zasilanie. Nasza obecna konfiguracja nie jest idealna do korzystania z elektronarzędzi. Wymaga dwóch osób - jednej do obsługi roweru i drugiej do obsługi elektronarzędzia. Z laptopem jest podobnie - możecie zasilać czyjś komputer, ale nie możecie jednocześnie zasilać swojego i na nim pracować.</p>
-<p>Planujemy zbudować generator rowerowy z mniejszą tablicą rozdzielczą, obejmującą jeden obwód 12 V i dwa porty USB , oraz z dużą przestrzenią roboczą na kierownicy. Taki generator rowerowy nawiązuje do podobnych (<a href="https://lowtechmag.gitlab.io/solar/2011/05/the-short-history-of-early-pedal-powered-machines/" >mechanicznych maszyn rowerowych z początku XX wieku</a>). Inną opcją jest przykręcenie panelu sterowania do ściany lub postawienie go na półce i umieszczenie obok niego prądnicy rowerowej. Inwerter, akumulator kwasowo-ołowiowy i regulator ładowania wiatrowego, które teraz są zamontowane na rowerze, będzie można z niego zdjąć.</p>
+<p>Planujemy zbudować generator rowerowy z mniejszą tablicą rozdzielczą, obejmującą jeden obwód 12 V i dwa porty USB , oraz z dużą przestrzenią roboczą na kierownicy. Taki generator rowerowy nawiązuje do podobnych (<a href="/2011/05/the-short-history-of-early-pedal-powered-machines/" >mechanicznych maszyn rowerowych z początku XX wieku</a>). Inną opcją jest przykręcenie panelu sterowania do ściany lub postawienie go na półce i umieszczenie obok niego prądnicy rowerowej. Inwerter, akumulator kwasowo-ołowiowy i regulator ładowania wiatrowego, które teraz są zamontowane na rowerze, będzie można z niego zdjąć.</p>
 <h2 id="span-idhybridhybrydowy-system-zasilania-energią-solarnąludzkąspan"><span id="hybrid">Hybrydowy system zasilania energią solarną/ludzką</span></h2>
 <p>Niektórzy z Was mogą uważać, że nasz generator rowerowy to raczej gadżet niż praktyczne źródło energii dla gospodarstwa domowego. Po części jest to prawda. Nasza ludzka elektrownia jest idealną maszyną do ćwiczeń - wytwarzanie energii jest motywujące. Jest praktyczna w sytuacjach awaryjnych, zwłaszcza gdy dostępna jest wystarczająca ilość energii generowanej przez ludzi - może wytworzyć do 2,4 kWh dziennie. Nie zapewni jednak wystarczającej ilości energii na dobę, nawet dla mało zaawansowanego technologicznie gospodarstwa domowego. Brakuje wystarczającej liczby osób chętnych do jazdy na rowerze.</p>
 <p>Niemniej jednak generator rowerowy jest doskonałym uzupełnieniem systemu fotowoltaicznego, przynajmniej w gospodarstwach domowych o niskim zużyciu energii. Moc generatora rowerowego nie zależy od pogody, pory roku ani pory dnia. Siła ludzka może zapewnić dodatkową energię podczas złej pogody, co zmniejsza zapotrzebowanie na drogie i nietrwałe akumulatory. Będzie to szczególnie przydatne w zimie, kiedy system fotowoltaiczny wytwarza znacznie mniej energii, a wysiłek potrzebny do obsługi roweru dodatkowo ogrzewa użytkownika. W lecie nie brakuje energii słonecznej, a poza tym nieraz jest zbyt gorąco na trening na rowerze.</p>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" alt='Image: Generator rowerowy stoi obok systemu fotowoltaicznego. Naszym celem jest zintegrowanie obu systemów zasilania.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-in-front-of-solar-systems_hud7b73f4d2530e134314689a8ba969b15_9870932_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" alt='Image: Generator rowerowy stoi obok systemu fotowoltaicznego. Naszym celem jest zintegrowanie obu systemów zasilania.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Bike-in-front-of-solar-systems_hud7b73f4d2530e134314689a8ba969b15_9870932_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Generator rowerowy stoi obok systemu fotowoltaicznego. Naszym celem jest zintegrowanie obu systemów zasilania.</span>
@@ -688,11 +688,11 @@
 </div>
 <p>Generator rowerowy o mocy 50-100 W jest bardziej wydajny niż stojące na balkonie obok niego dwa panele słoneczne: panel 50 W zasilający oświetlenie w salonie, oraz panel 30 W zasilający stronę internetową. Rzadko, jeśli w ogóle, panele osiągają maksimum swojej mocy, a podczas złej pogody produkują znacznie mniej energii niż generator rowerowy. Przy dużym zachmurzeniu produkcja energii spada niemal do zera, a jeśli taka sytuacja trwa przez dwa dni, przestają działać oświetlenie i strona internetowa. Jedna lub dwie godziny dziennie na rowerze z generatorem mogłyby temu zapobiec. Alternatywą jest zasilanie elektronarzędzi lub innych urządzeń rowerem, bez obciążania akumulatorów z systemu fotowoltaicznego.</p>
 <p>Zamiast generatora rowerowego można także używać tablicy rozdzielczej z panelem solarnym. Wystarczy zastąpić <a href="#wind" >regulator ładowania wiatrowego</a> regulatorem ładowania słonecznego. Dzięki temu wykorzystamy energię słoneczną do bezpośredniego zasilania urządzeń - bez konieczności stosowania solarnego regulatora ładowania i akumulatora. Zastąpcie regulator ładowania wiatrowego hybrydowym regulatorem ładowania słoneczno-wiatrowego, a będziecie mogli ładować akumulatory i bezpośrednio zasilać urządzenia z obu źródeł. Można również połączyć energię słoneczną i ludzką, zwiększając w ten sposób moc wyjściową.</p>
-<p>Połączenie energii ludzkiej i słonecznej powinno umożliwić podjęcie dalszych kroków w kierunku stworzenia <a href="https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/" >funkcjonującego poza siecią miejskiego gospodarstwa domowego</a>. W planach jest dodanie kolejnego panelu słonecznego o mocy 50 W, wyłączenie z sieci kolejnych urządzeń (przede wszystkim lodówki) i utrzymanie akumulatorów na dotychczasowym poziomie.</p>
+<p>Połączenie energii ludzkiej i słonecznej powinno umożliwić podjęcie dalszych kroków w kierunku stworzenia <a href="/2016/05/how-to-get-your-apartment-off-the-grid/" >funkcjonującego poza siecią miejskiego gospodarstwa domowego</a>. W planach jest dodanie kolejnego panelu słonecznego o mocy 50 W, wyłączenie z sieci kolejnych urządzeń (przede wszystkim lodówki) i utrzymanie akumulatorów na dotychczasowym poziomie.</p>
 <h2 id="span-idmanual-bikeinstrukcja-obsługi-generator-rowerowyspan"><span id="manual-bike">Instrukcja obsługi: generator rowerowy</span></h2>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" alt='Image: Napęd cierny.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive-intro_hu9e496e5745f1e77f4a1cc8531beb04df_9289577_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" alt='Image: Napęd cierny.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/friction-drive-intro_hu9e496e5745f1e77f4a1cc8531beb04df_9289577_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Napęd cierny.</span>
@@ -740,7 +740,7 @@
 <p>To jakiego dokładnie napięcia potrzebujecie, a tym samym dokładny rozmiar wrzeciona, zależy od tego, do czego tak naprawdę chcecie używać roweru. Szczegółowe umówienie tego tematu znajduje się w <a href="#manual-dashboard" >instrukcji obsługi panelu sterowania</a>. Wyobraźcie sobie, że chcecie ładować akumulatory kwasowo-ołowiowe, które wymagają napięcia 14,4 V. Używacie przetwornicy buck (obniżającej napięcie wejściowe), więc, aby nadrobić straty w procesie konwersji napięcia, będziecie musieli wytworzyć napięcie bliskie 17 V. W takim razie wymagana średnica wrzeciona wyniesie 41,42 mm. Taka konfiguracja jest pokazana na poniższej ilustracji.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/gear-ratio-bike-generator_huc5de8cdb99726582daa1f4bfebee7118_100511_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/gear-ratio-bike-generator_huc5de8cdb99726582daa1f4bfebee7118_100511_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -776,7 +776,7 @@
 <p>Dobranie rozmiaru wrzeciona to dopiero połowa pracy. Znalezienie wrzeciona o odpowiedniej średnicy, wykonanego z właściwych materiałów i pasującego do wału generatora może być nie lada wyzwaniem. Żeby znaleźć właściwe, wypróbowaliśmy kilkanaście różnych wrzecion. Koło zamachowe ma twardą powierzchnię i wymaga miękkiego wrzeciona, wykonanego z gumy lub poliuretanu. Uznaliśmy, że solidny odbojnik do drzwi, wykonany z metalu i gumy, zapewnia optymalne tarcie z naszym kołem zamachowym. Zanieśliśmy go do warsztatu, gdzie wywiercono w nim otwór o średnicy 10 mm.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" alt='Image: Kilka wrzecion, które testowaliśmy.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/spindles-sample_huca133ef5d176c62e1845c444b919545d_10055859_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" alt='Image: Kilka wrzecion, które testowaliśmy.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/spindles-sample_huca133ef5d176c62e1845c444b919545d_10055859_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Kilka wrzecion, które testowaliśmy.</span>
@@ -801,7 +801,7 @@
 <p>Generator jest wyposażony w zintegrowaną zębatkę lub koło pasowe, które trzeba zdjąć. Koło zębate lub napęd pasowy przytrzymuje nylonowa nakrętka zabezpieczająca z gwintem lewym. Odkręca się ją w prawo (nie w lewo, jak większość nakrętek). Prawdopodobnie potrzebny będzie zacisk, aby sobie z tym poradzić.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" alt='Image: Prądnica z gwintowanym wałkiem.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-with-shaft-arbor_hu8c82aba41c37bc89aa723bc9a7c99f93_5884136_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" alt='Image: Prądnica z gwintowanym wałkiem.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-with-shaft-arbor_hu8c82aba41c37bc89aa723bc9a7c99f93_5884136_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Prądnica z gwintowanym wałkiem.</span>
@@ -822,7 +822,7 @@
 </div>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" alt='Image: Prądnica z wrzecionem średnicy 41 mm.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Generator_hu1c209f670074bde2d7ffd6920a62cf8f_4847784_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" alt='Image: Prądnica z wrzecionem średnicy 41 mm.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Generator_hu1c209f670074bde2d7ffd6920a62cf8f_4847784_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Prądnica z wrzecionem średnicy 41 mm.</span>
@@ -847,7 +847,7 @@
 <p>Przykręciliśmy prądnicę do drewnianej deski, a następnie docisnęliśmy ją do koła zamachowego za pomocą drewnianego wspornika. Deska jest przymocowana do roweru za pomocą mocnego zawiasu drzwiowego. Umożliwia to dostosowanie kąta, pod jakim wrzeciono styka się z kołem zamachowym. Podpórka opiera się na klinie korkowym tłumiącym drgania. Jeśli chcecie zapoznać się z innym rozwiązaniem, <a href="#first" >zobaczcie nasz pierwszy prototyp</a>.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" alt='Image: Napęd cierny.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-stand_huaf3e3e7405ffea21b40a640792a09b03_7918251_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" alt='Image: Napęd cierny.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/generator-stand_huaf3e3e7405ffea21b40a640792a09b03_7918251_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Napęd cierny.</span>
@@ -872,7 +872,7 @@
 <p>Napięcie wyjściowe reguluje się przez obrót małej śrubki na module. Niektóre przetwornice buck i boost są wyposażone w mały ekran pokazujący napięcie wyjściowe. Jeśli go nie mają, to do regulacji napięcia wyjściowego można użyć multimetru.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Dashboard-white-background_hucbbb3cc5bd1350ad71ef884b55de2001_5891939_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Dashboard-white-background_hucbbb3cc5bd1350ad71ef884b55de2001_5891939_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -910,7 +910,7 @@
 <p>Żeby połączyć wszystkie elementy, potrzebujecie przewodów, złączy, diod, bezpieczników i przycisków włączania/wyłączania. Możecie być zdezorientowani mnogością części, więc poniżej wyjaśniamy co będzie potrzebne.</p>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-panel-portrait_hucaad8f3d22e464c9df29c35e0be377c7_1130855_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-panel-portrait_hucaad8f3d22e464c9df29c35e0be377c7_1130855_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -940,7 +940,7 @@
 <p>Woleliśmy uniknąć lutowania połączeń, więc kupiliśmy przełączniki z już podłączonymi przewodami. Ostatecznie i tak musieliśmy je przylutować, ponieważ grube przewody zajmowały zbyt dużo miejsca. Przyciski włączania/wyłączania bez lampek i z dołączonymi wcześniej cieńszymi przewodami uprościłyby tę część systemu.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" alt='Image: How to wire the on-off switches.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-on-off-switch2_hu619c03e126fba9507b966073be9e16b5_65316_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" alt='Image: How to wire the on-off switches.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-on-off-switch2_hu619c03e126fba9507b966073be9e16b5_65316_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: How to wire the on-off switches.</span>
@@ -964,7 +964,7 @@
 <h3 id="span-idinstrumentsprzyrządy-tablicy-rozdzielczejspan"><span id="instruments">Przyrządy tablicy rozdzielczej</span></h3>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/volt-amperemeter_hu1e86e61be491b0df2ca60ffa10f9f4de_698109_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/volt-amperemeter_hu1e86e61be491b0df2ca60ffa10f9f4de_698109_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -987,7 +987,7 @@
 <p>Wybraliśmy woltomierz o zakresie do 30 V i amperomierz o zakresie do 15 A, ponieważ analogowe mierniki V&amp;A są najbardziej precyzyjne w środku zakresu. Cyfrowy miernik V&amp;A jest bardziej kompaktowy, ale analogowe mierniki są czytelniejsze i lepiej pokazują drobne zmiany. Powyżej miernika znajduje się obwód USB, do którego można podłączyć małą lampkę LED i obserwować wskazania przyrządów w ciemności. Pokazują one także, czy system w ogóle działa.</p>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" alt='Image: Jak wykonać okablowanie analogowego woltomierza i amperomierza.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-analog-meters-cut_hu405eae204eb6ddec60df2b312b082316_66220_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" alt='Image: Jak wykonać okablowanie analogowego woltomierza i amperomierza.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Wiring-analog-meters-cut_hu405eae204eb6ddec60df2b312b082316_66220_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>Image: Jak wykonać okablowanie analogowego woltomierza i amperomierza.</span>
@@ -1011,7 +1011,7 @@
 <h3 id="span-idpanelpanel-tablicy-rozdzielczej-i-mocowaniespan"><span id="panel">Panel tablicy rozdzielczej i mocowanie</span></h3>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Mounting-dashboard_hubfa70d8aeeb22f421858d71599f56632_7142505_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/Mounting-dashboard_hubfa70d8aeeb22f421858d71599f56632_7142505_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -1032,7 +1032,7 @@
 </div>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/files-dashboard_huf93f83d2c400b77c0c116b412670d2e2_129099_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/files-dashboard_huf93f83d2c400b77c0c116b412670d2e2_129099_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -1057,7 +1057,7 @@
 <h2 id="span-idcompletekompletny-panel-sterowaniaspan"><span id="complete">Kompletny panel sterowania:</span></h2>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" alt='1: Dioda Schottky&amp;rsquo;ego. 2: Bezpiecznik. 3: Przewody. 4: Analogowy woltomierz i amperomierz. 5: Wyłączniki. 6: Złączki. 7: Lampka USB.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/complete-control-panel-wiring_hua1f4cb4ff362fa373b937a3848d11ac3_139695_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" alt='1: Dioda Schottky&amp;rsquo;ego. 2: Bezpiecznik. 3: Przewody. 4: Analogowy woltomierz i amperomierz. 5: Wyłączniki. 6: Złączki. 7: Lampka USB.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/complete-control-panel-wiring_hua1f4cb4ff362fa373b937a3848d11ac3_139695_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>1: Dioda Schottky&rsquo;ego. 2: Bezpiecznik. 3: Przewody. 4: Analogowy woltomierz i amperomierz. 5: Wyłączniki. 6: Złączki. 7: Lampka USB.</span>
@@ -1079,7 +1079,7 @@
 <h2 id="span-id5vobwód-5vspan"><span id="5V">Obwód 5V:</span></h2>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" alt='8: Konwerter buck USB. 9: Woltomierz &amp;amp; amperomierz USB. 10: Rozdzielacz USB i przewody.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/5V-circuit_huc74a9f1c787e7220b71fa87af438b65f_68716_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" alt='8: Konwerter buck USB. 9: Woltomierz &amp;amp; amperomierz USB. 10: Rozdzielacz USB i przewody.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/5V-circuit_huc74a9f1c787e7220b71fa87af438b65f_68716_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>8: Konwerter buck USB. 9: Woltomierz &amp; amperomierz USB. 10: Rozdzielacz USB i przewody.</span>
@@ -1101,7 +1101,7 @@
 <h2 id="span-id12vobwód-12vspan"><span id="12V">Obwód 12V</span></h2>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" alt='11: Konwerter buck. 12: Ściemniacz.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/12V-circuit_hu6e5db91cac5c2888a25f5c3504861b2d_89048_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" alt='11: Konwerter buck. 12: Ściemniacz.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/12V-circuit_hu6e5db91cac5c2888a25f5c3504861b2d_89048_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>11: Konwerter buck. 12: Ściemniacz.</span>
@@ -1123,7 +1123,7 @@
 <h2 id="span-id14vobwód-144vspan"><span id="14V">Obwód 14.4V</span></h2>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" alt='13: Konwerter boost. 14: Kontroler ładowania wiatrowego. 15: Akumulator kwasowo-ołowiowy. 16: Elektroniczny woltomierz dla akumulatora.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/14-4V-circuit_hu78fcebec2bac6900d83161eac12ff0fe_70584_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" alt='13: Konwerter boost. 14: Kontroler ładowania wiatrowego. 15: Akumulator kwasowo-ołowiowy. 16: Elektroniczny woltomierz dla akumulatora.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/14-4V-circuit_hu78fcebec2bac6900d83161eac12ff0fe_70584_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>13: Konwerter boost. 14: Kontroler ładowania wiatrowego. 15: Akumulator kwasowo-ołowiowy. 16: Elektroniczny woltomierz dla akumulatora.</span>
@@ -1145,7 +1145,7 @@
 <h2 id="span-id220vobwód-220vspan"><span id="220V">Obwód 220V:</span></h2>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" alt='17: Konwerter buck. 18: Falownik.' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/220V-circuit_huc0b410a99a5e57be74574773ceb9a357_68558_800x800_fit_q90_h2_box_3.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" alt='17: Konwerter buck. 18: Falownik.' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/220V-circuit_huc0b410a99a5e57be74574773ceb9a357_68558_800x800_fit_q90_h2_box_3.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span>17: Konwerter buck. 18: Falownik.</span>
@@ -1279,7 +1279,7 @@
 <h2 id="span-idfirstpierwszy-prototypspan"><span id="first">Pierwszy prototyp</span></h2>
 <div class="article-img ">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-dashboard_hu2940fba321a97760085266dcfa30a422_730992_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-dashboard_hu2940fba321a97760085266dcfa30a422_730992_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -1300,7 +1300,7 @@
 </div>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-first-control-panel_huc0084d98f1c91d1858e6c98e75871749_8504293_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/backside-first-control-panel_huc0084d98f1c91d1858e6c98e75871749_8504293_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -1321,7 +1321,7 @@
 </div>
 <div class="article-img  vertical">
   <figure data-imgstate="dither">
-    <img src="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" alt='' data-original="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-on-board_hu5fe3dca8efc3a096e1a2baa79f30aef5_10426413_800x800_fit_q90_h2_box.webp" data-dither="/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" loading="lazy"> 
+    <img src="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" alt='' data-original="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/first-prototype-on-board_hu5fe3dca8efc3a096e1a2baa79f30aef5_10426413_800x800_fit_q90_h2_box.webp" data-dither="/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png" loading="lazy"> 
       <div class="figure-controls">
         <figcaption class="caption">
           <span></span>
@@ -1354,7 +1354,7 @@
     <ul>
         <li><a href="https://d69baa34.sibforms.com/serve/MUIEANc2lrp0ZlxefJj9bGWkRWAP8XKI8G25tXyMryhx1Q6iKLoxg-A9u3QuJxksFS7rQuYNdNjVBqcJfwig9kXB6QzKRFg0KK2ZhiJjarVqjLKhFw2Ej58I5aLFMcgBWzD0MrDKgWiQgF_qMW1-rhMF_nsEY44QyiGRITSt0oJGZGZMjXkhgKH6t_x5-HgMgcnO1J4fSoQ_2iw-">Zapisz się do naszego newslettera</a>.</li>
         <li> Wesprzyj Low-tech Magazine przez</li>
-        <li><a href="https://lowtechmag.gitlab.io/solar/pl/offline-reading/">Czytaj Low-tech Magazine off-line</a>.</li>
+        <li><a href="pl/offline-reading/">Czytaj Low-tech Magazine off-line</a>.</li>
     </ul>
 </div>
 
@@ -1390,13 +1390,13 @@
 		    <div class="post-info">
 		    <p class="tags">Themes
 		        
-		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/energy-demand/" class="">Energy Demand</a></span> 
+		           <span><a href="/pl/tags/energy-demand/" class="">Energy Demand</a></span> 
 		        
-		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/human-power/" class="">Human Power</a></span> 
+		           <span><a href="/pl/tags/human-power/" class="">Human Power</a></span> 
 		        
-		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/off-the-grid/" class="">Off-the-Grid</a></span> 
+		           <span><a href="/pl/tags/off-the-grid/" class="">Off-the-Grid</a></span> 
 		        
-		           <span><a href="https://lowtechmag.gitlab.io/solar/pl/tags/renewable-energy/" class="">Renewable Energy</a></span> 
+		           <span><a href="/pl/tags/renewable-energy/" class="">Renewable Energy</a></span> 
 		        
 		    </p>
 		    </div>
@@ -1409,12 +1409,12 @@
 		
 	
 		<div class="article  low-tech-solutions ">
-	<a href="https://lowtechmag.gitlab.io/solar/pl/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/">
+	<a href="/pl/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/">
 		
 		
 		
 		          
-		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/images/dithers/lighter_dithered.png');"></div>
+		<div class="featured-img" style="background-image: url('/pl/2018/12/keeping-some-of-the-lights-on-redefining-energy-security/images/dithers/lighter_dithered.png');"></div>
 		
 		
 		<h3 class="entry-title">Pozostawianie niektórych świateł włączonych – przedefiniowanie bezpieczeństwa energetycznego</h3>
@@ -1428,12 +1428,12 @@
 		
 	
 		<div class="article  obsolete-technology ">
-	<a href="https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/">
+	<a href="/pl/2022/01/the-revenge-of-the-hot-water-bottle/">
 		
 		
 		
 		          
-		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
+		<div class="featured-img" style="background-image: url('/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png');"></div>
 		
 		
 		<h3 class="entry-title">Zemsta termofora</h3>
@@ -1447,12 +1447,12 @@
 		
 	
 		<div class="article  obsolete-technology ">
-	<a href="https://lowtechmag.gitlab.io/solar/pl/2019/12/too-much-combustion-too-little-fire/">
+	<a href="/pl/2019/12/too-much-combustion-too-little-fire/">
 		
 		
 		
 		          
-		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png');"></div>
+		<div class="featured-img" style="background-image: url('/pl/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png');"></div>
 		
 		
 		<h3 class="entry-title">Za dużo spalania, za mało ognia</h3>
@@ -1466,12 +1466,12 @@
 		
 	
 		<div class="article  low-tech-solutions ">
-	<a href="https://lowtechmag.gitlab.io/solar/pl/2019/06/reinventing-the-small-wind-turbine/">
+	<a href="/pl/2019/06/reinventing-the-small-wind-turbine/">
 		
 		
 		
 		          
-		<div class="featured-img" style="background-image: url('https://lowtechmag.gitlab.io/solar/pl/2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png');"></div>
+		<div class="featured-img" style="background-image: url('/pl/2019/06/reinventing-the-small-wind-turbine/images/dithers/wooden-blades-and-tower_dithered.png');"></div>
 		
 		
 		<h3 class="entry-title">﻿Mała turbina wiatrowa wynaleziona na nowo</h3>
@@ -1493,7 +1493,7 @@
     <div id=page-size>Rozmiar strony: <span id="size-value"> $PLACEHOLDER</span></div>
     <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
     <h2>
-        <a href="https://lowtechmag.gitlab.io/solar/">LOW←TECH MAGAZINE</a>
+        <a href="">LOW←TECH MAGAZINE</a>
     </h2>
     <div class="dashboard">
         <ul class="grid">
@@ -1509,16 +1509,16 @@
             <li>
                 <h3>Info</h3>
                 <div class="footer-links">
-    <a href="https://lowtechmag.gitlab.io/solar/pl/about">
+    <a href="pl/about">
   O nas
 </a>
-    <a href="https://lowtechmag.gitlab.io/solar/pl/power">
+    <a href="pl/power">
   Power
 </a>
-    <a href="https://lowtechmag.gitlab.io/solar/pl/about/team">
+    <a href="pl/about/team">
   Colophon
 </a>
-    <a href="https://lowtechmag.gitlab.io/solar/pl/donate">
+    <a href="pl/donate">
   Wspomóż nas
 </a>
 <a href="/privacy">
@@ -1548,6 +1548,6 @@
     </div>
 </footer>
 
-	<script src="https://lowtechmag.gitlab.io/solar/js/script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

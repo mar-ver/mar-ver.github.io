@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>https://lowtechmag.gitlab.io/solar/es/translators/nacho-postigo/</link>
+    <link>/es/translators/nacho-postigo/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/es/translators/nacho-postigo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/es/translators/nacho-postigo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Como diseñar un mercante a vela para el siglo 21?</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</link>
+      <link>/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png" type="image/png" length="48677" ></enclosure>
+      <enclosure url="/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png" type="image/png" length="48677" ></enclosure>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</guid>
+      <guid>/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png&#34; alt=&#39;En alta mar a boro del velero Garthsnaid. Vista desde la jarcia. Foto de Allan C. Green, alrededor de 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Garthsnaid_-_SLV_H91.250-933_dithered.png&#34; alt=&#39;En alta mar a boro del velero Garthsnaid. Vista desde la jarcia. Foto de Allan C. Green, alrededor de 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  En alta mar a boro del velero *Garthsnaid*. Vista desde la jarcia. Foto de Allan C. Green, alrededor de 1920.  
 &lt;/figcaption&gt;
@@ -31,7 +31,7 @@
 &lt;p&gt;Desde entonces otros se han unido a la actividad del transporte a vela. En 2016 la compañía alemana &lt;a href=&#34;https://timbercoast.com/en/&#34;&gt;Timbercoast&lt;/a&gt; empezó a enviar carga con el &lt;em&gt;Avontuur&lt;/em&gt;, un buque construido en 1920. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; En 2017, la francesa &lt;a href=&#34;https://blueschoonercompany.com/en/home/&#34;&gt;Blue Schooner Company&lt;/a&gt; empezó a transportar mercancías entre Europa y América con el &lt;em&gt;Gallant&lt;/em&gt;, un velero construido en 1916. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Todos estos barcos a vela fueron construidos en los siglos diecinueve o veinte y restaurados en una fecha posterior. Sin embargo, un renacimiento de la marina a vela no puede basarse sólo en veleros históricos, porque no hay suficientes. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/clipper-ship-noach_dithered.png&#34; alt=&#39;El Noach, construido en 1857.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/clipper-ship-noach_dithered.png&#34; alt=&#39;El Noach, construido en 1857.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  El Noach, construido en 1857. 
 &lt;/figcaption&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;Estos dos barcos – uno en construcción y otro en fase de diseño – tienen el potencial de hacer el transporte marítimo mucho más económico de lo que es hoy en día. Esto es porque tienen mucha más capacidad de carga que los buques a vela que están operando actualmente. Un barco un poco más grande aumenta su capacidad de carga más que proporcionalmente.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/ecoclipper-prototype500-colour_dithered.png&#34; alt=&#39;El EcoClipper500 es una réplica a tamaño real del Noach.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/ecoclipper-prototype500-colour_dithered.png&#34; alt=&#39;El EcoClipper500 es una réplica a tamaño real del Noach.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  El EcoClipper500 es una réplica a tamaño real del Noach. 
 &lt;/figcaption&gt;
@@ -59,7 +59,7 @@
 &lt;p&gt;Si estas 1.200 toneladas de emisiones fueran distribuidas durante un ciclo de vida estimado en 50 años, entonces el &lt;em&gt;EcoClipper500&lt;/em&gt; tendría una huella de carbono de unos 2 gramos de CO2 por tonelada-kilómetro de carga, concluye el investigador Andrew Simons, quien ha hecho el cálculo del ciclo de vida del barco. Esto es aproximadamente cinco veces menos que la huella de carbono de un portacontenedores convencional (10 gramos de CO2/tonelada-kilómetro) y tres veces menos que la huella de carbono de un carguero (6 gramos de CO2/tonelada_kilómetro). &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_looking_aft_from_aloft_on_the_deck_while_at_anchor_dithered.png&#34; alt=&#39;Mirando a popa desde la arboladura del &amp;amp;lsquo;Parma&amp;amp;rsquo; en fondeo. Alan Villiers, 1932-33. El trabajo de Villiers recoge con fidelidad el periodo marítimo histórico del inicio del siglo 20, cuando los veleros mercantes o Grandes Veleros estaban en rápida desaparición.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_looking_aft_from_aloft_on_the_deck_while_at_anchor_dithered.png&#34; alt=&#39;Mirando a popa desde la arboladura del &amp;amp;lsquo;Parma&amp;amp;rsquo; en fondeo. Alan Villiers, 1932-33. El trabajo de Villiers recoge con fidelidad el periodo marítimo histórico del inicio del siglo 20, cuando los veleros mercantes o Grandes Veleros estaban en rápida desaparición.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Mirando a popa desde la arboladura del &#39;Parma&#39; en fondeo. Alan Villiers, 1932-33. El trabajo de Villiers recoge con fidelidad el periodo marítimo histórico del inicio del siglo 20, cuando los veleros mercantes o Grandes Veleros estaban en rápida desaparición. 
 &lt;/figcaption&gt;
@@ -74,7 +74,7 @@
 &lt;p&gt;Un posible compromiso sería una construcción híbrida, en la que un esqueleto de acero es recubierto en un fondo, costados y cubierta de madera. Andrew Simons: “Esto reduciría la huella de carbono de la construcción a la mitad. También sería posible hacer las superestructuras y algunas de las secciones de los mástiles y arboladura en madera en lugar de acero.”&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_driving_sprays_over_the_main_deck_dithered.png&#34; alt=&#39;Rociones sobre la cubierta principal del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_driving_sprays_over_the_main_deck_dithered.png&#34; alt=&#39;Rociones sobre la cubierta principal del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Rociones sobre la cubierta principal del &#39;Parma&#39;. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -87,14 +87,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;La huella de carbono de los pasajeros asciende a 10 g por pasajero-km, comparado con los aproximadamente 100 g por pasajero-km en un avión.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;En consecuencia, y &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/06/life-without-airplanes-from-london-to-new-york-in-3-days-and-12-hours/&#34;&gt;como los transatlánticos han desaparecido&lt;/a&gt;, el &lt;em&gt;EcoClipper500&lt;/em&gt; también se convierte en una alternativa al avión. Según los resultados del estudio del ciclo de vida, la huella de carbono de los pasajeros en el &lt;em&gt;EcoClipper500&lt;/em&gt; ascendría a 10 gramos por pasajero-kilómetro, comparado con los aproximadamente 100 gramos por pasajero-kilómetro en un avión. Transportar un pasajero produce las mismas emisiones de carbono que llevar una tonelada de carga.&lt;/p&gt;
+&lt;p&gt;En consecuencia, y &lt;a href=&#34;/2008/06/life-without-airplanes-from-london-to-new-york-in-3-days-and-12-hours/&#34;&gt;como los transatlánticos han desaparecido&lt;/a&gt;, el &lt;em&gt;EcoClipper500&lt;/em&gt; también se convierte en una alternativa al avión. Según los resultados del estudio del ciclo de vida, la huella de carbono de los pasajeros en el &lt;em&gt;EcoClipper500&lt;/em&gt; ascendría a 10 gramos por pasajero-kilómetro, comparado con los aproximadamente 100 gramos por pasajero-kilómetro en un avión. Transportar un pasajero produce las mismas emisiones de carbono que llevar una tonelada de carga.&lt;/p&gt;
 &lt;h2 id=&#34;motor-o-no&#34;&gt;¿Motor o no?&lt;/h2&gt;
 &lt;p&gt;Muy importante: el estudio del ciclo de vida del &lt;em&gt;EcoClipper500&lt;/em&gt; asume que no lleva motor diesel a bordo. En un velero, el motor diesel puede servir para dos cosas, que se pueden combinar. Primero, permite propulsar el barco cuando no hay viento o las velas no se pueden emplear, por ejemplo entrando o saliendo de puerto. Segundo, combinado con un alternador, un motor diesel puede producir electricidad para las necesidades de a bordo.&lt;/p&gt;
 &lt;p&gt;A lo largo de la historia el consumo de energía a bordo de un velero no era muy problemático. Había lumbre de leña para cocinar y calentarse y había velas y lámparas de aceite para la iluminación. No había neveras para conservar los alimentos, no había duchas ni lavadoras o lavaplatos, ni instrumentos electrónicos para la navegación o las comunicaciones ni bombas eléctricas para emplear en caso de vías de agua o fuego a bordo.&lt;/p&gt;
 &lt;p&gt;Sin embargo, hoy en día tenemos estándares más altos en seguridad, salud, higiene, confort térmico y comodidades. El problema es que estos elevados estándares son más difíciles de conseguir cuando el barco no cuenta con un motor que consume combustibles fósiles. Los sistemas  modernos de calefacción, de cocina, calentadores de agua, neveras, congeladores, iluminación, equipo de seguridad e instrumentos electrónicos, todos necesitan energía para funcionar.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crewman_with_his_model_of_the_%27Parma%27_dithered.png&#34; alt=&#39;Tripulante del &amp;amp;lsquo;Parma&amp;amp;rsquo; con un modelo de su barco. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crewman_with_his_model_of_the_%27Parma%27_dithered.png&#34; alt=&#39;Tripulante del &amp;amp;lsquo;Parma&amp;amp;rsquo; con un modelo de su barco. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Tripulante del &#39;Parma&#39; con un modelo de su barco. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -106,11 +106,11 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Obviamente, las emisiones y otros contaminantes de estos motores tienen que tenerse en cuenta cuando se calcula la huella ecológica de un viaje a vela. Dependiendo de la forma de vida de la gente a bordo, las emisiones por pasajero-kilómetro pueden llegar o incluso superar el nivel de un avión. Hasta cierto punto, el consumo eléctrico a bordo también aumenta las emisiones de la carga transportada.&lt;/p&gt;
 &lt;h2 id=&#34;consumo-de-energía-a-bordo-de-un-velero&#34;&gt;Consumo de energía a bordo de un velero&lt;/h2&gt;
-&lt;p&gt;El &lt;em&gt;EcoClipper500&lt;/em&gt; no tiene motor diesel a bordo, lo que es una segunda razón por la que interesarnos por este barco. Obviamente, un velero sin motor no puede continuar su viaje cuando no hay viento. Esto se puede &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;fácilmente resolver “a la antigua”&lt;/a&gt;: el &lt;em&gt;EcoClipper500&lt;/em&gt; se queda parado hasta que el viento vuelve. Un barco sin motor también necesita remolcadores – que normalmente consumen combustibles fósiles – para entrar y salir de los puertos. En el &lt;em&gt;EcoClipper500&lt;/em&gt;, estos servicios de remolcadores suponen 0.3 g/tkm de la huella total de carbono de 2 g/tkm.&lt;/p&gt;
+&lt;p&gt;El &lt;em&gt;EcoClipper500&lt;/em&gt; no tiene motor diesel a bordo, lo que es una segunda razón por la que interesarnos por este barco. Obviamente, un velero sin motor no puede continuar su viaje cuando no hay viento. Esto se puede &lt;a href=&#34;/es/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;fácilmente resolver “a la antigua”&lt;/a&gt;: el &lt;em&gt;EcoClipper500&lt;/em&gt; se queda parado hasta que el viento vuelve. Un barco sin motor también necesita remolcadores – que normalmente consumen combustibles fósiles – para entrar y salir de los puertos. En el &lt;em&gt;EcoClipper500&lt;/em&gt;, estos servicios de remolcadores suponen 0.3 g/tkm de la huella total de carbono de 2 g/tkm.&lt;/p&gt;
 &lt;p&gt;Sin un motor diesel, el barco tiene que generar toda la energía que se necesita a bordo de fuentes de energía locales, y esta es la parte difícil. La energía renovable es intermitente y tiene baja densidad energética comparada con los combustibles fósiles, lo que implica que se necesita más espacio para generar una cantidad de energía dada, cosa aún más problemática en el mar que en tierra.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_--_renewing_caulking_on_the_poop_dithered.png&#34; alt=&#39;Renovando el calafateado en la popa del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_--_renewing_caulking_on_the_poop_dithered.png&#34; alt=&#39;Renovando el calafateado en la popa del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Renovando el calafateado en la popa del &#39;Parma&#39;. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -126,7 +126,7 @@
 &lt;p&gt;El hidrogenerador es la única fuente de energía renovable que puede proporcionar a un gran buque la suficiente electricidad como para emplear tecnología moderna a bordo. Los hidrogeneradores se montan bajo el casco y funcionan en el sentido opuesto a las hélices del motor. En lugar de que la hélice haga moverse al barco, el movimiento del barco hace girar la hélice que mueve un generador que produce electricidad. A pesar de su nombre y aspecto el hidrogenerador es una fuente de energía eólica: las velas mueven las hélices. Obviamente esto sólo es posible cuando el barco navega a suficiente velocidad.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_furling_sail_on_the_main_yard_dithered.png&#34; alt=&#39;Recogiendo vela en la verga de mayor del Parma. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_furling_sail_on_the_main_yard_dithered.png&#34; alt=&#39;Recogiendo vela en la verga de mayor del Parma. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Recogiendo vela en la verga de mayor del Parma. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -144,7 +144,7 @@
 &lt;p&gt;Para cubrir las necesidades de tres días flotando en aguas frías, se requeriría un almacenaje de energía de 150 kwh, sin contar con las pérdidas de la carga y la descarga. Cinco o siete días de consumo a bordo requerirían entre 250 y 350 kwh de almacenamiento. Para emergencias se necesitarían otros 25 kwh de energía almacenada.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_scraping_the_deck_dithered.png&#34; alt=&#39;Baldeando la cubierta del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_scraping_the_deck_dithered.png&#34; alt=&#39;Baldeando la cubierta del &amp;amp;lsquo;Parma&amp;amp;rsquo;. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Baldeando la cubierta del &#39;Parma&#39;. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -157,7 +157,7 @@
 &lt;p&gt;Hay otra fuente y almacenamiento de energía renovable a bordo del &lt;em&gt;EcoClipper&lt;/em&gt; y son los mismos humanos. Como la estufa de pellets y el biodigestor, el uso de energía humana podría reducir la necesidad de electricidad. Tanto los mercantes de hoy en día como los grandes veleros mueven eléctrica o hidráulicamente molinetes, bombas y el sistema de gobierno, ahorrando mano de obra a cambio de un mayor uso de energía. En contraste el &lt;em&gt;EcoClipper&lt;/em&gt; apuesta lo más posible por el accionamiento manual  de estos mecanismos&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crew_at_the_capstan_weighing_anchor_dithered.png&#34; alt=&#39;La tripulción del Parma levando el ancla. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_crew_at_the_capstan_weighing_anchor_dithered.png&#34; alt=&#39;La tripulción del Parma levando el ancla. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La tripulción del Parma levando el ancla. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;
@@ -166,11 +166,11 @@
 &lt;p&gt;Simons y Langelaan también están considerando instalar unas cuantas máquinas de remo conectadas a generadores para producir energía en caso de emergencia. Dos máquinas de remo podrían producir 400 vatios de energía. Si se mantienen funcionando permanentemente en turnos, podrían proveer unos 9.6kwh de energía al día (ignorando pérdidas energéticas del sistema), una quinta parte del consumo máximo diario de electricidad.&lt;/p&gt;
 &lt;p&gt;De hecho, como les digo a Simons y Langelaan diez máquinas de remo funcionando permanentemente en turnos proveerían tanta energía como los hidrogeneradores navegando a una velocidad de 7.5 nudos. Si hay 60 personas a bordo y todos generasen energía menos de una hora al día, ni siquiera se necesitarían baterías ni hidrogeneradores. “Interesante reflexión” responde Simons “pero ¿qué impresión transmitiríamos?”&lt;/p&gt;
 &lt;h2 id=&#34;duchas-calientes&#34;&gt;¿Duchas calientes?&lt;/h2&gt;
-&lt;p&gt;Incluso contando con el biodigestor, los hidrogeneradores, baterías y las máquinas de remo los pasajeros y tripulantes del &lt;em&gt;EcoClipper&lt;/em&gt; no disfrutarían de muchos lujos y a algunos podría faltarles comodidades. Por ejemplo si las 60 personas a bordo del barco se dan una ducha diaria de agua caliente – &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2019/10/mist-showers-sustainable-decadence/&#34;&gt;lo que requiere una media de 2,1kwh de energía y 76.5 litros de agua cuando se hace en tierra&lt;/a&gt;- el consumo energético diario sería de 126 kwh, más del doble que la energía que el barco es capaz de producir a 7.5 nudos de velocidad.&lt;/p&gt;
+&lt;p&gt;Incluso contando con el biodigestor, los hidrogeneradores, baterías y las máquinas de remo los pasajeros y tripulantes del &lt;em&gt;EcoClipper&lt;/em&gt; no disfrutarían de muchos lujos y a algunos podría faltarles comodidades. Por ejemplo si las 60 personas a bordo del barco se dan una ducha diaria de agua caliente – &lt;a href=&#34;/es/2019/10/mist-showers-sustainable-decadence/&#34;&gt;lo que requiere una media de 2,1kwh de energía y 76.5 litros de agua cuando se hace en tierra&lt;/a&gt;- el consumo energético diario sería de 126 kwh, más del doble que la energía que el barco es capaz de producir a 7.5 nudos de velocidad.&lt;/p&gt;
 &lt;p&gt;El barco podría generar esta energía navegando más rápido, pero además se necesitarían 4.590 litros de agua al día que sólo se podrían producir potabilizando el agua del mar – un proceso que requiere muchísima energía. Incluso una tripulación de 12 personas dándose una ducha diaria significaría 25.2kw de energía diaria, la mitad de lo que producen los hidrogeneradores a una velocidad de 7.5 nudos. El &lt;em&gt;Bark Europa&lt;/em&gt; es el único velero mencionado en este artículo que cuenta con duchas calientes en cada camarote (compartido), pero también es el barco con los generadores más grandes y el mayor uso de combustible fósil.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_on_the_forecastle_in_fine_weather_dithered.png&#34; alt=&#39;En el castillo de proa del Parma con buen tiempo. Image by Alan Villiers, 1932.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Parma_-_on_the_forecastle_in_fine_weather_dithered.png&#34; alt=&#39;En el castillo de proa del Parma con buen tiempo. Image by Alan Villiers, 1932.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  En el castillo de proa del Parma con buen tiempo. Image by Alan Villiers, 1932. 
 &lt;/figcaption&gt;
@@ -184,7 +184,7 @@
 &lt;p&gt;Si redujesemos el tráfico de mercancias marítimas más de cinco veces y el de pasajeros más de diez veces, entonces las emisiones de todos los portacontenedores y aviones serían menores que las de todos los buques a vela que transportasen 11.2 billones de toneladas de carga y 4.5 billones de pasajeros. Y al contrario: si nos pasamos a buques a vela pero seguimos transportando más y más mercancías y pasajeros por todo el planeta, llegaremos a producir tantas emisiones como hacemos hoy con el transporte alimentado por combustibles fósiles.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Grace_Harwar_-_the_mizzen_of_the_ship;_view_aft_from_the_main_crosstrees_dithered.png&#34; alt=&#39;La mesana del &amp;amp;lsquo;Grace Harwar&amp;amp;rsquo;; mirando a popa desde las vergas de mayor. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/05/how-to-design-a-sailing-ship-for-the-21st-century/images/dithers/Grace_Harwar_-_the_mizzen_of_the_ship;_view_aft_from_the_main_crosstrees_dithered.png&#34; alt=&#39;La mesana del &amp;amp;lsquo;Grace Harwar&amp;amp;rsquo;; mirando a popa desde las vergas de mayor. Alan Villiers, 1932-33.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La mesana del &#39;Grace Harwar&#39;; mirando a popa desde las vergas de mayor. Alan Villiers, 1932-33. 
 &lt;/figcaption&gt;

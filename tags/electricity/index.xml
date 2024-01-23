@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://lowtechmag.gitlab.io/solar/tags/electricity/</link>
+    <link>/tags/electricity/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/electricity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/electricity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build a Practical Household Bike Generator</title>
-      <link>https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/</link>
+      <link>/2022/03/how-to-build-a-practical-household-bike-generator/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
+      <enclosure url="/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
+      <guid>/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image: the bike generator in the living room.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image: the bike generator in the living room.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: the bike generator in the living room. 
 &lt;/figcaption&gt;
@@ -94,13 +94,13 @@
 &lt;p&gt;We also tried to improve the bike generator itself. Although there are good manuals available, we wanted a power source that is easy to build (no welding or complex tools required), comfortable to pedal, as compact as possible, and not an eyesore. The bike generator is set up in a small living room and used regularly. We found the solution in a vintage exercise bike with a flywheel, an approach we have not seen before.&lt;/p&gt;
 &lt;h3 id=&#34;trial-and-error&#34;&gt;Trial and Error&lt;/h3&gt;
 &lt;p&gt;The bike generator and dashboard were designed and made in collaboration with &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; as part of her internship at Low-tech Magazine. We could not find the technical information we were looking for, so we followed a trial-and-error approach. That was time-consuming and costly, but we gained insight and learned lessons. We made lots of mistakes that you can avoid.&lt;/p&gt;
-&lt;p&gt;We are not engineers, and we welcome technical feedback concerning further improvements. Based on that feedback and more experiments with the bike generator – which is now in use for one month – we will update and expand the manual. Our design can be adjusted and adapted to your needs. We &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/donate/&#34;&gt;appreciate a donation&lt;/a&gt; if you find our work interesting. Your support makes it possible to finance further experiments and building projects that we have in mind. Marie Verdeil will continue working with Low-tech Magazine when she finishes her studies at the Design Academy Eindhoven later this year.&lt;/p&gt;
+&lt;p&gt;We are not engineers, and we welcome technical feedback concerning further improvements. Based on that feedback and more experiments with the bike generator – which is now in use for one month – we will update and expand the manual. Our design can be adjusted and adapted to your needs. We &lt;a href=&#34;/donate/&#34;&gt;appreciate a donation&lt;/a&gt; if you find our work interesting. Your support makes it possible to finance further experiments and building projects that we have in mind. Marie Verdeil will continue working with Low-tech Magazine when she finishes her studies at the Design Academy Eindhoven later this year.&lt;/p&gt;
 &lt;p&gt;Newcomers to this website may want to read some earlier articles that this bike generator project is building further upon: &lt;a href=&#34;https://solar.lowtechmagazine.com/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;The short history of pedal powered machines&lt;/a&gt; (2011), &lt;a href=&#34;https://solar.lowtechmagazine.com/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;Pedal powered farms and factories: the forgotten future of the stationary bicycle&lt;/a&gt; (2011), &lt;a href=&#34;https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/&#34;&gt;Bike generators are not sustainable&lt;/a&gt; (2011), &lt;a href=&#34;https://solar.lowtechmagazine.com/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;How to go off-grid in your apartment&lt;/a&gt; (2016), &lt;a href=&#34;https://solar.lowtechmagazine.com/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;Slow electricity: the return of DC Power?&lt;/a&gt; (2016), &lt;a href=&#34;https://solar.lowtechmagazine.com/2017/05/could-we-run-modern-society-on-human-power-alone/&#34;&gt;Could we run modern society on human power alone?&lt;/a&gt; (2017), and &lt;a href=&#34;https://solar.lowtechmagazine.com/2018/01/how-much-energy-do-we-need/&#34;&gt;How much energy do we need?&lt;/a&gt;(2018).&lt;/p&gt;
 &lt;h2 id=&#34;span-idbikegeneratorthe-bike-generatorspan&#34;&gt;&lt;span id=&#34;bikegenerator&#34;&gt;The Bike Generator&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;There are many ways to build a bicycle generator, and each has its advantages and disadvantages. We based our pedal power plant on a vintage exercise bicycle from the 1950s. Our bike was made by Spanish brand BH but similar vintage models can be found anywhere in the industrialised world.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image: The exercise bike dating from the 1950s. It has a heavy flywheel in front.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image: The exercise bike dating from the 1950s. It has a heavy flywheel in front.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The exercise bike dating from the 1950s. It has a heavy flywheel in front. 
 &lt;/figcaption&gt;
@@ -113,7 +113,7 @@
 &lt;p&gt;Our approach also makes it possible to build a pedal power generator with simple tools and basic skills. There is no need to cut or weld metal – the bike remains like it is. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Neither is there a need to build a support structure – the bicycle already has one. We only had to add a so-called friction drive – a small roller attached to the generator shaft and pressed against the flywheel.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image: The friction drive – a small roller attached to the generator shaft and pressed against the flywheel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image: The friction drive – a small roller attached to the generator shaft and pressed against the flywheel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The friction drive – a small roller attached to the generator shaft and pressed against the flywheel. 
 &lt;/figcaption&gt;
@@ -129,14 +129,14 @@
 &lt;p&gt;As a power cyclist, you have to match the voltage (V) and the current (A) of the device you are powering or charging. However, this is easier said than done. Electric devices run on different voltages and they have very different power demands. The voltage refers to how &lt;em&gt;fast&lt;/em&gt; you pedal and the current to how &lt;em&gt;hard&lt;/em&gt; you pedal.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image: the bike generator in operation.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image: the bike generator in operation.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: the bike generator in operation. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;span-idvolt1-matching-the-voltagespan&#34;&gt;&lt;span id=&#34;volt&#34;&gt;1. Matching the voltage&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;A bike generator produces &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;low voltage DC power&lt;/a&gt;, similar to a solar PV system (12/24V). The voltage output depends on how fast the bike generator spins. The pedalling rate and the gear ratio determine the generator speed. The manual explains in detail &lt;a href=&#34;#gearratio&#34;&gt;how to set up the correct gear ratio&lt;/a&gt;. In short, you need to measure the outer diameter of three parts (pedal sprocket, flywheel sprocket, flywheel) and use those data to calculate the correct spindle size for the intended voltage output.&lt;/p&gt;
+&lt;p&gt;A bike generator produces &lt;a href=&#34;/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;low voltage DC power&lt;/a&gt;, similar to a solar PV system (12/24V). The voltage output depends on how fast the bike generator spins. The pedalling rate and the gear ratio determine the generator speed. The manual explains in detail &lt;a href=&#34;#gearratio&#34;&gt;how to set up the correct gear ratio&lt;/a&gt;. In short, you need to measure the outer diameter of three parts (pedal sprocket, flywheel sprocket, flywheel) and use those data to calculate the correct spindle size for the intended voltage output.&lt;/p&gt;
 &lt;p&gt;Once you have set the gear ratio, you could produce a lower or a higher voltage by pedalling slower or faster, respectively. That makes it possible to power devices on different voltages. However, assuming your generator provides 12V at average pedalling speed, you would have to pedal in extreme slow motion to produce 5V, and it will be hard to keep your feet at the pedals to provide 24V. Gears would make it easier to vary the voltage output, but our bike has none.&lt;/p&gt;
 &lt;p&gt;Running an appliance straight from the generator can be a practical solution if it needs roughly 12V. The flywheel helps to maintain a relatively steady voltage output. However, electronic devices and batteries require a precise voltage. Otherwise, they may not work or get damaged. Furthermore, running an appliance straight from the generator prevents you from powering or charging several devices with different voltages simultaneously – which is a solution to the next problem.&lt;/p&gt;
 &lt;h3 id=&#34;span-idcurrent2-matching-the-currentspan&#34;&gt;&lt;span id=&#34;current&#34;&gt;2. Matching the current&lt;/span&gt;&lt;/h3&gt;
@@ -152,7 +152,7 @@
 &lt;p&gt;To overcome all these problems, we built a control panel that distributes the power from the bike generator into switchable circuits with different voltages for the operation of various devices. You can use these circuits separately or in combination, which allows you to adjust the resistance at the pedals precisely for the optimal workout. You can also control some devices directly by lowering their power demand.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image: The control panel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image: The control panel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The control panel. 
 &lt;/figcaption&gt;
@@ -160,7 +160,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image: The control panel seen from the side.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image: The control panel seen from the side.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The control panel seen from the side. 
 &lt;/figcaption&gt;
@@ -181,7 +181,7 @@
 &lt;/ul&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image: The front of the control panel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image: The front of the control panel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The front of the control panel. 
 &lt;/figcaption&gt;
@@ -189,7 +189,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image: The back of the control panel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image: The back of the control panel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The back of the control panel. 
 &lt;/figcaption&gt;
@@ -206,13 +206,13 @@
 &lt;p&gt;A bike generator is best suited for powering electric devices directly –  without storing the energy into a battery first. That avoids charge and discharge losses (up to 30% in lead-acid batteries) and reduces the complexity and the costs of setting up a practical human power plant. For this purpose, the control panel has several 12V circuits and a 220V circuit.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image: Some of the appliances that we tested: air compressor, lights, Peltier refrigerator, dot-matrixprinter, electric kettle, soldering iron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image: Some of the appliances that we tested: air compressor, lights, Peltier refrigerator, dot-matrixprinter, electric kettle, soldering iron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Some of the appliances that we tested: air compressor, lights, Peltier refrigerator, dot-matrixprinter, electric kettle, soldering iron. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Among the 12V devices that we powered directly are an experimental Peltier refrigerator, a water kettle, laptops – powered by a 12V adapter, and without battery or with the battery at 100% –  lights, a soldering iron, a power drill, and a sander. Many more 12V devices exist, mainly aimed at truck drivers and car drivers, sailors, caravan dwellers (and &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;low-tech tinkerers who wire their apartment as if it was a sailboat&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Among the 12V devices that we powered directly are an experimental Peltier refrigerator, a water kettle, laptops – powered by a 12V adapter, and without battery or with the battery at 100% –  lights, a soldering iron, a power drill, and a sander. Many more 12V devices exist, mainly aimed at truck drivers and car drivers, sailors, caravan dwellers (and &lt;a href=&#34;/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;low-tech tinkerers who wire their apartment as if it was a sailboat&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;These are all the devices we have powered or charged so far:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;All types of USB devices (5V)&lt;/li&gt;
@@ -242,30 +242,30 @@
 &lt;p&gt;Converting a battery-powered tool to a corded tool can be pretty straightforward. After removing the battery, locate the positive and the negative contacts and solder two wires to them. Note that you only get one chance to decide which one is positive or negative. For the power drill, this was very easy to figure out. For the sander, we asked advice because the wiring is more complicated. 12V power tools with missing or dead batteries usually sell cheap on the second-hand market.&lt;/p&gt;
 &lt;p&gt;A corded power drill is perhaps the most versatile tool. You can use it with a whisk (to beat eggs), a stiff brush (to remove paint or clean objects), a grinding wheel (to sharpen knives), or a polishing wheel (to make chrome or other metals and materials shine). Precision tools for jewelry or model making also combine well with direct pedal power. We are still in the early testing phase for converting and using corded 12V power tools.&lt;/p&gt;
 &lt;h3 id=&#34;hand-vs-foot-powered-tools&#34;&gt;Hand vs. Foot-powered Tools&lt;/h3&gt;
-&lt;p&gt;Compared to &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;human-powered mechanical hand tools&lt;/a&gt;, human-powered electric equipment is less energy efficient. Going electric introduces extra energy losses – in the generator, the buck converter, the wires, and the drive train. However, this is more than compensated for by a more energy-efficient use of the human power source. Our legs are roughly four times stronger than our arms.&lt;/p&gt;
+&lt;p&gt;Compared to &lt;a href=&#34;/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;human-powered mechanical hand tools&lt;/a&gt;, human-powered electric equipment is less energy efficient. Going electric introduces extra energy losses – in the generator, the buck converter, the wires, and the drive train. However, this is more than compensated for by a more energy-efficient use of the human power source. Our legs are roughly four times stronger than our arms.&lt;/p&gt;
 &lt;p&gt;Going electric is also more ergonomic because it spares hand joints and muscles. Fixing dozens of screws by hand may be more sustainable than using a power drill, but it can ruin your wrist. A bike generator thus allows you to work faster and more ergonomically without relying on an external energy source.&lt;/p&gt;
-&lt;p&gt;Mechanical hand tools keep some advantages: they are silent, more portable, and less energy-intensive to manufacture. A third option combines these advantages: &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;pedal-powered mechanical equipment&lt;/a&gt;. However, it&amp;rsquo;s challenging to build a compact stationary bicycle that can power many different tools. We designed the bike generator to be as compact and multifunctional as possible.&lt;/p&gt;
+&lt;p&gt;Mechanical hand tools keep some advantages: they are silent, more portable, and less energy-intensive to manufacture. A third option combines these advantages: &lt;a href=&#34;/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;pedal-powered mechanical equipment&lt;/a&gt;. However, it&amp;rsquo;s challenging to build a compact stationary bicycle that can power many different tools. We designed the bike generator to be as compact and multifunctional as possible.&lt;/p&gt;
 &lt;p&gt;Power tools can have high power demands, but this should not stop you. The sander only needs 30 watts at most, but our power drill can demand up to 20A of current – which is too high for the bicycle generator and control panel (12V×20A=240W). However, the machine will rarely require that power unless you use it to drill through hard materials.&lt;/p&gt;
 &lt;p&gt;The power demand of a power tool will increase whenever the torque increases, so you feel when the drill bit has gone through the material or when the screw has been fixed or loosened. You can handle the tool as precisely with your feet as you can with your hands.&lt;/p&gt;
 &lt;h3 id=&#34;span-idkettle2-electric-kettlespan&#34;&gt;&lt;span id=&#34;kettle&#34;&gt;2. Electric Kettle&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Electric heating and cooling are energy-intensive. Alternatives, such as &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/&#34;&gt;direct solar heat&lt;/a&gt;, are more sustainable. However, heating and cooling can easily be included in your exercise routine and provide results.&lt;/p&gt;
+&lt;p&gt;Electric heating and cooling are energy-intensive. Alternatives, such as &lt;a href=&#34;/2019/12/too-much-combustion-too-little-fire/&#34;&gt;direct solar heat&lt;/a&gt;, are more sustainable. However, heating and cooling can easily be included in your exercise routine and provide results.&lt;/p&gt;
 &lt;p&gt;We apply this principle with an electric kettle and an experimental Peltier refrigerator. Both appliances are very well insulated. Consequently, converting human power into heat or cold becomes another (very cheap and sustainable) form of energy storage – without all the drawbacks of batteries.&lt;/p&gt;
 &lt;p&gt;Electric kettles that run on grid power are often very powerful and boil water in a matter of minutes or even seconds. Boiling water using a bicycle generator will take a lot more time, but it’s perfectly possible. We acquired a commercial 12V electric kettle with a vacuum insulated reservoir of one litre. During a test, boiling water for one cup of tea took slightly more than one hour at an average power production of 60W.&lt;/p&gt;
-&lt;p&gt;The electric kettle can also prepare &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;hot water bottles for thermal comfort&lt;/a&gt;. That requires more water than a cup of tea, but with a lower temperature of around 60 degrees celsius. During a test, heating one litre of water for a (small) hot water bottle took 1 hour and 30 minutes at an average power production of 60 watts.&lt;/p&gt;
-&lt;p&gt;Following this effort, the last thing you need is a hot water bottle. Stronger still, during that effort, you are a space heater with an output of several hundreds of watts, and you may be able to increase the air temperature in a small room. However, the vacuum insulated kettle can be put into a &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;fireless cooker&lt;/a&gt; and used hours later when you are inactive and need warmth.&lt;/p&gt;
+&lt;p&gt;The electric kettle can also prepare &lt;a href=&#34;/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;hot water bottles for thermal comfort&lt;/a&gt;. That requires more water than a cup of tea, but with a lower temperature of around 60 degrees celsius. During a test, heating one litre of water for a (small) hot water bottle took 1 hour and 30 minutes at an average power production of 60 watts.&lt;/p&gt;
+&lt;p&gt;Following this effort, the last thing you need is a hot water bottle. Stronger still, during that effort, you are a space heater with an output of several hundreds of watts, and you may be able to increase the air temperature in a small room. However, the vacuum insulated kettle can be put into a &lt;a href=&#34;/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;fireless cooker&lt;/a&gt; and used hours later when you are inactive and need warmth.&lt;/p&gt;
 &lt;h3 id=&#34;span-idpeltier3-peltier-refrigeratorspan&#34;&gt;&lt;span id=&#34;peltier&#34;&gt;3. Peltier Refrigerator&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Commercial 12V refrigerators are expensive. After researching &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;thermoelectric generators&lt;/a&gt; (TEGs), the idea of a Peltier refrigerator was born. A Peltier refrigerator is essentially a well-insulated fireless cooker with a TEG mounted on top. If power is applied, the module will get hot on one side and cold on the other, cooling the box interior. TEG cooling is not particularly efficient. However, it&amp;rsquo;s silent, works without problematic cooling gases, and is the easiest way to make a refrigerator yourself.&lt;/p&gt;
+&lt;p&gt;Commercial 12V refrigerators are expensive. After researching &lt;a href=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;thermoelectric generators&lt;/a&gt; (TEGs), the idea of a Peltier refrigerator was born. A Peltier refrigerator is essentially a well-insulated fireless cooker with a TEG mounted on top. If power is applied, the module will get hot on one side and cold on the other, cooling the box interior. TEG cooling is not particularly efficient. However, it&amp;rsquo;s silent, works without problematic cooling gases, and is the easiest way to make a refrigerator yourself.&lt;/p&gt;
 &lt;p&gt;The TEG refrigerator is an early prototype, which needs further testing and improvements. Powering one TEG at full power requires roughly 60 watts (12V×5A), measured right after the generator. That is a good workout, and the dimmer allows to lower the resistance at the pedals precisely. However, it quickly became apparent that one TEG is not enough for the size of the cooling space. We will add a second one for a heavier workout (60-100 watts).&lt;/p&gt;
 &lt;h3 id=&#34;mains-appliances-220v&#34;&gt;Mains Appliances (220V)&lt;/h3&gt;
 &lt;p&gt;Our dashboard also includes a 220V circuit. That makes it compatible with grid-powered devices (110V in the US, 240V in the UK). The 220V circuit requires an inverter. The inverter is too large to include in the dashboard, so we placed it in a box on the luggage rack that we built in front.&lt;/p&gt;
-&lt;p&gt;A 220V socket is not necessary. Many 220V appliances have 12V (or 24V) alternatives which are &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;more energy efficient for decentralised power production&lt;/a&gt;. However, we included a 220V circuit for powering devices that have not (yet) been replaced by or converted to low voltage alternatives: the dot-matrix printer, the sewing machine, the stereo system, and the router.&lt;/p&gt;
+&lt;p&gt;A 220V socket is not necessary. Many 220V appliances have 12V (or 24V) alternatives which are &lt;a href=&#34;/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;more energy efficient for decentralised power production&lt;/a&gt;. However, we included a 220V circuit for powering devices that have not (yet) been replaced by or converted to low voltage alternatives: the dot-matrix printer, the sewing machine, the stereo system, and the router.&lt;/p&gt;
 &lt;p&gt;The dot-matrix printer and the sewing machine are challenging to operate because of their rapidly changing power demand. For example, to avoid the voltage dropping below 12V at high power peaks while printing, you need to pedal very fast (around 20V) to provide sufficient inertia to the flywheel. A supercapacitor may be able to solve this &amp;ndash; this is something we will try in the coming months. A foot-powered mechanical sewing machine and printer would be much more energy-efficient &amp;ndash; but much less space-efficient.&lt;/p&gt;
 &lt;h2 id=&#34;span-idalternativealternative-configurations-bike-generator-with-a-work-deskspan&#34;&gt;&lt;span id=&#34;alternative&#34;&gt;Alternative configurations: Bike generator with a work desk&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;The control panel is designed to power a wide diversity of devices, but you can follow a similar approach with different results. For example, if you only want to charge lead-acid batteries, one 14.4V circuit is enough. You can use a buck and boost converter to create any voltage you need, for example, to build a 3V, 6V, 9V, or 24V circuit.&lt;/p&gt;
 &lt;p&gt;However, if you mainly want to run 24V appliances, it’s a better idea to adjust the gear ratio. Same if you only want to charge 14.4V lead-acid batteries on a 12V system: &lt;a href=&#34;#gearratio&#34;&gt;adjust the gear ratio&lt;/a&gt; to generate 16-17V (to compensate for energy losses in the buck converter).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image: The 220V power output.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image: The 220V power output.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The 220V power output. 
 &lt;/figcaption&gt;
@@ -273,7 +273,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image: The luggage rack and the power outlets (unregulated, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image: The luggage rack and the power outlets (unregulated, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The luggage rack and the power outlets (unregulated, 3x12V, 14.4V, 5V USB). 
 &lt;/figcaption&gt;
@@ -281,7 +281,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image: Inside the box: the inverter, the wind charge controller, the lead-acid battery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image: Inside the box: the inverter, the wind charge controller, the lead-acid battery.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Inside the box: the inverter, the wind charge controller, the lead-acid battery. 
 &lt;/figcaption&gt;
@@ -289,13 +289,13 @@
 &lt;/div&gt;
 &lt;p&gt;Our choice to have a large dashboard on the handlebars has advantages and disadvantages. To have the control panel on the bike itself makes it easy to read and manipulate. It also makes the bike generator portable. If the neighbour needs emergency power, you pick up the bike, and you are there in a minute. On the downside, having the dashboard on the bike adds vibrations, which increase noise and energy losses. It also makes it necessary to adjust the voltage output from the buck and boost converters from time to time.&lt;/p&gt;
 &lt;p&gt;Most importantly, having such a large control panel on the bike prevents you from placing a large desk on top of the handlebars instead. That could be useful to operate power tools or a laptop while simultaneously providing power. Our present set-up is not ideal for using power tools. It requires two people - one to cycle and one to operate the power tool. Likewise, you can power another person’s laptop, but you can’t power yours while using it.&lt;/p&gt;
-&lt;p&gt;We plan to build a bike generator with a smaller dashboard &amp;ndash; one 12V circuit and two USB ports &amp;ndash; and a large workspace on the handlebars. Such a bike generator harks back to &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;similar (mechanical) bicycle machines from the early twentieth century&lt;/a&gt;. Another option is to screw the control panel to the wall or put it on a shelf &amp;ndash; and place the bike generator next to it. The inverter, lead-acid battery, and wind charge controller – now on the &amp;ldquo;luggage rack&amp;rdquo; – can also move away from the bike.&lt;/p&gt;
+&lt;p&gt;We plan to build a bike generator with a smaller dashboard &amp;ndash; one 12V circuit and two USB ports &amp;ndash; and a large workspace on the handlebars. Such a bike generator harks back to &lt;a href=&#34;/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;similar (mechanical) bicycle machines from the early twentieth century&lt;/a&gt;. Another option is to screw the control panel to the wall or put it on a shelf &amp;ndash; and place the bike generator next to it. The inverter, lead-acid battery, and wind charge controller – now on the &amp;ldquo;luggage rack&amp;rdquo; – can also move away from the bike.&lt;/p&gt;
 &lt;h2 id=&#34;span-idhybridhybrid-solarhuman-power-systemspan&#34;&gt;&lt;span id=&#34;hybrid&#34;&gt;Hybrid Solar/Human Power System&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Some of you may think that our bike generator is more of a gimmick than a practical power source for the household. In part, this is true. Our human power plant is the perfect exercise machine – power production is motivating. It is also practical in emergencies, especially if enough people power is available – it can produce up to 2.4 kWh per day. However, it won’t provide enough energy daily – not even for a low-tech household. In practice, there are not enough people willing to cycle.&lt;/p&gt;
 &lt;p&gt;On the other hand, a bike generator is an excellent addition to an off-the-grid solar PV system, at least in a low-energy household. The power output of the bicycle generator does not depend on the weather, the seasons, or the time of day. Human power can provide extra energy during bad weather, which reduces the need for expensive and unsustainable batteries. That is especially useful in winter, when the solar PV system produces much less power, and when the effort required to operate the bike also keeps you warm. There is enough solar power in summer &amp;ndash; when it’s often too hot to use a stationary bicycle.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image: The bike generator stands right next to the solar PV systems. The ultimate plan is to integrate both power systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image: The bike generator stands right next to the solar PV systems. The ultimate plan is to integrate both power systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The bike generator stands right next to the solar PV systems. The ultimate plan is to integrate both power systems. 
 &lt;/figcaption&gt;
@@ -303,11 +303,11 @@
 &lt;/div&gt;
 &lt;p&gt;With a power production of 50-100 watts, the bike generator is more powerful than the two solar panels that are standing on the balcony next to it: the 50 watts solar panel that is powering the lights in the living room and the 30 watts solar panel that runs the &lt;a href=&#34;https://solar.lowtechmagazine.com/about/the-solar-website/&#34;&gt;solar-powered website&lt;/a&gt;. The solar panels rarely – if ever – reach their maximum power production, and during bad weather, they produce much less power than the bike generator. With dark clouds overhead, energy production almost drops to zero, and if this lasts for two days, the lights and the website go down. One or two hours per day on the bike generator could fix this. Alternatively, pedal power could operate power tools or other devices without draining the energy storage from the solar PV system.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s also possible to use the dashboard with a solar panel instead of a bike generator. It suffices to replace the &lt;a href=&#34;#wind&#34;&gt;wind charge controller&lt;/a&gt; with a solar charge controller. You can then use solar energy to power devices directly &amp;ndash; without necessarily using a solar charge controller and battery. Replace the wind charge controller with a hybrid solar/wind charge controller, and you can use both energy sources to charge batteries and power devices directly. Solar and human power can also be combined, increasing the power output.&lt;/p&gt;
-&lt;p&gt;Combining solar and human power should make it possible to take further steps &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;towards an off-grid urban household&lt;/a&gt;. The plan is to add another 50W solar panel, take more devices off the grid (most notably the refrigerator) and keep the battery storage as it is.&lt;/p&gt;
+&lt;p&gt;Combining solar and human power should make it possible to take further steps &lt;a href=&#34;/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;towards an off-grid urban household&lt;/a&gt;. The plan is to add another 50W solar panel, take more devices off the grid (most notably the refrigerator) and keep the battery storage as it is.&lt;/p&gt;
 &lt;h2 id=&#34;span-idmanual-bikemanual-the-bike-generatorspan&#34;&gt;&lt;span id=&#34;manual-bike&#34;&gt;Manual: The Bike Generator&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image: The friction drive.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image: The friction drive.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The friction drive. 
 &lt;/figcaption&gt;
@@ -342,7 +342,7 @@
 &lt;p&gt;The exact voltage you need – and thus the exact spindle size – depends on what exactly you want to do with the bike. We address this in detail in the &lt;a href=&#34;#manual-dashboard&#34;&gt;manual for the control panel&lt;/a&gt;. Imagine you want to charge lead-acid batteries (which require 14.4V). You use a buck converter (which steps down the input voltage), so you will need to produce close to 17V to make up for the losses in the voltage conversion. That results in a spindle diameter of 41.42mm. This configuration shows in the illustration below.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -364,7 +364,7 @@
 &lt;p&gt;Figuring out the spindle size is only half of the work. It can be challenging to find a spindle with the correct diameter, made from the required materials, and compatible with the generator shaft. We tried a dozen spindles until we got the right one. A flywheel has a hard surface and requires a soft spindle made of rubber or polyurethane. We found that a solid metal and rubber buffer allowed optimal friction with our flywheel. We took it to a metal workshop where they drilled a 10 mm hole into the piece.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image: A sample of our test spindles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image: A sample of our test spindles.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A sample of our test spindles. 
 &lt;/figcaption&gt;
@@ -376,7 +376,7 @@
 &lt;p&gt;The generator comes with an integrated sprocket or pulley drive. You need to remove it to attach the spindle. A nylon lock nut with a reverse tread holds the sprocket or pulley drive. You need to unscrew it to the right. You probably need a clamp to manage this.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image: The generator with a threaded shaft arbor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image: The generator with a threaded shaft arbor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The generator with a threaded shaft arbor. 
 &lt;/figcaption&gt;
@@ -384,7 +384,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image: The generator with the 41mm spindle.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image: The generator with the 41mm spindle.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The generator with the 41mm spindle. 
 &lt;/figcaption&gt;
@@ -396,7 +396,7 @@
 &lt;p&gt;We screwed the generator to a wooden board and then pressed it against the flywheel using a wood support structure. The board is attached to the bike with a strong door hinge. That allows adapting the angle at which the spindle is in contact with the flywheel. The stand is resting on a cork wedge that buffers the vibrations. See our &lt;a href=&#34;l#first&#34;&gt;first prototype&lt;/a&gt; for another method.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image: The friction drive.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image: The friction drive.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The friction drive. 
 &lt;/figcaption&gt;
@@ -408,7 +408,7 @@
 &lt;p&gt;You can adjust the output voltage by turning a tiny screw on the module. Some buck and boost converters come with a small digital screen that shows the output voltage. If this is not the case, you can use a multimeter to adjust the voltage output.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -432,7 +432,7 @@
 &lt;p&gt;You need wires, connectors, diodes, fuses, and on-off buttons to connect everything. All these parts can confuse you, so here’s what you need to know.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -448,7 +448,7 @@
 &lt;p&gt;We bought switches with the wires already attached because we preferred not to solder the connections. However, we had to solder them anyways because the thick wires took too much space. On-off buttons without lights and with prefixed thinner wires simplify this part.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image: How to wire the on-off switches.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image: How to wire the on-off switches.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: How to wire the on-off switches. 
 &lt;/figcaption&gt;
@@ -459,7 +459,7 @@
 &lt;h3 id=&#34;span-idinstrumentsdashboard-instrumentsspan&#34;&gt;&lt;span id=&#34;instruments&#34;&gt;Dashboard Instruments&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -468,7 +468,7 @@
 &lt;p&gt;Analog V&amp;amp;A meters are most precise in the middle of their range, so we choose a voltmeter that goes up to 30V and an amp meter that goes to 15A. A digital V&amp;amp;A meter is more compact, but analog meters display variations better. Above the meter, there is a USB circuit to plug in a small LED light. That allows you to keep an eye on the V&amp;amp;A meter when dark. It’s also handy to quickly check if the system is working.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image: How to wire the analog voltmeter and ammeter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image: How to wire the analog voltmeter and ammeter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: How to wire the analog voltmeter and ammeter. 
 &lt;/figcaption&gt;
@@ -479,14 +479,14 @@
 &lt;h3 id=&#34;span-idpaneldashboard-panel-and-fixationspan&#34;&gt;&lt;span id=&#34;panel&#34;&gt;Dashboard Panel and Fixation&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -497,7 +497,7 @@
 &lt;h2 id=&#34;span-idcompletecomplete-control-panelspan&#34;&gt;&lt;span id=&#34;complete&#34;&gt;Complete Control Panel:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1: Schottky diode. 2: Fuse. 3: Cables. 4: Analog ammeter and voltmeter. 5: On/Off switches. 6: Wire connectors. 7:  USB Led Light.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1: Schottky diode. 2: Fuse. 3: Cables. 4: Analog ammeter and voltmeter. 5: On/Off switches. 6: Wire connectors. 7:  USB Led Light.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  1: Schottky diode. 2: Fuse. 3: Cables. 4: Analog ammeter and voltmeter. 5: On/Off switches. 6: Wire connectors. 7:  USB Led Light. 
 &lt;/figcaption&gt;
@@ -506,7 +506,7 @@
 &lt;h2 id=&#34;span-id5v5v-circuitspan&#34;&gt;&lt;span id=&#34;5V&#34;&gt;5V circuit:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8: USB Buck converter. 9: USB Voltmeter &amp;amp;amp; Ammeter. 10: USB Multi-plug and cable.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8: USB Buck converter. 9: USB Voltmeter &amp;amp;amp; Ammeter. 10: USB Multi-plug and cable.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  8: USB Buck converter. 9: USB Voltmeter &amp; Ammeter. 10: USB Multi-plug and cable. 
 &lt;/figcaption&gt;
@@ -515,7 +515,7 @@
 &lt;h2 id=&#34;span-id12v12v-circuitspan&#34;&gt;&lt;span id=&#34;12V&#34;&gt;12V circuit:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11: Buck Converter. 12: Dimmer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11: Buck Converter. 12: Dimmer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  11: Buck Converter. 12: Dimmer. 
 &lt;/figcaption&gt;
@@ -524,7 +524,7 @@
 &lt;h2 id=&#34;span-id14v144v-circuitspan&#34;&gt;&lt;span id=&#34;14V&#34;&gt;14.4V circuit:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13: Boost converter. 14: Wind turbine charge controller. 15: Lead-acid battery. 16: Battery electronic voltmeter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13: Boost converter. 14: Wind turbine charge controller. 15: Lead-acid battery. 16: Battery electronic voltmeter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  13: Boost converter. 14: Wind turbine charge controller. 15: Lead-acid battery. 16: Battery electronic voltmeter. 
 &lt;/figcaption&gt;
@@ -533,7 +533,7 @@
 &lt;h2 id=&#34;span-id220v220v-circuitspan&#34;&gt;&lt;span id=&#34;220V&#34;&gt;220V circuit:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17: Buck Converter. 18: Inverter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17: Buck Converter. 18: Inverter.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  17: Buck Converter. 18: Inverter. 
 &lt;/figcaption&gt;
@@ -653,21 +653,21 @@
 &lt;h2 id=&#34;span-idfirstthe-first-prototypespan&#34;&gt;&lt;span id=&#34;first&#34;&gt;The First Prototype&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -700,15 +700,15 @@
     
     <item>
       <title>How to Build a Low-tech Solar Panel?</title>
-      <link>https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/</link>
+      <link>/2021/10/how-to-build-a-low-tech-solar-panel/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
+      <enclosure url="/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
+      <guid>/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove stands next to his third solar array. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove stands next to his third solar array. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  George Cove stands next to his third solar array. Source: \&#34;Generating electricity by the sun&#39;s rays\&#34;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793. 
 &lt;/figcaption&gt;
@@ -720,14 +720,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;The need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The manufacturing of solar PV panels is just as problematic. It produces toxic waste and requires a global supply chain, including capital-intensive factories, complex machinery, mined materials, and a steady input of fossil fuels. In life cycle analyses of solar panels, scientists calculate &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;how much energy and materials are required to build a solar panel&lt;/a&gt;. However, they ignore the massive amount of energy and materials needed to set up and maintain the solar PV supply chain itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Consequently, these studies do not reveal the actual cost of solar panels in terms of fossil fuel dependence, emissions, and other environmental pollution. Furthermore, the need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
+&lt;p&gt;The manufacturing of solar PV panels is just as problematic. It produces toxic waste and requires a global supply chain, including capital-intensive factories, complex machinery, mined materials, and a steady input of fossil fuels. In life cycle analyses of solar panels, scientists calculate &lt;a href=&#34;/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;how much energy and materials are required to build a solar panel&lt;/a&gt;. However, they ignore the massive amount of energy and materials needed to set up and maintain the solar PV supply chain itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Consequently, these studies do not reveal the actual cost of solar panels in terms of fossil fuel dependence, emissions, and other environmental pollution. Furthermore, the need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
 &lt;h2 id=&#34;finding-inspiration-in-the-past&#34;&gt;Finding inspiration in the past&lt;/h2&gt;
 &lt;p&gt;Are solar PV panels inherently unsustainable, unrecyclable, and dependent on high-tech and capital-intensive manufacturing processes? Or, is it possible to build them with local, recyclable and less energy-intensive materials and production methods? In other words, can we build low-tech solar panels? And, if so, what would that mean for costs and efficiency?&lt;/p&gt;
 &lt;p&gt;Before we try to answer this question, it’s important to note that the best low-tech alternative for a high-tech solar panel is often not a low-tech solar panel but direct use of solar energy. That is, putting solar energy to use without converting it to electricity first. For example, a clothesline and a solar thermal water boiler are much more efficient, sustainable, and economical than an electric tumble dryer and a water boiler powered by solar PV panels. Direct use of solar energy can happen with local materials, relatively simple manufacturing technologies, and short supply lines.&lt;/p&gt;
-&lt;p&gt;Nevertheless, in this article, I take the question literally: can we build low-tech photovoltaic devices, which convert sunlight into electricity? In a previous article, we have seen that &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;history offers inspiration for building more sustainable wind turbines&lt;/a&gt;. Can history also inspire us to make more sustainable solar cells?&lt;/p&gt;
+&lt;p&gt;Nevertheless, in this article, I take the question literally: can we build low-tech photovoltaic devices, which convert sunlight into electricity? In a previous article, we have seen that &lt;a href=&#34;/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;history offers inspiration for building more sustainable wind turbines&lt;/a&gt;. Can history also inspire us to make more sustainable solar cells?&lt;/p&gt;
 &lt;h2 id=&#34;the-prehistory-of-solar-cells&#34;&gt;The prehistory of solar cells&lt;/h2&gt;
 &lt;p&gt;Bell Labs’ solar PV panel, presented in 1954, came not out of nowhere. The silicon solar cell had its roots in less complex devices that could produce electricity from either light or heat.&lt;/p&gt;
-&lt;p&gt;In 1821, Thomas Seebeck found that an electrical current will flow in a circuit made from two dissimilar metals, with the junctions at different temperatures. This “thermoelectric effect” formed the basis for the “thermoelectric generator” &amp;ndash; which converts heat (for example, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;from a wood stove&lt;/a&gt;) directly into electricity. In 1839, Antoine Becquerel discovered that light could also convert into electricity, and during the 1870s, several scientists proved this effect in solids, most notably in selenium. This “photoelectric effect” formed the basis for the “photoelectric generator” &amp;ndash; which we now call a “photovoltaic” generator or solar PV cell. In 1883, Charles Fritts constructed the first photovoltaic module ever made, using selenium on a thin layer of gold. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In 1821, Thomas Seebeck found that an electrical current will flow in a circuit made from two dissimilar metals, with the junctions at different temperatures. This “thermoelectric effect” formed the basis for the “thermoelectric generator” &amp;ndash; which converts heat (for example, &lt;a href=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;from a wood stove&lt;/a&gt;) directly into electricity. In 1839, Antoine Becquerel discovered that light could also convert into electricity, and during the 1870s, several scientists proved this effect in solids, most notably in selenium. This “photoelectric effect” formed the basis for the “photoelectric generator” &amp;ndash; which we now call a “photovoltaic” generator or solar PV cell. In 1883, Charles Fritts constructed the first photovoltaic module ever made, using selenium on a thin layer of gold. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Throughout this period – and until the 1950s – the practical uses of thermoelectric and photoelectric devices were limited. Inventors built many experimental thermoelectric generators, usually powered by a gas flame, but their efficiency did not exceed 1%. Likewise, Charles Fritts’ solar panel, and the selenium solar cells made afterward, obtained just 1-2% efficiency in converting sunlight into electricity. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; In short, the period before the 1950s doesn’t seem to offer much inspiration for building more sustainable solar PV panels.&lt;/p&gt;
 &lt;h2 id=&#34;a-forgotten-pioneer-of-solar-power&#34;&gt;A forgotten pioneer of solar power&lt;/h2&gt;
 &lt;p&gt;However, the prehistory of the solar panel may be incomplete. In 2019, I received a mail from a reader of Low-tech Magazine, Philip Pesavento:&lt;/p&gt;
@@ -740,7 +740,7 @@
 &lt;p&gt;Cove presented his second solar electric generator there in 1909. This 1.5m2 panel could produce 45 watts of power and was 2.75% efficient in converting solar energy into electricity. By mid-1909, Cove had moved to New York City, where he presented his third prototype, a solar array consisting of four solar panels of 60 watt-peak each, which charged a total of five lead-acid batteries. The total surface area was 4.5 m2, the maximum power output was 240 watts, and efficiency rose to 5% – similar to the first solar panel presented by Bell Labs. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909. 
 &lt;/figcaption&gt;
@@ -748,7 +748,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Above: Cove&amp;amp;rsquo;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Above: Cove&amp;amp;rsquo;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: Cove&#39;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909. 
 &lt;/figcaption&gt;
@@ -756,7 +756,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s third solar panel. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, September 1909. 
 &lt;/figcaption&gt;
@@ -764,7 +764,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153. 
 &lt;/figcaption&gt;
@@ -772,7 +772,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Above: One of the solar panels of Cove&amp;amp;rsquo;s third solar array, with the glass cover removed. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Above: One of the solar panels of Cove&amp;amp;rsquo;s third solar array, with the glass cover removed. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: One of the solar panels of Cove&#39;s third solar array, with the glass cover removed. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, September 1909. 
 &lt;/figcaption&gt;
@@ -782,7 +782,7 @@
 &lt;h2 id=&#34;plugs-set-in-asphalt&#34;&gt;Plugs set in asphalt&lt;/h2&gt;
 &lt;p&gt;How did George Cove manage to build a solar panel that was 40 years ahead of its time? According to Philip Pesavento, who has a background in semiconductor engineering, Cove intended to build a better thermoelectric generator (TEG). He exposed his generator to the heat from a wood stove and direct solar energy &amp;ndash; Edward Weston had made the first experimental solar thermoelectric generator (or STEG) in 1888. Cove’s intentions are also clear from how he described his device:&lt;/p&gt;
 &lt;p&gt;“The frame contains a number of panes of violet glass, behind which are set, through an asphalt compound backing, many little metal plugs. One end of the plugs is always exposed by sunlight, while the other end is cool and sheltered.”&lt;/p&gt;
-&lt;p&gt;Creating the largest possible temperature difference is &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;key to thermoelectric power production&lt;/a&gt;, so Cove’s design makes sense. The problem is that when he measured the power output of his generator, it did not respond to heat like a thermo-electric generator was supposed to do. Initially, Cove observes that his invention uses both heat and light to produce electricity when exposed to solar energy:&lt;/p&gt;
+&lt;p&gt;Creating the largest possible temperature difference is &lt;a href=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;key to thermoelectric power production&lt;/a&gt;, so Cove’s design makes sense. The problem is that when he measured the power output of his generator, it did not respond to heat like a thermo-electric generator was supposed to do. Initially, Cove observes that his invention uses both heat and light to produce electricity when exposed to solar energy:&lt;/p&gt;
 &lt;p&gt;“The principal part of my invention is the peculiar composition of the metallic plugs which are acted upon by the sun in such a way that the current is generated not only by heat rays but the violet rays as well”.&lt;/p&gt;
 &lt;p&gt;However, after further experiments with both the wood stove and solar energy, Cove states:&lt;/p&gt;
 &lt;p&gt;“When the machine is exposed to various sources of artificial heat it gives no electricity whatsoever. Other than the heat rays of the sun (short-wave infrared), perhaps the violet or ultraviolet rays are active in setting up the electrical current”.&lt;/p&gt;
@@ -804,7 +804,7 @@
 &lt;p&gt;What happened? By using copper, Cove had unknowingly built a Schottky junction. That converted his thermoelectric generator into a “thermophotovoltaic generator.” Such a device works the same as a photovoltaic solar cell but on a different wavelength. The solar spectrum covers a range of approximately 0.5 to 2.9 electron-Volts (eV), from infrared to ultraviolet. A semiconductor with a bandgap between 1 and 1.7 eV efficiently converts visible light into electricity (a photovoltaic generator) &amp;ndash; while a semiconductor with a bandgap between 0.4 and 0.7 eV efficiently converts short-wave infrared solar energy into electricity (a thermophotovoltaic generator).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Above: This drawing from Cove&amp;amp;rsquo;s 1906 patent shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Above: This drawing from Cove&amp;amp;rsquo;s 1906 patent shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: This drawing from [Cove&#39;s 1906 patent](https://patentimages.storage.googleapis.com/bc/bb/50/6683e8b44edd4c/US824684.pdf) shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency. 
 &lt;/figcaption&gt;
@@ -833,7 +833,7 @@
 &lt;p&gt;On the other hand, it may be possible to build Schottky cells thinner than silicon solar cells – and that would increase their efficiency. Philip Pesavento:&lt;/p&gt;
 &lt;p&gt;“I have not found the specific numbers for the parameters – carrier velocity, recombination lifetime, absorption coefficient – to say this unequivocally. But the fact that Cove made such long skinny cells and got as high efficiencies as he did bodes well for making them thinner.”&lt;/p&gt;
 &lt;p&gt;Again, recent research into Schottky cells based on other materials seems to confirm this. For example, recent experiments with Schottky selenium cells brought layer thickness back to only 100 µm, compared to between 200 and 500 µm for silicon cells. &lt;sup id=&#34;fnref1:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; Scientists also reached 17% experimental efficiency for a graphene/silicon Schottky cell, up from 1.5% ten years earlier. &lt;sup id=&#34;fnref1:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;We can also question the current obsession with higher efficiencies. Many people will argue that if low-tech solar panels are less efficient, we would need more solar panels to produce the same power output. Consequently, the resources saved by low-tech production methods would be compensated by the extra resources to build more solar panels. However, efficiency is only crucial &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;when we take energy demand for granted&lt;/a&gt;, sacrificing some efficiency may gain us a lot in sustainability.&lt;/p&gt;
+&lt;p&gt;We can also question the current obsession with higher efficiencies. Many people will argue that if low-tech solar panels are less efficient, we would need more solar panels to produce the same power output. Consequently, the resources saved by low-tech production methods would be compensated by the extra resources to build more solar panels. However, efficiency is only crucial &lt;a href=&#34;/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;when we take energy demand for granted&lt;/a&gt;, sacrificing some efficiency may gain us a lot in sustainability.&lt;/p&gt;
 &lt;h2 id=&#34;what-happened-to-george-cove&#34;&gt;What happened to George Cove?&lt;/h2&gt;
 &lt;p&gt;If Cove’s solar panel was so revolutionary, why is it forgotten? On this question, Philip Pesavento’s research material reads like a crime novel. Cove’s attempt to produce and market his solar energy device failed in mysterious ways.&lt;/p&gt;
 &lt;p&gt;The inventor became involved with a stock manipulator – Elmer Burlingame – who in 1909 and 1910 issued stock from businesses that were not his, including Cove’s start-up the Sun Electric Generator Company. In October 1909, Cove was allegedly kidnapped, and his life was threatened if he did not cease the development of his solar invention. However, the police dismissed Cove’s kidnapping as a hoax. In 1911, both Cove and Burlingame were arrested for stock fraud and spent a year in jail. Although Cove worked on other inventions after that, none of those were related to solar energy. &lt;sup id=&#34;fnref:32&#34;&gt;&lt;a href=&#34;#fn:32&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -932,7 +932,7 @@
 &lt;p&gt;Todorov, Teodor K., et al. &amp;ldquo;&lt;a href=&#34;https://www.nature.com/articles/s41467-017-00582-9&#34;&gt;Ultrathin high band gap solar cells with improved efficiencies from the world’s oldest photovoltaic material&lt;/a&gt;.&amp;rdquo; Nature communications 8.1 (2017): 1-8.&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:28&#34;&gt;
-&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:29&#34;&gt;
 &lt;p&gt;Hadar, Ido, et al. &amp;ldquo;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/aenm.201802766&#34;&gt;Modern processing and insights on selenium solar cells: the world&amp;rsquo;s first photovoltaic device&lt;/a&gt;.&amp;rdquo; Advanced Energy Materials 9.16 (2019): 1802766.&amp;#160;&lt;a href=&#34;#fnref:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -956,15 +956,15 @@
     
     <item>
       <title>Too Much Combustion, Too Little Fire</title>
-      <link>https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/</link>
+      <link>/2019/12/too-much-combustion-too-little-fire/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" type="image/png" length="20315" ></enclosure>
+      <enclosure url="/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png" type="image/png" length="20315" ></enclosure>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/</guid>
+      <guid>/2019/12/too-much-combustion-too-little-fire/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2019/12/too-much-combustion-too-little-fire/images/dithers/toasterbanner_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
@@ -973,14 +973,14 @@
 &lt;p&gt;The fire – which we have used in our homes for over 400,000 years – remains the most versatile and sustainable household technology that humanity has ever known. The fire alone provided what we now get through a combination of modern appliances such as the oven and cooking hob, heating system, lights, refrigerator, freezer, hot water boiler, tumble dryer, and television. Unlike these newer technologies, the fire had no need for a central infrastructure to make it work, and it could be built locally from readily available materials.&lt;/p&gt;
 &lt;h2 id=&#34;from-open-hearth-to-power-plant&#34;&gt;From Open Hearth to Power Plant&lt;/h2&gt;
 &lt;p&gt;The habitual use of fire dates back at least 300,000 to 400,000 years. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Until the twentieth century, the biomass-fuelled fire was the only energy using “appliance” in the household – whether people were living in a cave, a temporary hut, or a permanent building. The earliest shelters were often erected with the express purpose of keeping fire alive, protecting it from wind and rain.&lt;/p&gt;
-&lt;p&gt;For most of history, the fire appeared in the form of an open hearth, which was built on an earthen floor in the middle of a shelter. The smoke of the fire escaped through a hole in the roof. Beginning in the fourteenth century in Europe, the open hearth was gradually replaced by a fireplace connected to a chimney, most often built against a wall. In colder regions (such as Scandinavia), people built more energy efficient &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/12/sunbathing-in-the-living-room-oven-stoves-and-heat-walls/&#34;&gt;tile stoves&lt;/a&gt;, while in milder climates (such as those around the Mediterranean), people continued to use braziers – portable metal baskets in which charcoal was burnt. In the 18th and 19th centuries, fireplaces were starting to be replaced by metal stoves.&lt;/p&gt;
+&lt;p&gt;For most of history, the fire appeared in the form of an open hearth, which was built on an earthen floor in the middle of a shelter. The smoke of the fire escaped through a hole in the roof. Beginning in the fourteenth century in Europe, the open hearth was gradually replaced by a fireplace connected to a chimney, most often built against a wall. In colder regions (such as Scandinavia), people built more energy efficient &lt;a href=&#34;/2008/12/sunbathing-in-the-living-room-oven-stoves-and-heat-walls/&#34;&gt;tile stoves&lt;/a&gt;, while in milder climates (such as those around the Mediterranean), people continued to use braziers – portable metal baskets in which charcoal was burnt. In the 18th and 19th centuries, fireplaces were starting to be replaced by metal stoves.&lt;/p&gt;
 &lt;p&gt;The fire remained central in the household until the 20th century, when it was replaced by a wide range of appliances, plugged into central infrastructures. Today, in industrial societies, even metal stoves have become rare in households. Open burning has been all but banned, especially in cities. New buildings no longer have fireplaces, chimneys, or a hole in the roof.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The fire remained central in the household until the 20th century, when it was replaced by a wide range of appliances, plugged into central infrastructures.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;“Paradoxically”, writes Luis Fernández-Galiano in &lt;em&gt;Fire and Memory: On Architecture and Energy&lt;/em&gt;, “the dwellings that began as places to promote the fire, today shun open burning”. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; In &lt;em&gt;Fire: A Brief History&lt;/em&gt;, Stephen J. Pyne observes that: “Urban residents can pass years without seeing a fire. It appears mostly by accident or arson, and almost always as a danger”. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;However, the fire has far from disappeared. Thousands of individual fires in households have been replaced by a few giant fires in central power plants. And the fire also burns elsewhere. “In our economy of abundance”, writes Stephen J. Pyne, “fire is at the heart of the magic – in factories, automobiles, homes and power plants&amp;hellip; Modern cities remain fire-driven ecosystems&amp;hellip; Shut down combustion and you shut down the city. But open flame itself has vanished. Like a black hole in space, fire has shaped everything around it without itself being visible.”&lt;/p&gt;
-&lt;p&gt;Industrialisation has only altered, not abolished burning. Most importantly, fire started using another energy source: fossil fuels instead of biomass. Until the twentieth century, almost all human-made fires were the product of renewable energy sources: wood, grass, dung – &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/&#34;&gt;peat and some early uses of coal being the exceptions&lt;/a&gt;. Today in industrial societies, almost all fire “at the heart of the magic” burns on gas, coal or oil.&lt;/p&gt;
+&lt;p&gt;Industrialisation has only altered, not abolished burning. Most importantly, fire started using another energy source: fossil fuels instead of biomass. Until the twentieth century, almost all human-made fires were the product of renewable energy sources: wood, grass, dung – &lt;a href=&#34;/2011/09/medieval-smokestacks-fossil-fuels-in-pre-industrial-times/&#34;&gt;peat and some early uses of coal being the exceptions&lt;/a&gt;. Today in industrial societies, almost all fire “at the heart of the magic” burns on gas, coal or oil.&lt;/p&gt;
 &lt;h2 id=&#34;fire-vs-electricity&#34;&gt;Fire vs. Electricity&lt;/h2&gt;
 &lt;p&gt;Globally, a few billion people still live in households built around an old-fashioned fire, often in the form of an open hearth. Some people in the Western world consider this a backward and primitive practice that needs to be abolished – even though it is based on the use of renewable energy sources.&lt;/p&gt;
 &lt;p&gt;For example, in 2011, the UN and the World Bank launched the &lt;em&gt;Sustainable Energy for All&lt;/em&gt; initiative, aiming to “ensure universal access to modern energy services” by 2030. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; The concept of “modern energy services” is vague, but it essentially refers to the use of electricity and gas – and thus, in practice, the use of fossil fuels.&lt;/p&gt;
@@ -993,7 +993,7 @@
 &lt;p&gt;One reason why people in industrial societies regard open fire as inefficient and unsustainable is because they simply don’t know how their ancestors actually used it. If these days a fire is considered to be inefficient, it’s because we only measure the efficiency of one of its functions, usually space heating. However, our ancestors did not only use the fire to warm themselves. They also used it for cooking, illumination, food preservation, hot water production, clothes drying, and protection from predators and insects, among other things.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/images/dithers/hairdryer_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2019/12/too-much-combustion-too-little-fire/images/dithers/hairdryer_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
@@ -1009,7 +1009,7 @@
 &lt;p&gt;The fire also substituted for today’s refrigerator and freezer. In &lt;em&gt;The Food Axis: Cooking, eating, and the architecture of American houses&lt;/em&gt;, Elizabeth Collins Cromley describes how meat and fish were suspended for several weeks in the smoke of a fire to preserve them for longer. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; At the simplest level, our ancestors hung their cuts of meat or fish in the kitchen chimney or – if there was no chimney – high above the hearth, suspended from the ceiling. Smoking fish and meat could also happen in a chimney smoke chamber, which was either an adjunct to the kitchen fireplace, or a chamber built off the chimney in the basement or attic. The smokehouse could also be a separate building.&lt;/p&gt;
 &lt;p&gt;Several other food preservation methods were dependent on fire. Fruits, vegetables and herbs were dried by fire if the local climate wasn’t sunny enough. Sugaring fruits and making butter and cheese all depended on heat from a fire. Salt, essential for food preservation, was kept in a box hung against the fireplace to keep it dry. &lt;sup id=&#34;fnref2:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;distributing-heat-and-light&#34;&gt;Distributing Heat and Light&lt;/h2&gt;
-&lt;p&gt;A fire not only produces heat and smoke – it also produces light. As a light source, fire was just as versatile as electric lighting is today. The light of a fire resided not only in the hearth or the fireplace, but also in torches, rushlights, and later candles and oil lamps. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; Heat from a fire could also be spread all over the household. Although the kitchen was usually the only space in the house that was heated, embers from the fire could be put into portable heating devices, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;such as foot stoves and bed warmers&lt;/a&gt;. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A fire not only produces heat and smoke – it also produces light. As a light source, fire was just as versatile as electric lighting is today. The light of a fire resided not only in the hearth or the fireplace, but also in torches, rushlights, and later candles and oil lamps. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; Heat from a fire could also be spread all over the household. Although the kitchen was usually the only space in the house that was heated, embers from the fire could be put into portable heating devices, &lt;a href=&#34;/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;such as foot stoves and bed warmers&lt;/a&gt;. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;The fire was also used to heat water for cleaning and washing, a practice that continued when cast-iron wood-stoves appeared – many of these had hot water tanks. Furthermore, the fire took care of drying clothes, substituting for today’s tumble dryer. And people didn’t just start ironing their clothes when the electric iron came along. Since the middle ages, our ancestors used plain metal irons that were heated by a fire or on a stove, or a “box iron”, which held glowing charcoal inside – some of these had a small chimney to keep smokey smells away from the clothes. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;People didn&amp;rsquo;t just start ironing their clothes when the electric iron came along. Since the middle ages, our ancestors used plain metal irons that were heated by a fire or on a stove.&lt;/p&gt;
@@ -1020,7 +1020,7 @@
 &lt;p&gt;Furthermore, we should also take into account the mining and the energy use required to replace one fire with dozens of factory-made appliances, which all need to be distributed to individual consumers. Finally, we should take into account the energy and materials that are required to build and maintain the infrastructures that these appliances depend on to operate, like the power grid, gas infrastructure, or the cold chain. In contrast, an open hearth can be built locally with readily available materials, and it operates independently of centralised infrastructures.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/images/dithers/plancha_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2019/12/too-much-combustion-too-little-fire/images/dithers/plancha_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;

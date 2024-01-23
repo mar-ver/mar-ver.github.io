@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Polski</title>
-    <link>https://lowtechmag.gitlab.io/solar/pl/authors/aaron-vansintjan/</link>
+    <link>/pl/authors/aaron-vansintjan/</link>
     <description>Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.</description>
     <generator>Hugo 0.115.3</generator>
     <language>pl</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/pl/authors/aaron-vansintjan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/pl/authors/aaron-vansintjan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Miejskie stawy rybne: akwakulturowe oczyszczanie ścieków miast i miasteczek</title>
-      <link>https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/</link>
+      <link>/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/edwards_2008_dithered.png" type="image/png" length="67872" ></enclosure>
+      <enclosure url="/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/edwards_2008_dithered.png" type="image/png" length="67872" ></enclosure>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/</guid>
+      <guid>/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/edwards_2008_dithered.png&#34; alt=&#39;Zdjęcie: Stawy rybne położone na Mokradłach Wschodniej Kolkaty – największy na świecie akwakulturowy system oczyszczania ścieków. Źródło: Edwards, 2008. [^8]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/edwards_2008_dithered.png&#34; alt=&#39;Zdjęcie: Stawy rybne położone na Mokradłach Wschodniej Kolkaty – największy na świecie akwakulturowy system oczyszczania ścieków. Źródło: Edwards, 2008. [^8]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Stawy rybne położone na Mokradłach Wschodniej Kolkaty – największy na świecie akwakulturowy system oczyszczania ścieków. Źródło: Edwards, 2008. [^8] 
 &lt;/figcaption&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt;Pierwszy raz usłyszałem o akwakulturowym sposobie oczyszczania ścieków, kiedy mieszkałem w Hanoi. Okazało się, że recykling ludzkich odchodów na potrzeby rolne jest bardzo powszechną praktyką, szczególnie w biednych wiejskich społecznościach.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/latrine-fish-pond_dithered.png&#34; alt=&#39;Zdjęcie: Zawieszony na stawem rybnym w Wietnamie wychodek. Źródło: UNEP International Environmental Technology Centre. (2002). Environmentally Sound Technologies for Wastewater and Stormwater Management: an International Source Book (Vol. 15). International Water Assn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/latrine-fish-pond_dithered.png&#34; alt=&#39;Zdjęcie: Zawieszony na stawem rybnym w Wietnamie wychodek. Źródło: UNEP International Environmental Technology Centre. (2002). Environmentally Sound Technologies for Wastewater and Stormwater Management: an International Source Book (Vol. 15). International Water Assn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zawieszony na stawem rybnym w Wietnamie wychodek. Źródło: UNEP International Environmental Technology Centre. (2002). Environmentally Sound Technologies for Wastewater and Stormwater Management: an International Source Book (Vol. 15). International Water Assn. 
 &lt;/figcaption&gt;
@@ -47,7 +47,7 @@
 &lt;p&gt;W Chinach wykorzystanie obornika (również ludzkiego) w rolnictwie i akwakulturze ma wieluset letnią tradycję. W czasach komunizmu, kiedy rolnicy mieli ograniczony dostęp do paszy dla ryb i do lokalnych państwowych spółdzielni, sami organizowali systemy zbiórki ludzkich odchodów. Aż do lat 90 tych. XX w. z miast na wieś wyruszały transporty ciężarówek i łodzi wiozących ludzki nawóz (działalność prowadziły tak samo państwowe służby, jak i grupy przestępcze) do akwakultur znajdujących się pod miastem. W latach 1952-1966 około jedną trzecią nawozów (oraz paszy dla ryb) dostarczały ludzkie odchody, a w roku 1966 90% tego surowca było ponownie wykorzystywane. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Dzisiejsze wielkoskalowe uprawy wodorostów na wybrzeżach Chin przez przypadek znacznie ograniczały ryzyko eutrofizacji wód przybrzeżnych, stając się tym samym niezamierzoną metodą bioremediacji i recyklingu biogenów. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/fish-pond-hanoi_dithered.png&#34; alt=&#39;Zdjęcie: Ścieki pompowane do stawów rybnych na przedmieściach Hanoi, Wietnam. Źródło: Edwards, 2005. [^15]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/fish-pond-hanoi_dithered.png&#34; alt=&#39;Zdjęcie: Ścieki pompowane do stawów rybnych na przedmieściach Hanoi, Wietnam. Źródło: Edwards, 2005. [^15]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Ścieki pompowane do stawów rybnych na przedmieściach Hanoi, Wietnam. Źródło: Edwards, 2005. [^15] 
 &lt;/figcaption&gt;
@@ -55,7 +55,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Edwards_1996_dithered.png&#34; alt=&#39;Zdjęcie: Woda po oczyszczeniu w stawach rybnych Hanoi. Zdjęcie Edwards, 1996 r. [^5]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Edwards_1996_dithered.png&#34; alt=&#39;Zdjęcie: Woda po oczyszczeniu w stawach rybnych Hanoi. Zdjęcie Edwards, 1996 r. [^5]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Woda po oczyszczeniu w stawach rybnych Hanoi. Zdjęcie Edwards, 1996 r. [^5] 
 &lt;/figcaption&gt;
@@ -69,7 +69,7 @@
 &lt;p&gt;Metodą prób i błędów, inwestując to co mieli w poprawę infrastruktury, udało im się ustalić jaki jest właściwy stosunek ścieków do czystej wody, więc umieli odpowiednio rozcieńczać ścieki i ryby nie umierały.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/local-retail_dithered.png&#34; alt=&#39;Zdjęcie: Lokalny targ rybny w komunie Yen So. Zdjęcie Ander Dalsgaard. Źródło: Thi Phong Lan Nguyen i inni „Microbiological quality of fish grown in wastewater-ded and non-wastewater-fed fishponds in Hanoi, Vietnam: influence on hygiene practices in local retail marcets, Journal of Water and Health 5/2 (2007): strony 209-218.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/local-retail_dithered.png&#34; alt=&#39;Zdjęcie: Lokalny targ rybny w komunie Yen So. Zdjęcie Ander Dalsgaard. Źródło: Thi Phong Lan Nguyen i inni „Microbiological quality of fish grown in wastewater-ded and non-wastewater-fed fishponds in Hanoi, Vietnam: influence on hygiene practices in local retail marcets, Journal of Water and Health 5/2 (2007): strony 209-218.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Lokalny targ rybny w komunie Yen So. Zdjęcie Ander Dalsgaard. Źródło: Thi Phong Lan Nguyen i inni „Microbiological quality of fish grown in wastewater-ded and non-wastewater-fed fishponds in Hanoi, Vietnam: influence on hygiene practices in local retail marcets, Journal of Water and Health 5/2 (2007): strony 209-218. 
 &lt;/figcaption&gt;
@@ -81,7 +81,7 @@
 &lt;p&gt;Możecie sobie pomyśleć: „może jest to ciekawy, alternatywny przykład oczyszczania ścieków, ale nie przetrwa długo. To tylko wynaturzenie, którego nie można długo utrzymać”. Niestety wasz wewnętrzny cynik się zawiedzie, bo ten system działa. Miasto Kolkata (dawniej Kalkuta) w Indiach – populacja 14.8 mln – ma największy na świecie akwakulturowy system oczyszczania ścieków. Chociaż rolnicy używają ścieków do karmienia ryb na różne sposoby już od XIX w., to system zaczął być systematycznie rozbudowywany od lat 40. XX w.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/calcutta-wetland_dithered.png&#34; alt=&#39;Zdjęcie: Stawy rybne na Mokradłach Wschodniej Kolkaty, największy akwakulturowy system oczyszczania ścieków na świecie. Źródło: iStock.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/calcutta-wetland_dithered.png&#34; alt=&#39;Zdjęcie: Stawy rybne na Mokradłach Wschodniej Kolkaty, największy akwakulturowy system oczyszczania ścieków na świecie. Źródło: iStock.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Stawy rybne na Mokradłach Wschodniej Kolkaty, największy akwakulturowy system oczyszczania ścieków na świecie. Źródło: iStock. 
 &lt;/figcaption&gt;
@@ -91,7 +91,7 @@
 &lt;p&gt;Chociaż system Kolkaty rozwijał się z długo to jest dosyć usystematyzowany. Każdego roku najpierw ze stawów spuszcza się wodę, a mułem nawozi się pola. Następnie wpuszcza się powoli ścieki na niski poziom i pozostawia się je na dwa tygodnie. Jest to naśladownictwo konwencjonalnego systemu oczyszczania, w którym ścieki na początku oczyszcza się przez wspieranie zakwitu glonów i bakterii oraz sedymentację szkodliwej zawiesiny. Większość pasożytów ginie w ciągu tych pierwszych dwóch tygodni, ponieważ ich jaja i larwy giną jeśli nie znajdą żywiciela. W stawie obok umieszcza się ryby i powoli wprowadza się do wody ścieki w stosunku 4:1 (woda:ścieki). Wymaga to doświadczenia i umiejętności wykształcanych przez kilka pokoleń. Rolnicy wiedzą dobrze, kiedy poziom tlenu w wodzie jest zbyt niski i zabije ryby. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Oczyszczona woda osiąga jakość tej po konwencjonalnym oczyszczeniu. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/sluice-gate-bamboo_dithered.png&#34; alt=&#39;Zdjęcie: Śluza zrobiona z bambusa na Mokradłach Wschodniej Kolkaty. Hodowla hiacynta wodnego pomaga oczyszczać wodę i karmić ryby. Autor: Mukherjee, 2020. [^6]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/sluice-gate-bamboo_dithered.png&#34; alt=&#39;Zdjęcie: Śluza zrobiona z bambusa na Mokradłach Wschodniej Kolkaty. Hodowla hiacynta wodnego pomaga oczyszczać wodę i karmić ryby. Autor: Mukherjee, 2020. [^6]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Śluza zrobiona z bambusa na Mokradłach Wschodniej Kolkaty. Hodowla hiacynta wodnego pomaga oczyszczać wodę i karmić ryby. Autor: Mukherjee, 2020. [^6] 
 &lt;/figcaption&gt;
@@ -99,7 +99,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/drained-fish-ponds_dithered.png&#34; alt=&#39;Zdjęcie: Każdego roku najpierw ze stawów spuszcza się wodę, a mułem nawozi się pola, włączając składniki odżywcze z powrotem do obiegu. Źródło: Strona na Facebooku: Take pride in the East Kolkata Wetlands. (Facebook-page).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/drained-fish-ponds_dithered.png&#34; alt=&#39;Zdjęcie: Każdego roku najpierw ze stawów spuszcza się wodę, a mułem nawozi się pola, włączając składniki odżywcze z powrotem do obiegu. Źródło: Strona na Facebooku: Take pride in the East Kolkata Wetlands. (Facebook-page).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Każdego roku najpierw ze stawów spuszcza się wodę, a mułem nawozi się pola, włączając składniki odżywcze z powrotem do obiegu. Źródło: Strona na Facebooku: [Take pride in the East Kolkata Wetlands.](https://www.facebook.com/takeprideineastkolkatawetlands/) (Facebook-page). 
 &lt;/figcaption&gt;
@@ -113,7 +113,7 @@
 &lt;p&gt;Chociaż celem całego systemu nie powinno być osiągnięciu zysku – są to w końcu usługi publiczne – to bez dwóch zdań, pomaga to pokryć koszty oczyszczania ścieków. Badania prowadzone w małej gminie w Karnal na północy Indii, pokazały, że publiczny system oczyszczania oparty na stawach rybnych założony w 2010 roku przynosi 25 tys. dolarów zysku netto rocznie, oraz niebezpośrednio poprawia kondycję okolicznych terenów rolnych, przez sprzedaż oczyszczonych ścieków rolnikom. &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/calcutta-fish_dithered.png&#34; alt=&#39;Zdjęcie. Stawy rybne zasilane ściekami są pewnym źródłem białka dla małorolnych chłopów. Źródło: Fish Farming in the East Kolkata Wetlands, Ramble On, Priya Mallic.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/calcutta-fish_dithered.png&#34; alt=&#39;Zdjęcie. Stawy rybne zasilane ściekami są pewnym źródłem białka dla małorolnych chłopów. Źródło: Fish Farming in the East Kolkata Wetlands, Ramble On, Priya Mallic.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie. Stawy rybne zasilane ściekami są pewnym źródłem białka dla małorolnych chłopów. Źródło: [Fish Farming in the East Kolkata Wetlands, Ramble On, Priya Mallic](https://takeabookalong.wordpress.com/2013/08/12/fish-farming-in-the-east-kolkata-wetlands/). 
 &lt;/figcaption&gt;
@@ -121,7 +121,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/calcutta-fish-2_dithered.png&#34; alt=&#39;Zdjęcie: Ryby wyłowione z Mokradeł Wschodniej Kolkaty. Źródło: Fish Farming in the East Kolkata Wetlands, Ramble On, Priya Mallic.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/calcutta-fish-2_dithered.png&#34; alt=&#39;Zdjęcie: Ryby wyłowione z Mokradeł Wschodniej Kolkaty. Źródło: Fish Farming in the East Kolkata Wetlands, Ramble On, Priya Mallic.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Ryby wyłowione z Mokradeł Wschodniej Kolkaty. Źródło: [Fish Farming in the East Kolkata Wetlands, Ramble On, Priya Mallic](https://takeabookalong.wordpress.com/2013/08/12/fish-farming-in-the-east-kolkata-wetlands/). 
 &lt;/figcaption&gt;
@@ -133,7 +133,7 @@
 &lt;p&gt;W tym momencie wasz wewnętrzny cynik może zaprotestować i powiedzieć, że: „Jasne, to działa nieźle na duża skalę, ale musiałbym być biedny i zdesperowany żeby hodować ryby w ściekach. To może działać w Indiach, działało przez chwilę w Wietnamie i Chinach, ale w krajach rozwiniętych, z wysokimi standardami sanitarnymi, nikt nie będzie chciał jeść ryb wyłowionych ze ścieków”.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Teichgut_Birkenhof_2012_dithered.png&#34; alt=&#39;Zdjęcie: Widok na niegdysiejszy akwakulturowy system oczyszczania ścieków w Monachium – dzisiaj ostoja dzikich ptaków. Autor: Peter Schleypen, 2012. Źródło: Historisches Lexikon Bayerns&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Teichgut_Birkenhof_2012_dithered.png&#34; alt=&#39;Zdjęcie: Widok na niegdysiejszy akwakulturowy system oczyszczania ścieków w Monachium – dzisiaj ostoja dzikich ptaków. Autor: Peter Schleypen, 2012. Źródło: Historisches Lexikon Bayerns&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Widok na niegdysiejszy akwakulturowy system oczyszczania ścieków w Monachium – dzisiaj ostoja dzikich ptaków. Autor: Peter Schleypen, 2012. Źródło: [Historisches Lexikon Bayerns](https://www.historisches-lexikon-bayerns.de/Lexikon/Abwasserbehandlung_(nach_1945)) 
 &lt;/figcaption&gt;
@@ -147,7 +147,7 @@
 &lt;p&gt;W późnych latach 80. XIX wieku, inżynier budownictwa Gustaw Oesten rozpoczął swoje eksperymenty nad akwakulturowym oczyszczaniem berlińskich ścieków. W jego zamyśle, woda miała być oczyszczana dzięki rybom, a połów tychże miał być dodatkową korzyścią dla miasta. Oesten spędził większą część dekady na eksperymentowaniu z różnymi gatunkami ryb, projektami stawów oraz z różnymi lokalnymi i pogodowymi czynnikami. &lt;sup id=&#34;fnref1:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Teichgut_Birkenhof-bjs130707-05_dithered.png&#34; alt=&#39;Zdjęcie: Kanał doprowadzający wodę do stawów rybnych akwakulturowej oczyszczalni ścieków miasta Monachium. Autor: Bjs (CC BY-SA 3.0), Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Teichgut_Birkenhof-bjs130707-05_dithered.png&#34; alt=&#39;Zdjęcie: Kanał doprowadzający wodę do stawów rybnych akwakulturowej oczyszczalni ścieków miasta Monachium. Autor: Bjs (CC BY-SA 3.0), Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Kanał doprowadzający wodę do stawów rybnych akwakulturowej oczyszczalni ścieków miasta Monachium. Autor: Bjs (CC BY-SA 3.0), Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -157,7 +157,7 @@
 &lt;p&gt;Z początkiem XX wieku wielu naukowców prowadziło swoje własne małoskalowe doświadczenia. Ichtiolog Bruno Hofer, lepiej znany ze swoich pionierskich prac nad chorobami ryb, zaczął skalować eksperymentalne akwakulturowe oczyszczalnie ścieków, udowadniając, że ścieki z dużych obiektów (takich jak szpitale, browary, fabryki, a nawet male miasteczka) mogą teoretycznie być oczyszczane przez stawy rybne. W swych pomysłach poszedł o krok dalej i „ośmielił się” zaproponować taki system miastu tak dużemu jak Monachium – w tamtych czasach pewnie ten pomysł został uznany za dziwaczny.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/sprinkler-fish-pond_dithered.png&#34; alt=&#39;Zdjęcie: Tryskacz wprowadzający oczyszczone ścieki wymieszane z wodą z rzeki do stawów rybnych w Monachium. Źródło: Edwards, 2005. [^15]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/sprinkler-fish-pond_dithered.png&#34; alt=&#39;Zdjęcie: Tryskacz wprowadzający oczyszczone ścieki wymieszane z wodą z rzeki do stawów rybnych w Monachium. Źródło: Edwards, 2005. [^15]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Tryskacz wprowadzający oczyszczone ścieki wymieszane z wodą z rzeki do stawów rybnych w Monachium. Źródło: Edwards, 2005. [^15] 
 &lt;/figcaption&gt;
@@ -175,7 +175,7 @@
 &lt;p&gt;Pomimo wielu zalet, większość akwakulturowych systemów oczyszczania ścieków zostało albo całkowicie porzuconych albo jest w zaniku. Co się stało? Pierwszy możliwy powód, to prawdopodobnie reakcja większości ludzi na podobne pomysły, którą nazwiemy „czynnikiem fuj”. Możliwe, że większość uważa jedzenie ryb hodowanych na kupach po prostu za obrzydliwe. Co ciekawe, większość badań naukowych nad miejskimi stawami rybnymi, co rusz pokazuje zadziwiającą akceptację dla ryb karmionych odpadami. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; Co więcej, około 10% światowej populacji prawdopodobnie już spożywa pożywienie z pól nawadnianych ściekami. &lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt; Nawet w Unii Europejskiej, z jej sławnymi surowymi regulacjami, wielu rolników wylewa na swoje pola szlamy ściekowe - europejskim konsumentom najwyraźniej to nie przeszkadza.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/tilapia_dithered.png&#34; alt=&#39;Zdjęcie: Tilapia nilowa (Oreochromis niloticus)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/tilapia_dithered.png&#34; alt=&#39;Zdjęcie: Tilapia nilowa (Oreochromis niloticus)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Tilapia nilowa (Oreochromis niloticus) 
 &lt;/figcaption&gt;
@@ -183,7 +183,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/CATFISH_dithered.png&#34; alt=&#39;Zdjęcie: Wietnamski sum szary (Plotosus canius)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/CATFISH_dithered.png&#34; alt=&#39;Zdjęcie: Wietnamski sum szary (Plotosus canius)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Wietnamski sum szary (Plotosus canius) 
 &lt;/figcaption&gt;
@@ -191,7 +191,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Common_carp_dithered.png&#34; alt=&#39;Zdjęcie: Karp zwyczajny (Cyrpinus carpio)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/Common_carp_dithered.png&#34; alt=&#39;Zdjęcie: Karp zwyczajny (Cyrpinus carpio)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Karp zwyczajny (Cyrpinus carpio) 
 &lt;/figcaption&gt;
@@ -204,7 +204,7 @@
 &lt;p&gt;Tak samo jest w Niemczech - zanik stawów rybnych spowodowany jest w większości rozrastaniem się terenów podmiejskich. Przedmieścia (tam gdzie muszą znajdować się stawy rybne, aby być blisko źródła ścieków i czystej wody) zyskują na wartości kiedy miasta się powiększają. Napędzane szalejącymi wzrostami cen nieruchomości, niedostatkiem terenów pod zabudowę, wysokimi kosztami pracy oraz spadająca konkurencyjnością krajowej hodowli ryb, zmuszonej konkurować na międzynarodowych rynkach, władze postanowiły zlikwidować stawy rybne, albo przerobić je na konwencjonalne oczyszczalnie ścieków. Nawet w Monachium, mającym największy tego typu system w Niemczech, obsługa jego była droga i coraz cięższa do utrzymania. Stawy rybne Monachium zostały w końcu przekształcone na rezerwat przyrody, gdzie odpoczywają migrujące ptaki. Hodowla ryb przestała być pierwszorzędnym zadaniem, a mokradła przyjmują teraz tylko niewielki procent monachijskich ścieków. &lt;sup id=&#34;fnref2:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/kolkata2005_dithered.png&#34; alt=&#39;Grafika: Mokradła Wschodniej Kolkaty w 2005. Źródło: Google Earth.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/kolkata2005_dithered.png&#34; alt=&#39;Grafika: Mokradła Wschodniej Kolkaty w 2005. Źródło: Google Earth.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Grafika: Mokradła Wschodniej Kolkaty w 2005. Źródło: Google Earth. 
 &lt;/figcaption&gt;
@@ -212,7 +212,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/kolkata2019_dithered.png&#34; alt=&#39;Grafika: Mokradła Wschodniej Kolkaty w 2019. Źródło: Google Earth.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2021/03/urban-fish-ponds-low-tech-sewage-treatment-for-towns-and-cities/images/dithers/kolkata2019_dithered.png&#34; alt=&#39;Grafika: Mokradła Wschodniej Kolkaty w 2019. Źródło: Google Earth.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Grafika: Mokradła Wschodniej Kolkaty w 2019. Źródło: Google Earth. 
 &lt;/figcaption&gt;
@@ -226,7 +226,7 @@
 &lt;p&gt;Trzeci powód to względnie niska cena paliw kopalnych. W większości krajów przemysłowych, bardziej racjonalny zdaje się wybór systemu zajmującego mniej miejsca, za to mającego wysoki ślad węglowy. W świecie taniej energii koszty ekologiczne można spychać na bok. Jednak one w końcu dadzą o sobie znać, a tak naprawdę już dają. Na koniec powiem jeszcze o jednym znaczącym czynniku, którego nie możemy zignorować – jest to uprzedzenie inżynierów do „brudnych”, organicznych systemów, właśnie takich jak akwakulturowe oczyszczalnie ścieków. Takie proste rozwiązania w umysłach wielu jawią się jako zacofane i prymitywne, chociaż faktycznie mogą być znacznie bardziej odpowiednie i zrównoważone od energointensywnych, łatwo powielanych „rozwiązań”, tak lubianych przez planistów i inżynierów. &lt;sup id=&#34;fnref:32&#34;&gt;&lt;a href=&#34;#fn:32&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Każdy z powyższych powodów wskazuje na głębszy problem: niezdolność naszej gospodarki do docenienie właściwych rzeczy. Tak samo, jak inne zrównoważone technologie o których mówimy w Low-tech Magazine, akwakulturowe oczyszczalnie ścieków dotyka większy problem: „nie możesz zmienić jednej rzeczy, nie zmieniając całego systemu”. Te systemy są oblężone przez międzynarodową spekulację nieruchomościami, toksyczne związki w ściekach komunalnych, zanieczyszczenia przemysłowe, niską cenę paliw kopalnych i głęboko zakorzenione w ludziach poczucie odrębności od ekosystemów których są częścią. U podstaw tego wszystkiego leży system wartości niedopasowany do naszych realnych potrzeb ekologicznych jako gatunku, członka ziemskiej społeczności żywych organizmów.&lt;/p&gt;
 &lt;p&gt;Stawy rybne to proste, tanie i zrównoważone rozwiązanie problemu naszego społecznego cieknącego zlewu. Jeśli jednak w poszukiwaniu przecieku schylimy się zajrzymy pod spód, to znajdziemy wiele innych rzeczy wymagających naprawy.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/author/aaron-vansintjan.html&#34;&gt;Aaron Vansintjan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/author/aaron-vansintjan.html&#34;&gt;Aaron Vansintjan&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Dziękuję Henningowi Fehr za zebranie danych na temat systemu stawów rybnych w Niemczech, Michaelowi Digregorio za powiedzenie mi o wietnamskim systemie, Phoung Anh Nguyenowi za zebranie dodatkowych informacji na ten temat i Geertowi Vasintjan za bycie dla mnie ciągłą inspiracją.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
@@ -334,15 +334,15 @@
     
     <item>
       <title>Wieże gołębie: Prosta alternatywa dla nawozów sztucznych</title>
-      <link>https://lowtechmag.gitlab.io/solar/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/</link>
+      <link>/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/dovecotes-of-Diyarbak%C4%B1r_dithered.png" type="image/png" length="35962" ></enclosure>
+      <enclosure url="/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/dovecotes-of-Diyarbak%C4%B1r_dithered.png" type="image/png" length="35962" ></enclosure>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/</guid>
+      <guid>/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/dovecotes-of-Diyarbak%C4%B1r_dithered.png&#34; alt=&#39;Zdjęcie: Wieża gołębia. Autor zdjęcia: Bekleyen, A. (2009). „Gołębniki Diyabakiru: Ocalone przykłady znikającej tradycji”; The Journal of Architecture, 14(4), 451-464, 2009.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/dovecotes-of-Diyarbak%C4%B1r_dithered.png&#34; alt=&#39;Zdjęcie: Wieża gołębia. Autor zdjęcia: Bekleyen, A. (2009). „Gołębniki Diyabakiru: Ocalone przykłady znikającej tradycji”; The Journal of Architecture, 14(4), 451-464, 2009.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Wieża gołębia. Autor zdjęcia: Bekleyen, A. (2009). „Gołębniki Diyabakiru: Ocalone przykłady znikającej tradycji”; The Journal of Architecture, 14(4), 451-464, 2009. 
 &lt;/figcaption&gt;
@@ -356,7 +356,7 @@
 &lt;p&gt;Wieżę gołębie to przykład tzw. „architektury tubylczej”, czyli zabudowań, które są unikalne dla danej społeczności, ale nie mają jednego twórcy. Wiedza o tym jak je budować jest prawdopodobnie od wieków przekazywana z pokolenia na pokolenia. Wszystkie wieże zdają się dzielić wspólny projekt, ponieważ są do siebie bardzo podobne, zachowując jednocześnie pewne regionalne różnice.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/pigeon-tower-iran_dithered.png&#34; alt=&#39;Zdjęcie: Wnętrze wieży gołębiej z widocznymi niszami na gniazda. Źródło: Flickr.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/pigeon-tower-iran_dithered.png&#34; alt=&#39;Zdjęcie: Wnętrze wieży gołębiej z widocznymi niszami na gniazda. Źródło: Flickr.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Wnętrze wieży gołębiej z widocznymi niszami na gniazda. Źródło: [Flickr](https://www.flickr.com/photos/algrache/8694414299/in/photolist-ujHzq-8xo6WE-3RQMxq-8xnXWL-mnAgf9-efi9sP-efibcK-efiapa-m5iFrF-efhgZD-cf9nT1-oUPMES-HEBs47). 
 &lt;/figcaption&gt;
@@ -372,7 +372,7 @@
 &lt;p&gt;Ten zbieg problemów wskazuje na to, że należy poszukać alternatywnych praktyk dla nowoczesnego, intensywnego rolnictwa. Chociaż popadają w zapomnienie, to jednak wieże gołębie mają kilka przewag nad innymi, prostymi metodami produkcji rolnej. Weźmy na przykład przetaczane po polach &lt;a href=&#34;https://www.youtube.com/watch?v=CNRRGlvBTdk&#34;&gt;kurniki na kolach&lt;/a&gt;, używane przez niektórych rolników ekologicznych. Inny przykład to nielotne kaczki domowe, które farmerzy w wielkich stadach puszczają na pole, by zjadały szkodniki i zostawiały odchody.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/pigeon-towers-in-isfahan_dithered.png&#34; alt=&#39;Zdjęcie: Gołębniki Safavid w okolicy Osfahan. Mohammad Reza Pourjafar, Mohammad Reza Leylian, Farid Khodarahmi &amp;amp;amp; Farhang Khademi Nadooshan&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2016/10/pigeon-towers-a-low-tech-alternative-to-synthetic-fertilizers/images/dithers/pigeon-towers-in-isfahan_dithered.png&#34; alt=&#39;Zdjęcie: Gołębniki Safavid w okolicy Osfahan. Mohammad Reza Pourjafar, Mohammad Reza Leylian, Farid Khodarahmi &amp;amp;amp; Farhang Khademi Nadooshan&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: [Gołębniki Safavid w okolicy Osfahan](http://antiquity.ac.uk/projgall/pourjafar327/). Mohammad Reza Pourjafar, Mohammad Reza Leylian, Farid Khodarahmi &amp; Farhang Khademi Nadooshan 
 &lt;/figcaption&gt;
@@ -406,15 +406,15 @@ Bekleyen, A. (2009). The dovecotes of Diyarbakır: the surviving examples of a f
     
     <item>
       <title>Garum: Sos rybny dla rzymskich mas</title>
-      <link>https://lowtechmag.gitlab.io/solar/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/</link>
+      <link>/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/garum-roman-fish-sauce_dithered.png" type="image/png" length="84987" ></enclosure>
+      <enclosure url="/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/garum-roman-fish-sauce_dithered.png" type="image/png" length="84987" ></enclosure>
       <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/</guid>
+      <guid>/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/garum-roman-fish-sauce_dithered.png&#34; alt=&#39;Zdjęcie: Urban Outdoor Skills&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/garum-roman-fish-sauce_dithered.png&#34; alt=&#39;Zdjęcie: Urban Outdoor Skills&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: [Urban Outdoor Skills](http://www.urbanoutdoorskills.com/garum_1.html) 
 &lt;/figcaption&gt;
@@ -425,7 +425,7 @@ Bekleyen, A. (2009). The dovecotes of Diyarbakır: the surviving examples of a f
 &lt;p&gt;W tym czasie ryby zaczną fermentować i upłynniać się, nabierając smaku umami (podobnego do smaku parmezanu) i lekko ostrego zapachu. Możesz zebrać płyn, a pozostałości zostawić na drugi nastaw.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/how-to-make-fish-sauce_dithered.png&#34; alt=&#39;Jak zrobić sos rybny współcześnie i jak robili to starożytni. Źródło: Robert Curtis. [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/how-to-make-fish-sauce_dithered.png&#34; alt=&#39;Jak zrobić sos rybny współcześnie i jak robili to starożytni. Źródło: Robert Curtis. [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Jak zrobić sos rybny współcześnie i jak robili to starożytni. Źródło: Robert Curtis. [^1] 
 &lt;/figcaption&gt;
@@ -438,7 +438,7 @@ Bekleyen, A. (2009). The dovecotes of Diyarbakır: the surviving examples of a f
 &lt;p&gt;Fermentacja ryb pozwoliła starożytnym Rzymianom długo przechowywać nadmiar ryb w czasach bez lodówek i kiedy połów był uzależniony od cyklicznych migracji ryb. Dodatkowo te zakłady najprawdopodobniej fermentowały wnętrzności większych ryb, który my dzisiaj uznalibyśmy za odpad. W ten sposób fermentacja była praktycznym uzupełnieniem (oraz produktem ubocznym) rozwiniętego przemysłu rybnego, kluczowego do wykarmienia będących w ciągłym ruchu wielkich mas ludzkich Imperium Rzymskiego.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/salting-vats_dithered.png&#34; alt=&#39;Zdjęcie: Odsłonięte przez archeologów zakłady przetwórstwa rybnego na terenie starożytnego Rzymu w Almuňecar w Hiszpanii. Autor: Robert Curtis. [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/pl/2015/10/garum-fermented-fish-sauce-for-the-ancient-roman-masses/images/dithers/salting-vats_dithered.png&#34; alt=&#39;Zdjęcie: Odsłonięte przez archeologów zakłady przetwórstwa rybnego na terenie starożytnego Rzymu w Almuňecar w Hiszpanii. Autor: Robert Curtis. [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Odsłonięte przez archeologów zakłady przetwórstwa rybnego na terenie starożytnego Rzymu w Almuňecar w Hiszpanii. Autor: Robert Curtis. [^1] 
 &lt;/figcaption&gt;

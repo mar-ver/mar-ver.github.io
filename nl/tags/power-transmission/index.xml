@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Nederlands</title>
-    <link>https://lowtechmag.gitlab.io/solar/nl/tags/power-transmission/</link>
+    <link>/nl/tags/power-transmission/</link>
     <description>Deze website draait op zonne-energie, wat betekent dat ze af en toe uit de lucht gaat</description>
     <generator>Hugo 0.115.3</generator>
     <language>nl</language>
-    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/nl/tags/power-transmission/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="/nl/tags/power-transmission/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lowtech energieopslag: de persluchtbatterij</title>
-      <link>https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
+      <link>/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
+      <enclosure url="/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
       <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
+      <guid>/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -35,7 +35,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Een aantal onderzoekers is recent een nieuwe weg ingeslagen met de ontwikkeling van decentrale persluchtopslag in bovengrondse containers. Het belangrijkste voordeel is dat deze technologie overal gebruikt kan worden, en dus ook een alternatief kan zijn voor chemische batterijen in autonome zonne-installaties.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Compressed air energy storage tanks. Bron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Compressed air energy storage tanks. Bron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Compressed air energy storage tanks. [Bron](http://www.screwtypeaircompressors.com/sale-8108163-vertical-compressed-air-tank-natural-gas-tank-2000l-air-receiver-tank.html). 
 &lt;/figcaption&gt;
@@ -54,7 +54,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Voor grootschalige persluchtbatterijen wordt veel onderzoek gedaan naar systemen die zonder aardgas kunnen werken. Dat zou bijvoorbeeld kunnen door de restwarmte van de compressie te gebruiken voor het opwarmen van de lucht bij expansie. Maar dit soort systemen (AA-CAES) is bijzonder complex &amp;ndash; er is nog geen enkele installatie gebouwd &amp;ndash; en ze zijn niet geschikt voor kleinschalige installaties.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Experimentele opstelling van een kleinschalige persluchtbatterij. Bron: Alami, Abdul Hai, et al. &amp;amp;quot;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.&amp;amp;quot; Renewable Energy 106 (2017): 201-211.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Experimentele opstelling van een kleinschalige persluchtbatterij. Bron: Alami, Abdul Hai, et al. &amp;amp;quot;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.&amp;amp;quot; Renewable Energy 106 (2017): 201-211.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Experimentele opstelling van een kleinschalige persluchtbatterij. Bron: Alami, Abdul Hai, et al. \&#34;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.\&#34; Renewable Energy 106 (2017): 201-211. 
 &lt;/figcaption&gt;
@@ -67,7 +67,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;De elektrische efficiëntie van deze &amp;rsquo;trigeneratie&amp;rsquo;-systemen &amp;ndash; ze produceren elektriciteit, warmte en koude &amp;ndash; is bijzonder laag. Maar de warmte van compressie en de koude van expansie zijn erg welkom in een huishouden, bijvoorbeeld voor de verwarming van ruimtes, de productie van warm water, en de koeling van voedsel. Bovendien maakt deze aanpak twee belangrijke grootverbruikers van elektriciteit overbodig: koelkasten en elektrische boilers. Deze apparaten kunnen namelijk rechtstreeks op perslucht werken. Koeling door middel van perslucht behoeft bovendien geen schadelijke koelvloeistof.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Experimenteel prototype voor kleinschalige persluchtopslag. Bron: Sun, Hao, Xing Luo, and Jihong Wang. &amp;amp;quot;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.&amp;amp;quot; Applied Energy 137 (2015): 617 -628.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Experimenteel prototype voor kleinschalige persluchtopslag. Bron: Sun, Hao, Xing Luo, and Jihong Wang. &amp;amp;quot;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.&amp;amp;quot; Applied Energy 137 (2015): 617 -628.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Experimenteel prototype voor kleinschalige persluchtopslag. Bron: [Sun, Hao, Xing Luo, and Jihong Wang. \&#34;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.\&#34; Applied Energy 137 (2015): 617 -628.](https://www.sciencedirect.com/science/article/pii/S0306261914006680) 
 &lt;/figcaption&gt;
@@ -79,7 +79,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Het bereiken van een isotherm proces is echter niet eenvoudig. Om te beginnen werkt het alleen met kleine en trage compressoren en expansieturbines. De typische industriële compressor is niet gebouwd voor maximale efficiëntie maar voor een maximum vermogen, en is bijgevolg totaal ongeschikt voor een isotherm proces. Hetzelfde geldt voor de meeste industriële expansieturbines.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Een typische industriële luchtcompressor. Bron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Een typische industriële luchtcompressor. Bron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Een typische industriële luchtcompressor. [Bron](https://www.thomasnet.com/articles/machinery-tools-supplies/Air-Compressors). 
 &lt;/figcaption&gt;
@@ -94,7 +94,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Het eenvoudige en goedkope apparaat, dat een minimum aan bewegende onderdelen heeft, haalt een efficiëntie van zestig tot zeventig procent bij een luchtdruk van drie tot zeven bar. Een ander team behaalde 83% efficiëntie met een gelijkaardig systeem door de compressor met een veel efficiëntere motor aan te drijven.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Een scroll compressor. Bron: Sun, Hao, Xing Luo, and Jihong Wang. &amp;amp;quot;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.&amp;amp;quot; Applied Energy 137 (2015): 617 -628.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Een scroll compressor. Bron: Sun, Hao, Xing Luo, and Jihong Wang. &amp;amp;quot;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.&amp;amp;quot; Applied Energy 137 (2015): 617 -628.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Een scroll compressor. Bron:  [Sun, Hao, Xing Luo, and Jihong Wang. \&#34;Feasibility study of a hybrid wind turbine system–Integration with compressed air energy storage.\&#34; Applied Energy 137 (2015): 617 -628.](https://www.sciencedirect.com/science/article/pii/S0306261914006680) 
 &lt;/figcaption&gt;
@@ -111,14 +111,14 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Een andere onderzoeker ziet de oplossing in modulaire systemen. Dit systeem is niet alleen gebaseerd op een speciaal ontwikkelde compressor en expansieturbine, maar maakt ook gebruik van verschillende kleine persluchttanks in plaats van één groot reservoir. Deze kleinere tanks zijn allemaal met elkaar verbonden en worden gecontroleerd door elektronica. Het systeem is geïnspireerd door historische toepassingen.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;Een modulaire persluchtbatterij. Bron: Alami, Abdul Hai, et al. &amp;amp;quot;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.&amp;amp;quot; Renewable Energy 106 (2017): 201-211.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;Een modulaire persluchtbatterij. Bron: Alami, Abdul Hai, et al. &amp;amp;quot;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.&amp;amp;quot; Renewable Energy 106 (2017): 201-211.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Een modulaire persluchtbatterij. Bron: Alami, Abdul Hai, et al. \&#34;Low pressure, modular compressed air energy storage (CAES) system for wind energy storage applications.\&#34; Renewable Energy 106 (2017): 201-211. 
 &lt;/figcaption&gt;
@@ -132,7 +132,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Door de opslagtanks één voor één te ontladen kan de energiedensiteit van het systeem op hetzelfde niveau worden gebracht als de energiedensiteit van loodzuurbatterijen. Op basis van hun prototype berekenden de onderzoekers dat 57 cylinders van elk tien liter twintig uur lang energie kunnen leveren bij een druk van vijf bar. Het opslagsysteem heeft een volume van slechts 0,6 m3 en een opslagcapaciteit van 410 watt-uur.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Computergestuurde luchtkleppen. Bron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Computergestuurde luchtkleppen. Bron.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Computergestuurde luchtkleppen. [Bron](http://www.jaksa.si/compressed-air-solenoid-valves.html). 
 &lt;/figcaption&gt;
@@ -182,15 +182,15 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
     
     <item>
       <title>Geen Wind? Geen Trein: Hernieuwbare Energie zonder Opslag</title>
-      <link>https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/</link>
+      <link>/nl/2017/09/how-to-run-the-economy-on-the-weather/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" type="image/png" length="38294" ></enclosure>
+      <enclosure url="/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png" type="image/png" length="38294" ></enclosure>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/</guid>
+      <guid>/nl/2017/09/how-to-run-the-economy-on-the-weather/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png&#34; alt=&#39;Prent: Stoneferry (detail), een schilderij van John Ward of Hull.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/stoneferry-detail_dithered.png&#34; alt=&#39;Prent: Stoneferry (detail), een schilderij van John Ward of Hull.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Prent: Stoneferry (detail), een schilderij van John Ward of Hull. 
 &lt;/figcaption&gt;
@@ -204,7 +204,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Gaandeweg werden ook steeds meer andere productiemethoden afhankelijk van wind- of watermolens: het zagen van hout, het vermalen van mortel, het maken van papier, het polijsten van glas, het boren van waterleidingen, de productie van textiel, het slaan van munten, enzovoort. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png&#34; alt=&#39;&amp;amp;quot;Een zomers landschap&amp;amp;quot;, Jan van Os.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/summer-landscape_dithered.png&#34; alt=&#39;&amp;amp;quot;Een zomers landschap&amp;amp;quot;, Jan van Os.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  \&#34;Een zomers landschap\&#34;, Jan van Os. 
 &lt;/figcaption&gt;
@@ -218,7 +218,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Windenergie kon echter niet worden opgeslagen. Eén oplossing was de rosmolen, waarin paarden, ossen of ezels energie leverden als er geen wind was. Toch gebeurde dat alleen voor levensnoodzakelijke productieprocessen (vooral het malen van graan), of in kleine werkplaatsen waar lastdieren ook als energieproducent werden ingezet. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; De rosmolen was duur en inefficiënt in gebruik, omdat het voeden van een paard een stuk landbouwgrond vereiste dat ook acht mensen kon voeden. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png&#34; alt=&#39;The Horse Mill, James Herring. Ca. 1850.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/horse-mill_dithered.png&#34; alt=&#39;The Horse Mill, James Herring. Ca. 1850.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  The Horse Mill, James Herring. Ca. 1850. 
 &lt;/figcaption&gt;
@@ -231,7 +231,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;In vroegere tijden werd de molenaar gestraft voor het werken op zondag, maar daar trok hij zich niet altijd iets van aan. Toen er geprotesteerd werd tegen een Engelse molenaar uit Norfolk, antwoordde die: “Als de heer goed genoeg is om mij wind te sturen op een zondag, dan gebruik ik die ook”. &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png&#34; alt=&#39;Mills in the Westzijderveld near Zaandam, Claude Monet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmills-monet_dithered.png&#34; alt=&#39;Mills in the Westzijderveld near Zaandam, Claude Monet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  [Mills in the Westzijderveld near Zaandam](https://commons.wikimedia.org/wiki/File:Claude_Monet_Mills_in_the_Westzijderveld_near_Zaandam.jpg), Claude Monet. 
 &lt;/figcaption&gt;
@@ -243,7 +243,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;De lagere atmosfeer van de planeet wordt omcirkeld door zes grote windzones, drie in elke hemisfeer. Vanaf de equator tot de polen zijn deze heersende winden de passaatwinden, de westenwindgordels, en de polaire oosterwinden. Deze windzones bewegen zich noordwaarts tijdens de noordelijke zomer en zuidwaarts tijdens de zuidelijke zomer. Vijf grote zeestromingen zijn gecorreleerd aan de dominante windstromen.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/amaldus-nielsen_dithered.png&#34; alt=&#39;Amaldus Nielsen, Ved Cadiz, 1925.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/amaldus-nielsen_dithered.png&#34; alt=&#39;Amaldus Nielsen, Ved Cadiz, 1925.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Amaldus Nielsen, Ved Cadiz, 1925. 
 &lt;/figcaption&gt;
@@ -253,7 +253,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;De passaatwinden bereiken hun meest noorderlijke lengtegraad op het eind van de zomer, wat ze in het bereik brengt van Spanje en Portugal. De wind blaast dan bijna rechtstreeks van Europa naar de Caraïben en Zuid-Amerika. Dezelfde route op de terugweg zou bijna onmogelijk zijn. In plaats daarvan zeilden Spanjaarden en Portugezen eerst noordwaarts, richting passaatwinden die op het eind van de winter hun meest zuidelijke locatie bereiken. Deze heersende winden brachten de zeelieden bijna rechtstreeks naar huis.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png&#34; alt=&#39;Windkaart van de Atlantische Oceaan, 9 september 2017. Bron: Windy&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/wind-map-of-the-atlantic_dithered.png&#34; alt=&#39;Windkaart van de Atlantische Oceaan, 9 september 2017. Bron: Windy&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Windkaart van de Atlantische Oceaan, 9 september 2017. Bron: [Windy](https://www.windy.com) 
 &lt;/figcaption&gt;
@@ -267,7 +267,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Deze bewerkingen zouden net zo goed opnieuw met een variabele energiebron kunnen gebeuren. Onderbrekingen in het productieproces hebben geen enkele invloed op de kwaliteit ervan, ze beïnvloedden alleen de productiesnelheid. Hetzelfde geldt voor veel voedselbewerkingsprocessen, mijnbouwactiviteiten of textielproductie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png&#34; alt=&#39;Werken met molens, Jean Bruggeman, 1996&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/how-to-rig-a-windmill-sail_dithered.png&#34; alt=&#39;Werken met molens, Jean Bruggeman, 1996&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Werken met molens, Jean Bruggeman, 1996 
 &lt;/figcaption&gt;
@@ -281,7 +281,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Vandaag kunnen we gebruik maken van andere energiebronnen dan biomassa om thermische energie te produceren. Ten eerste kunnen we windturbines, waterturbines of zonnepanelen gebruiken om elektriciteit op te wekken, die in warmte kan worden omgezet door middel van een elektrische weerstand. Dit was niet mogelijk in de pre-industriële tijd, want we konden geen elektriciteit maken.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png&#34; alt=&#39;Drukpers op zonne-energie van Augustin Mouchot, 1882.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-powered-printing-press_dithered.png&#34; alt=&#39;Drukpers op zonne-energie van Augustin Mouchot, 1882.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Drukpers op zonne-energie van Augustin Mouchot, 1882. 
 &lt;/figcaption&gt;
@@ -296,7 +296,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Een high-tech idee is het installeren van windturbines in zee en de elektriciteit daarvan om te zetten in waterstof, die vervolgens dient als brandstof voor zeeschepen. Maar het is natuurlijk veel praktischer en efficiënter om de schepen rechtstreeks aan te drijven met de wind, zoals we duizenden jaren hebben gedaan.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png&#34; alt=&#39;Thomas W. Lawson, een zeilschip gebouwd in 1902.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/seven-masted-schooner_dithered.png&#34; alt=&#39;Thomas W. Lawson, een zeilschip gebouwd in 1902.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Thomas W. Lawson, een zeilschip gebouwd in 1902. 
 &lt;/figcaption&gt;
@@ -307,7 +307,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;In feite werden de globale winden en stromingen pas volledig in kaart gebracht toen de tijd van de commerciele zeilvaart bijna voorbij was. Tussen 1842 en 1861 verzamelde de Amerikaanse zeevaarder Matthew Fontained Maury een enorme hoeveelheid gegevens, wat het mogelijk maakte om de reisduur van heel wat routes in the korten. Zo werd een reis van New York naar Rio de Janerio verkort van 55 tot 23 dagen, terwijl de reisduur van Melbourne naar Liverpool werd gehalveerd tot 63 dagen. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/fast-sailing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -319,7 +319,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Dat zou een geheel nieuwe toepassing zijn van een eeuwenoude strategie om met variabele energiebronnen om te gaan, mogelijk gemaakt door de uitvinding van elektriciteit.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png&#34; alt=&#39;Cardiff Docks, Lionel Walden, 1894&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/cardiff-docks_dithered.png&#34; alt=&#39;Cardiff Docks, Lionel Walden, 1894&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Cardiff Docks, Lionel Walden, 1894 
 &lt;/figcaption&gt;
@@ -330,7 +330,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Het combineren van goederentreinen met fabrieken creëert extra mogelijkheden. Bijvoorbeeld, op het eerste gezicht lijken passagierstreinen op zon of wind onmogelijk, omdat mensen minder flexibel zijn dan goederen. Als een op zon rijdende trein niet rijdt of te traag rijdt, dan moet een afspraak mogelijk op het allerlaatste moment worden verzet. Op bewolkte dagen zouden de meeste pendelaars niet of veel te laat op kantoor raken.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png&#34; alt=&#39;Zonnepanelen op een spoorlijn in België. Foto: Infrabel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/solar-covered-railway_dithered.png&#34; alt=&#39;Zonnepanelen op een spoorlijn in België. Foto: Infrabel.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zonnepanelen op een spoorlijn in België. Foto: Infrabel. 
 &lt;/figcaption&gt;
@@ -342,7 +342,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Als ik nieuwe schoenen wil kopen, dan moet ik mogelijk wachten op het juiste seizoen om ze geproduceerd en geleverd te kunnen krijgen. Productie en consumptie zouden afhankelijk worden van het weer en de seizoenen. Op zonne-energie draaiende fabrieken zullen meer produceren in de zomermaanden, terwijl op wind draaiende fabrieken meer zullen produceren in de wintermaanden. Seizoenswinden zullen leveringstermijnen beïnvloeden.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png&#34; alt=&#39;A Windmill at Zaandam, Claude Monet, 1871.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/windmill-zaandam_dithered.png&#34; alt=&#39;A Windmill at Zaandam, Claude Monet, 1871.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A Windmill at Zaandam, Claude Monet, 1871.  
 &lt;/figcaption&gt;
@@ -355,7 +355,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;De energievraag aanpassen aan het energieaanbod impliceert ook dat de werknemers zich aan het weer aanpassen. Als een fabriek op zonne-energie draait, dan komt de beschikbaarheid van energie heel goed overeen met menselijke ritmes. Maar als een fabriek of een trein op windenergie rijdt, dan zouden mensen ook ‘s nachts moeten werken, wat als ongezond wordt beschouwd. Als een fabriek of een transportsysteem alleen op wind of zon draait, dan zouden werknemers ook te maken hebben met onzekerheid over hun werkuren.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png&#34; alt=&#39;Nachtelijk werk in de dokken, Henri Adolphe Schaep, 1856.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/night-works-docks_dithered.png&#34; alt=&#39;Nachtelijk werk in de dokken, Henri Adolphe Schaep, 1856.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Nachtelijk werk in de dokken, Henri Adolphe Schaep, 1856.  
 &lt;/figcaption&gt;
@@ -369,7 +369,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Deze infrastructuur is noodzakelijk als het aanbod ten allen prijze aan de vraag moet kunnen voldoen, en maakt van hernieuwbare energieproductie een complexe, dure en vooral onduurzame onderneming.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png&#34; alt=&#39;Marina, Carol Popp de Szathmary, 1800s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-to-run-the-economy-on-the-weather/images/dithers/marina_dithered.png&#34; alt=&#39;Marina, Carol Popp de Szathmary, 1800s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Marina, Carol Popp de Szathmary, 1800s.  
 &lt;/figcaption&gt;
@@ -414,15 +414,15 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
     
     <item>
       <title>Hoe duurzaam is een duurzaam elektriciteitsnet?</title>
-      <link>https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/</link>
+      <link>/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" type="image/png" length="20107" ></enclosure>
+      <enclosure url="/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png" type="image/png" length="20107" ></enclosure>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/</guid>
+      <guid>/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png&#34; alt=&#39;Afbeelding: Eye of the wind&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/sailboat2_dithered.png&#34; alt=&#39;Afbeelding: Eye of the wind&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Afbeelding: [Eye of the wind](https://www.eyeofthewind.net/en/) 
 &lt;/figcaption&gt;
@@ -435,7 +435,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Om te weten of er genoeg hernieuwbare energie is om een moderne samenleving op wind en zon te laten draaien, moeten we dus een vergelijking maken doorheen de tijd. Wetenschappers die deze metingen en berekeningen hebben uitgevoerd, maken duidelijk dat vraag en aanbod heel vaak niet overeen stemmen. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/intermittency-solar-wind-compared-with-energy-demand_dithered.png&#34; alt=&#39;De grafiek hierboven laat de dagelijkse energieopbrengst zien van wind (blauw) en zon (geel) over een periode van dertig dagen, De energievraag is in het rood aangeduid. De dikke lijnen zijn de gemiddelden. Lokatie: Bonneville, VS, april 2010. [^21]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/intermittency-solar-wind-compared-with-energy-demand_dithered.png&#34; alt=&#39;De grafiek hierboven laat de dagelijkse energieopbrengst zien van wind (blauw) en zon (geel) over een periode van dertig dagen, De energievraag is in het rood aangeduid. De dikke lijnen zijn de gemiddelden. Lokatie: Bonneville, VS, april 2010. [^21]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  De grafiek hierboven laat de dagelijkse energieopbrengst zien van wind (blauw) en zon (geel) over een periode van dertig dagen, De energievraag is in het rood aangeduid. De dikke lijnen zijn de gemiddelden. Lokatie: Bonneville, VS, april 2010. [^21] 
 &lt;/figcaption&gt;
@@ -449,7 +449,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Windmolenparken produceren gemiddeld over een jaar 10-45% van hun maximale capaciteit. Dat is dubbel de jaarlijkse capaciteitsfactor van zonne-energie (5-30%), afhankelijk van de locatie. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Maar in praktijk produceren windturbines op elk mogelijk moment 0 tot 100% van hun maximale vermogen.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/solar-wind_dithered.png&#34; alt=&#39;Elektriciteitsopbrengst van een windmolenpark in Californië op 29 verschillende dagen in april 2005. [^6]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/solar-wind_dithered.png&#34; alt=&#39;Elektriciteitsopbrengst van een windmolenpark in Californië op 29 verschillende dagen in april 2005. [^6]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Elektriciteitsopbrengst van een windmolenpark in Californië op 29 verschillende dagen in april 2005. [^6] 
 &lt;/figcaption&gt;
@@ -465,7 +465,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Als we bijgevolg de capaciteit van zonne-energie en windenergie berekenen op de jaarlijkse gemiddelde opbrengst en in overeenstemming met het gemiddelde elektriciteitsverbruik, dan zouden er enorme elektriciteitstekorten zijn gedurende het grootste deel van het jaar. Om te verzekeren dat het aanbod van elektriciteit altijd overeenstemt met de vraag, zijn er dus extra maatregelen nodig.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/average-cloud-cover_dithered.png&#34; alt=&#39;Het gemiddelde wolkendek op aarde 2002-2015. Bron: NASA&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/average-cloud-cover_dithered.png&#34; alt=&#39;Het gemiddelde wolkendek op aarde 2002-2015. Bron: NASA&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Het gemiddelde wolkendek op aarde 2002-2015. Bron: [NASA](https://earthobservatory.nasa.gov/IOTD/view.php?id=85843&amp;amp;eocn=image&amp;amp;eoci=related_image) 
 &lt;/figcaption&gt;
@@ -479,7 +479,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Voor een elektriciteitsnet dat gebaseerd is op 100% zonne-energie en windenergie, zonder energieopslag en met alleen maar uitwisseling van elektriciteit op nationaal niveau, moet de reservecapaciteit van klassieke elektriciteitscentrales net zo groot zijn als de piekvraag. &lt;sup id=&#34;fnref1:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Met andere woorden: er zouden evenveel klassieke energiecentrales staan als vandaag.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/energiecentrale_dithered.png&#34; alt=&#39;Foto: James Allan, CC BY-SA 2.0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/energiecentrale_dithered.png&#34; alt=&#39;Foto: James Allan, CC BY-SA 2.0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Foto: James Allan, CC BY-SA 2.0. 
 &lt;/figcaption&gt;
@@ -493,7 +493,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Als er te veel hernieuwbare energie is, dan moet de productie van windturbines en zonnepanelen worden beperkt. Het probleem is dat op die manier de totale elektriciteitsopbrengst van zonnepanelen of windturbines gedurende hun levensduur afneemt, terwijl de energie die nodig is om ze te produceren, te installeren en te verbinden dezelfde blijft. Dat betekent dat een zonnepaneel minder duurzaam wordt.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/leaflet_dithered.png&#34; alt=&#39;Foto: Leaflet - Own work, CC BY-SA 3.0&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/leaflet_dithered.png&#34; alt=&#39;Foto: Leaflet - Own work, CC BY-SA 3.0&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Foto: [Leaflet](https://en.wikipedia.org/wiki/Wind_farm#/media/File:GreenMountainWindFarm_Fluvanna_2004.jpg) - Own work, CC BY-SA 3.0 
 &lt;/figcaption&gt;
@@ -513,7 +513,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Voor een Europees elektriciteitsnet met een aandeel van 60% zon en wind moet de capaciteit van het hoogspanningsnetwerk zeven keer groter worden. Als individuele Europese landen hun gevoeligheden over nationale energieverzekering aan de kant schuiven, en de reservecapaciteit optimaal over het continent zou worden verspreid, dan kan het met een &amp;ldquo;slechts&amp;rdquo; drie keer grotere transmissiecapaciteit. Voor een netwerk met een aandeel van 100% wind en zon moet het hoogspanningsnetwerk twaalf keer krachtiger worden dan vandaag. &lt;sup id=&#34;fnref1:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/wind-map-europe_dithered.png&#34; alt=&#39;Windkaart van Europa, 2 september 2017, 23h48. Bron: Windy.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/wind-map-europe_dithered.png&#34; alt=&#39;Windkaart van Europa, 2 september 2017, 23h48. Bron: Windy.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Windkaart van Europa, 2 september 2017, 23h48. Bron: [Windy](https://www.windy.com/). 
 &lt;/figcaption&gt;
@@ -532,7 +532,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Onderzoek heeft uitgewezen dat het efficiënter kan zijn om windenergie te vernietigen dan op te slaan: de energie die nodig is voor het bouwen en onderhouden van de energieopslag, is groter dan de energie die verloren gaat als de turbine wordt stilgelegd. &lt;sup id=&#34;fnref1:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/pompcentrale-wales_dithered.png&#34; alt=&#39;Een pompcentrale in Wales.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/pompcentrale-wales_dithered.png&#34; alt=&#39;Een pompcentrale in Wales.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Een pompcentrale in Wales. 
 &lt;/figcaption&gt;
@@ -555,7 +555,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Als we daarin zouden slagen, dan zou er helemaal geen nood zijn aan energieopslag, reservecapaciteit, of een overgedimensioneerde transmissie- en generatiecapaciteit. Alle energie die door zonnepanelen en windturbines wordt geproduceerd, zou ook worden gebruikt, zonder transmissieverliezen, laad- en ontlaadverliezen, of de nood om hernieuwbare energiecentrales stil te leggen. In feite zouden pas dan de nu bestaande levenscyclusanalyses van zonne-energie en windenergie geldig zijn.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/windmill-belgium_dithered.png&#34; alt=&#39;Een windmolen in Moulbaix, België, 17de/18de eeuw. Foto: Jean-Pol GrandMont.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/images/dithers/windmill-belgium_dithered.png&#34; alt=&#39;Een windmolen in Moulbaix, België, 17de/18de eeuw. Foto: Jean-Pol GrandMont.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Een windmolen in Moulbaix, België, 17de/18de eeuw. Foto: [Jean-Pol GrandMont](https://commons.wikimedia.org/wiki/File:Moulbaix_MV1aJPG.jpg). 
 &lt;/figcaption&gt;
@@ -568,7 +568,7 @@ Energieopslag is van groot belang in een toekomstig elektriciteitsnetwerk op bas
 &lt;p&gt;Zelfs relatief kleine toegevingen kunnen een aanzienlijk effect hebben. Bijvoorbeeld, als het Verenigd Konikrijk 65 dagen per jaar een elektriciteitstekort zou accepteren, dan zou het elektriciteitsverbruik helemaal op hernieuwbare energiebronnen kunnen steunen (wind, zon, golf, getijden), zonder de nood aan energieopslag, reservecapaciteit of een grote overdimensionering van hernieuwbare energiebronnen. &lt;sup id=&#34;fnref1:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Als deze vraag-strategie al wordt besproken, dan is de discussie meestal beperkt tot zogenaamd &amp;ldquo;slimme&amp;rdquo; apparaten zoals wasmachines en afwasmachines die automatisch aanslaan als er hernieuwbare energie is. Maar er is veel meer mogelijk.&lt;/p&gt;
 &lt;p&gt;Voor de komst van de Industriële Revolutie waren industrie en transport grotendeels afhankelijk van variabele hernieuwbare energiebronnen. De variabiliteit werd in grote mate opgelost door het aanpasen van de vraag naar energie. Bijvoorbeeld windmolens en zeilboten werkten alleen maar als het waaide.&lt;/p&gt;
-&lt;p&gt;In het volgende artikel zullen we zien dat dezelfde strategie ook succesvol kan worden toegepast op moderne industrie en goederentransport:  &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;Geen wind? Geen trein: hernieuwbare energie zonder opslag&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In het volgende artikel zullen we zien dat dezelfde strategie ook succesvol kan worden toegepast op moderne industrie en goederentransport:  &lt;a href=&#34;/nl/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;Geen wind? Geen trein: hernieuwbare energie zonder opslag&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

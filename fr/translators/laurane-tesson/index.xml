@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://lowtechmag.gitlab.io/solar/fr/translators/laurane-tesson/</link>
+    <link>/fr/translators/laurane-tesson/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/laurane-tesson/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="/fr/translators/laurane-tesson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nous n’y arriverons pas seuls: l’illusion du colibri</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/</link>
+      <link>/fr/2018/07/we-can-t-do-it-ourselves/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/WE-CANT-DO-IT-OURSELVES_dithered.png" type="image/png" length="36250" ></enclosure>
+      <enclosure url="/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/WE-CANT-DO-IT-OURSELVES_dithered.png" type="image/png" length="36250" ></enclosure>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/</guid>
+      <guid>/fr/2018/07/we-can-t-do-it-ourselves/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/WE-CANT-DO-IT-OURSELVES_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/WE-CANT-DO-IT-OURSELVES_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.behance.net/diegomarmolejo). 
 &lt;/figcaption&gt;
@@ -27,14 +27,14 @@
 &lt;p&gt;Mais à quel point ces actions individuelles sont-elles efficientes, quand nous aurions en réalité besoin d’un changement systémique sur le plan social? Bien sûr, nous sommes libres de faire nos propres choix, mais nos décisions sont souvent motivées, ou restreintes, par la société dans laquelle nous vivons. Ne serait-il donc pas plus utile de remettre en question le système en lui-même, celui qui nous contraint à nous déplacer ou à consommer de l’énergie comme nous le faisons aujourd’hui ?&lt;/p&gt;
 &lt;h2 id=&#34;les-trois-politiques-de-lutte-contre-le-changement-climatique&#34;&gt;Les trois politiques de lutte contre le changement climatique&lt;/h2&gt;
 &lt;p&gt;Dans notre combat contre le changement climatique (et autres défis environnementaux), nous faisons appel à trois types de mesures : les politiques de décarbonisation (encourager les sources d’énergie renouvelables, les voitures électriques, les pompes à chaleur, etc.), les politiques d’efficience énergétique (créer des appareils, des véhicules ou des bâtiments qui consomment moins d’énergie) et les politiques visant à faire évoluer les comportements (encourager une consommation et des comportements plus durables, par exemple en adoptant les technologies promues par les deux autres politiques).&lt;/p&gt;
-&lt;p&gt;Les deux premières stratégies ont pour objectif, grâce à la seule innovation technique, de rendre nos modes de consommation actuels moins gourmands en ressources. Mais elles ne tiennent pas compte de toutes les évolutions qu’il conviendrait de mettre en place parallèlement sur le plan social. C’est d’ailleurs peut-être pour cette raison qu’elles n’ont pas entraîné de diminution significative de la demande énergétique ou des émissions de CO2. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/01/bedazzled-by-energy-efficiency/&#34;&gt;Les avancées en matière d’efficience énergétique ne se sont pas accompagnées d’une baisse de la demande en énergie&lt;/a&gt;, car elles n’ont pas pris en compte les modes de consommation nouveaux et plus énergivores qui souvent émergent de technologies plus efficientes énergétiquement parlant. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;De la même manière, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/11/how-not-to-resolve-the-energy-crisis/&#34;&gt;les énergies renouvelables n’ont pas permis la décarbonisation des infrastructures énergétiques&lt;/a&gt;: la demande énergétique (au total et par personne) augmente en effet plus rapidement que la création de sources d’énergie renouvelable. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Les deux premières stratégies ont pour objectif, grâce à la seule innovation technique, de rendre nos modes de consommation actuels moins gourmands en ressources. Mais elles ne tiennent pas compte de toutes les évolutions qu’il conviendrait de mettre en place parallèlement sur le plan social. C’est d’ailleurs peut-être pour cette raison qu’elles n’ont pas entraîné de diminution significative de la demande énergétique ou des émissions de CO2. &lt;a href=&#34;/fr/2018/01/bedazzled-by-energy-efficiency/&#34;&gt;Les avancées en matière d’efficience énergétique ne se sont pas accompagnées d’une baisse de la demande en énergie&lt;/a&gt;, car elles n’ont pas pris en compte les modes de consommation nouveaux et plus énergivores qui souvent émergent de technologies plus efficientes énergétiquement parlant. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;De la même manière, &lt;a href=&#34;/fr/2009/11/how-not-to-resolve-the-energy-crisis/&#34;&gt;les énergies renouvelables n’ont pas permis la décarbonisation des infrastructures énergétiques&lt;/a&gt;: la demande énergétique (au total et par personne) augmente en effet plus rapidement que la création de sources d’énergie renouvelable. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Les politiques de décarbonisation et d’efficience énergétique devront s’accompagner d’innovations sur le plan social si nous voulons réduire l’utilisation d’énergie et les émissions de carbone. C’est à cela que doivent servir les mesures visant à faire évoluer les comportements, qui constituent le troisième pilier des politiques de lutte contre le changement climatique : orienter le choix et les comportements des consommateurs dans une direction plus soutenable.&lt;/p&gt;
 &lt;h2 id=&#34;les-politiques-de-changement-des-comportements&#34;&gt;Les politiques de changement des comportements&lt;/h2&gt;
 &lt;p&gt;Les séries de mesures visant à induire un changement de comportement sont très variées, mais la plupart peuvent être classées dans trois grandes catégories : « la carotte, le bâton, et le sermon ». &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Il s’agira par exemple de proposer des incitations financières (primes offertes pour l’achat de produits « verts », taxes sur l’énergie, prêts à taux réduits), d’établir des normes et réglementations (code du bâtiment, normes d’émissions pour les véhicules), ou de fournir de l’information (factures énergétiques plus détaillées, compteurs « intelligents », campagnes d’information).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/bike-campaign-manchester_dithered.png&#34; alt=&#39;Un exemple de campagne qui encourage un changement de comportement.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/bike-campaign-manchester_dithered.png&#34; alt=&#39;Un exemple de campagne qui encourage un changement de comportement.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un exemple de campagne qui encourage un changement de comportement. 
 &lt;/figcaption&gt;
@@ -59,7 +59,7 @@
 &lt;p&gt;On apprend par exemple aux conducteurs néerlandais à toujours ouvrir leur portière de la main droite lorsqu’ils veulent sortir de leur véhicule, afin de les obliger à tourner suffisamment la tête pour détecter l’arrivée d’un cycliste par l’arrière. Par ailleurs, en cas d’accident entre une voiture et un vélo, le conducteur du véhicule sera toujours considéré comme responsable, même si l’erreur vient du cycliste. Évidemment, on pourra choisir de se déplacer à vélo au Royaume-Uni ou aux États-Unis, malgré l’absence d’infrastructure adaptée, de culture du vélo ou de cadre réglementaire favorable, mais il est peu probable que d’autres se précipitent pour suivre l’exemple.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/bicycle-parking_dithered.png&#34; alt=&#39;Un parking à vélos, à Gand, en Belgique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/bicycle-parking_dithered.png&#34; alt=&#39;Un parking à vélos, à Gand, en Belgique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un parking à vélos, à Gand, en Belgique. 
 &lt;/figcaption&gt;
@@ -80,7 +80,7 @@
 &lt;p&gt;En matière de durabilité, nous devrions donc viser une cible bien plus intéressante : la plus grande partie de l’iceberg, qui se trouve sous l’eau, c’est-à-dire le fondement social de nos comportements. [^13] Il faudrait alors se concentrer non pas sur les individus et leurs choix, mais sur l’organisation sociale de nos pratiques quotidiennes (cuisiner, se laver, faire les courses ou faire du sport). La manière dont nous accomplissons ces tâches dépend en effet non seulement du choix individuel, mais aussi de notre contexte matériel, social et culturel. &lt;sup id=&#34;fnref3:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;[^13]&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/city-bike_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2018/07/we-can-t-do-it-ourselves/images/dithers/city-bike_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: Diego Marmolejo. 
 &lt;/figcaption&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://lowtechmag.gitlab.io/solar/fr/tags/human-power/</link>
+    <link>/fr/tags/human-power/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/tags/human-power/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/fr/tags/human-power/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Construire un vélo générateur pour la chaleur et l&#39;électricité</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/</link>
+      <link>/fr/2022/03/how-to-build-a-practical-household-bike-generator/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
+      <enclosure url="/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
+      <guid>/fr/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image : Le vélo générateur dans le salon.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image : Le vélo générateur dans le salon.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le vélo générateur dans le salon. 
 &lt;/figcaption&gt;
@@ -95,13 +95,13 @@
 &lt;h3 id=&#34;essai-et-erreur&#34;&gt;Essai et erreur&lt;/h3&gt;
 &lt;p&gt;Le vélo générateur et le tableau de bord ont été conçus et réalisés en collaboration avec &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; dans le cadre de son stage au Low-tech Magazine. Nous n&amp;rsquo;avons pas pu trouver les informations techniques que nous recherchions, nous avons donc suivi une approche par essais et erreurs. Cela a pris du temps et a coûté cher, mais nous en avons tiré des enseignements. Nous avons fait beaucoup d&amp;rsquo;erreurs que vous pouvez éviter.&lt;/p&gt;
 &lt;p&gt;Nous ne sommes pas ingénieurs, et &lt;a href=&#34;#comments&#34;&gt;nous sommes ouverts aux commentaires techniques&lt;/a&gt; concernant les améliorations à apporter. Sur la base de ces commentaires et d&amp;rsquo;autres expériences avec le vélo générateur - qui est maintenant utilisé depuis un mois - nous mettrons à jour et enrichirons le manuel. Notre design peut être ajusté et adapté à vos besoins.&lt;/p&gt;
-&lt;p&gt;Les nouveaux lecteurs de ce site seront peut-être intéressés par certains articles antérieurs sur lesquels ce projet de générateur se base : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;La brève histoire des premières machines à pédales&lt;/a&gt; (2018).&lt;/p&gt;
+&lt;p&gt;Les nouveaux lecteurs de ce site seront peut-être intéressés par certains articles antérieurs sur lesquels ce projet de générateur se base : &lt;a href=&#34;/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;La brève histoire des premières machines à pédales&lt;/a&gt; (2018).&lt;/p&gt;
 &lt;p&gt;Il est évident qu&amp;rsquo;un vélo générateur ne pourra pas alimenter un foyer qui consomme beaucoup - à moins de trouver le nombre d&amp;rsquo;esclaves suffisant. Ce manuel est destiné aux personnes ayant un mode de vie économe en énergie.&lt;/p&gt;
 &lt;h2 id=&#34;span-idbikegeneratorle-vélo-générateurspan&#34;&gt;&lt;span id=&#34;bikegenerator&#34;&gt;Le vélo générateur&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Il y a de nombreuses façons de construire un vélo générateur, et chacune a ses avantages et ses inconvénients. Nous avons conçu notre générateur à pédales à partir d’un vélo d’appartement vintage des années 1950. Notre vélo a été fabriqué par la marque espagnole BH mais des modèles vintage similaires peuvent être trouvés partout dans le monde industrialisé.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant. 
 &lt;/figcaption&gt;
@@ -114,7 +114,7 @@
 &lt;p&gt;Notre approche permet également de construire un générateur à pédales avec des outils simples et des compétences de base. Il n&amp;rsquo;est pas nécessaire de couper ou de souder du métal - le vélo reste tel quel. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Il n&amp;rsquo;est pas non plus nécessaire de construire une structure de support - le vélo en possède déjà une. Il suffit d&amp;rsquo;ajouter un système d&amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;rsquo;inertie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;amp;rsquo;inertie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;amp;rsquo;inertie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le système d&#39;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&#39;inertie. 
 &lt;/figcaption&gt;
@@ -130,14 +130,14 @@
 &lt;p&gt;En tant que “cycliste énergétique”, vous devez adapter la tension (V) et le courant (A) de l&amp;rsquo;appareil que vous alimentez ou rechargez. Mais c&amp;rsquo;est plus facile à dire qu&amp;rsquo;à faire. Les appareils électriques fonctionnent à des tensions différentes et ont des besoins en énergie très différents. La tension correspond à la &lt;em&gt;vitesse&lt;/em&gt; à laquelle vous pédalez et le courant à la &lt;em&gt;force&lt;/em&gt; avec laquelle vous pédalez.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image : le vélo générateur en fonction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image : le vélo générateur en fonction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : le vélo générateur en fonction. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;span-idvolt1-adapter-la-tensionspan&#34;&gt;&lt;span id=&#34;volt&#34;&gt;1. Adapter la tension&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Un vélo générateur produit du &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;courant continu basse tension&lt;/a&gt;, comme un système photovoltaïque (12/24V). La tension de sortie dépend de la vitesse de rotation du vélo générateur. La vitesse du pédalage et le rapport de vitesse déterminent la vitesse du générateur. Le manuel explique en détail &lt;a href=&#34;#gearratio&#34;&gt;comment définir le bon rapport de transmission&lt;/a&gt;. En résumé, vous devez mesurer le diamètre extérieur de trois pièces (pignon de la pédale, pignon de la roue d&amp;rsquo;inertie, roue d&amp;rsquo;inertie) et utiliser ces données pour calculer la taille correcte du galet pour la tension de sortie attendue.&lt;/p&gt;
+&lt;p&gt;Un vélo générateur produit du &lt;a href=&#34;/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;courant continu basse tension&lt;/a&gt;, comme un système photovoltaïque (12/24V). La tension de sortie dépend de la vitesse de rotation du vélo générateur. La vitesse du pédalage et le rapport de vitesse déterminent la vitesse du générateur. Le manuel explique en détail &lt;a href=&#34;#gearratio&#34;&gt;comment définir le bon rapport de transmission&lt;/a&gt;. En résumé, vous devez mesurer le diamètre extérieur de trois pièces (pignon de la pédale, pignon de la roue d&amp;rsquo;inertie, roue d&amp;rsquo;inertie) et utiliser ces données pour calculer la taille correcte du galet pour la tension de sortie attendue.&lt;/p&gt;
 &lt;p&gt;Une fois que vous avez défini le rapport de transmission, vous pouvez produire une tension plus ou moins élevée en pédalant plus ou moins vite, respectivement. Cela permet d&amp;rsquo;alimenter des appareils à des tensions différentes. Cependant, en supposant que votre générateur produise une tension de 12 V à une vitesse de pédalage moyenne, vous devrez pédaler au ralenti pour produire une tension de 5 V, et il sera difficile de garder les pieds sur les pédales pour produire une tension de 24 V. Des vitesses permettraient de faire varier plus facilement la tension de sortie, mais notre vélo n&amp;rsquo;en a pas.&lt;/p&gt;
 &lt;p&gt;Faire fonctionner un appareil directement à partir du générateur peut être une solution pratique s&amp;rsquo;il a besoin d&amp;rsquo;environ 12V. La roue d&amp;rsquo;inertie permet de maintenir une tension de sortie relativement stable. Cependant, les appareils électroniques et les batteries ont besoin d&amp;rsquo;une tension exacte. Sinon, ils risquent de ne pas fonctionner ou d&amp;rsquo;être endommagés. De plus, faire fonctionner un appareil directement à partir du générateur vous empêche d&amp;rsquo;alimenter ou de charger simultanément plusieurs appareils avec des tensions différentes - ce qui est une solution à notre prochain problème.&lt;/p&gt;
 &lt;h3 id=&#34;span-idcurrent2-adapter-le-courantspan&#34;&gt;&lt;span id=&#34;current&#34;&gt;2. Adapter le courant&lt;/span&gt;&lt;/h3&gt;
@@ -147,13 +147,13 @@
 &lt;p&gt;Les installations solaires photovoltaïques non raccordées au réseau rechargent souvent des batteries au plomb. L&amp;rsquo;énergie humaine ne dépend ni du temps ni de l&amp;rsquo;heure de la journée, mais il peut être pratique de la stocker dans une batterie pour une utilisation ultérieure.&lt;/p&gt;
 &lt;p&gt;En se basant sur une production de 100 watts de puissance, il est facile de faire des calculs trop optimistes sur le temps nécessaire pour recharger une batterie. Par exemple, si une batterie a une capacité de 100 Wh, vous pouvez la recharger en une heure, non ? Pas du tout. Même si vous pouviez maintenir une puissance de sortie de 100 watts pendant une heure, la batterie limite la quantité de puissance que vous pouvez lui fournir. Il n&amp;rsquo;est pas possible de faire une courte séance d&amp;rsquo;entraînement pour charger la batterie plus vite qu&amp;rsquo;elle ne vous le permet.&lt;/p&gt;
 &lt;p&gt;Les batteries au plomb se rechargent entre 10 et 25% de leur capacité maximale - et nous avons atteint 10% pour toutes les batteries testées. Pour recharger une batterie de voiture au plomb (environ 60-80Ah), le générateur doit produire 85-115 watts, ce qui représente un effort conséquent. Une recharge complète (12V à 13V) prendra cinq heures, sans compter les pertes de charge et de décharge.&lt;/p&gt;
-&lt;p&gt;Cependant, pour des batteries au plomb plus petites, la faible intensité demandée est problématique. Comme il n&amp;rsquo;y a que peu ou pas de résistance sur les pédales (donc pas vraiment d’effort), c&amp;rsquo;est très inefficace (le générateur a des pertes d&amp;rsquo;énergie élevées), et pourtant, cela prend autant de temps que de recharger une batterie beaucoup plus grande. Par exemple, la recharge d&amp;rsquo;une batterie 12V d&amp;rsquo;une capacité de stockage de 14Ah (semblable à celle qui alimente le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/about.html&#34;&gt;site web à énergie solaire&lt;/a&gt;) ne nécessite que 1,4A. Cela ne représente pas un gros effort (20W).&lt;/p&gt;
+&lt;p&gt;Cependant, pour des batteries au plomb plus petites, la faible intensité demandée est problématique. Comme il n&amp;rsquo;y a que peu ou pas de résistance sur les pédales (donc pas vraiment d’effort), c&amp;rsquo;est très inefficace (le générateur a des pertes d&amp;rsquo;énergie élevées), et pourtant, cela prend autant de temps que de recharger une batterie beaucoup plus grande. Par exemple, la recharge d&amp;rsquo;une batterie 12V d&amp;rsquo;une capacité de stockage de 14Ah (semblable à celle qui alimente le &lt;a href=&#34;/fr/about.html&#34;&gt;site web à énergie solaire&lt;/a&gt;) ne nécessite que 1,4A. Cela ne représente pas un gros effort (20W).&lt;/p&gt;
 &lt;p&gt;Le même problème se pose avec les appareils USB. L&amp;rsquo;utilisation la plus souvent mentionnée d&amp;rsquo;un vélo générateur est la recharge d&amp;rsquo;un smartphone. Or, la recharge d&amp;rsquo;un smartphone nécessite très peu d&amp;rsquo;énergie (5-10W) par rapport à ce que le vélo peut produire. (Certains modèles plus récents permettent une recharge plus rapide). On pourrait penser que la recharge d&amp;rsquo;une batterie de téléphone de 10Wh ne prendrait que 6 minutes à une puissance maximale de 100W, mais cela prend tout autant de temps que lorsque vous la branchez à une prise murale. Un chargeur manuel beaucoup plus petit serait suffisant pour charger un smartphone, mais dans ce cas, vous n&amp;rsquo;avez pas les mains libres.&lt;/p&gt;
 &lt;h2 id=&#34;span-iddashboardle-tableau-de-bord--comment-relever-ces-défis-span&#34;&gt;&lt;span id=&#34;dashboard&#34;&gt;Le tableau de bord : comment relever ces défis ?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Pour éviter tous ces problèmes, nous avons construit un tableau de bord qui répartit l&amp;rsquo;énergie du vélo générateur vers des circuits commutables avec différentes tensions pour faire fonctionner divers appareils. Vous pouvez utiliser ces circuits séparément ou simultanément, ce qui permet de régler précisément la résistance des pédales pour un effort optimal. Vous pouvez aussi contrôler directement certains appareils en réduisant leur demande de puissance.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image : Le tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image : Le tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le tableau de bord. 
 &lt;/figcaption&gt;
@@ -161,7 +161,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image : Le tableau de bord vu de côté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image : Le tableau de bord vu de côté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le tableau de bord vu de côté. 
 &lt;/figcaption&gt;
@@ -182,7 +182,7 @@
 &lt;/ul&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;avant du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;avant du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : L&#39;avant du tableau de bord. 
 &lt;/figcaption&gt;
@@ -190,7 +190,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;arrière du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;arrière du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : L&#39;arrière du tableau de bord. 
 &lt;/figcaption&gt;
@@ -207,13 +207,13 @@
 &lt;p&gt;Un vélo générateur est plus adapté pour alimenter directement des appareils électriques - sans stocker d&amp;rsquo;énergie dans une batterie d’abord. Cela permet d&amp;rsquo;éviter les pertes à la charge et à la décharge (jusqu&amp;rsquo;à 30 % dans les batteries au plomb) et de réduire la complexité et les coûts de mise en place d&amp;rsquo;une “centrale électrique humaine” fonctionnelle. Pour cela, notre tableau de bord dispose de plusieurs circuits de 12V et d&amp;rsquo;un circuit de 220V.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image : Certains des appareils que nous avons testés : compresseur d&amp;amp;rsquo;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image : Certains des appareils que nous avons testés : compresseur d&amp;amp;rsquo;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Certains des appareils que nous avons testés : compresseur d&#39;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Parmi les appareils de 12V que nous avons alimentés directement, on peut citer un réfrigérateur expérimental Peltier, une bouilloire, des ordinateurs portables - alimentés par un adaptateur 12V, sans batterie ou avec la batterie à 100% - des lampes, un fer à souder, une perceuse électrique et une ponceuse. Il existe de nombreux autres appareils 12V, principalement destinés aux chauffeurs routiers et aux automobilistes, aux marins, aux personnes vivant en caravane (et aux &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;bricoleurs low-tech qui connectent leur appartement comme s&amp;rsquo;il s&amp;rsquo;agissait d&amp;rsquo;un voilier&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Parmi les appareils de 12V que nous avons alimentés directement, on peut citer un réfrigérateur expérimental Peltier, une bouilloire, des ordinateurs portables - alimentés par un adaptateur 12V, sans batterie ou avec la batterie à 100% - des lampes, un fer à souder, une perceuse électrique et une ponceuse. Il existe de nombreux autres appareils 12V, principalement destinés aux chauffeurs routiers et aux automobilistes, aux marins, aux personnes vivant en caravane (et aux &lt;a href=&#34;/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;bricoleurs low-tech qui connectent leur appartement comme s&amp;rsquo;il s&amp;rsquo;agissait d&amp;rsquo;un voilier&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Voici l’ensemble des appareils que nous avons alimentés ou chargés jusqu&amp;rsquo;à présent :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tous les types d&amp;rsquo;appareils USB (5V)&lt;/li&gt;
@@ -238,30 +238,30 @@
 &lt;p&gt;Transformer un outil alimenté par batterie en un outil filaire peut être assez simple. Après avoir retiré la batterie, repérez les deux pôles positifs et négatifs et soudez-y deux fils. Notez que vous n&amp;rsquo;avez qu&amp;rsquo;une seule chance de déterminer lequel est positif ou négatif. Pour la perceuse électrique, cela a été très facile à trouver. Pour la ponceuse, nous avons demandé conseil car le câblage est plus complexe. Les outils électriques de 12 V dont les batteries sont manquantes ou hors d&amp;rsquo;usage se trouvent d&amp;rsquo;occasion à bas prix.&lt;/p&gt;
 &lt;p&gt;Une perceuse électrique filaire est peut-être l&amp;rsquo;outil le plus polyvalent. Vous pouvez l&amp;rsquo;utiliser avec un batteur (pour les œufs), une brosse rigide (pour enlever la peinture ou nettoyer des objets), une meule (pour aiguiser les couteaux) ou un disque à polir (pour faire briller le chrome ou d&amp;rsquo;autres métaux et matériaux). Les outils de précision pour la bijouterie ou le modélisme se combinent également bien avec la transmission directe par pédales. Nous en sommes encore aux premiers essais de transformation et d&amp;rsquo;utilisation d&amp;rsquo;outils électriques filaires de 12V.&lt;/p&gt;
 &lt;h3 id=&#34;outils-manuels-versus-outils-alimentés-par-pédales&#34;&gt;Outils manuels versus outils alimentés par pédales&lt;/h3&gt;
-&lt;p&gt;En comparaison avec les &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;outils manuels mécaniques&lt;/a&gt;, les équipements électriques actionnés par un humain sont moins efficaces sur le plan énergétique. Le fait de passer à l&amp;rsquo;électricité entraîne des pertes d&amp;rsquo;énergie supplémentaires - au niveau du générateur, du convertisseur, des câbles et de la transmission. Cependant, ces pertes sont plus que compensées par une utilisation plus efficace de la source d&amp;rsquo;énergie humaine. Nos jambes sont environ quatre fois plus fortes que nos bras.&lt;/p&gt;
+&lt;p&gt;En comparaison avec les &lt;a href=&#34;/fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;outils manuels mécaniques&lt;/a&gt;, les équipements électriques actionnés par un humain sont moins efficaces sur le plan énergétique. Le fait de passer à l&amp;rsquo;électricité entraîne des pertes d&amp;rsquo;énergie supplémentaires - au niveau du générateur, du convertisseur, des câbles et de la transmission. Cependant, ces pertes sont plus que compensées par une utilisation plus efficace de la source d&amp;rsquo;énergie humaine. Nos jambes sont environ quatre fois plus fortes que nos bras.&lt;/p&gt;
 &lt;p&gt;Le recours à l&amp;rsquo;électricité est également plus ergonomique car il ménage les articulations et les muscles de la main. Fixer des dizaines de vis à la main est peut-être plus écologique que d&amp;rsquo;utiliser une perceuse électrique, mais cela peut vous abîmer le poignet. Un vélo générateur vous permet donc de travailler plus rapidement et de manière plus ergonomique sans dépendre d&amp;rsquo;une source d&amp;rsquo;énergie externe.&lt;/p&gt;
-&lt;p&gt;Les outils manuels mécaniques ont quand même quelques avantages : ils sont silencieux, plus facilement transportables et leur fabrication consomme moins d&amp;rsquo;énergie. Une troisième option combine ces avantages : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;les équipements mécaniques à pédale&lt;/a&gt;. Cependant, il est difficile de construire un vélo stationnaire compact qui puisse alimenter de nombreux outils différents. Nous avons conçu le vélo générateur pour qu&amp;rsquo;il soit aussi compact et multifonctionnel que possible.&lt;/p&gt;
+&lt;p&gt;Les outils manuels mécaniques ont quand même quelques avantages : ils sont silencieux, plus facilement transportables et leur fabrication consomme moins d&amp;rsquo;énergie. Une troisième option combine ces avantages : &lt;a href=&#34;/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;les équipements mécaniques à pédale&lt;/a&gt;. Cependant, il est difficile de construire un vélo stationnaire compact qui puisse alimenter de nombreux outils différents. Nous avons conçu le vélo générateur pour qu&amp;rsquo;il soit aussi compact et multifonctionnel que possible.&lt;/p&gt;
 &lt;p&gt;Les outils électriques peuvent avoir des consommations élevées, mais cela ne doit pas vous arrêter. La ponceuse n&amp;rsquo;a besoin que de 30 watts au maximum, mais notre perceuse électrique peut demander jusqu&amp;rsquo;à 20A de courant - ce qui est trop élevé pour le vélo générateur et le tableau de bord (12Vx20A=240W). Cependant, la perceuse consomme rarement cette énergie, sauf si vous l&amp;rsquo;utilisez pour percer des matériaux durs.&lt;/p&gt;
 &lt;p&gt;La consommation d&amp;rsquo;énergie d&amp;rsquo;un outil électrique augmente chaque fois que le couple augmente, ce qui vous permet de sentir quand le foret a traversé le matériau ou quand la vis a été fixée ou desserrée. Vous pouvez manipuler l&amp;rsquo;outil aussi précisément avec vos pieds qu&amp;rsquo;avec vos mains.&lt;/p&gt;
 &lt;h3 id=&#34;span-idkettle2-bouilloire-électriquespan&#34;&gt;&lt;span id=&#34;kettle&#34;&gt;2. Bouilloire électrique&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Le chauffage et la climatisation électriques consomment beaucoup d&amp;rsquo;énergie. Les alternatives, comme la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/12/too-much-combustion-too-little-fire/&#34;&gt;chaleur solaire directe&lt;/a&gt;, sont plus écologiques. Cependant, des systèmes de chauffage et de refroidissement peuvent facilement être intégrés à votre séance d&amp;rsquo;exercice et produire des résultats.&lt;/p&gt;
+&lt;p&gt;Le chauffage et la climatisation électriques consomment beaucoup d&amp;rsquo;énergie. Les alternatives, comme la &lt;a href=&#34;/fr/2019/12/too-much-combustion-too-little-fire/&#34;&gt;chaleur solaire directe&lt;/a&gt;, sont plus écologiques. Cependant, des systèmes de chauffage et de refroidissement peuvent facilement être intégrés à votre séance d&amp;rsquo;exercice et produire des résultats.&lt;/p&gt;
 &lt;p&gt;Nous avons appliqué ce principe avec une bouilloire électrique et un réfrigérateur expérimental Peltier. Les deux appareils sont très bien isolés. Par conséquent, la conversion de l&amp;rsquo;énergie humaine en chaleur ou en froid en fait une autre forme de stockage d&amp;rsquo;énergie - sans tous les inconvénients des batteries.&lt;/p&gt;
 &lt;p&gt;Les bouilloires électriques connectées au réseau sont souvent très puissantes et font bouillir l&amp;rsquo;eau en quelques minutes, voire quelques secondes. Faire bouillir de l&amp;rsquo;eau à l&amp;rsquo;aide d&amp;rsquo;un vélo générateur prendra beaucoup plus de temps, mais c&amp;rsquo;est tout à fait possible. Nous avons acheté une bouilloire électrique de 12 V avec un réservoir isotherme d&amp;rsquo;un litre. Au cours d&amp;rsquo;un test, faire bouillir de l&amp;rsquo;eau pour une tasse de thé a pris un peu plus d&amp;rsquo;une heure à une puissance moyenne de 60W.&lt;/p&gt;
-&lt;p&gt;La bouilloire électrique peut également servir à préparer des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;bouillottes pour un confort thermique&lt;/a&gt;. Cela nécessite plus d&amp;rsquo;eau qu&amp;rsquo;une tasse de thé, mais à une température plus basse d&amp;rsquo;environ 60 degrés Celsius. Lors d&amp;rsquo;un test, faire chauffer un litre d&amp;rsquo;eau pour une (petite) bouillotte a pris 1 heure et 30 minutes à une puissance moyenne de 60 watts.&lt;/p&gt;
-&lt;p&gt;Après cet effort, la dernière chose dont vous avez besoin est une bouillotte. Encore plus fort, pendant cet effort, vous vous transformez en véritable chauffage d&amp;rsquo;une puissance de plusieurs centaines de watts, et vous pouvez augmenter la température de l&amp;rsquo;air dans une petite pièce. L&amp;rsquo;élément chauffant est en quelque sorte intégré au vélo générateur : c&amp;rsquo;est la personne qui l&amp;rsquo;utilise. Cependant, la bouilloire isotherme peut être placée dans une &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;marmite norvégienne&lt;/a&gt; et être utilisée jusqu&amp;rsquo;à 24 heures plus tard lorsque vous ne bougez pas et que vous avez besoin de vous réchauffer.&lt;/p&gt;
+&lt;p&gt;La bouilloire électrique peut également servir à préparer des &lt;a href=&#34;/fr/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;bouillottes pour un confort thermique&lt;/a&gt;. Cela nécessite plus d&amp;rsquo;eau qu&amp;rsquo;une tasse de thé, mais à une température plus basse d&amp;rsquo;environ 60 degrés Celsius. Lors d&amp;rsquo;un test, faire chauffer un litre d&amp;rsquo;eau pour une (petite) bouillotte a pris 1 heure et 30 minutes à une puissance moyenne de 60 watts.&lt;/p&gt;
+&lt;p&gt;Après cet effort, la dernière chose dont vous avez besoin est une bouillotte. Encore plus fort, pendant cet effort, vous vous transformez en véritable chauffage d&amp;rsquo;une puissance de plusieurs centaines de watts, et vous pouvez augmenter la température de l&amp;rsquo;air dans une petite pièce. L&amp;rsquo;élément chauffant est en quelque sorte intégré au vélo générateur : c&amp;rsquo;est la personne qui l&amp;rsquo;utilise. Cependant, la bouilloire isotherme peut être placée dans une &lt;a href=&#34;/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;marmite norvégienne&lt;/a&gt; et être utilisée jusqu&amp;rsquo;à 24 heures plus tard lorsque vous ne bougez pas et que vous avez besoin de vous réchauffer.&lt;/p&gt;
 &lt;h3 id=&#34;span-idpeltier3-réfrigérateur-peltierspan&#34;&gt;&lt;span id=&#34;peltier&#34;&gt;3. Réfrigérateur Peltier&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Les réfrigérateurs de 12V qu’on trouve dans le commerce sont chers. Après avoir fait des recherches sur les &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;générateurs thermoélectriques&lt;/a&gt; (GTE), l&amp;rsquo;idée d&amp;rsquo;un réfrigérateur Peltier est née. Un réfrigérateur Peltier est en fait une sorte de marmite norvégienne bien isolée sur laquelle est installé un GTE. Si on applique du courant, le module devient chaud d&amp;rsquo;un côté et froid de l&amp;rsquo;autre, ce qui refroidit l&amp;rsquo;intérieur de la boîte. Le refroidissement par GTE n&amp;rsquo;est pas particulièrement efficient. Cependant, il est silencieux, fonctionne sans aucun gaz de refroidissement dangereux et est le moyen le plus simple de fabriquer soi-même un réfrigérateur.&lt;/p&gt;
+&lt;p&gt;Les réfrigérateurs de 12V qu’on trouve dans le commerce sont chers. Après avoir fait des recherches sur les &lt;a href=&#34;/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;générateurs thermoélectriques&lt;/a&gt; (GTE), l&amp;rsquo;idée d&amp;rsquo;un réfrigérateur Peltier est née. Un réfrigérateur Peltier est en fait une sorte de marmite norvégienne bien isolée sur laquelle est installé un GTE. Si on applique du courant, le module devient chaud d&amp;rsquo;un côté et froid de l&amp;rsquo;autre, ce qui refroidit l&amp;rsquo;intérieur de la boîte. Le refroidissement par GTE n&amp;rsquo;est pas particulièrement efficient. Cependant, il est silencieux, fonctionne sans aucun gaz de refroidissement dangereux et est le moyen le plus simple de fabriquer soi-même un réfrigérateur.&lt;/p&gt;
 &lt;p&gt;Le réfrigérateur GTE est un prototype récent, qui doit encore être testé et amélioré. L&amp;rsquo;alimentation d&amp;rsquo;un GTE à pleine puissance nécessite environ 60 watts (12Vx5A), mesurés à la sortie du générateur. C&amp;rsquo;est un bon effort et le variateur permet de diminuer avec précision la résistance au niveau des pédales. Cependant, on s&amp;rsquo;est vite rendu compte qu&amp;rsquo;un GTE n&amp;rsquo;est pas suffisant pour la taille du compartiment de refroidissement. Nous en ajouterons un deuxième pour un effort plus important (60-100 watts).&lt;/p&gt;
 &lt;h3 id=&#34;appareils-ménagers-220v&#34;&gt;Appareils ménagers (220V)&lt;/h3&gt;
 &lt;p&gt;Notre tableau de bord comprend également un circuit 220V. Cela le rend compatible avec les appareils alimentés par le réseau électrique (110V aux États-Unis, 240V au Royaume-Uni). Le circuit 220V nécessite un onduleur. L&amp;rsquo;onduleur est trop grand pour être inclus dans le tableau de bord, nous l&amp;rsquo;avons donc placé dans une boîte sur le porte-bagages que nous avons fabriqué à l&amp;rsquo;avant.&lt;/p&gt;
-&lt;p&gt;Une prise 220V n&amp;rsquo;est pas nécessaire. De nombreux appareils 220V ont des alternatives 12V (ou 24V) qui sont &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;plus économes en énergie pour une production d&amp;rsquo;énergie décentralisée&lt;/a&gt;. Cependant, nous avons inclus un circuit 220V pour alimenter les appareils qui n&amp;rsquo;ont pas (encore) été remplacés ou transformés en appareils à basse tension : l&amp;rsquo;imprimante matricielle, la machine à coudre, la chaîne stéréo et le routeur.&lt;/p&gt;
+&lt;p&gt;Une prise 220V n&amp;rsquo;est pas nécessaire. De nombreux appareils 220V ont des alternatives 12V (ou 24V) qui sont &lt;a href=&#34;/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;plus économes en énergie pour une production d&amp;rsquo;énergie décentralisée&lt;/a&gt;. Cependant, nous avons inclus un circuit 220V pour alimenter les appareils qui n&amp;rsquo;ont pas (encore) été remplacés ou transformés en appareils à basse tension : l&amp;rsquo;imprimante matricielle, la machine à coudre, la chaîne stéréo et le routeur.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;imprimante matricielle et la machine à coudre sont difficiles à utiliser parce que leur consommation d&amp;rsquo;énergie varie rapidement. Par exemple, pour éviter que la tension ne tombe en dessous de 12V lors des pics de consommation élevés pendant l&amp;rsquo;impression, il faut pédaler très vite (environ 20V) pour fournir une inertie suffisante à la roue d&amp;rsquo;inertie. Un supercondensateur pourrait résoudre ce problème - nous testerons cette option dans les mois à venir. Une machine à coudre mécanique et une imprimante à pédale seraient beaucoup plus efficaces sur le plan énergétique, mais beaucoup plus encombrants.&lt;/p&gt;
 &lt;h2 id=&#34;span-idalternativeautres-configurations-possibles--vélo-générateur-avec-table-de-travailspan&#34;&gt;&lt;span id=&#34;alternative&#34;&gt;Autres configurations possibles : Vélo générateur avec table de travail&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Le tableau de bord est conçu pour alimenter une multitude d&amp;rsquo;appareils, mais vous pouvez suivre la même approche avec des résultats différents. Par exemple, si vous souhaitez uniquement recharger des batteries au plomb, un circuit de 14,4 V est suffisant. Vous pouvez utiliser un convertisseur buck et boost pour créer la tension dont vous avez besoin, par exemple pour construire un circuit de 3V, 6V, 9V ou 24V.&lt;/p&gt;
 &lt;p&gt;Cependant, si vous souhaitez principalement faire fonctionner des appareils de 24V, il est préférable d&amp;rsquo;ajuster le rapport de transmission. De même, si vous souhaitez uniquement recharger des batteries au plomb de 14,4V sur un système de 12V : &lt;a href=&#34;#gearratio&#34;&gt;ajustez le rapport de transmission&lt;/a&gt; pour générer 16-17V (pour compenser les pertes d&amp;rsquo;énergie dans le convertisseur buck). Le manuel vous explique comment faire.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image : La prise 220V.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image : La prise 220V.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : La prise 220V. 
 &lt;/figcaption&gt;
@@ -269,7 +269,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB). 
 &lt;/figcaption&gt;
@@ -277,7 +277,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image : A l&amp;amp;rsquo;intérieur de la boîte :  l&amp;amp;rsquo;onduleur, le régulateur de charge éolienne, la batterie au plomb.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image : A l&amp;amp;rsquo;intérieur de la boîte :  l&amp;amp;rsquo;onduleur, le régulateur de charge éolienne, la batterie au plomb.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : A l&#39;intérieur de la boîte :  l&#39;onduleur, le régulateur de charge éolienne, la batterie au plomb. 
 &lt;/figcaption&gt;
@@ -285,25 +285,25 @@
 &lt;/div&gt;
 &lt;p&gt;Nous avons fait le choix d&amp;rsquo;avoir un grand tableau de bord sur le guidon, ce qui présente des avantages et des inconvénients. Le fait d&amp;rsquo;avoir le tableau de bord directement sur le vélo le rend facile à lire et à utiliser. Cela rend également le vélo générateur transportable. Si un voisin a besoin d&amp;rsquo;une alimentation de secours, vous prenez le vélo et vous pouvez être sur place en un instant. En revanche, le fait d&amp;rsquo;avoir le tableau de bord sur le vélo ajoute des vibrations, ce qui augmente le bruit et les pertes d&amp;rsquo;énergie. Il est également nécessaire d&amp;rsquo;ajuster de temps en temps la tension de sortie des convertisseurs buck et boost.&lt;/p&gt;
 &lt;p&gt;Plus important encore, le fait d&amp;rsquo;avoir un tableau de bord aussi grand sur le vélo empêche d&amp;rsquo;installer un grand bureau sur le guidon. Cela pourrait être utile pour utiliser des outils électriques ou un ordinateur portable tout en fournissant du courant. Notre installation actuelle n&amp;rsquo;est pas idéale pour utiliser des outils électriques. Il faut deux personnes - une pour pédaler et l&amp;rsquo;autre pour utiliser l&amp;rsquo;outil électrique. De la même façon, vous pouvez alimenter l&amp;rsquo;ordinateur portable d&amp;rsquo;une autre personne, mais vous ne pouvez pas alimenter le vôtre pendant que vous l&amp;rsquo;utilisez.&lt;/p&gt;
-&lt;p&gt;Nous prévoyons de construire un vélo générateur avec un tableau de bord plus petit - un circuit 12V et deux ports USB - et un grand espace de travail sur le guidon. Ce type de vélo générateur rappelle les machines à pédales (mécaniques) &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;similaires du début du vingtième siècle&lt;/a&gt;. Une autre option serait de visser le panneau de commande sur le mur ou de le placer sur une étagère, et de placer le vélo générateur à côté. L&amp;rsquo;onduleur, la batterie au plomb et le régulateur de charge éolienne, qui sont à présent sur le porte-bagages, peuvent également être placés à distance du vélo.&lt;/p&gt;
+&lt;p&gt;Nous prévoyons de construire un vélo générateur avec un tableau de bord plus petit - un circuit 12V et deux ports USB - et un grand espace de travail sur le guidon. Ce type de vélo générateur rappelle les machines à pédales (mécaniques) &lt;a href=&#34;/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;similaires du début du vingtième siècle&lt;/a&gt;. Une autre option serait de visser le panneau de commande sur le mur ou de le placer sur une étagère, et de placer le vélo générateur à côté. L&amp;rsquo;onduleur, la batterie au plomb et le régulateur de charge éolienne, qui sont à présent sur le porte-bagages, peuvent également être placés à distance du vélo.&lt;/p&gt;
 &lt;h2 id=&#34;span-idhybridsystème-dalimentation-hybride-solairehumainspan&#34;&gt;&lt;span id=&#34;hybrid&#34;&gt;Système d&amp;rsquo;alimentation hybride solaire/humain&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Vous pourriez penser que notre vélo générateur est plus un gadget qu&amp;rsquo;une source d&amp;rsquo;énergie pratique pour la maison. Cela est vrai en partie. Notre générateur humain est l&amp;rsquo;appareil d&amp;rsquo;exercice parfait - la production d&amp;rsquo;énergie est motivante. Il est également pratique en cas d&amp;rsquo;urgence, surtout s&amp;rsquo;il y a suffisamment de puissance humaine - il peut produire jusqu&amp;rsquo;à 2,4 kWh par jour. Cependant, il ne fournira jamais assez d&amp;rsquo;énergie par jour, même pour un logement low-tech. Dans les faits, il n&amp;rsquo;y a pas assez de personnes prêtes à faire du vélo.&lt;/p&gt;
 &lt;p&gt;Par contre, un vélo générateur est un excellent complément à un système solaire photovoltaïque hors réseau, du moins pour un logement à faible consommation d&amp;rsquo;énergie. La production d&amp;rsquo;énergie du vélo générateur ne dépend ni du temps, ni des saisons, ni de l&amp;rsquo;heure de la journée. L&amp;rsquo;énergie humaine peut fournir un supplément d&amp;rsquo;énergie par mauvais temps, ce qui réduit le besoin en batteries coûteuses et peu écologiques. C&amp;rsquo;est particulièrement utile en hiver, lorsque le système photovoltaïque produit beaucoup moins d&amp;rsquo;énergie et que l&amp;rsquo;effort nécessaire pour faire fonctionner le vélo permet également de se réchauffer. L&amp;rsquo;énergie solaire est suffisante en été, lorsqu&amp;rsquo;il fait souvent trop chaud pour utiliser un vélo d’appartement.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image : Le vélo générateur à côté du système solaire photovoltaïque. L&amp;amp;rsquo;objectif final est de combiner les deux systèmes d&amp;amp;rsquo;alimentation.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image : Le vélo générateur à côté du système solaire photovoltaïque. L&amp;amp;rsquo;objectif final est de combiner les deux systèmes d&amp;amp;rsquo;alimentation.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le vélo générateur à côté du système solaire photovoltaïque. L&#39;objectif final est de combiner les deux systèmes d&#39;alimentation. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Avec une puissance de 50 à 100 watts, le vélo générateur est plus puissant que les deux panneaux solaires qui se trouvent sur le balcon à côté : le panneau solaire de 50 W qui alimente les lampes du salon et celui de 30 W qui fait fonctionner le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/about.html&#34;&gt;site internet solaire&lt;/a&gt;. Les panneaux solaires atteignent rarement - voire jamais - leur rendement maximal et, par mauvais temps, ils produisent beaucoup moins d&amp;rsquo;énergie que le vélo générateur. Lorsque le ciel est couvert de nuages noirs, la production d&amp;rsquo;énergie tombe presque à zéro, et si cela dure deux jours, les lampes et le site internet s&amp;rsquo;éteignent. Une ou deux heures par jour sur le vélo générateur pourraient résoudre ce problème. De même, la puissance des pédales pourrait faire fonctionner des outils électriques ou d&amp;rsquo;autres appareils sans puiser dans le stockage d&amp;rsquo;énergie du système photovoltaïque.&lt;/p&gt;
+&lt;p&gt;Avec une puissance de 50 à 100 watts, le vélo générateur est plus puissant que les deux panneaux solaires qui se trouvent sur le balcon à côté : le panneau solaire de 50 W qui alimente les lampes du salon et celui de 30 W qui fait fonctionner le &lt;a href=&#34;/fr/about.html&#34;&gt;site internet solaire&lt;/a&gt;. Les panneaux solaires atteignent rarement - voire jamais - leur rendement maximal et, par mauvais temps, ils produisent beaucoup moins d&amp;rsquo;énergie que le vélo générateur. Lorsque le ciel est couvert de nuages noirs, la production d&amp;rsquo;énergie tombe presque à zéro, et si cela dure deux jours, les lampes et le site internet s&amp;rsquo;éteignent. Une ou deux heures par jour sur le vélo générateur pourraient résoudre ce problème. De même, la puissance des pédales pourrait faire fonctionner des outils électriques ou d&amp;rsquo;autres appareils sans puiser dans le stockage d&amp;rsquo;énergie du système photovoltaïque.&lt;/p&gt;
 &lt;p&gt;Il est également possible d&amp;rsquo;utiliser le tableau de bord avec un panneau solaire au lieu d&amp;rsquo;un vélo générateur. Il suffit de remplacer le &lt;a href=&#34;#wind&#34;&gt;régulateur de charge éolienne&lt;/a&gt; par un régulateur de charge solaire. Vous pouvez alors utiliser l&amp;rsquo;énergie solaire pour alimenter directement des appareils - sans nécessairement utiliser un régulateur de charge solaire et une batterie. Si vous remplacez le régulateur de charge éolienne par un régulateur de charge hybride solaire/éolienne, vous pouvez utiliser les deux sources d&amp;rsquo;énergie pour recharger les batteries et alimenter directement les appareils. L&amp;rsquo;énergie solaire et l&amp;rsquo;énergie humaine peuvent également être combinées, ce qui augmente la puissance de sortie.&lt;/p&gt;
-&lt;p&gt;En combinant l&amp;rsquo;énergie solaire et l&amp;rsquo;énergie humaine, il devrait être possible de faire un pas de plus &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;vers un logement urbain hors réseau&lt;/a&gt;. L&amp;rsquo;objectif est d&amp;rsquo;ajouter un autre panneau solaire de 50W, de déconnecter davantage d&amp;rsquo;appareils du réseau (notamment le réfrigérateur) et de conserver le stockage des batteries tel quel.&lt;/p&gt;
+&lt;p&gt;En combinant l&amp;rsquo;énergie solaire et l&amp;rsquo;énergie humaine, il devrait être possible de faire un pas de plus &lt;a href=&#34;/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;vers un logement urbain hors réseau&lt;/a&gt;. L&amp;rsquo;objectif est d&amp;rsquo;ajouter un autre panneau solaire de 50W, de déconnecter davantage d&amp;rsquo;appareils du réseau (notamment le réfrigérateur) et de conserver le stockage des batteries tel quel.&lt;/p&gt;
 &lt;h2 id=&#34;span-idmanual-bikemanuel--le-vélo-générateurspan&#34;&gt;&lt;span id=&#34;manual-bike&#34;&gt;Manuel : Le Vélo Générateur&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image :  Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image :  Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image :  Le système d&#39;entraînement par friction. 
 &lt;/figcaption&gt;
@@ -338,7 +338,7 @@
 &lt;p&gt;La tension exacte dont vous avez besoin - et donc la taille exacte du galet - dépend de ce que vous voulez faire exactement avec le vélo. Nous abordons ce point en détail dans le &lt;a href=&#34;#manual-dashboard&#34;&gt;manuel du tableau de bord&lt;/a&gt;. Imaginons que vous vouliez charger des batteries au plomb (qui nécessitent 14,4 V). Vous utilisez un convertisseur buck (qui abaisse la tension d&amp;rsquo;entrée), vous devrez donc produire près de 17V pour compenser les pertes dans la conversion de tension. Cela donne un diamètre de galet de 41,42mm. Cette configuration apparaît dans l&amp;rsquo;illustration ci-dessous.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator-fr_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator-fr_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -360,7 +360,7 @@
 &lt;p&gt;Déterminer la taille du galet n&amp;rsquo;est pas tout. Il peut être difficile de trouver un galet du bon diamètre, fabriqué dans le matériau adéquat et compatible avec l&amp;rsquo;arbre du générateur. Nous avons essayé une douzaine de galets jusqu&amp;rsquo;à ce que nous trouvions le bon. Une roue d&amp;rsquo;inertie a une surface dure et nécessite un galet souple en caoutchouc ou en polyuréthane. Nous avons constaté qu&amp;rsquo;un tampon amortisseur en métal et en caoutchouc permettait une friction optimale avec notre roue d&amp;rsquo;inertie. Nous l&amp;rsquo;avons amené dans un atelier de métallurgie où on y a fait percer un trou de 10 mm.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image : Un aperçu de nos galets de test.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image : Un aperçu de nos galets de test.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un aperçu de nos galets de test. 
 &lt;/figcaption&gt;
@@ -372,7 +372,7 @@
 &lt;p&gt;Le générateur est livré avec un pignon ou une poulie d&amp;rsquo;entraînement intégré. Vous devez le retirer pour fixer le galet. Un écrou de blocage en nylon à filetage inversé maintient le pignon ou la poulie d&amp;rsquo;entraînement. Vous devez le dévisser vers la droite. Vous aurez probablement besoin d&amp;rsquo;un serre-joint pour y parvenir.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image : Le générateur avec un arbre fileté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image : Le générateur avec un arbre fileté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le générateur avec un arbre fileté. 
 &lt;/figcaption&gt;
@@ -380,7 +380,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image : Le générateur avec le galet de 41 mm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image : Le générateur avec le galet de 41 mm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le générateur avec le galet de 41 mm. 
 &lt;/figcaption&gt;
@@ -392,7 +392,7 @@
 &lt;p&gt;Nous avons vissé le générateur à une planche de bois, puis nous l&amp;rsquo;avons appuyé contre la roue d&amp;rsquo;inertie à l&amp;rsquo;aide d&amp;rsquo;une structure de support en bois. La planche est fixée au vélo à l&amp;rsquo;aide d&amp;rsquo;une solide charnière de porte. Cela permet d&amp;rsquo;adapter l&amp;rsquo;angle selon lequel le galet est en contact avec la roue d&amp;rsquo;inertie. Le support repose sur une cale en liège qui amortit les vibrations. Voir notre &lt;a href=&#34;#first&#34;&gt;premier prototype&lt;/a&gt; pour une autre méthode.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le système d&#39;entraînement par friction. 
 &lt;/figcaption&gt;
@@ -404,7 +404,7 @@
 &lt;p&gt;Vous pouvez régler la tension de sortie en tournant une petite vis sur le composant. Certains convertisseurs buck et boost sont équipés d&amp;rsquo;un petit écran numérique qui indique la tension de sortie. Si ce n&amp;rsquo;est pas le cas, vous pouvez utiliser un multimètre pour régler la tension de sortie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -428,7 +428,7 @@
 &lt;p&gt;Vous avez besoin de câbles, de connecteurs, de diodes, de fusibles et d&amp;rsquo;interrupteurs pour tout connecter. Toutes ces pièces peuvent porter à confusion, alors voici ce que vous devez savoir.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -444,7 +444,7 @@
 &lt;p&gt;Nous avons acheté des interrupteurs avec les câbles déjà fixés car nous préférions ne pas souder les connexions. Cependant, nous avons dû les souder quand même, car les câbles épais prenaient trop de place. Les interrupteurs sans lumière et avec des câbles déjà fixés plus fins simplifient cette partie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image : Câblage des interrupteurs.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image : Câblage des interrupteurs.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Câblage des interrupteurs. 
 &lt;/figcaption&gt;
@@ -455,7 +455,7 @@
 &lt;h3 id=&#34;span-idinstrumentsles-indicateurs-du-tableau-de-bordspan&#34;&gt;&lt;span id=&#34;instruments&#34;&gt;Les indicateurs du tableau de bord&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -464,7 +464,7 @@
 &lt;p&gt;Les voltmètres - ampèremètres analogiques sont plus précis au milieu de leur plage, nous choisissons donc un voltmètre qui va jusqu&amp;rsquo;à 30V et un ampèremètre qui va jusqu&amp;rsquo;à 15A. Un multimètre numérique est plus compact, mais les analogiques affichent mieux les variations. Au-dessus, il y a un circuit USB pour brancher une petite lampe LED. Cela vous permet de garder un œil sur le voltmètre et ampèremètre dans l&amp;rsquo;obscurité. C&amp;rsquo;est également pratique pour vérifier rapidement si le système fonctionne.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image : Câblage d&amp;amp;rsquo;un voltmètre et d&amp;amp;rsquo;un ampèremètre analogiques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image : Câblage d&amp;amp;rsquo;un voltmètre et d&amp;amp;rsquo;un ampèremètre analogiques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Câblage d&#39;un voltmètre et d&#39;un ampèremètre analogiques. 
 &lt;/figcaption&gt;
@@ -475,14 +475,14 @@
 &lt;h3 id=&#34;span-idpanelpanneau-du-tableau-de-bord-et-fixationspan&#34;&gt;&lt;span id=&#34;panel&#34;&gt;Panneau du tableau de bord et fixation&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -493,7 +493,7 @@
 &lt;h2 id=&#34;span-idcompletetableau-de-bord-complet-span&#34;&gt;&lt;span id=&#34;complete&#34;&gt;Tableau de bord complet :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB. 
 &lt;/figcaption&gt;
@@ -502,7 +502,7 @@
 &lt;h2 id=&#34;span-id5vcircuit-5v-span&#34;&gt;&lt;span id=&#34;5V&#34;&gt;Circuit 5V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB. 
 &lt;/figcaption&gt;
@@ -511,7 +511,7 @@
 &lt;h2 id=&#34;span-id12vcircuit-12v-span&#34;&gt;&lt;span id=&#34;12V&#34;&gt;Circuit 12V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11 : Convertisseur Buck. 12 : Variateur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11 : Convertisseur Buck. 12 : Variateur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  11 : Convertisseur Buck. 12 : Variateur. 
 &lt;/figcaption&gt;
@@ -520,7 +520,7 @@
 &lt;h2 id=&#34;span-id14vcircuit-144v-span&#34;&gt;&lt;span id=&#34;14V&#34;&gt;Circuit 14.4V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie. 
 &lt;/figcaption&gt;
@@ -529,7 +529,7 @@
 &lt;h2 id=&#34;span-id220vcircuit-220v-span&#34;&gt;&lt;span id=&#34;220V&#34;&gt;Circuit 220V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17 : Convertisseur Buck. 18 : Onduleur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17 : Convertisseur Buck. 18 : Onduleur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  17 : Convertisseur Buck. 18 : Onduleur. 
 &lt;/figcaption&gt;
@@ -648,21 +648,21 @@
 &lt;h2 id=&#34;span-idfirstle-premier-prototypespan&#34;&gt;&lt;span id=&#34;first&#34;&gt;Le premier prototype&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -695,15 +695,15 @@
     
     <item>
       <title>Le site imprimé : premier volume en français</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/</link>
+      <link>/fr/2021/12/the-printed-website-volume-iii-and-more/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png" type="image/png" length="26482" ></enclosure>
+      <enclosure url="/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png" type="image/png" length="26482" ></enclosure>
       <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/</guid>
+      <guid>/fr/2021/12/the-printed-website-volume-iii-and-more/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le site imprimé : premier volume en français 
 &lt;/figcaption&gt;
@@ -726,7 +726,7 @@
 &lt;p&gt;&lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2018-2021-version-en-fran%C3%A7ais/paperback/product-27kggw.html&#34;&gt;Low-tech Magazine 2018-2021 (Version en Français)&lt;/a&gt;, Kris De Decker, 400pp., ISBN 9781678137489.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/tomeIII-candle_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/tomeIII-candle_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le site imprimé : premier volume en français 
 &lt;/figcaption&gt;
@@ -758,15 +758,15 @@
     
     <item>
       <title>Le monde moderne pourrait-il fonctionner à la seule énergie humaine ?</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/</link>
+      <link>/fr/2017/05/could-we-run-modern-society-on-human-power-alone/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-individual-room_dithered.png" type="image/png" length="23356" ></enclosure>
+      <enclosure url="/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-individual-room_dithered.png" type="image/png" length="23356" ></enclosure>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/</guid>
+      <guid>/fr/2017/05/could-we-run-modern-society-on-human-power-alone/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-individual-room_dithered.png&#34; alt=&#39;Image: Une chambre d’étudiant alimentée à l’énergie humaine, Golnar Abbasi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-individual-room_dithered.png&#34; alt=&#39;Image: Une chambre d’étudiant alimentée à l’énergie humaine, Golnar Abbasi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: [Une chambre d’étudiant alimentée à l’énergie humaine](http://www.humanpowerplant.be/2017/05/for-rent-750-human-powered-student-rooms.html), Golnar Abbasi. 
 &lt;/figcaption&gt;
@@ -776,17 +776,17 @@
 &lt;p&gt;Pour déterminer dans quelle mesure l’énergie humaine pourrait satisfaire aux exigences du mode de vie contemporain, nous avons élaboré une proposition architecturale pour la reconversion d’une tour vacante de 22 étages, située sur le campus de l’Université d’Utrecht aux Pays-Bas, en une résidence étudiante de 750 personnes autonome, alimentée exclusivement à l’énergie humaine. En parallèle, nous construisons un prototype de l’&lt;em&gt;Human Power Plant&lt;/em&gt;, une « Centrale à Énergie Humaine » destinée à alimenter la communauté en énergie.&lt;/p&gt;
 &lt;p&gt;Le défi posé par l’&lt;em&gt;Human Power Plant&lt;/em&gt; est à la fois d’ordre technique et social. Technique, d’abord, du fait du manque de recherches scientifiques et techniques menées sur le sujet de la production d’énergie humaine. Social, ensuite, car contrairement à une éolienne, un panneau solaire ou un baril de pétrole, il faut à un être humain une certaine &lt;em&gt;motivation&lt;/em&gt; pour produire de l’énergie par lui-même.&lt;/p&gt;
 &lt;h2 id=&#34;splendeurs-et-misères-de-lénergie-humaine&#34;&gt;Splendeurs et misères de l’énergie humaine&lt;/h2&gt;
-&lt;p&gt;Pendant la majeure partie de l’histoire de l’humanité, les humains ont constitué eux-mêmes la principale source d’énergie mécanique. Construire des villes, creuser des canaux, produire de la nourriture, nettoyer et laver des vêtements, communiquer et se déplacer : pendant des siècles, toutes ces activités et ouvrages furent principalement réalisés grâce à l’énergie musculaire humaine. L’énergie animale vint plus tard s’ajouter à l’énergie humaine, tandis que les moulins à eau et moulins à vent prirent plus tardivement un essor considérable, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;à partir du Moyen-Age&lt;/a&gt;. Toutefois, les hommes et femmes réalisaient eux-mêmes l’essentiel des travaux et ouvrages.&lt;/p&gt;
+&lt;p&gt;Pendant la majeure partie de l’histoire de l’humanité, les humains ont constitué eux-mêmes la principale source d’énergie mécanique. Construire des villes, creuser des canaux, produire de la nourriture, nettoyer et laver des vêtements, communiquer et se déplacer : pendant des siècles, toutes ces activités et ouvrages furent principalement réalisés grâce à l’énergie musculaire humaine. L’énergie animale vint plus tard s’ajouter à l’énergie humaine, tandis que les moulins à eau et moulins à vent prirent plus tardivement un essor considérable, &lt;a href=&#34;/fr/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;à partir du Moyen-Age&lt;/a&gt;. Toutefois, les hommes et femmes réalisaient eux-mêmes l’essentiel des travaux et ouvrages.&lt;/p&gt;
 &lt;p&gt;De nos jours, cette énergie humaine ne joue plus qu’un rôle anecdotique &amp;ndash; du moins dans les pays industrialisés. Le moindre effort physique est aujourd’hui motorisé et automatisé. Les énergies fossiles fournissent désormais une grande partie de l’énergie mécanique, que ce soit comme combustibles primaires ou après conversion en électricité. Mais ces « progrès » ne sont pas sans contrepartie. La société industrielle présente une forte dépendance aux énergies fossiles autant qu’à l’électricité, ce qui la rend extrêmement vulnérable à la moindre interruption d’approvisionnement énergétique.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/digging-the-panama-canal_dithered.png&#34; alt=&#39;Le creusement du Canal de Panama. Image : National Archives.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/digging-the-panama-canal_dithered.png&#34; alt=&#39;Le creusement du Canal de Panama. Image : National Archives.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le creusement du Canal de Panama. Image : [National Archives](https://www.neh.gov/humanities/2011/januaryfebruary/feature/digging-across-panama). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Par ailleurs, les ressources fossiles ne sont pas disponibles en quantités illimitées et leur utilisation intensive est à l’origine d’une multitude de problèmes. Les sources d’énergies renouvelables, comme le solaire ou l’éolien, ne sont quant à elles &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;pas disponibles en permanence&lt;/a&gt;, tandis que la fabrication de ces installations à grande échelle &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;repose elle aussi largement sur les énergies fossiles&lt;/a&gt;. En parallèle de cela, une partie de la population pratique une activité physique ou se rend régulièrement à la salle de sport afin de se maintenir en forme et en bonne santé, générant une grande quantité d’énergie perdue à défaut d’être utilisée. Le projet &lt;em&gt;Human Power Plant&lt;/em&gt; a pour objectif de rétablir le lien &amp;ndash; aujourd’hui rompu &amp;ndash; entre consommation et production d’énergie.&lt;/p&gt;
+&lt;p&gt;Par ailleurs, les ressources fossiles ne sont pas disponibles en quantités illimitées et leur utilisation intensive est à l’origine d’une multitude de problèmes. Les sources d’énergies renouvelables, comme le solaire ou l’éolien, ne sont quant à elles &lt;a href=&#34;/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;pas disponibles en permanence&lt;/a&gt;, tandis que la fabrication de ces installations à grande échelle &lt;a href=&#34;/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;repose elle aussi largement sur les énergies fossiles&lt;/a&gt;. En parallèle de cela, une partie de la population pratique une activité physique ou se rend régulièrement à la salle de sport afin de se maintenir en forme et en bonne santé, générant une grande quantité d’énergie perdue à défaut d’être utilisée. Le projet &lt;em&gt;Human Power Plant&lt;/em&gt; a pour objectif de rétablir le lien &amp;ndash; aujourd’hui rompu &amp;ndash; entre consommation et production d’énergie.&lt;/p&gt;
 &lt;h2 id=&#34;pourquoi-lénergie-humaine-&#34;&gt;Pourquoi l’énergie humaine ?&lt;/h2&gt;
 &lt;p&gt;Comparée aux combustibles fossiles et aux énergies renouvelables, l’énergie d’origine humaine présente de nombreux avantages. Un être humain peut en effet générer une puissance au moins équivalente à celle produite par 1 m2 de panneau photovoltaïque un jour ensoleillé &amp;ndash; ou encore 10 m2 de panneaux un jour de forte couverture nuageuse. Par ailleurs, l’énergie humaine peut être considérée comme une source d’énergie « modulable » (en anglais, &lt;em&gt;dispatchable&lt;/em&gt;), au même titre que les combustibles fossiles. L’énergie qu’elle fournit ne dépend pas des saisons ni des conditions météorologiques ou de l’heure de la journée. En réalité, les êtres humains pourraient même être envisagés, sur le plan énergétique, comme étant à la fois une source d’énergie renouvelable et des batteries, c’est à dire des systèmes combinant production et stockage.&lt;/p&gt;
 &lt;p&gt;Contrairement aux énergies fossiles, l’énergie humaine peut ainsi constituer une source d’énergie « propre », n’induisant que peu voire pas de pollution de l’air ni des sols. De plus, la quantité d’énergie potentiellement mobilisable est proportionnelle à la population, et augmente par conséquent avec l’accroissement démographique, là où les autres ressources énergétiques doivent être partagées entre un nombre toujours croissant de personnes. En outre, les humains ne sont pas (encore) fabriqués industriellement dans des usines, contrairement aux panneaux photovoltaïques, éoliennes et batteries. Dans le cadre d’un régime alimentaire approprié, l’énergie humaine peut donc être pratiquement neutre en carbone.&lt;/p&gt;
@@ -796,7 +796,7 @@
 &lt;p&gt;Enfin, les humains constituent une source d’énergie d’une grande polyvalence. Ils sont non seulement en mesure de fournir une énergie musculaire qui peut ensuite être convertie en énergie mécanique ou électrique, mais peuvent également générer de l’énergie thermique, en particulier au cours d’une activité physique : pendant un effort intense, un humain peut ainsi générer jusqu’à 500 watts de chaleur corporelle. En parallèle de cela, les excrétas humains peuvent être convertis en biogaz et en engrais. On pourrait donc affirmer que l’énergie humaine est, probablement, la source d’énergie la plus abondante, polyvalente et durable dont nous disposions sur Terre.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-water-pressure_dithered.png&#34; alt=&#39;Detail from the communal shower and laundry floor, by Golnar Abbasi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-water-pressure_dithered.png&#34; alt=&#39;Detail from the communal shower and laundry floor, by Golnar Abbasi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Detail from the [communal shower and laundry floor](http://www.humanpowerplant.be/2017/05/communal-shower-laundry-floors.html), by Golnar Abbasi. 
 &lt;/figcaption&gt;
@@ -812,19 +812,19 @@
 &lt;p&gt;Au cours des recherches menées dans le cadre du projet &lt;em&gt;Human Power Plant&lt;/em&gt;, nous avons suivi un programme d’entraînement physique, afin de devenir de meilleurs « producteurs d’énergie humaine ». Un des premiers enseignements est qu’il existe des écarts notables d’une personne à une autre, y compris entre individus de même âge, sexe et forme physique.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-power-production-fitness_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-power-production-fitness_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Melle, l’athlète de l’équipe, était capable de soulever des poids plus lourds sur presque tous les appareils de musculation. Kris, a contrario, semblait doté d’une meilleure endurance, et pouvait surpasser Melle sur les exercices de renforcement des triceps et des épaules. De telles différences doivent nécessairement être prises en considération pour parvenir à la meilleure efficacité possible lors de la production &amp;ndash; or il n’existe pas, en la matière, de solution toute faite universellement généralisable.&lt;/p&gt;
 &lt;p&gt;Nous avons par ailleurs observé que les appareils de musculation peuvent produire &lt;a href=&#34;http://www.humanpowerplant.be/2017/05/power-potential-various-exercise-machines.html&#34;&gt;beaucoup d’énergie en un court laps de temps&lt;/a&gt;, ce qui, dans la perspective d’une production d’énergie humaine, les rend complémentaires aux cycles stationnaires. Un cycle de cinq minutes (incluant deux pauses d’une minute chacune) peut ainsi permettre de fournir plus de 15 Wh d’électricité, soit l’équivalent d’un quart de charge pour la batterie d’un ordinateur portable, ou de 3 heures d’éclairage pour une lampe de bureau.&lt;/p&gt;
-&lt;p&gt;Enfin, nous nous sommes assez vite rendu compte que les salles de sport sont des lieux assez ennuyeux. Les machines y sont souvent disposées en ligne, de sorte que tout le monde à la regard tourné dans la même direction, ce qui exclut d’office toute communication au-delà de quelques banalités. En outre, si le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;cycle stationnaire&lt;/a&gt; peut être considéré comme une des machines les plus efficaces pour produire de l’énergie musculaire humaine, il s’est vite avéré que pédaler sur place est tout sauf une partie de plaisir.&lt;/p&gt;
+&lt;p&gt;Enfin, nous nous sommes assez vite rendu compte que les salles de sport sont des lieux assez ennuyeux. Les machines y sont souvent disposées en ligne, de sorte que tout le monde à la regard tourné dans la même direction, ce qui exclut d’office toute communication au-delà de quelques banalités. En outre, si le &lt;a href=&#34;/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;cycle stationnaire&lt;/a&gt; peut être considéré comme une des machines les plus efficaces pour produire de l’énergie musculaire humaine, il s’est vite avéré que pédaler sur place est tout sauf une partie de plaisir.&lt;/p&gt;
 &lt;h2 id=&#34;comment-motiver-la-production-dénergie-humaine-&#34;&gt;Comment motiver la production d’énergie humaine ?&lt;/h2&gt;
 &lt;p&gt;Ce dernier point est loin d’être anecdotique. Contrairement à une éolienne, un panneau solaire ou même un baril de pétrole, l’énergie humaine ne peut se passer d’une certaine &lt;em&gt;motivation&lt;/em&gt; pour être produite. Dans l’hypothèse d’une conversion massive à l’énergie humaine, tout le monde serait-il prêt à produire sa propre énergie lui-même au nom de l’impératif écologique ? Certaines personnes préféreraient-elles que d’autres le fassent à leur place, quitte à les payer, voire à les y &lt;em&gt;forcer&lt;/em&gt; ?&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/the-whip-how-to-motivate-human-power_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/the-whip-how-to-motivate-human-power_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -839,7 +839,7 @@
 &lt;p&gt;Nous souhaitions que la conception de notre prototype de &lt;em&gt;Centrale à Énergie Humaine&lt;/em&gt; soit en mesure de relever ces défis, en y apportant un certain nombre de réponses concrètes. En collaboration avec des &lt;em&gt;makers&lt;/em&gt; et des coachs sportifs, nous imaginé des appareils de fitness adaptés aux différents types d’énergie que peut produire un être humain, qui soient ludiques à utiliser tout en produisant un maximum d’énergie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/drawing-prototype-human-power-plant_dithered.png&#34; alt=&#39;Différents composants du prototype Human Power Plant. Illustration: Melle Smets.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/drawing-prototype-human-power-plant_dithered.png&#34; alt=&#39;Différents composants du prototype Human Power Plant. Illustration: Melle Smets.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Différents composants du prototype *Human Power Plant*. Illustration: Melle Smets. 
 &lt;/figcaption&gt;
@@ -850,14 +850,14 @@
 &lt;p&gt;Pour plus de motivation, toutes les machines d’exercice de notre prototype de centrale à énergie humaine font face à un jacuzzi et à une douche où les filles sont invitées à encourager les garçons à contracter leurs muscles et à produire plus d’énergie. Bien sûr, les rôles des deux sexes pourraient être inversés, mais lors des premières expériences, nous avons découvert que cette solution était moins efficace sur le plan énergétique. Les filles ne semblent pas motivées par les garçons dans les jacuzzis, du moins pas autant que les garçons le sont par les filles dans les jacuzzis. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-power-plant-prototype-under-construction_dithered.png&#34; alt=&#39;Le prototype de l’Human Power Plant en cours de construction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-power-plant-prototype-under-construction_dithered.png&#34; alt=&#39;Le prototype de l’Human Power Plant en cours de construction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le prototype de l’*Human Power Plant* en cours de construction. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Le jacuzzi évoqué ici, loin d’être un gadget, est en réalité un composant essentiel du dispositif que nous avons conçu. Ceci est notamment lié au choix de l’&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;eau sous pression&lt;/a&gt; comme vecteur énergétique. L’énergie cinétique, produite par les humains et leurs animaux de compagnie est pompée vers une cuve sous pression, en sortie de laquelle l’eau pressurisée alimente des turbines hydrauliques ; l’énergie fournie peut ainsi être soit mécanique, soit électrique. Au sein de ce système hydropneumatique organisé en circuit fermé, le réservoir formé par le jacuzzi constitue donc le « stockage énergétique », et reçoit le surplus d’énergie cinétique produit par les appareils de gym.&lt;/p&gt;
-&lt;p&gt;En choisissant l’eau sous pression, notre parti pris était de rendre l’énergie plus visible et audible, c’est à dire de lui conférer une dimension sensorielle généralement absente. Mais, surtout, ce vecteur énergétique permet de générer de l’électricité sans recourir à un parc de &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;batteries&lt;/a&gt; ou à des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;composants électroniques&lt;/a&gt;, dont le cycle de vie pose de nombreux problèmes. Dans notre &lt;em&gt;human power plant&lt;/em&gt;, un &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/&#34;&gt;accumulateur hydraulique&lt;/a&gt;  se substitue aux traditionnelles &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;batteries&lt;/a&gt;. Ce dispositif permet de lisser des variations épisodiques dans la production d’énergie en assurant un voltage constant en sortie. Dans ce système, le stockage énergétique à long terme est quant à lui assuré par les humains eux-mêmes.&lt;/p&gt;
+&lt;p&gt;Le jacuzzi évoqué ici, loin d’être un gadget, est en réalité un composant essentiel du dispositif que nous avons conçu. Ceci est notamment lié au choix de l’&lt;a href=&#34;/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;eau sous pression&lt;/a&gt; comme vecteur énergétique. L’énergie cinétique, produite par les humains et leurs animaux de compagnie est pompée vers une cuve sous pression, en sortie de laquelle l’eau pressurisée alimente des turbines hydrauliques ; l’énergie fournie peut ainsi être soit mécanique, soit électrique. Au sein de ce système hydropneumatique organisé en circuit fermé, le réservoir formé par le jacuzzi constitue donc le « stockage énergétique », et reçoit le surplus d’énergie cinétique produit par les appareils de gym.&lt;/p&gt;
+&lt;p&gt;En choisissant l’eau sous pression, notre parti pris était de rendre l’énergie plus visible et audible, c’est à dire de lui conférer une dimension sensorielle généralement absente. Mais, surtout, ce vecteur énergétique permet de générer de l’électricité sans recourir à un parc de &lt;a href=&#34;/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;batteries&lt;/a&gt; ou à des &lt;a href=&#34;/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;composants électroniques&lt;/a&gt;, dont le cycle de vie pose de nombreux problèmes. Dans notre &lt;em&gt;human power plant&lt;/em&gt;, un &lt;a href=&#34;/fr/2023/09/power-water-networks/&#34;&gt;accumulateur hydraulique&lt;/a&gt;  se substitue aux traditionnelles &lt;a href=&#34;/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;batteries&lt;/a&gt;. Ce dispositif permet de lisser des variations épisodiques dans la production d’énergie en assurant un voltage constant en sortie. Dans ce système, le stockage énergétique à long terme est quant à lui assuré par les humains eux-mêmes.&lt;/p&gt;
 &lt;h2 id=&#34;a-louer-750-chambres-étudiantes-alimentées-à-lénergie-humaine&#34;&gt;A louer : 750 chambres étudiantes alimentées à l’énergie humaine.&lt;/h2&gt;
 &lt;p&gt;Notre démarche de recherche visait à déterminer dans quelle mesure les besoins énergétiques du mode de vie contemporain pourraient effectivement être satisfaits grâce à la seule énergie humaine. Afin de tester cette hypothèse initiale, nous avons conçu, en collaboration avec une équipe d’architectes, les plans pour la reconversion d’une tour vacante de 22 étages en une résidence étudiante de 750 personnes alimentée exclusivement à l’énergie humaine.&lt;/p&gt;
 &lt;p&gt;Le &lt;a href=&#34;https://nl.wikipedia.org/wiki/Willem_C._van_Unnikgebouw#/media/File:Willem_C._van_Unnikgebouw.JPG&#34;&gt;bâtiment Willem C. Van Unnik&lt;/a&gt; est le plus grand bâtiment du campus de l’Université d’Utrecht. Laissé vacant depuis plusieurs années, son entretien représente un coût important pour l’université, propriétaire de l’édifice.&lt;/p&gt;
@@ -867,7 +867,7 @@
 &lt;p&gt;En cohérence avec l’ambition, affichée par l’Université, de neutralité carbone à l’horizon 2030, nous proposons de transformer ce « problème » en une opportunité pour la nécessaire transition environnementale du campus. L’empreinte écologique de la résidence étudiante Van Unnik, entièrement alimentée à l’énergie humaine, sera quasiment nulle pendant son fonctionnement, tandis que l’impact de la construction est évité grâce à la conservation du bâtiment actuel.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-overview_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-overview_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -878,7 +878,7 @@
 &lt;p&gt;D’après nos premières estimations, l’hypothèse d’une résidence étudiante fonctionnant exclusivement à l’énergie d’origine humaine semble réaliste. Les étudiants bénéficieraient du confort d’un mode de vie « contemporain » &amp;ndash; comprendre « occidental » &amp;ndash; incluant, entre autres, douches chaudes, ordinateurs et machines à laver. En contrepartie de quoi ils s’engageraient à produire de l’énergie 2 à 6 heures par jour, en fonction de la saison ainsi que des préférences individuelles et collectives au sein de la résidence.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-laundry-drying_dithered.png&#34; alt=&#39;Image: Golnar Abbasi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2017/05/could-we-run-modern-society-on-human-power-alone/images/dithers/human-powered-student-building-laundry-drying_dithered.png&#34; alt=&#39;Image: Golnar Abbasi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Golnar Abbasi. 
 &lt;/figcaption&gt;

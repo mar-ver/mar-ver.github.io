@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE 한국어</title>
-    <link>https://lowtechmag.gitlab.io/solar/ko/tags/</link>
+    <link>/ko/tags/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/ko/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="/ko/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>역사(history)</title>
-      <link>https://lowtechmag.gitlab.io/solar/ko/tags/%EC%97%AD%EC%82%AChistory/</link>
-      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <link>/ko/tags/%EC%97%AD%EC%82%AChistory/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/ko/tags/%EC%97%AD%EC%82%AChistory/</guid>
+      <guid>/ko/tags/%EC%97%AD%EC%82%AChistory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>음식(food)</title>
-      <link>https://lowtechmag.gitlab.io/solar/ko/tags/%EC%9D%8C%EC%8B%9Dfood/</link>
-      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <link>/ko/tags/%EC%9D%8C%EC%8B%9Dfood/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/ko/tags/%EC%9D%8C%EC%8B%9Dfood/</guid>
+      <guid>/ko/tags/%EC%9D%8C%EC%8B%9Dfood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>태양력(solar power)</title>
-      <link>https://lowtechmag.gitlab.io/solar/ko/tags/%ED%83%9C%EC%96%91%EB%A0%A5solar-power/</link>
-      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <link>/ko/tags/%ED%83%9C%EC%96%91%EB%A0%A5solar-power/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/ko/tags/%ED%83%9C%EC%96%91%EB%A0%A5solar-power/</guid>
+      <guid>/ko/tags/%ED%83%9C%EC%96%91%EB%A0%A5solar-power/</guid>
       <description></description>
     </item>
     

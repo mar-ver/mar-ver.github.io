@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Deutsch</title>
-    <link>https://lowtechmag.gitlab.io/solar/de/</link>
+    <link>/de/</link>
     <description>Diese Website ist solarbetrieben und geht daher manchmal offline.</description>
     <generator>Hugo 0.115.3</generator>
     <language>de</language>
-    <lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://lowtechmag.gitlab.io/solar/de/posts/</link>
-      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <link>/de/posts/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/de/posts/</guid>
+      <guid>/de/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://lowtechmag.gitlab.io/solar/de/about/</link>
-      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      <link>/de/about/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/de/about/</guid>
+      <guid>/de/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Archiv</title>
-      <link>https://lowtechmag.gitlab.io/solar/de/archives/</link>
-      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/de/archives/</link>
+      <enclosure url="icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/de/archives/</guid>
+      <guid>/de/archives/</guid>
       <description>&lt;p&gt;Archive page content&lt;/p&gt;
 </description>
     </item>

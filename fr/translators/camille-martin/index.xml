@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://lowtechmag.gitlab.io/solar/fr/translators/camille-martin/</link>
+    <link>/fr/translators/camille-martin/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/camille-martin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/fr/translators/camille-martin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comment fabriquer un panneau solaire low-tech</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/</link>
+      <link>/fr/2021/10/how-to-build-a-low-tech-solar-panel/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
+      <enclosure url="/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
+      <guid>/fr/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove, aux côtés de son troisième dispositif solaire. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove, aux côtés de son troisième dispositif solaire. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  George Cove, aux côtés de son troisième dispositif solaire. Source: \&#34;Generating electricity by the sun&#39;s rays\&#34;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793. 
 &lt;/figcaption&gt;
@@ -31,16 +31,16 @@ ont été installés récemment. Les dernières estimations des chercheurs avanc
 &lt;p&gt;Le fort besoin en capital de ces technologies, couplé à de longues chaînes logistiques, empêche la production locale de panneaux solaires par des entreprises moins aisés ou des collectifs informels (DIY, Do It Yourself).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;La fabrication de panneaux photovoltaïques elle-même pose de nombreux problèmes. Elle génère des déchets toxiques et nécessite une chaîne d’approvisionnement mondiale, comprenant des usines à forte intensité en capital, des machines complexes, des matériaux extraits du sol et un apport régulier
-en combustibles fossiles. Dans les analyses du cycle de vie des panneaux solaires, les scientifiques calculent &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la quantité d’énergie et de matériaux nécessaires à la construction d’un panneau solaire&lt;/a&gt;. Cependant, ils ignorent la quantité massive d’énergie et de matériaux nécessaires à la mise en place et au maintien de la chaîne d’approvisionnement solaire photovoltaïque ellemême. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Par conséquent, ces études ne révèlent pas le coût réel des panneaux solaires en termes de dépendance aux combustibles fossiles, d’émissions et d’autres pollutions environnementales. En outre, le fort besoin
+en combustibles fossiles. Dans les analyses du cycle de vie des panneaux solaires, les scientifiques calculent &lt;a href=&#34;/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la quantité d’énergie et de matériaux nécessaires à la construction d’un panneau solaire&lt;/a&gt;. Cependant, ils ignorent la quantité massive d’énergie et de matériaux nécessaires à la mise en place et au maintien de la chaîne d’approvisionnement solaire photovoltaïque ellemême. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Par conséquent, ces études ne révèlent pas le coût réel des panneaux solaires en termes de dépendance aux combustibles fossiles, d’émissions et d’autres pollutions environnementales. En outre, le fort besoin
 en capital de ces technologies, couplé à de longues chaînes logistiques, empêche la production locale de panneaux solaires par des entreprises moins aisés ou des collectifs informels (DIY, Do It Yourself).&lt;/p&gt;
 &lt;h2 id=&#34;sinspirer-du-passé&#34;&gt;S’inspirer du passé&lt;/h2&gt;
 &lt;p&gt;Les panneaux solaires photovoltaïques sont-ils donc irrémédiablement insoutenables d’un point de vue écologique, voués à générer des déchets non-recyclables ? À dépendre de processus de fabrication high-tech et gourmands en capitaux ? Ou bien au contraire, serait-il possible de les fabriquer avec des ressources locales, recyclables et des procédés de fabrication moins complexes et coûteux en énergie ? Autrement dit, pourrait-on créer des panneaux solaires « low-tech » ? Si oui, à quoi cela ressemblerait-t-il en matière de prix et de rendement énergétique ?&lt;/p&gt;
 &lt;p&gt;Avant de tenter de répondre à cette question, il est important de noter que dans la plupart des cas, la meilleure manière de faire l’économie d’un panneau solaire high-tech n’est pas d’en trouver un low-tech, mais bien d’utiliser l’énergie du soleil directement. C’est à dire : sans la convertir en électricité. Par exemple, un étendoir à linge ou un chauffe-eau solaire sont incomparablement plus efficaces, écologiques et abordables financièrement que n’importe quel sèche-linge ou chauffe-eau électriques branchés à un panneau photovoltaïque. Utiliser directement la lumière du soleil ne nécessite rien de plus que les matériaux disponibles localement, des techniques de fabrication
 relativement simples et des chaînes d’approvisionnement courtes.&lt;/p&gt;
-&lt;p&gt;Pourtant dans cet article, je souhaite répondre à cette question au sens strict : peut-on construire des appareils photovoltaïques low-tech, qui puissent convertir le rayonnement solaire en électricité ? Dans un article précédent, nous avons montré que [l’histoire nous offre des pistes inspirantes pour développer des éoliennes plus écologiques](https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/. L’histoire peut-elle aussi nous inspirer afin de concevoir de meilleures cellules photovoltaïques ?&lt;/p&gt;
+&lt;p&gt;Pourtant dans cet article, je souhaite répondre à cette question au sens strict : peut-on construire des appareils photovoltaïques low-tech, qui puissent convertir le rayonnement solaire en électricité ? Dans un article précédent, nous avons montré que [l’histoire nous offre des pistes inspirantes pour développer des éoliennes plus écologiques](/fr/2019/06/how-to-make-wind-power-sustainable-again/. L’histoire peut-elle aussi nous inspirer afin de concevoir de meilleures cellules photovoltaïques ?&lt;/p&gt;
 &lt;h2 id=&#34;la-préhistoire-des-cellules-solaires&#34;&gt;La préhistoire des cellules solaires&lt;/h2&gt;
 &lt;p&gt;Le panneau solaire présenté en 1954 par les Bell Labs ne sortait pas de nulle part. La cellule en silicium trouve son origine dans des appareils plus simples qui pouvaient produire de l’électricité à partir de lumière ou encore de chaleur.&lt;/p&gt;
-&lt;p&gt;En 1821, Thomas Seebeck découvrit qu’un courant électrique circule dans un circuit composé de deux métaux de natures différentes et dont les jonctions ne sont pas à la même température. C’est sur cet « effet thermoélectrique » que se basent les « générateurs thermoélectriques » qui convertissent la chaleur (par exemple, celle &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;émise par un poêle à bois&lt;/a&gt;) directement en électricité. En 1839, Antoine Becquerel découvrit à son tour que la lumière pouvait se transformer en électricité, et cet effet fut démontré sur les solides et particulièrement le sélénium par plusieurs scientifiques dans les années 1870. Cet « effet photoélectrique » donna naissance au « générateur photoélectrique », que nous appelons à présent générateur « photovoltaïque » ou cellule solaire photovoltaïque. En 1883, Charles Fritts créa le tout premier module photovoltaïque en utilisant du sélénium et une fine couche d’or. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;En 1821, Thomas Seebeck découvrit qu’un courant électrique circule dans un circuit composé de deux métaux de natures différentes et dont les jonctions ne sont pas à la même température. C’est sur cet « effet thermoélectrique » que se basent les « générateurs thermoélectriques » qui convertissent la chaleur (par exemple, celle &lt;a href=&#34;/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;émise par un poêle à bois&lt;/a&gt;) directement en électricité. En 1839, Antoine Becquerel découvrit à son tour que la lumière pouvait se transformer en électricité, et cet effet fut démontré sur les solides et particulièrement le sélénium par plusieurs scientifiques dans les années 1870. Cet « effet photoélectrique » donna naissance au « générateur photoélectrique », que nous appelons à présent générateur « photovoltaïque » ou cellule solaire photovoltaïque. En 1883, Charles Fritts créa le tout premier module photovoltaïque en utilisant du sélénium et une fine couche d’or. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;A cette époque les applications pratiques pour les appareils photoélectriques et thermoélectriques ne sont pas légion, et ce jusque dans les années 1950. Plusieurs inventeurs conçoivent différents types de générateurs thermoélectriques, le plus souvent alimentés par une flamme de gaz, et leur rendement dépasse rarement les 1 %. Dans le même temps, le panneau solaire fabriqué par Charles Fritts et les cellules solaires au sélénium qui vont suivre convertissent le rayonnement solaire en électricité à un rendement atteignant péniblement 1 à 2 %. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; En bref, la période précédant les années 1950 ne
 semble pas offrir beaucoup d’inspiration pour fabriquer des panneaux solaires photovoltaïques plus durables écologiquement.&lt;/p&gt;
 &lt;h2 id=&#34;un-pionnier-oublié-de-lénergie-solaire&#34;&gt;Un pionnier oublié de l’énergie solaire&lt;/h2&gt;
@@ -56,7 +56,7 @@ au bas coût des matières premières, la faible énergie grise pour convertir l
 – comparable au premier panneau solaire des Bell Labs. [18]&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Ci-dessus: Le premier panneau solaire de George Cove, présenté en 1905. Source: Technical World Magazine 11, nr4, Juin 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Ci-dessus: Le premier panneau solaire de George Cove, présenté en 1905. Source: Technical World Magazine 11, nr4, Juin 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ci-dessus: Le premier panneau solaire de George Cove, présenté en 1905. Source: Technical World Magazine 11, nr4, Juin 1909. 
 &lt;/figcaption&gt;
@@ -64,7 +64,7 @@ au bas coût des matières premières, la faible énergie grise pour convertir l
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Ci-dessus: Le deuxième panneau solaire de Cove, dont une partie est manquante. Source: Technical World Magazine 11, nr.4, Juin 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Ci-dessus: Le deuxième panneau solaire de Cove, dont une partie est manquante. Source: Technical World Magazine 11, nr.4, Juin 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ci-dessus: Le deuxième panneau solaire de Cove, dont une partie est manquante. Source: Technical World Magazine 11, nr.4, Juin 1909. 
 &lt;/figcaption&gt;
@@ -72,7 +72,7 @@ au bas coût des matières premières, la faible énergie grise pour convertir l
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Ci-dessus: Le troisième panneau solaire créé par George Cove. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, Septembre 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Ci-dessus: Le troisième panneau solaire créé par George Cove. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, Septembre 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ci-dessus: Le troisième panneau solaire créé par George Cove. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, Septembre 1909. 
 &lt;/figcaption&gt;
@@ -80,7 +80,7 @@ au bas coût des matières premières, la faible énergie grise pour convertir l
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Ci-dessus: La troisième installation solaire de Cove. Les panneaux sont maintenant inclinés et non plus posés à plat.Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Ci-dessus: La troisième installation solaire de Cove. Les panneaux sont maintenant inclinés et non plus posés à plat.Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ci-dessus: La troisième installation solaire de Cove. Les panneaux sont maintenant inclinés et non plus posés à plat.Source: Literary Digest 1909, pp. 1153. 
 &lt;/figcaption&gt;
@@ -88,7 +88,7 @@ au bas coût des matières premières, la faible énergie grise pour convertir l
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Ci-dessus : L’un des panneaux de la troisième installation solaire, sans les vitres. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, Septembre 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Ci-dessus : L’un des panneaux de la troisième installation solaire, sans les vitres. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, Septembre 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ci-dessus : L’un des panneaux de la troisième installation solaire, sans les vitres. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, Septembre 1909. 
 &lt;/figcaption&gt;
@@ -99,7 +99,7 @@ au bas coût des matières premières, la faible énergie grise pour convertir l
 &lt;p&gt;Comment George Cove a-t-il fait pour construire une installation solaire avec 40 ans d’avance sur son temps ? D’après Philip Pesavento, qui a travaillé en tant qu’ingénieur en semi-conducteurs, Cove souhaitait créer un générateur thermoélectrique (TEG, Thermo-Electric Generator) perfectionné. Son
 générateur était voué à être exposé à la chaleur d’une cuisinière à bois et à l’énergie solaire dans le même temps. En effet, Edward Watson avait conçu le premier prototype expérimental de générateur thermoélectrique solaire (STEG, Solar TEG) dès 1888. On peut également comprendre clairement quel était le projet initial de Cove avec la description qu’il fait de son appareil :&lt;/p&gt;
 &lt;p&gt;« C’est un cadre pourvu de plusieurs vitres teintées violettes, derrière lesquelles se trouvent, coulées dans une plaque faite d’un composé asphalté, une myriade de petites fiches métalliques. L’une des extrémités des fiches est toujours exposée au soleil tandis ce que l’autre demeure au frais, à l’ombre. »&lt;/p&gt;
-&lt;p&gt;Générer la plus grande différence de température possible &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;voilà tout l’enjeu de la production d’électricité avec un système thermoélectrique&lt;/a&gt;, ainsi le dispositif imaginé par Cove prend tout son sens. Pourtant, lorsqu’il mesura la puissance générée, il constata que l’appareil ne répondait pas à la chaleur comme le ferait normalement un générateur thermoélectrique. Dès le début, Cove constata que son invention utilisait la chaleur, mais aussi la lumière pour produire de l’électricité lorsqu’elle se trouvait exposée aux rayons du soleil :&lt;/p&gt;
+&lt;p&gt;Générer la plus grande différence de température possible &lt;a href=&#34;/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;voilà tout l’enjeu de la production d’électricité avec un système thermoélectrique&lt;/a&gt;, ainsi le dispositif imaginé par Cove prend tout son sens. Pourtant, lorsqu’il mesura la puissance générée, il constata que l’appareil ne répondait pas à la chaleur comme le ferait normalement un générateur thermoélectrique. Dès le début, Cove constata que son invention utilisait la chaleur, mais aussi la lumière pour produire de l’électricité lorsqu’elle se trouvait exposée aux rayons du soleil :&lt;/p&gt;
 &lt;p&gt;« La particularité de mon invention est la suivante : la composition des fiches métalliques a ceci de particulier que lorsqu’elles entrent en interaction avec les rayonnements solaires elles génèrent du courant non seulement grâce au rayonnement thermique mais aussi grâce aux rayons violets. »&lt;/p&gt;
 &lt;p&gt;Cependant, après avoir d’autres expériences avec la chaleur d’un poêle bois et l’énergie solaire, Cove déclara :&lt;/p&gt;
 &lt;p&gt;« Exposer la machine à différentes sources de chaleur artificielle ne semble pas générer d’électricité. Seul le rayonnement thermique du soleil semble fonctionner (infra-rouges de courte portée), les rayons violets et ultraviolets jouent peut-être aussi un rôle dans la création du courant électrique. »&lt;/p&gt;
@@ -128,7 +128,7 @@ d’ondes. Le spectre du rayonnement solaire a une amplitude qui va d’environ 
 et 0,7 eV peut convertir efficacement en électricité le spectre infrarouge du rayonnement solaire (c’est un générateur thermophotovoltaïque).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Ci-dessus: Cette illustration issue du brevet de 1906 de Cove montre l&amp;amp;rsquo;alliage zinc-antimoine &amp;amp;quot; b&amp;amp;quot;; le capuchon d&amp;amp;rsquo;extrémité (ohmique) en maillechort &amp;amp;quot;c&amp;amp;quot; ; et le capuchon (Schottky) de cuivre ou d&amp;amp;rsquo;étain &amp;amp;quot;f&amp;amp;quot;. Chacun de ses éléments est maintenu en place par compression car les souder entre eux diminuait les performances du dispositif.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Ci-dessus: Cette illustration issue du brevet de 1906 de Cove montre l&amp;amp;rsquo;alliage zinc-antimoine &amp;amp;quot; b&amp;amp;quot;; le capuchon d&amp;amp;rsquo;extrémité (ohmique) en maillechort &amp;amp;quot;c&amp;amp;quot; ; et le capuchon (Schottky) de cuivre ou d&amp;amp;rsquo;étain &amp;amp;quot;f&amp;amp;quot;. Chacun de ses éléments est maintenu en place par compression car les souder entre eux diminuait les performances du dispositif.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ci-dessus: Cette illustration issue du [brevet de 1906 de Cove](https://patentimages.storage.googleapis.com/bc/bb/50/6683e8b44edd4c/US824684.pdf) montre l&#39;alliage zinc-antimoine \&#34; b\&#34;; le capuchon d&#39;extrémité (ohmique) en maillechort \&#34;c\&#34; ; et le capuchon (Schottky) de cuivre ou d&#39;étain \&#34;f\&#34;. Chacun de ses éléments est maintenu en place par compression car les souder entre eux diminuait les performances du dispositif. 
 &lt;/figcaption&gt;
@@ -167,7 +167,7 @@ que cela pourrait également fonctionner avec de cellules plates et fines. »&lt
 &lt;p&gt;Là encore, on peut trouver des études récentes menées sur les cellules Schottky, à base d’autres matériaux, qui semblent aller dans ce sens. Par exemple, lors d’une expérience menée récemment avec des cellules Schottky au sélénium, les chercheurs ont réussi à affiner la couche de cellules jusqu’à
 100 µm, contre 200 à 500 µm habituellement pour les cellules de silicium. &lt;sup id=&#34;fnref1:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:30&#34;&gt;&lt;a href=&#34;#fn:30&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;30&lt;/a&gt;&lt;/sup&gt; Les scientifiques ont également atteint un rendement expérimental de 17 % avec une cellule Schottky graphène/silicium, alors qu’il y a dix ans le rendement pour ce type de cellules s’élevait à 1,5 %. &lt;sup id=&#34;fnref1:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;On peut aussi questionner l’obsession actuelle pour les rendements plus élevés. Un argument que l’on entend régulièrement est que si des panneaux low-tech voient le jour mais qu’ils sont moins efficaces que leurs équivalents high-techs, alors il faudrait construire plus de panneaux solaires pour produire
-la même quantité d’énergie. Par conséquent, les ressources qui auraient été sauvegardées grâce aux méthodes de productions low-tech seraient dépensées pour construire ce plus grand nombre de panneaux. Pourtant, atteindre un haut rendement n’est essentiel que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;si l’on prend la demande en énergie actuelle pour un fait immuable&lt;/a&gt;. Une moindre efficacité par panneau pourrait tout à fait être compensée en diminuant la demande en énergie, surtout si cela peut nous permettre de rendre cette production d’énergie plus écologique à long terme et d’économiser des ressources sur toute la chaîne logistique. Comme pour les éoliennes, sacrifier une part d’efficacité pourrait nous apporter de grands grains en matière de durabilité.&lt;/p&gt;
+la même quantité d’énergie. Par conséquent, les ressources qui auraient été sauvegardées grâce aux méthodes de productions low-tech seraient dépensées pour construire ce plus grand nombre de panneaux. Pourtant, atteindre un haut rendement n’est essentiel que &lt;a href=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;si l’on prend la demande en énergie actuelle pour un fait immuable&lt;/a&gt;. Une moindre efficacité par panneau pourrait tout à fait être compensée en diminuant la demande en énergie, surtout si cela peut nous permettre de rendre cette production d’énergie plus écologique à long terme et d’économiser des ressources sur toute la chaîne logistique. Comme pour les éoliennes, sacrifier une part d’efficacité pourrait nous apporter de grands grains en matière de durabilité.&lt;/p&gt;
 &lt;h2 id=&#34;quest-devenu-george-cove&#34;&gt;Qu’est devenu George Cove?&lt;/h2&gt;
 &lt;p&gt;Si le panneau solaire créé par George Cove était si révolutionnaire, pourquoi n’en entend plus parler aujourd’hui ? À ce propos, les documents sur lesquels Philip Pesavento s’est appuyé pour ses recherches tissent un récit digne d’un polar. Les plans de Cove pour produire à plus grande échelle et commercialiser son appareil photovoltaïque se sont soldés par d’étranges échecs.&lt;/p&gt;
 &lt;p&gt;L’inventeur s’est associé avec un manipulateur de marchés financiers – Elmer Burlingame – qui a émis des actions pour différentes entreprises qui ne lui appartenaient pas, en 1909 et 1910, incluant la start-up de Cove, la Sun Electric Generator Company. En octobre 1909, il semblerait que Cove ait été
@@ -265,7 +265,7 @@ kidnappé et menacé de meurtre s’il n’arrêtait pas le développement de so
 &lt;p&gt;Todorov, Teodor K., et al. &amp;ldquo;&lt;a href=&#34;https://www.nature.com/articles/s41467-017-00582-9&#34;&gt;Ultrathin high band gap solar cells with improved efficiencies from the world’s oldest photovoltaic material&lt;/a&gt;.&amp;rdquo; Nature communications 8.1 (2017): 1-8.&amp;#160;&lt;a href=&#34;#fnref:26&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:26&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:27&#34;&gt;
-&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:28&#34;&gt;
 &lt;p&gt;Hadar, Ido, et al. &amp;ldquo;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/aenm.201802766&#34;&gt;Modern processing and insights on selenium solar cells: the world&amp;rsquo;s first photovoltaic device&lt;/a&gt;.&amp;rdquo; Advanced Energy Materials 9.16 (2019): 1802766.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -289,15 +289,15 @@ kidnappé et menacé de meurtre s’il n’arrêtait pas le développement de so
     
     <item>
       <title>Les fermes verticales ne font pas gagner d’espace</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2021/02/vertical-farming-does-not-save-space/</link>
+      <link>/fr/2021/02/vertical-farming-does-not-save-space/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png" type="image/png" length="47813" ></enclosure>
+      <enclosure url="/fr/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png" type="image/png" length="47813" ></enclosure>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2021/02/vertical-farming-does-not-save-space/</guid>
+      <guid>/fr/2021/02/vertical-farming-does-not-save-space/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -311,7 +311,7 @@ kidnappé et menacé de meurtre s’il n’arrêtait pas le développement de so
 &lt;p&gt;L’expérience nous montre que faire pousser 1 mètre carré de blé dans un environnement artificiel génère un coût de 2577 kilowatt-heures d’électricité et 394 litres d’eau par an. L’énergie qui a servi à fabriquer le matériel nécessaire à l’installation (comme les éclairages) n’est pas pris en compte dans ces calculs, on peut donc considérer qu’il s’agit d’un montant sous-estimé. L’énergie requise pour le fonctionnement du bâtiment n’est pas prise en compte non plus, c’est à dire pour la construction, le chauffage, la climatisation et le pompage de l’eau.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -343,15 +343,15 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
     
     <item>
       <title>Pour que l’énergie éolienne redevienne durable</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/</link>
+      <link>/fr/2019/06/how-to-make-wind-power-sustainable-again/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png" type="image/png" length="59998" ></enclosure>
+      <enclosure url="/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png" type="image/png" length="59998" ></enclosure>
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/</guid>
+      <guid>/fr/2019/06/how-to-make-wind-power-sustainable-again/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png&#34; alt=&#39;Illustration: Eva Miquel pour Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-of-wind-turbines_dithered.png&#34; alt=&#39;Illustration: Eva Miquel pour Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: Eva Miquel pour Low-tech Magazine.  
 &lt;/figcaption&gt;
@@ -364,7 +364,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;En revanche, les pales de l’hélice sont faites de matériaux composites plastiques ultralégers qui sont volumineux et impossibles à recycler. Bien que la masse des pales soit faible à l’échelle de la masse totale de l’éolienne, elle n’est pas négligeable. Par exemple, une pale en fibre de verre de 60 mètres pèse 17 tonnes, ce qui signifie qu’une éolienne générant 5MW produira plus de 50 tonnes de déchets plastiques rien que pour ses pales.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/wind-turbine-blade_dithered.png&#34; alt=&#39;Image: Une pale en fibre de verre renforcée. Source: Gurit.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/wind-turbine-blade_dithered.png&#34; alt=&#39;Image: Une pale en fibre de verre renforcée. Source: Gurit.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Une pale en fibre de verre renforcée. Source: [Gurit](https://www.gurit.com/Our-Business/Industries--Markets/Wind). 
 &lt;/figcaption&gt;
@@ -381,7 +381,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Par exemple : en Europe la part des éoliennes de plus de 15 ans d’âge représentait en 2016 12 % du parc, contre 28 % en 2020. En Allemagne, en Espagne et au Danemark, cette part passe de 41 à 57 %. Pour la seule année 2020, chacun de ces pays devra se débarrasser de 6 000 à 12 000 pales d’éoliennes. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/old-fashioned-windmill-sail_dithered.png&#34; alt=&#39;Image: Les ailes des moulins de nos aïeux étaient faites exclusivement de matériaux recyclables. Image: Rasbak (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/old-fashioned-windmill-sail_dithered.png&#34; alt=&#39;Image: Les ailes des moulins de nos aïeux étaient faites exclusivement de matériaux recyclables. Image: Rasbak (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Les ailes des moulins de nos aïeux étaient faites exclusivement de matériaux recyclables. Image: Rasbak (CC BY-SA 3.0) 
 &lt;/figcaption&gt;
@@ -396,7 +396,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Et pourtant, en jetant un œil à l’histoire de l’énergie éolienne, on réalise que le plastique n’est pas indispensable. La première utilisation du vent pour produire de l’énergie mécanique date de l’Antiquité, et les premiers « moulins générateurs d’électricité » - plus tard renommés « éoliennes » ont été construits dans les années 1880. Quant aux pales en fibres de verre, elles ont émergé dans les années 1980 : pendant la bagatelle de deux mille ans, les moulins en tous genres étaient recyclables de bout en bout.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/la-cour-wind-turbine_dithered.png&#34; alt=&#39;Les première éoliennes d’Europe, conçues par Paul La Cour au Danemark, étaient doté d’ailes traditionnelles avec des lattes de bois. Image: Paul La Cour Museum.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/la-cour-wind-turbine_dithered.png&#34; alt=&#39;Les première éoliennes d’Europe, conçues par Paul La Cour au Danemark, étaient doté d’ailes traditionnelles avec des lattes de bois. Image: Paul La Cour Museum.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les première éoliennes d’Europe, conçues par Paul La Cour au Danemark, étaient doté d’ailes traditionnelles avec des lattes de bois. Image: Paul La Cour Museum. 
 &lt;/figcaption&gt;
@@ -411,7 +411,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Le modèle de La Cour fut copié par d’autres entreprises danoises, ainsi entre 1900 et 1920 on a pu observer des milliers d’éoliennes en action sur les fermes danoises. Pendant la première moitié du vingtième siècle, des douzaines d’éoliennes expérimentales furent construites, dont certaines avec des pales d’acier comme l’éolienne états-unienne « Smith-Putnam » de 1939. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/gedser-wind-turbine_dithered.png&#34; alt=&#39;Image: L’éolienne de Gedser utilise une structure métallique pour améliorer la rigidité de ses pales.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/gedser-wind-turbine_dithered.png&#34; alt=&#39;Image: L’éolienne de Gedser utilise une structure métallique pour améliorer la rigidité de ses pales.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: L’éolienne de Gedser utilise une structure métallique pour améliorer la rigidité de ses pales. 
 &lt;/figcaption&gt;
@@ -424,7 +424,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;C’est principalement l’envie de construire de plus grandes éoliennes qui a motivé les industriels à passer à la fibre de verre . En effet, de grandes éoliennes réduisent le coût d’électricité produite par kilowattheure, et ce pour deux raisons : les vents sont plus puissants à plus haute altitude, et doubler la taille du rayon d’une hélice multiplie mécaniquement le rendement par quatre. Ce désir de construire toujours plus gros est au centre des préoccupations de l’industrie éolienne. Les plus grosses hélices, qui atteignaient 50 m de diamètre dans les années 1990, ont atteint les 120 m dans les années 2000. De nos jours, les plus grandes éoliennes off-shore dépassent les 160 m, et une éolienne de 12MW avec un rotor de 220 m de diamètre est en cours de construction aux Pays-Bas. &lt;sup id=&#34;fnref3:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/improved-windmill-sail_dithered.png&#34; alt=&#39;Pale d’éolienne améliorée des années 1940, conçue puis fabriquée par P.L Fauel. Image: Rasbak (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/improved-windmill-sail_dithered.png&#34; alt=&#39;Pale d’éolienne améliorée des années 1940, conçue puis fabriquée par P.L Fauel. Image: Rasbak (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pale d’éolienne améliorée des années 1940, conçue puis fabriquée par P.L Fauel. Image: Rasbak (CC BY-SA 3.0) 
 &lt;/figcaption&gt;
@@ -440,7 +440,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Il est intolérable qu’une industrie qui se prétend durable et renouvelable déverse chaque année des millions de tonnes de plastique dans les décharges.  Avec ce constat, serait-il possible de revenir sur nos pas et de n’utiliser que des matériaux recyclables pour nos éoliennes comme par le passé ? Quelle taille pourraient-elles atteindre ? Dans quelle mesure est-il possible de réconcilier durabilité et efficacité ?&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/bilau-sails_dithered.png&#34; alt=&#39;Moulin amélioré des années 1930, conçu par Kurt Bilau. La tour est en pierre et les ailes en bois et aluminium. Image: Frank Vincentz (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/bilau-sails_dithered.png&#34; alt=&#39;Moulin amélioré des années 1930, conçu par Kurt Bilau. La tour est en pierre et les ailes en bois et aluminium. Image: Frank Vincentz (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Moulin amélioré des années 1930, conçu par Kurt Bilau. La tour est en pierre et les ailes en bois et aluminium. Image: Frank Vincentz (CC BY-SA 3.0). 
 &lt;/figcaption&gt;
@@ -456,7 +456,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Le lamibois – matériau composite constitué de fines couches de placage de bois collées – est apparu dans les années 1980 et présente de sérieux avantages par rapport au bois massif . En effet, la consistance du bois massif peut être très variable, même dans un seul tronc d’arbre : ainsi la taille des longerons utilisés pour les moulins traditionnels était limitée par la disponibilité de grands troncs d’arbres de consistance homogène. Le plus grand moulin traditionnel jamais construit – le Murphy Mill à San Francisco, 1900 – possédait une hélice de 35 m de diamètre.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/patent-sails_dithered.png&#34; alt=&#39;Aile « Patent Sail» dotées du système Dekker, années 1940. Image: Reboelje.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/patent-sails_dithered.png&#34; alt=&#39;Aile « Patent Sail» dotées du système Dekker, années 1940. Image: Reboelje.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Aile « Patent Sail» dotées du système Dekker, années 1940. Image: Reboelje. 
 &lt;/figcaption&gt;
@@ -473,7 +473,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;A l’aune des dommages environnementaux causés par les pales d’éoliennes conventionnelles, on pourrait être tenté de considérer les dommages plus modestes causés par l’utilisation de longerons carbone-époxy dans les pales de bois comme négligeables. Pourtant, ce changement de matériaux ne peut suffire à résoudre le problème des déchets de l’industrie et la production croissante d’éoliennes continuera de générer des flux de déchets de plus en plus massifs.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/carbon-spar-caps_dithered.png&#34; alt=&#39;Image: Pale éolienne en lamellé-collé avec des semelles de longeron en carbone. Source: [^14]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/carbon-spar-caps_dithered.png&#34; alt=&#39;Image: Pale éolienne en lamellé-collé avec des semelles de longeron en carbone. Source: [^14]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Pale éolienne en lamellé-collé avec des semelles de longeron en carbone. Source: [^14] 
 &lt;/figcaption&gt;
@@ -489,7 +489,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Notre problème en réalité est que nous choisissons de continuer à juger de la viabilité de l’énergie éolienne en utilisant les énergies fossiles les moins coûteuses comme unité de mesure. C’est parce que nous essayons à tout prix de concurrencer les énergies fossiles – c’est à dire de produire autant d’énergie que celle nécessaire à un mode de vie basé sur l’abondance d’énergies fossiles – que nous avons rendu les éoliennes de plus en plus néfastes pour l’environnement. Si nous choisissons de réduire la demande en énergie, se contenter d’éoliennes plus petites et moins efficientes n’est plus un problème.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/first-american-wind-turbine_dithered.png&#34; alt=&#39;Image: La première éolienne construite aux États-Unis par Charles F. Brush possédait d’une « aile annulaire » (EN : annular sail) composée de 144 fines pales en bois de cèdre&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/first-american-wind-turbine_dithered.png&#34; alt=&#39;Image: La première éolienne construite aux États-Unis par Charles F. Brush possédait d’une « aile annulaire » (EN : annular sail) composée de 144 fines pales en bois de cèdre&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: La première éolienne construite aux États-Unis par Charles F. Brush possédait d’une « aile annulaire » (EN : annular sail) composée de 144 fines pales en bois de cèdre 
 &lt;/figcaption&gt;
@@ -500,7 +500,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Que l’on opte pour des pales géantes en bois-carbone ou de plus petites pales entièrement en bois, dans les deux cas il est déjà possible de construire la tour et la coque de la nacelle en bois. En 2012, l’entreprise allemande TimberTower a construit une tour en lamibois de 100 m de hauteur pour équiper une éolienne de 1,5 MW. On pourrait penser que construire une tour d’éolienne en bois n’apporte pas grand-chose de plus, car le bois vient remplacer de l’acier qui est déjà parfaitement recyclable. Et pourtant, une éolienne construite intégralement en bois présente des avantages supplémentaires :&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-detail_dithered.png&#34; alt=&#39;Illustration: Eva Miquel pour Low-tech Magazine&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2019/06/how-to-make-wind-power-sustainable-again/images/dithers/forest-detail_dithered.png&#34; alt=&#39;Illustration: Eva Miquel pour Low-tech Magazine&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: Eva Miquel pour Low-tech Magazine 
 &lt;/figcaption&gt;
@@ -536,7 +536,7 @@ et renouvelable par une technologie coûteuse et dépendante des énergies fossi
 &lt;p&gt;Lefeuvre, Anaële, et al. &amp;ldquo;Anticipating in-use stocks of carbon fiber reinforced polymers and related waste flows generated by the commercial aeronautical sector until 2050.&amp;rdquo; Resources, Conservation and Recycling 125 (2017): 264-272. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0921344917301775&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0921344917301775&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:7&#34;&gt;
-&lt;p&gt;De Decker, Kris. &amp;ldquo;Wind powered factories: history (and future) of industrial windmills.&amp;rdquo; Low-Tech Magazine. Barcelona (2009). &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;here&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;De Decker, Kris. &amp;ldquo;Wind powered factories: history (and future) of industrial windmills.&amp;rdquo; Low-Tech Magazine. Barcelona (2009). &lt;a href=&#34;/fr/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;here&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:8&#34;&gt;
 &lt;p&gt;The Rise of Modern Wind Energy: Wind Power for the World. Pan Stanford Publishing, 2013. &lt;a href=&#34;https://www.crcpress.com/Wind-Power-for-the-World-The-Rise-of-Modern-Wind-Energy/Maegaard-Krenz-Palz/p/book/9789814364935&#34;&gt;https://www.crcpress.com/Wind-Power-for-the-World-The-Rise-of-Modern-Wind-Energy/Maegaard-Krenz-Palz/p/book/9789814364935&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;

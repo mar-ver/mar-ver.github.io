@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>https://lowtechmag.gitlab.io/solar/es/tags/food/</link>
+    <link>/es/tags/food/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/es/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/es/tags/food/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Las granjas verticales no ahorran espacio</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/</link>
+      <link>/es/2021/02/vertical-farming-does-not-save-space/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png" type="image/png" length="47813" ></enclosure>
+      <enclosure url="/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png" type="image/png" length="47813" ></enclosure>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/</guid>
+      <guid>/es/2021/02/vertical-farming-does-not-save-space/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -31,7 +31,7 @@
 &lt;p&gt;El experimento muestra que el cultivo de 1m2 de trigo en un entorno artificial cuesta 2,577 kilovatios-hora de electricidad y 394 litros de agua por año. La energía requerida para la producción de hardware (como por ejemplo la iluminación) no está incluida en estos resultados, por lo tanto este coste está infravalorado. El coste de energía consumida por el edificio tampoco se ha tenido en cuenta, y ello incluye tanto la construcción como su uso, por ejemplo para calentar, enfriar y extraer agua.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;Toda esta crítica también aplica a los cultivos verticales donde crecen lechugas y tomates. En este caso, hay una significante reducción en el uso de agua. Estas actividades generan beneficio, pero sólo porque el proceso depende del aporte de energías fósiles a bajo coste. Si la energía fuera proporcionada por medio de paneles solares, los costes extra y el espacio para el aporte de energía anularían los beneficios en términos de espacio y costes. La única ventaja de un cultivo vertical sería entonces una distancia de transporte más corta. No obstante, el transporte entre ciudad y área rural podría ser aún más sostenible.&lt;/p&gt;
 &lt;p&gt;El problema con la agricultura no es que ocurra en las áreas rurales, el problema es que depende fuertemente en las energías fósiles. El cultivo vertical no es la solución ya que reemplaza, una vez más, la energía renovable y sin coste proveniente del Sol con tecnología cara que depende de energía fósil (Lámparas LED + ordenadores + edificios de hormigón + paneles solares). Nuestro estilo de vida se está convirtiendo cada vez en algo menos sostenible, incrementando la dependencia a materias primas, infraestructura, máquinas y energía fósil. Desafortunadamente, esto también aplica a la mayoría de tecnología que actualmente se etiqueta como sostenible.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://disnovation.org/farm.php&#34;&gt;Solar Share (The Farm)&lt;/a&gt;, por Disnovation.org (Maria Roszkowska, Nicolas Maigret) y Baruch Gottlieb.&lt;/p&gt;
-&lt;p&gt;Para los comentarios, véase &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/&#34;&gt;la versión en inglés de este artículo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para los comentarios, véase &lt;a href=&#34;/es/2021/02/vertical-farming-does-not-save-space/&#34;&gt;la versión en inglés de este artículo&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -60,15 +60,15 @@
     
     <item>
       <title>Trincheras frutales: cultivando plantas subtropicales en temperaturas bajo cero</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/</link>
+      <link>/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png" type="image/png" length="44583" ></enclosure>
+      <enclosure url="/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png" type="image/png" length="44583" ></enclosure>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/</guid>
+      <guid>/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png&#34; alt=&#39;Image: Una trinchera frutal en Touapsé.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-trenches-touapse_dithered.png&#34; alt=&#39;Image: Una trinchera frutal en Touapsé.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Una trinchera frutal en Touapsé.  
 &lt;/figcaption&gt;
@@ -80,7 +80,7 @@
 &lt;p&gt;Pero inclusive ese clima dista de ser ideal para la producción de cítricos: aunque la temperatura promedio en invierno está por encima de los cero grados, la mínima ronda entre los 8 y 12 grados Celsius bajo cero. Las heladas son mortales para los cítricos, inclusive por períodos de tiempo muy cortos. Por ejemplo, a principios del siglo 19, una breve helada de entre menos 3 y menos 8 grados Celsius destruyó casi por completo a la industria de cítricos en el estado de Florida (EUA).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-fruits-map-ussr_dithered.png&#34; alt=&#39;Image: Regiones de cultivo de cítricos en la Unión Soviética&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-fruits-map-ussr_dithered.png&#34; alt=&#39;Image: Regiones de cultivo de cítricos en la Unión Soviética&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Regiones de cultivo de cítricos en la Unión Soviética 
 &lt;/figcaption&gt;
@@ -95,7 +95,7 @@
 &lt;p&gt;Ya en 1940 la producción abarcaba 17.000 hectáreas y llegaba a unas 40.000 toneladas, el doble de lo que se importaba bajo el antiguo régimen. Para 1950 el área cultivada con cítricos llegaba a las 30.000 hectáreas (56% en árboles de mandarinas, 28% limoneros, y 16% naranjos), y la producción creció hasta las 200.000 toneladas de fruta al año.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/lemon-plantation-caucasus-krasnodar_dithered.png&#34; alt=&#39;Image: Plantación de limoneros en Novi Afon.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/lemon-plantation-caucasus-krasnodar_dithered.png&#34; alt=&#39;Image: Plantación de limoneros en Novi Afon.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Plantación de limoneros en Novi Afon. 
 &lt;/figcaption&gt;
@@ -108,7 +108,7 @@
 &lt;p&gt;El método consiste en plantar una semilla de un árbol particularmente valioso, un poco al norte de su ubicación original, y luego esperar a que el nuevo árbol de semillas. Esas semillas son llevadas a su vez más al norte, y el proceso se repite una vez más, llevando lentamente el cultivo de los cítricos hacia lugares con climas más inhóspitos. Gracias a este método, damascos originarios de Rostov pudieron ser cultivados eventualmente en Mitchurinsk, 650km más al norte, donde desarrollaron semillas adaptadas al clima local. Los intentos de plantar las semillas de Rostov directamente en Mitchurinsk, por otro lado, resultaron en fracaso.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-shrub_dithered.png&#34; alt=&#39;Image: Pomelo enano&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-shrub_dithered.png&#34; alt=&#39;Image: Pomelo enano&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Pomelo enano 
 &lt;/figcaption&gt;
@@ -121,7 +121,7 @@
 &lt;p&gt;Ser compacto les proporciona dos ventajas. Primero, las variaciones de temperatura cerca del suelo son menores, y el viento menos fuerte. Segundo, los árboles pequeños son más fáciles de proteger de los elementos. En las regiones con clima más templado, donde se cultivaban las 160 hectáreas iniciales de cítricos, las plantaciones se ubicaban en terrazas o en pendientes pronunciadas, usando la menor cantidad de tierra que tuviera un microclima favorable.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/mikhail-beringov_dithered.png&#34; alt=&#39;Image: “Recolectando tangerinas en la graja estatal de Chakva”, pintura de Mikhail Beringov, 1930s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/mikhail-beringov_dithered.png&#34; alt=&#39;Image: “Recolectando tangerinas en la graja estatal de Chakva”, pintura de Mikhail Beringov, 1930s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: “Recolectando tangerinas en la graja estatal de Chakva”, pintura de Mikhail Beringov, 1930s. 
 &lt;/figcaption&gt;
@@ -134,7 +134,7 @@
 &lt;p&gt;Había dos métodos para dar forma a la corona de los cítricos. El primero consistía en inclinar el tronco de las plantas apenas surgía del suelo. Tanto las ramas principales de la corona - organizadas en un abanico hacia un lado - como los frutos, tocaban la tierra. En el segundo método, el tronco, de unos 10 a 15 cm de alto, se mantenía erecto, mientras que las ramas eran torcidas hasta un ángulo de 90 grados del mismo. Vista desde arriba, la corona asemejaba una araña. En este método, el más exitoso de ambos, ni las ramas ni los frutos tocaban la tierra.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/creeping-tree_dithered.png&#34; alt=&#39;Image: Cultivo rastrero aplicado a un un Manzano. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/creeping-tree_dithered.png&#34; alt=&#39;Image: Cultivo rastrero aplicado a un un Manzano. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Cultivo rastrero aplicado a un un Manzano. [Source](https://frukti-yagodi.ru/formirovanie-kroni-molodoj-yabloni-sxema/).  
 &lt;/figcaption&gt;
@@ -144,21 +144,21 @@
 &lt;p&gt;Asimismo, la protección contra el viento era mejor en los cítricos rastreros. Mientras que a 2 metros de altura el viento soplaba a 10,4 metros por segundo, solo lo hacía a 1,8 metros por segundo al nivel de los limoneros rastreros. Esto reducía la deshidratación de la corona y el consiguiente consumo de agua.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/creeping-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/creeping-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/skhema-arkticheskogo-stlanca-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/skhema-arkticheskogo-stlanca-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/creeping-culture_dithered.png&#34; alt=&#39;Image: Creeping plants.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/creeping-culture_dithered.png&#34; alt=&#39;Image: Creeping plants.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Creeping plants. 
 &lt;/figcaption&gt;
@@ -171,7 +171,7 @@
 &lt;p&gt;La profundidad de las trincheras variaba entre los 0,8 y 2 metros, dependiendo de la temperatura en invierno, la profundidad hasta la se congelaba la tierra, y la napa acuífera. Los árboles se plantaban en una o dos filas, y las trincheras tenían en general forma trapezoidal para mejorar las condiciones de luz. En trincheras de unas sola fila, el fondo tenía unos 2,5 metros de ancho en el piso y unos 3 metros a la altura de la superficie. En las dos filas, el ancho iba de 3,5 metros en el fondo a 4 metros en la superficie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-in-trenches-2_dithered.png&#34; alt=&#39;Image: Cultivando árboles cítricos en trincheras. Kolhoz Stalin, área agrícola alrededor de la ciudad de Tashkent.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-in-trenches-2_dithered.png&#34; alt=&#39;Image: Cultivando árboles cítricos en trincheras. Kolhoz Stalin, área agrícola alrededor de la ciudad de Tashkent.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Cultivando árboles cítricos en trincheras. Kolhoz Stalin, área agrícola alrededor de la ciudad de Tashkent. 
 &lt;/figcaption&gt;
@@ -181,7 +181,7 @@
 &lt;p&gt;Las trincheras se cavaban en partes donde el terreno era plano o en laderas poco empinadas, orientadas de este a oeste para optimizar las horas de sol durante los meses invernales. La separación entre trincheras era de entre 3 y 5 metros para las de una sola fila de árboles, o de entre 4 y 6 metros cuando tenían dos filas. Las trincheras podían estar conectadas unas con otras, lo que hacía más práctico trabajar con las plantas.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-culture-in-trenches-odessa-1956_dithered.png&#34; alt=&#39;Image: Cultivo de cítricos en trincheras, Odessa, 1956.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-culture-in-trenches-odessa-1956_dithered.png&#34; alt=&#39;Image: Cultivo de cítricos en trincheras, Odessa, 1956.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Cultivo de cítricos en trincheras, Odessa, 1956. 
 &lt;/figcaption&gt;
@@ -193,7 +193,7 @@
 &lt;p&gt;Pero este método no puede aplicarse a cualquier planta. Los cítricos pueden tolerar niveles de luz muy bajos durante unos 3 o 4 meses al año, siempre y cuando la temperatura del aire en contacto con la corona se mantenga entre 1 y 4 grados Celsius. En estas temperaturas, el metabolismo de las plantas se debilita, lo que aumenta su resistencia al frío.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/dwarf-tree-in-trench_dithered.png&#34; alt=&#39;Image: Un cítrico enano dentro de una trinchera.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/dwarf-tree-in-trench_dithered.png&#34; alt=&#39;Image: Un cítrico enano dentro de una trinchera.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Un cítrico enano dentro de una trinchera. 
 &lt;/figcaption&gt;
@@ -201,7 +201,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-growing-in-trenches_dithered.png&#34; alt=&#39;Image: Cítricos en trincheras.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/citrus-growing-in-trenches_dithered.png&#34; alt=&#39;Image: Cítricos en trincheras.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Cítricos en trincheras. 
 &lt;/figcaption&gt;
@@ -214,13 +214,13 @@
 &lt;p&gt;El primer ejemplo es el cultivo de cítricos con trasplante anual. Los árboles pasaban el verano afuera, pero a medida que el invierno se acercaba eran removidos del suelo, incluyendo la tierra que rodeaba sus raíces, y se los transportaba a cobertizos. Allí esperaban, amontonados, mientras afuera helara. En primavera se los llevaba nuevamente a su sitio original. En regiones con inviernos relativamente suaves, estos cobertizos no eran más que estructuras de madera, generalmente sin calefacción. En regiones más frías eran edificios de mampostería, parcialmente enterrados y equipados con calefacción.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/limonarium_dithered.png&#34; alt=&#39;Image: Una Limonaria.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2020/04/fruit-trenches-cultivating-subtropical-plants-in-freezing-temperatures/images/dithers/limonarium_dithered.png&#34; alt=&#39;Image: Una Limonaria.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Una Limonaria. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Los cítricos también eran cultivados en invernaderos sin calefacción. Estas “Limonarias”, ubicadas en la costa del Mar Negro, eran estructuras semicirculares, construidas sobre colinas con terrazas particularmente bien expuestas. Los árboles se entrenaban en forma de Espaldera, un método similar a las paredes de árboles que pueden verse en países del norte de Europa,  &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/&#34;&gt;y que facilita el cultivo de duraznos y otras frutas mediterráneas en latitudes elevadas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Los cítricos también eran cultivados en invernaderos sin calefacción. Estas “Limonarias”, ubicadas en la costa del Mar Negro, eran estructuras semicirculares, construidas sobre colinas con terrazas particularmente bien expuestas. Los árboles se entrenaban en forma de Espaldera, un método similar a las paredes de árboles que pueden verse en países del norte de Europa,  &lt;a href=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/&#34;&gt;y que facilita el cultivo de duraznos y otras frutas mediterráneas en latitudes elevadas&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;En los centros industriales al norte del cículo ártico, se empleaban invernaderos con calefacción eléctrica y control de dióxido de carbono y humedad a lo largo del año. Por último, se cultivaban cítricos a lo largo de la Unión Soviética usando macetas o cajas dentro de apartamentos, escuelas y edificios públicos. Inclusive se los cultivaba en halls vidriados de fábricas y talleres, haciendo uso del calor residual de la calefacción o de los procesos industriales (vapor o agua caliente).&lt;/p&gt;
 &lt;p&gt;Muy pocos de estos métodos hubieran sido redituables bajo un régimen de libre mercado. Comenzar la producción doméstica de cítricos requirió una cantidad considerable de inversión. La mayoría de estos métodos no requerían combustibles fósiles, y podían llevarse a cabo usando materiales locales y de bajo costo, pero eran altamente intensivos en labor humana. La producción doméstica de cítricos fue posible únicamente porque se encontraba protegida – no solo de las heladas, sino también de la competencia extranjera.&lt;/p&gt;
 &lt;p&gt;Gracias a Alexandrine Maes.&lt;/p&gt;
@@ -241,15 +241,15 @@
     
     <item>
       <title>Muros Frutales: Agricultura Urbana en el 1600</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/</link>
+      <link>/es/2015/12/fruit-walls-urban-farming-in-the-1600s/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-montreuil_dithered.png" type="image/png" length="111558" ></enclosure>
+      <enclosure url="/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-montreuil_dithered.png" type="image/png" length="111558" ></enclosure>
       <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/</guid>
+      <guid>/es/2015/12/fruit-walls-urban-farming-in-the-1600s/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-montreuil_dithered.png&#34; alt=&#39;Muros frutales en Montreuil, un suburbio parte de París.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-montreuil_dithered.png&#34; alt=&#39;Muros frutales en Montreuil, un suburbio parte de París.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Muros frutales en Montreuil, un suburbio parte de París. 
 &lt;/figcaption&gt;
@@ -262,7 +262,7 @@
 &lt;p&gt;Un invernadero calefactado requiere una cantidad de energía alrededor de 40 mega Julios (MJ) para producir un kilogramo de productos frescos, como tomates y pimientos (&lt;a href=&#34;http://www.fao.org/docrep/014/i2454e/i2454e00.pdf&#34;&gt;fuente&lt;/a&gt;). Esto hace que los productos cultivados dentro de invernadero sean equivalentes, en consumo de energía, a producir carne de cerdo (40-45 MJ/kg en EEUU)(&lt;a href=&#34;https://books.google.es/books?id=ClAttEBYLHsC&amp;amp;pg=PA297&amp;amp;lpg=PA297&amp;amp;dq=one+kilo+meat+megajoule&amp;amp;source=bl&amp;amp;ots=mfS1J1L_Ql&amp;amp;sig=leo_G6Yog1jBhtsiWxXo85LplfI&amp;amp;hl=nl&amp;amp;sa=X&amp;amp;ved=0ahUKEwi3wp_V7uLJAhWGRhQKHcRSDEkQ6AEIIzAA#v=onepage&amp;amp;q=one%20kilo%20meat%20megajoule&amp;amp;f=false&#34;&gt;fuente&lt;/a&gt;).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/dutch-style-greenhouse_dithered.png&#34; alt=&#39;Invernadero totalmente de vidrio, construido con el estilo holandés. Foto: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/dutch-style-greenhouse_dithered.png&#34; alt=&#39;Invernadero totalmente de vidrio, construido con el estilo holandés. Foto: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Invernadero totalmente de vidrio, construido con el estilo holandés. Foto: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -275,7 +275,7 @@
 &lt;p&gt;Este descubrimiento llevó al desarrollo de los muros frutales en el Noroeste Europeo. La planta de arboles de frutas cercana a una pared especialmente construida con alta masa térmica con orientación al sur, crea un microclima que permite el crecimiento de cultivos mediterráneos en climas templados tales como aquellos del norte de Francia, Inglaterra, Bélgica y Holanda.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/english-fruit-wall_dithered.png&#34; alt=&#39;Un muro frutal ingles. Wikipedia Commons&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/english-fruit-wall_dithered.png&#34; alt=&#39;Un muro frutal ingles. Wikipedia Commons&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un muro frutal ingles. Wikipedia Commons 
 &lt;/figcaption&gt;
@@ -285,7 +285,7 @@
 &lt;p&gt;Los muros frutales también protegen a los cultivos de los fríos vientos nórdicos. Tejas que sobresalen o marquesinas de madera a menudo servían para escudar los árboles de frutas contra la lluvia, granizo y los excrementos de aves. Algunas veces, se usaban esteras suspendidas en las paredes en caso de mal tiempo.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-pruning_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-pruning_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -297,14 +297,14 @@
 &lt;p&gt;Montreuil constaba con más de 600 km de muros frutales en 1870, cuando precisamente la industria alcanzó su pico. Las 300 hectáreas de muros frutales, establecidas como laberintos desordenados, eran tan confusas para los extranjeros que el ejército prusiano decidió no atravesar Montreuil durante la Toma de París en 1870.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/more-fruit-walls_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/more-fruit-walls_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -316,14 +316,14 @@
 &lt;p&gt;Estas muros tenían 3 metros de altura y hasta 100 metros de largo, espaciadas de 9 a 10 metros entre sí y construidas de barro con una capa de paja. Todas tenían un acabado de baldosas de albardilla y algunas tenían un canapé pequeño de vidrio.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-thomery_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-thomery_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/thomery-today-fruit-walls-remains_dithered.png&#34; alt=&#39;Parte de Thomery hoy en día, visto a través de Google maps. Las antiguas muros frutales todavía dominan el paisaje.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/thomery-today-fruit-walls-remains_dithered.png&#34; alt=&#39;Parte de Thomery hoy en día, visto a través de Google maps. Las antiguas muros frutales todavía dominan el paisaje.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Parte de Thomery hoy en día, visto a través de Google maps. Las antiguas muros frutales todavía dominan el paisaje. 
 &lt;/figcaption&gt;
@@ -333,7 +333,7 @@
 &lt;p&gt;Los muros frutales en la parte oeste y sudoeste producían uvas de menor calidad. En el 1840, Thomery ganó fama por las avanzadas técnicas que usaban para podar las viñas y engancharlas a las paredes. Este método se propagó a Montreuil y a otros países.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/storage-system-grapes_dithered.png&#34; alt=&#39;Sistema de almacenamiento de uvas en Thomery. Foto: Topic Tops.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/storage-system-grapes_dithered.png&#34; alt=&#39;Sistema de almacenamiento de uvas en Thomery. Foto: Topic Tops.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Sistema de almacenamiento de uvas en Thomery. Foto: [Topic Tops](http://fr.topic-topos.com/chambre-a-raisin-thomery). 
 &lt;/figcaption&gt;
@@ -344,7 +344,7 @@
 &lt;p&gt;Las industrias dedicadas a muros frutales en los países bajos (hoy en día Bélgica y Países Bajos) se dedicaban también al cultivo de uvas. Desde los años 1850 en adelante, Hoeilaart (municipio cercano a Bruselas), y Westland (Región de Holanda Meridional, la cual hoy en día constituye la mayor industria de invernaderos) se convirtieron en productores importantes de uvas. En 1881, Westland contaba con 178 km de muros frutales.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/serpentine-fruit-walls_dithered.png&#34; alt=&#39;Un muro frutal de serpentina en los Paises Bajos. Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/serpentine-fruit-walls_dithered.png&#34; alt=&#39;Un muro frutal de serpentina en los Paises Bajos. Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un muro frutal de serpentina en los Paises Bajos. [Wikipedia Commons](https://nl.wikipedia.org/wiki/Slangenmuur#/media/File:WLM_-_R%26@E_-_506982_slangemuur_Beeckestijn.jpg). 
 &lt;/figcaption&gt;
@@ -352,7 +352,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/different-type-fruit-wall_dithered.png&#34; alt=&#39;Un tipo diferente de muro frutal. Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/different-type-fruit-wall_dithered.png&#34; alt=&#39;Un tipo diferente de muro frutal. Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un tipo diferente de muro frutal. [Wikipedia Commons](https://nl.wikipedia.org/wiki/Slangenmuur#/media/File:WLM_-_R%26@E_-_506982_slangemuur_Beeckestijn.jpg). 
 &lt;/figcaption&gt;
@@ -363,7 +363,7 @@
 &lt;p&gt;Algunas variantes de los muros frutales de serpentina estaban formadas por formas angulares con partes empotradas y partes salientes. Muy pocas de estas fueron construidas fuera del territorio holandés, con excepción de aquellas construidas por los mismos holandeses en la zona este de Inglaterra, especialmente en el condado de Suffolk. En los Países Bajos, los holandeses construyeron muros frutales en zonas tan norteñas como &lt;a href=&#34;http://www.flickriver.com/photos/davydutchy/3958487038/&#34;&gt;Groningen&lt;/a&gt; (53°N).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-improved_dithered.png&#34; alt=&#39;Fuente: Fruit walls improved, Nicolas Fatio de Duilier, 1699.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/fruit-walls-improved_dithered.png&#34; alt=&#39;Fuente: Fruit walls improved, Nicolas Fatio de Duilier, 1699.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Fuente: Fruit walls improved, Nicolas Fatio de Duilier, 1699. 
 &lt;/figcaption&gt;
@@ -374,7 +374,7 @@
 &lt;p&gt;En Gran Bretaña, no aparecieron industrias de agricultura urbana a gran escala, pero los muros frutales se convirtieron en una característica estándar de los jardines de las casas de campo desde la década de los 1600 en adelante. Los ingleses desarrollaron muros frutales con calefacción en los siglos XVIII y XIX, para asegurar que los frutos no se desperdiciaran por las heladas y para ayudar a la maduración de la fruta y madera.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/heated-fruit-wall_dithered.png&#34; alt=&#39;Un muro frutal calefactado de Croxteth Hall Walled Kitchen Garden en Liverpool. Foto: The Horticultural Therapist.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/heated-fruit-wall_dithered.png&#34; alt=&#39;Un muro frutal calefactado de Croxteth Hall Walled Kitchen Garden en Liverpool. Foto: The Horticultural Therapist.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un muro frutal calefactado de Croxteth Hall Walled Kitchen Garden en Liverpool. Foto: [The Horticultural Therapist](https://thehorticulturaltherapist.wordpress.com/2013/06/02/croxteth-hall-walled-kitchen-garden/). 
 &lt;/figcaption&gt;
@@ -387,21 +387,21 @@
 &lt;p&gt;Sin embargo, los productores europeos hicieron uso de métodos de invernadero a pequeña escala desde principios del 1600. Las formas más simples de invernaderos fueron la “cloche”, un frasco con forma de campana o una jarra de vidrio sin fondo que se colocaba en la parte superior de las plantas. En otra método, había un pequeño semillero encerrado en una caja con tapa de cristal. En la estructura caliente se usaba la descomposición de estiércol de caballo para calefacción adicional.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/cloches_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/cloches_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/hot-frames-cloches_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/hot-frames-cloches_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/schietraam_dithered.png&#34; alt=&#39;El nacimiento del invernadero. Foto: Rijksdienst voor het Cultureel Erfgoed.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/schietraam_dithered.png&#34; alt=&#39;El nacimiento del invernadero. Foto: Rijksdienst voor het Cultureel Erfgoed.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  El nacimiento del invernadero. Foto:  [Rijksdienst voor het Cultureel Erfgoed](https://commons.wikimedia.org/wiki/File:Schietraam_-_Honselersdijk_-_20405430_-_RCE.jpg). 
 &lt;/figcaption&gt;
@@ -411,7 +411,7 @@
 &lt;p&gt;Con el tiempo, estas estructuras de invernadero se hicieron más grandes y más sofisticadas, pero todas ellas se seguían beneficiando de la masa térmica del muro frutal, que almacenaba el calor del sol para su uso nocturno. Además, muchas de estas estructuras constaban con una alfombrilla o estera aislante que podía desenrollarse a lo largo de la cubierta de cristal durante la noche o en tiempos fríos o nublados. En resumen, el efecto invernadero primitivo era un edificio solar pasivo.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/greenhouse-against-serpentine-fruit-wall_dithered.png&#34; alt=&#39;Invernadero construido contra un muro frutal de serpentina. Fuente: Rijksdienst voor het culturele erfgoed.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/greenhouse-against-serpentine-fruit-wall_dithered.png&#34; alt=&#39;Invernadero construido contra un muro frutal de serpentina. Fuente: Rijksdienst voor het culturele erfgoed.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Invernadero construido contra un muro frutal de serpentina. Fuente: [Rijksdienst voor het culturele erfgoed](https://commons.wikimedia.org/wiki/File:Interieur_muurkas,_slangenmuur_met_latwerk_-_&#39;s-Graveland_-_20405341_-_RCE.jpg). 
 &lt;/figcaption&gt;
@@ -419,7 +419,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/dutch-greenhouse-1930s_dithered.png&#34; alt=&#39;Un invernadero holandés de los 1930s, construido apoyado una pared de ladrillo. Foto: Naaldwijk in oude ansichten.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2015/12/fruit-walls-urban-farming-in-the-1600s/images/dithers/dutch-greenhouse-1930s_dithered.png&#34; alt=&#39;Un invernadero holandés de los 1930s, construido apoyado una pared de ladrillo. Foto: Naaldwijk in oude ansichten.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un invernadero holandés de los 1930s, construido apoyado una pared de ladrillo. Foto: [Naaldwijk in oude ansichten](http://www.inoudeansichten.nl/ansichten/naaldwijk/p92889-naaldwijk-kopkas-met-knie-1930.html). 
 &lt;/figcaption&gt;
@@ -427,7 +427,7 @@
 &lt;/div&gt;
 &lt;p&gt;El primero de todos los invernaderos totalmente construidos de vidrio surgía en la década del 1890 en Bélgica, y poco después en los Países Bajos. Dos tendencias formaron parte de este surgimiento. La primera fue la invención del método de producción de vidrio de placa, lo que hizo que sea mucho mas asequible conseguir cristales de ventanas más grandes.&lt;/p&gt;
 &lt;p&gt;El segundo fue el avance de los combustibles fósiles, lo que hizo posible mantener un ambiente cálido en edificio de cristal, a pesar de las grandes pérdidas de calor. En consecuencia, en el inicio del siglo XX, el invernadero se convirtió en una estructura sin masa térmica. El muro frutal, que había empezado todo, ya estaba totalmente fuera de esta nueva estructura.&lt;/p&gt;
-&lt;p&gt;Durante las crisis del petróleo de la década de 1970, hubo un renovado interés en el invernadero solar pasivo. Sin embargo, la atención se desvaneció rápidamente cuando los precios de la energía bajaron, y el invernadero totalmente acristalado siguió siendo el caballo de batalla de la horticultura en las zonas del Noroeste del mundo. Los chinos, sin embargo, construyeron 800.000 hectáreas de invernaderos solares pasivos durante las últimas tres décadas – 80 veces la superficie de todos los invernaderos en los Países Bajos. El invernadero en China &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2015/12/reinventing-the-greenhouse/&#34;&gt;se discute en la segunda parte de este artículo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Durante las crisis del petróleo de la década de 1970, hubo un renovado interés en el invernadero solar pasivo. Sin embargo, la atención se desvaneció rápidamente cuando los precios de la energía bajaron, y el invernadero totalmente acristalado siguió siendo el caballo de batalla de la horticultura en las zonas del Noroeste del mundo. Los chinos, sin embargo, construyeron 800.000 hectáreas de invernaderos solares pasivos durante las últimas tres décadas – 80 veces la superficie de todos los invernaderos en los Países Bajos. El invernadero en China &lt;a href=&#34;/es/2015/12/reinventing-the-greenhouse/&#34;&gt;se discute en la segunda parte de este artículo&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;fuentes&#34;&gt;Fuentes&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://ia902606.us.archive.org/18/items/openairgrapecult00phinrich/openairgrapecult00phinrich.pdf&#34;&gt;Open Air Grape Culture&lt;/a&gt;, John Phin, 1862&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.messynessychic.com/2014/03/04/the-last-peach-orchards-of-paris/&#34;&gt;The last peach orchards of Paris&lt;/a&gt;, Messy Nessy, 2014&lt;/p&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>https://lowtechmag.gitlab.io/solar/es/translators/angela-lluch/</link>
+    <link>/es/translators/angela-lluch/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/es/translators/angela-lluch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/es/translators/angela-lluch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Las granjas verticales no ahorran espacio</title>
-      <link>https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/</link>
+      <link>/es/2021/02/vertical-farming-does-not-save-space/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png" type="image/png" length="47813" ></enclosure>
+      <enclosure url="/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png" type="image/png" length="47813" ></enclosure>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/</guid>
+      <guid>/es/2021/02/vertical-farming-does-not-save-space/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -31,7 +31,7 @@
 &lt;p&gt;El experimento muestra que el cultivo de 1m2 de trigo en un entorno artificial cuesta 2,577 kilovatios-hora de electricidad y 394 litros de agua por año. La energía requerida para la producción de hardware (como por ejemplo la iluminación) no está incluida en estos resultados, por lo tanto este coste está infravalorado. El coste de energía consumida por el edificio tampoco se ha tenido en cuenta, y ello incluye tanto la construcción como su uso, por ejemplo para calentar, enfriar y extraer agua.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/es/2021/02/vertical-farming-does-not-save-space/images/dithers/vertical-farm2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;Toda esta crítica también aplica a los cultivos verticales donde crecen lechugas y tomates. En este caso, hay una significante reducción en el uso de agua. Estas actividades generan beneficio, pero sólo porque el proceso depende del aporte de energías fósiles a bajo coste. Si la energía fuera proporcionada por medio de paneles solares, los costes extra y el espacio para el aporte de energía anularían los beneficios en términos de espacio y costes. La única ventaja de un cultivo vertical sería entonces una distancia de transporte más corta. No obstante, el transporte entre ciudad y área rural podría ser aún más sostenible.&lt;/p&gt;
 &lt;p&gt;El problema con la agricultura no es que ocurra en las áreas rurales, el problema es que depende fuertemente en las energías fósiles. El cultivo vertical no es la solución ya que reemplaza, una vez más, la energía renovable y sin coste proveniente del Sol con tecnología cara que depende de energía fósil (Lámparas LED + ordenadores + edificios de hormigón + paneles solares). Nuestro estilo de vida se está convirtiendo cada vez en algo menos sostenible, incrementando la dependencia a materias primas, infraestructura, máquinas y energía fósil. Desafortunadamente, esto también aplica a la mayoría de tecnología que actualmente se etiqueta como sostenible.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://disnovation.org/farm.php&#34;&gt;Solar Share (The Farm)&lt;/a&gt;, por Disnovation.org (Maria Roszkowska, Nicolas Maigret) y Baruch Gottlieb.&lt;/p&gt;
-&lt;p&gt;Para los comentarios, véase &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2021/02/vertical-farming-does-not-save-space/&#34;&gt;la versión en inglés de este artículo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para los comentarios, véase &lt;a href=&#34;/es/2021/02/vertical-farming-does-not-save-space/&#34;&gt;la versión en inglés de este artículo&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

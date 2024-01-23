@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://lowtechmag.gitlab.io/solar/tags/solar-power/</link>
+    <link>/tags/solar-power/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/solar-power/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/solar-power/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Direct Solar Power: Off-Grid Without Batteries</title>
-      <link>https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/</link>
+      <link>/2023/08/direct-solar-power-off-grid-without-batteries/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
+      <enclosure url="/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/</guid>
+      <guid>/2023/08/direct-solar-power-off-grid-without-batteries/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Image: a laptop running on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Image: a laptop running on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: a laptop running on direct solar power. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;Energy storage also dominates the plant&amp;rsquo;s &amp;ldquo;embedded&amp;rdquo; energy (and resulting carbon emissions). Producing my lead-acid battery took 1,200 megajoules (MJ) of energy. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Over a 30-year lifetime (six batteries at best), that equates to 7,200 MJ. The three charge controllers add another 360 MJ over a 30-year lifetime, bringing the total energy consumption for the battery system to 7,560 MJ. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; In contrast, the production of the solar panels costs only 2,275 MJ out of a total of 9,835 MJ. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Conclusion: more than 75% of total fossil energy consumption is due to energy storage.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Image: To the right on the balcony are the two 50W solar panels that power my flat&amp;amp;rsquo;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Image: To the right on the balcony are the two 50W solar panels that power my flat&amp;amp;rsquo;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: To the right on the balcony are the two 50W solar panels that power my flat&#39;s living room. Next to it is the 30W solar panel that makes this website work. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -41,7 +41,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The structure for the solar panels, built from waste wood. Photo: Kris De Decker. 
 &lt;/figcaption&gt;
@@ -49,7 +49,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The 100 Ah lead-acid battery powering the living room after sunset. Photo: Kris De Decker. 
 &lt;/figcaption&gt;
@@ -66,7 +66,7 @@
 &lt;p&gt;To answer that question, we look at a pioneer of &amp;ldquo;direct solar power&amp;rdquo;: the &lt;em&gt;Living Energy Farm&lt;/em&gt;. This environmental education community in the US state of Virginia is completely &amp;ldquo;off-the-grid&amp;rdquo; thanks to solar power, but only 10% of the solar power generated passes through a (nickel-iron) battery. However, the solar panels provide power for several homes, a communal kitchen, a metal workshop, and a farm. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Image: direct solar power at the Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Image: direct solar power at the Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: direct solar power at the Living Energy Farm. 
 &lt;/figcaption&gt;
@@ -78,7 +78,7 @@
 &lt;p&gt;On a much smaller scale, I have used direct solar power for a soldering iron, glue gun and irrigation pump (for the balcony) at home. Other examples of appliances and machines that could be used only during the day include hoovers, sewing machines, washing machines, game consoles, laser cutters and 3D printers. It is not so difficult to imagine a modern society where activities such as vacuuming and DIY chores only take place during the day. It is certainly not a return to the Middle Ages.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: several workshop tools at the Living Energy Farm, most of them run on direct solar power. Image: Alexis Zeigler. 
 &lt;/figcaption&gt;
@@ -86,7 +86,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Metal lathe running on direct solar power, Living Energy Farm. Image: Alexis Zeigler. 
 &lt;/figcaption&gt;
@@ -94,7 +94,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Image: Soldering with direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Image: Soldering with direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Soldering with direct solar power. Photo: Marie Verdeil. [Watch the video](https://www.youtube.com/watch?v=qozZCJU4IOc). 
 &lt;/figcaption&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;Consequently, these types of devices can be charged with direct solar energy during the day and then used for several hours after sunset thanks to the built-in battery. Combined with a lithium-ion power bank, a direct solar panel can also make it possible to charge USB devices after sunset. This strategy can even work for lighting, as there are many battery-powered lamps that you can use as modern torches, hung in different parts of rooms and buildings.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Image: A mobile phone on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Image: A mobile phone on direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A mobile phone on direct solar power. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -124,7 +124,7 @@
 &lt;p&gt;A direct solar-powered fridge also opens at the top, not at the front. Cold air is heavy, and so much less energy is lost that way when someone opens the door. All these design choices add up to spectacular energy efficiency. A study of direct solar refrigerators in very sunny regions (Texas and New Mexico, USA) showed that they maintained their cooling capacity for 6 or 7 days without power supply. The units operated year-round with solar panels of only 80W to 120W. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; The Living Energy Farm powers its solar refrigerator with a 200W panel. &lt;sup id=&#34;fnref3:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The Sundanzer DDR165. A refrigerator designed specifically for direct solar power. Photo: Sundanzer. 
 &lt;/figcaption&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;In principle, a conventional cooker can also be connected directly to a solar panel, but as with a conventional fridge, it is not very practical. You can only cook during the day, and you have to install a lot of solar panels. A single hot plate needs 1,000 watts of electrical power. A solar electric cooker solves these problems by packing the cooktop with thermal insulation. The technology is basically a combination of an electric cooktop and a &lt;a href=&#34;https://solar.lowtechmagazine.com/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;haybox&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Test of an electric solar cooker. Photo: California Polytechnic State University (Cal Poly). 
 &lt;/figcaption&gt;
@@ -146,7 +146,7 @@
 &lt;p&gt;Cooking after sunset is possible by using a cooking pot with a much thicker bottom (5-10 kg). Cal Poly&amp;rsquo;s research team managed to bring the temperature of that solid heat storage to 250°C in five hours with a 100W solar panel. They were then able to boil a litre of water in three seconds after sunset. In another test, they stir-fried 1 kg of vegetables in two minutes. The ideal configuration consists of two cooking pots: one with and one without heat storage. Thus, an electric solar cooker can cook both slowly and quickly, depending on the time of day and the dish. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The principle of a solar electric cooker with solid heat storage. Drawing: California Polytechnic State University (Cal Poly). 
 &lt;/figcaption&gt;
@@ -163,7 +163,7 @@
 &lt;p&gt;Many other devices need a specific and stable voltage input, which usually does not match what the solar panel produces. This can be solved by placing a DC-DC converter (a &amp;ldquo;buck&amp;rdquo; or &amp;ldquo;boost&amp;rdquo; converter) between the solar panel and the device. This is a small electronic module that converts the fluctuating voltage of a solar panel into a constant output voltage for a low-voltage device (5V, 12V or higher). &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Image: Experiments with direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Image: Experiments with direct solar power. Photo: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Experiments with direct solar power. Photo: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -176,7 +176,7 @@
 &lt;p&gt;Different technologies can be used for heating elements, but embedding nichrome wires in cement is the simplest option. These wires can be taken from a variety of appliances such as toasters, ovens and hotplates. In principle, the heating wires can be attached directly to the cooking pot, but it is more practical to make a heated &amp;ldquo;nest&amp;rdquo; in which a pot can be placed.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Image: Inspired by Cal Poly&amp;amp;rsquo;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they offer for sale through their website. The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Image: Inspired by Cal Poly&amp;amp;rsquo;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they offer for sale through their website. The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Inspired by Cal Poly&#39;s work, Living Energy Farm also developed a number of electric solar cookers, one of which they [offer for sale through their website](https://livingenergylights.com/product/roxy-solar-electric-oven/). The Roxy Oven can be used as a hotplate or an oven, for example for baking bread. The door also remains closed when used as a hot plate. This solar cooker has no energy storage. 
 &lt;/figcaption&gt;
@@ -184,7 +184,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&amp;amp;rsquo;s solar refrigerator for sale online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&amp;amp;rsquo;s solar refrigerator for sale online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The Roxy Oven without the door and with the glass wool insulation visible. The device - made in the metal workshop with direct solar power - runs on 48V and requires a solar panel of 200 to 500 watts. Living Energy Farm also offers Sunstar&#39;s solar refrigerator [for sale online](https://livingenergylights.com/product/sunstar-direct-drive-8-cuft-chest-style-refrigerator-freezer/). 
 &lt;/figcaption&gt;
@@ -202,7 +202,7 @@
 &lt;p&gt;However, such a smart grid does require a lot of infrastructure, even if direct solar power were to be used at that scale. It may not require batteries or fossil fuels as backup, but it does require transmission and communication infrastructure.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Image: A record player on direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Image: A record player on direct solar power. Photo: Marie Verdeil. Watch the video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A record player on direct solar power. Photo: Marie Verdeil. [Watch the video](https://www.youtube.com/watch?v=_LjSigJv0-0). 
 &lt;/figcaption&gt;
@@ -301,15 +301,15 @@
     
     <item>
       <title>The Printed Website: Volume III &amp; The Comments</title>
-      <link>https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/</link>
+      <link>/2021/12/the-printed-website-volume-iii-and-more/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/images/dithers/all-four-books_dithered.png" type="image/png" length="14598" ></enclosure>
+      <enclosure url="/2021/12/the-printed-website-volume-iii-and-more/images/dithers/all-four-books_dithered.png" type="image/png" length="14598" ></enclosure>
       <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/</guid>
+      <guid>/2021/12/the-printed-website-volume-iii-and-more/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/12/the-printed-website-volume-iii-and-more/images/dithers/all-four-books_dithered.png&#34; alt=&#39;Image: The Printed Website.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The Printed Website. 
 &lt;/figcaption&gt;
@@ -317,16 +317,16 @@
 &lt;/div&gt;
 &lt;h2 id=&#34;low-tech-magazine-volume-iii&#34;&gt;Low-tech Magazine Volume III&lt;/h2&gt;
 &lt;p&gt;The newest Low-tech Magazine book &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2018-2021/paperback/product-q7r49d.html&#34;&gt;collects 18 articles published between 2018 and 2021&lt;/a&gt;. At 368 pages it’s a thin book compared to earlier volumes. When we started the book series, the challenge was to unlock an archive of almost 12 years. It made sense to pack this content into as few volumes as possible.&lt;/p&gt;
-&lt;p&gt;However, looking ahead, we will publish more often, once every one to three years, depending on the number of articles written. From now on, the articles will be arranged chronologically, from oldest to newest, and no longer the other way around. This volume contains 184 images in black and white. It is &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/&#34;&gt;also available in French&lt;/a&gt; (400 pages).
+&lt;p&gt;However, looking ahead, we will publish more often, once every one to three years, depending on the number of articles written. From now on, the articles will be arranged chronologically, from oldest to newest, and no longer the other way around. This volume contains 184 images in black and white. It is &lt;a href=&#34;/fr/2021/12/the-printed-website-volume-iii-and-more/&#34;&gt;also available in French&lt;/a&gt; (400 pages).
 &lt;a href=&#34;&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;low-tech-magazine-the-comments&#34;&gt;Low-tech Magazine: The Comments&lt;/h2&gt;
-&lt;p&gt;We also launched a book which &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-the-comments-2008-2021/paperback/product-9457rd.html&#34;&gt;collects almost 3,000 comments&lt;/a&gt; on the roughly 100 articles which are published in the three other books. This volume has 688 pages and no images. We included all feedback up to November 7, 2021. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/low-tech-magazine-the-printed-comments/&#34;&gt;Read more about the comments book here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also launched a book which &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-the-comments-2008-2021/paperback/product-9457rd.html&#34;&gt;collects almost 3,000 comments&lt;/a&gt; on the roughly 100 articles which are published in the three other books. This volume has 688 pages and no images. We included all feedback up to November 7, 2021. &lt;a href=&#34;/low-tech-magazine-the-printed-comments/&#34;&gt;Read more about the comments book here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Over the years, readers have often stated that the comments on the website are (at least) as interesting as the articles themselves. We agree. Low-tech Magazine would not have been even half what it is now without the comments. You can even take this literally, because this is one of the thickest books we have published so far, despite the extra small font we use.&lt;/p&gt;
 &lt;h2 id=&#34;new-edition&#34;&gt;New Edition&lt;/h2&gt;
 &lt;p&gt;Finally, we have published a &lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2012-2018-second-edition/paperback/product-zvz55m.html&#34;&gt;second edition of the first book we published&lt;/a&gt; in 2019. This new edition has almost twice as many images and follows the same design as the other volumes. In contrast to the first edition, the images are not &amp;ldquo;dithered&amp;rdquo; and of higher quality. We use a smaller font to pack more content on fewer pages. This second edition also fixes some errors in the articles and the references.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/images/dithers/comments-book-cover_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Comments (2008-2021).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/12/the-printed-website-volume-iii-and-more/images/dithers/comments-book-cover_dithered.png&#34; alt=&#39;Image: Low-tech Magazine: The Comments (2008-2021).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Low-tech Magazine: The Comments (2008-2021). 
 &lt;/figcaption&gt;
@@ -334,7 +334,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/12/the-printed-website-volume-iii-and-more/images/dithers/low-tech-magazine-volume-III-montage_dithered.png&#34; alt=&#39;Image: Low-tech Magazine Volume III (2018-2021).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/12/the-printed-website-volume-iii-and-more/images/dithers/low-tech-magazine-volume-III-montage_dithered.png&#34; alt=&#39;Image: Low-tech Magazine Volume III (2018-2021).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Low-tech Magazine Volume III (2018-2021). 
 &lt;/figcaption&gt;
@@ -372,15 +372,15 @@
     
     <item>
       <title>How to Build a Low-tech Solar Panel?</title>
-      <link>https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/</link>
+      <link>/2021/10/how-to-build-a-low-tech-solar-panel/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
+      <enclosure url="/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
+      <guid>/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove stands next to his third solar array. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove stands next to his third solar array. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  George Cove stands next to his third solar array. Source: \&#34;Generating electricity by the sun&#39;s rays\&#34;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793. 
 &lt;/figcaption&gt;
@@ -392,14 +392,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;The need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The manufacturing of solar PV panels is just as problematic. It produces toxic waste and requires a global supply chain, including capital-intensive factories, complex machinery, mined materials, and a steady input of fossil fuels. In life cycle analyses of solar panels, scientists calculate &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;how much energy and materials are required to build a solar panel&lt;/a&gt;. However, they ignore the massive amount of energy and materials needed to set up and maintain the solar PV supply chain itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Consequently, these studies do not reveal the actual cost of solar panels in terms of fossil fuel dependence, emissions, and other environmental pollution. Furthermore, the need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
+&lt;p&gt;The manufacturing of solar PV panels is just as problematic. It produces toxic waste and requires a global supply chain, including capital-intensive factories, complex machinery, mined materials, and a steady input of fossil fuels. In life cycle analyses of solar panels, scientists calculate &lt;a href=&#34;/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;how much energy and materials are required to build a solar panel&lt;/a&gt;. However, they ignore the massive amount of energy and materials needed to set up and maintain the solar PV supply chain itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Consequently, these studies do not reveal the actual cost of solar panels in terms of fossil fuel dependence, emissions, and other environmental pollution. Furthermore, the need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
 &lt;h2 id=&#34;finding-inspiration-in-the-past&#34;&gt;Finding inspiration in the past&lt;/h2&gt;
 &lt;p&gt;Are solar PV panels inherently unsustainable, unrecyclable, and dependent on high-tech and capital-intensive manufacturing processes? Or, is it possible to build them with local, recyclable and less energy-intensive materials and production methods? In other words, can we build low-tech solar panels? And, if so, what would that mean for costs and efficiency?&lt;/p&gt;
 &lt;p&gt;Before we try to answer this question, it’s important to note that the best low-tech alternative for a high-tech solar panel is often not a low-tech solar panel but direct use of solar energy. That is, putting solar energy to use without converting it to electricity first. For example, a clothesline and a solar thermal water boiler are much more efficient, sustainable, and economical than an electric tumble dryer and a water boiler powered by solar PV panels. Direct use of solar energy can happen with local materials, relatively simple manufacturing technologies, and short supply lines.&lt;/p&gt;
-&lt;p&gt;Nevertheless, in this article, I take the question literally: can we build low-tech photovoltaic devices, which convert sunlight into electricity? In a previous article, we have seen that &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;history offers inspiration for building more sustainable wind turbines&lt;/a&gt;. Can history also inspire us to make more sustainable solar cells?&lt;/p&gt;
+&lt;p&gt;Nevertheless, in this article, I take the question literally: can we build low-tech photovoltaic devices, which convert sunlight into electricity? In a previous article, we have seen that &lt;a href=&#34;/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;history offers inspiration for building more sustainable wind turbines&lt;/a&gt;. Can history also inspire us to make more sustainable solar cells?&lt;/p&gt;
 &lt;h2 id=&#34;the-prehistory-of-solar-cells&#34;&gt;The prehistory of solar cells&lt;/h2&gt;
 &lt;p&gt;Bell Labs’ solar PV panel, presented in 1954, came not out of nowhere. The silicon solar cell had its roots in less complex devices that could produce electricity from either light or heat.&lt;/p&gt;
-&lt;p&gt;In 1821, Thomas Seebeck found that an electrical current will flow in a circuit made from two dissimilar metals, with the junctions at different temperatures. This “thermoelectric effect” formed the basis for the “thermoelectric generator” &amp;ndash; which converts heat (for example, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;from a wood stove&lt;/a&gt;) directly into electricity. In 1839, Antoine Becquerel discovered that light could also convert into electricity, and during the 1870s, several scientists proved this effect in solids, most notably in selenium. This “photoelectric effect” formed the basis for the “photoelectric generator” &amp;ndash; which we now call a “photovoltaic” generator or solar PV cell. In 1883, Charles Fritts constructed the first photovoltaic module ever made, using selenium on a thin layer of gold. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In 1821, Thomas Seebeck found that an electrical current will flow in a circuit made from two dissimilar metals, with the junctions at different temperatures. This “thermoelectric effect” formed the basis for the “thermoelectric generator” &amp;ndash; which converts heat (for example, &lt;a href=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;from a wood stove&lt;/a&gt;) directly into electricity. In 1839, Antoine Becquerel discovered that light could also convert into electricity, and during the 1870s, several scientists proved this effect in solids, most notably in selenium. This “photoelectric effect” formed the basis for the “photoelectric generator” &amp;ndash; which we now call a “photovoltaic” generator or solar PV cell. In 1883, Charles Fritts constructed the first photovoltaic module ever made, using selenium on a thin layer of gold. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Throughout this period – and until the 1950s – the practical uses of thermoelectric and photoelectric devices were limited. Inventors built many experimental thermoelectric generators, usually powered by a gas flame, but their efficiency did not exceed 1%. Likewise, Charles Fritts’ solar panel, and the selenium solar cells made afterward, obtained just 1-2% efficiency in converting sunlight into electricity. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; In short, the period before the 1950s doesn’t seem to offer much inspiration for building more sustainable solar PV panels.&lt;/p&gt;
 &lt;h2 id=&#34;a-forgotten-pioneer-of-solar-power&#34;&gt;A forgotten pioneer of solar power&lt;/h2&gt;
 &lt;p&gt;However, the prehistory of the solar panel may be incomplete. In 2019, I received a mail from a reader of Low-tech Magazine, Philip Pesavento:&lt;/p&gt;
@@ -412,7 +412,7 @@
 &lt;p&gt;Cove presented his second solar electric generator there in 1909. This 1.5m2 panel could produce 45 watts of power and was 2.75% efficient in converting solar energy into electricity. By mid-1909, Cove had moved to New York City, where he presented his third prototype, a solar array consisting of four solar panels of 60 watt-peak each, which charged a total of five lead-acid batteries. The total surface area was 4.5 m2, the maximum power output was 240 watts, and efficiency rose to 5% – similar to the first solar panel presented by Bell Labs. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909. 
 &lt;/figcaption&gt;
@@ -420,7 +420,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Above: Cove&amp;amp;rsquo;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Above: Cove&amp;amp;rsquo;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: Cove&#39;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909. 
 &lt;/figcaption&gt;
@@ -428,7 +428,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s third solar panel. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, September 1909. 
 &lt;/figcaption&gt;
@@ -436,7 +436,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153. 
 &lt;/figcaption&gt;
@@ -444,7 +444,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Above: One of the solar panels of Cove&amp;amp;rsquo;s third solar array, with the glass cover removed. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Above: One of the solar panels of Cove&amp;amp;rsquo;s third solar array, with the glass cover removed. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: One of the solar panels of Cove&#39;s third solar array, with the glass cover removed. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, September 1909. 
 &lt;/figcaption&gt;
@@ -454,7 +454,7 @@
 &lt;h2 id=&#34;plugs-set-in-asphalt&#34;&gt;Plugs set in asphalt&lt;/h2&gt;
 &lt;p&gt;How did George Cove manage to build a solar panel that was 40 years ahead of its time? According to Philip Pesavento, who has a background in semiconductor engineering, Cove intended to build a better thermoelectric generator (TEG). He exposed his generator to the heat from a wood stove and direct solar energy &amp;ndash; Edward Weston had made the first experimental solar thermoelectric generator (or STEG) in 1888. Cove’s intentions are also clear from how he described his device:&lt;/p&gt;
 &lt;p&gt;“The frame contains a number of panes of violet glass, behind which are set, through an asphalt compound backing, many little metal plugs. One end of the plugs is always exposed by sunlight, while the other end is cool and sheltered.”&lt;/p&gt;
-&lt;p&gt;Creating the largest possible temperature difference is &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;key to thermoelectric power production&lt;/a&gt;, so Cove’s design makes sense. The problem is that when he measured the power output of his generator, it did not respond to heat like a thermo-electric generator was supposed to do. Initially, Cove observes that his invention uses both heat and light to produce electricity when exposed to solar energy:&lt;/p&gt;
+&lt;p&gt;Creating the largest possible temperature difference is &lt;a href=&#34;/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;key to thermoelectric power production&lt;/a&gt;, so Cove’s design makes sense. The problem is that when he measured the power output of his generator, it did not respond to heat like a thermo-electric generator was supposed to do. Initially, Cove observes that his invention uses both heat and light to produce electricity when exposed to solar energy:&lt;/p&gt;
 &lt;p&gt;“The principal part of my invention is the peculiar composition of the metallic plugs which are acted upon by the sun in such a way that the current is generated not only by heat rays but the violet rays as well”.&lt;/p&gt;
 &lt;p&gt;However, after further experiments with both the wood stove and solar energy, Cove states:&lt;/p&gt;
 &lt;p&gt;“When the machine is exposed to various sources of artificial heat it gives no electricity whatsoever. Other than the heat rays of the sun (short-wave infrared), perhaps the violet or ultraviolet rays are active in setting up the electrical current”.&lt;/p&gt;
@@ -476,7 +476,7 @@
 &lt;p&gt;What happened? By using copper, Cove had unknowingly built a Schottky junction. That converted his thermoelectric generator into a “thermophotovoltaic generator.” Such a device works the same as a photovoltaic solar cell but on a different wavelength. The solar spectrum covers a range of approximately 0.5 to 2.9 electron-Volts (eV), from infrared to ultraviolet. A semiconductor with a bandgap between 1 and 1.7 eV efficiently converts visible light into electricity (a photovoltaic generator) &amp;ndash; while a semiconductor with a bandgap between 0.4 and 0.7 eV efficiently converts short-wave infrared solar energy into electricity (a thermophotovoltaic generator).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Above: This drawing from Cove&amp;amp;rsquo;s 1906 patent shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Above: This drawing from Cove&amp;amp;rsquo;s 1906 patent shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: This drawing from [Cove&#39;s 1906 patent](https://patentimages.storage.googleapis.com/bc/bb/50/6683e8b44edd4c/US824684.pdf) shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency. 
 &lt;/figcaption&gt;
@@ -505,7 +505,7 @@
 &lt;p&gt;On the other hand, it may be possible to build Schottky cells thinner than silicon solar cells – and that would increase their efficiency. Philip Pesavento:&lt;/p&gt;
 &lt;p&gt;“I have not found the specific numbers for the parameters – carrier velocity, recombination lifetime, absorption coefficient – to say this unequivocally. But the fact that Cove made such long skinny cells and got as high efficiencies as he did bodes well for making them thinner.”&lt;/p&gt;
 &lt;p&gt;Again, recent research into Schottky cells based on other materials seems to confirm this. For example, recent experiments with Schottky selenium cells brought layer thickness back to only 100 µm, compared to between 200 and 500 µm for silicon cells. &lt;sup id=&#34;fnref1:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; Scientists also reached 17% experimental efficiency for a graphene/silicon Schottky cell, up from 1.5% ten years earlier. &lt;sup id=&#34;fnref1:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;We can also question the current obsession with higher efficiencies. Many people will argue that if low-tech solar panels are less efficient, we would need more solar panels to produce the same power output. Consequently, the resources saved by low-tech production methods would be compensated by the extra resources to build more solar panels. However, efficiency is only crucial &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;when we take energy demand for granted&lt;/a&gt;, sacrificing some efficiency may gain us a lot in sustainability.&lt;/p&gt;
+&lt;p&gt;We can also question the current obsession with higher efficiencies. Many people will argue that if low-tech solar panels are less efficient, we would need more solar panels to produce the same power output. Consequently, the resources saved by low-tech production methods would be compensated by the extra resources to build more solar panels. However, efficiency is only crucial &lt;a href=&#34;/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;when we take energy demand for granted&lt;/a&gt;, sacrificing some efficiency may gain us a lot in sustainability.&lt;/p&gt;
 &lt;h2 id=&#34;what-happened-to-george-cove&#34;&gt;What happened to George Cove?&lt;/h2&gt;
 &lt;p&gt;If Cove’s solar panel was so revolutionary, why is it forgotten? On this question, Philip Pesavento’s research material reads like a crime novel. Cove’s attempt to produce and market his solar energy device failed in mysterious ways.&lt;/p&gt;
 &lt;p&gt;The inventor became involved with a stock manipulator – Elmer Burlingame – who in 1909 and 1910 issued stock from businesses that were not his, including Cove’s start-up the Sun Electric Generator Company. In October 1909, Cove was allegedly kidnapped, and his life was threatened if he did not cease the development of his solar invention. However, the police dismissed Cove’s kidnapping as a hoax. In 1911, both Cove and Burlingame were arrested for stock fraud and spent a year in jail. Although Cove worked on other inventions after that, none of those were related to solar energy. &lt;sup id=&#34;fnref:32&#34;&gt;&lt;a href=&#34;#fn:32&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -604,7 +604,7 @@
 &lt;p&gt;Todorov, Teodor K., et al. &amp;ldquo;&lt;a href=&#34;https://www.nature.com/articles/s41467-017-00582-9&#34;&gt;Ultrathin high band gap solar cells with improved efficiencies from the world’s oldest photovoltaic material&lt;/a&gt;.&amp;rdquo; Nature communications 8.1 (2017): 1-8.&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:28&#34;&gt;
-&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:29&#34;&gt;
 &lt;p&gt;Hadar, Ido, et al. &amp;ldquo;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/aenm.201802766&#34;&gt;Modern processing and insights on selenium solar cells: the world&amp;rsquo;s first photovoltaic device&lt;/a&gt;.&amp;rdquo; Advanced Energy Materials 9.16 (2019): 1802766.&amp;#160;&lt;a href=&#34;#fnref:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;

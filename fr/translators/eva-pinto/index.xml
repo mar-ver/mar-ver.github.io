@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://lowtechmag.gitlab.io/solar/fr/translators/eva-pinto/</link>
+    <link>/fr/translators/eva-pinto/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/eva-pinto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="/fr/translators/eva-pinto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comment conserver la fraîcheur des boissons hors du réfrigérateur</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/</link>
+      <link>/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botiijo_dithered.png" type="image/png" length="15034" ></enclosure>
+      <enclosure url="/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botiijo_dithered.png" type="image/png" length="15034" ></enclosure>
       <pubDate>Wed, 25 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/</guid>
+      <guid>/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botiijo_dithered.png&#34; alt=&#39;Illustration : un botijo espagnol.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botiijo_dithered.png&#34; alt=&#39;Illustration : un botijo espagnol.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : un botijo espagnol. 
 &lt;/figcaption&gt;
@@ -28,7 +28,7 @@
 &lt;p&gt;Le refroidisseur d’eau en céramique tire probablement ses origines de la civilisation de la vallée de l’Indus, ce qui voudrait dire que le botijo est vieux de 5 000 ans.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-water-cooler_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-water-cooler_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -42,7 +42,7 @@
 &lt;p&gt;Le potentiel de refroidissement du botijo dépend, entre autres, de la forme, des dimensions et de la matière de la cruche, de la quantité d’eau qu’elle peut contenir ainsi que de l’humidité et de la température de l’air extérieur. Il peut être calculé précisément selon un modèle mathématique complexe développé lors d’une expérience scientifique de 1995 (&lt;a href=&#34;http://quim.iqi.etsii.upm.es/botijo.pdf&#34;&gt;PDF&lt;/a&gt;), qui a montré que l’on peut, dans des conditions optimales, refroidir un liquide jusqu’à 15 degrés Celsius.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/catalan-botijo-cantir_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/catalan-botijo-cantir_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -51,7 +51,7 @@
 &lt;p&gt;En 7 heures, la température avait atteint les 24 degrés, avec une perte d’eau d’environ 0,4 L (soit 8 % de la quantité d’eau). La température a ensuite progressivement recommencé à grimper. Avec des températures extérieures plus basses (aux alentours de 30 degrés Celsius), l’effet de refroidissement ne dépasse pas les 10 degrés Celsius. L’effet de refroidissement s’adapte donc aux conditions climatiques.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijos_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijos_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -63,7 +63,7 @@
 &lt;h2 id=&#34;un-appareil-réfrigérant-portable&#34;&gt;Un appareil réfrigérant portable&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-de-madrid_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-de-madrid_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -72,7 +72,7 @@
 &lt;p&gt;Deuxièmement, le botijo est un appareil réfrigérant portable qui n’a aucun équivalent moderne. Les bouteilles actuelles sont en plastique, en verre ou en métal et n’ont pas de pores. De ce fait, la bouteille ne « transpire » pas et se réchauffe dès qu’on la sort du réfrigérateur.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-mobile-water-cooler_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-mobile-water-cooler_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -88,7 +88,7 @@
 &lt;p&gt;Cependant, la fonction réfrigérante des refroidisseurs d’eau en céramique se détériore : les étés sont plus humides, ce qui est le cas de la plupart des climats tropicaux. C’est pareil pour le corps humain, qui transpire plus dans un environnement chaud et humide : la transpiration ne peut pas s’évaporer.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-suspended-from-the-ceiling_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-suspended-from-the-ceiling_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -97,7 +97,7 @@
 &lt;h2 id=&#34;soulever-le-botijo&#34;&gt;Soulever le botijo&lt;/h2&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-suspended-from-the-ceiling-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2012/04/how-to-keep-beverages-cool-outside-the-refrigerator/images/dithers/botijo-suspended-from-the-ceiling-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -112,15 +112,15 @@
     
     <item>
       <title>Qu’est-ce qui a mis fin au réseau électrique ? Les voitures électriques à charge rapide</title>
-      <link>https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/</link>
+      <link>/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-motor-art-lockwasher_dithered.png" type="image/png" length="17991" ></enclosure>
+      <enclosure url="/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-motor-art-lockwasher_dithered.png" type="image/png" length="17991" ></enclosure>
       <pubDate>Tue, 10 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/</guid>
+      <guid>/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-motor-art-lockwasher_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-motor-art-lockwasher_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : « Motor art », avec l’autorisation de [Lockwasher](http://www.flickr.com/photos/lockwasher/). Tous droits réservés. 
 &lt;/figcaption&gt;
@@ -139,7 +139,7 @@ des 220 millions de voitures présentes sur le territoire si elles étaient tra
 ou « &lt;a href=&#34;http://www.futurepundit.com/archives/005067.html&#34;&gt;Les voitures électriques n’engendreront pas la construction de nouvelles centrales électriques&lt;/a&gt; ».&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-front_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-front_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : « Motor art », avec l’autorisation de [Lockwasher](http://www.flickr.com/photos/lockwasher/). Tous droits réservés. 
 &lt;/figcaption&gt;
@@ -147,7 +147,7 @@ ou « &lt;a href=&#34;http://www.futurepundit.com/archives/005067.html&#34;&gt;
 &lt;/div&gt;
 &lt;p&gt;Les véhicules hybrides rechargeables ont (ou auront, car ils ne sont pas encore commercialisés) des batteries plus petites que celles des voitures électriques : de 5 à 25 kWh contre 10 à 50 kWh d’autonomie pour une voiture électrique (&lt;a href=&#34;http://www.ocean.udel.edu/cms/wkempton/kempton-v2g-pdffiles/PDF%20format/CocconiGage-V2G-June05.pdf&#34;&gt;source&lt;/a&gt;). Les véhicules hybrides rechargeables ont à la fois un moteur électrique et un moteur à essence (qui se met en marche après 65 ou 80 km de distance parcourue).&lt;/p&gt;
 &lt;h2 id=&#34;recharger-pendant-la-nuit&#34;&gt;Recharger pendant la nuit ?&lt;/h2&gt;
-&lt;p&gt;En revanche, les voitures électriques n’ont ni moteur à essence ni installation dans les stations-services pour les longs trajets. Si nous rechargeons nos voitures seulement pendant la nuit, l’autonomie de la batterie serait limitée à &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/05/the-status-quo-of-electric-cars-better-batteries-same-range/&#34;&gt;160 km&lt;/a&gt;
+&lt;p&gt;En revanche, les voitures électriques n’ont ni moteur à essence ni installation dans les stations-services pour les longs trajets. Si nous rechargeons nos voitures seulement pendant la nuit, l’autonomie de la batterie serait limitée à &lt;a href=&#34;/fr/2010/05/the-status-quo-of-electric-cars-better-batteries-same-range/&#34;&gt;160 km&lt;/a&gt;
 par jour, voire moitié moins si les conducteurs roulent à une vitesse élevée. Certaines voitures électriques consomment moins : Environ 350 km pour la &lt;a href=&#34;http://www.teslamotors.com/&#34;&gt;Tesla Roadster&lt;/a&gt; et environ 240 km pour la &lt;a href=&#34;http://www.miniusa.com/#/learn/minimalism/MINIE-m&#34;&gt;Mini E&lt;/a&gt;, mais aucune d’elles n’a de banquette arrière puisque cet espace est utilisé par une batterie plus grande.&lt;/p&gt;
 &lt;p&gt;Cet inconvénient n’en est pas vraiment un puisque le temps de trajet moyen aux États-Unis est de &lt;a href=&#34;http://www.upi.com/Science_News/2008/07/14/Off-peak_electricity_could_power_hybrids/UPI-76901216074409/&#34;&gt;seulement une cinquantaine de kilomètres&lt;/a&gt;. Dans la plupart des cas, le kilométrage limité des voitures électriques sera donc suffisant.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -163,7 +163,7 @@ la journée, il est tout de même nécessaire d’installer des stations de rech
 &lt;p&gt;Les entreprises et le gouvernement travaillent déjà dessus. « &lt;a href=&#34;http://www.betterplace.com/&#34;&gt;Better Place&lt;/a&gt; », qui a annoncé la mise en place de stations de recharge en Israël, au Danemark, au Portugal et en Californie, est la plus connue mais il en existe d’autres : &lt;a href=&#34;http://www.coulombtech.com/index.php&#34;&gt;ici&lt;/a&gt;, &lt;a href=&#34;http://news.cnet.com/8301-11128_3-10034960-54.html&#34;&gt;ici&lt;/a&gt;, &lt;a href=&#34;http://www.newride.org.uk/news.php&#34;&gt; et ici&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Hoogspannning_dithered.png&#34; alt=&#39;Photo : Des temps de charge plus rapides signifient plus de demandes.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Hoogspannning_dithered.png&#34; alt=&#39;Photo : Des temps de charge plus rapides signifient plus de demandes.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : Des temps de charge plus rapides signifient plus de demandes. 
 &lt;/figcaption&gt;
@@ -184,13 +184,13 @@ centrales électriques, mais celles-ci doivent avoir une puissance d’environ 1
 envisagé par les chercheurs : un parc de véhicules électriques à charge rapide.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Plug-in-hybrid_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Plug-in-hybrid_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : « Motor art », avec l’autorisation de [Lockwasher](http://www.flickr.com/photos/lockwasher/). Tous droits réservés. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Un véhicule nécessitant 6 à 12 heures de charge pour  une autonomie de seulement 1 à 2h n’intéressera jamais la plupart des gens. Posséder une voiture c’est être libre de ses mouvements : les véhicules électriques ne se populariseront donc pas s’ils n’ont pas un temps de recharge similaire à celui d’une voiture essence (c’est l’une des raisons pour laquelle elle a disparu &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/01/why-the-electric-car-has-no-wireless-future/&#34;&gt;il y a 100 ans&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Un véhicule nécessitant 6 à 12 heures de charge pour  une autonomie de seulement 1 à 2h n’intéressera jamais la plupart des gens. Posséder une voiture c’est être libre de ses mouvements : les véhicules électriques ne se populariseront donc pas s’ils n’ont pas un temps de recharge similaire à celui d’une voiture essence (c’est l’une des raisons pour laquelle elle a disparu &lt;a href=&#34;/2008/01/why-the-electric-car-has-no-wireless-future/&#34;&gt;il y a 100 ans&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Les fabricants de batteries et de voitures électriques le savent, et c’est pourquoi la plupart d’entre eux s’obstinent à
 &lt;a href=&#34;http://www.greentechmedia.com/articles/electric-car-firms-push-alternative-to-project-better-places-idea-892.html&#34;&gt;accélérer le temps de charge&lt;/a&gt;. De plus, la mise en place de nouvelles stations de recharge, réglera le problème d’autonomie de la batterie. Nous aurions toujours besoin de les recharger plus souvent qu’une voiture à essence, mais au moins il serait possible de conduire à plus de 160 km de son domicile et de partir quand on le souhaite.&lt;/p&gt;
 &lt;h2 id=&#34;150000watts&#34;&gt;150 000 watts&lt;/h2&gt;
@@ -204,7 +204,7 @@ plus d’énergie doit être produite sur une plus courte période, ce qui peut 
 &lt;p&gt;Si vous rechargez une voiture électrique avec une capacité de batterie de 25 kWh pendant 8 heures, elle a besoin d’une puissance de 3 125 watts (3,1 kilowatts x 8 heures = 25 kWh). Si vous rechargez cette même voiture pendant 20 minutes, vous avez besoin d’une puissance de 75 000 watts (75 kilowatts x 0,33 heures = 25 kWh).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Danger-high-voltage_dithered.png&#34; alt=&#39;Photo : De meilleures batteries aggravent le problème.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Danger-high-voltage_dithered.png&#34; alt=&#39;Photo : De meilleures batteries aggravent le problème.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : De meilleures batteries aggravent le problème. 
 &lt;/figcaption&gt;
@@ -217,7 +217,7 @@ plus d’énergie doit être produite sur une plus courte période, ce qui peut 
 &lt;p&gt;Il existe 220 millions de véhicules particuliers aux États-Unis. Si tous les véhicules étaient branchés au même moment, ils auraient besoin de 34 000 gigawatts, soit 34 fois la capacité de production électrique actuelle des États-Unis. Cela n’arrivera jamais, mais ce n’est « qu’une » augmentation de 65 % de la capacité énergétique d’une charge lente, comme expliqué ci-dessus. Un grand nombre de véhicules à charge rapide détruirait le réseau électrique.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Hybrid-model_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Hybrid-model_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : « Motor art », avec l’autorisation de [Lockwasher](http://www.flickr.com/photos/lockwasher/). Tous droits réservés. 
 &lt;/figcaption&gt;
@@ -233,14 +233,14 @@ en 10 minutes, il faudrait une puissance de 34 gigawatts. Et recharger simulta
 &lt;blockquote&gt;
 &lt;p&gt; Les voitures électriques ne sont pas des réfrigérateurs, pourtant elles sont traitées comme tels pour calculer leurs besoins énergétiques.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Le principal problème des voitures électriques (que nous avons déjà remarqué) est qu’elles sont &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/01/why-the-electric-car-has-no-wireless-future/&#34;&gt;sans fil&lt;/a&gt;. Les trains, tramways et &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/07/get-wired-again-trolleybuses-and-trolleytrucks/&#34;&gt;trolleybus&lt;/a&gt;
+&lt;p&gt;Le principal problème des voitures électriques (que nous avons déjà remarqué) est qu’elles sont &lt;a href=&#34;/2008/01/why-the-electric-car-has-no-wireless-future/&#34;&gt;sans fil&lt;/a&gt;. Les trains, tramways et &lt;a href=&#34;/fr/2009/07/get-wired-again-trolleybuses-and-trolleytrucks/&#34;&gt;trolleybus&lt;/a&gt;
 n’ont pas ces problèmes parce qu’ils n’ont tout simplement pas besoin de batterie. Leur consommation énergétique se répand uniformément pendant leur utilisation.&lt;/p&gt;
 &lt;p&gt;Les gens ne cessent de dire que les moteurs électriques sont plus efficaces que les moteurs à essence, ce qui est vrai, mais le problème concerne la charge maximale, pas la consommation totale d’énergie. Les voitures électriques ne sont pas des réfrigérateurs, pourtant elles sont traitées comme tels pour calculer leurs besoins énergétiques.&lt;/p&gt;
 &lt;h2 id=&#34;batteries-interchangeables&#34;&gt;Batteries interchangeables&lt;/h2&gt;
 &lt;p&gt;Il n’existe qu&amp;rsquo;un dernier moyen de contourner le problème du kilométrage des voitures électriques : les batteries interchangeables (une autre solution proposée par « Better Place »). Les batteries pourraient être rechargées la nuit à des stations de recharge, et ainsi fournir instantanément l’électricité produite pendant les heures creuses dans la journée. Mais il y a deux problèmes.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-cruiser_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/Electrolux-cruiser_dithered.png&#34; alt=&#39;Photo : « Motor art », avec l’autorisation de Lockwasher. Tous droits réservés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : « Motor art », avec l’autorisation de [Lockwasher](http://www.flickr.com/photos/lockwasher/). Tous droits réservés. 
 &lt;/figcaption&gt;
@@ -250,7 +250,7 @@ n’ont pas ces problèmes parce qu’ils n’ont tout simplement pas besoin de 
 &lt;p&gt;Deuxièmement, toutes les batteries devraient être les mêmes, mais créer une norme est techniquement et commercialement très peu probable. Si cela ne fonctionne pas pour les ordinateurs portables et les téléphones, pourquoi cela fonctionnerait-il pour les voitures ? « A Better Place » développera des véhicules normalisés, mais le jour où nous serons disposés à conduire la même voiture, nous ne verrons probablement pas d’inconvénient à ne plus l’utiliser et nous nous déplacerons enfin à vélo,en train ou en tram.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/dont-overload_dithered.png&#34; alt=&#39;Photo : Un avertissement de WorkSafeBC&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/fr/2009/03/who-killed-the-electric-grid-fast-charging-electric-cars/images/dithers/dont-overload_dithered.png&#34; alt=&#39;Photo : Un avertissement de WorkSafeBC&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Photo : Un avertissement de [WorkSafeBC](http://www.worksafebc.com/default.asp) 
 &lt;/figcaption&gt;

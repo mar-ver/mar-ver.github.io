@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://lowtechmag.gitlab.io/solar/tags/solar-powered-website/</link>
+    <link>/tags/solar-powered-website/</link>
     <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/solar-powered-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/solar-powered-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thematic Book Series: How to Build a Low-tech Internet?</title>
-      <link>https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/</link>
+      <link>/2023/08/thematic-books-series/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/images/dithers/coverthumbnailsmall-3_dithered.png" type="image/png" length="11357" ></enclosure>
+      <enclosure url="/2023/08/thematic-books-series/images/dithers/coverthumbnailsmall-3_dithered.png" type="image/png" length="11357" ></enclosure>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/</guid>
+      <guid>/2023/08/thematic-books-series/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/images/dithers/book-internet_dithered.png&#34; alt=&#39;Image: Book cover. How to build a low-tech internet?, Kris De Decker, 166 pages, Low-tech Magazine, 2023.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/08/thematic-books-series/images/dithers/book-internet_dithered.png&#34; alt=&#39;Image: Book cover. How to build a low-tech internet?, Kris De Decker, 166 pages, Low-tech Magazine, 2023.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Book cover. [How to build a low-tech internet?](https://lulu.com/shop/roel-roscam-abbing-and-marie-otsuka-and-kris-de-decker/how-to-build-a-low-tech-internet/paperback/product-9yq8v7.html?q=&amp;page=1&amp;pageSize=4), Kris De Decker, 166 pages, Low-tech Magazine, 2023. 
 &lt;/figcaption&gt;
@@ -47,15 +47,15 @@
     
     <item>
       <title>Rebuilding a Solar Powered Website</title>
-      <link>https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/</link>
+      <link>/2023/06/rebuilding-a-solar-powered-website/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" type="image/png" length="31868" ></enclosure>
+      <enclosure url="/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" type="image/png" length="31868" ></enclosure>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/</guid>
+      <guid>/2023/06/rebuilding-a-solar-powered-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png&#34; alt=&#39;A screenshot of the markdown file for this page.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png&#34; alt=&#39;A screenshot of the markdown file for this page.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;p&gt;A screenshot of the markdown file for this page.&lt;/p&gt;
 &lt;/figcaption&gt;
@@ -64,9 +64,9 @@
 &lt;p&gt;During the last months we have been working on switching the solar powered website from one static site generator (Pelican) to another (Hugo). Many readers will not notice the changes right away, as we have not made any major adjustments to the design. Nevertheless, the new platform has allowed us to address some issues based on the feedback we received over the years.&lt;/p&gt;
 &lt;p&gt;The new solar website was designed by &lt;a href=&#34;https://motsuka.com&#34;&gt;Marie Otsuka&lt;/a&gt; and &lt;a href=&#34;https://roelof.info&#34;&gt;Roel Roscam Abbing&lt;/a&gt;, the same people who were behind the first solar design. &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; assisted throughout the process and coordinated the migration of the website.&lt;/p&gt;
 &lt;h2 id=&#34;switching-platforms&#34;&gt;Switching Platforms&lt;/h2&gt;
-&lt;p&gt;The original solar website, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/09/how-to-build-a-low-tech-website/&#34;&gt;launched in 2018&lt;/a&gt;, ran on a static site generator called &lt;a href=&#34;https://getpelican.com&#34;&gt;Pelican&lt;/a&gt;. While this remains a good choice for a relatively small website, the solar-powered version of Low-tech Magazine has grown significantly over time. Initially it featured only a selection of the English language website, but has expanded over time to contain not only more English language articles, but translations in five other languages as well. Organizing articles and publishing changes on such a large website became a cumbersome process. For example, it took more than an hour to regenerate the site on changes – even if we only added one comment.&lt;/p&gt;
+&lt;p&gt;The original solar website, &lt;a href=&#34;/2018/09/how-to-build-a-low-tech-website/&#34;&gt;launched in 2018&lt;/a&gt;, ran on a static site generator called &lt;a href=&#34;https://getpelican.com&#34;&gt;Pelican&lt;/a&gt;. While this remains a good choice for a relatively small website, the solar-powered version of Low-tech Magazine has grown significantly over time. Initially it featured only a selection of the English language website, but has expanded over time to contain not only more English language articles, but translations in five other languages as well. Organizing articles and publishing changes on such a large website became a cumbersome process. For example, it took more than an hour to regenerate the site on changes – even if we only added one comment.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static site generator written in a faster programming language. In Pelican, much of the functionality we needed for the website such as support for multiple languages and image compression came as plugins of varying quality. This lead to limitations over time. In Hugo, these features are better supported from the start as they are core to the project. As a consequence of switching to Hugo we managed to reduce the generation time on the server from over an hour to approximately twelve minutes. On a modern laptop the difference is between several minutes and several seconds of generation.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; This difference in time also means a difference in energy use on the server.&lt;/p&gt;
-&lt;p&gt;Aside from faster website builds, Hugo allows for a better organisation of content and is more flexible in defining categories for displaying that content. This allowed us, for example, to create dedicated pages highlighting the different &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/contributors/&#34;&gt;contributors and translators&lt;/a&gt; to the magazine. However, despite both projects using posts written in Markdown, migrating all content from Pelican to Hugo was a time-consuming task. Both because of subtle differences in the post metadata format and because our Hugo setup requires its own shortcodes to allow the display of  images, captions, and links. We converted the majority of articles from one platform to another using a custom script, but it still took another two months to iron out and manually repair inconsistencies in the content.&lt;/p&gt;
+&lt;p&gt;Aside from faster website builds, Hugo allows for a better organisation of content and is more flexible in defining categories for displaying that content. This allowed us, for example, to create dedicated pages highlighting the different &lt;a href=&#34;/contributors/&#34;&gt;contributors and translators&lt;/a&gt; to the magazine. However, despite both projects using posts written in Markdown, migrating all content from Pelican to Hugo was a time-consuming task. Both because of subtle differences in the post metadata format and because our Hugo setup requires its own shortcodes to allow the display of  images, captions, and links. We converted the majority of articles from one platform to another using a custom script, but it still took another two months to iron out and manually repair inconsistencies in the content.&lt;/p&gt;
 &lt;h2 id=&#34;design-changes&#34;&gt;Design changes&lt;/h2&gt;
 &lt;h3 id=&#34;battery-meter&#34;&gt;Battery meter&lt;/h3&gt;
 &lt;p&gt;The new platform allowed us to address two design issues that regularly came up in the feedback over the last years. The first concerns the battery meter, which reflects the battery status of our off-the-grid website configuration. Some people found that it interfered with the reading process, especially when it’s halfway the page. The battery meter remains an elementary part of our design, revealing the material infrastructure that supports the website. However, it now remains at the top of the document, and no longer moves along as one scrolls down an article to interfere with the text.&lt;/p&gt;
@@ -128,26 +128,26 @@
     
     <item>
       <title>Low-tech Magazine: The Comic</title>
-      <link>https://lowtechmag.gitlab.io/solar/2023/06/low-tech-magazine-the-comic/</link>
+      <link>/2023/06/low-tech-magazine-the-comic/</link>
       
-      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/06/low-tech-magazine-the-comic/images/dithers/back-to-the-future-of-technology-thumb_dithered.png" type="image/png" length="32880" ></enclosure>
+      <enclosure url="/2023/06/low-tech-magazine-the-comic/images/dithers/back-to-the-future-of-technology-thumb_dithered.png" type="image/png" length="32880" ></enclosure>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lowtechmag.gitlab.io/solar/2023/06/low-tech-magazine-the-comic/</guid>
+      <guid>/2023/06/low-tech-magazine-the-comic/</guid>
       <description>&lt;p&gt;In early 2022 I received an email from &lt;a href=&#34;https://www.guillaumelion.be/english.html&#34; target=&#34;_blank&#34; &gt;Guillaume Lion&lt;/a&gt;, a young filmmaker based in Brussels, Belgium. Having read Low-tech Magazine for several years, Guillaume &lt;a href=&#34;https://www.guillaumelion.be/comics/&#34; target=&#34;_blank&#34; &gt;recently started making comics&lt;/a&gt;, which he considers low-tech cinema. He proposed to visit me in Barcelona and make a portrait of me. The comic originally appeared in French in the &lt;a href=&#34;https://medor.coop&#34; target=&#34;_blank&#34; &gt;Belgian magazine Médor&lt;/a&gt; and was translated by Mira Matthew.&lt;/p&gt;
 &lt;p&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-01.png&#34; alt=&#34;Page 1 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-02.png&#34; alt=&#34;Page 2 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-03.png&#34; alt=&#34;Page 3 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-04.png&#34; alt=&#34;Page 4 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-05.png&#34; alt=&#34;Page 5 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-06.png&#34; alt=&#34;Page 6 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-07.png&#34; alt=&#34;Page 7 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-08.png&#34; alt=&#34;Page 8 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-09.png&#34; alt=&#34;Page 9 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-10.png&#34; alt=&#34;Page 10 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-11.png&#34; alt=&#34;Page 11 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
-&lt;img class=&#34;uncompressed&#34; src=&#34;https://lowtechmag.gitlab.io/solar/solar/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-12.png&#34; alt=&#34;Page 12 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-01.png&#34; alt=&#34;Page 1 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-02.png&#34; alt=&#34;Page 2 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-03.png&#34; alt=&#34;Page 3 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-04.png&#34; alt=&#34;Page 4 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-05.png&#34; alt=&#34;Page 5 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-06.png&#34; alt=&#34;Page 6 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-07.png&#34; alt=&#34;Page 7 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-08.png&#34; alt=&#34;Page 8 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-09.png&#34; alt=&#34;Page 9 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-10.png&#34; alt=&#34;Page 10 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-11.png&#34; alt=&#34;Page 11 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;
+&lt;img class=&#34;uncompressed&#34; src=&#34;/2023/06/low-tech-magazine-the-comic/images/back-to-the-future-of-technology-12.png&#34; alt=&#34;Page 12 of the Comic &amp;amp;ldquo;Back to the future of technology&amp;amp;rdquo; by Guillaume Lion&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
