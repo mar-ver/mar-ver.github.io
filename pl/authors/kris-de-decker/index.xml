@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Polski</title>
-    <link>https://mar-ver.github.io/pl/authors/kris-de-decker/</link>
+    <link>https://lowtechmag.gitlab.io/solar/pl/authors/kris-de-decker/</link>
     <description>Ta strona zasilana jest energią słoneczną co oznacza, że czasami może być niedostępna.</description>
     <generator>Hugo 0.115.3</generator>
     <language>pl</language>
-    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/pl/authors/kris-de-decker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/pl/authors/kris-de-decker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak zbudować generator rowerowy z panelem sterowania</title>
-      <link>https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/</link>
+      <link>https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/</link>
       
-      <enclosure url="https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image: Generator rowerowy w dużym pokoju.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image: Generator rowerowy w dużym pokoju.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Generator rowerowy w dużym pokoju. 
 &lt;/figcaption&gt;
@@ -94,13 +94,13 @@
 &lt;p&gt;Staraliśmy się również ulepszyć sam generator rowerowy. Choć dobre podręczniki są dostępne, chcieliśmy, aby źródło prądu było łatwe w budowie (nie wymagało spawania ani korzystania ze skomplikowanych narzędzi), wygodne podczas pedałowania, możliwie kompaktowe i aby nie rzucało się w oczy. Nasz generator rowerowy stoi w małym salonie i jest używany regularnie. Rozwiązanie znaleźliśmy we wcześniej nam nieznanym, zabytkowym rowerze stacjonarnym wyposażonym w koło zamachowe.&lt;/p&gt;
 &lt;h3 id=&#34;próby-i-błędy&#34;&gt;Próby i błędy&lt;/h3&gt;
 &lt;p&gt;Generator rowerowy i tablica rozdzielcza zostały zaprojektowane i wykonane we współpracy z &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; w ramach jej stażu w Low-tech Magazine. Nie mogliśmy znaleźć potrzebnej specyfikacji technicznej, więc zastosowaliśmy metodę prób i błędów. Okazało się to czasochłonne i kosztowne, ale dzięki temu nauczyliśmy się wiele i wyciągnęliśmy cenne wnioski. Popełniliśmy wiele błędów, których Wy będziecie mogli uniknąć.&lt;/p&gt;
-&lt;p&gt;Nie jesteśmy inżynierami, więc z radością wysłuchamy Waszych &lt;a href=&#34;https://mar-ver.github.io/pl/donate/&#34;&gt;propozycji ulepszeń technicznych&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Osoby pierwszy raz odwiedzający naszą stronę mogą przeczytać kilka wcześniejszych artykułów, na których opiera się ten projekt generatora rowerowego (tłumaczenia na język polski nie są jeszcze dostępne):  &lt;a href=&#34;https://mar-ver.github.io/2018/01/how-much-energy-do-we-need/&#34;&gt;The short history of pedal powered machines&lt;/a&gt; (2018).&lt;/p&gt;
+&lt;p&gt;Nie jesteśmy inżynierami, więc z radością wysłuchamy Waszych &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/donate/&#34;&gt;propozycji ulepszeń technicznych&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Osoby pierwszy raz odwiedzający naszą stronę mogą przeczytać kilka wcześniejszych artykułów, na których opiera się ten projekt generatora rowerowego (tłumaczenia na język polski nie są jeszcze dostępne):  &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/01/how-much-energy-do-we-need/&#34;&gt;The short history of pedal powered machines&lt;/a&gt; (2018).&lt;/p&gt;
 &lt;h2 id=&#34;span-idbikegeneratorgenerator-rowerowyspan&#34;&gt;&lt;span id=&#34;bikegenerator&#34;&gt;Generator rowerowy&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Istnieje wiele sposobów na zbudowanie prądnicy rowerowej, a każdy z nich ma swoje zalety i wady. Oparliśmy naszą elektrownię na pedały na zabytkowym rowerze stacjonarnym z lat 50. ubiegłego wieku. Nasz rower został wyprodukowany przez hiszpańską firmę BH, ale podobne zabytkowe modele można znaleźć w każdym miejscu uprzemysłowionego świata.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image: Rower stacjonarny z lat 50. Z przodu ma ciężkie koło zamachowe.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image: Rower stacjonarny z lat 50. Z przodu ma ciężkie koło zamachowe.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Rower stacjonarny z lat 50. Z przodu ma ciężkie koło zamachowe. 
 &lt;/figcaption&gt;
@@ -113,7 +113,7 @@
 &lt;p&gt;Nasze podejście umożliwia zbudowanie generatora na pedały przy użyciu prostych narzędzi i przy wykorzystaniu podstawowych umiejętności. Nie ma potrzeby cięcia ani spawania metalu - rower pozostaje taki, jaki jest. Nie ma też potrzeby budowania ramy - korzystamy z istniejącej. Musieliśmy jedynie dodać napęd cierny, czyli mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image: Napęd cierny - mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image: Napęd cierny - mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Napęd cierny - mały wałek przymocowany do wału prądnicy i dociskany do koła zamachowego. 
 &lt;/figcaption&gt;
@@ -129,14 +129,14 @@
 &lt;p&gt;Jako cykliści-generatorzy musicie dopasować napięcie (V) i natężenie (A) urządzenia, które zasilacie lub ładujecie. Jednak łatwiej to powiedzieć niż zrobić. Urządzenia elektryczne pracują przy różnych napięciach i mają bardzo różne zapotrzebowanie na energię. Napięcie wynika z prędkości obrotów korbą, a natężenie prądu z siły, jaką wkładamy w pedałowanie.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image: Generator rowerowy w działaniu.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image: Generator rowerowy w działaniu.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Generator rowerowy w działaniu. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;span-idvolt1-dostosowanie-napięciaspan&#34;&gt;&lt;span id=&#34;volt&#34;&gt;1. Dostosowanie napięcia&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Generator rowerowy wytwarza &lt;a href=&#34;https://mar-ver.github.io/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;prąd stały o niskim napięciu&lt;/a&gt;, podobnie jak system fotowoltaiczny (12/24 V). Napięcie wyjściowe zależy od prędkości, z jaką obraca się prądnica rowerowa. Prędkość pedałowania i przełożenie przekładni określają prędkość wału generatora. W naszej instrukcji &lt;a href=&#34;#gearratio&#34;&gt;szczegółowo opisano, jak ustawić prawidłowe przełożenie&lt;/a&gt;. W skrócie, należy zmierzyć średnicę zewnętrzną trzech części (przedniej zębatki, zębatki koła zamachowego i koła zamachowego) i na podstawie tych danych obliczyć prawidłowy rozmiar wrzeciona w odniesieniu do zamierzonego napięcia wyjściowego.&lt;/p&gt;
+&lt;p&gt;Generator rowerowy wytwarza &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;prąd stały o niskim napięciu&lt;/a&gt;, podobnie jak system fotowoltaiczny (12/24 V). Napięcie wyjściowe zależy od prędkości, z jaką obraca się prądnica rowerowa. Prędkość pedałowania i przełożenie przekładni określają prędkość wału generatora. W naszej instrukcji &lt;a href=&#34;#gearratio&#34;&gt;szczegółowo opisano, jak ustawić prawidłowe przełożenie&lt;/a&gt;. W skrócie, należy zmierzyć średnicę zewnętrzną trzech części (przedniej zębatki, zębatki koła zamachowego i koła zamachowego) i na podstawie tych danych obliczyć prawidłowy rozmiar wrzeciona w odniesieniu do zamierzonego napięcia wyjściowego.&lt;/p&gt;
 &lt;p&gt;Po ustawieniu przełożenia można uzyskać niższe lub wyższe napięcie, pedałując odpowiednio wolniej lub szybciej. Umożliwia to zasilanie urządzeń różnymi napięciami. Zakładając jednak, że przy średniej prędkości pedałowania generator da napięcie 12 V, to uzyskanie napięcia 5 V wymagałoby bardzo wolnego pedałowania, a 24 V niezwykle szybkiego. Przerzutki ułatwiłyby zmianę napięcia wyjściowego, ale nasz rower ich nie posiada.&lt;/p&gt;
 &lt;p&gt;Praktycznym rozwiązaniem tego problemu może być zasilanie urządzenia bezpośrednio z generatora, jeśli potrzebuje ono mniej więcej 12 V. Koło zamachowe pomaga utrzymać względnie stałe napięcie wyjściowe. Urządzenia elektroniczne i akumulatory wymagają jednak ściśle określonego napięcia. W przeciwnym razie mogą one nie działać lub ulec uszkodzeniu. Ponadto zasilanie urządzenia bezpośrednio z generatora uniemożliwia jednoczesne zasilanie lub ładowanie kilku urządzeń o różnych napięciach.&lt;/p&gt;
 &lt;h3 id=&#34;span-idcurrent2-dostosowanie-natężenia-prąduspan&#34;&gt;&lt;span id=&#34;current&#34;&gt;2. Dostosowanie natężenia prądu&lt;/span&gt;&lt;/h3&gt;
@@ -146,13 +146,13 @@
 &lt;p&gt;Pozasieciowe systemy fotowoltaiczne często służą do ładowania akumulatorów kwasowo-ołowiowych. Dostępność ludzkiej energii nie zależy od pogody i pory dnia, ale warto byłoby ją zmagazynować na przyszłość w akumulatorze.&lt;/p&gt;
 &lt;p&gt;Jeśli do obliczeń czasu potrzebnego do naładowania akumulatora weżniemy wartość 100 W, to możemy dojść do zbyt optymistycznych konkluzji. Na przykład, skoro do naładowania akumulatora potrzeba 100 Wh, można to zrobić w ciągu godziny. Prawda? Nieprawda. Nawet gdybyś był w stanie utrzymać produkcję mocy na poziomie 100 W przez godzinę, to akumulator ograniczy ilość energii, z jaką można go ładować. Nie wystarczy intensywniejszy trening, żeby przyśpieszyć ładowanie.&lt;/p&gt;
 &lt;p&gt;Akumulatory kwasowo-ołowiowe ładują się w zakresie od 10 do 25% swojej maksymalnej pojemności. My we wszystkich testowanych akumulatorach uzyskaliśmy 10%. W przypadku dużych akumulatorów nie stanowi to takiego problemu. Naładowanie jednego kwasowo-ołowiowego akumulatora samochodowego (około 60-80 Ah) wymaga wytworzenia 85-115 W z generatora, czyli trzeba mocno napracować się nogami. Pełne ładowanie (prądem 12 V do 13 V) trwa pięć godzin, nie licząc strat związanych z ładowaniem i rozładowywaniem.&lt;/p&gt;
-&lt;p&gt;Jednak w przypadku mniejszych akumulatorów kwasowo-ołowiowych niskie zapotrzebowanie na moc jest problematyczne. Opór na pedałach jest niewielki lub żaden (nie ma mowy o prawdziwym treningu), sprawność procesu jest bardzo niska (generator ma duże straty energii), a pomimo to ładowanie zajmuje tyle samo czasu, co ładowanie znacznie większego akumulatora. Na przykład ładowanie akumulatora 12 V o pojemności 14 Ah (podobnego do tego zasilającego &lt;a href=&#34;https://mar-ver.github.io/about.html&#34;&gt;stronę internetową, którą właśnie czytacie&lt;/a&gt;) wymaga zaledwie 1,4 A. To nie jest duży wysiłek (20 W).&lt;/p&gt;
+&lt;p&gt;Jednak w przypadku mniejszych akumulatorów kwasowo-ołowiowych niskie zapotrzebowanie na moc jest problematyczne. Opór na pedałach jest niewielki lub żaden (nie ma mowy o prawdziwym treningu), sprawność procesu jest bardzo niska (generator ma duże straty energii), a pomimo to ładowanie zajmuje tyle samo czasu, co ładowanie znacznie większego akumulatora. Na przykład ładowanie akumulatora 12 V o pojemności 14 Ah (podobnego do tego zasilającego &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/about.html&#34;&gt;stronę internetową, którą właśnie czytacie&lt;/a&gt;) wymaga zaledwie 1,4 A. To nie jest duży wysiłek (20 W).&lt;/p&gt;
 &lt;p&gt;Ten sam problem występuje w przypadku urządzeń ładowanych za pośrednictwem USB. Najczęściej wymienianym zastosowaniem generatora na pedały ma być ładowanie smartfonu. To jednak wymaga bardzo niewielkiej mocy (5-10 W) w porównaniu z tym, co może wytworzyć rower. (Niektóre nowsze modele umożliwiają szybsze ładowanie). Może Ci się wydawać, że ładowanie baterii telefonu o pojemności 10 Wh zajmie tylko 6 minut przy maksymalnej mocy 100 W, ale trwa to tak samo długo, jak w przypadku podłączenia go do gniazdka elektrycznego. Do naładowania smartfonu wystarczyłaby znacznie mniejsza ręczna ładowarka, ale wtedy mamy zajęte ręce.&lt;/p&gt;
 &lt;h2 id=&#34;span-iddashboardtablica-rozdzielcza---kolejne-wyzwaniaspan&#34;&gt;&lt;span id=&#34;dashboard&#34;&gt;Tablica rozdzielcza - kolejne wyzwania?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Aby rozwiązać wszystkie problemy ze zmiennymi parametrami prądu, zbudowaliśmy panel sterowania rozdzielający energię generatora na obwody o różnym napięciu do obsługi różnych urządzeń. Obwody te można wykorzystywać pojedynczo lub łącząc je, co pozwala na precyzyjną regulację oporu na pedałach w celu uzyskania optymalnego treningu. Można także bezpośrednio sterować niektórymi urządzeniami, zmniejszając ich zapotrzebowanie na moc.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image: Panel sterowania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image: Panel sterowania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Panel sterowania. 
 &lt;/figcaption&gt;
@@ -160,7 +160,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image: Panel sterowania widziany z boku.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image: Panel sterowania widziany z boku.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Panel sterowania widziany z boku. 
 &lt;/figcaption&gt;
@@ -181,7 +181,7 @@
 &lt;/ul&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image: Front panelu sterowania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image: Front panelu sterowania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Front panelu sterowania. 
 &lt;/figcaption&gt;
@@ -189,7 +189,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image: Tył panelu sterowania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image: Tył panelu sterowania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Tył panelu sterowania. 
 &lt;/figcaption&gt;
@@ -206,13 +206,13 @@
 &lt;p&gt;Generator rowerowy najlepiej nadaje się do bezpośredniego zasilania urządzeń elektrycznych, bez uprzedniego magazynowania energii w akumulatorze. Pozwala to uniknąć strat przy ładowaniu i rozładowywaniu (do 30% w akumulatorach kwasowo-ołowiowych) oraz zmniejsza złożoność i koszty budowy ludzkiej elektrowni. W tym celu wyposażyliśmy deskę rozdzielczą w kilka obwodów 12 V i jeden obwód 220 V.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image: Niektóre z urządzeń, które przetestowaliśmy: kompresor, oświetlenie, lodówka Peltiera, drukarka igłowa, czajnik elektryczny, lutownica.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image: Niektóre z urządzeń, które przetestowaliśmy: kompresor, oświetlenie, lodówka Peltiera, drukarka igłowa, czajnik elektryczny, lutownica.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Niektóre z urządzeń, które przetestowaliśmy: kompresor, oświetlenie, lodówka Peltiera, drukarka igłowa, czajnik elektryczny, lutownica. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Urządzenia, które zasilamy bezpośrednio napięciem 12 V to: eksperymentalna lodówka Peltiera, czajnik elektryczny, laptopy - zasilane przez zasilacz 12 V, bez baterii lub z baterią naładowaną w 100%, lampy, lutownica, wiertarka i szlifierka. Na rynku dostępnych jest wiele innych urządzeń zasilanych napięciem 12 V, przeznaczonych głównie dla kierowców samochodów ciężarowych i osobowych, żeglarzy, użytkowników przyczep kempingowych (&lt;a href=&#34;https://mar-ver.github.io/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;oraz drobnych majsterkowiczów, którzy wyposażają swoje mieszkania, jakby to były żaglówki&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Urządzenia, które zasilamy bezpośrednio napięciem 12 V to: eksperymentalna lodówka Peltiera, czajnik elektryczny, laptopy - zasilane przez zasilacz 12 V, bez baterii lub z baterią naładowaną w 100%, lampy, lutownica, wiertarka i szlifierka. Na rynku dostępnych jest wiele innych urządzeń zasilanych napięciem 12 V, przeznaczonych głównie dla kierowców samochodów ciężarowych i osobowych, żeglarzy, użytkowników przyczep kempingowych (&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;oraz drobnych majsterkowiczów, którzy wyposażają swoje mieszkania, jakby to były żaglówki&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Oto lista wszystkich urządzeń, które do tej pory zasilaliśmy lub ładowaliśmy:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Wszystkie typy urządzeń USB (5V)&lt;/li&gt;
@@ -236,30 +236,30 @@
 &lt;p&gt;Przeróbka narzędzia bateryjnego na przewodowe jest dość prosta. Po wyjęciu baterii należy znaleźć styki dodatni i ujemny, a następnie przylutować do nich dwa przewody. Trzeba pamiętać, że decyzja, który z nich jest dodatni, a który ujemny, jest jednorazowa. W przypadku wiertarki było to bardzo łatwe do rozgryzienia. W przypadku szlifierki oscylacyjnej poprosiliśmy o pomoc, ponieważ okablowanie było bardziej skomplikowane. Elektronarzędzia 12-woltowe bez baterii lub z martwymi akumulatorami można tanio kupić na rynku wtórnym.&lt;/p&gt;
 &lt;p&gt;Przewodowa wiertarka elektryczna jest chyba najbardziej uniwersalnym elektronarzędziem na świecie. Trochę wyobraźni i będzie służyć za trzepaczkę (do ubijania jajek), szczotkę (do usuwania farby lub czyszczenia przedmiotów), tarczę szlifierską (do ostrzenia noży) czy tarczę polerską (do nadawania połysku chromowi lub innym metalom i materiałom). Precyzyjne narzędzia do wyrobu biżuterii lub modelowania również dobrze współpracują z bezpośrednim napędem z pedałów. Jesteśmy we wczesnej fazie testowania możliwości przerabiania i używania narzędzi zasilanych prądem 12 V.&lt;/p&gt;
 &lt;h3 id=&#34;narzędzia-zasilane-rękami-kontra-zasilane-nogami&#34;&gt;Narzędzia zasilane rękami kontra zasilane nogami&lt;/h3&gt;
-&lt;p&gt;Urządzenia elektryczne zasilane siłą ludzkich mięśni są mniej sprawne energetycznie w porównaniu z &lt;a href=&#34;https://mar-ver.github.io/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;ręcznymi narzędziami mechanicznymi&lt;/a&gt;. Zasilanie elektryczne prowadzi do dodatkowych strat energii w generatorze, przetwornicy buck, przewodach i układzie napędowym. Jednak straty te są z nawiązką rekompensowane przez bardziej energooszczędne wykorzystanie ludzkiego zasilania. Nasze nogi są około cztery razy silniejsze niż ręce.&lt;/p&gt;
+&lt;p&gt;Urządzenia elektryczne zasilane siłą ludzkich mięśni są mniej sprawne energetycznie w porównaniu z &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;ręcznymi narzędziami mechanicznymi&lt;/a&gt;. Zasilanie elektryczne prowadzi do dodatkowych strat energii w generatorze, przetwornicy buck, przewodach i układzie napędowym. Jednak straty te są z nawiązką rekompensowane przez bardziej energooszczędne wykorzystanie ludzkiego zasilania. Nasze nogi są około cztery razy silniejsze niż ręce.&lt;/p&gt;
 &lt;p&gt;Urządzenia elektryczne są za to bardziej ergonomiczne, ponieważ oszczędzają nasze stawy i mięśnie rąk. Ręczne przykręcanie dziesiątek śrubek może i jest bardziej zrównoważone niż wkręcanie ich wkrętarką elektryczną, jednakże łatwo przeciążyć nadgarstki. Generator rowerowy pozwala więc na szybszą i bardziej ergonomiczną pracę, bez konieczności korzystania z zewnętrznego źródła energii.&lt;/p&gt;
-&lt;p&gt;Pomimo pewnej przewagi elektronarzędzi, mechaniczne narzędzia ręczne mają swoje zalety: są ciche i łatwiejsze do przenoszenia, a ich produkcja zużywa mniej materiałów i energii. Istnieją także &lt;a href=&#34;https://mar-ver.github.io/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;narzędzia mechaniczne zasilane nogami&lt;/a&gt;, umożliwiające ergonomiczną pracę i zrównoważoną produkcję energii. Jednak nie lada wyzwaniem jest skonstruowanie kompaktowego roweru stacjonarnego, który mógłby zasilać wiele różnych narzędzi. Zaprojektowaliśmy nasz generator rowerowy tak, aby był jak najbardziej kompaktowy i wielofunkcyjny.&lt;/p&gt;
+&lt;p&gt;Pomimo pewnej przewagi elektronarzędzi, mechaniczne narzędzia ręczne mają swoje zalety: są ciche i łatwiejsze do przenoszenia, a ich produkcja zużywa mniej materiałów i energii. Istnieją także &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;narzędzia mechaniczne zasilane nogami&lt;/a&gt;, umożliwiające ergonomiczną pracę i zrównoważoną produkcję energii. Jednak nie lada wyzwaniem jest skonstruowanie kompaktowego roweru stacjonarnego, który mógłby zasilać wiele różnych narzędzi. Zaprojektowaliśmy nasz generator rowerowy tak, aby był jak najbardziej kompaktowy i wielofunkcyjny.&lt;/p&gt;
 &lt;p&gt;Elektronarzędzia mają często duże zapotrzebowanie na moc, ale to nie powinno Was zrazić. Szlifierka potrzebuje co najwyżej 30 W, ale nasza wiertarka może wymagać prądu o natężeniu do 20 A - to za dużo dla prądnicy rowerowej i panelu sterowania (12 V × 20 A = 240 W). Jednak rzadko będzie potrzeba wygenerowania tak dużej mocy, chyba że będziesz wiercił w twardych materiałach.&lt;/p&gt;
 &lt;p&gt;Zapotrzebowanie na moc elektronarzędzi rośnie ze wzrostem momentu obrotowego, więc użytkownik czuje, że wiertło przebiło się przez materiał lub że śruba została zamocowana lub poluzowana. Narzędziem można posługiwać się równie precyzyjnie za pomocą stóp, jak i rąk.&lt;/p&gt;
 &lt;h3 id=&#34;span-idkettle2-czajnik-elektrycznyspan&#34;&gt;&lt;span id=&#34;kettle&#34;&gt;2. Czajnik elektryczny&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Grzanie i chłodzenie za pomocą prądu elektrycznego zużywa wiele energii. Bardziej zrównoważone są alternatywne rozwiązania, takie jak &lt;a href=&#34;https://mar-ver.github.io/pl/2019/12/too-much-combustion-too-little-fire/&#34;&gt;bezpośrednie wykorzystanie ciepła słonecznego&lt;/a&gt;. Niemniej jednak można włączyć ogrzewanie i chłodzenie do codziennych ćwiczeń na generatorze i dzięki temu zoptymalizować produkcję ciepła i chłodu.&lt;/p&gt;
+&lt;p&gt;Grzanie i chłodzenie za pomocą prądu elektrycznego zużywa wiele energii. Bardziej zrównoważone są alternatywne rozwiązania, takie jak &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/12/too-much-combustion-too-little-fire/&#34;&gt;bezpośrednie wykorzystanie ciepła słonecznego&lt;/a&gt;. Niemniej jednak można włączyć ogrzewanie i chłodzenie do codziennych ćwiczeń na generatorze i dzięki temu zoptymalizować produkcję ciepła i chłodu.&lt;/p&gt;
 &lt;p&gt;Stosujemy to podejście do grzania wody w czajniku elektrycznym i chłodzenia w eksperymentalnej lodówce Peltiera. Oba urządzenia są bardzo dobrze zaizolowane termiczne. Dzięki temu zamiana ludzkiej energii w ciepło lub zimno staje się kolejną (bardzo tanią i skuteczną) formą magazynowania energii, bez konieczności godzenia się na problematyczne przechowywanie energii w bateriach.&lt;/p&gt;
 &lt;p&gt;Zasilane z sieci czajniki elektryczne są często bardzo wydajne i są w stanie zagotować wodę w ciągu kilku minut lub nawet sekund. Zagotowanie wody przy użyciu prądnicy rowerowej zajmie znacznie więcej czasu, ale jest wykonalne. Kupiliśmy komercyjny czajnik elektryczny 12 V z izolowanym próżniowo litrowym zbiornikiem. Zagotowanie wody na jedną filiżankę herbaty zajęło podczas testu nieco ponad godzinę, przy średniej mocy 60 W.&lt;/p&gt;
-&lt;p&gt;W czajniku elektrycznym nie tylko zagotujemy wodę na herbatę, ale również &lt;a href=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;podgrzejemy wodę do termofora&lt;/a&gt;. Trzeba zagrzać większą ilość wody, ale za to do niższej temperatury (około 60ºC). W czasie testu podgrzanie jednego litra wody do małego termoforu zajęło 1 godzinę i 30 minut, przy średniej mocy 60 W.&lt;/p&gt;
-&lt;p&gt;Po takim wysiłku ostatnią rzeczą, jaką człowiek potrzebuje, jest termofor. Rozsądniej zużyć naszą energię do zasilenia grzejnika o mocy kilkuset watów i podnieść temperaturę powietrza w małym pomieszczeniu. Zaizolowany próżniowo czajnik można jednak włożyć do &lt;a href=&#34;https://mar-ver.github.io/pl/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;kuchenki bezogniowej&lt;/a&gt; i użyć go wiele godzin później, gdy skończycie aktywność i będziecie potrzebowali ciepła.&lt;/p&gt;
+&lt;p&gt;W czajniku elektrycznym nie tylko zagotujemy wodę na herbatę, ale również &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;podgrzejemy wodę do termofora&lt;/a&gt;. Trzeba zagrzać większą ilość wody, ale za to do niższej temperatury (około 60ºC). W czasie testu podgrzanie jednego litra wody do małego termoforu zajęło 1 godzinę i 30 minut, przy średniej mocy 60 W.&lt;/p&gt;
+&lt;p&gt;Po takim wysiłku ostatnią rzeczą, jaką człowiek potrzebuje, jest termofor. Rozsądniej zużyć naszą energię do zasilenia grzejnika o mocy kilkuset watów i podnieść temperaturę powietrza w małym pomieszczeniu. Zaizolowany próżniowo czajnik można jednak włożyć do &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;kuchenki bezogniowej&lt;/a&gt; i użyć go wiele godzin później, gdy skończycie aktywność i będziecie potrzebowali ciepła.&lt;/p&gt;
 &lt;h3 id=&#34;span-idpeltier3-lodówka-peltieraspan&#34;&gt;&lt;span id=&#34;peltier&#34;&gt;3. Lodówka Peltiera&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Lodówki zasilane napięciem 12 V są drogie. Badania i testy nad &lt;a href=&#34;https://mar-ver.github.io/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;generatorami termoelektrycznymi&lt;/a&gt; (TEG) doprowadziły do powstania lodówki Peltiera. Lodówka Peltiera to w zasadzie dobrze zaizolowana kuchenka bezogniowa wyposażona w moduł TEG. Moduł podłączony do zasilania nagrzewa się z jednej strony i wyziębia z drugiej, chłodząc wnętrze chłodziarki. Chłodzenie za pomocą TEG nie jest szczególnie wydajne, jest za to ciche, nie wymaga gazów chłodzących i jest najprostszym sposobem na samodzielne zbudowanie lodówki.&lt;/p&gt;
+&lt;p&gt;Lodówki zasilane napięciem 12 V są drogie. Badania i testy nad &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;generatorami termoelektrycznymi&lt;/a&gt; (TEG) doprowadziły do powstania lodówki Peltiera. Lodówka Peltiera to w zasadzie dobrze zaizolowana kuchenka bezogniowa wyposażona w moduł TEG. Moduł podłączony do zasilania nagrzewa się z jednej strony i wyziębia z drugiej, chłodząc wnętrze chłodziarki. Chłodzenie za pomocą TEG nie jest szczególnie wydajne, jest za to ciche, nie wymaga gazów chłodzących i jest najprostszym sposobem na samodzielne zbudowanie lodówki.&lt;/p&gt;
 &lt;p&gt;Lodówka TEG to jeszcze prototyp, wymagający dalszych testów i ulepszeń. Zasilanie jednej chłodziarki TEG pełną mocą wymaga ok. 60 watów (12 V × 5 A), mierzonych tuż za generatorem. To oznacza intensywny trening. Ściemniacz pozwala precyzyjnie zmniejszyć opór na pedałach, ale okazało się, że jeden moduł TEG to za mało na nasze rozmiary przestrzeni chłodzącej. Podczas cięższego treningu (60-100 watów) będziemy dołączać drugi moduł zasilania.&lt;/p&gt;
 &lt;h3 id=&#34;urządzenia-sieciowe-220-v&#34;&gt;Urządzenia sieciowe 220 V&lt;/h3&gt;
 &lt;p&gt;Nasza tablica rozdzielcza posiada również obwód 220 V. Dzięki temu jest ona kompatybilna z urządzeniami zasilanymi z sieci energetycznej (110 V w USA, 240 V w Wielkiej Brytanii). Obwód 220 V wymaga przetwornicy. Przetwornica jest zbyt duża, aby zmieścić ją w desce rozdzielczej, więc umieściliśmy ją w skrzynce na zbudowanym z przodu roweru bagażniku.&lt;/p&gt;
-&lt;p&gt;Gniazdko 220 V nie jest niezbędne. Wiele urządzeń zasilanych napięciem 220 V ma alternatywne gniazda 12 V (lub 24 V), które są &lt;a href=&#34;https://mar-ver.github.io/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;bardziej energooszczędne w przypadku zdecentralizowanej produkcji energii&lt;/a&gt;. Niemniej jednak, włączyliśmy obwód 220 V do zasilania urządzeń, które nie zostały (jeszcze) zastąpione lub przerobione na źródła niskiego napięcia: drukarki igłowej, maszyny do szycia, wieży stereo i routera.&lt;/p&gt;
+&lt;p&gt;Gniazdko 220 V nie jest niezbędne. Wiele urządzeń zasilanych napięciem 220 V ma alternatywne gniazda 12 V (lub 24 V), które są &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;bardziej energooszczędne w przypadku zdecentralizowanej produkcji energii&lt;/a&gt;. Niemniej jednak, włączyliśmy obwód 220 V do zasilania urządzeń, które nie zostały (jeszcze) zastąpione lub przerobione na źródła niskiego napięcia: drukarki igłowej, maszyny do szycia, wieży stereo i routera.&lt;/p&gt;
 &lt;p&gt;Obsługa drukarki igłowej i maszyny do szycia jest trudna ze względu na ich szybko zmieniające się zapotrzebowanie na energię. Trzeba na przykład pedałować bardzo szybko (około 20 V), aby zapewnić odpowiednią bezwładność koła zamachowego w celu uniknięcia spadku napięcia poniżej 12 V podczas momentów szczytowego poboru mocy. Problem może rozwiązać zastosowanie superkondensatora - spróbujemy tego w nadchodzących miesiącach. Znacznie bardziej energooszczędne byłyby napędzane stopami mechaniczna maszyna do szycia i drukarka, ale zajmowałyby znacznie więcej miejsca.&lt;/p&gt;
 &lt;h2 id=&#34;span-idalternativealternatywne-konfiguracje---generator-rowerowy-ze-stołem-roboczymspan&#34;&gt;&lt;span id=&#34;alternative&#34;&gt;Alternatywne konfiguracje - generator rowerowy ze stołem roboczym&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Nasz panel sterowania został skonstruowany do zasilania szerokiej gamy urządzeń, ale Wy możecie przyjąć inne podejście i uzyskać podobną funkcjonalność. Na przykład, jeśli chcecie ładować tylko akumulatory, wystarczy jeden obwód 14,4 V. Możecie użyć przetwornic buck i boost, aby uzyskać dowolne napięcie, na przykład zbudować obwód 3 V, 6 V, 9 V lub 24 V.&lt;/p&gt;
 &lt;p&gt;Jeśli jednak chcecie przede wszystkim zasilać urządzenia 24 V, to lepiej będzie dostosować przełożenie generatora. To samo dotyczy ładowania akumulatorów kwasowo-ołowiowych 14,4 V w systemie 12 V: &lt;a href=&#34;#gearratio&#34;&gt;dostosujcie przełożenie tak&lt;/a&gt;, aby generować napięcie 16-17 V (aby skompensować straty energii w przetwornicy buck).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image: Wyjście 220 V.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image: Wyjście 220 V.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Wyjście 220 V. 
 &lt;/figcaption&gt;
@@ -267,7 +267,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image: Bagażnik, a na nim wyjścia zasilania (zmienne, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image: Bagażnik, a na nim wyjścia zasilania (zmienne, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Bagażnik, a na nim wyjścia zasilania (zmienne, 3x12V, 14.4V, 5V USB). 
 &lt;/figcaption&gt;
@@ -275,7 +275,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image: W środku obudowy: falownik, kontroler ładowania wiatrowego, akumulator&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image: W środku obudowy: falownik, kontroler ładowania wiatrowego, akumulator&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: W środku obudowy: falownik, kontroler ładowania wiatrowego, akumulator 
 &lt;/figcaption&gt;
@@ -283,13 +283,13 @@
 &lt;/div&gt;
 &lt;p&gt;Nasza sporej wielkości deska rozdzielcza umieszczona na kierownicy ma swoje wady i zalety. Umieszczenie panelu sterowania na samym rowerze ułatwia odczyt i obsługę, a także przenoszenie roweru. Jeśli sąsiad potrzebuje awaryjnego zasilania, bierzecie rower i w ciągu minuty jesteście na miejscu. Z drugiej strony, umieszczenie tablicy rozdzielczej na rowerze generuje wibracje, zwiększające hałas i straty energii. Konieczne jest również okresowe regulowania napięcia wyjściowego z przetwornic buck i boost.&lt;/p&gt;
 &lt;p&gt;Największą wadą panelu sterowania na kierownicy jest brak możliwości zamontowania w tym miejscu dużego pulpitu. Przydałby się do obsługi elektronarzędzi lub laptopa, a jednocześnie zapewniałby zasilanie. Nasza obecna konfiguracja nie jest idealna do korzystania z elektronarzędzi. Wymaga dwóch osób - jednej do obsługi roweru i drugiej do obsługi elektronarzędzia. Z laptopem jest podobnie - możecie zasilać czyjś komputer, ale nie możecie jednocześnie zasilać swojego i na nim pracować.&lt;/p&gt;
-&lt;p&gt;Planujemy zbudować generator rowerowy z mniejszą tablicą rozdzielczą, obejmującą jeden obwód 12 V i dwa porty USB , oraz z dużą przestrzenią roboczą na kierownicy. Taki generator rowerowy nawiązuje do podobnych (&lt;a href=&#34;https://mar-ver.github.io/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;mechanicznych maszyn rowerowych z początku XX wieku&lt;/a&gt;). Inną opcją jest przykręcenie panelu sterowania do ściany lub postawienie go na półce i umieszczenie obok niego prądnicy rowerowej. Inwerter, akumulator kwasowo-ołowiowy i regulator ładowania wiatrowego, które teraz są zamontowane na rowerze, będzie można z niego zdjąć.&lt;/p&gt;
+&lt;p&gt;Planujemy zbudować generator rowerowy z mniejszą tablicą rozdzielczą, obejmującą jeden obwód 12 V i dwa porty USB , oraz z dużą przestrzenią roboczą na kierownicy. Taki generator rowerowy nawiązuje do podobnych (&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;mechanicznych maszyn rowerowych z początku XX wieku&lt;/a&gt;). Inną opcją jest przykręcenie panelu sterowania do ściany lub postawienie go na półce i umieszczenie obok niego prądnicy rowerowej. Inwerter, akumulator kwasowo-ołowiowy i regulator ładowania wiatrowego, które teraz są zamontowane na rowerze, będzie można z niego zdjąć.&lt;/p&gt;
 &lt;h2 id=&#34;span-idhybridhybrydowy-system-zasilania-energią-solarnąludzkąspan&#34;&gt;&lt;span id=&#34;hybrid&#34;&gt;Hybrydowy system zasilania energią solarną/ludzką&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Niektórzy z Was mogą uważać, że nasz generator rowerowy to raczej gadżet niż praktyczne źródło energii dla gospodarstwa domowego. Po części jest to prawda. Nasza ludzka elektrownia jest idealną maszyną do ćwiczeń - wytwarzanie energii jest motywujące. Jest praktyczna w sytuacjach awaryjnych, zwłaszcza gdy dostępna jest wystarczająca ilość energii generowanej przez ludzi - może wytworzyć do 2,4 kWh dziennie. Nie zapewni jednak wystarczającej ilości energii na dobę, nawet dla mało zaawansowanego technologicznie gospodarstwa domowego. Brakuje wystarczającej liczby osób chętnych do jazdy na rowerze.&lt;/p&gt;
 &lt;p&gt;Niemniej jednak generator rowerowy jest doskonałym uzupełnieniem systemu fotowoltaicznego, przynajmniej w gospodarstwach domowych o niskim zużyciu energii. Moc generatora rowerowego nie zależy od pogody, pory roku ani pory dnia. Siła ludzka może zapewnić dodatkową energię podczas złej pogody, co zmniejsza zapotrzebowanie na drogie i nietrwałe akumulatory. Będzie to szczególnie przydatne w zimie, kiedy system fotowoltaiczny wytwarza znacznie mniej energii, a wysiłek potrzebny do obsługi roweru dodatkowo ogrzewa użytkownika. W lecie nie brakuje energii słonecznej, a poza tym nieraz jest zbyt gorąco na trening na rowerze.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image: Generator rowerowy stoi obok systemu fotowoltaicznego. Naszym celem jest zintegrowanie obu systemów zasilania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image: Generator rowerowy stoi obok systemu fotowoltaicznego. Naszym celem jest zintegrowanie obu systemów zasilania.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Generator rowerowy stoi obok systemu fotowoltaicznego. Naszym celem jest zintegrowanie obu systemów zasilania. 
 &lt;/figcaption&gt;
@@ -297,11 +297,11 @@
 &lt;/div&gt;
 &lt;p&gt;Generator rowerowy o mocy 50-100 W jest bardziej wydajny niż stojące na balkonie obok niego dwa panele słoneczne: panel 50 W zasilający oświetlenie w salonie, oraz panel 30 W zasilający stronę internetową. Rzadko, jeśli w ogóle, panele osiągają maksimum swojej mocy, a podczas złej pogody produkują znacznie mniej energii niż generator rowerowy. Przy dużym zachmurzeniu produkcja energii spada niemal do zera, a jeśli taka sytuacja trwa przez dwa dni, przestają działać oświetlenie i strona internetowa. Jedna lub dwie godziny dziennie na rowerze z generatorem mogłyby temu zapobiec. Alternatywą jest zasilanie elektronarzędzi lub innych urządzeń rowerem, bez obciążania akumulatorów z systemu fotowoltaicznego.&lt;/p&gt;
 &lt;p&gt;Zamiast generatora rowerowego można także używać tablicy rozdzielczej z panelem solarnym. Wystarczy zastąpić &lt;a href=&#34;#wind&#34;&gt;regulator ładowania wiatrowego&lt;/a&gt; regulatorem ładowania słonecznego. Dzięki temu wykorzystamy energię słoneczną do bezpośredniego zasilania urządzeń - bez konieczności stosowania solarnego regulatora ładowania i akumulatora. Zastąpcie regulator ładowania wiatrowego hybrydowym regulatorem ładowania słoneczno-wiatrowego, a będziecie mogli ładować akumulatory i bezpośrednio zasilać urządzenia z obu źródeł. Można również połączyć energię słoneczną i ludzką, zwiększając w ten sposób moc wyjściową.&lt;/p&gt;
-&lt;p&gt;Połączenie energii ludzkiej i słonecznej powinno umożliwić podjęcie dalszych kroków w kierunku stworzenia &lt;a href=&#34;https://mar-ver.github.io/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;funkcjonującego poza siecią miejskiego gospodarstwa domowego&lt;/a&gt;. W planach jest dodanie kolejnego panelu słonecznego o mocy 50 W, wyłączenie z sieci kolejnych urządzeń (przede wszystkim lodówki) i utrzymanie akumulatorów na dotychczasowym poziomie.&lt;/p&gt;
+&lt;p&gt;Połączenie energii ludzkiej i słonecznej powinno umożliwić podjęcie dalszych kroków w kierunku stworzenia &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;funkcjonującego poza siecią miejskiego gospodarstwa domowego&lt;/a&gt;. W planach jest dodanie kolejnego panelu słonecznego o mocy 50 W, wyłączenie z sieci kolejnych urządzeń (przede wszystkim lodówki) i utrzymanie akumulatorów na dotychczasowym poziomie.&lt;/p&gt;
 &lt;h2 id=&#34;span-idmanual-bikeinstrukcja-obsługi-generator-rowerowyspan&#34;&gt;&lt;span id=&#34;manual-bike&#34;&gt;Instrukcja obsługi: generator rowerowy&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image: Napęd cierny.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image: Napęd cierny.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Napęd cierny. 
 &lt;/figcaption&gt;
@@ -336,7 +336,7 @@
 &lt;p&gt;To jakiego dokładnie napięcia potrzebujecie, a tym samym dokładny rozmiar wrzeciona, zależy od tego, do czego tak naprawdę chcecie używać roweru. Szczegółowe umówienie tego tematu znajduje się w &lt;a href=&#34;#manual-dashboard&#34;&gt;instrukcji obsługi panelu sterowania&lt;/a&gt;. Wyobraźcie sobie, że chcecie ładować akumulatory kwasowo-ołowiowe, które wymagają napięcia 14,4 V. Używacie przetwornicy buck (obniżającej napięcie wejściowe), więc, aby nadrobić straty w procesie konwersji napięcia, będziecie musieli wytworzyć napięcie bliskie 17 V. W takim razie wymagana średnica wrzeciona wyniesie 41,42 mm. Taka konfiguracja jest pokazana na poniższej ilustracji.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -358,7 +358,7 @@
 &lt;p&gt;Dobranie rozmiaru wrzeciona to dopiero połowa pracy. Znalezienie wrzeciona o odpowiedniej średnicy, wykonanego z właściwych materiałów i pasującego do wału generatora może być nie lada wyzwaniem. Żeby znaleźć właściwe, wypróbowaliśmy kilkanaście różnych wrzecion. Koło zamachowe ma twardą powierzchnię i wymaga miękkiego wrzeciona, wykonanego z gumy lub poliuretanu. Uznaliśmy, że solidny odbojnik do drzwi, wykonany z metalu i gumy, zapewnia optymalne tarcie z naszym kołem zamachowym. Zanieśliśmy go do warsztatu, gdzie wywiercono w nim otwór o średnicy 10 mm.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image: Kilka wrzecion, które testowaliśmy.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image: Kilka wrzecion, które testowaliśmy.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Kilka wrzecion, które testowaliśmy. 
 &lt;/figcaption&gt;
@@ -370,7 +370,7 @@
 &lt;p&gt;Generator jest wyposażony w zintegrowaną zębatkę lub koło pasowe, które trzeba zdjąć. Koło zębate lub napęd pasowy przytrzymuje nylonowa nakrętka zabezpieczająca z gwintem lewym. Odkręca się ją w prawo (nie w lewo, jak większość nakrętek). Prawdopodobnie potrzebny będzie zacisk, aby sobie z tym poradzić.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image: Prądnica z gwintowanym wałkiem.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image: Prądnica z gwintowanym wałkiem.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Prądnica z gwintowanym wałkiem. 
 &lt;/figcaption&gt;
@@ -378,7 +378,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image: Prądnica z wrzecionem średnicy 41 mm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image: Prądnica z wrzecionem średnicy 41 mm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Prądnica z wrzecionem średnicy 41 mm. 
 &lt;/figcaption&gt;
@@ -390,7 +390,7 @@
 &lt;p&gt;Przykręciliśmy prądnicę do drewnianej deski, a następnie docisnęliśmy ją do koła zamachowego za pomocą drewnianego wspornika. Deska jest przymocowana do roweru za pomocą mocnego zawiasu drzwiowego. Umożliwia to dostosowanie kąta, pod jakim wrzeciono styka się z kołem zamachowym. Podpórka opiera się na klinie korkowym tłumiącym drgania. Jeśli chcecie zapoznać się z innym rozwiązaniem, &lt;a href=&#34;#first&#34;&gt;zobaczcie nasz pierwszy prototyp&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image: Napęd cierny.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image: Napęd cierny.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Napęd cierny. 
 &lt;/figcaption&gt;
@@ -402,7 +402,7 @@
 &lt;p&gt;Napięcie wyjściowe reguluje się przez obrót małej śrubki na module. Niektóre przetwornice buck i boost są wyposażone w mały ekran pokazujący napięcie wyjściowe. Jeśli go nie mają, to do regulacji napięcia wyjściowego można użyć multimetru.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -426,7 +426,7 @@
 &lt;p&gt;Żeby połączyć wszystkie elementy, potrzebujecie przewodów, złączy, diod, bezpieczników i przycisków włączania/wyłączania. Możecie być zdezorientowani mnogością części, więc poniżej wyjaśniamy co będzie potrzebne.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -442,7 +442,7 @@
 &lt;p&gt;Woleliśmy uniknąć lutowania połączeń, więc kupiliśmy przełączniki z już podłączonymi przewodami. Ostatecznie i tak musieliśmy je przylutować, ponieważ grube przewody zajmowały zbyt dużo miejsca. Przyciski włączania/wyłączania bez lampek i z dołączonymi wcześniej cieńszymi przewodami uprościłyby tę część systemu.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image: How to wire the on-off switches.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image: How to wire the on-off switches.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: How to wire the on-off switches. 
 &lt;/figcaption&gt;
@@ -453,7 +453,7 @@
 &lt;h3 id=&#34;span-idinstrumentsprzyrządy-tablicy-rozdzielczejspan&#34;&gt;&lt;span id=&#34;instruments&#34;&gt;Przyrządy tablicy rozdzielczej&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -462,7 +462,7 @@
 &lt;p&gt;Wybraliśmy woltomierz o zakresie do 30 V i amperomierz o zakresie do 15 A, ponieważ analogowe mierniki V&amp;amp;A są najbardziej precyzyjne w środku zakresu. Cyfrowy miernik V&amp;amp;A jest bardziej kompaktowy, ale analogowe mierniki są czytelniejsze i lepiej pokazują drobne zmiany. Powyżej miernika znajduje się obwód USB, do którego można podłączyć małą lampkę LED i obserwować wskazania przyrządów w ciemności. Pokazują one także, czy system w ogóle działa.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image: Jak wykonać okablowanie analogowego woltomierza i amperomierza.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image: Jak wykonać okablowanie analogowego woltomierza i amperomierza.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Jak wykonać okablowanie analogowego woltomierza i amperomierza. 
 &lt;/figcaption&gt;
@@ -473,14 +473,14 @@
 &lt;h3 id=&#34;span-idpanelpanel-tablicy-rozdzielczej-i-mocowaniespan&#34;&gt;&lt;span id=&#34;panel&#34;&gt;Panel tablicy rozdzielczej i mocowanie&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -491,7 +491,7 @@
 &lt;h2 id=&#34;span-idcompletekompletny-panel-sterowaniaspan&#34;&gt;&lt;span id=&#34;complete&#34;&gt;Kompletny panel sterowania:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1: Dioda Schottky&amp;amp;rsquo;ego. 2: Bezpiecznik. 3: Przewody. 4: Analogowy woltomierz i amperomierz. 5: Wyłączniki. 6: Złączki. 7: Lampka USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1: Dioda Schottky&amp;amp;rsquo;ego. 2: Bezpiecznik. 3: Przewody. 4: Analogowy woltomierz i amperomierz. 5: Wyłączniki. 6: Złączki. 7: Lampka USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  1: Dioda Schottky&#39;ego. 2: Bezpiecznik. 3: Przewody. 4: Analogowy woltomierz i amperomierz. 5: Wyłączniki. 6: Złączki. 7: Lampka USB. 
 &lt;/figcaption&gt;
@@ -500,7 +500,7 @@
 &lt;h2 id=&#34;span-id5vobwód-5vspan&#34;&gt;&lt;span id=&#34;5V&#34;&gt;Obwód 5V:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8: Konwerter buck USB. 9: Woltomierz &amp;amp;amp; amperomierz USB. 10: Rozdzielacz USB i przewody.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8: Konwerter buck USB. 9: Woltomierz &amp;amp;amp; amperomierz USB. 10: Rozdzielacz USB i przewody.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  8: Konwerter buck USB. 9: Woltomierz &amp; amperomierz USB. 10: Rozdzielacz USB i przewody. 
 &lt;/figcaption&gt;
@@ -509,7 +509,7 @@
 &lt;h2 id=&#34;span-id12vobwód-12vspan&#34;&gt;&lt;span id=&#34;12V&#34;&gt;Obwód 12V&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11: Konwerter buck. 12: Ściemniacz.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11: Konwerter buck. 12: Ściemniacz.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  11: Konwerter buck. 12: Ściemniacz. 
 &lt;/figcaption&gt;
@@ -518,7 +518,7 @@
 &lt;h2 id=&#34;span-id14vobwód-144vspan&#34;&gt;&lt;span id=&#34;14V&#34;&gt;Obwód 14.4V&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13: Konwerter boost. 14: Kontroler ładowania wiatrowego. 15: Akumulator kwasowo-ołowiowy. 16: Elektroniczny woltomierz dla akumulatora.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13: Konwerter boost. 14: Kontroler ładowania wiatrowego. 15: Akumulator kwasowo-ołowiowy. 16: Elektroniczny woltomierz dla akumulatora.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  13: Konwerter boost. 14: Kontroler ładowania wiatrowego. 15: Akumulator kwasowo-ołowiowy. 16: Elektroniczny woltomierz dla akumulatora. 
 &lt;/figcaption&gt;
@@ -527,7 +527,7 @@
 &lt;h2 id=&#34;span-id220vobwód-220vspan&#34;&gt;&lt;span id=&#34;220V&#34;&gt;Obwód 220V:&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17: Konwerter buck. 18: Falownik.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17: Konwerter buck. 18: Falownik.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  17: Konwerter buck. 18: Falownik. 
 &lt;/figcaption&gt;
@@ -648,21 +648,21 @@
 &lt;h2 id=&#34;span-idfirstpierwszy-prototypspan&#34;&gt;&lt;span id=&#34;first&#34;&gt;Pierwszy prototyp&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -688,15 +688,15 @@
     
     <item>
       <title>Zemsta termofora</title>
-      <link>https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/</link>
+      <link>https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/</link>
       
-      <enclosure url="https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" type="image/png" length="40997" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png" type="image/png" length="40997" ></enclosure>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png&#34; alt=&#39;Termofor pomógłby zaoszczędzić nam mnóstwo energii i pieniędzy, bez utraty komfortu cieplnego. Illustration: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-bar-terrace_dithered.png&#34; alt=&#39;Termofor pomógłby zaoszczędzić nam mnóstwo energii i pieniędzy, bez utraty komfortu cieplnego. Illustration: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Termofor pomógłby zaoszczędzić nam mnóstwo energii i pieniędzy, bez utraty komfortu cieplnego. Illustration: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -708,7 +708,7 @@
 &lt;p&gt;Chorwacki wynalazca Eduard Penkala opatentował w 1903 r. gumowy pojemnik na gorącą wodę, którą nazwał &amp;ldquo;Termofor&amp;rdquo;. Nazwa nie pojawiła się znikąd i pochodzi z połączenie greckich słów therme (ciepło, gorąc) i foros (przynoszący, niosący), oznaczających &amp;ldquo;przynoszący ciepło&amp;rdquo;. W rzeczywistości historia termofora, występującego w różnych postaciach, sięga tysięcy lat wstecz.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png&#34; alt=&#39;Gumowy termofor wyprodukowany w Niemczech (1925-35). Żródło: Muzeum Rotterdamu.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/warmwaterzak_dithered.png&#34; alt=&#39;Gumowy termofor wyprodukowany w Niemczech (1925-35). Żródło: Muzeum Rotterdamu.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Gumowy termofor wyprodukowany w Niemczech (1925-35). Żródło: [Muzeum Rotterdamu](https://museumrotterdam.nl/collectie/item/76113-A-B). 
 &lt;/figcaption&gt;
@@ -720,7 +720,7 @@
 &lt;p&gt;Początkowo te pierwsze &amp;ldquo;prawdziwe&amp;rdquo; termofory były wykonane z twardych materiałów, takich jak szkło, metal lub ceramika. Dopiero po wynalezieniu gumy wulkanizowanej w XIX wieku pojawiły się wygodniejsze, lekkie i elastyczne gumowe termofory. Moi hiszpańscy przyjaciele powiedzieli mi, że termofory były kiedyś wykonywane ze skór zwierzęcych, ale nie udało mi się tego sprawdzić. Być może jest to prawda, ponieważ na całym świecie istnieje długa tradycja używania bukłaków do przechowywania płynów.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png&#34; alt=&#39;Przykład powszechnego użycia termoforów w gospodarstwach domowych zanim w połowie XX w. do powszechnego użycia weszły gumowe (lata 40. XX w., Melbourne, Australia). Źródło: Kolekcja Wiktoriańska. https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/VictorianCollections-large_dithered.png&#34; alt=&#39;Przykład powszechnego użycia termoforów w gospodarstwach domowych zanim w połowie XX w. do powszechnego użycia weszły gumowe (lata 40. XX w., Melbourne, Australia). Źródło: Kolekcja Wiktoriańska. https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Przykład powszechnego użycia termoforów w gospodarstwach domowych zanim w połowie XX w. do powszechnego użycia weszły gumowe (lata 40. XX w., Melbourne, Australia). Źródło: Kolekcja Wiktoriańska. [https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799](https://victoriancollections.net.au/items/5a2622e921ea6a17dcba0799). 
 &lt;/figcaption&gt;
@@ -728,7 +728,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png&#34; alt=&#39;Blaszany podgrzewacz jest wypełniony gorącą wodą i używa się go podobnie jak termofora. Ta puszka o owalnym kształcie jest wygięta tak, aby pasowała do ciała. Wytwórca: Kenworthy Son and Company. Miejsce produkcji: Southport, Sefton, Merseyside, Anglia, Wielka Brytania. Źródło: Muzeum Nauki, Londyn. https://wellcomecollection.org/works/gf42542b.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Copper-foment-can-England-1880-1930_dithered.png&#34; alt=&#39;Blaszany podgrzewacz jest wypełniony gorącą wodą i używa się go podobnie jak termofora. Ta puszka o owalnym kształcie jest wygięta tak, aby pasowała do ciała. Wytwórca: Kenworthy Son and Company. Miejsce produkcji: Southport, Sefton, Merseyside, Anglia, Wielka Brytania. Źródło: Muzeum Nauki, Londyn. https://wellcomecollection.org/works/gf42542b.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
   Blaszany podgrzewacz jest wypełniony gorącą wodą i używa się go podobnie jak termofora. Ta puszka o owalnym kształcie jest wygięta tak, aby pasowała do ciała. Wytwórca: Kenworthy Son and Company. Miejsce produkcji: Southport, Sefton, Merseyside, Anglia, Wielka Brytania. Źródło: Muzeum Nauki, Londyn. [https://wellcomecollection.org/works/gf42542b](https://wellcomecollection.org/works/gf42542b). 
 &lt;/figcaption&gt;
@@ -736,7 +736,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png&#34; alt=&#39;Sześciokątny termofor, Austria, 1791-1798. Sześciokątny termofor wykonany z cyny, z wygrawerowanym motywem lasu. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). https://wellcomecollection.org/works/b452vwjm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Hexagonal-hot-water-bottle-Austria-1791-1798_dithered.png&#34; alt=&#39;Sześciokątny termofor, Austria, 1791-1798. Sześciokątny termofor wykonany z cyny, z wygrawerowanym motywem lasu. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). https://wellcomecollection.org/works/b452vwjm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Sześciokątny termofor, Austria, 1791-1798. Sześciokątny termofor wykonany z cyny, z wygrawerowanym motywem lasu. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). [https://wellcomecollection.org/works/b452vwjm](https://wellcomecollection.org/works/b452vwjm). 
 &lt;/figcaption&gt;
@@ -744,7 +744,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png&#34; alt=&#39;Ten ogrzewacz do stóp (wyprodukowany w 1927 r.) służył do ogrzewania i zapewniania komfortu pacjentom odpoczywającym na oddziałach szpitalnych. Wykonany z ocynkowanego żelaza, był wypełniony gorącą wodą i zabezpieczony korkiem. Miejsce produkcji: Glasgow, Szkocja, Wielka Brytania. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). https://wellcomecollection.org/works/mfjujndv&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/foot-warmer-Lister-Ward_dithered.png&#34; alt=&#39;Ten ogrzewacz do stóp (wyprodukowany w 1927 r.) służył do ogrzewania i zapewniania komfortu pacjentom odpoczywającym na oddziałach szpitalnych. Wykonany z ocynkowanego żelaza, był wypełniony gorącą wodą i zabezpieczony korkiem. Miejsce produkcji: Glasgow, Szkocja, Wielka Brytania. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). https://wellcomecollection.org/works/mfjujndv&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ten ogrzewacz do stóp (wyprodukowany w 1927 r.) służył do ogrzewania i zapewniania komfortu pacjentom odpoczywającym na oddziałach szpitalnych. Wykonany z ocynkowanego żelaza, był wypełniony gorącą wodą i zabezpieczony korkiem. Miejsce produkcji: Glasgow, Szkocja, Wielka Brytania. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). [https://wellcomecollection.org/works/mfjujndv](https://wellcomecollection.org/works/mfjujndv) 
 &lt;/figcaption&gt;
@@ -752,7 +752,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png&#34; alt=&#39;Francuski podgrzewacz do stóp, rok produkcji nieznany. Źródło: Musée départemental Alberd Demard&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/M0354_930804-004_1_dithered.png&#34; alt=&#39;Francuski podgrzewacz do stóp, rok produkcji nieznany. Źródło: Musée départemental Alberd Demard&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Francuski podgrzewacz do stóp, rok produkcji nieznany. Źródło: Musée départemental Alberd Demard 
 &lt;/figcaption&gt;
@@ -765,7 +765,7 @@
 &lt;p&gt;Dzisiaj można kupić także większe termofory mieszczące do trzech litrów wody lub więcej. Najbardziej udana nowinka, według mnie, ma postać hot-doga: jest to termofor o długości 80 cm. Można go owinąć wokół bioder, ale jest równie praktyczny jako towarzysz na kanapie lub w łóżku. Z łatwością mogą z niego korzystać dwie osoby, a jego kształt sprawia, że jest niezwykle wygodny. Mieści do dwóch litrów wody.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png&#34; alt=&#39;Termofor z gumy i z PCV. Zdjęcie Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle002_dithered.png&#34; alt=&#39;Termofor z gumy i z PCV. Zdjęcie Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Termofor z gumy i z PCV. Zdjęcie Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -773,7 +773,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png&#34; alt=&#39;Gumowe termofory. Zdjęcie Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/waterbottle005_dithered.png&#34; alt=&#39;Gumowe termofory. Zdjęcie Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Gumowe termofory. Zdjęcie Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -781,7 +781,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png&#34; alt=&#39;Japoński termofor, albo yutampo, zrobiony z twardego plastiku. Źródło: All About Japan. https://allabout-japan.com/en/article/6244/&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/yutampo2_dithered.png&#34; alt=&#39;Japoński termofor, albo yutampo, zrobiony z twardego plastiku. Źródło: All About Japan. https://allabout-japan.com/en/article/6244/&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
   Japoński termofor, albo yutampo, zrobiony z twardego plastiku. Źródło: All About Japan. [https://allabout-japan.com/en/article/6244/](https://allabout-japan.com/en/article/6244/) 
 &lt;/figcaption&gt;
@@ -789,7 +789,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png&#34; alt=&#39;Japońskie yutampo wciąż jest dostępne w metalu. Źródło: Maruka.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/maruka-yutampo_dithered.png&#34; alt=&#39;Japońskie yutampo wciąż jest dostępne w metalu. Źródło: Maruka.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Japońskie yutampo wciąż jest dostępne w metalu. Źródło: Maruka. 
 &lt;/figcaption&gt;
@@ -801,7 +801,7 @@
 &lt;p&gt;Jeszcze lepszy jest koc z otworem w środku, przez który można włożyć głowę - zwykłe poncho - lub koc z rękawami. Jeśli jest on wystarczająco duży, tworzy strukturę przypominającą namiot, dzięki której całe ciało znajduje się w ciepłym mikroklimacie stworzonym przez termofor. Zakładanie długich ubrań na osobiste źródło ciepła było powszechną strategią zapewniającą komfort w dawnych czasach.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png&#34; alt=&#39;Koc zatrzymuje ciepło z termoforu. Ilustracja: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-kotatsu-grey-background_dithered.png&#34; alt=&#39;Koc zatrzymuje ciepło z termoforu. Ilustracja: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Koc zatrzymuje ciepło z termoforu. Ilustracja: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -813,13 +813,13 @@
 &lt;p&gt;Opisane powyżej rozwiązania sprawdzają się tylko w przypadku osób pozostających w jednym miejscu. Zapotrzebowanie na zewnętrzne źródło ciepła maleje, gdy się przemieszczamy i jesteśmy aktywni fizycznie, ponieważ nasze ciało wytwarza wtedy więcej ciepła. Niemniej jednak, termofor może utrzymywać ciepło także wtedy, gdy wykonujemy czynności stojąc lub poruszając się na zewnątrz lub w budynku. Można go nosić pod ubraniem, a nawet włożyć do specjalnie zaprojektowanych kieszeni lub plecaka. Mały plecak z termoforem umieszczony między łopatkami doskonale sprawdza się również podczas siedzenia na krześle.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png&#34; alt=&#39;Termofor zapewnia komfort termiczny przy otwartych oknach. Illustracja Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/hot-water-bottles-school_dithered.png&#34; alt=&#39;Termofor zapewnia komfort termiczny przy otwartych oknach. Illustracja Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Termofor zapewnia komfort termiczny przy otwartych oknach. Illustracja Marie Verdeil. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Termofory sprawdzają się zarówno w pomieszczeniach, jak i na zewnątrz, pod warunkiem, że ciało jest chronione przed wiatrem i deszczem, lub w pomieszczeniach z otwartymi oknami. Nowoczesne systemy centralnego ogrzewania zapewniają komfort cieplny głównie poprzez ogrzewanie powietrza w pomieszczeniu, co oczywiście nie sprawdza się ani na zewnątrz, ani w dobrze wentylowanych pomieszczeniach. W przeciwieństwie do nich, termofory przekazują ciepło bezpośrednio ludziom poprzez kontakt fizyczny (metoda wymiany ciepła zwana &amp;ldquo;przewodzeniem&amp;rdquo;). &lt;a href=&#34;https://mar-ver.github.io/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;Ogrzewają ludzi, a nie pomieszczenia&lt;/a&gt;. Dzięki temu termofory stanowią bezpieczną i zrównoważoną alternatywę dla grzejników ogrodowych w barach i restauracjach. Inwestycja jest minimalna: komplet termoforów i czajnik - woda może być używany wielokrotnie. Można też przynieść własny termofor i napełnić go w barze.&lt;/p&gt;
+&lt;p&gt;Termofory sprawdzają się zarówno w pomieszczeniach, jak i na zewnątrz, pod warunkiem, że ciało jest chronione przed wiatrem i deszczem, lub w pomieszczeniach z otwartymi oknami. Nowoczesne systemy centralnego ogrzewania zapewniają komfort cieplny głównie poprzez ogrzewanie powietrza w pomieszczeniu, co oczywiście nie sprawdza się ani na zewnątrz, ani w dobrze wentylowanych pomieszczeniach. W przeciwieństwie do nich, termofory przekazują ciepło bezpośrednio ludziom poprzez kontakt fizyczny (metoda wymiany ciepła zwana &amp;ldquo;przewodzeniem&amp;rdquo;). &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/02/restoring-the-old-way-of-warming-heating-people-not-places/&#34;&gt;Ogrzewają ludzi, a nie pomieszczenia&lt;/a&gt;. Dzięki temu termofory stanowią bezpieczną i zrównoważoną alternatywę dla grzejników ogrodowych w barach i restauracjach. Inwestycja jest minimalna: komplet termoforów i czajnik - woda może być używany wielokrotnie. Można też przynieść własny termofor i napełnić go w barze.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Termofor to bezpieczna i ekologiczna alternatywa dla grzejników ogródkowych w barach i restauracjach.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -827,7 +827,7 @@
 &lt;p&gt;Dawniej termofory, a także ich poprzednicy używający rozżarzonych węgli, były często wynoszone z domu. Używano ich powszechnie w autokarach i pociągach, a także w nieogrzewanych kościołach. Mniejsze pojemniki z gorącą wodą ze sznurkami do noszenia i materiałowymi pokrywkami wkładano do futrzanych mufek lub kieszeni. W dzisiejszych czasach można też przechowywać gorącą wodę w termosie, a po kilku godzinach wlać ją do termofora.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png&#34; alt=&#39;Kamionkowy podgrzewacz do mufki Queens. Źródło: Antiques Atlas. https://www.antiques-atlas.com.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Stoneware_Queens_Muff_Warmer_H_as151a1645z_dithered.png&#34; alt=&#39;Kamionkowy podgrzewacz do mufki Queens. Źródło: Antiques Atlas. https://www.antiques-atlas.com.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Kamionkowy podgrzewacz do mufki Queens. Źródło: Antiques Atlas. [https://www.antiques-atlas.com](https://www.antiques-atlas.com). 
 &lt;/figcaption&gt;
@@ -835,7 +835,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png&#34; alt=&#39;Wygięta, prostokątna butelka na gorącą wodę, Francja, 1751-1810. Wykonana z pewteru, stopu cyny i ołowiu, ta butelka na gorącą wodę ma wygrawerowane ptaki i rośliny, a jej zaokrąglony kształt przylega do ciała. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). https://wellcomecollection.org/works/g5ufhayn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/Curved-rectangular-hot-water-bottle-France-1751-1810_dithered.png&#34; alt=&#39;Wygięta, prostokątna butelka na gorącą wodę, Francja, 1751-1810. Wykonana z pewteru, stopu cyny i ołowiu, ta butelka na gorącą wodę ma wygrawerowane ptaki i rośliny, a jej zaokrąglony kształt przylega do ciała. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). https://wellcomecollection.org/works/g5ufhayn.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Wygięta, prostokątna butelka na gorącą wodę, Francja, 1751-1810. Wykonana z pewteru, stopu cyny i ołowiu, ta butelka na gorącą wodę ma wygrawerowane ptaki i rośliny, a jej zaokrąglony kształt przylega do ciała. Źródło: Muzeum Nauki, Londyn. (CC BY 4.0). [https://wellcomecollection.org/works/g5ufhayn](https://wellcomecollection.org/works/g5ufhayn). 
 &lt;/figcaption&gt;
@@ -844,11 +844,11 @@
 &lt;h2 id=&#34;900-termoforów-dziennie-oszczędność-energii&#34;&gt;900 termoforów dziennie: oszczędność energii&lt;/h2&gt;
 &lt;p&gt;Szkoda, że istnieje niewiele badań naukowych na temat możliwości oszczędzania energii przez termofory, a właściwie nie ma ich wcale. Naukowcy w ostatnich latach woleli się skupić na zaawansowanych urządzeniach grzewczych, takich jak elektrycznie podgrzewane biurka i fotele, żarówki promieniujące ciepłem lub poduszki cieplne zasilane bateriami. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Te alternatywne rozwiązania w porównaniu z termoforem wydają się niepotrzebnie skomplikowane. Wodę można podgrzewać na wiele sposobów, zarówno zaawansowanych, jak i mniej zaawansowanych technologicznie, a pojemniki można wykonać z materiałów dostępnych lokalnie. Niemniej jednak, badania pokazują, że osobiste źródła ogrzewania o podobnym działaniu jak termofory mogłyby zaoszczędzić wiele energii przy zachowaniu, a często nawet poprawie, komfortu cieplnego. Na przykład jedno z badań wykazało, że obniżenie temperatury powietrza w biurze z 20,5 do 18,8°C i zapewnienie pracownikom podgrzewanego krzesła w celu zrekompensowania dyskomfortu, prowadzi do zmniejszenia zużycia energii o 35% i wyższej osobistej oceny komfortu cieplnego.&lt;/p&gt;
-&lt;p&gt;Niewiele jest sposobów na podniesienie efektywności energetycznej budynku, które mogą przynieść tak duże oszczędności energii przy tak niewielkiej inwestycji, chociaż w omawianym eksperymencie obniżenie temperatury powietrza nie było radykalne. Gdyby osobiste urządzenia grzewcze połączono ze dodatkową &lt;a href=&#34;https://mar-ver.github.io/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;izolacją kocami lub odzieżą&lt;/a&gt; to oszczędności energii mogłyby być jeszcze większe.&lt;/p&gt;
+&lt;p&gt;Niewiele jest sposobów na podniesienie efektywności energetycznej budynku, które mogą przynieść tak duże oszczędności energii przy tak niewielkiej inwestycji, chociaż w omawianym eksperymencie obniżenie temperatury powietrza nie było radykalne. Gdyby osobiste urządzenia grzewcze połączono ze dodatkową &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/02/insulation-first-the-body-then-the-home/&#34;&gt;izolacją kocami lub odzieżą&lt;/a&gt; to oszczędności energii mogłyby być jeszcze większe.&lt;/p&gt;
 &lt;p&gt;Innym sposobem zbadania potencjału oszczędności energii jaki daje termofor, jest obliczenie ile energii potrzeba do podgrzania wody i porównanie tego ze zużyciem energii przez system centralnego ogrzewania. Ponieważ butelki z gumy lub PCV mogą być napełnione tylko do dwóch trzecich, co zapewnia bezpieczne i wygodne użytkowanie, zakładam nieco większy model (3 l) mieszczący w praktyce dwa litry wody. Dzięki temu obliczenia obejmą również pojemniki, które można napełnić do pełna, takie jak japońskie yutampo. Do podniesienia temperatury 1 litra wody o 1°C potrzeba 4200 dżuli, co oznacza, że ogrzanie dwóch litrów wody z 10°C do 60°C wymaga 420 kilodżuli lub 116,7 Wh.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png&#34; alt=&#39;Reklama termoforu &amp;amp;quot;Cosimax&amp;amp;quot; firmy Westbrook &amp;amp;amp; Thompson Ltd., wykonanej z gumy Dunlop. 1938. Muzeum Nauki / Biblioteka Obrazów Nauki i Społeczeństwa. Źródło: https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/sleep-well_dithered.png&#34; alt=&#39;Reklama termoforu &amp;amp;quot;Cosimax&amp;amp;quot; firmy Westbrook &amp;amp;amp; Thompson Ltd., wykonanej z gumy Dunlop. 1938. Muzeum Nauki / Biblioteka Obrazów Nauki i Społeczeństwa. Źródło: https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Reklama termoforu \&#34;Cosimax\&#34; firmy Westbrook &amp; Thompson Ltd., wykonanej z gumy Dunlop. 1938. Muzeum Nauki / Biblioteka Obrazów Nauki i Społeczeństwa. Źródło: [https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938](https://www.ssplprints.com/image/95677/sleep-well-hot-water-bottle-august-1938). 
 &lt;/figcaption&gt;
@@ -863,7 +863,7 @@
 &lt;p&gt;Zbyt gorąca woda może być szkodliwa na kilka sposobów. Po pierwsze, zawsze istnieje możliwość, że podczas napełniania pojemnika woda rozleje się na ręce. Po drugie, gumowy lub plastikowy termofor może zacząć przeciekać, albo przez nakrętkę, albo na łączeniach. Po trzecie - i to jest najgorszy scenariusz - termofor może pęknąć i rozlać dwa litry gorącej wody na Twoje ciało. Takie wypadki zdarzają się rzadko, ponieważ obecnie termofory są produkowane zgodnie z normami jakości, jednak zdarzają się, zwykle z powodu zużycia się pojemnika.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png&#34; alt=&#39;Termofor Jayne Mansfield pojawia się na rynku w 1957 roku. Figurka Mansfield &amp;amp;quot;w pozie pin-up z rękami założonymi za szyję i w czarnym bikini&amp;amp;quot; jest wykonana z różowego plastiku z nakręcaną czapeczką i mierzy około dwóch stóp wysokości Źródło: https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/jayne-mansfield-hot-water-bottle-ad-1_dithered.png&#34; alt=&#39;Termofor Jayne Mansfield pojawia się na rynku w 1957 roku. Figurka Mansfield &amp;amp;quot;w pozie pin-up z rękami założonymi za szyję i w czarnym bikini&amp;amp;quot; jest wykonana z różowego plastiku z nakręcaną czapeczką i mierzy około dwóch stóp wysokości Źródło: https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Termofor Jayne Mansfield pojawia się na rynku w 1957 roku. Figurka Mansfield \&#34;w pozie pin-up z rękami założonymi za szyję i w czarnym bikini\&#34; jest wykonana z różowego plastiku z nakręcaną czapeczką i mierzy około dwóch stóp wysokości Źródło: [https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/](https://vintagenewsdaily.com/at-the-height-of-her-career-in-the-1950s-jayne-mansfield-even-modeled-for-this-awesome-hot-water-bottle/). 
 &lt;/figcaption&gt;
@@ -878,10 +878,10 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Nawet branie prysznica z nieco mniejszą częstotliwością z łatwością zapewni wodę i energię potrzebną do ciągłego korzystania z termoforów.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Używanie czajnika elektrycznego, lub garnka na kuchence, ułatwia wielokrotne wykorzystywanie tej samej wody, ale wiąże się też z pewnymi problemami. Po pierwsze, jeśli czajnik elektryczny nie jest wyposażony w programator temperatury wody, trzeba się upewnić, że woda nie jest zbyt gorąca. Ja rozwiązuję ten problem zanurzając sondę termometru cyfrowego w czajniku podczas podgrzewania wody. Po drugie, jeśli podgrzejesz wodę z termofora, czajnik (lub garnek) nie może być już używany do podgrzewania wody przeznaczonej do spożycia przez ludzi, ponieważ będzie ona miała zły smak. Dlatego należy używać osobnego czajnika do podgrzewania wody do termoforów, albo podgrzewać wodę w jedynym czajniku i wyrzucić go po użyciu.&lt;/p&gt;
-&lt;p&gt;Nawet jeśli ostygłej wody nie użyje się ponownie do innych celów (np. do podlewania roślin), to i tak straty są mała. &lt;a href=&#34;https://mar-ver.github.io/pl/2019/10/mist-showers-sustainable-decadence/&#34;&gt;Przeciętny prysznic&lt;/a&gt; zużywa tyle wody, że wystarczyłoby na napełnienie 37 termoforów. Podobnie zużycie energii podczas przeciętnego prysznica odpowiada zużyciu energii na podgrzanie 17 termoforów (które wykorzystują wodę o wyższej temperaturze niż prysznic). To oznacza, że nawet branie prysznica z nieco mniejszą częstotliwością z łatwością zapewni wodę i energię potrzebną do ciągłego korzystania z termoforów.&lt;/p&gt;
+&lt;p&gt;Nawet jeśli ostygłej wody nie użyje się ponownie do innych celów (np. do podlewania roślin), to i tak straty są mała. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/pl/2019/10/mist-showers-sustainable-decadence/&#34;&gt;Przeciętny prysznic&lt;/a&gt; zużywa tyle wody, że wystarczyłoby na napełnienie 37 termoforów. Podobnie zużycie energii podczas przeciętnego prysznica odpowiada zużyciu energii na podgrzanie 17 termoforów (które wykorzystują wodę o wyższej temperaturze niż prysznic). To oznacza, że nawet branie prysznica z nieco mniejszą częstotliwością z łatwością zapewni wodę i energię potrzebną do ciągłego korzystania z termoforów.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png&#34; alt=&#39;Źródło: Auckland War Memorial Museum&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/stone-bottle_dithered.png&#34; alt=&#39;Źródło: Auckland War Memorial Museum&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Źródło: Auckland War Memorial Museum 
 &lt;/figcaption&gt;
@@ -889,7 +889,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png&#34; alt=&#39;Stosowanie metalowych i ceramicznych ogrzewaczy do rąk ma długą tradycję w Chinach i Japonii. Japończycy oferowali gościom mały, okrągły ceramiczny garnek z paliwem w środku, zwany &amp;amp;quot;te-aburi&amp;amp;quot;. Miedziane lub brązowe ogrzewacze do rąk w kształcie pudełka o średnicy kilku cali, często z perforacją i uchwytami do przenoszenia, nazywano w Chinach &amp;amp;quot;shou lu&amp;amp;quot;. Obraz w domenie publicznej. Więcej: https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2022/01/the-revenge-of-the-hot-water-bottle/images/dithers/te-aburi_dithered.png&#34; alt=&#39;Stosowanie metalowych i ceramicznych ogrzewaczy do rąk ma długą tradycję w Chinach i Japonii. Japończycy oferowali gościom mały, okrągły ceramiczny garnek z paliwem w środku, zwany &amp;amp;quot;te-aburi&amp;amp;quot;. Miedziane lub brązowe ogrzewacze do rąk w kształcie pudełka o średnicy kilku cali, często z perforacją i uchwytami do przenoszenia, nazywano w Chinach &amp;amp;quot;shou lu&amp;amp;quot;. Obraz w domenie publicznej. Więcej: https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Stosowanie metalowych i ceramicznych ogrzewaczy do rąk ma długą tradycję w Chinach i Japonii. Japończycy oferowali gościom mały, okrągły ceramiczny garnek z paliwem w środku, zwany \&#34;te-aburi\&#34;. Miedziane lub brązowe ogrzewacze do rąk w kształcie pudełka o średnicy kilku cali, często z perforacją i uchwytami do przenoszenia, nazywano w Chinach \&#34;shou lu\&#34;. Obraz w domenie publicznej. Więcej: [https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/](https://homethingspast.com/2011/11/26/hand-warmers-muff-warmer/). 
 &lt;/figcaption&gt;
@@ -926,15 +926,15 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
     
     <item>
       <title>Materace faszynowe: koszykarsko do kwadratu</title>
-      <link>https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/</link>
+      <link>https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/</link>
       
-      <enclosure url="https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png" type="image/png" length="70711" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png" type="image/png" length="70711" ></enclosure>
       <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materacy faszynowych w śluzach na rzecze Den. Źródło: Dienst Zuiderzeewerken CC BY 3.0 NL. Data wykonania zdjęcia nieznana.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materacy faszynowych w śluzach na rzecze Den. Źródło: Dienst Zuiderzeewerken CC BY 3.0 NL. Data wykonania zdjęcia nieznana.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zatapianie materacy faszynowych w śluzach na rzecze Den. Źródło: Dienst Zuiderzeewerken CC BY 3.0 NL. Data wykonania zdjęcia nieznana. 
 &lt;/figcaption&gt;
@@ -945,7 +945,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Inspiracji warto poszukać w Holandii. Morze zagrażało Niderlandom na długo przed zmianami klimatycznymi. Holendrzy zbudowali swoje państwo częściowo na dnie morza osuszonym przez wiatraki. Wydarty wodzie ląd otoczyli wałami. Wybrzeże Niderlandów to lekkie, drobnopiaszczyste gleby, słabo opierające się falom. Prądy morskie, fale i śruby statków wzburzają dno i mogą doprowadzić do podmywania i usuwania się wałów, nadbrzeży, grobli i przyczółków.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dijkval_in_Zeeland_bij_Kats_op_Noord-Beveland_Bestanddeelnr_918-9476_dithered.png&#34; alt=&#39;Zdjęcie: Osuwanie się podmytych wałów w Zelandii, w pobliżu Kats w Noord-Beveland. Domena publiczna.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dijkval_in_Zeeland_bij_Kats_op_Noord-Beveland_Bestanddeelnr_918-9476_dithered.png&#34; alt=&#39;Zdjęcie: Osuwanie się podmytych wałów w Zelandii, w pobliżu Kats w Noord-Beveland. Domena publiczna.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Osuwanie się podmytych wałów w Zelandii, w pobliżu Kats w Noord-Beveland. Domena publiczna. 
 &lt;/figcaption&gt;
@@ -956,7 +956,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Materace faszynowe wyplatano przeważnie w formie obszernych prostokątów: najczęściej miały wymiary pomiędzy 20-30 metrami szerokości i do 150 metrów długości (czasem więcej). Te struktury powstawały na lądzie, holowane były na miejsce przeznaczania i zatapiane na dnie przez obciążanie kamieniami i gruzem. Wszystkie prace wykonywano ręcznie. Pobliskie zagajniki odroślowe dostarczały surowca.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_Vervaardiging_van_zinkstukken_grootste_van_Nederland_in_Bestanddeelnr_908-1125_dithered.png&#34; alt=&#39;Zdjęcie: Wyrób materacy faszynowych, Haringvliet, 1956 rok. Domena publiczna.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_Vervaardiging_van_zinkstukken_grootste_van_Nederland_in_Bestanddeelnr_908-1125_dithered.png&#34; alt=&#39;Zdjęcie: Wyrób materacy faszynowych, Haringvliet, 1956 rok. Domena publiczna.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Wyrób materacy faszynowych, Haringvliet, 1956 rok. Domena publiczna. 
 &lt;/figcaption&gt;
@@ -967,7 +967,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Nie wiemy jak wiele faszynowych umocnień wciąż pełni swoje zadanie na dnie holenderskich wód, jednak wiemy, że są praktycznie wszędzie. Większość informacji które mamy pochodzi z okresu poprzedzającego drugą wojnę światową, kiedy to Holendrzy wykorzystywali tą technologią na szeroką skalę.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0757_dithered.png&#34; alt=&#39;Zdjęcie: Materac faszynowy w Biesbosch, rok 1968. Domena publiczna.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0757_dithered.png&#34; alt=&#39;Zdjęcie: Materac faszynowy w Biesbosch, rok 1968. Domena publiczna.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Materac faszynowy w Biesbosch, rok 1968. Domena publiczna. 
 &lt;/figcaption&gt;
@@ -980,7 +980,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Na wierzchu dolnej ramy kładziono 30-40 centymetrowe „wypełnienie”, czyli dwie warstwy witek, jedna nad drugą. Pomiędzy nimi wkładano warstwę trzciny, co powodowało, że materac nie przepuszczał piasku. Następnie budowano górną ramę (identyczną do dolnej ramy) i kładziono ją na „wypełnienie”. Potem całą konstrukcję przywiązywano do belek. Potrzeba było sześciu ludzi by zbudować 100 m2 maty faszynowej.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress-texel_dithered.png&#34; alt=&#39;Zdjęcie: Materac faszynowy. Autor Jan Muijs, Rijkswaterstaat, 1974. CC BY 30 NL.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress-texel_dithered.png&#34; alt=&#39;Zdjęcie: Materac faszynowy. Autor Jan Muijs, Rijkswaterstaat, 1974. CC BY 30 NL.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Materac faszynowy. Autor Jan Muijs, Rijkswaterstaat, 1974. CC BY 30 NL. 
 &lt;/figcaption&gt;
@@ -988,7 +988,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tekening-zinkstuk_dithered.png&#34; alt=&#39;Obraz: Rysunek klasycznego wiklinowego materacu faszynowego służącego do ochrony dna dróg wodnych. Źródło: Hollands Rijshout, Van Breen, rok 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tekening-zinkstuk_dithered.png&#34; alt=&#39;Obraz: Rysunek klasycznego wiklinowego materacu faszynowego służącego do ochrony dna dróg wodnych. Źródło: Hollands Rijshout, Van Breen, rok 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Rysunek klasycznego wiklinowego materacu faszynowego służącego do ochrony dna dróg wodnych. Źródło: Hollands Rijshout, Van Breen, rok 1920. 
 &lt;/figcaption&gt;
@@ -996,7 +996,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Rijshout_wordt_tot_zinkstukken_verwerkt_Bestanddeelnr_900-7402_dithered.png&#34; alt=&#39;Zdjęcie: Przygotowanie maty, rok 1945. Autor nieznany / Anefo, CCO, przez Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Rijshout_wordt_tot_zinkstukken_verwerkt_Bestanddeelnr_900-7402_dithered.png&#34; alt=&#39;Zdjęcie: Przygotowanie maty, rok 1945. Autor nieznany / Anefo, CCO, przez Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Przygotowanie maty, rok 1945. Autor nieznany / Anefo, CCO, przez Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -1004,7 +1004,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dichten_gat_Faustus_Hoek_van_Holland_Vlechten_zinkstukken_Bestanddeelnr_905-4127_dithered.png&#34; alt=&#39;Zdjęcie: Przygotowanie faszyn, rok 1952. Autor Harry Pot / Anefo. CCO, przez Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dichten_gat_Faustus_Hoek_van_Holland_Vlechten_zinkstukken_Bestanddeelnr_905-4127_dithered.png&#34; alt=&#39;Zdjęcie: Przygotowanie faszyn, rok 1952. Autor Harry Pot / Anefo. CCO, przez Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Przygotowanie faszyn, rok 1952. Autor Harry Pot / Anefo. CCO, przez Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -1012,7 +1012,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Film_transport_zinkstukken_Bestanddeelnr_934-5510_dithered.png&#34; alt=&#39;Zdjęcie: Transport faszyn, rok 1953. Autor Joop von Bilsen / Anefo. CCO, przez Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Film_transport_zinkstukken_Bestanddeelnr_934-5510_dithered.png&#34; alt=&#39;Zdjęcie: Transport faszyn, rok 1953. Autor Joop von Bilsen / Anefo. CCO, przez Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Transport faszyn, rok 1953. Autor Joop von Bilsen / Anefo. CCO, przez Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -1020,7 +1020,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress_dithered.png&#34; alt=&#39;Zdjęcie: Splatanie ze sobą faszyn, rok 1956. Autor Harry Pot / Anefo. CCO, przez Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress_dithered.png&#34; alt=&#39;Zdjęcie: Splatanie ze sobą faszyn, rok 1956. Autor Harry Pot / Anefo. CCO, przez Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Splatanie ze sobą faszyn, rok 1956. Autor Harry Pot / Anefo. CCO, przez Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -1030,7 +1030,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Następnym krokiem było wyplecenie przegród wewnętrznych i zewnętrznych ścianek pomiędzy słupkami wystającymi z miejsc skrzyżowania się faszyn. Te przegrody i ścianki dodatkowo wzmacniały całą konstrukcję i zapobiegały sturlaniu się balastu z materaca, co mogła się zdarzyć podczas zatapiania konstrukcji. Po zatopieniu przegrody zapobiegały przemieszczaniu przez ruchy wody drobnych kamyków. Co więcej, dzięki tym wzmocnieniom materac faszynowy mógł spełniać swoją rolę nawet ustawiony na mocno pochylonym brzegu, np. na grobli.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Aanleg_dijk_Zuidoostpolder_bij_Vossenveen_zinkstukken_Bestanddeelnr_904-1214_dithered.png&#34; alt=&#39;Zdjęcie: Zaplatanie ścian na materacu faszynowym, rok 1950. Autor van Oorschot&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Aanleg_dijk_Zuidoostpolder_bij_Vossenveen_zinkstukken_Bestanddeelnr_904-1214_dithered.png&#34; alt=&#39;Zdjęcie: Zaplatanie ścian na materacu faszynowym, rok 1950. Autor van Oorschot&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zaplatanie ścian na materacu faszynowym, rok 1950. Autor van Oorschot  
 &lt;/figcaption&gt;
@@ -1039,7 +1039,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Anefo, CC0, dzięki Wikimedia Commons.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/vlechttuinen_dithered.png&#34; alt=&#39;Obraz: Zaplatanie ścian. Źródło: Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, rok 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/vlechttuinen_dithered.png&#34; alt=&#39;Obraz: Zaplatanie ścian. Źródło: Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, rok 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Zaplatanie ścian. Źródło: [Zink- en aanverwante werken, benevens het hoe en de wijze waarop](https://repository.tudelft.nl/islandora/object/uuid%3A1ed44c19-ee2a-450d-bc3c-6e377cae54ef), B. Hakkeling, rok 1970. 
 &lt;/figcaption&gt;
@@ -1051,7 +1051,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Kluczowe było wybranie na prace odpowiedniej pory, ponieważ materace faszynowe mogły być zatapiane jedynie na spokojnym morzu przy słabym prądzie. Starano się jak najlepiej wykorzystać czas niskiej wody (kilka minut pomiędzy odpływem a przypływem, przyp. tłum.), nawet jeśli oznaczało to, że praca będzie odbywać się częściowo nocą.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_bouw_zinkstukken_in_haven_Hellevoetsluis_Bestanddeelnr_907-8999_dithered.png&#34; alt=&#39;Zdjęcie: Robotnicy montują materace do stawianych w Haringvliet (w pobliżu Hellovoetsluis) śluz, rok 1956. Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_bouw_zinkstukken_in_haven_Hellevoetsluis_Bestanddeelnr_907-8999_dithered.png&#34; alt=&#39;Zdjęcie: Robotnicy montują materace do stawianych w Haringvliet (w pobliżu Hellovoetsluis) śluz, rok 1956. Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Robotnicy montują materace do stawianych w Haringvliet (w pobliżu Hellovoetsluis) śluz, rok 1956. Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -1059,7 +1059,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0781_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materacy faszynowych, rok 1968. Holenderskie Archiwa Narodowe, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0781_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materacy faszynowych, rok 1968. Holenderskie Archiwa Narodowe, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zatapianie materacy faszynowych, rok 1968. Holenderskie Archiwa Narodowe, CC0. 
 &lt;/figcaption&gt;
@@ -1067,7 +1067,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0761_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materacy faszynowych, rok 1968. Holenderskie Archiwa Narodowe, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0761_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materacy faszynowych, rok 1968. Holenderskie Archiwa Narodowe, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zatapianie materacy faszynowych, rok 1968. Holenderskie Archiwa Narodowe, CC0. 
 &lt;/figcaption&gt;
@@ -1075,7 +1075,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Verstevigen_van_de_Vlissingse_boulevard_Bestanddeelnr_909-5645_dithered.png&#34; alt=&#39;Zdjęcie: Umacnianie bulwaru Vlissingen, rok 1958. Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Verstevigen_van_de_Vlissingse_boulevard_Bestanddeelnr_909-5645_dithered.png&#34; alt=&#39;Zdjęcie: Umacnianie bulwaru Vlissingen, rok 1958. Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Umacnianie bulwaru Vlissingen, rok 1958. Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -1083,7 +1083,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Watersnood_1953_De_dijk_bij_Ouwerkerk_op_Duiveland_is_nog_lang_niet_geheel_klaar_Bestanddeelnr_059-1128_dithered.png&#34; alt=&#39;Zdjęcie: Umacnianie grobli w pobliżu Ouwerker na Duiveland, rok 1953. Autor Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Watersnood_1953_De_dijk_bij_Ouwerkerk_op_Duiveland_is_nog_lang_niet_geheel_klaar_Bestanddeelnr_059-1128_dithered.png&#34; alt=&#39;Zdjęcie: Umacnianie grobli w pobliżu Ouwerker na Duiveland, rok 1953. Autor Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Umacnianie grobli w pobliżu Ouwerker na Duiveland, rok 1953. Autor Joop van Bilsen / Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -1091,7 +1091,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hetzinken_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materaca. Źródło: Zink- en aanverwante werken, benevens het hoe en de wijze waarop, Autor B. Hakkeling, rok 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hetzinken_dithered.png&#34; alt=&#39;Zdjęcie: Zatapianie materaca. Źródło: Zink- en aanverwante werken, benevens het hoe en de wijze waarop, Autor B. Hakkeling, rok 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zatapianie materaca. Źródło: [Zink- en aanverwante werken, benevens het hoe en de wijze waarop](https://repository.tudelft.nl/islandora/object/uuid%3A1ed44c19-ee2a-450d-bc3c-6e377cae54ef), Autor B. Hakkeling, rok 1970. 
 &lt;/figcaption&gt;
@@ -1099,7 +1099,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-gereed_dithered.png&#34; alt=&#39;Zdjęcie: Przygotowania do zatopienia materacu. Źródło: Holland’s rijshout, Autor L.G. van Breen, rok 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-gereed_dithered.png&#34; alt=&#39;Zdjęcie: Przygotowania do zatopienia materacu. Źródło: Holland’s rijshout, Autor L.G. van Breen, rok 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Przygotowania do zatopienia materacu. Źródło: [Holland’s rijshout](https://repository.tudelft.nl/islandora/object/uuid%3A72029c69-9567-4ad9-8883-ff428cf7d68b), Autor L.G. van Breen, rok 1920.  
 &lt;/figcaption&gt;
@@ -1107,7 +1107,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Verankeren_zinkstuk_Bestanddeelnr_905-8255_dithered.png&#34; alt=&#39;Zdjęcie: Cumowanie materaca daszynowego. Zwróc uwagę na drąg na pierwszym planie. Autor Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Verankeren_zinkstuk_Bestanddeelnr_905-8255_dithered.png&#34; alt=&#39;Zdjęcie: Cumowanie materaca daszynowego. Zwróc uwagę na drąg na pierwszym planie. Autor Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Cumowanie materaca daszynowego. Zwróc uwagę na drąg na pierwszym planie. Autor Joop van Bilsen / Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -1119,7 +1119,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;p&gt;Nie wszystkie materace były budowane na planie prostokąta. Aby wpasować je do istniejących urządzeń, dna rzeki, albo innych nieregularności, materace często przybierały formy trapezów lub nierównobocznych czworokątów. Jednak jeśli się dało, to unikano kształtów z wciętymi narożami.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hakkeling-figuur-27_dithered.png&#34; alt=&#39;Obraz: Źle położone materace faszynowe na dnie rzeki. Źródło: Zink- en aanverwante werken, benevens het hoe en de wijze waarop, Autor B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hakkeling-figuur-27_dithered.png&#34; alt=&#39;Obraz: Źle położone materace faszynowe na dnie rzeki. Źródło: Zink- en aanverwante werken, benevens het hoe en de wijze waarop, Autor B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Źle położone materace faszynowe na dnie rzeki. Źródło: [Zink- en aanverwante werken, benevens het hoe en de wijze waarop](https://repository.tudelft.nl/islandora/object/uuid%3A1ed44c19-ee2a-450d-bc3c-6e377cae54ef), Autor B. Hakkeling, 1970. 
 &lt;/figcaption&gt;
@@ -1127,20 +1127,20 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-hollands-rijshout_dithered.png&#34; alt=&#39;Obraz: Zestaw wielu materacy faszynowych. Źródło: Holland’s rijshout, Autor L.G. van Breen, 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-hollands-rijshout_dithered.png&#34; alt=&#39;Obraz: Zestaw wielu materacy faszynowych. Źródło: Holland’s rijshout, Autor L.G. van Breen, 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Zestaw wielu materacy faszynowych. Źródło: [Holland’s rijshout](https://repository.tudelft.nl/islandora/object/uuid%3A72029c69-9567-4ad9-8883-ff428cf7d68b), Autor L.G. van Breen, 1920. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;pływowe-zagajniki-odroślowe&#34;&gt;Pływowe zagajniki odroślowe&lt;/h2&gt;
-&lt;p&gt;Wyrabianie materacy zrobionych z faszyn było uzależnione od istnienia wielkoobszarowych zagajników odroślowych dostarczających surowca. Jak dowiedzieliśmy się ze wcześniejszego artykułu, &lt;a href=&#34;https://mar-ver.github.io/2020/09/how-to-make-biomass-energy-sustainable-again/&#34;&gt;nasi przodkowie pozyskiwali drewno raczej ogławiając drzewa niż je ścinając&lt;/a&gt;. Holenderskie zagajniki odroślowe – „grienden” – wyróżniają się spośród reszty ze względu na ich „mokre” gleby i okazyjne zalewanie przez wysokie poziomy wody i pływy. W przeciwieństwie do innych gatunków drzew wierzba znosi słoną wodę i (tymczasowe) zalewanie. Dzięki temu, zagajniki można było sadzić na gruntach nie nadających się pod uprawę.&lt;/p&gt;
+&lt;p&gt;Wyrabianie materacy zrobionych z faszyn było uzależnione od istnienia wielkoobszarowych zagajników odroślowych dostarczających surowca. Jak dowiedzieliśmy się ze wcześniejszego artykułu, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/09/how-to-make-biomass-energy-sustainable-again/&#34;&gt;nasi przodkowie pozyskiwali drewno raczej ogławiając drzewa niż je ścinając&lt;/a&gt;. Holenderskie zagajniki odroślowe – „grienden” – wyróżniają się spośród reszty ze względu na ich „mokre” gleby i okazyjne zalewanie przez wysokie poziomy wody i pływy. W przeciwieństwie do innych gatunków drzew wierzba znosi słoną wodę i (tymczasowe) zalewanie. Dzięki temu, zagajniki można było sadzić na gruntach nie nadających się pod uprawę.&lt;/p&gt;
 &lt;p&gt;W 1915 roku, około 14 tys. ha lasów w Holandii stanowiły nadrzeczne lub pływowe zagajniki - w porównaniu do 85 tys. ha „normalnych” plantacji i 155 tys. ha tradycyjnych lasów. Większość z nich leżała wzdłuż ujść rzek, za groblami, oraz w poprzecinanych rzekami regionach Południowej Holandii i Północnej Brabancji. Największy kompleks zagajników znajdował się w Biesbosch (dzisiaj to teren parku narodowego, przyp. tłum.) W zagajnikach hodowano ponad 200 odmian wierzby. Na wyjałowionych glebach holendrzy sadzili pomiędzy wierzbami olchy, których spadające liście nawoziły glebą, pomagając zagajnikom dłużej pozostać produktywnymi.&lt;/p&gt;
 &lt;p&gt;Zagajniki odroślowe nierzadzko otaczał wał nie dopuszczający wody do wdarcia się przy normalnych falach. Plantacje były wtedy zalewane tylko podczas zimowych sztormów. Zastawki zapewniały, że woda będzie spływać powoli, pozwalając osadzić się zawieszonym w niej osadom użyźniającym glebę. Zagajniki przecinały rowy odprowadzające stagnującą wodę szkodliwą dla drzew. Robotnicy korzystali z wąskich kanałów do transportu łodziami ściętych witek. Nadrzeczne zagajniki sadzono pomiędzy groblami, a poziom wód gruntowych – zależny od sąsiadujących rzek – określał warunki dla drzew.&lt;/p&gt;
 &lt;p&gt;Zbiór witek wymagał równie dużo pracy co wyplatanie faszyn. Pielęgnacja drzew odbywała się tylko ręcznie i koncentrowała się głównie w zimowych miesiącach. Pracownicy plantacji ścinali witki kiedy liście opadły i wiązali je we wiązki. Sadzili również nowe drzewa (wsadzając ucięte gałązki w ziemię), oczyszczali rowy i usuwali drewno. Większość robotników pracujących w zagajnikach brało dniówki w porach roku kiedy na roli było niewiele pracy. Kwaterowali się przeważnie w małych chatkach i łódkach na terenie plantacji. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Carnisse_grienden_1_dithered.png&#34; alt=&#39;Zdjęcie: Zagajnik wierzbowy posadzony za groblę w Oude Mass (Carnisse Grienden). Ceinturion, (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Carnisse_grienden_1_dithered.png&#34; alt=&#39;Zdjęcie: Zagajnik wierzbowy posadzony za groblę w Oude Mass (Carnisse Grienden). Ceinturion, (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zagajnik wierzbowy posadzony za groblę w Oude Mass (Carnisse Grienden). Ceinturion, (CC BY-SA 3.0). 
 &lt;/figcaption&gt;
@@ -1148,7 +1148,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/biesbosch-kaart-1908_dithered.png&#34; alt=&#39;Obraz: Biesbosch w 1908 roku. Źródło: Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Park Narodowy Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/biesbosch-kaart-1908_dithered.png&#34; alt=&#39;Obraz: Biesbosch w 1908 roku. Źródło: Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Park Narodowy Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Obraz: Biesbosch w 1908 roku. Źródło: [Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013](http://www.ecologischadviesbureaumaes.nl/429_I.pdf). Park Narodowy Biesbosch, 2014. 
 &lt;/figcaption&gt;
@@ -1156,7 +1156,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tidal-coppice-plantation_dithered.png&#34; alt=&#39;Zdjęcie: Zalewowe zagajniki odroślowe (Anna-Jacominaplaat) w 1950 roku. Źródło: Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Park Narodowy Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tidal-coppice-plantation_dithered.png&#34; alt=&#39;Zdjęcie: Zalewowe zagajniki odroślowe (Anna-Jacominaplaat) w 1950 roku. Źródło: Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Park Narodowy Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Zalewowe zagajniki odroślowe (Anna-Jacominaplaat) w 1950 roku. Źródło: [Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013](http://www.ecologischadviesbureaumaes.nl/429_I.pdf). Park Narodowy Biesbosch, 2014. 
 &lt;/figcaption&gt;
@@ -1164,7 +1164,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/sloot-in-griend_dithered.png&#34; alt=&#39;Zdjęcie: Rów przecinający plantacje wierzby (1930-1950). Źródło: Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Park Narodowy Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/sloot-in-griend_dithered.png&#34; alt=&#39;Zdjęcie: Rów przecinający plantacje wierzby (1930-1950). Źródło: Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Park Narodowy Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Rów przecinający plantacje wierzby (1930-1950). Źródło: [Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013](http://www.ecologischadviesbureaumaes.nl/429_I.pdf). Park Narodowy Biesbosch, 2014. 
 &lt;/figcaption&gt;
@@ -1172,7 +1172,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendkeetopterp_dithered.png&#34; alt=&#39;Zdjęcie: Chatka pracowników na wzniesieniu. Źródło: Archiwum Regionalne Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendkeetopterp_dithered.png&#34; alt=&#39;Zdjęcie: Chatka pracowników na wzniesieniu. Źródło: Archiwum Regionalne Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Chatka pracowników na wzniesieniu. Źródło: Archiwum Regionalne Dordrecht. (CC-BY-SA 4.0). 
 &lt;/figcaption&gt;
@@ -1180,7 +1180,7 @@ Chociaż gorąca woda z kranu jest najbezpieczniejszym źródłem dla termofora,
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendboot_dithered.png&#34; alt=&#39;Zdjęcie: Łódź mieszkalna w zagajniku odroślowym. Źródło: Archiwum Regionalne Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pl/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendboot_dithered.png&#34; alt=&#39;Zdjęcie: Łódź mieszkalna w zagajniku odroślowym. Źródło: Archiwum Regionalne Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Zdjęcie: Łódź mieszkalna w zagajniku odroślowym. Źródło: Archiwum Regionalne Dordrecht. (CC-BY-SA 4.0). 
 &lt;/figcaption&gt;

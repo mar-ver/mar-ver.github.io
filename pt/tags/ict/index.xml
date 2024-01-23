@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Português</title>
-    <link>https://mar-ver.github.io/pt/tags/ict/</link>
+    <link>https://lowtechmag.gitlab.io/solar/pt/tags/ict/</link>
     <description>Este site é movido a energia solar, o que significa que, às vezes, ele fica fora do ar.</description>
     <generator>Hugo 0.115.3</generator>
     <language>pt</language>
-    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/pt/tags/ict/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/pt/tags/ict/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como construir um site low-tech?</title>
-      <link>https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/</link>
+      <link>https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/</link>
       
-      <enclosure url="https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png" type="image/png" length="41207" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png" type="image/png" length="41207" ></enclosure>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png&#34; alt=&#39;O primeiro protótipo do servidor a energia solar que corre o novo site. O controlador de carga solar (à direita) está a alimentar o servidor (à esquerda) através de um cabo USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_close_dithered.png&#34; alt=&#39;O primeiro protótipo do servidor a energia solar que corre o novo site. O controlador de carga solar (à direita) está a alimentar o servidor (à esquerda) através de um cabo USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  O primeiro protótipo do servidor a energia solar que corre o novo *site*.  O controlador de carga solar (à direita) está a alimentar o servidor (à esquerda) através de um cabo USB. 
 &lt;/figcaption&gt;
@@ -25,13 +25,13 @@
 &lt;/div&gt;
 &lt;p&gt;A revista Low-tech Magazine nasceu em 2007 e, desde então, tem sofrido muito poucas mudanças. Como uma reformulação do &lt;em&gt;website&lt;/em&gt; já devia ter sido feita há muito tempo — e porque tentamos praticar o que dizemos — decidimos construir uma versão de baixa tecnologia, auto-hospedada, e a energia solar da Low-tech Magazine. O nosso novo blogue foi concebido para reduzir radicalmente o uso de energia associado à consulta do nosso conteúdo.&lt;/p&gt;
 &lt;h2 id=&#34;porquê-um-site-low-tech&#34;&gt;Porquê um &lt;em&gt;site&lt;/em&gt; &lt;em&gt;low-tech&lt;/em&gt;?&lt;/h2&gt;
-&lt;p&gt;Foi-nos dito que a Internet iria &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;&amp;ldquo;desmaterializar&amp;rdquo; a sociedade e diminuir o uso de energia&lt;/a&gt;. Contrariamente a esta previsão, acabou por tornou-se um &lt;a href=&#34;https://mar-ver.github.io/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;grande consumidor de energia em rápido crescimento&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Foi-nos dito que a Internet iria &lt;a href=&#34;https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx&#34;&gt;&amp;ldquo;desmaterializar&amp;rdquo; a sociedade e diminuir o uso de energia&lt;/a&gt;. Contrariamente a esta previsão, acabou por tornou-se um &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;grande consumidor de energia em rápido crescimento&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;De forma a contrabalançar as consequências negativas associadas ao elevado consumo de energia, foi proposto o uso de energia renovável como meio de reduzir as emissões dos centros de processamento de dados. Por exemplo, o &lt;a href=&#34;http://www.greenpeace.org/usa/global-warming/click-clean/&#34;&gt;relatório anual ClickClean&lt;/a&gt; da Greenpeace classifica as principais empresas da &lt;em&gt;internet&lt;/em&gt; com base na sua utilização de fontes de energia renováveis.&lt;/p&gt;
 &lt;p&gt;No entanto, alimentar centros de processamento de dados com fontes de energia renovável não é suficiente para fazer face ao crescente uso de energia da Internet. Para começar, a Internet já utiliza três vezes mais energia do que todas as fontes de energia eólica e solar do mundo são capazes de fornecer.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Alimentar centros de processamento de dados com fontes de energia renovável não é suficiente para fazer face ao crescente uso de energia da Internet.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Por último, a energia solar e eólica nem sempre estão disponíveis, o que significa que se a Internet funcionar com fontes de energia renováveis será necessária uma infraestrutura de armazenamento e/ou transmissão de energia que também é &lt;a href=&#34;https://mar-ver.github.io/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependente de combustíveis fósseis para o seu fabrico e substituição&lt;/a&gt;. Alimentar &lt;em&gt;sites&lt;/em&gt; com energia renovável não é uma má ideia, no entanto, a tendência para o aumento da utilização de energia também deve ser abordada.&lt;/p&gt;
+&lt;p&gt;Por último, a energia solar e eólica nem sempre estão disponíveis, o que significa que se a Internet funcionar com fontes de energia renováveis será necessária uma infraestrutura de armazenamento e/ou transmissão de energia que também é &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;dependente de combustíveis fósseis para o seu fabrico e substituição&lt;/a&gt;. Alimentar &lt;em&gt;sites&lt;/em&gt; com energia renovável não é uma má ideia, no entanto, a tendência para o aumento da utilização de energia também deve ser abordada.&lt;/p&gt;
 &lt;p&gt;Para começar, o conteúdo está a tornar-se cada vez mais exigente em termos de recursos. Isto tem muito a ver com a crescente importância de vídeos, mas uma tendência semelhante pode ser observada entre &lt;em&gt;sites&lt;/em&gt;. O &lt;a href=&#34;https://httparchive.org/reports/page-weight&#34;&gt;tamanho médio de uma página web&lt;/a&gt; (definido como o tamanho médio de página dos 500.000 domínios mais populares) aumentou de 0,45 megabytes (MB) em 2010 para 1,7 MB em junho de 2018. Para &lt;em&gt;sites&lt;/em&gt; móveis, o &amp;ldquo;peso médio das páginas&amp;rdquo; aumentou dez vezes de 0,15 MB em 2011 para 1,6 MB em 2018. Utilizando diferentes métodos de medição, outras fontes informam tamanhos médios de página de até 2,9 MB em 2018.&lt;/p&gt;
 &lt;p&gt;O crescimento do tráfego de dados &lt;a href=&#34;https://www.researchgate.net/publication/224224694/download&#34;&gt;tem superado os avanços na eficiência energética&lt;/a&gt; (a energia necessária para transferir 1 MB de dados pela &lt;em&gt;internet&lt;/em&gt;), resultando numa utilização cada vez maior de energia. Os &lt;em&gt;sites&lt;/em&gt; &amp;ldquo;mais pesados&amp;rdquo; ou &amp;ldquo;maiores&amp;rdquo; não só aumentam a utilização de energia na infraestrutura da rede, como também encurtam a vida útil dos computadores — para aceder a &lt;em&gt;websites&lt;/em&gt; maiores os computadores têm que ser mais potentes. Isto significa que é necessário fabricar mais computadores, o que é um [processo que requer muita energia]({nome do ficheiro}/pós/the-monster-footprint-of-digital-technology.md).&lt;/p&gt;
 &lt;blockquote&gt;
@@ -48,14 +48,14 @@
 &lt;p&gt;Para começar, o novo &lt;em&gt;design&lt;/em&gt; do &lt;em&gt;website&lt;/em&gt; inverte a tendência para páginas cada vez maiores. Com 36 dos cerca de 100 artigos agora &lt;em&gt;online&lt;/em&gt;, o peso médio das páginas no &lt;em&gt;website&lt;/em&gt; a energia solar é de 0,77 MB — cerca de cinco vezes inferior ao do &lt;em&gt;design&lt;/em&gt; anterior, e menos de metade do tamanho médio das 500 mil páginas dos blogues mais populares em junho de 2018.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/9801a71c-bdae-4732-9ad7-b45d26897a32_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png&#34; alt=&#39;Um teste de velocidade da antiga e da nova Low-tech Magazine. O tamanho da página diminuiu mais de seis vezes, o número de pedidos cinco vezes, e a velocidade de download aumentou dez vezes. Note-se que não concebemos a página web para velocidade, mas para baixo consumo de energia. Seria ainda mais rápido se o servidor fosse colocado num centro de dados e/ou numa localização mais central na infraestrutura da Internet. Fonte: Pingdom.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/0103010d-26e1-48e6-a7c1-21d0dd355b1a_dithered.png&#34; alt=&#39;Um teste de velocidade da antiga e da nova Low-tech Magazine. O tamanho da página diminuiu mais de seis vezes, o número de pedidos cinco vezes, e a velocidade de download aumentou dez vezes. Note-se que não concebemos a página web para velocidade, mas para baixo consumo de energia. Seria ainda mais rápido se o servidor fosse colocado num centro de dados e/ou numa localização mais central na infraestrutura da Internet. Fonte: Pingdom.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Um teste de velocidade da antiga e da nova Low-tech Magazine. O tamanho da página diminuiu mais de seis vezes, o número de pedidos cinco vezes, e a velocidade de *download* aumentou dez vezes. Note-se que não concebemos a página *web* para velocidade, mas para baixo consumo de energia. Seria ainda mais rápido se o servidor fosse colocado num centro de dados e/ou numa localização mais central na infraestrutura da Internet. Fonte: Pingdom. 
 &lt;/figcaption&gt;
@@ -74,7 +74,7 @@
 &lt;p&gt;Em vez disso, escolhemos aplicar uma técnica de compressão de imagem obsoleta chamada &lt;em&gt;dithering&lt;/em&gt;. O número de cores numa imagem, combinado com o seu formato de ficheiro e resolução, contribui para o tamanho de uma imagem. Assim, em vez de utilizarmos imagens a cores de alta resolução, escolhemos converter todas as imagens para preto e branco, com quatro níveis intermédios de cinzento.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png&#34; alt=&#39;Uma imagem com dither do nosso servidor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/600px-A20-OLinuXino-LIME2_dithered.png&#34; alt=&#39;Uma imagem com dither do nosso servidor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Uma imagem com *dither* do nosso servidor. 
 &lt;/figcaption&gt;
@@ -98,7 +98,7 @@
 &lt;p&gt;Isto significa que ou têm um enorme sistema de armazenamento de energia local (o que torna o seu sistema energético insustentável), ou que dependem da rede elétrica quando há falta de energia solar (o que significa que não funcionam realmente a 100% de energia solar).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_panel_dithered.png&#34; alt=&#39;O painel solar fotovoltaico de 50W. Em cima dele está um painel de 10W que alimenta um sistema de iluminação.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_panel_dithered.png&#34; alt=&#39;O painel solar fotovoltaico de 50W. Em cima dele está um painel de 10W que alimenta um sistema de iluminação.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  O painel solar fotovoltaico de 50W. Em cima dele está um painel de 10W que alimenta um sistema de iluminação. 
 &lt;/figcaption&gt;
@@ -114,7 +114,7 @@
 &lt;p&gt;Consequentemente, o servidor a energia solar permanecerá &lt;em&gt;on-line&lt;/em&gt; durante um ou dois dias de mau tempo, mas não por mais tempo. Contudo, estas são estimativas, e podemos acrescentar uma segunda bateria de 7 Ah no outono, se for necessário. O nosso objetivo é um &amp;ldquo;tempo de funcionamento&amp;rdquo; de 90%, o que significa que o &lt;em&gt;website&lt;/em&gt; ficará fora de funcionamento durante uma média de 35 dias por ano.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_bats_dithered.png&#34; alt=&#39;Primeiro protótipo com bateria chumbo-ácido (12V 7Ah) à esquerda, e bateria UPS Li-Po (3,7V 6600mA) à direita. A bateria chumbo-ácido fornece a maior parte do armazenamento de energia, enquanto a bateria Li-Po permite que o servidor se desligue sem danificar o hardware (será substituída por uma bateria Li-Po muito mais pequena).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/pt/2018/09/how-to-build-a-low-tech-website/images/dithers/sps_bats_dithered.png&#34; alt=&#39;Primeiro protótipo com bateria chumbo-ácido (12V 7Ah) à esquerda, e bateria UPS Li-Po (3,7V 6600mA) à direita. A bateria chumbo-ácido fornece a maior parte do armazenamento de energia, enquanto a bateria Li-Po permite que o servidor se desligue sem danificar o hardware (será substituída por uma bateria Li-Po muito mais pequena).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Primeiro protótipo com bateria chumbo-ácido (12V 7Ah) à esquerda, e bateria UPS Li-Po (3,7V 6600mA) à direita. A bateria chumbo-ácido fornece a maior parte do armazenamento de energia, enquanto a bateria Li-Po permite que o servidor se desligue sem danificar o *hardware* (será substituída por uma bateria Li-Po muito mais pequena). 
 &lt;/figcaption&gt;
@@ -142,7 +142,7 @@
 &lt;p&gt;Sim, podes.&lt;/p&gt;
 &lt;p&gt;Por um lado, estamos à procura de ideias e feedback para melhorar ainda mais o &lt;em&gt;website&lt;/em&gt; e reduzir o seu consumo de energia. Vamos documentar extensivamente o projecto para que outros também possam construir &lt;em&gt;websites&lt;/em&gt; de baixa tecnologia. Para fazer um comentário, por favor envia um &lt;em&gt;email&lt;/em&gt; para solar (arroba) lowtechmagazine (ponto) com.&lt;/p&gt;
 &lt;p&gt;Por outro lado, esperamos que as pessoas apoiem este projecto com uma contribuição financeira. Os serviços de publicidade, que têm mantido a Low-tech Magazine desde o seu início em 2007, não são compatíveis com o nosso &lt;em&gt;web design&lt;/em&gt; mais simples. Por isso, estamos à procura de outras formas de financiar o &lt;em&gt;website&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;Temos disponíveis &lt;a href=&#34;https://mar-ver.github.io/2019/03/low-tech-magazine-the-printed-website/&#34;&gt;cópias impressas a pedido do blogue&lt;/a&gt;. Estas publicações permitem-lhe ler a Low-tech Magazine em papel, na praia, ao sol, ou quando e onde quiseres.&lt;/p&gt;
+&lt;p&gt;Temos disponíveis &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/03/low-tech-magazine-the-printed-website/&#34;&gt;cópias impressas a pedido do blogue&lt;/a&gt;. Estas publicações permitem-lhe ler a Low-tech Magazine em papel, na praia, ao sol, ou quando e onde quiseres.&lt;/p&gt;
 &lt;p&gt;Podes apoiar-nos através de &lt;a href=&#34;https://www.paypal.me/lowtechmagazine&#34;&gt;PayPal&lt;/a&gt;, &lt;a href=&#34;https://www.patreon.com/lowtechmagazine&#34;&gt;Patreon&lt;/a&gt; e &lt;a href=&#34;https://liberapay.com/lowtechmagazine/&#34;&gt;LiberaPay&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;O servidor alimentado a energia solar foi construído pelo &lt;a href=&#34;http://www.krisdedecker.org&#34;&gt;Kris De Decker&lt;/a&gt;, &lt;a href=&#34;https://roelof.info&#34;&gt;Roel Roscam Abbing&lt;/a&gt;, e &lt;a href=&#34;http://motsuka.com&#34;&gt;Marie Otsuka&lt;/a&gt;. O &lt;em&gt;website&lt;/em&gt; impresso é feito pela &lt;a href=&#34;http://squishysystems.com&#34;&gt;Lauren Campbell&lt;/a&gt;.&lt;/p&gt;
 </description>

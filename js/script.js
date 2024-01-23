@@ -161,25 +161,26 @@ dither_icons.forEach(icon => {
 var mytags= document.querySelectorAll(".choosetag")
 var articleselected = document.querySelectorAll("[data-tags]")
 const filltag = document.getElementById("filltag");
+//console.log(articleselected.length)
 for (let index = 0; index < mytags.length; index++) {
     mytags[index].addEventListener('click', function() {
        
         this.classList.add("tagon");
         if (this.classList.contains("tagon")) {
            
-            var tagname = mytags[index].getAttribute('title')
-            filltag.innerText= " "+tagname  
-            //console.log(tagname, "is on")
+            var tagtitle = mytags[index].getAttribute('title')
+            var tagname = mytags[index].getAttribute('data-search')
+            filltag.innerText= ":  "+tagtitle;
+            console.log(tagname, "is")
           
-            //console.log(articleselected)
             for (let i = 0; i < articleselected.length; i++) {
-                articleselected[i].classList.remove("activeselect")
+                articleselected[i].classList.add("art-line");
+                articleselected[i].classList.remove("activeselect");
                 var datatag = articleselected[i].getAttribute('data-tags')
-                //console.log(datatag)
+               
                 if (datatag.includes(tagname)){
-                  
+                    
                     articleselected[i].classList.add("activeselect")
-                    //console.log( articleselected[i])
                 } 
                 else{
                     articleselected[i].classList.remove("activeselect")
@@ -197,10 +198,12 @@ for (let index = 0; index < mytags.length; index++) {
 filltag.addEventListener('click', function() {
    
     for (let i = 0; i < articleselected.length; i++) {
+        articleselected[i].classList.remove("art-line");
         articleselected[i].classList.remove("activeselect")
     }
     for (let index = 0; index < mytags.length; index++) {
         mytags[index].classList.remove("tagon");
     }
     filltag.innerText= ""
+   
     });

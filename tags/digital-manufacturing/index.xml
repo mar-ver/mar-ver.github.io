@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://mar-ver.github.io/tags/digital-manufacturing/</link>
-    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <link>https://lowtechmag.gitlab.io/solar/tags/digital-manufacturing/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/tags/digital-manufacturing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/digital-manufacturing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Sustainable is Digital Fabrication?</title>
-      <link>https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/</link>
+      <link>https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/</link>
       
-      <enclosure url="https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Fiber-mak-tower-intro_dithered.png" type="image/png" length="15083" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Fiber-mak-tower-intro_dithered.png" type="image/png" length="15083" ></enclosure>
       <pubDate>Tue, 25 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Fiber-mak-tower-intro_dithered.png&#34; alt=&#39;Image: A state-of-the-art fibre laser cutting machine, combined with an unmanned loading/unloading system for metal sheets. Ermaksan&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Fiber-mak-tower-intro_dithered.png&#34; alt=&#39;Image: A state-of-the-art fibre laser cutting machine, combined with an unmanned loading/unloading system for metal sheets. Ermaksan&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A state-of-the-art fibre laser cutting machine, combined with an unmanned loading/unloading system for metal sheets. [Ermaksan](http://www.ermaksan.com.tr/en-EN/Product/Laser-Technology/TOWER) 
 &lt;/figcaption&gt;
@@ -36,7 +36,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;Machine tools can process different materials, but today most of them are used for the shaping of metal parts. Milling machines have become the most common metal shaping tools in the mechanical manufacturing industry. Milling is a process of cutting away material by feeding a workpiece past a rotating cutting tool. A milling machine operates like a human sculptor. It can have grinding, cutting and polishing heads.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Freesmachine-aan-het-werk_dithered.png&#34; alt=&#39;Image: A milling machine at work. Most milling machines have three axes, with a table that moves along the x-axis which sits on a saddle that moves along the y-axis. The spindle that holds the cutting tool is housed on a milling head on the z-axis. Picture: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Freesmachine-aan-het-werk_dithered.png&#34; alt=&#39;Image: A milling machine at work. Most milling machines have three axes, with a table that moves along the x-axis which sits on a saddle that moves along the y-axis. The spindle that holds the cutting tool is housed on a milling head on the z-axis. Picture: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A milling machine at work. Most milling machines have three axes, with a table that moves along the x-axis which sits on a saddle that moves along the y-axis. The spindle that holds the cutting tool is housed on a milling head on the z-axis. Picture: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -47,7 +47,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;Modern definitions of machine tools exclude any machine that is powered by humans. However, the predecessors of most machine tools were hand- or foot-powered. Woodworking hand tools with the same kinematic motions as modern machines, such as the cord lathe and the bow drill, were developed in ancient times. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Medieval-lathe-reproduction_dithered.png&#34; alt=&#39;Reproduction of a foot-powered medieval lathe. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Medieval-lathe-reproduction_dithered.png&#34; alt=&#39;Reproduction of a foot-powered medieval lathe. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Reproduction of a foot-powered medieval lathe. [Source](http://arovingiwillgo.wordpress.com/2012/07/17/abbey-medieval-festival-2012-part-4/). 
 &lt;/figcaption&gt;
@@ -60,7 +60,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;Machine tools were also driven by animals, wind or water power. The Romans already had water-powered sawmills for cutting marble, but most automatic machines only appeared in the middle ages. The Europeans used sawmills, boring mills, turning mills, grinding and sharpening mills, polishing mills, and metal slitting and rolling mills that were powered by water, wind or animals. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Water-powered-mill_dithered.png&#34; alt=&#39;Image: A Swedish water-powered metal cutting mill from the 18th century. Metal cutting mills had pairs of revolving cylinders through which metal was passed either to form sheets (rolling) or to be cut into strips or rods (slitting).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Water-powered-mill_dithered.png&#34; alt=&#39;Image: A Swedish water-powered metal cutting mill from the 18th century. Metal cutting mills had pairs of revolving cylinders through which metal was passed either to form sheets (rolling) or to be cut into strips or rods (slitting).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A Swedish water-powered metal cutting mill from the 18th century. Metal cutting mills had pairs of revolving cylinders through which metal was passed either to form sheets (rolling) or to be cut into strips or rods (slitting). 
 &lt;/figcaption&gt;
@@ -68,7 +68,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Glass-polishing-machine_dithered.png&#34; alt=&#39;A water-powered glass polishing machine. Source: Encyclopedie Diderot.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Glass-polishing-machine_dithered.png&#34; alt=&#39;A water-powered glass polishing machine. Source: Encyclopedie Diderot.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A water-powered glass polishing machine. Source: [Encyclopedie Diderot](http://portail.atilf.fr/cgi-bin/getobject_?p.139:227./var/artfla/encyclopedie/textdata/image/). 
 &lt;/figcaption&gt;
@@ -80,7 +80,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;For example, in a milling machine, motors only ran the drill and mechanized the x-axis bench movement. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; All other movements were initiated and controlled by the operator, one at a time, often by use of hand wheels. &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manual-milling-machine_dithered.png&#34; alt=&#39;Image: A manually-operated milling machine, 1920&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manual-milling-machine_dithered.png&#34; alt=&#39;Image: A manually-operated milling machine, 1920&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A manually-operated milling machine, 1920 
 &lt;/figcaption&gt;
@@ -95,7 +95,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;Most machine tools built after 1985 are CNC machines, but considering the long life expectancy of machine tools means the switch to CNC machines is still on-going. &lt;sup id=&#34;fnref2:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; For instance, in 1995, only 350,000 of the 3.5 million metal-working machine tools in Europe were CNC machines. In 2009, this number had increased to 750,000. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; At the same time, the unit value of CNC machine tools raised significantly from 1995 to 2009, indicating that the machines have become more complex. &lt;sup id=&#34;fnref1:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/CNC-milling-machine_dithered.png&#34; alt=&#39;Image: A computer numerically controlled (CNC) milling machine. Picture: King Joy H.K.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/CNC-milling-machine_dithered.png&#34; alt=&#39;Image: A computer numerically controlled (CNC) milling machine. Picture: King Joy H.K.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A computer numerically controlled (CNC) milling machine. Picture: [King Joy H.K.](http://www.kingjoy-hk.com/shebei.asp?list=2) 
 &lt;/figcaption&gt;
@@ -111,7 +111,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;A comparison of the maximum power requirements by three CNC milling machines (from 1988, 1998 and 2000) and one hand-operated milling machine (from 1985), all cutting a similar workpiece, revealed that the digital machines require 2.5 to 67 [^sic] times more power than the manual machine. At full operation, the hand-operated machine tool used 2.8 kW, while the digital machines used 7 kW for the 1998 machine, 9.4 kW for the 1988 machine, and 188 kW for the 2000 machine. &lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;[ ^9]&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Room-sized-cnc-milling-machine_dithered.png&#34; alt=&#39;Image: Room-sized CNC machining centre. Breton&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Room-sized-cnc-milling-machine_dithered.png&#34; alt=&#39;Image: Room-sized CNC machining centre. Breton&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Room-sized CNC machining centre. [Breton](http://www.directindustry.com/prod/breton/5-axes-cnc-vertical-machining-centers-large-parts-14598-438329.html#product-item_437395) 
 &lt;/figcaption&gt;
@@ -123,7 +123,7 @@ important to consider the very high energy use of digital machine tools. Compare
 &lt;p&gt;The power use of a machine tool is distributed among various activities. Constant start-up operations refer to the load-independent power use of the machine tool. This power is required whenever the machine is turned on, independent of whether or not a part is produced. Run-time operations include the power required for positioning the workpiece and loading the tools. Material removal operations refer to the actual power involved in cutting. &lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/energy-analysis-of-four-milling-machines_dithered.png&#34; alt=&#39;Image: Energy analysis of four milling machines. Source: [^13]. Click to enlarge.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/energy-analysis-of-four-milling-machines_dithered.png&#34; alt=&#39;Image: Energy analysis of four milling machines. Source: [^13]. Click to enlarge.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Energy analysis of four milling machines. Source: [^13]. Click to enlarge. 
 &lt;/figcaption&gt;
@@ -142,7 +142,7 @@ Because energy consumption equals power consumption multiplied by time, in the e
 Higher production rates require stiff mechanical systems with the capability to absorb arising inertia forces. As a consequence, the masses of the machine structure, such as moving machine components, have to be increased. This, in turn, require motors with high torque output which are able to increase the forces needed during acceleration and deceleration. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/5-axle-vertical-spindle-mobile-gantry-milling-machine_dithered.png&#34; alt=&#39;Image: Building-sized CNC milling machine. Pietro Carnaghi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/5-axle-vertical-spindle-mobile-gantry-milling-machine_dithered.png&#34; alt=&#39;Image: Building-sized CNC milling machine. Pietro Carnaghi.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Building-sized CNC milling machine. [Pietro Carnaghi](http://www.directindustry.com/prod/pietro-carnaghi/5-axes-vertical-spindle-mobile-gantry-milling-machines-20660-47858.html). 
 &lt;/figcaption&gt;
@@ -157,7 +157,7 @@ Higher production rates require stiff mechanical systems with the capability to 
 hours per day and are idling less than 10% of their total life time. &lt;sup id=&#34;fnref9:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/80-kW-machining-centre_dithered.png&#34; alt=&#39;Image: 80 kW CNC machining centre. SHW Werkzeugmaschinen.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/80-kW-machining-centre_dithered.png&#34; alt=&#39;Image: 80 kW CNC machining centre. SHW Werkzeugmaschinen.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: 80 kW CNC machining centre. [SHW Werkzeugmaschinen](http://www.shw-wm.de/web/en/index.php). 
 &lt;/figcaption&gt;
@@ -177,7 +177,7 @@ hours per day and are idling less than 10% of their total life time. &lt;sup id=
 &lt;sup id=&#34;fnref1:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Large-machining-centre_dithered.png&#34; alt=&#39;Image: Large CNC machining centre. Bost Machine Tools Company.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Large-machining-centre_dithered.png&#34; alt=&#39;Image: Large CNC machining centre. Bost Machine Tools Company.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Large CNC machining centre. [Bost Machine Tools Company](http://www.bost.es/es/#__products). 
 &lt;/figcaption&gt;
@@ -193,7 +193,7 @@ hours per day and are idling less than 10% of their total life time. &lt;sup id=
 &lt;p&gt;Lowering the specific energy consumption of CNC milling machines by increasing the production rate thus leads to an important increase in total energy use. This effect would not exist if one CNC machine replaced four manually operated milling machines and total production would remain at the same level. But that&amp;rsquo;s not the case. CNC machine tools are used precisely because they can produce higher quantity of components in a shorter time and at lower costs. &lt;sup id=&#34;fnref10:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Large-CNC-Lathe_dithered.png&#34; alt=&#39;Image: Large CNC turning centre. Bost Machine Tools Company.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Large-CNC-Lathe_dithered.png&#34; alt=&#39;Image: Large CNC turning centre. Bost Machine Tools Company.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Large CNC turning centre. [Bost Machine Tools Company](http://www.bost.es/es/#__products). 
 &lt;/figcaption&gt;
@@ -206,7 +206,7 @@ hours per day and are idling less than 10% of their total life time. &lt;sup id=
 electrodischarge or spark erosion machining (an alternative to milling), laser beam machining, plasma arc machining, and electron beam machining (all alternatives to cutting). Other non-conventional machine tools rely on mechanical processes that don&amp;rsquo;t use shearing as their primary source of energy, such as ultrasonic machining (an alternative to milling) and waterjet machining (an alternative to cutting). For example, waterjet machining uses mechanical energy, but material is removed by erosion. &lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; Yet other non-conventional machine tools are based on chemical or electro-chemical processes. &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Waterjet-cutter_dithered.png&#34; alt=&#39;Image: A water jet cuttter. Maximator Jet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Waterjet-cutter_dithered.png&#34; alt=&#39;Image: A water jet cuttter. Maximator Jet.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A water jet cuttter. [Maximator Jet](http://www.directindustry.com/prod/maximator-jet-waterjet-cutting-systems/water-jet-cutting-machines-36351-348018.html). 
 &lt;/figcaption&gt;
@@ -222,7 +222,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;p&gt;Unfortunately, laser cutters have one big disadvantage: they need a lot of power. Being CNC machines, they require substantial power for computer control and auxiliary functions. Apart from that, they also make use of a more energy-instensive cutting &amp;ldquo;tool&amp;rdquo; than the machines they replace. A laser cutter works by melting or evaporating material, which is energy-intensive compared to shearing or punching.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Laser-cutter_dithered.png&#34; alt=&#39;Image: Laser cutting machine. Bystronic&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Laser-cutter_dithered.png&#34; alt=&#39;Image: Laser cutting machine. Bystronic&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Laser cutting machine. [Bystronic](http://www.directindustry.com/prod/bystronic-laser/automatic-laser-cutting-machines-15383-974575.html) 
 &lt;/figcaption&gt;
@@ -235,7 +235,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;p&gt;When used for cutting sheet metal, laser cutters are most often used for making complex shapes instead of straight cuts. This makes them an alternative to punching machines, rather than to shearing or guillotining machines. Just like a laser cutter, a punching machine can cut free forms in 2D sheet metal through the process of nibbling, but compared to laser cutters they have lower resolution and produce parts with a rougher finish.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/CNC-Turret-punching-machine_dithered.png&#34; alt=&#39;Image: A CNC turret punching machine is nibbling sheet metal. Euromac&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/CNC-Turret-punching-machine_dithered.png&#34; alt=&#39;Image: A CNC turret punching machine is nibbling sheet metal. Euromac&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A CNC turret punching machine is nibbling sheet metal. [Euromac](http://www.directindustry.com/prod/euromac/cnc-turret-punching-machines-16272-419873.html) 
 &lt;/figcaption&gt;
@@ -249,7 +249,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;/blockquote&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manually-operated-punching-machine_dithered.png&#34; alt=&#39;Manually operated punching machine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manually-operated-punching-machine_dithered.png&#34; alt=&#39;Manually operated punching machine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Manually operated punching machine. 
 &lt;/figcaption&gt;
@@ -257,7 +257,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manually-operated-slotting_dithered.png&#34; alt=&#39;Electrically powered, hand-controlled punching machine. From a 1980s Trumpf catalogue.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manually-operated-slotting_dithered.png&#34; alt=&#39;Electrically powered, hand-controlled punching machine. From a 1980s Trumpf catalogue.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Electrically powered, hand-controlled punching machine. [From a 1980s Trumpf catalogue](http://www.sterlingmachinery.com/db-files/trumpf%20curve%20cutting%20out%20and%20nibbling%20shears%20copy%20and%20coordinate%20nibbling%20machines%20brochure.pdf). 
 &lt;/figcaption&gt;
@@ -268,7 +268,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;p&gt;Nevertheless, from the scattered data I could gather, it seems unlikely that laser cutters are fast enough to compensate for their higher power requirements for most metal cutting jobs. CNC shearing machines are faster than laser cutters for cutting straight lines, and CNC punching machines are faster than laser cutters for many common metal-cutting jobs. The unique selling point of the laser cutter lies less in speed and more in accuracy, product quality, and flexibility.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Combined-punching-and-laser-cutting-machine_dithered.png&#34; alt=&#39;Combined punching (left) and laser (right) cutting machine. Source: Danobat Group&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Combined-punching-and-laser-cutting-machine_dithered.png&#34; alt=&#39;Combined punching (left) and laser (right) cutting machine. Source: Danobat Group&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Combined punching (left) and laser (right) cutting machine. Source: [Danobat Group](http://www.directindustry.com/prod/danobatgroup/combined-punching-laser-cutting-machines-5654-418271.html) 
 &lt;/figcaption&gt;
@@ -282,7 +282,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;p&gt;The maximum power requirements of fibre lasers are thus about two to three times lower than those of a CO2-laser. This comes close to the maximum power use of a CNC shearing machine (16 kW), but it is still double that of a CNC punching machine, and about 10 times higher than the power output of a hand-controlled (electrically powered) nibbling machine.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Chart-energy-consumption-different-generations-of-machine-tools_dithered.png&#34; alt=&#39;Image: Energy use of different generations of machine tools.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Chart-energy-consumption-different-generations-of-machine-tools_dithered.png&#34; alt=&#39;Image: Energy use of different generations of machine tools.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Energy use of different generations of machine tools.  
 &lt;/figcaption&gt;
@@ -297,7 +297,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;p&gt;Automated machine tools can never become as energy efficient as their hand-controlled counterparts. Replacing human operators requires energy. A fully automated machine will always consume more energy than a semi-automated machine. So, choosing fewer automated manufacturing technologies should be at least part of the solution.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Draaibalk_dithered.png&#34; alt=&#39;Image: A manually operated turning machine. Picture: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Draaibalk_dithered.png&#34; alt=&#39;Image: A manually operated turning machine. Picture: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A manually operated turning machine. Picture: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -311,7 +311,7 @@ electrodischarge or spark erosion machining (an alternative to milling), laser b
 &lt;p&gt;CO2PE and similar research efforts do not aim to promote fewer automated machine tools. Instead, they aim to promote making automated machine tools as efficient (and safe) as possible. This strategy will spur economic growth, but won&amp;rsquo;t prevent the increase of energy consumption in manufacturing. While energy efficiency improvements will be realized, Dahmus and Gutowski note that &amp;ldquo;efficiency improvements in auxiliary equipment may in fact lead to increases in the sales of auxiliary equipment.&amp;rdquo; &lt;sup id=&#34;fnref11:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Rumag-lathe_dithered.png&#34; alt=&#39;Image: A lathe.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Rumag-lathe_dithered.png&#34; alt=&#39;Image: A lathe.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A lathe. 
 &lt;/figcaption&gt;
@@ -327,7 +327,7 @@ and a desktop laser cutter for about € 12,000. Digital machine tools and non-c
 &lt;p&gt;There is quite some difference between desktop CNC machines and the CNC machines used in industry. A desktop CNC milling machine can only mill wood or aluminium, and a desktop laser cutter only cuts thin wood, plastics or cardboard. However, some fab labs and makerspaces have been introducing industry-scale machine tools lately, and the general expectation is that the possibilities of desktop manufacturing tools will improve quickly. Furthermore, there isn&amp;rsquo;t a strict separation between the digital revolution inside and outside factories. Consumers can already send digital designs to &amp;ldquo;cloud manufacturers&amp;rdquo;, which use industrial-scale digital machine tools to produce whatever you can design on your computer. &lt;sup id=&#34;fnref:34&#34;&gt;&lt;a href=&#34;#fn:34&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;34&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manual-milling-machine-2_dithered.png&#34; alt=&#39;Image: A manually operated vertical milling machine. It has a control panel and a digital readout, but the operator is in control of all movements. Picture: lathes.co.uk&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2014/03/how-sustainable-is-digital-fabrication/images/dithers/Manual-milling-machine-2_dithered.png&#34; alt=&#39;Image: A manually operated vertical milling machine. It has a control panel and a digital readout, but the operator is in control of all movements. Picture: lathes.co.uk&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A manually operated vertical milling machine. It has a control panel and a digital readout, but the operator is in control of all movements. Picture: [lathes.co.uk](http://www.lathes.co.uk/page21.html) 
 &lt;/figcaption&gt;

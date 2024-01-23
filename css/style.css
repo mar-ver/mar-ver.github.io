@@ -23,6 +23,7 @@
   --pad-xlarge: 2rem;
   --pad-section: 3rem;
   --monospace: monospace;
+  --font-less: .85rem;
   --font-xlarge: 2.5rem;
   --font-large: 2rem;
   --font-medium: 1.4rem;
@@ -331,30 +332,39 @@ METADATA, BYLINES
   font-family: var(--monospace); }
   @media only screen and (max-width: 550px) {
     .tags {
-      font-size: var(--font-body); } }
+      font-size: var(--font-small); } }
+#filltag {
+  font-size: var(--font-less); }
+
 .linklist {
   margin-right: 0.5em;
   line-height: 1.35;
-  cursor: pointer; }
+  cursor: pointer;
+  border-bottom: 1px solid;
+  font-size: var(--font-small); }
 
 .choosetag:hover {
   color: var(--color-sub); }
 
-.choosetag:hover::before {
-  content: "+ "; }
+.choosetag:hover::after {
+  content: "+"; }
 
 .tagon {
-  border-bottom: 1px solid var(--color-sub);
+  border-bottom: none;
   color: var(--color-sub); }
+
+.art-line {
+  display: none; }
 
 .activeselect {
-  background-color: var(--highlight); }
+  display: block; }
 
 details > summary:hover {
-  color: var(--color-sub); }
+  color: var(--color-sub);
+  cursor: pointer; }
 
-#filltag:hover::before {
-  content: "- "; }
+#filltag:hover::after {
+  content: "-"; }
 
 /*---------------
 HOMEPAGE & INDEX LIST
@@ -478,6 +488,15 @@ ARCHIVES
   border-left: 0; }
   #filters > div {
     float: left; }
+
+#searchtag {
+  padding: 0.25rem 0 .2rem 0;
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary); }
+
+#searchtag summary {
+  width: 20%;
+  float: left; }
 
 .filter:hover {
   cursor: pointer; }

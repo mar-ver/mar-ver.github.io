@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://mar-ver.github.io/fr/translators/ma%C3%ABlle-gonzales/</link>
+    <link>https://lowtechmag.gitlab.io/solar/fr/translators/ma%C3%ABlle-gonzales/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/fr/translators/ma%C3%ABlle-gonzales/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/ma%C3%ABlle-gonzales/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poêles thermoélectriques : la fin des panneaux solaires ?</title>
-      <link>https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Illustration : Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Illustration : Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Si &lt;a href=&#34;https://mar-ver.github.io/fr/2019/12/too-much-combustion-too-little-fire/&#34;&gt;le moulin à vent, apparu il y a 2 000 ans, est l’ancêtre de éolienne moderne&lt;/a&gt;, le feu de cheminée et le poêle à bois sont quant à eux les prédécesseurs plus vieux encore des panneaux solaires. Tout comme ces derniers, les arbres et
+&lt;p&gt;Si &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/12/too-much-combustion-too-little-fire/&#34;&gt;le moulin à vent, apparu il y a 2 000 ans, est l’ancêtre de éolienne moderne&lt;/a&gt;, le feu de cheminée et le poêle à bois sont quant à eux les prédécesseurs plus vieux encore des panneaux solaires. Tout comme ces derniers, les arbres et
 les plantes transforment la lumière en source d’énergie utile à l’humain. La combustion du bois et d’autres biomasses a apporté, au cours de l’histoire, l’énergie thermique nécessaire à la cuisine, au chauffage, au nettoyage et à l’éclairage des foyers.&lt;/p&gt;
 &lt;p&gt;La photosynthèse est également, et depuis toujours, un acteur invisible de la puissance mécanique : elle est à l’origine de l’énergie humaine et animale, ainsi que des matériaux utilisés dans la construction de moulins à eau et à vent. Ni le moulin à vent ni le poêle à bois ne produisaient à l’origine d’électricité, mais aujourd’hui, tous deux peuvent être modifiés pour le faire. Il suffit de relier un générateur électrique au moulin à vent et un générateur thermoélectrique au poêle à bois.&lt;/p&gt;
 &lt;h2 id=&#34;générateur-thermoélectrique&#34;&gt;Générateur thermoélectrique&lt;/h2&gt;
@@ -31,7 +31,7 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Les générateurs thermoélectriques sont des modules très compacts composés d’éléments semi-conducteurs reliés les uns aux autres par des bandes de métal, mais entourés de plaques isolantes en céramique diffusant uniquement la chaleur. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; On peut les acheter librement auprès de fabricants tels que Hi-Z, Tellurex, Thermalforce et Thermomanic.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Générateur thermoélectrique. Image : Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Générateur thermoélectrique. Image : Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Générateur thermoélectrique. Image : Gerardtv (CC BY-SA 3.0) 
 &lt;/figcaption&gt;
@@ -39,14 +39,14 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Générateur thermoélectrique. Droits obtenus pour l’utilisation de l’image ci-dessus auprès de Applied Thermoelectric Solutions LLC, How Thermoelectric Generators Work.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Générateur thermoélectrique. Droits obtenus pour l’utilisation de l’image ci-dessus auprès de Applied Thermoelectric Solutions LLC, How Thermoelectric Generators Work.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Générateur thermoélectrique. Droits obtenus pour l’utilisation de l’image ci-dessus auprès de Applied Thermoelectric Solutions LLC, [How Thermoelectric Generators Work](https://thermoelectricsolutions.com/how-thermoelectric-generators-work/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Fixer un générateur thermoélectrique à un poêle à bois produira de l’électricité à chaque utilisation de l’appareil pour cuisiner, chauffer une pièce ou de l’eau. Lors des expériences utilisant les prototypes décrits ci-dessous, la puissance du courant générée par chaque module varie entre 3 et 19 watts.&lt;/p&gt;
-&lt;p&gt;Comme avec des panneaux solaires, plusieurs générateurs peuvent être reliés parallèlement et en série pour générer autant de tension et de puissance que nécessaire, à condition bien sûr de ne pas recouvrir entièrement la surface du poêle. Et comme avec des panneaux solaires, le courant généré est contrôlé à l’aide d’un régulateur de charge puis conservé dans une batterie, afin que de l’énergie soit disponible même lorsque l’appareil n’est pas allumé. Un poêle thermoélectrique est généralement utilisé pour alimenter des &lt;a href=&#34;https://mar-ver.github.io/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;appareils à courant continu basse tension&lt;/a&gt;, pour éviter la perte d’énergie lors de l’utilisation d’un convertisseur de puissance.&lt;/p&gt;
+&lt;p&gt;Comme avec des panneaux solaires, plusieurs générateurs peuvent être reliés parallèlement et en série pour générer autant de tension et de puissance que nécessaire, à condition bien sûr de ne pas recouvrir entièrement la surface du poêle. Et comme avec des panneaux solaires, le courant généré est contrôlé à l’aide d’un régulateur de charge puis conservé dans une batterie, afin que de l’énergie soit disponible même lorsque l’appareil n’est pas allumé. Un poêle thermoélectrique est généralement utilisé pour alimenter des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;appareils à courant continu basse tension&lt;/a&gt;, pour éviter la perte d’énergie lors de l’utilisation d’un convertisseur de puissance.&lt;/p&gt;
 &lt;p&gt;Les poêles thermoélectriques pourraient être utilisés dans de nombreux pays. L’hémisphère sud est la première cible des recherches menées, près de 3 milliards de personnes (40 % de la population mondiale) dépendant encore de la combustion de biomasse pour la cuisine et l’accès à l’eau chaude. Certains foyers dépendent également du poêle ou du feu de cheminée pour l’éclairage (1,3 milliard de personnes n’ont pas accès à l’électricité) et le chauffage pendant une partie de l’année. Mais les sociétés plus développées font également l’objet de recherches, les poêles et feux de cheminée ayant particulièrement gagné en popularité, notamment en dehors des espaces urbains.&lt;/p&gt;
 &lt;h2 id=&#34;100-efficace&#34;&gt;100 % efficace&lt;/h2&gt;
 &lt;p&gt;Depuis la toute première description de l’effet thermoélectrique par Thomas Seebeck en 1821, les générateurs thermoélectriques sont critiqués pour leur faible rendement d’électricité. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; De nos jours, la puissance électrique des générateurs n’est que de 5 ou 6 %, soit près de trois fois moins que les panneaux solaires les plus couramment utilisés. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -57,7 +57,7 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Même si un poêle n’est utilisé que pour cuisiner ou pour chauffer l’eau, le générateur assure une production d’énergie fiable et durable, quel que soit le climat. De plus, la production énergétique d’un poêle thermoélectrique correspond bien souvent aux besoins énergétiques des propriétaires : les périodes où le poêle est utilisé sont généralement les périodes où le plus d’électricité est consommée. Les panneaux solaires, à l’inverse, ont une production faible, voire nulle, durant les périodes de forte demande énergétique.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Image : Un générateur thermoélectrique soviétique sur une lampe à kérosène, alimentant une radio, 1959. Source : The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Image : Un générateur thermoélectrique soviétique sur une lampe à kérosène, alimentant une radio, 1959. Source : The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un générateur thermoélectrique soviétique sur une lampe à kérosène, alimentant une radio, 1959. Source : [The Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm).  
 &lt;/figcaption&gt;
@@ -80,16 +80,16 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Les premiers poêles thermoélectriques ont été construits au début des années 2000, même si les Soviétiques avaient mis au point un concept similaire dans les années 1950 avec des radios presque intégralement électriques, alimentées par des lampes à kérosène. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; En 2004, une équipe de chercheurs libanais modernise un poêle à bois classique en fonte en y intégrant un générateur thermoélectrique de 56 mm sur 56 mm conçu spécialement. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; Le poêle, utilisé pour cuisiner, chauffer de l’eau et des pièces est plutôt petit (52 x 44 x 29 cm) et pèse 40 kg.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Image : Le poêle en fonte utilisé lors des expériences. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Image : Le poêle en fonte utilisé lors des expériences. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le poêle en fonte utilisé lors des expériences. [^18] 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Les chercheurs ont vissé une plaque en aluminium d’un centimètre d’épaisseur sur la partie la plus chaude du poêle, puis y ont fixé le générateur. Un grand dissipateur thermique (180 x 136 x 125 mm) en aluminium a ensuite été attaché au côté froid du générateur. En brûlant 2,5 kg de pin par heure, ils ont obtenu une charge électrique moyenne de 4,2 watts. Faire fonctionner ce poêle pendant 10 heures par jour (plus phase de chauffage) fournirait donc 42 watts-heures d’électricité à un foyer libanais rural, &lt;a href=&#34;https://mar-ver.github.io/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;ce qui est suffisant pour couvrir les besoins basiques&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les chercheurs ont vissé une plaque en aluminium d’un centimètre d’épaisseur sur la partie la plus chaude du poêle, puis y ont fixé le générateur. Un grand dissipateur thermique (180 x 136 x 125 mm) en aluminium a ensuite été attaché au côté froid du générateur. En brûlant 2,5 kg de pin par heure, ils ont obtenu une charge électrique moyenne de 4,2 watts. Faire fonctionner ce poêle pendant 10 heures par jour (plus phase de chauffage) fournirait donc 42 watts-heures d’électricité à un foyer libanais rural, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;ce qui est suffisant pour couvrir les besoins basiques&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Image : Détails de l’installation du générateur thermoélectrique et emplacement sur le poêle. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Image : Détails de l’installation du générateur thermoélectrique et emplacement sur le poêle. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Détails de l’installation du générateur thermoélectrique et emplacement sur le poêle. [^18] 
 &lt;/figcaption&gt;
@@ -101,7 +101,7 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Une étude menée sur une cuisinière thermoélectrique à convection forcée sur laquelle un générateur était fixé a trouvé une production de 4,5 watts, dont 1 watt alimentant le ventilateur. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; La production énergétique nette (3,5 watts) est moins élevée que celle d’un poêle thermoélectrique à dissipateur thermique (4,2 watts), mais la consommation de bois est divisée par deux. En effet, le générateur de la cuisinière générait 3,5 watts nets d’électricité en consommant 1 kg de bois par heure, contre 2,5 kg de bois pour 4,2 watts avec le dissipateur thermique.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Image : Cuisinière thermoélectrique à convection forcée. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Image : Cuisinière thermoélectrique à convection forcée. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Cuisinière thermoélectrique à convection forcée. [^20]  
 &lt;/figcaption&gt;
@@ -113,7 +113,7 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Les poêles thermoélectriques les plus efficaces sont ceux dont les générateurs sont directement refroidis par un réservoir d’eau. La résistance thermique de l’eau étant moins élevée que celle de l’air, utiliser un réservoir accélère le refroidissement. De plus, sa température ne peut dépasser les 100 degrés Celsius, ce qui réduit le risque de panne due à une surchauffe.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Image : le principe de poêle thermoélectrique à refroidissement passif. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Image : le principe de poêle thermoélectrique à refroidissement passif. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : le principe de poêle thermoélectrique à refroidissement passif. [^17] 
 &lt;/figcaption&gt;
@@ -123,7 +123,7 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;La plupart des poêles thermoélectriques avec un système de refroidissement passif à l’eau sont de petite taille et utilisés pour ne chauffer que de petites quantités d’eau. C’est d’ailleurs plus souvent une casserole qui est équipée de générateurs thermoélectriques que le poêle lui-même. Par exemple, le PowerPot est une casserole de randonnée disponible sur le marché et équipée, à sa base, d’un générateur thermoélectrique. Placée directement sur le feu, sa production d’énergie est annoncée entre 5 et 10 watts par heure.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Image : poêle à bois multi-usage à système de refroidissement passif à l’eau. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Image : poêle à bois multi-usage à système de refroidissement passif à l’eau. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : poêle à bois multi-usage à système de refroidissement passif à l’eau. [^22] 
 &lt;/figcaption&gt;
@@ -135,21 +135,21 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Il existe un inconvénient au refroidissement passif à l’eau. Tandis que la température de l’eau du réservoir augmente, la différence entre le côté chaud et le côté froid du générateur diminue et avec elle l’efficacité électrique. Cela suppose donc, pour ne pas perdre en efficacité, de laisser l’eau refroidir ou de la remplacer par de l’eau froide entre deux utilisations. Une pompe facilite ce processus.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Image : Prototype de poêle thermoélectrique avec refroidissement à l’eau des générateurs. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Image : Prototype de poêle thermoélectrique avec refroidissement à l’eau des générateurs. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Prototype de poêle thermoélectrique avec refroidissement à l’eau des générateurs. [^26] 
 &lt;/figcaption&gt;
@@ -160,7 +160,7 @@ les plantes transforment la lumière en source d’énergie utile à l’humain.
 &lt;p&gt;Les générateurs thermoélectriques accompagnés d’un système de refroidissement à l’eau correspondent davantage aux infrastructures de sociétés industrialisées, en particulier dans les foyers qui profitent de chauffage centralisé. L’addition de générateurs augmenterait la production d’électricité pour répondre aux besoins d’une famille consommant beaucoup d’énergie. Cependant, ce système présente quelques failles. Tout d’abord, le chauffage centralisé ne concerne que le chauffage des pièces et de l’eau, mais pas la cuisine, ce qui diminue la fiabilité de la production sur une année complète. Ensuite, très peu de systèmes de chauffage centralisé fonctionnent à partir de combustion de biomasse. En effet, la plupart utilisent du gaz, de pétrole ou de l’électricité.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototype d’un four à pellets thermoélectrique. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototype d’un four à pellets thermoélectrique. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Prototype d’un four à pellets thermoélectrique. [^30]  
 &lt;/figcaption&gt;
@@ -171,7 +171,7 @@ adjoindre un générateur thermoélectrique. Le système thermoélectrique est i
 &lt;p&gt;Cependant, lorsque la source d’énergie est le pétrole ou le gaz, une chaudière thermoélectrique est tout autant une solution à bilan carbone faible qu’un panneau solaire photovoltaïque connecté au réseau. &lt;sup id=&#34;fnref:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt; Un système de chauffage thermoélectrique ne rend pas un foyer indépendant des combustibles fossiles, mais des panneaux solaires photovoltaïques connectés au réseau non plus. Ce dernier dépend du réseau électrique (majoritairement alimenté par des combustibles fossiles) pour contrôler les pénuries et surplus énergétiques et compte généralement sur le chauffage centralisé à base de combustibles fossiles pour le chauffage du foyer et de l’eau.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Image : Un générateur thermoélectrique de 1 kW accompagné d’un système de refroidissement à l’eau pour les ressources géothermiques à basse température. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Image : Un générateur thermoélectrique de 1 kW accompagné d’un système de refroidissement à l’eau pour les ressources géothermiques à basse température. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un générateur thermoélectrique de 1 kW accompagné d’un système de refroidissement à l’eau pour les ressources géothermiques à basse température. [^31] 
 &lt;/figcaption&gt;
@@ -276,15 +276,15 @@ adjoindre un générateur thermoélectrique. Le système thermoélectrique est i
     
     <item>
       <title>Le recyclage de déjections animales et humaines : la clé de l’agriculture durable</title>
-      <link>https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-1_dithered.png" type="image/png" length="36369" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-1_dithered.png" type="image/png" length="36369" ></enclosure>
       <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-1_dithered.png&#34; alt=&#39;© Illustrations en rouge &amp;amp;amp; noir : Diego Marmolejo pour Low-Tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-1_dithered.png&#34; alt=&#39;© Illustrations en rouge &amp;amp;amp; noir : Diego Marmolejo pour Low-Tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  © Illustrations en rouge &amp; noir : [Diego Marmolejo](http://ddidak.blogspot.com/) pour Low-Tech Magazine. 
 &lt;/figcaption&gt;
@@ -298,7 +298,7 @@ adjoindre un générateur thermoélectrique. Le système thermoélectrique est i
 par notre organisme puis rendus à la terre, à travers nos excréments, les déchets alimentaires et l’inhumation des morts. Aujourd’hui, nous les rejetons principalement dans la mer. (voir infographie ci-dessous)&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/nutrients-cycle-humanure_dithered.png&#34; alt=&#39;Le cycle des nutriments. Source : Humanure Handbook&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/nutrients-cycle-humanure_dithered.png&#34; alt=&#39;Le cycle des nutriments. Source : Humanure Handbook&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le cycle des nutriments. Source : [Humanure Handbook](http://humanurehandbook.com/contents.html) 
 &lt;/figcaption&gt;
@@ -313,7 +313,7 @@ dans l’air, mais doit être chauffé et mis sous pression pour se transformer 
 millions de tonnes d’engrais phosphatés, et 45 millions de tonnes de minerai de potasse pour produire 25 millions de tonnes d’engrais potassiques. Les deux opérations consomment beaucoup d’énergie et polluent l’environnement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/medieval-closet_dithered.png&#34; alt=&#39;Toilettes médiévales dans un château.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/medieval-closet_dithered.png&#34; alt=&#39;Toilettes médiévales dans un château.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
   Toilettes médiévales dans un château. 
 &lt;/figcaption&gt;
@@ -336,7 +336,7 @@ au conditionnement nous ayant amenés à penser que les toilettes et le système
 &lt;p&gt;La population chinoise était équivalente à celle des États-Unis et de l’Europe à l’époque, et certaines villes étaient, elles aussi, particulièrement peuplées. La différence résidait dans leur maintien d’un système agricole basé sur l’utilisation d’engrais à base de « déchets » humains. Les selles et l’urine étaient collectées avec soin et discipline, et transportées parfois sur des distances considérables. Elles étaient mélangées aux autres déchets organiques, compostées puis répandues sur les terres agricoles (voir illustration ci-dessous).&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/humanure-recycling-china_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/humanure-recycling-china_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -351,7 +351,7 @@ millions d’habitants adultes, contre 400 millions d’habitants en Europe et 
 &lt;p&gt;Dans certaines villes, des canaux et bateaux spécialement dédiés furent conçus (voir illustration ci-dessous), comme à Hankow-Wuchang-Hanyang, par exemple, une ville de près de 1,8 million d’habitants sur 6,5 kilomètres carrés. Vous pourriez alors contester que les Chinois possédaient &lt;em&gt;bien&lt;/em&gt; un réseau d’égouts et d’évacuation par les eaux, bien que la différence avec le nôtre soit frappante.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/boats-loaded-with-dung_dithered.png&#34; alt=&#39;Le transport de « fumain » sur bateaux&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/boats-loaded-with-dung_dithered.png&#34; alt=&#39;Le transport de « fumain » sur bateaux&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le transport de « fumain » sur bateaux 
 &lt;/figcaption&gt;
@@ -362,7 +362,7 @@ millions d’habitants adultes, contre 400 millions d’habitants en Europe et 
 &lt;p&gt;Shanghai marchandait et transportait le fumain de la ville à l’aide d’un réseau de canaux uniques et de centaines de bateaux (voir la carte ci-dessous), un commerce qui rapportait des centaines de milliers de dollars chaque année. Le fumain était alors considéré comme une marchandise précieuse. En 1908, un homme d’affaires chinois versa même 31 000 dollars à la ville (ce qui représente aujourd’hui plus de 700 000 dollars) pour obtenir le droit de retirer 78 000 tonnes de fumain par an d’une région de la ville dans le but de le revendre aux fermiers des campagnes.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/shanghai-canal-dung-transport_dithered.png&#34; alt=&#39;Réseau de canaux pour le transport de fumier à Shanghai.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/shanghai-canal-dung-transport_dithered.png&#34; alt=&#39;Réseau de canaux pour le transport de fumier à Shanghai.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Réseau de canaux pour le transport de fumier à Shanghai. 
 &lt;/figcaption&gt;
@@ -377,7 +377,7 @@ ce à quoi j’ajouterai que cette marchandise est tellement estimée parmi eux,
 &lt;p&gt;La collecte de « déchets » humains avait aussi lieu en Europe, mais sur une période bien plus courte et à une bien plus petite échelle. La deuxième moitié du XIXe siècle marqua la fin d’une ère majoritairement agricole en Europe ; les migrations vers les villes s’accélérèrent et le problème de traitement des eaux usées empira.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/night-soil-collection-europe_dithered.png&#34; alt=&#39;Collecte d’excréments à Amsterdam. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/night-soil-collection-europe_dithered.png&#34; alt=&#39;Collecte d’excréments à Amsterdam. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Collecte d’excréments à Amsterdam. [Source](http://www.bronnenuitamsterdam.nl/weergave.asp?ID=6). 
 &lt;/figcaption&gt;
@@ -388,7 +388,7 @@ en anglais « night soil » (engrais de nuit), et ressemble à la méthode asi
 &lt;p&gt;Les selles et l’urine étaient collectées dans des récipients en bois sous le siège des toilettes et mélangées à la terre, les cendres et le charbon pour empêcher les mauvaises odeurs. Les personnes chargées de la collecte passaient à intervalles plus ou moins réguliers (le plus souvent la nuit, d’où le nom anglais) pour récupérer la marchandise.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/night-soil-collection-netherlands_dithered.png&#34; alt=&#39;« Night soil » dans les Pays-Bas. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/night-soil-collection-netherlands_dithered.png&#34; alt=&#39;« Night soil » dans les Pays-Bas. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  « Night soil » dans les Pays-Bas. [Source](http://www.jenneken.nl/bekijk/1900afvoervanmestenhuisvuil.htm). 
 &lt;/figcaption&gt;
@@ -399,7 +399,7 @@ en anglais « night soil » (engrais de nuit), et ressemble à la méthode asi
 &lt;p&gt;Malheureusement, la collecte et le transport n’étaient pas aussi fiables, efficaces et hygiéniques qu’en Chine, en Corée ou au Japon. Aucun problème ne survenait lors de l’utilisation de conteneurs fermés hermétiquement, mais cette dernière n’était pas systématique. L’utilisation de chariots ouverts entraînait une odeur nauséabonde (voir la caricature du XIXe siècle ci-dessous) et les bacs étaient parfois renversés dans les escaliers ou pendant le transfert dans les chariots. La collecte n’était pas si fréquente, en particulier dans les quartiers pauvres.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/stinky-night-soil_dithered.png&#34; alt=&#39;Caricature de collecte de « night soil ». Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/stinky-night-soil_dithered.png&#34; alt=&#39;Caricature de collecte de « night soil ». Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Caricature de collecte de « night soil ». [Source](http://www.bronnenuitamsterdam.nl/weergave.asp?ID=17). 
 &lt;/figcaption&gt;
@@ -423,7 +423,7 @@ Amsterdam en 1872 et Dordrecht en 1874. À l’origine, seuls quelques milliers 
 Amsterdam, il fut considérablement étendu. À la fin du XIXe siècle, près de 90 000 Amstellodamois possédaient le système d’évacuation de Liernur, soit 20 % de la population.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/liernur-system-sewage-removal_dithered.png&#34; alt=&#39;Le système d’évacuation sous vide de Liernur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/liernur-system-sewage-removal_dithered.png&#34; alt=&#39;Le système d’évacuation sous vide de Liernur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le système d’évacuation sous vide de Liernur. 
 &lt;/figcaption&gt;
@@ -451,7 +451,7 @@ des engrais chimiques après qu’une méthode de production peu chère fut déc
 &lt;p&gt;Pour rétablir notre cycle alimentaire naturel, il n’existe que trois possibilités technologiques. Nous pourrions développer une variante moderne de la méthode de collecte à l’aide de toilettes de compost, dans lesquelles les selles seraient mélangées aux déchets organiques du foyer. L’urine serait récupérée séparément dans des réservoirs vidés une fois par an à l’aide de citernes (cette méthode existe déjà dans certaines régions néerlandaises et suédoises où les habitants utilisent des toilettes séparées selon le type de besoin). Ou bien, nous pourrions développer une variante du système de Liernur ou Berlier, grâce à laquelle les eaux usées seraient traitées sans eau.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-2_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -467,7 +467,7 @@ correctement, des dispositifs relativement modernes comme les fosses septiques, 
 &lt;p&gt;Les méthodes de compost devraient toujours être privilégiées, et cela de deux façons possibles. La première, le compost lent, est une méthode « do it yourself » (à faire soi-même) qui est décrite dans le « &lt;a href=&#34;http://humanurehandbook.com/contents.html&#34;&gt;Humanure Handbook&lt;/a&gt; », un guide pratique en ligne de Joseph Jenkins (qui créa le terme « fumain »). En français, on retrouve &lt;a href=&#34;https://ecosociete.org/livres/le-petit-livre-du-fumain.html&#34;&gt;le petit livre du fumain&lt;/a&gt;. Le compost lent se produit à faibles températures et demande environ un an dans un climat modéré. Pour ne prendre aucun risque, beaucoup conseillent d’utiliser le compost (inodore) ainsi obtenu exclusivement pour les cultures sans contact direct entre l’engrais et la nourriture (arbres fruitiers par exemple) et les plantes non comestibles (fleurs, plantes d’intérieur).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/pigstay_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/pigstay_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -498,7 +498,7 @@ d’après des estimations, près de 125 millions de tonnes d’azote et 58 mi
 &lt;p&gt;Nombreuses sont les bonnes raisons de réduire la consommation de viande, à la fois pour notre santé et l’environnement (l’élevage du bétail est une des causes principales de la déforestation, elle-même responsable  en grande partie de la dégradation des sols). Cependant, si l’on ne veut pas stopper notre consommation de viande, la moindre des choses serait alors d’« entreprendre les travaux d’Hercule pour amasser un tas de fumier suffisant ».&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/mechanical-manure-spreader_dithered.png&#34; alt=&#39;Épandeur à fumier mécanique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/mechanical-manure-spreader_dithered.png&#34; alt=&#39;Épandeur à fumier mécanique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Épandeur à fumier mécanique. 
 &lt;/figcaption&gt;
@@ -516,10 +516,10 @@ en station d’épuration.&lt;/p&gt;
 &lt;p&gt;Les temps étaient bien différents au début du système agricole chinois et pendant le Moyen Âge en Europe. Il n’y avait jamais de surplus d’engrais, donc les fermiers l’utilisaient avec parcimonie. À l’aide de techniques plus appliquées, les agriculteurs pourraient aujourd’hui obtenir les mêmes rendements en utilisant bien moins d’engrais. La rotation culturale, la culture associée et l’utilisation d’engrais verts sont des techniques historiques importantes encore utilisées de nos jours et qui peuvent faire baisser la demande en engrais chimiques.&lt;/p&gt;
 &lt;h2 id=&#34;équilibre-des-nutriments&#34;&gt;Équilibre des nutriments&lt;/h2&gt;
 &lt;p&gt;Récapitulons un peu ces nombreuses informations. D’un côté, le bétail et les humains, qui produisent ensemble 166 millions de tonnes d’azote et 72 millions de tonnes de phosphates. La quasi-totalité est jetée, ce qui provoque un véritable séisme écologique.&lt;/p&gt;
-&lt;p&gt;De l’autre côté, nos usines, qui produisent 99,9 millions de tonnes d’engrais azoté artificiels et 37 millions de tonnes de phosphates. Une opération tout à fait superflue, empirant la pollution et la consommation très élevée d’énergie. L’augmentation attendue de la population, à la fois humaine et animale, sans oublier celle des cultures énergétiques pour créer des &lt;a href=&#34;https://mar-ver.github.io/2008/04/leave-the-algae-alone/&#34;&gt;biocarburants&lt;/a&gt;, entraînera l’augmentation de la production d’engrais naturels et chimiques, empirant d’autant plus la situation.&lt;/p&gt;
+&lt;p&gt;De l’autre côté, nos usines, qui produisent 99,9 millions de tonnes d’engrais azoté artificiels et 37 millions de tonnes de phosphates. Une opération tout à fait superflue, empirant la pollution et la consommation très élevée d’énergie. L’augmentation attendue de la population, à la fois humaine et animale, sans oublier celle des cultures énergétiques pour créer des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2008/04/leave-the-algae-alone/&#34;&gt;biocarburants&lt;/a&gt;, entraînera l’augmentation de la production d’engrais naturels et chimiques, empirant d’autant plus la situation.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-3_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-3_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -538,7 +538,7 @@ en 1996. La quantité gaspillée est soit égale (pour l’azote) soit supérieu
 &lt;p&gt;Bien sûr, le même constat peut être fait pour le fumain. Tout comme le bétail, les humains sont concentrés géographiquement dans de grandes villes sans aucune ferme à proximité. Et comme le bétail, nous mangeons une nourriture souvent produite très loin de notre lieu de vie. Cela signifie que si nous décidons de récupérer du fumain, nous devons également le renvoyer du lieu de consommation jusqu’au lieu de production. En conséquence, recycler des éléments nutritifs demanderait un système logistique de masse, incluant camions, trains et navires de transport de fumier (ou des réseaux d’égouts) à travers le monde entier.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-4_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/images/dithers/recycling-humanure-4_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -550,7 +550,7 @@ en 1996. La quantité gaspillée est soit égale (pour l’azote) soit supérieu
 &lt;p&gt;© Kris De Decker (corrigé par Shameez Joubert)&lt;/p&gt;
 &lt;p&gt;© Illustrations: &lt;a href=&#34;http://ddidak.blogspot.com/&#34;&gt;Diego Marmolejo&lt;/a&gt; pour Low-Tech Magazine.&lt;/p&gt;
 &lt;p&gt;Un grand merci à &lt;a href=&#34;http://www.de12ambachten.nl/&#34;&gt;Sietz Leeflang&lt;/a&gt; créateur de &lt;a href=&#34;http://www.de12ambachten.nl/engnonolet.html&#34;&gt;Nonolet&lt;/a&gt; (des toilettes de compost urbaines : &lt;a href=&#34;http://www.de12ambachten.nl/eng-greentech/07-12%20diynonolet.html&#34;&gt;plans de construction&lt;/a&gt;), qui a passé deux ans à me convaincre d’écrire cette épopée sur le sujet de la merde, et m’a dirigé vers la plupart des documents listés ci-dessous. Sietz m’a également motivé à
-écrire au sujet des &lt;a href=&#34;https://mar-ver.github.io/fr/2008/12/sunbathing-in-the-living-room-oven-stoves-and-heat-walls/&#34;&gt;cuisinières&lt;/a&gt; (ce qui a demandé bien moins d’efforts).&lt;/p&gt;
+écrire au sujet des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2008/12/sunbathing-in-the-living-room-oven-stoves-and-heat-walls/&#34;&gt;cuisinières&lt;/a&gt; (ce qui a demandé bien moins d’efforts).&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources :&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;« &lt;a href=&#34;http://www.archive.org/details/cu31924073872685&#34;&gt;Farmers of Forty     Centuries&lt;/a&gt; », F.H.     King (1911) - dung recycling in china, korea and japan&lt;/li&gt;

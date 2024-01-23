@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://mar-ver.github.io/fr/tags/water-power/</link>
+    <link>https://lowtechmag.gitlab.io/solar/fr/tags/water-power/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/fr/tags/water-power/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/tags/water-power/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Les réseaux de force motrice hydraulique</title>
-      <link>https://mar-ver.github.io/fr/2023/09/power-water-networks/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2023/09/power-water-networks/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Illustration : Un accumulateur hydraulique. Image : Les Chatfield.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Illustration : Un accumulateur hydraulique. Image : Les Chatfield.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : Un accumulateur hydraulique. Image : [Les Chatfield](https://www.flickr.com/photos/61132483@N00/7184633723). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;L’utilisation des moteurs à eau était largement répandue en Europe et en Amérique dans la seconde moitié du dix-neuvième siècle. Reliées à un robinet, ces petites turbines hydrauliques pouvaient faire fonctionner n’importe quelle machine aujourd’hui alimentée à l’électricité. Comme nous l’avons montré dans un &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;, faire fonctionner ces moteurs à l’eau courante n’était pas une solution particulièrement durable. Du fait des niveaux de pression à la fois faibles et irréguliers dans les réseaux d’adduction, ces moteurs consommaient d’énormes quantités d’eau potable.&lt;/p&gt;
+&lt;p&gt;L’utilisation des moteurs à eau était largement répandue en Europe et en Amérique dans la seconde moitié du dix-neuvième siècle. Reliées à un robinet, ces petites turbines hydrauliques pouvaient faire fonctionner n’importe quelle machine aujourd’hui alimentée à l’électricité. Comme nous l’avons montré dans un &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;, faire fonctionner ces moteurs à l’eau courante n’était pas une solution particulièrement durable. Du fait des niveaux de pression à la fois faibles et irréguliers dans les réseaux d’adduction, ces moteurs consommaient d’énormes quantités d’eau potable.&lt;/p&gt;
 &lt;p&gt;Tandis qu’aux Etats-Unis les moteurs à eau tombèrent en désuétude au début du vingtième siècle, les Européens trouvèrent une solution pour réduire leur importante consommation d’eau, perfectionnant ainsi la technique de transmission d’énergie par voie hydraulique. Ils déployèrent des « réseaux de force motrice hydraulique », dédiés à la distribution d’eau sous pression pour des usages de force mécanique exclusivement, et les convertirent à des régimes de pression beaucoup plus élevés et constants, rendus possibles par l’invention de l’accumulateur hydraulique.&lt;/p&gt;
 &lt;p&gt;La quasi-totalité de ces réseaux demeurèrent en service jusque dans les années 1960 et 1970. Comparée à l’électricité, la transmission de l’énergie hydraulique comme force motrice s’avère très efficace, quand elle est utilisée pour alimenter des machines puissantes mais fonctionnant de manière intermittente, lesquelles peuvent être réparties sur une aire géographique de la taille d’une ville entière.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;Les conséquences pratiques de ce qui deviendra plus tard le Principe de Pascal, aussi appelé &amp;ldquo;paradoxe hydrostatique&amp;rdquo;, furent démontrées par sa &amp;ldquo;machine à multiplier les forces&amp;rdquo;, schématiquement illustrée ci-dessous. Elle consiste en 2 cylindres, reliés entre eux par un tuyau. L’ensemble du dispositif est rempli d’eau et scellé hermétiquement. Le premier cylindre contient un piston de faible diamètre, tandis que le second cylindre contient un piston de diamètre 100 fois supérieur.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine à multiplier les forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine à multiplier les forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Machine à multiplier les forces. 
 &lt;/figcaption&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;Si une force hydraulique faible est convertie en une force plus grande, sa vitesse de fonctionnement sera réduite de manière inversement proportionnelle, dans la mesure où la distance parcourue est proportionnelle à la force. Par exemple, en descendant le petit piston de 10 centimètres vers le bas, on n’élèverait l’autre piston qu’au 1/100ème de cette distance.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Pascal barrel experiment.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Pascal barrel experiment.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pascal barrel experiment. 
 &lt;/figcaption&gt;
@@ -62,7 +62,7 @@
 &lt;p&gt;La traditionnelle presse à vis, en usage à cette époque, avait connu peu d’évolutions depuis son invention par les Romains, qui l’utilisaient alors pour presser les olives et le raisin. Elle nécessitait, pour fonctionner, des efforts conséquents avec d’importantes pertes d’énergie par friction (+80 %), et ne pouvait exercer de pression supérieure à 25 tonnes. (La vis, qui convertit le mouvement de rotation en un mouvement linéaire vertical, consiste tout simplement en un plan incliné &amp;ldquo;enroulé&amp;rdquo; en spirale autour d’un cylindre).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;À gauche : La presse à vis. Crédit d’image : Bruce K. Satterfield À droite : La presse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;À gauche : La presse à vis. Crédit d’image : Bruce K. Satterfield À droite : La presse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  À gauche : La presse à vis. Crédit d’image : [Bruce K. Satterfield](http://emp.byui.edu/SATTERFIELDB/Olive%20Tree/olive%20tree%20horticulture.htm) À droite : La presse hydraulique.  
 &lt;/figcaption&gt;
@@ -79,7 +79,7 @@
 &lt;p&gt;C’est au cours des années 1840 que l’ingénieur anglais William Armstrong commença à concevoir et utiliser des grues hydrauliques relativement puissantes. Conscient que les systèmes hydrauliques sont plus adaptés aux mouvements lents et réguliers, Armstrong mis au point une technique permettant de soulever une charge en une seule course de piston ou vérin, démultipliant suffisamment le mouvement par un jeu de poulies.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Hydraulic crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Hydraulic crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic crane. 
 &lt;/figcaption&gt;
@@ -92,7 +92,7 @@
 &lt;p&gt;L’accumulateur hydraulique d’Armstrong consistait en un cylindre vertical dans lequel un vérin ou un piston plongeur exerçait une pression sur l’eau. Ce piston était lesté d’un contrepoids, lequel prenait généralement la forme d’un réservoir de lestage cylindrique entourant le cylindre central (image de gauche, ci-dessous). Ce réservoir était ballasté avec des granulats (pierres concassées), de la ferraille ou tout autre matériau de lestage.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : [NSW HSC Online](http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm) 
 &lt;/figcaption&gt;
@@ -106,7 +106,7 @@
 &lt;p&gt;L’énergie était stockée temporairement lors de l’ascension du vérin, puis récupérée lors de sa descente. Le débit de pompage de la machine à vapeur était régulé en fonction du niveau d’eau dans l’accumulateur, soit automatiquement par un système de liaisons mécaniques, soit avec l’aide d’un opérateur.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Hydraulic accumulator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Hydraulic accumulator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic accumulator.
 &lt;/figcaption&gt;
@@ -115,10 +115,10 @@
 &lt;p&gt;Contrairement à un château d’eau, un accumulateur hydraulique permettait de maintenir une pression uniforme dans l’ensemble du réseau quelque soit le volume d’eau contenu dans son cylindre, car la pression y est générée par le poids du ballast et par non le poids de l’eau elle-même &amp;ndash; pour le dire autrement, l’accumulateur hydraulique génère une pression au moyen d’un poids extérieur plutôt que par la seule énergie gravitaire (liée à la différence de hauteur).&lt;/p&gt;
 &lt;p&gt;Avec un rendement de charge/décharge supérieur à 98 %, et aucune autodécharge, l’accumulateur hydraulique était un dispositif extrêmement efficace sur le plan énergétique.&lt;/p&gt;
 &lt;h2 id=&#34;des-machines-industrielles-alimentées-par-la-force-motrice&#34;&gt;Des Machines Industrielles Alimentées par la Force Motrice&lt;/h2&gt;
-&lt;p&gt;Son introduction eut deux effets majeurs. Premièrement, elle élargit considérablement l’éventail des opérations susceptibles d’être réalisées par des machines à énergie hydrauliques. Les moteurs à eau connectés au réseau d’eau potable se limitaient alors à de petits &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;appareils domestiques ou des outils d’atelier&lt;/a&gt;. Mais Armstrong et d’autres ingénieurs adaptèrent l’usage de l’eau sous haute pression à tout un large spectre d’opérations industrielles nécessitant des puissances importantes, telles que le forgeage, le poinçonnage, l’emboutissage, le bordage, le cisaillage et le rivetage (ancêtre de la soudure).&lt;/p&gt;
+&lt;p&gt;Son introduction eut deux effets majeurs. Premièrement, elle élargit considérablement l’éventail des opérations susceptibles d’être réalisées par des machines à énergie hydrauliques. Les moteurs à eau connectés au réseau d’eau potable se limitaient alors à de petits &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;appareils domestiques ou des outils d’atelier&lt;/a&gt;. Mais Armstrong et d’autres ingénieurs adaptèrent l’usage de l’eau sous haute pression à tout un large spectre d’opérations industrielles nécessitant des puissances importantes, telles que le forgeage, le poinçonnage, l’emboutissage, le bordage, le cisaillage et le rivetage (ancêtre de la soudure).&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Riveteuse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Riveteuse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Riveteuse hydraulique.
 &lt;/figcaption&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;Des années 1870 aux années 1890, des réseaux d’eau motrice sous pression furent ainsi déployés dans les principales villes industrielles de Grande-Bretagne : Kingston upon Hull, London, Liverpool, Birmingham, Grimsby, Manchester et Glasgow. Les compagnies portuaires et ferroviaires furent pionnières dans le développement cette technologie, et en demeurèrent les principales utilisatrices pendant plusieurs décennies.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.
 &lt;/figcaption&gt;
@@ -147,7 +147,7 @@
 &lt;p&gt;C’est à Londres que fut construit le plus vaste réseau de force motrice hydraulique, exploité par la &amp;ldquo;London Hydraulic Company&amp;rdquo;. À l’apogée de l’entreprise en 1917, pas moins de cinq centrales interconnectées assuraient le pompage d’eau sous haute pression vers une douzaine d’accumulateurs hydrauliques et près de 300 km de conduites souterraines, alimentant en énergie plus de 8 000 machines réparties dans presque toute la ville. Dans les théâtres et autres équipements culturels de Londres, l’eau motrice était utilisée pour déplacer les décors, les consoles d’orgues, les rideaux coupe-feu et les plateaux de scène. La machinerie hydraulique du Tower Bridge était également actionnée par de l’eau sous pression, pompée dans six accumulateurs par des moteurs à vapeur, permettant la levée des bascules.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895. 
 &lt;/figcaption&gt;
@@ -160,7 +160,7 @@
 &lt;p&gt;Une autre application notable de l’eau sous haute pression à Londres fut le &lt;em&gt;Silent Dustman&lt;/em&gt;, un système d’aspiration à énergie hydraulique commercialisé en 1910. Plusieurs grands hôtels en furent intégralement &amp;ldquo;équipés&amp;rdquo; : de l’eau courante était utilisée par une pompe à jet pour générer du vide dans un conduit principal, sur lequel venait se brancher le système d’aspiration. Le long de ce conduit, un certain nombre de buses permettaient de brancher des tuyaux souples. La poussière était ainsi aspirée vers le tube principal puis évacuée vers les égouts. Ce système, au fonctionnement à la fois silencieux et efficace, demeura en service jusqu’en 1937.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques. 
 &lt;/figcaption&gt;
@@ -172,7 +172,7 @@
 &lt;p&gt;Les réseaux britanniques firent des émules en inspirant la création de réseaux similaires ailleurs dans le monde : à Anvers en Belgique, Buenos Aires en Argentine, Melbourne et Sydney en Australie. Si les réseaux australiens étaient directement inspirés de ceux déployés au Royaume-Uni (avec 80 km de canalisations, celui de Melbourne fut le second plus grand jamais construit), le système argentin servait au pompage des eaux usées, tandis que le réseau d’Anvers était quant à lui conçu pour la production combinée &amp;ndash; on parle aujourd’hui de &amp;ldquo;cogénération&amp;rdquo; &amp;ndash; d’énergie mécanique et d’électricité. Cette dernière technique visait à palier les importantes pertes en ligne du transport d’électricité à cette époque.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;ldquo;Zuiderpershuis&amp;amp;rdquo; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;ldquo;Zuiderpershuis&amp;amp;rdquo; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  &#34;Zuiderpershuis&#34; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours. 
 &lt;/figcaption&gt;
@@ -186,13 +186,13 @@
 &lt;p&gt;La ville d’Anvers utilisait depuis 1865 un réseau d’eau motrice pour alimenter les grues, ponts et écluses de son port. Il vint s’y ajouter en 1893 un second réseau, qui distribuait de l’eau sous haute pression à des sous-stations électriques disséminées dans toute la ville (au nombre de douze d’après la carte &amp;ndash; toutefois, seules trois d’entres elles furent effectivement construites). Des turbines hydrauliques y généraient de l’électricité, ensuite distribuée dans un rayon de 500 m via des lignes électriques enterrées &amp;ndash; distance maximale à laquelle le courant basse tension pouvait alors être distribué avec un bon rendement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Le système anversois, utilisé pour l’éclairage public, réalisait ainsi à grande échelle ce que les moteurs à eau couplés à des dynamos assuraient à une petite échelle via le réseau d’eau courante (voir le &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;. Environ 66 % de l’énergie hydraulique était convertie en électricité. À son apogée, le réseau atteignit 23 km de longueur totale, pour une puissance de 1200 CV. Il faut par ailleurs mentionner qu’à Londres, un certain nombre d’habitants utilisaient de petits générateurs domestiques pour produire de l’électricité directement à partir du réseau d’eau courante.&lt;/p&gt;
+&lt;p&gt;Le système anversois, utilisé pour l’éclairage public, réalisait ainsi à grande échelle ce que les moteurs à eau couplés à des dynamos assuraient à une petite échelle via le réseau d’eau courante (voir le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;. Environ 66 % de l’énergie hydraulique était convertie en électricité. À son apogée, le réseau atteignit 23 km de longueur totale, pour une puissance de 1200 CV. Il faut par ailleurs mentionner qu’à Londres, un certain nombre d’habitants utilisaient de petits générateurs domestiques pour produire de l’électricité directement à partir du réseau d’eau courante.&lt;/p&gt;
 &lt;h2 id=&#34;force-motrice-hydraulique-versus-electricité&#34;&gt;Force Motrice Hydraulique versus Electricité&lt;/h2&gt;
 &lt;p&gt;Le développement fulgurant de la transmission d’électricité haute tension au tournant du siècle rendit immédiatement obsolète des systèmes comme celui d’Anvers. La partie du réseau dédiée à la production d’électricité disparut en 1900. En effet, comprimer de l’eau pour &lt;em&gt;in fine&lt;/em&gt; générer de l’électricité induit une quadruple conversion énergétique &amp;ndash; et par conséquent des pertes &amp;ndash; qui s’avèrent inutiles dès lors que la production et le transport d’électricité deviennent efficaces.&lt;/p&gt;
 &lt;p&gt;La construction de nouveaux réseaux urbains de distribution de force motrice fut par ailleurs interrompue avant la fin du siècle par le déploiement rapide de réseaux électriques désormais efficaces. &amp;ldquo;Si le développement de ces systèmes avait démarré quelques années plus tôt, leur succès aurait pu être nettement plus important&amp;rdquo; écrit Ian McNeil dans son ouvrage &lt;em&gt;Hydraulic Power&lt;/em&gt; (1972). &amp;ldquo;Quelques années plus tard, et ils n’auraient probablement jamais vu le jour.&amp;rdquo;&lt;/p&gt;
@@ -205,7 +205,7 @@
 &lt;p&gt;En tant que vecteur de transmission d’énergie, la force hydraulique présente 3 principaux inconvénients par rapport à l’électricité. Tout d’abord, l’électricité peut être transportée efficacement sur des distances beaucoup plus grandes. La transmission hydraulique était (et demeure) au moins aussi efficace que la transmission électrique pour des distances comprises entre 15 et 25 km. Au-delà, l’électricité se démarque nettement par son meilleur rendement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : [Chris Allen](http://www.geograph.org.uk/photo/2569524) 
 &lt;/figcaption&gt;
@@ -219,13 +219,13 @@
 &lt;p&gt;Exception faite du système de génération d’électricité déployé à Anvers &amp;ndash; et rapidement abandonné &amp;ndash; aucun des réseaux de type Armstrong ne fournissait d’énergie à un grand parc de machines en fonctionnement continu. (Mentionnons tout de même les &lt;a href=&#34;http://www.lowtechmagazine.com/medium-pressure-power-water-networks-in-switzerland.html&#34;&gt;réseaux hydrauliques moyenne pression en Suisse&lt;/a&gt;. Troisièmement, les pertes par friction causées par les angles et courbes des conduites étaient limitées, car un tel réseau servait généralement à alimenter un nombre relativement réduit de (très puissantes) machines.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, décembre 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, décembre 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&#39;outillage et du matériel, décembre 1864, [Bibliothèque nationale de France](http://gallica.bnf.fr/ark:/12148/bpt6k5539152w/f79.pleinepage.langFR) 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;A la fin du dix-neuvième siècle, les limites intrinsèques à la transmission d’énergie hydraulique étaient désormais très bien connues. Ceci n’empêchera pas les ingénieurs de l’époque de se saisir des potentialités uniques offertes par cette technologie, qui sont toujours d’actualité. A titre d’exemple, citons les mots de Robert Zahner, promoteur en son temps d’une autre alternative à l’électricité, &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;. Dans son livre &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890), il écrivait que :&lt;/p&gt;
+&lt;p&gt;A la fin du dix-neuvième siècle, les limites intrinsèques à la transmission d’énergie hydraulique étaient désormais très bien connues. Ceci n’empêchera pas les ingénieurs de l’époque de se saisir des potentialités uniques offertes par cette technologie, qui sont toujours d’actualité. A titre d’exemple, citons les mots de Robert Zahner, promoteur en son temps d’une autre alternative à l’électricité, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;. Dans son livre &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890), il écrivait que :&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Le caractère virtuellement incompressible de l’eau rend la méthode hydraulique impropre au transport d’énergie en quantité constante. Elle peut être mise à profit uniquement dans les cas où la force motrice doit être accumulée et utilisée à intervalles, réguliers ou non, par exemple pour soulever des poids, réaliser des opérations de poinçonnement, de forgeage par compression ainsi que d’autres travaux de nature intermittente, qui requièrent l’application d’une grande force sur une courte distance ou surface.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;La distribution de la force motrice de l’eau est &amp;ldquo;merveilleusement adaptée aux machineries lourdes et aux engins dont les opérations requièrent la concentration de puissances élevées, des mouvements de va-et-vient linéaires, et un fonctionnement intermittent&amp;rdquo; écrit quant à lui Louis Hunter dans &lt;em&gt;The Transmission of Power&lt;/em&gt; (1991). La principale qualité de l’accumulateur hydraulique est de permettre le fonctionnement de machines qui nécessitent une puissance grandement supérieure à celle que peut fournir la source d’énergie &amp;ndash; selon le principe de Pascal de &amp;ldquo;multiplication des forces&amp;rdquo;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -235,7 +235,7 @@
 &lt;p&gt;De même, les systèmes hydrauliques permettent de générer assez facilement un mouvement linéaire (translation) via le recours à des vérins hydrauliques tandis que l’énergie électrique doit recourir pour cela à de coûteux moteurs linéaires ou à des dispositifs mécaniques, de type transmission à pignon-crémaillère. C’est en ce sens que les énergies hydrauliques et électriques s’avèrent complémentaires : une des contraintes liées à la transmission hydraulique était la relative difficulté à convertir un mouvement linéaire en mouvement rotatif.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Hydraulic elevator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Hydraulic elevator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic elevator. 
 &lt;/figcaption&gt;
@@ -249,7 +249,7 @@
 &lt;p&gt;C’est en partie du fait de la conversion à l’huile que furent développés des systèmes hydrauliques embarqués, circuits autonomes généralement composés d’une pompe, d’un accumulateur et d’un circuit de bouclage, prêts à être couplés à un moteur électrique ou diesel. Dans ce type de technologies les accumulateurs hydrauliques sont en principe beaucoup plus petits, utilisent un gaz pour compresser le fluide, et ne garantissent pas une pression constante au sein du circuit.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &amp;amp;ldquo;à poids&amp;amp;rdquo; des réseaux d’eau motrice. Image : HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &amp;amp;ldquo;à poids&amp;amp;rdquo; des réseaux d’eau motrice. Image : HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &#34;à poids&#34; des réseaux d’eau motrice. Image : [HYD](http://www.hyd.com/tejas/products/products_frame.htm). 
 &lt;/figcaption&gt;
@@ -267,7 +267,7 @@
 &lt;p&gt;Comme dans le cas d’autres techniques de transmission de l’énergie mécanique &amp;ndash; tels que les &lt;a href=&#34;&#34;&gt;systèmes de pompes avec tige à saccades&lt;/a&gt; et les &lt;a href=&#34;&#34;&gt;courroies de transmission sans fin&lt;/a&gt; &amp;ndash; c’est la meilleure efficacité de la transmission électrique sur de longues distances qui a en grande partie causé la disparition des réseaux urbains de distribution de force motrice. Toutes ces alternatives à l’électricité, aujourd’hui oubliées, mériteraient d’être réétudiées aux fins d’applications spécifiques, dans la perspective d’un système énergétique plus décentralisé et basé sur les énergies renouvelables. On peut ainsi imaginer que les accumulateurs hydrauliques à poids puissent être alimentés à l’énergie solaire, éolienne, voire musculaire (à pédale).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Image : J.W. Gibson.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Image : J.W. Gibson.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : J.W. Gibson. 
 &lt;/figcaption&gt;
@@ -277,7 +277,7 @@
 &lt;p&gt;&amp;ldquo;L’électricité offre, en matière de transmission d’énergie, un grand nombre d’avantages dans la plupart des cas. Les ingénieurs électriciens idéalisent cependant la chose. Ils sont en effet bien souvent prompts à oublier d’autres technologies, lesquelles disposent, dans bon nombre de cas, d’avantages considérables par rapport à l’électricité.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;W.C. Unwin, auteur au dix-neuvième siècle de l’ouvrage le plus complet de l’époque sur la transmission d’énergie (&lt;em&gt;On the Development and Transmission of Power from Central Stations&lt;/em&gt;), exprima en 1894 des réserves similaires :&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Bien que la distribution d’électricité soit indéniablement amenée à jouer un rôle prochain dans le développement des réseaux de distribution de l’énergie, on observe ces temps-ci une tendance à ne considérer que l’option électrique, et à négliger d’autres moyens de transport de l’énergie qui ont été utilisés avec succès par le passé et seront, dans des conditions adéquates, toujours employés à l’avenir. Dans le cas de la transmission sur moyenne distance, on dispose de plusieurs alternatives crédibles, et la transmission électrique n’a pas, dans un tel cas et jusqu’à ce jour, établit sa supériorité d’aucune manière.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Le prochain épisode de notre série sur la transmission d’énergie s’intéressera à &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;, qui est probablement l’alternative à l’électricité la plus crédible.&lt;/p&gt;
+&lt;p&gt;Le prochain épisode de notre série sur la transmission d’énergie s’intéressera à &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;, qui est probablement l’alternative à l’électricité la plus crédible.&lt;/p&gt;
 &lt;p&gt;Kris De Decker&lt;/p&gt;
 &lt;p&gt;Cet article est dédié à Charles Steele. RIP.&lt;/p&gt;
 &lt;h2 id=&#34;sources-par-ordre-dimportance-&#34;&gt;Sources (par ordre d’importance) :&lt;/h2&gt;
@@ -312,15 +312,15 @@
     
     <item>
       <title>L’eau courante comme vecteur d’énergie : les moteurs à eau</title>
-      <link>https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" type="image/png" length="59868" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png" type="image/png" length="59868" ></enclosure>
       <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png&#34; alt=&#39;Un moteur à eau de la fin du XIXe siècle avec un côté du boîtier retiré. Image: Old Pelton.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/PELTON-water-motor_dithered.png&#34; alt=&#39;Un moteur à eau de la fin du XIXe siècle avec un côté du boîtier retiré. Image: Old Pelton.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un moteur à eau de la fin du XIXe siècle avec un côté du boîtier retiré. Image: [Old Pelton](http://www.oldpelton.net/). 
 &lt;/figcaption&gt;
@@ -328,20 +328,20 @@
 &lt;/div&gt;
 &lt;p&gt;Peu d’occidentaux ont à l’esprit qu&amp;rsquo;ils ont une source d&amp;rsquo;énergie de plus dans leur foyer, leur atelier ou leur usine: l&amp;rsquo;arrivée d’eau du robinet. Juste avant l&amp;rsquo;arrivée de l&amp;rsquo;électricité à la fin du XIXe siècle, les moteurs à eau étaient largement utilisés en Europe et en Amérique. Ces turbines à eau miniatures étaient connectées au robinet, et pouvaient alimenter n&amp;rsquo;importe quelle machine fonctionnant de nos jours à l&amp;rsquo;électricité.&lt;/p&gt;
 &lt;h2 id=&#34;leau-courante-comme-source-dénergie&#34;&gt;L’eau courante comme source d’énergie&lt;/h2&gt;
-&lt;p&gt;L&amp;rsquo;eau est demeurée la principale source (non-vivante) de puissance mécanique de l&amp;rsquo;Antiquité jusqu&amp;rsquo;au début du XXe siècle. Bien que la plupart des roues hydrauliques se trouvaient sur les rives des rivières (&lt;a href=&#34;https://mar-ver.github.io/fr/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;ou au sein des rivières elles-mêmes&lt;/a&gt;), certaines étaient installées à très grande distance des sources d&amp;rsquo;eau. Cela fut rendu possible par l&amp;rsquo;introduction de la transmission de puissance hydraulique : le processus par lequel l&amp;rsquo;eau d&amp;rsquo;un ruisseau est acheminée par des cours d&amp;rsquo;eau artificiels jusqu&amp;rsquo;aux roues hydrauliques construites sur le sol.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;eau est demeurée la principale source (non-vivante) de puissance mécanique de l&amp;rsquo;Antiquité jusqu&amp;rsquo;au début du XXe siècle. Bien que la plupart des roues hydrauliques se trouvaient sur les rives des rivières (&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;ou au sein des rivières elles-mêmes&lt;/a&gt;), certaines étaient installées à très grande distance des sources d&amp;rsquo;eau. Cela fut rendu possible par l&amp;rsquo;introduction de la transmission de puissance hydraulique : le processus par lequel l&amp;rsquo;eau d&amp;rsquo;un ruisseau est acheminée par des cours d&amp;rsquo;eau artificiels jusqu&amp;rsquo;aux roues hydrauliques construites sur le sol.&lt;/p&gt;
 &lt;p&gt;Pour permettre la transmission de puissance hydraulique, des canaux artificiels («canaux de transmission de puissance» ou «aqueducs») pouvaient être creusés sous terre ou dans les rochers («rigoles»). Il pouvait également s&amp;rsquo;agir de structures surélevées dont les murs étaient dressés au-dessus du terrain environnant (&amp;ldquo;canalisation&amp;rdquo;). Des réservoirs d&amp;rsquo;eau formés à l’aide de barrages pouvaient être intégrés à ces réseaux de transport de puissance, régulant le débit d&amp;rsquo;eau. Ils fournissaient aussi un moyen de stockage de l&amp;rsquo;énergie pour les moments où le niveau d’eau devenait faible, et augmentaient la &amp;ldquo;hauteur&amp;rdquo; de chute de l&amp;rsquo;eau dirigée sur une roue à eau à verticale. L&amp;rsquo;utilisation de ces canaux de transmission de puissance a augmenté tout au long de la période médiévale et s&amp;rsquo;est généralisée au cours des années 1500.&lt;/p&gt;
-&lt;p&gt;Au milieu du XIXe siècle, de nombreuses villes européennes et américaines ont introduit un système de distribution d&amp;rsquo;eau plus sophistiqué: le système public de distribution d’eau courante. Bien que cette innovation fut une réponse à un problème de santé publique (il était devenu clair que &lt;a href=&#34;https://mar-ver.github.io/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/&#34;&gt;les épidémies récurrentes étaient dues à la consommation d&amp;rsquo;eau contaminée&lt;/a&gt;), il est rapidement devenu évident que l&amp;rsquo;eau courante envoyée dans les canalisations du réseau pouvait également fournir une puissance motrice.&lt;/p&gt;
-&lt;p&gt;Les roues à eau demeuraient la source de puissance mécanique la plus importante au tout début des conduites d&amp;rsquo;eau publiques. La plupart des villes européennes et américaines avaient eu l&amp;rsquo;eau courante avant d&amp;rsquo;avoir l&amp;rsquo;électricité, il y avait donc un marché pour une source de puissance compacte qui pourrait être utilisée en ville, comme alternative aux moteurs à vapeur (qui étaient trop chers, trop dangereux et trop peu pratiques pour fonctionner à petite échelle) ou aux machines fonctionnant à la force des &lt;a href=&#34;https://mar-ver.github.io/fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;bras&lt;/a&gt; et des &lt;a href=&#34;https://mar-ver.github.io/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;jambes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Au milieu du XIXe siècle, de nombreuses villes européennes et américaines ont introduit un système de distribution d&amp;rsquo;eau plus sophistiqué: le système public de distribution d’eau courante. Bien que cette innovation fut une réponse à un problème de santé publique (il était devenu clair que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/09/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming/&#34;&gt;les épidémies récurrentes étaient dues à la consommation d&amp;rsquo;eau contaminée&lt;/a&gt;), il est rapidement devenu évident que l&amp;rsquo;eau courante envoyée dans les canalisations du réseau pouvait également fournir une puissance motrice.&lt;/p&gt;
+&lt;p&gt;Les roues à eau demeuraient la source de puissance mécanique la plus importante au tout début des conduites d&amp;rsquo;eau publiques. La plupart des villes européennes et américaines avaient eu l&amp;rsquo;eau courante avant d&amp;rsquo;avoir l&amp;rsquo;électricité, il y avait donc un marché pour une source de puissance compacte qui pourrait être utilisée en ville, comme alternative aux moteurs à vapeur (qui étaient trop chers, trop dangereux et trop peu pratiques pour fonctionner à petite échelle) ou aux machines fonctionnant à la force des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;bras&lt;/a&gt; et des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;jambes&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-2_dithered.png&#34; alt=&#39;Moteurs à eau de la fin du XIXe siècle. Images: Smokstack&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-motor-2_dithered.png&#34; alt=&#39;Moteurs à eau de la fin du XIXe siècle. Images: Smokstack&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Moteurs à eau de la fin du XIXe siècle. Images: [Smokstack](http://www.smokstak.com/forum/showthread.php?t=19878) 
 &lt;/figcaption&gt;
@@ -359,7 +359,7 @@
 &lt;p&gt;En Europe, de petits moteurs utilisant le réseau d’eau public sont apparus dans les années 1840. Aux États-Unis, ils ont été largement utilisés entre les années 1870 et 1880. Un moteur à eau se composait d&amp;rsquo;une petite turbine à eau suspendue dans un boîtier métallique. Le diamètre de la turbine pouvait être compris entre 20 et 90 cm.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/ad-motor_dithered.png&#34; alt=&#39;Une publicité de 1906 pour un moteur à eau typique aux Etats-Unis.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/ad-motor_dithered.png&#34; alt=&#39;Une publicité de 1906 pour un moteur à eau typique aux Etats-Unis.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une publicité de 1906 pour un moteur à eau typique aux Etats-Unis. 
 &lt;/figcaption&gt;
@@ -367,14 +367,14 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/hydraulic-dynamo_dithered.png&#34; alt=&#39;Une dynamo hydraulique. Image: The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/hydraulic-dynamo_dithered.png&#34; alt=&#39;Une dynamo hydraulique. Image: The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une dynamo hydraulique. Image: [The Museum of Retrotechnology](http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/watermotor/watermotor.htm). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Les plus petits moteurs à eau étaient utilisés pour faire fonctionner les machines à coudre, les scies sauteuses, les ventilateurs et autres objets à la mécanique semblable. Pour faire fonctionner les moulins à café, les congélateurs à crème glacée, les tours de bijoutier et de serrurier, les meules, les orgues d&amp;rsquo;église ou les malaxeurs et autres broyeurs de couleurs, des moteurs à eau un peu plus gros étaient recommandés. Les plus gros moteurs à eau étaient utilisés pour actionner des ascenseurs ou des scies circulaires. Dans &lt;a href=&#34;http://www.notechmagazine.com/2013/09/water-powered-washing-machine.html&#34;&gt;les machines à laver hydrauliques&lt;/a&gt;, l&amp;rsquo;eau nécessaire pour laver les vêtements était aussi capable d’alimenter la machine.&lt;/p&gt;
-&lt;p&gt;Les moteurs à eau actionnaient les machines au moyen d&amp;rsquo;une transmission de puissance mécanique, à l’instar des traditionnelles machines à vent, à eau et aux &lt;a href=&#34;https://mar-ver.github.io/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;machines à pédales de cette époque&lt;/a&gt;. L&amp;rsquo;arbre de la turbine à eau pouvait être équipé d&amp;rsquo;une poulie à courroie à laquelle différentes machines pouvaient être attachées, ou actionnait directement une seule machine.&lt;/p&gt;
+&lt;p&gt;Les moteurs à eau actionnaient les machines au moyen d&amp;rsquo;une transmission de puissance mécanique, à l’instar des traditionnelles machines à vent, à eau et aux &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;machines à pédales de cette époque&lt;/a&gt;. L&amp;rsquo;arbre de la turbine à eau pouvait être équipé d&amp;rsquo;une poulie à courroie à laquelle différentes machines pouvaient être attachées, ou actionnait directement une seule machine.&lt;/p&gt;
 &lt;p&gt;À la fin du XIXe siècle, les moteurs à eau étaient également utilisés pour alimenter les appareils électriques, en particulier les radios et les ampoules. Dans ce cas, le moteur à eau entraînait une dynamo qui produisait de l&amp;rsquo;électricité localement. Des unités compactes constituées d&amp;rsquo;une petite turbine à eau directement couplée à une dynamo étaient disponibles dans le commerce.&lt;/p&gt;
 &lt;h2 id=&#34;rendement-et-efficacité-dun-moteur-à-eau&#34;&gt;Rendement et efficacité d&amp;rsquo;un moteur à eau&lt;/h2&gt;
 &lt;p&gt;La plupart des turbines à eau obtenaient de la pression en extrayant l&amp;rsquo;énergie impulsionnelle de l&amp;rsquo;eau en mouvement, plutôt qu’à travers son poids, contrairement à la plupart des roues hydrauliques et certaines autres turbines à eau. Une innovation majeure fut la &lt;a href=&#34;https://fr.wikipedia.org/wiki/Turbine_Pelton&#34;&gt;roue Pelton&lt;/a&gt;, inventée en 1878.&lt;/p&gt;
@@ -385,7 +385,7 @@
 &lt;p&gt;La turbine Pelton est particulièrement bien adaptée pour être utilisée en combinaison avec le réseau d’eau urbain, car elle nécessite une grande différence de hauteur et un faible débit d&amp;rsquo;eau. Le rendement d’une roue Pelton peut aller jusqu&amp;rsquo;à 90%, ce qui est comparable à un gros moteur électrique moderne. Contrairement aux moteurs à vapeur, aux moteurs électriques, et à la plupart des autres turbines à eau qui deviennent moins efficaces à mesure qu&amp;rsquo;ils deviennent plus petits, l&amp;rsquo;efficacité d&amp;rsquo;une roue Pelton ne dépend pas de sa taille, ce qui la rend particulièrement intéressante pour les petites puissances.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-sewing-machine_dithered.png&#34; alt=&#39;Une machine à coudre hydraulique. Image: Knight&amp;amp;rsquo;s American Dictionary (1881).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-sewing-machine_dithered.png&#34; alt=&#39;Une machine à coudre hydraulique. Image: Knight&amp;amp;rsquo;s American Dictionary (1881).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une machine à coudre hydraulique. Image: Knight&#39;s American Dictionary (1881). 
 &lt;/figcaption&gt;
@@ -401,14 +401,14 @@
 &lt;p&gt;Le principal inconvénient des moteurs à eau était leur consommation d&amp;rsquo;eau potable en très grande quantité. À l&amp;rsquo;aide d&amp;rsquo;un tuyau de 1,25 cm de diamètre et d&amp;rsquo;une pression de 4,8 bar (70 psi), un moteur à eau consommait 30 litres d&amp;rsquo;eau par minute pour une puissance de 243 watts. Cela signifie qu&amp;rsquo;il fallait 7 440 litres d&amp;rsquo;eau pour produire 1 kWh d&amp;rsquo;énergie mécanique. Pour donner une idée : aujourd&amp;rsquo;hui un occidental consomme moins de 500 litres d&amp;rsquo;eau potable et moins de 5 kWh d&amp;rsquo;électricité par jour.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-2_dithered.png&#34; alt=&#39;Un ventilateur hydraulique. Trouvé sur Smokstak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-fan-2_dithered.png&#34; alt=&#39;Un ventilateur hydraulique. Trouvé sur Smokstak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un ventilateur hydraulique. Trouvé sur [Smokstak](http://www.smokstak.com/forum/showthread.php?t=27871). 
 &lt;/figcaption&gt;
@@ -426,7 +426,7 @@
 &lt;p&gt;La pression d&amp;rsquo;eau irrégulière n&amp;rsquo;est pas problématique pour le réseau de distribution d&amp;rsquo;eau potable, mais elle devient très désavantageuse pour l&amp;rsquo;utilisation de moteurs à eau. Si le niveau d&amp;rsquo;eau dans la tour diminue, la pression d&amp;rsquo;eau dans les tuyaux diminuera également. Pour assurer une puissance moteur suffisante en cas de pressions d&amp;rsquo;eau plus basses, les moteurs à eau devaient être plus gros et utiliser des tuyaux plus large que nécessaire, augmentant encore plus la consommation d&amp;rsquo;eau et gaspillant de l&amp;rsquo;énergie. Les pressions d&amp;rsquo;eau irrégulières réduisent l&amp;rsquo;efficacité énergétique d&amp;rsquo;un moteur à eau, car celui-ci n&amp;rsquo;atteint son efficacité maximale que lorsqu&amp;rsquo;il est ajusté de manière optimale à une pression d&amp;rsquo;eau donnée.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-egg-beater_dithered.png&#34; alt=&#39;Un batteur à œufs hydraulique. Images: Smokstak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/images/dithers/water-powered-egg-beater_dithered.png&#34; alt=&#39;Un batteur à œufs hydraulique. Images: Smokstak.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un batteur à œufs hydraulique. Images: [Smokstak](http://www.smokstak.com/forum/showthread.php?t=114931). 
 &lt;/figcaption&gt;
@@ -435,7 +435,7 @@
 &lt;h2 id=&#34;à-la-recherche-dune-meilleure-solution--laccumulateur-hydraulique&#34;&gt;À la recherche d&amp;rsquo;une meilleure solution : l&amp;rsquo;accumulateur hydraulique&lt;/h2&gt;
 &lt;p&gt;Comme mentionné précédemment, la puissance maximale produite par un moteur à eau est déterminée par deux facteurs: la pression et le débit d&amp;rsquo;eau. L&amp;rsquo;augmentation du diamètre du tuyau (et donc du débit et de la consommation d&amp;rsquo;eau) n&amp;rsquo;est qu&amp;rsquo;une façon parmi d’autres d&amp;rsquo;augmenter la puissance d&amp;rsquo;un tel moteur. Une autre façon est d&amp;rsquo;augmenter la pression d’eau, ce qui donne des résultats beaucoup plus intéressants. Par exemple, bien plus d&amp;rsquo;énergie pourrait être produite avec beaucoup moins d&amp;rsquo;eau.&lt;/p&gt;
 &lt;p&gt;Avec une pression d&amp;rsquo;eau de 48 bar (700 psi), ce qui équivaut à dix fois la pression dans le réseau d’eau public, un moteur à eau connecté à un tuyau de 1,25 cm pourrait produire une puissance de 3,3 chevaux (2500 watts d&amp;rsquo;énergie mécanique). C&amp;rsquo;est dix fois plus de puissance avec le même débit, de 30 litres d&amp;rsquo;eau par minute (ou dix fois moins d&amp;rsquo;eau pour la même puissance). Pour créer une pression d&amp;rsquo;eau de 48 bar, il faudrait impérativement construire un château d&amp;rsquo;eau de près de 500 mètres de haut. Malheureusement, c’est difficilement faisable en pratique.&lt;/p&gt;
-&lt;p&gt;Alors que les moteurs à eau ont cessé d’être utilisés au début du XXe siècle aux États-Unis, leur utilisation intensive a été poursuivie en Europe et a fait passer la transmission de puissance hydraulique à l’étape supérieure. Premièrement, des réseaux énergétiques spéciaux distribuant l&amp;rsquo;eau sous pression uniquement à des fins motrices ont été mis en place. Cela évitait d&amp;rsquo;utiliser de l&amp;rsquo;eau potable. Deuxièmement, l&amp;rsquo;Europe est passée à une pression d&amp;rsquo;eau beaucoup plus élevée (et stable) dans ses conduits, rendue possible par &lt;a href=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/&#34;&gt;l&amp;rsquo;invention de l&amp;rsquo;accumulateur hydraulique&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Alors que les moteurs à eau ont cessé d’être utilisés au début du XXe siècle aux États-Unis, leur utilisation intensive a été poursuivie en Europe et a fait passer la transmission de puissance hydraulique à l’étape supérieure. Premièrement, des réseaux énergétiques spéciaux distribuant l&amp;rsquo;eau sous pression uniquement à des fins motrices ont été mis en place. Cela évitait d&amp;rsquo;utiliser de l&amp;rsquo;eau potable. Deuxièmement, l&amp;rsquo;Europe est passée à une pression d&amp;rsquo;eau beaucoup plus élevée (et stable) dans ses conduits, rendue possible par &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/&#34;&gt;l&amp;rsquo;invention de l&amp;rsquo;accumulateur hydraulique&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;A History of Industrial Power in the U.S., 1780-1930: Vol 3: The Transmission of Power&lt;/em&gt;, Louis C. Hunter and Lynwood Bryant (1991)&lt;/li&gt;
@@ -446,15 +446,15 @@
     
     <item>
       <title>Retour aux fondamentaux : l’énergie hydraulique directe</title>
-      <link>https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydropower-1_dithered.png" type="image/png" length="54725" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydropower-1_dithered.png" type="image/png" length="54725" ></enclosure>
       <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydropower-1_dithered.png&#34; alt=&#39;Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydropower-1_dithered.png&#34; alt=&#39;Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1] 
 &lt;/figcaption&gt;
@@ -473,7 +473,7 @@
 &lt;p&gt;Malgré des améliorations substantielles qu’elles ont connues, les centrales hydroélectriques actuelles sont en fait &lt;em&gt;moins&lt;/em&gt; efficientes que celles des siècles précédents. La coupable est l’électricité. Peu après que les turbines hydrauliques aient été introduites, un autre changement se produisit. Au lieu d’être utilisées comme moteurs d’entraînement pour faire tourner des machines &lt;em&gt;directement&lt;/em&gt; (comme cela avait été le cas pendant des siècles), les turbines hydrauliques furent (et sont toujours, depuis lors) utilisées pour générer de l’électricité. Cette approche moderne a introduit un déficit énergétique, annulant par avance tous les efforts de conception ultérieurs visant à améliorer le rendement des centrales hydrauliques.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/hydro-powered-coffee-depulper-1_dithered.png&#34; alt=&#39;Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/hydro-powered-coffee-depulper-1_dithered.png&#34; alt=&#39;Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1] 
 &lt;/figcaption&gt;
@@ -490,7 +490,7 @@
 &lt;p&gt;Dans une installation hydraulique ancienne, une seule conversion d’énergie avait lieu ; une roue hydraulique convertissait l’énergie cinétique de l’eau en énergie de rotation au niveau de son arbre de transmission. Ce même arbre faisait tourner les machines, de sorte que la seule perte d’énergie significative avait lieu au niveau de la roue elle-même. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydro-coffee-depulper-3_dithered.png&#34; alt=&#39;Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydro-coffee-depulper-3_dithered.png&#34; alt=&#39;Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Dépulpeuse de café à énergie hydraulique directe. Image : Brian W. Raichle [^1] 
 &lt;/figcaption&gt;
@@ -503,7 +503,7 @@
 &lt;p&gt;Grâce à son plus haut rendement, une installation à énergie hydraulique directe est aussi moins chère qu’un système hydroélectrique. La quantité d’eau nécessaire pour générer une même puissance est moindre, ce qui signifie que l’ensemble des composants de l’installation peut être réduit en taille, en coût, et autres ressources nécessaires. Par exemple, les travaux de génie civil à mettre en place sont réduits. L’eau peut être acheminée jusqu’à la turbine à bas coût, basse pression, dans des tubes en plastique flexibles et facilement transportables, dont le diamètre est petit en comparaison des conduites forcées rigides et larges couramment utilisées dans les centrales hydroélectriques. Le raccordement souple de la conduite à la turbine simplifie également l’installation.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/hydro-powered-coffee-depulper-4_dithered.png&#34; alt=&#39;Image : Dépulpeuse de café à énergie hydraulique directe. Source : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/hydro-powered-coffee-depulper-4_dithered.png&#34; alt=&#39;Image : Dépulpeuse de café à énergie hydraulique directe. Source : Brian W. Raichle [^1]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Dépulpeuse de café à énergie hydraulique directe. Source : Brian W. Raichle [^1] 
 &lt;/figcaption&gt;
@@ -519,7 +519,7 @@ parue dans la revue &lt;em&gt;Energy for sustainable development&lt;/em&gt;, ell
 &lt;p&gt;La majeure partie de l’énergie nécessaire à la collecte et la transformation du café est fournie par du travail manuel. Une des étapes les plus fastidieuses de la transformation des grains de café est le dépulpage, qui exige beaucoup de travail. Par le passé, cette opération était restreinte, pour son exécution, à une machine à manivelle, et demandait une nuit entière. Avec l’aide de techniques à énergie hydraulique directe, le dépulpage peut désormais être réalisé en seulement deux ou trois heures.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydro-turbine_dithered.png&#34; alt=&#39;La roue en bronze de la turbine Watermotor modèle 150. Image : Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/direct-hydro-turbine_dithered.png&#34; alt=&#39;La roue en bronze de la turbine Watermotor modèle 150. Image : Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La roue en bronze de la turbine Watermotor modèle 150. Image : [Campo Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&amp;type=3). 
 &lt;/figcaption&gt;
@@ -533,7 +533,7 @@ parue dans la revue &lt;em&gt;Energy for sustainable development&lt;/em&gt;, ell
 &lt;p&gt;La puissance délivrée en sortie par la turbine peut être modulée avec précision. Comme toutes les turbines « à action », la turbine Turgo est entraînée par des jets d’eau à haute vitesse. Un collecteur divise le débit d’eau issu de la conduite en 4 tubes plus petits, les injecteurs, chacun des flux débouchant sur un des 4 jets d’eau qui entraînent la turbine.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/water-motor-in-casing_dithered.png&#34; alt=&#39;La turbine Campo Nuevo Watermotor dans sa « bâche » (boîtier de protection). Image : Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/water-motor-in-casing_dithered.png&#34; alt=&#39;La turbine Campo Nuevo Watermotor dans sa « bâche » (boîtier de protection). Image : Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  La turbine Campo Nuevo Watermotor dans sa « bâche » (boîtier de protection). Image : [Campo Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&amp;type=3). 
 &lt;/figcaption&gt;
@@ -549,7 +549,7 @@ parue dans la revue &lt;em&gt;Energy for sustainable development&lt;/em&gt;, ell
 &lt;p&gt;Un petit réservoir de stockage relié à l’unité hydraulique permet d’alimenter ponctuellement des machines plus puissantes. Etant donné que le fonctionnement de la scie circulaire requière 500 litres d’eau par minute (un débit qui bien souvent n’est pas disponible), une cuve de stockage de 6 000 litres, de dimensions 2 x 2 x 1,5 m, a été installée. Elle permet ainsi d’utiliser la scie en continu pendant 15 minutes. Cette puissance additionnelle disponible ajoute jusqu’à 2 h de temps d’utilisation sur une journée de travail de 10 h.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/water-motor-running-table-saw_dithered.png&#34; alt=&#39;Installation avec une scie circulaire et un générateur alimentés par un moteur hydraulique. Image : Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/water-motor-running-table-saw_dithered.png&#34; alt=&#39;Installation avec une scie circulaire et un générateur alimentés par un moteur hydraulique. Image : Campo Nuevo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Installation avec une scie circulaire et un générateur alimentés par un moteur hydraulique. Image : [Campo Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&amp;type=3). 
 &lt;/figcaption&gt;
@@ -563,7 +563,7 @@ parue dans la revue &lt;em&gt;Energy for sustainable development&lt;/em&gt;, ell
 &lt;p&gt;Dans des villages isolés au Népal, nombreux sont les paysans qui utilisent des types de moulins à eau de tous types pour moudre leurs grains. Environ 25 000 à 30 000 moulins sont encore en fonctionnement aujourd’hui. Dans le cas du Népal, l’objectif n’est donc pas de réintroduire l’énergie hydraulique directe, mais bien de faire en sorte que son usage &lt;em&gt;perdure&lt;/em&gt;. C’est pourquoi l’ONG &lt;a href=&#34;http://www.crtnepal.org/&#34;&gt;Central for Rural Technology Nepal&lt;/a&gt; (CRT/N) mène un programme de modernisation de ces moulins. Une fois améliorées, les roues hydrauliques peuvent moudre le grain plus efficacement et voient leur durée de vie allongée, ce qui les rend plus compétitifs vis-à-vis des moulins à moteur diesel.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/improved-water-mill_dithered.png&#34; alt=&#39;Au Népal, CRT/N a augmenté le rendement des moulins à eau en remplaçant les roues en bois par des équivalents en métal, de facture plus précise. Image : CRT/N.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/improved-water-mill_dithered.png&#34; alt=&#39;Au Népal, CRT/N a augmenté le rendement des moulins à eau en remplaçant les roues en bois par des équivalents en métal, de facture plus précise. Image : CRT/N.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Au Népal, CRT/N a augmenté le rendement des moulins à eau en remplaçant les roues en bois par des équivalents en métal, de facture plus précise. Image : [CRT/N](http://www.crtnepal.org/). 
 &lt;/figcaption&gt;
@@ -578,7 +578,7 @@ parue dans la revue &lt;em&gt;Energy for sustainable development&lt;/em&gt;, ell
 &lt;p&gt;L’ONG a modernisé 5 700 moulins entre 1990 et 2009. Dans certains cas, (237 pour être précis), les moulins existants ont en outre été adaptés, de manière à ce qu’ils puissent faire fonctionner d’autres machines, telles que des pressoirs à huile, décortiqueuses de riz, machines à coudre, ou un générateur électrique. Pour parvenir à cette modularité, il faut installer un arbre plus long, qui dissocie la roue des meules. Au lieu d’être directement relié aux meules, le long arbre principal est relié par une courroie à un second arbre pour le meulage, laissant ainsi la possibilité à d’autres machines d’être alimentées à l’énergie hydraulique directe.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/improved-water-mill-4_dithered.png&#34; alt=&#39;Un moulin peut faire fonctionner différentes machines, telle qu’une décortiqueuse de riz, via une courroie de transmission sur un arbre long. Image : CRT/N.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/08/back-to-basics-direct-hydropower/images/dithers/improved-water-mill-4_dithered.png&#34; alt=&#39;Un moulin peut faire fonctionner différentes machines, telle qu’une décortiqueuse de riz, via une courroie de transmission sur un arbre long. Image : CRT/N.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un moulin peut faire fonctionner différentes machines, telle qu’une décortiqueuse de riz, via une courroie de transmission sur un arbre long. Image : [CRT/N](http://www.crtnepal.org/). 
 &lt;/figcaption&gt;
@@ -589,7 +589,7 @@ Le projet de modernisation des moulins à eau est toujours &lt;a href=&#34;http:
 &lt;h2 id=&#34;le-meilleurs-des-deux-mondes&#34;&gt;Le meilleurs des deux mondes&lt;/h2&gt;
 &lt;p&gt;Ce plaidoyer en faveur de l’énergie hydraulique directe ne signifie en aucun cas qu’il faudrait arrêter d’utiliser l’électricité. Certains usages sont impossibles à alimenter en énergie mécanique, à commencer par l’éclairage et les équipements électroniques. De plus, nombre d’habitants de pays en développement n’ont aucun accès à l’électricité, ce qui les oblige à recourir à des lampes à pétrole, néfastes à leur santé.&lt;/p&gt;
 &lt;p&gt;Bien au contraire, les exemples décrits plus haut montrent la pertinence qu’il y aurait à combiner les deux approches. On obtiendra ainsi les meilleurs résultats avec une installation hydraulique produisant de l’énergie mécanique pour alimenter des machines, et stockant de l’énergie électrique dans des batteries pour l’éclairage et les autres usages quand la puissance mécanique n’est pas requise (par exemple la nuit). En comparaison avec un système purement mécanique, celui-ci offrirait des avantages supplémentaires non négligeables. En comparaison avec un système purement électrique, il fournirait une puissance plus importante, avec un meilleur rendement.&lt;/p&gt;
-&lt;p&gt;Mais les moteurs hydrauliques peuvent aussi fonctionner dans le cas où vous ne disposeriez pas d’un cours d’eau à proximité de votre maison, ferme ou manufacture. C’est précisément l’objet du prochain article : &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;L’eau courante comme vecteur d’énergie : les moteurs à eau&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mais les moteurs hydrauliques peuvent aussi fonctionner dans le cas où vous ne disposeriez pas d’un cours d’eau à proximité de votre maison, ferme ou manufacture. C’est précisément l’objet du prochain article : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;L’eau courante comme vecteur d’énergie : les moteurs à eau&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

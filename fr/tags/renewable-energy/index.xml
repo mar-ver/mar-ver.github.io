@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://mar-ver.github.io/fr/tags/renewable-energy/</link>
+    <link>https://lowtechmag.gitlab.io/solar/fr/tags/renewable-energy/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/fr/tags/renewable-energy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/tags/renewable-energy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Construire un vélo générateur pour la chaleur et l&#39;électricité</title>
-      <link>https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png" type="image/png" length="43593" ></enclosure>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image : Le vélo générateur dans le salon.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-generator-living-room_dithered.png&#34; alt=&#39;Image : Le vélo générateur dans le salon.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le vélo générateur dans le salon. 
 &lt;/figcaption&gt;
@@ -95,13 +95,13 @@
 &lt;h3 id=&#34;essai-et-erreur&#34;&gt;Essai et erreur&lt;/h3&gt;
 &lt;p&gt;Le vélo générateur et le tableau de bord ont été conçus et réalisés en collaboration avec &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; dans le cadre de son stage au Low-tech Magazine. Nous n&amp;rsquo;avons pas pu trouver les informations techniques que nous recherchions, nous avons donc suivi une approche par essais et erreurs. Cela a pris du temps et a coûté cher, mais nous en avons tiré des enseignements. Nous avons fait beaucoup d&amp;rsquo;erreurs que vous pouvez éviter.&lt;/p&gt;
 &lt;p&gt;Nous ne sommes pas ingénieurs, et &lt;a href=&#34;#comments&#34;&gt;nous sommes ouverts aux commentaires techniques&lt;/a&gt; concernant les améliorations à apporter. Sur la base de ces commentaires et d&amp;rsquo;autres expériences avec le vélo générateur - qui est maintenant utilisé depuis un mois - nous mettrons à jour et enrichirons le manuel. Notre design peut être ajusté et adapté à vos besoins.&lt;/p&gt;
-&lt;p&gt;Les nouveaux lecteurs de ce site seront peut-être intéressés par certains articles antérieurs sur lesquels ce projet de générateur se base : &lt;a href=&#34;https://mar-ver.github.io/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;La brève histoire des premières machines à pédales&lt;/a&gt; (2018).&lt;/p&gt;
+&lt;p&gt;Les nouveaux lecteurs de ce site seront peut-être intéressés par certains articles antérieurs sur lesquels ce projet de générateur se base : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;La brève histoire des premières machines à pédales&lt;/a&gt; (2018).&lt;/p&gt;
 &lt;p&gt;Il est évident qu&amp;rsquo;un vélo générateur ne pourra pas alimenter un foyer qui consomme beaucoup - à moins de trouver le nombre d&amp;rsquo;esclaves suffisant. Ce manuel est destiné aux personnes ayant un mode de vie économe en énergie.&lt;/p&gt;
 &lt;h2 id=&#34;span-idbikegeneratorle-vélo-générateurspan&#34;&gt;&lt;span id=&#34;bikegenerator&#34;&gt;Le vélo générateur&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Il y a de nombreuses façons de construire un vélo générateur, et chacune a ses avantages et ses inconvénients. Nous avons conçu notre générateur à pédales à partir d’un vélo d’appartement vintage des années 1950. Notre vélo a été fabriqué par la marque espagnole BH mais des modèles vintage similaires peuvent être trouvés partout dans le monde industrialisé.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/vintage-exercise-bike_dithered.png&#34; alt=&#39;Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le vélo d’appartement des années 1950. Avec sa lourde roue d’inertie à l’avant. 
 &lt;/figcaption&gt;
@@ -114,7 +114,7 @@
 &lt;p&gt;Notre approche permet également de construire un générateur à pédales avec des outils simples et des compétences de base. Il n&amp;rsquo;est pas nécessaire de couper ou de souder du métal - le vélo reste tel quel. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Il n&amp;rsquo;est pas non plus nécessaire de construire une structure de support - le vélo en possède déjà une. Il suffit d&amp;rsquo;ajouter un système d&amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;rsquo;inertie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;amp;rsquo;inertie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&amp;amp;rsquo;inertie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le système d&#39;entraînement par friction - un petit galet fixé à l’arbre du générateur et pressé contre la roue d&#39;inertie. 
 &lt;/figcaption&gt;
@@ -130,14 +130,14 @@
 &lt;p&gt;En tant que “cycliste énergétique”, vous devez adapter la tension (V) et le courant (A) de l&amp;rsquo;appareil que vous alimentez ou rechargez. Mais c&amp;rsquo;est plus facile à dire qu&amp;rsquo;à faire. Les appareils électriques fonctionnent à des tensions différentes et ont des besoins en énergie très différents. La tension correspond à la &lt;em&gt;vitesse&lt;/em&gt; à laquelle vous pédalez et le courant à la &lt;em&gt;force&lt;/em&gt; avec laquelle vous pédalez.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image : le vélo générateur en fonction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/kris-reading_dithered.png&#34; alt=&#39;Image : le vélo générateur en fonction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : le vélo générateur en fonction. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;span-idvolt1-adapter-la-tensionspan&#34;&gt;&lt;span id=&#34;volt&#34;&gt;1. Adapter la tension&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Un vélo générateur produit du &lt;a href=&#34;https://mar-ver.github.io/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;courant continu basse tension&lt;/a&gt;, comme un système photovoltaïque (12/24V). La tension de sortie dépend de la vitesse de rotation du vélo générateur. La vitesse du pédalage et le rapport de vitesse déterminent la vitesse du générateur. Le manuel explique en détail &lt;a href=&#34;#gearratio&#34;&gt;comment définir le bon rapport de transmission&lt;/a&gt;. En résumé, vous devez mesurer le diamètre extérieur de trois pièces (pignon de la pédale, pignon de la roue d&amp;rsquo;inertie, roue d&amp;rsquo;inertie) et utiliser ces données pour calculer la taille correcte du galet pour la tension de sortie attendue.&lt;/p&gt;
+&lt;p&gt;Un vélo générateur produit du &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;courant continu basse tension&lt;/a&gt;, comme un système photovoltaïque (12/24V). La tension de sortie dépend de la vitesse de rotation du vélo générateur. La vitesse du pédalage et le rapport de vitesse déterminent la vitesse du générateur. Le manuel explique en détail &lt;a href=&#34;#gearratio&#34;&gt;comment définir le bon rapport de transmission&lt;/a&gt;. En résumé, vous devez mesurer le diamètre extérieur de trois pièces (pignon de la pédale, pignon de la roue d&amp;rsquo;inertie, roue d&amp;rsquo;inertie) et utiliser ces données pour calculer la taille correcte du galet pour la tension de sortie attendue.&lt;/p&gt;
 &lt;p&gt;Une fois que vous avez défini le rapport de transmission, vous pouvez produire une tension plus ou moins élevée en pédalant plus ou moins vite, respectivement. Cela permet d&amp;rsquo;alimenter des appareils à des tensions différentes. Cependant, en supposant que votre générateur produise une tension de 12 V à une vitesse de pédalage moyenne, vous devrez pédaler au ralenti pour produire une tension de 5 V, et il sera difficile de garder les pieds sur les pédales pour produire une tension de 24 V. Des vitesses permettraient de faire varier plus facilement la tension de sortie, mais notre vélo n&amp;rsquo;en a pas.&lt;/p&gt;
 &lt;p&gt;Faire fonctionner un appareil directement à partir du générateur peut être une solution pratique s&amp;rsquo;il a besoin d&amp;rsquo;environ 12V. La roue d&amp;rsquo;inertie permet de maintenir une tension de sortie relativement stable. Cependant, les appareils électroniques et les batteries ont besoin d&amp;rsquo;une tension exacte. Sinon, ils risquent de ne pas fonctionner ou d&amp;rsquo;être endommagés. De plus, faire fonctionner un appareil directement à partir du générateur vous empêche d&amp;rsquo;alimenter ou de charger simultanément plusieurs appareils avec des tensions différentes - ce qui est une solution à notre prochain problème.&lt;/p&gt;
 &lt;h3 id=&#34;span-idcurrent2-adapter-le-courantspan&#34;&gt;&lt;span id=&#34;current&#34;&gt;2. Adapter le courant&lt;/span&gt;&lt;/h3&gt;
@@ -147,13 +147,13 @@
 &lt;p&gt;Les installations solaires photovoltaïques non raccordées au réseau rechargent souvent des batteries au plomb. L&amp;rsquo;énergie humaine ne dépend ni du temps ni de l&amp;rsquo;heure de la journée, mais il peut être pratique de la stocker dans une batterie pour une utilisation ultérieure.&lt;/p&gt;
 &lt;p&gt;En se basant sur une production de 100 watts de puissance, il est facile de faire des calculs trop optimistes sur le temps nécessaire pour recharger une batterie. Par exemple, si une batterie a une capacité de 100 Wh, vous pouvez la recharger en une heure, non ? Pas du tout. Même si vous pouviez maintenir une puissance de sortie de 100 watts pendant une heure, la batterie limite la quantité de puissance que vous pouvez lui fournir. Il n&amp;rsquo;est pas possible de faire une courte séance d&amp;rsquo;entraînement pour charger la batterie plus vite qu&amp;rsquo;elle ne vous le permet.&lt;/p&gt;
 &lt;p&gt;Les batteries au plomb se rechargent entre 10 et 25% de leur capacité maximale - et nous avons atteint 10% pour toutes les batteries testées. Pour recharger une batterie de voiture au plomb (environ 60-80Ah), le générateur doit produire 85-115 watts, ce qui représente un effort conséquent. Une recharge complète (12V à 13V) prendra cinq heures, sans compter les pertes de charge et de décharge.&lt;/p&gt;
-&lt;p&gt;Cependant, pour des batteries au plomb plus petites, la faible intensité demandée est problématique. Comme il n&amp;rsquo;y a que peu ou pas de résistance sur les pédales (donc pas vraiment d’effort), c&amp;rsquo;est très inefficace (le générateur a des pertes d&amp;rsquo;énergie élevées), et pourtant, cela prend autant de temps que de recharger une batterie beaucoup plus grande. Par exemple, la recharge d&amp;rsquo;une batterie 12V d&amp;rsquo;une capacité de stockage de 14Ah (semblable à celle qui alimente le &lt;a href=&#34;https://mar-ver.github.io/fr/about.html&#34;&gt;site web à énergie solaire&lt;/a&gt;) ne nécessite que 1,4A. Cela ne représente pas un gros effort (20W).&lt;/p&gt;
+&lt;p&gt;Cependant, pour des batteries au plomb plus petites, la faible intensité demandée est problématique. Comme il n&amp;rsquo;y a que peu ou pas de résistance sur les pédales (donc pas vraiment d’effort), c&amp;rsquo;est très inefficace (le générateur a des pertes d&amp;rsquo;énergie élevées), et pourtant, cela prend autant de temps que de recharger une batterie beaucoup plus grande. Par exemple, la recharge d&amp;rsquo;une batterie 12V d&amp;rsquo;une capacité de stockage de 14Ah (semblable à celle qui alimente le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/about.html&#34;&gt;site web à énergie solaire&lt;/a&gt;) ne nécessite que 1,4A. Cela ne représente pas un gros effort (20W).&lt;/p&gt;
 &lt;p&gt;Le même problème se pose avec les appareils USB. L&amp;rsquo;utilisation la plus souvent mentionnée d&amp;rsquo;un vélo générateur est la recharge d&amp;rsquo;un smartphone. Or, la recharge d&amp;rsquo;un smartphone nécessite très peu d&amp;rsquo;énergie (5-10W) par rapport à ce que le vélo peut produire. (Certains modèles plus récents permettent une recharge plus rapide). On pourrait penser que la recharge d&amp;rsquo;une batterie de téléphone de 10Wh ne prendrait que 6 minutes à une puissance maximale de 100W, mais cela prend tout autant de temps que lorsque vous la branchez à une prise murale. Un chargeur manuel beaucoup plus petit serait suffisant pour charger un smartphone, mais dans ce cas, vous n&amp;rsquo;avez pas les mains libres.&lt;/p&gt;
 &lt;h2 id=&#34;span-iddashboardle-tableau-de-bord--comment-relever-ces-défis-span&#34;&gt;&lt;span id=&#34;dashboard&#34;&gt;Le tableau de bord : comment relever ces défis ?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Pour éviter tous ces problèmes, nous avons construit un tableau de bord qui répartit l&amp;rsquo;énergie du vélo générateur vers des circuits commutables avec différentes tensions pour faire fonctionner divers appareils. Vous pouvez utiliser ces circuits séparément ou simultanément, ce qui permet de régler précisément la résistance des pédales pour un effort optimal. Vous pouvez aussi contrôler directement certains appareils en réduisant leur demande de puissance.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image : Le tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-bike-generator-2_dithered.png&#34; alt=&#39;Image : Le tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le tableau de bord. 
 &lt;/figcaption&gt;
@@ -161,7 +161,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image : Le tableau de bord vu de côté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/dashboard-from-side_dithered.png&#34; alt=&#39;Image : Le tableau de bord vu de côté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le tableau de bord vu de côté. 
 &lt;/figcaption&gt;
@@ -182,7 +182,7 @@
 &lt;/ul&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;avant du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/frontpanel_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;avant du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : L&#39;avant du tableau de bord. 
 &lt;/figcaption&gt;
@@ -190,7 +190,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;arrière du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-dashboard_dithered.png&#34; alt=&#39;Image : L&amp;amp;rsquo;arrière du tableau de bord.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : L&#39;arrière du tableau de bord. 
 &lt;/figcaption&gt;
@@ -207,13 +207,13 @@
 &lt;p&gt;Un vélo générateur est plus adapté pour alimenter directement des appareils électriques - sans stocker d&amp;rsquo;énergie dans une batterie d’abord. Cela permet d&amp;rsquo;éviter les pertes à la charge et à la décharge (jusqu&amp;rsquo;à 30 % dans les batteries au plomb) et de réduire la complexité et les coûts de mise en place d&amp;rsquo;une “centrale électrique humaine” fonctionnelle. Pour cela, notre tableau de bord dispose de plusieurs circuits de 12V et d&amp;rsquo;un circuit de 220V.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image : Certains des appareils que nous avons testés : compresseur d&amp;amp;rsquo;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/mosaic-bike-2_dithered.png&#34; alt=&#39;Image : Certains des appareils que nous avons testés : compresseur d&amp;amp;rsquo;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Certains des appareils que nous avons testés : compresseur d&#39;air, lampes, réfrigérateur Peltier, imprimante matricielle, bouilloire électrique, fer à souder. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Parmi les appareils de 12V que nous avons alimentés directement, on peut citer un réfrigérateur expérimental Peltier, une bouilloire, des ordinateurs portables - alimentés par un adaptateur 12V, sans batterie ou avec la batterie à 100% - des lampes, un fer à souder, une perceuse électrique et une ponceuse. Il existe de nombreux autres appareils 12V, principalement destinés aux chauffeurs routiers et aux automobilistes, aux marins, aux personnes vivant en caravane (et aux &lt;a href=&#34;https://mar-ver.github.io/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;bricoleurs low-tech qui connectent leur appartement comme s&amp;rsquo;il s&amp;rsquo;agissait d&amp;rsquo;un voilier&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Parmi les appareils de 12V que nous avons alimentés directement, on peut citer un réfrigérateur expérimental Peltier, une bouilloire, des ordinateurs portables - alimentés par un adaptateur 12V, sans batterie ou avec la batterie à 100% - des lampes, un fer à souder, une perceuse électrique et une ponceuse. Il existe de nombreux autres appareils 12V, principalement destinés aux chauffeurs routiers et aux automobilistes, aux marins, aux personnes vivant en caravane (et aux &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;bricoleurs low-tech qui connectent leur appartement comme s&amp;rsquo;il s&amp;rsquo;agissait d&amp;rsquo;un voilier&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Voici l’ensemble des appareils que nous avons alimentés ou chargés jusqu&amp;rsquo;à présent :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tous les types d&amp;rsquo;appareils USB (5V)&lt;/li&gt;
@@ -238,30 +238,30 @@
 &lt;p&gt;Transformer un outil alimenté par batterie en un outil filaire peut être assez simple. Après avoir retiré la batterie, repérez les deux pôles positifs et négatifs et soudez-y deux fils. Notez que vous n&amp;rsquo;avez qu&amp;rsquo;une seule chance de déterminer lequel est positif ou négatif. Pour la perceuse électrique, cela a été très facile à trouver. Pour la ponceuse, nous avons demandé conseil car le câblage est plus complexe. Les outils électriques de 12 V dont les batteries sont manquantes ou hors d&amp;rsquo;usage se trouvent d&amp;rsquo;occasion à bas prix.&lt;/p&gt;
 &lt;p&gt;Une perceuse électrique filaire est peut-être l&amp;rsquo;outil le plus polyvalent. Vous pouvez l&amp;rsquo;utiliser avec un batteur (pour les œufs), une brosse rigide (pour enlever la peinture ou nettoyer des objets), une meule (pour aiguiser les couteaux) ou un disque à polir (pour faire briller le chrome ou d&amp;rsquo;autres métaux et matériaux). Les outils de précision pour la bijouterie ou le modélisme se combinent également bien avec la transmission directe par pédales. Nous en sommes encore aux premiers essais de transformation et d&amp;rsquo;utilisation d&amp;rsquo;outils électriques filaires de 12V.&lt;/p&gt;
 &lt;h3 id=&#34;outils-manuels-versus-outils-alimentés-par-pédales&#34;&gt;Outils manuels versus outils alimentés par pédales&lt;/h3&gt;
-&lt;p&gt;En comparaison avec les &lt;a href=&#34;https://mar-ver.github.io/fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;outils manuels mécaniques&lt;/a&gt;, les équipements électriques actionnés par un humain sont moins efficaces sur le plan énergétique. Le fait de passer à l&amp;rsquo;électricité entraîne des pertes d&amp;rsquo;énergie supplémentaires - au niveau du générateur, du convertisseur, des câbles et de la transmission. Cependant, ces pertes sont plus que compensées par une utilisation plus efficace de la source d&amp;rsquo;énergie humaine. Nos jambes sont environ quatre fois plus fortes que nos bras.&lt;/p&gt;
+&lt;p&gt;En comparaison avec les &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/12/hand-powered-drilling-tools-and-machines/&#34;&gt;outils manuels mécaniques&lt;/a&gt;, les équipements électriques actionnés par un humain sont moins efficaces sur le plan énergétique. Le fait de passer à l&amp;rsquo;électricité entraîne des pertes d&amp;rsquo;énergie supplémentaires - au niveau du générateur, du convertisseur, des câbles et de la transmission. Cependant, ces pertes sont plus que compensées par une utilisation plus efficace de la source d&amp;rsquo;énergie humaine. Nos jambes sont environ quatre fois plus fortes que nos bras.&lt;/p&gt;
 &lt;p&gt;Le recours à l&amp;rsquo;électricité est également plus ergonomique car il ménage les articulations et les muscles de la main. Fixer des dizaines de vis à la main est peut-être plus écologique que d&amp;rsquo;utiliser une perceuse électrique, mais cela peut vous abîmer le poignet. Un vélo générateur vous permet donc de travailler plus rapidement et de manière plus ergonomique sans dépendre d&amp;rsquo;une source d&amp;rsquo;énergie externe.&lt;/p&gt;
-&lt;p&gt;Les outils manuels mécaniques ont quand même quelques avantages : ils sont silencieux, plus facilement transportables et leur fabrication consomme moins d&amp;rsquo;énergie. Une troisième option combine ces avantages : &lt;a href=&#34;https://mar-ver.github.io/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;les équipements mécaniques à pédale&lt;/a&gt;. Cependant, il est difficile de construire un vélo stationnaire compact qui puisse alimenter de nombreux outils différents. Nous avons conçu le vélo générateur pour qu&amp;rsquo;il soit aussi compact et multifonctionnel que possible.&lt;/p&gt;
+&lt;p&gt;Les outils manuels mécaniques ont quand même quelques avantages : ils sont silencieux, plus facilement transportables et leur fabrication consomme moins d&amp;rsquo;énergie. Une troisième option combine ces avantages : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/pedal-powered-farms-and-factories-the-forgotten-future-of-the-stationary-bicycle/&#34;&gt;les équipements mécaniques à pédale&lt;/a&gt;. Cependant, il est difficile de construire un vélo stationnaire compact qui puisse alimenter de nombreux outils différents. Nous avons conçu le vélo générateur pour qu&amp;rsquo;il soit aussi compact et multifonctionnel que possible.&lt;/p&gt;
 &lt;p&gt;Les outils électriques peuvent avoir des consommations élevées, mais cela ne doit pas vous arrêter. La ponceuse n&amp;rsquo;a besoin que de 30 watts au maximum, mais notre perceuse électrique peut demander jusqu&amp;rsquo;à 20A de courant - ce qui est trop élevé pour le vélo générateur et le tableau de bord (12Vx20A=240W). Cependant, la perceuse consomme rarement cette énergie, sauf si vous l&amp;rsquo;utilisez pour percer des matériaux durs.&lt;/p&gt;
 &lt;p&gt;La consommation d&amp;rsquo;énergie d&amp;rsquo;un outil électrique augmente chaque fois que le couple augmente, ce qui vous permet de sentir quand le foret a traversé le matériau ou quand la vis a été fixée ou desserrée. Vous pouvez manipuler l&amp;rsquo;outil aussi précisément avec vos pieds qu&amp;rsquo;avec vos mains.&lt;/p&gt;
 &lt;h3 id=&#34;span-idkettle2-bouilloire-électriquespan&#34;&gt;&lt;span id=&#34;kettle&#34;&gt;2. Bouilloire électrique&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Le chauffage et la climatisation électriques consomment beaucoup d&amp;rsquo;énergie. Les alternatives, comme la &lt;a href=&#34;https://mar-ver.github.io/fr/2019/12/too-much-combustion-too-little-fire/&#34;&gt;chaleur solaire directe&lt;/a&gt;, sont plus écologiques. Cependant, des systèmes de chauffage et de refroidissement peuvent facilement être intégrés à votre séance d&amp;rsquo;exercice et produire des résultats.&lt;/p&gt;
+&lt;p&gt;Le chauffage et la climatisation électriques consomment beaucoup d&amp;rsquo;énergie. Les alternatives, comme la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/12/too-much-combustion-too-little-fire/&#34;&gt;chaleur solaire directe&lt;/a&gt;, sont plus écologiques. Cependant, des systèmes de chauffage et de refroidissement peuvent facilement être intégrés à votre séance d&amp;rsquo;exercice et produire des résultats.&lt;/p&gt;
 &lt;p&gt;Nous avons appliqué ce principe avec une bouilloire électrique et un réfrigérateur expérimental Peltier. Les deux appareils sont très bien isolés. Par conséquent, la conversion de l&amp;rsquo;énergie humaine en chaleur ou en froid en fait une autre forme de stockage d&amp;rsquo;énergie - sans tous les inconvénients des batteries.&lt;/p&gt;
 &lt;p&gt;Les bouilloires électriques connectées au réseau sont souvent très puissantes et font bouillir l&amp;rsquo;eau en quelques minutes, voire quelques secondes. Faire bouillir de l&amp;rsquo;eau à l&amp;rsquo;aide d&amp;rsquo;un vélo générateur prendra beaucoup plus de temps, mais c&amp;rsquo;est tout à fait possible. Nous avons acheté une bouilloire électrique de 12 V avec un réservoir isotherme d&amp;rsquo;un litre. Au cours d&amp;rsquo;un test, faire bouillir de l&amp;rsquo;eau pour une tasse de thé a pris un peu plus d&amp;rsquo;une heure à une puissance moyenne de 60W.&lt;/p&gt;
-&lt;p&gt;La bouilloire électrique peut également servir à préparer des &lt;a href=&#34;https://mar-ver.github.io/fr/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;bouillottes pour un confort thermique&lt;/a&gt;. Cela nécessite plus d&amp;rsquo;eau qu&amp;rsquo;une tasse de thé, mais à une température plus basse d&amp;rsquo;environ 60 degrés Celsius. Lors d&amp;rsquo;un test, faire chauffer un litre d&amp;rsquo;eau pour une (petite) bouillotte a pris 1 heure et 30 minutes à une puissance moyenne de 60 watts.&lt;/p&gt;
-&lt;p&gt;Après cet effort, la dernière chose dont vous avez besoin est une bouillotte. Encore plus fort, pendant cet effort, vous vous transformez en véritable chauffage d&amp;rsquo;une puissance de plusieurs centaines de watts, et vous pouvez augmenter la température de l&amp;rsquo;air dans une petite pièce. L&amp;rsquo;élément chauffant est en quelque sorte intégré au vélo générateur : c&amp;rsquo;est la personne qui l&amp;rsquo;utilise. Cependant, la bouilloire isotherme peut être placée dans une &lt;a href=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;marmite norvégienne&lt;/a&gt; et être utilisée jusqu&amp;rsquo;à 24 heures plus tard lorsque vous ne bougez pas et que vous avez besoin de vous réchauffer.&lt;/p&gt;
+&lt;p&gt;La bouilloire électrique peut également servir à préparer des &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/01/the-revenge-of-the-hot-water-bottle/&#34;&gt;bouillottes pour un confort thermique&lt;/a&gt;. Cela nécessite plus d&amp;rsquo;eau qu&amp;rsquo;une tasse de thé, mais à une température plus basse d&amp;rsquo;environ 60 degrés Celsius. Lors d&amp;rsquo;un test, faire chauffer un litre d&amp;rsquo;eau pour une (petite) bouillotte a pris 1 heure et 30 minutes à une puissance moyenne de 60 watts.&lt;/p&gt;
+&lt;p&gt;Après cet effort, la dernière chose dont vous avez besoin est une bouillotte. Encore plus fort, pendant cet effort, vous vous transformez en véritable chauffage d&amp;rsquo;une puissance de plusieurs centaines de watts, et vous pouvez augmenter la température de l&amp;rsquo;air dans une petite pièce. L&amp;rsquo;élément chauffant est en quelque sorte intégré au vélo générateur : c&amp;rsquo;est la personne qui l&amp;rsquo;utilise. Cependant, la bouilloire isotherme peut être placée dans une &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;marmite norvégienne&lt;/a&gt; et être utilisée jusqu&amp;rsquo;à 24 heures plus tard lorsque vous ne bougez pas et que vous avez besoin de vous réchauffer.&lt;/p&gt;
 &lt;h3 id=&#34;span-idpeltier3-réfrigérateur-peltierspan&#34;&gt;&lt;span id=&#34;peltier&#34;&gt;3. Réfrigérateur Peltier&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Les réfrigérateurs de 12V qu’on trouve dans le commerce sont chers. Après avoir fait des recherches sur les &lt;a href=&#34;https://mar-ver.github.io/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;générateurs thermoélectriques&lt;/a&gt; (GTE), l&amp;rsquo;idée d&amp;rsquo;un réfrigérateur Peltier est née. Un réfrigérateur Peltier est en fait une sorte de marmite norvégienne bien isolée sur laquelle est installé un GTE. Si on applique du courant, le module devient chaud d&amp;rsquo;un côté et froid de l&amp;rsquo;autre, ce qui refroidit l&amp;rsquo;intérieur de la boîte. Le refroidissement par GTE n&amp;rsquo;est pas particulièrement efficient. Cependant, il est silencieux, fonctionne sans aucun gaz de refroidissement dangereux et est le moyen le plus simple de fabriquer soi-même un réfrigérateur.&lt;/p&gt;
+&lt;p&gt;Les réfrigérateurs de 12V qu’on trouve dans le commerce sont chers. Après avoir fait des recherches sur les &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;générateurs thermoélectriques&lt;/a&gt; (GTE), l&amp;rsquo;idée d&amp;rsquo;un réfrigérateur Peltier est née. Un réfrigérateur Peltier est en fait une sorte de marmite norvégienne bien isolée sur laquelle est installé un GTE. Si on applique du courant, le module devient chaud d&amp;rsquo;un côté et froid de l&amp;rsquo;autre, ce qui refroidit l&amp;rsquo;intérieur de la boîte. Le refroidissement par GTE n&amp;rsquo;est pas particulièrement efficient. Cependant, il est silencieux, fonctionne sans aucun gaz de refroidissement dangereux et est le moyen le plus simple de fabriquer soi-même un réfrigérateur.&lt;/p&gt;
 &lt;p&gt;Le réfrigérateur GTE est un prototype récent, qui doit encore être testé et amélioré. L&amp;rsquo;alimentation d&amp;rsquo;un GTE à pleine puissance nécessite environ 60 watts (12Vx5A), mesurés à la sortie du générateur. C&amp;rsquo;est un bon effort et le variateur permet de diminuer avec précision la résistance au niveau des pédales. Cependant, on s&amp;rsquo;est vite rendu compte qu&amp;rsquo;un GTE n&amp;rsquo;est pas suffisant pour la taille du compartiment de refroidissement. Nous en ajouterons un deuxième pour un effort plus important (60-100 watts).&lt;/p&gt;
 &lt;h3 id=&#34;appareils-ménagers-220v&#34;&gt;Appareils ménagers (220V)&lt;/h3&gt;
 &lt;p&gt;Notre tableau de bord comprend également un circuit 220V. Cela le rend compatible avec les appareils alimentés par le réseau électrique (110V aux États-Unis, 240V au Royaume-Uni). Le circuit 220V nécessite un onduleur. L&amp;rsquo;onduleur est trop grand pour être inclus dans le tableau de bord, nous l&amp;rsquo;avons donc placé dans une boîte sur le porte-bagages que nous avons fabriqué à l&amp;rsquo;avant.&lt;/p&gt;
-&lt;p&gt;Une prise 220V n&amp;rsquo;est pas nécessaire. De nombreux appareils 220V ont des alternatives 12V (ou 24V) qui sont &lt;a href=&#34;https://mar-ver.github.io/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;plus économes en énergie pour une production d&amp;rsquo;énergie décentralisée&lt;/a&gt;. Cependant, nous avons inclus un circuit 220V pour alimenter les appareils qui n&amp;rsquo;ont pas (encore) été remplacés ou transformés en appareils à basse tension : l&amp;rsquo;imprimante matricielle, la machine à coudre, la chaîne stéréo et le routeur.&lt;/p&gt;
+&lt;p&gt;Une prise 220V n&amp;rsquo;est pas nécessaire. De nombreux appareils 220V ont des alternatives 12V (ou 24V) qui sont &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;plus économes en énergie pour une production d&amp;rsquo;énergie décentralisée&lt;/a&gt;. Cependant, nous avons inclus un circuit 220V pour alimenter les appareils qui n&amp;rsquo;ont pas (encore) été remplacés ou transformés en appareils à basse tension : l&amp;rsquo;imprimante matricielle, la machine à coudre, la chaîne stéréo et le routeur.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;imprimante matricielle et la machine à coudre sont difficiles à utiliser parce que leur consommation d&amp;rsquo;énergie varie rapidement. Par exemple, pour éviter que la tension ne tombe en dessous de 12V lors des pics de consommation élevés pendant l&amp;rsquo;impression, il faut pédaler très vite (environ 20V) pour fournir une inertie suffisante à la roue d&amp;rsquo;inertie. Un supercondensateur pourrait résoudre ce problème - nous testerons cette option dans les mois à venir. Une machine à coudre mécanique et une imprimante à pédale seraient beaucoup plus efficaces sur le plan énergétique, mais beaucoup plus encombrants.&lt;/p&gt;
 &lt;h2 id=&#34;span-idalternativeautres-configurations-possibles--vélo-générateur-avec-table-de-travailspan&#34;&gt;&lt;span id=&#34;alternative&#34;&gt;Autres configurations possibles : Vélo générateur avec table de travail&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Le tableau de bord est conçu pour alimenter une multitude d&amp;rsquo;appareils, mais vous pouvez suivre la même approche avec des résultats différents. Par exemple, si vous souhaitez uniquement recharger des batteries au plomb, un circuit de 14,4 V est suffisant. Vous pouvez utiliser un convertisseur buck et boost pour créer la tension dont vous avez besoin, par exemple pour construire un circuit de 3V, 6V, 9V ou 24V.&lt;/p&gt;
 &lt;p&gt;Cependant, si vous souhaitez principalement faire fonctionner des appareils de 24V, il est préférable d&amp;rsquo;ajuster le rapport de transmission. De même, si vous souhaitez uniquement recharger des batteries au plomb de 14,4V sur un système de 12V : &lt;a href=&#34;#gearratio&#34;&gt;ajustez le rapport de transmission&lt;/a&gt; pour générer 16-17V (pour compenser les pertes d&amp;rsquo;énergie dans le convertisseur buck). Le manuel vous explique comment faire.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image : La prise 220V.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V_dithered.png&#34; alt=&#39;Image : La prise 220V.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : La prise 220V. 
 &lt;/figcaption&gt;
@@ -269,7 +269,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Power-outlets_dithered.png&#34; alt=&#39;Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le porte-bagages et les prises de courant (non régulé, 3x12V, 14.4V, 5V USB). 
 &lt;/figcaption&gt;
@@ -277,7 +277,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image : A l&amp;amp;rsquo;intérieur de la boîte :  l&amp;amp;rsquo;onduleur, le régulateur de charge éolienne, la batterie au plomb.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/in-the-box_dithered.png&#34; alt=&#39;Image : A l&amp;amp;rsquo;intérieur de la boîte :  l&amp;amp;rsquo;onduleur, le régulateur de charge éolienne, la batterie au plomb.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : A l&#39;intérieur de la boîte :  l&#39;onduleur, le régulateur de charge éolienne, la batterie au plomb. 
 &lt;/figcaption&gt;
@@ -285,25 +285,25 @@
 &lt;/div&gt;
 &lt;p&gt;Nous avons fait le choix d&amp;rsquo;avoir un grand tableau de bord sur le guidon, ce qui présente des avantages et des inconvénients. Le fait d&amp;rsquo;avoir le tableau de bord directement sur le vélo le rend facile à lire et à utiliser. Cela rend également le vélo générateur transportable. Si un voisin a besoin d&amp;rsquo;une alimentation de secours, vous prenez le vélo et vous pouvez être sur place en un instant. En revanche, le fait d&amp;rsquo;avoir le tableau de bord sur le vélo ajoute des vibrations, ce qui augmente le bruit et les pertes d&amp;rsquo;énergie. Il est également nécessaire d&amp;rsquo;ajuster de temps en temps la tension de sortie des convertisseurs buck et boost.&lt;/p&gt;
 &lt;p&gt;Plus important encore, le fait d&amp;rsquo;avoir un tableau de bord aussi grand sur le vélo empêche d&amp;rsquo;installer un grand bureau sur le guidon. Cela pourrait être utile pour utiliser des outils électriques ou un ordinateur portable tout en fournissant du courant. Notre installation actuelle n&amp;rsquo;est pas idéale pour utiliser des outils électriques. Il faut deux personnes - une pour pédaler et l&amp;rsquo;autre pour utiliser l&amp;rsquo;outil électrique. De la même façon, vous pouvez alimenter l&amp;rsquo;ordinateur portable d&amp;rsquo;une autre personne, mais vous ne pouvez pas alimenter le vôtre pendant que vous l&amp;rsquo;utilisez.&lt;/p&gt;
-&lt;p&gt;Nous prévoyons de construire un vélo générateur avec un tableau de bord plus petit - un circuit 12V et deux ports USB - et un grand espace de travail sur le guidon. Ce type de vélo générateur rappelle les machines à pédales (mécaniques) &lt;a href=&#34;https://mar-ver.github.io/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;similaires du début du vingtième siècle&lt;/a&gt;. Une autre option serait de visser le panneau de commande sur le mur ou de le placer sur une étagère, et de placer le vélo générateur à côté. L&amp;rsquo;onduleur, la batterie au plomb et le régulateur de charge éolienne, qui sont à présent sur le porte-bagages, peuvent également être placés à distance du vélo.&lt;/p&gt;
+&lt;p&gt;Nous prévoyons de construire un vélo générateur avec un tableau de bord plus petit - un circuit 12V et deux ports USB - et un grand espace de travail sur le guidon. Ce type de vélo générateur rappelle les machines à pédales (mécaniques) &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/05/the-short-history-of-early-pedal-powered-machines/&#34;&gt;similaires du début du vingtième siècle&lt;/a&gt;. Une autre option serait de visser le panneau de commande sur le mur ou de le placer sur une étagère, et de placer le vélo générateur à côté. L&amp;rsquo;onduleur, la batterie au plomb et le régulateur de charge éolienne, qui sont à présent sur le porte-bagages, peuvent également être placés à distance du vélo.&lt;/p&gt;
 &lt;h2 id=&#34;span-idhybridsystème-dalimentation-hybride-solairehumainspan&#34;&gt;&lt;span id=&#34;hybrid&#34;&gt;Système d&amp;rsquo;alimentation hybride solaire/humain&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Vous pourriez penser que notre vélo générateur est plus un gadget qu&amp;rsquo;une source d&amp;rsquo;énergie pratique pour la maison. Cela est vrai en partie. Notre générateur humain est l&amp;rsquo;appareil d&amp;rsquo;exercice parfait - la production d&amp;rsquo;énergie est motivante. Il est également pratique en cas d&amp;rsquo;urgence, surtout s&amp;rsquo;il y a suffisamment de puissance humaine - il peut produire jusqu&amp;rsquo;à 2,4 kWh par jour. Cependant, il ne fournira jamais assez d&amp;rsquo;énergie par jour, même pour un logement low-tech. Dans les faits, il n&amp;rsquo;y a pas assez de personnes prêtes à faire du vélo.&lt;/p&gt;
 &lt;p&gt;Par contre, un vélo générateur est un excellent complément à un système solaire photovoltaïque hors réseau, du moins pour un logement à faible consommation d&amp;rsquo;énergie. La production d&amp;rsquo;énergie du vélo générateur ne dépend ni du temps, ni des saisons, ni de l&amp;rsquo;heure de la journée. L&amp;rsquo;énergie humaine peut fournir un supplément d&amp;rsquo;énergie par mauvais temps, ce qui réduit le besoin en batteries coûteuses et peu écologiques. C&amp;rsquo;est particulièrement utile en hiver, lorsque le système photovoltaïque produit beaucoup moins d&amp;rsquo;énergie et que l&amp;rsquo;effort nécessaire pour faire fonctionner le vélo permet également de se réchauffer. L&amp;rsquo;énergie solaire est suffisante en été, lorsqu&amp;rsquo;il fait souvent trop chaud pour utiliser un vélo d’appartement.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image : Le vélo générateur à côté du système solaire photovoltaïque. L&amp;amp;rsquo;objectif final est de combiner les deux systèmes d&amp;amp;rsquo;alimentation.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Bike-in-front-of-solar-systems_dithered.png&#34; alt=&#39;Image : Le vélo générateur à côté du système solaire photovoltaïque. L&amp;amp;rsquo;objectif final est de combiner les deux systèmes d&amp;amp;rsquo;alimentation.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le vélo générateur à côté du système solaire photovoltaïque. L&#39;objectif final est de combiner les deux systèmes d&#39;alimentation. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Avec une puissance de 50 à 100 watts, le vélo générateur est plus puissant que les deux panneaux solaires qui se trouvent sur le balcon à côté : le panneau solaire de 50 W qui alimente les lampes du salon et celui de 30 W qui fait fonctionner le &lt;a href=&#34;https://mar-ver.github.io/fr/about.html&#34;&gt;site internet solaire&lt;/a&gt;. Les panneaux solaires atteignent rarement - voire jamais - leur rendement maximal et, par mauvais temps, ils produisent beaucoup moins d&amp;rsquo;énergie que le vélo générateur. Lorsque le ciel est couvert de nuages noirs, la production d&amp;rsquo;énergie tombe presque à zéro, et si cela dure deux jours, les lampes et le site internet s&amp;rsquo;éteignent. Une ou deux heures par jour sur le vélo générateur pourraient résoudre ce problème. De même, la puissance des pédales pourrait faire fonctionner des outils électriques ou d&amp;rsquo;autres appareils sans puiser dans le stockage d&amp;rsquo;énergie du système photovoltaïque.&lt;/p&gt;
+&lt;p&gt;Avec une puissance de 50 à 100 watts, le vélo générateur est plus puissant que les deux panneaux solaires qui se trouvent sur le balcon à côté : le panneau solaire de 50 W qui alimente les lampes du salon et celui de 30 W qui fait fonctionner le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/about.html&#34;&gt;site internet solaire&lt;/a&gt;. Les panneaux solaires atteignent rarement - voire jamais - leur rendement maximal et, par mauvais temps, ils produisent beaucoup moins d&amp;rsquo;énergie que le vélo générateur. Lorsque le ciel est couvert de nuages noirs, la production d&amp;rsquo;énergie tombe presque à zéro, et si cela dure deux jours, les lampes et le site internet s&amp;rsquo;éteignent. Une ou deux heures par jour sur le vélo générateur pourraient résoudre ce problème. De même, la puissance des pédales pourrait faire fonctionner des outils électriques ou d&amp;rsquo;autres appareils sans puiser dans le stockage d&amp;rsquo;énergie du système photovoltaïque.&lt;/p&gt;
 &lt;p&gt;Il est également possible d&amp;rsquo;utiliser le tableau de bord avec un panneau solaire au lieu d&amp;rsquo;un vélo générateur. Il suffit de remplacer le &lt;a href=&#34;#wind&#34;&gt;régulateur de charge éolienne&lt;/a&gt; par un régulateur de charge solaire. Vous pouvez alors utiliser l&amp;rsquo;énergie solaire pour alimenter directement des appareils - sans nécessairement utiliser un régulateur de charge solaire et une batterie. Si vous remplacez le régulateur de charge éolienne par un régulateur de charge hybride solaire/éolienne, vous pouvez utiliser les deux sources d&amp;rsquo;énergie pour recharger les batteries et alimenter directement les appareils. L&amp;rsquo;énergie solaire et l&amp;rsquo;énergie humaine peuvent également être combinées, ce qui augmente la puissance de sortie.&lt;/p&gt;
-&lt;p&gt;En combinant l&amp;rsquo;énergie solaire et l&amp;rsquo;énergie humaine, il devrait être possible de faire un pas de plus &lt;a href=&#34;https://mar-ver.github.io/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;vers un logement urbain hors réseau&lt;/a&gt;. L&amp;rsquo;objectif est d&amp;rsquo;ajouter un autre panneau solaire de 50W, de déconnecter davantage d&amp;rsquo;appareils du réseau (notamment le réfrigérateur) et de conserver le stockage des batteries tel quel.&lt;/p&gt;
+&lt;p&gt;En combinant l&amp;rsquo;énergie solaire et l&amp;rsquo;énergie humaine, il devrait être possible de faire un pas de plus &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;vers un logement urbain hors réseau&lt;/a&gt;. L&amp;rsquo;objectif est d&amp;rsquo;ajouter un autre panneau solaire de 50W, de déconnecter davantage d&amp;rsquo;appareils du réseau (notamment le réfrigérateur) et de conserver le stockage des batteries tel quel.&lt;/p&gt;
 &lt;h2 id=&#34;span-idmanual-bikemanuel--le-vélo-générateurspan&#34;&gt;&lt;span id=&#34;manual-bike&#34;&gt;Manuel : Le Vélo Générateur&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image :  Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/friction-drive-intro_dithered.png&#34; alt=&#39;Image :  Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image :  Le système d&#39;entraînement par friction. 
 &lt;/figcaption&gt;
@@ -338,7 +338,7 @@
 &lt;p&gt;La tension exacte dont vous avez besoin - et donc la taille exacte du galet - dépend de ce que vous voulez faire exactement avec le vélo. Nous abordons ce point en détail dans le &lt;a href=&#34;#manual-dashboard&#34;&gt;manuel du tableau de bord&lt;/a&gt;. Imaginons que vous vouliez charger des batteries au plomb (qui nécessitent 14,4 V). Vous utilisez un convertisseur buck (qui abaisse la tension d&amp;rsquo;entrée), vous devrez donc produire près de 17V pour compenser les pertes dans la conversion de tension. Cela donne un diamètre de galet de 41,42mm. Cette configuration apparaît dans l&amp;rsquo;illustration ci-dessous.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator-fr_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/gear-ratio-bike-generator-fr_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -360,7 +360,7 @@
 &lt;p&gt;Déterminer la taille du galet n&amp;rsquo;est pas tout. Il peut être difficile de trouver un galet du bon diamètre, fabriqué dans le matériau adéquat et compatible avec l&amp;rsquo;arbre du générateur. Nous avons essayé une douzaine de galets jusqu&amp;rsquo;à ce que nous trouvions le bon. Une roue d&amp;rsquo;inertie a une surface dure et nécessite un galet souple en caoutchouc ou en polyuréthane. Nous avons constaté qu&amp;rsquo;un tampon amortisseur en métal et en caoutchouc permettait une friction optimale avec notre roue d&amp;rsquo;inertie. Nous l&amp;rsquo;avons amené dans un atelier de métallurgie où on y a fait percer un trou de 10 mm.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image : Un aperçu de nos galets de test.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/spindles-sample_dithered.png&#34; alt=&#39;Image : Un aperçu de nos galets de test.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un aperçu de nos galets de test. 
 &lt;/figcaption&gt;
@@ -372,7 +372,7 @@
 &lt;p&gt;Le générateur est livré avec un pignon ou une poulie d&amp;rsquo;entraînement intégré. Vous devez le retirer pour fixer le galet. Un écrou de blocage en nylon à filetage inversé maintient le pignon ou la poulie d&amp;rsquo;entraînement. Vous devez le dévisser vers la droite. Vous aurez probablement besoin d&amp;rsquo;un serre-joint pour y parvenir.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image : Le générateur avec un arbre fileté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-with-shaft-arbor_dithered.png&#34; alt=&#39;Image : Le générateur avec un arbre fileté.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le générateur avec un arbre fileté. 
 &lt;/figcaption&gt;
@@ -380,7 +380,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image : Le générateur avec le galet de 41 mm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Generator_dithered.png&#34; alt=&#39;Image : Le générateur avec le galet de 41 mm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le générateur avec le galet de 41 mm. 
 &lt;/figcaption&gt;
@@ -392,7 +392,7 @@
 &lt;p&gt;Nous avons vissé le générateur à une planche de bois, puis nous l&amp;rsquo;avons appuyé contre la roue d&amp;rsquo;inertie à l&amp;rsquo;aide d&amp;rsquo;une structure de support en bois. La planche est fixée au vélo à l&amp;rsquo;aide d&amp;rsquo;une solide charnière de porte. Cela permet d&amp;rsquo;adapter l&amp;rsquo;angle selon lequel le galet est en contact avec la roue d&amp;rsquo;inertie. Le support repose sur une cale en liège qui amortit les vibrations. Voir notre &lt;a href=&#34;#first&#34;&gt;premier prototype&lt;/a&gt; pour une autre méthode.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/generator-stand_dithered.png&#34; alt=&#39;Image : Le système d&amp;amp;rsquo;entraînement par friction.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le système d&#39;entraînement par friction. 
 &lt;/figcaption&gt;
@@ -404,7 +404,7 @@
 &lt;p&gt;Vous pouvez régler la tension de sortie en tournant une petite vis sur le composant. Certains convertisseurs buck et boost sont équipés d&amp;rsquo;un petit écran numérique qui indique la tension de sortie. Si ce n&amp;rsquo;est pas le cas, vous pouvez utiliser un multimètre pour régler la tension de sortie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Dashboard-white-background_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -428,7 +428,7 @@
 &lt;p&gt;Vous avez besoin de câbles, de connecteurs, de diodes, de fusibles et d&amp;rsquo;interrupteurs pour tout connecter. Toutes ces pièces peuvent porter à confusion, alors voici ce que vous devez savoir.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-panel-portrait_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -444,7 +444,7 @@
 &lt;p&gt;Nous avons acheté des interrupteurs avec les câbles déjà fixés car nous préférions ne pas souder les connexions. Cependant, nous avons dû les souder quand même, car les câbles épais prenaient trop de place. Les interrupteurs sans lumière et avec des câbles déjà fixés plus fins simplifient cette partie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image : Câblage des interrupteurs.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-on-off-switch2_dithered.png&#34; alt=&#39;Image : Câblage des interrupteurs.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Câblage des interrupteurs. 
 &lt;/figcaption&gt;
@@ -455,7 +455,7 @@
 &lt;h3 id=&#34;span-idinstrumentsles-indicateurs-du-tableau-de-bordspan&#34;&gt;&lt;span id=&#34;instruments&#34;&gt;Les indicateurs du tableau de bord&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/volt-amperemeter_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -464,7 +464,7 @@
 &lt;p&gt;Les voltmètres - ampèremètres analogiques sont plus précis au milieu de leur plage, nous choisissons donc un voltmètre qui va jusqu&amp;rsquo;à 30V et un ampèremètre qui va jusqu&amp;rsquo;à 15A. Un multimètre numérique est plus compact, mais les analogiques affichent mieux les variations. Au-dessus, il y a un circuit USB pour brancher une petite lampe LED. Cela vous permet de garder un œil sur le voltmètre et ampèremètre dans l&amp;rsquo;obscurité. C&amp;rsquo;est également pratique pour vérifier rapidement si le système fonctionne.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image : Câblage d&amp;amp;rsquo;un voltmètre et d&amp;amp;rsquo;un ampèremètre analogiques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Wiring-analog-meters-cut_dithered.png&#34; alt=&#39;Image : Câblage d&amp;amp;rsquo;un voltmètre et d&amp;amp;rsquo;un ampèremètre analogiques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Câblage d&#39;un voltmètre et d&#39;un ampèremètre analogiques. 
 &lt;/figcaption&gt;
@@ -475,14 +475,14 @@
 &lt;h3 id=&#34;span-idpanelpanneau-du-tableau-de-bord-et-fixationspan&#34;&gt;&lt;span id=&#34;panel&#34;&gt;Panneau du tableau de bord et fixation&lt;/span&gt;&lt;/h3&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/Mounting-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/files-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -493,7 +493,7 @@
 &lt;h2 id=&#34;span-idcompletetableau-de-bord-complet-span&#34;&gt;&lt;span id=&#34;complete&#34;&gt;Tableau de bord complet :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/complete-control-panel-wiring_dithered.png&#34; alt=&#39;1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  1 : Diode Schottky. 2 : Fusible. 3 : Câbles. 4 : Ampèremètre et voltmètre analogiques. 5 : Interrupteurs marche/arrêt. 6 : Connecteurs. 7 : Lampe LED USB. 
 &lt;/figcaption&gt;
@@ -502,7 +502,7 @@
 &lt;h2 id=&#34;span-id5vcircuit-5v-span&#34;&gt;&lt;span id=&#34;5V&#34;&gt;Circuit 5V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/5V-circuit_dithered.png&#34; alt=&#39;8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  8 : Convertisseur USB Buck. 9 : Voltmètre et ampèremètre USB. 10 : Multiprise et câble USB. 
 &lt;/figcaption&gt;
@@ -511,7 +511,7 @@
 &lt;h2 id=&#34;span-id12vcircuit-12v-span&#34;&gt;&lt;span id=&#34;12V&#34;&gt;Circuit 12V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11 : Convertisseur Buck. 12 : Variateur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/12V-circuit_dithered.png&#34; alt=&#39;11 : Convertisseur Buck. 12 : Variateur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  11 : Convertisseur Buck. 12 : Variateur. 
 &lt;/figcaption&gt;
@@ -520,7 +520,7 @@
 &lt;h2 id=&#34;span-id14vcircuit-144v-span&#34;&gt;&lt;span id=&#34;14V&#34;&gt;Circuit 14.4V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/14-4V-circuit_dithered.png&#34; alt=&#39;13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  13 : Convertisseur Boost. 14 : Régulateur de charge éolienne. 15 : Batterie au plomb. 16 : Voltmètre électronique de batterie. 
 &lt;/figcaption&gt;
@@ -529,7 +529,7 @@
 &lt;h2 id=&#34;span-id220vcircuit-220v-span&#34;&gt;&lt;span id=&#34;220V&#34;&gt;Circuit 220V :&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17 : Convertisseur Buck. 18 : Onduleur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/220V-circuit_dithered.png&#34; alt=&#39;17 : Convertisseur Buck. 18 : Onduleur.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  17 : Convertisseur Buck. 18 : Onduleur. 
 &lt;/figcaption&gt;
@@ -648,21 +648,21 @@
 &lt;h2 id=&#34;span-idfirstle-premier-prototypespan&#34;&gt;&lt;span id=&#34;first&#34;&gt;Le premier prototype&lt;/span&gt;&lt;/h2&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-dashboard_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/backside-first-control-panel_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2022/03/how-to-build-a-practical-household-bike-generator/images/dithers/first-prototype-on-board_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -695,15 +695,15 @@
     
     <item>
       <title>Le site imprimé : premier volume en français</title>
-      <link>https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png" type="image/png" length="26482" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png" type="image/png" length="26482" ></enclosure>
       <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/french-book-TomeIII_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le site imprimé : premier volume en français 
 &lt;/figcaption&gt;
@@ -726,7 +726,7 @@
 &lt;p&gt;&lt;a href=&#34;https://www.lulu.com/en/us/shop/kris-de-decker/low-tech-magazine-2018-2021-version-en-fran%C3%A7ais/paperback/product-27kggw.html&#34;&gt;Low-tech Magazine 2018-2021 (Version en Français)&lt;/a&gt;, Kris De Decker, 400pp., ISBN 9781678137489.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/tomeIII-candle_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/12/the-printed-website-volume-iii-and-more/images/dithers/tomeIII-candle_dithered.png&#34; alt=&#39;Le site imprimé : premier volume en français&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Le site imprimé : premier volume en français 
 &lt;/figcaption&gt;
@@ -758,15 +758,15 @@
     
     <item>
       <title>Les Matelas-Fascines : la Vannerie se Déchaîne</title>
-      <link>https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png" type="image/png" length="70711" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png" type="image/png" length="70711" ></enclosure>
       <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être coulé pour le drainage des écluses à Den Oever. Source : Dienst Zuiderzeewerken, CC BY 3.0 NL. Date inconnue.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/AfzinkenStevinsluizen_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être coulé pour le drainage des écluses à Den Oever. Source : Dienst Zuiderzeewerken, CC BY 3.0 NL. Date inconnue.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un matelas-fascine en train d’être coulé pour le drainage des écluses à Den Oever. Source : Dienst Zuiderzeewerken, CC BY 3.0 NL. Date inconnue. 
 &lt;/figcaption&gt;
@@ -777,7 +777,7 @@
 &lt;p&gt;L’inspiration vient—sans surprise—des Pays-Bas. La mer y est une menace depuis bien avant le changement climatique. Les Hollandais ont construit leur pays en partie sur le fond de la mer, l’ont asséché à l’aide de moulins à vent et ont entouré de digues les nouvelles terres. La côte néerlandaise a un sol sablonneux à grain fin qui offre peu de résistance au frottement de l’eau. Les courants, les vagues et les hélices des navires érodent les fonds et peuvent facilement conduire à l’effondrement des digues, des berges, des quais, des écluses et des culées.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dijkval_in_Zeeland_bij_Kats_op_Noord-Beveland_Bestanddeelnr_918-9476_dithered.png&#34; alt=&#39;Image : effondrement de digue au Zeeland, près de Kats dans le North Beveland, 1966. Domaine public.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dijkval_in_Zeeland_bij_Kats_op_Noord-Beveland_Bestanddeelnr_918-9476_dithered.png&#34; alt=&#39;Image : effondrement de digue au Zeeland, près de Kats dans le North Beveland, 1966. Domaine public.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : effondrement de digue au Zeeland, près de Kats dans le North Beveland, 1966. Domaine public. 
 &lt;/figcaption&gt;
@@ -788,7 +788,7 @@
 &lt;p&gt;Les matelas-fascines étaient souvent rectangulaires et de grandes dimensions : généralement entre 20 et 30 mètres de large et jusqu’à 150 mètres de long (parfois plus). Les structures étaient fabriquées sur terre, remorquées jusqu’à leur emplacement, puis coulées au fond en les lestant avec des gravats. Tout se faisait à la main. Les plantations de taillis voisines fournissaient le bois pour tresser les matelas.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_Vervaardiging_van_zinkstukken_grootste_van_Nederland_in_Bestanddeelnr_908-1125_dithered.png&#34; alt=&#39;Image : La fabrication d’un matelas-fascine, Haringvliet, 1956. Domaine public.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_Vervaardiging_van_zinkstukken_grootste_van_Nederland_in_Bestanddeelnr_908-1125_dithered.png&#34; alt=&#39;Image : La fabrication d’un matelas-fascine, Haringvliet, 1956. Domaine public.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : La fabrication d’un matelas-fascine, Haringvliet, 1956. Domaine public. 
 &lt;/figcaption&gt;
@@ -799,7 +799,7 @@
 &lt;p&gt;Nous ne savons pas combien de matelas-fascines sont encore opérationnels au fond des eaux néerlandaises, mais ils sont pratiquement partout. La plupart des données sont disponibles à partir de la période qui a suivi la Seconde Guerre mondiale, lorsque les Néerlandais utilisèrent cette technologie à grande échelle. En 1953, des inondations catastrophiques frappèrent les Pays-Bas. Cela conduisit aux Delta Works, une série de travaux de construction ambitieux pour protéger la terre de la mer.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0757_dithered.png&#34; alt=&#39;Image : Matelas-fascines dans le Biesbosch, 1968. Domaine public.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0757_dithered.png&#34; alt=&#39;Image : Matelas-fascines dans le Biesbosch, 1968. Domaine public.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Matelas-fascines dans le Biesbosch, 1968. Domaine public. 
 &lt;/figcaption&gt;
@@ -812,7 +812,7 @@
 &lt;p&gt;Au-dessus de ce cadre se présentait un « remplissage » de 30 à 40 cm de deux couches de branchages en croix l’une par rapport à l’autre. Entre celles-ci, il y avait une couche de roseaux, qui rendait le matelas-fascine résistant au sable. Ensuite, un cadre supérieur de fascines était construit, identique au cadre inférieur, au-dessus du « remplissage ». Les hommes attachaient le tout aux poteaux. Il fallait environ six hommes pour construire un matelas-fascine de 100 m².&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress-texel_dithered.png&#34; alt=&#39;Image : Un matelas-fascine. Par Jan Muijs, Rijkswaterstaat, 1974, CC BY 3.0 nl.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress-texel_dithered.png&#34; alt=&#39;Image : Un matelas-fascine. Par Jan Muijs, Rijkswaterstaat, 1974, CC BY 3.0 nl.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un matelas-fascine. Par Jan Muijs, Rijkswaterstaat, 1974, CC BY 3.0 nl. 
 &lt;/figcaption&gt;
@@ -820,7 +820,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tekening-zinkstuk_dithered.png&#34; alt=&#39;Image : Dessin d’un matelas-fascine classique en bois de saule pour la protection du lit du cours d’eau. Source : Hollands&amp;amp;rsquo; Rijshout, Van Breen (1920).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tekening-zinkstuk_dithered.png&#34; alt=&#39;Image : Dessin d’un matelas-fascine classique en bois de saule pour la protection du lit du cours d’eau. Source : Hollands&amp;amp;rsquo; Rijshout, Van Breen (1920).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Dessin d’un matelas-fascine classique en bois de saule pour la protection du lit du cours d’eau. Source : Hollands&#39; Rijshout, Van Breen (1920). 
 &lt;/figcaption&gt;
@@ -828,7 +828,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Rijshout_wordt_tot_zinkstukken_verwerkt_Bestanddeelnr_900-7402_dithered.png&#34; alt=&#39;Image : Fabrication de fascines, 1945. Photographe inconnu / Anefo, CC0, via Wikimedia Commons&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Rijshout_wordt_tot_zinkstukken_verwerkt_Bestanddeelnr_900-7402_dithered.png&#34; alt=&#39;Image : Fabrication de fascines, 1945. Photographe inconnu / Anefo, CC0, via Wikimedia Commons&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Fabrication de fascines, 1945. Photographe inconnu / Anefo, CC0, via Wikimedia Commons 
 &lt;/figcaption&gt;
@@ -836,7 +836,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dichten_gat_Faustus_Hoek_van_Holland_Vlechten_zinkstukken_Bestanddeelnr_905-4127_dithered.png&#34; alt=&#39;Image : Fabrication de fascines, 1952. Harry Pot / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Dichten_gat_Faustus_Hoek_van_Holland_Vlechten_zinkstukken_Bestanddeelnr_905-4127_dithered.png&#34; alt=&#39;Image : Fabrication de fascines, 1952. Harry Pot / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Fabrication de fascines, 1952. Harry Pot / Anefo, CC0, via Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -844,7 +844,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Film_transport_zinkstukken_Bestanddeelnr_934-5510_dithered.png&#34; alt=&#39;Image : Transport de fascines, 1953. Joop van Bilsen / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Film_transport_zinkstukken_Bestanddeelnr_934-5510_dithered.png&#34; alt=&#39;Image : Transport de fascines, 1953. Joop van Bilsen / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Transport de fascines, 1953. Joop van Bilsen / Anefo, CC0, via Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -852,7 +852,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress_dithered.png&#34; alt=&#39;Image : Tressage de matelas-fascines, 1956. Harry Pot / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/fascine-mattress_dithered.png&#34; alt=&#39;Image : Tressage de matelas-fascines, 1956. Harry Pot / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Tressage de matelas-fascines, 1956. Harry Pot / Anefo, CC0, via Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -862,7 +862,7 @@
 &lt;p&gt;Ensuite, les artisans tressaient des clôtures au-dessus des matelas-fascines en tissant plus de branchages autour des poteaux aux points où les fascines se croisaient et qui saillaient bien au-dessus du cadre supérieur. Ces clôtures renforçaient encore plus la structure et évitaient aux gravats de rouler hors du matelas. C’était un risque durant l’enfoncement des matelas-fascines au fond de l’eau. L’enclos remplissait également son rôle lorsque le matelas-fascine reposait sur une pente forte, comme dans le cas d’une digue. Les gravats les plus petits pouvaient aussi être emportés par le courant—les clôtures empêchaient cela. Finalement, les hommes équipaient le matelas-fascine avec des accessoires de traction (dispositifs de sept pieux offrant des attaches solides aux cordes) à des fins de remorquage.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Aanleg_dijk_Zuidoostpolder_bij_Vossenveen_zinkstukken_Bestanddeelnr_904-1214_dithered.png&#34; alt=&#39;Image : Tressage de clôtures sur un matelas-fascine, 1950. Par van Oorschot / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Aanleg_dijk_Zuidoostpolder_bij_Vossenveen_zinkstukken_Bestanddeelnr_904-1214_dithered.png&#34; alt=&#39;Image : Tressage de clôtures sur un matelas-fascine, 1950. Par van Oorschot / Anefo, CC0, via Wikimedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Tressage de clôtures sur un matelas-fascine, 1950. Par van Oorschot / Anefo, CC0, via Wikimedia Commons. 
 &lt;/figcaption&gt;
@@ -870,7 +870,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/vlechttuinen_dithered.png&#34; alt=&#39;Image : Tressage de clôtures. Source : Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/vlechttuinen_dithered.png&#34; alt=&#39;Image : Tressage de clôtures. Source : Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Tressage de clôtures. Source : [Zink- en aanverwante werken, benevens het hoe en de wijze waarop](https://repository.tudelft.nl/islandora/object/uuid%3A1ed44c19-ee2a-450d-bc3c-6e377cae54ef), B. Hakkeling, 1970. 
 &lt;/figcaption&gt;
@@ -882,7 +882,7 @@
 &lt;p&gt;Les matelas-fascines ne pouvaient être coulés au fond que par mer calme et avec peu de courant, donc le timing était crucial. L’étale, cette période de quelques minutes entre jusant et flot, était exploité au maximum, même si cela impliquait du travail partiellement nocturne.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_bouw_zinkstukken_in_haven_Hellevoetsluis_Bestanddeelnr_907-8999_dithered.png&#34; alt=&#39;Image : Des ouvriers installent des matelas-fascines pour la construction des écluses dans le Haringvliet près de Hellevoetsluis, 1956. Par Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Afsluiting_Haringvliet_bouw_zinkstukken_in_haven_Hellevoetsluis_Bestanddeelnr_907-8999_dithered.png&#34; alt=&#39;Image : Des ouvriers installent des matelas-fascines pour la construction des écluses dans le Haringvliet près de Hellevoetsluis, 1956. Par Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Des ouvriers installent des matelas-fascines pour la construction des écluses dans le Haringvliet près de Hellevoetsluis, 1956. Par Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -890,7 +890,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0781_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être couler, 1968. Par Nationaal Archief, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0781_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être couler, 1968. Par Nationaal Archief, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un matelas-fascine en train d’être couler, 1968. Par Nationaal Archief, CC0.  
 &lt;/figcaption&gt;
@@ -898,7 +898,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0761_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être couler, 1968. Par Nationaal Archief, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Kreekafsluitingen_zinkstukken_biesbosch_Bestanddeelnr_168-0761_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être couler, 1968. Par Nationaal Archief, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un matelas-fascine en train d’être couler, 1968. Par Nationaal Archief, CC0.  
 &lt;/figcaption&gt;
@@ -906,7 +906,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Verstevigen_van_de_Vlissingse_boulevard_Bestanddeelnr_909-5645_dithered.png&#34; alt=&#39;Image : Renforcement du boulevard Vlissingen, 1958. Par Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Verstevigen_van_de_Vlissingse_boulevard_Bestanddeelnr_909-5645_dithered.png&#34; alt=&#39;Image : Renforcement du boulevard Vlissingen, 1958. Par Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Renforcement du boulevard Vlissingen, 1958. Par Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -914,7 +914,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Watersnood_1953_De_dijk_bij_Ouwerkerk_op_Duiveland_is_nog_lang_niet_geheel_klaar_Bestanddeelnr_059-1128_dithered.png&#34; alt=&#39;Image : Renforcement d’une digue près de Ouwerkerk sur le Duiveland, 1953. Par Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Watersnood_1953_De_dijk_bij_Ouwerkerk_op_Duiveland_is_nog_lang_niet_geheel_klaar_Bestanddeelnr_059-1128_dithered.png&#34; alt=&#39;Image : Renforcement d’une digue près de Ouwerkerk sur le Duiveland, 1953. Par Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Renforcement d’une digue près de Ouwerkerk sur le Duiveland, 1953. Par Joop van Bilsen / Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -922,7 +922,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hetzinken_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être couler. Source : Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hetzinken_dithered.png&#34; alt=&#39;Image : Un matelas-fascine en train d’être couler. Source : Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Un matelas-fascine en train d’être couler. Source : [Zink- en aanverwante werken, benevens het hoe en de wijze waarop](https://repository.tudelft.nl/islandora/object/uuid%3A1ed44c19-ee2a-450d-bc3c-6e377cae54ef), B. Hakkeling, 1970. 
 &lt;/figcaption&gt;
@@ -930,7 +930,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-gereed_dithered.png&#34; alt=&#39;Image : Préparatifs pour couler un matelas-fascine. Source : Holland’s rijshout, L.G. van Breen, 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-gereed_dithered.png&#34; alt=&#39;Image : Préparatifs pour couler un matelas-fascine. Source : Holland’s rijshout, L.G. van Breen, 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Préparatifs pour couler un matelas-fascine. Source : [Holland’s rijshout](https://repository.tudelft.nl/islandora/object/uuid%3A72029c69-9567-4ad9-8883-ff428cf7d68b), L.G. van Breen, 1920.  
 &lt;/figcaption&gt;
@@ -938,7 +938,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Verankeren_zinkstuk_Bestanddeelnr_905-8255_dithered.png&#34; alt=&#39;Image : Mouillage d’un matelas-fascine. Notez les accessoires de remorquage au premier plan. Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/De_Schelphoek_op_Schouwen_Verankeren_zinkstuk_Bestanddeelnr_905-8255_dithered.png&#34; alt=&#39;Image : Mouillage d’un matelas-fascine. Notez les accessoires de remorquage au premier plan. Joop van Bilsen / Anefo, CC0.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Mouillage d’un matelas-fascine. Notez les accessoires de remorquage au premier plan. Joop van Bilsen / Anefo, CC0. 
 &lt;/figcaption&gt;
@@ -950,7 +950,7 @@
 &lt;p&gt;Tous les matelas-fascines ne sont pas des rectangles. En se connectant à des constructions existantes, dans les courbes des rivières et à cause de tout autre irrégularité, les structures pouvaient prendre la forme d’un trapèze ou d’un quadrilatère irrégulier. Néanmoins, les pièces avec des coins dentelés étaient évitées le plus possible.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hakkeling-figuur-27_dithered.png&#34; alt=&#39;Image : Des matelas-fascines mal placés dans la courbe d’une rivière. Source : Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/hakkeling-figuur-27_dithered.png&#34; alt=&#39;Image : Des matelas-fascines mal placés dans la courbe d’une rivière. Source : Zink- en aanverwante werken, benevens het hoe en de wijze waarop, B. Hakkeling, 1970.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Des matelas-fascines mal placés dans la courbe d’une rivière. Source : [Zink- en aanverwante werken, benevens het hoe en de wijze waarop](https://repository.tudelft.nl/islandora/object/uuid%3A1ed44c19-ee2a-450d-bc3c-6e377cae54ef), B. Hakkeling, 1970. 
 &lt;/figcaption&gt;
@@ -958,20 +958,20 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-hollands-rijshout_dithered.png&#34; alt=&#39;Image : Une collection de matelas-fascines. Holland’s rijshout, L.G. van Breen, 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/zinkstuk-hollands-rijshout_dithered.png&#34; alt=&#39;Image : Une collection de matelas-fascines. Holland’s rijshout, L.G. van Breen, 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Une collection de matelas-fascines. [Holland’s rijshout](https://repository.tudelft.nl/islandora/object/uuid%3A72029c69-9567-4ad9-8883-ff428cf7d68b), L.G. van Breen, 1920. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;plantations-de-taillis-en-zone-de-marée&#34;&gt;Plantations de Taillis en Zone de Marée&lt;/h2&gt;
-&lt;p&gt;L’utilisation de matelas-fascines était fortement liée à la production à large échelle de broussailles sur des plantations de taillis. Comme vu dans un précédent article, nos &lt;a href=&#34;https://mar-ver.github.io/fr/2020/09/how-to-make-biomass-energy-sustainable-again/&#34;&gt;ancêtres récoltait du bois sur des arbres taillés plutôt qu’abattus&lt;/a&gt;. Les plantations en taillis hollandaises – les « grienden » – sont remarquables en raison de leurs sols « humides » : de hauts niveaux d’eaux fluviales ou l’action des marées inondaient occasionnellement les terres. Au contraire de la majorité des autres espèces d’arbres, le saule tolère l’eau salée et (temporairement) d’avoir les pieds mouillés. Ainsi, les plantations de taillis pouvaient utiliser des terres autrement impropres à l’agriculture.&lt;/p&gt;
+&lt;p&gt;L’utilisation de matelas-fascines était fortement liée à la production à large échelle de broussailles sur des plantations de taillis. Comme vu dans un précédent article, nos &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2020/09/how-to-make-biomass-energy-sustainable-again/&#34;&gt;ancêtres récoltait du bois sur des arbres taillés plutôt qu’abattus&lt;/a&gt;. Les plantations en taillis hollandaises – les « grienden » – sont remarquables en raison de leurs sols « humides » : de hauts niveaux d’eaux fluviales ou l’action des marées inondaient occasionnellement les terres. Au contraire de la majorité des autres espèces d’arbres, le saule tolère l’eau salée et (temporairement) d’avoir les pieds mouillés. Ainsi, les plantations de taillis pouvaient utiliser des terres autrement impropres à l’agriculture.&lt;/p&gt;
 &lt;p&gt;En 1915, environ 14 000 hectares (140 km²) de forêt aux Pays-Bas étaient des plantations de taillis en zone fluviale ou de marée, à comparer aux 85 000 hectares de plantations de taillis « classiques », ainsi que 155 000 hectares de futaie. La plupart se situait le long d’estuaires au-delà des digues et dans les zones fluviales de Hollande-du-Sud et de Brabant-du-Nord. Le plus grand complexe se situait dans le Biebosch. Plus de 200 différents types de saules poussaient dans les plantations de taillis de zones fluviales et de marée. Sur les sols pauvres, les Hollandais plantèrent des aulnes entre les saules. Les feuilles mortes des aulnes fertilisaient les sols et augmentaient la durée de vie et la production des saules.&lt;/p&gt;
 &lt;p&gt;Souvent, un quai entourait les plantations de taillis en zone de marée. Cela gardait l’eau hors de la zone de plantation pendant les marées normales. La plantation était inondée uniquement par les ondes de tempête en hiver. Des valves assuraient un drainage de l’eau suffisamment lent afin de permettre aux boues de se déposer, fertilisant ainsi le sol. Des fossés traversaient les plantations et aidaient au drainage – l’eau stagnante étant nuisible aux arbres. Les ouvriers utilisaient aussi les étroits canaux pour transporter les brousailles hors des plantations par bateau. Les plantations de taillis fluviales se situaient à l’intérieur des zones protégées par les digues. Là, le niveau d’eau souterrain – influencé par les rivières alentours – déterminait l’environnement pour les arbres.&lt;/p&gt;
 &lt;p&gt;Récolter le bois demandait tout autant de travail que le tressage des matelas-fascines. La maintenance était entièrement effectuée à la main et principalement lors des mois d’hiver. Les ouvriers des plantations taillaient les broussailles après que la chute des feuilles et ils groupaient les branches en fagots. Ils plaçaient aussi de nouvelles boutures dans le sol, draguaient les fossés et enlevaient le bois. La majorité des ouvriers travaillaient dans les plantations à la journée lorsque le travail manquait dans les champs. Ils dormaient le plus souvent dans de petits abris ou sur de petits bateaux sur les plantations. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Carnisse_grienden_1_dithered.png&#34; alt=&#39;Image : Champ de saules à l’extérieur des digues sur le Oude Maas (Carnisse Grienden). Par Ceinturion, (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/Carnisse_grienden_1_dithered.png&#34; alt=&#39;Image : Champ de saules à l’extérieur des digues sur le Oude Maas (Carnisse Grienden). Par Ceinturion, (CC BY-SA 3.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Champ de saules à l’extérieur des digues sur le Oude Maas (Carnisse Grienden). Par Ceinturion, (CC BY-SA 3.0). 
 &lt;/figcaption&gt;
@@ -979,7 +979,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/biesbosch-kaart-1908_dithered.png&#34; alt=&#39;Image : Le Biesbosch en 1908. Source : Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Nationaal Park de Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/biesbosch-kaart-1908_dithered.png&#34; alt=&#39;Image : Le Biesbosch en 1908. Source : Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Nationaal Park de Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Le Biesbosch en 1908. Source : [Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013](http://www.ecologischadviesbureaumaes.nl/429_I.pdf). Nationaal Park de Biesbosch, 2014. 
 &lt;/figcaption&gt;
@@ -987,7 +987,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tidal-coppice-plantation_dithered.png&#34; alt=&#39;Image : Une plantation de taillis en zone de marée (Anna-Jacominaplaat) en 1950. Source : Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Nationaal Park de Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/tidal-coppice-plantation_dithered.png&#34; alt=&#39;Image : Une plantation de taillis en zone de marée (Anna-Jacominaplaat) en 1950. Source : Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Nationaal Park de Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Une plantation de taillis en zone de marée (Anna-Jacominaplaat) en 1950. Source : [Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013](http://www.ecologischadviesbureaumaes.nl/429_I.pdf). Nationaal Park de Biesbosch, 2014. 
 &lt;/figcaption&gt;
@@ -995,7 +995,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/sloot-in-griend_dithered.png&#34; alt=&#39;Image : Fossé dans un plantation de taillis en zone de marée (1930-1950). Source : Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Nationaal Park de Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/sloot-in-griend_dithered.png&#34; alt=&#39;Image : Fossé dans un plantation de taillis en zone de marée (1930-1950). Source : Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013. Nationaal Park de Biesbosch, 2014.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Fossé dans un plantation de taillis en zone de marée (1930-1950). Source : [Wilgenkartering in de Brabantse, Sliedrechtse en Dordtse Biesbosch, 2012-2013](http://www.ecologischadviesbureaumaes.nl/429_I.pdf). Nationaal Park de Biesbosch, 2014. 
 &lt;/figcaption&gt;
@@ -1003,7 +1003,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendkeetopterp_dithered.png&#34; alt=&#39;Image : Une cabane d’ouvrier sur une butte. Source : Regionaal Archief Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendkeetopterp_dithered.png&#34; alt=&#39;Image : Une cabane d’ouvrier sur une butte. Source : Regionaal Archief Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Une cabane d’ouvrier sur une butte. Source : Regionaal Archief Dordrecht. (CC-BY-SA 4.0). 
 &lt;/figcaption&gt;
@@ -1011,7 +1011,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendboot_dithered.png&#34; alt=&#39;Péniche aménagée sur une plantation de taillis en zone de marée. Source : Regionaal Archief Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2021/11/fascine-mattresses-basketry-gone-wild/images/dithers/griendboot_dithered.png&#34; alt=&#39;Péniche aménagée sur une plantation de taillis en zone de marée. Source : Regionaal Archief Dordrecht. (CC-BY-SA 4.0).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Péniche aménagée sur une plantation de taillis en zone de marée. Source : Regionaal Archief Dordrecht. (CC-BY-SA 4.0). 
 &lt;/figcaption&gt;

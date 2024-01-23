@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://mar-ver.github.io/tags/ict/</link>
-    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <link>https://lowtechmag.gitlab.io/solar/tags/ict/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/tags/ict/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/ict/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thematic Book Series: How to Build a Low-tech Internet?</title>
-      <link>https://mar-ver.github.io/2023/08/thematic-books-series/</link>
+      <link>https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/</link>
       
-      <enclosure url="https://mar-ver.github.io/2023/08/thematic-books-series/images/dithers/coverthumbnailsmall-3_dithered.png" type="image/png" length="11357" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/images/dithers/coverthumbnailsmall-3_dithered.png" type="image/png" length="11357" ></enclosure>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/2023/08/thematic-books-series/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2023/08/thematic-books-series/images/dithers/book-internet_dithered.png&#34; alt=&#39;Image: Book cover. How to build a low-tech internet?, Kris De Decker, 166 pages, Low-tech Magazine, 2023.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/08/thematic-books-series/images/dithers/book-internet_dithered.png&#34; alt=&#39;Image: Book cover. How to build a low-tech internet?, Kris De Decker, 166 pages, Low-tech Magazine, 2023.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Book cover. [How to build a low-tech internet?](https://lulu.com/shop/roel-roscam-abbing-and-marie-otsuka-and-kris-de-decker/how-to-build-a-low-tech-internet/paperback/product-9yq8v7.html?q=&amp;page=1&amp;pageSize=4), Kris De Decker, 166 pages, Low-tech Magazine, 2023. 
 &lt;/figcaption&gt;
@@ -47,15 +47,15 @@
     
     <item>
       <title>Rebuilding a Solar Powered Website</title>
-      <link>https://mar-ver.github.io/2023/06/rebuilding-a-solar-powered-website/</link>
+      <link>https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/</link>
       
-      <enclosure url="https://mar-ver.github.io/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" type="image/png" length="31868" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png" type="image/png" length="31868" ></enclosure>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/2023/06/rebuilding-a-solar-powered-website/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png&#34; alt=&#39;A screenshot of the markdown file for this page.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2023/06/rebuilding-a-solar-powered-website/images/dithers/solar-hugo-screenshot_dithered.png&#34; alt=&#39;A screenshot of the markdown file for this page.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;p&gt;A screenshot of the markdown file for this page.&lt;/p&gt;
 &lt;/figcaption&gt;
@@ -64,9 +64,9 @@
 &lt;p&gt;During the last months we have been working on switching the solar powered website from one static site generator (Pelican) to another (Hugo). Many readers will not notice the changes right away, as we have not made any major adjustments to the design. Nevertheless, the new platform has allowed us to address some issues based on the feedback we received over the years.&lt;/p&gt;
 &lt;p&gt;The new solar website was designed by &lt;a href=&#34;https://motsuka.com&#34;&gt;Marie Otsuka&lt;/a&gt; and &lt;a href=&#34;https://roelof.info&#34;&gt;Roel Roscam Abbing&lt;/a&gt;, the same people who were behind the first solar design. &lt;a href=&#34;https://verdeil.net&#34;&gt;Marie Verdeil&lt;/a&gt; assisted throughout the process and coordinated the migration of the website.&lt;/p&gt;
 &lt;h2 id=&#34;switching-platforms&#34;&gt;Switching Platforms&lt;/h2&gt;
-&lt;p&gt;The original solar website, &lt;a href=&#34;https://mar-ver.github.io/2018/09/how-to-build-a-low-tech-website/&#34;&gt;launched in 2018&lt;/a&gt;, ran on a static site generator called &lt;a href=&#34;https://getpelican.com&#34;&gt;Pelican&lt;/a&gt;. While this remains a good choice for a relatively small website, the solar-powered version of Low-tech Magazine has grown significantly over time. Initially it featured only a selection of the English language website, but has expanded over time to contain not only more English language articles, but translations in five other languages as well. Organizing articles and publishing changes on such a large website became a cumbersome process. For example, it took more than an hour to regenerate the site on changes – even if we only added one comment.&lt;/p&gt;
+&lt;p&gt;The original solar website, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/09/how-to-build-a-low-tech-website/&#34;&gt;launched in 2018&lt;/a&gt;, ran on a static site generator called &lt;a href=&#34;https://getpelican.com&#34;&gt;Pelican&lt;/a&gt;. While this remains a good choice for a relatively small website, the solar-powered version of Low-tech Magazine has grown significantly over time. Initially it featured only a selection of the English language website, but has expanded over time to contain not only more English language articles, but translations in five other languages as well. Organizing articles and publishing changes on such a large website became a cumbersome process. For example, it took more than an hour to regenerate the site on changes – even if we only added one comment.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static site generator written in a faster programming language. In Pelican, much of the functionality we needed for the website such as support for multiple languages and image compression came as plugins of varying quality. This lead to limitations over time. In Hugo, these features are better supported from the start as they are core to the project. As a consequence of switching to Hugo we managed to reduce the generation time on the server from over an hour to approximately twelve minutes. On a modern laptop the difference is between several minutes and several seconds of generation.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; This difference in time also means a difference in energy use on the server.&lt;/p&gt;
-&lt;p&gt;Aside from faster website builds, Hugo allows for a better organisation of content and is more flexible in defining categories for displaying that content. This allowed us, for example, to create dedicated pages highlighting the different &lt;a href=&#34;https://mar-ver.github.io/contributors/&#34;&gt;contributors and translators&lt;/a&gt; to the magazine. However, despite both projects using posts written in Markdown, migrating all content from Pelican to Hugo was a time-consuming task. Both because of subtle differences in the post metadata format and because our Hugo setup requires its own shortcodes to allow the display of  images, captions, and links. We converted the majority of articles from one platform to another using a custom script, but it still took another two months to iron out and manually repair inconsistencies in the content.&lt;/p&gt;
+&lt;p&gt;Aside from faster website builds, Hugo allows for a better organisation of content and is more flexible in defining categories for displaying that content. This allowed us, for example, to create dedicated pages highlighting the different &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/contributors/&#34;&gt;contributors and translators&lt;/a&gt; to the magazine. However, despite both projects using posts written in Markdown, migrating all content from Pelican to Hugo was a time-consuming task. Both because of subtle differences in the post metadata format and because our Hugo setup requires its own shortcodes to allow the display of  images, captions, and links. We converted the majority of articles from one platform to another using a custom script, but it still took another two months to iron out and manually repair inconsistencies in the content.&lt;/p&gt;
 &lt;h2 id=&#34;design-changes&#34;&gt;Design changes&lt;/h2&gt;
 &lt;h3 id=&#34;battery-meter&#34;&gt;Battery meter&lt;/h3&gt;
 &lt;p&gt;The new platform allowed us to address two design issues that regularly came up in the feedback over the last years. The first concerns the battery meter, which reflects the battery status of our off-the-grid website configuration. Some people found that it interfered with the reading process, especially when it’s halfway the page. The battery meter remains an elementary part of our design, revealing the material infrastructure that supports the website. However, it now remains at the top of the document, and no longer moves along as one scrolls down an article to interfere with the text.&lt;/p&gt;
@@ -128,36 +128,36 @@
     
     <item>
       <title>How and Why I Stopped Buying New Laptops</title>
-      <link>https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/</link>
+      <link>https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/</link>
       
-      <enclosure url="https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png" type="image/png" length="22804" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png" type="image/png" length="22804" ></enclosure>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png&#34; alt=&#39;Image: Low-tech Magazine is now written and published on a 2006 ThinkPad X60s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/X60-on-its-side-white_dithered.png&#34; alt=&#39;Image: Low-tech Magazine is now written and published on a 2006 ThinkPad X60s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Low-tech Magazine is now written and published on a 2006 ThinkPad X60s. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Being an independent journalist – or an office worker if you wish – I always reasoned that I needed a decent computer and that I need to pay for quality. Between 2000 and 2017, I consumed three laptops that I bought new and which cost me around 5,000 euros in total – roughly 300 euros per year over the entire period. The average useful life of my three laptops was 5.7 years.&lt;/p&gt;
-&lt;p&gt;In 2017, somewhere between getting &lt;a href=&#34;https://mar-ver.github.io/2018/09/how-to-build-a-low-tech-website/&#34;&gt;my office&lt;/a&gt;, I decided not to buy any more new laptops. Instead, I switched to a 2006 second-hand machine that I purchased online for 50 euros and which does everything that I want and need. Including a new battery and a simple hardware upgrade, I invested less than 150 euros.&lt;/p&gt;
+&lt;p&gt;In 2017, somewhere between getting &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/09/how-to-build-a-low-tech-website/&#34;&gt;my office&lt;/a&gt;, I decided not to buy any more new laptops. Instead, I switched to a 2006 second-hand machine that I purchased online for 50 euros and which does everything that I want and need. Including a new battery and a simple hardware upgrade, I invested less than 150 euros.&lt;/p&gt;
 &lt;p&gt;If my 2006 laptop lasts as long as my other machines – if it runs for another 1.7 years – it will have cost me only 26 euros per year. That’s more than 10 times less than the cost of my previous laptops. In this article, I explain my motivations for not buying new laptops, and how you could do the same.&lt;/p&gt;
 &lt;h2 id=&#34;energy-and-material-use-of-a-laptop&#34;&gt;Energy and material use of a laptop&lt;/h2&gt;
 &lt;p&gt;Not buying new laptops saves a lot of money, but also a lot of resources and environmental destruction. According to the most recent life cycle analysis, it takes 3,010 to 4,340 megajoules of primary energy to make a laptop – this includes mining the materials, manufacturing the machine, and bringing it to market. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Each year, we purchase between 160 and 200 million laptops. Using the data above, this means that the production of laptops requires a yearly energy consumption of 480 to 868 petajoules, which corresponds to between one quarter and almost half of all solar PV energy produced worldwide in 2018 (2,023 petajoules). &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; The making of a laptop also involves a high material consumption, which includes a wide variety of minerals that may be considered scarce due to different types of constraints: economic, social, geochemical, and geopolitical. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://mar-ver.github.io/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;production of microchips is a very energy- and material-intensive process&lt;/a&gt;, but that is not the only problem. The high resource use of laptops is also because they have a very short lifespan. Most of the 160-200 million laptops sold each year are replacement purchases. The average laptop is replaced every 3 years (in business) to five years (elsewhere). &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; My 5.7 years per laptop experience is not exceptional.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;production of microchips is a very energy- and material-intensive process&lt;/a&gt;, but that is not the only problem. The high resource use of laptops is also because they have a very short lifespan. Most of the 160-200 million laptops sold each year are replacement purchases. The average laptop is replaced every 3 years (in business) to five years (elsewhere). &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; My 5.7 years per laptop experience is not exceptional.&lt;/p&gt;
 &lt;h2 id=&#34;laptops-dont-change&#34;&gt;Laptops don’t change&lt;/h2&gt;
 &lt;p&gt;The study cited dates from 2011, and it refers to a machine made in 2001: a Dell Inspiron 2500.  You are forgiven for thinking that this “most recent life cycle analysis of a laptop” is outdated, but it’s not. A 2015 research paper discovered that the embodied energy of laptops is static over time. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;The scientists disassembled 11 laptops of similar size, made between 1999 and 2008, and weighed the different components. Also, they measured the silicon die area for all motherboards and 30 DRAM cards produced over roughly the same period (until 2011). They found that the mass and material composition of all key components – battery, motherboard, hard drive, memory – did not change significantly, even though manufacturing processes became more efficient in energy and material use.&lt;/p&gt;
-&lt;p&gt;The reason is simple: improvements in functionality balance the efficiency gains obtained in the manufacturing process. Battery mass, memory, and hard disk drive mass decreased per unit of functionality but showed roughly constant totals per year. The same dynamic explains why newer laptops don’t show lower operational electricity consumption compared to older laptops. New laptops may be more energy-efficient per computational power, but these gains are offset by more computational power. &lt;a href=&#34;https://mar-ver.github.io/2018/01/bedazzled-by-energy-efficiency/&#34;&gt;Jevon’s paradox&lt;/a&gt; is nowhere as evident as it is in computing.&lt;/p&gt;
+&lt;p&gt;The reason is simple: improvements in functionality balance the efficiency gains obtained in the manufacturing process. Battery mass, memory, and hard disk drive mass decreased per unit of functionality but showed roughly constant totals per year. The same dynamic explains why newer laptops don’t show lower operational electricity consumption compared to older laptops. New laptops may be more energy-efficient per computational power, but these gains are offset by more computational power. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/01/bedazzled-by-energy-efficiency/&#34;&gt;Jevon’s paradox&lt;/a&gt; is nowhere as evident as it is in computing.&lt;/p&gt;
 &lt;h2 id=&#34;the-challenge&#34;&gt;The challenge&lt;/h2&gt;
 &lt;p&gt;All this means that there’s no environmental or financial benefit whatsoever to replacing an old laptop with a new one. On the contrary, the only thing a consumer can do to improve their laptop&amp;rsquo;s ecological and economic sustainability is to use it for as long as possible. This is facilitated by the fact that laptops are now a mature technology and have more than sufficient computational power. One problem, though. Consumers who try to keep working on their old laptops are likely to end up frustrated. I shortly explain my frustrations below, and I’m pretty confident that they are not exceptional.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/3-laptops-white_dithered.png&#34; alt=&#39;Image: The three new laptops I used from 2000 to 2017.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/3-laptops-white_dithered.png&#34; alt=&#39;Image: The three new laptops I used from 2000 to 2017.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The three new laptops I used from 2000 to 2017. 
 &lt;/figcaption&gt;
@@ -167,14 +167,14 @@
 &lt;p&gt;In 2000, when I was working as a freelance science and tech journalist in Belgium, I bought my first laptop, an Apple iBook. Little more than two or three years later, the charger started malfunctioning. When informed of the price for a new charger, I was so disgusted with Apple’s sales practices – chargers are very cheap to produce, but Apple sold them for a lot of money – that I refused to buy it. Instead, I managed to keep the charger working for a few more years, first by putting it under the weight of books and furniture, and when that didn’t work anymore, by putting it in a firmly tightened clamp.&lt;/p&gt;
 &lt;h2 id=&#34;my-second-laptop-ibm-thinkpad-r52-2005-2013&#34;&gt;My second laptop: IBM ThinkPad R52 (2005-2013)&lt;/h2&gt;
 &lt;p&gt;When the charger eventually died entirely in 2005, I decided to look for a new laptop. I had only one demand: it should have a charger that lasts or is at least cheap to replace. I found more than I was looking for. I bought an &lt;a href=&#34;http://www.thinkwiki.org/wiki/Category:R52&#34;&gt;IBM Thinkpad R52&lt;/a&gt;, and it was love at first use. My IBM laptop was the Apple iBook counterpart, not just in terms of design (a rectangular box available in all colours as long as it’s black). More importantly, the entire machine was built to last, built to be reliable, and built to be repairable.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mar-ver.github.io/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;Circular and modular products are all the hype these days&lt;/a&gt;, its lifetime could be extended endlessly by gradually repairing and replacing every part that it consists of. The question is not how we can evolve towards a circular economy, but instead why we continue to evolve away from it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;Circular and modular products are all the hype these days&lt;/a&gt;, its lifetime could be extended endlessly by gradually repairing and replacing every part that it consists of. The question is not how we can evolve towards a circular economy, but instead why we continue to evolve away from it.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The question is not how we can evolve towards a circular economy, but instead why we continue to evolve away from it.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;My Thinkpad was more expensive to buy than my iBook, but at least I didn’t spend all that money on a cute design but a decent computer. The charger gave no problems, and when I lost it during a trip and had to buy a new one, I could do so for a fair price. Little did I know that my happy purchase was going to be a once-in-a-lifetime experience.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/Thinkpad-r52-white_dithered.png&#34; alt=&#39;Image: The IBM ThinkPad R52 from 2005.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/Thinkpad-r52-white_dithered.png&#34; alt=&#39;Image: The IBM ThinkPad R52 from 2005.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The IBM ThinkPad R52 from 2005. 
 &lt;/figcaption&gt;
@@ -188,7 +188,7 @@
 &lt;p&gt;There was no getting around it anymore: I needed a new laptop. Again. But which one? For sure it would not be one made by Lenovo or Apple.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/broken-keyboard-white_dithered.png&#34; alt=&#39;Image: Replacing all keys on my Lenovo T430 would have cost me 1,350 euros.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/broken-keyboard-white_dithered.png&#34; alt=&#39;Image: Replacing all keys on my Lenovo T430 would have cost me 1,350 euros.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Replacing all keys on my Lenovo T430 would have cost me 1,350 euros.  
 &lt;/figcaption&gt;
@@ -200,7 +200,7 @@
 &lt;p&gt;My 2006 Thinkpad X60s does everything I want it to do. I use it to write articles, do research, and maintain the websites. I have also used it on-stage to give lectures, projecting images on a large screen. There’s only one thing missing on my laptop, especially nowadays, and that’s a webcam. I solve this by firing up the cursed 2013 laptop with the broken keys whenever I need to, happy to give it some use that doesn’t involve its keyboard. It could also be solved by a switch to the &lt;a href=&#34;http://www.thinkwiki.org/wiki/Category:X200&#34;&gt;Thinkpad X200&lt;/a&gt; from 2008, which is a newer version of the same model and has a webcam.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/thinkpad-x60s-white_dithered.png&#34; alt=&#39;Image: My ThinkPad X60s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/thinkpad-x60s-white_dithered.png&#34; alt=&#39;Image: My ThinkPad X60s.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: My ThinkPad X60s. 
 &lt;/figcaption&gt;
@@ -219,7 +219,7 @@
 &lt;p&gt;Then, last year, my X60s suddenly refused to charge its battery, an issue that had also appeared with my cursed 2013 laptop. It seems to be a common problem with Thinkpads, but I could not solve it yet. Neither did I really have to because I had a spare laptop ready and started using that one whenever I needed or wanted to work outside.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/spare-laptops-white_dithered.png&#34; alt=&#39;Image: Three identical 2006 laptops, all in working order, for less than 200 euros.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/spare-laptops-white_dithered.png&#34; alt=&#39;Image: Three identical 2006 laptops, all in working order, for less than 200 euros.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Three identical 2006 laptops, all in working order, for less than 200 euros. 
 &lt;/figcaption&gt;
@@ -227,7 +227,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/thinkpad-inside_dithered.png&#34; alt=&#39;Image: Inside the Thinkpad X60s. Source: Hardware Maintenance Manual.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/thinkpad-inside_dithered.png&#34; alt=&#39;Image: Inside the Thinkpad X60s. Source: Hardware Maintenance Manual.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Inside the Thinkpad X60s. Source: [Hardware Maintenance Manual](https://download.lenovo.com/ibmdl/pub/pc/pccbbs/mobiles_pdf/42x3550_04.pdf). 
 &lt;/figcaption&gt;
@@ -236,7 +236,7 @@
 &lt;h2 id=&#34;the-magical-sd-card&#34;&gt;The magical SD-card&lt;/h2&gt;
 &lt;p&gt;Now to introduce you to my magical SD-card, which is another hardware upgrade that facilitates the use of old (but also new) laptops. Many people have their personal documents stored on their laptop&amp;rsquo;s hard drive and then make backups to external storage media if all goes well. I do it the other way around.&lt;/p&gt;
 &lt;p&gt;I have all my data on a 128 GB SD-card, which I can plug into any of the Thinkpads that I own. I then make monthly backups of the SD-card, which I store on an external storage medium, as well as regular backups of the documents that I am working on, which I temporarily store on the drive of the laptop that I am working on. This has proven to be very reliable, at least for me: I have stopped losing work due to computer problems and insufficient backups.&lt;/p&gt;
-&lt;p&gt;The other advantage is that I can work on any laptop that I want and that I’m not dependent on a particular machine to access my work. You can get similar advantages when you keep all your data in the cloud, but the SD-card is &lt;a href=&#34;https://mar-ver.github.io/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;the more sustainable option&lt;/a&gt;, and it works without internet access.&lt;/p&gt;
+&lt;p&gt;The other advantage is that I can work on any laptop that I want and that I’m not dependent on a particular machine to access my work. You can get similar advantages when you keep all your data in the cloud, but the SD-card is &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;the more sustainable option&lt;/a&gt;, and it works without internet access.&lt;/p&gt;
 &lt;p&gt;Hypothetically, I could have up to two hard drive failures in one day and keep working as if nothing happened. Since I am now using both laptops alternately – one with battery, the other one without – I can also leave them at different locations and cycle between these places while carrying only the SD-card in my wallet. Try that with your brand new, expensive laptop. I can also use my laptops together if I need an extra screen.&lt;/p&gt;
 &lt;p&gt;In combination with a hard disk drive, the SD-card also increases the performance of an old laptop and can be an alternative to installing a solid-state drive. My spare laptop does not have one and it can be slow when browsing heavy-weight websites. However, thanks to the SD-card, opening a map or document happens almost instantly, as does scrolling through a document or saving it. The SD-card also keeps the hard disk running smoothly because it&amp;rsquo;s mostly empty. I don’t know how practical using an SD-card is for other laptops, but all my Thinkpads have a slot for them.&lt;/p&gt;
 &lt;h2 id=&#34;the-costs&#34;&gt;The costs&lt;/h2&gt;
@@ -253,7 +253,7 @@
 &lt;p&gt;Even if you buy all of this, you only spent 285 euros. For that price, you may be able to buy the crappiest new laptop on the market, but it surely won’t get you two spare laptops. If you manage to keep working with this lot for ten years, your laptop costs would be 28.5 euros per year. You may have to replace a few solid-state drives and SD-cards, but it won’t make much difference. Furthermore, you save the ecological damage that is caused by the production of a new laptop every 5.7 years.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/spare-laptops-2-white_dithered.png&#34; alt=&#39;Image: My laptop needs are met for the foreseeable future.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/12/how-and-why-i-stopped-buying-new-laptops/images/dithers/spare-laptops-2-white_dithered.png&#34; alt=&#39;Image: My laptop needs are met for the foreseeable future.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: My laptop needs are met for the foreseeable future. 
 &lt;/figcaption&gt;

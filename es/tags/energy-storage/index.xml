@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Español</title>
-    <link>https://mar-ver.github.io/es/tags/energy-storage/</link>
+    <link>https://lowtechmag.gitlab.io/solar/es/tags/energy-storage/</link>
     <description>Este sitio web funciona con energía solar, lo que significa que en ocasiones estará fuera de línea.</description>
     <generator>Hugo 0.115.3</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/es/tags/energy-storage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/es/tags/energy-storage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cocinas termoeléctricas: es hora de descartar los paneles solares?</title>
-      <link>https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
+      <link>https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
       
-      <enclosure url="https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Si &lt;a href=&#34;https://mar-ver.github.io/es/2019/12/too-much-combustion-too-little-fire/&#34;&gt;los molinos de viento de 2.000 años de antigüedad son los predecesores de las turbinas de viento modernas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2019/12/too-much-combustion-too-little-fire/&#34;&gt;los molinos de viento de 2.000 años de antigüedad son los predecesores de las turbinas de viento modernas&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;La fotosíntesis también nos ha proporcionado todo tipo de energía mecánica a lo largo de la historia: nos ha provisto de combustible tanto para humanos como para animales, y de materiales de construcción para molinos de viento y agua. Ni los antiguos molinos de viento ni las antiguas cocinas a leña proveen electricidad, pero ambos pueden ser adaptados para hacerlo: basta con conectar un generador eléctrico al molino, y uno termoeléctrico a la cocina.&lt;/p&gt;
 &lt;h2 id=&#34;generadores-termoeléctricos&#34;&gt;Generadores Termoeléctricos&lt;/h2&gt;
 &lt;p&gt;Los generadores termoeléctricos (o “GTES”) son muy similares a los generadores “fotoeléctricos” – llamados hoy en día generadores “fotovoltaico”, o celdas solares FV: un generador fotovoltaico convierte luz directamente en electricidad, y un generador termoeléctrico convierte calor directamente en electricidad. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Un generador termoeléctrico consiste en uno o más lingotes de elementos semiconductores conectados en serie con planchas de metal, intercalados entre dos placas de material eléctricamente aislante, pero térmicamente conductor, formando un módulo muy compacto. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Pueden adquirirse de varios fabricantes, como Hi-Z, Tellurex, Thermalforce o Thermomanic.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un módulo termoeléctrico. Imagen: Gerardtv (CC BY-SA 3.0) 
 &lt;/figcaption&gt;
@@ -38,14 +38,14 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen usada con permiso, Applied Thermoelectric Solutions LLC, Cómo funciona un generador termoeléctrico.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;Un módulo termoeléctrico. Imagen usada con permiso, Applied Thermoelectric Solutions LLC, Cómo funciona un generador termoeléctrico.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un módulo termoeléctrico. Imagen usada con permiso, Applied Thermoelectric Solutions LLC, [Cómo funciona un generador termoeléctrico](https://thermoelectricsolutions.com/how-thermoelectric-generators-work/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Si uno adhiere un módulo termoeléctrico a la superficie de una cocina a leña, producirá electricidad cuando la cocina se use para cocinar, calefaccionar o calentar agua. A lo largo de varios experimentos y prototipos descriptos en mayor detalle más adelante, la potencia generada por cada módulo ha sido de entre 3 y 19 watts.&lt;/p&gt;
-&lt;p&gt;Al igual que con los paneles solares, los módulos pueden conectarse unos a otros en paralelo o serie, con el fin de obtener el voltaje y potencia que uno necesite – al menos mientras haya espacio disponible en la superficie de la cocina. Al igual que con los paneles solares, la corriente eléctrica que producen los módulos puede ser regulada por un controlador de carga y almacenada en una batería, para ser consumida inclusive cuando la cocina no se encuentra en uso. Una cocina termoeléctrica se combina habitualmente con dispositivos de &lt;a href=&#34;https://mar-ver.github.io/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;corriente directa y poco voltaje&lt;/a&gt;, evitando pérdidas por conversión.&lt;/p&gt;
+&lt;p&gt;Al igual que con los paneles solares, los módulos pueden conectarse unos a otros en paralelo o serie, con el fin de obtener el voltaje y potencia que uno necesite – al menos mientras haya espacio disponible en la superficie de la cocina. Al igual que con los paneles solares, la corriente eléctrica que producen los módulos puede ser regulada por un controlador de carga y almacenada en una batería, para ser consumida inclusive cuando la cocina no se encuentra en uso. Una cocina termoeléctrica se combina habitualmente con dispositivos de &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;corriente directa y poco voltaje&lt;/a&gt;, evitando pérdidas por conversión.&lt;/p&gt;
 &lt;p&gt;Las cocinas termoeléctricas podrían ser usadas en muchas partes del mundo. Las investigaciones se enfocan principalmente en el “Sur Global”, donde cerca de 3.000 millones de personas (40% de la población mundial) dependen de quemar biomasa para cocinar y calentar agua. Algunos de estos hogares también usan cocinas u hogueras para iluminación (1.300 millones de personas no tienen acceso a electricidad) y para calefacción durante partes del año. Sin embargo, también hay investigaciones sobre su uso en hogares en sociedades industriales, donde las cocinas a biomasa y hornallas han aumentado en popularidad, sobre todo fuera de las ciudades.&lt;/p&gt;
 &lt;h2 id=&#34;100-eficiente&#34;&gt;100% Eficiente&lt;/h2&gt;
 &lt;p&gt;Desde que Thomas Seebeck describió el efecto termoeléctrico por primera vez, en 1821, los generadores termoeléctricos han sido famosos por su baja eficiencia al convertir calor en electricidad. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Hoy en día, la eficiencia de los módulos termoeléctricos es de tan solo 5 a 6%, aproximadamente tres veces menor que la de los paneles FV más usados. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -56,7 +56,7 @@
 &lt;p&gt;Aunque la cocina se use únicamente para cocinar y calentar agua, estas tareas cotidianas garantizan de todas formas una fuente constante de energía sin importar el clima. Además, la producción de energía de una cocina termoeléctrica coincide con las demandas de energía de un hogar: por lo general, el mayor uso de electricidad se da al mismo tiempo que se usa la cocina. Los paneles solares, por otra parte, producen muy poca o ninguna electricidad en los momentos de mayor demanda hogareña.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico basado en una lámpara de querosén, alimentando una radio, 1959. Fuente: Museo de retro tecnología.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico basado en una lámpara de querosén, alimentando una radio, 1959. Fuente: Museo de retro tecnología.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Un generador termoeléctrico basado en una lámpara de querosén, alimentando una radio, 1959. Fuente: [Museo de retro tecnología](http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm).  
 &lt;/figcaption&gt;
@@ -79,16 +79,16 @@
 &lt;p&gt;Las primeras cocinas termoeléctricas a biomasa se fabricaron a principio de los años 2000, aunque los soviéticos habían probado un concepto similar en los años 50, usando linternas de querosén para alimentar radios eléctricas. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; En el 2004, un grupo de investigadores en el Líbano adaptaron una cocina de fundición de hierro a base de leña, típica en áreas rurales, con un módulo termoeléctrico de 56 x 56 mm que ellos mismos fabricaron. La cocina, usada tanto para cocinar y hornear, como para calefaccionar y calentar agua, era relativamente pequeña (52 x 44 x 29 cm) y pesaba 40 kg.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Imagen: La cocina de fundición de hierro usada en los experimentos. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Imagen: La cocina de fundición de hierro usada en los experimentos. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: La cocina de fundición de hierro usada en los experimentos. [^18] 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Los investigadores atornillaron una plancha de aluminio de 1 cm de grosor en el punto más caliente de la cocina. Instalaron ahí el módulo, y adosaron al lado frío un gran disipador de aluminio (180 x 136 x 125 mm) con aletas. Quemando 2,5 kg de madera blanda de pino por hora, lograron una potencia de salida de 4,2 watts. Si la cocina se usara durante 10 horas al día (dejando de lado la fase inicial de entrada en calor), podría proveer de 42 watt-hora de electricidad, &lt;a href=&#34;https://mar-ver.github.io/es/2018/01/how-much-energy-do-we-need/&#34;&gt;suficiente para cubrir las necesidades básicas&lt;/a&gt; de un hogar rural en el Líbano.&lt;/p&gt;
+&lt;p&gt;Los investigadores atornillaron una plancha de aluminio de 1 cm de grosor en el punto más caliente de la cocina. Instalaron ahí el módulo, y adosaron al lado frío un gran disipador de aluminio (180 x 136 x 125 mm) con aletas. Quemando 2,5 kg de madera blanda de pino por hora, lograron una potencia de salida de 4,2 watts. Si la cocina se usara durante 10 horas al día (dejando de lado la fase inicial de entrada en calor), podría proveer de 42 watt-hora de electricidad, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/01/how-much-energy-do-we-need/&#34;&gt;suficiente para cubrir las necesidades básicas&lt;/a&gt; de un hogar rural en el Líbano.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Imagen: Detalle de instalación del GTE y ubicación en la cocina. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Imagen: Detalle de instalación del GTE y ubicación en la cocina. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Detalle de instalación del GTE y ubicación en la cocina. [^18] 
 &lt;/figcaption&gt;
@@ -100,7 +100,7 @@
 &lt;p&gt;Un estudio de una cocina termoeléctrica, con un módulo y ventilación forzada, mostró que puede producir 4,5 watts de potencia, de los cuales 1 es consumido por el ventilador. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt; La producción neta (3,5 watts) es menor que en la cocina que solo usa un disipador (4,2 watts), pero la cocina con el ventilador consume menos de la mitad de leña: genera 3,5 watts netos de electricidad quemando solo 1 kg por hora, mientras que la cocina con refrigeración pasiva requiere 2,5 kg por hora para producir los 4,2 watts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Imagen: Cocina con GTE y ventilación forzada. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Imagen: Cocina con GTE y ventilación forzada. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Cocina con GTE y ventilación forzada. [^20]  
 &lt;/figcaption&gt;
@@ -112,7 +112,7 @@
 &lt;p&gt;Las cocinas termoeléctricas más eficientes son aquellas en las que el lado frío de los módulos se encuentra en contacto directo con un tanque de agua. El agua tiene una resistencia termal menor que el aire, por lo que refrigera más eficientemente. Además, la temperatura del agua no puede superar los 100 grados Celsius, lo que reduce la posibilidad de que un módulo falle por sobrecalentamiento.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Imagen: el funcionamiento de las cocinas termoeléctricas con refrigeración pasiva con agua. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Imagen: el funcionamiento de las cocinas termoeléctricas con refrigeración pasiva con agua. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: el funcionamiento de las cocinas termoeléctricas con refrigeración pasiva con agua. [^17] 
 &lt;/figcaption&gt;
@@ -122,7 +122,7 @@
 &lt;p&gt;La mayoría de las cocinas termoeléctricas con refrigeración pasiva a agua son pequeñas, y calientan cantidades reducidas de agua. De hecho, el módulo termoeléctrico suele adosarse a una pequeña cacerola, y no a la cocina. Un ejemplo es el PowerPot, una cacerola que se coloca directamente sobre la cocina y que tiene un módulo termoeléctrico adosado a su base. Se puede adquirir comercialmente, y supuestamente puede generar entre 5 y 10 watts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Imagen: cocina multifuncional a base de leña con refrigeración pasiva a agua. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Imagen: cocina multifuncional a base de leña con refrigeración pasiva a agua. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: cocina multifuncional a base de leña con refrigeración pasiva a agua. [^22] 
 &lt;/figcaption&gt;
@@ -134,21 +134,21 @@
 &lt;p&gt;La refrigeración pasiva a agua tiene una desventaja: a medida que la temperatura del agua aumenta, la diferencia de temperatura entre el lado frío y caliente del generador disminuye, y por lo tanto se vuelve menos eficiente. O bien se deja suficiente tiempo entre los usos de la cocina para que el agua se enfríe, o el agua caliente debe ser usada regularmente y reemplazada por agua fría. Una bomba de agua facilita esta tarea.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Imagen: Prototipo de una cocina termoeléctrica con módulos refrigerados a agua. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Imagen: Prototipo de una cocina termoeléctrica con módulos refrigerados a agua. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Prototipo de una cocina termoeléctrica con módulos refrigerados a agua. [^26] 
 &lt;/figcaption&gt;
@@ -159,7 +159,7 @@
 &lt;p&gt;Los generadores termoeléctricos con refrigeración forzada a agua se adaptan mejor a la infraestructura eléctrica de sociedades industrializadas, especialmente en hogares con sistemas de calefacción central. Agregándoles más módulos pueden suplir las necesidades de un estilo de vida con alto consumo eléctrico, pero no están faltos de obstáculos. Primero, los sistemas de calefacción centralizada se usan únicamente para calentar el ambiente y el agua, no para cocinar, lo que significa que su uso no es constante a lo largo del año. Segundo, solo algunos de tales sistemas quema biomasa o gránulos de madera; la mayoría usa gas, petróleo o electricidad.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototipo de un quemador termoeléctrico a gránulos de madera. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototipo de un quemador termoeléctrico a gránulos de madera. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Prototipo de un quemador termoeléctrico a gránulos de madera. [^30]  
 &lt;/figcaption&gt;
@@ -169,7 +169,7 @@
 &lt;p&gt;Sin embargo, cuando la fuente de energía es gas o petróleo, una caldera termoeléctrica es una solución tan baja en carbono como un sistema solar FV conectado a la red eléctrica. &lt;sup id=&#34;fnref:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt; Ni un sistema de calefacción termoeléctrico, ni uno solar FV conectado a la red, vuelven a un hogar independiente de combustibles fósiles. Ambos siguen dependiendo de la red eléctrica, mayormente alimentada por combustibles fósiles, para solucionar excesos y faltas de energía, y generalmente cuentan con un sistema de calefacción y agua caliente central, alimentado también por combustibles fósiles.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico de 1kW con refrigeración forzada a agua, para fuentes de energía termal de baja temperatura. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Imagen: Un generador termoeléctrico de 1kW con refrigeración forzada a agua, para fuentes de energía termal de baja temperatura. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Imagen: Un generador termoeléctrico de 1kW con refrigeración forzada a agua, para fuentes de energía termal de baja temperatura. [^31] 
 &lt;/figcaption&gt;
@@ -271,27 +271,27 @@
     
     <item>
       <title>¿Qué tan sostenible es un sitio web operado con energía solar?</title>
-      <link>https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/</link>
+      <link>https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/</link>
       
-      <enclosure url="https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" type="image/png" length="10369" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png" type="image/png" length="10369" ></enclosure>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/detail-system-diego_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
-&lt;p&gt;En septiembre de 2018, Low-tech Magazine &lt;a href=&#34;https://mar-ver.github.io/es/2018/09/how-to-build-a-low-tech-website/&#34;&gt;lanzó un nuevo sitio web&lt;/a&gt; destinado a reducir radicalmente el uso de energía y las emisiones de carbono asociadas con el acceso a su contenido. El uso de energía relacionado al acceso a Internet está &lt;a href=&#34;https://mar-ver.github.io/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;creciendo rápidamente&lt;/a&gt; debido al aumento tanto en la tasa de bits (el contenido en línea cada vez se vuelve &amp;ldquo;más pesado&amp;rdquo;) como el aumento del tiempo de conexión (especialmente desde la llegada de la informática móvil y la conexión inalámbrica a Internet).&lt;/p&gt;
-&lt;p&gt;El sitio web operado con energía solar se opone a estas tendencias. Para reducir el uso de energía por debajo del consumo de un sitio web promedio, optamos por un diseño &lt;a href=&#34;https://mar-ver.github.io/es/about.html&#34;&gt;web sencillo y estático&lt;/a&gt; en lugar de un sistema de gestión de contenido operado desde una base de datos. Para reducir el uso de energía asociado con la producción del panel solar y la batería, elegimos una configuración mínima y aceptamos el hecho de que el sitio web se desconectaria cuando hace mal tiempo.&lt;/p&gt;
+&lt;p&gt;En septiembre de 2018, Low-tech Magazine &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/09/how-to-build-a-low-tech-website/&#34;&gt;lanzó un nuevo sitio web&lt;/a&gt; destinado a reducir radicalmente el uso de energía y las emisiones de carbono asociadas con el acceso a su contenido. El uso de energía relacionado al acceso a Internet está &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/10/why-we-need-a-speed-limit-for-the-internet/&#34;&gt;creciendo rápidamente&lt;/a&gt; debido al aumento tanto en la tasa de bits (el contenido en línea cada vez se vuelve &amp;ldquo;más pesado&amp;rdquo;) como el aumento del tiempo de conexión (especialmente desde la llegada de la informática móvil y la conexión inalámbrica a Internet).&lt;/p&gt;
+&lt;p&gt;El sitio web operado con energía solar se opone a estas tendencias. Para reducir el uso de energía por debajo del consumo de un sitio web promedio, optamos por un diseño &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/about.html&#34;&gt;web sencillo y estático&lt;/a&gt; en lugar de un sistema de gestión de contenido operado desde una base de datos. Para reducir el uso de energía asociado con la producción del panel solar y la batería, elegimos una configuración mínima y aceptamos el hecho de que el sitio web se desconectaria cuando hace mal tiempo.&lt;/p&gt;
 &lt;p&gt;Hemos estado monitoreando el servidor solar durante 15 meses y hemos recopilado datos sobre el tiempo de actividad, el uso de energía, potencia, la eficiencia del sistema y el tráfico de visitantes. También calculamos cuánta energía se requeríria para fabricar el panel solar, la batería, el controlador de carga y el servidor.&lt;/p&gt;
 &lt;h2 id=&#34;tiempo-de-actividad-uso-de-electricidad-y-eficiencia-del-sistema&#34;&gt;Tiempo de actividad, uso de electricidad y eficiencia del sistema&lt;/h2&gt;
 &lt;p&gt;El sitio web solar se desconecta cuando hace mal tiempo, pero ¿con qué frecuencia sucede eso? Durante un período de aproximadamente un año (351 días, del 12 de diciembre de 2018 al 28 de noviembre de 2019), logramos un tiempo de actividad del 95.26%. Esto significa que estuvimos fuera de línea debido al mal tiempo durante 399 horas.&lt;/p&gt;
-&lt;p&gt;Si ignoramos los últimos dos meses, nuestro tiempo de actividad fue del 98.2%, con un tiempo de inactividad de tan solo 152 horas. El tiempo de actividad cayo en picado al 80% durante los últimos dos meses, debido a que una actualización de software &lt;a href=&#34;https://mar-ver.github.io/es/about.html&#34;&gt;aumentó el uso de energía del servidor&lt;/a&gt;. Esto interrumpió el sitio web, quitándolo de linea durante al menos unas horas cada noche.&lt;/p&gt;
+&lt;p&gt;Si ignoramos los últimos dos meses, nuestro tiempo de actividad fue del 98.2%, con un tiempo de inactividad de tan solo 152 horas. El tiempo de actividad cayo en picado al 80% durante los últimos dos meses, debido a que una actualización de software &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/about.html&#34;&gt;aumentó el uso de energía del servidor&lt;/a&gt;. Esto interrumpió el sitio web, quitándolo de linea durante al menos unas horas cada noche.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Un kilovatio hora de electricidad generada por energía solar puede servir a casi 50,000 visitantes únicos.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -303,7 +303,7 @@
 &lt;p&gt;No existe tal omisión con un sitio web autohospedado impulsado por una instalación solar fotovoltaica fuera de red. El panel solar, la batería y el controlador de carga solar son partes igualmente esenciales de la instalación como el servidor mismo. La energía, el uso para la extracción de los recursos y la fabricación de estos componentes, la &amp;ldquo;energía incorporada&amp;rdquo;, también deben ser tomadas en cuenta.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png&#34; alt=&#39;Una representación simple de nuestro sistema. La conversión de voltaje (entre el controlador de carga de 12 V y el servidor de 5 V) y el medidor de batería (entre el servidor y la batería) no se muestran en la ilustracion.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/system-diego_dithered.png&#34; alt=&#39;Una representación simple de nuestro sistema. La conversión de voltaje (entre el controlador de carga de 12 V y el servidor de 5 V) y el medidor de batería (entre el servidor y la batería) no se muestran en la ilustracion.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Una representación simple de nuestro sistema. La conversión de voltaje (entre el controlador de carga de 12 V y el servidor de 5 V) y el medidor de batería (entre el servidor y la batería) no se muestran en la ilustracion. 
 &lt;/figcaption&gt;
@@ -317,14 +317,14 @@
 &lt;p&gt;Para encontrar el equilibrio óptimo, manejamos nuestro sistema con diferentes combinaciones de paneles solares y baterías. El tiempo de actividad y la energía incorporada también están determinados por las condiciones climáticas locales, por lo que los resultados que aquí presenataremos solo son válidos para nuestra ubicación especifica (el balcón de la casa del autor cerca de Barcelona, España).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-panels-sizes_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;Diferentes tamaños de paneles solares y baterías. Ilustración: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/batteries-sizes_dithered.png&#34; alt=&#39;Diferentes tamaños de paneles solares y baterías. Ilustración: Diego Marmolejo&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Diferentes tamaños de paneles solares y baterías. Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/) 
 &lt;/figcaption&gt;
@@ -688,7 +688,7 @@ autohospedada similar que se ejecuta en la red. Esto nos permite evaluar la (des
 &lt;p&gt;Alojar la revista Low-tech con energía solar durante un año ha producido tantas emisiones como una distancia promedio de conducción de de 50 km.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Por lo tanto, adoptamos otro enfoque: convertimos la energía incorporada de nuestros componentes en litros de aceite (1 litro o aceite es 10 kWh de energía
-primaria) y calculamos el resultado en función de las emisiones de CO2 del petróleo (1 litro de aceite produce 3 kg) de gases de efecto invernadero, incluida su extracción y refinación). Esto tiene en cuenta que la &lt;a href=&#34;https://mar-ver.github.io/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;mayoría de los paneles solares y baterías ahora se producen en China&lt;/a&gt;, donde la red eléctrica es tres veces más intensiva en carbono y 50% menos eficiente en energía que en Europa. &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+primaria) y calculamos el resultado en función de las emisiones de CO2 del petróleo (1 litro de aceite produce 3 kg) de gases de efecto invernadero, incluida su extracción y refinación). Esto tiene en cuenta que la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;mayoría de los paneles solares y baterías ahora se producen en China&lt;/a&gt;, donde la red eléctrica es tres veces más intensiva en carbono y 50% menos eficiente en energía que en Europa. &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Esto significa que el uso de combustibles fósiles asociado con el funcionamiento de la revista Low-tech solar durante el primer año (panel de 50W, batería de 86.4 Wh) corresponde a 3 litros de aceite y 9 kg de emisiones de carbono, tanto como un automóvil europeo promedio que conduce un distancia de 50 km. A continuación se muestran los resultados para las otras configuraciones:&lt;/p&gt;
 &lt;h3 id=&#34;energía-incorporada-en-su-equivalente-en-petróleo-l--año-y-emisiones-de-co-2-kg--año-de-las-diferentes-configuraciones&#34;&gt;Energía incorporada en su equivalente en petróleo (L / año) y emisiones de CO 2 (kg / año) de las diferentes configuraciones&lt;/h3&gt;
 &lt;table&gt;
@@ -782,12 +782,12 @@ vatios. La ganancia puede parecer pequeña, pero una diferencia en el uso de ene
 &lt;p&gt;La eficiencia del sistema fue solo del 50% durante el primer año. Se experimentaron pérdidas de energía durante la carga y descarga de la batería
 (22%), así como en la conversión de voltaje de 12 V (sistema fotovoltaico solar) a 5 V (conexión USB), donde las pérdidas suman un 28%. El convertidor de voltaje inicial que construimos era bastante subóptimo (nuestro controlador de carga solar no tiene una conexión USB incorporada), por lo que podríamos &lt;a href=&#34;https://blog.yavilevich.com/2017/03/efficient-dc-12v-to-5v-conversion-for-low-power-electronics-evaluation-of-six-modules/&#34;&gt;construir uno mejor&lt;/a&gt;, o cambiar la configuración de PV solar a 5V.&lt;/p&gt;
 &lt;h2 id=&#34;almacenamiento-de-energía&#34;&gt;Almacenamiento de energía&lt;/h2&gt;
-&lt;p&gt;Para aumentar la eficiencia del almacenamiento de energía, podríamos reemplazar las baterías de plomo-ácido con baterías de iones de litio. Estas son más caras, pero tienen menores pérdidas de carga / descarga (&amp;lt;10%) y menor energía incorporada. Lo más probable es que eventualmente cambiemos a &lt;a href=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;un sistema de almacenamiento de energía de aire comprimido a pequeña escala&lt;/a&gt; (CAES). Aunque los sistemas CAES de baja presión tienen una eficiencia similar a las baterías de plomo-ácido, tienen una energía incorporada mucho menor debido a su larga vida útil (décadas en lugar de años).&lt;/p&gt;
+&lt;p&gt;Para aumentar la eficiencia del almacenamiento de energía, podríamos reemplazar las baterías de plomo-ácido con baterías de iones de litio. Estas son más caras, pero tienen menores pérdidas de carga / descarga (&amp;lt;10%) y menor energía incorporada. Lo más probable es que eventualmente cambiemos a &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;un sistema de almacenamiento de energía de aire comprimido a pequeña escala&lt;/a&gt; (CAES). Aunque los sistemas CAES de baja presión tienen una eficiencia similar a las baterías de plomo-ácido, tienen una energía incorporada mucho menor debido a su larga vida útil (décadas en lugar de años).&lt;/p&gt;
 &lt;h2 id=&#34;fuente-de-energía&#34;&gt;Fuente de energía&lt;/h2&gt;
 &lt;p&gt;Otra forma de reducir la energía incorporada es cambiar la fuente de energía
 renovable. La energía solar fotovoltaica tiene una alta energía incorporada en comparación con otras alternativas como la eólica, hidráulica o la energía
 humana. Estas fuentes de energía podrían cosecharse con poco más que un generador y un regulador de voltaje, ya que el resto de la planta de energía
-&lt;a href=&#34;https://mar-ver.github.io/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;podría construirse de madera&lt;/a&gt;. Además, un sitio web alimentado por agua no requeriría almacenamiento de energía de alta tecnología. Si se encuentra en un clima frío, se podría operar un sitio web al calor de una estufa de leña, utilizando un generador termoeléctrico.&lt;/p&gt;
+&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;podría construirse de madera&lt;/a&gt;. Además, un sitio web alimentado por agua no requeriría almacenamiento de energía de alta tecnología. Si se encuentra en un clima frío, se podría operar un sitio web al calor de una estufa de leña, utilizando un generador termoeléctrico.&lt;/p&gt;
 &lt;h2 id=&#34;rastreador-solar&#34;&gt;Rastreador solar&lt;/h2&gt;
 &lt;p&gt;Teniendo un buen suministro de viento o agua se podría construir un sistema con menos energía incorporada que el nuestro. Sin embargo, a menos que el autor comience a alimentar su sitio web con energía de &lt;a href=&#34;https://www.humanpowerplant.be&#34;&gt;las manos o los pies&lt;/a&gt;, estamos prácticamente obligados a usar energía solar. La mejora más importante que podríamos hacer es agregar un rastreador solar que haga que el panel siga al sol, lo que podría aumentar la generación de electricidad hasta en un 30% y permitirnos obtener un mejor tiempo de actividad con un panel más pequeño.&lt;/p&gt;
 &lt;h2 id=&#34;ampliando-el-sistema&#34;&gt;Ampliando el sistema&lt;/h2&gt;
@@ -795,7 +795,7 @@ humana. Estas fuentes de energía podrían cosecharse con poco más que un gener
 ampliarlo: ejecutar más sitios web en un servidor y ejecutar más servidores (y más grandes) en un sistema solar fotovoltaico. Esta configuración tendría una energía incorporada mucho menor que un sistema de gran tamaño para cada sitio web.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/solar-powered-data-center_dithered.png&#34; alt=&#39;Ilustración: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Ilustración: [Diego Marmolejo](https://www.instagram.com/ddidak/). 
 &lt;/figcaption&gt;
@@ -805,12 +805,12 @@ ampliarlo: ejecutar más sitios web en un servidor y ejecutar más servidores (y
 &lt;p&gt;Si tuviéramos que llenar el balcón del autor con paneles solares y comenzar una empresa de alojamiento web con energía solar, la energía incorporada por visitante único disminuiría significativamente. Solo necesitaríamos un servidor para múltiples sitios web y un controlador de carga solar para múltiples paneles solares. La conversión de voltaje sería más eficiente desde el punto de vista energético, y todos los sitios web podrían compartir la energía solar y de la batería, lo que genera economía de escala.&lt;/p&gt;
 &lt;p&gt;Por supuesto, este es mismo concepto de los centros de datos, y aunque no tenemos la ambición de iniciar un negocio así, otros podrían llevar esta idea hacia adelante: hacia un centro de datos que sea tan eficiente como cualquierotro centro de datos actual, pero que funciona con energías renovables y se desconecta cuando hace mal tiempo.&lt;/p&gt;
 &lt;h3 id=&#34;agregar-más-sitios-web&#34;&gt;Agregar más sitios web&lt;/h3&gt;
-&lt;p&gt;Descubrimos que la capacidad de nuestro servidor es lo suficientemente grande como para alojar más sitios web, por lo que ya hemos dado un pequeño paso hacia la economía de escala al trasladar las versiones en &lt;a href=&#34;https://mar-ver.github.io/es/&#34;&gt;español&lt;/a&gt; y &lt;a href=&#34;https://mar-ver.github.io/fr/&#34;&gt;francés&lt;/a&gt; de Low-tech Magazine al servidor alimentado por energía solar (así como algunas otras traducciones).&lt;/p&gt;
+&lt;p&gt;Descubrimos que la capacidad de nuestro servidor es lo suficientemente grande como para alojar más sitios web, por lo que ya hemos dado un pequeño paso hacia la economía de escala al trasladar las versiones en &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/&#34;&gt;español&lt;/a&gt; y &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/&#34;&gt;francés&lt;/a&gt; de Low-tech Magazine al servidor alimentado por energía solar (así como algunas otras traducciones).&lt;/p&gt;
 &lt;p&gt;Aunque este movimiento aumentará nuestro uso de energía operacional y potencialmente también nuestro uso de energía incorporada, también
 eliminamos otros sitios web que están o estaban alojados en otros lugares. También tenemos que tener en cuenta que la cantidad de visitantes únicos a la revista Low-Tech puede crecer en el futuro, por lo que debemos ser más
 eficientes energéticamente tan solo para mantener nuestra huella ambiental.&lt;/p&gt;
 &lt;h3 id=&#34;combinar-servidor-e-iluminación&#34;&gt;Combinar servidor e iluminación&lt;/h3&gt;
-&lt;p&gt;Otra forma de lograr economía de escala daría un giro completamente nuevo a la idea. El servidor alimentado por energía solar es parte del hogar del autor, que también está &lt;a href=&#34;https://mar-ver.github.io/es/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;parcialmente alimentado por energía solar fuera de la red&lt;/a&gt;. Podríamos probar diferentes tamaños de baterías y paneles solares, simplemente intercambiando componentes entre instalaciones solares.&lt;/p&gt;
+&lt;p&gt;Otra forma de lograr economía de escala daría un giro completamente nuevo a la idea. El servidor alimentado por energía solar es parte del hogar del autor, que también está &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2016/05/how-to-get-your-apartment-off-the-grid/&#34;&gt;parcialmente alimentado por energía solar fuera de la red&lt;/a&gt;. Podríamos probar diferentes tamaños de baterías y paneles solares, simplemente intercambiando componentes entre instalaciones solares.&lt;/p&gt;
 &lt;p&gt;Cuando estábamos ejecutando el servidor en el panel de 50 W, el autor estaba operando las luces en la sala de estar en un panel de 10 W, y a menudo se quedaba sentado en la oscuridad. Cuando estábamos operando el servidor en el panel de 10 W, era al revés: había más luz en el hogar, a expensas de un menor tiempo de actividad del servidor.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Si el clima empeora, el autor podría decidir no usar las luces y mantener el servidor en línea, o al revés&lt;/p&gt;
@@ -821,18 +821,18 @@ eficientes energéticamente tan solo para mantener nuestra huella ambiental.&lt;
 incorporada y la infraestructura de almacenamiento de energía. Sin embargo, este no es, por supuesto, el uso total de energía asociado con este sitio web.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2020/01/how-sustainable-is-a-solar-powered-website/images/dithers/server-to-internet-router_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;También existe la energía operacional e incorporada de la infraestructura de red (que incluye nuestro enrutador, la red troncal de Internet y la red de telefonía
-móvil), y la energía operacional e incorporada de los dispositivos que nuestros visitantes usan para acceder a nuestro sitio web: teléfonos inteligentes, tabletas, computadoras portátiles, computadoras de escritorio. Algunos de estos tienen un bajo uso de energía operativa, pero todos tienen una vida útil muy limitada y, por lo tanto, una &lt;a href=&#34;https://mar-ver.github.io/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;gran energía incorporada&lt;/a&gt;.&lt;/p&gt;
+móvil), y la energía operacional e incorporada de los dispositivos que nuestros visitantes usan para acceder a nuestro sitio web: teléfonos inteligentes, tabletas, computadoras portátiles, computadoras de escritorio. Algunos de estos tienen un bajo uso de energía operativa, pero todos tienen una vida útil muy limitada y, por lo tanto, una &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;gran energía incorporada&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;El uso de energía en la red está directamente relacionado con la frecuencia de bits de los datos, por lo que nuestro sitio web, al ser tan livano, es igual de eficiente en las redes de comunicación como en nuestro servidor. Sin embargo, tenemos muy poca influencia sobre qué dispositivos utilizan las personas para acceder a nuestro sitio web, y la ventaja directa de nuestro diseño es mucho menor aquí que en la red. Por ejemplo, nuestro sitio web tiene el potencial de aumentar la esperanza de vida de las computadoras, ya que es lo suficientemente ligero como para acceder a él con máquinas muy antiguas. Desafortunadamente, nuestro sitio web no hará que las personas usen sus computadoras por más tiempo.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Tanto la infraestructura de red como los dispositivos de uso final podrían reimaginarse en línea con sitio web solar.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Dicho esto, tanto la infraestructura de red como los dispositivos de uso final podrían reimaginarse en línea con el sitio web solar, reducido y alimentado por fuentes de energía renovables con almacenamiento de energía limitado. Partes de la infraestructura de la red podrían desconectarse si el clima local es malo, y su correo electrónico puede almacenarse temporalmente en una tormenta a 3.000 km de distancia. Este tipo de infraestructura de red existe realmente en algunos países y ella fue la inspiración para la &lt;a href=&#34;https://mar-ver.github.io/2016/11/why-the-office-needs-a-typewriter-revolution/&#34;&gt;creación de este sitio web solar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dicho esto, tanto la infraestructura de red como los dispositivos de uso final podrían reimaginarse en línea con el sitio web solar, reducido y alimentado por fuentes de energía renovables con almacenamiento de energía limitado. Partes de la infraestructura de la red podrían desconectarse si el clima local es malo, y su correo electrónico puede almacenarse temporalmente en una tormenta a 3.000 km de distancia. Este tipo de infraestructura de red existe realmente en algunos países y ella fue la inspiración para la &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/11/why-the-office-needs-a-typewriter-revolution/&#34;&gt;creación de este sitio web solar&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Debido a que el uso total de energía del Internet generalmente se mide para que se distribuya aproximadamente por igual entre los servidores, la red y los dispositivos de uso final (todo incluyendo la fabricación de los dispositivos), podemos hacer una estimación aproximada del uso total de energía de este sitio web a través de un internet reimaginado. Para nuestra configuración original con un tiempo de actividad del 95.2%, esto sería 87.6 kWh de energía primaria, que corresponde a 9 litros de aceite y 27 kg de CO2. Las mejoras que describimos anteriormente podrían reducir aún más estos números, porque en este cálculo, todo el Internet funciona con sistemas solares fotovoltaicos de gran tamaño en balcones.&lt;/p&gt;
 &lt;p&gt;Gracias a Kathy Vanhout, Adriana Parra y Gauthier Roussilhe.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -867,15 +867,15 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
     
     <item>
       <title>Abandone las Baterías: Almacenamiento de Energía de Aire Comprimido Fuera de Red</title>
-      <link>https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
+      <link>https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
       
-      <enclosure url="https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
       <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -885,11 +885,11 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Desafortunadamente, las plantas de CAES a gran escala son muy ineficientes energéticamente. Comprimir y descomprimir el aire introduce pérdidas de energía, lo que resulta en una eficiencia eléctrica a eléctrica del solo 40-52%, en comparación con 70-85% para las plantas hidroeléctricas bombeadas, y del 70-90% para las baterías químicas.&lt;/p&gt;
 &lt;p&gt;La baja eficiencia se debe principalmente a que el aire se calienta durante la compresión. Este calor residual, que contiene una gran parte de la energía de entrada, se vierte a la atmósfera. Un problema relacionado es que el aire se enfría cuando se descomprime, lo que reduce la producción de electricidad y posiblemente congela el vapor de agua en el aire. Para evitar esto, las plantas CAES a gran escala calientan el aire antes de la expansión utilizando gas natural, lo que deteriora aún más la eficiencia del sistema y hace que el almacenamiento de energía renovable dependa de los combustibles fósiles.&lt;/p&gt;
 &lt;h2 id=&#34;por-qué-caes-a-pequeña-escala&#34;&gt;¿Por qué CAES a pequeña escala?&lt;/h2&gt;
-&lt;p&gt;En el artículo anterior, presentamos varias ideas, &lt;a href=&#34;https://mar-ver.github.io/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspiradas en sistemas históricos&lt;/a&gt;, que podrían mejorar la eficiencia de las plantas CAES a gran escala. En este artículo, nos centramos en el pequeño pero creciente número de ingenieros e investigadores que piensan que el futuro no está en el almacenamiento de energía a gran escala de aire comprimido, sino en sistemas a pequeña escala o microsistemas, utilizando recipientes de almacenamiento artificiales en la superficie en lugar de depósitos subterráneos. Dichos sistemas podrían estar desconectados de la red o conectados a la red, ya sea operando solos o junto con un sistema de batería.&lt;/p&gt;
+&lt;p&gt;En el artículo anterior, presentamos varias ideas, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspiradas en sistemas históricos&lt;/a&gt;, que podrían mejorar la eficiencia de las plantas CAES a gran escala. En este artículo, nos centramos en el pequeño pero creciente número de ingenieros e investigadores que piensan que el futuro no está en el almacenamiento de energía a gran escala de aire comprimido, sino en sistemas a pequeña escala o microsistemas, utilizando recipientes de almacenamiento artificiales en la superficie en lugar de depósitos subterráneos. Dichos sistemas podrían estar desconectados de la red o conectados a la red, ya sea operando solos o junto con un sistema de batería.&lt;/p&gt;
 &lt;p&gt;La razón principal para investigar el almacenamiento descentralizado de energía de aire comprimido es el simple hecho de que dicho sistema podría instalarse en cualquier lugar, al igual que las baterías químicas. CAES a gran escala, por otro lado, depende de una geología subterránea adecuada. Aunque hay más sitios potenciales para plantas de CAES a gran escala que para plantas hidroeléctricas a gran escala, encontrar cavernas de almacenamiento adecuadas no es tan fácil como se había supuesto.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Configuración experimental del sistema de almacenamiento de energía de aire comprimido a pequeña escala. Fuente: [^27]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;Configuración experimental del sistema de almacenamiento de energía de aire comprimido a pequeña escala. Fuente: [^27]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Configuración experimental del sistema de almacenamiento de energía de aire comprimido a pequeña escala. Fuente: [^27] 
 &lt;/figcaption&gt;
@@ -902,7 +902,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Además, no requieren materiales inusuales o tóxicos, y el hardware es fácilmente reciclable. El almacenamiento descentralizado de energía de aire comprimido no necesita líneas de producción de alta tecnología y puede ser fabricado, instalado y mantenido por empresas locales, a diferencia de un sistema de almacenamiento de energía basado en baterías químicas. Finalmente, el micro CAES no tiene autodescarga, es tolerante a una gama más amplia de entornos y promete ser más económico que las baterías químicas. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;Figura 2. Gráfico de barras muestra la relación entre la energía eléctrica total almacenada durante la vida útil de la tecnología de almacenamiento y su energía primaria incorporada. Los valores más altos consumen menos energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;Figura 2. Gráfico de barras muestra la relación entre la energía eléctrica total almacenada durante la vida útil de la tecnología de almacenamiento y su energía primaria incorporada. Los valores más altos consumen menos energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Figura 2. Gráfico de barras muestra la relación entre la energía eléctrica total almacenada durante la vida útil de la tecnología de almacenamiento y su energía primaria incorporada. Los valores más altos consumen menos energía. 
 &lt;/figcaption&gt;
@@ -915,7 +915,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Para empeorar las cosas, la eficiencia del sistema y el tamaño de almacenamiento están inversamente relacionados: mejorar un factor a menudo es a expensas del otro. El aumento de la presión de aire minimiza el tamaño de almacenamiento pero disminuye la eficiencia del sistema, mientras que el uso de una presión más baja hace que el sistema sea más eficiente en términos de energía pero da como resultado un mayor tamaño de almacenamiento. Algunos ejemplos ayudan a ilustrar el problema.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Tanques de almacenamiento de energía de aire comprimido. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Tanques de almacenamiento de energía de aire comprimido. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Tanques de almacenamiento de energía de aire comprimido. [Fuente](http://www.screwtypeaircompressors.com/sale-8108163-vertical-compressed-air-tank-natural-gas-tank-2000l-air-receiver-tank.html). 
 &lt;/figcaption&gt;
@@ -929,7 +929,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Tal sistema puede ser beneficioso en este contexto, especialmente porque tiene una vida útil mucho más larga que las baterías químicas. Sin embargo, una configuración similar en un contexto urbano con un alto consumo de energía es obviamente problemático. En otro estudio, se calculó que se necesitaría un tanque de almacenamiento de aire de 65 m3 para almacenar 3 kWh de energía. Esto corresponde a un recipiente a presión de 13 metros de largo con un diámetro de 2,5 metros, mostrado a continuación. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;Figura 28. Tamaño de un tanque que puede almacenar 3 kWh de energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;Figura 28. Tamaño de un tanque que puede almacenar 3 kWh de energía.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Figura 28. Tamaño de un tanque que puede almacenar 3 kWh de energía. 
 &lt;/figcaption&gt;
@@ -938,11 +938,11 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Además, el uso promedio diario doméstico de electricidad en los países industrializados es mucho mayor. Por ejemplo, en el Reino Unido es ligeramente inferior a 13 kWh por día, en EE. UU. y Canadá es de más de 30 kWh. En este último caso, se requerirían diez de tales tanques a presión de aire para almacenar electricidad suficiente para un día de uso.&lt;/p&gt;
 &lt;p&gt;Los sistemas CAES de pequeña escala a altas presiones dan resultados opuestos. Por ejemplo, una configuración modelo para un uso eléctrico doméstico típico en Europa (6.400 kWh por año) opera a una presión de 200 bar (casi 4 veces mayor que la presión en plantas CAES de gran escala) y logra un volumen de almacenamiento de solo 0,55 m3, que es comparable a las baterías. Sin embargo, la eficiencia de electricidad a electricidad de esta configuración es solo del 11-17%, dependiendo del tamaño del sistema solar fotovoltaico. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dos-estrategias-para-hacer-el-sistema-micro-caes-funcionante&#34;&gt;Dos estrategias para hacer el sistema Micro CAES funcionante&lt;/h2&gt;
-&lt;p&gt;Estos ejemplos parecen sugerir que el almacenamiento de energía de aire comprimido no tiene sentido como un sistema de almacenamiento de energía a pequeña escala, incluso con &lt;a href=&#34;https://mar-ver.github.io/es/2018/01/how-much-energy-do-we-need/&#34;&gt;una reducción en la demanda de energía&lt;/a&gt;. Sin embargo, y quizás sorprendente para muchos, este no es el caso.&lt;/p&gt;
+&lt;p&gt;Estos ejemplos parecen sugerir que el almacenamiento de energía de aire comprimido no tiene sentido como un sistema de almacenamiento de energía a pequeña escala, incluso con &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/01/how-much-energy-do-we-need/&#34;&gt;una reducción en la demanda de energía&lt;/a&gt;. Sin embargo, y quizás sorprendente para muchos, este no es el caso.&lt;/p&gt;
 &lt;p&gt;Los sistemas CAES a pequeña escala no pueden seguir el mismo enfoque que los sistemas CAES a gran escala. Estos últimos aumentan la capacidad de almacenamiento y la eficiencia general mediante varias etapas de refrigeración intermedia (intercooling) y varias etapas de expansión con recalentamiento. Este método implica componentes adicionales y aumenta la complejidad y el costo, lo cual lo rinde inmpráctico para los sistemas a pequeña escala.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -957,7 +957,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;En estos sistemas, la eficiencia electricidad a electricidad es muy baja. Sin embargo, ahora hay varias eficiencias por definir, porque el sistema también suministra calor y frío. &lt;sup id=&#34;fnref1:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Además, este enfoque puede convertir en innecesarios varios aparatos eléctricos, como el refrigerador, el aire acondicionado y la caldera eléctrica para calentar espacios y agua. Dado que el uso de estos dispositivos a menudo representa aproximadamente la mitad del uso de electricidad en un hogar promedio, un sistema CAES de pequeña escala con alta presión tiene una demanda de electricidad más baja en general.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresor de aire típico. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresor de aire típico. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un compresor de aire típico. [Fuente](https://www.thomasnet.com/articles/machinery-tools-supplies/Air-Compressors). 
 &lt;/figcaption&gt;
@@ -966,7 +966,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Los sistemas de alta presión resuelven fácilmente el problema del tamaño de almacenamiento. Como hemos visto, una presión de aire más alta puede reducir en gran medida el tamaño de un recipiente de almacenamiento de aire comprimido, pero solo a expensas de un aumento del calor residual. En un sistema de pequeña escala que aprovecha las diferencias de temperatura para proporcionar calefacción yrefrigeración, esto es ventajoso. Por lo tanto, los sistemas de alta presión son ideales para edificios residenciales a pequeña escala, donde el espacio de almacenamiento es limitado y donde hay una gran demanda de calor y frío, así como de electricidad. Las únicas desventajas son que los sistemas de alta presión requieren tanques de almacenamiento más fuertes y costosos, y se require de un espacio adicional para los intercambiadores de calor.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Configuración experimental de un sistema micro CAES. Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Configuración experimental de un sistema micro CAES. Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Configuración experimental de un sistema micro CAES. Fuente: [^30] 
 &lt;/figcaption&gt;
@@ -979,7 +979,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Por debajo de las presiones de aire de aproximadamente 10 bar, la compresión y expansión del aire exhiben cambios de temperatura insignificantes (“casi isotérmicos”), y la eficiencia del sistema de almacenamiento de energía puede ser cercana al 100%. No hay calor residual y, en consecuencia, no hay necesidad de recalentar el aire al expandirse.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;Figura 133. Compresor de tres etapas&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;Figura 133. Compresor de tres etapas&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Figura 133. Compresor de tres etapas 
 &lt;/figcaption&gt;
@@ -995,7 +995,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;El dispositivo de bajo costo tiene la mínima cantidad de partes móviles y obtiene eficiencias del 60 al 70% a una presión de 3 a 7 bares. &lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Esta es una eficiencia muy alta para un dispositivo tan simple, considerando que un sofisticado compresor centrífugo de tres etapas, utilizado en sistemas CAES de gran escala o en entornos industriales, tiene una eficiencia del 70% aproximadamente. Además, los investigadores afirman que la eficiencia está limitada por el motor estándar que utilizan para alimentar su compresor. De hecho, otro equipo de investigación logró una eficiencia del 83%. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Compresor Scroll Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Compresor Scroll Fuente: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Compresor Scroll Fuente: [^30] 
 &lt;/figcaption&gt;
@@ -1007,7 +1007,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Aunque los compresores y los expansores son aquellos que determinan en mayor medida la eficiencia del sistema en los sistemas CAES de pequeña escala, no son los únicos. Por ejemplo, en cada sistema de almacenamiento de energía de aire comprimido, la pérdida de eficiencia adicional es causada por el hecho de que durante la expansión el depósito de almacenamiento se agota y, por lo tanto, la presión disminuye. Al mismo tiempo, se require una variación minima en la entrada para el expansor para así asegurar una alta eficiencia.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -1022,7 +1022,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;La configuración opera a baja presión (máximo 5 bar) y está compuesta por la unidad de compresión / expansión acoplada a tres cilindros pequeños (7L), previamente utilizados como extintores de aire. Los recipientes de almacenamiento están conectados a través de tuberías de PVC y conexiones de latón. Para controlar el flujo de aire, se usan tres válvulas de aire, controladas por computadora, en la entrada de cada cilindro. El sistema se puede extender agregando más recipientes a presión. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -1035,7 +1035,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;p&gt;Curiosamente, la capacidad de almacenamiento es de 410 Wh, la cual es comparable al sistema rural mencionado anteriormente de 360 Wh, que requiere un recipiente de almacenamiento de 18 m3, que es treinta veces más grande que el sistema de almacenamiento modular.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Válvulas de aire controladas por computador. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Válvulas de aire controladas por computador. Fuente.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Válvulas de aire controladas por computador. [Fuente](http://www.jaksa.si/compressed-air-solenoid-valves.html). 
 &lt;/figcaption&gt;
@@ -1046,7 +1046,7 @@ papers/research-papers/life-cycle-assessment-of-a-smartphone). 10.2991/ict4s-16.
 &lt;h2 id=&#34;construirlo-usted-mismo&#34;&gt;¿Construirlo usted mismo?&lt;/h2&gt;
 &lt;p&gt;En conclusión, el almacenamiento de energía de aire comprimido a pequeña escala podría ser una alternativa prometedora a las baterías, pero la investigación aún está en sus primeras etapas -el primer estudio sobre CAES a pequeña escala se publicó en 2010- y nuevas ideas continuarán arrojando luz sobre la mejor forma de desarrollar esta tecnología. Por el momento, no hay productos comerciales disponibles, y la configuración de su propio sistema puede ser bastante intimidante si es nuevo en la neumática. Tan solo agarrar los componentes y accesorios correctos es un dolor de cabeza, ya que vienen en una variedad desconcertante y solo son vendidos a las industrias.&lt;/p&gt;
 &lt;p&gt;Sin embargo, si es paciente y no demasiado descuidado, y si está decidido a utilizar un sistema de almacenamiento de energía más sostenible, es perfectamente posible construir su propio sistema CAES. Como han demostrado los ejemplos de este artículo, es un poco más difícil construir uno bueno.&lt;/p&gt;
-&lt;p&gt;Hay más ideas para sistemas de CAES de pequeña escala en el artículo anterior: &lt;a href=&#34;https://mar-ver.github.io/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Historia y futuro de la economía del aire comprimido&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hay más ideas para sistemas de CAES de pequeña escala en el artículo anterior: &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/es/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Historia y futuro de la economía del aire comprimido&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

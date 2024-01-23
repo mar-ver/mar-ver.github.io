@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://mar-ver.github.io/fr/translators/delphine-leveque/</link>
+    <link>https://lowtechmag.gitlab.io/solar/fr/translators/delphine-leveque/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 03 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/fr/translators/delphine-leveque/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/delphine-leveque/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>À quel point le stockage de l’énergie solaire est-il durable ?</title>
-      <link>https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png" type="image/png" length="9887" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png" type="image/png" length="9887" ></enclosure>
       <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png&#34; alt=&#39;Image : Système de stockage privé lithium ion de Tesla&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-batteries_dithered.png&#34; alt=&#39;Image : Système de stockage privé lithium ion de Tesla&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : Système de stockage privé lithium ion de Tesla 
 &lt;/figcaption&gt;
@@ -26,7 +26,7 @@
 &lt;p&gt;Une des contraintes de l’énergie solaire est qu’elle n’est pas disponible en permanence : elle dépend de la durée d’ensoleillement. Afin de pallier les problèmes que cela peut apporter, une solution de stockage ou une infrastructure de secours fonctionnant aux énergies fossiles est nécessaire ; un facteur qui est souvent ignoré quand les scientifiques se concentrent sur la durabilité du photovoltaïque.&lt;/p&gt;
 &lt;p&gt;L’inclusion d’un moyen de stockage de l’énergie n’est désormais plus une simple question théorique. Grâce à l&amp;rsquo;amélioration de la technologie des batteries et à la réduction du nombre de panneaux solaires raccordés au réseau, l&amp;rsquo;énergie solaire hors réseau est sur le point de faire son retour. Le photovoltaïque est-il durable si l’on tient compte du stockage de l’énergie ?&lt;/p&gt;
 &lt;h2 id=&#34;un-biais-par-excès&#34;&gt;Un biais par excès&lt;/h2&gt;
-&lt;p&gt;Dans l’&lt;a href=&#34;https://mar-ver.github.io/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;article précédent&lt;/a&gt;, nous avons constaté que de nombreuses analyses des cycles de vie (ACV) des panneaux photovoltaïques sont sous l’effet d’un biais par excès. La plupart des ACV basent leurs études sur la fabrication des cellules photovoltaïques en Europe et aux États-Unis. Cependant, la plupart des panneaux sont désormais fabriqués en Chine où le réseau électrique est deux fois plus intense en carbone et environ 50 % moins efficace. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Dans l’&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;article précédent&lt;/a&gt;, nous avons constaté que de nombreuses analyses des cycles de vie (ACV) des panneaux photovoltaïques sont sous l’effet d’un biais par excès. La plupart des ACV basent leurs études sur la fabrication des cellules photovoltaïques en Europe et aux États-Unis. Cependant, la plupart des panneaux sont désormais fabriqués en Chine où le réseau électrique est deux fois plus intense en carbone et environ 50 % moins efficace. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Pareillement, la plupart des ACV se font sur du photovoltaïque dans des régions possédant une exposition au soleil typique des régions méditerranéennes, alors qu’une grande majorité des panneaux solaires sont installés dans des régions avec une exposition moitié moins importante.&lt;/p&gt;
 &lt;p&gt;Par conséquent, les émissions de gaz à effet de serre d&amp;rsquo;un kWh d&amp;rsquo;électricité produit par le photovoltaïque sont deux à quatre fois plus élevées que ce qu&amp;rsquo;indiquent la plupart des ACV. Contrairement aux si souvent cité 30-50 grammes d’équivalent de CO2 par kWh d’électricité générée (gCO2e/kWh), nos calculs indiquent que les panneaux photovoltaïques classiques installés en 2008 et 2014 produisent près de 120 gCO2e/kWh. Cela rend le photovoltaïque seulement quatre fois moins intense en carbone que l’électricité du réseau classique dans la plupart des pays occidentaux.&lt;/p&gt;
 &lt;p&gt;Cependant, même ce résultat est un peu trop optimiste. Dans notre précédent article nous n’avons pas pris en compte « l&amp;rsquo;un des plus grands composants potentiellement manquants » &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; de l&amp;rsquo;analyse habituelle du cycle de vie du photovoltaïque : l&amp;rsquo;énergie intrinsèque de l&amp;rsquo;infrastructure qui gère l&amp;rsquo;intermittence de l&amp;rsquo;énergie solaire. L’exposition solaire varie au cours de la journée et des saisons et évidemment, l’énergie solaire n’est plus disponible après le coucher du soleil.&lt;/p&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt;La technologie des accumulateurs lithium-ion est supérieure comparée aux batteries au plomb habituellement utilisées pour le photovoltaïque hors réseau : elles durent plus longtemps, sont plus compactes, plus efficaces, plus faciles à entretenir et comparativement plus durables.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/battery-price-projections_dithered.png&#34; alt=&#39;Image : Rocky Mountain Institute / Greentechmedia.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/battery-price-projections_dithered.png&#34; alt=&#39;Image : Rocky Mountain Institute / Greentechmedia.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : [Rocky Mountain Institute](http://www.rmi.org/electricity_grid_defection) / [Greentechmedia](http://www.greentechmedia.com/articles/featured/Storage-Is-the-New-Solar-Will-Batteries-and-PV-Create-an-Unstoppable-Hybri). 
 &lt;/figcaption&gt;
@@ -52,7 +52,7 @@
 &lt;p&gt;D’autres facteurs entrent aussi en jeu quand on parle de stockage privé pour l’énergie solaire. Les panneaux solaires sont devenus tellement plus abordables ces dernières années que les subventions gouvernementales et les crédits d&amp;rsquo;impôt pour les systèmes en réseau sont de plus en plus remis en cause. Dans de nombreux pays, les propriétaires de panneaux photovoltaïques connectés au réseau ont reçu un prix fixe pour le surplus d’électricité qu’ils apportent au réseau, sans avoir à payer les tarifs fixes du réseau.  Ces prétendues règles de « comptage net » ou de « tarifs de rachat » ont récemment été supprimées dans plusieurs pays européens et sont maintenant remises en cause dans certains États américains. Dans son rapport, Morgan Stanley prédit que, dans les prochaines années, les règles de comptage net et du crédit d’impôt sur le solaire disparaîtront complètement. &lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/powerbox_dithered.png&#34; alt=&#39;Un accumulateur lithium-ion de 5 kWh de Powertech Systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/powerbox_dithered.png&#34; alt=&#39;Un accumulateur lithium-ion de 5 kWh de Powertech Systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un accumulateur lithium-ion de 5 kWh de [Powertech Systems](http://www.powertechsystems.eu/en/li-ion-battery-applications/power-storage/self-consumption/). 
 &lt;/figcaption&gt;
@@ -75,7 +75,7 @@
 &lt;p&gt;D’un autre côté, si elles sont utilisées pour une charge plus importante— par exemple, un ménage ordinaire— leur durée de vie diminuerait considérablement. Étant donné que près de 50 % du carbone incorporé et de la consommation d&amp;rsquo;énergie sur le cycle de vie du photovoltaïque sont dus aux seules batteries, la durée de vie prévue du bloc de batteries de 2,4 tonnes a un effet significatif sur la durabilité du système.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lead-acid-battery-storage_dithered.png&#34; alt=&#39;Un système de batterie au plomb. Image : SuperiorSolar.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lead-acid-battery-storage_dithered.png&#34; alt=&#39;Un système de batterie au plomb. Image : SuperiorSolar.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un système de batterie au plomb. Image : [SuperiorSolar](http://www.superiorsolar.com.au/galleries/off-grid-solar-power-systems). 
 &lt;/figcaption&gt;
@@ -84,7 +84,7 @@
 &lt;p&gt;En estimant la durée de vie d’une batterie à 5 ans au lieu de 10, et en conservant tous les autres paramètres, l’émission de gaz à effet de serre passe respectivement à 198 et 233 gCO2e/kWh pour une exposition solaire de 1 700 et 1 000 kWh/m²/an. Le photovoltaïque connecté au réseau augmente la durabilité du système, en estimant une espérance de vie plus longue pour les panneaux solaires : l’énergie et le carbone incorporés peuvent être répartis sur une durée plus importante. Avec les systèmes hors réseau, l’effet est contré par le besoin d’une batterie de remplacement ou plus.&lt;/p&gt;
 &lt;p&gt;En augmentant l’espérance de vie des panneaux solaire de 20 à 30 ans et en gardant la durée de vie des batteries à 10 ans, les émissions de CO2e par kWh restent plus ou moins les mêmes. Cependant, en estimant cette durée de vie à seulement 5 ans et en étendant celle des panneaux solaires à 30 ans, les émissions de gaz à effet de serre augmenteraient à 206 gCO2e/kWh pour une exposition solaire de 1 700 kWh/m²/an et diminueraient à 232 gCO2e/kWh pour une exposition solaire de 1 000 kWh/m²/an.&lt;/p&gt;
 &lt;h2 id=&#34;fabriqué-en-chine&#34;&gt;Fabriqué en Chine&lt;/h2&gt;
-&lt;p&gt;Les chercheurs estiment que tous les composants— cellules photovoltaïques, batteries, électronique— sont fabriqués en Espagne, alors que nous avons constaté dans l’article précédent que &lt;a href=&#34;https://mar-ver.github.io/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la fabrication des panneaux photovoltaïques a été déplacée en Chine&lt;/a&gt;. Le réseau électrique espagnol est 2,7 fois moins intense en carbone (337 gCO2/kWh) que le chinois (900 gCO2e/kWh), ce qui signifie que les émissions de gaz à effet de serre de tous les composants de nos systèmes peuvent être multipliées par 2,7.&lt;/p&gt;
+&lt;p&gt;Les chercheurs estiment que tous les composants— cellules photovoltaïques, batteries, électronique— sont fabriqués en Espagne, alors que nous avons constaté dans l’article précédent que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;la fabrication des panneaux photovoltaïques a été déplacée en Chine&lt;/a&gt;. Le réseau électrique espagnol est 2,7 fois moins intense en carbone (337 gCO2/kWh) que le chinois (900 gCO2e/kWh), ce qui signifie que les émissions de gaz à effet de serre de tous les composants de nos systèmes peuvent être multipliées par 2,7.&lt;/p&gt;
 &lt;p&gt;Cela donne un résultat en émission carbone spécifique de respectivement 353 et 471 gCO2e/kWh pour une exposition solaire 1 700 et 1 000 kWh/m²/an, ce qui est plus élevé que l’intensité carbone sur le réseau espagnol. En estimant la durée de vie d’une batterie à 5 au lieu de 10 ans, les émissions augmenteraient de respectivement 513 et 631 gCO2e/kWh pour une exposition solaire de 1 700 et 1 000 kWh/m²/an.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Si les panneaux solaires et les batteries sont produits en Chine, les émissions carbone doublent par rapport à l’électricité en réseau habituelle.&lt;/p&gt;
@@ -95,7 +95,7 @@
 &lt;p&gt;En remplaçant les batteries au plomb par des accumulateurs lithium-ion, la durabilité du photovoltaïque autonome augmente considérablement. Au premier coup d’œil, cela semble contre-productif, puisqu’il faut plus d’énergie pour produire 1 kWh de stockage avec une batterie lithium-ion que pour produire 1 kWh de stockage avec une batterie au plomb. Selon les dernières ACV, portées sur les réserves pour les véhicules électriques, la fabrication d’une batterie lithium ion nécessite entre 1,4 et 1,87 MJ/wh &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;, alors que les besoins énergétiques pour la production d’une batterie au plomb se situent entre 0,87 et 1,19 MJ/Wh. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries_dithered.png&#34; alt=&#39;Image : 6.6 kWh Gestion de l&amp;amp;rsquo;énergie et solution de stockage lithium-ion en un. Bosch Power Tec.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries_dithered.png&#34; alt=&#39;Image : 6.6 kWh Gestion de l&amp;amp;rsquo;énergie et solution de stockage lithium-ion en un. Bosch Power Tec.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : 6.6 kWh Gestion de l&#39;énergie et solution de stockage lithium-ion en un. [Bosch Power Tec](https://www.bosch-power-tec.com/en/bpte/storage_solutions/bpt_s_5_hybrid/vs_5_hybrid). 
 &lt;/figcaption&gt;
@@ -115,7 +115,7 @@
 &lt;p&gt;Dans la première ACV, une capacité de stockage totale d’environ 240 kWh est nécessaire pour une durée de vie de 20 ans. Cependant, la durée de vie par cycle d’une batterie lithium-ion est de 19-27 ans, ce qui veut dire qu’aucun remplacement n’est nécessaire. Par conséquent, la capacité totale de stockage devant être produite sur la durée de vie totale du système est 6 fois inférieure pour la batterie lithium-ion que pour celle au plomb. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries-at-home_dithered.png&#34; alt=&#39;Système de batterie lithium-ion E3DC. Image : Thomas Salzmann.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/lithium-ion-batteries-at-home_dithered.png&#34; alt=&#39;Système de batterie lithium-ion E3DC. Image : Thomas Salzmann.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Système de batterie lithium-ion E3DC. Image : [Thomas Salzmann](http://www.e3dc.com/index.php?id=156). 
 &lt;/figcaption&gt;
@@ -131,14 +131,14 @@
 &lt;p&gt;Si l’on revoit cette exposition à la baisse à 1 000 kWh/m²/an, la moyenne en Allemagne, ces émissions de gaz à effet de serre passent à 123,5 gCO2e/kWh. De plus, en estimant que les panneaux solaires (mais pas les batteries ou les autres composants) sont fabriqués en Chine, ce qui est plus probable, ces émissions de gaz à effet de serre augmentent à respectivement 155 et 217 gCO2e/kWh pour des expositions solaires de 1 700 et 1 000 kWh/m²/an.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/testing-lithium-ion-battery_dithered.png&#34; alt=&#39;Test sur une batterie lithium-ion. Image : A123 Systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/testing-lithium-ion-battery_dithered.png&#34; alt=&#39;Test sur une batterie lithium-ion. Image : A123 Systems.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Test sur une batterie lithium-ion. Image : [A123 Systems](http://www.a123systems.com/media-room-photos.htm). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;En conclusion, un stockage avec des batteries lithium-ion rend le photovoltaïque hors réseau moins intense en carbone que l’électricité en réseau habituelle dans la plupart des pays occidentaux, même en prenant en compte la fabrication en Chine des panneaux solaires. Cependant, cet avantage est plutôt mince, ce qui affecte la vitesse à laquelle le photovoltaïque peut être déployé de manière durable.&lt;/p&gt;
-&lt;p&gt;Dans &lt;a href=&#34;https://mar-ver.github.io/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;l’article précédent&lt;/a&gt;, nous avons constaté que les économies d’énergie et de carbone, faites par la capacité installée cumulée des systèmes photovoltaïques, sont annulées dans une certaine mesure par la consommation d&amp;rsquo;énergie et les émissions de carbone résultant de la production de la nouvelle capacité installée. Pour augmenter le déploiement du photovoltaïque tout en restant des atténuateurs nets de gaz à effet de serre, ils doivent croître à un rythme plus lent que l&amp;rsquo;inverse de leur temps de retour sur investissement en matière de carbone. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Dans &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;l’article précédent&lt;/a&gt;, nous avons constaté que les économies d’énergie et de carbone, faites par la capacité installée cumulée des systèmes photovoltaïques, sont annulées dans une certaine mesure par la consommation d&amp;rsquo;énergie et les émissions de carbone résultant de la production de la nouvelle capacité installée. Pour augmenter le déploiement du photovoltaïque tout en restant des atténuateurs nets de gaz à effet de serre, ils doivent croître à un rythme plus lent que l&amp;rsquo;inverse de leur temps de retour sur investissement en matière de carbone. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Les ensembles photovoltaïques hors réseau avec des stockages à batteries lithium-ion peuvent émettre moins de 30 gCO2e/kWh de gaz à effet de serre s’ils sont produits dans des pays avec un réseau électrique vert et installés dans des pays avec une forte exposition solaire et des réseaux intenses en carbone.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -149,7 +149,7 @@
 &lt;p&gt;Cependant, le procédé final de production dans l’usine consomme uniquement une petite partie du coût énergétique total de tout le cycle de production, beaucoup plus d’énergie est utilisée lors de l’extraction de matériaux (exploitation minière). Il est indiqué que la GigaFactory produira 50 GWh de capacité de batteries par an d’ici 2020. Parce que la fabrication de 1 kWh de stockage sur batterie lithium-ion demande 400 kWh d’énergie &lt;sup id=&#34;fnref1:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref6:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;, la production de 50 GWh de batteries demanderait 20 000 GWh d’énergie par an.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-gigafactory_dithered.png&#34; alt=&#39;Image: La Gigafactory de Tesla.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/images/dithers/tesla-gigafactory_dithered.png&#34; alt=&#39;Image: La Gigafactory de Tesla.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: La Gigafactory de Tesla. 
 &lt;/figcaption&gt;
@@ -157,7 +157,7 @@
 &lt;/div&gt;
 &lt;p&gt;En estimant une exposition solaire moyenne de 2 000 kWh/m²/an et une efficacité du photovoltaïque de 15 %, 1 m² de panneaux solaire générerait au plus 295 kWh par an. Ce qui signifie qu’il faudrait 6 800 hectares (ha) de panneaux solaires pour alimenter le processus de production complet des batteries, alors que les panneaux solaires sur le toit ne couvrent qu’une surface de 1 à 40 ha (il existe une controverse sur la surface totale de l’usine en construction). L&amp;rsquo;affirmation de Tesla, bien qu&amp;rsquo;elle puisse être exacte sur le plan factuel, est un exemple évident d&amp;rsquo;écoblanchiment, et tout le monde semble y croire.&lt;/p&gt;
 &lt;p&gt;Il y a d’autres manières d’améliorer la durabilité du photovoltaïque quand le stockage est pris en compte. La plupart de ces solutions demandent à ce que les installations soient reliées au réseau, même si elles ont un système de stockage local (plus limité). Dans ce cas, les batteries chimiques peuvent aider à équilibrer le système du réseau, agissant comme des dispositifs d&amp;rsquo;écrêtement des pointes et de déplacement de la charge.&lt;/p&gt;
-&lt;p&gt;Le réseau électrique doit être de taille pour répondre au pic de la demande, et le stockage avec batteries pourrait signifier que moins de centrales seraient nécessaires pour cela. Décentralisé, le stockage d’énergie connecté au réseau pourrait également augmenter la part du renouvelable que les infrastructures énergétiques peuvent prendre en charge. Bien sûr, cette approche par « réseau intelligent » doit aussi être soumise à une analyse de cycle de vie, &lt;a href=&#34;https://mar-ver.github.io/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;incluant les composants électroniques&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le réseau électrique doit être de taille pour répondre au pic de la demande, et le stockage avec batteries pourrait signifier que moins de centrales seraient nécessaires pour cela. Décentralisé, le stockage d’énergie connecté au réseau pourrait également augmenter la part du renouvelable que les infrastructures énergétiques peuvent prendre en charge. Bien sûr, cette approche par « réseau intelligent » doit aussi être soumise à une analyse de cycle de vie, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/06/the-monster-footprint-of-digital-technology/&#34;&gt;incluant les composants électroniques&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -255,15 +255,15 @@ Michael Graham Richard, Treehugger 2015&amp;#160;&lt;a href=&#34;#fnref:23&#34; 
     
     <item>
       <title>Chauffez votre maison grâce à des pneus et de la terre</title>
-      <link>https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthship-in-the-snow_dithered.png" type="image/png" length="14896" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthship-in-the-snow_dithered.png" type="image/png" length="14896" ></enclosure>
       <pubDate>Sat, 29 Dec 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthship-in-the-snow_dithered.png&#34; alt=&#39;Image: Michael Reynolds&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthship-in-the-snow_dithered.png&#34; alt=&#39;Image: Michael Reynolds&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: [Michael Reynolds](http://www.earthship.net) 
 &lt;/figcaption&gt;
@@ -281,7 +281,7 @@ lors du premier choc pétrolier. Cependant, en raison de l’effondrement du co�
 seuls certains individus et communautés de la mouvance anarchique s’intéresseront à la géonef . Cependant, cette architecture révolutionnaire a récemment commencé à gagner en crédibilité dans d’autres communautés. Le prix du pétrole ne cesse d’augmenter et une inquiétude concernant le réchauffement climatique s’installe. De plus, grâce à une trentaine d’années d’évolution, une grande partie des problèmes initiaux, auxquels les géonefs ont fait face ont pu être résolus.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthship-skyview_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthship-skyview_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -294,7 +294,7 @@ et recouverts d’argile. Chaque pneu est rempli de terre puis compacté
 à coups de masse. Selon le climat, un mur de soutènement peut être érigé en appoint de deux à trois murs de la construction. Il est aussi possible d’intégrer certains murs à une pente. L’adjonction d’un solarium au côté sud du bâtiment (ou au côté nord dans l’hémisphère sud) permet à la maison de se chauffer et se refroidir naturellement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/warmth-absorbing-walls_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/warmth-absorbing-walls_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -309,7 +309,7 @@ du système de climatisation naturel et ils assurent la solidité des murs porte
 Puisque les pneus sont entièrement recouverts de terre, le caoutchouc n’est pas en contact avec l’oxygène. Les murs sont donc aussi ignifugés. Lors d’un feu de forêt au Nouveau-Mexique, l’intérieur d’une géonef a été complètement détruit, mais les murs sont restés intacts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/house-with-tyres-body_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/house-with-tyres-body_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -322,7 +322,7 @@ ce sont ses matériaux de construction : des déchets.&lt;/p&gt;
 &lt;p&gt;De plus, ici il s’agit de réutilisation et non pas de recyclage, une option beaucoup plus verte que de broyer les pneus pour faire des ralentisseurs par exemple, puisque les déchets ne subissent aucun processus industriel supplémentaire pouvant consommer de l’énergie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/tyres_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/tyres_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -334,12 +334,12 @@ ce sont ses matériaux de construction : des déchets.&lt;/p&gt;
 &lt;p&gt;La production de béton est l’un des processus industriels les plus énergivores qui soient. Le secteur est responsable de dix pour cent des émissions globales de CO2, ce qui en fait le troisième plus gros producteur de gaz à effet de serre (juste derrière les transports et la production d’énergie). Donc, la construction de maisons avec des déchets constitue un énorme avantage environnemental, que ces bâtiments soient autonomes ou non.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/house-built-with-waste-materials_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/house-built-with-waste-materials_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;D’anciens bâtiments sont souvent démolis sous prétexte que les nouvelles constructions qui les remplacent ont une meilleure isolation et consomment donc moins d’énergie. Ce que l’on oublie souvent, c’est que la démolition de l’ancienne maison, ainsi que la construction du nouveau bâtiment, impliquent toutes deux une grande quantité de matériaux et d’énergie (également désignée sous le terme d’&lt;a href=&#34;https://mar-ver.github.io/fr/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;énergie grise&lt;/a&gt;), ce qui annule complètement tous les avantages d’une meilleure isolation.&lt;/p&gt;
+&lt;p&gt;D’anciens bâtiments sont souvent démolis sous prétexte que les nouvelles constructions qui les remplacent ont une meilleure isolation et consomment donc moins d’énergie. Ce que l’on oublie souvent, c’est que la démolition de l’ancienne maison, ainsi que la construction du nouveau bâtiment, impliquent toutes deux une grande quantité de matériaux et d’énergie (également désignée sous le terme d’&lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2019/06/reinventing-the-small-wind-turbine/&#34;&gt;énergie grise&lt;/a&gt;), ce qui annule complètement tous les avantages d’une meilleure isolation.&lt;/p&gt;
 &lt;h2 id=&#34;et-le-coût&#34;&gt;Et le coût ?&lt;/h2&gt;
 &lt;p&gt;Attention, ce n’est pas parce qu’on utilise des déchets pour construire une géonef qu’elle sera forcément moins chère qu’une maison traditionnelle. Celles en vente à Brighton seront même un peu plus chères, en raison du travail nécessaire à leur édification (en effet, la taxation du travail est supérieure à celle de l’énergie ou des matériaux). Même si, une fois la maison construite, l’investissement supplémentaire est rapidement récupéré puisqu’il n’y a pas de factures de gaz, d’eau ou d’électricité.&lt;/p&gt;
 &lt;p&gt;Construire une géonef soi-même avec des amis pourrait être très économique, mais cela prend beaucoup de temps. La construction de la plus grande géonef des États-Unis a duré presque dix ans. Si vous en construisez une vous-même, ce qui vous coûtera le plus cher, ce sera l’achat des panneaux solaires et de leurs batteries. La deuxième source de dépense sera l’acquisition des grandes fenêtres, des pompes et des filtres. Les déchets pourraient être obtenus gratuitement, puisque les gens doivent généralement payer pour s’en débarrasser.&lt;/p&gt;
@@ -349,7 +349,7 @@ ce sont ses matériaux de construction : des déchets.&lt;/p&gt;
 &lt;p&gt;Aujourd’hui il n’existe qu’une poignée de géonefs en Europe, dont la moitié ont été construites illégalement. Cependant, le concept est bien établi. Plusieurs organisations nationales font même la promotion de cette idée. Le problème majeur est l’obtention d’un permis de construire. Peu importe à quel point l’idée est pertinente, construire des maisons avec des pneus et des cannettes en aluminium semble ridicule pour la plupart des politiciens.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthships-brighton_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2007/12/heat-your-house-with-car-tyres-and-earth/images/dithers/earthships-brighton_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;

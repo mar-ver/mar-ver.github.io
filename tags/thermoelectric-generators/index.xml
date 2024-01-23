@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE English</title>
-    <link>https://mar-ver.github.io/tags/thermoelectric-generators/</link>
-    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <link>https://lowtechmag.gitlab.io/solar/tags/thermoelectric-generators/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/tags/thermoelectric-generators/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/tags/thermoelectric-generators/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build a Low-tech Solar Panel?</title>
-      <link>https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/</link>
+      <link>https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/</link>
       
-      <enclosure url="https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png" type="image/png" length="48472" ></enclosure>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove stands next to his third solar array. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-1910_dithered.png&#34; alt=&#39;George Cove stands next to his third solar array. Source: &amp;amp;quot;Generating electricity by the sun&amp;amp;rsquo;s rays&amp;amp;quot;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  George Cove stands next to his third solar array. Source: \&#34;Generating electricity by the sun&#39;s rays\&#34;, Popular Electricity, Volume 2, nr. 12, April 1910, pp.793. 
 &lt;/figcaption&gt;
@@ -29,14 +29,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;The need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The manufacturing of solar PV panels is just as problematic. It produces toxic waste and requires a global supply chain, including capital-intensive factories, complex machinery, mined materials, and a steady input of fossil fuels. In life cycle analyses of solar panels, scientists calculate &lt;a href=&#34;https://mar-ver.github.io/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;how much energy and materials are required to build a solar panel&lt;/a&gt;. However, they ignore the massive amount of energy and materials needed to set up and maintain the solar PV supply chain itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Consequently, these studies do not reveal the actual cost of solar panels in terms of fossil fuel dependence, emissions, and other environmental pollution. Furthermore, the need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
+&lt;p&gt;The manufacturing of solar PV panels is just as problematic. It produces toxic waste and requires a global supply chain, including capital-intensive factories, complex machinery, mined materials, and a steady input of fossil fuels. In life cycle analyses of solar panels, scientists calculate &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2015/04/how-sustainable-is-pv-solar-power/&#34;&gt;how much energy and materials are required to build a solar panel&lt;/a&gt;. However, they ignore the massive amount of energy and materials needed to set up and maintain the solar PV supply chain itself. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; Consequently, these studies do not reveal the actual cost of solar panels in terms of fossil fuel dependence, emissions, and other environmental pollution. Furthermore, the need for capital-intensive technology and long supply lines prevents the local production of solar panels by less affluent societies or DIY communities.&lt;/p&gt;
 &lt;h2 id=&#34;finding-inspiration-in-the-past&#34;&gt;Finding inspiration in the past&lt;/h2&gt;
 &lt;p&gt;Are solar PV panels inherently unsustainable, unrecyclable, and dependent on high-tech and capital-intensive manufacturing processes? Or, is it possible to build them with local, recyclable and less energy-intensive materials and production methods? In other words, can we build low-tech solar panels? And, if so, what would that mean for costs and efficiency?&lt;/p&gt;
 &lt;p&gt;Before we try to answer this question, it’s important to note that the best low-tech alternative for a high-tech solar panel is often not a low-tech solar panel but direct use of solar energy. That is, putting solar energy to use without converting it to electricity first. For example, a clothesline and a solar thermal water boiler are much more efficient, sustainable, and economical than an electric tumble dryer and a water boiler powered by solar PV panels. Direct use of solar energy can happen with local materials, relatively simple manufacturing technologies, and short supply lines.&lt;/p&gt;
-&lt;p&gt;Nevertheless, in this article, I take the question literally: can we build low-tech photovoltaic devices, which convert sunlight into electricity? In a previous article, we have seen that &lt;a href=&#34;https://mar-ver.github.io/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;history offers inspiration for building more sustainable wind turbines&lt;/a&gt;. Can history also inspire us to make more sustainable solar cells?&lt;/p&gt;
+&lt;p&gt;Nevertheless, in this article, I take the question literally: can we build low-tech photovoltaic devices, which convert sunlight into electricity? In a previous article, we have seen that &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;history offers inspiration for building more sustainable wind turbines&lt;/a&gt;. Can history also inspire us to make more sustainable solar cells?&lt;/p&gt;
 &lt;h2 id=&#34;the-prehistory-of-solar-cells&#34;&gt;The prehistory of solar cells&lt;/h2&gt;
 &lt;p&gt;Bell Labs’ solar PV panel, presented in 1954, came not out of nowhere. The silicon solar cell had its roots in less complex devices that could produce electricity from either light or heat.&lt;/p&gt;
-&lt;p&gt;In 1821, Thomas Seebeck found that an electrical current will flow in a circuit made from two dissimilar metals, with the junctions at different temperatures. This “thermoelectric effect” formed the basis for the “thermoelectric generator” &amp;ndash; which converts heat (for example, &lt;a href=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;from a wood stove&lt;/a&gt;) directly into electricity. In 1839, Antoine Becquerel discovered that light could also convert into electricity, and during the 1870s, several scientists proved this effect in solids, most notably in selenium. This “photoelectric effect” formed the basis for the “photoelectric generator” &amp;ndash; which we now call a “photovoltaic” generator or solar PV cell. In 1883, Charles Fritts constructed the first photovoltaic module ever made, using selenium on a thin layer of gold. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In 1821, Thomas Seebeck found that an electrical current will flow in a circuit made from two dissimilar metals, with the junctions at different temperatures. This “thermoelectric effect” formed the basis for the “thermoelectric generator” &amp;ndash; which converts heat (for example, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;from a wood stove&lt;/a&gt;) directly into electricity. In 1839, Antoine Becquerel discovered that light could also convert into electricity, and during the 1870s, several scientists proved this effect in solids, most notably in selenium. This “photoelectric effect” formed the basis for the “photoelectric generator” &amp;ndash; which we now call a “photovoltaic” generator or solar PV cell. In 1883, Charles Fritts constructed the first photovoltaic module ever made, using selenium on a thin layer of gold. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Throughout this period – and until the 1950s – the practical uses of thermoelectric and photoelectric devices were limited. Inventors built many experimental thermoelectric generators, usually powered by a gas flame, but their efficiency did not exceed 1%. Likewise, Charles Fritts’ solar panel, and the selenium solar cells made afterward, obtained just 1-2% efficiency in converting sunlight into electricity. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; In short, the period before the 1950s doesn’t seem to offer much inspiration for building more sustainable solar PV panels.&lt;/p&gt;
 &lt;h2 id=&#34;a-forgotten-pioneer-of-solar-power&#34;&gt;A forgotten pioneer of solar power&lt;/h2&gt;
 &lt;p&gt;However, the prehistory of the solar panel may be incomplete. In 2019, I received a mail from a reader of Low-tech Magazine, Philip Pesavento:&lt;/p&gt;
@@ -49,7 +49,7 @@
 &lt;p&gt;Cove presented his second solar electric generator there in 1909. This 1.5m2 panel could produce 45 watts of power and was 2.75% efficient in converting solar energy into electricity. By mid-1909, Cove had moved to New York City, where he presented his third prototype, a solar array consisting of four solar panels of 60 watt-peak each, which charged a total of five lead-acid batteries. The total surface area was 4.5 m2, the maximum power output was 240 watts, and efficiency rose to 5% – similar to the first solar panel presented by Bell Labs. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-technical-world-magazine-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s first solar panel, demonstrated in 1905. Source: Technical World Magazine 11, nr.4, June 1909. 
 &lt;/figcaption&gt;
@@ -57,7 +57,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Above: Cove&amp;amp;rsquo;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-one-section-missing_dithered.png&#34; alt=&#39;Above: Cove&amp;amp;rsquo;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: Cove&#39;s second solar panel, with one section missing. Source: Technical World Magazine 11, nr.4, June 1909. 
 &lt;/figcaption&gt;
@@ -65,7 +65,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-solar-panel-1909_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s third solar panel. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, September 1909. 
 &lt;/figcaption&gt;
@@ -73,7 +73,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/COVE-THIRD-PANEL_dithered.png&#34; alt=&#39;Above: George Cove&amp;amp;rsquo;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: George Cove&#39;s third solar panel. The panels are now tilted at an angle as opposed to lying flat. Source: Literary Digest 1909, pp. 1153. 
 &lt;/figcaption&gt;
@@ -81,7 +81,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Above: One of the solar panels of Cove&amp;amp;rsquo;s third solar array, with the glass cover removed. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/cove-panel-close-up_dithered.png&#34; alt=&#39;Above: One of the solar panels of Cove&amp;amp;rsquo;s third solar array, with the glass cover removed. Source: &amp;amp;quot;Harnessing sunlight&amp;amp;quot;, René Homer, Modern Electrics, Vol. II, No.6, September 1909.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: One of the solar panels of Cove&#39;s third solar array, with the glass cover removed. Source: \&#34;Harnessing sunlight\&#34;, René Homer, Modern Electrics, Vol. II, No.6, September 1909. 
 &lt;/figcaption&gt;
@@ -91,7 +91,7 @@
 &lt;h2 id=&#34;plugs-set-in-asphalt&#34;&gt;Plugs set in asphalt&lt;/h2&gt;
 &lt;p&gt;How did George Cove manage to build a solar panel that was 40 years ahead of its time? According to Philip Pesavento, who has a background in semiconductor engineering, Cove intended to build a better thermoelectric generator (TEG). He exposed his generator to the heat from a wood stove and direct solar energy &amp;ndash; Edward Weston had made the first experimental solar thermoelectric generator (or STEG) in 1888. Cove’s intentions are also clear from how he described his device:&lt;/p&gt;
 &lt;p&gt;“The frame contains a number of panes of violet glass, behind which are set, through an asphalt compound backing, many little metal plugs. One end of the plugs is always exposed by sunlight, while the other end is cool and sheltered.”&lt;/p&gt;
-&lt;p&gt;Creating the largest possible temperature difference is &lt;a href=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;key to thermoelectric power production&lt;/a&gt;, so Cove’s design makes sense. The problem is that when he measured the power output of his generator, it did not respond to heat like a thermo-electric generator was supposed to do. Initially, Cove observes that his invention uses both heat and light to produce electricity when exposed to solar energy:&lt;/p&gt;
+&lt;p&gt;Creating the largest possible temperature difference is &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/&#34;&gt;key to thermoelectric power production&lt;/a&gt;, so Cove’s design makes sense. The problem is that when he measured the power output of his generator, it did not respond to heat like a thermo-electric generator was supposed to do. Initially, Cove observes that his invention uses both heat and light to produce electricity when exposed to solar energy:&lt;/p&gt;
 &lt;p&gt;“The principal part of my invention is the peculiar composition of the metallic plugs which are acted upon by the sun in such a way that the current is generated not only by heat rays but the violet rays as well”.&lt;/p&gt;
 &lt;p&gt;However, after further experiments with both the wood stove and solar energy, Cove states:&lt;/p&gt;
 &lt;p&gt;“When the machine is exposed to various sources of artificial heat it gives no electricity whatsoever. Other than the heat rays of the sun (short-wave infrared), perhaps the violet or ultraviolet rays are active in setting up the electrical current”.&lt;/p&gt;
@@ -113,7 +113,7 @@
 &lt;p&gt;What happened? By using copper, Cove had unknowingly built a Schottky junction. That converted his thermoelectric generator into a “thermophotovoltaic generator.” Such a device works the same as a photovoltaic solar cell but on a different wavelength. The solar spectrum covers a range of approximately 0.5 to 2.9 electron-Volts (eV), from infrared to ultraviolet. A semiconductor with a bandgap between 1 and 1.7 eV efficiently converts visible light into electricity (a photovoltaic generator) &amp;ndash; while a semiconductor with a bandgap between 0.4 and 0.7 eV efficiently converts short-wave infrared solar energy into electricity (a thermophotovoltaic generator).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Above: This drawing from Cove&amp;amp;rsquo;s 1906 patent shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2021/10/how-to-build-a-low-tech-solar-panel/images/dithers/Cove-plugs_dithered.png&#34; alt=&#39;Above: This drawing from Cove&amp;amp;rsquo;s 1906 patent shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Above: This drawing from [Cove&#39;s 1906 patent](https://patentimages.storage.googleapis.com/bc/bb/50/6683e8b44edd4c/US824684.pdf) shows the zinc-antimony alloy “b”; the german silver (ohmic) end cap “c”; and the copper or tin (Schottky) end cap “f”. All these are press-fit because soldering the connections lowered the efficiency. 
 &lt;/figcaption&gt;
@@ -142,7 +142,7 @@
 &lt;p&gt;On the other hand, it may be possible to build Schottky cells thinner than silicon solar cells – and that would increase their efficiency. Philip Pesavento:&lt;/p&gt;
 &lt;p&gt;“I have not found the specific numbers for the parameters – carrier velocity, recombination lifetime, absorption coefficient – to say this unequivocally. But the fact that Cove made such long skinny cells and got as high efficiencies as he did bodes well for making them thinner.”&lt;/p&gt;
 &lt;p&gt;Again, recent research into Schottky cells based on other materials seems to confirm this. For example, recent experiments with Schottky selenium cells brought layer thickness back to only 100 µm, compared to between 200 and 500 µm for silicon cells. &lt;sup id=&#34;fnref1:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; Scientists also reached 17% experimental efficiency for a graphene/silicon Schottky cell, up from 1.5% ten years earlier. &lt;sup id=&#34;fnref1:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;We can also question the current obsession with higher efficiencies. Many people will argue that if low-tech solar panels are less efficient, we would need more solar panels to produce the same power output. Consequently, the resources saved by low-tech production methods would be compensated by the extra resources to build more solar panels. However, efficiency is only crucial &lt;a href=&#34;https://mar-ver.github.io/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;when we take energy demand for granted&lt;/a&gt;, sacrificing some efficiency may gain us a lot in sustainability.&lt;/p&gt;
+&lt;p&gt;We can also question the current obsession with higher efficiencies. Many people will argue that if low-tech solar panels are less efficient, we would need more solar panels to produce the same power output. Consequently, the resources saved by low-tech production methods would be compensated by the extra resources to build more solar panels. However, efficiency is only crucial &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/06/how-to-make-wind-power-sustainable-again/&#34;&gt;when we take energy demand for granted&lt;/a&gt;, sacrificing some efficiency may gain us a lot in sustainability.&lt;/p&gt;
 &lt;h2 id=&#34;what-happened-to-george-cove&#34;&gt;What happened to George Cove?&lt;/h2&gt;
 &lt;p&gt;If Cove’s solar panel was so revolutionary, why is it forgotten? On this question, Philip Pesavento’s research material reads like a crime novel. Cove’s attempt to produce and market his solar energy device failed in mysterious ways.&lt;/p&gt;
 &lt;p&gt;The inventor became involved with a stock manipulator – Elmer Burlingame – who in 1909 and 1910 issued stock from businesses that were not his, including Cove’s start-up the Sun Electric Generator Company. In October 1909, Cove was allegedly kidnapped, and his life was threatened if he did not cease the development of his solar invention. However, the police dismissed Cove’s kidnapping as a hoax. In 1911, both Cove and Burlingame were arrested for stock fraud and spent a year in jail. Although Cove worked on other inventions after that, none of those were related to solar energy. &lt;sup id=&#34;fnref:32&#34;&gt;&lt;a href=&#34;#fn:32&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -241,7 +241,7 @@
 &lt;p&gt;Todorov, Teodor K., et al. &amp;ldquo;&lt;a href=&#34;https://www.nature.com/articles/s41467-017-00582-9&#34;&gt;Ultrathin high band gap solar cells with improved efficiencies from the world’s oldest photovoltaic material&lt;/a&gt;.&amp;rdquo; Nature communications 8.1 (2017): 1-8.&amp;#160;&lt;a href=&#34;#fnref:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:27&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:28&#34;&gt;
-&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;https://mar-ver.github.io/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Selenium can be deposited by thermal evaporation at only 200°C. This temperature is within easy reach of &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;solar thermal technologies&lt;/a&gt;, which means that in principle these processes could be run by direct use of solar energy.&amp;#160;&lt;a href=&#34;#fnref:28&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:29&#34;&gt;
 &lt;p&gt;Hadar, Ido, et al. &amp;ldquo;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/aenm.201802766&#34;&gt;Modern processing and insights on selenium solar cells: the world&amp;rsquo;s first photovoltaic device&lt;/a&gt;.&amp;rdquo; Advanced Energy Materials 9.16 (2019): 1802766.&amp;#160;&lt;a href=&#34;#fnref:29&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -265,28 +265,28 @@
     
     <item>
       <title>Thermoelectric Stoves: Ditch the Solar Panels?</title>
-      <link>https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
+      <link>https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</link>
       
-      <enclosure url="https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png" type="image/png" length="32170" ></enclosure>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/thermoelectric-stove-intro_dithered.png&#34; alt=&#39;Illustration: Diego Marmolejo.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration: [Diego Marmolejo](https://www.instagram.com/ddidak/).  
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;If the &lt;a href=&#34;https://mar-ver.github.io/2019/12/too-much-combustion-too-little-fire/&#34;&gt;2,000 year old windmill is the predecessor of today’s wind turbines&lt;/a&gt;, the fireplace and the wood stove are the even older predecessors of today’s solar panels. Like solar panels, trees and other plants convert sunlight into a useful source of energy for humans. Throughout history, the burning of wood and other biomass provided households with thermal energy, which was used for cooking, heating, washing, and lighting.&lt;/p&gt;
+&lt;p&gt;If the &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2019/12/too-much-combustion-too-little-fire/&#34;&gt;2,000 year old windmill is the predecessor of today’s wind turbines&lt;/a&gt;, the fireplace and the wood stove are the even older predecessors of today’s solar panels. Like solar panels, trees and other plants convert sunlight into a useful source of energy for humans. Throughout history, the burning of wood and other biomass provided households with thermal energy, which was used for cooking, heating, washing, and lighting.&lt;/p&gt;
 &lt;p&gt;Photosynthesis also underpinned all historical sources of mechanical power: it provided fuel for both human and animal power, as well as the building materials for water mills and windmills. Neither the old-fashioned windmill nor the old-fashioned wood stove produced electricity, but both can easily be adapted to do so. It suffices to connect an electric generator to a windmill, and to connect a thermoelectric generator to a wood stove.&lt;/p&gt;
 &lt;h2 id=&#34;thermoelectric-generator&#34;&gt;Thermoelectric Generator&lt;/h2&gt;
 &lt;p&gt;Thermoelectric generators (or &amp;ldquo;TEGS&amp;rdquo;) are very similar to “photoelectric” generators – which we now call “photovoltaic” generators or solar PV cells. A photovoltaic generator converts light directly into electricity, and a thermoelectric generator converts heat directly into electricity. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;A thermoelectric generator consists of a number of ingot-shaped semiconductor elements which are connected in series with metal strips and sandwiched between two electrically insulating but thermally conducting ceramic plates to form a very compact module. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; They are commercially available from manufacturers such as Hi-Z, Tellurex, Thermalforce and Thermomanic.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;A thermoelectric module. Image: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg_dithered.png&#34; alt=&#39;A thermoelectric module. Image: Gerardtv (CC BY-SA 3.0)&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A thermoelectric module. Image: Gerardtv (CC BY-SA 3.0) 
 &lt;/figcaption&gt;
@@ -294,14 +294,14 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;A thermoelectric module. Image used with permission, Applied Thermoelectric Solutions LLC, How Thermoelectric Generators Work.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-open-copyright_dithered.png&#34; alt=&#39;A thermoelectric module. Image used with permission, Applied Thermoelectric Solutions LLC, How Thermoelectric Generators Work.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  A thermoelectric module. Image used with permission, Applied Thermoelectric Solutions LLC, [How Thermoelectric Generators Work](https://thermoelectricsolutions.com/how-thermoelectric-generators-work/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Stick a thermoelectric module to the surface of a wood stove, and it will produce electricity whenever the stove is used for cooking, space heating, or water heating. In the experiments and prototypes that are described in more detail below, the power output per module varies between 3 and 19 watts.&lt;/p&gt;
-&lt;p&gt;As with solar panels, modules can be connected together in parallel and series to obtain any voltage and power output that one needs – at least as long as there is stove surface left. As with solar panels, the electric current that is produced by the thermoelectric module(s) is regulated by a charge controller and stored into a battery, so that power is also available when the stove is not in use. A thermoelectric stove is usually combined with &lt;a href=&#34;https://mar-ver.github.io/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;low voltage, direct current appliances&lt;/a&gt;, which avoids the conversion losses of using an inverter.&lt;/p&gt;
+&lt;p&gt;As with solar panels, modules can be connected together in parallel and series to obtain any voltage and power output that one needs – at least as long as there is stove surface left. As with solar panels, the electric current that is produced by the thermoelectric module(s) is regulated by a charge controller and stored into a battery, so that power is also available when the stove is not in use. A thermoelectric stove is usually combined with &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2016/04/slow-electricity-the-return-of-dc-power/&#34;&gt;low voltage, direct current appliances&lt;/a&gt;, which avoids the conversion losses of using an inverter.&lt;/p&gt;
 &lt;p&gt;Thermoelectric stoves could be applied in many parts of the world. Most research is aimed at the global South, where close to 3,000 million people (40% of the global population) rely on burning biomass for cooking and domestic water heating. Some of these households also use the stove or fireplace for lighting (1,300 million people have no access to electricity) and for space heating during part of the year. However, there’s also research aimed at households in industrial societies, where biomass stoves and burners have increased in popularity, especially outside of cities.&lt;/p&gt;
 &lt;h2 id=&#34;100-efficient&#34;&gt;100% Efficient&lt;/h2&gt;
 &lt;p&gt;Ever since the thermoelectric effect was first described by Thomas Seebeck in 1821, thermoelectric generators have been infamous for their low efficiency in converting heat into electricity. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Today, the electrical efficiency of thermoelectric modules is only around 5-6%, roughly three times lower than that of the most commonly used solar PV panels. &lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -312,7 +312,7 @@
 &lt;p&gt;Even if a stove is only used for cooking and hot water production, these daily household activities still guarantee a reliable power output, no matter the climate. Furthermore, the power production of a thermoelectric stove matches very well with the power demand of householders: the times when the stove is used, are commonly also the times when most electricity is used. Solar panels, on the other hand, produce little or no electricity when household demand peaks.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Image: A Soviet thermo-electric generator based on a kerosene lamp, powering a radio, 1959. Source: The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/russian-radio-kerosene-powered_dithered.png&#34; alt=&#39;Image: A Soviet thermo-electric generator based on a kerosene lamp, powering a radio, 1959. Source: The Museum of Retrotechnology.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A Soviet thermo-electric generator based on a kerosene lamp, powering a radio, 1959. Source: [The Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/thermoelectric/thermoelectric.htm).  
 &lt;/figcaption&gt;
@@ -335,16 +335,16 @@
 &lt;p&gt;The first thermoelectric biomass stoves were built in the early 2000s, although the Soviets pioneered a similar concept in the 1950s with mostly electric radios powered by kerosene lamps. &lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; In 2004, a team of Lebanese researchers retrofitted a typical cast-iron wood stove from local rural areas with a single 56 x 56 mm thermoelectric module they had made themselves. &lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; The stove, which is used for cooking and baking as well as for space and water heating, is rather small (52 x 44 x 29 cm) and weighs 40 kg.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Image: The cast-iron stove used in the experiments. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/lebanese-wood-stove_dithered.png&#34; alt=&#39;Image: The cast-iron stove used in the experiments. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: The cast-iron stove used in the experiments. [^18] 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;The researchers screwed a 1 cm thick smooth aluminium plate to the hottest spot of the stove surface, fixed the module there, and attached a very large (180 x 136 x 125 mm) aluminium finned heat sink to its cold side. At a burning rate of 2.5 kg soft pine wood per hour, their experiments showed an average power output of 4.2 watts. Operating the wood stove for 10 hours per day (excluding the warm-up phase) thus supplies a rural Lebanese household with 42 watt-hours of electricity, &lt;a href=&#34;https://mar-ver.github.io/2018/01/how-much-energy-do-we-need/&#34;&gt;enough to cover basic needs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The researchers screwed a 1 cm thick smooth aluminium plate to the hottest spot of the stove surface, fixed the module there, and attached a very large (180 x 136 x 125 mm) aluminium finned heat sink to its cold side. At a burning rate of 2.5 kg soft pine wood per hour, their experiments showed an average power output of 4.2 watts. Operating the wood stove for 10 hours per day (excluding the warm-up phase) thus supplies a rural Lebanese household with 42 watt-hours of electricity, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/2018/01/how-much-energy-do-we-need/&#34;&gt;enough to cover basic needs&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Image: TEG installation details and location on stove. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-on-wood-stove-lebanon_dithered.png&#34; alt=&#39;Image: TEG installation details and location on stove. [^18]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: TEG installation details and location on stove. [^18] 
 &lt;/figcaption&gt;
@@ -356,7 +356,7 @@
 &lt;p&gt;A study of a forced-draft thermoelectric cookstove with one module showed a 4.5 watt power output, of which 1 watt is required to operate the fan. &lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; The net power production (3.5 watts) is lower compared to that of the stove with only a heat sink (4.2 watts), but the fan-cooled stove uses only half as much firewood: it generates 3.5 watts net electricity at a burning rate of 1 kg of firewood per hour, while the passively cooled stove requires 2.5 kg of firewood to produce 4.2 watts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Image: TEG-powered forced draft cooking stove. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-draft-cookstove_dithered.png&#34; alt=&#39;Image: TEG-powered forced draft cooking stove. [^20]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: TEG-powered forced draft cooking stove. [^20]  
 &lt;/figcaption&gt;
@@ -368,7 +368,7 @@
 &lt;p&gt;The most efficient thermoelectric stoves are those in which the cold side of the module(s) is cooled by direct contact with a water reservoir. Water has lower thermal resistance than air, and thus cools more effectively. Furthermore, its temperature cannot surpass 100 degrees Celsius, which makes module failure due to overheating less likely.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Image: the principle of thermoelectric stove with passive water cooling. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-water_dithered.png&#34; alt=&#39;Image: the principle of thermoelectric stove with passive water cooling. [^17]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: the principle of thermoelectric stove with passive water cooling. [^17] 
 &lt;/figcaption&gt;
@@ -378,7 +378,7 @@
 &lt;p&gt;Most thermoelectric stoves with passive water cooling are small and only used for heating relatively small amounts of water. In fact, rather than the stove, it is most often a cooking pot that is equipped with thermoelectric modules. For example, the PowerPot is a commercially available backpacking type cooking pot with a thermoelectric module attached to the base, which can be directly placed on the top of a stove and advertises a power generation of 5-10 watts.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Image: multifunctional wood stove with passive water cooling. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/clip-stove_dithered.png&#34; alt=&#39;Image: multifunctional wood stove with passive water cooling. [^22]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: multifunctional wood stove with passive water cooling. [^22] 
 &lt;/figcaption&gt;
@@ -390,21 +390,21 @@
 &lt;p&gt;Passive water cooling has a downside. As the temperature of the water in the tank increases, the difference between the cold and the hot side of the module will decrease, and so will the electrical efficiency. There either needs to be sufficient time between two firings of a stove to let the water cool down again, or the warm water should regularly be used and replaced by cold water. A pump makes this task more convenient.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/prototype-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-2-goudarzi_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Image: Prototype of a thermoelectric stove with water-cooled modules. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/water-cooling-system-goudarzi_dithered.png&#34; alt=&#39;Image: Prototype of a thermoelectric stove with water-cooled modules. [^26]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: Prototype of a thermoelectric stove with water-cooled modules. [^26] 
 &lt;/figcaption&gt;
@@ -415,7 +415,7 @@
 &lt;p&gt;Thermoelectric generators with forced water cooling better fit the energy infrastructure in industrial societies, especially in households with central heating systems. More modules could be added, resulting in a power production that matches a relatively high energy lifestyle. However, there&amp;rsquo;s some caveats. First, central heating systems are only used for space and water heating, not for cooking, which makes their power production less reliable throughout the year. Second, only some central heating systems operate on biomass or wood pellet burners, while many more run on gas, oil or electricity.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototype of a thermoelectric wood-pellet burner. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/teg-pellet-moser_dithered.png&#34; alt=&#39;Prototype of a thermoelectric wood-pellet burner. [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Prototype of a thermoelectric wood-pellet burner. [^30]  
 &lt;/figcaption&gt;
@@ -425,7 +425,7 @@
 &lt;p&gt;However, when the energy source is gas or oil, a thermoelectric boiler is as much of a low carbon solution as a grid-connected solar PV system on the roof. &lt;sup id=&#34;fnref:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt; A thermoelectric heating system doesn’t make a household independent of fossil fuels, but neither does a grid-connected solar PV installation. It relies on the (largely fossil fuel powered) power grid to solve energy shortages and excesses, and it usually counts on a fossil fuel powered central heating system for space and water heating.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Image: A 1 kW thermoelectric generator with forced-water cooling for low temperature geothermal resources. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/2020/05/thermoelectric-stoves-ditch-the-solar-panels/images/dithers/1-kw-thermo-electric-generator-liu2014_dithered.png&#34; alt=&#39;Image: A 1 kW thermoelectric generator with forced-water cooling for low temperature geothermal resources. [^31]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image: A 1 kW thermoelectric generator with forced-water cooling for low temperature geothermal resources. [^31] 
 &lt;/figcaption&gt;

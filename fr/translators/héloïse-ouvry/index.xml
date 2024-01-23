@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://mar-ver.github.io/fr/translators/h%C3%A9lo%C3%AFse-ouvry/</link>
+    <link>https://lowtechmag.gitlab.io/solar/fr/translators/h%C3%A9lo%C3%AFse-ouvry/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/fr/translators/h%C3%A9lo%C3%AFse-ouvry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/translators/h%C3%A9lo%C3%AFse-ouvry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stockage d’énergie par air comprimé hors-réseau</title>
-      <link>https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
       <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -27,23 +27,23 @@
 &lt;p&gt;Malheureusement, les CAES à échelle industrielle sont très peu efficaces énergétiquement. La compression et décompression de l’air entraînent des pertes d’énergie desquelles résultent un rendement électrique-électrique de seulement 40-52%, contre 70-85% pour une centrale hydroélectrique de pompage-turbinage et 70-90% pour les batteries chimiques.&lt;/p&gt;
 &lt;p&gt;Le faible rendement est principalement dû au fait que l’air chauffe sous l’action de la compression. Les pertes de chaleur, qui représentent une grosse partie de l’apport énergétique, sont rejetées dans l’atmosphère. Un problème connexe est le fait que l’air se refroidit pendant la détente, ce qui diminue la production électrique et peut même geler la vapeur d’eau présente dans l’air. Pour éviter cela, les grandes usines CAES chauffent l’air avant la détente en utilisant du gaz naturel, ce qui amoindrit d’autant plus le rendement du système et rend ce stockage d’énergie durable dépendant des énergies fossiles.&lt;/p&gt;
 &lt;h2 id=&#34;pourquoi-se-tourner-vers-un-système-caes-à-petite-échelle-&#34;&gt;Pourquoi se tourner vers un système CAES à petite échelle ?&lt;/h2&gt;
-&lt;p&gt;Dans l’article précédent nous avons exposé plusieurs idées – &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspirées de systèmes historiques&lt;/a&gt; – qui pourraient améliorer le rendement des centrales CAES à grande échelle. Dans cet article, nous nous focalisons sur les quelques ingénieurs et chercheurs, de plus en plus nombreux, qui pensent que l’avenir n’est pas dans le stockage d’énergie par air comprimé à échelle industrielle mais bien dans les systèmes à petite échelle ou micro échelle, utilisant des réservoirs de stockage artificiels en surface plutôt que des réservoirs souterrains. De tels systèmes pourraient être autonomes ou raccordés au réseau, fonctionnant tout seul ou conjointement avec un système de batteries.&lt;/p&gt;
+&lt;p&gt;Dans l’article précédent nous avons exposé plusieurs idées – &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspirées de systèmes historiques&lt;/a&gt; – qui pourraient améliorer le rendement des centrales CAES à grande échelle. Dans cet article, nous nous focalisons sur les quelques ingénieurs et chercheurs, de plus en plus nombreux, qui pensent que l’avenir n’est pas dans le stockage d’énergie par air comprimé à échelle industrielle mais bien dans les systèmes à petite échelle ou micro échelle, utilisant des réservoirs de stockage artificiels en surface plutôt que des réservoirs souterrains. De tels systèmes pourraient être autonomes ou raccordés au réseau, fonctionnant tout seul ou conjointement avec un système de batteries.&lt;/p&gt;
 &lt;p&gt;La principale raison d’étudier le stockage d’énergie par air comprimé décentralisé est le fait qu’un tel système peut être utilisé n’importe où, tout comme les batteries chimiques. Les grandes installations CAES, à l’inverse, sont dépendantes d’une géologie souterraine appropriée. Bien qu’il y ait plus de sites potentiels pour les grandes installations CAES que pour les grandes centrales hydroélectriques de pompage-turbinage, trouver une caverne de stockage appropriée n’est pas aussi facile que cela avait été préalablement supposé. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Comparé aux batteries chimiques, les micro-systèmes CAES ont des avantages intéressants. Le plus important est qu’un réseau distribué de systèmes de stockage d’énergie par air comprimé serait plus durable et écologique. Tout au long de leurs vies, &lt;a href=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;les batteries chimiques stockent seulement deux à dix fois l’énergie nécessaire à les produire&lt;/a&gt;. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Les systèmes CAES à petite échelle font bien mieux que cela, principalement car leur durée de vie est plus longue.&lt;/p&gt;
+&lt;p&gt;Comparé aux batteries chimiques, les micro-systèmes CAES ont des avantages intéressants. Le plus important est qu’un réseau distribué de systèmes de stockage d’énergie par air comprimé serait plus durable et écologique. Tout au long de leurs vies, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;les batteries chimiques stockent seulement deux à dix fois l’énergie nécessaire à les produire&lt;/a&gt;. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Les systèmes CAES à petite échelle font bien mieux que cela, principalement car leur durée de vie est plus longue.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Comparé aux batteries chimiques, un réseau distribué de systèmes de stockage d’énergie par air comprimé serait plus durable et écologique.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Par ailleurs, ils ne nécessitent pas de matériaux rares ou toxiques, et le matériel est facilement recyclable. De plus, le stockage décentralisé d&amp;rsquo;énergie par air comprimé n&amp;rsquo;a pas besoin de lignes de production de haute technologie et peut être fabriqué, installé et entretenu par des entreprises locales, contrairement à un système de stockage d&amp;rsquo;énergie basé sur des batteries chimiques. Enfin, les micro-CAES ne se déchargent pas tous seuls, tolèrent une plus large gamme d&amp;rsquo;environnements et promettent d&amp;rsquo;être moins chers que les batteries chimiques. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -55,7 +55,7 @@
 &lt;p&gt;Pour rendre les choses plus compliquées encore, le rendement du système et la taille du stockage sont inversement liés: l&amp;rsquo;amélioration d&amp;rsquo;un facteur se fait souvent au détriment de l&amp;rsquo;autre. Augmenter la pression de l&amp;rsquo;air minimise la taille du stockage mais diminue le rendement du système, tandis que l&amp;rsquo;utilisation d&amp;rsquo;une pression plus basse rend le système plus économe en énergie mais mais demande un espace de stockage plus important. Quelques exemples aident à illustrer le problème.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Réservoirs de stockage d&amp;amp;rsquo;énergie par air comprimé. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Réservoirs de stockage d&amp;amp;rsquo;énergie par air comprimé. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Réservoirs de stockage d&#39;énergie par air comprimé. [Source](http://www.screwtypeaircompressors.com/sale-8108163-vertical-compressed-air-tank-natural-gas-tank-2000l-air-receiver-tank.html). 
 &lt;/figcaption&gt;
@@ -69,7 +69,7 @@
 &lt;p&gt;Un tel système peut en effet être bénéfique dans ce contexte, notamment parce qu&amp;rsquo;il a une durée de vie beaucoup plus longue que les batteries chimiques. Cependant, une configuration similaire dans un contexte urbain à forte consommation d&amp;rsquo;énergie est évidemment problématique. Dans une autre étude, il a été calculé qu&amp;rsquo;il faudrait un réservoir de stockage d&amp;rsquo;air de 65 m3 pour stocker 3 kWh d&amp;rsquo;énergie. Cela correspond à un récipient sous pression de 13 mètres de long avec un diamètre de 2,5 mètres, illustré ci-dessous. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -77,11 +77,11 @@
 &lt;p&gt;En outre, la consommation électrique quotidiene moyenne des ménages dans les pays industrialisés est encore beaucoup plus élevée. Par exemple, au Royaume-Uni, elle est légèrement inférieure à 13 kWh par jour, aux États-Unis et au Canada, elle dépasse 30 kWh. Dans ce dernier cas, dix de ces réservoirs d’air seraient nécessaires pour stocker l’équivalent d’une journée d&amp;rsquo;utilisation d&amp;rsquo;électricité.&lt;/p&gt;
 &lt;p&gt;Les systèmes CAES à petite échelle avec des pressions élevées donnent des résultats opposés. Par exemple, une modélisation d’une configuration pour une utilisation électrique domestique typique en Europe (6 400 kWh par an) fonctionne à une pression de 200 bars (près de 4 fois supérieure à la pression dans les grandes usines CAES) et obtient un volume de stockage de seulement 0,55 m3, ce qui est comparable aux batteries. Cependant, le rendement électrique-électrique de cette configuration n&amp;rsquo;est que de 11 à 17%, selon la taille du système solaire photovoltaïque. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;deux-stratégies-pour-faire-fonctionner-le-micro-caes&#34;&gt;Deux stratégies pour faire fonctionner le micro-CAES&lt;/h2&gt;
-&lt;p&gt;Ces exemples semblent suggérer que le stockage d&amp;rsquo;énergie par air comprimé n&amp;rsquo;a pas de sens en tant que système de stockage d&amp;rsquo;énergie à petite échelle, &lt;a href=&#34;https://mar-ver.github.io/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;même avec une réduction du besoin en énergie&lt;/a&gt;. Cependant, peut-être de manière surprenante pour beaucoup, ce n&amp;rsquo;est pas le cas.&lt;/p&gt;
+&lt;p&gt;Ces exemples semblent suggérer que le stockage d&amp;rsquo;énergie par air comprimé n&amp;rsquo;a pas de sens en tant que système de stockage d&amp;rsquo;énergie à petite échelle, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;même avec une réduction du besoin en énergie&lt;/a&gt;. Cependant, peut-être de manière surprenante pour beaucoup, ce n&amp;rsquo;est pas le cas.&lt;/p&gt;
 &lt;p&gt;Les systèmes CAES à petite échelle ne peuvent pas suivre la même approche que les systèmes CAES à grande échelle, qui augmentent la capacité de stockage et le rendement global en utilisant la compression multi-étagée avec refroidissement intermédiaire et la détente multi-étagée avec réchauffe. Cette méthode implique des composants supplémentaires et augmente la complexité et le coût, ce qui n&amp;rsquo;est pas adapté pour les systèmes à petite échelle.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -96,7 +96,7 @@
 &lt;p&gt;Dans ces systèmes, le rendement électrique-électrique est très faible. Cependant, il y a maintenant plusieurs rendements à définir, car le système fournit également de la chaleur et du froid. &lt;sup id=&#34;fnref1:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; En outre, cette approche peut rendre obsolètes plusieurs appareils électriques, tels que le réfrigérateur, la climatisation et la chaudière électrique pour le chauffage des locaux et de l&amp;rsquo;eau. Étant donné que l&amp;rsquo;utilisation de ces appareils est souvent responsable d&amp;rsquo;environ la moitié de la consommation d&amp;rsquo;électricité dans un ménage moyen, un système CAES à petite échelle à haute pression a un besoin en électricité globalement plus faible.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresseur d’air typique. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresseur d’air typique. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un compresseur d’air typique. [Source](https://www.thomasnet.com/articles/machinery-tools-supplies/Air-Compressors). 
 &lt;/figcaption&gt;
@@ -105,7 +105,7 @@
 &lt;p&gt;Les systèmes à haute pression règlent facilement le problème de la taille du stockage. Comme nous l&amp;rsquo;avons vu, une pression d&amp;rsquo;air plus élevée peut réduire considérablement la taille du réservoir de stockage d&amp;rsquo;air comprimé, mais uniquement au détriment d&amp;rsquo;une augmentation des pertes de chaleur. Dans un système à petite échelle qui tire parti des différences de température pour assurer le chauffage et le refroidissement, cela est avantageux. Par conséquent, les systèmes à haute pression sont idéaux pour les bâtiments résidentiels à petite échelle, où l&amp;rsquo;espace de stockage est limité et où il y a une forte demande de chaleur et de froid ainsi que d&amp;rsquo;électricité. Les seuls inconvénients sont que les systèmes à haute pression nécessitent des réservoirs de stockage plus solides et plus chers, et qu&amp;rsquo;un espace supplémentaire est nécessaire pour les échangeurs de chaleur.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Installation expérimentale d’un micro-CAES. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Installation expérimentale d’un micro-CAES. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Installation expérimentale d’un micro-CAES. Source: [^30] 
 &lt;/figcaption&gt;
@@ -118,7 +118,7 @@
 &lt;p&gt;En dessous de pressions d&amp;rsquo;air d&amp;rsquo;environ 10 bars, la compression et la détente de l&amp;rsquo;air présentent des changements de température insignifiants («quasi-isothermes»), et le rendement du système de stockage d&amp;rsquo;énergie peut atteindre quasiment 100%. Il n&amp;rsquo;y a pas de pertes de chaleur et, par conséquent, il n&amp;rsquo;est pas nécessaire de réchauffer l&amp;rsquo;air lors de la détente.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -133,7 +133,7 @@
 &lt;p&gt;Cet appareil, à faible coût et composé d’un minimum de pièces mobiles, obtient des rendements de 60 à 70% pour une pression de 3 à 7 bars. &lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Il s&amp;rsquo;agit d&amp;rsquo;un rendement très élevé pour un appareil aussi simple, étant donné qu&amp;rsquo;un compresseur centrifuge sophistiqué à trois étages, utilisé dans des systèmes CAES à grande échelle ou dans des environnements industriels, a un rendement d’environ 70%. De plus, les chercheurs affirment que le rendement est limité par l’utilisation d’un moteur standard pour alimenter leur compresseur. En effet, une autre équipe de recherche a atteint une efficacité de 83%. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Un compresseur à vis. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Un compresseur à vis. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un compresseur à vis. Source: [^30] 
 &lt;/figcaption&gt;
@@ -144,7 +144,7 @@
 &lt;p&gt;Bien que les compresseurs et les détendeurs soient les facteurs les plus importants pour le rendement des systèmes CAES à petite échelle, ils ne sont pas les seuls. Par exemple, dans chaque système de stockage d&amp;rsquo;énergie par air comprimé, une perte de rendement supplémentaire est causée par le fait que pendant la détente, le réservoir de stockage se vide et donc la pression chute. En parallèle, la pression d&amp;rsquo;entrée du détendeur ne doit varier que dans une plage minimale pour garantir un rendement élevé.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -159,7 +159,7 @@
 &lt;p&gt;L&amp;rsquo;installation se compose de l&amp;rsquo;unité de compression/détente couplée à trois petits cylindres (7L), précédemment utilisés comme extincteurs, et fonctionnant à basse pression (max. 5 bar). Les réservoirs de stockage sont connectés via des canalisations en PVC et des raccords en laiton. Pour contrôler le débit d&amp;rsquo;air, trois vannes d&amp;rsquo;air commandées par ordinateur sont installées à l&amp;rsquo;entrée de chaque cylindre. Le système peut être étendu en ajoutant plus de récipients sous pression. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -172,7 +172,7 @@
 &lt;p&gt;Fait intéressant, la capacité de stockage est de 410 Wh, ce qui est comparable au système rural de 360 Wh mentionné précédemment, qui nécessite un réservoir de stockage de 18 m3, soit trente fois plus que le système de stockage modulaire.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Vannes d’air contrôlées par ordinateur. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Vannes d’air contrôlées par ordinateur. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Vannes d’air contrôlées par ordinateur. [Source](http://www.jaksa.si/compressed-air-solenoid-valves.html). 
 &lt;/figcaption&gt;
@@ -183,7 +183,7 @@
 &lt;h2 id=&#34;le-fabriquer-soi-même-&#34;&gt;Le fabriquer soi-même ?&lt;/h2&gt;
 &lt;p&gt;En conclusion, le stockage d&amp;rsquo;énergie par air comprimé à petite échelle pourrait être une alternative prometteuse aux batteries, mais la recherche en est encore à ses débuts - la première étude sur le CAES à petite échelle a été publiée en 2010 - et de nouvelles idées sont nécessaires pour comprendre comment développer au mieux la technologie. Pour le moment, il n&amp;rsquo;existe pas de modèles disponibles dans le commerce et la mise en place de votre propre système peut être assez intimidante si vous débutez en pneumatique. Le simple fait de se procurer les bons composants et raccords est un casse-tête, car ils sont d&amp;rsquo;une variété déconcertante et ne sont vendus qu&amp;rsquo;aux industries.&lt;/p&gt;
 &lt;p&gt;Cependant, si vous êtes patient et pas trop maladroit, et si vous êtes déterminé à utiliser un système de stockage d&amp;rsquo;énergie plus durable, il est parfaitement possible de construire votre propre système CAES. Comme les exemples de cet article l&amp;rsquo;ont montré, il est juste un peu plus difficile d&amp;rsquo;en créer un bon.&lt;/p&gt;
-&lt;p&gt;Il y a idées supplémentaires concernant les systèmes CAES à petite échelle dans l’article précédent : &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Histoire et Avenir de l’Économie de l’Air Comprimé&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il y a idées supplémentaires concernant les systèmes CAES à petite échelle dans l’article précédent : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Histoire et Avenir de l’Économie de l’Air Comprimé&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -248,15 +248,15 @@
     
     <item>
       <title>Histoire et Avenir de l&#39;Économie de l&#39;Air Comprimé</title>
-      <link>https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;Hiscox straight line air compressor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;Hiscox straight line air compressor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hiscox straight line air compressor. 
 &lt;/figcaption&gt;
@@ -266,11 +266,11 @@
 &lt;p&gt;Il suffit de jeter un oeil sur la longue histoire, vieille de 4000 ans, de l&amp;rsquo;air comprimé pour montrer que ce n&amp;rsquo;est pas indispensable. Bien que nos ancêtres utilisaient des technologies avec des rendements énergétiques moins bons, ils se servaient de l&amp;rsquo;air comprimé de manière plus intelligente ce qui leur permettait d’avoir moins de pertes liées aux conversions d’énergie et d’être indépendants des combustibles fossiles.&lt;/p&gt;
 &lt;p&gt;Les systèmes à air comprimé du passé semblent détenir la solution pour concevoir un système de stockage d&amp;rsquo;énergie low-tech, bon marché, robuste, durable et relativement économe en énergie. L&amp;rsquo;économie de l&amp;rsquo;air comprimé pourrait être l&amp;rsquo;alternative pratique et réaliste à l&amp;rsquo;utopie de l’hydrogène ou du tout électrique.&lt;/p&gt;
 &lt;h2 id=&#34;la-promesse-de-lair-comprimé&#34;&gt;La promesse de l’air comprimé&lt;/h2&gt;
-&lt;p&gt;Bien que le potentiel de l&amp;rsquo;énergie éolienne et solaire soit plus que suffisant pour répondre à la demande électrique des sociétés industrielles, &lt;a href=&#34;https://mar-ver.github.io/fr/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;ces ressources ne sont disponibles que par intermittence&lt;/a&gt; - est un moyen de faire face à la variabilité et l&amp;rsquo;incertitude des énergies renouvelables, mais elle a ses limites. Par conséquent, un réseau électrique renouvelable a besoin d&amp;rsquo;un minimum de stockage d&amp;rsquo;énergie, et il en va de même pour un système hors réseau basé sur l&amp;rsquo;énergie solaire ou éolienne.&lt;/p&gt;
+&lt;p&gt;Bien que le potentiel de l&amp;rsquo;énergie éolienne et solaire soit plus que suffisant pour répondre à la demande électrique des sociétés industrielles, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;ces ressources ne sont disponibles que par intermittence&lt;/a&gt; - est un moyen de faire face à la variabilité et l&amp;rsquo;incertitude des énergies renouvelables, mais elle a ses limites. Par conséquent, un réseau électrique renouvelable a besoin d&amp;rsquo;un minimum de stockage d&amp;rsquo;énergie, et il en va de même pour un système hors réseau basé sur l&amp;rsquo;énergie solaire ou éolienne.&lt;/p&gt;
 &lt;p&gt;Aujourd&amp;rsquo;hui, plus de 99% de la capacité de stockage électrique dans le monde se compose de centrales hydroélectriques de pompage-turbinage, où le surplus d&amp;rsquo;énergie électrique des centrales solaires ou éoliennes est stocké pour une utilisation ultérieure en pompant l&amp;rsquo;eau d&amp;rsquo;un réservoir inférieur à un réservoir supérieur. Le stockage d&amp;rsquo;énergie par pompage-turbinage est assez efficace et low-tech, mais il nécessite un environnement approprié avec deux grands plans d&amp;rsquo;eau, séparés verticalement, et un ou deux barrages. Il inonde également de vastes étendues de terre. Par ailleurs, la plupart des sites adaptés sont déjà utilisés, ce qui signifie qu&amp;rsquo;il y a peu de potentiel pour une croissance future. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -282,28 +282,28 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Une chose notable est que le système CAES est le stockage d&amp;rsquo;énergie le plus durable qui soit. Contrairement au stockage d&amp;rsquo;énergie par pompage-turbinage, le stockage d&amp;rsquo;énergie par air comprimé ne présente aucun problème environnemental causé par l&amp;rsquo;inondation des terres et le barrage des rivières.&lt;/p&gt;
 &lt;p&gt;De plus, si l&amp;rsquo;énergie stockée pendant toute la durée de vie d&amp;rsquo;un appareil de stockage est comparée à la quantité d&amp;rsquo;énergie primaire requise pour construire l&amp;rsquo;appareil, le système CAES surpasse le stockage d&amp;rsquo;énergie par pompage-turbinage et est largement supérieur aux batteries électrochimiques, qui nécessitent 10 à 100 fois plus d&amp;rsquo;énergie grise pour une capacité de stockage donnée. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un avantage crucial car un besoin énergétique élevé pour la production du stockage d&amp;rsquo;énergie peut &lt;a href=&#34;https://mar-ver.github.io/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;diminuer considérablement la durabilité d&amp;rsquo;un réseau électrique renouvelable&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un avantage crucial car un besoin énergétique élevé pour la production du stockage d&amp;rsquo;énergie peut &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;diminuer considérablement la durabilité d&amp;rsquo;un réseau électrique renouvelable&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;le-problème-avec-lair-comprimé&#34;&gt;Le problème avec l’air comprimé&lt;/h2&gt;
 &lt;p&gt;Malgré tous ces avantages, il n&amp;rsquo;y a actuellement que deux usines CAES à grande échelle dans le monde : une en Allemagne, construite en 1979 et une aux États-Unis, construite en 1991. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Cet engouement limité est principalement attribué au fait que plus de la moitié de l&amp;rsquo;énergie est perdue lors du chargement et du déchargement d&amp;rsquo;une «batterie» d&amp;rsquo;air comprimé.&lt;/p&gt;
 &lt;p&gt;Alors que le stockage par pompage-turbinage a une efficacité de charge/décharge de 70 à 85% et que les batteries chimiques atteignent 65 à 90%, les usines CAES en fonctionnement en Allemagne et aux États-Unis ont une efficacité électrique-électrique de seulement 40 à 42% et 51-54%, respectivement. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Ce faible rendement de conversion énergétique est notamment dû au fait que l&amp;rsquo;air chauffe lorsqu&amp;rsquo;il est comprimé à des pressions élevées (les deux usines CAES fonctionnent à 50-70 bar, ce qui représente 10 à 20 fois la pression d&amp;rsquo;air dans un pneu de vélo). Et puisque la densité énergétique de l&amp;rsquo;air diminue avec l&amp;rsquo;augmentation de la température, les deux usines CAES retirent la chaleur avant le stockage et la rejettent dans l&amp;rsquo;atmosphère. Cela représente une source importante de perte d&amp;rsquo;énergie. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;Compresseur vintage à trois étages.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;Compresseur vintage à trois étages.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Compresseur vintage à trois étages. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;En outre, lorsque l&amp;rsquo;air est détendu depuis une haute pression, la température diminue à un point tel que la vapeur d&amp;rsquo;eau dans l&amp;rsquo;air peut geler, endommageant ainsi les vannes et le détendeur du système de stockage. Pour éviter cela, et augmenter la puissance de sortie, les deux usines CAES chauffent l&amp;rsquo;air dans des brûleurs à l&amp;rsquo;aide de gaz naturel avant la détente. De toute évidence, cela diminue encore l&amp;rsquo;efficacité énergétique de l&amp;rsquo;ensemble du processus et rendent les systèmes CAES actuels entièrement dépendants des combustibles fossiles pour leur fonctionnement. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Une efficacité de conversion de 40 à 50% signifie que &lt;a href=&#34;https://mar-ver.github.io/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;la capacité de production d&amp;rsquo;énergie éolienne ou solaire doit être doublée pour compenser cette perte&lt;/a&gt;. Par conséquent, nous avons besoin de plus d&amp;rsquo;énergie, de plus de matériaux et de plus d&amp;rsquo;espace pour la même production d&amp;rsquo;énergie. De ce fait le caractère durable du système CAES s’en trouve fortement diminué à cause de sa faible efficacité.&lt;/p&gt;
+&lt;p&gt;Une efficacité de conversion de 40 à 50% signifie que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;la capacité de production d&amp;rsquo;énergie éolienne ou solaire doit être doublée pour compenser cette perte&lt;/a&gt;. Par conséquent, nous avons besoin de plus d&amp;rsquo;énergie, de plus de matériaux et de plus d&amp;rsquo;espace pour la même production d&amp;rsquo;énergie. De ce fait le caractère durable du système CAES s’en trouve fortement diminué à cause de sa faible efficacité.&lt;/p&gt;
 &lt;p&gt;De plus, le faible rendement de conversion énergétique des systèmes CAES est intrinsèquement lié à la faible densité énergétique de l’air, ce qui signifie qu&amp;rsquo;ils dépendent de très grands réservoirs de stockage. En principe, la densité énergétique de l&amp;rsquo;air comprimé peut être considérablement améliorée en utilisant des pressions d&amp;rsquo;air plus élevées, mais à mesure que la pression d&amp;rsquo;air augmente, plus d&amp;rsquo;énergie est perdue en chaleur et le rendement de l&amp;rsquo;ensemble du processus se détériore davantage. Par conséquent, un système CAES – dans sa configuration actuelle – est toujours un compromis entre rendement et densité énergétique.&lt;/p&gt;
 &lt;h2 id=&#34;4-000-ans-dhistoire&#34;&gt;4 000 ans d’histoire&lt;/h2&gt;
 &lt;p&gt;La très faible efficacité énergétique des systèmes de stockage d&amp;rsquo;énergie par air comprimé d&amp;rsquo;aujourd&amp;rsquo;hui est remarquable dans un contexte historique. L&amp;rsquo;utilisation de l&amp;rsquo;air comprimé remonte à plus de 4 000 ans et a toujours été un moteur important du progrès technologique. Bien que ces applications historiques ne visaient pas le stockage d&amp;rsquo;énergie, elles offrent une inspiration pour améliorer à la fois l&amp;rsquo;efficacité énergétique et la densité énergétique des systèmes CAES d&amp;rsquo;aujourd&amp;rsquo;hui.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;utilisation de l&amp;rsquo;air comprimé la plus ancienne et sans doute la plus importante de l&amp;rsquo;histoire a été d’alimenter le feu. On l’a retrouvé dans la cuisine et dans tous les processus de production à base de chaleur, mais c&amp;rsquo;était particulièrement important dans les procédés de fabrication des métaux. Un feu de charbon de bois non assisté pouvait atteindre 900 °C, mais en activant cette combustion avec de l’air comprimé cela pouvait élever sa température à près de 2000 °C. &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -314,10 +314,10 @@
 &lt;p&gt;Les progrès dans la fusion des métaux sont en partie dus aux améliorations de la technologie des compresseurs d&amp;rsquo;air&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;À partir des années 1860 et dans les années 1900, l&amp;rsquo;air comprimé (ou «pneumatique») a été au centre d&amp;rsquo;une autre révolution technologique. Cette fois, la pneumatique s&amp;rsquo;est imposée comme la technologie de transmission de puissance la plus polyvalente et la plus utilisée avant l&amp;rsquo;introduction de l&amp;rsquo;électricité. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;En raison du fait que l’électricité était encore distribuée &lt;a href=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/&#34;&gt;à basse tension&lt;/a&gt; («hydraulique») représentaient une manière plus efficace de transmettre de l’énergie sur de plus longues distances. En outre, l&amp;rsquo;air comprimé avait un avantage très pratique sur l&amp;rsquo;eau sous pression : l&amp;rsquo;air est disponible partout et son échappement ne pose aucun problème, tandis que les systèmes hydrauliques nécessitent une alimentation en eau suffisante ainsi qu&amp;rsquo;un moyen de vidanger le fluide après utilisation.&lt;/p&gt;
+&lt;p&gt;En raison du fait que l’électricité était encore distribuée &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/&#34;&gt;à basse tension&lt;/a&gt; («hydraulique») représentaient une manière plus efficace de transmettre de l’énergie sur de plus longues distances. En outre, l&amp;rsquo;air comprimé avait un avantage très pratique sur l&amp;rsquo;eau sous pression : l&amp;rsquo;air est disponible partout et son échappement ne pose aucun problème, tandis que les systèmes hydrauliques nécessitent une alimentation en eau suffisante ainsi qu&amp;rsquo;un moyen de vidanger le fluide après utilisation.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -329,7 +329,7 @@
 &lt;p&gt;Environ à la même époque en Europe, les Français sont allés plus loin dans le développement de l&amp;rsquo;énergie pneumatique en créant un réseau de distribution à l&amp;rsquo;échelle de la ville de Paris. Il resta en service pendant plus de 100 ans (de 1881 à 1994), distribuant de l&amp;rsquo;air comprimé à une pression relativement basse de 5-6 bar sur un réseau de plus de 900 km de réseau (au final), desservant plus de 10 000 consommateurs. &lt;sup id=&#34;fnref4:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -341,7 +341,7 @@
 &lt;p&gt;Déjà en 1892, F.E. Idell écrivait que «parmi les plus petits usages industriels pour lesquels les moteurs pneumatiques sont utilisés à Paris, je trouve la conduite de tours pour le métal et le bois, de scies circulaires, de perceuses, de polisseuses et bien d&amp;rsquo;autres. Ils sont également utilisés dans les ateliers de charpentiers, menuisiers et ébénistes, de forgerons, de fabricants de parapluies, de fabricants de cols, de relieurs, et naturellement dans de nombreux endroits où les machines à coudre sont utilisées, aussi bien par les couturiers, les tailleurs, et cordonniers, de la plus petite à la plus grande échelle. » &lt;sup id=&#34;fnref3:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Centrale du réseau d&amp;amp;rsquo;air comprimé à Paris. Via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Centrale du réseau d&amp;amp;rsquo;air comprimé à Paris. Via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Centrale du réseau d&#39;air comprimé à Paris. Via [Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
 &lt;/figcaption&gt;
@@ -354,7 +354,7 @@
 &lt;p&gt;En conséquence, aujourd’hui l’utilisation industrielle d’air comprimé est très inefficace : en supposant que chaque convertisseur est efficace à 75% et sans aucune autre perte d’énergie, seulement 30% de l’énergie consommée est convertie en sortie utile. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;À Paris, de l&amp;amp;rsquo;air comprimé était acheminé par le réseau d&amp;amp;rsquo;égouts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;À Paris, de l&amp;amp;rsquo;air comprimé était acheminé par le réseau d&amp;amp;rsquo;égouts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  À Paris, de l&#39;air comprimé était acheminé par le réseau d&#39;égouts. 
 &lt;/figcaption&gt;
@@ -364,7 +364,7 @@
 &lt;p&gt;Lorsqu&amp;rsquo;on dit que le rendement d&amp;rsquo;une centrale CAES est de 40 à 50%, cela ne fait référence qu&amp;rsquo;aux pertes dans le compresseur d&amp;rsquo;air et le détendeur d&amp;rsquo;air (rendement électrique-électrique). Cependant, si nous incluons les conversions vers et depuis l’énergie électrique, le rendement global du système diminue à moins de 20%, en supposant à nouveau que chaque convertisseur a un rendement de 75%.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -376,7 +376,7 @@
 &lt;p&gt;En revanche, si nous connections une centrale CAES directement à une usine qui utilise des outils pneumatiques, en connectant l&amp;rsquo;air comprimé de l&amp;rsquo;une à l&amp;rsquo;autre, nous ne subirions que quatre sources de perte d&amp;rsquo;énergie (générateur, moteur, compresseur, détendeur). Dans la centrale CAES, il n&amp;rsquo;est plus nécessaire de reconvertir l&amp;rsquo;air comprimé stocké en électricité, tandis qu&amp;rsquo;en usine, il n&amp;rsquo;est pas nécessaire de comprimer l&amp;rsquo;air une deuxième fois, en utilisant de l&amp;rsquo;électricité. Il suffit de respecter une distance entre la centrale CAES et l’usine jusqu&amp;rsquo;à 25 km – la distance jusqu&amp;rsquo;à laquelle l&amp;rsquo;air comprimé peut être distribué efficacement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Map via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Map via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Map via [Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
 &lt;/figcaption&gt;
@@ -389,7 +389,7 @@
 &lt;p&gt;Aujourd&amp;rsquo;hui, la plupart des ingénieurs CAES se concentrent sur l&amp;rsquo;amélioration de cette efficacité en utilisant la chaleur résiduelle de compression pour réchauffer l&amp;rsquo;air comprimé lors de la détente. Cette méthode est appelée «Advanced Adiabatic CAES» (AA-CAES) ou «fuelless CAES» et élimine le besoin de réchauffer l’air au gaz naturel comme dans le système CAES «diabatique» standard. Cette technologie devrait atteindre une efficacité globale d&amp;rsquo;environ 70%, ce qui la rapprocherait de l&amp;rsquo;efficacité des batteries chimiques et des installations de stockage par pompage-turbinage. &lt;sup id=&#34;fnref2:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -401,23 +401,23 @@
 &lt;p&gt;Si nous regardons les anciens systèmes pneumatiques, nous voyons qu&amp;rsquo;il existe d&amp;rsquo;autres moyens plus faciles de tirer parti des différences de température dues à la compression et à la détente. Dans le réseau électrique à air comprimé de Paris, les ingénieurs ont profité du refroidissement apporté par la détente de l&amp;rsquo;air. À Paris, l&amp;rsquo;air comprimé était généralement chauffé par un feu de charbon avant d&amp;rsquo;être utilisé par un moteur pneumatique, augmentant la puissance de sortie d&amp;rsquo;une manière très similaire à l&amp;rsquo;utilisation du gaz naturel dans les systèmes CAES actuels.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Cependant, dans les bars et restaurants, ces réchauffeurs n&amp;rsquo;étaient pas utilisés. Au lieu de cela, l&amp;rsquo;air froid a été utilisé à des fins de réfrigération, de congélation, de refroidissement ou de ventilation. En 1892, F.E. Idell a décrit un restaurant parisien où «l&amp;rsquo;évacuation a été transporté à travers un conduit de brique dans la cave à bière. Dans ce conduit, les carafes pouvaient geler et de gros blocs de glace étaient également fabriqués pour être utilisés à table, tandis que l&amp;rsquo;air était encore assez froid en passant à travers la cave à bière pour rendre l&amp;rsquo;utilisation de la glace pour le refroidissement tout à fait inutile, même par le temps le plus chaud.» &lt;sup id=&#34;fnref5:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;utilisation d&amp;rsquo;air comprimé pour le refroidissement ou la congélation allait parfois de pair avec la production d&amp;rsquo;électricité pour l&amp;rsquo;éclairage, en entraînant une dynamo. Dans ces cas, les moteurs pneumatiques étaient essentiellement utilisés pour leur échappement, la lumière électrique étant le sous-produit. L&amp;rsquo;exploitation des différences de température s&amp;rsquo;est avérée utile également dans le secteur minier évoqué précédemment, où l&amp;rsquo;échappement des foreuses aidaient à refroidir (et à ventiler) les mines.&lt;/p&gt;
-&lt;p&gt;Une idée similaire et prometteuse aujourd&amp;rsquo;hui est le stockage d&amp;rsquo;énergie par l&amp;rsquo;air comprimé combiné au stockage thermique pour fournir simultanément électricité, chauffage, refroidissement, réfrigération et/ou ventilation. En fait, cette approche permet d’éviter également plusieurs conversions d&amp;rsquo;énergie, car elle pourrait remplacer les réfrigérateurs, les congélateurs, les climatiseurs et les systèmes de chauffage fonctionnant aujourd’hui à l&amp;rsquo;électricité. Cette méthode pourrait fonctionner au niveau d&amp;rsquo;un quartier d’une ville ou d&amp;rsquo;une zone industrielle &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, mais elle serait &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;particulièrement intéressante pour le stockage décentralisé de l&amp;rsquo;énergie, en utilisant des réservoirs de stockage artificiels et hors sol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Une idée similaire et prometteuse aujourd&amp;rsquo;hui est le stockage d&amp;rsquo;énergie par l&amp;rsquo;air comprimé combiné au stockage thermique pour fournir simultanément électricité, chauffage, refroidissement, réfrigération et/ou ventilation. En fait, cette approche permet d’éviter également plusieurs conversions d&amp;rsquo;énergie, car elle pourrait remplacer les réfrigérateurs, les congélateurs, les climatiseurs et les systèmes de chauffage fonctionnant aujourd’hui à l&amp;rsquo;électricité. Cette méthode pourrait fonctionner au niveau d&amp;rsquo;un quartier d’une ville ou d&amp;rsquo;une zone industrielle &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, mais elle serait &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;particulièrement intéressante pour le stockage décentralisé de l&amp;rsquo;énergie, en utilisant des réservoirs de stockage artificiels et hors sol&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Comme nous l&amp;rsquo;avons vu, l’augmentation de la pression d&amp;rsquo;air peut réduire considérablement la taille du réservoir de stockage d&amp;rsquo;air comprimé, mais uniquement au détriment de l’augmentation des pertes de chaleur. Dans des habitations, l&amp;rsquo;espace pour les réservoirs de stockage est limité, mais il existe une forte demande de chaleur et de froid ainsi que d&amp;rsquo;électricité. L&amp;rsquo;augmentation de la pression de l&amp;rsquo;air rend le réservoir de stockage plus petit et augmente la production de chaleur et de froid, répondant à tous les besoins énergétiques d&amp;rsquo;un ménage.&lt;/p&gt;
-&lt;p&gt;Certaines propositions de conception suivent d&amp;rsquo;autres approches pour faire face à la génération de chaleur lors de la compression, et celles-ci pourraient fonctionner à la fois pour les systèmes CAES à grande et à petite échelle. Une idée intéressante est un système de stockage d&amp;rsquo;énergie par air comprimé fonctionnant à l&amp;rsquo;énergie éolienne et solaire. &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt; L&amp;rsquo;énergie éolienne serait stockée sous forme d&amp;rsquo;air comprimé via une connexion directe au compresseur, comme dans les autres centrales CAES. Cependant, l&amp;rsquo;énergie solaire provenant d&amp;rsquo;une &lt;a href=&#34;https://mar-ver.github.io/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;parabole&lt;/a&gt; serait, elle, stockée dans un réservoir solaire thermique isolé et utilisée pour réchauffer l&amp;rsquo;air comprimé avant la détente. Puisque la chaleur du processus de compression n&amp;rsquo;est plus nécessaire pour réchauffer l&amp;rsquo;air lors de la détente, elle peut être utilisée pour produire de l&amp;rsquo;eau chaude.&lt;/p&gt;
+&lt;p&gt;Certaines propositions de conception suivent d&amp;rsquo;autres approches pour faire face à la génération de chaleur lors de la compression, et celles-ci pourraient fonctionner à la fois pour les systèmes CAES à grande et à petite échelle. Une idée intéressante est un système de stockage d&amp;rsquo;énergie par air comprimé fonctionnant à l&amp;rsquo;énergie éolienne et solaire. &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt; L&amp;rsquo;énergie éolienne serait stockée sous forme d&amp;rsquo;air comprimé via une connexion directe au compresseur, comme dans les autres centrales CAES. Cependant, l&amp;rsquo;énergie solaire provenant d&amp;rsquo;une &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;parabole&lt;/a&gt; serait, elle, stockée dans un réservoir solaire thermique isolé et utilisée pour réchauffer l&amp;rsquo;air comprimé avant la détente. Puisque la chaleur du processus de compression n&amp;rsquo;est plus nécessaire pour réchauffer l&amp;rsquo;air lors de la détente, elle peut être utilisée pour produire de l&amp;rsquo;eau chaude.&lt;/p&gt;
 &lt;p&gt;Un concept similaire de conception hybride de stockage d&amp;rsquo;énergie thermique et d&amp;rsquo;air comprimé utilise le chauffage électrique au lieu de l&amp;rsquo;énergie solaire thermique. &lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; Étant donné que la charge de ces systèmes passe d&amp;rsquo;une conversion pure à un investissement partiel dans le stockage thermique, des densités énergétiques bien supérieures à celles d’un système CAES traditionnel peuvent être atteintes et la taille du stockage d&amp;rsquo;air peut être réduite.&lt;/p&gt;
 &lt;h2 id=&#34;troisième-leçon--améliorer-le-compresseur-dairspanh2&#34;&gt;Troisième leçon : Améliorer le compresseur d’air&lt;/span&gt;&lt;/h2&gt;&lt;/h2&gt;
 &lt;p&gt;Une troisième façon d&amp;rsquo;améliorer le rendement du stockage d&amp;rsquo;énergie par air comprimé consiste à utiliser des compresseurs et des détendeurs d&amp;rsquo;air plus économes en énergie. Cette stratégie est opposée à celle que nous venons d’expliquer précédemment. Au lieu de profiter de la chaleur et du froid pour rendre le système plus efficace, il essaie de minimiser la production de chaleur pendant la compression (et, par conséquent, de limiter le refroidissement pendant la détente).&lt;/p&gt;
@@ -425,7 +425,7 @@
 &lt;p&gt;À partir des années 1600, des dizaines de «trompes» ont fourni un jet d&amp;rsquo;air continu aux premiers fours de fusion du fer et du laiton dans les Pyrénées françaises/espagnoles. &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; Comparé à une roue à aubes faisant fonctionner un compresseur à piston en bois, ce système était à peu près trois fois plus efficace, permettant une production de fer plus élevée avec moins de ressources hydrauliques.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -441,7 +441,7 @@
 &lt;p&gt;Récemment le compresseur d&amp;rsquo;air hydraulique a connu un regain d&amp;rsquo;intérêt. Une équipe de recherche canadienne a mis au point une plate-forme de démonstration de compresseur d&amp;rsquo;air hydraulique de 30 m de haut dans un ancien puits de mine. &lt;sup id=&#34;fnref4:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; Le «Projet de démonstration HAC» mesure et vérifie le potentiel d&amp;rsquo;économies d&amp;rsquo;énergie de la technologie principalement pour les applications minières d&amp;rsquo;extraction en profondeur. Cependant, cela pourrait également être une alternative pour les compresseurs à plusieurs étages utilisés dans l&amp;rsquo;industrie et dans les centrales CAES. Notamment car cette nouvelle configuration peut être mise en place avec une boucle fermée, en utilisant une pompe au lieu d&amp;rsquo;une colonne d&amp;rsquo;eau naturelle.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -450,7 +450,7 @@
 &lt;p&gt;Selon les chercheurs, un compresseur d&amp;rsquo;air hydraulique en boucle fermée pourrait avoir un rendement de 75%, en prenant en compte la consommation d&amp;rsquo;énergie supplémentaire de la pompe. C’est 13% plus efficace qu&amp;rsquo;un compresseur centrifuge à trois étages, et les avantages en termes de coûts seront meilleurs en raison des exigences de maintenance moindres. &lt;sup id=&#34;fnref5:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Le compresseur d&amp;rsquo;air hydraulique semble être une combinaison parfaite pour les systèmes CAES à grande échelle avec des réservoirs souterrains. En fait, de nombreux compresseurs d&amp;rsquo;air hydrauliques des XIXème et XXème siècles utilisaient également le réservoir inférieur de séparation d&amp;rsquo;air pour le stockage d&amp;rsquo;énergie de l&amp;rsquo;air comprimé, ce qui pourrait être considéré comme la première utilisation à grande échelle de CAES. Le stockage – qui pouvait atteindre 5 600 m3 – été utilisé pour répondre à une demande d&amp;rsquo;air excédentaire de courte durée, ce qui signifie que le compresseur d&amp;rsquo;air hydraulique n’avait pas besoin d’être conçu pour les charges maximales. &lt;sup id=&#34;fnref2:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lavenir-de-lair-comprimé&#34;&gt;L’avenir de l’air comprimé&lt;/h2&gt;
-&lt;p&gt;Aucune de ces idées ne rendra les centrales CAES 100% efficaces. Cependant, elles pourraient les aider à atteindre des rendements similaires à ceux des batteries, mais avec des impacts environnementaux beaucoup plus faibles et un apport énergétique nécessaire bien moindre. Dans le prochain article, nous nous concentrons plus en détail sur &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;les systèmes CAES à petite échelle, qui promettent d&amp;rsquo;être une alternative durable aux batteries chimiques dans les installations hors réseau&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aucune de ces idées ne rendra les centrales CAES 100% efficaces. Cependant, elles pourraient les aider à atteindre des rendements similaires à ceux des batteries, mais avec des impacts environnementaux beaucoup plus faibles et un apport énergétique nécessaire bien moindre. Dans le prochain article, nous nous concentrons plus en détail sur &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;les systèmes CAES à petite échelle, qui promettent d&amp;rsquo;être une alternative durable aux batteries chimiques dans les installations hors réseau&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Merci à George Fleming.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
@@ -555,38 +555,38 @@
     
     <item>
       <title>Si nous isolons nos maisons, pourquoi pas nos casseroles ?</title>
-      <link>https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png" type="image/png" length="39897" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png" type="image/png" length="39897" ></enclosure>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png&#34; alt=&#39;Une marmite norvégienne/cuisinière à gaz des années 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-kitchen_dithered.png&#34; alt=&#39;Une marmite norvégienne/cuisinière à gaz des années 1920.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une marmite norvégienne/cuisinière à gaz des années 1920. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Bien que les cuisinières modernes soient pratiques, en ce qui concerne la consommation d&amp;rsquo;énergie elles laissent beaucoup à désirer. Comme nous l&amp;rsquo;avons vu dans &lt;a href=&#34;https://mar-ver.github.io/fr/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;l&amp;rsquo;article précédent&lt;/a&gt;, l&amp;rsquo;efficacité thermique d&amp;rsquo;une plaque électrique ne dépasse pas celle d&amp;rsquo;un feu ouvert conventionnel. Dans les deux cas, près de 90% de l&amp;rsquo;énergie primaire est perdue pendant la cuisson.&lt;/p&gt;
+&lt;p&gt;Bien que les cuisinières modernes soient pratiques, en ce qui concerne la consommation d&amp;rsquo;énergie elles laissent beaucoup à désirer. Comme nous l&amp;rsquo;avons vu dans &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;l&amp;rsquo;article précédent&lt;/a&gt;, l&amp;rsquo;efficacité thermique d&amp;rsquo;une plaque électrique ne dépasse pas celle d&amp;rsquo;un feu ouvert conventionnel. Dans les deux cas, près de 90% de l&amp;rsquo;énergie primaire est perdue pendant la cuisson.&lt;/p&gt;
 &lt;p&gt;La cuisson des aliments pourrait être réalisée d&amp;rsquo;une manière beaucoup plus économe en énergie, surtout si le récipient lui-même était isolé. C&amp;rsquo;est le principe de la marmite norvégienne (ou cuisinière sans feu/à isolation), une boîte bien isolée qui fait mijoter les aliments uniquement avec la chaleur contenue dans le récipient de cuisson. Une marmite norvégienne double l&amp;rsquo;efficacité de n’importe quel type d&amp;rsquo;appareil de cuisson, car elle réduit le temps sur le feu et limite les pertes de transfert de chaleur.&lt;/p&gt;
 &lt;p&gt;Au début du XXème siècle, les marmites norvégiennes étaient des ajouts courants aux cuisines occidentales, semblables au réfrigérateur ou à la cuisinière. Certains modèles ont même intégré des marmites norvégiennes aux plaques de cuisson au gaz ou électriques. Celles-ci fonctionnaient en abaissant une hotte isolée sur le récipient une fois la chaleur coupée.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiencies-cooking-appliances-rich-and-poor-countries_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiencies-cooking-appliances-rich-and-poor-countries_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Dans l&amp;rsquo;article précédent, nous avons constaté que &lt;a href=&#34;https://mar-ver.github.io/fr/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;la cuisson des aliments est un processus incroyablement inefficace&lt;/a&gt;. L&amp;rsquo;efficacité thermique varie de 13% pour les plaques électriques à 23% pour les plaques à gaz et de 5 à 25% pour les feux ouverts et les poêles à biomasse. Les cuisinières produisent également des niveaux considérables de pollution de l&amp;rsquo;air intérieur - en particulier dans les pays en développement mais également dans les cuisines modernes des ménages riches. Ces résultats montrent que, tant dans les pays développés que dans les pays en développement, l&amp;rsquo;efficacité énergétique et les niveaux de pollution du processus de cuisson peuvent être améliorés.&lt;/p&gt;
+&lt;p&gt;Dans l&amp;rsquo;article précédent, nous avons constaté que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;la cuisson des aliments est un processus incroyablement inefficace&lt;/a&gt;. L&amp;rsquo;efficacité thermique varie de 13% pour les plaques électriques à 23% pour les plaques à gaz et de 5 à 25% pour les feux ouverts et les poêles à biomasse. Les cuisinières produisent également des niveaux considérables de pollution de l&amp;rsquo;air intérieur - en particulier dans les pays en développement mais également dans les cuisines modernes des ménages riches. Ces résultats montrent que, tant dans les pays développés que dans les pays en développement, l&amp;rsquo;efficacité énergétique et les niveaux de pollution du processus de cuisson peuvent être améliorés.&lt;/p&gt;
 &lt;p&gt;Les stratégies proposées pour s&amp;rsquo;attaquer à ces problèmes diffèrent entre les pays pauvres et riches. Dans les pays pauvres, la plupart des efforts se concentrent sur l&amp;rsquo;amélioration de l&amp;rsquo;efficacité énergétique et la réduction de la pollution intérieure causée par les poêles à biomasse. Les poêles de masse rocket (rocket-stoves), par exemple, peuvent atteindre des rendements thermiques de 45% ou plus, avec seulement environ la moitié des émissions. Cependant, tout type de poêle à biomasse même amélioré nécessite toujours du bois comme combustible et continue de produire de la pollution atmosphérique.&lt;/p&gt;
 &lt;p&gt;Dans le monde occidental, la solution proposée est une utilisation plus répandue des meilleures technologies disponibles, telles que les cuisinières électriques à induction. Cependant, ces appareils n&amp;rsquo;obtiennent une efficacité thermique que de 15%, ce qui signifie que 85% de l&amp;rsquo;énergie générée pour la cuisson est gaspillée. En résumé, l&amp;rsquo;approche actuelle pour améliorer la durabilité des cuisinières n&amp;rsquo;est pas très ambitieuse.&lt;/p&gt;
 &lt;h2 id=&#34;pourquoi-la-cuisson-est-elle-si-inefficace&#34;&gt;Pourquoi la cuisson est-elle si inefficace?&lt;/h2&gt;
 &lt;p&gt;Pour améliorer un peu plus l&amp;rsquo;efficacité de la cuisson, nous devons examiner de plus près où se produisent les pertes d&amp;rsquo;énergie les plus importantes. Pour les plaques électriques et les micro-ondes, le gaspillage d&amp;rsquo;énergie le plus important peut être attribué aux pertes de conversion d’énergie. La conversion des combustibles fossiles ou de la biomasse en électricité possède un rendement énergétique de 20 à 45% selon la centrale électrique, ce qui explique pourquoi les cuisinières électriques sont parmi les appareils de cuisson les moins efficaces.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/gas-stove_dithered.png&#34; alt=&#39;Les cuisinières à gaz ont les pertes de transfert de chaleur les plus importantes de toutes les cuisinières modernes. Image: Ashley Bischoff @Flickr.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/gas-stove_dithered.png&#34; alt=&#39;Les cuisinières à gaz ont les pertes de transfert de chaleur les plus importantes de toutes les cuisinières modernes. Image: Ashley Bischoff @Flickr.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les cuisinières à gaz ont les pertes de transfert de chaleur les plus importantes de toutes les cuisinières modernes. Image: [Ashley Bischoff @Flickr](https://www.flickr.com/photos/handcoding/2306148621/sizes/l/in/photolist-9fwxsE-ceme3-6fsdHT-baqyQD-4vMBD8-7qKtbt-7wgwmh-5mxmYh-7t5MRY-32Zkcr-334VPJ-32ZneV-6WNUnd-4otRwY-9YKx7X-eNvbyf-5K212X-6oy431-3i4xq-5dhzoB-6aXzBk-bcpTDp-3LarEn-5Ru5J2-3i4xp-4sXcWB-4tNCfP-7teghU-8XjEGz-4KFDC7-4nXEtC-CgUdE-4hWhcF-4jFwAw-7estzW-49Ti1-9n5zm5-5vGLzJ-5LULtt-6v5ReY-67t5UC-5FrWB8-5vCsSD-6psLwc-a2JTdv-SBfWT-8shCrM-52ndMn-4RfqYF-7jkgdz/). 
 &lt;/figcaption&gt;
@@ -602,7 +602,7 @@
 &lt;p&gt;Une façon simple pour commencer à améliorer l&amp;rsquo;efficacité de la cuisson est d&amp;rsquo;utiliser une jupe isolante de casserole. Cet appareil augmente l&amp;rsquo;efficacité du transfert de chaleur entre la cuisinière et la casserole. Il fonctionne avec tout sauf les plaques électriques. Une jupe isolante de casserole est un manchon vertical, généralement en métal, qui force les gaz chauds du feu à circuler étroitement autour des côtés du récipient. Les jupes peuvent être isolées à l&amp;rsquo;extérieur, ce qui apporte l&amp;rsquo;avantage supplémentaire de diminuer les pertes de chaleur sur les côtés du récipient.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pot-skirt_dithered.png&#34; alt=&#39;Une jupe isolante de casserole. Image : Ecozoomstove.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pot-skirt_dithered.png&#34; alt=&#39;Une jupe isolante de casserole. Image : Ecozoomstove.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une jupe isolante de casserole. Image : [Ecozoomstove](http://ecozoomstove.com/blogs/ecozoom/13498333-maximum-rocket-stove-efficiency-use-a-pot-skirt). 
 &lt;/figcaption&gt;
@@ -613,7 +613,7 @@
 &lt;p&gt;Le fameux autocuiseur (ou cocotte-minute) adopte une approche différente. Un autocuiseur est un récipient étanche qui atteint des températures d&amp;rsquo;eau plus élevées en raison de la pression de vapeur ajoutée, ce qui le rend plus économe en énergie et capable de cuire les aliments plus rapidement. Il fonctionne soit électriquement (en tant qu&amp;rsquo;appareil autonome ou sur une cuisinière électrique), soit utilisé en combinaison avec une cuisinière à gaz, à biomasse, à charbon ou solaire. L&amp;rsquo;autocuiseur réduit à la fois les pertes de conversion d’énergie (en raison des temps de cuisson plus courts) et les pertes de transfert de chaleur (car il élimine complètement les pertes de chaleur par évaporation).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pressure-cooker_dithered.png&#34; alt=&#39;Un autocuiseur. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/pressure-cooker_dithered.png&#34; alt=&#39;Un autocuiseur. Image: Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un autocuiseur. Image: Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -625,7 +625,7 @@
 &lt;p&gt;Bien que nous puissions voir de nettes améliorations avec l&amp;rsquo;autocuiseur, ces récipients perdent encore de la chaleur à travers les parois et le couvercle, et ces pertes sont considérables. Il y a également des pertes de transfert de chaleur entre la cuisinière et le récipient si celui-ci est placé sur une plaque de cuisson. Cependant, si nous portons les aliments à ébullition et que nous mettons ensuite rapidement le récipient dans une boîte bien isolée, les pertes d&amp;rsquo;énergie de transfert de chaleur peuvent être minimisées à un point tel que le processus de cuisson se poursuit, sans autre apport d&amp;rsquo;énergie.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-basket_dithered.png&#34; alt=&#39;Marmite norvégienne dans un panier. Image : Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-in-basket_dithered.png&#34; alt=&#39;Marmite norvégienne dans un panier. Image : Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Marmite norvégienne dans un panier. Image : [Solar Cookers International](http://solarcooking.wikia.com/wiki/Heat-retention_cooking). 
 &lt;/figcaption&gt;
@@ -638,17 +638,17 @@
 &lt;p&gt;La marmite norvégienne est la clé d&amp;rsquo;une cuisine efficace dans les pays pauvres comme dans les pays riches. Elle élimine presque complètement les pertes de transfert de chaleur et réduit considérablement le temps de cuisson sur le feu ou la plaque de cuisson, ce qui permet de réduire les deux plus grandes pertes d&amp;rsquo;énergie du processus de cuisson. Les marmites norvégiennes peuvent réduire la consommation d&amp;rsquo;énergie de plus de 80%, mais le potentiel d&amp;rsquo;économie précis dépend de nombreux facteurs. Ces facteurs comprennent le matériau isolant, la conception de la marmite norvégienne, le temps de cuisson requis du plat, la nourriture elle-même et la rapidité avec laquelle le récipient de cuisson est déplacé du poêle vers la marmite norvégienne.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/classical-fireless-cooker_dithered.png&#34; alt=&#39;Une marmite norvégienne classique. Image: Natuurlijk Bewaren.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/classical-fireless-cooker_dithered.png&#34; alt=&#39;Une marmite norvégienne classique. Image: Natuurlijk Bewaren.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une marmite norvégienne classique. Image: [Natuurlijk Bewaren](http://www.natuurlijkbewaren.nl/website/). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Le Partenariat pour un Air Intérieur Pur (“Partnership for Clean Indoor Air” - PCIA) a mesuré les économies d&amp;rsquo;énergie des marmites norvégiennes. Dans leur &lt;a href=&#34;https://mar-ver.github.io/fr/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;test de 18 types de cuisinières à combustibles solides&lt;/a&gt;, les économies d&amp;rsquo;énergie de la marmite norvégienne équivalent à une réduction moyenne de 50% du combustible, chiffre que nous utiliserons dans cet article.&lt;/p&gt;
+&lt;p&gt;Le Partenariat pour un Air Intérieur Pur (“Partnership for Clean Indoor Air” - PCIA) a mesuré les économies d&amp;rsquo;énergie des marmites norvégiennes. Dans leur &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/06/well-tended-fires-outperform-modern-cooking-stoves/&#34;&gt;test de 18 types de cuisinières à combustibles solides&lt;/a&gt;, les économies d&amp;rsquo;énergie de la marmite norvégienne équivalent à une réduction moyenne de 50% du combustible, chiffre que nous utiliserons dans cet article.&lt;/p&gt;
 &lt;p&gt;Si nous combinons une cuisinière électrique avec une marmite norvégienne, nous pouvons doubler son efficacité thermique. Combinées, elles atteignent 26%, ce qui n&amp;rsquo;est pas encore très impressionnant, mais atteint au moins une efficacité énergétique plus élevée qu&amp;rsquo;une cuisinière à gaz seule. Une cuisinière à gaz utilisée conjointement avec une marmite norvégienne obtient une efficacité thermique de 46%, tandis qu&amp;rsquo;un feu bien entretenu avec une marmite norvégienne atteint 50%. Une combinaison d&amp;rsquo;un poêle de masse rocket avec une marmite norvégienne est efficace à plus de 80%. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiency-fireless-cooker_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-efficiency-fireless-cooker_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -660,7 +660,7 @@
 &lt;p&gt;La marmite norvégienne est devenue populaire dans le monde occidental entre les années 1890 et les années 1930. Un &amp;ldquo;appareil d&amp;rsquo;auto-cuisson&amp;rdquo; norvégien a reçu un prix lors de l&amp;rsquo;Exposition universelle de 1867 à Paris. C&amp;rsquo;était un récipient simple mais élégant avec quatre couches de feutre pour l&amp;rsquo;isolation.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-with-associated-cooking-pots_dithered.png&#34; alt=&#39;Une marmite norvégienne avec ses récipients associés. Image : Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-with-associated-cooking-pots_dithered.png&#34; alt=&#39;Une marmite norvégienne avec ses récipients associés. Image : Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une marmite norvégienne avec ses récipients associés. Image : Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -673,7 +673,7 @@
 &lt;p&gt;Les meilleurs modèles étaient entièrement fabriqués en métal doublé d&amp;rsquo;une isolation en laine de roche, et gardaient le récipient et le matériau isolant séparés pour un nettoyage plus facile et une construction plus durable. Ces appareils étaient également utilisés pour le refroidissement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-integrated-in-gas-hub_dithered.png&#34; alt=&#39;Une marmite norvégienne intégrée dans une cuisinière à gaz.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooker-integrated-in-gas-hub_dithered.png&#34; alt=&#39;Une marmite norvégienne intégrée dans une cuisinière à gaz.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une marmite norvégienne intégrée dans une cuisinière à gaz. 
 &lt;/figcaption&gt;
@@ -681,7 +681,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooking-gas-range_dithered.png&#34; alt=&#39;Une cuisinière à gaz sans feu Chambers des années 1910. Les hottes isolantes étaient abaissées sur les brûleurs.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/fireless-cooking-gas-range_dithered.png&#34; alt=&#39;Une cuisinière à gaz sans feu Chambers des années 1910. Les hottes isolantes étaient abaissées sur les brûleurs.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une cuisinière à gaz sans feu Chambers des années 1910. Les hottes isolantes étaient abaissées sur les brûleurs. 
 &lt;/figcaption&gt;
@@ -690,7 +690,7 @@
 &lt;p&gt;Une autre innovation du début du XXème siècle a été la &lt;a href=&#34;http://www.vintagechambers.com/indexe042.html?module=pagemaster&amp;amp;PAGE_user_op=view_page&amp;amp;PAGE_id=2&amp;amp;MMN_position=8:8&#34;&gt;cuisinière à gaz sans feu :&lt;/a&gt; une combinaison de cuisinière à gaz, de four à gaz et de cuisinière sans feu. Cet appareil évitait la nécessité de déplacer les récipients de cuisson de la plaque de cuisson à la marmite norvégienne en utilisant des hottes isolantes - des «thermodômes» - qui pouvaient être abaissées sur les brûleurs. La nourriture était portée à ébullition, le gaz était coupé, puis le récipient était recouvert par le thermodôme. Ce réceptacle inversé était relevé et abaissé à l&amp;rsquo;aide d&amp;rsquo;un contrepoids.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-fireless-cooker_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-fireless-cooker_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -699,7 +699,7 @@
 &lt;p&gt;Une autre tentative de fusionner des marmites norvégiennes avec des cuisinières a été le &lt;a href=&#34;http://www.automaticwasher.org/cgi-bin/TD/TD-VIEWTHREAD.cgi?51147_3&#34;&gt;“deep well cooker” (“cuisinière à puits”)&lt;/a&gt; (également connue sous le nom de &amp;ldquo;cuisinière économe&amp;rdquo;). Les vieux fourneaux, à gaz ou électriques, avaient parfois un de leurs brûleurs enfoncé dans la plaque de cuisson. Ce «puits» avait des côtés fortement isolés et renfermait un récipient spécialement conçu avec un couvercle isolé et aucune poignée sur les côtés.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/deep-well-cooker_dithered.png&#34; alt=&#39;Une “cuisinière à puits” des années 1950. Image.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/deep-well-cooker_dithered.png&#34; alt=&#39;Une “cuisinière à puits” des années 1950. Image.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une “cuisinière à puits” des années 1950. [Image](http://www.automaticwasher.org/cgi-bin/TD/TD-VIEWTHREAD.cgi?51147_3). 
 &lt;/figcaption&gt;
@@ -715,7 +715,7 @@
 &lt;p&gt;Une innovation importante sur le marché occidental est le dit “cuiseur thermos” (ou “cuiseur thermique”) qui est apparu dans les années 1990. Cet appareil est basé sur le concept du vide : le même principe utilisé dans une bouteille isotherme (thermos). Le cuiseur thermos est composée d&amp;rsquo;une marmite amovible, avec poignée et couvercle, qui s&amp;rsquo;insère à l&amp;rsquo;intérieur d&amp;rsquo;un boîtier thermos d&amp;rsquo;un diamètre allant de 20 à 50 cm. La marmite est chauffée sur la cuisinière (quel que soit le type), puis déplacée et scellée dans le boîtier. Trouvez un exemple &lt;a href=&#34;http://www.zojirushi.com/products/snxae&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-cooker_dithered.png&#34; alt=&#39;Un cuiseur thermos. La version high-tech de la marmite norvégienne. La marmite (à gauche) est mise au feu et transférée dans le boîtier thermos (à droite) une fois la nourriture portée à ébullition. Image : Thermal Cookware&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/thermal-cooker_dithered.png&#34; alt=&#39;Un cuiseur thermos. La version high-tech de la marmite norvégienne. La marmite (à gauche) est mise au feu et transférée dans le boîtier thermos (à droite) une fois la nourriture portée à ébullition. Image : Thermal Cookware&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un cuiseur thermos. La version high-tech de la marmite norvégienne. La marmite (à gauche) est mise au feu et transférée dans le boîtier thermos (à droite) une fois la nourriture portée à ébullition. Image : [Thermal Cookware](https://www.thermalcookware.com/main.php?mod=Shop&amp;file=Cats) 
 &lt;/figcaption&gt;
@@ -728,7 +728,7 @@
 &lt;p&gt;Au début du XXème siècle, le gain de temps était le principal argument de vente des marmites norvégiennes. Cela semble étrange car le temps de cuisson moyen double par rapport au processus de cuisson traditionnel. Les marmites norvégiennes accordent toutefois plus de temps au cuisinier(e) en réduisant la quantité qu&amp;rsquo;il ou elle passe devant le poêle ou le feu.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/photograph-woman-cooking-dinner-for-six-fireless-cooker_dithered.png&#34; alt=&#39;Publicité du début du XXème siècle pour la marmite norvégienne.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/photograph-woman-cooking-dinner-for-six-fireless-cooker_dithered.png&#34; alt=&#39;Publicité du début du XXème siècle pour la marmite norvégienne.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Publicité du début du XXème siècle pour la marmite norvégienne. 
 &lt;/figcaption&gt;
@@ -741,7 +741,7 @@
 &lt;p&gt;Les marmites norvégiennes agissent essentiellement comme des batteries, stockant l&amp;rsquo;énergie dans les aliments chauds. Ils augmentent considérablement l&amp;rsquo;utilité des cuiseurs solaires, ce qui les rend appropriés même par temps nuageux et dans les pays où il y a moins de soleil. De plus, la combinaison d&amp;rsquo;un cuiseur solaire et d&amp;rsquo;une marmite norvégienne vous permet de préparer un repas qui peut être servi des heures après le coucher du soleil.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/solar-box-cooker_dithered.png&#34; alt=&#39;Une cuisinière solaire low-tech. Image : Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/solar-box-cooker_dithered.png&#34; alt=&#39;Une cuisinière solaire low-tech. Image : Wikipedia Commons.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une cuisinière solaire low-tech. Image : Wikipedia Commons. 
 &lt;/figcaption&gt;
@@ -755,7 +755,7 @@
 &lt;p&gt;Les cuiseurs solaires paraboliques ont une conception plus complexe et intègrent des miroirs incurvés pour concentrer le rayonnement solaire sur un point focal. Ils fonctionnent plus rapidement, produisent des températures plus élevées et ont la capacité de faire frire, rôtir et faire griller les aliments. Ils sont cependant plus difficiles à construire, ils nécessitent une orientation fréquente vers le soleil, ils peuvent être dangereux et ils ne fonctionnent que par temps clair. Les cuiseurs à panneaux - tels que le &lt;a href=&#34;http://solarcooking.wikia.com/wiki/CooKit&#34;&gt;CooKit&lt;/a&gt; - incorporent des éléments à la fois des cuiseurs à boîte et paraboliques.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/parabolic-solar-cooker_dithered.png&#34; alt=&#39;Un cuiseur solaire parabolique. Image : Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/parabolic-solar-cooker_dithered.png&#34; alt=&#39;Un cuiseur solaire parabolique. Image : Solar Cookers International.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un cuiseur solaire parabolique. Image : [Solar Cookers International](http://solarcooking.wikia.com/wiki/Heat-retention_cooking). 
 &lt;/figcaption&gt;
@@ -767,7 +767,7 @@
 &lt;p&gt;La promotion des cuiseurs solaires dans les pays en développement a produit une technologie améliorée qui peut être utile partout dans le monde. Par exemple, il est désormais possible de cuisiner à l&amp;rsquo;intérieur en utilisant l&amp;rsquo;énergie solaire. Cela peut se produire de deux manières : soit en concentrant un cuiseur parabolique à travers une ouverture murale puis en réfléchissant la lumière du soleil sur une casserole, ou en utilisant la lumière du soleil concentrée pour générer de la vapeur qui est ensuite transportée par des tuyaux vers l’intérieur de la cuisine à proximité.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/indoor-solar-cooking_dithered.png&#34; alt=&#39;Cuisson solaire intérieure. Image : Solare Brücke.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/indoor-solar-cooking_dithered.png&#34; alt=&#39;Cuisson solaire intérieure. Image : Solare Brücke.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Cuisson solaire intérieure. Image : [Solare Brücke](http://www.solare-bruecke.org/index.php?lang=en). 
 &lt;/figcaption&gt;
@@ -785,7 +785,7 @@
 &lt;p&gt;Un système similaire dans le monde occidental pourrait même utiliser des cuisinières électriques ou à gaz au lieu de poêles à biomasse améliorés. Étant donné que l&amp;rsquo;utilisation de marmites norvégiennes, d&amp;rsquo;autocuiseurs et de cuiseurs solaires raccourcit considérablement l&amp;rsquo;utilisation de cuisinières électriques ou à gaz, leur faible efficacité devient moins préoccupante. Si la consommation d&amp;rsquo;énergie des cuisinières à gaz et électriques est considérablement réduite, il devient également plus réaliste de fournir cette plus petite quantité d&amp;rsquo;énergie par des sources renouvelables, telles que l&amp;rsquo;énergie éolienne.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-cooking_dithered.png&#34; alt=&#39;Cuisson intégrée : combinaison de cuiseurs solaires, marmites norvégiennes et poêles à biomasse améliorés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/images/dithers/integrated-cooking_dithered.png&#34; alt=&#39;Cuisson intégrée : combinaison de cuiseurs solaires, marmites norvégiennes et poêles à biomasse améliorés.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Cuisson intégrée : combinaison de cuiseurs solaires, marmites norvégiennes et poêles à biomasse améliorés. 
 &lt;/figcaption&gt;
@@ -794,7 +794,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;De plus en plus, les ONG parient sur une combinaison de cuiseurs solaires, de marmites norvégiennes et de poêles à biomasse améliorés&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Les cuiseurs solaires et les marmites norvégiennes sont de bons exemples du type de technologie que nous visons ici avec le Low-tech Magazine. Ils peuvent être bon marché et faciles à fabriquer, ils sont vraiment durables et pourtant ils sont supérieurs à n’importe quelle technologie de cuisson disponible à l&amp;rsquo;époque préindustrielle. &lt;a href=&#34;https://mar-ver.github.io/fr/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;L&amp;rsquo;utilisation extensive de l&amp;rsquo;énergie hydraulique&lt;/a&gt; et &lt;a href=&#34;https://mar-ver.github.io/fr/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;l&amp;rsquo;énergie éolienne dans l&amp;rsquo;histoire&lt;/a&gt; semble suggérer que la cuisson solaire remonte à plusieurs siècles, mais ce n&amp;rsquo;est pas le cas. Les premiers cuiseurs solaires expérimentaux ne sont apparus qu&amp;rsquo;au XVIIIème siècle, et les cuiseurs paraboliques ne sont apparus qu&amp;rsquo;à la fin du XIXème siècle.&lt;/p&gt;
+&lt;p&gt;Les cuiseurs solaires et les marmites norvégiennes sont de bons exemples du type de technologie que nous visons ici avec le Low-tech Magazine. Ils peuvent être bon marché et faciles à fabriquer, ils sont vraiment durables et pourtant ils sont supérieurs à n’importe quelle technologie de cuisson disponible à l&amp;rsquo;époque préindustrielle. &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2010/11/boat-mills-water-powered-floating-factories/&#34;&gt;L&amp;rsquo;utilisation extensive de l&amp;rsquo;énergie hydraulique&lt;/a&gt; et &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2009/10/wind-powered-factories-history-and-future-of-industrial-windmills/&#34;&gt;l&amp;rsquo;énergie éolienne dans l&amp;rsquo;histoire&lt;/a&gt; semble suggérer que la cuisson solaire remonte à plusieurs siècles, mais ce n&amp;rsquo;est pas le cas. Les premiers cuiseurs solaires expérimentaux ne sont apparus qu&amp;rsquo;au XVIIIème siècle, et les cuiseurs paraboliques ne sont apparus qu&amp;rsquo;à la fin du XIXème siècle.&lt;/p&gt;
 &lt;p&gt;Les cuiseurs solaires et les marmites norvégiennes peuvent avoir une image très low-tech, mais ils s&amp;rsquo;intègrent bien aux matériaux high-tech. Avant la révolution industrielle, nous n&amp;rsquo;avions ni étain ni papier d&amp;rsquo;aluminium, ni technologie sous vide, ni récipients en plastique, ni verre à isolation thermique. Cuisiner avec des marmites norvégiennes, des autocuiseurs et des cuiseurs solaires n&amp;rsquo;est pas un retour aux bricoles désormais impraticables ou disparus du passé. Il s&amp;rsquo;agit plutôt d&amp;rsquo;une approche innovante qui optimise les connaissances et les technologies existantes dans le but d&amp;rsquo;une efficacité énergétique radicale.&lt;/p&gt;
 &lt;p&gt;Merci à tous les lecteurs qui m&amp;rsquo;ont invité à écrire sur les marmites norvégiennes.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

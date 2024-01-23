@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Italiano</title>
-    <link>https://mar-ver.github.io/it/translators/erin-rizzato-devlin/</link>
+    <link>https://lowtechmag.gitlab.io/solar/it/translators/erin-rizzato-devlin/</link>
     <description>Questo e un sito a energia solare, il che vuol dire che a volte va offline.</description>
     <generator>Hugo 0.115.3</generator>
     <language>it</language>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/it/translators/erin-rizzato-devlin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/it/translators/erin-rizzato-devlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Energia Solare Diretta: off-grid senza batterie</title>
-      <link>https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/</link>
+      <link>https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/</link>
       
-      <enclosure url="https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png" type="image/png" length="48549" ></enclosure>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Immagine: un laptop alimentato direttamente dall&amp;amp;rsquo;energia solare. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-office_dithered.png&#34; alt=&#39;Immagine: un laptop alimentato direttamente dall&amp;amp;rsquo;energia solare. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: un laptop alimentato direttamente dall&#39;energia solare. Foto: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;Lo stoccaggio dell’energia domina anche l’energia “incorporata” dell’impianto (e le conseguenti emissioni di carbonio). Per produrre la mia batteria al piombo sono stati necessari 1.200 megajoule (MJ) di energia. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Su una durata di 30 anni (sei batterie nella migliore delle ipotesi), ciò equivale a 7.200 MJ. I tre regolatori di carica aggiungono altri 360 MJ nel corso di 30 anni, portando il consumo energetico totale per il sistema di batterie a 7.560 MJ. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; La produzione dei pannelli solari, invece, costa solo 2.275 MJ su un totale di 9.835 MJ. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; In conclusione: oltre il 75% del consumo totale di energia fossile è dovuto allo stoccaggio dell&amp;rsquo;energia.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Immagine: a destra sul balcone ci sono i due pannelli solari da 50 W che alimentano il soggiorno del mio appartamento. Accanto c&amp;amp;rsquo;è il pannello solare da 30 W che fa funzionare questo sito. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/balcony-system-from-outside_dithered.png&#34; alt=&#39;Immagine: a destra sul balcone ci sono i due pannelli solari da 50 W che alimentano il soggiorno del mio appartamento. Accanto c&amp;amp;rsquo;è il pannello solare da 30 W che fa funzionare questo sito. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: a destra sul balcone ci sono i due pannelli solari da 50 W che alimentano il soggiorno del mio appartamento. Accanto c&#39;è il pannello solare da 30 W che fa funzionare questo sito. Foto: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -41,7 +41,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Immagine: La struttura dei pannelli solari, realizzata con legno di scarto. Foto: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/structure-for-solar-panels-balcony_dithered.png&#34; alt=&#39;Immagine: La struttura dei pannelli solari, realizzata con legno di scarto. Foto: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: La struttura dei pannelli solari, realizzata con legno di scarto. Foto: Kris De Decker. 
 &lt;/figcaption&gt;
@@ -49,7 +49,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Immagine: la batteria al piombo da 100 Ah che alimenta il soggiorno dopo il tramonto. Foto: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/100ah-battery_dithered.png&#34; alt=&#39;Immagine: la batteria al piombo da 100 Ah che alimenta il soggiorno dopo il tramonto. Foto: Kris De Decker.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: la batteria al piombo da 100 Ah che alimenta il soggiorno dopo il tramonto. Foto: Kris De Decker. 
 &lt;/figcaption&gt;
@@ -66,7 +66,7 @@
 &lt;p&gt;Per rispondere a questa domanda, ci rivolgiamo a un pioniere dell’“energia solare diretta”: la &lt;em&gt;Living Energy Farm&lt;/em&gt;. Questa comunità di educazione ambientale nello stato americano della Virginia è completamente “off-the-grid” grazie all’energia solare, ma solo il 10% dell’energia solare generata passa attraverso una batteria (nichel-ferro). Tuttavia, i pannelli solari forniscono energia a diverse case, a una cucina comune, a un’officina metallurgica e a una fattoria. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Immagine: energia solare diretta presso la Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/living-energy-farm-map_dithered.png&#34; alt=&#39;Immagine: energia solare diretta presso la Living Energy Farm.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: energia solare diretta presso la Living Energy Farm. 
 &lt;/figcaption&gt;
@@ -78,7 +78,7 @@
 &lt;p&gt;Su scala molto più piccola, ho utilizzato l&amp;rsquo;energia solare diretta per un saldatore, una pistola per colla e una pompa per l&amp;rsquo;irrigazione (per il balcone) a casa. Altri esempi di elettrodomestici e macchine che potrebbero essere utilizzati solo durante il giorno includono l’aspirapolvere, le macchine da cucire, le lavatrici, la console di gioco, il laser cutter e le stampanti 3D. Non è così difficile immaginare una società moderna in cui attività quali passare l’aspirapolvere e il fai da te si svolgono solo durante il giorno. Non è affatto un ritorno al Medioevo.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Immagine: diversi strumenti del laboratorio presso la Living Energy Farm, la maggior parte dei quali funziona con energia solare diretta. Immagine: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/shop-tools-living-energy-farm_dithered.png&#34; alt=&#39;Immagine: diversi strumenti del laboratorio presso la Living Energy Farm, la maggior parte dei quali funziona con energia solare diretta. Immagine: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: diversi strumenti del laboratorio presso la Living Energy Farm, la maggior parte dei quali funziona con energia solare diretta. Immagine: Alexis Zeigler. 
 &lt;/figcaption&gt;
@@ -86,7 +86,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Immagine: tornio per metalli alimentato direttamente dall&amp;amp;rsquo;energia solare, Living Energy Farm. Immagine: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/metal-lathe-living-energy-farm_dithered.png&#34; alt=&#39;Immagine: tornio per metalli alimentato direttamente dall&amp;amp;rsquo;energia solare, Living Energy Farm. Immagine: Alexis Zeigler.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: tornio per metalli alimentato direttamente dall&#39;energia solare, Living Energy Farm. Immagine: Alexis Zeigler. 
 &lt;/figcaption&gt;
@@ -94,7 +94,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Immagine: saldatura con energia solare diretta. Foto: Marie Verdeil. Guarda il video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-soldering-2_dithered.png&#34; alt=&#39;Immagine: saldatura con energia solare diretta. Foto: Marie Verdeil. Guarda il video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: saldatura con energia solare diretta. Foto: Marie Verdeil. [Guarda il video](https://www.youtube.com/watch?v=qozZCJU4IOc). 
 &lt;/figcaption&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;Di conseguenza, questi tipi di dispositivi possono essere caricati con l&amp;rsquo;energia solare diretta durante il giorno e poi utilizzati per diverse ore dopo il tramonto grazie alla batteria integrata. In combinazione con un power-bank agli ioni di litio, un pannello solare diretto può consentire anche di caricare i dispositivi USB dopo il tramonto. Questa strategia può funzionare anche per l&amp;rsquo;illuminazione, poiché esistono molte lampade alimentate a batteria che si possono utilizzare come moderne torce, appese in diversi punti di stanze ed edifici.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Immagine: un telefono cellulare alimentato direttamente dall&amp;amp;rsquo;energia solare. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/solar-phone-2_dithered.png&#34; alt=&#39;Immagine: un telefono cellulare alimentato direttamente dall&amp;amp;rsquo;energia solare. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: un telefono cellulare alimentato direttamente dall&#39;energia solare. Foto: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -124,7 +124,7 @@
 &lt;p&gt;Anche un frigorifero ad energia solare diretta si apre nella parte superiore, non nella parte anteriore. L&amp;rsquo;aria fredda è pesante e si perde molta meno energia quando qualcuno apre la porta. Tutte queste scelte progettuali si sommano ad un’efficienza energetica spettacolare. Uno studio sui frigoriferi solari diretti in regioni molto soleggiate (Texas e New Mexico, USA) ha dimostrato che essi mantengono la loro capacità di raffreddamento per 6 o 7 giorni senza alimentazione elettrica. Le unità funzionavano tutto l&amp;rsquo;anno con pannelli solari da soli 80 watt a 120 W. &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; La Living Energy Farm alimenta il suo frigorifero solare con un pannello da 200 W. &lt;sup id=&#34;fnref3:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Immagine: Sundanzer DDR165. Un frigorifero progettato specificatamente per l&amp;amp;rsquo;energia solare diretta. Foto: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/sundanzer-direct-solar-fridge_dithered.png&#34; alt=&#39;Immagine: Sundanzer DDR165. Un frigorifero progettato specificatamente per l&amp;amp;rsquo;energia solare diretta. Foto: Sundanzer.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: Sundanzer DDR165. Un frigorifero progettato specificatamente per l&#39;energia solare diretta. Foto: Sundanzer. 
 &lt;/figcaption&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;In linea di principio, un fornello convenzionale può essere collegato direttamente a un pannello solare. Tuttavia, come per un frigorifero convenzionale, ciò non è molto pratico. Si può cucinare solo durante il giorno e bisogna installare molti pannelli solari. Una singola piastra riscaldante necessita di 1.000 watt di potenza elettrica. Un fornello elettrico solare risolve questi problemi imballando il piano cottura con un isolamento termico. La tecnologia è fondamentalmente una combinazione di un piano cottura elettrico ed un &lt;a href=&#34;https://solar.lowtechmagazine.com/2014/07/if-we-insulate-our-houses-why-not-our-cooking-pots/&#34;&gt;haybox&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Immagine: test di un fornello solare elettrico. Foto: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/test-isec-thermal-energy-storage_dithered.png&#34; alt=&#39;Immagine: test di un fornello solare elettrico. Foto: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: test di un fornello solare elettrico. Foto: California Polytechnic State University (Cal Poly). 
 &lt;/figcaption&gt;
@@ -146,7 +146,7 @@
 &lt;p&gt;È possibile cucinare dopo il tramonto utilizzando una pentola con fondo molto più spesso (5-10 kg). Il team di ricerca di Cal Poly è riuscito a portare la temperatura di quell’accumulo di calore solido a 250°C in cinque ore con un pannello solare da 100 W. Sono stati quindi in grado di far bollire un litro d&amp;rsquo;acqua in tre secondi dopo il tramonto. In un altro test, hanno saltato in padella 1 kg di verdure in due minuti. La configurazione ideale è composta da due pentole: una con e una senza accumulo di calore. Pertanto, un fornello solare elettrico può cucinare sia lentamente che velocemente, a seconda dell&amp;rsquo;ora del giorno e del piatto. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Immagine: principio di una cucina elettrica solare con accumulo di calore solido. Disegno: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/cal-poly-solar-electric-cooker-idea_dithered.png&#34; alt=&#39;Immagine: principio di una cucina elettrica solare con accumulo di calore solido. Disegno: California Polytechnic State University (Cal Poly).&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: principio di una cucina elettrica solare con accumulo di calore solido. Disegno: California Polytechnic State University (Cal Poly). 
 &lt;/figcaption&gt;
@@ -163,7 +163,7 @@
 &lt;p&gt;Molti altri dispositivi necessitano di un ingresso di tensione specifico e stabile, che di solito non corrisponde a quello prodotto dal pannello solare. Questo può essere risolto posizionando un convertitore DC-DC (un convertitore “buck” o “boost”) tra il pannello solare e il dispositivo. Si tratta di un piccolo modulo elettronico che converte la tensione fluttuante di un pannello solare in una tensione di uscita costante per un dispositivo a bassa tensione (5 V, 12 V o superiore). &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Immagine: esperimenti con l&amp;amp;rsquo;energia solare diretta. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/solar-behind-the-scenes-3_dithered.png&#34; alt=&#39;Immagine: esperimenti con l&amp;amp;rsquo;energia solare diretta. Foto: Marie Verdeil.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: esperimenti con l&#39;energia solare diretta. Foto: Marie Verdeil. 
 &lt;/figcaption&gt;
@@ -176,7 +176,7 @@
 &lt;p&gt;È possibile utilizzare diverse tecnologie per gli elementi riscaldanti, ma incorporare fili di nicromo nel cemento è l&amp;rsquo;opzione più semplice. Questi cavi possono essere prelevati da una varietà di apparecchi come il tostapane, forni e piastre elettriche. In linea di principio, i fili riscaldanti possono essere fissati direttamente alla pentola, ma è più pratico realizzare un “nido” riscaldato in cui posizionare la pentola.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Immagine: ispirandosi al lavoro di Cal Poly, Living Energy Farm ha anche sviluppato una serie di fornelli solari elettrici, uno dei quali è in vendita sul loro sito web. Il Roxy Oven può essere utilizzato come piastra riscaldante o come forno, per cuocere il pane ad esempio. La porta rimane chiusa anche quando viene utilizzata come piastra riscaldante. Questo fornello solare non ha accumulo di energia.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-solar-oven_dithered.png&#34; alt=&#39;Immagine: ispirandosi al lavoro di Cal Poly, Living Energy Farm ha anche sviluppato una serie di fornelli solari elettrici, uno dei quali è in vendita sul loro sito web. Il Roxy Oven può essere utilizzato come piastra riscaldante o come forno, per cuocere il pane ad esempio. La porta rimane chiusa anche quando viene utilizzata come piastra riscaldante. Questo fornello solare non ha accumulo di energia.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: ispirandosi al lavoro di Cal Poly, Living Energy Farm ha anche sviluppato una serie di fornelli solari elettrici, uno dei quali è in [vendita sul loro sito web](https://livingenergylights.com/product/roxy-solar-electric-oven/). Il Roxy Oven può essere utilizzato come piastra riscaldante o come forno, per cuocere il pane ad esempio. La porta rimane chiusa anche quando viene utilizzata come piastra riscaldante. Questo fornello solare non ha accumulo di energia. 
 &lt;/figcaption&gt;
@@ -184,7 +184,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Immagine: il forno Roxy senza porta e con l&amp;amp;rsquo;isolamento in lana di vetro a vista. L&amp;amp;rsquo;apparecchio, realizzato in un&amp;amp;rsquo;officina metallurgica con energia solare diretta, funziona a 48 V e richiede un pannello solare da 200 a 500 watt. Living Energy Farm offre anche il frigorifero solare di Sunstar in vendita online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/roxy-deluxe-without-door_dithered.png&#34; alt=&#39;Immagine: il forno Roxy senza porta e con l&amp;amp;rsquo;isolamento in lana di vetro a vista. L&amp;amp;rsquo;apparecchio, realizzato in un&amp;amp;rsquo;officina metallurgica con energia solare diretta, funziona a 48 V e richiede un pannello solare da 200 a 500 watt. Living Energy Farm offre anche il frigorifero solare di Sunstar in vendita online.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: il forno Roxy senza porta e con l&#39;isolamento in lana di vetro a vista. L&#39;apparecchio, realizzato in un&#39;officina metallurgica con energia solare diretta, funziona a 48 V e richiede un pannello solare da 200 a 500 watt. Living Energy Farm offre anche il frigorifero solare di Sunstar [in vendita online](https://livingenergylights.com/product/sunstar-direct-drive-8-cuft-chest-style-refrigerator-freezer/). 
 &lt;/figcaption&gt;
@@ -202,7 +202,7 @@
 &lt;p&gt;Tuttavia, una rete così intelligente richiede molte infrastrutture, anche se l’energia solare diretta dovesse essere utilizzata su quella scala. Potrebbe non richiedere batterie o combustibili fossili come backup, ma richiede infrastrutture di trasmissione e comunicazione.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Immagine: un giradischi alimentato direttamente dall&amp;amp;rsquo;energia solare. Foto: Marie Verdeil. Guarda il video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/it/2023/10/direct-solar-power-off-grid-without-batteries/images/dithers/direct-solar-record-player_dithered.png&#34; alt=&#39;Immagine: un giradischi alimentato direttamente dall&amp;amp;rsquo;energia solare. Foto: Marie Verdeil. Guarda il video.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Immagine: un giradischi alimentato direttamente dall&#39;energia solare. Foto: Marie Verdeil. [Guarda il video](https://www.youtube.com/watch?v=_LjSigJv0-0). 
 &lt;/figcaption&gt;

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE 한국어</title>
-    <link>https://mar-ver.github.io/ko/</link>
-    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <link>https://lowtechmag.gitlab.io/solar/ko/</link>
+    <description>This is a solar-powered website, which means it sometimes goes offline </description>
     <generator>Hugo 0.115.3</generator>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/ko/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/ko/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://mar-ver.github.io/ko/posts/</link>
-      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <link>https://lowtechmag.gitlab.io/solar/ko/posts/</link>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/ko/posts/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/ko/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>https://mar-ver.github.io/ko/archives/</link>
-      <enclosure url="https://mar-ver.github.io/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://lowtechmag.gitlab.io/solar/ko/archives/</link>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/icons/sun.svg }}" type="image/png" length=""></enclosure><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/ko/archives/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/ko/archives/</guid>
       <description>&lt;p&gt;Archive page content&lt;/p&gt;
 </description>
     </item>

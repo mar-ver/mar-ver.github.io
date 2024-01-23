@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOW←TECH MAGAZINE Français</title>
-    <link>https://mar-ver.github.io/fr/tags/power-transmission/</link>
+    <link>https://lowtechmag.gitlab.io/solar/fr/tags/power-transmission/</link>
     <description>Ce site fonctionne à l’énergie solaire, et se retrouve parfois hors-ligne</description>
     <generator>Hugo 0.115.3</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mar-ver.github.io/fr/tags/power-transmission/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lowtechmag.gitlab.io/solar/fr/tags/power-transmission/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Les réseaux de force motrice hydraulique</title>
-      <link>https://mar-ver.github.io/fr/2023/09/power-water-networks/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png" type="image/png" length="54478" ></enclosure>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2023/09/power-water-networks/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/</guid>
       <description>&lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Illustration : Un accumulateur hydraulique. Image : Les Chatfield.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator_dithered.png&#34; alt=&#39;Illustration : Un accumulateur hydraulique. Image : Les Chatfield.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : Un accumulateur hydraulique. Image : [Les Chatfield](https://www.flickr.com/photos/61132483@N00/7184633723). 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;L’utilisation des moteurs à eau était largement répandue en Europe et en Amérique dans la seconde moitié du dix-neuvième siècle. Reliées à un robinet, ces petites turbines hydrauliques pouvaient faire fonctionner n’importe quelle machine aujourd’hui alimentée à l’électricité. Comme nous l’avons montré dans un &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;, faire fonctionner ces moteurs à l’eau courante n’était pas une solution particulièrement durable. Du fait des niveaux de pression à la fois faibles et irréguliers dans les réseaux d’adduction, ces moteurs consommaient d’énormes quantités d’eau potable.&lt;/p&gt;
+&lt;p&gt;L’utilisation des moteurs à eau était largement répandue en Europe et en Amérique dans la seconde moitié du dix-neuvième siècle. Reliées à un robinet, ces petites turbines hydrauliques pouvaient faire fonctionner n’importe quelle machine aujourd’hui alimentée à l’électricité. Comme nous l’avons montré dans un &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;, faire fonctionner ces moteurs à l’eau courante n’était pas une solution particulièrement durable. Du fait des niveaux de pression à la fois faibles et irréguliers dans les réseaux d’adduction, ces moteurs consommaient d’énormes quantités d’eau potable.&lt;/p&gt;
 &lt;p&gt;Tandis qu’aux Etats-Unis les moteurs à eau tombèrent en désuétude au début du vingtième siècle, les Européens trouvèrent une solution pour réduire leur importante consommation d’eau, perfectionnant ainsi la technique de transmission d’énergie par voie hydraulique. Ils déployèrent des « réseaux de force motrice hydraulique », dédiés à la distribution d’eau sous pression pour des usages de force mécanique exclusivement, et les convertirent à des régimes de pression beaucoup plus élevés et constants, rendus possibles par l’invention de l’accumulateur hydraulique.&lt;/p&gt;
 &lt;p&gt;La quasi-totalité de ces réseaux demeurèrent en service jusque dans les années 1960 et 1970. Comparée à l’électricité, la transmission de l’énergie hydraulique comme force motrice s’avère très efficace, quand elle est utilisée pour alimenter des machines puissantes mais fonctionnant de manière intermittente, lesquelles peuvent être réparties sur une aire géographique de la taille d’une ville entière.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;Les conséquences pratiques de ce qui deviendra plus tard le Principe de Pascal, aussi appelé &amp;ldquo;paradoxe hydrostatique&amp;rdquo;, furent démontrées par sa &amp;ldquo;machine à multiplier les forces&amp;rdquo;, schématiquement illustrée ci-dessous. Elle consiste en 2 cylindres, reliés entre eux par un tuyau. L’ensemble du dispositif est rempli d’eau et scellé hermétiquement. Le premier cylindre contient un piston de faible diamètre, tandis que le second cylindre contient un piston de diamètre 100 fois supérieur.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine à multiplier les forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/machine-for-multiplying-forces_dithered.png&#34; alt=&#39;Machine à multiplier les forces.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Machine à multiplier les forces. 
 &lt;/figcaption&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;Si une force hydraulique faible est convertie en une force plus grande, sa vitesse de fonctionnement sera réduite de manière inversement proportionnelle, dans la mesure où la distance parcourue est proportionnelle à la force. Par exemple, en descendant le petit piston de 10 centimètres vers le bas, on n’élèverait l’autre piston qu’au 1/100ème de cette distance.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Pascal barrel experiment.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/pascal-barrell-experiment_dithered.png&#34; alt=&#39;Pascal barrel experiment.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pascal barrel experiment. 
 &lt;/figcaption&gt;
@@ -62,7 +62,7 @@
 &lt;p&gt;La traditionnelle presse à vis, en usage à cette époque, avait connu peu d’évolutions depuis son invention par les Romains, qui l’utilisaient alors pour presser les olives et le raisin. Elle nécessitait, pour fonctionner, des efforts conséquents avec d’importantes pertes d’énergie par friction (+80 %), et ne pouvait exercer de pression supérieure à 25 tonnes. (La vis, qui convertit le mouvement de rotation en un mouvement linéaire vertical, consiste tout simplement en un plan incliné &amp;ldquo;enroulé&amp;rdquo; en spirale autour d’un cylindre).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;À gauche : La presse à vis. Crédit d’image : Bruce K. Satterfield À droite : La presse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/screw-press-hydraulic-press_dithered.png&#34; alt=&#39;À gauche : La presse à vis. Crédit d’image : Bruce K. Satterfield À droite : La presse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  À gauche : La presse à vis. Crédit d’image : [Bruce K. Satterfield](http://emp.byui.edu/SATTERFIELDB/Olive%20Tree/olive%20tree%20horticulture.htm) À droite : La presse hydraulique.  
 &lt;/figcaption&gt;
@@ -79,7 +79,7 @@
 &lt;p&gt;C’est au cours des années 1840 que l’ingénieur anglais William Armstrong commença à concevoir et utiliser des grues hydrauliques relativement puissantes. Conscient que les systèmes hydrauliques sont plus adaptés aux mouvements lents et réguliers, Armstrong mis au point une technique permettant de soulever une charge en une seule course de piston ou vérin, démultipliant suffisamment le mouvement par un jeu de poulies.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Hydraulic crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-crane_dithered.png&#34; alt=&#39;Hydraulic crane.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic crane. 
 &lt;/figcaption&gt;
@@ -92,7 +92,7 @@
 &lt;p&gt;L’accumulateur hydraulique d’Armstrong consistait en un cylindre vertical dans lequel un vérin ou un piston plongeur exerçait une pression sur l’eau. Ce piston était lesté d’un contrepoids, lequel prenait généralement la forme d’un réservoir de lestage cylindrique entourant le cylindre central (image de gauche, ci-dessous). Ce réservoir était ballasté avec des granulats (pierres concassées), de la ferraille ou tout autre matériau de lestage.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulators_dithered.png&#34; alt=&#39;Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : NSW HSC Online&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic accumulators. À gauche : Un accumulateur hydraulique dans le Port de Bristol. Wikipedia Commons. À droite : Accumulateur hydraulique, Walsh Bay, Sydney. Source : [NSW HSC Online](http://hsc.csu.edu.au/engineering_studies/application/lift/3377/hydraulics.htm) 
 &lt;/figcaption&gt;
@@ -106,7 +106,7 @@
 &lt;p&gt;L’énergie était stockée temporairement lors de l’ascension du vérin, puis récupérée lors de sa descente. Le débit de pompage de la machine à vapeur était régulé en fonction du niveau d’eau dans l’accumulateur, soit automatiquement par un système de liaisons mécaniques, soit avec l’aide d’un opérateur.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Hydraulic accumulator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator2_dithered.png&#34; alt=&#39;Hydraulic accumulator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic accumulator.
 &lt;/figcaption&gt;
@@ -115,10 +115,10 @@
 &lt;p&gt;Contrairement à un château d’eau, un accumulateur hydraulique permettait de maintenir une pression uniforme dans l’ensemble du réseau quelque soit le volume d’eau contenu dans son cylindre, car la pression y est générée par le poids du ballast et par non le poids de l’eau elle-même &amp;ndash; pour le dire autrement, l’accumulateur hydraulique génère une pression au moyen d’un poids extérieur plutôt que par la seule énergie gravitaire (liée à la différence de hauteur).&lt;/p&gt;
 &lt;p&gt;Avec un rendement de charge/décharge supérieur à 98 %, et aucune autodécharge, l’accumulateur hydraulique était un dispositif extrêmement efficace sur le plan énergétique.&lt;/p&gt;
 &lt;h2 id=&#34;des-machines-industrielles-alimentées-par-la-force-motrice&#34;&gt;Des Machines Industrielles Alimentées par la Force Motrice&lt;/h2&gt;
-&lt;p&gt;Son introduction eut deux effets majeurs. Premièrement, elle élargit considérablement l’éventail des opérations susceptibles d’être réalisées par des machines à énergie hydrauliques. Les moteurs à eau connectés au réseau d’eau potable se limitaient alors à de petits &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;appareils domestiques ou des outils d’atelier&lt;/a&gt;. Mais Armstrong et d’autres ingénieurs adaptèrent l’usage de l’eau sous haute pression à tout un large spectre d’opérations industrielles nécessitant des puissances importantes, telles que le forgeage, le poinçonnage, l’emboutissage, le bordage, le cisaillage et le rivetage (ancêtre de la soudure).&lt;/p&gt;
+&lt;p&gt;Son introduction eut deux effets majeurs. Premièrement, elle élargit considérablement l’éventail des opérations susceptibles d’être réalisées par des machines à énergie hydrauliques. Les moteurs à eau connectés au réseau d’eau potable se limitaient alors à de petits &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;appareils domestiques ou des outils d’atelier&lt;/a&gt;. Mais Armstrong et d’autres ingénieurs adaptèrent l’usage de l’eau sous haute pression à tout un large spectre d’opérations industrielles nécessitant des puissances importantes, telles que le forgeage, le poinçonnage, l’emboutissage, le bordage, le cisaillage et le rivetage (ancêtre de la soudure).&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Riveteuse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-riveting-machine_dithered.png&#34; alt=&#39;Riveteuse hydraulique.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Riveteuse hydraulique.
 &lt;/figcaption&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;Des années 1870 aux années 1890, des réseaux d’eau motrice sous pression furent ainsi déployés dans les principales villes industrielles de Grande-Bretagne : Kingston upon Hull, London, Liverpool, Birmingham, Grimsby, Manchester et Glasgow. Les compagnies portuaires et ferroviaires furent pionnières dans le développement cette technologie, et en demeurèrent les principales utilisatrices pendant plusieurs décennies.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-machines_dithered.png&#34; alt=&#39;Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustrations d’un accumulateur, d’une grue et d’un élévateur hydrauliques.
 &lt;/figcaption&gt;
@@ -147,7 +147,7 @@
 &lt;p&gt;C’est à Londres que fut construit le plus vaste réseau de force motrice hydraulique, exploité par la &amp;ldquo;London Hydraulic Company&amp;rdquo;. À l’apogée de l’entreprise en 1917, pas moins de cinq centrales interconnectées assuraient le pompage d’eau sous haute pression vers une douzaine d’accumulateurs hydrauliques et près de 300 km de conduites souterraines, alimentant en énergie plus de 8 000 machines réparties dans presque toute la ville. Dans les théâtres et autres équipements culturels de Londres, l’eau motrice était utilisée pour déplacer les décors, les consoles d’orgues, les rideaux coupe-feu et les plateaux de scène. La machinerie hydraulique du Tower Bridge était également actionnée par de l’eau sous pression, pompée dans six accumulateurs par des moteurs à vapeur, permettant la levée des bascules.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/london-hydraulic-power-company_dithered.png&#34; alt=&#39;Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Illustration : plan du réseau de canalisations et stations de la London Hydraulic Power Company, 1895. 
 &lt;/figcaption&gt;
@@ -160,7 +160,7 @@
 &lt;p&gt;Une autre application notable de l’eau sous haute pression à Londres fut le &lt;em&gt;Silent Dustman&lt;/em&gt;, un système d’aspiration à énergie hydraulique commercialisé en 1910. Plusieurs grands hôtels en furent intégralement &amp;ldquo;équipés&amp;rdquo; : de l’eau courante était utilisée par une pompe à jet pour générer du vide dans un conduit principal, sur lequel venait se brancher le système d’aspiration. Le long de ce conduit, un certain nombre de buses permettaient de brancher des tuyaux souples. La poussière était ainsi aspirée vers le tube principal puis évacuée vers les égouts. Ce système, au fonctionnement à la fois silencieux et efficace, demeura en service jusqu’en 1937.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-power-station_dithered.png&#34; alt=&#39;Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Une des stations du réseau de Londres. Noter la tour sur la droite, où sont installés les accumulateurs hydrauliques. 
 &lt;/figcaption&gt;
@@ -172,7 +172,7 @@
 &lt;p&gt;Les réseaux britanniques firent des émules en inspirant la création de réseaux similaires ailleurs dans le monde : à Anvers en Belgique, Buenos Aires en Argentine, Melbourne et Sydney en Australie. Si les réseaux australiens étaient directement inspirés de ceux déployés au Royaume-Uni (avec 80 km de canalisations, celui de Melbourne fut le second plus grand jamais construit), le système argentin servait au pompage des eaux usées, tandis que le réseau d’Anvers était quant à lui conçu pour la production combinée &amp;ndash; on parle aujourd’hui de &amp;ldquo;cogénération&amp;rdquo; &amp;ndash; d’énergie mécanique et d’électricité. Cette dernière technique visait à palier les importantes pertes en ligne du transport d’électricité à cette époque.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;ldquo;Zuiderpershuis&amp;amp;rdquo; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/zuiderpershuis-hydraulic-power-station_dithered.png&#34; alt=&#39;&amp;amp;ldquo;Zuiderpershuis&amp;amp;rdquo; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  &#34;Zuiderpershuis&#34; : une ancienne station de pompage hydraulique à Anvers. Les accumulateurs hydrauliques étaient installés dans les deux tours. 
 &lt;/figcaption&gt;
@@ -186,13 +186,13 @@
 &lt;p&gt;La ville d’Anvers utilisait depuis 1865 un réseau d’eau motrice pour alimenter les grues, ponts et écluses de son port. Il vint s’y ajouter en 1893 un second réseau, qui distribuait de l’eau sous haute pression à des sous-stations électriques disséminées dans toute la ville (au nombre de douze d’après la carte &amp;ndash; toutefois, seules trois d’entres elles furent effectivement construites). Des turbines hydrauliques y généraient de l’électricité, ensuite distribuée dans un rayon de 500 m via des lignes électriques enterrées &amp;ndash; distance maximale à laquelle le courant basse tension pouvait alors être distribué avec un bon rendement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-cranes-antwerp-harbour_dithered.png&#34; alt=&#39;Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Grues hydrauliques dans le port d’Anvers. Image : Low-tech Magazine. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Le système anversois, utilisé pour l’éclairage public, réalisait ainsi à grande échelle ce que les moteurs à eau couplés à des dynamos assuraient à une petite échelle via le réseau d’eau courante (voir le &lt;a href=&#34;https://mar-ver.github.io/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;. Environ 66 % de l’énergie hydraulique était convertie en électricité. À son apogée, le réseau atteignit 23 km de longueur totale, pour une puissance de 1200 CV. Il faut par ailleurs mentionner qu’à Londres, un certain nombre d’habitants utilisaient de petits générateurs domestiques pour produire de l’électricité directement à partir du réseau d’eau courante.&lt;/p&gt;
+&lt;p&gt;Le système anversois, utilisé pour l’éclairage public, réalisait ainsi à grande échelle ce que les moteurs à eau couplés à des dynamos assuraient à une petite échelle via le réseau d’eau courante (voir le &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2013/09/power-from-the-tap-water-motors/&#34;&gt;précédent article&lt;/a&gt;. Environ 66 % de l’énergie hydraulique était convertie en électricité. À son apogée, le réseau atteignit 23 km de longueur totale, pour une puissance de 1200 CV. Il faut par ailleurs mentionner qu’à Londres, un certain nombre d’habitants utilisaient de petits générateurs domestiques pour produire de l’électricité directement à partir du réseau d’eau courante.&lt;/p&gt;
 &lt;h2 id=&#34;force-motrice-hydraulique-versus-electricité&#34;&gt;Force Motrice Hydraulique versus Electricité&lt;/h2&gt;
 &lt;p&gt;Le développement fulgurant de la transmission d’électricité haute tension au tournant du siècle rendit immédiatement obsolète des systèmes comme celui d’Anvers. La partie du réseau dédiée à la production d’électricité disparut en 1900. En effet, comprimer de l’eau pour &lt;em&gt;in fine&lt;/em&gt; générer de l’électricité induit une quadruple conversion énergétique &amp;ndash; et par conséquent des pertes &amp;ndash; qui s’avèrent inutiles dès lors que la production et le transport d’électricité deviennent efficaces.&lt;/p&gt;
 &lt;p&gt;La construction de nouveaux réseaux urbains de distribution de force motrice fut par ailleurs interrompue avant la fin du siècle par le déploiement rapide de réseaux électriques désormais efficaces. &amp;ldquo;Si le développement de ces systèmes avait démarré quelques années plus tôt, leur succès aurait pu être nettement plus important&amp;rdquo; écrit Ian McNeil dans son ouvrage &lt;em&gt;Hydraulic Power&lt;/em&gt; (1972). &amp;ldquo;Quelques années plus tard, et ils n’auraient probablement jamais vu le jour.&amp;rdquo;&lt;/p&gt;
@@ -205,7 +205,7 @@
 &lt;p&gt;En tant que vecteur de transmission d’énergie, la force hydraulique présente 3 principaux inconvénients par rapport à l’électricité. Tout d’abord, l’électricité peut être transportée efficacement sur des distances beaucoup plus grandes. La transmission hydraulique était (et demeure) au moins aussi efficace que la transmission électrique pour des distances comprises entre 15 et 25 km. Au-delà, l’électricité se démarque nettement par son meilleur rendement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-lock_dithered.png&#34; alt=&#39;Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : Chris Allen&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Porte d’écluse hydraulique du Greenland Dock à London, construite dans les années 1880. Crédits photographiques : [Chris Allen](http://www.geograph.org.uk/photo/2569524) 
 &lt;/figcaption&gt;
@@ -219,13 +219,13 @@
 &lt;p&gt;Exception faite du système de génération d’électricité déployé à Anvers &amp;ndash; et rapidement abandonné &amp;ndash; aucun des réseaux de type Armstrong ne fournissait d’énergie à un grand parc de machines en fonctionnement continu. (Mentionnons tout de même les &lt;a href=&#34;http://www.lowtechmagazine.com/medium-pressure-power-water-networks-in-switzerland.html&#34;&gt;réseaux hydrauliques moyenne pression en Suisse&lt;/a&gt;. Troisièmement, les pertes par friction causées par les angles et courbes des conduites étaient limitées, car un tel réseau servait généralement à alimenter un nombre relativement réduit de (très puissantes) machines.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, décembre 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-accumulator-3_dithered.png&#34; alt=&#39;Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&amp;amp;rsquo;outillage et du matériel, décembre 1864, Bibliothèque nationale de France&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Pompe, accumulateur et presse hydrauliques. Source : Portefeuille économique des machines, de l&#39;outillage et du matériel, décembre 1864, [Bibliothèque nationale de France](http://gallica.bnf.fr/ark:/12148/bpt6k5539152w/f79.pleinepage.langFR) 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;A la fin du dix-neuvième siècle, les limites intrinsèques à la transmission d’énergie hydraulique étaient désormais très bien connues. Ceci n’empêchera pas les ingénieurs de l’époque de se saisir des potentialités uniques offertes par cette technologie, qui sont toujours d’actualité. A titre d’exemple, citons les mots de Robert Zahner, promoteur en son temps d’une autre alternative à l’électricité, &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;. Dans son livre &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890), il écrivait que :&lt;/p&gt;
+&lt;p&gt;A la fin du dix-neuvième siècle, les limites intrinsèques à la transmission d’énergie hydraulique étaient désormais très bien connues. Ceci n’empêchera pas les ingénieurs de l’époque de se saisir des potentialités uniques offertes par cette technologie, qui sont toujours d’actualité. A titre d’exemple, citons les mots de Robert Zahner, promoteur en son temps d’une autre alternative à l’électricité, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;. Dans son livre &lt;em&gt;The Transmission of Power by Compressed Air&lt;/em&gt; (1890), il écrivait que :&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Le caractère virtuellement incompressible de l’eau rend la méthode hydraulique impropre au transport d’énergie en quantité constante. Elle peut être mise à profit uniquement dans les cas où la force motrice doit être accumulée et utilisée à intervalles, réguliers ou non, par exemple pour soulever des poids, réaliser des opérations de poinçonnement, de forgeage par compression ainsi que d’autres travaux de nature intermittente, qui requièrent l’application d’une grande force sur une courte distance ou surface.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;La distribution de la force motrice de l’eau est &amp;ldquo;merveilleusement adaptée aux machineries lourdes et aux engins dont les opérations requièrent la concentration de puissances élevées, des mouvements de va-et-vient linéaires, et un fonctionnement intermittent&amp;rdquo; écrit quant à lui Louis Hunter dans &lt;em&gt;The Transmission of Power&lt;/em&gt; (1991). La principale qualité de l’accumulateur hydraulique est de permettre le fonctionnement de machines qui nécessitent une puissance grandement supérieure à celle que peut fournir la source d’énergie &amp;ndash; selon le principe de Pascal de &amp;ldquo;multiplication des forces&amp;rdquo;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -235,7 +235,7 @@
 &lt;p&gt;De même, les systèmes hydrauliques permettent de générer assez facilement un mouvement linéaire (translation) via le recours à des vérins hydrauliques tandis que l’énergie électrique doit recourir pour cela à de coûteux moteurs linéaires ou à des dispositifs mécaniques, de type transmission à pignon-crémaillère. C’est en ce sens que les énergies hydrauliques et électriques s’avèrent complémentaires : une des contraintes liées à la transmission hydraulique était la relative difficulté à convertir un mouvement linéaire en mouvement rotatif.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Hydraulic elevator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-elevator_dithered.png&#34; alt=&#39;Hydraulic elevator.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hydraulic elevator. 
 &lt;/figcaption&gt;
@@ -249,7 +249,7 @@
 &lt;p&gt;C’est en partie du fait de la conversion à l’huile que furent développés des systèmes hydrauliques embarqués, circuits autonomes généralement composés d’une pompe, d’un accumulateur et d’un circuit de bouclage, prêts à être couplés à un moteur électrique ou diesel. Dans ce type de technologies les accumulateurs hydrauliques sont en principe beaucoup plus petits, utilisent un gaz pour compresser le fluide, et ne garantissent pas une pression constante au sein du circuit.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &amp;amp;ldquo;à poids&amp;amp;rdquo; des réseaux d’eau motrice. Image : HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/modern-day-hydraulic-accumulators_dithered.png&#34; alt=&#39;Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &amp;amp;ldquo;à poids&amp;amp;rdquo; des réseaux d’eau motrice. Image : HYD.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Les accumulateurs hydrauliques actuels (généralement à gaz comprimé, dits hydropneumatiques) n’ont désormais plus grand-chose à voir avec les accumulateurs &#34;à poids&#34; des réseaux d’eau motrice. Image : [HYD](http://www.hyd.com/tejas/products/products_frame.htm). 
 &lt;/figcaption&gt;
@@ -267,7 +267,7 @@
 &lt;p&gt;Comme dans le cas d’autres techniques de transmission de l’énergie mécanique &amp;ndash; tels que les &lt;a href=&#34;&#34;&gt;systèmes de pompes avec tige à saccades&lt;/a&gt; et les &lt;a href=&#34;&#34;&gt;courroies de transmission sans fin&lt;/a&gt; &amp;ndash; c’est la meilleure efficacité de la transmission électrique sur de longues distances qui a en grande partie causé la disparition des réseaux urbains de distribution de force motrice. Toutes ces alternatives à l’électricité, aujourd’hui oubliées, mériteraient d’être réétudiées aux fins d’applications spécifiques, dans la perspective d’un système énergétique plus décentralisé et basé sur les énergies renouvelables. On peut ainsi imaginer que les accumulateurs hydrauliques à poids puissent être alimentés à l’énergie solaire, éolienne, voire musculaire (à pédale).&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Image : J.W. Gibson.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/images/dithers/hydraulic-power_dithered.png&#34; alt=&#39;Image : J.W. Gibson.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Image : J.W. Gibson. 
 &lt;/figcaption&gt;
@@ -277,7 +277,7 @@
 &lt;p&gt;&amp;ldquo;L’électricité offre, en matière de transmission d’énergie, un grand nombre d’avantages dans la plupart des cas. Les ingénieurs électriciens idéalisent cependant la chose. Ils sont en effet bien souvent prompts à oublier d’autres technologies, lesquelles disposent, dans bon nombre de cas, d’avantages considérables par rapport à l’électricité.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;W.C. Unwin, auteur au dix-neuvième siècle de l’ouvrage le plus complet de l’époque sur la transmission d’énergie (&lt;em&gt;On the Development and Transmission of Power from Central Stations&lt;/em&gt;), exprima en 1894 des réserves similaires :&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Bien que la distribution d’électricité soit indéniablement amenée à jouer un rôle prochain dans le développement des réseaux de distribution de l’énergie, on observe ces temps-ci une tendance à ne considérer que l’option électrique, et à négliger d’autres moyens de transport de l’énergie qui ont été utilisés avec succès par le passé et seront, dans des conditions adéquates, toujours employés à l’avenir. Dans le cas de la transmission sur moyenne distance, on dispose de plusieurs alternatives crédibles, et la transmission électrique n’a pas, dans un tel cas et jusqu’à ce jour, établit sa supériorité d’aucune manière.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Le prochain épisode de notre série sur la transmission d’énergie s’intéressera à &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;, qui est probablement l’alternative à l’électricité la plus crédible.&lt;/p&gt;
+&lt;p&gt;Le prochain épisode de notre série sur la transmission d’énergie s’intéressera à &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;l’air comprimé&lt;/a&gt;, qui est probablement l’alternative à l’électricité la plus crédible.&lt;/p&gt;
 &lt;p&gt;Kris De Decker&lt;/p&gt;
 &lt;p&gt;Cet article est dédié à Charles Steele. RIP.&lt;/p&gt;
 &lt;h2 id=&#34;sources-par-ordre-dimportance-&#34;&gt;Sources (par ordre d’importance) :&lt;/h2&gt;
@@ -312,15 +312,15 @@
     
     <item>
       <title>Stockage d’énergie par air comprimé hors-réseau</title>
-      <link>https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png" type="image/png" length="31750" ></enclosure>
       <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/DIY-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -330,23 +330,23 @@
 &lt;p&gt;Malheureusement, les CAES à échelle industrielle sont très peu efficaces énergétiquement. La compression et décompression de l’air entraînent des pertes d’énergie desquelles résultent un rendement électrique-électrique de seulement 40-52%, contre 70-85% pour une centrale hydroélectrique de pompage-turbinage et 70-90% pour les batteries chimiques.&lt;/p&gt;
 &lt;p&gt;Le faible rendement est principalement dû au fait que l’air chauffe sous l’action de la compression. Les pertes de chaleur, qui représentent une grosse partie de l’apport énergétique, sont rejetées dans l’atmosphère. Un problème connexe est le fait que l’air se refroidit pendant la détente, ce qui diminue la production électrique et peut même geler la vapeur d’eau présente dans l’air. Pour éviter cela, les grandes usines CAES chauffent l’air avant la détente en utilisant du gaz naturel, ce qui amoindrit d’autant plus le rendement du système et rend ce stockage d’énergie durable dépendant des énergies fossiles.&lt;/p&gt;
 &lt;h2 id=&#34;pourquoi-se-tourner-vers-un-système-caes-à-petite-échelle-&#34;&gt;Pourquoi se tourner vers un système CAES à petite échelle ?&lt;/h2&gt;
-&lt;p&gt;Dans l’article précédent nous avons exposé plusieurs idées – &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspirées de systèmes historiques&lt;/a&gt; – qui pourraient améliorer le rendement des centrales CAES à grande échelle. Dans cet article, nous nous focalisons sur les quelques ingénieurs et chercheurs, de plus en plus nombreux, qui pensent que l’avenir n’est pas dans le stockage d’énergie par air comprimé à échelle industrielle mais bien dans les systèmes à petite échelle ou micro échelle, utilisant des réservoirs de stockage artificiels en surface plutôt que des réservoirs souterrains. De tels systèmes pourraient être autonomes ou raccordés au réseau, fonctionnant tout seul ou conjointement avec un système de batteries.&lt;/p&gt;
+&lt;p&gt;Dans l’article précédent nous avons exposé plusieurs idées – &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;inspirées de systèmes historiques&lt;/a&gt; – qui pourraient améliorer le rendement des centrales CAES à grande échelle. Dans cet article, nous nous focalisons sur les quelques ingénieurs et chercheurs, de plus en plus nombreux, qui pensent que l’avenir n’est pas dans le stockage d’énergie par air comprimé à échelle industrielle mais bien dans les systèmes à petite échelle ou micro échelle, utilisant des réservoirs de stockage artificiels en surface plutôt que des réservoirs souterrains. De tels systèmes pourraient être autonomes ou raccordés au réseau, fonctionnant tout seul ou conjointement avec un système de batteries.&lt;/p&gt;
 &lt;p&gt;La principale raison d’étudier le stockage d’énergie par air comprimé décentralisé est le fait qu’un tel système peut être utilisé n’importe où, tout comme les batteries chimiques. Les grandes installations CAES, à l’inverse, sont dépendantes d’une géologie souterraine appropriée. Bien qu’il y ait plus de sites potentiels pour les grandes installations CAES que pour les grandes centrales hydroélectriques de pompage-turbinage, trouver une caverne de stockage appropriée n’est pas aussi facile que cela avait été préalablement supposé. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/set-up-small-scale-compressed-air-energy-storage-system_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Comparé aux batteries chimiques, les micro-systèmes CAES ont des avantages intéressants. Le plus important est qu’un réseau distribué de systèmes de stockage d’énergie par air comprimé serait plus durable et écologique. Tout au long de leurs vies, &lt;a href=&#34;https://mar-ver.github.io/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;les batteries chimiques stockent seulement deux à dix fois l’énergie nécessaire à les produire&lt;/a&gt;. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Les systèmes CAES à petite échelle font bien mieux que cela, principalement car leur durée de vie est plus longue.&lt;/p&gt;
+&lt;p&gt;Comparé aux batteries chimiques, les micro-systèmes CAES ont des avantages intéressants. Le plus important est qu’un réseau distribué de systèmes de stockage d’énergie par air comprimé serait plus durable et écologique. Tout au long de leurs vies, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2015/05/how-sustainable-is-stored-sunlight/&#34;&gt;les batteries chimiques stockent seulement deux à dix fois l’énergie nécessaire à les produire&lt;/a&gt;. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Les systèmes CAES à petite échelle font bien mieux que cela, principalement car leur durée de vie est plus longue.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Comparé aux batteries chimiques, un réseau distribué de systèmes de stockage d’énergie par air comprimé serait plus durable et écologique.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Par ailleurs, ils ne nécessitent pas de matériaux rares ou toxiques, et le matériel est facilement recyclable. De plus, le stockage décentralisé d&amp;rsquo;énergie par air comprimé n&amp;rsquo;a pas besoin de lignes de production de haute technologie et peut être fabriqué, installé et entretenu par des entreprises locales, contrairement à un système de stockage d&amp;rsquo;énergie basé sur des batteries chimiques. Enfin, les micro-CAES ne se déchargent pas tous seuls, tolèrent une plus large gamme d&amp;rsquo;environnements et promettent d&amp;rsquo;être moins chers que les batteries chimiques. &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/sustainability-of-different-energy-storage-technologies_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -358,7 +358,7 @@
 &lt;p&gt;Pour rendre les choses plus compliquées encore, le rendement du système et la taille du stockage sont inversement liés: l&amp;rsquo;amélioration d&amp;rsquo;un facteur se fait souvent au détriment de l&amp;rsquo;autre. Augmenter la pression de l&amp;rsquo;air minimise la taille du stockage mais diminue le rendement du système, tandis que l&amp;rsquo;utilisation d&amp;rsquo;une pression plus basse rend le système plus économe en énergie mais mais demande un espace de stockage plus important. Quelques exemples aident à illustrer le problème.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Réservoirs de stockage d&amp;amp;rsquo;énergie par air comprimé. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/compressed-air-tanks_dithered.png&#34; alt=&#39;Réservoirs de stockage d&amp;amp;rsquo;énergie par air comprimé. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Réservoirs de stockage d&#39;énergie par air comprimé. [Source](http://www.screwtypeaircompressors.com/sale-8108163-vertical-compressed-air-tank-natural-gas-tank-2000l-air-receiver-tank.html). 
 &lt;/figcaption&gt;
@@ -372,7 +372,7 @@
 &lt;p&gt;Un tel système peut en effet être bénéfique dans ce contexte, notamment parce qu&amp;rsquo;il a une durée de vie beaucoup plus longue que les batteries chimiques. Cependant, une configuration similaire dans un contexte urbain à forte consommation d&amp;rsquo;énergie est évidemment problématique. Dans une autre étude, il a été calculé qu&amp;rsquo;il faudrait un réservoir de stockage d&amp;rsquo;air de 65 m3 pour stocker 3 kWh d&amp;rsquo;énergie. Cela correspond à un récipient sous pression de 13 mètres de long avec un diamètre de 2,5 mètres, illustré ci-dessous. &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-receiver_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -380,11 +380,11 @@
 &lt;p&gt;En outre, la consommation électrique quotidiene moyenne des ménages dans les pays industrialisés est encore beaucoup plus élevée. Par exemple, au Royaume-Uni, elle est légèrement inférieure à 13 kWh par jour, aux États-Unis et au Canada, elle dépasse 30 kWh. Dans ce dernier cas, dix de ces réservoirs d’air seraient nécessaires pour stocker l’équivalent d’une journée d&amp;rsquo;utilisation d&amp;rsquo;électricité.&lt;/p&gt;
 &lt;p&gt;Les systèmes CAES à petite échelle avec des pressions élevées donnent des résultats opposés. Par exemple, une modélisation d’une configuration pour une utilisation électrique domestique typique en Europe (6 400 kWh par an) fonctionne à une pression de 200 bars (près de 4 fois supérieure à la pression dans les grandes usines CAES) et obtient un volume de stockage de seulement 0,55 m3, ce qui est comparable aux batteries. Cependant, le rendement électrique-électrique de cette configuration n&amp;rsquo;est que de 11 à 17%, selon la taille du système solaire photovoltaïque. &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;deux-stratégies-pour-faire-fonctionner-le-micro-caes&#34;&gt;Deux stratégies pour faire fonctionner le micro-CAES&lt;/h2&gt;
-&lt;p&gt;Ces exemples semblent suggérer que le stockage d&amp;rsquo;énergie par air comprimé n&amp;rsquo;a pas de sens en tant que système de stockage d&amp;rsquo;énergie à petite échelle, &lt;a href=&#34;https://mar-ver.github.io/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;même avec une réduction du besoin en énergie&lt;/a&gt;. Cependant, peut-être de manière surprenante pour beaucoup, ce n&amp;rsquo;est pas le cas.&lt;/p&gt;
+&lt;p&gt;Ces exemples semblent suggérer que le stockage d&amp;rsquo;énergie par air comprimé n&amp;rsquo;a pas de sens en tant que système de stockage d&amp;rsquo;énergie à petite échelle, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/01/how-much-energy-do-we-need/&#34;&gt;même avec une réduction du besoin en énergie&lt;/a&gt;. Cependant, peut-être de manière surprenante pour beaucoup, ce n&amp;rsquo;est pas le cas.&lt;/p&gt;
 &lt;p&gt;Les systèmes CAES à petite échelle ne peuvent pas suivre la même approche que les systèmes CAES à grande échelle, qui augmentent la capacité de stockage et le rendement global en utilisant la compression multi-étagée avec refroidissement intermédiaire et la détente multi-étagée avec réchauffe. Cette méthode implique des composants supplémentaires et augmente la complexité et le coût, ce qui n&amp;rsquo;est pas adapté pour les systèmes à petite échelle.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/modular-compressed-air-energy-storage_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -399,7 +399,7 @@
 &lt;p&gt;Dans ces systèmes, le rendement électrique-électrique est très faible. Cependant, il y a maintenant plusieurs rendements à définir, car le système fournit également de la chaleur et du froid. &lt;sup id=&#34;fnref1:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; En outre, cette approche peut rendre obsolètes plusieurs appareils électriques, tels que le réfrigérateur, la climatisation et la chaudière électrique pour le chauffage des locaux et de l&amp;rsquo;eau. Étant donné que l&amp;rsquo;utilisation de ces appareils est souvent responsable d&amp;rsquo;environ la moitié de la consommation d&amp;rsquo;électricité dans un ménage moyen, un système CAES à petite échelle à haute pression a un besoin en électricité globalement plus faible.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresseur d’air typique. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-compressor_dithered.png&#34; alt=&#39;Un compresseur d’air typique. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un compresseur d’air typique. [Source](https://www.thomasnet.com/articles/machinery-tools-supplies/Air-Compressors). 
 &lt;/figcaption&gt;
@@ -408,7 +408,7 @@
 &lt;p&gt;Les systèmes à haute pression règlent facilement le problème de la taille du stockage. Comme nous l&amp;rsquo;avons vu, une pression d&amp;rsquo;air plus élevée peut réduire considérablement la taille du réservoir de stockage d&amp;rsquo;air comprimé, mais uniquement au détriment d&amp;rsquo;une augmentation des pertes de chaleur. Dans un système à petite échelle qui tire parti des différences de température pour assurer le chauffage et le refroidissement, cela est avantageux. Par conséquent, les systèmes à haute pression sont idéaux pour les bâtiments résidentiels à petite échelle, où l&amp;rsquo;espace de stockage est limité et où il y a une forte demande de chaleur et de froid ainsi que d&amp;rsquo;électricité. Les seuls inconvénients sont que les systèmes à haute pression nécessitent des réservoirs de stockage plus solides et plus chers, et qu&amp;rsquo;un espace supplémentaire est nécessaire pour les échangeurs de chaleur.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Installation expérimentale d’un micro-CAES. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/Experimental-set-up-of-a-micro-CAES-system_dithered.png&#34; alt=&#39;Installation expérimentale d’un micro-CAES. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Installation expérimentale d’un micro-CAES. Source: [^30] 
 &lt;/figcaption&gt;
@@ -421,7 +421,7 @@
 &lt;p&gt;En dessous de pressions d&amp;rsquo;air d&amp;rsquo;environ 10 bars, la compression et la détente de l&amp;rsquo;air présentent des changements de température insignifiants («quasi-isothermes»), et le rendement du système de stockage d&amp;rsquo;énergie peut atteindre quasiment 100%. Il n&amp;rsquo;y a pas de pertes de chaleur et, par conséquent, il n&amp;rsquo;est pas nécessaire de réchauffer l&amp;rsquo;air lors de la détente.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/hiscox-three-stage-compressor_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -436,7 +436,7 @@
 &lt;p&gt;Cet appareil, à faible coût et composé d’un minimum de pièces mobiles, obtient des rendements de 60 à 70% pour une pression de 3 à 7 bars. &lt;sup id=&#34;fnref2:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; Il s&amp;rsquo;agit d&amp;rsquo;un rendement très élevé pour un appareil aussi simple, étant donné qu&amp;rsquo;un compresseur centrifuge sophistiqué à trois étages, utilisé dans des systèmes CAES à grande échelle ou dans des environnements industriels, a un rendement d’environ 70%. De plus, les chercheurs affirment que le rendement est limité par l’utilisation d’un moteur standard pour alimenter leur compresseur. En effet, une autre équipe de recherche a atteint une efficacité de 83%. &lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Un compresseur à vis. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/scroll-compressor_dithered.png&#34; alt=&#39;Un compresseur à vis. Source: [^30]&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Un compresseur à vis. Source: [^30] 
 &lt;/figcaption&gt;
@@ -447,7 +447,7 @@
 &lt;p&gt;Bien que les compresseurs et les détendeurs soient les facteurs les plus importants pour le rendement des systèmes CAES à petite échelle, ils ne sont pas les seuls. Par exemple, dans chaque système de stockage d&amp;rsquo;énergie par air comprimé, une perte de rendement supplémentaire est causée par le fait que pendant la détente, le réservoir de stockage se vide et donc la pression chute. En parallèle, la pression d&amp;rsquo;entrée du détendeur ne doit varier que dans une plage minimale pour garantir un rendement élevé.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/air-pressure-gauge_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -462,7 +462,7 @@
 &lt;p&gt;L&amp;rsquo;installation se compose de l&amp;rsquo;unité de compression/détente couplée à trois petits cylindres (7L), précédemment utilisés comme extincteurs, et fonctionnant à basse pression (max. 5 bar). Les réservoirs de stockage sont connectés via des canalisations en PVC et des raccords en laiton. Pour contrôler le débit d&amp;rsquo;air, trois vannes d&amp;rsquo;air commandées par ordinateur sont installées à l&amp;rsquo;entrée de chaque cylindre. Le système peut être étendu en ajoutant plus de récipients sous pression. &lt;sup id=&#34;fnref1:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/small-scale-CAES-setup_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -475,7 +475,7 @@
 &lt;p&gt;Fait intéressant, la capacité de stockage est de 410 Wh, ce qui est comparable au système rural de 360 Wh mentionné précédemment, qui nécessite un réservoir de stockage de 18 m3, soit trente fois plus que le système de stockage modulaire.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Vannes d’air contrôlées par ordinateur. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/images/dithers/computer-controlled-air-valves_dithered.png&#34; alt=&#39;Vannes d’air contrôlées par ordinateur. Source.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Vannes d’air contrôlées par ordinateur. [Source](http://www.jaksa.si/compressed-air-solenoid-valves.html). 
 &lt;/figcaption&gt;
@@ -486,7 +486,7 @@
 &lt;h2 id=&#34;le-fabriquer-soi-même-&#34;&gt;Le fabriquer soi-même ?&lt;/h2&gt;
 &lt;p&gt;En conclusion, le stockage d&amp;rsquo;énergie par air comprimé à petite échelle pourrait être une alternative prometteuse aux batteries, mais la recherche en est encore à ses débuts - la première étude sur le CAES à petite échelle a été publiée en 2010 - et de nouvelles idées sont nécessaires pour comprendre comment développer au mieux la technologie. Pour le moment, il n&amp;rsquo;existe pas de modèles disponibles dans le commerce et la mise en place de votre propre système peut être assez intimidante si vous débutez en pneumatique. Le simple fait de se procurer les bons composants et raccords est un casse-tête, car ils sont d&amp;rsquo;une variété déconcertante et ne sont vendus qu&amp;rsquo;aux industries.&lt;/p&gt;
 &lt;p&gt;Cependant, si vous êtes patient et pas trop maladroit, et si vous êtes déterminé à utiliser un système de stockage d&amp;rsquo;énergie plus durable, il est parfaitement possible de construire votre propre système CAES. Comme les exemples de cet article l&amp;rsquo;ont montré, il est juste un peu plus difficile d&amp;rsquo;en créer un bon.&lt;/p&gt;
-&lt;p&gt;Il y a idées supplémentaires concernant les systèmes CAES à petite échelle dans l’article précédent : &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Histoire et Avenir de l’Économie de l’Air Comprimé&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il y a idées supplémentaires concernant les systèmes CAES à petite échelle dans l’article précédent : &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/&#34;&gt;Histoire et Avenir de l’Économie de l’Air Comprimé&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -551,15 +551,15 @@
     
     <item>
       <title>Histoire et Avenir de l&#39;Économie de l&#39;Air Comprimé</title>
-      <link>https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/</link>
+      <link>https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/</link>
       
-      <enclosure url="https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
+      <enclosure url="https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png" type="image/png" length="41611" ></enclosure>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
+      <guid>https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/</guid>
       <description>&lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;Hiscox straight line air compressor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-straight-line-air-compressor_dithered.png&#34; alt=&#39;Hiscox straight line air compressor.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Hiscox straight line air compressor. 
 &lt;/figcaption&gt;
@@ -569,11 +569,11 @@
 &lt;p&gt;Il suffit de jeter un oeil sur la longue histoire, vieille de 4000 ans, de l&amp;rsquo;air comprimé pour montrer que ce n&amp;rsquo;est pas indispensable. Bien que nos ancêtres utilisaient des technologies avec des rendements énergétiques moins bons, ils se servaient de l&amp;rsquo;air comprimé de manière plus intelligente ce qui leur permettait d’avoir moins de pertes liées aux conversions d’énergie et d’être indépendants des combustibles fossiles.&lt;/p&gt;
 &lt;p&gt;Les systèmes à air comprimé du passé semblent détenir la solution pour concevoir un système de stockage d&amp;rsquo;énergie low-tech, bon marché, robuste, durable et relativement économe en énergie. L&amp;rsquo;économie de l&amp;rsquo;air comprimé pourrait être l&amp;rsquo;alternative pratique et réaliste à l&amp;rsquo;utopie de l’hydrogène ou du tout électrique.&lt;/p&gt;
 &lt;h2 id=&#34;la-promesse-de-lair-comprimé&#34;&gt;La promesse de l’air comprimé&lt;/h2&gt;
-&lt;p&gt;Bien que le potentiel de l&amp;rsquo;énergie éolienne et solaire soit plus que suffisant pour répondre à la demande électrique des sociétés industrielles, &lt;a href=&#34;https://mar-ver.github.io/fr/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;ces ressources ne sont disponibles que par intermittence&lt;/a&gt; - est un moyen de faire face à la variabilité et l&amp;rsquo;incertitude des énergies renouvelables, mais elle a ses limites. Par conséquent, un réseau électrique renouvelable a besoin d&amp;rsquo;un minimum de stockage d&amp;rsquo;énergie, et il en va de même pour un système hors réseau basé sur l&amp;rsquo;énergie solaire ou éolienne.&lt;/p&gt;
+&lt;p&gt;Bien que le potentiel de l&amp;rsquo;énergie éolienne et solaire soit plus que suffisant pour répondre à la demande électrique des sociétés industrielles, &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-to-run-the-economy-on-the-weather/&#34;&gt;ces ressources ne sont disponibles que par intermittence&lt;/a&gt; - est un moyen de faire face à la variabilité et l&amp;rsquo;incertitude des énergies renouvelables, mais elle a ses limites. Par conséquent, un réseau électrique renouvelable a besoin d&amp;rsquo;un minimum de stockage d&amp;rsquo;énergie, et il en va de même pour un système hors réseau basé sur l&amp;rsquo;énergie solaire ou éolienne.&lt;/p&gt;
 &lt;p&gt;Aujourd&amp;rsquo;hui, plus de 99% de la capacité de stockage électrique dans le monde se compose de centrales hydroélectriques de pompage-turbinage, où le surplus d&amp;rsquo;énergie électrique des centrales solaires ou éoliennes est stocké pour une utilisation ultérieure en pompant l&amp;rsquo;eau d&amp;rsquo;un réservoir inférieur à un réservoir supérieur. Le stockage d&amp;rsquo;énergie par pompage-turbinage est assez efficace et low-tech, mais il nécessite un environnement approprié avec deux grands plans d&amp;rsquo;eau, séparés verticalement, et un ou deux barrages. Il inonde également de vastes étendues de terre. Par ailleurs, la plupart des sites adaptés sont déjà utilisés, ce qui signifie qu&amp;rsquo;il y a peu de potentiel pour une croissance future. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-1_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -585,28 +585,28 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Une chose notable est que le système CAES est le stockage d&amp;rsquo;énergie le plus durable qui soit. Contrairement au stockage d&amp;rsquo;énergie par pompage-turbinage, le stockage d&amp;rsquo;énergie par air comprimé ne présente aucun problème environnemental causé par l&amp;rsquo;inondation des terres et le barrage des rivières.&lt;/p&gt;
 &lt;p&gt;De plus, si l&amp;rsquo;énergie stockée pendant toute la durée de vie d&amp;rsquo;un appareil de stockage est comparée à la quantité d&amp;rsquo;énergie primaire requise pour construire l&amp;rsquo;appareil, le système CAES surpasse le stockage d&amp;rsquo;énergie par pompage-turbinage et est largement supérieur aux batteries électrochimiques, qui nécessitent 10 à 100 fois plus d&amp;rsquo;énergie grise pour une capacité de stockage donnée. &lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un avantage crucial car un besoin énergétique élevé pour la production du stockage d&amp;rsquo;énergie peut &lt;a href=&#34;https://mar-ver.github.io/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;diminuer considérablement la durabilité d&amp;rsquo;un réseau électrique renouvelable&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un avantage crucial car un besoin énergétique élevé pour la production du stockage d&amp;rsquo;énergie peut &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;diminuer considérablement la durabilité d&amp;rsquo;un réseau électrique renouvelable&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;le-problème-avec-lair-comprimé&#34;&gt;Le problème avec l’air comprimé&lt;/h2&gt;
 &lt;p&gt;Malgré tous ces avantages, il n&amp;rsquo;y a actuellement que deux usines CAES à grande échelle dans le monde : une en Allemagne, construite en 1979 et une aux États-Unis, construite en 1991. &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Cet engouement limité est principalement attribué au fait que plus de la moitié de l&amp;rsquo;énergie est perdue lors du chargement et du déchargement d&amp;rsquo;une «batterie» d&amp;rsquo;air comprimé.&lt;/p&gt;
 &lt;p&gt;Alors que le stockage par pompage-turbinage a une efficacité de charge/décharge de 70 à 85% et que les batteries chimiques atteignent 65 à 90%, les usines CAES en fonctionnement en Allemagne et aux États-Unis ont une efficacité électrique-électrique de seulement 40 à 42% et 51-54%, respectivement. &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Ce faible rendement de conversion énergétique est notamment dû au fait que l&amp;rsquo;air chauffe lorsqu&amp;rsquo;il est comprimé à des pressions élevées (les deux usines CAES fonctionnent à 50-70 bar, ce qui représente 10 à 20 fois la pression d&amp;rsquo;air dans un pneu de vélo). Et puisque la densité énergétique de l&amp;rsquo;air diminue avec l&amp;rsquo;augmentation de la température, les deux usines CAES retirent la chaleur avant le stockage et la rejettent dans l&amp;rsquo;atmosphère. Cela représente une source importante de perte d&amp;rsquo;énergie. &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;Compresseur vintage à trois étages.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/vintage-three-stage-compressor_dithered.png&#34; alt=&#39;Compresseur vintage à trois étages.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Compresseur vintage à trois étages. 
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;En outre, lorsque l&amp;rsquo;air est détendu depuis une haute pression, la température diminue à un point tel que la vapeur d&amp;rsquo;eau dans l&amp;rsquo;air peut geler, endommageant ainsi les vannes et le détendeur du système de stockage. Pour éviter cela, et augmenter la puissance de sortie, les deux usines CAES chauffent l&amp;rsquo;air dans des brûleurs à l&amp;rsquo;aide de gaz naturel avant la détente. De toute évidence, cela diminue encore l&amp;rsquo;efficacité énergétique de l&amp;rsquo;ensemble du processus et rendent les systèmes CAES actuels entièrement dépendants des combustibles fossiles pour leur fonctionnement. &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Une efficacité de conversion de 40 à 50% signifie que &lt;a href=&#34;https://mar-ver.github.io/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;la capacité de production d&amp;rsquo;énergie éolienne ou solaire doit être doublée pour compenser cette perte&lt;/a&gt;. Par conséquent, nous avons besoin de plus d&amp;rsquo;énergie, de plus de matériaux et de plus d&amp;rsquo;espace pour la même production d&amp;rsquo;énergie. De ce fait le caractère durable du système CAES s’en trouve fortement diminué à cause de sa faible efficacité.&lt;/p&gt;
+&lt;p&gt;Une efficacité de conversion de 40 à 50% signifie que &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2017/09/how-not-to-run-a-modern-society-on-solar-and-wind-power-alone/&#34;&gt;la capacité de production d&amp;rsquo;énergie éolienne ou solaire doit être doublée pour compenser cette perte&lt;/a&gt;. Par conséquent, nous avons besoin de plus d&amp;rsquo;énergie, de plus de matériaux et de plus d&amp;rsquo;espace pour la même production d&amp;rsquo;énergie. De ce fait le caractère durable du système CAES s’en trouve fortement diminué à cause de sa faible efficacité.&lt;/p&gt;
 &lt;p&gt;De plus, le faible rendement de conversion énergétique des systèmes CAES est intrinsèquement lié à la faible densité énergétique de l’air, ce qui signifie qu&amp;rsquo;ils dépendent de très grands réservoirs de stockage. En principe, la densité énergétique de l&amp;rsquo;air comprimé peut être considérablement améliorée en utilisant des pressions d&amp;rsquo;air plus élevées, mais à mesure que la pression d&amp;rsquo;air augmente, plus d&amp;rsquo;énergie est perdue en chaleur et le rendement de l&amp;rsquo;ensemble du processus se détériore davantage. Par conséquent, un système CAES – dans sa configuration actuelle – est toujours un compromis entre rendement et densité énergétique.&lt;/p&gt;
 &lt;h2 id=&#34;4-000-ans-dhistoire&#34;&gt;4 000 ans d’histoire&lt;/h2&gt;
 &lt;p&gt;La très faible efficacité énergétique des systèmes de stockage d&amp;rsquo;énergie par air comprimé d&amp;rsquo;aujourd&amp;rsquo;hui est remarquable dans un contexte historique. L&amp;rsquo;utilisation de l&amp;rsquo;air comprimé remonte à plus de 4 000 ans et a toujours été un moteur important du progrès technologique. Bien que ces applications historiques ne visaient pas le stockage d&amp;rsquo;énergie, elles offrent une inspiration pour améliorer à la fois l&amp;rsquo;efficacité énergétique et la densité énergétique des systèmes CAES d&amp;rsquo;aujourd&amp;rsquo;hui.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;utilisation de l&amp;rsquo;air comprimé la plus ancienne et sans doute la plus importante de l&amp;rsquo;histoire a été d’alimenter le feu. On l’a retrouvé dans la cuisine et dans tous les processus de production à base de chaleur, mais c&amp;rsquo;était particulièrement important dans les procédés de fabrication des métaux. Un feu de charbon de bois non assisté pouvait atteindre 900 °C, mais en activant cette combustion avec de l’air comprimé cela pouvait élever sa température à près de 2000 °C. &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/bellows-blacksmith_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -617,10 +617,10 @@
 &lt;p&gt;Les progrès dans la fusion des métaux sont en partie dus aux améliorations de la technologie des compresseurs d&amp;rsquo;air&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;À partir des années 1860 et dans les années 1900, l&amp;rsquo;air comprimé (ou «pneumatique») a été au centre d&amp;rsquo;une autre révolution technologique. Cette fois, la pneumatique s&amp;rsquo;est imposée comme la technologie de transmission de puissance la plus polyvalente et la plus utilisée avant l&amp;rsquo;introduction de l&amp;rsquo;électricité. &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;En raison du fait que l’électricité était encore distribuée &lt;a href=&#34;https://mar-ver.github.io/fr/2023/09/power-water-networks/&#34;&gt;à basse tension&lt;/a&gt; («hydraulique») représentaient une manière plus efficace de transmettre de l’énergie sur de plus longues distances. En outre, l&amp;rsquo;air comprimé avait un avantage très pratique sur l&amp;rsquo;eau sous pression : l&amp;rsquo;air est disponible partout et son échappement ne pose aucun problème, tandis que les systèmes hydrauliques nécessitent une alimentation en eau suffisante ainsi qu&amp;rsquo;un moyen de vidanger le fluide après utilisation.&lt;/p&gt;
+&lt;p&gt;En raison du fait que l’électricité était encore distribuée &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2023/09/power-water-networks/&#34;&gt;à basse tension&lt;/a&gt; («hydraulique») représentaient une manière plus efficace de transmettre de l’énergie sur de plus longues distances. En outre, l&amp;rsquo;air comprimé avait un avantage très pratique sur l&amp;rsquo;eau sous pression : l&amp;rsquo;air est disponible partout et son échappement ne pose aucun problème, tandis que les systèmes hydrauliques nécessitent une alimentation en eau suffisante ainsi qu&amp;rsquo;un moyen de vidanger le fluide après utilisation.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-rock-drill_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -632,7 +632,7 @@
 &lt;p&gt;Environ à la même époque en Europe, les Français sont allés plus loin dans le développement de l&amp;rsquo;énergie pneumatique en créant un réseau de distribution à l&amp;rsquo;échelle de la ville de Paris. Il resta en service pendant plus de 100 ans (de 1881 à 1994), distribuant de l&amp;rsquo;air comprimé à une pression relativement basse de 5-6 bar sur un réseau de plus de 900 km de réseau (au final), desservant plus de 10 000 consommateurs. &lt;sup id=&#34;fnref4:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/distribution-room-pneumatic-clock-network_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -644,7 +644,7 @@
 &lt;p&gt;Déjà en 1892, F.E. Idell écrivait que «parmi les plus petits usages industriels pour lesquels les moteurs pneumatiques sont utilisés à Paris, je trouve la conduite de tours pour le métal et le bois, de scies circulaires, de perceuses, de polisseuses et bien d&amp;rsquo;autres. Ils sont également utilisés dans les ateliers de charpentiers, menuisiers et ébénistes, de forgerons, de fabricants de parapluies, de fabricants de cols, de relieurs, et naturellement dans de nombreux endroits où les machines à coudre sont utilisées, aussi bien par les couturiers, les tailleurs, et cordonniers, de la plus petite à la plus grande échelle. » &lt;sup id=&#34;fnref3:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Centrale du réseau d&amp;amp;rsquo;air comprimé à Paris. Via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/power-station-compressed-air-network-paris_dithered.png&#34; alt=&#39;Centrale du réseau d&amp;amp;rsquo;air comprimé à Paris. Via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Centrale du réseau d&#39;air comprimé à Paris. Via [Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
 &lt;/figcaption&gt;
@@ -657,7 +657,7 @@
 &lt;p&gt;En conséquence, aujourd’hui l’utilisation industrielle d’air comprimé est très inefficace : en supposant que chaque convertisseur est efficace à 75% et sans aucune autre perte d’énergie, seulement 30% de l’énergie consommée est convertie en sortie utile. &lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;À Paris, de l&amp;amp;rsquo;air comprimé était acheminé par le réseau d&amp;amp;rsquo;égouts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/pneumatic-tubes-paris-sewer-network_dithered.png&#34; alt=&#39;À Paris, de l&amp;amp;rsquo;air comprimé était acheminé par le réseau d&amp;amp;rsquo;égouts.&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  À Paris, de l&#39;air comprimé était acheminé par le réseau d&#39;égouts. 
 &lt;/figcaption&gt;
@@ -667,7 +667,7 @@
 &lt;p&gt;Lorsqu&amp;rsquo;on dit que le rendement d&amp;rsquo;une centrale CAES est de 40 à 50%, cela ne fait référence qu&amp;rsquo;aux pertes dans le compresseur d&amp;rsquo;air et le détendeur d&amp;rsquo;air (rendement électrique-électrique). Cependant, si nous incluons les conversions vers et depuis l’énergie électrique, le rendement global du système diminue à moins de 20%, en supposant à nouveau que chaque convertisseur a un rendement de 75%.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pneumatic-hammer-stone-dressing_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -679,7 +679,7 @@
 &lt;p&gt;En revanche, si nous connections une centrale CAES directement à une usine qui utilise des outils pneumatiques, en connectant l&amp;rsquo;air comprimé de l&amp;rsquo;une à l&amp;rsquo;autre, nous ne subirions que quatre sources de perte d&amp;rsquo;énergie (générateur, moteur, compresseur, détendeur). Dans la centrale CAES, il n&amp;rsquo;est plus nécessaire de reconvertir l&amp;rsquo;air comprimé stocké en électricité, tandis qu&amp;rsquo;en usine, il n&amp;rsquo;est pas nécessaire de comprimer l&amp;rsquo;air une deuxième fois, en utilisant de l&amp;rsquo;électricité. Il suffit de respecter une distance entre la centrale CAES et l’usine jusqu&amp;rsquo;à 25 km – la distance jusqu&amp;rsquo;à laquelle l&amp;rsquo;air comprimé peut être distribué efficacement.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Map via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/paris-compressed-air-network-1962_dithered.png&#34; alt=&#39;Map via Museum of Retrotechnology&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
  Map via [Museum of Retrotechnology](http://www.douglas-self.com/MUSEUM/POWER/airnetwork/airnetwork.htm) 
 &lt;/figcaption&gt;
@@ -692,7 +692,7 @@
 &lt;p&gt;Aujourd&amp;rsquo;hui, la plupart des ingénieurs CAES se concentrent sur l&amp;rsquo;amélioration de cette efficacité en utilisant la chaleur résiduelle de compression pour réchauffer l&amp;rsquo;air comprimé lors de la détente. Cette méthode est appelée «Advanced Adiabatic CAES» (AA-CAES) ou «fuelless CAES» et élimine le besoin de réchauffer l’air au gaz naturel comme dans le système CAES «diabatique» standard. Cette technologie devrait atteindre une efficacité globale d&amp;rsquo;environ 70%, ce qui la rapprocherait de l&amp;rsquo;efficacité des batteries chimiques et des installations de stockage par pompage-turbinage. &lt;sup id=&#34;fnref2:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-detail-edited_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -704,23 +704,23 @@
 &lt;p&gt;Si nous regardons les anciens systèmes pneumatiques, nous voyons qu&amp;rsquo;il existe d&amp;rsquo;autres moyens plus faciles de tirer parti des différences de température dues à la compression et à la détente. Dans le réseau électrique à air comprimé de Paris, les ingénieurs ont profité du refroidissement apporté par la détente de l&amp;rsquo;air. À Paris, l&amp;rsquo;air comprimé était généralement chauffé par un feu de charbon avant d&amp;rsquo;être utilisé par un moteur pneumatique, augmentant la puissance de sortie d&amp;rsquo;une manière très similaire à l&amp;rsquo;utilisation du gaz naturel dans les systèmes CAES actuels.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/air-reheater_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Cependant, dans les bars et restaurants, ces réchauffeurs n&amp;rsquo;étaient pas utilisés. Au lieu de cela, l&amp;rsquo;air froid a été utilisé à des fins de réfrigération, de congélation, de refroidissement ou de ventilation. En 1892, F.E. Idell a décrit un restaurant parisien où «l&amp;rsquo;évacuation a été transporté à travers un conduit de brique dans la cave à bière. Dans ce conduit, les carafes pouvaient geler et de gros blocs de glace étaient également fabriqués pour être utilisés à table, tandis que l&amp;rsquo;air était encore assez froid en passant à travers la cave à bière pour rendre l&amp;rsquo;utilisation de la glace pour le refroidissement tout à fait inutile, même par le temps le plus chaud.» &lt;sup id=&#34;fnref5:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;utilisation d&amp;rsquo;air comprimé pour le refroidissement ou la congélation allait parfois de pair avec la production d&amp;rsquo;électricité pour l&amp;rsquo;éclairage, en entraînant une dynamo. Dans ces cas, les moteurs pneumatiques étaient essentiellement utilisés pour leur échappement, la lumière électrique étant le sous-produit. L&amp;rsquo;exploitation des différences de température s&amp;rsquo;est avérée utile également dans le secteur minier évoqué précédemment, où l&amp;rsquo;échappement des foreuses aidaient à refroidir (et à ventiler) les mines.&lt;/p&gt;
-&lt;p&gt;Une idée similaire et prometteuse aujourd&amp;rsquo;hui est le stockage d&amp;rsquo;énergie par l&amp;rsquo;air comprimé combiné au stockage thermique pour fournir simultanément électricité, chauffage, refroidissement, réfrigération et/ou ventilation. En fait, cette approche permet d’éviter également plusieurs conversions d&amp;rsquo;énergie, car elle pourrait remplacer les réfrigérateurs, les congélateurs, les climatiseurs et les systèmes de chauffage fonctionnant aujourd’hui à l&amp;rsquo;électricité. Cette méthode pourrait fonctionner au niveau d&amp;rsquo;un quartier d’une ville ou d&amp;rsquo;une zone industrielle &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, mais elle serait &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;particulièrement intéressante pour le stockage décentralisé de l&amp;rsquo;énergie, en utilisant des réservoirs de stockage artificiels et hors sol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Une idée similaire et prometteuse aujourd&amp;rsquo;hui est le stockage d&amp;rsquo;énergie par l&amp;rsquo;air comprimé combiné au stockage thermique pour fournir simultanément électricité, chauffage, refroidissement, réfrigération et/ou ventilation. En fait, cette approche permet d’éviter également plusieurs conversions d&amp;rsquo;énergie, car elle pourrait remplacer les réfrigérateurs, les congélateurs, les climatiseurs et les systèmes de chauffage fonctionnant aujourd’hui à l&amp;rsquo;électricité. Cette méthode pourrait fonctionner au niveau d&amp;rsquo;un quartier d’une ville ou d&amp;rsquo;une zone industrielle &lt;sup id=&#34;fnref2:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt;, mais elle serait &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;particulièrement intéressante pour le stockage décentralisé de l&amp;rsquo;énergie, en utilisant des réservoirs de stockage artificiels et hors sol&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hiscox-pressure-vessels_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Comme nous l&amp;rsquo;avons vu, l’augmentation de la pression d&amp;rsquo;air peut réduire considérablement la taille du réservoir de stockage d&amp;rsquo;air comprimé, mais uniquement au détriment de l’augmentation des pertes de chaleur. Dans des habitations, l&amp;rsquo;espace pour les réservoirs de stockage est limité, mais il existe une forte demande de chaleur et de froid ainsi que d&amp;rsquo;électricité. L&amp;rsquo;augmentation de la pression de l&amp;rsquo;air rend le réservoir de stockage plus petit et augmente la production de chaleur et de froid, répondant à tous les besoins énergétiques d&amp;rsquo;un ménage.&lt;/p&gt;
-&lt;p&gt;Certaines propositions de conception suivent d&amp;rsquo;autres approches pour faire face à la génération de chaleur lors de la compression, et celles-ci pourraient fonctionner à la fois pour les systèmes CAES à grande et à petite échelle. Une idée intéressante est un système de stockage d&amp;rsquo;énergie par air comprimé fonctionnant à l&amp;rsquo;énergie éolienne et solaire. &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt; L&amp;rsquo;énergie éolienne serait stockée sous forme d&amp;rsquo;air comprimé via une connexion directe au compresseur, comme dans les autres centrales CAES. Cependant, l&amp;rsquo;énergie solaire provenant d&amp;rsquo;une &lt;a href=&#34;https://mar-ver.github.io/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;parabole&lt;/a&gt; serait, elle, stockée dans un réservoir solaire thermique isolé et utilisée pour réchauffer l&amp;rsquo;air comprimé avant la détente. Puisque la chaleur du processus de compression n&amp;rsquo;est plus nécessaire pour réchauffer l&amp;rsquo;air lors de la détente, elle peut être utilisée pour produire de l&amp;rsquo;eau chaude.&lt;/p&gt;
+&lt;p&gt;Certaines propositions de conception suivent d&amp;rsquo;autres approches pour faire face à la génération de chaleur lors de la compression, et celles-ci pourraient fonctionner à la fois pour les systèmes CAES à grande et à petite échelle. Une idée intéressante est un système de stockage d&amp;rsquo;énergie par air comprimé fonctionnant à l&amp;rsquo;énergie éolienne et solaire. &lt;sup id=&#34;fnref:24&#34;&gt;&lt;a href=&#34;#fn:24&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;24&lt;/a&gt;&lt;/sup&gt; L&amp;rsquo;énergie éolienne serait stockée sous forme d&amp;rsquo;air comprimé via une connexion directe au compresseur, comme dans les autres centrales CAES. Cependant, l&amp;rsquo;énergie solaire provenant d&amp;rsquo;une &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2011/07/the-bright-future-of-solar-thermal-powered-factories/&#34;&gt;parabole&lt;/a&gt; serait, elle, stockée dans un réservoir solaire thermique isolé et utilisée pour réchauffer l&amp;rsquo;air comprimé avant la détente. Puisque la chaleur du processus de compression n&amp;rsquo;est plus nécessaire pour réchauffer l&amp;rsquo;air lors de la détente, elle peut être utilisée pour produire de l&amp;rsquo;eau chaude.&lt;/p&gt;
 &lt;p&gt;Un concept similaire de conception hybride de stockage d&amp;rsquo;énergie thermique et d&amp;rsquo;air comprimé utilise le chauffage électrique au lieu de l&amp;rsquo;énergie solaire thermique. &lt;sup id=&#34;fnref:25&#34;&gt;&lt;a href=&#34;#fn:25&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;25&lt;/a&gt;&lt;/sup&gt; Étant donné que la charge de ces systèmes passe d&amp;rsquo;une conversion pure à un investissement partiel dans le stockage thermique, des densités énergétiques bien supérieures à celles d’un système CAES traditionnel peuvent être atteintes et la taille du stockage d&amp;rsquo;air peut être réduite.&lt;/p&gt;
 &lt;h2 id=&#34;troisième-leçon--améliorer-le-compresseur-dairspanh2&#34;&gt;Troisième leçon : Améliorer le compresseur d’air&lt;/span&gt;&lt;/h2&gt;&lt;/h2&gt;
 &lt;p&gt;Une troisième façon d&amp;rsquo;améliorer le rendement du stockage d&amp;rsquo;énergie par air comprimé consiste à utiliser des compresseurs et des détendeurs d&amp;rsquo;air plus économes en énergie. Cette stratégie est opposée à celle que nous venons d’expliquer précédemment. Au lieu de profiter de la chaleur et du froid pour rendre le système plus efficace, il essaie de minimiser la production de chaleur pendant la compression (et, par conséquent, de limiter le refroidissement pendant la détente).&lt;/p&gt;
@@ -728,7 +728,7 @@
 &lt;p&gt;À partir des années 1600, des dizaines de «trompes» ont fourni un jet d&amp;rsquo;air continu aux premiers fours de fusion du fer et du laiton dans les Pyrénées françaises/espagnoles. &lt;sup id=&#34;fnref:26&#34;&gt;&lt;a href=&#34;#fn:26&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:27&#34;&gt;&lt;a href=&#34;#fn:27&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;27&lt;/a&gt;&lt;/sup&gt; Comparé à une roue à aubes faisant fonctionner un compresseur à piston en bois, ce système était à peu près trois fois plus efficace, permettant une production de fer plus élevée avec moins de ressources hydrauliques.&lt;/p&gt;
 &lt;div class=&#34;article-img  vertical&#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/italian-trompe-agricola_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -744,7 +744,7 @@
 &lt;p&gt;Récemment le compresseur d&amp;rsquo;air hydraulique a connu un regain d&amp;rsquo;intérêt. Une équipe de recherche canadienne a mis au point une plate-forme de démonstration de compresseur d&amp;rsquo;air hydraulique de 30 m de haut dans un ancien puits de mine. &lt;sup id=&#34;fnref4:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt; Le «Projet de démonstration HAC» mesure et vérifie le potentiel d&amp;rsquo;économies d&amp;rsquo;énergie de la technologie principalement pour les applications minières d&amp;rsquo;extraction en profondeur. Cependant, cela pourrait également être une alternative pour les compresseurs à plusieurs étages utilisés dans l&amp;rsquo;industrie et dans les centrales CAES. Notamment car cette nouvelle configuration peut être mise en place avec une boucle fermée, en utilisant une pompe au lieu d&amp;rsquo;une colonne d&amp;rsquo;eau naturelle.&lt;/p&gt;
 &lt;div class=&#34;article-img &#34;&gt;
 &lt;figure data-imgstate=&#34;dither&#34;&gt;
-&lt;img src=&#34;https://mar-ver.github.io/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
+&lt;img src=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/history-and-future-of-the-compressed-air-economy/images/dithers/hac-drone_dithered.png&#34; alt=&#39;&#39; loading=&#34;lazy&#34;/&gt;&lt;/figure&gt;
 &lt;figcaption class=&#34;caption&#34;&gt;
 &lt;/figcaption&gt;
 &lt;/div&gt;
@@ -753,7 +753,7 @@
 &lt;p&gt;Selon les chercheurs, un compresseur d&amp;rsquo;air hydraulique en boucle fermée pourrait avoir un rendement de 75%, en prenant en compte la consommation d&amp;rsquo;énergie supplémentaire de la pompe. C’est 13% plus efficace qu&amp;rsquo;un compresseur centrifuge à trois étages, et les avantages en termes de coûts seront meilleurs en raison des exigences de maintenance moindres. &lt;sup id=&#34;fnref5:29&#34;&gt;&lt;a href=&#34;#fn:29&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:31&#34;&gt;&lt;a href=&#34;#fn:31&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;31&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Le compresseur d&amp;rsquo;air hydraulique semble être une combinaison parfaite pour les systèmes CAES à grande échelle avec des réservoirs souterrains. En fait, de nombreux compresseurs d&amp;rsquo;air hydrauliques des XIXème et XXème siècles utilisaient également le réservoir inférieur de séparation d&amp;rsquo;air pour le stockage d&amp;rsquo;énergie de l&amp;rsquo;air comprimé, ce qui pourrait être considéré comme la première utilisation à grande échelle de CAES. Le stockage – qui pouvait atteindre 5 600 m3 – été utilisé pour répondre à une demande d&amp;rsquo;air excédentaire de courte durée, ce qui signifie que le compresseur d&amp;rsquo;air hydraulique n’avait pas besoin d’être conçu pour les charges maximales. &lt;sup id=&#34;fnref2:28&#34;&gt;&lt;a href=&#34;#fn:28&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lavenir-de-lair-comprimé&#34;&gt;L’avenir de l’air comprimé&lt;/h2&gt;
-&lt;p&gt;Aucune de ces idées ne rendra les centrales CAES 100% efficaces. Cependant, elles pourraient les aider à atteindre des rendements similaires à ceux des batteries, mais avec des impacts environnementaux beaucoup plus faibles et un apport énergétique nécessaire bien moindre. Dans le prochain article, nous nous concentrons plus en détail sur &lt;a href=&#34;https://mar-ver.github.io/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;les systèmes CAES à petite échelle, qui promettent d&amp;rsquo;être une alternative durable aux batteries chimiques dans les installations hors réseau&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aucune de ces idées ne rendra les centrales CAES 100% efficaces. Cependant, elles pourraient les aider à atteindre des rendements similaires à ceux des batteries, mais avec des impacts environnementaux beaucoup plus faibles et un apport énergétique nécessaire bien moindre. Dans le prochain article, nous nous concentrons plus en détail sur &lt;a href=&#34;https://lowtechmag.gitlab.io/solar/fr/2018/05/ditch-the-batteries-off-grid-compressed-air-energy-storage/&#34;&gt;les systèmes CAES à petite échelle, qui promettent d&amp;rsquo;être une alternative durable aux batteries chimiques dans les installations hors réseau&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Merci à George Fleming.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
