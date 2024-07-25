@@ -1,9 +1,0 @@
-agent: GPTBot
-Disallow: /
-User-agent: *
-Disallow: /
-
-
-Host: https://
-
-Sitemap:https://sitemap.xml
