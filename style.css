@@ -269,6 +269,45 @@ details[open] summary h2::before {
 
 }
 
+
+.wrapper{
+    position: fixed;
+  
+   
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 80%;
+    height: 80%;
+    margin: 8% 10%;
+}
+
+input{ width: 100;
+float: right}
+
+.update{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#drawing{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/drawing.png);
+ 
+}
+
+#cross:checked {
+    display: none;
+}
+#cross:checked ~  .update{
+    display: none;
+}
+   
+
+
 @media screen and (max-width: 700px) {
     .slide-box {
         margin-left: var(--offp);
