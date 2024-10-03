@@ -347,7 +347,7 @@ ul {
     width: var(--marg);
     top: var(--offtop);
    
-  
+  z-index: 101;
     position: sticky;
   
 }
@@ -555,6 +555,7 @@ margin-bottom: 5px;
 }
 .newsbox .des{
     height: auto;
+    padding-bottom: 2rem !important;
 }
 .newsbox .imgs{
     padding-bottom: 0;
@@ -674,7 +675,7 @@ input:checked#toggleproj {
         --hh: 2.3rem;
         --offtop: 75px;
         --infoh: 1.6rem;
-        --marg: 3.5rem;
+        --marg: 4rem;
         --h1: 4.3rem;
         --f2: 1.2rem;
         --f2a: 1.06rem;
