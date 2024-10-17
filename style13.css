@@ -1,0 +1,427 @@
+
+
+    .none{
+    display: none;
+}
+    body, html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+    }
+    :root{
+    box-sizing: border-box;
+    --minh: 1.4rem;
+    --maxheight: calc(100vh - (calc(var(--minh) * 2)));
+    --mheight: calc(100vh - var(--minh));
+    --logoh: 2rem;
+    }
+    
+     
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+header{
+  box-sizing: border-box;
+    width: calc(100% - 10px);
+   
+  position: fixed;
+top: 0;
+    height: auto;
+    padding: 5px 0 0;
+    margin: 5px;
+    z-index: 100;
+  
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 66);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin: 0;
+}
+
+.logo svg{
+height: var(--logoh);
+color: var(--col);
+}
+
+
+.logo img{
+    height: var(--logoh);
+    color: var(--col);
+    padding: 4px 0;
+}
+.logo{
+    padding: 0 auto;
+    width: var(--marg);
+ 
+}
+
+
+h1{
+    font-size: var(--logoh);
+
+    width: var(--h1);
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+    ul{
+        margin: 0;
+        list-style: none;
+       
+        padding: 0 5px ;
+   
+    margin-top: var(--minh);
+     
+        overflow: scroll;
+
+    }
+
+    
+    
+
+
+    .list>li{
+     background-color: white;
+   
+overflow: auto;
+    display: block;
+    /* position: sticky;
+
+    top: 0; */
+
+
+    }
+
+
+ 
+    img {
+        box-sizing: border-box;
+        max-height: var(--maxheight);
+         object-fit: contain;
+         width: 100%;
+         padding: 1em;
+     }
+  
+    .img{
+       
+  
+    }
+
+
+    .meta{
+        width: 30%;
+        height: var(--minh);
+        color: black;
+    }
+
+    .meta:hover .num{
+    padding-left: .5rem;
+    transition: .1s;
+    }
+
+    .num, .name, .year, .stat{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+        padding-right: 1em;
+    overflow: hidden;
+    font-size: 1.1rem;
+    
+
+    }
+
+   
+    .content{
+        float: left;
+        width: 70%;    
+       
+        height: var(--minh);
+        overflow: hidden;
+        transition: height .3s;
+       
+     
+    }
+
+    li:focus-within, li:hover {
+        background-color: rgb(245, 245, 245);
+   
+      }
+
+      li:focus-within + li{
+    box-shadow: 0 -10px 10px white;
+   transition: .3s ;
+      }
+    
+    /* .content:target{
+    
+        height: var(--maxheight);
+  
+        transition: height .3s;
+      
+      
+        overflow-y: scroll;
+    } */
+
+    .content:target{
+        transition: max-height .3s;
+      height: auto;
+      max-height: 300vh;
+        overflow-y: scroll;
+    }
+    
+    .content:visited{
+       border: 2px solid;
+    }
+    
+    .content .hide, .hide{
+        opacity: 0;
+        height: 0;
+        transition: ease-in .6s;
+    }
+
+    .content:target .hide, *:target .hide{
+        opacity: 1;
+        height: auto;
+        transition:  ease-in .6s;
+    }
+
+   
+    .des{
+        /* width: 50%;
+
+       float: right; */
+        margin-top: 3px;
+        padding: 0 1rem;
+        line-height: 1.1;
+                font-family: serif;
+    }
+
+   
+    .des p{
+        font-size: 1.1em;
+    margin: 0;}
+
+    .desdes{
+    float: left;
+    width: 60%;
+    
+}
+.desdes p{
+    line-height: 1;
+    margin: 0;
+}
+
+
+.buffer{
+    height: var(--minh)
+}
+.under{
+width: 100;
+float: left;
+padding-top: 10px;
+}
+.links{
+    font-size: .9rem;
+padding: 30px 0 60px;
+box-sizing: border-box;
+}
+
+
+.btn>a{
+    text-decoration: none;
+    color: inherit;
+    
+}   
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 0px;
+    margin: 3px 10px 3px 0;
+ 
+    border-bottom: 1px solid black;
+}
+
+
+.testlist{
+position: sticky;
+
+display: flex;
+font-size: 1.1rem;
+flex-direction: column;
+}
+
+.testlist a .n{
+    width: 0;
+    max-width: 0;
+  font-family: serif;
+    overflow: hidden;
+   
+    font-size: 1.1em;
+}
+
+
+
+.testlist span{
+    display:inline-block;
+  
+}
+
+.testlist a{
+    display: flex;
+  overflow: auto;
+  width: fit-content;
+  align-items: baseline;
+  padding: 3px 3px ;
+  background-color:white;
+height: 1.1rem;
+
+  
+}
+
+.testlist a:hover .n {
+    width: auto;
+    max-width: 10rem;
+    transition: .3s;
+    padding-right: 4px;
+    transition:  ease-in-out .3s;
+    padding-left: 6px;
+    float: left;
+}
+.testlist a:hover{
+    background-color: lightgray;
+}
+
+
+a:focus {
+  color: aqua;
+ border: 1px solid green;
+}
+
+
+
+.ar{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+   
+
+
+    .fh{
+        min-height: 95vh;
+        
+       
+      padding: 0;
+       
+    }
+    
+    .fh, .slide-box{
+        background-color: white;
+       margin-left: 20%;
+    }
+    .mh{
+    height: 5vh;
+    
+    }
+    
+    .fix{
+    position: fixed;
+    top: 0;
+    
+    }
+
+   
+    
+    .lft{
+    float: left;
+    width: fit-content;}
+    
+    .stic{
+        position: sticky;
+        top: 0;
+       
+    } 
+    
+    .tit{
+        height: 24px;
+        z-index: 99;
+        position: sticky;
+        z-index: 99;
+        width: 100%;
+       box-shadow: 0 -6px 7px rgb(239, 238, 238) ;
+        left: 0;
+        top: 0;
+        padding-top: 4px;
+        background-color: white;
+    
+    }
+    .tit#a{
+        height: 40px;
+    
+    }
+     .tit#b{
+        top:44px;
+    
+    }  
+    .tit#c{
+        top:68px;
+    }  
+    .tit#d{
+        top:92px;
+    }
+    .tit>a{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    h2{
+        font-size: 40px;
+        position: fixed;
+    }
+    h3{ 
+        font-size: 20px;
+        line-height: 1;
+    }
+    
+   
+    
+    
+    .slide-box {
+        height: 95vh;
+        box-sizing: border-box;
+        padding: 2em 0;
+    
+    }
+    
+
+    div.legend{
+        height: 10%;
+        overflow: hidden;
+    }
+details summary span {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+    details[open] summary span{
+        color: aqua;
+        line-clamp: auto;
+    }
