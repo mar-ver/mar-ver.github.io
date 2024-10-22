@@ -476,7 +476,7 @@ transition: all .2s ease-in;
 
 } */
 
-.menu:hover{
+.menu:hover, .menu:active{
    
     border: 1px solid black;
     transition: all .2s ease-in-out;
@@ -634,3 +634,29 @@ transition: all .3s;
 .news{
     background-color: var(--col);
 }
+
+#tittest {
+    width: 80px;
+    overflow: hidden;
+    height: 40px;
+}
+
+#a-hide{
+    display: none;
+}
+
+#test:target {
+
+}
+
+.proj:has(#test:target) {
+    border: 1px solid;
+    }
+    
+
+.proj:has(#test:target) #tittest {
+height: auto;
+color: aqua;
+}
+
+
