@@ -275,6 +275,7 @@ main:has(#about:target) .line {
     top: 0;
     border-top: 1px solid;
 }
+
 .linehide{
     width: 100%;
     position: sticky;
@@ -477,7 +478,6 @@ nav .date, nav .stat, nav .des{
   
 }
 
-
 .proj:has(.loc:target) .projline {
     height: auto;
     margin-bottom: var(--pad3);
@@ -618,9 +618,9 @@ nav .date, nav .stat, nav .des{
 }
 
 
-.menu:hover #arrow,
-.menu:focus #arrow,
-.menu:active #arrow{
+.mouse .menu:hover #arrow,
+.mouse .menu:focus #arrow,
+.mouse .menu:active #arrow{
  transform: rotate(90deg);
  padding-left: 2px;
  transition: transform .2s ease-in;
@@ -646,11 +646,11 @@ nav .date, nav .stat, nav .des{
 }
 
 
-
+/* 
 @media (hover: none) {
    .mouse{ display: none;}
    .touch {display: block;}
-}
+} */
 
 @media screen and (max-width: 1080px) {
 
@@ -697,14 +697,59 @@ nav .date, nav .stat, nav .des{
 
 @media screen and (max-width: 530px) {
 
+   
+    .mouse{ display: none;}
+    .touch {display: block;}
+
+.mouse .droplist{display: none;}
+
+
+
+
+.droplist li {
+    background-color: var(--wh);
+    position: sticky;
+    top: var(--pad);
+    list-style-type: none;
+    display: block;
+    overflow: auto;
+}
+
+.droplist a {
+    padding: var(--pad) 0;
+}
+
+ details[open].touch {
+    border: 1px solid black;
+    transition: border .2s ease-in-out;
+}
+
+
+details[open].touch  .droplist {
+    padding-top: 9px;
+    opacity: 1;
+    pointer-events: auto;
+    height: auto;
+    max-height: 30vh;
+    border: 1px solid black;
+    border-width: 0 1px 1px;
+    transition: max-height .3s ease-in-out;
+}
+
+
+details[open].touch #arrow{
+ transform: rotate(90deg);
+ padding-left: 2px;
+ transition: transform .2s ease-in;
+}
 
 .T1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     height: 2rem
 }
 
 .A1 {
-    font-size: 1.85rem;
+    font-size: 1.65rem;
 }
 
 h2,
@@ -758,5 +803,10 @@ body {
     .des, .con>*, .content{
         padding-left: 0;
     }
-    
+ 
+    .proj:hover, .droplist:hover, .menu:hover{
+       border-color: transparent;
+
+    }
+   
 }
