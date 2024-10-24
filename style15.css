@@ -808,5 +808,8 @@ body {
        border-color: transparent;
 
     }
+    details summary::-webkit-details-marker {
+        display:none;
+      }
    
 }
