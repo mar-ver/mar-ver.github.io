@@ -489,7 +489,7 @@ details summary::marker {
 details[open].proj {
     border-color: black;
     overflow: auto;
-  
+  margin-bottom: var(--pad);
 }
 
 details[open].proj .projline {
