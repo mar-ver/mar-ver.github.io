@@ -26,7 +26,7 @@
     --headh: 70px;
     --navh: 34px;
 
-    --droph: calc(100vh - var(--headh) - var(--navh) - 20px);
+    --droph: calc(100vh - var(--headh) - var(--navh) - var(--navh) - 20px);
 
 
 
@@ -235,6 +235,7 @@ header {
 .front a {
     margin: 0 auto;
     width: fit-content;
+    cursor: s-resize;
 }
 
 .front a>* {
@@ -382,6 +383,7 @@ nav .date, nav .stat, nav .des{
 
 .projlist {
     margin-top: var(--pad);
+    margin-bottom: var(--pad4);
     width: 100%;
     min-height: var(--droph);
     padding-bottom: var(--pad);
@@ -449,7 +451,7 @@ nav .date, nav .stat, nav .des{
 .projline, .proj{
     cursor: s-resize;
 }
-.target:target + .proj, .target:target + .proj .projline  {
+.target:target + .proj, .target:target + .proj  {
     cursor:crosshair;
 }
 
@@ -488,7 +490,7 @@ nav .date, nav .stat, nav .des{
 .target:target + .proj {
     border-color: black;
     overflow: auto;
-  margin-bottom: var(--pad);
+  margin: var(--pad) 0;
 }
 
 .target:target + .proj>.projline {
@@ -647,6 +649,7 @@ nav .date, nav .stat, nav .des{
 }
 .news {
     background-color: var(--col);
+    font-style: italic;
 }
 
 
