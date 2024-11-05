@@ -13,6 +13,7 @@
 
     --maxw: 600px;
     --projline: calc(100vw - var(--pad4) - var(--num));
+    --cross: 1rem;
     --idw: calc(var(--num) + var(--tit));
     --des: calc(var(--projline) - var(--idw) - var(--sta) - var(--date) - var(--num)  - 2px);
     --maxdes:  calc(var(--idw) + 800px);
@@ -22,6 +23,7 @@
     --pad3: calc(var(--pad) * 3);
     --pad4: calc(var(--pad) * 4);
     --padh: calc(var(--pad) / 2);
+    --padish: 5px;
 
     --headh: 70px;
     --navh: 34px;
@@ -189,23 +191,20 @@ h2,
 }
 
 h3,
-.T3 {
-    font-size: 1.18rem;
+.T3, .T4,
+body {
+    font-size: 1.05rem;
     line-height: 1.2
 }
-.T3 svg{
-    height: 1rem;
+.T3 svg, .A4 svg{
+    height: .8rem;
     float: right;
 }
 
 .A3 {
-    font-size: 1.14rem;
+    font-size: 1.2rem;
 }
 
-.T4,
-body {
-    font-size: 1.05rem;
-}
 
 .A4 {
     font-size: 1rem;
@@ -235,7 +234,7 @@ header {
 .front a {
     margin: 0 auto;
     width: fit-content;
-    cursor: s-resize;
+  
 }
 
 .front a>* {
@@ -268,6 +267,7 @@ header {
     overflow-y: scroll;
     border: 1px solid;
     border-width: 0 1px 1px;
+    cursor:crosshair;
     padding: var(--pad) var(--pad) var(--pad4); 
 }
 #about:target + .line{
@@ -296,9 +296,10 @@ header {
     padding: 0  var(--tit) 0 calc(var(--idw) + var(--pad2)) ;
 }
 
-#about h2{
+.about h2{
   padding-top: var(--pad);
-padding-bottom: var(--pad4);
+  padding-bottom: var(--pad4);
+
 }
 
 h3 {
@@ -330,16 +331,13 @@ h3 {
     flex-shrink: 0;
 }
 
-.sec {
 
-}
 
 .sec>li,
 .ter>li {
     list-style: "— " inside;
 }
 
-/* scroll-margin-top: calc(var(--headh) + var(--navh) *2);
 
 
 /* MAIN NAV */
@@ -350,8 +348,13 @@ main {
     height: calc(100vh - var(--headh));
     overflow-y: scroll;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 
+main::-webkit-scrollbar{
+    width: 2px;
+}
 
 nav {
     position: sticky;
@@ -369,7 +372,9 @@ nav > * {
 nav .date, nav .stat, nav .des{
     padding-left: var(--pad);
 }
-
+nav > #backtop{
+padding-top: var(--pad2);
+}
 .menu{
     padding: var(--pad) var(--pad) calc(var(--pad) - 3px);
 }
@@ -382,11 +387,11 @@ nav .date, nav .stat, nav .des{
 
 
 .projlist {
-    margin-top: var(--pad);
+    margin-top: var(--padish);
     margin-bottom: var(--pad4);
     width: 100%;
     min-height: var(--droph);
-    padding-bottom: var(--pad);
+    padding-bottom: var(--padh);
     overflow: auto;
 }
 
@@ -425,6 +430,9 @@ nav .date, nav .stat, nav .des{
     padding-right: var(--tit);
     margin: 0 auto;
 }
+.des ::after{
+    content: "...";
+}
 
 .cross{
     float: right;
@@ -440,24 +448,25 @@ nav .date, nav .stat, nav .des{
 
     transition: margin .3s;
     overflow: hidden;
-   
+  
     float: left;
     width: var(--projline);
     /* scroll-margin-top: var(--navh); */
-    scroll-margin-top: 0px;
+    scroll-margin-top: 0;
+}
+
+.target:target + .proj .projline{
+    cursor: default;
 }
 
 
-.projline, .proj{
-    cursor: s-resize;
-}
-.target:target + .proj, .target:target + .proj  {
+.target:target + .proj {
     cursor:crosshair;
 }
 
 
 .projline, .cross {
-    margin: var(--pad) 0 ;
+    margin: var(--padish) 0 ;
     height: calc((1.18rem * 1.2));
 }
 
@@ -471,7 +480,9 @@ nav .date, nav .stat, nav .des{
 }
 
 .target{
-    scroll-margin-top: calc(var(--navh) + var(--pad));
+float: left;
+position: relative;
+scroll-margin-top: calc(var(--navh) + var(--padish));
 }
 
 .proj, .about, .menu{
@@ -490,12 +501,12 @@ nav .date, nav .stat, nav .des{
 .target:target + .proj {
     border-color: black;
     overflow: auto;
-  margin: var(--pad) 0;
+  margin: var(--padish) 0;
 }
 
 .target:target + .proj>.projline {
     height: auto;
-    margin: var(--pad) 0 var(--pad3);
+    margin-bottom: var(--pad3);
     transition: margin .3s;
 }
 
@@ -517,7 +528,7 @@ nav .date, nav .stat, nav .des{
  padding-bottom: var(--pad4);
  opacity: 1;
  transition: padding-bottom .3s ;
- transition-delay: .1s;
+
 }
 
 .content>* {
@@ -558,15 +569,19 @@ nav .date, nav .stat, nav .des{
   
 }
 
-.nobar::-webkit-scrollbar {
+.nobar::-webkit-scrollbar, .nobar::-webkit-scrollbar * {
   background: transparent; /* Chrome/Safari/Webkit */
   width: 0px;
+  display:none;
 }
     
-.nobar {
+.nobar, .nobar * {
+overflow: -moz-scrollbars-none;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* IE 10+ */
+ 
 }
+
 .droplist ul {
     padding: var(--pad);
     position: sticky;
@@ -598,7 +613,7 @@ nav .date, nav .stat, nav .des{
 .menu:hover .droplist,
 .menu:focus .droplist,
 .menu:active .droplist {
-    padding-top: 9px;
+    padding-top: var(--padish);
     opacity: 1;
     pointer-events: auto;
     height: auto;
@@ -656,6 +671,9 @@ nav .date, nav .stat, nav .des{
 
 @media screen and (max-width: 1080px) {
 
+    :root{
+        --projline: calc(100vw - var(--pad4) - var(--cross) - 2px);
+    }
     .des, .con, .content{
         padding-right: var(--pad)2;
     }
@@ -663,7 +681,7 @@ nav .date, nav .stat, nav .des{
     .con>*{
         padding-left: calc(var(--idw) + var(--pad2));
     }
-    .con>.cross{
+    .cross{
         padding-left: 0;
     }
     .con, .con h2{
@@ -698,7 +716,11 @@ nav .date, nav .stat, nav .des{
         top: auto;
         height: calc((1.18rem * 1.2));
     }
+    .about h2 {
+        padding-right: calc(1rem + var(--pad2));
+    }
 }
+
 
 
 @media (hover: none) {
@@ -707,7 +729,7 @@ nav .date, nav .stat, nav .des{
    .mouse .droplist{display: none;}
    
    details[open].touch  .droplist {
-    padding-top: 9px;
+    padding-top: 4px;
     opacity: 1;
     pointer-events: auto;
     height: auto;
@@ -727,7 +749,9 @@ details[open].touch #arrow{
 
 @media screen and (max-width: 530px) {
 
-   
+    :root{
+       --padish: 3px;
+    }
     .mouse{ display: none;}
     .touch {display: block;}
 
