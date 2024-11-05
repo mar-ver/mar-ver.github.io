@@ -438,15 +438,19 @@ nav .date, nav .stat, nav .des{
 
     transition: margin .3s;
     overflow: hidden;
-    cursor: s-resize;
+   
     float: left;
     width: var(--projline);
     /* scroll-margin-top: var(--navh); */
     scroll-margin-top: 0px;
 }
 
-.target:target + .proj{
-    cursor: n-resize;
+
+.projline, .proj{
+    cursor: s-resize;
+}
+.target:target + .proj, .target:target + .proj .projline  {
+    cursor:crosshair;
 }
 
 
