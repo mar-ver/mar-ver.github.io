@@ -15,7 +15,7 @@
     --projline: calc(100vw - var(--pad4) - var(--num));
     --cross: 1rem;
     --idw: calc(var(--num) + var(--tit));
-    --des: calc(var(--projline) - var(--idw) - var(--sta) - var(--date) - var(--num)  - 2px);
+    --des: calc(var(--projline) - var(--idw) - var(--sta) - var(--date) - 2px);
     --maxdes:  calc(var(--idw) + 800px);
 
     --pad: 7px;
@@ -667,15 +667,19 @@ overflow: -moz-scrollbars-none;
     font-style: italic;
 }
 
-
+@media screen and (max-width: 1180px) {
+    .des, .con, .content{
+        padding-right: var(--num);
+    }
+}
 
 @media screen and (max-width: 1080px) {
 
     :root{
-        --projline: calc(100vw - var(--pad4) - var(--cross) - 2px);
+        --projline: calc(100vw - var(--pad4) - var(--num) - 2px);
     }
     .des, .con, .content{
-        padding-right: var(--pad)2;
+        padding-right: var(--pad2);
     }
    
     .con>*{
