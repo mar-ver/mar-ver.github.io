@@ -520,6 +520,9 @@ height: calc(100vh - var(--headh));
 .target:target+.proj .hide {
     display: block;
 }
+.target:target+.proj .show {
+    display: none;
+}
 
 .content {
 
@@ -785,7 +788,7 @@ height: calc(100vh - var(--headh));
     }
 
     html {
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
@@ -796,6 +799,6 @@ height: calc(100vh - var(--headh));
     }
 
     html {
-        font-size: 22px;
+        font-size: 21px;
     }
 }

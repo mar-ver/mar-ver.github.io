@@ -247,7 +247,11 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    
+    font-size: 1.2rem;
+}
+header .num svg {
+    float: left;
+    height: 1rem;
 }
 
 .blue{
@@ -417,6 +421,10 @@ height: calc(100vh - var(--headh));
 
 .target:target+.proj .projline {
     cursor: default;
+}
+
+.target:target+.proj .show {
+    display: none;
 }
 
 
@@ -734,7 +742,7 @@ height: calc(100vh - var(--headh));
     }
 
     html {
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
@@ -745,6 +753,6 @@ height: calc(100vh - var(--headh));
     }
 
     html {
-        font-size: 22px;
+        font-size: 21px;
     }
 }
